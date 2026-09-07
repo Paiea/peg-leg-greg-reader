@@ -1,0 +1,56 @@
+{
+  "schema": "dragon_spotter_cycle_4_branch_comparisons/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "first_gift_form": {
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "branches": {
+      "gift.coin": {
+        "dragon_meaning": "A materially legible payment can still function as reciprocal obligation rather than loot.",
+        "greg_read": "Greg can initially understand the value correctly while underestimating the obligation attached to accepting it.",
+        "political_consequence": "Officials can fight over ownership, taxation, seizure, and whether Crown property law applies to dragon payment.",
+        "relationship_pressure": "The Scholar can know that accepting value binds behavior more strongly than Greg expects.",
+        "later_consequence": "Creates clean mercenary payoff plus human valuation conflict.",
+        "risk": "Some diplomatic strangeness must come from the obligation rather than the object's form."
+      },
+      "gift.scale-token": {
+        "dragon_meaning": "A non-cash token makes the diplomatic meaning of treasure harder for humans to mistake as ordinary payment.",
+        "greg_read": "Greg can undervalue the object economically while over- or under-reading what recognition it represents.",
+        "political_consequence": "Officials can dispute whether the token is credential, claim, treaty marker, dangerous property, or meaningless animal debris.",
+        "relationship_pressure": "The Scholar's interpretive expertise becomes immediately valuable while Greg's dragon-facing recognition may outrun her certainty.",
+        "later_consequence": "Creates strong recognition and worldbuilding promises that can echo into later dragon routing.",
+        "risk": "Can duplicate later dragon-recognition work if the token functions too directly as a credential."
+      }
+    },
+    "observed_result": "both_remain_distinct_and_viable",
+    "discrimination": "Land/restoration versus relic/restitution still requires the first dragon's concrete want before the gift object can be judged honestly. Coin is stronger for material/political valuation; scale-token is stronger for ambiguous recognition. Neither is redundant yet.",
+    "branch_authority_change": false
+  },
+  "ending_office_role": {
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "branches": {
+      "ending.crown-spotter": {
+        "institutional_legitimacy": "Human institutions finally formalize and depend on the neglected office.",
+        "dragon_recognition": "Dragon recognition remains behavior-earned and can precede the title.",
+        "public_identity": "Greg becomes an irregular competence the Crown eventually incorporates.",
+        "political_usefulness": "Strong inside human administration and treaty implementation.",
+        "independence_cost": "Greater incorporation and responsibility to Crown procedure.",
+        "backward_setup": "Requires the Crown Spotter office to remain politically meaningful enough that formal rehabilitation matters at the end.",
+        "thematic_effect": "The joke of a useless office becomes an office remade by lived competence."
+      },
+      "ending.dragon-envoy": {
+        "institutional_legitimacy": "Human legitimacy may remain partial while dragons create practical legitimacy by repeatedly routing through him.",
+        "dragon_recognition": "Direct payoff of recognition-through-behavior already learned by the runtime.",
+        "public_identity": "Greg becomes a cross-polity interlocutor whose authority is not fully owned by the Crown.",
+        "political_usefulness": "Strong for diplomacy where human and dragon authority overlap or conflict.",
+        "independence_cost": "Greater ambiguity, less bureaucratic protection, and obligations to actors outside Crown hierarchy.",
+        "backward_setup": "Requires repeated dragon routing and visible human discomfort with authority they did not grant.",
+        "thematic_effect": "The fraud becomes legitimate in a form the institution that named him did not control."
+      }
+    },
+    "observed_result": "both_remain_distinct_and_viable",
+    "discrimination": "The roles are not merely labels. Crown Spotter resolves toward institutional incorporation; dragon envoy resolves toward cross-polity independence. Current trajectory supports both because dragon recognition can precede either. The deciding evidence must come from the final political bargain and Greg's relationship to incorporation, not title preference.",
+    "branch_authority_change": false
+  }
+}
