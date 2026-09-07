@@ -2,28 +2,187 @@
   "schema": "rehearsal_free_returns_report/v1",
   "mode": "free_production",
   "target_branch": "editor/rehearsal-simulation-engine",
-  "patches_ready": 1,
-  "patches_applied": 1,
+  "patches_ready": 8,
+  "patches_applied": 8,
   "changed_chapters": [
+    3,
+    5,
     10
   ],
   "records": [
     {
-      "patch_id": "c010-speaker-boundary-character-discovery-01",
-      "chapter": 10,
-      "actor": "Nico",
-      "role": "Greg",
-      "take_id": "010-free-ownership-a",
+      "patch_id": "c003-arlo-cast-scope-rehearsal-ii-01",
+      "chapter": 3,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "take_id": "003-free-recursive-a",
       "variance_group_id": null,
       "supporting_actors": [
-        "Desmond as Antonius"
+        "Nico as Greg"
       ],
       "changed_surfaces": [
         "dialogue",
         "paragraphing",
+        "interaction_timing",
+        "reaction_placement"
+      ],
+      "reason": "The scene is Greg and Arlo in Arlo's workshop. Desmond/Antonius has no scene-local presence or observable channel here. Recursive actor ownership restores Rowan/Arlo and lets the hand action carry the final challenge cleanly.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c003-rusk-cast-scope-rehearsal-ii-02",
+      "chapter": 3,
+      "actor": "Rusk",
+      "role": "Rusk",
+      "take_id": "003-free-recursive-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Desmond as Antonius",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "reaction_placement"
+      ],
+      "reason": "The scarred man in Antonius's office has just been explicitly identified as Rusk. Jorren has not entered this part of the story.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c003-rusk-cast-scope-rehearsal-ii-03",
+      "chapter": 3,
+      "actor": "Rusk",
+      "role": "Rusk",
+      "take_id": "003-free-recursive-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Desmond as Antonius",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "reaction_placement"
+      ],
+      "reason": "Scene-local cast ownership requires Rusk, not the not-yet-introduced Jorren.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c003-rusk-cast-scope-rehearsal-ii-04",
+      "chapter": 3,
+      "actor": "Rusk",
+      "role": "Rusk",
+      "take_id": "003-free-recursive-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Desmond as Antonius",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "reaction_placement"
+      ],
+      "reason": "Scene-local cast ownership requires Rusk.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c003-rusk-cast-scope-rehearsal-ii-05",
+      "chapter": 3,
+      "actor": "Rusk",
+      "role": "Rusk",
+      "take_id": "003-free-recursive-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Desmond as Antonius",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "reaction_placement"
+      ],
+      "reason": "The office witness is Rusk; the action cannot belong to Jorren before his introduction.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c003-rusk-cast-scope-rehearsal-ii-06",
+      "chapter": 3,
+      "actor": "Rusk",
+      "role": "Rusk",
+      "take_id": "003-free-recursive-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Desmond as Antonius",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "reaction_placement"
+      ],
+      "reason": "Scene-local cast ownership requires Rusk. The exact source keeps this action inside a longer paragraph, so the anchor is deliberately narrowed to the unique actor-name sentence rather than weakening source matching.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c005-antonius-motif-recursion-rehearsal-ii-01",
+      "chapter": 5,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "take_id": "005-free-recursive-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "silence",
+        "reaction_placement",
+        "tone"
+      ],
+      "reason": "The first pass correctly attached Antonius to the financial boundary but literalized that principle through the ledger twice in immediate succession. Recursive rehearsal keeps the withholding pressure while letting the later ledger tap remain the single concrete prop beat.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c010-arlo-inner-outer-boundary-rehearsal-ii-01",
+      "chapter": 10,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "take_id": "010-free-recursive-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "dialogue",
         "interaction_timing"
       ],
-      "reason": "Actor-observable replay separates the information request from the refusal. Greg owns the question; Antonius owns the boundary. The old paragraph attaches both voices to Antonius and makes him appear to ask himself the question he is refusing to answer.",
+      "reason": "Greg claims he knew the Tere gauge would not hurt him; Arlo is the actor challenging that certainty. Treating 'How?' as Greg's INNER VOICE creates a malformed private-to-spoken exchange. Rowan/Arlo owns the observable question.",
       "performed_interpretation": null,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
