@@ -11,6 +11,7 @@ from scripts import brain_doctor as brain_doctor_module
 from scripts import performance_campaign
 from scripts import performance_index
 from scripts import performance_production_funnel as funnel
+from scripts import story_sync_engine
 
 
 def _path(payload: dict[str, Any], key: str, default: str) -> Path:
@@ -98,11 +99,25 @@ def get_campaign_result(payload: dict[str, Any]) -> dict[str, Any]: return perfo
 def reduce_campaign(payload: dict[str, Any]) -> dict[str, Any]: return performance_campaign.reduce_campaign(_path(payload, "campaign_root", ".cache/plg/campaigns"))
 def apply_survivors(payload: dict[str, Any]) -> dict[str, Any]: return performance_campaign.integrate_campaign(_path(payload, "campaign_root", ".cache/plg/campaigns"), _path(payload, "chapter_root", "chapters"), current_authority=str(payload["current_authority"]))
 
+
+def sync_story(payload: dict[str, Any]) -> dict[str, Any]:
+    state = _optional_json_input(payload, "state", "state_path")
+    if state is None:
+        raise ValueError("sync_story requires state or state_path")
+    report = story_sync_engine.sync_story(state)
+    output_path = payload.get("output_path")
+    if output_path is not None:
+        path = Path(str(output_path))
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return report
+
+
 TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
     "brain_for": brain_for, "brain_doctor": brain_doctor,
     "compile_range": compile_range, "get_scene_view": get_scene_view, "query_scenes": query_scenes,
     "plan_campaign": plan_campaign, "run_campaign": run_campaign, "get_campaign_result": get_campaign_result,
-    "reduce_campaign": reduce_campaign, "apply_survivors": apply_survivors,
+    "reduce_campaign": reduce_campaign, "sync_story": sync_story, "apply_survivors": apply_survivors,
 }
 
 TOOL_SPECS = {
@@ -115,6 +130,7 @@ TOOL_SPECS = {
     "run_campaign": {"write": False, "read_only": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
     "get_campaign_result": {"write": False, "read_only": True, "description": "Return the compact reduced result for a campaign."},
     "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
+    "sync_story": {"write": False, "read_only": False, "description": "Synchronize long-form possibilities, discoveries, propagation, convergence, hidden canon, and reader dependencies without mutating canon prose."},
     "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
