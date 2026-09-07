@@ -12,7 +12,27 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts import rehearsal_engine
 
 DEFAULT_MANIFEST = Path("state/editorial/rehearsal/campaigns/canon-001-020-overtuned-manifest.json")
+DEFAULT_OVERRIDES = Path("state/editorial/rehearsal/campaigns/canon-001-020-overtuned-anchor-overrides.json")
 DEFAULT_REPORT = Path("state/editorial/rehearsal/campaigns/canon-001-020-overtuned-report.json")
+
+
+def apply_anchor_overrides(manifest: dict, overrides: dict) -> dict:
+    updated = copy.deepcopy(manifest)
+    if not isinstance(overrides, dict):
+        raise ValueError("anchor overrides must be an object")
+    by_id = {patch.get("id"): patch for patch in updated.get("patches", [])}
+    for patch_id, replacement in overrides.items():
+        if patch_id not in by_id:
+            raise ValueError(f"anchor override references unknown patch: {patch_id}")
+        if not isinstance(replacement, dict):
+            raise ValueError(f"anchor override must be an object: {patch_id}")
+        for field in ("before", "after"):
+            if field in replacement:
+                value = replacement[field]
+                if not isinstance(value, str) or not value:
+                    raise ValueError(f"anchor override {field} must be nonempty: {patch_id}")
+                by_id[patch_id][field] = value
+    return updated
 
 
 def apply_patch_to_text(text: str, patch: dict, *, target_branch: str) -> tuple[str, dict]:
@@ -103,6 +123,7 @@ def apply_manifest(root: str | Path, manifest: dict, *, write: bool = False) -> 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Apply overtuned REHEARSAL calibration patches with exact-source gates.")
     parser.add_argument("--manifest", default=str(DEFAULT_MANIFEST))
+    parser.add_argument("--overrides", default=str(DEFAULT_OVERRIDES))
     parser.add_argument("--report", default=str(DEFAULT_REPORT))
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args()
@@ -110,6 +131,10 @@ def main() -> int:
     root = Path(__file__).resolve().parents[1]
     manifest_path = root / args.manifest
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    overrides_path = root / args.overrides
+    if overrides_path.exists():
+        overrides = json.loads(overrides_path.read_text(encoding="utf-8"))
+        manifest = apply_anchor_overrides(manifest, overrides)
     report = apply_manifest(root, manifest, write=args.write)
     report_path = root / args.report
     report_path.parent.mkdir(parents=True, exist_ok=True)
