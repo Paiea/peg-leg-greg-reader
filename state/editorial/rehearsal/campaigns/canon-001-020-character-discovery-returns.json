@@ -3,7 +3,7 @@
   "campaign": "canon-001-020-rehearsal-ii",
   "mode": "free_production",
   "target_branch": "editor/rehearsal-simulation-engine",
-  "source_authority": "0700e22fc3fc0924f5f098552813c23a01503469",
+  "source_authority": "6c19bf9f36a3986a47076a94e622779578d69dfa",
   "patches": [
     {
       "id": "c003-arlo-cast-scope-rehearsal-ii-01",
@@ -97,9 +97,9 @@
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
       "changed_surfaces": ["reaction_placement"],
-      "before": "<p>Jorren groaned. Antonius waved me out.</p>",
-      "after": "<p>Rusk groaned. Antonius waved me out.</p>",
-      "reason": "Scene-local cast ownership requires Rusk."
+      "before": "Jorren groaned.",
+      "after": "Rusk groaned.",
+      "reason": "Scene-local cast ownership requires Rusk. The exact source keeps this action inside a longer paragraph, so the anchor is deliberately narrowed to the unique actor-name sentence rather than weakening source matching."
     },
     {
       "id": "c005-antonius-motif-recursion-rehearsal-ii-01",
