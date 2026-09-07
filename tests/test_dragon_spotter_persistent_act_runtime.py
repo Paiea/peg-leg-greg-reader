@@ -86,22 +86,32 @@ class DragonSpotterPersistentActRuntimeTests(unittest.TestCase):
         }
         mode_counts = Counter(item["experiment_mode"] for item in targets)
         fidelity_counts = Counter(item["fidelity"] for item in targets)
+        delta_type_counts = Counter(item["type"] for item in result["applied_deltas"])
         collision_statuses = sorted({item["status"] for item in result["constraint_closure"]["constraint_collisions"]})
         new_third_path_deltas = [
             item for item in result["applied_deltas"]
             if item["type"] in {"local_discovery", "shared_discovery"}
             and "third" in json.dumps(item.get("payload", {}), sort_keys=True).lower()
         ]
+        evolved_shared = result["evolved_runtime"]["shared_story_state"]
+        unresolved_by_act = {
+            act_id: len(result["evolved_runtime"]["acts"][act_id]["local_state"].get("unresolved_questions", []))
+            for act_id in runtime.ACT_IDS
+        }
 
         observation = {
             "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
             "target_count": len(targets),
             "experiment_mode_counts": dict(sorted(mode_counts.items())),
             "fidelity_counts": dict(sorted(fidelity_counts.items())),
+            "applied_delta_type_counts": dict(sorted(delta_type_counts.items())),
             "act_iv_backward_requirements": len(act_i["incoming_backward_requirements"]),
             "act_i_forward_consequences_into_act_iii": len([item for item in act_iii["incoming_forward_consequences"] if item["source_act"] == "act-i"]),
+            "forward_consequence_count": len(evolved_shared.get("forward_consequences", [])),
+            "backward_requirement_count": len(evolved_shared.get("backward_requirements", [])),
             "ii_iii_structural_bridges": len([item for item in ii_iii if item.get("dimension") == "professional_role"]),
             "ii_iii_embodied_performance_bridges": len([item for item in ii_iii if item.get("dimension") == "romantic_trust" and item["experiment_mode"] == "performance"]),
+            "boundary_contradiction_count": len(result["boundary_contradictions"]),
             "constraint_collision_targets": len([item for item in targets if item["source_kind"] == "constraint_collision"]),
             "constraint_collision_statuses": collision_statuses,
             "performance_targets": len([item for item in targets if item["experiment_mode"] == "performance"]),
@@ -110,10 +120,15 @@ class DragonSpotterPersistentActRuntimeTests(unittest.TestCase):
             "mutual_indispensability_after": with_taste["discovery_levels"]["mutual-indispensability"],
             "mutual_indispensability_evidence_before": len(before_mutual["evidence"]),
             "mutual_indispensability_evidence_after": len(after_mutual["evidence"]),
+            "repeated_signals": sorted(with_taste["repeated_signals"]),
+            "strong_threads": sorted(with_taste["strong_threads"]),
+            "story_truths": sorted(with_taste["story_truths"]),
             "gift_scale_priority_without_taste": no_taste_branch.get("search_priority", "low"),
             "gift_scale_priority_with_taste": taste_branch["search_priority"],
             "act_i_branch_state": act_i_possibilities,
             "unresolved_contradictions": sorted(with_taste["contradictions_alive"]),
+            "shared_unresolved_question_count": len(with_taste.get("unresolved_questions", [])),
+            "local_unresolved_questions_by_act": unresolved_by_act,
             "new_third_path_discovery_deltas": len(new_third_path_deltas),
             "open_branch_count_before": entropy["before"]["open_branch_count"],
             "open_branch_count_after": entropy["after"]["open_branch_count"],
@@ -121,6 +136,7 @@ class DragonSpotterPersistentActRuntimeTests(unittest.TestCase):
             "pressure_before": entropy["before"]["pressure_score"],
             "pressure_after": entropy["after"]["pressure_score"],
             "pressure_delta": entropy["pressure_delta"],
+            "temporal_consistency": result["temporal_consistency"],
             "authority_effect": result["authority_effect"],
         }
         print("DRAGON_SPOTTER_RUNTIME_OBSERVATION=" + json.dumps(observation, sort_keys=True))
