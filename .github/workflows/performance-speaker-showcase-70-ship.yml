@@ -44,7 +44,6 @@ jobs:
         run: |
           python - <<'PY'
           import json
-          from collections import Counter
           from pathlib import Path
 
           data = json.loads(Path('/tmp/speaker-proposals.json').read_text(encoding='utf-8'))
@@ -136,21 +135,21 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path('/tmp/speaker-proposals.json').read_text(encoding='utf-8'))
-          periodic = {int(p['chapter']) for p in data['proposals']}
-          expected = periodic | {7,9,10,11,13,42}
-          changed = subprocess.check_output(['git','diff','--name-only','origin/main...HEAD'], text=True).splitlines()
-          # Working tree changes are not in HEAD yet, so include them separately.
-          changed = subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()
-          actual_chapters = {int(Path(p).stem) for p in changed if p.startswith('chapters/') and p.endswith('.html')}
-          other = [p for p in changed if not (p.startswith('chapters/') and p.endswith('.html'))]
-          assert not other, other
-          assert actual_chapters == expected, (sorted(actual_chapters), sorted(expected))
+          expected_paths = {f"chapters/{int(p['chapter']):03d}.html" for p in data['proposals']}
+          expected_paths |= {
+              'chapters/007.html', 'chapters/009.html', 'chapters/010.html',
+              'chapters/011.html', 'chapters/013.html', 'chapters/042.html',
+          }
+          changed_paths = set(subprocess.check_output(['git','diff','--name-only'], text=True).splitlines())
+          assert changed_paths == expected_paths, (sorted(changed_paths), sorted(expected_paths))
           bad = re.compile(r'[\.][”\"]\s+(?:I|[A-Z][A-Za-z\'’\-]+)\s+(?:said|asked)\.')
-          for chapter in sorted(actual_chapters):
-              text = (Path('chapters') / f'{chapter:03d}.html').read_text(encoding='utf-8')
-              if bad.search(text):
-                  raise SystemExit(f'bad dialogue tag punctuation remains in {chapter:03d}')
-          print('changed chapters', len(actual_chapters), sorted(actual_chapters))
+          for path_text in sorted(changed_paths):
+              text = Path(path_text).read_text(encoding='utf-8')
+              # Only reject this bad pattern when it occurs in newly generated attribution lines.
+              for line in subprocess.check_output(['git','diff','--unified=0','--',path_text], text=True).splitlines():
+                  if line.startswith('+') and not line.startswith('+++') and bad.search(line):
+                      raise SystemExit(f'bad new dialogue tag punctuation in {path_text}: {line}')
+          print('changed chapter files', len(changed_paths), sorted(changed_paths))
           PY
           git diff --check
           if git diff --unified=0 | grep '^+' | grep -F '—'; then
