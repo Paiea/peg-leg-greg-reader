@@ -1,0 +1,113 @@
+{
+  "schema": "rehearsal_converged_memory/v1",
+  "scope": {
+    "project": "Peg-Leg Greg",
+    "canon_start": 1,
+    "canon_end": 491,
+    "retrospective_campaign_closed": true
+  },
+  "authority": {
+    "canon_prose_remains_story_authority": true,
+    "memory_is_derived": true,
+    "private_performed_interpretation_is_not_canon": true
+  },
+  "greg": {
+    "behaviors_under_conditions": [
+      {
+        "when": ["uncertainty", "interesting evidence", "pattern recognition"],
+        "behavior": "Separate observation from attribution, form a narrow hypothesis, check who owns the next question, then test/report and revise."
+      },
+      {
+        "when": ["multi_person_work", "distributed_expertise", "coordination_pressure"],
+        "behavior": "Own current state, sequence, records, handoffs, timing, notices, questions, and coordination while leaving craft, safety, diagnosis, acceptance, appraisal, driving, and final judgment with their actual owners."
+      },
+      {
+        "when": ["temptation_to_overreach", "bad_timing_window", "uncertain_clue"],
+        "behavior": "Treat restraint as active competence: skip, wait, leave packed, do not fill silence, do not force a result, or let another person solve it when that produces better information or safer work."
+      },
+      {
+        "when": ["support_work", "commercial_work", "institutional_work"],
+        "behavior": "Create value by aligning people, records, objects, timing, routes, and specialist knowledge without pretending to become every specialist involved."
+      },
+      {
+        "when": ["mobility", "fitting", "terrain", "fatigue"],
+        "behavior": "Report body state honestly and choose mobility tools by task and terrain; existing adaptation skill may hide useful fitting errors if Greg compensates around them."
+      },
+      {
+        "when": ["money", "opportunity", "valuable_asset"],
+        "behavior": "Preserve options and distinguish desire, asset value, liquidity, deployable capacity, and future obligation. Recognizing value does not create capacity."
+      },
+      {
+        "when": ["other_people_working", "relationship_pressure", "travel"],
+        "behavior": "Allow other people's work, obligations, curiosity, and future to remain theirs instead of annexing them into Greg's arc."
+      }
+    ],
+    "professional_shape": "Support at increasing scale: coordination, references, contracting, brokerage, capital deployment, and eventual ownership rather than universal expertise.",
+    "mobility_priority": "Usable hands and useful work, not visual normalization or a triumphant walking milestone."
+  },
+  "relationships": {
+    "Antonius::Greg": {
+      "supported": [
+        "Under financial cleverness or overextension, Antonius returns the interaction to exact obligations, useful information, and transaction boundaries.",
+        "Greg's full repayment materially recalibrates Antonius's respect because Greg closes the leverage relationship instead of remaining inside it.",
+        "After debt closure Antonius can accept voluntary social contact while remaining dry, practical, ethically gray, and unsentimental."
+      ],
+      "current_boundary": "Acquaintance / friend-adjacent / commercially credible to each other; not father-son, therapist-client, best friends, or moral rehabilitation."
+    },
+    "Hessa::Greg": {
+      "supported": [
+        "Under Greg momentum, Hessa narrows the question, controls variables, distinguishes observed response from attribution, tracks confounds, and stops when safety or data quality says stop.",
+        "Greg's useful growth with Hessa is learning when the experiment requires him not to improve or force the result."
+      ]
+    },
+    "Lyssa::Greg": {
+      "supported": [
+        "Lyssa's work remains independent: customers, materials, routes, timing, fatigue, preferences, and professional judgment are not Greg's system.",
+        "Closeness is often strongest through practical shared life and familiar work boundaries rather than relationship analysis."
+      ],
+      "current_boundary": "Lyssa is not Greg's analyst, financial manager, therapist, or exposition engine."
+    },
+    "Theatre::Greg": {
+      "supported": [
+        "The company works through overlapping local authority; Greg is one useful worker among people who may be substantially better than him at their jobs.",
+        "Repeated performance must answer to the current room, current partner, current cut, current objects, and current audience rather than remembered success."
+      ]
+    }
+  },
+  "scene_principles": [
+    "Treat scenes as tests of behavior under conditions rather than trait recitations.",
+    "Distributed authority makes the world feel independently inhabited.",
+    "A new place should broaden systems before it broadens Greg's importance.",
+    "Mundane causality can be progression when it changes available options, relationships, or future capacity.",
+    "An observation can be real while its attribution remains unsettled."
+  ],
+  "rejected_hot_guardrails": [
+    "overacted_theatre",
+    "quip_inflation",
+    "gratuitous_interruption",
+    "prop_recursion",
+    "movement_saturation",
+    "overcompression",
+    "character_caricature",
+    "pov_crowding",
+    "useful_repetition_destroyed",
+    "convenient_cast_expansion"
+  ],
+  "production_policy": {
+    "rule": "wild_rehearsal_conservative_publication",
+    "source_win_is_success": true,
+    "schedule_another_full_retrospective_sweep": false,
+    "use_rehearsal_forward_for": [
+      "meaningful scene uncertainty",
+      "behavioral discovery",
+      "story-branch pressure testing",
+      "concrete PERFORMANCE weakness",
+      "creator-directed exploration"
+    ]
+  },
+  "forward_edge": {
+    "exact_endpoint": 491,
+    "next_chapter": 492,
+    "trailhead_authority": "state/MANUSCRIPT_STATE.md"
+  }
+}
