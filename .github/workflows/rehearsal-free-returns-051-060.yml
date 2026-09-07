@@ -41,8 +41,8 @@ jobs:
           patch['before'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face.</p>'
           patch['after'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>'
 
-          # Chapter 56's intended first action is the tail of a larger narration paragraph.
-          # Capture the enclosing literal paragraph and preserve its lead-in in the return.
+          # Chapter 56: preserve the narration lead-in around an action that lives at
+          # the end of its stored paragraph, then replace the full literal exchange.
           patch = next(p for p in data['patches'] if p['id'] == 'c056-arlo-busy-exchange-boundary-01')
           chapter = Path('chapters/056.html').read_text()
           action_text = 'Arlo shifted the bundle under his arm.'
@@ -51,11 +51,9 @@ jobs:
           if action_pos < 0 or chapter.find(action_text, action_pos + 1) >= 0:
               raise SystemExit('chapter 56 action text is not unique')
           a = chapter.rfind('<p>', 0, action_pos)
-          if a < 0:
-              raise SystemExit('chapter 56 enclosing paragraph start not found')
           action_para_close = chapter.find('</p>', action_pos)
-          if action_para_close < 0:
-              raise SystemExit('chapter 56 enclosing paragraph close not found')
+          if a < 0 or action_para_close < 0:
+              raise SystemExit('chapter 56 enclosing paragraph boundaries not found')
           lead_paragraph = chapter[a:action_para_close + len('</p>')]
           prefix = lead_paragraph[:lead_paragraph.index(action_text)]
           final_pos = chapter.find(final_text, action_para_close)
@@ -80,6 +78,50 @@ jobs:
           )
           if chapter.count(patch['before']) != 1:
               raise SystemExit(f'chapter 56 materialized span count={chapter.count(patch["before"])}')
+
+          # Chapter 60: both semantic endpoints live inside larger stored paragraphs.
+          # Capture exact bytes from the opening paragraph through Pessa taking the board,
+          # preserving the opening lead-in and the trailing "First site." fact.
+          patch = next(p for p in data['patches'] if p['id'] == 'c060-pessa-write-less-boundary-01')
+          chapter = Path('chapters/060.html').read_text()
+          start_text = 'Pessa looked at my board.'
+          end_text = 'Pessa took my board.'
+          start_pos = chapter.find(start_text)
+          end_pos = chapter.find(end_text, start_pos + len(start_text))
+          if start_pos < 0 or chapter.find(start_text, start_pos + 1) >= 0:
+              raise SystemExit('chapter 60 opening action is not unique')
+          if end_pos < 0 or chapter.find(end_text, end_pos + 1) >= 0:
+              raise SystemExit('chapter 60 closing action is not unique')
+          a = chapter.rfind('<p>', 0, start_pos)
+          first_close = chapter.find('</p>', start_pos)
+          final_close = chapter.find('</p>', end_pos)
+          if a < 0 or first_close < 0 or final_close < 0:
+              raise SystemExit('chapter 60 literal paragraph boundaries not found')
+          final_close += len('</p>')
+          opening_para = chapter[a:first_close + len('</p>')]
+          opening_prefix = opening_para[:opening_para.index(start_text)]
+          closing_para = chapter[chapter.rfind('<p>', 0, end_pos):final_close]
+          after_action = closing_para[closing_para.index(end_text) + len(end_text):]
+          if not after_action.endswith('</p>'):
+              raise SystemExit('chapter 60 closing paragraph suffix malformed')
+          suffix_text = after_action[:-len('</p>')].strip()
+          patch['before'] = chapter[a:final_close]
+          patch['after'] = (
+              opening_prefix
+              + 'Pessa took my board and crossed out half the first entry before speaking.</p>'
+              + '<p>“Too much.”</p>'
+              + '<p>“Which parts?”</p>'
+              + '<p>She handed it back.</p>'
+              + '<p>“If removing it doesn\'t change the next decision, remove it.”</p>'
+              + '<p>Dorn pointed at the farmer complaint.</p>'
+              + '<p>“Red face survives?”</p>'
+              + '<p>“I didn\'t write red face.”</p>'
+              + '<p>“You thought it.”</p>'
+              + '<p>I hated experts.</p>'
+              + (f'<p>{suffix_text}</p>' if suffix_text else '')
+          )
+          if chapter.count(patch['before']) != 1:
+              raise SystemExit(f'chapter 60 materialized span count={chapter.count(patch["before"])}')
 
           Path('/tmp/canon-051-060-boundary-hunt-returns.json').write_text(json.dumps(data, indent=2) + '\n')
           PY
