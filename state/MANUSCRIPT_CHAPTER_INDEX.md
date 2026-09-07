@@ -1,252 +1,46 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH248
+# PEG-LEG GREG — CHAPTER INDEX
 
-**Current endpoint:** Chapter 248 — THE CONSTANT
+Compact title-history routing for the active manuscript.
 
-1. **THE BOY**
-2. **THE BORROWER**
-3. **THE INVESTOR**
-4. **THE EXPERT**
-5. **THE WARRIOR**
-6. **THE LABORER**
-7. **THE BUYER**
-8. **THE COLLECTOR**
-9. **THE UNDERWRITER**
-10. **THE APPRAISER**
-11. **THE MAGE**
-12. **THE RESEARCHER**
-13. **THE STUDENT**
-14. **THE ESCORT**
-15. **THE OBSERVER**
-16. **THE TEACHER**
-17. **THE INVESTIGATOR**
-18. **THE EXPERIMENTER**
-19. **THE BYSTANDER**
-20. **THE VOLUNTEER**
-21. **THE TENANT**
-22. **THE TRAINEE**
-23. **THE AIDE**
-24. **THE PASSENGER**
-25. **THE DEFENDER**
-26. **THE PATIENT**
-27. **THE RESCUER**
-28. **THE GUEST**
-29. **THE WITNESS**
-30. **THE ESCORT**
-31. **THE REPORTER**
-32. **THE CONSULTANT**
-33. **THE ASSESSOR**
-34. **THE HELPER**
-35. **THE FRIEND**
-36. **THE COACH**
-37. **THE LABORER**
-38. **THE PATIENT**
-39. **THE PARTNER**
-40. **THE TESTER**
-41. **THE BUYER**
-42. **THE TROUBLESHOOTER**
-43. **THE PORTER**
-44. **THE PATIENT**
-45. **THE ESCORT**
-46. **THE FRIEND**
-47. **THE SECOND**
-48. **THE COMPANION**
-49. **THE TESTER**
-50. **THE RECORDER**
-51. **THE SIGNALMAN**
-52. **THE SIGNATORY**
-53. **THE GUEST**
-54. **THE INTERPRETER**
-55. **THE EXTRA HAND**
-56. **THE SPOTTER**
-57. **THE WATCHER**
-58. **THE REGULAR**
-59. **THE TENANT**
-60. **THE SURVEYOR**
-61. **THE INSPECTOR**
-62. **THE BACKSTOP**
-63. **THE BACKSTOP**
-64. **THE PATIENT**
-65. **THE WARD**
-66. **THE CONVALESCENT**
-67. **THE CLAIMANT**
-68. **THE NOVICE**
-69. **THE LODGER**
-70. **THE APPLICANT**
-71. **THE COUNTER**
-72. **THE FRIEND**
-73. **THE TENANT**
-74. **THE CONSULTANT**
-75. **THE RETURNER**
-76. **THE DESCENDER**
-77. **THE SORTER**
-78. **THE ARCHIVIST**
-79. **THE SPECTATOR**
-80. **THE CUSTOMER**
-81. **THE DEBTOR**
-82. **THE RECONCILER**
-83. **THE SUITOR**
-84. **THE PASSENGER**
-85. **THE ARBITER**
-86. **THE PLAYER**
-87. **THE BLUFFER**
-88. **THE OCCUPANT**
-89. **THE SUBSTITUTE**
-90. **THE BUYER**
-91. **THE BEGINNER**
-92. **THE SPECTATOR**
-93. **THE HOLDER**
-94. **THE SUBJECT**
-95. **THE TASTER**
-96. **THE WITNESS**
-97. **THE VARIABLE**
-98. **THE DRESSER**
-99. **THE INSTRUMENT**
-100. **THE COOK**
-101. **THE WAITING MAN**
-102. **THE TRAINEE**
-103. **THE SHAPER**
-104. **THE ADVISER**
-105. **THE SUBJECT**
-106. **THE RUNNER**
-107. **THE TARGET**
-108. **THE LOSER**
-109. **THE STOPPER**
-110. **THE PARTNER**
-111. **THE BRAKE**
-112. **THE AUDIENCE**
-113. **THE READER**
-114. **THE REVERSER**
-115. **THE RETURNER**
-116. **THE PROMPTER**
-117. **THE REPEATER**
-118. **THE STAND-IN**
-119. **THE NAVIGATOR**
-120. **THE REPEATER**
-121. **THE REGULAR**
-122. **THE REACHER**
-123. **THE COMPANION**
-124. **THE REPAIRMAN**
-125. **THE TEST CASE**
-126. **THE OLD HAND**
-127. **THE REPEATER**
-128. **THE MESSENGER**
-129. **THE STUDENT**
-130. **THE EXTRA**
-131. **THE SHAPER**
-132. **THE SUITOR**
-133. **THE SHAPER**
-134. **THE VOICE**
-135. **THE REPEATER**
-136. **THE VOICE ACTOR**
-137. **THE SHAPER**
-138. **THE SHOPKEEPER**
-139. **THE SUBJECT**
-140. **THE TRAVELER**
-141. **THE PACKER**
-142. **THE PASSENGER**
-143. **THE PLAYER**
-144. **THE LODGER**
-145. **THE PASSENGER**
-146. **THE HAND**
-147. **THE PLAYER**
-148. **THE SIGHTSEER**
-149. **THE AUDIENCE**
-150. **THE WORK**
-151. **THE PLAYER**
-152. **THE PLAYER**
-153. **THE EARNER**
-154. **THE VISITOR**
-155. **THE TROUBLESHOOTER**
-156. **THE ADVOCATE**
-157. **THE PLAYER**
-158. **THE RETURNER**
-159. **THE PRIVATE PLAYER**
-160. **THE SWORD**
-161. **THE PLAYER**
-162. **THE STREET PLAYER**
-163. **THE MILL PLAYER**
-164. **THE PROSPECTOR**
-165. **THE PLAYER**
-166. **THE ROADHAND**
-167. **THE APPLICANT**
-168. **THE PITCHMAN**
-169. **THE STANDBY**
-170. **THE CHASER**
-171. **THE SUPPER PLAYER**
-172. **THE CUSTOMER**
-173. **THE LAMPLIGHTER**
-174. **THE RETURNER**
-175. **THE GIFT-GIVER**
-176. **THE QUESTIONER**
-177. **THE STAGEHAND**
-178. **THE ENSEMBLE PLAYER**
-179. **THE TESTER**
-180. **THE THIRD MAN**
-181. **THE CALLER**
-182. **THE SUBJECT**
-183. **THE WORKER**
-184. **THE RUNNER**
-185. **THE REGULAR**
-186. **THE TESTER**
-187. **THE SUBSTITUTE**
-188. **THE HOUSEMAN**
-189. **THE SHADOW**
-190. **THE SUBJECT**
-191. **THE WITNESS**
-192. **THE SELLER**
-193. **THE DINER**
-194. **THE HAND**
-195. **THE CARRIER**
-196. **THE SITTER**
-197. **THE PETITIONER**
-198. **THE GUARD**
-199. **THE ATTENDANT**
-200. **THE RESPONDER**
-201. **THE CLERK**
-202. **THE NEIGHBOR**
-203. **THE WORKHAND**
-204. **THE KEEPER**
-205. **THE PORTER**
-206. **THE SETTER**
-207. **THE SERVANT**
-208. **THE DOORMAN**
-209. **THE MESSENGER**
-210. **THE TENANT**
-211. **THE NEPHEW**
-212. **THE USHER**
-213. **THE COUNTER**
-214. **THE BROTHER**
-215. **THE BAILIFF**
-216. **THE RELATIVE**
-217. **THE DEBTOR**
-218. **THE PAYER**
-219. **THE PURCHASER**
-220. **THE LANDLORD**
-221. **THE PARTICIPANT**
-222. **THE PROPERTY MAN**
-223. **THE MAINTENANCE MAN**
-224. **THE CHECKER**
-225. **THE STEWARD**
-226. **THE SUBJECT**
-227. **THE BUNDLER**
-228. **THE FLOWER BEARER**
-229. **THE ROAD ONE**
-230. **THE REPEATER**
-231. **THE MAGISTRATE**
-232. **THE CHECKER**
-233. **THE STAGEHAND**
-234. **THE SUBJECT**
-235. **THE TAGALONG**
-236. **THE DISTRIBUTOR**
-237. **THE BEARER**
-238. **THE SEALER**
-239. **THE WAITER**
-240. **THE SUBJECT**
-241. **THE SCRAPER**
-242. **THE SPENDER**
-243. **THE MINDER**
-244. **THE UNCLE**
-245. **THE NAME-TAKER**
-246. **THE MATCHER**
-247. **THE PATRON**
-248. **THE CONSTANT**
+## Current endpoint
+
+- Current exact story endpoint: Chapter 492 - **THE RESPONDENT**.
+- `MANUSCRIPT_STATE.md` owns the exact current endpoint and executable next trailhead.
+- Exact chapter checkpoint headers under `state/manuscript/` are authoritative for Chapter 249 onward.
+- Static/illustrated chapter files and older manuscript authority preserve earlier title history.
+- This file is a routing aid, not a second manuscript authority.
+
+## Title collision rule
+
+Before naming a new chapter:
+
+1. answer `Who is Greg being?` for the chapter;
+2. use the established `THE [ROLE]` convention unless explicit current authority changes it;
+3. search repository title history, including exact checkpoint headers, for the proposed title;
+4. repeated roles are allowed only when the repetition is intentional and useful, not because the index was stale.
+
+Do not manually backfill hundreds of post-248 titles into this living file merely to keep a duplicate cache. Search exact checkpoint headers when full title history matters.
+
+## Recent title window
+
+- 481. **THE SUBSTITUTE**
+- 482. **THE INTERRUPTER**
+- 483. **THE VERIFIER**
+- 484. **THE INTERMEDIARY**
+- 485. **THE ORGANIZER**
+- 486. **THE COORDINATOR**
+- 487. **THE REPAYER**
+- 488. **THE ACTOR**
+- 489. **THE TIMER**
+- 490. **THE CONTRACTOR**
+- 491. **THE ACQUAINTANCE**
+- 492. **THE RESPONDENT**
+
+## Historical routing
+
+- Chapters 1-82: Book 1 authority and static chapter history.
+- Chapters 83-180: Book 2 authority and static/recovered manuscript history.
+- Chapters 181-248: running/recovered manuscript authority plus static chapter history.
+- Chapters 249-current: exact checkpoint files under `state/manuscript/Peg_Leg_Greg_Chapter_<N>_EXACT_WIP.md` unless stronger current authority explicitly replaces one.
+
+When a full title lookup is needed, search the repository rather than trusting a range-stamped cache.
