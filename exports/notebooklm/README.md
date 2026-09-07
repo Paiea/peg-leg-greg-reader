@@ -8,7 +8,7 @@ Books I and II are whole-Book sources. Book III onward is split by the current A
 
 These are deliberately **manuscript-only** sources. Do not add `MANUSCRIPT_STATE`, `STORY_NORTH_STAR`, plot notes, or other project-brain files for the first cold-read experiment.
 
-Current exported endpoint: **Chapter 491**.
+Current exported endpoint: **Chapter 492**.
 
 Current manuscript source files: **9**.
 
