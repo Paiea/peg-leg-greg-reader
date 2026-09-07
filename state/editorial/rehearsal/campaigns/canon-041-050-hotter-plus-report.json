@@ -1,0 +1,208 @@
+{
+  "schema": "rehearsal_free_returns_report/v1",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 8,
+  "patches_applied": 8,
+  "changed_chapters": [
+    41,
+    42,
+    43,
+    44,
+    46,
+    47,
+    50
+  ],
+  "records": [
+    {
+      "patch_id": "c041-dorrin-recognition-hotter-plus-01",
+      "chapter": 41,
+      "actor": "Dorrin",
+      "role": "Dorrin",
+      "take_id": "041-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "interaction_timing"
+      ],
+      "reason": "Dorrin's recognition lands more specifically when it interrupts the ordinary apple-and-numbers rhythm rather than arriving as generic facial summary.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c042-lessa-ledger-return-hotter-plus-01",
+      "chapter": 42,
+      "actor": "Lessa",
+      "role": "Lessa",
+      "take_id": "042-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Rusk",
+        "Perrin"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "interaction_timing"
+      ],
+      "reason": "Lessa's relief should return her to the yard record she owns. The task continuation carries the emotional change more specifically than a narrated facial state.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c043-arlo-entry-movement-hotter-plus-01a",
+      "chapter": 43,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "take_id": "043-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Vessa"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "interaction_timing"
+      ],
+      "reason": "Arlo's attention is on the material first. The movement should read as one object-first beat rather than three generic look sentences.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c043-arlo-duplicate-exchange-hotter-plus-01b",
+      "chapter": 43,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "take_id": "043-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Vessa"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "interaction_timing",
+        "paragraphing",
+        "local_exchange_shape"
+      ],
+      "reason": "The source begins the grade-and-purpose interrogation twice. Remove the redundant first pass and let the second clipped exchange carry Arlo's performed rhythm.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c044-hessa-next-question-hotter-plus-01",
+      "chapter": 44,
+      "actor": "Mara",
+      "role": "Hessa",
+      "take_id": "044-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "interaction_timing",
+        "paragraphing",
+        "tone"
+      ],
+      "reason": "Hessa is stronger when she refuses the generic almost-smile beat and simply continues the assessment. The missing reaction is itself her procedural rhythm.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c046-jorren-coin-boundary-hotter-plus-01",
+      "chapter": 46,
+      "actor": "Jorren actor",
+      "role": "Jorren",
+      "take_id": "046-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "reaction_placement"
+      ],
+      "reason": "Jorren knows Greg is already pricing the problem. Closing the coins before Greg can optimize the purchase turns an existing relationship pattern into observable behavior instead of a generic look.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c047-sevren-stop-trying-hotter-plus-01",
+      "chapter": 47,
+      "actor": "Sevren",
+      "role": "Sevren",
+      "take_id": "047-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "silence",
+        "interaction_timing"
+      ],
+      "reason": "The decision becomes legible through the exact action he abandons. Sevren stops trying to force the damaged box before he verbally concedes.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c050-vessa-growth-hotter-plus-01",
+      "chapter": 50,
+      "actor": "Vessa",
+      "role": "Vessa",
+      "take_id": "050-free-hotter-plus-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Rowan as Arlo"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "interaction_timing"
+      ],
+      "reason": "Vessa's teasing lands better through the work object Greg is supposed to be using responsibly. The slate carries their workshop relationship more specifically than a generic smile.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}
