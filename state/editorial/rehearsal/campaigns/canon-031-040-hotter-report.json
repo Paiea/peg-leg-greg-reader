@@ -1,0 +1,212 @@
+{
+  "schema": "rehearsal_free_returns_report/v1",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 8,
+  "patches_applied": 8,
+  "changed_chapters": [
+    31,
+    33,
+    34,
+    35,
+    37,
+    39
+  ],
+  "records": [
+    {
+      "patch_id": "c031-hessa-task-ownership-hotter-01",
+      "chapter": 31,
+      "actor": "Mara",
+      "role": "Hessa",
+      "take_id": "031-free-hotter-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Rinna"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "interaction_timing"
+      ],
+      "reason": "Hessa does not need to trade a generic look with Greg. Keeping her physically attached to the measurement record preserves her procedural authority while leaving Rinna to answer for her own work.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c033-rusk-work-answer-hotter-01",
+      "chapter": 33,
+      "actor": "Rusk",
+      "role": "Rusk",
+      "take_id": "033-free-hotter-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "tone"
+      ],
+      "reason": "Rusk's answer lands more specifically when he keeps doing the work Greg interrupted. The debt explanation is casual because the work does not stop for it.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c034-arlo-property-answer-hotter-01",
+      "chapter": 34,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "take_id": "034-free-hotter-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Vessa"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "reaction_placement"
+      ],
+      "reason": "Arlo's confusion is about Greg inflating a simple object-ownership request into a larger role. Routing the beat through the regulator makes the answer more specifically Arlo and removes a generic facial summary.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c035-nessa-basket-rhythm-hotter-01",
+      "chapter": 35,
+      "actor": "Vera",
+      "role": "Nessa",
+      "take_id": "035-free-hotter-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Jorren"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "reaction_placement"
+      ],
+      "reason": "Nessa's lack of curiosity becomes stronger when she simply finishes the transaction and moves to the next practical relationship thread. The basket carries the beat better than a generic nod.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c035-jorren-water-rhythm-hotter-02",
+      "chapter": 35,
+      "actor": "Jorren actor",
+      "role": "Jorren",
+      "take_id": "035-free-hotter-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Mara the shopkeeper",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "silence",
+        "interaction_timing"
+      ],
+      "reason": "Their familiarity is more legible through the cup itself: token resistance, her practical reason, then compliance. It reads like an existing routine rather than a narrated emotion.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c037-etta-worksite-answer-hotter-01",
+      "chapter": 37,
+      "actor": "Etta",
+      "role": "Etta",
+      "take_id": "037-free-hotter-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Berren",
+        "Ossin"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "dialogue",
+        "reaction_placement"
+      ],
+      "reason": "Etta's answer is about the machine in front of her. Keeping her hand on the failed gate makes the priority physical and worksite-specific instead of explanatory.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c039-alden-rule-ownership-hotter-01",
+      "chapter": 39,
+      "actor": "Noa",
+      "role": "Alden",
+      "take_id": "039-free-hotter-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Berren"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "dialogue",
+        "interaction_timing"
+      ],
+      "reason": "Alden is running the spar and his rule is concrete. Pointing at the actual injury keeps him operational rather than turning the exchange into a face-off.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c039-berren-stop-choice-hotter-02",
+      "chapter": 39,
+      "actor": "Berren",
+      "role": "Berren",
+      "take_id": "039-free-hotter-b",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Noa as Alden",
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "silence",
+        "interaction_timing",
+        "paragraphing"
+      ],
+      "reason": "His acceptance is stronger when the body that is forcing the decision is present in the beat. The pause remains, but it belongs to Berren's actual physical limit rather than an abstract change of mind.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}
