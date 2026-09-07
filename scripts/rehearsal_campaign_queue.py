@@ -111,6 +111,27 @@ def next_batch(state: dict) -> dict | None:
     return batch
 
 
+def adopt_equivalent_authority(state: dict, expected_authority: str, new_authority: str) -> str:
+    """Move the queue tip to an externally validated equivalent descendant authority.
+
+    The caller is responsible for proving ancestry and that relevant canon prose is
+    unchanged. This function only preserves queue-state invariants after that proof.
+    """
+    if not isinstance(expected_authority, str) or not expected_authority:
+        raise ValueError("expected settled authority is required")
+    if not isinstance(new_authority, str) or not new_authority:
+        raise ValueError("new settled authority is required")
+    if state.get("settled_authority") != expected_authority:
+        raise ValueError("expected authority does not match queue settled authority")
+    settled = [batch for batch in state["batches"] if batch["status"] in SETTLED]
+    if not settled:
+        raise ValueError("no settled batch authority to adopt")
+    settled[-1]["settled_authority"] = new_authority
+    state["settled_authority"] = new_authority
+    validate_state(state)
+    return new_authority
+
+
 def claim_next(state: dict, source_authority: str) -> dict:
     if not isinstance(source_authority, str) or not source_authority:
         raise ValueError("source authority is required")
