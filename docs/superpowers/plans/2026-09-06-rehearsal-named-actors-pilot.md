@@ -8,7 +8,7 @@
 
 **Tech Stack:** Python 3 standard library, JSON/Markdown state artifacts, existing `scripts/performance_production_funnel.py`, unittest.
 
-**Spec:** `docs/superpowers/specs/2026-09-06-rehearsal-simulation-engine-design.md` plus `docs/superpowers/specs/2026-09-06-rehearsal-named-actors-amendment.md`
+**Spec:** `docs/superpowers/specs/2026-09-06-rehearsal-simulation-engine-design.md` plus `docs/superpowers/specs/2026-09-06-rehearsal-named-actor-amendment.md`
 
 ## Global Constraints
 
