@@ -167,6 +167,8 @@ The goal is not to generate many pretty alternatives. The goal is to separate st
 
 A variance set uses the same dramatic lock and comparable actor packets while changing the take conditions in controlled ways.
 
+All takes in one variance group receive the same frozen actor-memory snapshot and cannot see sibling take outputs before comparison. A take cannot use another take in the same variance group as evidence or context. This preserves meaningful independence inside the test.
+
 A typical disputed scene may receive:
 
 1. one FAITHFUL control
@@ -247,7 +249,7 @@ The novelizer synthesizes BODY, VOICE, and INNER VOICE into first-person prose. 
 
 The default production philosophy now follows the high-authority calibration more closely.
 
-An actor-preferred soft-prose return may be applied on a protected editorial branch when all required gates pass:
+An actor-preferred soft-prose return may be applied on an isolated editorial branch when all required gates pass:
 
 - dramatic lock preserved
 - reader legibility passes
@@ -339,6 +341,7 @@ Expected additions include:
 - `direction`: optional string required for DIRECTED
 - `take_id`
 - `variance_group_id`: optional shared identifier for comparison sets
+- `memory_snapshot_id`: frozen within a variance group
 - actor performance channels
 - relationship-memory key
 - `supported_memory`
@@ -365,13 +368,14 @@ Implementation is complete when:
 3. relationship-local memory has separate supported and hypothesis lanes
 4. synthetic hypothesis repetition cannot self-promote
 5. take-variance sets can be grouped and compared with provenance intact
-6. Nico/Greg packets expose BODY, VOICE, and INNER VOICE channels
-7. only Nico can author Greg's INNER VOICE
-8. FREE is the default creative production take
-9. high-authority scene-scale prose return is permitted on protected editorial branches after existing safety gates
-10. motif-recursion, stage-direction-density, and inner-voice critics are represented in the contract
-11. existing PERFORMANCE and REHEARSAL evidence remains readable and backward-compatible
-12. no write path grants unrestricted direct authority to `main`
+6. variance siblings use the same frozen memory snapshot and cannot observe one another before comparison
+7. Nico/Greg packets expose BODY, VOICE, and INNER VOICE channels
+8. only Nico can author Greg's INNER VOICE
+9. FREE is the default creative production take
+10. high-authority scene-scale prose return is permitted on isolated editorial branches after existing safety gates
+11. motif-recursion, stage-direction-density, and inner-voice critics are represented in the contract
+12. existing PERFORMANCE and REHEARSAL evidence remains readable and backward-compatible
+13. no write path grants unrestricted direct authority to `main`
 
 ## First campaign after implementation
 
