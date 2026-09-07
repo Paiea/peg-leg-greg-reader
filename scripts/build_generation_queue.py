@@ -180,7 +180,26 @@ def build_generation_queue(
             scene_context=scene_context,
             diversity_aware=True,
         )
-        character_assets = [reference["asset"] for reference in selected_references]
+        explicit_reference_assets = [
+            str(asset).strip()
+            for asset in candidate.get("character_reference_assets", [])
+            if isinstance(asset, str) and asset.strip()
+        ]
+        if explicit_reference_assets:
+            explicit_set = set(explicit_reference_assets)
+            selected_references = [
+                reference
+                for reference in selected_references
+                if reference.get("asset") in explicit_set
+            ]
+            character_assets = explicit_reference_assets
+            scored_notes = _reference_selection_notes(selected_references) if selected_references else "No scored catalog metadata for the explicit assets."
+            reference_selection_notes = (
+                f"Explicit scene-era reference assets: {', '.join(explicit_reference_assets)}. {scored_notes}"
+            )
+        else:
+            character_assets = [reference["asset"] for reference in selected_references]
+            reference_selection_notes = _reference_selection_notes(selected_references)
         character_notes = _appearance_notes(characters, character_references)
         record = {
             "candidate_id": candidate_id,
@@ -205,7 +224,7 @@ def build_generation_queue(
             "character_reference_scores": {
                 reference["asset"]: reference["selection_score"] for reference in selected_references
             },
-            "reference_selection_notes": _reference_selection_notes(selected_references),
+            "reference_selection_notes": reference_selection_notes,
             "character_appearance_notes": character_notes,
             "continuity_notes": continuity_notes,
             "prompt_pack": f"state/visual/prompt-packs/{candidate_id}.md",
