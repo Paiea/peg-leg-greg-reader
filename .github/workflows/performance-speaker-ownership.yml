@@ -1,0 +1,25 @@
+name: PERFORMANCE Speaker Ownership
+
+on:
+  push:
+    branches:
+      - editor/performance-speaker-ownership
+    paths:
+      - 'scripts/performance_campaign.py'
+      - 'tests/test_performance_speaker_ownership.py'
+      - '.github/workflows/performance-speaker-ownership.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Speaker ownership contract tests
+        run: python -m unittest tests.test_performance_speaker_ownership
