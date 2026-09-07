@@ -2,76 +2,29 @@
   "schema": "rehearsal_free_returns_report/v1",
   "mode": "free_production",
   "target_branch": "editor/rehearsal-simulation-engine",
-  "patches_ready": 3,
-  "patches_applied": 3,
+  "patches_ready": 1,
+  "patches_applied": 1,
   "changed_chapters": [
-    75,
-    77,
-    79
+    92
   ],
   "records": [
     {
-      "patch_id": "c075-jorren-sword-quote-repair-01",
-      "chapter": 75,
-      "actor": "Jorren actor",
-      "role": "Jorren",
-      "take_id": "075-free-boundary-a",
+      "patch_id": "c092-alden-duplicate-line-01",
+      "chapter": 92,
+      "actor": "Noa",
+      "role": "Alden",
+      "take_id": "092-free-boundary-a",
       "variance_group_id": null,
       "supporting_actors": [
-        "Nico as Greg"
-      ],
-      "changed_surfaces": [
-        "dialogue",
-        "paragraphing"
-      ],
-      "reason": "The packing exchange is clearly Jorren asking about the sword and Greg answering. The current HTML drops the opening quote on Jorren's line and the closing quote on Greg's response, breaking voice ownership rather than creating intentional roughness.",
-      "performed_interpretation": null,
-      "dramatic_lock_status": "preserved",
-      "reader_check": "pass",
-      "source_match": true,
-      "policy_mode": "production",
-      "policy_scope": "scene_rebuild"
-    },
-    {
-      "patch_id": "c077-nico-holl-logistics-recap-01",
-      "chapter": 77,
-      "actor": "Nico",
-      "role": "Greg",
-      "take_id": "077-free-boundary-a",
-      "variance_group_id": null,
-      "supporting_actors": [
-        "Holl"
-      ],
-      "changed_surfaces": [
-        "narration_rhythm",
-        "attention_order",
-        "local_exchange_shape"
-      ],
-      "reason": "The transport, wound clearance, Holl's chair, and ground-floor logistics have just been established before Greg enters the shop. Replaying them here reads as recap and delays Holl becoming the scene's active problem. Nico prefers the attention to move directly from the commercial fixture to the one thing Greg deliberately did not measure: duration.",
-      "performed_interpretation": null,
-      "dramatic_lock_status": "preserved",
-      "reader_check": "pass",
-      "source_match": true,
-      "policy_mode": "production",
-      "policy_scope": "scene_rebuild"
-    },
-    {
-      "patch_id": "c079-nico-morning-state-recompose-01",
-      "chapter": 79,
-      "actor": "Nico",
-      "role": "Greg",
-      "take_id": "079-free-boundary-a",
-      "variance_group_id": null,
-      "supporting_actors": [
-        "Noa as Alden",
+        "Nico as Greg",
         "Pessa"
       ],
       "changed_surfaces": [
-        "internal_dialogue",
-        "narration_rhythm",
-        "attention_order"
+        "dialogue",
+        "paragraphing",
+        "interaction_timing"
       ],
-      "reason": "Greg can think associatively without sounding as though he is reconstructing the previous chapter for himself. Removing the false start about where he slept preserves every physical constraint while keeping Nico inside the immediate morning rather than editorial scratchpad mode.",
+      "reason": "The identical Alden line appears twice consecutively with no escalation, interruption, or changed action. This is literal duplication rather than useful repetition; one line preserves the joke and Pessa's following look.",
       "performed_interpretation": null,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
