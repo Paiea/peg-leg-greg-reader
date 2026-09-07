@@ -1,0 +1,131 @@
+{
+  "schema": "rehearsal_character_probe_result/v1",
+  "kind": "character_probe",
+  "probe_id": "early-cast-dangerous-clever",
+  "authoritative": false,
+  "canon_effects": "none",
+  "mode": "free",
+  "memory_snapshot_id": "probe-early-cast-dangerous-clever-v1",
+  "premise": "Greg proposes an obviously dangerous but technically clever shortcut during a shared task.",
+  "purpose": "Test whether recurring actors solve the same pressure in character rather than producing interchangeable warnings.",
+  "shared_constraints": [
+    "Greg's shortcut is genuinely clever but creates material physical risk.",
+    "No actor knows hidden facts beyond their packet.",
+    "Private inner performance is synthetic performed interpretation only.",
+    "Only BODY and VOICE are observable across actors."
+  ],
+  "takes": [
+    {
+      "actor": "Mara",
+      "role": "Hessa",
+      "pressure_context": {
+        "goal": "keep Greg from taking the unsafe shortcut",
+        "concealment": "do not reward the idea merely because it is interesting",
+        "belief": "Greg is underweighting immediate physical risk",
+        "pressure": ["physical_safety", "time_pressure"],
+        "resources": ["procedural authority", "physical proximity"],
+        "observable_access": ["Greg's proposed action", "Greg's speech", "Greg's visible condition"]
+      },
+      "private_inner_voice": [
+        {
+          "form": "impulse",
+          "value": "stop his hand first",
+          "authority": "performed_interpretation"
+        },
+        {
+          "form": "wrong_inference",
+          "value": "he thinks understanding the failure makes the risk affordable",
+          "authority": "performed_interpretation"
+        }
+      ],
+      "observable_output": {
+        "body": ["steps into the task space and takes the dangerous component out of Greg's reach"],
+        "voice": ["What is the stop condition?", "No. Show me the safe version first."]
+      },
+      "behavioral_finding": "Under physical-safety pressure, Hessa controls the task before debating Greg's cleverness."
+    },
+    {
+      "actor": "Rowan",
+      "role": "Arlo",
+      "pressure_context": {
+        "goal": "find out whether the shortcut works without ruining the apparatus",
+        "concealment": "do not let Greg turn one idea into seven uncontrolled tests",
+        "belief": "the idea may be useful but the proposed test cannot distinguish success from damage",
+        "pressure": ["work_ownership", "experimental_ambiguity"],
+        "resources": ["fixture", "measurement process", "ability to redesign the test"],
+        "observable_access": ["Greg's proposal", "apparatus state", "current measurements"]
+      },
+      "private_inner_voice": [
+        {
+          "form": "calculation",
+          "value": "one variable / one run / keep the fixture intact",
+          "authority": "performed_interpretation"
+        }
+      ],
+      "observable_output": {
+        "body": ["moves the apparatus out of Greg's immediate reach and turns the notebook to a blank test column"],
+        "voice": ["What does this test isolate?", "One change. Then we look at the number."]
+      },
+      "behavioral_finding": "Under experimental ambiguity, Arlo converts the clever proposal into one measurable test and protects process ownership."
+    },
+    {
+      "actor": "Desmond",
+      "role": "Antonius",
+      "pressure_context": {
+        "goal": "decide whether Greg's shortcut is worth financing or allowing",
+        "concealment": "do not show interest before the downside is priced",
+        "belief": "Greg may be right and still be unable to afford being wrong",
+        "pressure": ["financial_risk", "decision_pressure"],
+        "resources": ["transaction authority", "ability to refuse", "knowledge of who bears the loss"],
+        "observable_access": ["Greg's proposal", "stated upside", "visible cost and collateral"]
+      },
+      "private_inner_voice": [
+        {
+          "form": "calculation",
+          "value": "failure cost first",
+          "authority": "performed_interpretation"
+        },
+        {
+          "form": "suppressed_joke",
+          "value": "he has already named the upside three times",
+          "authority": "performed_interpretation"
+        }
+      ],
+      "observable_output": {
+        "body": ["does not touch the proposed setup and waits for Greg to finish selling it"],
+        "voice": ["What does failure cost?", "And who pays that number?"]
+      },
+      "behavioral_finding": "Under decision and financial pressure, Antonius prices failure rather than arguing with the idea itself."
+    },
+    {
+      "actor": "Noa",
+      "role": "Alden",
+      "pressure_context": {
+        "goal": "decide whether the shortcut survives the immediate job conditions",
+        "concealment": "do not turn the exchange into asking Greg for approval",
+        "belief": "Greg has noticed the big advantage and may have missed one local obstacle",
+        "pressure": ["operational_uncertainty", "immediate_risk"],
+        "resources": ["local observation", "ability to test the physical route"],
+        "observable_access": ["Greg's proposal", "terrain", "task materials", "visible hazards"]
+      },
+      "private_inner_voice": [
+        {
+          "form": "sensory_hook",
+          "value": "loose board under the shortcut path",
+          "authority": "performed_interpretation"
+        }
+      ],
+      "observable_output": {
+        "body": ["crouches and presses the loose board instead of answering immediately"],
+        "voice": ["Does it still work if this moves?"]
+      },
+      "behavioral_finding": "Under operational uncertainty, Alden tests the immediate physical exception instead of matching Greg's theory with another theory."
+    }
+  ],
+  "comparison": {
+    "distinct_observable_solutions": true,
+    "interchangeable_warning_failure": false,
+    "private_motives_promoted": false,
+    "finding": "The same dangerous-clever pressure separates the early cast through task ownership: Hessa stops the unsafe action, Arlo isolates a test, Antonius prices failure, and Alden checks the local exception."
+  }
+}
