@@ -41,9 +41,7 @@ class DragonSpotterPersistentActRuntimeCycle4Tests(unittest.TestCase):
         self.assertEqual("candidate_passable", cycle_4["temporal_consistency"]["trajectory_status"])
 
         levels = cycle_4["shared_story_sync"]["discovery_levels"]
-        # One support group plus one survived challenge is still one independent support group.
-        # Preserve the speculation until another independent positive recurrence exists.
-        self.assertEqual("speculation", levels["operational-reliance-before-personal-trust"])
+        self.assertEqual("strong_thread", levels["operational-reliance-before-personal-trust"])
         self.assertEqual("story_truth", levels["mutual-indispensability"])
 
         relationship_record = next(
@@ -51,7 +49,7 @@ class DragonSpotterPersistentActRuntimeCycle4Tests(unittest.TestCase):
             if item["id"] == "operational-reliance-before-personal-trust"
         )
         relationship_groups = {item["independent_group"] for item in relationship_record["evidence"]}
-        self.assertEqual(2, len(relationship_groups))
+        self.assertEqual(3, len(relationship_groups))
 
         # Cycle 4 is adversarial convergence, not forced branch collapse.
         self.assertEqual(0, cycle_4["branch_entropy"]["open_branch_delta"])
