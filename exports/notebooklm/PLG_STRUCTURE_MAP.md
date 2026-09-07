@@ -1,6 +1,6 @@
 # Peg-Leg Greg — Current Structure Map
 
-Current exported endpoint: **Chapter 495**.
+Current exported endpoint: **Chapter 496**.
 
 This file is optional orientation for NotebookLM. The manuscript files remain prose-only.
 
@@ -28,6 +28,6 @@ This file is optional orientation for NotebookLM. The manuscript files remain pr
 - ACT II: Chapters 331–388, **BEYOND THE DOOR**
 - ACT III: Chapters 389–440, **THE FARTHER ROAD**
 
-## BOOK V — Chapters 441–495
+## BOOK V — Chapters 441–496
 
-- ACT I: Chapters 441–495, **THE LONGER REACH**
+- ACT I: Chapters 441–496, **THE LONGER REACH**
