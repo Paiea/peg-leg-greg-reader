@@ -18,6 +18,7 @@ EXPECTED = {
     "get_campaign_result",
     "reduce_campaign",
     "apply_survivors",
+    "sync_story",
 }
 
 
@@ -59,6 +60,16 @@ class PLGAIToolTests(unittest.TestCase):
                 result = plg_ai_tools.get_scene_view({"scene_id": "001.s010", "view": "dialogue", "compiled_root": root.as_posix()})
             self.assertEqual("001.s010", result["scene_id"]); self.assertEqual(before, source.read_bytes())
 
+    def test_sync_story_delegates_and_can_write_derived_report(self):
+        state = {"schema": "story_sync_state/v1", "story_confidence": 0.2, "possibilities": [], "discoveries": [], "contradictions": [], "canon_events": [], "reader_requirements": [], "assumptions": []}
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "sync-report.json"
+            with mock.patch.object(plg_ai_tools.story_sync_engine, "sync_story", return_value={"schema": "story_sync_report/v1", "phase": "explore"}) as run_sync:
+                result = plg_ai_tools.sync_story({"state": state, "output_path": output.as_posix()})
+            run_sync.assert_called_once_with(state)
+            self.assertEqual("explore", result["phase"])
+            self.assertEqual(result, json.loads(output.read_text(encoding="utf-8")))
+
     def test_apply_survivors_is_the_only_canon_write_adapter_and_delegates(self):
         canon_write_tools = {name for name, spec in plg_ai_tools.TOOL_SPECS.items() if spec["write"]}
         self.assertEqual({"apply_survivors"}, canon_write_tools)
@@ -69,7 +80,7 @@ class PLGAIToolTests(unittest.TestCase):
     def test_tool_metadata_distinguishes_read_only_from_disposable_cache_writes(self):
         for name in ("brain_for","brain_doctor","get_scene_view","query_scenes","get_campaign_result"):
             self.assertTrue(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
-        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "apply_survivors"):
+        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "sync_story", "apply_survivors"):
             self.assertFalse(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
 
     def test_call_dispatches_structured_payload(self):
