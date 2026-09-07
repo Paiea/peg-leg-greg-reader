@@ -1,0 +1,73 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-geography-third-path-closure",
+    "target_id": "target:ge-geography-third-path-closure",
+    "source_act": "act-i",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "finding": "Holding later technique-driven attention constant, the two first-fall geography branches remain materially distinct but no longer differ by whether Act III social access is possible. Local-only preserves familiar terrain, lower immediate status pressure, and a slower mechanics-first runway before witnessed usefulness attracts attention. Geographic-gate creates displacement, altered resource and terrain access, earlier dependence on unfamiliar systems or people, faster world exposure, and earlier status pressure. Those are real lived differences, so neither branch is redundant yet. The remaining backward requirement can nevertheless be supported because both worldlines now contain a plausible route to later higher-level access without equating access with competence.",
+    "confidence": 0.82,
+    "provenance": "gravitys-embrace:rehearsal:cycle-004:geography-third-path-closure",
+    "comparison": {
+      "held_constant": "witnessed gravity-technique usefulness can attract higher-level attention",
+      "first-fall-local-only": {
+        "immediate_survival_cost": "physical recovery stays embedded in familiar local constraints; no extra displacement cost is required",
+        "isolation": "higher early solitude because the anomaly can remain private while the player tests what happened",
+        "resource_access": "familiar but limited local gear, terrain, recovery, and information constrain experimentation",
+        "status_pressure": "delayed until the technique becomes visible or useful to others",
+        "pacing": "slower mechanics-first escalation with more runway for failed reproduction before the social world expands",
+        "discovery_opportunities": "controlled repetition in known terrain makes variable discovery legible but may limit unusual test conditions",
+        "social_access_timing": "later; attention follows witnessed usefulness rather than location",
+        "institutional_attention": "delayed and causally tied to demonstrated value, copying risk, recruitment, or control pressure",
+        "relationship_opportunities": "local ties can participate early, while new higher-status connections can still enter later through technique visibility",
+        "dependence_on_others": "lower immediately, then rises as setup, rescue, recovery, secrecy, or public handling become mechanically consequential",
+        "world_exposure": "gradual expansion from private anomaly to small-circle notice to higher-level attention",
+        "retrofit_cost": "low; closely matches the current private-anomaly Act I/II visibility trajectory",
+        "downstream_act_ii_iii": "Act II keeps a clear experimentation runway; Act III can mark the first major status expansion without requiring a relocation retcon",
+        "act_iv_payoff": "creates a larger obscurity-to-public-consequence contrast if the ending becomes visible, while still permitting a contained-secret ending"
+      },
+      "first-fall-geographic-gate": {
+        "immediate_survival_cost": "adds displacement, unfamiliar terrain, access logistics, or recovery vulnerability on top of the fall itself",
+        "isolation": "can reduce geographic familiarity while increasing social or institutional dependence even if the anomaly itself remains private",
+        "resource_access": "can expose the player to different terrain, equipment, recovery options, targets, or information, but those differences must matter beyond merely meeting stronger people",
+        "status_pressure": "arrives earlier because the player is physically out of depth or dependent on unfamiliar systems, even if technique-specific attention still comes later",
+        "pacing": "accelerates world-scale pressure and risks crowding the mechanics-learning runway unless displacement pays for itself",
+        "discovery_opportunities": "broader or stranger environments can expose additional ordinary gravity variables but can also make the first mechanic harder to isolate cleanly",
+        "social_access_timing": "proximity may occur earlier, but meaningful higher-level attention still has to be earned; relocation is not a competence shortcut",
+        "institutional_attention": "may begin as environmental or status exposure before the technique becomes valuable, then intensify when witnessed usefulness arrives",
+        "relationship_opportunities": "creates earlier dependence and contact opportunities without selecting old friend, new connection, romance, rivalry, or institutional relationship identity",
+        "dependence_on_others": "higher immediately because unfamiliar geography can make shelter, recovery, navigation, information, or access contingent on others",
+        "world_exposure": "broader earlier exposure, with the tradeoff that the book must preserve room for mechanical discovery instead of spending the same beat twice on status escalation",
+        "retrofit_cost": "higher than local-only under the current private-anomaly visibility states; the branch must explain why relocation changes lived conditions without prematurely resolving technique visibility or social competence",
+        "downstream_act_ii_iii": "Act II must cash out distinct terrain, resource, dependency, or status consequences so the gate is more than an early copy of Act III attention; Act III technique-driven attention remains independently necessary",
+        "act_iv_payoff": "can make later mastery feel like command of a wider world already entered early, but provides less obscurity-to-exposure contrast than local-only"
+      },
+      "decision": "both_remain_meaningfully_distinct",
+      "why_no_pruning": "geographic-gate still changes displacement, resources, dependency, pacing, and world exposure; local-only still changes isolation, experimentation runway, and the timing of status pressure. Neither currently duplicates the other across those lived dimensions.",
+      "why_no_performance": "the remaining distinction is structural and causal. No branch depends on a specific embodied interaction to be evaluated at this stage."
+    },
+    "local_discoveries": [
+      {
+        "id": "ge-a1-geography-controls-pressure-not-access",
+        "finding": "Once technique usefulness can independently attract later attention, first-fall geography is primarily a choice about displacement, resources, isolation, dependency, pacing, and world exposure rather than a key that unlocks high-level social access."
+      },
+      {
+        "id": "ge-a1-local-and-gate-keep-different-runways",
+        "finding": "Local-only preserves a slower private mechanics runway, while a geographic gate accelerates environmental and status pressure; both remain useful only if later scenes actually cash out those different runways."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-backward-social-access-earns-gate",
+        "response": "supported",
+        "reason": "Both live geography worldlines now provide a plausible path to Act III access: local-only can earn attention later through witnessed technique usefulness, while geographic-gate can alter proximity and pressure without granting competence. The requirement is satisfied without selecting geography."
+      }
+    ]
+  }
+]
