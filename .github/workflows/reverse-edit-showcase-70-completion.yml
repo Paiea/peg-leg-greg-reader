@@ -1,0 +1,64 @@
+name: Reverse Edit Showcase 70 Completion
+
+on:
+  push:
+    branches:
+      - editor/reverse-edit-showcase-next-50
+    paths:
+      - 'state/editorial/performance-production/showcase-first-20-results.jsonl'
+      - 'state/editorial/performance-production/showcase-next-50-results.jsonl'
+      - '.github/workflows/reverse-edit-showcase-70-completion.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Validate complete 70 and 35/35 split
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import performance_production_funnel as funnel
+
+          first = [json.loads(x) for x in Path('state/editorial/performance-production/showcase-first-20-results.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
+          next50 = [json.loads(x) for x in Path('state/editorial/performance-production/showcase-next-50-results.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
+          rows = first + next50
+          if len(first) != 20 or len(next50) != 50 or len(rows) != 70:
+              raise SystemExit(f'coverage mismatch: first={len(first)} next={len(next50)} total={len(rows)}')
+          chapters = [row['record']['chapter'] for row in rows]
+          expected = [1,2,4,5,7,9,10,11,13,14,15,16,17,18,19,22,23,24,25,26,27,28,29,30,31,32,34,35,36,37,39,40,41,42,44,45,47,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82,83,84,86]
+          if chapters != expected:
+              raise SystemExit('Showcase order mismatch')
+          for row in rows:
+              funnel.validate_comparison(row['comparison'])
+              funnel.validate_record(row['record'])
+          a, b = rows[:35], rows[35:]
+          def summary(group):
+              return {
+                  'chapters': len(group),
+                  'source_wins': sum(r['record']['verdict'] == 'source_win' for r in group),
+                  'performance_candidates': sum(r['comparison']['verdict'] == 'performance_candidate' for r in group),
+                  'survivors': sum(r['record']['verdict'] == 'change_survives' for r in group),
+                  'canon_ids': [r['record']['chapter'] for r in group],
+              }
+          result = {'campaign_a': summary(a), 'campaign_b': summary(b)}
+          if result['campaign_a']['chapters'] != 35 or result['campaign_b']['chapters'] != 35:
+              raise SystemExit('35/35 split failed')
+          if result['campaign_a']['survivors'] != 0 or result['campaign_b']['survivors'] != 1:
+              raise SystemExit(f'unexpected survivor split: {result}')
+          print(json.dumps(result, indent=2))
+          PY
+      - name: Full repository tests
+        run: python -m unittest discover -s tests
+      - name: Validate PERFORMANCE archives
+        run: python scripts/validate_performance_roundtrip_archives.py
+      - name: Validate Showcase
+        run: python scripts/validate_showcase.py
