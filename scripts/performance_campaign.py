@@ -801,6 +801,34 @@ def _parse_range(value: str) -> tuple[int, int]:
     return int(left), int(right)
 
 
+def _add_campaign_definition_args(parser: argparse.ArgumentParser, *, required: bool) -> None:
+    parser.add_argument("--task", required=required)
+    parser.add_argument("--chapters", required=required)
+    parser.add_argument("--source-authority", required=required)
+    parser.add_argument("--chapter-root", type=Path, default=Path("chapters"))
+    parser.add_argument("--cache-root", type=Path, default=Path(".cache/plg"))
+    parser.add_argument("--profile", choices=sorted(PROFILES), default="eco")
+    parser.add_argument("--executor", default="codex")
+    parser.add_argument("--model")
+    parser.add_argument("--reasoning-tier")
+
+
+def _plan_from_args(args: argparse.Namespace) -> dict[str, Any]:
+    start, end = _parse_range(args.chapters)
+    return plan_campaign(
+        task=args.task,
+        chapter_start=start,
+        chapter_end=end,
+        source_authority=args.source_authority,
+        chapter_root=args.chapter_root,
+        cache_root=args.cache_root,
+        profile=args.profile,
+        executor=args.executor,
+        model=args.model,
+        reasoning_tier=args.reasoning_tier,
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Plan, run, reduce, inspect, or integrate PLG PERFORMANCE campaigns."
@@ -808,18 +836,11 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="command", required=True)
 
     plan = sub.add_parser("plan")
-    plan.add_argument("--task", required=True)
-    plan.add_argument("--chapters", required=True)
-    plan.add_argument("--source-authority", required=True)
-    plan.add_argument("--chapter-root", type=Path, default=Path("chapters"))
-    plan.add_argument("--cache-root", type=Path, default=Path(".cache/plg"))
-    plan.add_argument("--profile", choices=sorted(PROFILES), default="eco")
-    plan.add_argument("--executor", default="codex")
-    plan.add_argument("--model")
-    plan.add_argument("--reasoning-tier")
+    _add_campaign_definition_args(plan, required=True)
 
     run = sub.add_parser("run")
-    run.add_argument("campaign_root", type=Path)
+    run.add_argument("campaign_root", nargs="?", type=Path)
+    _add_campaign_definition_args(run, required=False)
 
     reduce_cmd = sub.add_parser("reduce")
     reduce_cmd.add_argument("campaign_root", type=Path)
@@ -834,21 +855,23 @@ def main(argv: list[str] | None = None) -> int:
 
     args = parser.parse_args(argv)
     if args.command == "plan":
-        start, end = _parse_range(args.chapters)
-        result = plan_campaign(
-            task=args.task,
-            chapter_start=start,
-            chapter_end=end,
-            source_authority=args.source_authority,
-            chapter_root=args.chapter_root,
-            cache_root=args.cache_root,
-            profile=args.profile,
-            executor=args.executor,
-            model=args.model,
-            reasoning_tier=args.reasoning_tier,
-        )
+        result = _plan_from_args(args)
     elif args.command == "run":
-        result = run_campaign(args.campaign_root)
+        if args.campaign_root is not None:
+            if any(value is not None for value in (args.task, args.chapters, args.source_authority)):
+                parser.error("run accepts either campaign_root or --task/--chapters/--source-authority, not both")
+            result = run_campaign(args.campaign_root)
+        else:
+            if not all(value is not None for value in (args.task, args.chapters, args.source_authority)):
+                parser.error("run requires campaign_root or --task, --chapters, and --source-authority")
+            planned = _plan_from_args(args)
+            executed = run_campaign(Path(planned["campaign_root"]))
+            result = {
+                "campaign_id": planned["campaign_id"],
+                "campaign_root": planned["campaign_root"],
+                "plan": planned,
+                "run": executed,
+            }
     elif args.command == "reduce":
         result = reduce_campaign(args.campaign_root)
     elif args.command == "status":
