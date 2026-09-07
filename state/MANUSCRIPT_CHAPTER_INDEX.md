@@ -4,27 +4,20 @@ Compact title-history routing for the active manuscript.
 
 ## Current endpoint
 
-- Current exact story endpoint: Chapter 494 - **THE BIDDER**.
+- Current exact story endpoint: Chapter 496 - **THE FITTER**.
 - `MANUSCRIPT_STATE.md` owns the exact current endpoint and executable next trailhead.
 - Exact chapter checkpoint headers under `state/manuscript/` are authoritative for Chapter 249 onward.
-- Static/illustrated chapter files and older manuscript authority preserve earlier title history.
 - This file is a routing aid, not a second manuscript authority.
 
 ## Title collision rule
 
 Before naming a new chapter:
-
-1. answer `Who is Greg being?` for the chapter;
-2. use the established `THE [ROLE]` convention unless explicit current authority changes it;
-3. search repository title history, including exact checkpoint headers, for the proposed title;
-4. repeated roles are allowed only when the repetition is intentional and useful, not because the index was stale.
-
-Do not manually backfill hundreds of post-248 titles into this living file merely to keep a duplicate cache. Search exact checkpoint headers when full title history matters.
+1. answer `Who is Greg being?`;
+2. use `THE [ROLE]` unless current authority changes it;
+3. search repository title history;
+4. repeat a role only intentionally.
 
 ## Recent title window
-
-- 483. **THE VERIFIER**
-- 484. **THE INTERMEDIARY**
 - 485. **THE ORGANIZER**
 - 486. **THE COORDINATOR**
 - 487. **THE REPAYER**
@@ -35,9 +28,10 @@ Do not manually backfill hundreds of post-248 titles into this living file merel
 - 492. **THE RESPONDENT**
 - 493. **THE CLIENT**
 - 494. **THE BIDDER**
+- 495. **THE SUBSCRIBER**
+- 496. **THE FITTER**
 
 ## Historical routing
-
 - Chapters 1-82: Book 1 authority and static chapter history.
 - Chapters 83-180: Book 2 authority and static/recovered manuscript history.
 - Chapters 181-248: running/recovered manuscript authority plus static chapter history.
