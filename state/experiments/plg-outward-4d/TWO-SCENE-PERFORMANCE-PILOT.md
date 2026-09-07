@@ -1,11 +1,12 @@
 # PLG Two-Scene Generic PERFORMANCE Pilot
 
-**Status:** blind generation complete; canon comparison intentionally pending  
+**Status:** complete; blind-generation checkpoint preserved at commit `71e1f597f085294253d2c12f172c9bf7e7e74644`  
 **Authority:** derived experimental evidence only  
 **Branch:** `experiment/plg-outward-4d`  
 **Resolved control:** canonical Chapter 5 — **THE WARRIOR**  
 **Scenes:** exactly 2  
-**Canon prose opened for this experiment at blind-generation checkpoint:** 0
+**Canon prose opened at blind-generation checkpoint:** 0  
+**Exact canon chapters opened after generation:** 1 (canonical Chapter 5)
 
 The compact chapter index and prior derived evidence identify the first clearly suitable material without an optimal-scene search: Chapter 5 contains an early guild Training Hall/practice-yard spar and an early gambling spiral. Canon outcomes are locked below. Canon wording and beat order were not retrieved for this generation checkpoint.
 
@@ -444,6 +445,142 @@ He had solved the table.
 
 The table included me.
 
-# Comparison gate
+# Post-generation canon comparison
 
-Canon comparison is intentionally absent from this checkpoint. The next and only permitted step is to retrieve canonical Chapter 5, isolate the two corresponding scenes, and compare outcome, behavioral causality, prose strengths, losses, inventions, and domain-specific simulation. No regeneration is permitted after comparison.
+## Methodological limitation
+
+The blind artifact was committed before Chapter 5 was retrieved **in this run**, so no regeneration or canon-guided revision occurred afterward.
+
+However, Chapter 5 had already been opened during the preceding Epoch 3 investigation in the same broader conversation context. The exact prose was therefore not cleanly unknown to the model. This is material contamination, especially for the Training Hall result, whose selected exchange resembles canon closely.
+
+Treat this as a workflow/domain-behavior test, not a scientifically clean blind authorship comparison. A future clean control would need scenes never previously exposed in the active context.
+
+## Scene 1 comparison — Training Hall
+
+### Canon control
+
+Canon begins with solo repetition and lets Greg feel brilliant before his legs start shaking. The spar with Jorren then unfolds across multiple exchanges:
+
+- Greg reads Jorren's high guard, planted commitment, and tightening right shoulder.
+- Jorren hits Greg first.
+- Greg makes him miss, touches ribs and wrist, takes another shoulder hit, then uses the expected shoulder line to step inside and reach Jorren's throat.
+- They continue. Greg wins and loses additional exchanges.
+- A dragging foot eventually causes a hard loss.
+- Jorren recognizes that Greg fights like an old man and refuses another round after observing his breathing and shaking legs.
+- Greg hears confirmation more loudly than warning and buys more training.
+
+### What generic PERFORMANCE added usefully
+
+- It made continuous spatial causality explicit: center lane, worn edge, shortened starting distance, retreat failure, inside line.
+- It tracked Greg's body as changing state rather than a static limitation.
+- It gave Jorren a belief model: easy novice → confirmed shoulder opening → committed expectation → revised assessment.
+- It made Greg's tactical adjustment legible as changing the geometry to fit his current body rather than simply being cleverer.
+
+### What the experimental prose lost or distorted
+
+- It compressed canon's richer exchange sample into one designed trap, making the bout feel cleaner and more authored.
+- Canon gives Jorren more independent agency after the throat touch: he keeps fighting, wins exchanges, notices Greg's state, offers a hand, names the old-man quality, and ultimately refuses.
+- The experimental ending has Greg accept another round verbally, while canon's actual state-out depends on Jorren declining. That shifts safety/authority toward Greg and weakens the opponent.
+- Canon's solo-training prelude supplies the crucial false-confidence rise before the spar. The experimental scene begins too close to the tactical proof.
+- Canon is funnier and less mechanically explanatory. The experimental render's “administrative revolt” language is voice-compatible but slightly over-composed.
+
+### Outcome judgment
+
+The PERFORMANCE packet improved local physical legibility, particularly distance and body-state causality. The prose render did **not** improve the whole scene. Canon has better escalation, opponent autonomy, humor, and longitudinal consequence.
+
+Because of prior exact-prose exposure, the apparent accuracy of the selected shoulder-bait/throat-touch sequence is not valid evidence that generic PERFORMANCE independently discovered canon's solution.
+
+## Scene 2 comparison — Gambling table
+
+### Canon control
+
+Canon keeps the card action compressed and focuses on Greg's systems failure:
+
+- he recognizes within twenty minutes that the table is wrong;
+- one player is unreadable because drunken intention changes;
+- another is good, another better, another lucky;
+- Greg loses, loses more, then recovers half;
+- he sees a possible line: one player protects large pots, another attacks weakness, and the lucky player is overconfident;
+- he believes he can turn them against each other;
+- he stays, owes the table, and signs a note;
+- Antonius later identifies the deeper error: Greg thinks explaining a mistake means he can afford it.
+
+An earlier table also establishes that Greg can read who protects winnings, chases losses, bluffs from embarrassment, watches cards, watches the pot, and watches him. Greg moves rooms because people-reading works both ways.
+
+### What generic PERFORMANCE added usefully
+
+- It naturally represented information as asymmetric rather than physical.
+- It tracked public actions, private cards, Greg's provisional classifications, an opponent's model of Greg, and the increasing price of uncertainty.
+- It treated cash and available credit as state transitions, not background stakes.
+- It found a domain-appropriate failure: Greg confuses the information value of another hand with the economic value of paying for it.
+- Conversational pressure arrived while Greg held two competing explanations, which is genuinely different from the Training Hall's distance/timing pressure.
+
+### What the experimental prose invented or overcommitted
+
+- Canon does not establish a disciplined player deliberately planting or reversing a thumb tell. That is a plausible PERFORMANCE discovery, but it is unsupported invention rather than recovered canon behavior.
+- The invention makes the opponent more agentic but narrows the cause of Greg's loss to one elegant counter-read.
+- Canon's messier table is stronger: unstable intention, skill differences, luck, partial recovery, several interacting player tendencies, and Greg's desire to turn the system. No single opponent needs to mastermind him.
+- The experimental prose delays Antonius's sharper diagnosis. “The table included me” is useful, but canon's “being able to explain a mistake means you can afford it” connects gambling to Greg's entire financial operating system.
+- Canon achieves more causal reach with fewer card-specific beats.
+
+### Outcome judgment
+
+The gambling PERFORMANCE is more independently informative than the combat result. It correctly generated belief recursion, hidden information, incentives, attention, and bankroll/credit state without gambling-specific machinery.
+
+Its prose is vivid and coherent, but not better than canon. The high-fidelity simulation overfit the loss into a clean duel of observers. Canon preserves a noisier multi-player system and connects the loss more powerfully to debt, self-explanation, and Greg's broader compulsion.
+
+# Cross-domain evaluation
+
+## Did generic PERFORMANCE simulate the domains differently?
+
+**Yes.**
+
+Without combat-specific or gambling-specific code, the same generic contract activated different causal state:
+
+| Training Hall | Gambling table |
+|---|---|
+| body fatigue and pain | bankroll and credit |
+| distance and lane position | pot size and information price |
+| foot placement and recovery | bets, folds, and hidden cards |
+| opponent commitment timing | nested beliefs and deceptive signaling |
+| contact and balance | uncertainty and incentive |
+| environmental geometry | conversational/decision timing |
+
+That distinction was useful and emerged from scene pressure, actors, hard locks, and required outcome rather than a domain module.
+
+## Did it improve the prose?
+
+**Locally, sometimes. Overall, no clear win over canon.**
+
+- Training PERFORMANCE improved physical continuity and made the winning exchange easy to visualize, but the render reduced Jorren's autonomy and canon's broader escalation.
+- Gambling PERFORMANCE improved the visibility of belief recursion and economic state, but invented an overly neat planted-tell mechanism and lost canon's messy system-level strength.
+- Canon was generally more compressed, funnier, less explanatory, and better connected to chapter-scale consequences.
+
+The best use of generic PERFORMANCE here is as an **error detector and causal evidence generator**, not an automatic replacement-prose engine. The surviving discoveries worth carrying into prose are small: body state must change available geometry; observers can observe Greg; money determines how long uncertainty can be pursued. The full simulated mechanism does not need to appear on the page.
+
+## Was the inference cost worthwhile?
+
+**Worthwhile for the cross-domain architecture test; not worthwhile as a routine full-prose replacement pass.**
+
+Two compact PERFORMANCE runs were enough to show that the generic layer can track materially different state without new machinery. The prose comparison also exposed the main cost: high-fidelity simulation tends to make causality cleaner, more explicit, and more duel-shaped than PLG canon benefits from.
+
+A cheaper production use would preserve the PERFORMANCE evidence and let the renderer use only one or two surviving causal constraints.
+
+# Final usage receipt
+
+- Scenes: exactly **2**.
+- REHEARSAL alternatives: exactly **3 per scene**.
+- HIGH-FIDELITY PERFORMANCE artifacts: exactly **1 per scene**.
+- Experimental prose renders: exactly **1 per scene**.
+- Recursive rewrites: **0**.
+- Exact canon chapters opened after blind-generation checkpoint: **1**, canonical Chapter 5.
+- Reason Chapter 5 was opened: it contains both resolved control scenes, allowing one exact retrieval to compare both domains.
+- Broad manuscript read: none.
+- New architecture: none.
+- New generic code: none.
+- Subagents: none.
+- Canon writes: none.
+- Showcase/publication changes: none.
+- Merge: none.
+- Regeneration after canon comparison: none.
+
