@@ -100,6 +100,36 @@ class RehearsalEngineTests(unittest.TestCase):
         ]
         self.assertEqual(2, engine.independent_support_count(evidence))
 
+    def test_overtuned_calibration_policy_allows_scene_rebuilds_on_non_main_branch(self):
+        policy = engine.editorial_return_policy("overtuned_calibration")
+        self.assertTrue(policy["actor_preference_can_trigger_write"])
+        self.assertTrue(policy["branch_canon_write_authorized"])
+        self.assertEqual("scene_rebuild", policy["max_local_scope"])
+        self.assertFalse(policy["production_safe"])
+        self.assertIn("tone", policy["soft_surfaces"])
+        self.assertIn("plot", policy["hard_surfaces"])
+
+    def test_overtuned_auto_apply_requires_all_gates_and_soft_surfaces(self):
+        policy = engine.editorial_return_policy("overtuned_calibration")
+        candidate = {
+            "actor_prefers": True,
+            "dramatic_lock_status": "preserved",
+            "reader_check": "pass",
+            "source_match": True,
+            "target_branch": "editor/rehearsal-simulation-engine",
+            "changed_surfaces": ["movement", "dialogue", "tone", "paragraphing"],
+        }
+        self.assertTrue(engine.can_auto_apply_rehearsal_candidate(candidate, policy))
+
+        hard_change = dict(candidate, changed_surfaces=["movement", "plot"])
+        self.assertFalse(engine.can_auto_apply_rehearsal_candidate(hard_change, policy))
+
+        main_write = dict(candidate, target_branch="main")
+        self.assertFalse(engine.can_auto_apply_rehearsal_candidate(main_write, policy))
+
+        failed_reader = dict(candidate, reader_check="fail")
+        self.assertFalse(engine.can_auto_apply_rehearsal_candidate(failed_reader, policy))
+
 
 if __name__ == "__main__":
     unittest.main()
