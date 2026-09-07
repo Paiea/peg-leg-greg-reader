@@ -9,42 +9,14 @@
     "finding": "The specialist identity is earned before social recognition if the Act II experimenter develops a stable operating method rather than merely accumulating HP or landing one impressive hit. The cheapest sufficient bridge is methodological competence: he can separate survivable tests from reckless ones, vary one uncertainty at a time when possible, preserve failed results as information, reproduce a narrow class of useful outcomes without claiming a general recipe, recognize conditions where the technique should not be attempted, and make tactical choices from those limits. By Act III he is still underleveled and the gravity interaction remains incompletely understood, but his decisions are no longer ad hoc. Given a dangerous setup he can form a bounded prediction, choose a test or abstain, explain what observation would change his next move, and obtain useful information even from failure. That coherent decision procedure distinguishes a specialist from a weird-build experimenter without requiring anyone else to name or notice the specialty.",
     "confidence": 0.84,
     "provenance": "gravitys-embrace:rehearsal:cycle-007:act-ii-iii-build-identity-boundary",
-    "local_discoveries": [
-      {
-        "id": "ge-specialization-is-method-before-mastery",
-        "finding": "The protagonist becomes meaningfully specialized when his experiments produce a repeatable decision method: risk-bounding, controlled comparison, observation selection, narrow reproduction, explicit abstention conditions, and tactical use of known limits. Specialist identity does not require a solved gravity formula, dominant damage, self-identification, or external recognition."
-      }
-    ],
-    "forward_consequences": [
-      {
-        "id": "ge-forward-specialist-method-is-legible",
-        "target_act": "act-iii",
-        "statement": "A coherent experimental method can become legible through repeated decisions and outcomes, creating a basis for later attention, recruitment, competition, trust, or status pressure without deciding who notices first.",
-        "confidence": 0.64
-      }
-    ],
+    "local_discoveries": [{"id": "ge-specialization-is-method-before-mastery", "finding": "The protagonist becomes meaningfully specialized when his experiments produce a repeatable decision method: risk-bounding, controlled comparison, observation selection, narrow reproduction, explicit abstention conditions, and tactical use of known limits. Specialist identity does not require a solved gravity formula, dominant damage, self-identification, or external recognition."}],
+    "forward_consequences": [{"id": "ge-forward-specialist-method-can-create-public-pressure", "target_act": "act-iv", "statement": "A coherent experimental method that produces repeatable bounded decisions can later become legible enough to create attention, recruitment, competition, trust, status pressure, or institutional interest without deciding who notices first.", "confidence": 0.58}],
     "backward_requirements": [],
     "branch_updates": [],
     "story_sync_discoveries": [],
     "story_sync_evidence_updates": [],
     "constraint_responses": [],
-    "boundary_updates": [
-      {
-        "act_id": "act-iii",
-        "boundary_side": "state_in",
-        "boundary_id": "ge-a3-in-build",
-        "value": "underleveled-method-specialist",
-        "confidence": 0.7,
-        "reason": "Development rehearsal supports a narrower specialist state than the original label implied. The protagonist has a coherent repeatable method for bounded gravity experimentation and tactical judgment while remaining underleveled and mechanically uncertain."
-      }
-    ],
-    "boundary_responses": [
-      {
-        "boundary_id": "boundary:act-ii:act-iii:build_identity:ge-a2-out-build:ge-a3-in-build",
-        "target_act": "act-iii",
-        "response": "supported",
-        "reason": "The transition is supported by demonstrated methodological competence rather than relabeling: repeated bounded tests produce stable risk triage, controlled comparison, useful observation, narrow reproduction, abstention rules, and tactical decisions from known limits. The endpoint remains distinct from Act II because the experiments have become a coherent operating method, while the gravity recipe and social recognition remain unresolved."
-      }
-    ]
+    "boundary_updates": [{"act_id": "act-iii", "boundary_side": "state_in", "boundary_id": "ge-a3-in-build", "value": "underleveled-method-specialist", "confidence": 0.7, "reason": "Development rehearsal supports a narrower specialist state than the original label implied. The protagonist has a coherent repeatable method for bounded gravity experimentation and tactical judgment while remaining underleveled and mechanically uncertain."}],
+    "boundary_responses": [{"boundary_id": "boundary:act-ii:act-iii:build_identity:ge-a2-out-build:ge-a3-in-build", "target_act": "act-iii", "response": "supported", "reason": "The transition is supported by demonstrated methodological competence rather than relabeling: repeated bounded tests produce stable risk triage, controlled comparison, useful observation, narrow reproduction, abstention rules, and tactical decisions from known limits. The endpoint remains distinct from Act II because the experiments have become a coherent operating method, while the gravity recipe and social recognition remain unresolved."}]
   }
 ]
