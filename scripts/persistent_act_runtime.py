@@ -36,9 +36,11 @@ DELTA_TYPES = {
     "local_unresolved_question",
     "state_in_hypothesis",
     "state_out_hypothesis",
+    "state_boundary_update",
     "forward_consequence",
     "backward_requirement",
     "constraint_response",
+    "boundary_response",
     "cross_direction_agreement",
     "shared_discovery",
     "shared_discovery_evidence",
@@ -105,6 +107,16 @@ def _validate_local_state(local_state: dict[str, Any], *, act_id: str) -> None:
             raise ValueError(f"{act_id} invalid constraint response")
         if not _nonempty(response.get("reason")):
             raise ValueError(f"{act_id} constraint response requires reason")
+    boundary_responses = local_state.get("boundary_responses", [])
+    if not isinstance(boundary_responses, list):
+        raise ValueError(f"{act_id} boundary_responses must be a list")
+    for response in boundary_responses:
+        if not isinstance(response, dict) or not _nonempty(response.get("boundary_id")):
+            raise ValueError(f"{act_id} boundary response requires boundary_id")
+        if response.get("response") not in CONSTRAINT_RESPONSES:
+            raise ValueError(f"{act_id} invalid boundary response")
+        if not _nonempty(response.get("reason")):
+            raise ValueError(f"{act_id} boundary response requires reason")
 
 
 def _validate_act_state(act_id: str, state: dict[str, Any]) -> None:
@@ -192,8 +204,16 @@ def sync_shared_story(runtime: dict[str, Any], *, creator_taste: dict[str, Any] 
     )
 
 
+def _boundary_responses_for(runtime: dict[str, Any], boundary_id: str, target_act: str) -> list[dict[str, Any]]:
+    return [
+        item
+        for item in runtime["acts"][target_act]["local_state"].get("boundary_responses", [])
+        if item.get("boundary_id") == boundary_id
+    ]
+
+
 def boundary_contradictions(runtime: dict[str, Any]) -> list[dict[str, Any]]:
-    """Surface explicit adjacent STATE OUT / STATE IN disagreements."""
+    """Surface adjacent STATE OUT / STATE IN disagreements without re-probing supported bridges."""
     validate_runtime(runtime)
     conflicts: list[dict[str, Any]] = []
     for index in range(len(ACT_IDS) - 1):
@@ -203,8 +223,12 @@ def boundary_contradictions(runtime: dict[str, Any]) -> list[dict[str, Any]]:
             for target in runtime["acts"][target_act]["state_in"]:
                 if source["dimension"] != target["dimension"] or source.get("value") == target.get("value"):
                     continue
+                boundary_id = f"boundary:{source_act}:{target_act}:{source['dimension']}:{source['id']}:{target['id']}"
+                responses = _boundary_responses_for(runtime, boundary_id, target_act)
+                if responses and responses[-1]["response"] == "supported":
+                    continue
                 conflicts.append({
-                    "id": f"boundary:{source_act}:{target_act}:{source['dimension']}:{source['id']}:{target['id']}",
+                    "id": boundary_id,
                     "kind": "boundary_contradiction",
                     "source_act": source_act,
                     "target_act": target_act,
@@ -440,6 +464,31 @@ def integrate_deltas(runtime: dict[str, Any], deltas: list[dict[str, Any]]) -> d
         elif delta_type in {"state_in_hypothesis", "state_out_hypothesis"}:
             _validate_boundary(payload, field=delta_type)
             updated["acts"][source_act]["state_in" if delta_type == "state_in_hypothesis" else "state_out"].append(payload)
+        elif delta_type == "state_boundary_update":
+            boundary_side = payload.get("boundary_side")
+            boundary_id = payload.get("boundary_id")
+            reason = payload.get("reason")
+            if boundary_side not in {"state_in", "state_out"} or not _nonempty(boundary_id) or "value" not in payload or not _nonempty(reason):
+                raise ValueError("state_boundary_update requires boundary_side, boundary_id, value, and reason")
+            if "confidence" in payload:
+                _confidence(payload["confidence"], field="state boundary update confidence")
+            boundaries = updated["acts"][source_act][boundary_side]
+            match = next((item for item in boundaries if item.get("id") == boundary_id), None)
+            if match is None:
+                raise ValueError(f"unknown state boundary: {source_act}:{boundary_side}:{boundary_id}")
+            match.setdefault("history", []).append({
+                "value": copy.deepcopy(match.get("value")),
+                "confidence": float(match.get("confidence", 0.5)),
+                "provenance": copy.deepcopy(match.get("provenance", [])),
+                "reason": reason,
+                "superseded_by_provenance": delta["provenance"],
+            })
+            match["value"] = copy.deepcopy(payload["value"])
+            if "confidence" in payload:
+                match["confidence"] = float(payload["confidence"])
+            match.setdefault("provenance", [])
+            if delta["provenance"] not in match["provenance"]:
+                match["provenance"].append(delta["provenance"])
         elif delta_type in MESSAGE_KINDS:
             target_act = delta.get("target_act")
             if target_act not in ACT_INDEX:
@@ -463,6 +512,10 @@ def integrate_deltas(runtime: dict[str, Any], deltas: list[dict[str, Any]]) -> d
             if payload.get("response") not in CONSTRAINT_RESPONSES or not _nonempty(payload.get("message_id")) or not _nonempty(payload.get("reason")):
                 raise ValueError("constraint_response delta requires message_id, response, and reason")
             updated["acts"][source_act]["local_state"]["constraint_responses"].append(payload)
+        elif delta_type == "boundary_response":
+            if payload.get("response") not in CONSTRAINT_RESPONSES or not _nonempty(payload.get("boundary_id")) or not _nonempty(payload.get("reason")):
+                raise ValueError("boundary_response delta requires boundary_id, response, and reason")
+            updated["acts"][source_act]["local_state"].setdefault("boundary_responses", []).append(payload)
         elif delta_type == "cross_direction_agreement":
             _validate_agreement(payload)
             updated["shared_story_state"].setdefault("cross_direction_agreements", []).append(payload)
@@ -644,6 +697,8 @@ def validate_rehearsal_evidence(evidence: dict[str, Any]) -> None:
         "story_sync_discoveries",
         "story_sync_evidence_updates",
         "constraint_responses",
+        "boundary_updates",
+        "boundary_responses",
     ):
         if not isinstance(evidence.get(field, []), list):
             raise ValueError(f"rehearsal evidence {field} must be a list")
@@ -678,6 +733,33 @@ def reduce_rehearsal_evidence(evidence: dict[str, Any]) -> list[dict[str, Any]]:
         ):
             raise ValueError("constraint response evidence requires message_id, response, and reason")
         deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:constraint-response:{index}", "type": "constraint_response", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
+    for index, item in enumerate(evidence.get("boundary_updates", [])):
+        if (
+            not isinstance(item, dict)
+            or item.get("act_id") not in ACT_INDEX
+            or item.get("boundary_side") not in {"state_in", "state_out"}
+            or not _nonempty(item.get("boundary_id"))
+            or "value" not in item
+            or not _nonempty(item.get("reason"))
+        ):
+            raise ValueError("boundary update evidence requires act_id, boundary_side, boundary_id, value, and reason")
+        if "confidence" in item:
+            _confidence(item["confidence"], field="boundary update evidence confidence")
+        act_id = item["act_id"]
+        payload = {key: copy.deepcopy(value) for key, value in item.items() if key != "act_id"}
+        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:boundary-update:{index}", "type": "state_boundary_update", "source_act": act_id, "provenance": provenance, "payload": payload})
+    for index, item in enumerate(evidence.get("boundary_responses", [])):
+        if (
+            not isinstance(item, dict)
+            or item.get("target_act") not in ACT_INDEX
+            or not _nonempty(item.get("boundary_id"))
+            or item.get("response") not in CONSTRAINT_RESPONSES
+            or not _nonempty(item.get("reason"))
+        ):
+            raise ValueError("boundary response evidence requires target_act, boundary_id, response, and reason")
+        target_act = item["target_act"]
+        payload = {key: copy.deepcopy(value) for key, value in item.items() if key != "target_act"}
+        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:boundary-response:{index}", "type": "boundary_response", "source_act": target_act, "provenance": provenance, "payload": payload})
     for index, item in enumerate(evidence.get("story_sync_discoveries", [])):
         deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:sync:{index}", "type": "shared_discovery", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
     for index, item in enumerate(evidence.get("story_sync_evidence_updates", [])):
