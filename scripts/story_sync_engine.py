@@ -260,6 +260,10 @@ def validate_sync_state(state: dict[str, Any]) -> None:
             raise ValueError(f"duplicate sync id: {possibility['id']}")
         seen.add(possibility["id"])
         branch_sync_action(possibility, phase="explore")
+        if "sync_reason" in possibility and not _nonempty(possibility["sync_reason"]):
+            raise ValueError("possibility sync_reason must be nonempty")
+        if "evidence" in possibility:
+            _string_list(possibility["evidence"], field="possibility evidence")
 
     for discovery in state.get("discoveries", []):
         validate_discovery(discovery)
@@ -332,6 +336,19 @@ def _propagation_for(discovery: dict[str, Any], level: str) -> list[dict[str, An
     ]
 
 
+def _default_branch_reason(possibility: dict[str, Any], action: str) -> str:
+    if _nonempty(possibility.get("sync_reason")):
+        return possibility["sync_reason"]
+    viability = possibility.get("viability", "viable")
+    if action == "preserve":
+        return "branch remains dramatically viable at the current convergence phase"
+    if viability == "redundant":
+        return "branch duplicates stronger established story work"
+    if viability == "invalidated":
+        return "branch conflicts with stronger current story evidence"
+    return "branch is too weak to justify continued search at the current convergence phase"
+
+
 def sync_story(state: dict[str, Any]) -> dict[str, Any]:
     """Synchronize derived long-form story state without merging competing ideas.
 
@@ -343,6 +360,7 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
     phase = convergence_phase(float(state.get("story_confidence", 0.0)))
 
     discovery_levels: dict[str, str] = {}
+    discovery_records: dict[str, dict[str, Any]] = {}
     promoted: list[dict[str, str]] = []
     repeated_signals: list[str] = []
     strong_threads: list[str] = []
@@ -352,7 +370,22 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
 
     for discovery in state.get("discoveries", []):
         level = classify_discovery(discovery)
+        summary = _evidence_summary(discovery)
         discovery_levels[discovery["id"]] = level
+        discovery_records[discovery["id"]] = {
+            "finding": discovery["finding"],
+            "confidence": level,
+            "book_shaping": discovery.get("book_shaping") is True,
+            "evidence_summary": {
+                "independent_support_count": len(summary["support_groups"]),
+                "survived_challenge_count": len(summary["challenge_groups"]),
+                "contradiction_count": len(summary["contradiction_groups"]),
+                "support_groups": summary["support_groups"],
+                "challenge_groups": summary["challenge_groups"],
+                "dramatic_uses": summary["dramatic_uses"],
+                "regions": summary["regions"],
+            },
+        }
         previous = discovery.get("confidence")
         if previous is not None and DISCOVERY_RANK[level] > DISCOVERY_RANK[previous]:
             promoted.append({"id": discovery["id"], "from": previous, "to": level})
@@ -368,12 +401,22 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
 
     branches_preserved: list[str] = []
     branches_killed: list[str] = []
+    branch_decisions: list[dict[str, Any]] = []
     for possibility in state.get("possibilities", []):
         action = branch_sync_action(possibility, phase=phase)
         if action == "kill":
             branches_killed.append(possibility["id"])
         else:
             branches_preserved.append(possibility["id"])
+        branch_decisions.append({
+            "id": possibility["id"],
+            "branch_group": possibility.get("branch_group"),
+            "region": possibility.get("region"),
+            "action": action,
+            "viability": possibility.get("viability", "viable"),
+            "reason": _default_branch_reason(possibility, action),
+            "evidence": copy.deepcopy(possibility.get("evidence", [])),
+        })
 
     contradictions_alive, immediate_contradictions = _sync_contradictions(state)
     hidden_canon = [event["id"] for event in state.get("canon_events", []) if event["visibility"] == "hide"]
@@ -384,6 +427,7 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
         "phase": phase,
         "story_confidence": float(state.get("story_confidence", 0.0)),
         "discovery_levels": discovery_levels,
+        "discovery_records": discovery_records,
         "promoted_discoveries": promoted,
         "repeated_signals": sorted(repeated_signals),
         "strong_threads": sorted(strong_threads),
@@ -391,6 +435,7 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
         "propagation": propagation,
         "branches_preserved": branches_preserved,
         "branches_killed": branches_killed,
+        "branch_decisions": branch_decisions,
         "contradictions_alive": contradictions_alive,
         "hidden_canon": hidden_canon,
         "reader_gaps": _reader_gaps(state),
