@@ -1,0 +1,249 @@
+name: PERFORMANCE Speaker Ownership Showcase 70
+
+on:
+  push:
+    branches:
+      - editor/performance-speaker-showcase-70
+    paths:
+      - '.github/workflows/performance-speaker-showcase-70.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/performance-speaker-showcase-70
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Verify source authority and engine contract
+        run: |
+          git fetch origin main
+          echo "SOURCE_AUTHORITY=$(git rev-parse origin/main)" >> "$GITHUB_ENV"
+          python -m unittest tests.test_performance_speaker_ownership tests.test_performance_campaign_selection
+      - name: Build speaker ownership map and candidate reducer for Showcase 1-70
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+          import html as html_lib
+          import json
+          import os
+          import re
+          from pathlib import Path
+          from scripts import apply_dialogue_ownership_semantic as own
+
+          group_a = [1,2,4,5,7,9,10,11,13,14,15,16,17,18,19,22,23,24,25,26,27,28,29,30,31,32,34,35,36,37,39,40,41,42,44]
+          group_b = [45,47,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82,83,84,86]
+          selected = group_a + group_b
+          assert len(group_a) == len(group_b) == 35 and len(selected) == 70 and len(set(selected)) == 70
+
+          para_re = re.compile(r'<p>(.*?)</p>', re.S)
+          quote_re = re.compile(r'[“\"](.*?)[”\"]', re.S)
+          speech_re = re.compile(r'\b(I|he|she|they|[A-Z][A-Za-z\'’\-]+)\s+(said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|remarked|offered)\b', re.I)
+          proper_action_re = re.compile(r'^\s*([A-Z][A-Za-z\'’\-]+|I|He|She|They)\s+(' + own.ACTION + r')\b')
+
+          def strip_tags(value: str) -> str:
+              return html_lib.unescape(re.sub(r'<[^>]+>', '', value)).strip()
+
+          def explicit_speaker(text: str):
+              m = speech_re.search(text)
+              if not m:
+                  return None
+              subject = m.group(1)
+              if subject.lower() == 'i':
+                  return 'GREG'
+              if subject.lower() in {'he','she','they'}:
+                  return 'OTHER'
+              return subject
+
+          def opening_quote(text: str) -> bool:
+              return text.lstrip().startswith(('“','"'))
+
+          def dialogue_onlyish(text: str) -> bool:
+              clean = strip_tags(text)
+              return opening_quote(clean) and bool(quote_re.search(clean))
+
+          def action_owner_after_first_quote(text: str):
+              qs = list(quote_re.finditer(text))
+              if not qs:
+                  return None
+              trailing = text[qs[0].end():].lstrip(' ,.;:!?')
+              m = proper_action_re.match(trailing)
+              if not m:
+                  return None
+              subject = m.group(1)
+              if subject == 'I':
+                  return 'GREG'
+              if subject in {'He','She','They'}:
+                  return 'OTHER'
+              return subject
+
+          def action_owner_paragraph(text: str):
+              m = proper_action_re.match(strip_tags(text))
+              if not m:
+                  return None
+              subject = m.group(1)
+              if subject == 'I':
+                  return 'GREG'
+              if subject in {'He','She','They'}:
+                  return 'OTHER'
+              return subject
+
+          def infer_map(paras: list[str]):
+              speakers = [None] * len(paras)
+              confidence = ['none'] * len(paras)
+              explicit = [False] * len(paras)
+              last_named_non_greg = None
+              last_dialogue_speaker = None
+              last_was_dialogue = False
+              for i, raw in enumerate(paras):
+                  text = strip_tags(raw)
+                  if not quote_re.search(text):
+                      last_was_dialogue = False
+                      ao = action_owner_paragraph(text)
+                      if ao and ao not in {'GREG','OTHER'}:
+                          last_named_non_greg = ao
+                      continue
+                  sp = explicit_speaker(text)
+                  if sp:
+                      speakers[i] = sp
+                      confidence[i] = 'explicit' if sp != 'OTHER' else 'pronoun-explicit'
+                      explicit[i] = True
+                      if sp not in {'GREG','OTHER'}:
+                          last_named_non_greg = sp
+                  elif opening_quote(text):
+                      prev_action = action_owner_paragraph(strip_tags(paras[i-1])) if i else None
+                      if prev_action and prev_action != 'OTHER':
+                          speakers[i] = prev_action
+                          confidence[i] = 'action-anchor'
+                      elif last_was_dialogue and last_dialogue_speaker == 'GREG' and last_named_non_greg:
+                          speakers[i] = last_named_non_greg
+                          confidence[i] = 'alternation'
+                      elif last_was_dialogue and last_dialogue_speaker not in {None,'GREG','OTHER'}:
+                          speakers[i] = 'GREG'
+                          confidence[i] = 'alternation'
+                      elif last_was_dialogue and last_dialogue_speaker == 'OTHER':
+                          speakers[i] = 'GREG'
+                          confidence[i] = 'alternation-low'
+                      else:
+                          speakers[i] = 'GREG'
+                          confidence[i] = 'default-low'
+                  if speakers[i]:
+                      last_dialogue_speaker = speakers[i]
+                      last_was_dialogue = True
+                      if speakers[i] not in {'GREG','OTHER'}:
+                          last_named_non_greg = speakers[i]
+                  else:
+                      last_was_dialogue = False
+              return speakers, confidence, explicit
+
+          report = {
+              'schema': 'performance_speaker_showcase70_scan/v1',
+              'source_authority': os.environ['SOURCE_AUTHORITY'],
+              'groups': {'a': group_a, 'b': group_b},
+              'chapters': [],
+              'candidates': [],
+              'metrics': {'chapters': 70, 'dialogue_paragraphs': 0, 'explicit_dialogue_paragraphs': 0, 'candidates': 0},
+          }
+
+          for chapter in selected:
+              path = Path('chapters') / f'{chapter:03d}.html'
+              text = path.read_text(encoding='utf-8')
+              article = text.split('<article class="prose">',1)[1].split('</article>',1)[0]
+              paras = para_re.findall(article)
+              speakers, confidences, explicits = infer_map(paras)
+              chapter_candidates = []
+              dialogue_idxs = [i for i,p in enumerate(paras) if quote_re.search(strip_tags(p))]
+              report['metrics']['dialogue_paragraphs'] += len(dialogue_idxs)
+              report['metrics']['explicit_dialogue_paragraphs'] += sum(1 for i in dialogue_idxs if explicits[i])
+
+              # Rule 1: a spoken line visually owns a trailing action by a different actor.
+              for i in dialogue_idxs:
+                  current = strip_tags(paras[i])
+                  if not opening_quote(current):
+                      continue
+                  action_owner = action_owner_after_first_quote(current)
+                  speaker = speakers[i]
+                  if action_owner and speaker and action_owner != 'OTHER' and action_owner != speaker:
+                      chapter_candidates.append((i, 'foreign_action_attachment', 'high'))
+
+              # Rule 2: multiple quoted turns bridged inside one paragraph deserve speaker review.
+              for i in dialogue_idxs:
+                  current = strip_tags(paras[i])
+                  quotes = list(quote_re.finditer(current))
+                  if len(quotes) >= 2:
+                      between = current[quotes[0].end():quotes[1].start()]
+                      if proper_action_re.search(between.strip(' ,.;:!?')):
+                          chapter_candidates.append((i, 'multi_speaker_paragraph', 'high'))
+
+              # Rule 3: long runs of untagged dialogue should receive periodic ownership anchors.
+              run = []
+              def flush_run(run):
+                  if len(run) < 4:
+                      return
+                  # anchor every fourth turn, plus any low-confidence re-entry.
+                  for offset, idx in enumerate(run):
+                      if offset in {3,7,11,15,19} or confidences[idx] in {'default-low','alternation-low'}:
+                          chapter_candidates.append((idx, 'long_untagged_run', 'review'))
+              for i in range(len(paras)):
+                  current = strip_tags(paras[i])
+                  if dialogue_onlyish(current) and not explicits[i]:
+                      run.append(i)
+                  else:
+                      flush_run(run)
+                      run = []
+              flush_run(run)
+
+              # Rule 4: untagged dialogue re-enters after narrative action in scenes with multiple known speakers.
+              for i in dialogue_idxs:
+                  if explicits[i] or i == 0 or not opening_quote(strip_tags(paras[i])):
+                      continue
+                  window = range(max(0, i-8), min(len(paras), i+5))
+                  named = {speakers[j] for j in window if speakers[j] not in {None,'GREG','OTHER'}}
+                  if len(named) >= 2:
+                      chapter_candidates.append((i, 'multi_party_reentry', 'review'))
+
+              seen = set()
+              normalized = []
+              for i, rule, priority in chapter_candidates:
+                  key = (i, rule)
+                  if key in seen:
+                      continue
+                  seen.add(key)
+                  row = {
+                      'chapter': chapter,
+                      'paragraph_index': i,
+                      'rule': rule,
+                      'priority': priority,
+                      'speaker': speakers[i],
+                      'speaker_confidence': confidences[i],
+                      'explicit_speaker': explicits[i],
+                      'previous': strip_tags(paras[i-1]) if i else '',
+                      'current': strip_tags(paras[i]),
+                      'following': strip_tags(paras[i+1]) if i+1 < len(paras) else '',
+                  }
+                  normalized.append(row)
+                  report['candidates'].append(row)
+              report['chapters'].append({'chapter': chapter, 'dialogue_paragraphs': len(dialogue_idxs), 'candidates': len(normalized)})
+
+          report['metrics']['candidates'] = len(report['candidates'])
+          out = Path('state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(report['metrics'], indent=2))
+          print('group A candidates', sum(c['candidates'] for c in report['chapters'][:35]))
+          print('group B candidates', sum(c['candidates'] for c in report['chapters'][35:]))
+          PY
+      - name: Commit disposable candidate report
+        run: |
+          git config user.name 'PLG PERFORMANCE Funnel'
+          git config user.email 'actions@users.noreply.github.com'
+          git add state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json
+          git commit -m 'trial: map speaker ownership across first 70 Showcase chapters'
+          git push origin HEAD:editor/performance-speaker-showcase-70
