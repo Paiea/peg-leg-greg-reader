@@ -537,6 +537,9 @@ def compile_rehearsal_targets(runtime: dict[str, Any]) -> list[dict[str, Any]]:
     for message in _all_messages(runtime):
         if message.get("status", "open") != "open":
             continue
+        responses = _responses_for(runtime, message["id"], message["target_act"])
+        if responses and responses[-1]["response"] == "supported":
+            continue
         mode = "forward_consequence_test" if message["kind"] == "forward_consequence" else "backward_prerequisite_test"
         targets.append(_target(
             target_id=f"target:message:{message['id']}",
