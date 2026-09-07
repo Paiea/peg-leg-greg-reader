@@ -4,7 +4,7 @@ Compact title-history routing for the active manuscript.
 
 ## Current endpoint
 
-- Current exact story endpoint: Chapter 492 - **THE RESPONDENT**.
+- Current exact story endpoint: Chapter 494 - **THE BIDDER**.
 - `MANUSCRIPT_STATE.md` owns the exact current endpoint and executable next trailhead.
 - Exact chapter checkpoint headers under `state/manuscript/` are authoritative for Chapter 249 onward.
 - Static/illustrated chapter files and older manuscript authority preserve earlier title history.
@@ -23,8 +23,6 @@ Do not manually backfill hundreds of post-248 titles into this living file merel
 
 ## Recent title window
 
-- 481. **THE SUBSTITUTE**
-- 482. **THE INTERRUPTER**
 - 483. **THE VERIFIER**
 - 484. **THE INTERMEDIARY**
 - 485. **THE ORGANIZER**
@@ -35,6 +33,8 @@ Do not manually backfill hundreds of post-248 titles into this living file merel
 - 490. **THE CONTRACTOR**
 - 491. **THE ACQUAINTANCE**
 - 492. **THE RESPONDENT**
+- 493. **THE CLIENT**
+- 494. **THE BIDDER**
 
 ## Historical routing
 
