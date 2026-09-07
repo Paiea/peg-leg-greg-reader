@@ -3,7 +3,7 @@
 Compact title-history routing for the active manuscript.
 
 ## Current endpoint
-- Current exact story endpoint: Chapter 500 - **THE RESIDENT**.
+- Current exact story endpoint: Chapter 501 - **THE PLAYER**.
 - `MANUSCRIPT_STATE.md` owns the exact current endpoint and executable next trailhead.
 - Exact chapter checkpoint headers under `state/manuscript/` are authoritative for Chapter 249 onward.
 - This file is a routing aid, not a second manuscript authority.
@@ -16,7 +16,6 @@ Before naming a new chapter:
 4. repeat a role only intentionally.
 
 ## Recent title window
-- 489. **THE TIMER**
 - 490. **THE CONTRACTOR**
 - 491. **THE ACQUAINTANCE**
 - 492. **THE RESPONDENT**
@@ -28,6 +27,7 @@ Before naming a new chapter:
 - 498. **THE OBSERVER**
 - 499. **THE TESTER**
 - 500. **THE RESIDENT**
+- 501. **THE PLAYER**
 
 ## Historical routing
 - Chapters 1-82: Book 1 authority and static chapter history.
