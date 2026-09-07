@@ -34,6 +34,8 @@ class PerformanceSpeakerOwnershipTests(unittest.TestCase):
 
             self.assertEqual("screenplay_ground_truth", packet["speaker_ownership_policy"]["authority"])
             self.assertIn("speaker ownership", prompt.lower())
+            self.assertIn("explicit speaker labels for every spoken exchange", prompt.lower())
+            self.assertIn("do not collapse dialogue into action-only beat summaries", prompt.lower())
             self.assertIn("three or more speakers", prompt.lower())
             self.assertIn("another character's action", prompt.lower())
             self.assertIn("said/asked", prompt.lower())
