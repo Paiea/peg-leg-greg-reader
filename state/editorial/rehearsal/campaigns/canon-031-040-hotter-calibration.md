@@ -26,3 +26,13 @@ Repeated objects, words, or gestures remain legal when the repetition escalates 
 The critic may now retain a candidate even when the source is already clear if the performed version is materially more specific to the character. Generic `looked`, `stared`, `nodded`, `shrugged`, or facial reaction beats are especially vulnerable when the actor can instead perform through the work already present in the scene.
 
 Dialogue is allowed to change more freely than in the prior wave, but should not become a catchphrase system. Preserve plain speech when plain speech is the character's strongest choice.
+
+## Outcome
+
+The hotter pass produced 8 surviving exact-source returns across canon 031, 033, 034, 035, 037, and 039. Canon 032, 036, 038, and 040 remained source wins because their dialogue and embodied work were already stronger than the fresh performed alternatives.
+
+The surviving changes concentrate on task-owned movement and relationship rhythm: Hessa stays attached to measurement instead of trading a generic look, Rusk keeps marking work while answering Greg, Arlo routes a simple ownership answer through the regulator, Nessa finishes the transaction rather than supplying a generic nod, Jorren's familiar resistance to Mara is carried by the water cup, Etta answers with a hand on the failed gate, and Alden/Berren's spar rules stay physically attached to Berren's injured boot.
+
+The first workflow attempt correctly stopped before prose application because `relationship_behavior` had been mislabeled as a writable prose surface. The manifest was corrected without expanding write authority. On retry, all 8 returns exact-source matched and applied. Diff boundaries, hard-surface rejection, no-em-dash checks, the full repository unit suite, PERFORMANCE roundtrip references, Showcase validation, and `git diff --check` all passed before the bot commit.
+
+Resulting prose commit: `372b9e3867c7736ab3e983059f9d1875710d5149`.
