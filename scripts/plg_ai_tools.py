@@ -8,6 +8,7 @@ from typing import Any, Callable
 
 from scripts import brain_compiler
 from scripts import brain_doctor as brain_doctor_module
+from scripts import creator_taste_prior
 from scripts import performance_campaign
 from scripts import performance_index
 from scripts import performance_production_funnel as funnel
@@ -105,6 +106,7 @@ def sync_story(payload: dict[str, Any]) -> dict[str, Any]:
     if state is None:
         raise ValueError("sync_story requires state or state_path")
     report = story_sync_engine.sync_story(state)
+    report = creator_taste_prior.augment_sync_report(state, report)
     output_path = payload.get("output_path")
     if output_path is not None:
         path = Path(str(output_path))
@@ -130,7 +132,7 @@ TOOL_SPECS = {
     "run_campaign": {"write": False, "read_only": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
     "get_campaign_result": {"write": False, "read_only": True, "description": "Return the compact reduced result for a campaign."},
     "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
-    "sync_story": {"write": False, "read_only": False, "description": "Synchronize long-form possibilities, discoveries, propagation, convergence, hidden canon, and reader dependencies without mutating canon prose."},
+    "sync_story": {"write": False, "read_only": False, "description": "Synchronize long-form possibilities, discoveries, propagation, convergence, hidden canon, reader dependencies, and optional creator-taste rehearsal hints without mutating canon prose."},
     "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
