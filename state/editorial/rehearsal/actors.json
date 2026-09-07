@@ -89,6 +89,58 @@
         {"value": "mechanical thought should often emerge through fixtures, notebooks, failed parts, readings, and active task behavior rather than clipped refusal chains", "provenance": "performance_roundtrip_evidence"}
       ],
       "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.malcolm.v1",
+      "actor_name": "Malcolm",
+      "role": "Teren",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "acting corrections should be brief, local, and playable rather than speeches about acting or life", "provenance": "character_bible"},
+        {"value": "theatre authority is role-specific; do not inflate him into Greg's mentor in every domain", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.vera.v1",
+      "actor_name": "Vera",
+      "role": "Nessa",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "owns props, resets, storage, handoffs, costume continuity, and backstage object routes through direct practical behavior", "provenance": "character_bible"},
+        {"value": "respond to actual material consequences rather than becoming an omniscient prop cop", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.suki.v1",
+      "actor_name": "Suki",
+      "role": "Hara",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "strong performer who can own audience beats and recover live inside a scene without Greg becoming the center", "provenance": "character_bible"},
+        {"value": "accountability toward Greg is peer-level and dry, not instructional or sentimental", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.jules.v1",
+      "actor_name": "Jules",
+      "role": "Marek",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "strong performer with humor, improvisation, and recovery competence", "provenance": "character_bible"},
+        {"value": "engagement with stage objects may create trouble or useful information; do not flatten him into an idiot or permanent liability", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
     }
   ]
 }
