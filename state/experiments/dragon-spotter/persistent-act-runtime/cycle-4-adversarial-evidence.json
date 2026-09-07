@@ -1,0 +1,88 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-4:relationship-downstream-adversarial",
+    "target_id": "target:discovery:operational-reliance-before-personal-trust",
+    "source_act": "act-iv",
+    "experiment_mode": "performance",
+    "fidelity": "high_heat",
+    "finding": "Downstream adversarial PERFORMANCE preserved reciprocal operational reliance when motive remained legitimately ambiguous, but only when both leads explicitly bounded what they were trusting. Personal trust remained guarded; failure and asymmetric reliance stayed live under alternative takes.",
+    "confidence": 0.82,
+    "provenance": "state/experiments/dragon-spotter/story-sync/cycle-4-relationship-adversarial-performance.json",
+    "local_discoveries": [
+      {
+        "id": "a4.bounded-domain-trust",
+        "finding": "Later pressure can preserve costly professional reliance without requiring either lead to treat undisclosed motives as trustworthy."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "operational-reliance-before-personal-trust",
+        "evidence": {
+          "source_id": "performance:ds.act-iii-to-iv.relationship-third-path:adversarial-survival",
+          "independent_group": "relationship-third-path-downstream-adversarial",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["relationship", "character", "plot", "tension"],
+          "regions": ["act-iii", "act-iv"]
+        }
+      },
+      {
+        "discovery_id": "mutual-indispensability",
+        "evidence": {
+          "source_id": "performance:ds.act-iii-to-iv.relationship-third-path:branch-independence-challenge",
+          "independent_group": "relationship-third-path-downstream-adversarial",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["relationship", "character", "plot"],
+          "regions": ["act-iv"]
+        }
+      }
+    ],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-4:first-gift-comparison",
+    "target_id": "target:shared-contradiction:first-gift-form",
+    "source_act": "act-i",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "finding": "Gift comparison found coin/material treasure and scale-token/relic-like treasure still do meaningfully different story work. Material value sharpens ownership and mercenary consequences; a token sharpens ambiguous recognition and diplomatic interpretation. Neither can be rejected before the first dragon's concrete want is resolved, and an over-credentialed token risks duplicating later dragon-recognition work.",
+    "confidence": 0.74,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-branch-comparisons.json#first_gift_form",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-4:ending-office-comparison",
+    "target_id": "target:shared-contradiction:ending-office-role",
+    "source_act": "act-iv",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "Crown Spotter and dragon envoy remain distinct trajectories rather than cosmetic titles. Crown Spotter means institutional incorporation of an office remade by lived competence; dragon envoy means cross-polity legitimacy that the Crown does not fully own. Existing dragon recognition supports either because it precedes human title. The final political bargain and Greg's relationship to incorporation must discriminate them.",
+    "confidence": 0.79,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-branch-comparisons.json#ending_office_role",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  }
+]
