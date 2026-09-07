@@ -1,52 +1,94 @@
-# REHEARSAL Greg Inner Voice Boundary Addendum
+# REHEARSAL Private Inner Performance Boundary Addendum
 
 Status: approved design clarification
 
 Applies to: `docs/superpowers/specs/2026-09-06-rehearsal-modes-memory-inner-voice-design.md`
 
-This addendum sharpens the Greg `INNER VOICE` contract. Where wording in the parent spec is ambiguous, this addendum controls.
+This addendum sharpens the actor inner-performance contract. Where wording in the parent spec is ambiguous, this addendum controls.
 
-## Private performance state
+## Character versus actor authority
 
-Greg's `INNER VOICE` is private performance state owned by Nico.
+PRIVATE INNER VOICE is actor-generated performance state, not literal character truth.
 
-Other actors may observe only Greg's externally available performance:
+Conceptually:
+
+- **CHARACTER** = durable story identity, canon history, knowledge boundaries, relationships, constraints, and supported tendencies
+- **ACTOR** = active inference and performance process for the current scene
+- **PRIVATE INNER VOICE** = the actor's current interpretation of what the character may be thinking, wanting, misreading, suppressing, deciding, fearing, hoping, resenting, or strategically withholding
+- **CANON INNER STATE** = only established when independently supported by canon, explicitly user-authored, accepted through a prose return, or promoted through existing supported-memory authority rules
+
+Do not model rehearsal output as `character.thinks = X`.
+
+Model it as the actor performing a private interpretation of the character under the current dramatic lock.
+
+Two independent takes may therefore assign different private motives to the same character while still producing the same character-specific observable behavior. Convergence on observable behavior is stronger rehearsal evidence than convergence on a private motive. Private motive convergence remains hypothesis-level unless independently supported.
+
+Greg/Nico follows the same actor-versus-character distinction. Nico's `INNER VOICE` becomes Greg's actual first-person thought only if the resulting prose return survives editorial acceptance.
+
+## Performance channels
+
+Meaningful actors may perform through three channels.
+
+Greg/Nico:
 
 - `BODY`
 - `VOICE`
+- `INNER VOICE`
 
-Other actors may not receive, inspect, infer from privileged metadata, or respond directly to Greg's `INNER VOICE` output.
+Other meaningful actors:
 
-`INNER VOICE` is available to:
+- `BODY`
+- `VOICE`
+- `PRIVATE INNER VOICE`
 
-- Nico while playing Greg
-- the novelizer
-- critics that explicitly evaluate Greg's internal performance or the resulting prose
+The hidden channel exists to improve visible character performance and subtext. It does not grant reader access to non-Greg interiority.
 
-A thought may influence another actor only after Greg externalizes something observable through:
+## Hard information boundary
+
+Every actor's private inner performance is private to that actor.
+
+Actor execution may receive only:
+
+- durable character information that actor is entitled to know
+- scene-local role packet state
+- observable BODY and VOICE outputs from other actors
+- other canon-visible facts available to that character
+
+One actor may not receive, inspect, infer from privileged rehearsal metadata, or respond directly to another actor's private inner performance.
+
+A private interpretation may affect another actor only after its owner externalizes something observable through:
 
 - speech
 - action
 - hesitation
 - expression
 - posture
+- timing
+- silence
+- interruption
 - object handling
+- strategic omission
 - another physically or socially legible behavior
 
 This is a hard information boundary, not a style preference.
 
-The ensemble simulation must therefore distinguish:
+No rehearsal take may accidentally grant telepathic access or unsupported knowledge simply because the engine can see the complete rehearsal state.
 
-- **private actor state**: Greg's `INNER VOICE`
-- **observable actor output**: Greg's `BODY` and `VOICE`
+## Novelization visibility
 
-No rehearsal take may accidentally grant another actor telepathic access to Greg's internal performance.
+Only Greg/Nico's `INNER VOICE` is directly eligible for first-person novelization.
 
-## Inner voice is not sentence-bound
+Non-Greg `PRIVATE INNER VOICE` is hidden performance state. It may influence only that actor's outward performance and may not be exposed directly to Greg, another actor, or the reader.
 
-The parent spec describes `INNER VOICE` as dialogue because it is live, responsive, timed, character-owned performance.
+Novelizer and approved critics may inspect Greg's `INNER VOICE`.
 
-That does **not** require thought to arrive as grammatical internal monologue.
+For non-Greg actors, critics may inspect `PRIVATE INNER VOICE` only for rehearsal-quality checks such as knowledge leakage, motive over-explanation, duplication of spoken dialogue, ambiguity destruction, or synthetic self-confirmation. The novelizer may consume only the resulting observable BODY/VOICE/subtext consequences, not the hidden thought text itself.
+
+## Inner performance is not sentence-bound
+
+The parent spec describes Greg's `INNER VOICE` as dialogue because it is live, responsive, timed, actor-owned performance.
+
+That does **not** require cognition to arrive as grammatical internal monologue.
 
 > “Dialogue” describes the live, responsive nature of INNER VOICE, not its grammatical form. Nico may perform nonverbal or pre-verbal cognition where appropriate.
 
@@ -64,39 +106,71 @@ Greg's cognition may be performed as:
 - bodily anticipation
 - emotional recoil before naming the emotion
 - recognition without immediate verbal explanation
+- suppressed joke
+- self-correction
+- abrupt strategic branching
+
+Non-Greg `PRIVATE INNER VOICE` may use the same broad cognition forms when useful to performance.
 
 A performed thought may contain no complete sentence at all.
 
-The novelizer should preserve the **shape and timing of cognition** when useful, not automatically convert every internal event into polished internal monologue.
+The novelizer should preserve the **shape and timing of Greg's cognition** when useful, not automatically convert every internal event into polished internal monologue.
 
-The critic should penalize prose that makes Greg's mind implausibly articulate merely because the rehearsal representation was explicit.
+## Relationship-memory authority
 
-## Novelization consequence
+Private interpretations discovered in rehearsal may enter relationship-local `HYPOTHESIS` memory.
 
-The novelizer may use private `INNER VOICE` to shape:
+They remain visibly synthetic unless independently supported.
 
-- paragraph rhythm
-- attention order
-- sentence length
-- omission
-- interruption
-- associative transitions
-- memory intrusion
-- sensory emphasis
-- spoken dialogue timing
-- whether a thought appears explicitly on the page at all
+A synthetic private motive cannot become increasingly true merely because later takes received it in their actor packets. Repeated rehearsal use does not count as independent support.
 
-Not every rehearsed thought should survive as text.
+Only existing independent support classes may move a private interpretation toward supported authority:
 
-The goal is not more thought. The goal is more accurately performed cognition.
+- current canon evidence
+- accepted prose returns
+- explicit user-authored truth
+- existing supported-memory promotion rules
+
+## Take variance
+
+Sibling takes share the same frozen memory snapshot and cannot see one another before comparison.
+
+Sibling takes may choose different private interpretations.
+
+Example:
+
+- Hessa FREE A performs responsibility for Greg's safety as the dominant private interpretation
+- Hessa FREE B performs suspicion that Greg is hiding something as the dominant private interpretation
+
+If both independently produce similar observable behavior, such as controlling the lesson, refusing deflection, checking Greg's wrist, or waiting him out, the observable convergence is stronger rehearsal evidence.
+
+Do not promote the private motive merely because multiple synthetic takes converge on it.
+
+## Critics
+
+Inner-performance checks must reject or downgrade hidden thoughts that:
+
+- become overly neat explanations of behavior
+- duplicate exactly what the actor then says aloud
+- invent unsupported knowledge
+- solve intentional ambiguity
+- become canonical merely through repetition
+- leak into another actor's response
+- turn a character into a fixed hidden motive rather than an active scene interpretation
 
 ## Acceptance additions
 
 The parent spec's implementation acceptance criteria gain these requirements:
 
-1. actor-facing ensemble views never expose Greg's `INNER VOICE` to non-Greg actors
-2. novelizer and approved critics can access Greg's `INNER VOICE`
-3. Greg's `INNER VOICE` representation supports sentence and non-sentence cognition forms
-4. no schema requires every internal event to contain grammatical prose
-5. tests prove that another actor cannot respond to private thought unless an observable BODY or VOICE output externalizes it
-6. the first Nico campaign samples nonverbal and pre-verbal cognition instead of generating only internal monologue
+1. meaningful non-Greg actors may emit `PRIVATE INNER VOICE`
+2. only Greg/Nico's `INNER VOICE` is directly eligible for novelization
+3. actor-facing ensemble views never expose another actor's private inner performance
+4. private inner performance cannot grant unsupported knowledge
+5. private rehearsal interpretations enter hypothesis rather than supported truth by default
+6. repeated synthetic use cannot self-promote
+7. sibling variance takes preserve frozen-memory independence while allowing different private interpretations
+8. convergent observable behavior may become stronger rehearsal evidence without promoting the underlying private motive
+9. Greg's `INNER VOICE` and non-Greg private cognition support sentence and non-sentence forms
+10. existing BODY/VOICE behavior remains backward-compatible
+11. no new unrestricted write path to `main` is introduced
+12. the first 001-020 rerun uses high-authority FREE rehearsal for both Greg's live cognition and other actors' hidden subtext
