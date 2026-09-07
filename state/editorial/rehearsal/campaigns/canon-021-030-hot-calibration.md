@@ -30,6 +30,15 @@ Movement should not exist merely to prove a rehearsal happened. Prefer movement 
 
 Raise the prior for character-specific dialogue. A line may survive even when the source is already clear if the new phrasing is more specifically this character under this pressure and does not turn them into a catchphrase machine.
 
-## Current 021–030 target
+## Result
 
-This calibration reruns current canon 021–030 as fresh source and allows surgical FREE returns. The first return set intentionally favors small embodiment and dialogue-shape changes over broad rewrites.
+The hotter rerun produced 7 exact FREE survivors across canon 021 / 023 / 029 / 030.
+
+- Octavia now returns to the ledger or interrupts her own writing where work ownership carries the beat better than generic stare/frown prose.
+- Ressa's intake authority is more embodied, and one instruction was sharpened from `Then stop it if shouting fails` to `Shout first. If that fails, stop it.`
+- canon Kellan controls Greg's access to the creature physically rather than with a generic crossed-arms beat, and his interest turns on Greg's actual casting restriction.
+- Alden's quiet relationship beat now runs through the grass in his hand and the torn red scarf rather than generic surprise.
+
+All 7 returns passed exact-source matching, soft-surface authority, changed-file boundaries, hard-surface leakage checks, the no-em-dash prose check, the full repository unit suite, PERFORMANCE reference validation, Showcase validation, and `git diff --check` before the bot committed them.
+
+This is the preferred production calibration direction: source does not lose merely because movement can be invented, but readable source also does not automatically win when a more character-specific embodied beat is clearly stronger.
