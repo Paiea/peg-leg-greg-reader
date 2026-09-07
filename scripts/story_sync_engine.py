@@ -4,6 +4,8 @@ from __future__ import annotations
 import copy
 from typing import Any
 
+from scripts import creator_taste_prior
+
 SYNC_STATE_SCHEMA = "story_sync_state/v1"
 SYNC_REPORT_SCHEMA = "story_sync_report/v1"
 DISCOVERY_LEVELS = ("speculation", "repeated_signal", "strong_thread", "story_truth")
@@ -444,7 +446,7 @@ def _rehearsal_targets(
     )
 
 
-def sync_story(state: dict[str, Any]) -> dict[str, Any]:
+def sync_story(state: dict[str, Any], *, creator_taste: dict[str, Any] | None = None) -> dict[str, Any]:
     """Synchronize derived long-form story state without merging competing ideas.
 
     The report is a plan/evidence surface. It does not mutate canon prose and does not
@@ -519,7 +521,7 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
     unresolved_questions = copy.deepcopy(state.get("unresolved_questions", []))
     rehearsal_targets = _rehearsal_targets(state, discovery_levels, discovery_records)
 
-    return {
+    report = {
         "schema": SYNC_REPORT_SCHEMA,
         "phase": phase,
         "story_confidence": float(state.get("story_confidence", 0.0)),
@@ -545,3 +547,6 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
         "authority_effect": "derived_only_no_canon_mutation",
         "merge_policy": "preserve_viable_divergence",
     }
+    if creator_taste is not None:
+        return creator_taste_prior.augment_sync_report(state, report, creator_taste=creator_taste)
+    return report
