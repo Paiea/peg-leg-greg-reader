@@ -1,0 +1,151 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-3:romantic-trust-high-heat",
+    "target_id": "target:boundary:act-ii:act-iii:romantic_trust:a2-out-romantic-trust:a3-in-romantic-trust",
+    "source_act": "act-iii",
+    "experiment_mode": "performance",
+    "fidelity": "high_heat",
+    "finding": "High-heat PERFORMANCE did not support broad mutual romantic trust as the immediate Act III entry state. The strongest behavior was reciprocal operational reliance under real cost while personal trust remained guarded. Attraction intensified around competence but did not erase distrust.",
+    "confidence": 0.84,
+    "provenance": "state/experiments/dragon-spotter/story-sync/cycle-3-romantic-trust-performance.json",
+    "local_discoveries": [
+      {
+        "id": "a3.operational-reliance-guarded-personal-trust",
+        "finding": "By the Act II to III boundary, the pair can honestly act on each other's field judgment under cost while still withholding broad personal trust."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [
+      {
+        "id": "operational-reliance-before-personal-trust",
+        "finding": "For the Spotter and Scholar, reciprocal operational reliance can stabilize before broad personal trust; attraction can intensify inside that gap instead of resolving it.",
+        "confidence": "speculation",
+        "book_shaping": false,
+        "evidence": [
+          {
+            "source_id": "performance:ds.act-ii-to-iii.romantic-trust.high-heat:third-path",
+            "independent_group": "romantic-trust-boundary-high-heat",
+            "kind": "support",
+            "dramatic_uses": ["relationship", "character", "plot", "heat"],
+            "regions": ["act-ii", "act-iii"]
+          }
+        ],
+        "propagation": []
+      }
+    ],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "mutual-indispensability",
+        "evidence": {
+          "source_id": "performance:ds.act-ii-to-iii.romantic-trust.high-heat:adversarial-dependence",
+          "independent_group": "romantic-trust-boundary-high-heat",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["relationship", "character", "plot", "tension"],
+          "regions": ["act-iii"]
+        }
+      },
+      {
+        "discovery_id": "heat-through-competence",
+        "evidence": {
+          "source_id": "performance:ds.act-ii-to-iii.romantic-trust.high-heat:attraction-trust-separation",
+          "independent_group": "romantic-trust-boundary-high-heat",
+          "kind": "support",
+          "dramatic_uses": ["relationship", "character", "tension"],
+          "regions": ["act-iii"]
+        }
+      }
+    ],
+    "constraint_responses": [],
+    "boundary_updates": [
+      {
+        "act_id": "act-iii",
+        "boundary_side": "state_in",
+        "boundary_id": "a3-in-romantic-trust",
+        "value": "mutual-operational-reliance-with-guarded-personal-trust",
+        "confidence": 0.72,
+        "reason": "PERFORMANCE found reciprocal costly field reliance but did not support general personal trust; the later act hypothesis must narrow rather than pretending the preferred label survived unchanged."
+      }
+    ],
+    "boundary_responses": [
+      {
+        "boundary_id": "boundary:act-ii:act-iii:romantic_trust:a2-out-romantic-trust:a3-in-romantic-trust",
+        "target_act": "act-iii",
+        "response": "supported",
+        "reason": "After revising the Act III target to reciprocal operational reliance with guarded personal trust, the high-heat take demonstrates a costly behavioral bridge from guarded respect without requiring instant emotional trust."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-3:professional-role-bridge",
+    "target_id": "target:boundary:act-ii:act-iii:professional_role:a2-out-role:a3-in-role",
+    "source_act": "act-iii",
+    "experiment_mode": "state_transition_test",
+    "fidelity": "development",
+    "finding": "Political liability and needed-envoy are compatible when institutions reluctantly deploy the same irregular operator whose dragon-facing effectiveness makes him embarrassing. The transition does not require formal rehabilitation first.",
+    "confidence": 0.78,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-structural-boundary-rehearsals.json#professional_role",
+    "local_discoveries": [
+      {
+        "id": "a3.liability-can-create-reluctant-need",
+        "finding": "Institutional need can increase before institutional approval when external actors recognize competence that the bureaucracy cannot easily reproduce."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": [
+      {
+        "boundary_id": "boundary:act-ii:act-iii:professional_role:a2-out-role:a3-in-role",
+        "target_act": "act-iii",
+        "response": "supported",
+        "reason": "The development rehearsal found a causal bridge through reluctant deployment: liability remains real while his unique dragon-facing utility makes him needed."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-3:public-identity-bridge",
+    "target_id": "target:boundary:act-iii:act-iv:public_identity:a3-out-public-identity:a4-in-public-identity",
+    "source_act": "act-iv",
+    "experiment_mode": "state_transition_test",
+    "fidelity": "development",
+    "finding": "Dragon recognition can accumulate from repeated behavior-based routing while human institutions continue contesting his legitimacy. Human title does not need to precede dragon-recognized interlocutor status.",
+    "confidence": 0.8,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-structural-boundary-rehearsals.json#public_identity",
+    "local_discoveries": [
+      {
+        "id": "a4.dragon-recognition-can-precede-office",
+        "finding": "Repeated dragons can recognize an interlocutor through reliable responsive bargaining before human institutions agree what office he holds."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "a1-to-a4-earned-recognition",
+        "response": "supported",
+        "reason": "The structural recognition-through-routing path gives the Act I consequence an honest Act IV landing point without requiring human credentialing to cause dragon recognition."
+      }
+    ],
+    "boundary_updates": [],
+    "boundary_responses": [
+      {
+        "boundary_id": "boundary:act-iii:act-iv:public_identity:a3-out-public-identity:a4-in-public-identity",
+        "target_act": "act-iv",
+        "response": "supported",
+        "reason": "Contested human legitimacy and dragon recognition can overlap; repeated dragon routing supplies the transition without choosing the final Crown Spotter versus dragon envoy office branch."
+      }
+    ]
+  }
+]
