@@ -5,14 +5,27 @@ on:
     branches:
       - main
       - editor/performance-production-funnel
+      - architecture/performance-campaign-codex-mode
     paths:
+      - 'AGENTS.md'
       - 'state/editorial/performance-production/**'
       - 'state/editorial/performance-roundtrip/**'
+      - 'state/editorial/CODEX_EXECUTION_POLICY.md'
       - 'scripts/performance_production_funnel.py'
       - 'scripts/performance_roundtrip_references.py'
+      - 'scripts/performance_index.py'
+      - 'scripts/performance_campaign.py'
+      - 'scripts/plg_ai_tools.py'
+      - 'scripts/plg_mcp_server.py'
+      - 'requirements-mcp.txt'
       - 'tests/test_performance_production_funnel.py'
       - 'tests/test_performance_production_ir.py'
       - 'tests/test_performance_production_workflow.py'
+      - 'tests/test_performance_index.py'
+      - 'tests/test_performance_campaign.py'
+      - 'tests/test_performance_campaign_execution.py'
+      - 'tests/test_plg_ai_tools.py'
+      - 'tests/test_plg_mcp_server.py'
       - '.github/workflows/performance-production-funnel.yml'
   workflow_dispatch:
     inputs:
@@ -36,8 +49,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run focused PERFORMANCE compiler tests
-        run: python -m unittest tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow -v
+      - name: Run focused PERFORMANCE compiler and campaign tests
+        run: python -m unittest tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow tests.test_performance_index tests.test_performance_campaign tests.test_performance_campaign_execution tests.test_plg_ai_tools tests.test_plg_mcp_server -v
 
       - name: Smoke compile one canon chapter to disposable state
         run: python scripts/performance_production_funnel.py --compile-chapter 7 --output-root /tmp/performance-compiler-smoke
@@ -47,6 +60,12 @@ jobs:
 
       - name: Run repository unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Install optional MCP v2 SDK
+        run: python -m pip install -r requirements-mcp.txt
+
+      - name: Verify MCP adapter against installed SDK
+        run: python -m unittest tests.test_plg_mcp_server -v
 
       - name: Validate existing PERFORMANCE archives
         run: python scripts/performance_roundtrip_references.py --check

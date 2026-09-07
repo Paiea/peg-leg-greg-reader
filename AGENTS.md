@@ -118,6 +118,14 @@ Use:
 
 Avoid finished work existing only in chat or a mystery local file.
 
+### Chat / Codex execution split
+
+Chat is the preferred surface for creative direction, taste, architecture, and new doctrine.
+
+For an explicitly approved bounded bulk job, Codex campaign mode is an execution policy, not a lane. Read `state/editorial/CODEX_EXECUTION_POLICY.md`, use the existing compiler/index/campaign tools, prefer deterministic and cache-valid work, do not widen scope, keep parallel workers derived-only, serialize canon integration, and halt once the requested durable boundary verifies.
+
+AI-facing PLG operations live in `scripts/plg_ai_tools.py`; the optional MCP adapter is `scripts/plg_mcp_server.py`. Do not rediscover file layout manually when these tools can compile, resolve, query, reduce, or execute the needed state.
+
 ### GitHub-first handoff
 
 When current project authority is already in GitHub, do not create or request a full repository ZIP merely to move work between chats or agents.
