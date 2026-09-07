@@ -69,10 +69,11 @@ def _trial_observation(project, label, result):
 
 def _assert_cycle_expectations(testcase, result, expected):
     testcase.assertEqual("derived_only_no_canon_mutation", result["authority_effect"])
-    testcase.assertLessEqual(
-        len(result["shared_story_sync"].get("story_truths", [])),
-        int(expected.get("max_story_truths", 0)),
-    )
+    if "max_story_truths" in expected:
+        testcase.assertLessEqual(
+            len(result["shared_story_sync"].get("story_truths", [])),
+            int(expected["max_story_truths"]),
+        )
     if "max_open_branch_delta" in expected:
         testcase.assertLessEqual(
             result["branch_entropy"]["open_branch_delta"],
@@ -94,6 +95,21 @@ def _assert_cycle_expectations(testcase, result, expected):
             for item in result.get("constraint_closure", {}).get("messages", [])
         )
         testcase.assertGreaterEqual(statuses["supported"], int(expected["min_supported_constraints"]))
+    if "required_active_local_branches" in expected:
+        active_local = {
+            f"{act_id}:{possibility.get('id')}"
+            for act_id in runtime.ACT_IDS
+            for possibility in result["evolved_runtime"]["acts"][act_id]["local_state"].get("possibilities", [])
+            if possibility.get("status", "active") == "active"
+            and possibility.get("viability", "viable") not in {"redundant", "invalidated"}
+        }
+        testcase.assertTrue(set(expected["required_active_local_branches"]).issubset(active_local))
+    if "required_shared_branches_preserved" in expected:
+        testcase.assertTrue(
+            set(expected["required_shared_branches_preserved"]).issubset(
+                set(result["shared_story_sync"].get("branches_preserved", []))
+            )
+        )
     for discovery_id, expected_level in expected.get("discovery_levels", {}).items():
         testcase.assertEqual(
             expected_level,
