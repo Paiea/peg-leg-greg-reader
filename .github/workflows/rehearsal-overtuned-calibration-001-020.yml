@@ -98,8 +98,8 @@ jobs:
       - name: Full repository validation
         run: |
           python -m unittest discover -s tests -p 'test_*.py'
-          python scripts/validate_performance_roundtrip_archive.py
-          python scripts/validate_showcase.py
+          python scripts/performance_roundtrip_references.py --check
+          python scripts/project_check.py showcase
           git diff --check
 
       - name: Commit overtuned calibration prose
