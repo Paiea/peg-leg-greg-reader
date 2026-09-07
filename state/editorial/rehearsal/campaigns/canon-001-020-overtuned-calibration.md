@@ -130,6 +130,12 @@ A first-person novel still needs compression. Some thoughts should remain though
 
 Production should not replace every cognition verb with a gesture merely because a gesture can be generated.
 
+### Remaining ownership watch
+
+The overtuned manifest is not exhaustive. A post-write spot check still found a fragile canon 010 exchange shaped as `"What does the borrower need six gold for?" Antonius said, "No."` The intended ownership appears to be Greg asking and Antonius refusing, but the current paragraph attaches both voices awkwardly.
+
+Treat this as a high-confidence follow-up rather than evidence that the calibration failed. The campaign was deliberately aimed at actor-driven prose authority, not a complete mechanical attribution sweep.
+
 ### Actor motif recursion
 
 A successful actor discovery can become self-reinforcing if later takes receive it as identity guidance. The anti-self-confirmation rule remains necessary.
