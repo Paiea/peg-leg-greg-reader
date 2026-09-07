@@ -1,0 +1,82 @@
+name: Reverse Edit Showcase 20 Trial
+
+on:
+  push:
+    branches:
+      - editor/reverse-edit-showcase-20
+    paths:
+      - 'scripts/performance_selected_campaign.py'
+      - '.github/workflows/reverse-edit-showcase-20-trial.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Resolve accepted main authority
+        run: echo "SOURCE_AUTHORITY=$(git rev-parse origin/main)" >> "$GITHUB_ENV"
+
+      - name: Compile Brain packet for trial
+        run: |
+          mkdir -p .cache/plg/trial
+          python scripts/brain_compiler.py compile \
+            --task "reverse edit performance first 20 showcase chapters" \
+            --authority-branch main \
+            --authority-sha "$SOURCE_AUTHORITY" \
+            --format json > .cache/plg/trial/brain-packet.json
+
+      - name: Plan selected reverse-edit campaign
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from scripts.performance_selected_campaign import plan_selected_campaign
+
+          ids = [1,2,4,5,7,9,10,11,13,14,15,16,17,18,19,22,23,24,25,26]
+          result = plan_selected_campaign(
+              task="reverse_edit",
+              chapter_ids=ids,
+              source_authority=os.environ["SOURCE_AUTHORITY"],
+              chapter_root=Path("chapters"),
+              cache_root=Path(".cache/plg"),
+              profile="eco",
+              executor="manual",
+          )
+          Path(".cache/plg/trial/plan-result.json").write_text(
+              json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+          )
+          print(json.dumps(result, indent=2))
+          PY
+
+      - name: Verify selected scope
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          plans = list(Path('.cache/plg/campaigns').glob('*/campaign.json'))
+          if len(plans) != 1:
+              raise SystemExit(f'expected one campaign, found {len(plans)}')
+          campaign = json.loads(plans[0].read_text(encoding='utf-8'))
+          expected = [1,2,4,5,7,9,10,11,13,14,15,16,17,18,19,22,23,24,25,26]
+          if campaign['scope']['chapter_ids'] != expected:
+              raise SystemExit('selected scope mismatch')
+          print(f"Selected {len(expected)} Showcase-visible chapters; {campaign['plan']['scenes_considered']} scenes; {campaign['plan']['packets_planned']} packets; {campaign['plan']['cache_hits']} cache hits")
+          PY
+
+      - name: Upload disposable campaign packets
+        uses: actions/upload-artifact@v4
+        with:
+          name: reverse-edit-showcase-20-packets
+          path: .cache/plg
+          if-no-files-found: error
+          retention-days: 7
