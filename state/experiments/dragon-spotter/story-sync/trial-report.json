@@ -207,6 +207,100 @@
       "evidence": ["gift-reciprocity", "compare.central-conflict.2"]
     }
   ],
+  "unresolved_questions": [
+    {
+      "id": "q.first-dragon-want",
+      "question": "What concrete thing does the first dragon want badly enough to negotiate rather than simply take?",
+      "regions": ["act-i", "act-iii"],
+      "importance": "high"
+    },
+    {
+      "id": "q.dragon-absence-cause",
+      "question": "Why were dragons absent for thirty years, and what changed now?",
+      "regions": ["act-i", "act-iii", "act-iv"],
+      "importance": "medium"
+    },
+    {
+      "id": "q.romance-crossing",
+      "question": "Which professional pressure makes attraction undeniable without turning romance into a separate side plot?",
+      "regions": ["act-ii", "act-iii"],
+      "importance": "medium"
+    }
+  ],
+  "rehearsal_targets": [
+    {
+      "source_type": "contradiction",
+      "source_id": "ending-office-role",
+      "purpose": "compare_live_contradiction",
+      "heat": "high",
+      "members": ["ending.crown-spotter", "ending.dragon-envoy"],
+      "reason": "preserve divergent versions and pressure-test which behavior/causal path earns survival"
+    },
+    {
+      "source_type": "discovery",
+      "source_id": "gift-reciprocity",
+      "purpose": "challenge_strong_thread",
+      "heat": "high",
+      "reason": "strong cross-book support exists, but the thread has not yet survived an adversarial rehearsal",
+      "regions": ["act-i", "act-iii"]
+    },
+    {
+      "source_type": "discovery",
+      "source_id": "improvisation-is-competence-path",
+      "purpose": "challenge_strong_thread",
+      "heat": "high",
+      "reason": "strong cross-book support exists, but the thread has not yet survived an adversarial rehearsal",
+      "regions": ["act-i", "act-ii"]
+    },
+    {
+      "source_type": "question",
+      "source_id": "q.first-dragon-want",
+      "purpose": "resolve_unresolved_question",
+      "heat": "high",
+      "reason": "What concrete thing does the first dragon want badly enough to negotiate rather than simply take?",
+      "regions": ["act-i", "act-iii"]
+    },
+    {
+      "source_type": "contradiction",
+      "source_id": "first-gift-form",
+      "purpose": "compare_live_contradiction",
+      "heat": "medium",
+      "members": ["gift.coin", "gift.scale-token"],
+      "reason": "preserve divergent versions and pressure-test which behavior/causal path earns survival"
+    },
+    {
+      "source_type": "question",
+      "source_id": "q.dragon-absence-cause",
+      "purpose": "resolve_unresolved_question",
+      "heat": "medium",
+      "reason": "Why were dragons absent for thirty years, and what changed now?",
+      "regions": ["act-i", "act-iii", "act-iv"]
+    },
+    {
+      "source_type": "question",
+      "source_id": "q.romance-crossing",
+      "purpose": "resolve_unresolved_question",
+      "heat": "medium",
+      "reason": "Which professional pressure makes attraction undeniable without turning romance into a separate side plot?",
+      "regions": ["act-ii", "act-iii"]
+    },
+    {
+      "source_type": "discovery",
+      "source_id": "heat-through-competence",
+      "purpose": "test_repeated_signal",
+      "heat": "medium",
+      "reason": "independent recurrence exists, but dramatic usefulness is not broad enough for strong-thread promotion",
+      "regions": ["act-ii", "act-iii"]
+    },
+    {
+      "source_type": "discovery",
+      "source_id": "mutual-indispensability",
+      "purpose": "test_repeated_signal",
+      "heat": "medium",
+      "reason": "independent recurrence exists, but dramatic usefulness is not broad enough for strong-thread promotion",
+      "regions": ["act-i", "act-ii"]
+    }
+  ],
   "immediate_sync_discoveries": ["gift-reciprocity", "improvisation-is-competence-path"],
   "immediate_sync_contradictions": ["ending-office-role"],
   "sync_required": true,
