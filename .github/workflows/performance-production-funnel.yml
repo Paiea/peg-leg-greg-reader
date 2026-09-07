@@ -7,6 +7,7 @@ on:
       - editor/performance-production-funnel
       - architecture/performance-campaign-codex-mode
       - architecture/plg-brain-compiler
+      - editor/reverse-edit-showcase-20
     paths:
       - 'AGENTS.md'
       - 'state/brain/**'
@@ -29,6 +30,7 @@ on:
       - 'tests/test_performance_production_workflow.py'
       - 'tests/test_performance_index.py'
       - 'tests/test_performance_campaign.py'
+      - 'tests/test_performance_campaign_selection.py'
       - 'tests/test_performance_campaign_execution.py'
       - 'tests/test_plg_ai_tools.py'
       - 'tests/test_plg_mcp_server.py'
@@ -56,7 +58,7 @@ jobs:
           python-version: '3.12'
 
       - name: Run focused PERFORMANCE compiler, campaign, and brain tests
-        run: python -m unittest tests.test_brain_compiler tests.test_brain_doctor tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow tests.test_performance_index tests.test_performance_campaign tests.test_performance_campaign_execution tests.test_plg_ai_tools tests.test_plg_mcp_server -v
+        run: python -m unittest tests.test_brain_compiler tests.test_brain_doctor tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow tests.test_performance_index tests.test_performance_campaign tests.test_performance_campaign_selection tests.test_performance_campaign_execution tests.test_plg_ai_tools tests.test_plg_mcp_server -v
 
       - name: Validate PLG Brain routing
         run: python scripts/brain_doctor.py check
