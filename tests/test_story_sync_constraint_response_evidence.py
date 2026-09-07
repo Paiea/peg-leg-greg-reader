@@ -60,12 +60,8 @@ class RehearsalConstraintResponseEvidenceTests(unittest.TestCase):
             },
         }
 
-    def test_compact_rehearsal_evidence_can_close_directional_constraint(self):
-        state = self._runtime()
-        before = runtime.constraint_closure(state)
-        self.assertEqual("untested", before["messages"][0]["closure_status"])
-
-        evidence = {
+    def _support_evidence(self):
+        return {
             "schema": runtime.REHEARSAL_EVIDENCE_SCHEMA,
             "id": "evidence:forward-test",
             "target_id": "target:message:forward-test",
@@ -90,7 +86,12 @@ class RehearsalConstraintResponseEvidenceTests(unittest.TestCase):
             ],
         }
 
-        deltas = runtime.reduce_rehearsal_evidence(evidence)
+    def test_compact_rehearsal_evidence_can_close_directional_constraint(self):
+        state = self._runtime()
+        before = runtime.constraint_closure(state)
+        self.assertEqual("untested", before["messages"][0]["closure_status"])
+
+        deltas = runtime.reduce_rehearsal_evidence(self._support_evidence())
         self.assertIn("constraint_response", {item["type"] for item in deltas})
         updated = runtime.integrate_deltas(state, deltas)
         after = runtime.constraint_closure(updated)
@@ -99,6 +100,15 @@ class RehearsalConstraintResponseEvidenceTests(unittest.TestCase):
             runtime.temporal_consistency(updated)["unresolved_message_count"],
             runtime.temporal_consistency(state)["unresolved_message_count"],
         )
+
+    def test_supported_directional_constraint_retires_identical_probe_target(self):
+        state = self._runtime()
+        before = runtime.compile_rehearsal_targets(state)
+        self.assertTrue(any(item["source_id"] == "forward-test" and item["experiment_mode"] == "forward_consequence_test" for item in before))
+
+        updated = runtime.integrate_deltas(state, runtime.reduce_rehearsal_evidence(self._support_evidence()))
+        after = runtime.compile_rehearsal_targets(updated)
+        self.assertFalse(any(item["source_id"] == "forward-test" and item["experiment_mode"] == "forward_consequence_test" for item in after))
 
 
 if __name__ == "__main__":
