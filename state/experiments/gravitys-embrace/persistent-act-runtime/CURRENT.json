@@ -4,7 +4,7 @@
   "authority": "derived_experimental_not_story_canon",
   "architecture_branch": "architecture/long-form-story-compiler",
   "pull_request": 161,
-  "cycle": 3,
+  "cycle": 5,
   "cycle_status": "green_observed_trajectory_open",
   "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
   "source_inputs": {
@@ -12,22 +12,35 @@
     "cycle_1_evidence": "state/experiments/gravitys-embrace/persistent-act-runtime/rehearsal-evidence-cycle-001.json",
     "cycle_2_evidence": "state/experiments/gravitys-embrace/persistent-act-runtime/rehearsal-evidence-cycle-002.json",
     "cycle_3_evidence": "state/experiments/gravitys-embrace/persistent-act-runtime/rehearsal-evidence-cycle-003.json",
+    "cycle_4_evidence": "state/experiments/gravitys-embrace/persistent-act-runtime/rehearsal-evidence-cycle-004.json",
+    "cycle_5_evidence": "state/experiments/gravitys-embrace/persistent-act-runtime/rehearsal-evidence-cycle-005.json",
     "creator_taste": "state/experiments/gravitys-embrace/persistent-act-runtime/CREATOR_AUDIENCE_CONTEXT.json",
     "trial_manifest": "state/experiments/gravitys-embrace/persistent-act-runtime/trial-manifest.json"
   },
   "verification": {
-    "cycle_3_observation_commit": "45167fbb1dda0c024f859f13df5e859ed8ed92b4",
-    "workflow_run": 34135732065,
+    "latest_green_runtime_head_before_state_capture": "bfa5e11d58831aca94b419a4bb19dcf73f0c23aa",
+    "workflow_run": 34137789593,
     "focused_suite": {
-      "tests": 71,
+      "tests": 72,
       "result": "green"
     },
     "full_repository_suite": {
-      "tests": 527,
+      "tests": 529,
       "skipped": 6,
       "result": "green"
     },
-    "ci_authority": "read_only_validation"
+    "ci_authority": "read_only_validation",
+    "note": "Final exact-head validation must be rerun after CURRENT.md and CURRENT.json are committed."
+  },
+  "convergence_history": {
+    "open_branches": [23, 21, 21, 21, 21, 21],
+    "branch_pressure_score": [29, 30, 30, 30, 30, 30],
+    "temporal_pressure": [13, 16, 12, 9, 7, 7],
+    "unresolved_directional_messages": [6, 9, 4, 1, 0, 0],
+    "supported_directional_constraints": [0, 0, 5, 8, 9, 9],
+    "boundary_contradictions": [7, 7, 7, 7, 7, 7],
+    "survival_enables_offense_evidence": [1, 3, 3, 4, 4, 5],
+    "mechanics_can_carry_trust_evidence": [0, 1, 2, 3, 3, 3]
   },
   "cycle_metrics": {
     "cycle-000": {
@@ -37,33 +50,13 @@
       "boundary_contradictions": 7,
       "forward_consequences": 3,
       "backward_requirements": 3,
-      "constraint_status_counts": {
-        "untested": 6
-      },
+      "constraint_status_counts": {"untested": 6},
       "unresolved_messages": 6,
       "open_temporal_pressure": 13,
-      "discovery_levels": {
-        "survival-enables-offense": "speculation"
-      },
-      "discovery_evidence_counts": {
-        "survival-enables-offense": 1,
-        "mechanics-can-carry-trust": 0
-      },
-      "strong_threads": [],
+      "discovery_levels": {"survival-enables-offense": "speculation"},
+      "discovery_evidence_counts": {"survival-enables-offense": 1, "mechanics-can-carry-trust": 0},
       "story_truths": [],
-      "scheduled_experiment_modes": {
-        "backward_prerequisite_test": 3,
-        "forward_consequence_test": 3,
-        "performance": 3,
-        "plausibility_probe": 16,
-        "state_transition_test": 4,
-        "temporal_distance_rehearsal": 2
-      },
-      "scheduled_fidelities": {
-        "development": 10,
-        "high_heat": 3,
-        "probe": 18
-      }
+      "strong_threads": []
     },
     "cycle-001": {
       "open_branch_count": 21,
@@ -72,46 +65,17 @@
       "boundary_contradictions": 7,
       "forward_consequences": 5,
       "backward_requirements": 4,
-      "constraint_status_counts": {
-        "untested": 9
-      },
+      "constraint_status_counts": {"untested": 9},
       "unresolved_messages": 9,
       "open_temporal_pressure": 16,
       "discovery_levels": {
         "survival-enables-offense": "strong_thread",
         "mechanics-can-carry-trust": "speculation"
       },
-      "discovery_evidence_counts": {
-        "survival-enables-offense": 3,
-        "mechanics-can-carry-trust": 1
-      },
-      "strong_threads": [
-        "survival-enables-offense"
-      ],
+      "discovery_evidence_counts": {"survival-enables-offense": 3, "mechanics-can-carry-trust": 1},
       "story_truths": [],
-      "weakened_or_invalidated_branches": [
-        "act-ii:damage-height-only",
-        "act-ii:quick-mastery"
-      ],
-      "major_new_discoveries": [
-        "first survival reveals an offensive option without revealing the complete gravity recipe",
-        "useful impact is multivariable and costly rather than height-only or quickly mastered",
-        "gravity experimentation can create embodied trust before any relationship label is chosen"
-      ],
-      "scheduled_experiment_modes": {
-        "backward_prerequisite_test": 4,
-        "forward_consequence_test": 5,
-        "performance": 3,
-        "plausibility_probe": 16,
-        "state_transition_test": 4,
-        "temporal_distance_rehearsal": 2,
-        "trajectory_worldline_test": 1
-      },
-      "scheduled_fidelities": {
-        "development": 11,
-        "high_heat": 3,
-        "probe": 21
-      }
+      "strong_threads": ["survival-enables-offense"],
+      "weakened_or_invalidated_branches": ["act-ii:damage-height-only", "act-ii:quick-mastery"]
     },
     "cycle-002": {
       "open_branch_count": 21,
@@ -120,49 +84,17 @@
       "boundary_contradictions": 7,
       "forward_consequences": 5,
       "backward_requirements": 4,
-      "constraint_status_counts": {
-        "supported": 5,
-        "third_path": 1,
-        "untested": 3
-      },
+      "constraint_status_counts": {"supported": 5, "third_path": 1, "untested": 3},
       "unresolved_messages": 4,
       "open_temporal_pressure": 12,
       "discovery_levels": {
         "survival-enables-offense": "strong_thread",
         "mechanics-can-carry-trust": "strong_thread"
       },
-      "discovery_evidence_counts": {
-        "survival-enables-offense": 3,
-        "mechanics-can-carry-trust": 2
-      },
-      "strong_threads": [
-        "survival-enables-offense",
-        "mechanics-can-carry-trust"
-      ],
+      "discovery_evidence_counts": {"survival-enables-offense": 3, "mechanics-can-carry-trust": 2},
       "story_truths": [],
-      "major_new_discoveries": [
-        "practical spotting, timing, rescue, and recovery work can make another person mechanically valuable before any relationship label",
-        "later high-level social access does not require an early geographic gate; witnessed technique usefulness can create a third route"
-      ],
-      "third_path": {
-        "message_id": "ge-backward-social-access-earns-gate",
-        "finding": "earlier geography can remain unresolved while later social access is earned through witnessed technique value"
-      },
-      "scheduled_experiment_modes": {
-        "backward_prerequisite_test": 1,
-        "counterfactual_branch_comparison": 1,
-        "forward_consequence_test": 3,
-        "performance": 3,
-        "plausibility_probe": 16,
-        "state_transition_test": 4,
-        "temporal_distance_rehearsal": 2,
-        "trajectory_worldline_test": 2
-      },
-      "scheduled_fidelities": {
-        "development": 13,
-        "high_heat": 3,
-        "probe": 16
-      }
+      "strong_threads": ["survival-enables-offense", "mechanics-can-carry-trust"],
+      "geography_social_access_result": "third_path: later high-level access can be earned by witnessed technique usefulness without requiring the first fall to relocate the player"
     },
     "cycle-003": {
       "open_branch_count": 21,
@@ -171,55 +103,96 @@
       "boundary_contradictions": 7,
       "forward_consequences": 5,
       "backward_requirements": 4,
-      "constraint_status_counts": {
-        "supported": 8,
-        "third_path": 1
-      },
+      "constraint_status_counts": {"supported": 8, "third_path": 1},
       "unresolved_messages": 1,
       "open_temporal_pressure": 9,
       "discovery_levels": {
         "survival-enables-offense": "story_truth",
         "mechanics-can-carry-trust": "strong_thread"
       },
-      "discovery_evidence_counts": {
-        "survival-enables-offense": 4,
-        "mechanics-can-carry-trust": 3
+      "discovery_evidence_counts": {"survival-enables-offense": 4, "mechanics-can-carry-trust": 3},
+      "story_truths": ["survival-enables-offense"],
+      "strong_threads": ["mechanics-can-carry-trust"]
+    },
+    "cycle-004": {
+      "experiment": "target:ge-geography-third-path-closure",
+      "experiment_mode": "counterfactual_branch_comparison",
+      "fidelity": "development",
+      "open_branch_count": 21,
+      "open_branch_delta": 0,
+      "branch_pressure_score": 30,
+      "boundary_contradictions": 7,
+      "forward_consequences": 5,
+      "backward_requirements": 4,
+      "constraint_status_counts": {"supported": 9},
+      "constraint_collision_count": 0,
+      "unresolved_messages": 0,
+      "open_temporal_pressure": 7,
+      "discovery_levels": {
+        "survival-enables-offense": "story_truth",
+        "mechanics-can-carry-trust": "strong_thread"
       },
-      "strong_threads": [
-        "mechanics-can-carry-trust"
-      ],
-      "story_truths": [
-        "survival-enables-offense"
-      ],
-      "major_new_discoveries": [
-        "the same mechanical trust that enables dangerous gravity attempts also gives the trusted person real leverage over safety, secrecy, reputation, or outcome",
-        "late mastery works as better control of ordinary dangerous conditions rather than immunity or a new gravity damage power",
-        "witnessed usefulness can attract recruitment, curiosity, competition, sponsorship, or control attempts without resolving early geography"
-      ],
-      "scheduled_experiment_modes": {
-        "backward_prerequisite_test": 1,
-        "counterfactual_branch_comparison": 1,
-        "performance": 3,
-        "plausibility_probe": 16,
-        "state_transition_test": 4,
-        "temporal_distance_rehearsal": 2
+      "discovery_evidence_counts": {"survival-enables-offense": 4, "mechanics-can-carry-trust": 3},
+      "story_truths": ["survival-enables-offense"],
+      "strong_threads": ["mechanics-can-carry-trust"],
+      "geography_result": {
+        "outcome": "both_remain_meaningfully_distinct",
+        "first-fall-local-only": "preserves a slower private mechanics runway, familiar but limited resources, greater early isolation, delayed status pressure, and a stronger obscurity-to-public-consequence contrast",
+        "first-fall-geographic-gate": "adds displacement, unfamiliar terrain or resources, earlier dependence and status pressure, and faster world exposure; it must earn those differences rather than duplicate later social access",
+        "social_access_requirement": "supported_without_selecting_geography",
+        "branch_updates": 0,
+        "new_third_paths": 0,
+        "performance_required": false
+      }
+    },
+    "cycle-005": {
+      "experiment": "target:sync:survival-enables-offense:hostile-story-truth-challenge",
+      "experiment_mode": "trajectory_worldline_test",
+      "fidelity": "development",
+      "open_branch_count": 21,
+      "open_branch_delta": 0,
+      "branch_pressure_score": 30,
+      "boundary_contradictions": 7,
+      "forward_consequences": 5,
+      "backward_requirements": 4,
+      "constraint_status_counts": {"supported": 9},
+      "constraint_collision_count": 0,
+      "unresolved_messages": 0,
+      "open_temporal_pressure": 7,
+      "discovery_levels": {
+        "survival-enables-offense": "story_truth",
+        "mechanics-can-carry-trust": "strong_thread"
       },
-      "scheduled_fidelities": {
-        "development": 11,
-        "high_heat": 3,
-        "probe": 13
+      "discovery_evidence_counts": {"survival-enables-offense": 5, "mechanics-can-carry-trust": 3},
+      "story_truths": ["survival-enables-offense"],
+      "strong_threads": ["mechanics-can-carry-trust"],
+      "hostile_challenge": {
+        "result": "story_truth_survived_with_narrower_interpretation",
+        "plausible_failure_worldline": "Maximum HP continues enabling survival, but collision offense remains terrain-dependent, telegraphed, recovery-heavy, costly, or too situational to become a general combat solution",
+        "overbroad_gloss_rejected": "survivability guarantees that gravity experimentation eventually becomes broadly useful offense",
+        "supported_narrow_form": "survivability creates a viable otherwise-suicidal gravity/collision experimental search space and can expose an intentionally usable offensive option under some conditions; it does not guarantee reliability, efficiency, broad applicability, or structural centrality"
       }
     }
   },
   "current_story_sync": {
     "story_truths": {
       "survival-enables-offense": {
-        "evidence_count": 4,
-        "interpretation": "Maximum HP remains defensive. Its narrative leverage is that survivability makes otherwise suicidal ordinary gravity/collision experiments possible long enough for the player to discover and intentionally use an offensive option.",
+        "evidence_count": 5,
+        "challenge_survived": true,
+        "interpretation": "Maximum HP remains defensive. Survivability makes a class of otherwise-suicidal ordinary gravity/collision experiments possible and can expose an offensive option that becomes intentionally usable under some conditions.",
+        "explicit_non_guarantees": [
+          "reliable offense",
+          "efficient offense",
+          "broadly applicable offense",
+          "default combat solution",
+          "structural centrality of the offensive technique"
+        ],
         "still_unresolved": [
           "exact gravity exploit recipe",
           "exact mastery progression",
-          "exact costs and repeatability"
+          "repeatability",
+          "costs",
+          "mastery speed"
         ],
         "authority_effect": "derived_story_truth_not_canon_prose"
       }
@@ -239,59 +212,56 @@
     }
   },
   "preserved_uncertainty": {
-    "death_stakes": [
-      "stakes-real-death",
-      "stakes-severe-loss"
-    ],
-    "geographic_gating": [
-      "act-i:first-fall-geographic-gate",
-      "act-i:first-fall-local-only"
-    ],
-    "social_entry": [
-      "act-iii:social-old-friend",
-      "act-iii:social-stranger-recruiter",
-      "act-iii:institution-guild-competition"
-    ],
-    "romance_architecture": [
-      "act-iii:romance-preexisting-connection",
-      "act-iii:romance-grown-through-experimentation"
-    ],
-    "ending": [
-      "ending-public-breakthrough",
-      "ending-contained-secret"
-    ],
-    "gravity_exploit_progression": "exact recipe and progression remain open"
+    "death_stakes": ["stakes-real-death", "stakes-severe-loss"],
+    "geographic_gating": ["act-i:first-fall-geographic-gate", "act-i:first-fall-local-only"],
+    "social_entry": ["act-iii:social-old-friend", "act-iii:social-stranger-recruiter", "act-iii:institution-guild-competition"],
+    "romance_architecture": ["act-iii:romance-preexisting-connection", "act-iii:romance-grown-through-experimentation"],
+    "ending": ["ending-public-breakthrough", "ending-contained-secret"],
+    "gravity_exploit_progression": "exact recipe, progression, reliability, centrality, and costs remain open"
   },
   "convergence_interpretation": {
-    "branch_entropy": "rose slightly as directional messages accumulated in cycle 1, then local/shared open branch count plateaued at 21 rather than being artificially pruned",
-    "retrofit_pressure": "temporal open pressure moved 13 -> 16 -> 12 -> 9 and unresolved directional messages moved 6 -> 9 -> 4 -> 1",
-    "constraint_closure": "supported directional constraints moved 0 -> 0 -> 5 -> 8 while one defensible third path remained alive",
-    "novelty": "major shared novelty is slowing; cycle 3 added challenge evidence and local implications rather than another shared discovery",
-    "thread_depth": "established mechanics threads are deepening across temporal regions while relationship, geography, stakes, and ending branches remain open",
-    "boundary_state": "seven adjacent boundary contradictions remain, so the trajectory is not ready for sustained prose rendering"
+    "branch_entropy": "open story branches reached 21 in Cycle 1 and stayed at 21 through Cycle 5; later convergence came from evidence and constraint closure rather than entropy-forcing branch kills",
+    "retrofit_pressure": "temporal open pressure moved 13 -> 16 -> 12 -> 9 -> 7 -> 7 while unresolved directional messages moved 6 -> 9 -> 4 -> 1 -> 0 -> 0",
+    "constraint_closure": "all nine directional constraints are now supported; the geography third path was resolved as compatibility rather than a forced geographic choice",
+    "novelty_vs_deepening": "Cycle 4 primarily clarified branch function and closed the final directional requirement; Cycle 5 stress-tested and narrowed an existing STORY TRUTH rather than inventing a new shared thread",
+    "boundary_state": "all remaining temporal pressure is seven adjacent boundary contradictions",
+    "rendering_readiness": "not ready; directional retrofit pressure is closed, but adjacent lived transitions still require evidence-backed rehearsal"
+  },
+  "generic_runtime_context": {
+    "boundary_learning_commit": "bfa5e11d58831aca94b419a4bb19dcf73f0c23aa",
+    "capability": "REHEARSAL evidence can now revise a derived boundary hypothesis with history and mark a specific adjacent transition supported without requiring the two temporal values to become textually identical",
+    "project_specific_logic_added": false
   },
   "next_edge": {
-    "target_id": "target:ge-geography-third-path-closure",
-    "objective": "test whether first-fall geographic gating creates a genuinely different lived trajectory once witnessed technique usefulness can independently create later social access",
-    "source_problem": "ge-backward-social-access-earns-gate remains third_path after Act I rejected the claim that later high-level social access requires an early geographic gate",
-    "acts": [
-      "act-i",
-      "act-iii"
-    ],
-    "experiment_mode": "counterfactual_branch_comparison",
+    "target_id": "target:boundary:act-i:act-ii:gravity_model:ge-a1-out-gravity:ge-a2-in-gravity",
+    "source_boundary": {
+      "act": "act-i",
+      "id": "ge-a1-out-gravity",
+      "value": "anomaly-observed-not-explained"
+    },
+    "target_boundary": {
+      "act": "act-ii",
+      "id": "ge-a2-in-gravity",
+      "value": "uncertain-reproduction"
+    },
+    "experiment_mode": "state_transition_test",
     "fidelity": "development",
-    "why_not_performance": "the uncertainty is structural and causal rather than embodied behavior",
-    "test": "hold the later witnessed-usefulness-to-attention consequence constant and compare local-only versus geographic-gate Act I worldlines for distinct costs, promises, access, status pressure, and retrofit burden",
-    "success_conditions": [
-      "weaken a geographic branch only if it duplicates the other without distinct dramatic value",
-      "preserve both branches if they generate materially different viable trajectories",
-      "do not use later social access itself as evidence that early relocation was necessary",
-      "do not settle romance, death stakes, ending, or exact exploit progression as a side effect"
+    "objective": "test the lived transition from surviving an unexplained gravity anomaly to deliberately attempting uncertain reproduction without solving the gravity recipe",
+    "why_first": "all directional messages are now supported, this is the earliest remaining structural boundary, it sits directly downstream of the converged survival mechanics, and it does not require PERFORMANCE",
+    "evidence_rule": "mark the boundary supported only if concrete attempts naturally connect the two states; revise the Act II state-in hypothesis through generic boundary learning only if observed behavior warrants a narrower value",
+    "do_not_settle": [
+      "exact exploit recipe",
+      "mastery speed",
+      "death stakes",
+      "geography",
+      "social-entry identity",
+      "romance architecture",
+      "ending"
     ]
   },
   "rendering_gate": {
     "sustained_canon_prose_ready": false,
-    "reason": "one mechanics truth has converged, but seven adjacent boundary contradictions and major protected branches remain open"
+    "reason": "one mechanics STORY TRUTH has survived hostile challenge, but seven adjacent temporal boundary contradictions remain unresolved"
   },
   "authority_effect": "derived_only_no_canon_mutation"
 }
