@@ -1,0 +1,385 @@
+{
+  "schema": "persistent_act_runtime/v1",
+  "story_id": "dragon-spotter",
+  "authority": "derived_experimental_not_story_canon",
+  "source_material": [
+    "state/experiments/dragon-spotter/story-sync/trial-input.json",
+    "state/experiments/dragon-spotter/story-sync/trial-rehearsal-discoveries.json",
+    "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json"
+  ],
+  "acts": {
+    "act-i": {
+      "state_in": [
+        {
+          "id": "a1-in-role",
+          "dimension": "professional_role",
+          "value": "underqualified-official-spotter",
+          "confidence": 0.82,
+          "provenance": ["trial:first-bargain:dramatic-locks"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {"id": "first-bargain.land-restoration", "status": "active", "viability": "viable"},
+          {"id": "first-bargain.relic-restitution", "status": "active", "viability": "viable"},
+          {"id": "first-bargain.protocol-only", "status": "active", "viability": "weak"},
+          {"id": "first-bargain.reckless-improvisation", "status": "active", "viability": "weak"}
+        ],
+        "discoveries": [
+          {
+            "id": "a1.scholar-briefing",
+            "finding": "The scholar has knowledge he lacks while he has access and behavioral flexibility she lacks."
+          },
+          {
+            "id": "a1.first-negotiation-reciprocity",
+            "finding": "The first dragon treats exchange as reciprocal obligation rather than casual loot."
+          }
+        ],
+        "unresolved_questions": [
+          "What concrete thing does the first dragon want badly enough to negotiate rather than simply take?"
+        ],
+        "constraint_responses": [
+          {
+            "message_id": "a4-to-a1-earned-recognition",
+            "response": "third_path",
+            "reason": "The first dragon need not like or validate the fraud; it may instead value accurate recognition and responsive behavior enough to keep negotiating."
+          }
+        ]
+      },
+      "state_out": [
+        {
+          "id": "a1-out-role",
+          "dimension": "professional_role",
+          "value": "useful-underqualified-negotiator",
+          "confidence": 0.68,
+          "provenance": ["trial:improvisation-is-competence-path", "trial:mutual-indispensability"]
+        }
+      ]
+    },
+    "act-ii": {
+      "state_in": [
+        {
+          "id": "a2-in-role",
+          "dimension": "professional_role",
+          "value": "useful-underqualified-negotiator",
+          "confidence": 0.65,
+          "provenance": ["trial:scholar-pressure"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {"id": "a2.mutual-dependence", "status": "active", "viability": "viable"}
+        ],
+        "discoveries": [
+          {
+            "id": "a2.scholar-pressure",
+            "finding": "Under the scholar's scrutiny, useful improvisation separates from empty bluffing and begins to look like field competence."
+          },
+          {
+            "id": "a2.second-negotiation",
+            "finding": "Their best joint work requires doctrine and live behavioral reading to correct each other in real time."
+          },
+          {
+            "id": "a2.competence-heat",
+            "finding": "Attraction intensifies most naturally while each lead witnesses the other's competence under professional danger."
+          }
+        ],
+        "unresolved_questions": [
+          "Which professional pressure turns guarded respect into reliance without making romance a separate side plot?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "a2-out-role",
+          "dimension": "professional_role",
+          "value": "political-liability",
+          "confidence": 0.58,
+          "provenance": ["trial:gift-reciprocity:forward-propagation"]
+        },
+        {
+          "id": "a2-out-romantic-trust",
+          "dimension": "romantic_trust",
+          "value": "guarded-respect",
+          "confidence": 0.62,
+          "provenance": ["trial:first-joint-fieldwork"]
+        }
+      ]
+    },
+    "act-iii": {
+      "state_in": [
+        {
+          "id": "a3-in-role",
+          "dimension": "professional_role",
+          "value": "needed-envoy",
+          "confidence": 0.56,
+          "provenance": ["trial:gift-politics", "trial:ending.dragon-envoy"]
+        },
+        {
+          "id": "a3-in-romantic-trust",
+          "dimension": "romantic_trust",
+          "value": "mutual-reliance",
+          "confidence": 0.6,
+          "provenance": ["trial:later-negotiation", "trial:mutual-indispensability"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {"id": "a3.reciprocity-politics", "status": "active", "viability": "viable"}
+        ],
+        "discoveries": [
+          {
+            "id": "a3.later-negotiation-heat",
+            "finding": "Later sexual tension remains strongest when professional trust and competence are under pressure at the same time."
+          },
+          {
+            "id": "a3.gift-politics",
+            "finding": "Human institutions can disagree about whether accepting dragon treasure creates legal, diplomatic, or personal obligation."
+          }
+        ],
+        "unresolved_questions": [
+          "Can political reliance on him coexist with personal distrust long enough to make the later partnership earned?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "a3-out-public-identity",
+          "dimension": "public_identity",
+          "value": "contested-human-interlocutor",
+          "confidence": 0.5,
+          "provenance": ["trial:ending-office-role"]
+        }
+      ]
+    },
+    "act-iv": {
+      "state_in": [
+        {
+          "id": "a4-in-public-identity",
+          "dimension": "public_identity",
+          "value": "dragon-recognized-interlocutor",
+          "confidence": 0.48,
+          "provenance": ["trial:ending.dragon-envoy"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {"id": "a4.crown-spotter", "status": "active", "viability": "viable"},
+          {"id": "a4.dragon-envoy", "status": "active", "viability": "viable"}
+        ],
+        "discoveries": [
+          {
+            "id": "a4.recognition-hypothesis",
+            "finding": "A satisfying ending may depend on dragons recognizing his earned usefulness before human institutions agree what office he holds."
+          }
+        ],
+        "unresolved_questions": [
+          "Which ending identity survives the final bargain: Crown Spotter, dragon envoy, or a third institutional form?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "a4-out-role",
+          "dimension": "professional_role",
+          "value": "dragon-recognized-envoy",
+          "confidence": 0.44,
+          "provenance": ["trial:ending.dragon-envoy"]
+        }
+      ]
+    }
+  },
+  "shared_story_state": {
+    "sync_state": {
+      "schema": "story_sync_state/v1",
+      "story_confidence": 0.58,
+      "possibilities": [
+        {
+          "id": "gift.coin",
+          "branch_group": "first-gift",
+          "region": "act-i",
+          "status": "active",
+          "viability": "viable",
+          "sync_reason": "Material treasure cleanly pays off the mercenary motive and creates a human valuation problem.",
+          "evidence": ["rehearsal.first-negotiation.a"]
+        },
+        {
+          "id": "gift.scale-token",
+          "branch_group": "first-gift",
+          "region": "act-i",
+          "status": "active",
+          "viability": "viable",
+          "sync_reason": "A non-cash token exposes that dragon treasure may carry diplomatic meaning humans misread.",
+          "evidence": ["possibility.gift-token.a"],
+          "taste_alignment": ["consequence_over_explanation"]
+        },
+        {
+          "id": "ending.crown-spotter",
+          "branch_group": "ending-office-role",
+          "region": "act-iv",
+          "status": "active",
+          "viability": "viable",
+          "sync_reason": "Preserves the comedy of bureaucracy finally needing the office it neglected.",
+          "evidence": ["ending.probe.crown"]
+        },
+        {
+          "id": "ending.dragon-envoy",
+          "branch_group": "ending-office-role",
+          "region": "act-iv",
+          "status": "active",
+          "viability": "viable",
+          "sync_reason": "Pays off dragons increasingly recognizing him as a useful human interlocutor.",
+          "evidence": ["ending.probe.dragon"]
+        },
+        {
+          "id": "conflict.hidden-conspiracy",
+          "branch_group": "central-conflict",
+          "region": "act-iii",
+          "status": "active",
+          "viability": "redundant",
+          "sync_reason": "A hidden conspiracy duplicates pressure already created by treaties, expansion, and reciprocity.",
+          "evidence": ["compare.central-conflict.2"]
+        },
+        {
+          "id": "romance.clean-rivals",
+          "branch_group": "romance-shape",
+          "region": "act-ii",
+          "status": "active",
+          "viability": "weak",
+          "sync_reason": "Current rehearsal favors resentment mutating into mutual dependence over a clean rivalry ladder.",
+          "evidence": ["rehearsal.scholar-confrontation.a"]
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "gift-reciprocity",
+          "finding": "Dragon treasure behaves like reciprocal diplomatic obligation rather than random loot.",
+          "confidence": "speculation",
+          "book_shaping": true,
+          "evidence": [
+            {"source_id": "rehearsal:ds.act-i.first-negotiation:behavioral_discovery", "independent_group": "first-negotiation.a", "kind": "support", "dramatic_uses": ["plot", "world", "character"], "regions": ["act-i"]},
+            {"source_id": "possibility:human-response-to-gift", "independent_group": "gift-politics.a", "kind": "support", "dramatic_uses": ["plot", "relationship", "setup_payoff"], "regions": ["act-iii"]}
+          ],
+          "propagation": [
+            {"direction": "backward", "target": "act-i.opening-and-first-contact", "reason": "Seed reciprocity before the gift so later meaning feels earned."},
+            {"direction": "forward", "target": "act-ii-and-act-iii", "reason": "Let officials and the scholar disagree about what accepting dragon treasure means."}
+          ]
+        },
+        {
+          "id": "improvisation-is-competence-path",
+          "finding": "The fraud becomes most effective when he stops imitating dead protocol and negotiates from concrete observation.",
+          "confidence": "repeated_signal",
+          "book_shaping": true,
+          "evidence": [
+            {"source_id": "rehearsal:ds.act-i.first-dragon:behavioral_discovery", "independent_group": "first-dragon.a", "kind": "support", "dramatic_uses": ["character", "plot", "comedy"], "regions": ["act-i"]},
+            {"source_id": "rehearsal:ds.act-ii.scholar-pressure:behavioral_discovery", "independent_group": "scholar-pressure.a", "kind": "support", "dramatic_uses": ["character", "relationship", "plot"], "regions": ["act-ii"]}
+          ],
+          "propagation": [
+            {"direction": "forward", "target": "act-ii-and-act-iii", "reason": "Later negotiations must distinguish bluffing from earned field judgment."}
+          ]
+        },
+        {
+          "id": "mutual-indispensability",
+          "finding": "The legitimate scholar and fraudulent Spotter work better when neither can replace the other.",
+          "confidence": "repeated_signal",
+          "evidence": [
+            {"source_id": "rehearsal:ds.act-i.scholar-briefing:relationship_behavior", "independent_group": "briefing.a", "kind": "support", "dramatic_uses": ["relationship", "character"], "regions": ["act-i"]},
+            {"source_id": "rehearsal:ds.act-ii.second-negotiation:relationship_behavior", "independent_group": "second-negotiation.a", "kind": "support", "dramatic_uses": ["relationship", "character"], "regions": ["act-ii"]}
+          ]
+        },
+        {
+          "id": "dragon-prefers-liar",
+          "finding": "The first dragon may prefer the liar precisely because he is less doctrinaire than credentialed experts.",
+          "evidence": [
+            {"source_id": "rehearsal:ds.act-i.first-dragon-preference:relationship_behavior", "independent_group": "first-dragon-preference.a", "kind": "support", "dramatic_uses": ["character", "relationship"], "regions": ["act-i"]}
+          ]
+        },
+        {
+          "id": "heat-through-competence",
+          "finding": "Romantic heat rises most naturally when each lead witnesses the other's competence under dangerous professional pressure.",
+          "evidence": [
+            {"source_id": "rehearsal:ds.act-ii.first-joint-fieldwork:relationship_behavior", "independent_group": "joint-fieldwork.a", "kind": "support", "dramatic_uses": ["relationship", "heat"], "regions": ["act-ii"]},
+            {"source_id": "rehearsal:ds.act-iii.later-negotiation:relationship_behavior", "independent_group": "later-negotiation.a", "kind": "support", "dramatic_uses": ["relationship", "heat"], "regions": ["act-iii"]}
+          ]
+        }
+      ],
+      "contradictions": [
+        {"id": "first-gift-form", "members": ["gift.coin", "gift.scale-token"], "status": "unresolved", "severity": "medium"},
+        {"id": "ending-office-role", "members": ["ending.crown-spotter", "ending.dragon-envoy"], "status": "unresolved", "severity": "high", "book_shaping": true}
+      ],
+      "canon_events": [],
+      "reader_requirements": [],
+      "assumptions": [
+        {
+          "id": "central-conflict-needs-conspiracy",
+          "status": "superseded",
+          "replaced_by": "gift-reciprocity",
+          "why": "Treaty and reciprocity consequences already connect the first bargain to politics and later payoffs without a separate villain machine.",
+          "evidence": ["gift-reciprocity", "compare.central-conflict.2"]
+        }
+      ],
+      "unresolved_questions": [
+        {"id": "q.first-dragon-want", "question": "What concrete thing does the first dragon want badly enough to negotiate rather than simply take?", "regions": ["act-i", "act-iii"], "importance": "high"},
+        {"id": "q.romance-crossing", "question": "Which professional pressure makes attraction undeniable without turning romance into a separate side plot?", "regions": ["act-ii", "act-iii"], "importance": "medium"}
+      ]
+    },
+    "forward_consequences": [
+      {
+        "id": "a1-to-a3-reciprocity-politics",
+        "kind": "forward_consequence",
+        "source_act": "act-i",
+        "target_act": "act-iii",
+        "statement": "If the first bargain creates reciprocal obligation, later human factions can contest what was accepted and what is now owed.",
+        "confidence": 0.64,
+        "provenance": ["trial:gift-reciprocity"],
+        "status": "open",
+        "thread_key": "reciprocal-obligation"
+      },
+      {
+        "id": "a1-to-a4-earned-recognition",
+        "kind": "forward_consequence",
+        "source_act": "act-i",
+        "target_act": "act-iv",
+        "statement": "If the first dragon values accurate responsiveness over credentials, later dragons can plausibly recognize his earned usefulness before humans formalize it.",
+        "confidence": 0.56,
+        "provenance": ["trial:first-dragon-preference", "trial:improvisation-is-competence-path"],
+        "status": "open",
+        "thread_key": "earned-recognition"
+      }
+    ],
+    "backward_requirements": [
+      {
+        "id": "a4-to-a1-earned-recognition",
+        "kind": "backward_requirement",
+        "source_act": "act-iv",
+        "target_act": "act-i",
+        "statement": "A dragon-recognized envoy ending needs the first bargain to establish that dragons can value accurate recognition and responsiveness independently of human credentials.",
+        "confidence": 0.62,
+        "provenance": ["trial:ending.dragon-envoy"],
+        "status": "open",
+        "thread_key": "earned-recognition"
+      },
+      {
+        "id": "a4-to-a2-public-risk",
+        "kind": "backward_requirement",
+        "source_act": "act-iv",
+        "target_act": "act-ii",
+        "statement": "A meaningful public-role ending needs an earlier institutional cost for becoming useful to dragons.",
+        "confidence": 0.5,
+        "provenance": ["trial:ending-office-role"],
+        "status": "open",
+        "thread_key": "public-role-cost"
+      }
+    ],
+    "cross_direction_agreements": [
+      {
+        "id": "earned-recognition-agreement",
+        "acts": ["act-i", "act-iv"],
+        "statement": "Act I's responsiveness path and Act IV's dragon-recognized envoy ending independently point toward earned recognition rather than credentialed legitimacy.",
+        "confidence": 0.58,
+        "provenance": ["trial:improvisation-is-competence-path", "trial:ending.dragon-envoy"]
+      }
+    ],
+    "contradictions": []
+  }
+}
