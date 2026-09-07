@@ -49,9 +49,9 @@
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
       "changed_surfaces": ["dialogue", "movement", "interaction_timing", "paragraphing", "local_exchange_shape"],
-      "before": "<p>Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.</p><p>“What grade?” Arlo asked.</p><p>“Dorrin sorted visible quality. Not reaction sorted.”</p><p>He looked at the sack again.</p><p>“Why did you buy twenty pounds?”</p><p>“I have material.”</p><p>“Free material.”</p><p>Arlo paused. Better.</p><p>“What grade?”</p><p>“Dorrin sorted visible quality. Not reaction sorted.”</p><p>“How much?”</p><p>“About twenty pounds.”</p><p>“Why?”</p><p>“Research.”</p><p>“Bad.”</p><p>“Yes.”</p><p>“Free?” Arlo asked.</p><p>“Yes,” I said.</p><p>He pointed at a corner.</p><p>“Put it there,” Arlo said.</p>",
-      "after": "<p>Arlo was at the ceramic bench. He looked up at the sack, then at me.</p><p>“What grade?”</p><p>“Dorrin sorted visible quality. Not reaction sorted.”</p><p>“How much?”</p><p>“About twenty pounds.”</p><p>“Why?”</p><p>“Research.”</p><p>“Bad.”</p><p>“Yes.”</p><p>“Free?”</p><p>“Yes.”</p><p>Arlo pointed at a corner.</p><p>“Put it there.”</p>",
-      "reason": "The source accidentally runs the same grade-and-purpose interrogation twice. Hotter rehearsal recomposes the whole short exchange into Arlo's clipped object-first rhythm while preserving every fact and the free-material payoff."
+      "before": "<p>Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.</p><p>“What grade?” Arlo asked.</p><p>“Dorrin sorted visible quality. Not reaction sorted.”</p><p>He looked at the sack again.</p><p>“Why did you buy twenty pounds?”</p><p>“I have material.”</p><p>“Free material.”</p><p>Arlo paused. Better.</p>",
+      "after": "<p>Arlo was at the ceramic bench. He looked up at the sack, then at me.</p>",
+      "reason": "The source accidentally begins Arlo's grade-and-purpose interrogation twice. Hotter rehearsal removes the redundant first pass and leaves the second clipped exchange as the scene's performed version."
     },
     {
       "id": "c044-hessa-next-question-hotter-plus-01",
