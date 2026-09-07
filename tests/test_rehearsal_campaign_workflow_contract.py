@@ -10,7 +10,7 @@ class RehearsalCampaignWorkflowContractTests(unittest.TestCase):
         self.assertIn("cancel-in-progress: false", text)
         self.assertIn("scripts/compile_rehearsal_campaign_returns.py", text)
         self.assertIn("scripts/apply_rehearsal_returns.py", text)
-        self.assertIn("scripts/rehearsal_campaign_queue.py", text)
+        self.assertIn("from scripts import rehearsal_campaign_queue as queue", text)
         self.assertIn("performance_roundtrip_references.py --check", text)
         self.assertIn("project_check.py showcase", text)
         self.assertIn("git diff --check", text)
