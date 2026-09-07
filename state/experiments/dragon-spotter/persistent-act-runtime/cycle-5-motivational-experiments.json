@@ -1,0 +1,159 @@
+{
+  "schema": "dragon_spotter_cycle_5_motivational_experiments/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "objective": "Stop broad story search and test the causal wants that should discriminate the two remaining shared contradictions.",
+  "relationship_constraints": {
+    "preserve": [
+      "mutual-indispensability",
+      "operational-reliance-before-personal-trust"
+    ],
+    "anti_rule": "Attraction is not trust; operational dependence is not personal surrender. Do not use Cycle 5 to reopen the stable relationship trajectory unless motivational evidence genuinely bears on it."
+  },
+  "experiment_a_first_dragon_motivation": {
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "question": "What does the first dragon value enough to require human participation rather than simply using superior force?",
+    "search_dimensions": [
+      "territory",
+      "memory/history",
+      "restitution",
+      "dignity",
+      "recognition",
+      "autonomy",
+      "political leverage",
+      "protection",
+      "reciprocity",
+      "repair of an old wrong",
+      "material recovery",
+      "symbolic recovery",
+      "relationship to humans",
+      "relationship to Greg specifically"
+    ],
+    "tests": [
+      {
+        "id": "dragon-want.material-possession",
+        "premise": "Treat possession of land or relic as the dragon's primary end and ask whether negotiation is still necessary when the dragon can physically take or occupy the thing.",
+        "result": "weak_as_primary_motive",
+        "evidence": [
+          "In both surviving first-bargain paths, force can obtain the physical object or ground but cannot obtain the human act the dragon waits for.",
+          "The prior dead-protocol challenge also worsens when humans offer price or ceremony instead of asking why the dragon came."
+        ],
+        "interpretation": "Material recovery matters as the object of a dispute, but possession alone does not explain why this dragon negotiates."
+      },
+      {
+        "id": "dragon-want.voluntary-acknowledgment",
+        "premise": "Treat voluntary human acknowledgment of a reciprocal obligation as the primary end and vary whether the concrete dispute is damaged treaty ground or a wrongly held treaty object.",
+        "result": "survives_both_current_bargain_branches",
+        "evidence": [
+          "Land-restoration rehearsal works because voluntary restoration of the treaty boundary proves humans still recognize an obligation the dragon could enforce physically.",
+          "Relic-restitution rehearsal works because voluntary return repairs acknowledgment of debt in a way theft cannot.",
+          "The first high-heat comparison explicitly found both branches strongest when force can seize the physical thing but cannot create recognition of reciprocal obligation."
+        ],
+        "interpretation": "The stable causal want is not land or relic as such. The dragon appears to want humans to perform a costly, voluntary act that demonstrates reciprocal obligation is still real."
+      },
+      {
+        "id": "dragon-want.personal-recognition-from-greg",
+        "premise": "Treat recognition from Greg personally as the dragon's primary end.",
+        "result": "unsupported_as_primary_motive",
+        "evidence": [
+          "The dragon responds to Greg because he recognizes the structure of the obligation and negotiates responsively, not because the dragon entered the scene seeking his approval.",
+          "Existing earned-recognition evidence is downstream of competent behavior and should not be retrofitted into the dragon's original reason for coming."
+        ],
+        "interpretation": "Greg can become a useful interlocutor, but the dragon's grievance and desired repair must exist independently of him."
+      }
+    ],
+    "observed_motivation": {
+      "finding": "The first dragon appears to want restoration of reciprocal standing with humans through a costly voluntary act of acknowledgment. The concrete land or relic matters because it gives that acknowledgment something real to cost, not because possession is the whole objective.",
+      "confidence": 0.86,
+      "third_path": "reciprocal-standing-through-voluntary-repair",
+      "not_claimed": [
+        "that every dragon shares this motive",
+        "that the dragon wants friendship or submission",
+        "that land restoration or relic restitution is already canon"
+      ]
+    },
+    "gift_discrimination": {
+      "land_restoration": "preserved; naturally expresses voluntary repair of an ongoing boundary violation and gives the dragon a demand humans must enact rather than surrender as an object",
+      "relic_restitution": "preserved; naturally expresses voluntary acknowledgment that a historical possession was conditional or wrongfully retained",
+      "result": "both_bargain_branches_remain_viable_but_the_gift_object_no_longer_needs_to_mirror_the_demand",
+      "gift_coin": "favored as reciprocal surety/payment because its material legibility lets humans initially misread obligation as value without granting Greg premature dragon credentialing",
+      "gift_scale_token": "weakened for the first gift because a recognition-coded token duplicates later behavior-earned dragon recognition and risks making Greg's status portable too early",
+      "unresolved_evidence": "land versus relic remains a concrete grievance choice, but it no longer needs to control the first-gift-form contradiction"
+    }
+  },
+  "experiment_b_greg_institutional_legitimacy": {
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "question": "By the later trajectory, what does Greg need institutional legitimacy to let him do, and what form of legitimacy would actually complete rather than erase his transformation?",
+    "search_dimensions": [
+      "recognition",
+      "authority",
+      "usefulness",
+      "security",
+      "independence",
+      "access",
+      "protection",
+      "status",
+      "ability to mediate",
+      "ability to protect dragons",
+      "ability to influence institutions",
+      "public vindication",
+      "freedom from needing institutional approval"
+    ],
+    "tests": [
+      {
+        "id": "greg-want.certification",
+        "premise": "Treat official certification and vindication by the Crown as Greg's primary end.",
+        "result": "weak_as_primary_end",
+        "evidence": [
+          "His competence path repeatedly strengthens when he stops imitating institutional knowledge he does not possess and instead combines observation with real constraints.",
+          "Dragon recognition has already become behavior-earned before the final human title is settled.",
+          "Making certification itself the payoff risks turning the original fraudulent appointment into a symmetry trick rather than the consequence of his lived transformation."
+        ],
+        "interpretation": "Recognition can matter, but evidence does not support approval for its own sake as the main transformed want."
+      },
+      {
+        "id": "greg-want-effective-authority",
+        "premise": "Treat enough recognized authority to negotiate, carry obligations across systems, and make agreements stick as the primary institutional need.",
+        "result": "strongest_current_fit",
+        "evidence": [
+          "The first bargain makes Greg useful when he can turn live observation plus Scholar constraint into terms that another sovereign actor accepts.",
+          "Later gift politics make usefulness costly because human institutions can contest obligations he has helped create.",
+          "The trajectory repeatedly makes him valuable at the boundary between systems rather than as a conventional internal expert."
+        ],
+        "interpretation": "Greg appears to want legitimacy instrumentally: enough authority, access, and protection to do the mediating work effectively and have commitments survive contact with institutions."
+      },
+      {
+        "id": "greg-want-independence-from-approval",
+        "premise": "Treat total freedom from institutional judgment as the primary end.",
+        "result": "too_absolute",
+        "evidence": [
+          "The story's political consequences require human institutions to matter; total independence would discard rather than transform that pressure.",
+          "Effective cross-polity mediation still requires commitments to be legible to actors with institutional power."
+        ],
+        "interpretation": "He need not crave approval, but complete detachment would undermine the practical authority the trajectory keeps making necessary."
+      }
+    ],
+    "observed_motivation": {
+      "finding": "Greg appears to want legitimacy as usable authority rather than certification as identity: enough recognized standing to mediate between humans and dragons, make negotiated obligations stick, and keep doing the work without pretending institutional approval created his competence.",
+      "confidence": 0.84,
+      "third_path": "recognized-cross-polity-mandate",
+      "not_claimed": [
+        "that Greg rejects all Crown authority",
+        "that public vindication means nothing to him",
+        "that the final title is already canon"
+      ]
+    },
+    "ending_discrimination": {
+      "ending_crown_spotter": "weakened as the sole final identity because full incorporation makes Crown certification look more causally central than the observed motivation supports; preserved as a possible human legal office or component of a hybrid mandate",
+      "ending_dragon_envoy": "strengthened because cross-polity authority follows the work Greg has learned to do and dragon recognition already precedes human naming",
+      "third_path": "a recognized cross-polity mandate in which human institutions grant enough legal authority/protection for Greg to act while dragons recognize him independently; the exact title can remain unresolved",
+      "result": "dragon_envoy_trajectory_favored_without_requiring_title_lock",
+      "unresolved_evidence": "whether the Crown formally retains the old Spotter office as the human-side legal wrapper is renderer-level or later political-bargain evidence unless it changes Greg's independence or obligations"
+    }
+  },
+  "cycle_5_hypothesis": {
+    "major_new_structure_expected": false,
+    "expected_change": "clarify two underlying wants, weaken branches only where those wants make them causally redundant, and avoid new obligations unless the motivational evidence truly requires them"
+  }
+}
