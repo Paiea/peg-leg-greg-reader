@@ -1,0 +1,97 @@
+{
+  "schema": "dragon_spotter_high_heat_trajectory_performance/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "scene_id": "ds.act-iii-to-iv.relationship-third-path.adversarial",
+  "mode": "free",
+  "heat": "high",
+  "purpose": [
+    "challenge whether operational reliance with guarded personal trust survives later political pressure",
+    "separate correct professional trust from interpretation of motive",
+    "allow distrust, asymmetry, attraction, or refusal to break the Cycle 3 relationship hypothesis"
+  ],
+  "pressure_situation": {
+    "premise": "A later dragon gives the Scholar a treaty interpretation whose source she cannot disclose without exposing a vulnerable archive and compromising a separate diplomatic promise. Greg must decide whether to act publicly on her professional judgment while Crown officials argue that she may be using his growing dragon recognition to force policy. At the same time, she has to decide whether to act on Greg's live read that the dragon will treat delay as refusal, even though he cannot prove the motive behind the dragon's behavior.",
+    "costs": [
+      "Greg risks public legitimacy by acting on an explanation he is not allowed to hear in full",
+      "the Scholar risks her professional standing by backing Greg's behavioral read before she can verify his interpretation",
+      "either can protect personal reputation by refusing reliance and thereby worsen the diplomatic position",
+      "attraction makes each more alert to the other's judgment but supplies no reason to trust undisclosed motives"
+    ]
+  },
+  "dramatic_lock": {
+    "preserve": [
+      "both leads remain independently competent",
+      "neither can safely replace the other",
+      "the Scholar has legitimate reasons to withhold information",
+      "Greg has legitimate reasons to suspect institutional manipulation",
+      "professional reliance and personal trust may move in different directions",
+      "failure is valid",
+      "no performed result becomes canon"
+    ],
+    "leave_open": [
+      "whether operational reliance survives",
+      "whether personal trust increases",
+      "whether distrust contaminates field reliance",
+      "whether reliance becomes asymmetric",
+      "whether attraction helps, harms, or remains orthogonal"
+    ]
+  },
+  "takes": [
+    {
+      "take_id": "bounded-trust-under-withheld-motive",
+      "hypothesis": "They can act on each other's demonstrated professional competence while explicitly refusing to pretend motive is settled.",
+      "behavior": [
+        "The Scholar tells Greg exactly what conclusion she can stand behind and explicitly refuses to reveal the protected source.",
+        "Greg objects to being asked to carry political risk without the full reason, but distinguishes that objection from her record of technical accuracy.",
+        "He acts on the treaty conclusion while publicly limiting what he claims to know.",
+        "When the dragon shifts from warning to departure posture, the Scholar follows Greg's immediate behavioral instruction despite being unable to prove his interpretation.",
+        "Afterward they argue about secrecy rather than rewriting the successful coordination as personal trust."
+      ],
+      "observable_findings": [
+        "Operational reliance survives legitimate motive ambiguity when each states the boundary of what is being trusted.",
+        "Personal distrust remains active and costly rather than disappearing after success.",
+        "Attraction intensifies the argument but does not resolve it."
+      ],
+      "outcome_class": "operational_reliance_survives_personal_trust_guarded"
+    },
+    {
+      "take_id": "motive-contaminates-reliance",
+      "hypothesis": "Suspicion about motive may make correct professional reliance impossible.",
+      "behavior": [
+        "Greg treats the Scholar's withheld source as evidence that her recommendation is politically captured and delays acting.",
+        "She interprets his delay as a return to ego-driven improvisation and refuses his later behavioral warning.",
+        "Both professional judgments were substantially correct, but distrust prevents either from using the other's competence in time."
+      ],
+      "observable_findings": [
+        "The third path can fail when motive suspicion is allowed to redefine competence evidence.",
+        "Correct judgment is insufficient if the pair cannot keep professional and personal uncertainty distinct."
+      ],
+      "outcome_class": "personal_distrust_contaminates_professional_reliance"
+    },
+    {
+      "take_id": "asymmetric-cost",
+      "hypothesis": "Later pressure may expose that one lead accepts reliance costs the other still avoids.",
+      "behavior": [
+        "Greg acts on the Scholar's undisclosed conclusion and absorbs the Crown's accusation that he is her mouthpiece.",
+        "She then refuses his unverified behavioral read because the professional consequences of being wrong fall more directly on her credentialed authority.",
+        "His read proves correct, leaving the negotiation intact but the relationship newly resentful."
+      ],
+      "observable_findings": [
+        "Operational reliance can become asymmetric under unequal institutional exposure.",
+        "Asymmetry creates relationship pressure without proving either character irrational."
+      ],
+      "outcome_class": "asymmetric_reliance_under_institutional_cost"
+    }
+  ],
+  "comparison": {
+    "behaviorally_strongest_take": "bounded-trust-under-withheld-motive",
+    "observed_relationship_result": "operational_reliance_survives_with_explicit_personal_trust_boundary",
+    "why": [
+      "it preserves rational suspicion instead of rewarding secrecy with intimacy",
+      "both characters still take consequential action on the other's earned domain competence",
+      "the failure and asymmetric takes show the relationship remains contingent rather than guaranteed"
+    ],
+    "fundamental_revision_required": false,
+    "not_story_canon": true
+  }
+}
