@@ -9,6 +9,7 @@ from typing import Any, Callable
 from scripts import brain_compiler
 from scripts import brain_doctor as brain_doctor_module
 from scripts import creator_taste_prior
+from scripts import long_form_rendering_loop
 from scripts import performance_campaign
 from scripts import performance_index
 from scripts import performance_production_funnel as funnel
@@ -141,11 +142,32 @@ def run_story_rehearsal_cycle(payload: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("run_story_rehearsal_cycle requires runtime or runtime_path")
     evidence = _optional_json_list_input(payload, "evidence", "evidence_path")
     creator_taste = _optional_json_input(payload, "creator_taste", "creator_taste_path")
-    result = persistent_act_runtime.run_rehearsal_cycle(
-        runtime_state,
-        evidence=evidence,
-        creator_taste=creator_taste,
-    )
+    result = persistent_act_runtime.run_rehearsal_cycle(runtime_state, evidence=evidence, creator_taste=creator_taste)
+    _write_derived_output(payload, result)
+    return result
+
+
+def run_story_rendering_cycle(payload: dict[str, Any]) -> dict[str, Any]:
+    """Start or reduce one derived-only rendering step.
+
+    Model generation/evaluation remains executor supplied. This surface only
+    compiles packets and deterministically routes/retains returned evidence.
+    """
+    run = _optional_json_input(payload, "run", "run_path")
+    if run is None:
+        intervals = _optional_json_list_input(payload, "intervals", "intervals_path")
+        if intervals is None:
+            raise ValueError("run_story_rendering_cycle requires run/run_path or intervals/intervals_path")
+        result = long_form_rendering_loop.start_rendering_run(
+            intervals,
+            attempt_budget_default=int(payload.get("attempt_budget_default", 2)),
+            rendering_memory=list(payload.get("rendering_memory", [])),
+        )
+    else:
+        returned_attempt = _optional_json_input(payload, "returned_attempt", "returned_attempt_path")
+        if returned_attempt is None:
+            raise ValueError("an existing rendering run requires returned_attempt or returned_attempt_path")
+        result = long_form_rendering_loop.advance_rendering_run(run, returned_attempt)
     _write_derived_output(payload, result)
     return result
 
@@ -156,6 +178,7 @@ TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
     "plan_campaign": plan_campaign, "run_campaign": run_campaign, "get_campaign_result": get_campaign_result,
     "reduce_campaign": reduce_campaign, "sync_story": sync_story,
     "run_story_rehearsal_cycle": run_story_rehearsal_cycle,
+    "run_story_rendering_cycle": run_story_rendering_cycle,
     "apply_survivors": apply_survivors,
 }
 
@@ -171,6 +194,7 @@ TOOL_SPECS = {
     "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
     "sync_story": {"write": False, "read_only": False, "description": "Synchronize long-form possibilities, discoveries, propagation, convergence, hidden canon, reader dependencies, and optional creator-taste rehearsal hints without mutating canon prose."},
     "run_story_rehearsal_cycle": {"write": False, "read_only": False, "description": "Run one derived-only four-persistent-act REHEARSAL/STORY SYNC cycle, optionally integrating compact experimental evidence and creator-taste search hints."},
+    "run_story_rendering_cycle": {"write": False, "read_only": False, "description": "Start or reduce a derived-only prose rendering cycle with targeted reprompting, candidate comparison, forward-motion budgeting, and precise escalation back to REHEARSAL."},
     "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
