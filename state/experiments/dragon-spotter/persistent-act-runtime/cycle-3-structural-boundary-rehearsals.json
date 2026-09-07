@@ -1,0 +1,78 @@
+{
+  "schema": "dragon_spotter_structural_boundary_rehearsal/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "cycle": 3,
+  "rehearsals": [
+    {
+      "boundary_id": "boundary:act-ii:act-iii:professional_role:a2-out-role:a3-in-role",
+      "dimension": "professional_role",
+      "source_act": "act-ii",
+      "target_act": "act-iii",
+      "source_value": "political-liability",
+      "target_value": "needed-envoy",
+      "experiment_mode": "state_transition_test",
+      "fidelity": "development",
+      "question": "Can someone become more politically embarrassing to human institutions while simultaneously becoming harder for those institutions to avoid using as a dragon-facing envoy?",
+      "candidate_paths": [
+        {
+          "id": "institutional-rehabilitation",
+          "finding": "Officials formally clear or credential him before relying on him.",
+          "assessment": "weak",
+          "reason": "It removes the useful contradiction too early and makes needed-envoy depend on approval rather than field value."
+        },
+        {
+          "id": "conditional-deployment",
+          "finding": "Institutions keep treating him as a liability but deploy him when dragon negotiations require responsiveness their ordinary channels cannot supply.",
+          "assessment": "strong",
+          "reason": "Liability and need can coexist. Political discomfort becomes the cost of using a uniquely effective external-facing operator rather than a prerequisite that must disappear."
+        },
+        {
+          "id": "unofficial-routing",
+          "finding": "Dragons increasingly route questions through him even while human offices resist formalizing his role.",
+          "assessment": "viable",
+          "reason": "This supports later envoy pressure but should not by itself choose the final office branch."
+        }
+      ],
+      "result": "supported_transition",
+      "finding": "Political liability does not need to transform into institutional approval. The bridge is that institutions can reluctantly need the same person whose irregular methods and dragon access make him embarrassing. Needed-envoy is structurally reachable while liability remains part of the cost.",
+      "confidence": 0.78,
+      "canon_effect": "none"
+    },
+    {
+      "boundary_id": "boundary:act-iii:act-iv:public_identity:a3-out-public-identity:a4-in-public-identity",
+      "dimension": "public_identity",
+      "source_act": "act-iii",
+      "target_act": "act-iv",
+      "source_value": "contested-human-interlocutor",
+      "target_value": "dragon-recognized-interlocutor",
+      "experiment_mode": "state_transition_test",
+      "fidelity": "development",
+      "question": "Can dragon recognition become real before human institutions agree what title or authority he should possess?",
+      "candidate_paths": [
+        {
+          "id": "human-title-first",
+          "finding": "Formal appointment causes dragons to recognize him.",
+          "assessment": "weak",
+          "reason": "It makes dragon recognition derivative of the exact credential logic the existing story evidence has been challenging."
+        },
+        {
+          "id": "recognition-through-routing",
+          "finding": "Repeated dragons treat him as the human who notices, answers, and carries obligations accurately enough to continue bargaining, even while humans contest his legitimacy.",
+          "assessment": "strong",
+          "reason": "Dragon recognition can accumulate behaviorally and independently from human office, preserving both Crown Spotter and dragon envoy as later institutional possibilities."
+        },
+        {
+          "id": "single-dragon-endorsement",
+          "finding": "One important dragon publicly names him as its preferred interlocutor.",
+          "assessment": "viable_but_narrow",
+          "reason": "Useful as an event possibility, but one endorsement alone is weaker than repeated behavior-based recognition and should not be assumed canon."
+        }
+      ],
+      "result": "supported_transition",
+      "finding": "Contested human legitimacy and dragon recognition are compatible states rather than mutually exclusive ones. The Act IV identity is reachable if recognition accrues from repeated responsive bargaining, not from humans first agreeing on his title.",
+      "confidence": 0.8,
+      "supports_existing_message": "a1-to-a4-earned-recognition",
+      "canon_effect": "none"
+    }
+  ]
+}
