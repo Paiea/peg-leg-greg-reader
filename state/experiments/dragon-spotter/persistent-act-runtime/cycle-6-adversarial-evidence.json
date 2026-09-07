@@ -1,0 +1,129 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-6:first-dragon-hostile-challenge",
+    "target_id": "target:q.first-dragon-want",
+    "source_act": "act-i",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "Hostile alternatives did not explain the existing first-bargain evidence better. Possession-primary makes negotiation unnecessarily indirect; Greg-as-objective requires unsupported prior targeting; pure precedent or predictable-compliance accounts explain part of the behavior but explain reciprocal giving less well. The hypothesis survives narrowed: the dragon values restoration of a workable reciprocal order through a costly voluntary human act, without requiring apology, emotional recognition, or human moral closure.",
+    "confidence": 0.86,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-6-adversarial-convergence.json#challenge_a_first_dragon",
+    "local_discoveries": [
+      {
+        "id": "a1.first-dragon-reciprocal-order-narrowing",
+        "finding": "The dragon's motive should be read politically/operationally: voluntary costly human compliance restores a reciprocal order credible enough to govern future exchange, not sentimental closure."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "first-dragon-wants-voluntary-repair",
+        "evidence": {
+          "source_id": "trajectory:ds.cycle-6.first-dragon-hostile-challenge",
+          "independent_group": "cycle-6-first-dragon-adversarial",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["character", "plot", "world"],
+          "regions": ["act-i"]
+        }
+      },
+      {
+        "discovery_id": "gift-reciprocity",
+        "evidence": {
+          "source_id": "trajectory:ds.cycle-6.reciprocity-hostile-challenge",
+          "independent_group": "cycle-6-first-dragon-adversarial",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["plot", "world", "character"],
+          "regions": ["act-i"]
+        }
+      }
+    ],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-6:gift-compression-hostile-challenge",
+    "target_id": "target:shared-contradiction:first-gift-form",
+    "source_act": "act-i",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "finding": "Swapping or abstracting the land/relic manifestation does not break the deeper motive as long as the human act remains voluntary, costly, legible to both sides, and actually repairs the obligation. Land and relic remain distinct concrete grievances, but current evidence does not require distinct dragon motives. Material reciprocal treasure remains the cleaner first-gift trajectory; no branch is mechanically closed.",
+    "confidence": 0.83,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-6-adversarial-convergence.json#challenge_a_first_dragon",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-6:greg-legitimacy-hostile-challenge",
+    "target_id": "target:shared-contradiction:ending-office-role",
+    "source_act": "act-iv",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "The strongest hostile offer gives Greg Crown status, security, public vindication, and legal authority while constraining dragon negotiations to Crown priorities. That offer is attractive but fits the trajectory worse than authority preserving the cross-polity work he learned to do. Paper authority without practical recognition is also insufficient, while total extra-institutional independence cannot make human commitments stick. The hypothesis survives narrowed to effective recognized standing for cross-polity work, not certification as the source of identity.",
+    "confidence": 0.85,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-6-adversarial-convergence.json#challenge_b_greg_legitimacy",
+    "local_discoveries": [
+      {
+        "id": "a4.legitimacy-needs-effective-recognition",
+        "finding": "Greg's usable legitimacy requires practical recognition by actors who must honor agreements, not merely legal paperwork; it need not provide admiration, belonging, or universal vindication."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "legitimacy-as-usable-authority",
+        "evidence": {
+          "source_id": "trajectory:ds.cycle-6.greg-legitimacy-hostile-challenge",
+          "independent_group": "cycle-6-greg-legitimacy-adversarial",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["character", "plot", "ending"],
+          "regions": ["act-iv"]
+        }
+      }
+    ],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-6:ending-compression-hostile-challenge",
+    "target_id": "target:shared-contradiction:ending-office-role",
+    "source_act": "act-iv",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "finding": "The recognized-cross-polity-mandate formulation fails if treated as a convenient bespoke office that grants every benefit. It survives only as a state constraint: enough human standing for commitments to function while dragon recognition remains independently earned. Crown Spotter and dragon envoy remain genuinely different political manifestations of that deeper legitimacy problem; the exact title does not need discovery-cycle resolution before rendering.",
+    "confidence": 0.82,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-6-adversarial-convergence.json#challenge_b_greg_legitimacy",
+    "local_discoveries": [
+      {
+        "id": "a4.cross-polity-mandate-is-state-not-office",
+        "finding": "Recognized cross-polity mandate is a constraint on Greg's final operating condition, not evidence that the story needs a new named institution."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  }
+]
