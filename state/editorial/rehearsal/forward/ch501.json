@@ -1,0 +1,74 @@
+{
+  "schema": "plg_forward_rehearsal/v1",
+  "chapter": 501,
+  "source_authority": "292fe976b8444d9e024305e3523c2886c89ed966",
+  "pressure": "After buying temporary continuity at Anchor's End, let Duskport become socially inhabited without converting residence into work, another optimization problem, or an immediate open-thread payoff.",
+  "greg_goal": "Eat, occupy his prepaid base like a normal guest, and get through an unscheduled stretch without manufacturing importance.",
+  "other_goals": [
+    "Pell continues running his own inn and does not recruit Greg into staff work.",
+    "Other guests want their own ordinary evening activity and need no Greg-shaped solution."
+  ],
+  "unknowns": [
+    "Lakeward outcome remains unknown.",
+    "Merrin produces no forced match.",
+    "Hark & Venn next fitting remains on its established chronology.",
+    "No claim is made about whether Duskport becomes permanent."
+  ],
+  "hard_locks": [
+    "Greg remains on two crutches outside supervised fitting use.",
+    "Greg remains silver-scale liquid; no poverty reset.",
+    "Anchor's End shelf stays empty unless prose independently earns otherwise.",
+    "Resident status does not make Greg inn staff.",
+    "No artifact or Lakeward reward is scheduled merely because Chapter 500 ended the proving run."
+  ],
+  "possibilities": [
+    {
+      "id": "501-a",
+      "shape": "Use the resident-rate laundry/wash infrastructure as the chapter's practical problem.",
+      "result": "rejected",
+      "reason": "Natural but too close to Chapter 500's purchased-infrastructure and optimization grammar."
+    },
+    {
+      "id": "501-b",
+      "shape": "A newer guest asks Greg for Duskport directions and Greg proves he now knows local routes.",
+      "result": "rejected",
+      "reason": "Useful residue, but as the main function it risks turning Greg into informal Anchor's End staff immediately after canon rejected that role."
+    },
+    {
+      "id": "501-c",
+      "shape": "Greg joins an ordinary common-room card table because the existing players need another participant. He is not expert, useful, investigating, or in charge; the evening belongs to the table rather than to a story lane.",
+      "result": "selected",
+      "reason": "Breaks recent work/problem grammar, increases Duskport social density, and lets Greg participate without converting participation into utility or ownership."
+    },
+    {
+      "id": "501-d",
+      "shape": "Greg deliberately spends the day wandering Duskport with no destination.",
+      "result": "rejected",
+      "reason": "Too close to generic wandering with weak residue, explicitly warned against by the current trailhead."
+    }
+  ],
+  "selected_discoveries": [
+    "Reuse ordinary Anchor's End guests rather than spawning a plot-bearing stranger.",
+    "The table activity should pre-exist Greg; he enters because a seat is open, not because he organizes it.",
+    "Let Greg be initially mediocre or wrong about the local rules and improve only enough to participate.",
+    "Keep stakes cheap and socially bounded; no money lesson, hustle, or monetizable discovery.",
+    "Pell remains proprietor and controls the room without turning Greg into helper.",
+    "The durable residue is recognition and social specificity, not a new obligation or business lane."
+  ],
+  "performance": {
+    "used": false,
+    "reason": "Embodied geometry is not outcome-determining. REHEARSAL resolves the ownership and social-function uncertainty cheaply."
+  },
+  "selected_scene_packet": {
+    "required_result": "Greg participates in an ordinary Anchor's End card game and leaves with a little more social specificity in Duskport, without acquiring a job, artifact, responsibility, or scheduled plot payoff.",
+    "protected_non_results": [
+      "No Lakeward message.",
+      "No Merrin match.",
+      "No Hark & Venn session.",
+      "No shelf filling.",
+      "No inn-staff role."
+    ],
+    "likely_residue": "A few Anchor's End regulars become people Greg can recognize and be recognized by; temporary residence gains social texture."
+  },
+  "outward_4d_note": "No Outward 4D hypothesis is used as a scene premise. Any temporally relevant evidence must be recorded only after canon exists."
+}
