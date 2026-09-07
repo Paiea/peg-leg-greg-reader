@@ -27,7 +27,7 @@ jobs:
           git fetch origin main
           echo "SOURCE_AUTHORITY=$(git rev-parse origin/main)" >> "$GITHUB_ENV"
           python -m unittest tests.test_performance_speaker_ownership tests.test_performance_campaign_selection
-      - name: Build speaker ownership map and candidate reducer for Showcase 1-70
+      - name: Propose deterministic two-person dialogue anchors
         run: |
           python - <<'PY'
           from __future__ import annotations
@@ -35,269 +35,157 @@ jobs:
           import json
           import os
           import re
+          from collections import Counter
           from pathlib import Path
-          from scripts import apply_dialogue_ownership_semantic as own
 
           group_a = [1,2,4,5,7,9,10,11,13,14,15,16,17,18,19,22,23,24,25,26,27,28,29,30,31,32,34,35,36,37,39,40,41,42,44]
           group_b = [45,47,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82,83,84,86]
           selected = group_a + group_b
-          assert len(group_a) == len(group_b) == 35 and len(selected) == 70 and len(set(selected)) == 70
-
           para_re = re.compile(r'<p>(.*?)</p>', re.S)
-          quote_re = re.compile(r'[“\"](.*?)[”\"]', re.S)
+          tag_re = re.compile(r'<[^>]+>')
+          quote_re = re.compile(r'^[“\"](.+)[”\"]$', re.S)
           speech_re = re.compile(r'\b(I|he|she|they|[A-Z][A-Za-z\'’\-]+)\s+(said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|remarked|offered)\b', re.I)
-          proper_action_re = re.compile(r'^\s*([A-Z][A-Za-z\'’\-]+|I|He|She|They)\s+(' + own.ACTION + r')\b')
 
-          def strip_tags(value: str) -> str:
-              return html_lib.unescape(re.sub(r'<[^>]+>', '', value)).strip()
+          def clean(raw: str) -> str:
+              return html_lib.unescape(tag_re.sub('', raw)).strip()
 
-          def explicit_speaker(text: str):
-              m = speech_re.search(text)
+          def explicit_speaker(raw: str):
+              m = speech_re.search(clean(raw))
               if not m:
                   return None
               subject = m.group(1)
-              if subject.lower() == 'i':
-                  return 'GREG'
-              if subject.lower() in {'he','she','they'}:
-                  return 'OTHER'
+              if subject.lower() == 'i': return 'GREG'
+              if subject.lower() in {'he','she','they'}: return None
               return subject
 
-          def opening_quote(text: str) -> bool:
-              return text.lstrip().startswith(('“','"'))
+          def pure_dialogue(raw: str) -> bool:
+              text = clean(raw)
+              return bool(quote_re.fullmatch(text)) and not speech_re.search(text) and '<' not in raw
 
-          def dialogue_onlyish(text: str) -> bool:
-              clean = strip_tags(text)
-              return opening_quote(clean) and bool(quote_re.search(clean))
+          def verb_for(raw: str) -> str:
+              text = clean(raw)
+              return 'asked' if text.endswith(('?”','?"')) else 'said'
 
-          def action_owner_after_first_quote(text: str):
-              qs = list(quote_re.finditer(text))
-              if not qs:
-                  return None
-              trailing = text[qs[0].end():].lstrip(' ,.;:!?')
-              m = proper_action_re.match(trailing)
-              if not m:
-                  return None
-              subject = m.group(1)
-              if subject == 'I':
-                  return 'GREG'
-              if subject in {'He','She','They'}:
-                  return 'OTHER'
-              return subject
-
-          def action_owner_paragraph(text: str):
-              m = proper_action_re.match(strip_tags(text))
-              if not m:
-                  return None
-              subject = m.group(1)
-              if subject == 'I':
-                  return 'GREG'
-              if subject in {'He','She','They'}:
-                  return 'OTHER'
-              return subject
-
-          def infer_map(paras: list[str]):
-              speakers = [None] * len(paras)
-              confidence = ['none'] * len(paras)
-              explicit = [False] * len(paras)
-              last_named_non_greg = None
-              last_dialogue_speaker = None
-              last_was_dialogue = False
-              for i, raw in enumerate(paras):
-                  text = strip_tags(raw)
-                  if not quote_re.search(text):
-                      last_was_dialogue = False
-                      ao = action_owner_paragraph(text)
-                      if ao and ao not in {'GREG','OTHER'}:
-                          last_named_non_greg = ao
-                      continue
-                  sp = explicit_speaker(text)
-                  if sp:
-                      speakers[i] = sp
-                      confidence[i] = 'explicit' if sp != 'OTHER' else 'pronoun-explicit'
-                      explicit[i] = True
-                      if sp not in {'GREG','OTHER'}:
-                          last_named_non_greg = sp
-                  elif opening_quote(text):
-                      prev_action = action_owner_paragraph(strip_tags(paras[i-1])) if i else None
-                      if prev_action and prev_action != 'OTHER':
-                          speakers[i] = prev_action
-                          confidence[i] = 'action-anchor'
-                      elif last_was_dialogue and last_dialogue_speaker == 'GREG' and last_named_non_greg:
-                          speakers[i] = last_named_non_greg
-                          confidence[i] = 'alternation'
-                      elif last_was_dialogue and last_dialogue_speaker not in {None,'GREG','OTHER'}:
-                          speakers[i] = 'GREG'
-                          confidence[i] = 'alternation'
-                      elif last_was_dialogue and last_dialogue_speaker == 'OTHER':
-                          speakers[i] = 'GREG'
-                          confidence[i] = 'alternation-low'
-                      else:
-                          speakers[i] = 'GREG'
-                          confidence[i] = 'default-low'
-                  if speakers[i]:
-                      last_dialogue_speaker = speakers[i]
-                      last_was_dialogue = True
-                      if speakers[i] not in {'GREG','OTHER'}:
-                          last_named_non_greg = speakers[i]
-                  else:
-                      last_was_dialogue = False
-              return speakers, confidence, explicit
-
-          report = {
-              'schema': 'performance_speaker_showcase70_scan/v1',
-              'source_authority': os.environ['SOURCE_AUTHORITY'],
-              'groups': {'a': group_a, 'b': group_b},
-              'chapters': [],
-              'candidates': [],
-              'metrics': {'chapters': 70, 'dialogue_paragraphs': 0, 'explicit_dialogue_paragraphs': 0, 'candidates': 0},
-          }
-
+          proposals = []
+          chapter_counts = Counter()
+          run_count = 0
           for chapter in selected:
               path = Path('chapters') / f'{chapter:03d}.html'
-              text = path.read_text(encoding='utf-8')
-              article = text.split('<article class="prose">',1)[1].split('</article>',1)[0]
+              source = path.read_text(encoding='utf-8')
+              article = source.split('<article class="prose">',1)[1].split('</article>',1)[0]
               paras = para_re.findall(article)
-              speakers, confidences, explicits = infer_map(paras)
-              chapter_candidates = []
-              dialogue_idxs = [i for i,p in enumerate(paras) if quote_re.search(strip_tags(p))]
-              report['metrics']['dialogue_paragraphs'] += len(dialogue_idxs)
-              report['metrics']['explicit_dialogue_paragraphs'] += sum(1 for i in dialogue_idxs if explicits[i])
-
-              for i in dialogue_idxs:
-                  current = strip_tags(paras[i])
-                  if not opening_quote(current):
+              i = 0
+              while i < len(paras):
+                  if not pure_dialogue(paras[i]):
+                      i += 1
                       continue
-                  action_owner = action_owner_after_first_quote(current)
-                  speaker = speakers[i]
-                  if action_owner and speaker and action_owner != 'OTHER' and action_owner != speaker:
-                      chapter_candidates.append((i, 'foreign_action_attachment', 'high'))
-
-              for i in dialogue_idxs:
-                  current = strip_tags(paras[i])
-                  quotes = list(quote_re.finditer(current))
-                  if len(quotes) >= 2:
-                      between = current[quotes[0].end():quotes[1].start()]
-                      if proper_action_re.search(between.strip(' ,.;:!?')):
-                          chapter_candidates.append((i, 'multi_speaker_paragraph', 'high'))
-
-              run = []
-              def flush_run(run):
-                  if len(run) < 4:
-                      return
+                  start = i
+                  while i < len(paras) and pure_dialogue(paras[i]):
+                      i += 1
+                  end = i
+                  run = list(range(start, end))
+                  if len(run) < 4 or start == 0:
+                      continue
+                  anchor = explicit_speaker(paras[start-1])
+                  if not anchor:
+                      continue
+                  window = range(max(0, start-6), min(len(paras), end+6))
+                  named = {explicit_speaker(paras[j]) for j in window}
+                  named.discard(None); named.discard('GREG')
+                  if len(named) != 1:
+                      continue
+                  other = next(iter(named))
+                  if anchor not in {'GREG', other}:
+                      continue
+                  run_count += 1
+                  first = other if anchor == 'GREG' else 'GREG'
                   for offset, idx in enumerate(run):
-                      if offset in {3,7,11,15,19} or confidences[idx] in {'default-low','alternation-low'}:
-                          chapter_candidates.append((idx, 'long_untagged_run', 'review'))
-              for i in range(len(paras)):
-                  current = strip_tags(paras[i])
-                  if dialogue_onlyish(current) and not explicits[i]:
-                      run.append(i)
-                  else:
-                      flush_run(run)
-                      run = []
-              flush_run(run)
+                      if offset % 4 != 3:
+                          continue
+                      speaker = first if offset % 2 == 0 else (other if first == 'GREG' else 'GREG')
+                      who = 'I' if speaker == 'GREG' else speaker
+                      old_raw = paras[idx]
+                      new_raw = old_raw + f' {who} {verb_for(old_raw)}.'
+                      old_html = f'<p>{old_raw}</p>'
+                      new_html = f'<p>{new_raw}</p>'
+                      if source.count(old_html) != 1:
+                          continue
+                      proposals.append({
+                          'chapter': chapter,
+                          'paragraph_index': idx,
+                          'speaker': speaker,
+                          'anchor_speaker': anchor,
+                          'other_speaker': other,
+                          'run_start': start,
+                          'run_length': len(run),
+                          'old_html': old_html,
+                          'new_html': new_html,
+                          'previous': clean(paras[idx-1]) if idx else '',
+                          'current': clean(old_raw),
+                          'following': clean(paras[idx+1]) if idx+1 < len(paras) else '',
+                      })
+                      chapter_counts[chapter] += 1
 
-              for i in dialogue_idxs:
-                  if explicits[i] or i == 0 or not opening_quote(strip_tags(paras[i])):
-                      continue
-                  window = range(max(0, i-8), min(len(paras), i+5))
-                  named = {speakers[j] for j in window if speakers[j] not in {None,'GREG','OTHER'}}
-                  if len(named) >= 2:
-                      chapter_candidates.append((i, 'multi_party_reentry', 'review'))
-
-              seen = set()
-              normalized = []
-              for i, rule, priority in chapter_candidates:
-                  key = (i, rule)
-                  if key in seen:
-                      continue
-                  seen.add(key)
-                  row = {
-                      'chapter': chapter,
-                      'paragraph_index': i,
-                      'rule': rule,
-                      'priority': priority,
-                      'speaker': speakers[i],
-                      'speaker_confidence': confidences[i],
-                      'explicit_speaker': explicits[i],
-                      'previous': strip_tags(paras[i-1]) if i else '',
-                      'current': strip_tags(paras[i]),
-                      'following': strip_tags(paras[i+1]) if i+1 < len(paras) else '',
-                  }
-                  normalized.append(row)
-                  report['candidates'].append(row)
-              report['chapters'].append({'chapter': chapter, 'dialogue_paragraphs': len(dialogue_idxs), 'candidates': len(normalized)})
-
-          report['metrics']['candidates'] = len(report['candidates'])
-          out = Path('state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json')
+          payload = {
+              'schema': 'performance_speaker_periodic_anchor_proposals/v1',
+              'source_authority': os.environ['SOURCE_AUTHORITY'],
+              'chapters_considered': 70,
+              'eligible_runs': run_count,
+              'proposal_count': len(proposals),
+              'chapter_counts': {str(k): v for k,v in sorted(chapter_counts.items())},
+              'proposals': proposals,
+          }
+          out = Path('state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json')
           out.parent.mkdir(parents=True, exist_ok=True)
-          out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          print(json.dumps(report['metrics'], indent=2))
-          print('group A candidates', sum(c['candidates'] for c in report['chapters'][:35]))
-          print('group B candidates', sum(c['candidates'] for c in report['chapters'][35:]))
+          out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps({k: payload[k] for k in ('chapters_considered','eligible_runs','proposal_count')}, indent=2))
+          print('chapters with proposals', len(chapter_counts))
           PY
-      - name: Reduce to decision-ready speaker shortlist
+      - name: Extract objective ownership defects from broad scan
         run: |
           python - <<'PY'
           import json
-          from collections import Counter, defaultdict
           from pathlib import Path
-
           src = Path('state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json')
+          if not src.exists():
+              print('broad scan missing; objective defect list skipped')
+              raise SystemExit(0)
           data = json.loads(src.read_text(encoding='utf-8'))
-          rank = {'foreign_action_attachment': 0, 'multi_speaker_paragraph': 1, 'multi_party_reentry': 2, 'long_untagged_run': 3}
-          by_para = {}
-          for row in data['candidates']:
-              keep = False
-              if row['priority'] == 'high':
-                  keep = True
-              elif row['rule'] == 'multi_party_reentry':
-                  keep = True
-              elif row['rule'] == 'long_untagged_run' and row['speaker_confidence'] in {'default-low','alternation-low'}:
-                  keep = True
-              if not keep:
-                  continue
-              key = (row['chapter'], row['paragraph_index'])
-              prior = by_para.get(key)
-              if prior is None or rank[row['rule']] < rank[prior['rule']]:
-                  by_para[key] = row
-          rows = sorted(by_para.values(), key=lambda r: (r['chapter'], r['paragraph_index']))
-          counts = Counter(r['rule'] for r in rows)
-          chapter_counts = Counter(r['chapter'] for r in rows)
-          summary = {
-              'schema': 'performance_speaker_showcase70_shortlist/v1',
-              'source_authority': data['source_authority'],
-              'candidate_count': len(rows),
-              'rule_counts': dict(counts),
-              'chapter_counts': {str(k): v for k,v in sorted(chapter_counts.items())},
-              'rows': rows,
-          }
-          out = Path('state/editorial/performance-production/trials/showcase-70-speaker-shortlist.json')
-          out.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          md = [
-              '# Showcase 1-70 speaker ownership shortlist', '',
-              f"Source authority: `{data['source_authority']}`", '',
-              f"Decision-ready candidates: **{len(rows)}**", '',
-              'Rule counts: ' + ', '.join(f'{k}={v}' for k,v in sorted(counts.items())), '',
-          ]
-          for r in rows:
-              md += [
-                  f"## Canon {r['chapter']:03d} ¶{r['paragraph_index']} | {r['rule']} | {r['speaker']} ({r['speaker_confidence']})",
-                  '',
-                  f"PREV: {r['previous']}", '',
-                  f"CURR: {r['current']}", '',
-                  f"NEXT: {r['following']}", '',
-              ]
-          Path('state/editorial/performance-production/trials/showcase-70-speaker-shortlist.md').write_text('\n'.join(md) + '\n', encoding='utf-8')
-          print(json.dumps({'candidate_count': len(rows), 'rule_counts': dict(counts), 'chapters_touched': len(chapter_counts)}, indent=2))
+          rows = [r for r in data['candidates'] if r['rule'] in {'foreign_action_attachment','multi_speaker_paragraph'}]
+          out = Path('state/editorial/performance-production/trials/showcase-70-speaker-objective-defects.json')
+          out.write_text(json.dumps({'source_authority': data['source_authority'], 'count': len(rows), 'rows': rows}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('objective defects', len(rows))
           PY
-      - name: Commit disposable candidate reports
+      - name: Dry-run every proposed prose anchor
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json').read_text(encoding='utf-8'))
+          by_chapter = {}
+          for p in data['proposals']:
+              by_chapter.setdefault(p['chapter'], []).append(p)
+          applied = 0
+          for chapter, proposals in by_chapter.items():
+              text = (Path('chapters') / f'{chapter:03d}.html').read_text(encoding='utf-8')
+              for p in proposals:
+                  if text.count(p['old_html']) != 1:
+                      raise SystemExit(f"anchor drift {chapter:03d}: {p['old_html'][:80]}")
+                  text = text.replace(p['old_html'], p['new_html'], 1)
+                  applied += 1
+              if '—' in ''.join(p['new_html'] for p in proposals):
+                  raise SystemExit(f'em dash introduced in {chapter:03d}')
+          assert applied == data['proposal_count']
+          print('dry-run proposals applied', applied)
+          PY
+      - name: Commit disposable proposal reports
         run: |
           git config user.name 'PLG PERFORMANCE Funnel'
           git config user.email 'actions@users.noreply.github.com'
-          git add state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json state/editorial/performance-production/trials/showcase-70-speaker-shortlist.json state/editorial/performance-production/trials/showcase-70-speaker-shortlist.md
+          git add state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json state/editorial/performance-production/trials/showcase-70-speaker-objective-defects.json
           if git diff --cached --quiet; then
-            echo 'No report changes.'
+            echo 'No proposal changes.'
             exit 0
           fi
-          git commit -m 'trial: reduce first 70 speaker ownership candidates'
+          git commit -m 'trial: propose safe speaker anchors for Showcase 1-70'
           git push origin HEAD:editor/performance-speaker-showcase-70
