@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rehearsal_campaign_worker_result/v1",
+  "type": "object",
+  "required": ["schema", "batch", "chapters", "candidates"],
+  "properties": {
+    "schema": {"const": "rehearsal_campaign_worker_result/v1"},
+    "batch": {
+      "type": "object",
+      "required": ["start", "end", "source_authority"],
+      "properties": {
+        "start": {"type": "integer", "minimum": 1},
+        "end": {"type": "integer", "minimum": 1},
+        "source_authority": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapter", "disposition", "discoveries", "rejected_hot"],
+        "properties": {
+          "chapter": {"type": "integer", "minimum": 1},
+          "disposition": {"enum": ["source_win", "returns", "blocked"]},
+          "discoveries": {"type": "array"},
+          "rejected_hot": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "finding"],
+              "properties": {
+                "label": {
+                  "enum": [
+                    "overacted_theatre",
+                    "quip_inflation",
+                    "gratuitous_interruption",
+                    "prop_recursion",
+                    "movement_saturation",
+                    "overcompression",
+                    "character_caricature",
+                    "pov_crowding",
+                    "useful_repetition_destroyed",
+                    "cast_expansion_rejected"
+                  ]
+                },
+                "finding": {"type": "string", "minLength": 1}
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "chapter",
+          "actor",
+          "role",
+          "supporting_actors",
+          "take_id",
+          "actor_prefers",
+          "dramatic_lock_status",
+          "reader_check",
+          "changed_surfaces",
+          "before",
+          "after",
+          "reason"
+        ],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "chapter": {"type": "integer", "minimum": 1},
+          "actor": {"type": "string", "minLength": 1},
+          "role": {"type": "string", "minLength": 1},
+          "supporting_actors": {"type": "array", "items": {"type": "string"}},
+          "take_id": {"type": "string", "minLength": 1},
+          "variance_group_id": {"type": ["string", "null"]},
+          "actor_prefers": {"const": true},
+          "dramatic_lock_status": {"const": "preserved"},
+          "reader_check": {"const": "pass"},
+          "changed_surfaces": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "dialogue",
+                "paragraphing",
+                "movement",
+                "blocking",
+                "silence",
+                "interaction_timing",
+                "reaction_placement",
+                "object_handling",
+                "local_exchange_shape",
+                "tone",
+                "internal_dialogue",
+                "narration_rhythm",
+                "attention_order",
+                "sensory_emphasis",
+                "memory_intrusion"
+              ]
+            }
+          },
+          "before": {"type": "string", "minLength": 1},
+          "after": {"type": "string", "minLength": 1},
+          "reason": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

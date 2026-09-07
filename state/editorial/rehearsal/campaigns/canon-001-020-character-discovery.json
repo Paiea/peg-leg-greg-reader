@@ -1,0 +1,111 @@
+{
+  "schema": "rehearsal_character_discovery_campaign/v1",
+  "campaign": "canon-001-020-character-discovery",
+  "authority": "derived_editorial_only",
+  "source_authority": "03e7fc136f1f1a636913b75a44396683b5b03841",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "main_write_authorized": false,
+  "calibration": {
+    "rehearsal_freedom": "high",
+    "prose_retention": "editorial_gated",
+    "default_mode": "free",
+    "faithful_control": true,
+    "directed_only_for_named_question": true,
+    "principle": "performance authority and prose-retention authority are separate knobs"
+  },
+  "method": {
+    "scene_model": "scenes are tests; actor packets provide durable identity and compact pressure context rather than trait descriptions",
+    "private_performance": "all meaningful actors may overperform privately; only Greg/Nico inner voice is directly eligible for first-person novelization",
+    "behavioral_evidence": "store observable behavior under conditions, not broad trait labels",
+    "variance": "siblings share frozen memory and may choose different private interpretations; only recurring observable behavior gains stronger rehearsal evidence",
+    "probe_policy": "optional non-canon laboratory situations, authoritative=false",
+    "write_policy": "clear soft-prose wins may return through production exact-source gates on the isolated editorial branch"
+  },
+  "readings": [
+    {"chapter":1,"mode":"free","actors":["Nico/Greg"],"pressure_tags":["identity_discontinuity","epistemic_uncertainty"],"verdict":"source_win","finding":"Greg's current opening already performs live cognition through sensory mismatch, memory fragments, self-correction, calculation, and strategic narrowing rather than polished monologue alone.","outcome":{"result":"no_change","reasons":["inner_voice","timing","no_change"]}},
+    {"chapter":2,"mode":"free","actors":["Nico/Greg"],"pressure_tags":["resource_scarcity","orientation","future_knowledge_uncertainty"],"verdict":"source_win","finding":"Street-level choices keep Greg's systems thinking tied to money, walking, asking, and immediate constraints.","outcome":{"result":"no_change","reasons":["behavioral_specificity","inner_voice","no_change"]}},
+    {"chapter":3,"mode":"faithful","actors":["Nico/Greg"],"pressure_tags":["continuity","economic_constraint"],"verdict":"source_win_light","finding":"Hidden canon transition remains bounded and does not justify deeper character excavation.","outcome":{"result":"no_change","reasons":["no_change"]}},
+    {"chapter":4,"mode":"free","actors":["Nico/Greg"],"pressure_tags":["capital_growth","compulsion","identity_role_pressure"],"verdict":"source_win","finding":"Greg's money and warrior thinking already shows the productive/dangerous loop between possibility, self-justification, and bodily desire to act.","outcome":{"result":"no_change","reasons":["inner_voice","behavioral_specificity","no_change"]}},
+    {"chapter":5,"mode":"free","actors":["Nico/Greg","Desmond/Antonius","Kellan/Jorren"],"pressure_tags":["financial_overextension","status_negotiation","physical_limit"],"verdict":"source_win_after_wave4","finding":"Antonius reduces Greg's conceptual framing to exact debt while Jorren makes physical competence prove itself. Nico's strongest private performance is the moment Greg recognizes that 'I can win it back' is dangerous before doing it anyway.","outcome":{"result":"no_change","reasons":["behavioral_specificity","dialogue_voice","physical_ownership","inner_voice","no_change"]}},
+    {"chapter":6,"mode":"faithful","actors":["Nico/Greg"],"pressure_tags":["continuity","work_constraint"],"verdict":"source_win_light","finding":"No recurring-character pressure collision warrants a deeper take.","outcome":{"result":"no_change","reasons":["no_change"]}},
+    {"chapter":7,"mode":"free","actors":["Nico/Greg","Desmond/Antonius"],"pressure_tags":["information_asymmetry","commercial_opportunity","classification_compulsion"],"verdict":"source_win_after_wave4","finding":"Desmond's hidden interpretations vary between pricing Greg's useful obsession and testing whether Greg can distinguish recognition from desire-to-find-value, but both produce the same observable Antonius behavior: keep working, price information, and refuse to perform the lesson for Greg.","outcome":{"result":"no_change","reasons":["subtext","physical_ownership","dialogue_voice","no_change"]}},
+    {"chapter":8,"mode":"faithful","actors":["Nico/Greg"],"pressure_tags":["continuity","material_progression"],"verdict":"source_win_light","finding":"No deeper actor test justified.","outcome":{"result":"no_change","reasons":["no_change"]}},
+    {"chapter":9,"mode":"free","actors":["Nico/Greg","Desmond/Antonius"],"pressure_tags":["transaction_boundary","patience","greg_projection"],"verdict":"source_win_watch","finding":"Antonius is strongest when the relationship pressure is expressed through waiting, transaction boundaries, and practical questions rather than a repeated signature object.","outcome":{"result":"no_change","reasons":["subtext","timing","no_change"]}},
+    {"chapter":10,"mode":"free","actors":["Nico/Greg","Desmond/Antonius","Rowan/Arlo"],"pressure_tags":["appraisal_pressure","information_asymmetry","time_pressure","conflicted_expertise"],"verdict":"candidate_win_local","finding":"The appraisal itself is strongly differentiated: Arlo owns object evidence, Antonius owns the lending decision and information boundary, Greg reframes from object value to loan value. One paragraph still welds Greg's question to Antonius's refusal and should be split by speaker ownership.","candidate_ids":["c010-speaker-boundary-character-discovery-01"],"outcome":{"result":"accepted","reasons":["dialogue_voice","timing"]}},
+    {"chapter":11,"mode":"free","actors":["Nico/Greg","Mara/Hessa"],"pressure_tags":["physical_safety","teaching_boundary","greg_momentum"],"verdict":"source_win","finding":"Hessa's hidden state can be played as concern, irritation, or interest without changing the observable solution: step into the task space, keep contact with Greg's wrist, stop the session, and make the body answer before the argument continues.","outcome":{"result":"no_change","reasons":["physical_ownership","subtext","inner_voice","no_change"]}},
+    {"chapter":12,"mode":"faithful","actors":["Nico/Greg"],"pressure_tags":["continuity"],"verdict":"source_win_light","finding":"No recurring-character pressure test warranted.","outcome":{"result":"no_change","reasons":["no_change"]}},
+    {"chapter":13,"mode":"free","actors":["Nico/Greg","Rowan/Arlo","Mara/Hessa"],"pressure_tags":["work_ownership","idea_proliferation","measurement_uncertainty","teaching_constraint"],"verdict":"source_win_after_wave4","finding":"Arlo's strongest separation comes from protecting process ownership and forcing one measurable next step. Greg's internal performance benefits from excitement being interrupted by Arlo's fixtures and notebook boundaries rather than by another clever retort.","outcome":{"result":"no_change","reasons":["behavioral_specificity","dialogue_voice","timing","no_change"]}},
+    {"chapter":14,"mode":"free","actors":["Nico/Greg","Kellan/Jorren"],"pressure_tags":["physical_training","hypervigilance","execution_gap","low_stakes_work"],"verdict":"source_win_after_wave4","finding":"Jorren repeatedly solves Greg's over-reading by returning attention to what the body, road, and immediate contract can prove. His authority stays local rather than becoming mentor exposition.","outcome":{"result":"no_change","reasons":["physical_ownership","behavioral_specificity","timing","no_change"]}},
+    {"chapter":15,"mode":"free","actors":["Nico/Greg"],"pressure_tags":["pattern_hunger","failed_theory","evidence_discipline"],"verdict":"source_win","finding":"Greg's cognition is strongest when the world defeats the satisfying theory. No added internal explanation improves the existing correction.","outcome":{"result":"no_change","reasons":["inner_voice","no_change"]}},
+    {"chapter":16,"mode":"free","actors":["Nico/Greg","Kellan/Jorren","Noa/Alden"],"pressure_tags":["physical_training","correction","peer_competence"],"verdict":"source_win_watch","finding":"Jorren and Alden remain distinct when one makes the body prove the lesson and the other engages correction without turning deferential or Greg-like.","outcome":{"result":"no_change","reasons":["behavioral_specificity","physical_ownership","no_change"]}},
+    {"chapter":17,"mode":"free","actors":["Nico/Greg","Noa/Alden"],"pressure_tags":["operational_uncertainty","investigation","greg_overplanning"],"verdict":"source_win_after_wave4","finding":"Alden's accepted behavior under pressure is immediate and physical: warning clause, loosened board, nail hole, sack position, and silence while Greg cuts twelve plans down to one. Greg's thought that he may be inventing a satisfying Alden is a strong live-cognition self-check and should remain.","outcome":{"result":"no_change","reasons":["behavioral_specificity","subtext","inner_voice","no_change"]}},
+    {"chapter":18,"mode":"variance","actors":["Nico/Greg","Mara/Hessa"],"pressure_tags":["physical_safety","epistemic_uncertainty","concealed_history","teaching_boundary"],"verdict":"source_win_variance","finding":"Two independent Hessa private interpretations produce the same observable ownership: wait, control the beans, ask what changed, stop on count, and force the immediate claim to stay smaller than Greg's theory. The behavior is strong evidence; neither private motive is promoted.","variance_group_id":"hessa-018-private-motive","outcome":{"result":"no_change","reasons":["physical_ownership","subtext","inner_voice","behavioral_specificity","no_change"]}},
+    {"chapter":19,"mode":"free","actors":["Nico/Greg"],"pressure_tags":["recognition","earned_progression","future_memory"],"verdict":"source_win","finding":"Material recognition arrives before Greg explains it, which is exactly the desired cognition order.","outcome":{"result":"no_change","reasons":["inner_voice","timing","no_change"]}},
+    {"chapter":20,"mode":"faithful","actors":["Nico/Greg"],"pressure_tags":["continuity","economic_progression"],"verdict":"source_win_light","finding":"No recurring actor collision or high-leverage pressure test justified deeper rehearsal.","outcome":{"result":"no_change","reasons":["no_change"]}}
+  ],
+  "variance_sets": [
+    {
+      "variance_group_id": "hessa-018-private-motive",
+      "memory_snapshot_id": "mem-hessa-018-character-discovery-v1",
+      "takes": [
+        {
+          "take_id": "hessa-018-free-a",
+          "mode": "free",
+          "private_interpretation": "Responsibility for Greg's physical safety dominates; do not reward interesting results that outrun the body.",
+          "authority": "rehearsal_hypothesis",
+          "observable_findings": ["waits_for_answer", "controls_materials", "asks_what_changed", "stops_on_count"]
+        },
+        {
+          "take_id": "hessa-018-free-b",
+          "mode": "free",
+          "private_interpretation": "Suspicion that Greg is hiding knowledge dominates; keep forcing claims back to what he can actually demonstrate.",
+          "authority": "rehearsal_hypothesis",
+          "observable_findings": ["waits_for_answer", "controls_materials", "asks_what_changed", "stops_on_count"]
+        }
+      ],
+      "stable_observable_evidence": [
+        {"finding":"asks_what_changed","support_count":2,"authority":"rehearsal_evidence"},
+        {"finding":"controls_materials","support_count":2,"authority":"rehearsal_evidence"},
+        {"finding":"stops_on_count","support_count":2,"authority":"rehearsal_evidence"},
+        {"finding":"waits_for_answer","support_count":2,"authority":"rehearsal_evidence"}
+      ],
+      "private_motive_promoted": false
+    }
+  ],
+  "behavioral_discoveries": [
+    {"role":"Antonius","actor":"Desmond","relationship":"Antonius::Greg","pressure_tags":["financial_overextension","conceptual_deflection"],"observed_behavior":"lets Greg exhaust framing, then reduces the dispute to exact obligations or decision boundaries","status":"supported","support_source":"accepted_prose"},
+    {"role":"Hessa","actor":"Mara","relationship":"Hessa::Greg","pressure_tags":["physical_safety","greg_momentum"],"observed_behavior":"takes direct control of task or body before explaining when Greg is likely to outrun his limit","status":"supported","support_source":"accepted_prose"},
+    {"role":"Arlo","actor":"Rowan","relationship":"Arlo::Greg","pressure_tags":["work_ownership","idea_proliferation"],"observed_behavior":"protects process ownership and redirects Greg toward one measurable next test","status":"supported","support_source":"accepted_prose"},
+    {"role":"Jorren","actor":"Kellan","relationship":"Jorren::Greg","pressure_tags":["hypervigilance","execution_gap"],"observed_behavior":"answers Greg's over-reading by making body, terrain, or immediate task prove the point","status":"supported","support_source":"accepted_prose"},
+    {"role":"Alden","actor":"Noa","relationship":"Alden::Greg","pressure_tags":["operational_uncertainty","greg_overplanning"],"observed_behavior":"stays with immediate physical evidence and can leave Greg's thinking space unfilled","status":"supported","support_source":"accepted_prose"},
+    {"role":"Greg","actor":"Nico","relationship":"Greg::Hessa","pressure_tags":["teaching_boundary","curiosity"],"observed_behavior":"jokes or reframes internally before deciding whether to externalize it; strongest when the immediate test interrupts the larger theory","status":"supported","support_source":"accepted_prose"}
+  ],
+  "probe_evidence": [
+    {
+      "probe_id": "early-cast-dangerous-clever",
+      "path": "state/editorial/rehearsal/probes/early-cast-dangerous-clever.json",
+      "authoritative": false,
+      "result": "distinct observable solutions",
+      "private_motives_promoted": false
+    }
+  ],
+  "rejected_overperformance": [
+    {"chapter":1,"finding":"Adding polished extra internal sentences to explain already-live cognition made Greg more essayistic; source wins."},
+    {"chapter":10,"finding":"Additional Antonius ledger gestures reproduced the Wave 4 motif-recursion failure; behavioral principle retained, extra prop acting rejected."},
+    {"chapter":18,"finding":"Making Hessa's private safety/suspicion interpretation explicit in Greg-facing prose solved useful ambiguity and was rejected."}
+  ],
+  "prose_returns": ["c010-speaker-boundary-character-discovery-01"],
+  "totals": {
+    "canon_chapters_covered": 20,
+    "deep_free_or_variance_reads": 15,
+    "faithful_light_controls": 5,
+    "variance_groups": 1,
+    "character_probes": 1,
+    "behavioral_discoveries": 6,
+    "local_prose_returns": 1,
+    "source_win_or_no_change_chapters": 19,
+    "candidate_win_chapters": 1,
+    "lock_violations": 0,
+    "main_writes": 0
+  }
+}

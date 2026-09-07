@@ -1,0 +1,183 @@
+name: REHEARSAL FREE returns 051-060
+
+on:
+  push:
+    branches:
+      - editor/rehearsal-simulation-engine
+    paths:
+      - '.github/workflows/rehearsal-free-returns-051-060.yml'
+      - 'scripts/apply_rehearsal_returns.py'
+      - 'tests/test_apply_rehearsal_returns.py'
+      - 'tests/test_rehearsal_campaign_workflow_contract.py'
+      - 'state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Focused FREE return tests
+        run: python -m unittest tests.test_rehearsal_engine tests.test_rehearsal_scene_pressure tests.test_apply_rehearsal_returns -v
+      - name: Materialize literal-source manifest
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          src = Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json')
+          data = json.loads(src.read_text())
+
+          patch = next(p for p in data['patches'] if p['id'] == 'c055-alden-stop-house-boundary-01')
+          patch['before'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face.</p>'
+          patch['after'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>'
+
+          patch = next(p for p in data['patches'] if p['id'] == 'c056-arlo-busy-exchange-boundary-01')
+          chapter = Path('chapters/056.html').read_text()
+          action_text = 'Arlo shifted the bundle under his arm.'
+          final_text = 'Because you said you\'re busy.'
+          action_pos = chapter.find(action_text)
+          if action_pos < 0 or chapter.find(action_text, action_pos + 1) >= 0:
+              raise SystemExit('chapter 56 action text is not unique')
+          a = chapter.rfind('<p>', 0, action_pos)
+          action_para_close = chapter.find('</p>', action_pos)
+          if a < 0 or action_para_close < 0:
+              raise SystemExit('chapter 56 enclosing paragraph boundaries not found')
+          lead_paragraph = chapter[a:action_para_close + len('</p>')]
+          prefix = lead_paragraph[:lead_paragraph.index(action_text)]
+          final_pos = chapter.find(final_text, action_para_close)
+          if final_pos < 0:
+              raise SystemExit('chapter 56 final line not found after action')
+          b = chapter.find('</p>', final_pos)
+          if b < 0:
+              raise SystemExit('chapter 56 final paragraph close not found')
+          b += len('</p>')
+          patch['before'] = chapter[a:b]
+          patch['after'] = (
+              prefix
+              + 'Arlo shifted the bundle under his arm.</p>'
+              + '<p>“Greg. Go spar.”</p>'
+              + '<p>“Customer later?”</p>'
+              + '<p>“After midday.”</p>'
+              + '<p>“East lamp works?”</p>'
+              + '<p>“Yes.”</p>'
+              + '<p>“Then I\'ll meet you after.”</p>'
+              + '<p>Arlo had already started walking.</p>'
+              + '<p>“That was always an option.”</p>'
+          )
+          if chapter.count(patch['before']) != 1:
+              raise SystemExit(f'chapter 56 materialized span count={chapter.count(patch["before"])}')
+
+          patch = next(p for p in data['patches'] if p['id'] == 'c060-pessa-write-less-boundary-01')
+          chapter = Path('chapters/060.html').read_text()
+          start_text = 'Pessa looked at my board.'
+          end_text = 'Pessa took my board.'
+          start_pos = chapter.find(start_text)
+          end_pos = chapter.find(end_text, start_pos + len(start_text))
+          if start_pos < 0 or chapter.find(start_text, start_pos + 1) >= 0:
+              raise SystemExit('chapter 60 opening action is not unique')
+          if end_pos < 0 or chapter.find(end_text, end_pos + 1) >= 0:
+              raise SystemExit('chapter 60 closing action is not unique')
+          a = chapter.rfind('<p>', 0, start_pos)
+          first_close = chapter.find('</p>', start_pos)
+          final_close = chapter.find('</p>', end_pos)
+          if a < 0 or first_close < 0 or final_close < 0:
+              raise SystemExit('chapter 60 literal paragraph boundaries not found')
+          final_close += len('</p>')
+          opening_para = chapter[a:first_close + len('</p>')]
+          opening_prefix = opening_para[:opening_para.index(start_text)]
+          closing_para = chapter[chapter.rfind('<p>', 0, end_pos):final_close]
+          after_action = closing_para[closing_para.index(end_text) + len(end_text):]
+          if not after_action.endswith('</p>'):
+              raise SystemExit('chapter 60 closing paragraph suffix malformed')
+          suffix_text = after_action[:-len('</p>')].strip()
+          patch['before'] = chapter[a:final_close]
+          patch['after'] = (
+              opening_prefix
+              + 'Pessa took my board and crossed out half the first entry before speaking.</p>'
+              + '<p>“Too much.”</p>'
+              + '<p>“Which parts?”</p>'
+              + '<p>She handed it back.</p>'
+              + '<p>“If removing it doesn\'t change the next decision, remove it.”</p>'
+              + '<p>Dorn pointed at the farmer complaint.</p>'
+              + '<p>“Red face survives?”</p>'
+              + '<p>“I didn\'t write red face.”</p>'
+              + '<p>“You thought it.”</p>'
+              + '<p>I hated experts.</p>'
+              + (f'<p>{suffix_text}</p>' if suffix_text else '')
+          )
+          if chapter.count(patch['before']) != 1:
+              raise SystemExit(f'chapter 60 materialized span count={chapter.count(patch["before"])}')
+
+          Path('/tmp/canon-051-060-boundary-hunt-returns.json').write_text(json.dumps(data, indent=2) + '\n')
+          PY
+      - name: Dry-run all exact FREE returns
+        run: python scripts/apply_rehearsal_returns.py --manifest /tmp/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json
+      - name: Apply validated FREE returns
+        run: python scripts/apply_rehearsal_returns.py --manifest /tmp/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json --write
+      - name: Verify return diff boundaries
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          manifest = json.loads(Path('/tmp/canon-051-060-boundary-hunt-returns.json').read_text())
+          report_path = Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json')
+          report = json.loads(report_path.read_text())
+          expected = sorted({p['chapter'] for p in manifest['patches']})
+          if report['patches_applied'] != len(manifest['patches']): raise SystemExit('patch count mismatch')
+          if report['changed_chapters'] != expected: raise SystemExit('chapter boundary mismatch')
+          allowed = {f'chapters/{c:03d}.html' for c in expected} | {str(report_path)}
+          changed = set(subprocess.check_output(['git','diff','--name-only'], text=True).split())
+          if changed - allowed: raise SystemExit('unexpected generated files: ' + ', '.join(sorted(changed-allowed)))
+          if {f'chapters/{c:03d}.html' for c in expected} - changed: raise SystemExit('expected chapter rewrite missing')
+          print('FREE return diff boundary verified')
+          PY
+      - name: Reject hard-surface leakage and em dashes
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+          manifest=json.loads(Path('/tmp/canon-051-060-boundary-hunt-returns.json').read_text())
+          hard={'plot','facts','knowledge','causality','major_relationship_state','physical_state','chronology','economics','earned_competence','injury_state'}
+          for p in manifest['patches']:
+            overlap=hard.intersection(p['changed_surfaces'])
+            if overlap: raise SystemExit(f"hard surface leaked into {p['id']}: {sorted(overlap)}")
+          for c in sorted({p['chapter'] for p in manifest['patches']}):
+            text=Path(f'chapters/{c:03d}.html').read_text()
+            article=text.split('<article class="prose">',1)[1].split('</article>',1)[0]
+            if '—' in re.sub(r'<[^>]+>','',article): raise SystemExit(f'em dash in prose: {c}')
+          print('Hard-surface and no-em-dash checks passed.')
+          PY
+      - name: Full repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/performance_roundtrip_references.py --check
+          python scripts/project_check.py showcase
+          git diff --check
+      - name: Commit validated FREE prose returns
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python - <<'PY' > /tmp/rehearsal-return-files.txt
+          import json
+          from pathlib import Path
+          m=json.loads(Path('/tmp/canon-051-060-boundary-hunt-returns.json').read_text())
+          for c in sorted({p['chapter'] for p in m['patches']}): print(f'chapters/{c:03d}.html')
+          print('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json')
+          PY
+          mapfile -t files < /tmp/rehearsal-return-files.txt
+          git add -- "${files[@]}"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Apply over-hot FREE REHEARSAL returns through canon 60'
+          git push origin HEAD:editor/rehearsal-simulation-engine

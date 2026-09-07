@@ -1,0 +1,259 @@
+{
+  "schema": "rehearsal_free_returns_report/v1",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 10,
+  "patches_applied": 10,
+  "changed_chapters": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "records": [
+    {
+      "patch_id": "c051-tavin-map-control-boundary-01",
+      "chapter": 51,
+      "actor": "Tavin",
+      "role": "Tavin",
+      "take_id": "051-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "At boundary-hunt heat, Tavin should own the explanation through the map and compress the abstract And exchange into her operational way of assigning responsibility.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c052-hessa-blister-control-boundary-01",
+      "chapter": 52,
+      "actor": "Mara",
+      "role": "Hessa",
+      "take_id": "052-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "interaction_timing"
+      ],
+      "reason": "Mara's Hessa is stronger when procedure interrupts Greg's verbal defense instead of participating in every joke beat.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c053-jorren-bath-interrogation-boundary-01",
+      "chapter": 53,
+      "actor": "Jorren actor",
+      "role": "Jorren",
+      "take_id": "053-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "The over-hot take lets Jorren seize the exchange, compress repeated yes/no beats, and make Greg's voluntary leisure the actual joke rather than the list itself.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c054-edrin-maybe-rhythm-boundary-01",
+      "chapter": 54,
+      "actor": "Edrin",
+      "role": "Edrin",
+      "take_id": "054-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "This deliberately hotter take preserves Edrin's refusal to overclaim but lets her hear Greg's hypothesis cascade and answer its rhythm rather than behaving like a repeated-response machine.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c055-alden-stop-house-boundary-01",
+      "chapter": 55,
+      "actor": "Noa",
+      "role": "Alden",
+      "take_id": "055-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "tone"
+      ],
+      "reason": "Keep the over-hot physical interruption, but anchor it to the literal unique source paragraph rather than requiring a multi-paragraph dialogue block to match as one return.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c056-arlo-busy-exchange-boundary-01",
+      "chapter": 56,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "take_id": "056-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "Boundary-hunt authority allows the whole exchange to collapse around Arlo's process-minded impatience. The information and Greg's choice survive with much less conversational circling.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c057-bram-annoying-boundary-01",
+      "chapter": 57,
+      "actor": "Bram",
+      "role": "Bram",
+      "take_id": "057-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Kell"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "interaction_timing"
+      ],
+      "reason": "Bram recognizes Greg's operating mode and answers it with the document Greg is about to demand. The relationship forms through anticipation rather than a smile tag.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c058-hessa-number-boundary-01",
+      "chapter": 58,
+      "actor": "Mara",
+      "role": "Hessa",
+      "take_id": "058-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "At higher rehearsal authority Hessa can force Greg to articulate the rule himself. Silence becomes instruction and removes explanatory dialogue she does not need to speak.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c059-antonius-schedule-boundary-01",
+      "chapter": 59,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "take_id": "059-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "Desmond gets more authority to turn Antonius's observation directly into a transaction. The joke remains, but the folder and offered choices do the scene work.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c060-pessa-write-less-boundary-01",
+      "chapter": 60,
+      "actor": "Pessa",
+      "role": "Pessa",
+      "take_id": "060-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Dorn"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "interaction_timing",
+        "local_exchange_shape"
+      ],
+      "reason": "Pessa should edit before explaining. At boundary-hunt heat her physical correction leads and her principle follows, while Dorn keeps the social joke alive.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}

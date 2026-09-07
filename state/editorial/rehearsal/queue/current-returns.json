@@ -1,0 +1,32 @@
+{
+  "schema": "rehearsal_free_returns/v1",
+  "campaign": "canon-091-100-autonomous-boundary-hunt",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "source_authority": "cbad3243a26b3fd586b8dd26f558e9670b15bdbc",
+  "patches": [
+    {
+      "id": "c092-alden-duplicate-line-01",
+      "chapter": 92,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Nico as Greg",
+        "Pessa"
+      ],
+      "take_id": "092-free-boundary-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": [
+        "dialogue",
+        "paragraphing",
+        "interaction_timing"
+      ],
+      "before": "<p>Alden said, “I could.”</p><p>Alden said, “I could.”</p>",
+      "after": "<p>Alden said, “I could.”</p>",
+      "reason": "The identical Alden line appears twice consecutively with no escalation, interruption, or changed action. This is literal duplication rather than useful repetition; one line preserves the joke and Pessa's following look."
+    }
+  ]
+}

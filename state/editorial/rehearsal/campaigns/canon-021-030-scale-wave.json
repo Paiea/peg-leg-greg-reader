@@ -1,0 +1,159 @@
+{
+  "schema": "rehearsal_scale_campaign/v1",
+  "campaign": "canon-021-030-scale-wave",
+  "mode": "FREE",
+  "authority": "high_rehearsal_freedom_prose_must_earn_survival",
+  "source_ref": "editor/rehearsal-simulation-engine",
+  "chapters": [
+    {
+      "chapter": 21,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["resource_constraint", "problem_narrowing", "new_relationship"],
+      "actors": ["Nico/Greg", "Noa/Alden", "Jorren actor", "Octavia"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Greg tends to enlarge small practical problems into interesting systems problems, then responds strongly when another person narrows the request to the actual usable unit.",
+        "Octavia solves Greg by forcing request precision and treating temporary capacity as a scheduling fact rather than a philosophical opportunity."
+      ],
+      "entrance_proposals": [
+        {
+          "character": "Octavia",
+          "decision": "KEEP_OFFSTAGE_AFTER_FREIGHT_SCENE",
+          "reason": "Greg briefly expects Octavia to appear when the boat passes East Market, but the joke and his growing model of her are stronger when she does not materialize just because he thought of her."
+        }
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 22,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["training_failure", "uncertainty", "group_coordination"],
+      "actors": ["Nico/Greg", "Dema Rusk", "Berren", "Lio", "Cass"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Under instructional pressure Greg generates many valid objections, then increasingly recognizes when expertise means suppressing the clever objection and executing the useful rule.",
+        "Dema Rusk's authority is strongest when she changes the exercise conditions and lets consequences answer rather than explaining herself at length."
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 23,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["civilian_intake", "information_hunger", "operational_triage"],
+      "actors": ["Nico/Greg", "Noa/Alden", "Ressa"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Ressa repeatedly prioritizes moving people over satisfying Greg's information appetite; Greg can recognize that the operational answer is correct even while wanting the investigative answer.",
+        "Alden learns field questions through repetition and immediate utility rather than by imitating Greg's rhetoric."
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 24,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["logistics", "financial_chain", "uncertain_destination"],
+      "actors": ["Nico/Greg", "Noa/Alden", "Rusk", "Pellor"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Rusk withholds explanation until the logistics force Greg to reconstruct the transaction himself; the withheld information is functional rather than merely mysterious.",
+        "Greg treats the absurd boat-on-a-road image as a systems puzzle and gradually discovers that location, transport, and timing are part of value."
+      ],
+      "entrance_proposals": [
+        {
+          "character": "Octavia",
+          "decision": "KEEP_OFFSTAGE",
+          "reason": "She could plausibly be nearby, but her nonappearance preserves Greg's comic expectation and avoids turning every logistics scene into an Octavia cameo."
+        }
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 25,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["combat", "injury_risk", "support_identity"],
+      "actors": ["Nico/Greg", "Noa/Alden", "Cal", "driver"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Under live combat pressure Greg's cognition compresses into rapid inventory, probability, role assignment, and small actionable interventions rather than polished analysis.",
+        "Alden becomes more useful when he obeys local calls such as left, stop, cargo, or road without needing Greg to explain the entire model first."
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 26,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["medical_constraint", "reporting", "strategic_uncertainty"],
+      "actors": ["Nico/Greg", "Noa/Alden", "healer", "Doven", "Nemi"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Greg responds well to authority that narrows his question instead of competing with his intelligence: healer limits body, Doven limits report scope, Nemi limits interpretation.",
+        "Alden contributes strongest field observations when he names the immediate pattern before Greg turns it into a larger theory."
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 27,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["rescue", "limited_capability", "civilian_emotion"],
+      "actors": ["Nico/Greg", "Iris", "Cal", "Senn", "Mira", "Jory"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Iris converts Greg from uncontrolled problem-seeker into a specific resource by assigning him a narrow role and accepting only observations that can change action.",
+        "Greg's experienced threat intuition remains explicitly fallible: he distinguishes feeling watched from knowing what is watching him."
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 28,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["exhaustion", "lodging", "ordinary_work"],
+      "actors": ["Nico/Greg", "Noa/Alden", "Brina"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Brina's competence appears through task ownership, pricing, food timing, and work assignment; she does not need to win verbal exchanges to control the scene.",
+        "Alden follows restrictions more reliably when the restriction is embedded in useful work and witnessed by other people."
+      ],
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 29,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["evidence_access", "new_expert", "unknown_creature"],
+      "actors": ["Nico/Greg", "Noa/Alden", "canon Kellan", "butcher"],
+      "verdict": "SOURCE_WIN_WITH_CASTING_COLLISION",
+      "discoveries": [
+        "Canon Kellan earns Greg's attention by having an actual measurement problem and being willing to say he does not know; expertise is carried by procedure and instrument checking rather than exposition.",
+        "Alden increasingly learns to inspect immediate physical evidence without touching or needing Greg to direct every observation."
+      ],
+      "casting_collision": {
+        "severity": "must_disambiguate_before_future_actor_packet_compilation",
+        "detail": "Canon chapter 29 contains a character named Kellan, while the synthetic actor currently cast as Jorren is also named Kellan. Character identity remains authoritative; the synthetic actor identity should be recast or explicitly disambiguated before both can participate in the same rehearsal context."
+      },
+      "prose_outcome": "no_change"
+    },
+    {
+      "chapter": 30,
+      "triage": "DEEP_REHEARSAL",
+      "primary_pressure": ["escort", "recovery", "relationship_closeness"],
+      "actors": ["Nico/Greg", "Noa/Alden", "Sava", "civilians"],
+      "verdict": "SOURCE_WIN",
+      "discoveries": [
+        "Alden now notices Greg's masking and competence limits without turning the conversation into an interrogation; he can let an answer go when pressing would cross the relationship boundary.",
+        "Greg's inner performance is strongest when he recognizes that Alden's useful behavior belongs to Alden rather than claiming credit for making him better."
+      ],
+      "prose_outcome": "no_change"
+    }
+  ],
+  "totals": {
+    "chapters_covered": 10,
+    "deep_rehearsal": 10,
+    "source_wins": 10,
+    "prose_returns": 0,
+    "actor_entrance_proposals": 2,
+    "casting_collisions": 1
+  },
+  "calibration": {
+    "repetition_rule": "Do not auto-remove repeated objects, words, or gestures. Judge whether repetition escalates pressure, reveals irritation, creates rhythm, or pays off as an outburst. Penalize only repetition that behaves like synthetic motif recursion without scene-local dramatic work.",
+    "scale_signal": "High rehearsal freedom is producing stronger evidence and differentiation without requiring high prose churn. Preserve this asymmetry."
+  }
+}

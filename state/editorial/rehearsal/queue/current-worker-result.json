@@ -1,0 +1,8 @@
+{
+  "schema":"rehearsal_campaign_worker_result/v1",
+  "batch":{"start":491,"end":491,"source_authority":"9716fcd5ac74b71041b36a7a7735a04c71766ef3"},
+  "chapters":[
+    {"chapter":491,"disposition":"source_win","discoveries":["The final chapter closes the economic arc by changing Antonius and Greg's relationship through an actually closed account rather than a sentimental reconciliation.","Greg's long travel/work story is summarized to Antonius through the mature support identity: he increasingly creates value by connecting people, records, and expertise, while learning that wanting something and recognizing its value do not create the capacity to buy or control it.","The acquaintance beat works because creditor/debtor roles fall away and neither character immediately knows what replaces them; the resulting drink is ordinary social space, not a reward ceremony."],"rejected_hot":[{"label":"overacted_theatre","finding":"A warmer friendship declaration, grand debt-payoff victory, or final thesis speech would overstate a deliberately modest relationship transition and weaken the book's earned behavioral closure."}]}
+  ],
+  "candidates":[]
+}

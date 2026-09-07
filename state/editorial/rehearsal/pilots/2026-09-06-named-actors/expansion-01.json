@@ -1,0 +1,59 @@
+{
+  "schema": "rehearsal_named_actor_expansion/v1",
+  "authority": "derived_editorial_only",
+  "source_authority": "cb84121dd50c0801a7237dc43ec2ac622357675f",
+  "canon_write_authorized": false,
+  "readings": [
+    {
+      "source_path": "chapters/226.html",
+      "focus": ["Imani", "Lyssa", "Nico", "Greg"],
+      "verdict": "source_win",
+      "second_take": false,
+      "discoveries": ["movement", "voice", "relationship_behavior", "character_hypothesis"],
+      "prose_candidate": false,
+      "lock_violations": 0
+    },
+    {
+      "source_path": "chapters/017.html",
+      "focus": ["Noa", "Alden", "Nico", "Greg"],
+      "verdict": "source_win",
+      "second_take": false,
+      "discoveries": ["movement", "voice", "relationship_shorthand", "character_hypothesis"],
+      "prose_candidate": false,
+      "lock_violations": 0
+    },
+    {
+      "source_path": "chapters/225.html",
+      "focus": ["Vera", "Nessa", "Malcolm", "Teren", "Suki", "Hara", "Jules", "Marek", "Nico", "Greg"],
+      "verdict": "source_win_watch_line",
+      "second_take": true,
+      "second_take_mode": "physical",
+      "discoveries": ["object_behavior", "blocking", "voice_watch", "character_hypothesis"],
+      "prose_candidate": false,
+      "lock_violations": 0
+    }
+  ],
+  "cast_added": [
+    {"actor": "Malcolm", "role": "Teren", "visual_status": "candidate"},
+    {"actor": "Vera", "role": "Nessa", "visual_status": "candidate"},
+    {"actor": "Suki", "role": "Hara", "visual_status": "candidate"},
+    {"actor": "Jules", "role": "Marek", "visual_status": "candidate"}
+  ],
+  "totals": {
+    "readings": 3,
+    "new_named_actors": 4,
+    "targeted_second_takes": 1,
+    "source_wins": 3,
+    "prose_candidates": 0,
+    "canon_changes": 0,
+    "lock_violations": 0,
+    "character_hypotheses": 3,
+    "voice_collision_watch_targets": 1
+  },
+  "visual_collision_checks": [
+    "Suki/Hara vs Imani/Lyssa",
+    "Jules/Marek vs Nico/Greg",
+    "Vera/Nessa vs Mara/Hessa",
+    "Malcolm/Teren vs younger male cast"
+  ]
+}

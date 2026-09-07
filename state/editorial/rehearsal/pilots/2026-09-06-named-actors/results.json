@@ -1,0 +1,170 @@
+{
+  "schema": "rehearsal_named_actor_pilot/v1",
+  "source_authority": "beab434bd7a7ff8c85bd6f1e8a5e89f22ed5cea8",
+  "director": "Mana",
+  "company": {
+    "Greg": "Nico",
+    "Lyssa": "Imani",
+    "Antonius": "Desmond",
+    "Hessa": "Mara",
+    "Alden": "Noa",
+    "Arlo": "Rowan"
+  },
+  "metrics": {
+    "scenes_rehearsed": 4,
+    "faithful_evidence_reused": 3,
+    "actor_packets_compiled": 8,
+    "primary_takes": 4,
+    "targeted_second_takes": 1,
+    "speaker_legibility_findings": 1,
+    "movement_findings": 4,
+    "voice_findings": 3,
+    "character_hypotheses": 4,
+    "visual_collisions_tested": 0,
+    "novelization_candidates": 1,
+    "canon_changes": 0,
+    "source_wins": 2,
+    "lock_violations": 0
+  },
+  "scenes": [
+    {
+      "scene_key": "007-collateral-exchange",
+      "chapter_path": "chapters/007.html",
+      "actors": ["Nico", "Desmond"],
+      "roles": ["Greg", "Antonius"],
+      "baseline": "Current prose uses the static beat 'Antonius considered me.' before Antonius answers Greg's distinction between legal ownership and moral ownership.",
+      "named_actor_take": "Desmond keeps Antonius physically attached to the cleanup task. He pauses the broom long enough to look at Greg, answers from ownership logic, then returns to work. Nico treats the pause as attention and immediately pushes the temporary-labor distinction.",
+      "discoveries": [
+        {
+          "kind": "movement",
+          "finding": "Antonius reads more specifically when judgment appears as a brief interruption of work instead of the generic mental-action phrase 'considered me'.",
+          "provenance_class": "rehearsal_hypothesis",
+          "dramatic_lock_status": "preserved"
+        },
+        {
+          "kind": "speaker_legibility",
+          "finding": "A physical Antonius beat directly before his line makes the ownership of the following dialogue effortless.",
+          "provenance_class": "inferred",
+          "dramatic_lock_status": "preserved"
+        }
+      ],
+      "novelization_candidate": {
+        "source_anchor": "Antonius considered me.",
+        "replacement": "Antonius stopped sweeping and looked at me.",
+        "status": "candidate_only_not_applied",
+        "reason": "Grounds Antonius in the active task and removes a reader-noticed abstract attribution tic without changing fact or outcome."
+      }
+    },
+    {
+      "scene_key": "007-antonius-storeroom-gauge",
+      "chapter_path": "chapters/007.html",
+      "faithful_evidence": "state/editorial/performance-roundtrip/007/",
+      "actors": ["Nico", "Desmond"],
+      "roles": ["Greg", "Antonius"],
+      "named_actor_take": "Nico's excitement breaks his own bargaining discipline. Desmond treats Greg's value claim as the exact moment cleanup becomes inventory appraisal, physically claims the frame, waits through uncertainty, shelves it, labels it, and returns to the broom to end negotiation.",
+      "discoveries": [
+        {
+          "kind": "relationship_behavior",
+          "finding": "Antonius changes behavior only when information changes the transaction; otherwise the active task continues.",
+          "provenance_class": "observed",
+          "dramatic_lock_status": "preserved"
+        },
+        {
+          "kind": "voice",
+          "finding": "Greg owns the excited overshare and self-mocking interpretation; Antonius can remain comparatively spare because his objects and task choices carry authority.",
+          "provenance_class": "observed",
+          "dramatic_lock_status": "preserved"
+        }
+      ],
+      "verdict": "source_win",
+      "reason": "Current canon already preserves the strongest named-actor behavior found by rehearsal."
+    },
+    {
+      "scene_key": "013-arlo-workshop",
+      "chapter_path": "chapters/013.html",
+      "faithful_evidence": "state/editorial/performance-roundtrip/013/",
+      "actors": ["Nico", "Rowan"],
+      "roles": ["Greg", "Arlo"],
+      "named_actor_take": "Rowan makes Arlo protect process through possession and demonstration: the notebook stays partly withheld, the ruined regulator is evidence, the fixture answers one question, and the hanging weight answers another. Nico repeatedly tries to promote crude workshop actions into grand system language; Rowan keeps dragging the exchange back to what he physically did.",
+      "targeted_second_take": {
+        "mode": "physical",
+        "reason": "Voice discriminator flagged the later three-beat 'I know' exchange as unusually interchangeable compressed dialogue.",
+        "result": "Replacing some acknowledgement with notebook marking, checking the next regulator, or moving to the next test made Arlo feel more process-owned, but no single prose replacement clearly beat current canon enough to apply."
+      },
+      "discoveries": [
+        {
+          "kind": "object_behavior",
+          "finding": "Arlo's strongest identity channel is control of notebook, fixture, damaged parts, readings, and next-test objects rather than verbal cleverness.",
+          "provenance_class": "observed",
+          "dramatic_lock_status": "preserved"
+        },
+        {
+          "kind": "voice",
+          "finding": "Repeated clipped acknowledgements are a watch target because they can drift Arlo toward Greg's compressed rhythm even when attribution is clear.",
+          "provenance_class": "inferred",
+          "dramatic_lock_status": "preserved"
+        }
+      ],
+      "verdict": "source_win_with_watch_target"
+    },
+    {
+      "scene_key": "018-hessa-beans",
+      "chapter_path": "chapters/018.html",
+      "faithful_evidence": "state/editorial/performance-roundtrip/018/",
+      "actors": ["Nico", "Mara"],
+      "roles": ["Greg", "Hessa"],
+      "named_actor_take": "Mara plays Hessa as procedure rather than reassurance. She replaces beans, asks only the next bounded question, redirects Greg from solving Barrier to moving one bean, covers the bowl at nineteen casts, and later counts. Nico becomes more animated as the narrow result gets interesting and increasingly discounts his own load.",
+      "discoveries": [
+        {
+          "kind": "object_behavior",
+          "finding": "Hessa can express concern and authority by controlling test materials, repetitions, and stop conditions without narrating emotion.",
+          "provenance_class": "observed",
+          "dramatic_lock_status": "preserved"
+        },
+        {
+          "kind": "interaction_timing",
+          "finding": "Greg's growing excitement should increase the importance of Hessa's nonverbal boundary actions rather than provoke a longer emotional lecture.",
+          "provenance_class": "inferred",
+          "dramatic_lock_status": "preserved"
+        }
+      ],
+      "verdict": "source_win",
+      "reason": "Current canon already performs the scene more specifically than a fresh rewrite was likely to improve."
+    }
+  ],
+  "character_learning": [
+    {
+      "role": "Greg",
+      "actor": "Nico",
+      "hypothesis": "When a system suddenly becomes legible or valuable, Greg's excitement can outrun his strategic restraint before self-correction catches up.",
+      "status": "rehearsal_hypothesis",
+      "independent_canon_support_seen": ["chapters/007.html", "chapters/018.html"],
+      "promotion": "not_auto_promoted_in_pilot"
+    },
+    {
+      "role": "Antonius",
+      "actor": "Desmond",
+      "hypothesis": "Antonius often communicates judgment by changing or refusing to change the physical business of a transaction.",
+      "status": "rehearsal_hypothesis",
+      "independent_canon_support_seen": ["chapters/007.html"],
+      "promotion": "insufficient_independent_support"
+    },
+    {
+      "role": "Arlo",
+      "actor": "Rowan",
+      "hypothesis": "When process ownership matters, Arlo prefers evidence, tools, and controlled disclosure over polished explanation.",
+      "status": "rehearsal_hypothesis",
+      "independent_canon_support_seen": ["chapters/013.html"],
+      "promotion": "insufficient_independent_support"
+    },
+    {
+      "role": "Hessa",
+      "actor": "Mara",
+      "hypothesis": "Hessa's strongest boundary language is often procedural: place, repeat, stop, cover, count, narrow the claim.",
+      "status": "rehearsal_hypothesis",
+      "independent_canon_support_seen": ["chapters/018.html"],
+      "promotion": "insufficient_independent_support"
+    }
+  ],
+  "conclusion": "Named actors produced useful identity-specific behavioral readings without requiring wholesale rewrites. The strongest gain was not line style but persistent ownership of tasks, objects, boundaries, and response timing. The pilot supports continuing with named actors while keeping actor discoveries derived and evidence-gated."
+}

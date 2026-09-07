@@ -1,0 +1,87 @@
+{
+  "schema": "rehearsal_campaign/v2",
+  "campaign": "canon-001-020-rehearsal-ii",
+  "authority": "derived_editorial_only",
+  "source_authority": "51e4efc864aa38f06c61c7a95678d3dc61e84a5f",
+  "mode": "free",
+  "calibration": "high_authority_recursive",
+  "canon_write_authorized": true,
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "purpose": "Rehearse current branch prose after the first actor-driven pass. Prior REHEARSAL edits receive no protection and must survive fresh performance like any other source prose.",
+  "method": {
+    "current_prose_is_fresh_source": true,
+    "greg": "Nico performs BODY, VOICE, and INNER VOICE with sentence and non-sentence cognition allowed.",
+    "ensemble": "Meaningful scene actors perform BODY, VOICE, and PRIVATE INNER VOICE under current relationship-local memory and hard knowledge boundaries.",
+    "recursive_rule": "A first-pass actor choice survives only if the fresh take still prefers it. Repeated synthetic use does not count as independent support.",
+    "prose_rule": "High rehearsal freedom and prose-retention authority remain separate. A rich hidden performance may still produce no prose change.",
+    "motif_rule": "Preserve behavioral principles while rejecting repeated signature props or gestures that expose the rehearsal mechanism."
+  },
+  "totals": {
+    "canon_chapters_reread": 20,
+    "source_wins": 17,
+    "repair_candidate_chapters": 3,
+    "repair_candidate_chapter_ids": [3, 5, 10],
+    "recursive_survival_signal": "strong",
+    "hard_lock_violations": 0
+  },
+  "readings": [
+    {"chapter": 1, "verdict": "source_win", "focus": ["Nico/Greg"], "pressure_tags": ["identity_dislocation", "memory_uncertainty"], "finding": "Greg cognition already performs as sensory contradiction, fragments, memory flashes, wrong inference, calculation, and self-correction. More inner monologue would weaken rather than deepen the scene.", "outcome_reason": "no_change"},
+    {"chapter": 2, "verdict": "source_win", "focus": ["Nico/Greg", "Desmond/Antonius"], "pressure_tags": ["knowledge_leak", "status_negotiation", "financial_need"], "finding": "Greg deliberately shifts outward social performance when Antonius catches him knowing too much while privately tracking the risk. Antonius remains strongest when he prices the actual transaction rather than matching Greg's verbal energy.", "outcome_reason": "subtext"},
+    {"chapter": 3, "verdict": "repair_candidate", "focus": ["Nico/Greg", "Rowan/Arlo", "Desmond/Antonius", "Rusk"], "pressure_tags": ["work_ownership", "future_projection", "financial_pitch"], "finding": "The current prose contains scene-cast contamination: Antonius speaks inside the Greg-Arlo workshop exchange, and later the scarred man explicitly identified as Rusk is repeatedly labeled Jorren before Jorren enters the story. Fresh actor ownership makes both contaminations impossible to perform.", "outcome_reason": "speaker_legibility"},
+    {"chapter": 4, "verdict": "source_win", "focus": ["Nico/Greg"], "pressure_tags": ["scarcity", "self_control", "people_reading"], "finding": "Greg's live cognition already shows impulse, calibration error, self-bargaining, and the pleasure of steering people. The prose does not need extra internal sentences.", "outcome_reason": "inner_voice"},
+    {"chapter": 5, "verdict": "repair_candidate", "focus": ["Nico/Greg", "Desmond/Antonius", "Kellan/Jorren"], "pressure_tags": ["financial_overextension", "physical_limit", "conceptual_deflection"], "finding": "Most first-pass Jorren and Antonius behavior survives, but the overtuned ledger motif recurs twice in immediate succession. The financial-boundary behavior is stable; the repeated prop is not.", "outcome_reason": "behavioral_specificity"},
+    {"chapter": 6, "verdict": "source_win", "focus": ["Nico/Greg", "Rusk", "Desmond/Antonius"], "pressure_tags": ["constrained_labor", "optimization", "scope_control"], "finding": "Greg tries to widen labor into system design while Rusk keeps the task bounded. The existing scene already solves the pressure in character.", "outcome_reason": "no_change"},
+    {"chapter": 7, "verdict": "source_win", "focus": ["Nico/Greg", "Desmond/Antonius"], "pressure_tags": ["collateral", "information_boundary", "task_ownership"], "finding": "Antonius continuing or stopping work remains a strong behavioral solution. The prior replacement of generic cognition with task behavior survives recursive rehearsal.", "outcome_reason": "physical_ownership"},
+    {"chapter": 8, "verdict": "source_win", "focus": ["Nico/Greg", "Rusk"], "pressure_tags": ["collection", "business_distress", "problem_widening"], "finding": "Greg keeps expanding the debtor's problem while Rusk protects the edge of the collection job. Their differing problem scopes are already legible.", "outcome_reason": "behavioral_specificity"},
+    {"chapter": 9, "verdict": "source_win", "focus": ["Nico/Greg", "Desmond/Antonius"], "pressure_tags": ["underwriting", "risk", "operational_reality"], "finding": "Antonius evaluates borrowers through operations and repayment conditions rather than abstract personality. The existing prose survives without another prop-driven rewrite.", "outcome_reason": "no_change"},
+    {"chapter": 10, "verdict": "repair_candidate", "focus": ["Nico/Greg", "Desmond/Antonius", "Rowan/Arlo"], "pressure_tags": ["appraisal", "unknown_object", "information_asymmetry"], "finding": "The earlier borrower-question ownership bug is now repaired. One remaining malformed boundary reads 'How? I thought.' followed by Greg answering aloud, even though Arlo is the one challenging Greg's claimed certainty. Fresh performance assigns the question to Arlo.", "outcome_reason": "speaker_legibility"},
+    {"chapter": 11, "verdict": "source_win", "focus": ["Nico/Greg", "Mara/Hessa"], "pressure_tags": ["physical_safety", "magic_training", "greg_momentum"], "finding": "Hessa physically controls access and Greg's body before explaining. Nico's jokes and associative memories remain mostly private until they are worth externalizing.", "outcome_reason": "physical_ownership"},
+    {"chapter": 12, "verdict": "source_win", "focus": ["Nico/Greg", "Desmond/Antonius"], "pressure_tags": ["unknown_material", "knowledge_boundary", "curiosity"], "finding": "Antonius separates information and limits dangerous testing while Greg's memory produces atmosphere before answers. The scene already demonstrates the intended private-performance boundary.", "outcome_reason": "subtext"},
+    {"chapter": 13, "verdict": "source_win", "focus": ["Nico/Greg", "Rowan/Arlo", "Mara/Hessa"], "pressure_tags": ["work_ownership", "measurement", "teaching_boundary"], "finding": "The first-pass Arlo process rewrite survives strongly. Arlo answers Greg's proliferation with fixtures, notebook boundaries, and the next test; Hessa answers it with constrained practice.", "outcome_reason": "behavioral_specificity"},
+    {"chapter": 14, "verdict": "source_win", "focus": ["Nico/Greg", "Kellan/Jorren"], "pressure_tags": ["physical_training", "hypervigilance", "terrain"], "finding": "Jorren repeatedly returns Greg from total threat modeling to the body, road, and current executable action. The performed teaching remains local rather than speechified.", "outcome_reason": "physical_ownership"},
+    {"chapter": 15, "verdict": "source_win", "focus": ["Nico/Greg", "Noa/Alden", "Kellan/Jorren"], "pressure_tags": ["future_memory_ambiguity", "field_contact", "new_relationship"], "finding": "Nico's cognition around Alden already arrives as song rhythm, missing words, images, wrong associations, and cold recognition rather than polished monologue. Greg repeatedly returns from future projection to the young man actually present.", "outcome_reason": "inner_voice"},
+    {"chapter": 16, "verdict": "source_win", "focus": ["Nico/Greg", "Noa/Alden", "Kellan/Jorren"], "pressure_tags": ["competence_pressure", "public_correction", "teaching"], "finding": "Alden accepts useful correction without performing deference, Jorren makes the body prove it, and Greg experiences the pleasure and danger of making someone better. Character separation remains strong.", "outcome_reason": "behavioral_specificity"},
+    {"chapter": 17, "verdict": "source_win", "focus": ["Nico/Greg", "Noa/Alden"], "pressure_tags": ["operational_uncertainty", "investigation", "waiting"], "finding": "Alden keeps attention on contract language, damaged boards, and the immediate job while Greg's mind generates larger arrangements. The first-pass operational nudges survive.", "outcome_reason": "physical_ownership"},
+    {"chapter": 18, "verdict": "source_win", "focus": ["Nico/Greg", "Mara/Hessa"], "pressure_tags": ["epistemic_uncertainty", "physical_safety", "overgeneralization"], "finding": "The bean exercise remains near-ideal REHEARSAL prose. Hessa's private motive can vary while the stable observable solution is to narrow, count, stop, and make Greg distinguish observation from theory.", "outcome_reason": "no_change"},
+    {"chapter": 19, "verdict": "source_win", "focus": ["Nico/Greg", "Edrin"], "pressure_tags": ["unknown_ward", "knowledge_boundary", "restraint"], "finding": "Greg's internal branching proposes several old or future answers while he obeys current evidence and authority. The prose already separates cognition from what other characters can know.", "outcome_reason": "inner_voice"},
+    {"chapter": 20, "verdict": "source_win", "focus": ["Nico/Greg", "Noa/Alden", "Kellan/Jorren"], "pressure_tags": ["weather_disruption", "physical_work", "adaptation"], "finding": "The cast responds differently to the same changed conditions: Jorren accepts the physical limit, Alden looks for a substitute action, Greg keeps trying to turn disruption into information. Existing prose wins.", "outcome_reason": "no_change"}
+  ],
+  "recursive_findings": [
+    {
+      "kind": "convergence",
+      "finding": "Most first-pass actor nudges survive a fresh independent rehearsal. Recursive REHEARSAL is converging rather than producing perpetual churn."
+    },
+    {
+      "kind": "cast_scope",
+      "finding": "Actor execution is an effective cast-consistency check: a named actor cannot legitimately speak in a scene where the role is absent."
+    },
+    {
+      "kind": "motif_recursion",
+      "finding": "A correct behavioral tendency can become a visible tic when repeatedly literalized through the same prop. Preserve the pressure solution, not the signature object."
+    },
+    {
+      "kind": "inner_voice_calibration",
+      "finding": "Nico can perform substantially more cognition than final prose retains. Current early prose already preserves the strongest fragments, images, calculations, wrong inferences, and self-corrections, so high inner-performance freedom often correctly returns NO CHANGE."
+    }
+  ],
+  "candidate_groups": [
+    {
+      "chapter": 3,
+      "kind": "cast_scope_repair",
+      "confidence": "high",
+      "summary": "Restore Rowan/Arlo ownership inside the workshop and Rusk ownership inside Antonius's office."
+    },
+    {
+      "chapter": 5,
+      "kind": "motif_recursion_repair",
+      "confidence": "high",
+      "summary": "Remove one immediate repeated Antonius ledger beat while retaining the financial-boundary behavior."
+    },
+    {
+      "chapter": 10,
+      "kind": "inner_outer_speaker_boundary",
+      "confidence": "high",
+      "summary": "Return 'How?' from Greg's internal channel to Rowan/Arlo's spoken challenge."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schema": "rehearsal_actor_registry/v1",
+  "director": "Mana",
+  "authority": "derived_editorial_only",
+  "actors": [
+    {
+      "actor_id": "actor.nico.v1",
+      "actor_name": "Nico",
+      "role": "Greg",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "scruff or beardish grooming", "provenance": "user_casting_anchor"},
+        {"value": "not pretty-boy polished", "provenance": "user_casting_anchor"},
+        {"value": "disheveled intensity", "provenance": "user_casting_anchor"},
+        {"value": "slightly feral or theatrical presence with something a little crazy behind the eyes, without prose constantly announcing it", "provenance": "user_casting_anchor"},
+        {"value": "early Greg has a left BKA and uses two crutches; no peg until later canon establishes it", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [
+        {"value": "practical systems curiosity rather than generic mastermind polish", "provenance": "character_bible"},
+        {"value": "dry comic compression remains Greg's gravitational center but not every response is a joke", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.imani.v1",
+      "actor_name": "Imani",
+      "role": "Lyssa",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "Black", "provenance": "user_casting_anchor"},
+        {"value": "tall and thin or lithe", "provenance": "user_casting_anchor"},
+        {"value": "Afro-textured or afro-ish hair", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [
+        {"value": "independent work and life; do not flatten into Greg's sounding board or caretaker", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.desmond.v1",
+      "actor_name": "Desmond",
+      "role": "Antonius",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "Black", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [
+        {"value": "practical patience; can keep working while Greg talks until information changes the decision", "provenance": "performance_roundtrip_evidence"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.mara.v1",
+      "actor_name": "Mara",
+      "role": "Hessa",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "evidence, safety, and procedure are behavioral ownership rather than generic mentor wisdom", "provenance": "character_bible"},
+        {"value": "may answer through repeated testing, resetting objects, counting attempts, or ending an experiment rather than always supplying the best verbal rebuttal", "provenance": "performance_roundtrip_evidence"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.noa.v1",
+      "actor_name": "Noa",
+      "role": "Alden",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "islander boy", "provenance": "user_casting_anchor"},
+        {"value": "must remain visually unmistakable from Greg at thumbnail scale", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.rowan.v1",
+      "actor_name": "Rowan",
+      "role": "Arlo",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "mechanical thought should often emerge through fixtures, notebooks, failed parts, readings, and active task behavior rather than clipped refusal chains", "provenance": "performance_roundtrip_evidence"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.malcolm.v1",
+      "actor_name": "Malcolm",
+      "role": "Teren",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "acting corrections should be brief, local, and playable rather than speeches about acting or life", "provenance": "character_bible"},
+        {"value": "theatre authority is role-specific; do not inflate him into Greg's mentor in every domain", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.vera.v1",
+      "actor_name": "Vera",
+      "role": "Nessa",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "owns props, resets, storage, handoffs, costume continuity, and backstage object routes through direct practical behavior", "provenance": "character_bible"},
+        {"value": "respond to actual material consequences rather than becoming an omniscient prop cop", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.suki.v1",
+      "actor_name": "Suki",
+      "role": "Hara",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "strong performer who can own audience beats and recover live inside a scene without Greg becoming the center", "provenance": "character_bible"},
+        {"value": "accountability toward Greg is peer-level and dry, not instructional or sentimental", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.jules.v1",
+      "actor_name": "Jules",
+      "role": "Marek",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "strong performer with humor, improvisation, and recovery competence", "provenance": "character_bible"},
+        {"value": "engagement with stage objects may create trouble or useful information; do not flatten him into an idiot or permanent liability", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.kellan.v1",
+      "actor_name": "Kellan",
+      "role": "Jorren",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "physical teacher and practical adventurer; lets timing, contact, fatigue, and repeated exchanges answer questions that Greg wants to theorize", "provenance": "current_canon_014_016"},
+        {"value": "notices Greg's over-reading and repeated threat scanning without turning into a philosophical mentor", "provenance": "current_canon_014_016"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    }
+  ]
+}

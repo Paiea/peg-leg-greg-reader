@@ -1,0 +1,753 @@
+{
+  "schema": "rehearsal_overtuned_calibration_report/v1",
+  "mode": "overtuned_calibration",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 35,
+  "patches_applied": 35,
+  "changed_chapters": [
+    5,
+    7,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18
+  ],
+  "records": [
+    {
+      "patch_id": "c005-desmond-compulsion-beat",
+      "chapter": 5,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Desmond prefers Antonius to answer Greg's defensive humor through the ledger and the transaction rather than a generic nonreaction.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c005-desmond-waits-out-answer",
+      "chapter": 5,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Replace abstract noticing with Antonius using silence and the ledger while Greg defeats himself.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c005-nico-speaker-ownership-rebuild",
+      "chapter": 5,
+      "actor": "Nico",
+      "role": "Greg",
+      "supporting_actors": [
+        "Desmond"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Fix the speaker error and let Antonius's refusal to debate plus the physical ledger carry the correction.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c005-kellan-hand-proof",
+      "chapter": 5,
+      "actor": "Kellan",
+      "role": "Jorren",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Kellan wants concern expressed as a practical test, not a cognition label.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c005-kellan-breathing-stop",
+      "chapter": 5,
+      "actor": "Kellan",
+      "role": "Jorren",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Let Jorren end the bout through body-state assessment and weapon movement.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c007-desmond-sweep-before-lesson",
+      "chapter": 7,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "tone"
+      ],
+      "reason": "Antonius should keep the task alive instead of pausing for generic noticing.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c007-desmond-collateral-pause",
+      "chapter": 7,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "tone"
+      ],
+      "reason": "The rare stop in his work makes Greg's collateral distinction visibly earn Antonius's attention.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c007-desmond-keeps-frame",
+      "chapter": 7,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "tone"
+      ],
+      "reason": "Possession of the object should physically become possession of the negotiation.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c007-desmond-forty-gold-freeze",
+      "chapter": 7,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "tone"
+      ],
+      "reason": "Tie surprise to the valuable object already in Antonius's hand.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c010-ensemble-to-whom-blocking",
+      "chapter": 10,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Rowan",
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Replace look-smile-look-smile choreography with simultaneous object ownership from Arlo and Antonius.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c010-desmond-salvager-ledger",
+      "chapter": 10,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "dialogue",
+        "tone"
+      ],
+      "reason": "The ledger is the physical information boundary around the borrower.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c010-desmond-watches-wait",
+      "chapter": 10,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Nico",
+        "Rowan"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "tone"
+      ],
+      "reason": "Make the appraisal a behavioral test of Greg's patience rather than reciprocal looking.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c010-ensemble-blood-stop",
+      "chapter": 10,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "supporting_actors": [
+        "Desmond",
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "The word blood should interrupt each man's current physical ownership, not generically stop two people.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c010-desmond-noticing-loop",
+      "chapter": 10,
+      "actor": "Desmond",
+      "role": "Antonius",
+      "supporting_actors": [
+        "Rowan",
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Preserve Greg's recursive awareness while giving Antonius a concrete tell.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c011-mara-barrier-afterimage",
+      "chapter": 11,
+      "actor": "Mara",
+      "role": "Hessa",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "tone"
+      ],
+      "reason": "Mara prefers Hessa's attention to remain procedural even during surprise.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c011-mara-silence-kills-joke",
+      "chapter": 11,
+      "actor": "Mara",
+      "role": "Hessa",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "silence",
+        "interaction_timing",
+        "tone"
+      ],
+      "reason": "Hessa does not need a comeback; silence can make Greg move to the real question.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c011-mara-ends-session",
+      "chapter": 11,
+      "actor": "Mara",
+      "role": "Hessa",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "tone"
+      ],
+      "reason": "Let Hessa terminate the experiment through movement rather than generic staring.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c013-rowan-fixture-clamp",
+      "chapter": 13,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "tone"
+      ],
+      "reason": "Arlo's annoyance should remain inside the mechanism he is defending.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c013-rowan-sixth-result",
+      "chapter": 13,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "tone"
+      ],
+      "reason": "The result itself should hand the conversational floor to Greg.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c013-rowan-i-know-rebuild",
+      "chapter": 13,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "This intentionally aggressive take breaks the Greg-like clipped volley and gives Arlo process-owned rhythm.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c013-rowan-notebook-barricade",
+      "chapter": 13,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "tone"
+      ],
+      "reason": "Make the relationship shift visible through the object boundary that defines Arlo's process ownership.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c014-kellan-fall-feedback",
+      "chapter": 14,
+      "actor": "Kellan",
+      "role": "Jorren",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "blocking",
+        "paragraphing"
+      ],
+      "reason": "Jorren's feedback should arrive through the physical state of the bout.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c014-kellan-road-attention-rebuild",
+      "chapter": 14,
+      "actor": "Kellan",
+      "role": "Jorren",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "blocking",
+        "interaction_timing",
+        "paragraphing"
+      ],
+      "reason": "Overtuned physical take lets Jorren demonstrate attention while denying Greg's theory about attention.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c014-kellan-sword-posture",
+      "chapter": 14,
+      "actor": "Kellan",
+      "role": "Jorren",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "tone"
+      ],
+      "reason": "Replace abstract notice with a quick professional read of Greg's changed body language.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c016-noa-optional-line",
+      "chapter": 16,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Kellan",
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Noa rejects a polished aphorism that sounds too Greg-like and keeps Alden immediate.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c016-noa-stays-in-stance",
+      "chapter": 16,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Nico",
+        "Kellan"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Alden receives correction physically, without needing a narrated emotional label.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c016-noa-again-through-sword",
+      "chapter": 16,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Kellan",
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Replace generic cognition with Alden converting Greg's explanation directly back into action.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c016-kellan-your-student",
+      "chapter": 16,
+      "actor": "Kellan",
+      "role": "Jorren",
+      "supporting_actors": [
+        "Noa",
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Keep Jorren's commentary inside the physical training frame.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c017-noa-water-support",
+      "chapter": 17,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Noa prefers concrete contract attention over matching Greg's dry cadence.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c017-noa-guild-introduction",
+      "chapter": 17,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Remove a generic dry quip and let Alden answer with the job in his hand.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c017-noa-inside-route",
+      "chapter": 17,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Make Alden's suspicion arise from the damaged boards he is physically checking rather than a clever accusation volley.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c017-noa-does-not-fill-silence",
+      "chapter": 17,
+      "actor": "Noa",
+      "role": "Alden",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "silence",
+        "interaction_timing",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Noa's growth should be visible as continued investigation, not passive waiting plus narration.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c018-mara-bean-offense",
+      "chapter": 18,
+      "actor": "Mara",
+      "role": "Hessa",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Hessa lets Greg's reaction expose itself before asking, instead of receiving a generic notice tag.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c018-mara-no-smile-argument",
+      "chapter": 18,
+      "actor": "Mara",
+      "role": "Hessa",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "Let procedure kill Greg's joke instead of a generic nonreaction.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c018-mara-second-bean-gate",
+      "chapter": 18,
+      "actor": "Mara",
+      "role": "Hessa",
+      "supporting_actors": [
+        "Nico"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "object_handling",
+        "interaction_timing",
+        "dialogue",
+        "tone",
+        "paragraphing"
+      ],
+      "reason": "The withheld next attempt becomes the procedural pressure behind Hessa's question.",
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "overtuned_calibration",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}
