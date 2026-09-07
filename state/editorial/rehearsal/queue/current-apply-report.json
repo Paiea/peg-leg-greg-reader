@@ -1,0 +1,34 @@
+{
+  "schema": "rehearsal_free_returns_report/v1",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 1,
+  "patches_applied": 1,
+  "changed_chapters": [
+    62
+  ],
+  "records": [
+    {
+      "patch_id": "c062-nico-duplicate-step-inside-01",
+      "chapter": 62,
+      "actor": "Nico",
+      "role": "Greg",
+      "take_id": "062-free-boundary-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Rowan as Arlo"
+      ],
+      "changed_surfaces": [
+        "paragraphing",
+        "narration_rhythm"
+      ],
+      "reason": "The repeated sentence is a literal adjacent duplicate at the Arlo workshop transition. Nico's performance does not gain pressure, fixation, timing, or character meaning from saying the same movement twice, so this is model/storage recursion rather than useful repetition.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}

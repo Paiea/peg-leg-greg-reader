@@ -1,0 +1,30 @@
+{
+  "schema": "rehearsal_free_returns/v1",
+  "campaign": "canon-061-070-autonomous-boundary-hunt",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "source_authority": "9dc74bcb95668e6ab011b3adf25c0dc9957e781c",
+  "patches": [
+    {
+      "id": "c062-nico-duplicate-step-inside-01",
+      "chapter": 62,
+      "actor": "Nico",
+      "role": "Greg",
+      "supporting_actors": [
+        "Rowan as Arlo"
+      ],
+      "take_id": "062-free-boundary-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": [
+        "paragraphing",
+        "narration_rhythm"
+      ],
+      "before": "<p>I stepped inside.</p><p>I stepped inside.</p>",
+      "after": "<p>I stepped inside.</p>",
+      "reason": "The repeated sentence is a literal adjacent duplicate at the Arlo workshop transition. Nico's performance does not gain pressure, fixation, timing, or character meaning from saying the same movement twice, so this is model/storage recursion rather than useful repetition."
+    }
+  ]
+}
