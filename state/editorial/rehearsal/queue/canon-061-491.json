@@ -4,7 +4,7 @@
   "start": 61,
   "end": 491,
   "batch_size": 10,
-  "settled_authority": "e8a9fd0a29dbb5e788b3fca793b921e41b36cf76",
+  "settled_authority": "980f2d459b02343cb33c93768dc89b05c5c7fe3f",
   "batches": [
     {
       "start": 61,
@@ -64,7 +64,7 @@
       "status": "source_win",
       "retry_count": 0,
       "source_authority": "e8a9fd0a29dbb5e788b3fca793b921e41b36cf76",
-      "settled_authority": "e8a9fd0a29dbb5e788b3fca793b921e41b36cf76",
+      "settled_authority": "980f2d459b02343cb33c93768dc89b05c5c7fe3f",
       "retryable": false,
       "blocking_reason": null,
       "manifest_path": null,
@@ -74,8 +74,15 @@
     {
       "start": 111,
       "end": 120,
-      "status": "pending",
-      "retry_count": 0
+      "status": "source_win",
+      "retry_count": 0,
+      "source_authority": "980f2d459b02343cb33c93768dc89b05c5c7fe3f",
+      "settled_authority": "980f2d459b02343cb33c93768dc89b05c5c7fe3f",
+      "retryable": false,
+      "blocking_reason": null,
+      "manifest_path": null,
+      "report_path": "state/editorial/rehearsal/queue/current-compile-summary.json",
+      "validation": "green"
     },
     {
       "start": 121,
