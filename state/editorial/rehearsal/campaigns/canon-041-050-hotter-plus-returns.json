@@ -80,7 +80,7 @@
       "actor_prefers": true,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
-      "changed_surfaces": ["movement", "interaction_timing", "relationship_behavior"],
+      "changed_surfaces": ["movement", "interaction_timing", "reaction_placement"],
       "before": "<p>Jorren had nine. Of course. He looked at me.</p><p>“Don't.”</p>",
       "after": "<p>Jorren had nine. Of course. He closed his fist around the coins before I could count them again.</p><p>“Don't.”</p>",
       "reason": "Jorren knows Greg is already pricing the problem. Closing the coins before Greg can optimize the purchase turns an existing relationship pattern into observable behavior instead of a generic look."
