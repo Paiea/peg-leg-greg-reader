@@ -27,7 +27,7 @@ jobs:
           git fetch origin main
           echo "SOURCE_AUTHORITY=$(git rev-parse origin/main)" >> "$GITHUB_ENV"
           python -m unittest tests.test_performance_speaker_ownership tests.test_performance_campaign_selection
-      - name: Propose deterministic two-person dialogue anchors
+      - name: Propose validated two-person dialogue anchors
         run: |
           python - <<'PY'
           from __future__ import annotations
@@ -45,6 +45,12 @@ jobs:
           tag_re = re.compile(r'<[^>]+>')
           quote_re = re.compile(r'^[“\"](.+)[”\"]$', re.S)
           speech_re = re.compile(r'\b(I|[A-Z][A-Za-z\'’\-]+)\s+(?i:said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|remarked|offered)\b')
+          blocked = {
+              'You','He','She','They','We','It','This','That','There','Here','Then','What','Why','How','Who','Which','When','Where',
+              'Maybe','Yes','No','Fine','Good','Right','Just','Had','Almost','Because','And','But','So','If','Can','Could','Would','Should','Will',
+              'Do','Did','Does','Have','Has','Was','Were','Is','Are','Not','Still','Really','Actually','Apparently','Probably','Exactly','Okay','Sure',
+          }
+          registry = Path('state/BOOK1_NAME_REGISTRY_CH82.md').read_text(encoding='utf-8')
 
           def clean(raw: str) -> str:
               return html_lib.unescape(tag_re.sub('', raw)).strip()
@@ -54,7 +60,11 @@ jobs:
               if not m:
                   return None
               subject = m.group(1)
-              return 'GREG' if subject == 'I' else subject
+              if subject == 'I':
+                  return 'GREG'
+              if subject in blocked:
+                  return None
+              return subject
 
           def pure_dialogue(raw: str) -> bool:
               text = clean(raw)
@@ -64,7 +74,21 @@ jobs:
               text = clean(raw)
               return 'asked' if text.endswith(('?”','?"')) else 'said'
 
+          def tagged(raw: str, who: str, verb: str) -> str:
+              # Dialogue tags are part of the same sentence. Statements take a comma
+              # inside the closing quote; questions/exclamations keep their punctuation.
+              if raw.endswith('."'):
+                  raw = raw[:-2] + ',"'
+              elif raw.endswith('.”'):
+                  raw = raw[:-2] + ',”'
+              elif raw.endswith('"') and not raw.endswith(('?"','!"')):
+                  raw = raw[:-1] + ',"'
+              elif raw.endswith('”') and not raw.endswith(('?”','!”')):
+                  raw = raw[:-1] + ',”'
+              return f'{raw} {who} {verb}.'
+
           proposals = []
+          rejected_names = Counter()
           chapter_counts = Counter()
           run_count = 0
           for chapter in selected:
@@ -72,6 +96,17 @@ jobs:
               source = path.read_text(encoding='utf-8')
               article = source.split('<article class="prose">',1)[1].split('</article>',1)[0]
               paras = para_re.findall(article)
+              name_counts = Counter(s for p in paras if (s := explicit_speaker(p)) not in {None, 'GREG'})
+              def valid_name(name: str) -> bool:
+                  if name == 'GREG':
+                      return True
+                  in_registry = re.search(rf'\b{re.escape(name)}\b', registry) is not None
+                  frequent_here = name_counts[name] >= 2
+                  if not (in_registry or frequent_here):
+                      rejected_names[name] += 1
+                      return False
+                  return True
+
               i = 0
               while i < len(paras):
                   if not pure_dialogue(paras[i]):
@@ -85,11 +120,12 @@ jobs:
                   if len(run) < 4 or start == 0:
                       continue
                   anchor = explicit_speaker(paras[start-1])
-                  if not anchor:
+                  if not anchor or not valid_name(anchor):
                       continue
                   window = range(max(0, start-6), min(len(paras), end+6))
                   named = {explicit_speaker(paras[j]) for j in window}
                   named.discard(None); named.discard('GREG')
+                  named = {name for name in named if valid_name(name)}
                   if len(named) != 1:
                       continue
                   other = next(iter(named))
@@ -103,7 +139,7 @@ jobs:
                       speaker = first if offset % 2 == 0 else (other if first == 'GREG' else 'GREG')
                       who = 'I' if speaker == 'GREG' else speaker
                       old_raw = paras[idx]
-                      new_raw = old_raw + f' {who} {verb_for(old_raw)}.'
+                      new_raw = tagged(old_raw, who, verb_for(old_raw))
                       old_html = f'<p>{old_raw}</p>'
                       new_html = f'<p>{new_raw}</p>'
                       if source.count(old_html) != 1:
@@ -125,12 +161,13 @@ jobs:
                       chapter_counts[chapter] += 1
 
           payload = {
-              'schema': 'performance_speaker_periodic_anchor_proposals/v1',
+              'schema': 'performance_speaker_periodic_anchor_proposals/v2',
               'source_authority': os.environ['SOURCE_AUTHORITY'],
               'chapters_considered': 70,
               'eligible_runs': run_count,
               'proposal_count': len(proposals),
               'chapter_counts': {str(k): v for k,v in sorted(chapter_counts.items())},
+              'rejected_name_tokens': dict(rejected_names),
               'proposals': proposals,
           }
           out = Path('state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json')
@@ -138,43 +175,44 @@ jobs:
           out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           print(json.dumps({k: payload[k] for k in ('chapters_considered','eligible_runs','proposal_count')}, indent=2))
           print('chapters with proposals', len(chapter_counts))
+          print('rejected name tokens', dict(rejected_names))
           PY
-      - name: Extract objective ownership defects from broad scan
+      - name: Keep objective ownership defects separate for human review
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           src = Path('state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json')
-          if not src.exists():
-              print('broad scan missing; objective defect list skipped')
-              raise SystemExit(0)
           data = json.loads(src.read_text(encoding='utf-8'))
           rows = [r for r in data['candidates'] if r['rule'] in {'foreign_action_attachment','multi_speaker_paragraph'}]
           out = Path('state/editorial/performance-production/trials/showcase-70-speaker-objective-defects.json')
           out.write_text(json.dumps({'source_authority': data['source_authority'], 'count': len(rows), 'rows': rows}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          print('objective defects', len(rows))
+          print('objective defects held for review', len(rows))
           PY
-      - name: Dry-run every proposed prose anchor
+      - name: Dry-run every proposed prose anchor and validate syntax
         run: |
           python - <<'PY'
-          import json
+          import json, re
           from pathlib import Path
           data = json.loads(Path('state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json').read_text(encoding='utf-8'))
           by_chapter = {}
           for p in data['proposals']:
               by_chapter.setdefault(p['chapter'], []).append(p)
           applied = 0
+          bad_period_tag = re.compile(r'[\.][”\"]\s+(?:I|[A-Z][A-Za-z\'’\-]+)\s+(?:said|asked)\.')
           for chapter, proposals in by_chapter.items():
               text = (Path('chapters') / f'{chapter:03d}.html').read_text(encoding='utf-8')
               for p in proposals:
                   if text.count(p['old_html']) != 1:
                       raise SystemExit(f"anchor drift {chapter:03d}: {p['old_html'][:80]}")
+                  if bad_period_tag.search(p['new_html']):
+                      raise SystemExit(f"bad dialogue tag punctuation {chapter:03d}: {p['new_html']}")
+                  if '—' in p['new_html']:
+                      raise SystemExit(f'em dash introduced in {chapter:03d}')
                   text = text.replace(p['old_html'], p['new_html'], 1)
                   applied += 1
-              if '—' in ''.join(p['new_html'] for p in proposals):
-                  raise SystemExit(f'em dash introduced in {chapter:03d}')
           assert applied == data['proposal_count']
-          print('dry-run proposals applied', applied)
+          print('dry-run validated proposals', applied)
           PY
       - name: Commit disposable proposal reports
         run: |
@@ -185,5 +223,5 @@ jobs:
             echo 'No proposal changes.'
             exit 0
           fi
-          git commit -m 'trial: regenerate safe speaker anchors with named anchors only'
+          git commit -m 'trial: validate speaker anchors and tag punctuation'
           git push origin HEAD:editor/performance-speaker-showcase-70
