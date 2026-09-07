@@ -3,7 +3,10 @@
   "project": "gravitys-embrace",
   "runtime": "runtime-initial.json",
   "creator_taste": "CREATOR_AUDIENCE_CONTEXT.json",
-  "evidence": "rehearsal-evidence-cycle-001.json",
+  "evidence_sequence": [
+    "rehearsal-evidence-cycle-001.json",
+    "rehearsal-evidence-cycle-002.json"
+  ],
   "expected": {
     "act_count": 4,
     "authority_effect": "derived_only_no_canon_mutation",
@@ -23,12 +26,32 @@
       ],
       "max_story_truths": 0
     },
-    "after_evidence": {
-      "max_story_truths": 0,
-      "max_open_branch_delta": -1,
-      "discovery_levels": {
-        "survival-enables-offense": "strong_thread",
-        "mechanics-can-carry-trust": "speculation"
+    "cycles": {
+      "cycle-001": {
+        "max_story_truths": 0,
+        "max_open_branch_delta": -1,
+        "discovery_levels": {
+          "survival-enables-offense": "strong_thread",
+          "mechanics-can-carry-trust": "speculation"
+        },
+        "min_discovery_evidence_counts": {
+          "survival-enables-offense": 3,
+          "mechanics-can-carry-trust": 1
+        }
+      },
+      "cycle-002": {
+        "max_story_truths": 0,
+        "max_unresolved_messages": 4,
+        "max_open_pressure": 12,
+        "min_supported_constraints": 5,
+        "discovery_levels": {
+          "survival-enables-offense": "strong_thread",
+          "mechanics-can-carry-trust": "strong_thread"
+        },
+        "min_discovery_evidence_counts": {
+          "survival-enables-offense": 3,
+          "mechanics-can-carry-trust": 2
+        }
       }
     }
   },
