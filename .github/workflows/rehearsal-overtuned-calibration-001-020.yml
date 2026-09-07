@@ -49,10 +49,13 @@ jobs:
           import subprocess
           from pathlib import Path
 
+          manifest_path = Path('state/editorial/rehearsal/campaigns/canon-001-020-overtuned-manifest.json')
           report_path = Path('state/editorial/rehearsal/campaigns/canon-001-020-overtuned-report.json')
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
           report = json.loads(report_path.read_text(encoding='utf-8'))
-          if report['patches_applied'] != 31:
-              raise SystemExit(f"expected 31 applied patches, got {report['patches_applied']}")
+          expected_patch_count = len(manifest['patches'])
+          if report['patches_applied'] != expected_patch_count:
+              raise SystemExit(f"expected {expected_patch_count} applied patches, got {report['patches_applied']}")
           expected_chapters = {5, 7, 10, 11, 13, 14, 16, 17, 18}
           if set(report['changed_chapters']) != expected_chapters:
               raise SystemExit(f"unexpected changed chapters: {report['changed_chapters']}")
