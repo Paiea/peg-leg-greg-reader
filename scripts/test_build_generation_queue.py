@@ -67,6 +67,23 @@ def main() -> int:
     assert "generation_approval" not in open_queue[0], open_queue[0]
     assert "generation_batch_id" not in open_queue[0], open_queue[0]
 
+    reference_candidate = candidate("early-reference-override", 5)
+    reference_candidate["characters"] = ["Greg", "Jorren"]
+    reference_candidate["character_reference_assets"] = [
+        "assets/book-role-cards/book-i-warrior-005.webp",
+        "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png",
+    ]
+    reference_queue = build_generation_queue(
+        [],
+        [],
+        character_references={},
+        production_hold=HOLD,
+        bounded_candidates=[reference_candidate],
+        generation_batch_id="definitive-pilot-001",
+    )
+    assert reference_queue[0]["character_reference_assets"] == reference_candidate["character_reference_assets"], reference_queue[0]
+    assert "Explicit scene-era reference assets" in reference_queue[0]["reference_selection_notes"], reference_queue[0]
+
     print("build generation queue regressions passed")
     return 0
 
