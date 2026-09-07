@@ -12,6 +12,7 @@ from scripts import creator_taste_prior
 from scripts import performance_campaign
 from scripts import performance_index
 from scripts import performance_production_funnel as funnel
+from scripts import persistent_act_runtime
 from scripts import story_sync_engine
 
 
@@ -31,6 +32,29 @@ def _optional_json_input(payload: dict[str, Any], value_key: str, path_key: str)
             raise ValueError(f"{path_key} must contain a JSON object")
         return value
     return None
+
+
+def _optional_json_list_input(payload: dict[str, Any], value_key: str, path_key: str) -> list[dict[str, Any]] | None:
+    if value_key in payload and payload[value_key] is not None:
+        value = payload[value_key]
+    elif path_key in payload and payload[path_key] is not None:
+        value = json.loads(Path(str(payload[path_key])).read_text(encoding="utf-8"))
+    else:
+        return None
+    if isinstance(value, dict):
+        value = [value]
+    if not isinstance(value, list) or any(not isinstance(item, dict) for item in value):
+        raise ValueError(f"{value_key} or {path_key} must contain a JSON object or list of objects")
+    return value
+
+
+def _write_derived_output(payload: dict[str, Any], result: Any) -> None:
+    output_path = payload.get("output_path")
+    if output_path is None:
+        return
+    path = Path(str(output_path))
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def brain_for(payload: dict[str, Any]) -> dict[str, Any]:
@@ -107,19 +131,32 @@ def sync_story(payload: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("sync_story requires state or state_path")
     report = story_sync_engine.sync_story(state)
     report = creator_taste_prior.augment_sync_report(state, report)
-    output_path = payload.get("output_path")
-    if output_path is not None:
-        path = Path(str(output_path))
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _write_derived_output(payload, report)
     return report
+
+
+def run_story_rehearsal_cycle(payload: dict[str, Any]) -> dict[str, Any]:
+    runtime_state = _optional_json_input(payload, "runtime", "runtime_path")
+    if runtime_state is None:
+        raise ValueError("run_story_rehearsal_cycle requires runtime or runtime_path")
+    evidence = _optional_json_list_input(payload, "evidence", "evidence_path")
+    creator_taste = _optional_json_input(payload, "creator_taste", "creator_taste_path")
+    result = persistent_act_runtime.run_rehearsal_cycle(
+        runtime_state,
+        evidence=evidence,
+        creator_taste=creator_taste,
+    )
+    _write_derived_output(payload, result)
+    return result
 
 
 TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
     "brain_for": brain_for, "brain_doctor": brain_doctor,
     "compile_range": compile_range, "get_scene_view": get_scene_view, "query_scenes": query_scenes,
     "plan_campaign": plan_campaign, "run_campaign": run_campaign, "get_campaign_result": get_campaign_result,
-    "reduce_campaign": reduce_campaign, "sync_story": sync_story, "apply_survivors": apply_survivors,
+    "reduce_campaign": reduce_campaign, "sync_story": sync_story,
+    "run_story_rehearsal_cycle": run_story_rehearsal_cycle,
+    "apply_survivors": apply_survivors,
 }
 
 TOOL_SPECS = {
@@ -133,6 +170,7 @@ TOOL_SPECS = {
     "get_campaign_result": {"write": False, "read_only": True, "description": "Return the compact reduced result for a campaign."},
     "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
     "sync_story": {"write": False, "read_only": False, "description": "Synchronize long-form possibilities, discoveries, propagation, convergence, hidden canon, reader dependencies, and optional creator-taste rehearsal hints without mutating canon prose."},
+    "run_story_rehearsal_cycle": {"write": False, "read_only": False, "description": "Run one derived-only four-persistent-act REHEARSAL/STORY SYNC cycle, optionally integrating compact experimental evidence and creator-taste search hints."},
     "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
