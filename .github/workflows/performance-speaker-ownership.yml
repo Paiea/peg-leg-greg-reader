@@ -6,6 +6,7 @@ on:
       - editor/performance-speaker-ownership
     paths:
       - 'scripts/performance_campaign.py'
+      - 'scripts/performance_selected_campaign.py'
       - 'tests/test_performance_speaker_ownership.py'
       - '.github/workflows/performance-speaker-ownership.yml'
   workflow_dispatch:
