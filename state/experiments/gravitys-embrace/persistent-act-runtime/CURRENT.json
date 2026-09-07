@@ -4,73 +4,33 @@
   "authority": "derived_experimental_not_story_canon",
   "architecture_branch": "architecture/long-form-story-compiler",
   "pull_request": 161,
-  "cycle": 6,
-  "cycle_status": "descendant_head_fully_green",
+  "cycle": 7,
+  "cycle_status": "fully_green_observed",
   "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
-  "source_inputs": {
-    "runtime": "state/experiments/gravitys-embrace/persistent-act-runtime/runtime-initial.json",
-    "evidence_sequence": ["rehearsal-evidence-cycle-001.json", "rehearsal-evidence-cycle-002.json", "rehearsal-evidence-cycle-003.json", "rehearsal-evidence-cycle-004.json", "rehearsal-evidence-cycle-005.json", "rehearsal-evidence-cycle-006.json"],
-    "creator_taste": "state/experiments/gravitys-embrace/persistent-act-runtime/CREATOR_AUDIENCE_CONTEXT.json",
-    "trial_manifest": "state/experiments/gravitys-embrace/persistent-act-runtime/trial-manifest.json"
-  },
-  "verification": {
-    "verified_descendant_branch_head": "866e2ce2095ae927653dd50f3d50098a1559f94a",
-    "workflow_run": 34139486420,
-    "focused_suite": {"tests": 72, "result": "green"},
-    "full_repository_suite": {"tests": 530, "skipped": 6, "result": "green"},
-    "gravity_cycle_6_observation": {"boundary_contradictions": 6, "open_temporal_pressure": 6, "open_branches": 21, "unresolved_directional_messages": 0, "supported_directional_constraints": 9},
-    "ci_authority": "read_only_validation"
-  },
-  "convergence_history": {
-    "open_branches": [23, 21, 21, 21, 21, 21, 21],
-    "temporal_pressure": [13, 16, 12, 9, 7, 7, 6],
-    "unresolved_directional_messages": [6, 9, 4, 1, 0, 0, 0],
-    "supported_directional_constraints": [0, 0, 5, 8, 9, 9, 9],
-    "boundary_contradictions": [7, 7, 7, 7, 7, 7, 6],
-    "survival_enables_offense_evidence": [1, 3, 3, 4, 4, 5, 5],
-    "mechanics_can_carry_trust_evidence": [0, 1, 2, 3, 3, 3, 3]
-  },
-  "cycle_006": {
-    "target_id": "target:boundary:act-i:act-ii:gravity_model:ge-a1-out-gravity:ge-a2-in-gravity",
+  "source_inputs": {"runtime": "state/experiments/gravitys-embrace/persistent-act-runtime/runtime-initial.json", "evidence_sequence": ["rehearsal-evidence-cycle-001.json", "rehearsal-evidence-cycle-002.json", "rehearsal-evidence-cycle-003.json", "rehearsal-evidence-cycle-004.json", "rehearsal-evidence-cycle-005.json", "rehearsal-evidence-cycle-006.json", "rehearsal-evidence-cycle-007.json"], "creator_taste": "state/experiments/gravitys-embrace/persistent-act-runtime/CREATOR_AUDIENCE_CONTEXT.json", "trial_manifest": "state/experiments/gravitys-embrace/persistent-act-runtime/trial-manifest.json"},
+  "verification": {"cycle_7_commit": "1b81ee7ee9f4ff2709c203f4ea083a49833a1762", "workflow_run": 34139939158, "focused_suite": {"tests": 72, "result": "green"}, "full_repository_suite": {"tests": 530, "skipped": 6, "result": "green"}, "cycle_7_observation": {"boundary_contradictions": 5, "open_temporal_pressure": 6, "open_branches": 21, "unresolved_directional_messages": 1, "supported_directional_constraints": 9, "untested_directional_constraints": 1, "forward_consequences": 6}, "ci_authority": "read_only_validation"},
+  "convergence_history": {"open_branches": [23,21,21,21,21,21,21,21], "temporal_pressure": [13,16,12,9,7,7,6,6], "unresolved_directional_messages": [6,9,4,1,0,0,0,1], "supported_directional_constraints": [0,0,5,8,9,9,9,9], "boundary_contradictions": [7,7,7,7,7,7,6,5], "survival_enables_offense_evidence": [1,3,3,4,4,5,5,5], "mechanics_can_carry_trust_evidence": [0,1,2,3,3,3,3,3]},
+  "cycle_007": {
+    "target_id": "target:boundary:act-ii:act-iii:build_identity:ge-a2-out-build:ge-a3-in-build",
     "experiment_mode": "state_transition_test",
     "fidelity": "development",
     "performance_required": false,
     "bridge_succeeded": true,
-    "source_boundary": {"act": "act-i", "id": "ge-a1-out-gravity", "value": "anomaly-observed-not-explained"},
-    "target_boundary_before": {"act": "act-ii", "id": "ge-a2-in-gravity", "value": "uncertain-reproduction"},
-    "target_boundary_after": {"act": "act-ii", "id": "ge-a2-in-gravity", "value": "anomaly-evidenced-reproduction-uncertain", "confidence": 0.72, "history_preserved_by_generic_boundary_learning": true},
-    "learned_bridge": "an anomalous survival result leaves a concrete discrepancy against ordinary expectation; the discrepancy can be sanity-checked while real cost remains visible; a safer bounded comparison can test recurrence without repeating the original lethal exposure; multiple causal hypotheses remain live; therefore deliberate investigation is rational before the recipe is known",
+    "source_boundary": {"act": "act-ii", "id": "ge-a2-out-build", "value": "hp-heavy-experimenter"},
+    "target_boundary_before": {"act": "act-iii", "id": "ge-a3-in-build", "value": "underleveled-specialist"},
+    "target_boundary_after": {"act": "act-iii", "id": "ge-a3-in-build", "value": "underleveled-method-specialist", "confidence": 0.7, "history_preserved_by_generic_boundary_learning": true},
+    "specialist_distinction": "The protagonist is a specialist because his experimentation has become a coherent repeatable decision method, not because HP is high, one gravity hit worked, he calls himself a specialist, or another character recognizes him. He can bound risk, vary uncertainty, preserve failures as information, reproduce a narrow useful class of outcomes, identify observations that matter, abstain when conditions are outside known limits, and make tactical decisions from those limits while the general gravity recipe remains unknown.",
+    "did_runtime_discover_not_relabel": true,
+    "evidence_basis": ["risk-bounded test design", "controlled comparison where possible", "failed outcomes retained as information", "narrow conditional reproduction", "explicit no-go conditions", "tactical decisions from known limits", "bounded predictions with observations that can change the next move"],
     "contradiction_retired": true,
-    "metrics": {"boundary_contradictions_before": 7, "boundary_contradictions_after": 6, "temporal_pressure_before": 7, "temporal_pressure_after": 6, "target_count_before": 25, "target_count_after": 24, "state_transition_targets_before": 4, "state_transition_targets_after": 3, "open_branch_count_before": 21, "open_branch_count_after": 21, "branch_delta": 0, "new_forward_consequences": 0, "new_backward_requirements": 0, "new_third_paths": 0, "branch_updates": 0},
-    "new_local_hypothesis": {"id": "ge-a2-reproduction-begins-with-discrepancy-not-recipe", "finding": "a rational second experiment can be motivated by a concrete mismatch between expected and observed consequences plus the ability to test a bounded variation; evidence of investigability is sufficient without causal explanation"},
-    "recipe_remains_unresolved": true,
-    "did_runtime_learn_transition": true,
-    "why_not_convenient_explanation": "the evidence artifact supplies a falsifiable discrepancy, competence-preserving safer comparison, explicit residual uncertainty, provenance, a history-preserving boundary update, and a supported boundary response; endpoint states remain distinct"
+    "metrics": {"boundary_contradictions_before": 6, "boundary_contradictions_after": 5, "temporal_pressure_before": 6, "temporal_pressure_after": 6, "open_branch_count_before": 21, "open_branch_count_after": 21, "branch_delta": 0, "target_count_before": 24, "target_count_after": 24, "new_forward_consequences": 1, "new_backward_requirements": 0, "new_third_paths": 0, "branch_updates": 0, "unresolved_directional_messages_before": 0, "unresolved_directional_messages_after": 1},
+    "new_forward_consequence": {"id": "ge-forward-specialist-method-can-create-public-pressure", "source_act": "act-iii", "target_act": "act-iv", "status": "untested", "meaning": "coherent specialist method can later become legible enough to create attention, recruitment, competition, trust, status pressure, or institutional interest without choosing who notices first"},
+    "gravity_mechanics_remain_meaningfully_unresolved": true,
+    "not_established": ["exact gravity recipe", "full progression curve", "general-purpose collision offense", "who notices first", "social-entry route", "romance architecture", "institutional affiliation", "ending branch"]
   },
-  "current_story_sync": {
-    "story_truths": {"survival-enables-offense": {"maturity": "story_truth", "evidence_count": 5, "challenge_survived": true, "interpretation": "Maximum HP remains defensive. Survivability makes a class of otherwise-suicidal ordinary gravity/collision experiments possible and can expose an offensive option that becomes intentionally usable under some conditions.", "cycle_6_effect": "unchanged"}},
-    "strong_threads": {"mechanics-can-carry-trust": {"maturity": "strong_thread", "evidence_count": 3, "cycle_6_effect": "unchanged"}}
-  },
-  "preserved_uncertainty": {
-    "death_stakes": ["stakes-real-death", "stakes-severe-loss"],
-    "geographic_gating": ["act-i:first-fall-geographic-gate", "act-i:first-fall-local-only"],
-    "social_entry": ["act-iii:social-old-friend", "act-iii:social-stranger-recruiter", "act-iii:institution-guild-competition"],
-    "romance_architecture": ["act-iii:romance-preexisting-connection", "act-iii:romance-grown-through-experimentation"],
-    "ending": ["ending-public-breakthrough", "ending-contained-secret"],
-    "gravity_exploit_progression": "exact recipe, progression, reliability, centrality, costs, repeatability limits, and mastery speed remain open"
-  },
-  "next_edge": {
-    "selection_status": "selected_after_green_descendant_verification",
-    "target_id": "target:boundary:act-ii:act-iii:build_identity:ge-a2-out-build:ge-a3-in-build",
-    "experiment_mode": "state_transition_test",
-    "fidelity": "development",
-    "source_state": "hp-heavy-experimenter",
-    "target_state": "underleveled-specialist",
-    "question": "What earned sequence of outcomes makes an HP-heavy experimenter become recognizably specialized while remaining underleveled, without prematurely solving the gravity recipe or selecting the social-entry route?",
-    "why_selected": "The gravity_model Act II to III pair is already identical and should not be manufactured into work. Build identity has larger downstream reach than the remaining visibility bridge because it determines whether the protagonist's unusual competence is legible enough to motivate later attention, trust, recruitment, competition, and public consequence while preserving all three social-entry possibilities.",
-    "selection_rule": "prefer cheap structural or epistemic tests with large downstream reach and branch-discrimination value before PERFORMANCE",
-    "remaining_boundary_contradictions": 6
-  },
-  "rendering_gate": {"sustained_canon_prose_ready": false, "reason": "one adjacent transition retired cleanly, but six adjacent temporal boundary contradictions remain"},
+  "current_story_sync": {"story_truths": {"survival-enables-offense": {"maturity": "story_truth", "evidence_count": 5, "challenge_survived": true, "interpretation": "Maximum HP remains defensive. Survivability makes a class of otherwise-suicidal ordinary gravity/collision experiments possible and can expose an offensive option that becomes intentionally usable under some conditions.", "cycle_7_effect": "unchanged"}}, "strong_threads": {"mechanics-can-carry-trust": {"maturity": "strong_thread", "evidence_count": 3, "cycle_7_effect": "unchanged"}}},
+  "preserved_uncertainty": {"death_stakes": ["stakes-real-death", "stakes-severe-loss"], "geographic_gating": ["act-i:first-fall-geographic-gate", "act-i:first-fall-local-only"], "social_entry": ["act-iii:social-old-friend", "act-iii:social-stranger-recruiter", "act-iii:institution-guild-competition"], "romance_architecture": ["act-iii:romance-preexisting-connection", "act-iii:romance-grown-through-experimentation"], "ending": ["ending-public-breakthrough", "ending-contained-secret"], "gravity_exploit_progression": "exact recipe, progression, reliability, centrality, costs, repeatability limits, and mastery speed remain open"},
+  "next_edge": {"selection_status": "selected_from_real_post_cycle_7_pressure", "target_id": "target:ge-forward-specialist-method-can-create-public-pressure", "experiment_mode": "forward_consequence_test", "fidelity": "probe", "source_act": "act-iii", "target_act": "act-iv", "question": "Does methodological specialization actually create a later visibility/status consequence independent of who notices, or did Cycle 7 overstate downstream social legibility?", "why_selected": "Cycle 7 created one new unresolved directional message, keeping temporal pressure flat at 6 despite retiring the build_identity boundary. Testing this cheap consequence first can either validate or reject the new pressure without selecting a social-entry character. Remaining boundary candidates should be reconsidered after that closure; identical endpoints must continue to be rejected.", "remaining_boundary_contradictions": 5},
+  "rendering_gate": {"sustained_canon_prose_ready": false, "reason": "build identity is now earned, but five adjacent boundary contradictions and one newly emitted directional consequence remain open"},
   "authority_effect": "derived_only_no_canon_mutation"
 }
