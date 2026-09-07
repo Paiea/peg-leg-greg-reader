@@ -46,11 +46,15 @@ class DragonSpotterPersistentActRuntimeCycle6Tests(unittest.TestCase):
         levels = cycle_6["shared_story_sync"]["discovery_levels"]
         self.assertEqual("story_truth", levels["mutual-indispensability"])
         self.assertEqual("strong_thread", levels["operational-reliance-before-personal-trust"])
-        self.assertEqual("repeated_signal", levels["first-dragon-wants-voluntary-repair"])
-        self.assertEqual("repeated_signal", levels["legitimacy-as-usable-authority"])
+        # One hostile follow-up is evidence that the Cycle 5 hypotheses survived,
+        # but STORY SYNC correctly keeps each at SPECULATION because the evidence
+        # is still only two tightly related project-local groups, not independent
+        # recurrence across the book.
+        self.assertEqual("speculation", levels["first-dragon-wants-voluntary-repair"])
+        self.assertEqual("speculation", levels["legitimacy-as-usable-authority"])
 
-        # Hostile evidence increases maturity but does not fake-close the remaining
-        # manifestation/title contradictions or mutate shared branch authority.
+        # Hostile evidence does not fake-close the remaining manifestation/title
+        # contradictions or mutate shared branch authority.
         self.assertIn("first-gift-form", cycle_6["shared_story_sync"]["contradictions_alive"])
         self.assertIn("ending-office-role", cycle_6["shared_story_sync"]["contradictions_alive"])
         self.assertEqual(
