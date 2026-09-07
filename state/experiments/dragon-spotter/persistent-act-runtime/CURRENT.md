@@ -6,174 +6,206 @@ Active branch: `architecture/long-form-story-compiler`
 Draft PR: **#161**  
 Settled runtime model: STORY STATE = memory; ACT I–IV = persistent temporal perspectives; REHEARSAL = experiment selection/orchestration; PERFORMANCE = high-fidelity embodied-behavior experiment; STORY SYNC = learning/convergence; PROSE = rendering.
 
-Do not substitute another story proving ground for Dragon Spotter in a Dragon continuation chat. Do not turn project-local discoveries into generic compiler assumptions. Do not generate sustained prose from this trailhead.
+Use Dragon Spotter only for this continuation surface. Keep Dragon-specific evidence project-local. Do not generate sustained prose from this trailhead. PR #161 remains draft and unmerged.
 
-## Current authority: Cycle 2
+## Current authority: Cycle 3
 
-Cycle 2 ran sequentially from Cycle 1's evolved runtime through the public derived-only seam:
+Cycle 3 ran sequentially from the evolved Cycle 2 runtime through the actual public derived-only seam:
 
 `plg_ai_tools.run_story_rehearsal_cycle`
 
-Cycle 1 inputs remained:
+Project-local inputs across the three cycles:
 
 - `runtime-input.json`
 - `first-bargain-evidence.json`
+- `cycle-2-directional-evidence.json`
+- `cycle-3-boundary-evidence.json`
 - `creator-taste-context.json`
-- source PERFORMANCE evidence: `../story-sync/first-bargain-rehearsal.json`
+- first-bargain PERFORMANCE source: `../story-sync/first-bargain-rehearsal.json`
+- Cycle 3 romantic-trust PERFORMANCE: `../story-sync/cycle-3-romantic-trust-performance.json`
+- Cycle 3 structural rehearsals: `cycle-3-structural-boundary-rehearsals.json`
 
-Cycle 2 added only bounded directional evidence from:
-
-- `rehearsal-evidence-cycle-002.json`
-
-Cycle 2 did **not** add branch updates, shared discoveries, story truths, or prose. Its four evidence items only supplied message-local `constraint_response` deltas where existing Dragon state already supported the answer.
-
-## Generic experiment-retirement fix
-
-Cycle 2 first exposed a generic scheduling defect: a directional message could receive a latest `supported` constraint response while remaining status `open`, and `compile_rehearsal_targets` would still enqueue the identical `forward_consequence_test` or `backward_prerequisite_test` forever.
-
-The generic fix is now landed in `scripts/persistent_act_runtime.py`:
-
-- open directional messages still remain open as story-state messages
-- no Dragon state is fake-closed
-- `compile_rehearsal_targets` inspects the target act's latest response
-- when the latest response is `supported`, the identical directional probe is retired
-- `third_path`, `conflict`, `reject_source`, and untested messages remain eligible for the appropriate continued work
-- no Dragon-specific strings or assumptions were added to generic compiler code
-
-The RED/GREEN contract remains in `tests.test_story_sync_constraint_response_evidence`.
+No sustained prose or canon write occurred.
 
 ## Verification authority
 
-Verified on branch head `c568e1be16b8d45c240ade57448dedf1b9614d1d` through GitHub Actions STORY SYNC run `34135646199`:
+The generic boundary-learning fix and the real Dragon Cycle 3 run were verified on commit:
 
-- focused STORY SYNC/runtime suite: **71 tests, green**
-- full repository suite: **527 tests, 6 skipped, green**
+`bfa5e11d58831aca94b419a4bb19dcf73f0c23aa`
+
+GitHub Actions STORY SYNC run:
+
+`34137789593`
+
+Observed verification:
+
+- focused STORY SYNC/runtime suite: **72 tests, green**
+- full repository suite: **529 tests, 6 skipped, green**
 - CI remained read-only validation
 
-The handoff count of 68 focused / 523 full was superseded by concurrent generic fixture-contract additions before final verification. The current counts above are the observed authority.
+The branch subsequently received two unrelated Gravity's Embrace continuation commits. They changed only Gravity project-local `CURRENT` files and did not alter Dragon or the generic runtime.
 
-## Observed Cycle 2 result
+## High-heat romantic-trust PERFORMANCE result
 
-The post-fix Cycle 2 produced **17 REHEARSAL targets**.
+The Act II → Act III `romantic_trust` target began as:
 
-Experiment modes:
+`guarded-respect` → `mutual-reliance`
 
-- counterfactual branch comparison: 2
-- forward consequence test: 1
-- PERFORMANCE: 1
-- plausibility probe: 6
-- state transition test: 2
-- temporal-distance rehearsal: 1
-- trajectory/worldline test: 4
-- backward prerequisite test: 0
+PERFORMANCE did **not** support broad immediate mutual personal or romantic trust as the honest Act III entry state.
 
-The four directional messages supported in Cycle 2 were:
+The strongest performed path was:
 
-- `a1-to-a3-reciprocity-politics`
-- `first-bargain-reciprocity-forward`
-- `a4-to-a1-earned-recognition`
-- `a4-to-a2-public-risk`
+`third_path_operational_reliance_with_guarded_personal_trust`
 
-Observed post-fix retirement:
+Observed behavior:
 
-- `supported_directional_targets_still_scheduled`: **[]**
-- the four identical directional probes disappeared
-- the prior `third_path` collision around `a4-to-a1-earned-recognition` disappeared after the newer supported response became the latest response
-- constraint collisions: **1 → 0**
-- unresolved long-range messages: **5 → 1**
-- open temporal pressure: **9 → 4**
+- both leads retained meaningful professional competence
+- neither could safely replace the other
+- each had to accept a real reputational or physical cost to act on the other's judgment
+- reciprocal operational reliance was reachable
+- attraction intensified around competence but did not guarantee trust
+- professional-only coordination remained viable but less adaptive
+- asymmetric reliance remained plausible
+- attraction plus persistent distrust remained plausible
+- presumed/forced trust failed under pressure
 
-This is real directional closure. The messages remain derived open story-state constraints; only redundant experiment selection retired.
+The derived Act III `romantic_trust` state-in hypothesis therefore adapted from:
 
-## Branch movement across the two cycles
+`mutual-reliance`
 
-Cycle 1 remains the only branch-pruning cycle so far.
+to:
 
-Act I first-bargain branches:
+`mutual-operational-reliance-with-guarded-personal-trust`
+
+The old `mutual-reliance` value is preserved in boundary history with provenance. This is derived temporal learning, not story canon.
+
+## Structural boundary rehearsals
+
+### Act II → III `professional_role`
+
+`political-liability` → `needed-envoy`
+
+Development-level state-transition rehearsal supported the bridge through **reluctant deployment**:
+
+Human institutions can continue treating the Spotter as politically embarrassing while still needing his dragon-facing effectiveness. Institutional rehabilitation is not required first.
+
+### Act III → IV `public_identity`
+
+`contested-human-interlocutor` → `dragon-recognized-interlocutor`
+
+Development-level state-transition rehearsal supported the bridge through **recognition by repeated routing**:
+
+Dragons can increasingly recognize the Spotter as the human who notices, answers, and carries obligations accurately while human institutions continue disputing his title or legitimacy. This does not choose Crown Spotter versus dragon envoy.
+
+## Observed Cycle 3 convergence
+
+Cycle 2 → Cycle 3:
+
+- REHEARSAL targets: **17 → 12**
+- boundary contradictions: **3 → 0**
+- unresolved long-range messages: **1 → 0**
+- constraint collisions: **0 → 0**
+- open temporal pressure: **4 → 0**
+- open branches: **11 → 11**
+- branch delta: **0**
+- forward consequences: **3 → 3**
+- backward requirements: **2 → 2**
+
+Temporal trajectory status is now:
+
+`candidate_passable`
+
+That does **not** mean the story is fully converged. It means the current four temporal act states no longer contain an untested adjacent-boundary contradiction or unresolved long-range temporal obligation.
+
+Cycle 3 produced no branch pruning and no new forward/backward obligations. Convergence came from evidence-backed bridge learning and one later-state revision.
+
+## STORY SYNC after Cycle 3
+
+The new high-heat PERFORMANCE supplied genuinely independent adversarial evidence.
+
+`mutual-indispensability`:
+
+- Cycle 2 maturity: **strong_thread**
+- Cycle 3 maturity: **story_truth**
+
+This promotion was produced by STORY SYNC after the thread survived another independent high-heat challenge. It was not inserted as a desired Cycle 3 result.
+
+`heat-through-competence`:
+
+- Cycle 2 maturity: **repeated_signal**
+- Cycle 3 maturity: **strong_thread**
+
+New discovery:
+
+- `operational-reliance-before-personal-trust`: **speculation**
+
+Current repeated signals: **none**.
+
+Current strong threads:
+
+- `gift-reciprocity`
+- `heat-through-competence`
+- `improvisation-is-competence-path`
+
+Current story truths:
+
+- `mutual-indispensability`
+
+## Branch authority
+
+No branch changed in Cycle 3.
+
+Act I first-bargain branches remain:
 
 - `first-bargain.land-restoration`: **active / viable**
 - `first-bargain.relic-restitution`: **active / viable**
 - `first-bargain.protocol-only`: **superseded / redundant**
 - `first-bargain.reckless-improvisation`: **superseded / redundant**
 
-Cycle 1 moved open branch count **13 → 11**.
+Land-restoration and relic-restitution remain legitimately unresolved. Do not choose one simply because the temporal trajectory is now candidate-passable.
 
-Cycle 2 branch count stayed **11 → 11** with branch delta **0**. Cycle 2 intentionally made no branch updates, so its convergence came from constraint closure rather than artificial branch pruning.
-
-Land-restoration and relic-restitution remain legitimately live.
-
-## STORY SYNC state after Cycle 2
-
-Cycle 1 strengthened `mutual-indispensability`:
-
-- evidence count: **2 → 3**
-- maturity: **repeated_signal → strong_thread**
-
-Cycle 2 did not add discovery evidence and did not promote anything further.
-
-Current repeated signals:
-
-- `heat-through-competence`
-
-Current strong threads:
-
-- `gift-reciprocity`
-- `improvisation-is-competence-path`
-- `mutual-indispensability`
-
-Current story truths: **none**.
-
-Creator taste remains heuristic only. `gift.scale-token` search priority had moved low → medium under creator taste in Cycle 1 while branch survival/action remained unchanged.
-
-Shared unresolved contradictions remain:
+Shared STORY SYNC contradictions still alive:
 
 - `first-gift-form`
 - `ending-office-role`
 
-Each act still has one local unresolved question. STORY SYNC still has two unresolved shared questions.
+These are now more important than boundary repair because temporal pressure has reached zero without resolving them.
 
-## Remaining temporal pressure
+## Generic runtime defect exposed by Cycle 3
 
-The trajectory remains **open**.
+The real rehearsal exposed one generic learning defect.
 
-After Cycle 2:
+Before Cycle 3, REHEARSAL evidence could add message constraint responses, but it could not:
 
-- adjacent boundary pairs: 3
-- boundary contradictions: **3**
-- unresolved long-range messages: **1**
-- constraint collisions: **0**
-- open temporal pressure count: **4**
+1. revise an existing derived `state_in` / `state_out` temporal hypothesis when PERFORMANCE contradicted it, or
+2. record that a non-identical adjacent boundary had an evidence-backed transition and retire that exact bridge experiment.
 
-The three remaining adjacent boundary contradictions are:
+The generic fix landed in `scripts/persistent_act_runtime.py`:
 
-1. **Act II → Act III `professional_role`**  
-   `political-liability` → `needed-envoy`  
-   Keep this a development-level structural/state-transition experiment.
+- `state_boundary_update` delta revises an existing derived boundary hypothesis
+- prior value/confidence/provenance are preserved in `history`
+- `boundary_response` records evidence-backed bridge resolution in the target act
+- a latest `supported` boundary response retires that exact mismatch from `boundary_contradictions` and REHEARSAL target selection
+- endpoint values are not forced equal
+- no story canon authority is gained
+- no Dragon-specific strings or assumptions were added to generic runtime code
 
-2. **Act II → Act III `romantic_trust`**  
-   `guarded-respect` → `mutual-reliance`  
-   This remains the single high-heat embodied PERFORMANCE bridge. Do not close it from summary evidence or abstract interpolation.
-
-3. **Act III → Act IV `public_identity`**  
-   `contested-human-interlocutor` → `dragon-recognized-interlocutor`  
-   Keep this structural unless evidence shows the transition depends on embodied relationship behavior.
+The generic RED/GREEN contract is in `tests.test_story_sync_constraint_response_evidence`.
 
 ## Exact next edge
 
-The next meaningful Dragon work is the **three boundary contradictions**, with priority on the untouched Act II → III `romantic_trust` high-heat PERFORMANCE bridge.
+Do **not** return to boundary repair and do **not** start sustained prose yet.
 
-Do not write sustained prose yet.
+The four-act temporal trajectory is now candidate-passable, but STORY SYNC still has meaningful unresolved search state.
 
-For the next bounded REHEARSAL slice:
+Next bounded research should test convergence rather than invent more architecture:
 
-- preserve the four persistent temporal act channels
-- perform or derive real evidence for the Act II → III romantic-trust bridge rather than narrating the answer
-- keep the `professional_role` and `public_identity` bridges cheaper unless their evidence demands escalation
-- preserve land-restoration, relic-restitution, `first-gift-form`, and `ending-office-role` while still live
-- measure whether boundary contradictions actually close, split, or generate a defensible third path
-- watch whether major novelty continues slowing while existing threads deepen
-- do not force entropy reduction or story-truth promotion
+1. **Pressure-test the new relationship third path across temporal distance.** Test whether `mutual-operational-reliance-with-guarded-personal-trust` remains coherent deeper into Act III and Act IV. Do not assume it must become romance or broad trust. If Act IV requires something stronger, let Act IV produce that requirement explicitly.
+2. **Resolve or sharpen `first-gift-form`.** Keep land-restoration and relic-restitution live until a bounded comparison produces discriminating evidence.
+3. **Resolve or sharpen `ending-office-role`.** Preserve Crown Spotter versus dragon envoy until downstream consequences or backward requirements distinguish them.
+4. **Challenge existing mature threads instead of manufacturing novelty.** Especially test `mutual-indispensability` now that STORY SYNC classifies it as story truth, and verify that its concrete expression does not secretly require one gift or office branch.
+5. Watch whether major novelty continues slowing while constraints close and existing threads deepen. Branch expansion is still allowed if a genuinely new third path earns it.
 
-Current research question remains:
+Current research question:
 
-**Do four persistent temporal perspectives + REHEARSAL + STORY SYNC converge on one coherent Dragon Spotter trajectory without prematurely collapsing useful alternatives?**
+**Can the now candidate-passable four-act Dragon Spotter trajectory continue converging at the STORY SYNC level without prematurely collapsing its remaining gift, office, and relationship uncertainty?**
