@@ -41,6 +41,7 @@ DELTA_TYPES = {
     "constraint_response",
     "cross_direction_agreement",
     "shared_discovery",
+    "shared_discovery_evidence",
 }
 EMBODIED_DIMENSION_TOKENS = (
     "trust",
@@ -468,6 +469,17 @@ def integrate_deltas(runtime: dict[str, Any], deltas: list[dict[str, Any]]) -> d
         elif delta_type == "shared_discovery":
             story_sync.validate_discovery(payload)
             updated["shared_story_state"]["sync_state"]["discoveries"].append(payload)
+        elif delta_type == "shared_discovery_evidence":
+            discovery_id = payload.get("discovery_id")
+            evidence_item = payload.get("evidence")
+            if not _nonempty(discovery_id) or not isinstance(evidence_item, dict):
+                raise ValueError("shared_discovery_evidence requires discovery_id and evidence")
+            discoveries = updated["shared_story_state"]["sync_state"]["discoveries"]
+            match = next((item for item in discoveries if item.get("id") == discovery_id), None)
+            if match is None:
+                raise ValueError(f"unknown shared discovery: {discovery_id}")
+            match.setdefault("evidence", []).append(copy.deepcopy(evidence_item))
+            story_sync.validate_discovery(match)
     validate_runtime(updated)
     return updated
 
@@ -621,7 +633,14 @@ def validate_rehearsal_evidence(evidence: dict[str, Any]) -> None:
     if evidence.get("fidelity") not in FIDELITY_LEVELS:
         raise ValueError("invalid rehearsal evidence fidelity")
     _confidence(evidence.get("confidence", 0.5), field="rehearsal evidence confidence")
-    for field in ("local_discoveries", "forward_consequences", "backward_requirements", "branch_updates", "story_sync_discoveries"):
+    for field in (
+        "local_discoveries",
+        "forward_consequences",
+        "backward_requirements",
+        "branch_updates",
+        "story_sync_discoveries",
+        "story_sync_evidence_updates",
+    ):
         if not isinstance(evidence.get(field, []), list):
             raise ValueError(f"rehearsal evidence {field} must be a list")
 
@@ -648,6 +667,10 @@ def reduce_rehearsal_evidence(evidence: dict[str, Any]) -> list[dict[str, Any]]:
         deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:branch:{index}", "type": "local_possibility_update", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
     for index, item in enumerate(evidence.get("story_sync_discoveries", [])):
         deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:sync:{index}", "type": "shared_discovery", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
+    for index, item in enumerate(evidence.get("story_sync_evidence_updates", [])):
+        if not isinstance(item, dict) or not _nonempty(item.get("discovery_id")) or not isinstance(item.get("evidence"), dict):
+            raise ValueError("story_sync_evidence_update requires discovery_id and evidence")
+        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:sync-evidence:{index}", "type": "shared_discovery_evidence", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
     return deltas
 
 
