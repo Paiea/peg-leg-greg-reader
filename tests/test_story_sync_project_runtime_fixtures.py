@@ -27,6 +27,10 @@ def _trial_observation(project, label, result):
                 "viability": possibility.get("viability", "viable"),
             })
 
+    active_local = [
+        item for item in local_branches
+        if item["status"] == "active" and item["viability"] not in {"redundant", "invalidated"}
+    ]
     discovery_evidence = {}
     for discovery in evolved["shared_story_state"]["sync_state"].get("discoveries", []):
         discovery_evidence[discovery["id"]] = len(discovery.get("evidence", []))
@@ -40,8 +44,8 @@ def _trial_observation(project, label, result):
         "project": project,
         "label": label,
         "authority_effect": result["authority_effect"],
-        "active_local_branches": [item for item in local_branches if item["status"] == "active" and item["viability"] not in {"redundant", "invalidated"}],
-        "inactive_or_weakened_local_branches": [item for item in local_branches if item not in [branch for branch in local_branches if branch["status"] == "active" and branch["viability"] not in {"redundant", "invalidated"}]],
+        "active_local_branches": active_local,
+        "inactive_or_weakened_local_branches": [item for item in local_branches if item not in active_local],
         "shared_branches_preserved": sync.get("branches_preserved", []),
         "shared_branches_killed": sync.get("branches_killed", []),
         "unresolved_questions_by_act": unresolved_by_act,
@@ -61,6 +65,48 @@ def _trial_observation(project, label, result):
         "branch_entropy": result.get("branch_entropy", {}),
         "temporal_consistency": result.get("temporal_consistency", {}),
     }
+
+
+def _assert_cycle_expectations(testcase, result, expected):
+    testcase.assertEqual("derived_only_no_canon_mutation", result["authority_effect"])
+    testcase.assertLessEqual(
+        len(result["shared_story_sync"].get("story_truths", [])),
+        int(expected.get("max_story_truths", 0)),
+    )
+    if "max_open_branch_delta" in expected:
+        testcase.assertLessEqual(
+            result["branch_entropy"]["open_branch_delta"],
+            int(expected["max_open_branch_delta"]),
+        )
+    if "max_unresolved_messages" in expected:
+        testcase.assertLessEqual(
+            result["temporal_consistency"]["unresolved_message_count"],
+            int(expected["max_unresolved_messages"]),
+        )
+    if "max_open_pressure" in expected:
+        testcase.assertLessEqual(
+            result["temporal_consistency"]["open_pressure_count"],
+            int(expected["max_open_pressure"]),
+        )
+    if "min_supported_constraints" in expected:
+        statuses = Counter(
+            item.get("closure_status", "unknown")
+            for item in result.get("constraint_closure", {}).get("messages", [])
+        )
+        testcase.assertGreaterEqual(statuses["supported"], int(expected["min_supported_constraints"]))
+    for discovery_id, expected_level in expected.get("discovery_levels", {}).items():
+        testcase.assertEqual(
+            expected_level,
+            result["shared_story_sync"]["discovery_levels"].get(discovery_id),
+            discovery_id,
+        )
+    for discovery_id, minimum in expected.get("min_discovery_evidence_counts", {}).items():
+        discoveries = {
+            item["id"]: item
+            for item in result["evolved_runtime"]["shared_story_state"]["sync_state"].get("discoveries", [])
+        }
+        testcase.assertIn(discovery_id, discoveries)
+        testcase.assertGreaterEqual(len(discoveries[discovery_id].get("evidence", [])), int(minimum))
 
 
 class PersistentStoryProjectFixtureTests(unittest.TestCase):
@@ -102,6 +148,29 @@ class PersistentStoryProjectFixtureTests(unittest.TestCase):
                     sort_keys=True,
                 ))
 
+                if manifest.get("evidence_sequence"):
+                    evidence_paths = manifest["evidence_sequence"]
+                    self.assertIsInstance(evidence_paths, list)
+                    self.assertTrue(evidence_paths)
+                    self.assertTrue(all(isinstance(path, str) and path for path in evidence_paths))
+                    cycle_expectations = expected.get("cycles", {})
+                    working = runtime_state
+                    for index, evidence_path in enumerate(evidence_paths, start=1):
+                        evidence = json.loads((fixture_root / evidence_path).read_text(encoding="utf-8"))
+                        result = runtime.run_rehearsal_cycle(
+                            working,
+                            evidence=evidence,
+                            creator_taste=creator_taste,
+                        )
+                        label = f"cycle-{index:03d}"
+                        _assert_cycle_expectations(self, result, cycle_expectations.get(label, {}))
+                        print("PERSISTENT_STORY_TRIAL_OBSERVATION=" + json.dumps(
+                            _trial_observation(manifest["project"], label, result),
+                            sort_keys=True,
+                        ))
+                        working = result["evolved_runtime"]
+                    continue
+
                 if not manifest.get("evidence"):
                     continue
 
@@ -112,22 +181,7 @@ class PersistentStoryProjectFixtureTests(unittest.TestCase):
                     creator_taste=creator_taste,
                 )
                 evolved_expected = expected.get("after_evidence", {})
-                self.assertEqual("derived_only_no_canon_mutation", evolved["authority_effect"])
-                self.assertLessEqual(
-                    len(evolved["shared_story_sync"].get("story_truths", [])),
-                    int(evolved_expected.get("max_story_truths", 0)),
-                )
-                if "max_open_branch_delta" in evolved_expected:
-                    self.assertLessEqual(
-                        evolved["branch_entropy"]["open_branch_delta"],
-                        int(evolved_expected["max_open_branch_delta"]),
-                    )
-                for discovery_id, expected_level in evolved_expected.get("discovery_levels", {}).items():
-                    self.assertEqual(
-                        expected_level,
-                        evolved["shared_story_sync"]["discovery_levels"].get(discovery_id),
-                        discovery_id,
-                    )
+                _assert_cycle_expectations(self, evolved, evolved_expected)
                 print("PERSISTENT_STORY_TRIAL_OBSERVATION=" + json.dumps(
                     _trial_observation(manifest["project"], "after_evidence", evolved),
                     sort_keys=True,
