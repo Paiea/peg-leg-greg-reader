@@ -80,10 +80,10 @@
       "actor_prefers": true,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
-      "changed_surfaces": ["dialogue", "movement", "interaction_timing", "tone"],
-      "before": "<p>Alden saw my face.</p><p>“Stop.”</p><p>“I am not doing anything.”</p><p>“You are building a house in your head.”</p><p>“Small shed.”</p><p>“Burn it.”</p><p>He attacked again.</p>",
-      "after": "<p>Alden saw my face and hit my guard before I finished whatever theory had started forming.</p><p>“Stop building.”</p><p>“Small shed.”</p><p>He hit me again.</p><p>“Burn it.”</p>",
-      "reason": "Alden's training authority is more specific when he interrupts Greg physically instead of pausing the fight to describe the problem."
+      "changed_surfaces": ["movement", "interaction_timing", "tone"],
+      "before": "<p>Alden saw my face.</p>",
+      "after": "<p>Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>",
+      "reason": "Keep the over-hot physical interruption, but anchor it to the literal unique source paragraph rather than requiring a multi-paragraph dialogue block to match as one return."
     },
     {
       "id": "c056-arlo-busy-exchange-boundary-01",
