@@ -12,6 +12,20 @@ from scripts import performance_index
 from scripts import performance_production_funnel as funnel
 
 
+SPEAKER_OWNERSHIP_POLICY = {
+    "authority": "screenplay_ground_truth",
+    "instruction": "Run a speaker ownership audit when translating PERFORMANCE back into prose. The screenplay's explicit speaker labels are ground truth for who owns each spoken line.",
+    "screenplay_requirement": "The performed script must use explicit speaker labels for every spoken exchange. Do not collapse dialogue into action-only beat summaries; preserve the spoken exchange and its owner so the return-to-prose pass has a reliable speaker map.",
+    "rules": [
+        "Preserve clean two-person alternation when speaker ownership remains immediately legible.",
+        "Be bullish on light attribution when three or more speakers are active, after narration or action interrupts an exchange, after a speaker re-enters from silence, during interruptions, or when alternation breaks.",
+        "Never attach another character's action to dialogue spoken by someone else. Separate the action or add attribution so ownership is immediate.",
+        "Prefer a natural action beat only when that action belongs to the speaker. Otherwise said/asked is good and should be used freely when it is the clearest repair.",
+        "Do not tag every line. Add the minimum attribution needed for a fresh reader to assign every utterance without fragile inference.",
+    ],
+}
+
+
 def _validate_ids(chapter_ids: list[int]) -> list[int]:
     if not chapter_ids:
         raise ValueError("chapter_ids must contain at least one chapter")
@@ -82,7 +96,10 @@ def plan_selected_campaign(
         if campaign._task_cache_valid(scene, task):
             cache_hits += 1
         else:
-            packets.append(campaign._packet_for_scene(scene, task))
+            packet = campaign._packet_for_scene(scene, task)
+            if task == "reverse_edit":
+                packet["speaker_ownership_policy"] = SPEAKER_OWNERSHIP_POLICY
+            packets.append(packet)
 
     value = {
         "schema": "performance_campaign/v1",
