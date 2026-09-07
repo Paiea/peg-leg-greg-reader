@@ -7,7 +7,10 @@ import json
 from pathlib import Path
 from typing import Any
 
-from scripts import brain_compiler
+try:
+    from scripts import brain_compiler
+except ModuleNotFoundError:
+    import brain_compiler
 
 REPORT_SCHEMA = "plg_brain_doctor/v1"
 KNOWN_TASKS = [
