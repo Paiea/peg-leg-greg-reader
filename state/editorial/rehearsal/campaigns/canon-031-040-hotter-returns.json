@@ -80,7 +80,7 @@
       "actor_prefers": true,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
-      "changed_surfaces": ["movement", "silence", "interaction_timing", "relationship_behavior"],
+      "changed_surfaces": ["movement", "silence", "interaction_timing"],
       "before": "<p>Mara brought Jorren water without being asked.</p><p>He looked offended.</p><p>She said, “You work tomorrow.”</p><p>He drank it.</p>",
       "after": "<p>Mara brought Jorren water without being asked.</p><p>Jorren put two fingers around the cup but did not lift it.</p><p>She said, “You work tomorrow.”</p><p>He drank it.</p>",
       "reason": "Their familiarity is more legible through the cup itself: token resistance, her practical reason, then compliance. It reads like an existing routine rather than a narrated emotion."
