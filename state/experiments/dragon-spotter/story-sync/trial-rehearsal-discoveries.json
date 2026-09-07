@@ -1,0 +1,70 @@
+{
+  "schema": "dragon_spotter_rehearsal_trial/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "discoveries": [
+    {
+      "scene_id": "ds.act-i.first-negotiation",
+      "kind": "behavioral_discovery",
+      "finding": "The dragon treats giving treasure as part of completing a reciprocal bargain, not as a casual reward.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-first-negotiation-a", "take-first-negotiation-b"]
+    },
+    {
+      "scene_id": "ds.act-i.first-dragon",
+      "kind": "behavioral_discovery",
+      "finding": "The fraud becomes more effective when he stops performing obsolete expertise and negotiates from what the dragon is actually doing.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-first-dragon-a", "take-first-dragon-b"]
+    },
+    {
+      "scene_id": "ds.act-ii.scholar-pressure",
+      "kind": "behavioral_discovery",
+      "finding": "Under the scholar's scrutiny, his useful improvisation separates from his empty bluffing and starts looking like field competence.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-scholar-pressure-a", "take-scholar-pressure-b"]
+    },
+    {
+      "scene_id": "ds.act-i.scholar-briefing",
+      "kind": "relationship_behavior",
+      "finding": "The scholar has knowledge he lacks, while he has access and behavioral flexibility she lacks; neither can cleanly replace the other.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-briefing-a", "take-briefing-b"]
+    },
+    {
+      "scene_id": "ds.act-ii.second-negotiation",
+      "kind": "relationship_behavior",
+      "finding": "Their best joint work requires her doctrine and his live read of the dragon to correct each other in real time.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-second-negotiation-a", "take-second-negotiation-b"]
+    },
+    {
+      "scene_id": "ds.act-i.first-dragon-preference",
+      "kind": "relationship_behavior",
+      "finding": "The dragon may prefer the fraudulent Spotter because he is less attached to ritualized assumptions about what dragons are supposed to want.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-dragon-preference-a"]
+    },
+    {
+      "scene_id": "ds.act-ii.first-joint-fieldwork",
+      "kind": "relationship_behavior",
+      "finding": "Attraction intensifies when the scholar watches him stay present and useful under real danger rather than when they merely trade insults.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-joint-fieldwork-a", "take-joint-fieldwork-b"]
+    },
+    {
+      "scene_id": "ds.act-iii.later-negotiation",
+      "kind": "relationship_behavior",
+      "finding": "Later sexual tension remains strongest when professional trust and competence are under pressure at the same time.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["take-later-negotiation-a", "take-later-negotiation-b"]
+    }
+  ]
+}
