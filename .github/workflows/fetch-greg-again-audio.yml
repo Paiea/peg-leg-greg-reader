@@ -1,0 +1,55 @@
+name: Fetch Greg Again audio asset
+
+on:
+  push:
+    branches:
+      - fix/greg-again-audio-playback
+    paths:
+      - .github/workflows/fetch-greg-again-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: fix/greg-again-audio-playback
+      - name: Fetch generated full chapter
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p greg-again/audio/assets
+          curl --fail --location --show-error \
+            --dump-header /tmp/audio.headers \
+            'https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305' \
+            --output /tmp/chapter-001.bin
+          cat /tmp/audio.headers
+          file /tmp/chapter-001.bin
+          du -h /tmp/chapter-001.bin
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('/tmp/chapter-001.bin')
+          head = p.read_bytes()[:64]
+          print('HEAD_BYTES', repr(head))
+          if head.startswith(b'ID3') or head[:2] in {b'\xff\xfb', b'\xff\xf3', b'\xff\xf2'}:
+              target = Path('greg-again/audio/assets/chapter-001.mp3')
+              target.write_bytes(p.read_bytes())
+              print('AUDIO_OK', target, target.stat().st_size)
+          else:
+              text = p.read_text(errors='replace')
+              print('NOT_DIRECT_AUDIO')
+              print(text[:4000])
+              raise SystemExit(2)
+          PY
+      - name: Commit audio asset
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-001.mp3
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix: host full Greg Again Chapter 1 audio'
+          git push origin HEAD:fix/greg-again-audio-playback
