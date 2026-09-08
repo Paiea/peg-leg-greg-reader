@@ -19,6 +19,7 @@ CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
 REGISTRY_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_REGISTRY.json"
 CHARACTER_REFERENCES_PATH = ROOT / "state" / "visual" / "CHARACTER_VISUAL_REFERENCES.json"
 BOUNDED_APPROVALS_PATH = ROOT / "state" / "visual" / "BOUNDED_GENERATION_APPROVALS.json"
+VISUAL_SCENE_EVIDENCE_PATH = ROOT / "state" / "visual" / "VISUAL_SCENE_EVIDENCE.json"
 OUTPUT_PATH = ROOT / "state" / "visual" / "GENERATION_QUEUE.json"
 CHAPTER_DIR = ROOT / "chapters"
 ACTIVE_STATUSES = {"generated", "approved", "live"}
@@ -58,6 +59,23 @@ def load_bounded_generation_approvals(path: Path = BOUNDED_APPROVALS_PATH) -> tu
         seen.add(candidate_id)
         approved.append(dict(item))
     return batch_id.strip(), approved
+
+
+def load_visual_scene_evidence(path: Path = VISUAL_SCENE_EVIDENCE_PATH) -> dict[str, dict]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list) or not all(isinstance(record, dict) for record in data):
+        raise ValueError("visual scene evidence must be a JSON list of objects")
+    result: dict[str, dict] = {}
+    for record in data:
+        candidate_id = record.get("candidate_id")
+        if not isinstance(candidate_id, str) or not candidate_id.strip():
+            raise ValueError("visual scene evidence record requires candidate_id")
+        if candidate_id in result:
+            raise ValueError(f"duplicate visual scene evidence: {candidate_id}")
+        result[candidate_id] = dict(record)
+    return result
 
 
 def _next_version(candidate_id: str, registry: list[dict]) -> int:
@@ -126,6 +144,7 @@ def build_generation_queue(
     performance_references: dict[int, dict] | None = None,
     bounded_candidates: list[dict] | None = None,
     generation_batch_id: str = "",
+    visual_scene_evidence: dict[str, dict] | None = None,
 ) -> list[dict]:
     hold_active = edit_hold_active(production_hold)
     if hold_active:
@@ -139,6 +158,7 @@ def build_generation_queue(
 
     character_references = character_references or {}
     performance_references = performance_references or {}
+    visual_scene_evidence = visual_scene_evidence or {}
     active = {
         record.get("candidate_id")
         for record in registry
@@ -237,9 +257,18 @@ def build_generation_queue(
         if hold_active:
             record["generation_approval"] = "explicit_bounded"
             record["generation_batch_id"] = generation_batch_id.strip()
-        performance_reference = _performance_reference_for_candidate(candidate, performance_references)
-        if performance_reference:
-            record["performance_reference"] = performance_reference
+
+        scene_evidence = visual_scene_evidence.get(candidate_id)
+        if isinstance(scene_evidence, dict) and scene_evidence.get("chapter") == candidate.get("chapter"):
+            record["visual_scene_evidence"] = dict(scene_evidence)
+            embedded_performance = scene_evidence.get("performance_reference")
+            if isinstance(embedded_performance, dict):
+                record["performance_reference"] = dict(embedded_performance)
+
+        if "performance_reference" not in record:
+            performance_reference = _performance_reference_for_candidate(candidate, performance_references)
+            if performance_reference:
+                record["performance_reference"] = performance_reference
         queue.append(record)
     rank = {"high": 0, "medium": 1, "low": 2}
 
@@ -260,6 +289,7 @@ def main() -> None:
         raise ValueError("character visual references must be a JSON object")
     production_hold = load_hold()
     batch_id, bounded_candidates = load_bounded_generation_approvals()
+    scene_evidence = load_visual_scene_evidence()
     reference_candidates = bounded_candidates if edit_hold_active(production_hold) else candidates
     performance_references = load_visual_references(
         int(candidate["chapter"])
@@ -275,6 +305,7 @@ def main() -> None:
         performance_references=performance_references,
         bounded_candidates=bounded_candidates,
         generation_batch_id=batch_id,
+        visual_scene_evidence=scene_evidence,
     )
     text = json.dumps(queue, indent=2, ensure_ascii=False) + "\n"
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
