@@ -41,6 +41,13 @@ Design the eye path from Greg's body in the sand to Jorren's offered hand and ba
 ### MANUSCRIPT DETAILS
 Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Greg has just been dropped because his body lagged half a beat behind what his mind knew to do. Jorren offers the hand and waits.
 
+### TEMPORAL CHARACTER STATE
+- Greg: `greg-early-pre-amputation`
+  - appearance age: nineteen
+  - appearance facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+- Scene-local continuity overrides temporal body/mobility fields when they conflict; temporal appearance guidance still applies unless the scene says otherwise.
+- This state is derived editorial continuity guidance, not canon authority.
+
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
 - Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required in this scene because his intact but underconditioned legs, fatigue, and fall are story information. Use the current Jorren image as identity continuity only, not as a composition template. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.
