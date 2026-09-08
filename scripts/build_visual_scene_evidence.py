@@ -10,6 +10,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.character_visual_timeline import load_visual_timeline, resolve_scene_character_states
+from scripts.illustration_edit_hold import edit_hold_active, load_hold
 from scripts.illustration_state import load_registry, load_scene_candidates
 from scripts.performance_roundtrip_references import load_visual_references, normalize_text
 
@@ -31,6 +32,17 @@ def merge_candidates(primary: Iterable[dict], overlay: Iterable[dict]) -> list[d
             order.append(candidate_id)
         merged[candidate_id] = dict(record)
     return [merged[candidate_id] for candidate_id in order]
+
+
+def select_visual_scene_candidates(
+    primary: Iterable[dict],
+    bounded: Iterable[dict],
+    *,
+    hold_active: bool,
+) -> list[dict]:
+    if hold_active:
+        return merge_candidates([], bounded)
+    return merge_candidates(primary, bounded)
 
 
 def _performance_reference_for_candidate(candidate: dict, performance_references: dict[int, dict]) -> dict | None:
@@ -139,8 +151,10 @@ def _load_bounded_items(path: Path) -> list[dict]:
 
 
 def main() -> None:
-    candidates = load_scene_candidates(CANDIDATES_PATH)
-    candidates = merge_candidates(candidates, _load_bounded_items(BOUNDED_APPROVALS_PATH))
+    primary = load_scene_candidates(CANDIDATES_PATH)
+    bounded = _load_bounded_items(BOUNDED_APPROVALS_PATH)
+    hold = load_hold()
+    candidates = select_visual_scene_candidates(primary, bounded, hold_active=edit_hold_active(hold))
     registry = load_registry(REGISTRY_PATH) if REGISTRY_PATH.exists() else []
     temporal_states = load_visual_timeline(TIMELINE_PATH) if TIMELINE_PATH.exists() else []
     chapters = [candidate["chapter"] for candidate in candidates if isinstance(candidate.get("chapter"), int)]
