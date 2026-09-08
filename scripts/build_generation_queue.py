@@ -78,6 +78,18 @@ def load_visual_scene_evidence(path: Path = VISUAL_SCENE_EVIDENCE_PATH) -> dict[
     return result
 
 
+def _compact_visual_scene_evidence(scene_evidence: dict) -> dict:
+    compact = {
+        "candidate_id": scene_evidence.get("candidate_id", ""),
+        "chapter": scene_evidence.get("chapter"),
+        "evidence_condition": scene_evidence.get("evidence_condition", "prose_only"),
+        "character_states": dict(scene_evidence.get("character_states", {}))
+        if isinstance(scene_evidence.get("character_states"), dict)
+        else {},
+    }
+    return compact
+
+
 def _next_version(candidate_id: str, registry: list[dict]) -> int:
     versions = []
     for record in registry:
@@ -260,7 +272,7 @@ def build_generation_queue(
 
         scene_evidence = visual_scene_evidence.get(candidate_id)
         if isinstance(scene_evidence, dict) and scene_evidence.get("chapter") == candidate.get("chapter"):
-            record["visual_scene_evidence"] = dict(scene_evidence)
+            record["visual_scene_evidence"] = _compact_visual_scene_evidence(scene_evidence)
             embedded_performance = scene_evidence.get("performance_reference")
             if isinstance(embedded_performance, dict):
                 record["performance_reference"] = dict(embedded_performance)
