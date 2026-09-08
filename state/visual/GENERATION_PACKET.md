@@ -13,11 +13,17 @@
 - Mood: working, alert, dryly transactional
 - Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/007/Ch007_Storeroom-Crates.jpg"]
 - Selected character references: []
-- Character appearance notes: {}
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
 - Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Ch007 art for Antonius/environment continuity only. Do not copy the old composition.
 - Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep Greg above waist because lower-body state is not needed. Antonius is actively doing dirty storeroom labor with sleeves rolled and a broom; do not turn the scene into a static merchant portrait.
 - Prompt pack: state/visual/prompt-packs/de-ch007-antonius-reverses-frame.md
 - Target asset: visual/chapter_art/007/de-ch007-antonius-reverses-frame-v1.webp
+- Evidence condition: prose_temporal_performance
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
 - PERFORMANCE visual reference: fresh derived editorial evidence; use for blocking/action/props only, never as canon authority.
 - PERFORMANCE archive: state/editorial/performance-roundtrip/007
 - PERFORMANCE active task: Antonius is cleaning and sorting the storeroom while Greg evaluates a gray Tere reference set.
@@ -41,11 +47,17 @@
 - Mood: technical, guarded, collaborative
 - Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/013/v28_c13_s01_dont-touch-them.png", "visual/chapter_art/013/v28_c13_s02_the-ugly-fixture.png"]
 - Selected character references: []
-- Character appearance notes: {}
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
 - Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Ch013 art for Arlo/workshop/object continuity only. Do not copy the old compositions.
 - Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the composition above waist and hand-focused. Preserve Arlo as the owner of the notebook and process; Greg is receiving a bounded view, not taking the notebook.
 - Prompt pack: state/visual/prompt-packs/de-ch013-arlo-one-page.md
 - Target asset: visual/chapter_art/013/de-ch013-arlo-one-page-v1.webp
+- Evidence condition: prose_temporal_performance
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
 - PERFORMANCE visual reference: fresh derived editorial evidence; use for blocking/action/props only, never as canon authority.
 - PERFORMANCE archive: state/editorial/performance-roundtrip/013
 - PERFORMANCE active task: Arlo is testing regulators and showing only the process evidence needed to explain a two-day result.
@@ -70,11 +82,17 @@
 - Mood: focused, controlled, quietly comic
 - Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/018/v28_c18_s14_hessa-has-beans.png", "visual/chapter_art/018/v28_c18_s15_the-cup.png"]
 - Selected character references: []
-- Character appearance notes: {}
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
 - Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Ch018 art for Hessa/room/prop continuity only. Do not copy the old compositions.
 - Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Center the image on Hessa's active hand, the cloth, bowl, and Greg's forward interest. Hessa controls the exercise and ends access; do not make Greg the physical driver of the frame.
 - Prompt pack: state/visual/prompt-packs/de-ch018-hessa-covers-bowl.md
 - Target asset: visual/chapter_art/018/de-ch018-hessa-covers-bowl-v1.webp
+- Evidence condition: prose_temporal_performance
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
 - PERFORMANCE visual reference: fresh derived editorial evidence; use for blocking/action/props only, never as canon authority.
 - PERFORMANCE archive: state/editorial/performance-roundtrip/018
 - PERFORMANCE active task: Hessa runs a bounded Barrier bean exercise while Greg tries to turn a narrow result into a larger theory.
@@ -99,11 +117,17 @@
 - Mood: winded, humbling, physically alive
 - Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png"]
 - Selected character references: []
-- Character appearance notes: {}
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
 - Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Jorren art for Jorren identity only. Do not copy the old composition.
 - Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required because his intact but underconditioned legs, fatigue, and fall are story information. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.
 - Prompt pack: state/visual/prompt-packs/de-ch005-jorren-offers-hand.md
 - Target asset: visual/chapter_art/005/de-ch005-jorren-offers-hand-v1.webp
+- Evidence condition: prose_temporal
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
 
 ## Chapter 005 — THE WARRIOR
 - Candidate: de-ch005-player-reads-greg
@@ -118,8 +142,14 @@
 - Mood: tense, self-deceiving, quietly predatory
 - Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp"]
 - Selected character references: []
-- Character appearance notes: {}
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
 - Reference selection rationale: Explicit scene-era reference: Book I Warrior for early Greg identity. The opposing player is unnamed and must not receive invented canon identity.
 - Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the frame above waist because lower-body state is not the point. The image must communicate reciprocal scrutiny and Greg's blind spot, not generic gambling competence.
 - Prompt pack: state/visual/prompt-packs/de-ch005-player-reads-greg.md
 - Target asset: visual/chapter_art/005/de-ch005-player-reads-greg-v1.webp
+- Evidence condition: prose_temporal
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
