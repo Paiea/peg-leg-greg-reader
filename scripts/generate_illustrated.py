@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:
 
 from generate_light import Chapter, load_all_sources, selected_numbers
 from showcase import ShowcaseMap, build_identity_showcase_map, build_showcase_map, load_showcase_manifest
+from scripts.build_reader_presentation import build_reader_presentation
 from scripts.illustration_state import PRESENTATION_ROLES, load_registry
 
 CHAPTERS_DIR = Path("chapters")
@@ -85,14 +86,9 @@ def _asset_key(path: Path) -> str:
     return path.as_posix().lstrip("./")
 
 
-def load_reader_presentation(path: Path = PRESENTATION_PATH) -> dict[str, dict]:
-    if not path.exists():
-        return {}
-    data = json.loads(path.read_text(encoding="utf-8"))
-    if not isinstance(data, list) or not all(isinstance(record, dict) for record in data):
-        raise ValueError("reader presentation must be a JSON list of objects")
+def _presentation_map(records: list[dict]) -> dict[str, dict]:
     result: dict[str, dict] = {}
-    for record in data:
+    for record in records:
         asset = record.get("asset")
         if not isinstance(asset, str) or not asset.strip():
             raise ValueError("reader presentation record requires asset")
@@ -103,6 +99,21 @@ def load_reader_presentation(path: Path = PRESENTATION_PATH) -> dict[str, dict]:
             raise ValueError(f"duplicate reader presentation asset: {asset}")
         result[asset] = dict(record)
     return result
+
+
+def load_reader_presentation(
+    path: Path = PRESENTATION_PATH,
+    *,
+    registry: list[dict] | None = None,
+) -> dict[str, dict]:
+    if registry is not None:
+        return _presentation_map(build_reader_presentation(registry))
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list) or not all(isinstance(record, dict) for record in data):
+        raise ValueError("reader presentation must be a JSON list of objects")
+    return _presentation_map(data)
 
 
 def prose_with_art(
@@ -261,7 +272,7 @@ def main() -> int:
         print(f"no visible Illustrated Reader chapters for {args.range}")
         return 0
     registry = load_registry(REGISTRY_PATH, root=Path(".")) if REGISTRY_PATH.exists() else []
-    presentation = load_reader_presentation()
+    presentation = load_reader_presentation(registry=registry)
     CHAPTERS_DIR.mkdir(parents=True, exist_ok=True)
     for number in wanted:
         chapter = all_chapters[number]
