@@ -33,13 +33,20 @@ Choose a composition that avoids default centered eye-level two-person staging. 
 Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: Antonius storeroom. Mood: working, alert, dryly transactional. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: Antonius storeroom. Mood: working, alert, dryly transactional. Use posture, clothing, sightlines, clutter, shelves, broom, and sorting work to create directional energy.
 
 ### EYE PATH
-Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
+The eye should read Antonius's reversal first: discard direction interrupted, body turned back, hand returning to the gray frame. Greg is the trigger, but Antonius owns the physical beat.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: Catch the reversal in motion: Antonius in rolled sleeves and dirty work clothes has turned back from the discard direction and is taking or lifting the small gray Tere frame himself while Greg watches beside the open wooden box. Keep a broom, cluttered shelves, and visible keep/discard work in the composition so the object's sudden reclassification reads physically.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. The gray frame changes category because Antonius physically stops and comes back for it after Greg blurts out its possible value.
+
+### TEMPORAL CHARACTER STATE
+- Greg: `greg-early-pre-amputation`
+  - appearance age: nineteen
+  - appearance facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+- Scene-local continuity overrides temporal body/mobility fields when they conflict; temporal appearance guidance still applies unless the scene says otherwise.
+- This state is derived editorial continuity guidance, not canon authority.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
