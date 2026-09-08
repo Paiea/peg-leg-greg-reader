@@ -24,22 +24,29 @@ A close table-level action frame as Hessa reaches across and pulls or settles th
 - Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.
 
 ### SUBJECT + ACTION
-Characters: Greg, Hessa. Show them doing the physical action implied by the scene rather than posing for a portrait.
+Characters: Greg, Hessa. Show Hessa physically ending access to the exercise while Greg is still leaning toward another attempt. Do not turn the scene into a generic teacher-and-student pose.
 
 ### CAMERA
-Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
+Stay close enough that Hessa's hand, the cloth, and bowl are unmistakable. A table-level three-quarter angle should preserve both her control of the action and Greg's forward interest.
 
 ### FOREGROUND
-Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
+Use the bowl, cloth, loose/transferred beans, second bowl, table edge, and hands as the scene geometry. Avoid decorative magical effects that replace the mundane physical boundary.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: Hessa's rooms at the teaching table. Mood: focused, controlled, quietly comic. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: Hessa's rooms at the teaching table. Mood: focused, controlled, quietly comic. Let the ordinary room and accumulated bean exercise feel lived-in rather than ceremonial.
 
 ### EYE PATH
-Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
+The eye should follow Hessa's reach to the cloth settling over the bowl, then land on Greg's still-ready posture. The visual joke and authority both come from how little motion Hessa needs to end the experiment.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A close table-level action frame as Hessa reaches across and pulls or settles the cloth over the bowl of white beans. Greg is leaning toward the work, ready to continue, while Hessa's simple hand movement ends the experiment. Scattered or transferred beans and the second bowl can make the nineteen-cast process feel lived rather than symbolic.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Hessa has counted nineteen casts and physically closes the exercise by covering the bowl.
+
+### TEMPORAL CHARACTER STATE
+- Greg: `greg-early-pre-amputation`
+  - appearance age: nineteen
+  - appearance facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+- Scene-local continuity overrides temporal body/mobility fields when they conflict; temporal appearance guidance still applies unless the scene says otherwise.
+- This state is derived editorial continuity guidance, not canon authority.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
