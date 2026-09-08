@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_id": "definitive-pilot-001",
+  "purpose": "Cheap deterministic handoff for the already-approved five-image Definitive Edition pilot integration batch.",
+  "mapping_authority": "state/visual/GENERATION_QUEUE.json",
+  "approval_authority": "state/visual/BOUNDED_GENERATION_APPROVALS.json",
+  "integration_authorization": "Creator explicitly authorized integration of supplied existing assets for this bounded batch on 2026-09-08. This does not lift state/visual/PRODUCTION_HOLD.json for unrelated generation or promotion.",
+  "routing_rule": "Resolve these five records first. Do not rescan the manuscript, rediscover scenes, regenerate art, or inspect unrelated chapters. If an anchor fails, search only the target chapter with nearby terms.",
+  "items": [
+    {
+      "candidate_id": "de-ch005-player-reads-greg",
+      "chapter": 5,
+      "paragraph_anchor": "He knew I was studying him. I did not realize he was studying me.",
+      "target_asset": "visual/chapter_art/005/de-ch005-player-reads-greg-v1.webp",
+      "source_asset": "Candlelit Renaissance Gambling Game.png",
+      "source_status": "resolved_supplied_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "asset_transfer_pending"
+    },
+    {
+      "candidate_id": "de-ch005-jorren-offers-hand",
+      "chapter": 5,
+      "paragraph_anchor": "Jorren offered a hand.",
+      "target_asset": "visual/chapter_art/005/de-ch005-jorren-offers-hand-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset"
+    },
+    {
+      "candidate_id": "de-ch007-antonius-reverses-frame",
+      "chapter": 7,
+      "paragraph_anchor": "Antonius stopped. Fuck. He came back and picked up the gray frame himself.",
+      "target_asset": "visual/chapter_art/007/de-ch007-antonius-reverses-frame-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset"
+    },
+    {
+      "candidate_id": "de-ch013-arlo-one-page",
+      "chapter": 13,
+      "paragraph_anchor": "He opened the notebook to a page of readings and turned that page toward me without surrendering the rest of the notes.",
+      "target_asset": "visual/chapter_art/013/de-ch013-arlo-one-page-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset"
+    },
+    {
+      "candidate_id": "de-ch018-hessa-covers-bowl",
+      "chapter": 18,
+      "paragraph_anchor": "Hessa reached across the table and covered the bowl with the cloth.",
+      "target_asset": "visual/chapter_art/018/de-ch018-hessa-covers-bowl-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset"
+    }
+  ]
+}
