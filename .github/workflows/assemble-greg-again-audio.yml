@@ -1,0 +1,90 @@
+name: Assemble Greg Again Chapter 1 audio
+
+on:
+  push:
+    branches:
+      - fix/greg-again-audio-playback
+    paths:
+      - .github/workflows/assemble-greg-again-audio.yml
+      - greg-again/audio/assets/chunks/*.mp3
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: fix/greg-again-audio-playback
+          fetch-depth: 1
+
+      - name: Require all eleven durable chunks
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in $(seq -w 1 11); do
+            f="greg-again/audio/assets/chunks/${n}.mp3"
+            test -s "$f" || { echo "Missing $f"; exit 1; }
+          done
+          count=$(find greg-again/audio/assets/chunks -maxdepth 1 -type f -name '*.mp3' | wc -l)
+          test "$count" -ge 11 || { echo "Expected at least 11 chunks, found $count"; exit 1; }
+
+      - name: Assemble one browser-native MP3
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/concat.txt
+          for n in $(seq -w 1 11); do
+            printf "file '%s/%s.mp3'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks" "$n" >> /tmp/concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/concat.txt -c copy greg-again/audio/assets/chapter-001.mp3
+          bytes=$(stat -c%s greg-again/audio/assets/chapter-001.mp3)
+          duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 greg-again/audio/assets/chapter-001.mp3)
+          echo "bytes=$bytes"
+          echo "duration=$duration"
+          python - "$bytes" "$duration" <<'PY'
+          import sys
+          size = int(sys.argv[1])
+          duration = float(sys.argv[2])
+          assert size > 10_000_000, f"assembled file unexpectedly small: {size}"
+          assert 900 < duration < 1100, f"assembled duration out of expected Chapter 1 range: {duration}"
+          PY
+          printf '%s\n' "$duration" > /tmp/chapter-duration.txt
+
+      - name: Point manifest at self-hosted full chapter
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('greg-again/audio/manifest.json')
+          manifest = json.loads(path.read_text())
+          duration = round(float(Path('/tmp/chapter-duration.txt').read_text().strip()), 3)
+          manifest.update({
+              'sample_status': 'full_chapter_self_hosted',
+              'scope': 'full_chapter',
+              'embedded_scope': 'full_chapter',
+              'duration_seconds': duration,
+              'audio_src': 'assets/chapter-001.mp3',
+              'full_audio_url': None,
+          })
+          path.write_text(json.dumps(manifest, indent=2) + '\n')
+          PY
+
+      - name: Commit assembled chapter and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-001.mp3 greg-again/audio/manifest.json
+          if git diff --cached --quiet; then
+            echo 'No assembly changes to commit.'
+            exit 0
+          fi
+          git commit -m 'fix: self-host complete Greg Again Chapter 1 audio'
+          git push origin HEAD:fix/greg-again-audio-playback
