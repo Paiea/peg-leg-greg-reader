@@ -1,0 +1,25 @@
+{
+  "schema": "greg_again_audio_manifest/v1",
+  "run_id": "greg-again",
+  "chapter_id": "ga-001",
+  "title": "The Boy",
+  "score_revision": 1,
+  "block_order": [
+    "ga-001-b001",
+    "ga-001-b002",
+    "ga-001-b003",
+    "ga-001-b004",
+    "ga-001-b005",
+    "ga-001-b006",
+    "ga-001-b007",
+    "ga-001-b008",
+    "ga-001-b009",
+    "ga-001-b010"
+  ],
+  "renderer_status": "unrendered",
+  "approval_state": "experimental",
+  "takes": {},
+  "selected_takes": {},
+  "assembled_asset": null,
+  "duration_seconds": null
+}
