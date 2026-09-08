@@ -4,6 +4,10 @@ Status: **ACTIVE CALIBRATION / NON-CANON**
 
 Control: `state/experiments/plg-r2/prose/002-two-things.md`
 
+Greg-dominant audio candidate: `state/experiments/greg-again/audio/chapters/002/subjective-cut-002.md`
+
+Greg-dominant page render: `state/experiments/greg-again/prose/002-two-things.md`
+
 Extreme stress test: `state/experiments/greg-again/audio/chapters/002/subjective-cut-001.md`
 
 Harness: `state/experiments/greg-again/LENS_HARNESS.md`
@@ -76,74 +80,113 @@ Greg initially treats Jorren's grin as a challenge to ego rather than useful inf
 
 If Greg leaves, Jorren keeps training, sparring, getting better, and finding people willing to hit or be hit.
 
-## Lens candidates
+## Actual three-way comparison
 
 ### LIGHT
 
-Existing R2 control is the current LIGHT-ish baseline. Direct exchanges establish Sella, the instructor, and Jorren quickly and give them obvious verbal identity.
+The original R2 chapter remains the clearest and fastest way to establish outside verbal identity. Sella, the instructor, and Jorren arrive immediately as speakers rather than as people Greg is processing.
 
-Primary strength: outside characters arrive with almost no mediation cost.
+What it gains:
 
-Primary risk: the chapter can fall into familiar dialogue ping-pong and Greg becomes less continuous as the book's linguistic surface.
+- effortless dialogue clarity
+- strong immediate verbal identity
+- low risk of Greg flattening everyone
+- natural negotiation and banter
 
-### GREG-DOMINANT
+What it loses:
 
-Candidate target for the next pass.
-
-Keep the Extreme cut's continuous Greg experience, but restore only voice breaches that beat Greg's mediation.
-
-Likely voice-breach candidates:
-
-- the instructor's `fight or assemble furniture` line, because the wording itself is the joke and characterizes her economy
-- a compact Jorren line near the `same line` deception if hearing his verbal playfulness is more alive than Greg paraphrasing it
-- possibly one Sella line if it gives Present Sella a sharper verbal edge than behavioral rendering alone
-
-Do not restore all three by default. Test whether each line materially improves the scene.
+- Greg's consciousness repeatedly hands the linguistic floor away
+- routine question/answer exchanges can feel more conventional
+- the chapter reads more like a normal strong first-person progression-fantasy scene than a distinctly Greg-shaped experience
 
 ### EXTREME
 
-`subjective-cut-001.md` is the current extreme stress test.
+The zero-secondary-dialogue stress test proves the form can survive much farther than expected.
 
-Primary strength: Greg's consciousness becomes unusually continuous and the whole chapter feels metabolized through one mind.
+What it gains:
 
-Primary risk: some excellent outside-language moments lose character-specific bite when reported rather than heard.
+- strongest continuous Greg consciousness
+- clearest demonstration that outside agency does not require quoted speech
+- events feel metabolized through one specific mind
+- dialogue scarcity becomes a real formal possibility rather than a gimmick on paper
 
-## QC findings to watch
+What it loses:
 
-### Flattening risk
+- the Silver instructor's best joke loses bite when reported
+- Jorren's playful rule-breaking becomes less immediate when Greg narrates it after the fact
+- some desk and training exchanges edge toward information relay
+- outside verbal identity is weaker even when outside behavioral identity survives
 
-Low-to-moderate in the current Extreme cut because Sella, the instructor, and Jorren all continue to act independently.
+EXTREME remains valuable as a stress test. It is not the current preferred treatment for this scene.
 
-Highest-risk zones:
+### GREG-DOMINANT
 
-- administrative information at Sella's desk
-- instructor corrections
-- the Jorren name/introduction exchange
+`subjective-cut-002.md` keeps the Extreme cut's continuity but restores a small number of earned voice breaches.
 
-These can become factual relay if Greg's interpretation stops adding lived behavior.
+Current breaches:
 
-### Greg tic saturation
+- Sella: `You have the face.`
+- Silver instructor: `You trying to fight or assemble furniture?`
+- Silver instructor: `You want specific, pay me.`
+- Jorren: `You said same line.`
+- Jorren: `We're practicing fighting.`
+- Jorren: `Dead.`
+- Sella: `Then pay.`
 
-Watch the training sequence for repeated `Again`, `Right`, fragments, and dry reaction beats. Much of this is structurally earned by repetition, but the cut should not turn practice into a metronome of Greg mannerisms.
+These lines survive for different reasons. The instructor's lines carry verbal economy and joke timing. Jorren's lines make his playful combat logic audible. Sella's shortest lines sharpen her competence and impatience without returning the whole desk scene to dialogue ping-pong.
 
-### Voice-breach hypothesis
+What it gains:
 
-The furniture line is the strongest current example of a line that the Extreme experiment likely made worse by paraphrasing.
+- Greg remains the dominant continuity channel
+- other voices feel more noticeable because they are selective
+- the strongest outside-character language survives
+- Sella, Jorren, and the instructor remain behaviorally independent
+- the chapter has a more distinctive identity than LIGHT without the flattening pressure of EXTREME
 
-That is useful failure evidence, not a reason to reject the lens.
+What it still risks:
 
-## Current comparison question
+- some unquoted question/answer sequences retain an audio-script feeling if copied directly to the page
+- Greg's fragment cadence can become too regular during drills
+- selective direct speech can become self-conscious if every breach is treated as a grand event
 
-> **Does a Greg-dominant pass that restores only earned voice breaches outperform both the normal R2 control and the zero-secondary-dialogue extreme?**
+The page-native round trip reduces the first two risks by recombining breath fragments into readable paragraphs while preserving Greg's associative continuity.
 
-Judge on:
+## Provisional winner
 
-1. interestingness
-2. desire to continue
-3. Greg strength
-4. Sella / instructor / Jorren independent life
-5. first-pass clarity
-6. whether direct speech feels more valuable because it is selective
-7. whether the page-native prose still reads like a novel
+**GREG-DOMINANT wins Chapter 2 provisionally.**
 
-No style promotion until the same lens logic survives materially different scene types.
+Reason:
+
+It preserves the most interesting discovery from EXTREME, continuous Greg-shaped experience, while giving back the few outside lines whose exact wording carries more character than Greg's paraphrase.
+
+This is not a book-level style decision.
+
+The more important surviving rule is:
+
+> **Mediation is useful until it destroys information that exists only in another person's exact language.**
+
+## QC result
+
+**Interestingness:** GREG-DOMINANT > EXTREME > LIGHT for this calibration pass.
+
+**Outside-character verbal identity:** LIGHT > GREG-DOMINANT > EXTREME.
+
+**Greg continuity:** EXTREME > GREG-DOMINANT > LIGHT.
+
+**Best balance:** GREG-DOMINANT.
+
+**Flattening:** acceptable in GREG-DOMINANT because all three consequential outside actors retain independent wants, actions, and scene-changing consequences.
+
+**Greg tic saturation:** improved in the page-native render, but training repetition remains the highest-risk zone and should stay under observation.
+
+**Voice breach value:** positive. The restored lines feel selected rather than routine, especially the instructor's furniture joke and Sella's `Then pay.`
+
+## Surviving learning
+
+Chapter 2 supports one provisional prior:
+
+> **Training / bureaucracy scenes can tolerate strong Greg mediation, but concise outside language that performs character, leverage, or rule-breaking should survive.**
+
+Do not promote this beyond a prior until a materially different scene type survives the same comparison.
+
+Next calibration target: Chapter 3, because commerce, technical uncertainty, borrowing, and negotiation put more causal weight directly inside other people's wording.
