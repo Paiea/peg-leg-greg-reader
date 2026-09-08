@@ -1,5 +1,6 @@
+import tempfile
+import unittest
 from pathlib import Path
-import pytest
 
 from scripts.greg_again_audio import (
     build_public_metadata,
@@ -50,45 +51,48 @@ def minimal_manifest():
     }
 
 
-def test_score_rejects_duplicate_or_unstable_block_ids():
-    score = minimal_score()
-    score["blocks"].append(dict(score["blocks"][0]))
-    with pytest.raises(ValueError, match="duplicate block id"):
-        validate_score(score)
+class GregAgainAudioContractTests(unittest.TestCase):
+    def test_score_rejects_duplicate_or_unstable_block_ids(self):
+        score = minimal_score()
+        score["blocks"].append(dict(score["blocks"][0]))
+        with self.assertRaisesRegex(ValueError, "duplicate block id"):
+            validate_score(score)
 
+    def test_manifest_rejects_unknown_quality_state(self):
+        score = minimal_score()
+        manifest = minimal_manifest()
+        manifest["renderer_status"] = "good_enough_tts"
+        with self.assertRaisesRegex(ValueError, "renderer_status"):
+            validate_manifest(manifest, score)
 
-def test_manifest_rejects_unknown_quality_state():
-    score = minimal_score()
-    manifest = minimal_manifest()
-    manifest["renderer_status"] = "good_enough_tts"
-    with pytest.raises(ValueError, match="renderer_status"):
+    def test_assembly_inputs_require_one_selected_take_per_block(self):
+        score = minimal_score()
+        manifest = minimal_manifest()
         validate_manifest(manifest, score)
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError, "missing selected take"):
+                selected_take_paths(manifest, Path(tmp))
+
+    def test_selected_take_must_be_qualified(self):
+        score = minimal_score()
+        manifest = minimal_manifest()
+        manifest["takes"] = {"ga-001-b001": {"t1": {"relative_path": "takes/t1.wav", "renderer_status": "experimental"}}}
+        manifest["selected_takes"] = {"ga-001-b001": "t1"}
+        validate_manifest(manifest, score)
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError, "qualified"):
+                selected_take_paths(manifest, Path(tmp))
+
+    def test_public_metadata_hides_production_notes_and_maps_audio_src(self):
+        score = minimal_score()
+        manifest = minimal_manifest()
+        manifest["production_notes"] = "private renderer diagnosis"
+        manifest["assembled_asset"] = "assets/chapter-001.wav"
+        public = build_public_metadata(validate_manifest(manifest, score))
+        self.assertNotIn("production_notes", public)
+        self.assertEqual("experimental", public["status"])
+        self.assertEqual("assets/chapter-001.wav", public["audio_src"])
 
 
-def test_assembly_inputs_require_one_selected_take_per_block(tmp_path: Path):
-    score = minimal_score()
-    manifest = minimal_manifest()
-    validate_manifest(manifest, score)
-    with pytest.raises(ValueError, match="missing selected take"):
-        selected_take_paths(manifest, tmp_path)
-
-
-def test_selected_take_must_be_qualified(tmp_path: Path):
-    score = minimal_score()
-    manifest = minimal_manifest()
-    manifest["takes"] = {"ga-001-b001": {"t1": {"relative_path": "takes/t1.wav", "renderer_status": "experimental"}}}
-    manifest["selected_takes"] = {"ga-001-b001": "t1"}
-    validate_manifest(manifest, score)
-    with pytest.raises(ValueError, match="qualified"):
-        selected_take_paths(manifest, tmp_path)
-
-
-def test_public_metadata_hides_production_notes_and_maps_audio_src():
-    score = minimal_score()
-    manifest = minimal_manifest()
-    manifest["production_notes"] = "private renderer diagnosis"
-    manifest["assembled_asset"] = "assets/chapter-001.wav"
-    public = build_public_metadata(validate_manifest(manifest, score))
-    assert "production_notes" not in public
-    assert public["status"] == "experimental"
-    assert public["audio_src"] == "assets/chapter-001.wav"
+if __name__ == "__main__":
+    unittest.main()
