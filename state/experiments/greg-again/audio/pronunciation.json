@@ -1,0 +1,15 @@
+{
+  "schema": "greg_again_pronunciation/v1",
+  "entries": [
+    {
+      "term": "Carrow",
+      "status": "confirm_before_render",
+      "note": "Do not guess a pronunciation silently."
+    },
+    {
+      "term": "East Verrel",
+      "status": "confirm_before_render",
+      "note": "Do not guess a pronunciation silently."
+    }
+  ]
+}
