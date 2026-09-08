@@ -50,6 +50,9 @@ def main() -> int:
                     "mobility_state": {"default": "unassisted"},
                 }
             },
+            "existing_art": [
+                {"asset": "visual/chapter_art/005/old.webp", "status": "live"}
+            ],
         }
     }
 
@@ -66,6 +69,7 @@ def main() -> int:
     assert held[0]["generation_batch_id"] == "definitive-pilot-001", held[0]
     assert held[0]["visual_scene_evidence"]["evidence_condition"] == "prose_temporal", held[0]
     assert held[0]["visual_scene_evidence"]["character_states"]["Greg"]["appearance"]["facial_hair"] == "light beard/stubble/fuzz", held[0]
+    assert "existing_art" not in held[0]["visual_scene_evidence"], held[0]
 
     blocked = build_generation_queue(
         [global_candidate],
