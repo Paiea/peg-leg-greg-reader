@@ -2,6 +2,8 @@
 
 Use **one primary narrator** for the whole proving run. The narrator carries the world and also performs Greg and other characters without turning the project into a full-cast drama.
 
+The primary narrator should read as **male / masculine**. Greg must clearly sound like a man. His current body is nineteen, but his interior life carries decades of experience; do not solve that contradiction by giving him a caricatured old-man voice. Let age show through timing, judgment, weariness, confidence, and the kinds of things he notices rather than forced vocal aging.
+
 Greg is the dominant point of view, but the narrator is not literally Greg's acoustic identity at every moment. Keep a stable base voice. Character distinction should come mostly from behavior, rhythm, confidence, timing, and small shifts in delivery rather than cartoon accents.
 
 ## Greg
@@ -12,9 +14,29 @@ Greg is the dominant point of view, but the narrator is not literally Greg's aco
 - His intelligence should sound active, not smug by default.
 - Do not make every internal observation sound like a punchline.
 
+### Thought-thread continuity
+
+Greg's consciousness is the primary continuity track for the audio experience.
+
+Do not force his interior narration into tidy self-contained paragraphs or clean explanatory sections. Let one observation trigger another thought, memory, judgment, bodily sensation, money concern, tactical model, embarrassment, joke, or old-life association when the connection feels natural to Greg.
+
+Preferred movement:
+
+**OUTSIDE EVENT → GREG EXPERIENCES IT → THOUGHT BENDS AROUND IT → ANOTHER ASSOCIATION FIRES → WORLD INTERRUPTS OR CHANGES → THOUGHT UPDATES**
+
+The world must keep moving while Greg thinks. His associative thread can wander, but it should remain attached to what he is experiencing now or to a live consequence of what just happened.
+
+Random-feeling thought motion is welcome when it reveals Greg's actual mind. Avoid random exposition inserted only because the listener needs lore.
+
+Do not constantly summarize what another character said. Often let the listener hear the one line whose exact wording matters, then let Greg's reaction, interpretation, misinterpretation, or associative thought carry the transition.
+
+Other characters still own their actions. Greg owns perception, not the causal universe.
+
 ## Other voices
 
 The neighbor's shouted line should be distinct enough to register as another person, but not a cartoon voice. Future recurring characters should gain stable behavioral tendencies before they gain large vocal changes.
+
+Other characters' direct speech is intentionally more expensive than in conventional prose. Preserve it when the exact wording, humor, relationship turn, personality, misunderstanding, interruption, or sound of the line matters. Compress routine conversational ping-pong through Greg when that creates a stronger listening experience.
 
 ## Performance rules
 
