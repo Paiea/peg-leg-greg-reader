@@ -18,7 +18,10 @@
     "camera_angle": "three_quarter_action",
     "pose_family": "reverse_reach_object_reclassification",
     "character_reference_assets": ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/007/Ch007_Storeroom-Crates.jpg"],
+    "selected_character_references": [],
+    "character_reference_scores": {},
     "reference_selection_notes": "Explicit scene-era references: Book I Warrior for early Greg identity; current Ch007 art for Antonius/environment continuity only. Do not copy the old composition.",
+    "character_appearance_notes": {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."},
     "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep Greg above waist because lower-body state is not needed. Antonius is actively doing dirty storeroom labor with sleeves rolled and a broom; do not turn the scene into a static merchant portrait.",
     "prompt_pack": "state/visual/prompt-packs/de-ch007-antonius-reverses-frame.md",
     "paragraph_anchor": "Antonius stopped. Fuck. He came back and picked up the gray frame himself.",
@@ -28,17 +31,37 @@
     "status": "generation_ready",
     "generation_approval": "explicit_bounded",
     "generation_batch_id": "definitive-pilot-001",
+    "visual_scene_evidence": {
+      "candidate_id": "de-ch007-antonius-reverses-frame",
+      "chapter": 7,
+      "evidence_condition": "prose_temporal_performance",
+      "character_states": {
+        "Greg": {
+          "character": "Greg",
+          "state_id": "greg-early-pre-amputation",
+          "chapter_start": 1,
+          "chapter_end": 18,
+          "authority": "derived_editorial_reference",
+          "canon_authority": false,
+          "evidence": ["Current canon chapters 001-018 and the approved Definitive Edition early-scene pilot establish Greg before the later amputation/mobility era.", "Creator visual direction on 2026-09-07: early Greg should carry some beard/fuzz rather than read clean-shaven."],
+          "appearance": {"age": "nineteen", "facial_hair": "light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard"},
+          "body_state": {"left_leg": "intact", "right_leg": "intact"},
+          "mobility_state": {"default": "unassisted"},
+          "must_not_show": ["crutches", "prosthesis", "post-amputation left-leg state"]
+        }
+      }
+    },
     "performance_reference": {
       "archive_path": "state/editorial/performance-roundtrip/007",
+      "chapter": 7,
+      "displayed_showcase_chapter": 5,
+      "scene_anchors": ["Antonius stopped. Fuck. He came back and picked up the gray frame himself.", "Antonius set the frame on the keep shelf, wrote my name on a scrap, and tucked it beneath the box.", "Antonius picked up the broom.", "The negotiation was over. He was sweeping again. Offensive."],
       "visual_reference": {
+        "characters": ["Greg", "Antonius"],
+        "location": "Antonius storeroom",
         "active_task": "Antonius is cleaning and sorting the storeroom while Greg evaluates a gray Tere reference set.",
         "props": ["gray Tere reference set", "wooden box", "keep shelf", "name scrap", "broom"],
-        "physical_beats": [
-          "Antonius initially treats the box as cleanup debris and keeps moving toward discard.",
-          "Greg's value claim makes Antonius stop, return, and pick up the frame himself.",
-          "Antonius places the frame on the keep shelf and writes Greg's name beneath it.",
-          "Antonius ends the negotiation physically by returning to the broom."
-        ]
+        "physical_beats": ["Antonius initially treats the box as cleanup debris and keeps moving toward discard.", "Greg's value claim makes Antonius stop, return, and pick up the frame himself.", "Antonius places the frame on the keep shelf and writes Greg's name beneath it.", "Antonius ends the negotiation physically by returning to the broom."]
       }
     }
   },
@@ -61,7 +84,10 @@
     "camera_angle": "workbench_over_shoulder",
     "pose_family": "controlled_document_share",
     "character_reference_assets": ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/013/v28_c13_s01_dont-touch-them.png", "visual/chapter_art/013/v28_c13_s02_the-ugly-fixture.png"],
+    "selected_character_references": [],
+    "character_reference_scores": {},
     "reference_selection_notes": "Explicit scene-era references: Book I Warrior for early Greg identity; current Ch013 art for Arlo/workshop/object continuity only. Do not copy the old compositions.",
+    "character_appearance_notes": {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."},
     "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the composition above waist and hand-focused. Preserve Arlo as the owner of the notebook and process; Greg is receiving a bounded view, not taking the notebook.",
     "prompt_pack": "state/visual/prompt-packs/de-ch013-arlo-one-page.md",
     "paragraph_anchor": "He opened the notebook to a page of readings and turned that page toward me without surrendering the rest of the notes.",
@@ -71,18 +97,37 @@
     "status": "generation_ready",
     "generation_approval": "explicit_bounded",
     "generation_batch_id": "definitive-pilot-001",
+    "visual_scene_evidence": {
+      "candidate_id": "de-ch013-arlo-one-page",
+      "chapter": 13,
+      "evidence_condition": "prose_temporal_performance",
+      "character_states": {
+        "Greg": {
+          "character": "Greg",
+          "state_id": "greg-early-pre-amputation",
+          "chapter_start": 1,
+          "chapter_end": 18,
+          "authority": "derived_editorial_reference",
+          "canon_authority": false,
+          "evidence": ["Current canon chapters 001-018 and the approved Definitive Edition early-scene pilot establish Greg before the later amputation/mobility era.", "Creator visual direction on 2026-09-07: early Greg should carry some beard/fuzz rather than read clean-shaven."],
+          "appearance": {"age": "nineteen", "facial_hair": "light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard"},
+          "body_state": {"left_leg": "intact", "right_leg": "intact"},
+          "mobility_state": {"default": "unassisted"},
+          "must_not_show": ["crutches", "prosthesis", "post-amputation left-leg state"]
+        }
+      }
+    },
     "performance_reference": {
       "archive_path": "state/editorial/performance-roundtrip/013",
+      "chapter": 13,
+      "displayed_showcase_chapter": 9,
+      "scene_anchors": ["Arlo lifted the testing frame off the bench and put it on the shelf. I experienced actual pain.", "Arlo slid the notebook closer to himself.", "Arlo took a cracked regulator from beneath the bench. The copper winding had darkened.", "He opened the notebook to a page of readings and turned that page toward me without surrendering the rest of the notes.", "Arlo pointed at another object beside the mandrel. A stick. A spool. A hanging weight.", "Arlo laughed once despite himself, then reached for the next regulator."],
       "visual_reference": {
+        "characters": ["Greg", "Arlo"],
+        "location": "Arlo workshop",
         "active_task": "Arlo is testing regulators and showing only the process evidence needed to explain a two-day result.",
         "props": ["six regulators", "Tere reference set", "wooden testing fixture", "notebook", "cracked regulator", "spool", "string", "hanging weight"],
-        "physical_beats": [
-          "Arlo shelves the testing fixture to end Greg's demand for another run.",
-          "Arlo pulls the notebook closer to protect process ownership.",
-          "Arlo puts a cracked failed regulator between them and later reveals only the relevant notebook page.",
-          "Arlo points Greg to the crude stick, spool, string, and hanging-weight tension control.",
-          "Arlo laughs once at Greg's tensioner joke, then returns to the next regulator instead of extending the bit."
-        ]
+        "physical_beats": ["Arlo shelves the testing fixture to end Greg's demand for another run.", "Arlo pulls the notebook closer to protect process ownership.", "Arlo puts a cracked failed regulator between them and later reveals only the relevant notebook page.", "Arlo points Greg to the crude stick, spool, string, and hanging-weight tension control.", "Arlo laughs once at Greg's tensioner joke, then returns to the next regulator instead of extending the bit."]
       }
     }
   },
@@ -105,7 +150,10 @@
     "camera_angle": "table_level_three_quarter",
     "pose_family": "boundary_closing_reach",
     "character_reference_assets": ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/018/v28_c18_s14_hessa-has-beans.png", "visual/chapter_art/018/v28_c18_s15_the-cup.png"],
+    "selected_character_references": [],
+    "character_reference_scores": {},
     "reference_selection_notes": "Explicit scene-era references: Book I Warrior for early Greg identity; current Ch018 art for Hessa/room/prop continuity only. Do not copy the old compositions.",
+    "character_appearance_notes": {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."},
     "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Center the image on Hessa's active hand, the cloth, bowl, and Greg's forward interest. Hessa controls the exercise and ends access; do not make Greg the physical driver of the frame.",
     "prompt_pack": "state/visual/prompt-packs/de-ch018-hessa-covers-bowl.md",
     "paragraph_anchor": "Hessa reached across the table and covered the bowl with the cloth.",
@@ -115,18 +163,37 @@
     "status": "generation_ready",
     "generation_approval": "explicit_bounded",
     "generation_batch_id": "definitive-pilot-001",
+    "visual_scene_evidence": {
+      "candidate_id": "de-ch018-hessa-covers-bowl",
+      "chapter": 18,
+      "evidence_condition": "prose_temporal_performance",
+      "character_states": {
+        "Greg": {
+          "character": "Greg",
+          "state_id": "greg-early-pre-amputation",
+          "chapter_start": 1,
+          "chapter_end": 18,
+          "authority": "derived_editorial_reference",
+          "canon_authority": false,
+          "evidence": ["Current canon chapters 001-018 and the approved Definitive Edition early-scene pilot establish Greg before the later amputation/mobility era.", "Creator visual direction on 2026-09-07: early Greg should carry some beard/fuzz rather than read clean-shaven."],
+          "appearance": {"age": "nineteen", "facial_hair": "light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard"},
+          "body_state": {"left_leg": "intact", "right_leg": "intact"},
+          "mobility_state": {"default": "unassisted"},
+          "must_not_show": ["crutches", "prosthesis", "post-amputation left-leg state"]
+        }
+      }
+    },
     "performance_reference": {
       "archive_path": "state/editorial/performance-roundtrip/018",
+      "chapter": 18,
+      "displayed_showcase_chapter": 14,
+      "scene_anchors": ["Hessa watched it fall, reached into the bowl, and put a fresh bean on the same spot before I could bend to retrieve the first.", "Hessa stopped reaching for beans.", "Hessa tapped the bean once with a fingertip.", "Hessa reached across the table and covered the bowl with the cloth.", "\"Nineteen casts,\" Hessa said.", "Hessa left the bowl covered."],
       "visual_reference": {
+        "characters": ["Greg", "Hessa"],
+        "location": "Hessa's rooms",
         "active_task": "Hessa runs a bounded Barrier bean exercise while Greg tries to turn a narrow result into a larger theory.",
         "props": ["table", "bowl of beans", "empty bowl", "cloth"],
-        "physical_beats": [
-          "Hessa replaces the first fallen bean with a fresh one before Greg can retrieve it.",
-          "Hessa stops supplying new beans when Greg finally pauses on his own.",
-          "Hessa taps the bean to redirect Greg from Barrier theory back to the exercise.",
-          "Hessa ends access to further attempts by covering the bowl with the cloth.",
-          "Hessa states the nineteen-cast count and leaves the bowl covered."
-        ]
+        "physical_beats": ["Hessa replaces the first fallen bean with a fresh one before Greg can retrieve it.", "Hessa stops supplying new beans when Greg finally pauses on his own.", "Hessa taps the bean to redirect Greg from Barrier theory back to the exercise.", "Hessa ends access to further attempts by covering the bowl with the cloth.", "Hessa states the nineteen-cast count and leaves the bowl covered."]
       }
     }
   },
@@ -149,7 +216,10 @@
     "camera_angle": "low_three_quarter",
     "pose_family": "offered_hand_after_fall",
     "character_reference_assets": ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png"],
+    "selected_character_references": [],
+    "character_reference_scores": {},
     "reference_selection_notes": "Explicit scene-era references: Book I Warrior for early Greg identity; current Jorren art for Jorren identity only. Do not copy the old composition.",
+    "character_appearance_notes": {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."},
     "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required because his intact but underconditioned legs, fatigue, and fall are story information. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.",
     "prompt_pack": "state/visual/prompt-packs/de-ch005-jorren-offers-hand.md",
     "paragraph_anchor": "Jorren offered a hand.",
@@ -158,7 +228,27 @@
     "coverage_before": 3,
     "status": "generation_ready",
     "generation_approval": "explicit_bounded",
-    "generation_batch_id": "definitive-pilot-001"
+    "generation_batch_id": "definitive-pilot-001",
+    "visual_scene_evidence": {
+      "candidate_id": "de-ch005-jorren-offers-hand",
+      "chapter": 5,
+      "evidence_condition": "prose_temporal",
+      "character_states": {
+        "Greg": {
+          "character": "Greg",
+          "state_id": "greg-early-pre-amputation",
+          "chapter_start": 1,
+          "chapter_end": 18,
+          "authority": "derived_editorial_reference",
+          "canon_authority": false,
+          "evidence": ["Current canon chapters 001-018 and the approved Definitive Edition early-scene pilot establish Greg before the later amputation/mobility era.", "Creator visual direction on 2026-09-07: early Greg should carry some beard/fuzz rather than read clean-shaven."],
+          "appearance": {"age": "nineteen", "facial_hair": "light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard"},
+          "body_state": {"left_leg": "intact", "right_leg": "intact"},
+          "mobility_state": {"default": "unassisted"},
+          "must_not_show": ["crutches", "prosthesis", "post-amputation left-leg state"]
+        }
+      }
+    }
   },
   {
     "candidate_id": "de-ch005-player-reads-greg",
@@ -179,7 +269,10 @@
     "camera_angle": "over_shoulder",
     "pose_family": "mutual_observation",
     "character_reference_assets": ["assets/book-role-cards/book-i-warrior-005.webp"],
+    "selected_character_references": [],
+    "character_reference_scores": {},
     "reference_selection_notes": "Explicit scene-era reference: Book I Warrior for early Greg identity. The opposing player is unnamed and must not receive invented canon identity.",
+    "character_appearance_notes": {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."},
     "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the frame above waist because lower-body state is not the point. The image must communicate reciprocal scrutiny and Greg's blind spot, not generic gambling competence.",
     "prompt_pack": "state/visual/prompt-packs/de-ch005-player-reads-greg.md",
     "paragraph_anchor": "He knew I was studying him. I did not realize he was studying me.",
@@ -188,6 +281,26 @@
     "coverage_before": 3,
     "status": "generation_ready",
     "generation_approval": "explicit_bounded",
-    "generation_batch_id": "definitive-pilot-001"
+    "generation_batch_id": "definitive-pilot-001",
+    "visual_scene_evidence": {
+      "candidate_id": "de-ch005-player-reads-greg",
+      "chapter": 5,
+      "evidence_condition": "prose_temporal",
+      "character_states": {
+        "Greg": {
+          "character": "Greg",
+          "state_id": "greg-early-pre-amputation",
+          "chapter_start": 1,
+          "chapter_end": 18,
+          "authority": "derived_editorial_reference",
+          "canon_authority": false,
+          "evidence": ["Current canon chapters 001-018 and the approved Definitive Edition early-scene pilot establish Greg before the later amputation/mobility era.", "Creator visual direction on 2026-09-07: early Greg should carry some beard/fuzz rather than read clean-shaven."],
+          "appearance": {"age": "nineteen", "facial_hair": "light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard"},
+          "body_state": {"left_leg": "intact", "right_leg": "intact"},
+          "mobility_state": {"default": "unassisted"},
+          "must_not_show": ["crutches", "prosthesis", "post-amputation left-leg state"]
+        }
+      }
+    }
   }
 ]
