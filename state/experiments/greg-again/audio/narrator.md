@@ -6,6 +6,8 @@ The primary narrator should read as **male/masculine**. Greg must clearly sound 
 
 Greg is the dominant point of view, but the narrator is not literally Greg's acoustic identity at every moment. Keep a stable base voice. Character distinction should come mostly from behavior, rhythm, confidence, timing, and small shifts in delivery rather than cartoon accents.
 
+The degree of Greg linguistic ownership is **experimental and scene-dependent**. Do not assume maximum mediation is the desired house style. Use `state/experiments/greg-again/LENS_HARNESS.md` when a scene has meaningful uncertainty about how much outside speech should survive.
+
 ## Greg
 
 - Greg can speed up slightly when he is overconfident or building a model.
@@ -59,25 +61,29 @@ Use a small, character-specific vocal grammar:
 
 Do not turn vocal tics into a quota. If every paragraph says `Right`, the tic becomes machinery instead of character.
 
+Before a long or heavily adapted cut is accepted, run the anti-tic check in `LENS_HARNESS.md`. If half the resets and fragments can disappear without changing Greg's actual cognition, the surface has become imitation rather than thought.
+
 The performance mark must still sound like something Greg would think or say. Avoid SSML-like markup or visible `[pause]`, `[sad]`, `[angry]`, or timing commands in audience speech unless later renderer evidence proves they are necessary.
 
 ## GREG OWNS THE LINGUISTIC SURFACE
 
-Default rule:
+Experimental pressure:
 
-> **If another character's exact words are not the event, Greg gets the event, not the transcript.**
+> **If another character's exact words are not the event, Greg may get the event rather than the transcript.**
 
-This is not a ban on other characters speaking inside the story. It is a rule about what reaches the audience as language.
+This is not a ban on other characters speaking inside the story and not a locked style rule. It is one lens available to the experiment.
 
-Other characters can interrupt, refuse, lie, threaten, flirt, bargain, misunderstand, joke, leave, attack, withhold information, redirect a scene, or act for reasons Greg does not understand. Preserve those actions and their consequences. Greg does not own causality merely because he owns the linguistic surface.
+Other characters can interrupt, refuse, lie, threaten, flirt, bargain, misunderstand, joke, leave, attack, withhold information, redirect a scene, or act for reasons Greg does not understand. Preserve those actions and their consequences. Greg does not own causality merely because he may own the linguistic surface.
 
-Prefer:
+Prefer, when the Greg-dominant lens wins:
 
 **OTHER PERSON ACTS / COMMUNICATES → GREG RECEIVES IT → GREG INTERPRETS OR MISINTERPRETS IT → WORLD KEEPS MOVING**
 
 Do not replace dialogue with flat recap such as `Sella explained the rules and I understood them.` Remove transcript, not embodiment. Keep hands, faces, timing, distance, objects, interruptions, silence, mistakes, and consequences alive in the scene.
 
-Secondary direct speech is expensive. Spend it when the voice itself matters, including:
+Before a consequential Greg-dominant or extreme render, preserve the outside-agency lock from `LENS_HARNESS.md` for each important non-Greg actor.
+
+Secondary direct speech is expensive only when the selected lens makes it expensive. Spend it when the voice itself matters, including:
 
 - exact wording changes the scene
 - a relationship turns on the line
@@ -87,17 +93,19 @@ Secondary direct speech is expensive. Spend it when the voice itself matters, in
 - an interruption needs to puncture Greg's subjective track
 - the line is memorable enough that Greg would actually retain it verbatim
 
-When direct secondary speech appears, treat its arrival as an event. The listener should notice that somebody else has broken through Greg's linguistic surface.
+Use the voice-breach gate rather than mechanically preserving or removing speech.
+
+When direct secondary speech appears inside a Greg-dominant passage, its arrival may be treated as an event. The listener should notice that somebody else has broken through Greg's linguistic surface.
 
 Greg's own muttering, private jokes, half-spoken corrections, and self-address are cheap because they belong to the same surface as his thought. Do not create artificial distinctions between "narration Greg" and "speaking Greg" unless the scene needs one.
 
-A strong scene may contain **zero quoted secondary dialogue** and still preserve full supporting-character agency.
+A strong scene may contain **zero quoted secondary dialogue** and still preserve full supporting-character agency. A different strong scene may depend on sustained direct conversation. Let the scene prove which one it wants.
 
 ## Other voices
 
 The neighbor's shouted line should be distinct enough to register as another person, but not a cartoon voice. Future recurring characters should gain stable behavioral tendencies before they gain large vocal changes.
 
-Other characters' direct speech is intentionally more expensive than in conventional prose. Preserve it when the exact wording, humor, relationship turn, personality, misunderstanding, interruption, or sound of the line matters. Compress routine conversational ping-pong through Greg when that creates a stronger listening experience.
+Other characters' direct speech may be intentionally more expensive than in conventional prose when the selected lens is Greg-dominant. Preserve it when the exact wording, humor, relationship turn, personality, misunderstanding, interruption, or sound of the line matters. Compress routine conversational ping-pong through Greg only when that creates a stronger listening experience.
 
 ## Performance rules
 
