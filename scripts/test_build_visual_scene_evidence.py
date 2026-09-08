@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.build_visual_scene_evidence import build_visual_scene_evidence
+from scripts.build_visual_scene_evidence import build_visual_scene_evidence, select_visual_scene_candidates
 
 
 def candidate(candidate_id: str, chapter: int, anchor: str, characters: list[str]) -> dict:
@@ -32,6 +32,15 @@ def main() -> int:
         candidate("performance-backed", 7, "Exact performance anchor.", ["Greg", "Antonius"]),
         candidate("unknown-era", 100, "Unknown anchor.", ["Greg"]),
     ]
+    bounded = [candidate("bounded-only", 13, "Bounded anchor.", ["Greg", "Arlo"])]
+    assert [item["id"] for item in select_visual_scene_candidates(candidates, bounded, hold_active=True)] == ["bounded-only"]
+    assert [item["id"] for item in select_visual_scene_candidates(candidates, bounded, hold_active=False)] == [
+        "early-control",
+        "performance-backed",
+        "unknown-era",
+        "bounded-only",
+    ]
+
     registry = [
         {
             "id": "legacy-seven",
