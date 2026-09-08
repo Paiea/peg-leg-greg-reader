@@ -61,6 +61,38 @@ Do not turn vocal tics into a quota. If every paragraph says `Right`, the tic be
 
 The performance mark must still sound like something Greg would think or say. Avoid SSML-like markup or visible `[pause]`, `[sad]`, `[angry]`, or timing commands in audience speech unless later renderer evidence proves they are necessary.
 
+## GREG OWNS THE LINGUISTIC SURFACE
+
+Default rule:
+
+> **If another character's exact words are not the event, Greg gets the event, not the transcript.**
+
+This is not a ban on other characters speaking inside the story. It is a rule about what reaches the audience as language.
+
+Other characters can interrupt, refuse, lie, threaten, flirt, bargain, misunderstand, joke, leave, attack, withhold information, redirect a scene, or act for reasons Greg does not understand. Preserve those actions and their consequences. Greg does not own causality merely because he owns the linguistic surface.
+
+Prefer:
+
+**OTHER PERSON ACTS / COMMUNICATES → GREG RECEIVES IT → GREG INTERPRETS OR MISINTERPRETS IT → WORLD KEEPS MOVING**
+
+Do not replace dialogue with flat recap such as `Sella explained the rules and I understood them.` Remove transcript, not embodiment. Keep hands, faces, timing, distance, objects, interruptions, silence, mistakes, and consequences alive in the scene.
+
+Secondary direct speech is expensive. Spend it when the voice itself matters, including:
+
+- exact wording changes the scene
+- a relationship turns on the line
+- a joke dies if paraphrased
+- Greg misunderstands the words rather than the action
+- the speaker's verbal identity matters
+- an interruption needs to puncture Greg's subjective track
+- the line is memorable enough that Greg would actually retain it verbatim
+
+When direct secondary speech appears, treat its arrival as an event. The listener should notice that somebody else has broken through Greg's linguistic surface.
+
+Greg's own muttering, private jokes, half-spoken corrections, and self-address are cheap because they belong to the same surface as his thought. Do not create artificial distinctions between "narration Greg" and "speaking Greg" unless the scene needs one.
+
+A strong scene may contain **zero quoted secondary dialogue** and still preserve full supporting-character agency.
+
 ## Other voices
 
 The neighbor's shouted line should be distinct enough to register as another person, but not a cartoon voice. Future recurring characters should gain stable behavioral tendencies before they gain large vocal changes.
