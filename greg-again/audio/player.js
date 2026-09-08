@@ -12,10 +12,14 @@
     if (manifest.audio_src) {
       audio.src = manifest.audio_src;
       audio.removeAttribute('aria-disabled');
-      if (manifest.sample_status === 'narrator_audition') {
+      if (manifest.sample_status === 'full_chapter_experimental') {
+        renderState.textContent = 'Full Chapter 1 experimental render. Not yet qualified.';
+      } else if (manifest.sample_status === 'narrator_audition') {
         renderState.textContent = 'Experimental narrator audition. Not yet qualified.';
-      } else {
+      } else if (manifest.status === 'approved') {
         renderState.textContent = 'Qualified Chapter 1 render.';
+      } else {
+        renderState.textContent = 'Playable experimental render. Not yet qualified.';
       }
     } else {
       audio.removeAttribute('src');
