@@ -41,6 +41,13 @@ The viewer should first notice Greg studying the opponent, then discover that th
 ### MANUSCRIPT DETAILS
 Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Greg thinks one more hand will let him decode the twitch near the man's mouth. He does not realize his own behavior has become information.
 
+### TEMPORAL CHARACTER STATE
+- Greg: `greg-early-pre-amputation`
+  - appearance age: nineteen
+  - appearance facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+- Scene-local continuity overrides temporal body/mobility fields when they conflict; temporal appearance guidance still applies unless the scene says otherwise.
+- This state is derived editorial continuity guidance, not canon authority.
+
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
 - Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the Book I Warrior reference for Greg's early-story identity and not as permission to copy its pose or clothing blindly. Keep the frame above waist because lower-body state is not the point. The opposing player is unnamed in canon, so do not assign him a canonical identity or distinctive lore not supported by the scene.
