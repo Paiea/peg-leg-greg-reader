@@ -16,13 +16,11 @@ The current hypothesis under pressure is:
 
 This is not locked style authority.
 
-The experiment now explicitly tests multiple degrees of Greg mediation rather than assuming the most extreme version is best.
-
 Use:
 
 `state/experiments/greg-again/LENS_HARNESS.md`
 
-The harness contains the five active safeguards:
+The harness contains five active safeguards:
 
 1. subjective lens rehearsal — LIGHT / GREG-DOMINANT / EXTREME
 2. outside-agency lock
@@ -30,15 +28,23 @@ The harness contains the five active safeguards:
 4. anti-flattening + anti-tic QC
 5. failure-to-learning promotion discipline
 
-## Working pressure
+## Current working prior
 
-When the Greg-dominant lens is selected:
+Chapter 2 now has a full three-way comparison.
 
-> **If another character's exact words are not the event, Greg may get the event rather than the transcript.**
+Provisional result:
 
-This may create scenes with zero quoted secondary dialogue, but zero dialogue is not a target.
+> **GREG-DOMINANT wins Chapter 2, not EXTREME.**
 
-The system is allowed to conclude that a scene wants conventional dialogue or sustained outside voices.
+The useful discovery from EXTREME survives: Greg can carry far more of the chapter's linguistic continuity than conventional prose assumes.
+
+The useful correction from GREG-DOMINANT also survives: other people's exact language should break through when the wording itself carries character, leverage, humor, rule-breaking, or a binding change in story state.
+
+Current practical pressure:
+
+> **If another character's exact words are not the event, Greg may get the event rather than the transcript. If the words are the event, preserve the commitment even when the rendering stays Greg-dominant.**
+
+Zero dialogue is not a target.
 
 ## What this is not
 
@@ -48,7 +54,7 @@ Do not replace embodied scenes with lines such as `Sella explained the rules` or
 
 **Remove transcript, not embodiment.**
 
-Greg can be wrong about what another person means. Another person can start or redirect story without receiving direct quoted dialogue.
+Greg can be wrong about what another person means. Another person can start or redirect story without receiving much quoted dialogue.
 
 ## Shared source chain
 
@@ -79,6 +85,7 @@ Optimize for one-pass listening:
 - vocal resets and self-corrections
 - compression of routine conversational ping-pong when earned
 - direct secondary speech when the voice itself matters
+- explicit preservation of binding terms or commitments
 - first-listen speaker clarity
 
 ### Prose
@@ -100,7 +107,7 @@ R2 prose control:
 
 `state/experiments/plg-r2/prose/001-the-boy.md`
 
-Current full audio subjective cut:
+Audio subjective baseline:
 
 `state/experiments/greg-again/audio/chapters/001/subjective-cut-002.md`
 
@@ -116,19 +123,43 @@ R2 prose control:
 
 `state/experiments/plg-r2/prose/002-two-things.md`
 
-Extreme stress test:
+EXTREME stress test:
 
 `state/experiments/greg-again/audio/chapters/002/subjective-cut-001.md`
 
-Lens evaluation:
+GREG-DOMINANT audio candidate:
+
+`state/experiments/greg-again/audio/chapters/002/subjective-cut-002.md`
+
+GREG-DOMINANT page render:
+
+`state/experiments/greg-again/prose/002-two-things.md`
+
+Comparison:
 
 `state/experiments/greg-again/evals/002-two-things.md`
 
-Chapter 2 deliberately overcranks the lens to zero quoted secondary dialogue. It is evidence, not the preferred answer.
+Current result: GREG-DOMINANT provisionally beats both the LIGHT-ish control and EXTREME for this scene because it preserves Greg continuity while restoring only high-value outside-language breaches.
 
-The next useful comparison is a **GREG-DOMINANT** pass that keeps the extreme cut's continuity while restoring only voice breaches that clearly beat Greg's mediation.
+### Chapter 3 — The Borrower
 
-The current strongest suspected breach is the instructor's `fight or assemble furniture` line because its exact wording carries both joke and character.
+R2 prose control:
+
+`state/experiments/plg-r2/prose/003-the-borrower.md`
+
+Calibration card:
+
+`state/experiments/greg-again/evals/003-the-borrower.md`
+
+Chapter 3 is the next useful boundary because technical argument and loan negotiation make language itself causal.
+
+New pressure under test:
+
+> **LANGUAGE CAN BE ACTION.**
+
+Prices, promises, threats, wagers, contracts, consent/refusal, deadlines, orders, names unexpectedly revealed, and negotiated terms can change story state merely by being spoken and accepted.
+
+A subjective lens may compress conversational plumbing. It may not make binding commitments fuzzy.
 
 ## Acceptance test
 
@@ -143,9 +174,12 @@ Ask:
 5. Does direct speech become more powerful because it is selective, or merely rarer?
 6. Does the prose version still read like a novel rather than a transcript of an audio script?
 7. Does the selected lens beat the available control for this scene?
-8. After several minutes of audio, does attention move to Greg and the story rather than the AI voice?
+8. Are binding terms, refusals, promises, threats, and negotiated state changes still unambiguous?
+9. After several minutes of audio, does attention move to Greg and the story rather than the AI voice?
 
 If outside-character life fails, reduce Greg mediation or restore embodiment/voice.
+
+If binding language becomes fuzzy, restore the commitment before preserving the stylistic trick.
 
 If the prose becomes visually mannered, keep the discovery and rerender the page rather than copying audio syntax.
 
@@ -168,9 +202,9 @@ Failures are evidence. Preserve why a treatment lost instead of silently deletin
 ## Current next move
 
 1. Keep Chapter 1 as the audio/prose round-trip baseline.
-2. Keep Chapter 2 EXTREME as the overcranked stress test.
-3. Produce one Chapter 2 GREG-DOMINANT pass with only earned voice breaches restored.
-4. Compare LIGHT-ish control vs GREG-DOMINANT vs EXTREME on interestingness and supporting-character life.
-5. Stop after that comparison unless it reveals a repeated failure or clearly useful next calibration scene.
+2. Treat Chapter 2 GREG-DOMINANT as the provisional winner for that scene only.
+3. Keep Chapter 2 EXTREME as failure-boundary evidence rather than deleting it.
+4. Rehearse only the highest-information Chapter 3 boundaries first: Arlo technical exchange and Vale loan negotiation.
+5. Do not produce a full Chapter 3 alternate until those targeted tests show the lens can preserve language-as-action.
 
 No canon promotion is implied by this experiment.
