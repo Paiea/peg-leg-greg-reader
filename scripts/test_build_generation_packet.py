@@ -28,6 +28,20 @@ def main() -> int:
         "continuity_notes": "Pre-amputation Greg.",
         "prompt_pack": "state/visual/prompt-packs/performance-backed.md",
         "target_asset": "visual/chapter_art/007/performance-backed-v1.webp",
+        "visual_scene_evidence": {
+            "candidate_id": "performance-backed",
+            "chapter": 7,
+            "evidence_condition": "prose_temporal_performance",
+            "character_states": {
+                "Greg": {
+                    "state_id": "greg-early-pre-amputation",
+                    "appearance": {"facial_hair": "light beard/stubble/fuzz"},
+                    "body_state": {"left_leg": "intact", "right_leg": "intact"},
+                    "mobility_state": {"default": "unassisted"},
+                    "must_not_show": ["crutches", "prosthesis"],
+                }
+            },
+        },
         "performance_reference": {
             "archive_path": "state/editorial/performance-roundtrip/007",
             "visual_reference": {
@@ -40,6 +54,10 @@ def main() -> int:
         },
     }
     text = render_generation_packet([record])
+    assert "Evidence condition: prose_temporal_performance" in text, text
+    assert "TEMPORAL Greg" in text, text
+    assert "light beard/stubble/fuzz" in text, text
+    assert "must not show: crutches, prosthesis" in text, text
     assert "PERFORMANCE visual reference" in text, text
     assert "Antonius is cleaning while Greg evaluates" in text, text
     assert "stop, return, and pick up the frame himself" in text, text
