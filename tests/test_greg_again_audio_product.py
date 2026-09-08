@@ -29,3 +29,25 @@ def test_pronunciations_are_not_silently_guessed():
     pronunciation = json.loads((AUDIO / "pronunciation.json").read_text(encoding="utf-8"))
     assert pronunciation["schema"] == "greg_again_pronunciation/v1"
     assert {entry["status"] for entry in pronunciation["entries"]} == {"confirm_before_render"}
+
+
+def test_public_audio_page_is_small_and_audio_first():
+    html = (ROOT / "greg-again/audio/index.html").read_text(encoding="utf-8")
+    assert "GREG, AGAIN" in html
+    assert "Audio-Native Proving Run" in html
+    assert "The Boy" in html
+    assert "<audio" in html
+    assert "waveform" not in html.lower()
+    assert "dashboard" not in html.lower()
+
+
+def test_unrendered_public_manifest_has_no_fake_audio_asset():
+    public = json.loads((ROOT / "greg-again/audio/manifest.json").read_text(encoding="utf-8"))
+    assert public["status"] == "experimental"
+    assert public["audio_src"] is None
+
+
+def test_player_handles_unqualified_state_without_fake_source():
+    js = (ROOT / "greg-again/audio/player.js").read_text(encoding="utf-8")
+    assert "Audio render not yet qualified." in js
+    assert "audio_src" in js
