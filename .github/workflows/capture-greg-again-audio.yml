@@ -29,7 +29,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p greg-again/audio/assets
-          cat > /tmp/capture.mjs <<'JS'
+          cat > capture.mjs <<'JS'
           import fs from 'node:fs';
           import { chromium } from 'playwright';
 
@@ -79,7 +79,7 @@ jobs:
           await browser.close();
           if (!saved && !fs.existsSync(out)) process.exit(3);
           JS
-          node /tmp/capture.mjs
+          node capture.mjs
           file greg-again/audio/assets/chapter-001.mp3
           du -h greg-again/audio/assets/chapter-001.mp3
       - name: Commit captured audio
