@@ -1,0 +1,149 @@
+{
+  "schema": "greg_again_audio_score/v1",
+  "run_id": "greg-again",
+  "chapter_id": "ga-001",
+  "title": "The Boy",
+  "score_revision": 1,
+  "blocks": [
+    {
+      "id": "ga-001-b001",
+      "scene_id": "wake-body-wrong",
+      "spoken_text": "I woke because my back didn't hurt.\n\nThat was wrong.\n\nNot alarming at first. Waking normally involved a short negotiation with several pieces of me that had outlived their warranties. Lower back. Left shoulder. Right knee. The rib that clicked if I slept twisted.\n\nNothing dramatic. Just attendance.\n\nThis morning nobody showed up.\n\nI lay still.\n\nThen I moved my toes.\n\nAll of them answered.\n\nI bent one knee. Then the other.\n\nToo easy.\n\nI sat up fast enough that the room tilted and my body came with me instead of filing three objections on the way.\n\nThat got my attention.\n\nThe room should not have been familiar.\n\nCheap plaster. Narrow bed. One chair with a coat hanging over it. Washbasin with a crack down the side. Sword in the corner.\n\nI knew the crack.\n\nI had cut my thumb on it once.\n\nI looked at my thumb.\n\nNo scar.\n\nWrong hand, maybe.\n\nI checked the other.\n\nNothing.\n\nI sat there with both hands in front of me.\n\nThey were young hands.\n\nThat is a stupid sentence until you have known your hands for fifty-nine years.\n\nThe knuckles were wrong. Too clean. The right index finger was straight. I had broken that finger on a contract and refused to let a healer reset it because we had another descent the next morning. It had leaned inward ever since.\n\nI bent it.\n\nStraight.\n\nI bent it again as if the finger might admit something under pressure.\n\nStill straight.\n\n\"No.\"\n\nMy voice was wrong too.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "confused, physically alert",
+        "intention": "let bodily evidence accumulate before naming the impossible",
+        "physical_context": "Greg is sitting upright in a cheap room from his youth",
+        "pace": "unhurried opening, then slightly quicker as evidence stacks",
+        "continuity": "chapter opening",
+        "listener_risks": ["Do not make the first line ominous; wrongness grows from ordinary bodily detail."]
+      }
+    },
+    {
+      "id": "ga-001-b002",
+      "scene_id": "mirror-young-body",
+      "spoken_text": "I got out of bed.\n\nNo stiffness.\n\nI crouched.\n\nLower.\n\nStood.\n\nDid it again.\n\nThen, because apparently the first serious thing I would do with a miracle was test whether I could jump, I jumped.\n\nThe floorboards complained.\n\nA man on the other side of the wall shouted, \"Some of us are sleeping!\"\n\nI knew the voice.\n\nThe name was gone.\n\nThat bothered me more than the jumping.\n\nI knew he snored. I knew he borrowed soap. I knew he once threw a cup at someone in the hallway and missed so badly that the cup became my problem.\n\nI could not remember his name.\n\nForty years of memory, and apparently soap theft had survived better than nouns.\n\nThe mirror above the basin was spotted at the edges.\n\nI leaned toward it.\n\nNineteen.\n\nI did not know that immediately as a number. I knew the face first.\n\nMine.\n\nDark hair. Too much of it. No gray. No line beside the mouth. No scar under the chin. The shoulders under my shirt were broad enough to make nineteen-year-old me optimistic and narrow enough to make fifty-nine-year-old me realistic.\n\nI pulled the shirt up.\n\nFlat stomach.\n\n\"Oh, that's unfair.\"\n\nThe boy in the mirror looked pleased.\n\nI checked my teeth.\n\nAll present.\n\nFor perhaps two minutes I behaved with very little dignity.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "disbelief loosening into delighted physical curiosity",
+        "intention": "make the miracle pleasurable before the story complicates it",
+        "physical_context": "Greg tests a young body, hears a neighbor, then studies himself in the mirror",
+        "pace": "lighter and more mobile; leave room after the neighbor and after the age reveal",
+        "continuity": "body evidence has become undeniable",
+        "listener_risks": ["Neighbor line must clearly sound external. Keep jokes dry, not sitcom-big."]
+      }
+    },
+    {
+      "id": "ga-001-b003",
+      "scene_id": "sword-theory-body",
+      "spoken_text": "Then I saw the sword again.\n\nCheap steel. One-handed. Leather grip darkened by use. A nick near the guard from the time I had used it to split kindling because finding an axe had seemed like more work.\n\nI remembered loving that sword.\n\nThat offended me enough to make the room feel real.\n\nI picked it up.\n\nThe balance was bad. Too much weight forward. The grip was slightly narrow for my hand.\n\nI had spent decades around excellent weapons. I had held swords worth more than this building. I had watched people who could cut through plate, stone, enchanted hide, and once, memorably, a dining table because a duke's son had misunderstood how close he was standing.\n\nI knew what good movement looked like.\n\nThat was not the same as knowing what my body was about to do.\n\nI raised the sword and cut down.\n\nThe blade pulled farther forward than I wanted.\n\nMy shoulders tightened late. My rear foot moved after the rest of me had already committed. The tip passed close enough to the chair that the coat stirred.\n\nI stopped.\n\n\"Huh.\"\n\nI tried again.\n\nSlower.\n\nBetter.\n\nAgain.\n\nThis time I concentrated on the feet and made the cut worse.\n\nI lowered the sword.\n\nThat was interesting.\n\nNot good. Interesting.\n\nI remembered being a warrior first. Not a particularly elegant one. Strong enough. Fast enough. Brave enough, unfortunately. I had made Silver before finally admitting that every swordsman I respected was better at the sword than I was.\n\nThen Barrier happened.\n\nThen support magic.\n\nThen decades of becoming something else entirely.\n\nBy the end I had been one of seven S-class adventurers on the continent.\n\nSupport.\n\nThe word mattered.\n\nI had spent half a lifetime beside people who actually mastered this.\n\nI knew how they trained. Or pieces of it. I knew what they complained about. I knew what they noticed. I knew that elite fighters conserved movement while beginners decorated it. I knew good footwork made violence look smaller. I knew people lifted their shoulders when they were afraid and held their breath when they were about to do something stupid.\n\nI also knew my first cut had almost hit a chair.\n\nBoth facts were going to have to coexist.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "pleased recognition becoming analytical and then humbled",
+        "intention": "establish old-life expertise as observational leverage, not embodied sword mastery",
+        "physical_context": "Greg handles the cheap sword and tests one basic downward cut in the room",
+        "pace": "begin amused, tighten during physical execution, then broaden into reflective confidence",
+        "continuity": "young-body miracle now collides with skill reality",
+        "listener_risks": ["Do not make S-class revelation triumphant; the chair undercuts it."]
+      }
+    },
+    {
+      "id": "ga-001-b004",
+      "scene_id": "magic-failure",
+      "spoken_text": "I set the sword down.\n\nMagic next.\n\nThat should have been easier.\n\nI closed my eyes and reached for mana.\n\nIn my memory the motion was not really a motion. More like deciding to move a hand and discovering the hand had already begun.\n\nHere I got a faint pressure behind my eyes and tingling in my palm.\n\nI pushed harder.\n\nPain sharpened behind my forehead.\n\nI stopped.\n\n\"Shit.\"\n\nThat frightened me.\n\nThe sword was optional.\n\nMagic was not.\n\nNot to the man I remembered being.\n\nI stood in the middle of the room with a nineteen-year-old body, a bad sword, and almost no usable mana answering a mind that remembered shaping barriers over entire battle lines.\n\nThe absurdity should have crushed me.\n\nInstead something else arrived.\n\nPossibility.\n\nA dangerous amount of it.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "analytical confidence",
+        "intention": "let the first real fear enter cleanly, then pivot into dangerous optimism",
+        "physical_context": "Greg tries to access mana while standing alone in the room",
+        "pace": "slow down at failure; keep the final possibility turn quiet rather than heroic",
+        "continuity": "sword failure was interesting; magic failure threatens identity",
+        "listener_risks": ["The single profanity should land as genuine fear, not comic emphasis."]
+      }
+    },
+    {
+      "id": "ga-001-b005",
+      "scene_id": "inventory-city-dates",
+      "spoken_text": "First I checked the room.\n\nThree copper in the coat.\n\nBronze guild token in the pocket.\n\nTraining leathers in the wardrobe.\n\nA bent lockpick I did not remember owning and probably should not have owned.\n\nReceipts.\n\nTwo letters.\n\nDates.\n\nI did not trust the dates yet.\n\nI went to the window.\n\nCarrow was outside.\n\nYounger.\n\nThe north side of the street had only one proper stone building. The apothecary I remembered was not there. The Guild roof still had red tile. The Exchange was missing completely.\n\nA cart rolled through mud where I remembered paving.\n\nEarlier.\n\nThe thought came cleanly enough that I distrusted it.\n\nSo I checked.\n\nI found a guild notice beneath the bed. Another in the coat. A letter from Mara, whose handwriting I recognized before I remembered whether I liked her.\n\nI compared dates against the siege of East Verrel, because everybody remembered the siege of East Verrel.\n\nI counted backward.\n\nThen did it again.\n\nNineteen.\n\nI sat on the edge of the bed.\n\nNineteen.\n\nThe room got very quiet.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "energized by possibility, deliberately skeptical",
+        "intention": "show Greg turning wonder into evidence gathering; make the age confirmation feel earned",
+        "physical_context": "Greg inventories his room, studies younger Carrow through the window, then cross-checks dates",
+        "pace": "measured procedural rhythm; slow sharply for the repeated Nineteen",
+        "continuity": "possibility has become a hypothesis he is testing",
+        "listener_risks": ["Pronunciation of Carrow and East Verrel must be confirmed before final render."]
+      }
+    },
+    {
+      "id": "ga-001-b006",
+      "scene_id": "forty-years-back",
+      "spoken_text": "My first thought was not noble.\n\nMy first thought was that I had forty years back.\n\nMy second was that I could do everything better.\n\nThe certainty of that thought should have warned me.\n\nIt did not.\n\nI stood and looked at the mirror again.\n\nYoung body.\n\nOld memories.\n\nI knew what professions became valuable. Which wars happened. Which people mattered. Which mistakes ruined guilds. Which discoveries changed entire industries. Which monsters were worse than the contracts claimed. Which supposedly brilliant fighters were actually held together by preparation, healers, money, and three very competent people nobody remembered afterward.\n\nI knew magic.\n\nI knew people.\n\nI knew how the world worked.\n\nThis was going to be easy.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "quiet shock turning rapidly into old-man confidence",
+        "intention": "let Greg intoxicate himself with future knowledge without winking too hard at the mistake",
+        "physical_context": "Greg is standing in front of the mirror, mentally inventorying the future",
+        "pace": "build momentum and confidence through the list; land the last line sincerely enough to be funny later",
+        "continuity": "age is confirmed; Greg immediately begins over-modeling the advantage",
+        "listener_risks": ["Do not telegraph authorial irony too strongly. Greg believes this."]
+      }
+    },
+    {
+      "id": "ga-001-b007",
+      "scene_id": "parents-grief",
+      "spoken_text": "Then I remembered my mother.\n\nThe thought hit hard enough that I sat back down.\n\nFor several seconds I let myself be stupid about it.\n\nMaybe.\n\nMaybe the reset went far enough.\n\nMaybe she was somewhere across the city buying bread. Maybe my father was arguing with someone about tools. Maybe there was a house I could walk to and knock on the door and watch two dead people become alive because I had been given enough time to reach them.\n\nI knew the answer before I checked.\n\nI checked anyway.\n\nMy parents had already died.\n\nYears before nineteen.\n\nThe miracle stopped exactly short of them.\n\nI stared at the floor.\n\nThere were things I had forgotten about grief because grief itself had gotten old. It had worn smooth. The edges had gone away.\n\nApparently the edges were still stored somewhere.\n\nI sat there until the neighbor started snoring again.\n\nStill no name.\n\nThat helped, strangely.\n\nMemory was not a perfect archive.\n\nGood.\n\nIf it had been perfect, I might have trusted it.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "overconfident and future-facing",
+        "intention": "let hope arrive before grief, then let ordinary sound pull Greg back without cheapening the loss",
+        "physical_context": "Greg sits back on the bed and checks whether the reset reaches his parents",
+        "pace": "give the maybes space; do not swell into melodrama; let the neighbor snore gently break the stillness",
+        "continuity": "confidence spike is interrupted by the first thing the second life cannot return",
+        "listener_risks": ["The grief turn must feel human, not engineered for a sad beat. Underplay \"Good.\""]
+      }
+    },
+    {
+      "id": "ga-001-b008",
+      "scene_id": "memory-method",
+      "spoken_text": "I found paper.\n\nOld habit.\n\nI wrote three headings.\n\nWhat I know.\n\nWhat I remember.\n\nWhat I can check.\n\nThen stared at them.\n\nThe categories began failing immediately.\n\nDid I know the Northern Gate collapsed in the year I remembered, or did I remember the anniversary people celebrated later?\n\nDid I know a merchant family became rich from river shipping, or remember the version of their history they paid to have repeated?\n\nDid I know Soren died in the Red Winter, or only that I had met him after it with a scar he claimed came from there?\n\nMemory kept handing me outcomes with the causes rubbed off.\n\nI wrote one sentence under all three headings.\n\nUse the future as a lead. Make the present prove it.\n\nThat was sensible.\n\nI liked it.\n\nWhich made me suspicious.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "grief settling into method",
+        "intention": "turn loss into a practical epistemic rule without making it a grand thesis speech",
+        "physical_context": "Greg sits with paper and tries to sort old-life knowledge",
+        "pace": "steady, thoughtful, slightly dry at the end",
+        "continuity": "neighbor snore reminded Greg memory is incomplete",
+        "listener_risks": ["Read the three headings distinctly enough to retain them without sounding like a listicle."]
+      }
+    },
+    {
+      "id": "ga-001-b009",
+      "scene_id": "sword-basin-failure",
+      "spoken_text": "I put the paper down.\n\nThe sword waited in the corner.\n\nI picked it up again.\n\nOne cut.\n\nWorse than I wanted.\n\nAgain.\n\nBetter.\n\nI tried a side step the way I remembered S-class duelists doing it. Small and almost lazy. Barely enough to move the target.\n\nMy feet crossed.\n\nI nearly fell into the basin.\n\nWater jumped over the rim.\n\nI caught myself on the wall.\n\nThe cracked basin did not survive the correction gracefully. A thin line of water began crawling down the outside.\n\nI stared at it.\n\n\"Excellent.\"\n\nThree copper.\n\nBroken basin.\n\nAlmost no mana.\n\nBronze token.\n\nBad footwork.\n\nForty years of useful information.\n\nProbably.\n\nThis felt more familiar.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "newly cautious but still unable to resist testing",
+        "intention": "physically puncture Greg's clean theory with a small ridiculous failure",
+        "physical_context": "Greg resumes sword practice beside the cracked washbasin",
+        "pace": "quick physical beat; leave a dry beat before and after Excellent; inventory should feel like rueful accounting",
+        "continuity": "Greg has just created a sensible evidence rule",
+        "listener_risks": ["Do not overplay the basin gag. The joke is the material consequence."]
+      }
+    },
+    {
+      "id": "ga-001-b010",
+      "scene_id": "leave-for-guild",
+      "spoken_text": "I dried the floor with the coat I had not yet decided whether I still liked, dressed, tied the sword at my hip, and stepped into the street.\n\nI had spent decades learning that the fastest way to understand a system was to find where it resisted you.\n\nThe Guild had resisted me in both lives.\n\nIt seemed polite to begin there.",
+      "direction": {
+        "narrator_mode": "narration",
+        "entering_state": "grounded, amused, ready to act",
+        "intention": "end on forward motion rather than another internal promise",
+        "physical_context": "Greg cleans the mess, dresses, and leaves the room for the Guild",
+        "pace": "clean and confident, with a small smile in the final line",
+        "continuity": "the room has proven both the miracle and Greg's current limitations",
+        "listener_risks": ["Final line should invite continuation, not sound like a trailer tag."]
+      }
+    }
+  ]
+}
