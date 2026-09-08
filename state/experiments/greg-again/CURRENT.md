@@ -10,17 +10,35 @@ Greg, Again is the second-run style experiment for Peg-Leg Greg.
 
 It is not merely an audiobook conversion and not merely a prose polish pass.
 
-The working hypothesis is:
+The current hypothesis under pressure is:
 
-> **Greg owns the linguistic surface. Other characters still own their actions.**
+> **Greg may own the linguistic surface while other characters still own their actions.**
 
-The audience should live unusually close to Greg's consciousness. The world remains independent of him, but most of what other people communicate reaches the audience through Greg's perception, reaction, interpretation, misinterpretation, and memory rather than through routine transcript-style dialogue.
+This is not locked style authority.
 
-Default:
+The experiment now explicitly tests multiple degrees of Greg mediation rather than assuming the most extreme version is best.
 
-> **If another character's exact words are not the event, Greg gets the event, not the transcript.**
+Use:
 
-This rule may create chapters with zero quoted secondary dialogue.
+`state/experiments/greg-again/LENS_HARNESS.md`
+
+The harness contains the five active safeguards:
+
+1. subjective lens rehearsal — LIGHT / GREG-DOMINANT / EXTREME
+2. outside-agency lock
+3. voice-breach gate
+4. anti-flattening + anti-tic QC
+5. failure-to-learning promotion discipline
+
+## Working pressure
+
+When the Greg-dominant lens is selected:
+
+> **If another character's exact words are not the event, Greg may get the event rather than the transcript.**
+
+This may create scenes with zero quoted secondary dialogue, but zero dialogue is not a target.
+
+The system is allowed to conclude that a scene wants conventional dialogue or sustained outside voices.
 
 ## What this is not
 
@@ -37,7 +55,10 @@ Greg can be wrong about what another person means. Another person can start or r
 ```text
 R2 STORY / PERFORMANCE
         ↓
-GREG-SUBJECTIVE SCENE
+SUBJECTIVE LENS REHEARSAL
+ LIGHT / GREG-DOMINANT / EXTREME
+        ↓
+SELECTED GREG-SUBJECTIVE SCENE
         ↓
    ┌─────────────┐
    │             │
@@ -47,7 +68,7 @@ GREG-SUBJECTIVE SCENE
    └──── same lived scene ────┘
 ```
 
-The audio and prose versions do not need identical wording.
+The audio and prose versions do not need identical wording or identical lens strength if the medium proves it wants a different treatment.
 
 ### Audio
 
@@ -56,19 +77,20 @@ Optimize for one-pass listening:
 - breath-sized thought movement
 - attention interruptions
 - vocal resets and self-corrections
-- aggressive compression of routine conversational ping-pong
-- direct secondary speech only when the voice itself matters
+- compression of routine conversational ping-pong when earned
+- direct secondary speech when the voice itself matters
 - first-listen speaker clarity
 
 ### Prose
 
-Render the same Greg-subjective scene for reading:
+Render the same lived scene for reading:
 
 - restore useful paragraph architecture
 - allow denser spatial/material detail when it reads well
 - remove audio-only fragmentation that becomes visually fussy
-- preserve Greg's associative movement and linguistic ownership
+- preserve Greg's associative movement when it remains interesting on the page
 - do not automatically restore conventional dialogue merely because prose can support it
+- do not preserve audio tics merely because they helped synthesis
 
 ## Current proving material
 
@@ -82,14 +104,11 @@ Current full audio subjective cut:
 
 `state/experiments/greg-again/audio/chapters/001/subjective-cut-002.md`
 
-The Chapter 1 audio cut already largely satisfies the new rule because almost nobody else speaks. Do not rewrite it merely to manufacture stylistic difference.
+Page-native round trip:
 
-Use it primarily to test:
+`state/experiments/greg-again/prose/001-the-boy.md`
 
-- Greg's continuous subjective track
-- vocal surface
-- attention gravity
-- whether the listener stops noticing the synthetic narrator and simply follows Greg
+Chapter 1 primarily tests Greg continuity, vocal surface, attention gravity, and whether audio discoveries survive a return to readable prose.
 
 ### Chapter 2 — Two Things
 
@@ -97,32 +116,61 @@ R2 prose control:
 
 `state/experiments/plg-r2/prose/002-two-things.md`
 
-This is the first useful stress test for the new linguistic-surface rule because Sella, the yard instructor, and Jorren all exert real agency through dialogue-heavy scenes.
+Extreme stress test:
 
-The experimental audio cut should deliberately test whether their agency survives after most or all quoted secondary dialogue is removed.
+`state/experiments/greg-again/audio/chapters/002/subjective-cut-001.md`
+
+Lens evaluation:
+
+`state/experiments/greg-again/evals/002-two-things.md`
+
+Chapter 2 deliberately overcranks the lens to zero quoted secondary dialogue. It is evidence, not the preferred answer.
+
+The next useful comparison is a **GREG-DOMINANT** pass that keeps the extreme cut's continuity while restoring only voice breaches that clearly beat Greg's mediation.
+
+The current strongest suspected breach is the instructor's `fight or assemble furniture` line because its exact wording carries both joke and character.
 
 ## Acceptance test
 
-Do not approve this style because it is unusual.
+Do not approve a style because it is unusual.
 
 Ask:
 
-1. Is Greg more compelling to inhabit?
-2. Do supporting characters still feel independent and alive?
-3. Does the scene remain easy to follow on first listen?
-4. Does direct speech become more powerful because it is rarer?
-5. Does the prose version still read like a novel rather than a transcript of an audio script?
-6. After several minutes of audio, does attention move to Greg and the story rather than the AI voice?
+1. Is this treatment more interesting?
+2. Is Greg more compelling to inhabit?
+3. Do supporting characters still feel independent and alive?
+4. Does the scene remain easy to follow on first listen/read?
+5. Does direct speech become more powerful because it is selective, or merely rarer?
+6. Does the prose version still read like a novel rather than a transcript of an audio script?
+7. Does the selected lens beat the available control for this scene?
+8. After several minutes of audio, does attention move to Greg and the story rather than the AI voice?
 
-If the answer to #2 fails, the style is too Greg-totalizing.
+If outside-character life fails, reduce Greg mediation or restore embodiment/voice.
 
-If the answer to #5 fails, the audio grammar has been copied back to prose too literally.
+If the prose becomes visually mannered, keep the discovery and rerender the page rather than copying audio syntax.
+
+If LIGHT wins, use LIGHT.
+
+If EXTREME wins, use EXTREME.
+
+The experiment has no prestige hierarchy.
+
+## Promotion discipline
+
+One good scene does not create doctrine.
+
+Record repeated wins and losses across materially different scene types before allowing STORY SYNC to infer a stronger style prior.
+
+Useful calibration classes include solo exploration, bureaucracy/negotiation, training/action, ensemble interaction, intimacy/relationship movement, mundane work, and high-emotion confrontation.
+
+Failures are evidence. Preserve why a treatment lost instead of silently deleting it.
 
 ## Current next move
 
-1. Keep Chapter 1 Subjective Cut 002 as the rendered audio baseline.
-2. Produce a page-native Chapter 1 prose round-trip from that subjective cut without replacing the R2 control.
-3. Produce a Chapter 2 audio subjective cut with secondary direct speech treated as expensive and optional.
-4. Compare against the existing R2 prose before promoting anything.
+1. Keep Chapter 1 as the audio/prose round-trip baseline.
+2. Keep Chapter 2 EXTREME as the overcranked stress test.
+3. Produce one Chapter 2 GREG-DOMINANT pass with only earned voice breaches restored.
+4. Compare LIGHT-ish control vs GREG-DOMINANT vs EXTREME on interestingness and supporting-character life.
+5. Stop after that comparison unless it reveals a repeated failure or clearly useful next calibration scene.
 
 No canon promotion is implied by this experiment.
