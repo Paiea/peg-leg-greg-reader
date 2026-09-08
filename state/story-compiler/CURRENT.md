@@ -2,7 +2,7 @@
 
 **Status:** canonical continuation trailhead for the active experiment
 
-**Architecture version:** `story-compiler/rehearsal-led-temporal-slabs-v2`
+**Architecture version:** `story-compiler/rehearsal-led-temporal-slabs-v3-time-action-pressure`
 
 **Authority branch:** `architecture/long-form-story-compiler`
 
@@ -10,9 +10,13 @@
 
 **Machine-facing sibling:** `state/story-compiler/CURRENT.json`
 
+**Time/action contract:** `state/story-compiler/TIME_ACTION.md`
+
 ## Core model
 
 The compiler is solving for one dramatically alive story trajectory through time rather than predicting the next chapter. Four persistent temporal perspectives maintain local speculative realities and boundary beliefs. They mainly identify consequential questions worth testing. **REHEARSAL is the broader experimental layer that chooses the cheapest useful test for an uncertain story hypothesis. PERFORMANCE is one high-fidelity behavioral representation available inside REHEARSAL, not the universal story representation.** STORY SYNC learns from repeated, independent, useful evidence and conservatively updates shared story state. Prose is downstream rendering. Accepted canon prose remains final story authority.
+
+The compiler now also treats **elapsed time** and **action residue** as explicit causal pressure. Temporal continuity alone is not enough: a long story can remember every event and still feel as if the camera never turned off.
 
 ```text
 STORY STATE = MEMORY
@@ -20,6 +24,8 @@ FOUR ACT CHANNELS = TEMPORAL PERSPECTIVES
 REHEARSAL = EXPERIMENT SELECTION / ORCHESTRATION
 PERFORMANCE = HIGH-FIDELITY EMBODIED BEHAVIOR TEST
 STORY SYNC = LEARNING + CONVERGENCE
+TIME = OFF-CAMERA CAUSALITY + ELAPSED PRESSURE
+ACTION = STATE CHANGE UNDER PRESSURE
 PROSE = RENDERING
 ```
 
@@ -75,6 +81,72 @@ An act's job is to discover a compelling lived trajectory that can transform its
 
 Adjacent `STATE OUT` / `STATE IN` mismatches are explicit boundary contradictions. Do not hide them with generic connective prose. Long-range messages may skip acts in either direction. Convergence means increasing temporal compatibility across the whole trajectory, not four completed outlines.
 
+## TIME + ACTION pressure
+
+Temporal slabs solve large-scale compatibility. They do **not** by themselves guarantee felt time inside the lived story. The compiler therefore has a separate derived pressure contract:
+
+`state/story-compiler/TIME_ACTION.md`
+
+Operational helper:
+
+`scripts/story_time_action.py`
+
+### Time rule
+
+Ask:
+
+> What changed because time passed, including while the camera was off?
+
+Supported gap modes:
+
+- `continuous_scene`
+- `compressed_repetition`
+- `off_camera_gap`
+- `deliberate_skip`
+
+Track candidate elapsed effects such as:
+
+- off-camera changes
+- larger earned growth
+- decay / stiffness / social drift
+- missed opportunities
+- routine changes
+- people or institutions acting independently
+
+Do not solve this by inserting `three days later` mechanically. Changed state can prove elapsed time more strongly than explicit timestamps.
+
+### Action rule
+
+Ask:
+
+> What changed because somebody acted under pressure?
+
+Action is broader than combat. It may include movement, fighting, sex, work, gambling, negotiation, thought, speech, refusal, rescue, logistics, or choosing not to act when those constrain what can happen next.
+
+Track:
+
+- pressure sources
+- physical constraints
+- state changes
+- material / bodily / economic / relational / procedural residue
+- changed win conditions
+- independent vectors from supporting characters and systems
+
+The helper explicitly warns on:
+
+- `time_gap_without_state_change`
+- `action_without_residue`
+
+These are review signals, not automatic invalidation. Some intervals may deliberately be transient. The system must ask rather than assume.
+
+### No quota rule
+
+Do not add action on a schedule. Do not add time jumps on a schedule.
+
+The target is **temporal texture + causal residue**, not speed.
+
+A long-form story may legitimately spend many pages inside one day and then skip six weeks. It may show a quiet meal whose social state changes permanently and omit thirty routine training sessions that earned a much larger physical gain.
+
 ## Forward compiler rule
 
 Ask:
@@ -105,6 +177,9 @@ An act repeatedly asks:
 - which competing possibility would materially alter the book?
 - where do local beliefs conflict with another temporal slab?
 - what promising state needs evidence?
+- what could legitimately change across an elapsed gap?
+- what would decay, disappear, or become obsolete if time passes?
+- what active event would leave enough residue to justify showing it?
 
 Those become REHEARSAL targets.
 
@@ -151,7 +226,7 @@ Do not prescribe emotional or behavioral outcomes simply because the current str
 
 ### Temporal / 4D rehearsal
 
-REHEARSAL may test separated temporal coordinates before intervening prose exists. Early, middle, and late relationship/worldline states can be compared for continuity, missing transformations, implied history, implied future, and false-character requirements.
+REHEARSAL may test separated temporal coordinates before intervening prose exists. Early, middle, and late relationship/worldline states can be compared for continuity, missing transformations, implied history, implied future, false-character requirements, elapsed growth, decay, and missed opportunity.
 
 This may use cheap state/trajectory tests first. Escalate to PERFORMANCE only where embodied behavior is actually the uncertainty.
 
@@ -165,6 +240,9 @@ Do not keep every performed or probed token hot. After evaluation, reduce routin
 - causal consequence
 - prerequisite
 - contradiction
+- elapsed-time effect
+- action residue
+- changed win condition
 - candidate branch strengthened / weakened / invalidated
 - unresolved question
 - confidence
@@ -177,6 +255,8 @@ Preserve full rehearsal/PERFORMANCE artifacts only when materially useful as cas
 STORY SYNC remains the convergence authority for derived story state. REHEARSAL/PERFORMANCE evidence does not automatically determine truth. One excellent take remains one take.
 
 SYNC evaluates independent recurrence, dramatic usefulness, cross-act compatibility, forward/backward agreement, challenge survival, contradiction, retrofit cost, causal reach, reader promise, and character truth. Viable divergence remains alive until evidence earns convergence.
+
+Time/action pressure does not gain promotion authority. It only exposes causal gaps that STORY SYNC or REHEARSAL may choose to test.
 
 ## Creator-taste role
 
@@ -194,6 +274,7 @@ Keep hot:
 - current forward/backward messages
 - compact recent rehearsal evidence
 - active STORY SYNC discoveries / contradictions
+- current time/action pressure only when it materially affects interval viability
 
 Let go cold:
 
@@ -222,7 +303,12 @@ Historical full evidence remains addressable by provenance when useful.
 - derived delta integration
 - delegation of shared maturity back to STORY SYNC
 - bounded Dragon Spotter first-bargain HIGH-HEAT PERFORMANCE evidence
-- focused STORY SYNC + persistent-runtime suite green at the first runtime implementation head
+- `scripts/story_time_action.py` derived time/action pressure contract
+- four explicit gap modes
+- elapsed growth / decay / missed-opportunity / routine-change tracks
+- action pressure / residue / changed-win-condition / independent-vector tracks
+- missing temporal-weight and missing action-residue warnings
+- focused tests for the time/action contract
 
 ## Still hypothesis / not yet proven
 
@@ -234,6 +320,8 @@ Historical full evidence remains addressable by provenance when useful.
 - compact evidence can replace routine transcripts without losing useful story memory
 - persistent baseline heartbeat remains useful late in convergence
 - exact point where converged lived story is stable enough for sustained prose rendering
+- explicit elapsed-time pressure materially reduces accidental camera-on-every-day long-form generation
+- action-residue pressure increases event density without turning slice-of-life into action quota
 
 ## Active experiment
 
@@ -253,14 +341,16 @@ Strong current hypotheses include reciprocal dragon obligation and observation-d
 - full-evidence retention threshold for permanent case law
 - how creator-taste search priority combines with the persistent-act scheduler after its current RED seam is green
 - when story truth is stable enough to trigger prose rendering
+- which time/action warnings should become automatic REHEARSAL targets versus remain renderer/evaluator questions
 
 ## Exact next executable step
 
 1. Finish the already-isolated creator-taste compatibility seam so the full repository suite is green without increasing taste authority.
-2. Write RED runtime tests for a generic REHEARSAL target contract whose `experiment_mode` can be plausibility, state-transition, trajectory, forward, backward, counterfactual, temporal-distance, or PERFORMANCE, with `PROBE / DEVELOPMENT / HIGH_HEAT` escalation.
-3. Implement the smallest adapter in `persistent_act_runtime.py` that turns open act/boundary/message uncertainty into those targets and consumes compact returned evidence into derived deltas for STORY SYNC.
-4. Add one derived-only runtime-cycle entry point in `plg_ai_tools.py`.
-5. Run the existing Dragon Spotter first-bargain evidence through the loop without restarting story state or writing canon prose.
+2. Keep the new time/action pressure contract available to interval design, temporal rehearsal, and rendering evaluation; do not make it a quota system.
+3. Write RED runtime tests for a generic REHEARSAL target contract whose `experiment_mode` can be plausibility, state-transition, trajectory, forward, backward, counterfactual, temporal-distance, or PERFORMANCE, with `PROBE / DEVELOPMENT / HIGH_HEAT` escalation.
+4. Implement the smallest adapter in `persistent_act_runtime.py` that turns open act/boundary/message uncertainty into those targets and consumes compact returned evidence into derived deltas for STORY SYNC.
+5. Add one derived-only runtime-cycle entry point in `plg_ai_tools.py`.
+6. Run the existing Dragon Spotter first-bargain evidence through the loop without restarting story state or writing canon prose.
 
 Do not build another planning engine before evidence shows REHEARSAL cannot discover the missing structure.
 
@@ -270,6 +360,7 @@ Do not build another planning engine before evidence shows REHEARSAL cannot disc
 - `docs/superpowers/specs/2026-09-07-persistent-act-channel-runtime.md`
 - `docs/superpowers/specs/2026-09-07-persistent-four-act-convergence-design.md`
 - `docs/superpowers/specs/2026-09-07-creator-taste-prior-design.md`
+- `state/story-compiler/TIME_ACTION.md`
 - `state/experiments/dragon-spotter/story-sync/`
 
 Fresh chats should start here, then open older material only for specific provenance or implementation details.
