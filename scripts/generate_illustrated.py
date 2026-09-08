@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import sys
 from pathlib import Path
@@ -14,13 +15,20 @@ if str(ROOT) not in sys.path:
 
 from generate_light import Chapter, load_all_sources, selected_numbers
 from showcase import ShowcaseMap, build_identity_showcase_map, build_showcase_map, load_showcase_manifest
-from scripts.illustration_state import load_registry
+from scripts.illustration_state import PRESENTATION_ROLES, load_registry
 
 CHAPTERS_DIR = Path("chapters")
 ART_ROOT = Path("visual/chapter_art")
 REGISTRY_PATH = Path("state/visual/ILLUSTRATION_REGISTRY.json")
+PRESENTATION_PATH = Path("state/visual/READER_PRESENTATION.json")
 SHOWCASE_MANIFEST = Path("publishing/showcase_chapters.json")
 ART_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".svg"}
+PRESENTATION_CLASSES = {
+    "sketch-beat": "chapter-art sketch-beat",
+    "scene-illustration": "chapter-art scene-illustration",
+    "feature-illustration": "chapter-art feature-illustration",
+    "feature-portrait": "chapter-art feature-illustration feature-portrait",
+}
 
 
 def chapter_art(number: int) -> list[Path]:
@@ -30,7 +38,21 @@ def chapter_art(number: int) -> list[Path]:
     return sorted(path for path in directory.iterdir() if path.is_file() and path.suffix.lower() in ART_EXTENSIONS)
 
 
-def _art_figure(path: Path, number: int, record: dict | None = None) -> str:
+def _presentation_class(presentation: dict | None) -> str:
+    role = "scene-illustration"
+    if isinstance(presentation, dict) and presentation.get("presentation_role") is not None:
+        role = presentation.get("presentation_role")
+    if role not in PRESENTATION_ROLES or role not in PRESENTATION_CLASSES:
+        raise ValueError(f"invalid illustration presentation role: {role!r}")
+    return PRESENTATION_CLASSES[role]
+
+
+def _art_figure(
+    path: Path,
+    number: int,
+    record: dict | None = None,
+    presentation: dict | None = None,
+) -> str:
     src = "../" + path.as_posix()
     alt_text = f"A story scene from Chapter {number}."
     caption = ""
@@ -41,8 +63,16 @@ def _art_figure(path: Path, number: int, record: dict | None = None) -> str:
             alt_text = registry_alt.strip()
         if isinstance(registry_caption, str) and registry_caption.strip():
             caption = registry_caption.strip()
+    if presentation:
+        presentation_alt = presentation.get("alt_text")
+        presentation_caption = presentation.get("caption")
+        if isinstance(presentation_alt, str) and presentation_alt.strip():
+            alt_text = presentation_alt.strip()
+        if isinstance(presentation_caption, str) and presentation_caption.strip():
+            caption = presentation_caption.strip()
+    figure_class = _presentation_class(presentation)
     parts = [
-        '<figure class="chapter-art scene-illustration">',
+        f'<figure class="{html.escape(figure_class, quote=True)}">',
         f'<img src="{html.escape(src, quote=True)}" alt="{html.escape(alt_text, quote=True)}" loading="lazy"/>',
     ]
     if caption:
@@ -55,16 +85,38 @@ def _asset_key(path: Path) -> str:
     return path.as_posix().lstrip("./")
 
 
+def load_reader_presentation(path: Path = PRESENTATION_PATH) -> dict[str, dict]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list) or not all(isinstance(record, dict) for record in data):
+        raise ValueError("reader presentation must be a JSON list of objects")
+    result: dict[str, dict] = {}
+    for record in data:
+        asset = record.get("asset")
+        if not isinstance(asset, str) or not asset.strip():
+            raise ValueError("reader presentation record requires asset")
+        role = record.get("presentation_role", "scene-illustration")
+        if role not in PRESENTATION_ROLES:
+            raise ValueError(f"reader presentation has invalid presentation_role: {role!r}")
+        if asset in result:
+            raise ValueError(f"duplicate reader presentation asset: {asset}")
+        result[asset] = dict(record)
+    return result
+
+
 def prose_with_art(
     prose_html: str,
     art: list[Path],
     number: int,
     registry_by_asset: dict[str, dict] | None = None,
+    presentation_by_asset: dict[str, dict] | None = None,
 ) -> str:
     if not art:
         return prose_html
 
     registry_by_asset = registry_by_asset or {}
+    presentation_by_asset = presentation_by_asset or {}
     anchored: list[tuple[Path, dict]] = []
     floating: list[Path] = []
     for path in art:
@@ -80,7 +132,13 @@ def prose_with_art(
         rendered = prose_html
         if floating:
             rendered += "\n" + "\n".join(
-                _art_figure(path, number, registry_by_asset.get(_asset_key(path))) for path in floating
+                _art_figure(
+                    path,
+                    number,
+                    registry_by_asset.get(_asset_key(path)),
+                    presentation_by_asset.get(_asset_key(path)),
+                )
+                for path in floating
             )
     else:
         slots: dict[int, list[Path]] = {}
@@ -92,7 +150,14 @@ def prose_with_art(
         for idx, paragraph in enumerate(paragraphs, start=1):
             rendered_parts.append(paragraph)
             for path in slots.get(idx, []):
-                rendered_parts.append(_art_figure(path, number, registry_by_asset.get(_asset_key(path))))
+                rendered_parts.append(
+                    _art_figure(
+                        path,
+                        number,
+                        registry_by_asset.get(_asset_key(path)),
+                        presentation_by_asset.get(_asset_key(path)),
+                    )
+                )
         rendered = "\n".join(rendered_parts)
 
     for path, record in anchored:
@@ -104,7 +169,18 @@ def prose_with_art(
                 f"illustration {record.get('id', _asset_key(path))} paragraph anchor must occur exactly once; "
                 f"found {count}: {anchor!r}"
             )
-        rendered = rendered.replace(target, target + "\n" + _art_figure(path, number, record), 1)
+        rendered = rendered.replace(
+            target,
+            target
+            + "\n"
+            + _art_figure(
+                path,
+                number,
+                record,
+                presentation_by_asset.get(_asset_key(path)),
+            ),
+            1,
+        )
 
     return rendered
 
@@ -126,10 +202,11 @@ def render_chapter(
     numbers_or_art: list[int] | list[Path],
     art_or_showcase: list[Path] | ShowcaseMap,
     registry_by_asset: dict[str, dict] | None = None,
+    presentation_by_asset: dict[str, dict] | None = None,
 ) -> str:
     """Render a chapter with Showcase support while preserving the legacy call shape.
 
-    New call: render_chapter(chapter, art, showcase, registry)
+    New call: render_chapter(chapter, art, showcase, registry, presentation)
     Legacy call: render_chapter(chapter, all_numbers, art, registry)
     """
     if isinstance(art_or_showcase, ShowcaseMap):
@@ -156,7 +233,13 @@ def render_chapter(
         following_display = showcase.showcase_number(following)
         next_link = f'<a rel="next" href="{following:03d}.html">Chapter {following_display} →</a>'
 
-    prose = prose_with_art(chapter.prose_html, art, chapter.number, registry_by_asset)
+    prose = prose_with_art(
+        chapter.prose_html,
+        art,
+        chapter.number,
+        registry_by_asset,
+        presentation_by_asset,
+    )
     title = html.escape(chapter.title)
     title_case = html.escape(chapter.title.title())
     return f'''<!DOCTYPE html>
@@ -178,12 +261,24 @@ def main() -> int:
         print(f"no visible Illustrated Reader chapters for {args.range}")
         return 0
     registry = load_registry(REGISTRY_PATH, root=Path(".")) if REGISTRY_PATH.exists() else []
+    presentation = load_reader_presentation()
     CHAPTERS_DIR.mkdir(parents=True, exist_ok=True)
     for number in wanted:
         chapter = all_chapters[number]
         placement = live_registry_for_chapter(registry, number)
+        chapter_presentation = {
+            asset: record
+            for asset, record in presentation.items()
+            if record.get("chapter") == number
+        }
         (CHAPTERS_DIR / f"{number:03d}.html").write_text(
-            render_chapter(chapter, chapter_art(number), showcase, placement),
+            render_chapter(
+                chapter,
+                chapter_art(number),
+                showcase,
+                placement,
+                chapter_presentation,
+            ),
             encoding="utf-8",
         )
     print(f"generated {len(wanted)} visible Illustrated Reader chapters: {wanted[0]}-{wanted[-1]}")
