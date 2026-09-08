@@ -1,182 +1,170 @@
 # Greg, Again — Chapter 3 Lens Calibration
 
-Status: **QUEUED CALIBRATION / NON-CANON**
+Status: **HOSTILE TEST COMPLETE / NON-CANON**
 
 Control: `state/experiments/plg-r2/prose/003-the-borrower.md`
 
 Harness: `state/experiments/greg-again/LENS_HARNESS.md`
 
-Chapter 2 prior: strong Greg mediation can improve continuity, but outside language should survive when exact wording carries character, leverage, or rule-breaking.
+Targeted rehearsal: `state/experiments/greg-again/rehearsals/003-arlo-vale-hostile-test.md`
 
-## Why Chapter 3 is the next useful test
+Chapter 2 prior: strong Greg mediation can improve continuity, but outside language should survive when exact wording carries character, leverage, humor, rule-breaking, or a binding change in story state.
 
-Chapter 3 is hostile to a simplistic `Greg owns everything` rule.
+## Why Chapter 3 was hostile
 
-The scene contains:
+Chapter 3 contains market bargaining, technical uncertainty with Arlo, accidental disclosure of future knowledge, loan negotiation with Antonius Vale, explicit rates and consequences, and Greg immediately misusing new capital.
 
-- market bargaining
-- technical uncertainty with Arlo
-- accidental disclosure of future knowledge
-- loan negotiation with Antonius Vale
-- explicit terms, rates, collateral, and consequences
-- Greg making an expensive scale mistake after receiving money
-
-In several of these interactions, **the other person's wording is part of the causal mechanism**. A loan term is not merely flavor. A technical objection is not merely characterization. The chapter therefore tests whether the lens can distinguish language-as-information from language-as-action.
+This is exactly where a simplistic `Greg owns everything` rule can damage the story. Some words here are not just voice. They falsify claims, set prices, create obligations, refuse terms, or expose information Greg cannot safely absorb into retrospective summary.
 
 ## Outside-agency lock
 
 ### Masonry stall owner
 
-**WANT**
+**WANT** — sell material, avoid wasted time, profit from an odd young customer.
 
-Sell material, avoid wasting time, and profit from a strange young customer who suddenly wants low-value shale.
+**ACTION** — sells Greg a bucket, later sells the cart, then charges storage when Greg creates his own logistics problem.
 
-**ACTION**
+**SCENE DELTA** — turns cheap shale into weight, transport, storage, and embarrassment.
 
-She questions Greg's purpose, sells him a small amount, later benefits when he irrationally scales up, and charges storage after his purchase creates a logistics problem.
+**GREG MISREAD** — treats cheap material as leverage before respecting the system around owning it.
 
-**SCENE DELTA**
-
-She turns Greg's future-knowledge hypothesis into immediate material cost and later profits from his overconfidence twice.
-
-**GREG MISREAD**
-
-Greg initially treats cheap shale as leverage before respecting weight, transport, storage, and the seller's ability to monetize his mistake.
-
-**CONTINUATION**
-
-If Greg disappears, she keeps selling masonry material and charging people for space when opportunity appears.
+**CONTINUATION** — keeps selling stone and monetizing space whether Greg returns or not.
 
 ### Arlo Arwick
 
-**WANT**
+**WANT** — protect his time, keep his workshop functional, understand why Greg knows too much, and test only claims that can survive evidence.
 
-Protect his time, keep his workshop functional, test only ideas worth testing, and understand why a suspicious nineteen-year-old knows his family name and technical possibilities he has not mentioned.
+**ACTION** — challenges Greg's basis, notices the family-name leak, charges for expertise, runs tests, records failure, and changes procedure only when Greg gives him something testable.
 
-**ACTION**
+**SCENE DELTA** — separates future outcome knowledge from present technical competence.
 
-He challenges Greg's assumptions, charges for his expertise, refuses to treat memory as evidence, runs actual tests, records failures, and changes procedure only when Greg offers a falsifiable enough lead.
+**GREG MISREAD** — wants the Arwick name to be confirmation before current evidence earns it.
 
-**SCENE DELTA**
-
-Arlo forces Greg to separate future outcome knowledge from present technical competence. He converts Greg's remembered product into a real experimental problem.
-
-**GREG MISREAD**
-
-Greg wants Arlo to be the remembered future answer because the Arwick name matches. Arlo is currently only evidence, not confirmation.
-
-**CONTINUATION**
-
-If Greg disappears, Arlo keeps repairing and experimenting, charging for his time, and building competence on evidence rather than Greg's story.
+**CONTINUATION** — keeps experimenting and building competence without Greg.
 
 ### Antonius Vale
 
-**WANT**
+**WANT** — price risk, make profitable loans, understand Greg, preserve leverage on failure.
 
-Price risk correctly, make profitable loans, learn what kind of nineteen-year-old asks for forty silver without collateral, and preserve leverage if the borrower fails.
+**ACTION** — rejects forty silver, forces the ask down, holds the line on term and rate, defines labor consequences, and lends only when the deal pays for the risk.
 
-**ACTION**
+**SCENE DELTA** — turns money pressure into an eight-day clock with enforceable consequences.
 
-He rejects Greg's first ask, forces him to shrink it, negotiates term and interest, defines labor consequences, and advances money only when the deal becomes worth his risk.
+**GREG MISREAD** — knows future Vale and risks treating familiarity as present leverage.
 
-**SCENE DELTA**
-
-Vale turns abstract money pressure into a deadline with enforceable consequences. The loan converts Greg's curiosity into a timed financial experiment.
-
-**GREG MISREAD**
-
-Greg knows future Vale's reputation and risks treating that familiarity as relationship or leverage that does not yet exist.
-
-**CONTINUATION**
-
-If Greg disappears, Vale lends to someone else, prices another risk, and continues becoming the person Greg remembers without needing Greg's participation.
+**CONTINUATION** — lends elsewhere and keeps becoming the person Greg remembers.
 
 ### Rusk
 
-**WANT**
+**WANT** — be entertained and participate in Vale's room.
 
-Be entertained, assist Vale's operation, and react to the absurd Bronze borrower in front of him.
+**ACTION** — laughs at Greg's pitch, adds social pressure, and becomes visible enough for Vale to manage him.
 
-**ACTION**
+**SCENE DELTA** — makes the negotiation less private and more humiliating.
 
-He laughs at Greg's leverage and becomes a social pressure inside the negotiation. Vale eventually tells him to stop encouraging Greg.
+**GREG MISREAD** — initially treats him as noise rather than part of Vale's present system.
 
-**SCENE DELTA**
+**CONTINUATION** — stays part of the operation and finds other bad pitches funny.
 
-Rusk makes the room less private and increases the humiliation/risk texture of Greg's ask.
+## Targeted lens result
 
-**GREG MISREAD**
+### Arlo boundary
 
-Greg initially treats him as an annoyance before recognizing that even peripheral people in the room belong to Vale's present system.
+**LIGHT** preserves Arlo's voice but falls into conventional question-answer rhythm just where Greg's epistemic problem is most interesting.
 
-**CONTINUATION**
+**EXTREME** preserves Greg's uncertainty but weakens Arlo into summarized skepticism.
 
-If Greg disappears, Rusk remains part of Vale's operation and keeps finding entertainment in bad pitches.
+**GREG-DOMINANT wins.**
 
-## Lens hypotheses
+Keep Greg as continuity, but let Arlo's shortest skeptical lines break through when they do work Greg cannot do himself:
 
-### LIGHT
+- `Why would I?`
+- `Think?`
+- `You're nineteen.`
+- `Who told you my family name?`
+- `Who?`
+- the six-silver price
+- refusal to cheapen his time
 
-Strong candidate because commercial and loan dialogue already carries pace, terms, humor, and leverage efficiently.
+### Arlo discovery — VOICE AS FALSIFICATION
 
-Risk: the chapter becomes a sequence of good conventional negotiations and loses the unusually continuous Greg-surface discovery from Chapter 2.
+> **Outside speech deserves space when another mind is actively falsifying Greg.**
 
-### GREG-DOMINANT
+This is stronger than preserving dialogue merely because the other character has personality.
 
-Current first candidate.
+### Vale boundary
 
-Compress:
+**LIGHT** makes the bargaining naturally dramatic but temporarily turns the chapter into familiar dialogue choreography.
 
-- routine market questioning
-- repeated price clarification
-- conversational connective tissue that Greg can metabolize without losing causality
+**EXTREME** keeps the financial state technically recoverable but weakens the experience of leverage changing in real time.
 
-Preserve or strongly consider preserving direct language when:
+**GREG-DOMINANT WITH BINDING BREACHES wins.**
 
-- Arlo challenges the basis of Greg's technical claim
-- Greg accidentally reveals Arlo's family name and Arlo demands the source
-- Vale states or changes actual loan terms
-- Greg sets boundaries on failure work
-- Vale accepts or rejects a negotiated condition
-- a line's exact dryness carries Arlo or Vale's identity better than Greg can paraphrase it
+Compress the inventory and connective negotiation. Preserve refusals, hard counters, boundaries, final terms, and acceptance at the moment they change obligations.
 
-### EXTREME
+### Vale discovery — LANGUAGE AS STATE TRANSITION
 
-Use only as a local stress test, not necessarily a full-chapter render.
+> **When language changes obligations, preserve the state transition in the moment rather than summarizing it afterward.**
 
-The chapter may reveal a natural limit of EXTREME because negotiated terms and technical challenges can be performative speech acts. If paraphrasing changes who committed to what, the lens has erased story state.
+Offers, refusals, counters, prices, promises, threats, wagers, consent, deadlines, and final terms may be literal story actions.
 
-## New pressure discovered here
+## Provisional Chapter 3 result
 
-### LANGUAGE CAN BE ACTION
+**Winning lens: GREG-DOMINANT.**
 
-Do not classify dialogue only as `character voice` versus `information`.
+Not because Chapter 2 already preferred it. Chapter 3 independently earns it under a different kind of pressure.
 
-Some language changes the state merely by being spoken and accepted.
+The lens survives only with a stronger outside-voice model:
 
-Examples:
+```text
+GREG MEDIATES CONNECTIVE SPEECH
+OUTSIDE VOICE BREAKS THROUGH FOR:
+- falsification
+- binding state change
+- character-specific leverage
+- memorable humor / intimacy / threat
+- interruption Greg cannot metabolize without losing value
+```
 
-- prices
-- promises
-- threats
-- wagers
-- contracts
-- consent/refusal
-- deadlines
-- orders
-- names revealed unexpectedly
-- negotiated terms
+This does not mean every negotiation wants the same ratio of dialogue. It means the renderer now has a better reason for deciding which outside language remains direct.
 
-When wording constitutes the action, mediation must preserve the exact commitment even if the final rendering does not preserve every quoted sentence.
+## What became more interesting
 
-This is especially important for Greg because he likes systems, money, leverage, and rules. A lens that makes those commitments fuzzy would damage the very material the POV is best suited to notice.
+- Greg's future knowledge stays visibly uncertain instead of becoming authoritative exposition.
+- Arlo feels more intelligent because his voice appears mainly when he challenges Greg's model.
+- Vale feels more dangerous because his direct language clusters around leverage and commitment.
+- Rusk can remain mostly behavioral/social pressure without stealing continuity.
+- Greg remains the dominant linguistic surface without becoming the only mind in the room.
 
-## Calibration question
+## What became less interesting when over-mediated
 
-> **Can GREG-DOMINANT preserve the unusually close Greg experience while allowing other people's language to remain causally binding when words themselves change the state?**
+- technical objections lost force when summarized
+- negotiated counters became bookkeeping instead of conflict
+- final terms felt retrospective rather than binding
+- outside characters became easier for Greg to domesticate into his own explanation
 
-If yes, Chapter 2's prior generalizes beyond training/bureaucracy.
+## QC
 
-If no, negotiation-heavy scenes may want a lighter lens.
+**Flattening risk:** manageable if Arlo/Vale breaches remain tied to causal work.
 
-Do not generate three full versions by default. Use targeted scene rehearsal first on the Arlo technical exchange and the Vale loan negotiation, because those are the highest-information boundaries.
+**Greg tic risk:** moderate. Chapter 3 already contains many short model-updates. Page rendering should consolidate fragments that helped rehearsal but do not help reading.
+
+**Binding-state clarity:** must remain explicit around the eight-day / thirty-five-percent loan and legal-labor consequence.
+
+**Other-character life:** preserved under the outside-agency lock.
+
+## Surviving written-novel prior
+
+After Chapters 2 and 3, the strongest repeated signal is not `less dialogue`.
+
+It is:
+
+> **Greg should own continuity. Other voices should own the moments only they can make happen.**
+
+That is still a prior, not locked style authority.
+
+## Next action
+
+Render one full page-native Chapter 3 from the winning Greg-dominant grammar.
+
+Then move to Chapter 4 without forcing another three-way full-chapter comparison unless Chapter 4 presents a genuinely new failure boundary.
