@@ -37,6 +37,21 @@ def candidate(candidate_id: str, chapter: int) -> dict:
 def main() -> int:
     global_candidate = candidate("global-candidate", 200)
     approved_candidate = candidate("bounded-approved", 5)
+    scene_evidence = {
+        "bounded-approved": {
+            "candidate_id": "bounded-approved",
+            "chapter": 5,
+            "evidence_condition": "prose_temporal",
+            "character_states": {
+                "Greg": {
+                    "state_id": "greg-early-pre-amputation",
+                    "appearance": {"facial_hair": "light beard/stubble/fuzz"},
+                    "body_state": {"left_leg": "intact"},
+                    "mobility_state": {"default": "unassisted"},
+                }
+            },
+        }
+    }
 
     held = build_generation_queue(
         [global_candidate],
@@ -44,10 +59,13 @@ def main() -> int:
         production_hold=HOLD,
         bounded_candidates=[approved_candidate],
         generation_batch_id="definitive-pilot-001",
+        visual_scene_evidence=scene_evidence,
     )
     assert [item["candidate_id"] for item in held] == ["bounded-approved"], held
     assert held[0]["generation_approval"] == "explicit_bounded", held[0]
     assert held[0]["generation_batch_id"] == "definitive-pilot-001", held[0]
+    assert held[0]["visual_scene_evidence"]["evidence_condition"] == "prose_temporal", held[0]
+    assert held[0]["visual_scene_evidence"]["character_states"]["Greg"]["appearance"]["facial_hair"] == "light beard/stubble/fuzz", held[0]
 
     blocked = build_generation_queue(
         [global_candidate],
@@ -66,6 +84,7 @@ def main() -> int:
     assert [item["candidate_id"] for item in open_queue] == ["global-candidate"], open_queue
     assert "generation_approval" not in open_queue[0], open_queue[0]
     assert "generation_batch_id" not in open_queue[0], open_queue[0]
+    assert "visual_scene_evidence" not in open_queue[0], open_queue[0]
 
     reference_candidate = candidate("early-reference-override", 5)
     reference_candidate["characters"] = ["Greg", "Jorren"]
