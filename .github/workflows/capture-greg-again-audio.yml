@@ -34,11 +34,11 @@ jobs:
           import { chromium } from 'playwright';
 
           const jobs = [
-            ['01', 'b61d85c54cd44249b06241855aff237a'],
-            ['02', '8413a134f3454db68d39b0422b509c4e'],
-            ['03', 'ae9ed69dab434c17adbb688ec1291b64'],
-            ['04', '69c1804bf94a4452a473bd2581a7981a'],
-            ['05', 'c6f3caa6b68a4045accaf06b16159b8b']
+            ['01', '8e9898583ee24af88c87b394fed7ced5'],
+            ['02', '06d856598dac4c8a994fde350324c8d8'],
+            ['03', 'be7d04539e6d41d7b34424e9b44cdaf2'],
+            ['04', '052ea0a5588d44d88e34ae4ce75f9c29'],
+            ['05', '4b7e0275a06a471b9fe6a655d9bdd806']
           ];
 
           const browser = await chromium.launch({ headless: true });
