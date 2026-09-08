@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.illustration_state import FIT_TARGETS, load_registry, validate_registry
+from scripts.illustration_state import FIT_TARGETS, PRESENTATION_ROLES, load_registry, validate_registry
 
 APPROVALS_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_APPROVALS.json"
 REGISTRY_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_REGISTRY.json"
@@ -64,11 +64,27 @@ def apply_approvals(registry: list[dict], approvals: list[dict]) -> tuple[list[d
         if not isinstance(caption, str):
             raise ValueError(f"illustration approval {candidate_id} caption must be text")
 
+        presentation_role = approval.get("presentation_role")
+        if presentation_role is not None and presentation_role not in PRESENTATION_ROLES:
+            raise ValueError(f"illustration approval {candidate_id} has invalid presentation_role: {presentation_role!r}")
+        editorial_purpose = approval.get("editorial_purpose")
+        if editorial_purpose is not None and (not isinstance(editorial_purpose, str) or not editorial_purpose.strip()):
+            raise ValueError(f"illustration approval {candidate_id} editorial_purpose must be non-empty text")
+        editorial_note = approval.get("editorial_note")
+        if editorial_note is not None and not isinstance(editorial_note, str):
+            raise ValueError(f"illustration approval {candidate_id} editorial_note must be text")
+
         record["status"] = "approved"
         record["live_asset"] = asset
         record["approved_fit"] = approved_fit
         record["alt_text"] = alt_text.strip()
         record["caption"] = caption.strip()
+        if presentation_role is not None:
+            record["presentation_role"] = presentation_role
+        if editorial_purpose is not None:
+            record["editorial_purpose"] = editorial_purpose.strip()
+        if editorial_note is not None:
+            record["editorial_note"] = editorial_note.strip()
         changed += 1
     validate_registry(updated)
     return updated, changed
