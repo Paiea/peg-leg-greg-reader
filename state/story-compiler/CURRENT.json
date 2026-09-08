@@ -1,6 +1,6 @@
 {
   "schema": "story_compiler_current/v1",
-  "architecture_version": "story-compiler/rehearsal-led-temporal-slabs-v3-time-action-pressure",
+  "architecture_version": "story-compiler/rehearsal-led-temporal-slabs-v4-time-action-character-pressure",
   "authority": {
     "repository": "Paiea/peg-leg-greg-reader",
     "branch": "architecture/long-form-story-compiler",
@@ -17,6 +17,7 @@
     "story_sync": "learning and convergence",
     "time": "off-camera causality and elapsed pressure",
     "action": "state change under pressure",
+    "character": "distinct pressure + independent motion + relational specificity",
     "prose": "rendering"
   },
   "persistent_acts": ["act-i", "act-ii", "act-iii", "act-iv"],
@@ -37,6 +38,17 @@
     "warnings": ["time_gap_without_state_change", "action_without_residue"],
     "anti_rule": "no time-jump quota and no action quota; expose causal pressure rather than forcing speed"
   },
+  "character_pressure": {
+    "authority": "derived_pressure_only",
+    "contract": "state/story-compiler/CHARACTER_PRESSURE.md",
+    "helper": "scripts/story_character_pressure.py",
+    "equation": "STRONG CAST = distinct pressure + independent motion + relational specificity",
+    "tiers": ["core", "recurring", "local", "extra"],
+    "recurring_tracks": ["want", "off_camera_motion", "competence", "cost_or_limit", "scene_vectors", "relationship_specificity", "voice_or_behavior_markers", "time_changes"],
+    "name_rule": "compare new recurring/local names against the active roster and warn on high spelling similarity before prose repetition makes names sticky",
+    "ownership_rule": "Greg or any lead should not own every good idea, solution, escalation, interpretation, or scene win condition",
+    "anti_rule": "do not inflate extras into full biographies or confuse quirky diction with character depth"
+  },
   "forward_rule": "extract candidate later consequences from tested earlier behavior; later acts test rather than obey them",
   "backward_rule": "extract candidate earlier prerequisites implied by tested later states/payoffs; earlier acts test whether they arise naturally",
   "boundary_rule": "adjacent STATE OUT / STATE IN disagreements remain explicit contradictions and may trigger a rehearsal experiment",
@@ -44,7 +56,7 @@
     "principle": "choose the cheapest useful experiment for the uncertainty",
     "experiment_modes": ["plausibility_probe", "state_transition_test", "trajectory_worldline_test", "forward_consequence_test", "backward_prerequisite_test", "counterfactual_branch_comparison", "temporal_distance_rehearsal", "performance"],
     "fidelity_ladder": ["probe", "development", "high_heat"],
-    "performance_when": ["dialogue ownership", "attraction/chemistry", "conflict", "negotiation", "avoidance", "betrayal", "confession", "first encounters", "relationship crossings", "major emotional decisions", "high behavioral uncertainty"],
+    "performance_when": ["dialogue ownership", "attraction/chemistry", "conflict", "negotiation", "avoidance", "betrayal", "confession", "first encounters", "relationship crossings", "major emotional decisions", "supporting-character success without protagonist", "status reversal", "high behavioral uncertainty"],
     "anti_rule": "do not force every structural or causal question into screenplay/performance",
     "outcome_rule": "honest rehearsal evidence may contradict the desired trajectory; preserve the evidence rather than forcing the planned result"
   },
@@ -60,8 +72,8 @@
     "counterpressure": "creator-surprise"
   },
   "memory_policy": {
-    "hot": ["active act packets", "active boundaries", "open high-value questions", "current directional messages", "compact recent rehearsal evidence", "active STORY SYNC discoveries/contradictions", "current time/action pressure when it changes interval viability"],
-    "cold": ["routine full rehearsal/performance transcripts after reduction", "superseded branches", "historical reasoning represented by provenance", "inactive structural speculation"],
+    "hot": ["active act packets", "active boundaries", "open high-value questions", "current directional messages", "compact recent rehearsal evidence", "active STORY SYNC discoveries/contradictions", "current time/action pressure when it changes interval viability", "active core/recurring character pressure and name roster"],
+    "cold": ["routine full rehearsal/performance transcripts after reduction", "superseded branches", "historical reasoning represented by provenance", "inactive structural speculation", "deep character detail for one-scene extras"],
     "retain_full_evidence_when": "materially useful as case law, high-value provenance, or later audit evidence"
   },
   "implemented": [
@@ -72,7 +84,8 @@
     "creator-taste evidence storage/rebuild",
     "persistent_act_runtime with four slabs, boundary contradictions, long-range messages, non-starving scheduling, temporal-consistency reporting, derived delta integration, STORY SYNC delegation",
     "Dragon Spotter first-bargain high-heat performance evidence",
-    "derived time/action pressure contract with gap modes, elapsed-change tracks, action residue, changed win conditions, and explicit missing-residue warnings"
+    "derived time/action pressure contract with gap modes, elapsed-change tracks, action residue, changed win conditions, and explicit missing-residue warnings",
+    "derived character-pressure contract with recurrence tiers, independent-motion checks, scene-agency checks, relationship-specificity checks, and generated-name collision warnings"
   ],
   "hypotheses": [
     "four persistent temporal slabs outperform simpler frontier scheduling",
@@ -82,7 +95,9 @@
     "compact evidence can replace routine full transcripts",
     "baseline heartbeat remains useful late in convergence",
     "explicit elapsed-time pressure reduces accidental camera-on-every-day long-form generation",
-    "action-residue checks improve event density without turning slice-of-life into combat quota"
+    "action-residue checks improve event density without turning slice-of-life into combat quota",
+    "explicit recurring-character pressure reduces protagonist gravity and allows the cast to generate arcs independently",
+    "active-roster name checks reduce long-form reader confusion from generated fantasy-name similarity"
   ],
   "active_experiment": {
     "project": "Dragon Spotter",
@@ -91,5 +106,5 @@
     "strong_hypotheses": ["reciprocal dragon obligation", "observation-driven improvisation constrained by Scholar knowledge", "voluntary recognition may matter because force cannot create agreement"],
     "preserved_divergence": ["land restoration versus relic restitution", "treasure form", "late professional identity"]
   },
-  "next_step": "Finish creator-taste compatibility seam; keep the new time/action pressure contract available to interval design and rehearsal; then add generic rehearsal-target experiment_mode + fidelity contracts and compact rehearsal-evidence reduction to persistent_act_runtime, expose one derived-only runtime cycle in plg_ai_tools, and run the existing Dragon Spotter first-bargain evidence through the loop without canon writes."
+  "next_step": "Finish creator-taste compatibility seam; keep time/action and character pressure available to interval design and rehearsal; then add generic rehearsal-target experiment_mode + fidelity contracts and compact rehearsal-evidence reduction to persistent_act_runtime, expose one derived-only runtime cycle in plg_ai_tools, and run the existing Dragon Spotter first-bargain evidence through the loop without canon writes."
 }
