@@ -1,0 +1,92 @@
+name: Capture Greg Again full audio
+
+on:
+  push:
+    branches:
+      - fix/greg-again-audio-playback
+    paths:
+      - .github/workflows/capture-greg-again-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: fix/greg-again-audio-playback
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Install browser harness
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+      - name: Capture media request from generated page
+        shell: bash
+        run: |
+          mkdir -p greg-again/audio/assets
+          cat > /tmp/capture.mjs <<'JS'
+          import fs from 'node:fs';
+          import { chromium } from 'playwright';
+
+          const target = 'https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305';
+          const out = 'greg-again/audio/assets/chapter-001.mp3';
+          const browser = await chromium.launch({headless:true});
+          const page = await browser.newPage();
+          let saved = false;
+
+          page.on('response', async (response) => {
+            try {
+              const url = response.url();
+              const ct = (await response.headerValue('content-type')) || '';
+              if (ct.startsWith('audio/') || /\.mp3(?:$|\?)/i.test(url) || /audio-playback/i.test(url)) {
+                console.log('AUDIO_CANDIDATE', ct, url);
+                const body = await response.body();
+                if (body.length > 10000) {
+                  fs.writeFileSync(out, body);
+                  console.log('AUDIO_SAVED', body.length, url);
+                  saved = true;
+                }
+              }
+            } catch (e) {
+              console.log('RESPONSE_CAPTURE_ERROR', String(e));
+            }
+          });
+
+          await page.goto(target, {waitUntil:'domcontentloaded', timeout:60000});
+          await page.waitForTimeout(7000);
+          console.log('BODY_TEXT', (await page.locator('body').innerText()).slice(0,6000));
+          const audios = await page.locator('audio').evaluateAll(nodes => nodes.map(n => ({src:n.src, currentSrc:n.currentSrc})));
+          console.log('AUDIO_ELEMENTS', JSON.stringify(audios));
+          for (const item of audios) {
+            if (item.currentSrc || item.src) console.log('AUDIO_ELEMENT_SRC', item.currentSrc || item.src);
+          }
+          const buttons = await page.getByRole('button').allTextContents();
+          console.log('BUTTONS', JSON.stringify(buttons));
+          for (const label of ['Play', 'Listen', 'Preview']) {
+            const b = page.getByRole('button', {name:new RegExp(label,'i')}).first();
+            if (await b.count()) {
+              console.log('CLICKING', label);
+              await b.click().catch(e => console.log('CLICK_ERROR', String(e)));
+              await page.waitForTimeout(8000);
+              if (saved) break;
+            }
+          }
+          await browser.close();
+          if (!saved && !fs.existsSync(out)) process.exit(3);
+          JS
+          node /tmp/capture.mjs
+          file greg-again/audio/assets/chapter-001.mp3
+          du -h greg-again/audio/assets/chapter-001.mp3
+      - name: Commit captured audio
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-001.mp3
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix: self-host full Greg Again Chapter 1 audio'
+          git push origin HEAD:fix/greg-again-audio-playback
