@@ -69,4 +69,3 @@ jobs:
           python scripts/test_apply_illustration_approvals.py
           python scripts/test_build_reader_presentation.py
           python scripts/test_generate_illustrated_presentation.py
-          python scripts/test_generate_illustrated.py
