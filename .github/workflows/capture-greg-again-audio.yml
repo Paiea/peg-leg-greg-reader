@@ -1,4 +1,4 @@
-name: Capture Greg Again full audio
+name: Capture Greg Again audio chunks
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  capture-and-assemble:
+  capture-chunks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -25,91 +25,80 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install chromium --with-deps
-      - name: Capture generated segments
+      - name: Capture remaining generated chunks
         shell: bash
         run: |
-          mkdir -p /tmp/greg-audio
+          mkdir -p greg-again/audio/assets/chunks
           cat > capture.mjs <<'JS'
           import fs from 'node:fs';
           import { chromium } from 'playwright';
 
-          const ids = [
-            '577d31b09af34af791f8351d3f0b3f43',
-            '6428215337f74075ab59f5a2c5e962e8',
-            'd219f2dfc78844ea8662805ebff01f5f',
-            '6662527fd0094ebeb3b265468f23db66',
-            '2057bf13b3a74dc2802765c7cad5251a',
-            'e3490a2ccd22454c80e1a0ecf3305584',
-            'b3da7a867c4c4f18b1eda85ee085cd16',
-            'b7eb984e88d54555a3834e65815e0d0c',
-            'ef31a04a142b453ab00d4d21c8f25c32',
-            '37e4c53e5eb64083bb7eea884dfa1ba5',
-            '314fa08cf7ff45e5a87c5f08948ff1d9'
+          const jobs = [
+            ['06', 'e3490a2ccd22454c80e1a0ecf3305584'],
+            ['07', 'b3da7a867c4c4f18b1eda85ee085cd16'],
+            ['08', 'b7eb984e88d54555a3834e65815e0d0c'],
+            ['09', 'ef31a04a142b453ab00d4d21c8f25c32'],
+            ['10', '37e4c53e5eb64083bb7eea884dfa1ba5'],
+            ['11', '314fa08cf7ff45e5a87c5f08948ff1d9']
           ];
 
           const browser = await chromium.launch({ headless: true });
+          const failures = [];
 
-          async function captureSegment(id, index) {
-            const label = String(index + 1).padStart(2, '0');
-            const out = `/tmp/greg-audio/${label}.mp3`;
+          async function capture(label, id) {
+            const out = `greg-again/audio/assets/chunks/${label}.mp3`;
+            if (fs.existsSync(out) && fs.statSync(out).size > 10000) return;
             const page = await browser.newPage();
-            for (let attempt = 1; attempt <= 8; attempt++) {
-              await page.goto(`https://www.aidocmaker.com/g0/audio?name=${id}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
-              await page.waitForTimeout(5000);
-              const text = await page.locator('body').innerText().catch(() => '');
-              console.log('SEGMENT', label, 'ATTEMPT', attempt, text.slice(0, 1200).replaceAll('\n', ' | '));
-              if (/longer than 2 minutes requires a paid plan/i.test(text)) {
-                await page.close();
-                throw new Error(`segment ${label} crossed the two-minute gate`);
-              }
-              if (/File Not Found/i.test(text)) {
-                await page.close();
-                throw new Error(`segment ${label} generation disappeared before capture`);
-              }
-              const sources = await page.locator('audio').evaluateAll(nodes => nodes.map(n => n.currentSrc || n.src).filter(Boolean)).catch(() => []);
-              for (const src of sources) {
-                console.log('SOURCE', label, src);
-                const response = await page.request.get(src).catch(() => null);
-                if (!response || !response.ok()) continue;
-                const body = await response.body();
-                if (body.length > 10000) {
-                  fs.writeFileSync(out, body);
-                  console.log('CAPTURED', label, body.length);
-                  await page.close();
-                  return;
+            try {
+              for (let attempt = 1; attempt <= 8; attempt++) {
+                await page.goto(`https://www.aidocmaker.com/g0/audio?name=${id}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
+                await page.waitForTimeout(5000);
+                const text = await page.locator('body').innerText().catch(() => '');
+                console.log('SEGMENT', label, 'ATTEMPT', attempt, text.slice(0, 900).replaceAll('\n', ' | '));
+                if (/longer than 2 minutes requires a paid plan/i.test(text)) throw new Error('two-minute gate');
+                if (/File Not Found/i.test(text)) throw new Error('file not found');
+                const sources = await page.locator('audio').evaluateAll(nodes => nodes.map(n => n.currentSrc || n.src).filter(Boolean)).catch(() => []);
+                for (const src of sources) {
+                  const response = await page.request.get(src).catch(() => null);
+                  if (!response || !response.ok()) continue;
+                  const body = await response.body();
+                  if (body.length > 10000) {
+                    fs.writeFileSync(out, body);
+                    console.log('CAPTURED', label, body.length);
+                    return;
+                  }
                 }
+                await page.waitForTimeout(4000);
               }
-              await page.waitForTimeout(4000);
+              throw new Error('no playable media surfaced');
+            } finally {
+              await page.close();
             }
-            await page.close();
-            throw new Error(`segment ${label} did not surface playable media`);
           }
 
-          for (let i = 0; i < ids.length; i++) {
-            await captureSegment(ids[i], i);
+          for (const [label, id] of jobs) {
+            try { await capture(label, id); }
+            catch (e) { failures.push(`${label}: ${e.message}`); console.log('FAILED', label, e.message); }
           }
           await browser.close();
+          fs.writeFileSync('/tmp/capture-failures.txt', failures.join('\n'));
+          console.log('FAILURES', failures);
           JS
           node capture.mjs
-          ls -lh /tmp/greg-audio
-      - name: Assemble one chapter MP3
-        shell: bash
-        run: |
-          set -euxo pipefail
-          mkdir -p greg-again/audio/assets
-          : > /tmp/concat.txt
-          for f in /tmp/greg-audio/*.mp3; do
-            printf "file '%s'\n" "$f" >> /tmp/concat.txt
-          done
-          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/concat.txt -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-001.mp3
-          file greg-again/audio/assets/chapter-001.mp3
-          du -h greg-again/audio/assets/chapter-001.mp3
-          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 greg-again/audio/assets/chapter-001.mp3
-      - name: Commit self-hosted chapter audio
+          ls -lh greg-again/audio/assets/chunks || true
+      - name: Commit every successful chunk
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add greg-again/audio/assets/chapter-001.mp3
-          git diff --cached --quiet && exit 0
-          git commit -m 'fix: self-host full Greg Again Chapter 1 audio'
-          git push origin HEAD:fix/greg-again-audio-playback
+          git add greg-again/audio/assets/chunks
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: persist captured Greg Again audio chunks'
+            git push origin HEAD:fix/greg-again-audio-playback
+          fi
+      - name: Report missing chunks
+        shell: bash
+        run: |
+          if [ -s /tmp/capture-failures.txt ]; then
+            cat /tmp/capture-failures.txt
+            exit 1
+          fi
