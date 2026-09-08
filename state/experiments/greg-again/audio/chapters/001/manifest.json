@@ -4,6 +4,7 @@
   "chapter_id": "ga-001",
   "title": "The Boy",
   "score_revision": 1,
+  "active_subjective_cut": "subjective-cut-002.md",
   "block_order": [
     "ga-001-b001",
     "ga-001-b002",
@@ -16,10 +17,13 @@
     "ga-001-b009",
     "ga-001-b010"
   ],
-  "renderer_status": "unrendered",
+  "renderer_status": "rendered_external",
+  "renderer_adapter": "ai_voice_generator",
+  "voice_style": "deep",
   "approval_state": "experimental",
   "takes": {},
   "selected_takes": {},
-  "assembled_asset": null,
-  "duration_seconds": null
+  "assembled_asset": "https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305",
+  "duration_seconds": null,
+  "listen_back_status": "pending"
 }
