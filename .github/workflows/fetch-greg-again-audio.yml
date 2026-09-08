@@ -18,32 +18,42 @@ jobs:
       - uses: actions/checkout@v7
         with:
           ref: fix/greg-again-audio-playback
-      - name: Fetch generated full chapter
+      - name: Resolve generated full chapter media
         shell: bash
         run: |
           set -euxo pipefail
           mkdir -p greg-again/audio/assets
-          curl --fail --location --show-error \
-            --dump-header /tmp/audio.headers \
-            'https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305' \
-            --output /tmp/chapter-001.bin
-          cat /tmp/audio.headers
-          file /tmp/chapter-001.bin
-          du -h /tmp/chapter-001.bin
+          PAGE='https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305'
+          curl --fail --location --show-error "$PAGE" --output /tmp/page.html
           python - <<'PY'
           from pathlib import Path
-          p = Path('/tmp/chapter-001.bin')
-          head = p.read_bytes()[:64]
-          print('HEAD_BYTES', repr(head))
-          if head.startswith(b'ID3') or head[:2] in {b'\xff\xfb', b'\xff\xf3', b'\xff\xf2'}:
-              target = Path('greg-again/audio/assets/chapter-001.mp3')
-              target.write_bytes(p.read_bytes())
-              print('AUDIO_OK', target, target.stat().st_size)
-          else:
-              text = p.read_text(errors='replace')
-              print('NOT_DIRECT_AUDIO')
-              print(text[:4000])
-              raise SystemExit(2)
+          import html, re, subprocess
+          page = html.unescape(Path('/tmp/page.html').read_text(errors='replace'))
+          needles = ['ef4bd152f363417387db64ed87c15305', 'storage.googleapis.com', '.mp3', 'audio_url', 'audioUrl', 'downloadUrl']
+          for needle in needles:
+              print('\nNEEDLE', needle)
+              pos = page.find(needle)
+              print('POSITION', pos)
+              if pos >= 0:
+                  print(page[max(0,pos-600):pos+1800])
+          urls = []
+          for m in re.finditer(r'https?://[^"\'<>\\ ]+', page):
+              u = m.group(0).replace('\\u0026','&').replace('\\/','/')
+              if any(x in u.lower() for x in ['mp3','audio','storage.googleapis.com','googleusercontent']):
+                  urls.append(u)
+          print('\nCANDIDATE_URLS')
+          for u in dict.fromkeys(urls):
+              print(u)
+          # If the page exposes a direct mp3/storage URL, download the first plausible one.
+          direct = next((u for u in dict.fromkeys(urls) if '.mp3' in u.lower() or 'storage.googleapis.com' in u.lower()), None)
+          if not direct:
+              raise SystemExit(3)
+          subprocess.run(['curl','--fail','--location','--show-error',direct,'--output','/tmp/chapter-001.mp3'], check=True)
+          head = Path('/tmp/chapter-001.mp3').read_bytes()[:16]
+          print('MEDIA_HEAD', repr(head))
+          target = Path('greg-again/audio/assets/chapter-001.mp3')
+          target.write_bytes(Path('/tmp/chapter-001.mp3').read_bytes())
+          print('AUDIO_OK', target, target.stat().st_size)
           PY
       - name: Commit audio asset
         run: |
