@@ -15,6 +15,40 @@ def select_generation_batch(queue: list[dict], limit: int = 25) -> list[dict]:
     return ready[: max(limit, 0)]
 
 
+def _temporal_evidence_lines(record: dict) -> list[str]:
+    evidence = record.get("visual_scene_evidence")
+    if not isinstance(evidence, dict):
+        return []
+    lines: list[str] = []
+    condition = evidence.get("evidence_condition")
+    if isinstance(condition, str) and condition.strip():
+        lines.append(f"- Evidence condition: {condition.strip()}")
+    states = evidence.get("character_states")
+    if not isinstance(states, dict):
+        return lines
+    for character, state in states.items():
+        if not isinstance(character, str) or not isinstance(state, dict):
+            continue
+        state_id = state.get("state_id", "")
+        lines.append(f"- TEMPORAL {character}: {state_id}")
+        for label, field in (
+            ("appearance", "appearance"),
+            ("body", "body_state"),
+            ("mobility", "mobility_state"),
+        ):
+            values = state.get(field)
+            if isinstance(values, dict) and values:
+                rendered = "; ".join(f"{key}: {value}" for key, value in values.items())
+                lines.append(f"  - {label}: {rendered}")
+        must_show = state.get("must_show")
+        if isinstance(must_show, list) and must_show:
+            lines.append(f"  - must show: {', '.join(str(value) for value in must_show)}")
+        must_not_show = state.get("must_not_show")
+        if isinstance(must_not_show, list) and must_not_show:
+            lines.append(f"  - must not show: {', '.join(str(value) for value in must_not_show)}")
+    return lines
+
+
 def _performance_reference_lines(record: dict) -> list[str]:
     reference = record.get("performance_reference")
     if not isinstance(reference, dict):
@@ -65,6 +99,7 @@ def render_generation_packet(records: Iterable[dict]) -> str:
                 f"- Target asset: {record['target_asset']}",
             ]
         )
+        lines.extend(_temporal_evidence_lines(record))
         lines.extend(_performance_reference_lines(record))
         lines.append("")
     return "\n".join(lines)
