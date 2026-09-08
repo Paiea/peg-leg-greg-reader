@@ -21,6 +21,11 @@ jobs:
           ref: fix/greg-again-audio-playback
           fetch-depth: 1
 
+      - name: Install audio assembler
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
       - name: Require all eleven durable chunks
         shell: bash
         run: |
