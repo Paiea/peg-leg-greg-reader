@@ -1,6 +1,7 @@
-from pathlib import Path
+import tempfile
+import unittest
 import wave
-import pytest
+from pathlib import Path
 
 from scripts.greg_again_audio_assembly import assemble_pcm_wav, inspect_wav
 
@@ -14,26 +15,34 @@ def write_silence(path: Path, *, frames: int, rate: int = 24000, channels: int =
     return path
 
 
-def test_inspect_wav_reports_pcm_shape(tmp_path):
-    path = write_silence(tmp_path / "a.wav", frames=2400)
-    info = inspect_wav(path)
-    assert info == {"channels": 1, "sample_width": 2, "sample_rate": 24000, "frames": 2400}
+class GregAgainAudioAssemblyTests(unittest.TestCase):
+    def test_inspect_wav_reports_pcm_shape(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = write_silence(Path(tmp) / "a.wav", frames=2400)
+            info = inspect_wav(path)
+            self.assertEqual({"channels": 1, "sample_width": 2, "sample_rate": 24000, "frames": 2400}, info)
+
+    def test_assemble_pcm_wav_preserves_block_order(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            a = write_silence(root / "a.wav", frames=2400, rate=24000)
+            b = write_silence(root / "b.wav", frames=4800, rate=24000)
+            duration = assemble_pcm_wav([a, b], root / "chapter.wav")
+            self.assertAlmostEqual(0.3, duration)
+            with wave.open(str(root / "chapter.wav"), "rb") as fh:
+                self.assertEqual(7200, fh.getnframes())
+                self.assertEqual(24000, fh.getframerate())
+                self.assertEqual(1, fh.getnchannels())
+                self.assertEqual(2, fh.getsampwidth())
+
+    def test_assemble_pcm_wav_rejects_incompatible_sample_rate(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            a = write_silence(root / "a.wav", frames=2400, rate=24000)
+            b = write_silence(root / "b.wav", frames=2400, rate=22050)
+            with self.assertRaisesRegex(ValueError, "incompatible WAV"):
+                assemble_pcm_wav([a, b], root / "chapter.wav")
 
 
-def test_assemble_pcm_wav_preserves_block_order(tmp_path):
-    a = write_silence(tmp_path / "a.wav", frames=2400, rate=24000)
-    b = write_silence(tmp_path / "b.wav", frames=4800, rate=24000)
-    duration = assemble_pcm_wav([a, b], tmp_path / "chapter.wav")
-    assert duration == pytest.approx(0.3)
-    with wave.open(str(tmp_path / "chapter.wav"), "rb") as fh:
-        assert fh.getnframes() == 7200
-        assert fh.getframerate() == 24000
-        assert fh.getnchannels() == 1
-        assert fh.getsampwidth() == 2
-
-
-def test_assemble_pcm_wav_rejects_incompatible_sample_rate(tmp_path):
-    a = write_silence(tmp_path / "a.wav", frames=2400, rate=24000)
-    b = write_silence(tmp_path / "b.wav", frames=2400, rate=22050)
-    with pytest.raises(ValueError, match="incompatible WAV"):
-        assemble_pcm_wav([a, b], tmp_path / "chapter.wav")
+if __name__ == "__main__":
+    unittest.main()
