@@ -17,9 +17,13 @@
       "source_status": "resolved_supplied_asset",
       "source_sha256": "4e2e3dff74c989fd96f33bfd3e414ef7fbe2a31e95296e5fa83acc1feecc439a",
       "source_dimensions": "1448x1086",
+      "prepared_asset": "de-ch005-player-reads-greg-v1.webp",
+      "prepared_asset_library_path": "/Peg-Leg Greg Image Integration/de-ch005-player-reads-greg-v1.webp",
+      "prepared_asset_sha256": "4750b61505ade88ff52274e1f58856e481b44687f9dfcea69296d6c5db09c4ed",
+      "prepared_asset_dimensions": "720x540",
       "queue_status": "queued_and_approved",
-      "integration_status": "asset_transfer_pending",
-      "next_action": "Copy/convert the resolved supplied source to target_asset using existing WebP conventions, then use the normal registry/approval path and place it immediately after the mapped paragraph. Preserve all existing Chapter 5 art."
+      "integration_status": "repo_asset_transfer_pending",
+      "next_action": "Retrieve the prepared asset by exact Library path/name, place it at target_asset, then use the normal registry/approval path and place it immediately after the mapped paragraph. Preserve all existing Chapter 5 art."
     },
     {
       "candidate_id": "de-ch005-jorren-offers-hand",
