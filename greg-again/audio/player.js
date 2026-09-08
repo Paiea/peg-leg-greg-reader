@@ -2,6 +2,7 @@
   const audio = document.getElementById('audio');
   const status = document.getElementById('status');
   const renderState = document.getElementById('render-state');
+  const fullAudioLink = document.getElementById('full-audio-link');
   try {
     const response = await fetch('manifest.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`manifest ${response.status}`);
@@ -12,10 +13,8 @@
     if (manifest.audio_src) {
       audio.src = manifest.audio_src;
       audio.removeAttribute('aria-disabled');
-      if (manifest.sample_status === 'full_chapter_experimental') {
-        renderState.textContent = 'Full Chapter 1 experimental render. Not yet qualified.';
-      } else if (manifest.sample_status === 'narrator_audition') {
-        renderState.textContent = 'Experimental narrator audition. Not yet qualified.';
+      if (manifest.embedded_scope === 'opening_preview') {
+        renderState.textContent = 'Playable opening preview. Full Chapter 1 is linked below.';
       } else if (manifest.status === 'approved') {
         renderState.textContent = 'Qualified Chapter 1 render.';
       } else {
@@ -26,10 +25,20 @@
       audio.setAttribute('aria-disabled', 'true');
       renderState.textContent = 'Audio render not yet qualified.';
     }
+
+    if (fullAudioLink) {
+      if (manifest.full_audio_url) {
+        fullAudioLink.href = manifest.full_audio_url;
+        fullAudioLink.hidden = false;
+      } else {
+        fullAudioLink.hidden = true;
+      }
+    }
   } catch (error) {
     audio.removeAttribute('src');
     audio.setAttribute('aria-disabled', 'true');
     renderState.textContent = 'Audio render not yet qualified.';
+    if (fullAudioLink) fullAudioLink.hidden = true;
     console.error(error);
   }
 })();
