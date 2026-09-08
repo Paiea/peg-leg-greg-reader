@@ -22,7 +22,7 @@ class GregAgainAudioProductTests(unittest.TestCase):
 
     def test_narrator_brief_has_audio_first_rules(self):
         narrator = (AUDIO / "narrator.md").read_text(encoding="utf-8").lower()
-        for phrase in ("one primary narrator", "dry humor", "speaker clarity", "do not overperform"):
+        for phrase in ("one primary narrator", "dry humor", "speaker clarity", "do not overperform", "male/masculine", "thought-thread"):
             self.assertIn(phrase, narrator)
 
     def test_pronunciations_are_not_silently_guessed(self):
@@ -39,15 +39,18 @@ class GregAgainAudioProductTests(unittest.TestCase):
         self.assertNotIn("waveform", html.lower())
         self.assertNotIn("dashboard", html.lower())
 
-    def test_unrendered_public_manifest_has_no_fake_audio_asset(self):
+    def test_public_manifest_can_expose_unqualified_narrator_audition(self):
         public = json.loads((ROOT / "greg-again/audio/manifest.json").read_text(encoding="utf-8"))
         self.assertEqual("experimental", public["status"])
-        self.assertIsNone(public["audio_src"])
+        self.assertEqual("narrator_audition", public["sample_status"])
+        self.assertTrue(public["audio_src"].startswith("https://"))
+        self.assertEqual("deep", public["voice_style"])
 
-    def test_player_handles_unqualified_state_without_fake_source(self):
+    def test_player_labels_audition_without_promoting_it_to_qualified(self):
         js = (ROOT / "greg-again/audio/player.js").read_text(encoding="utf-8")
+        self.assertIn("Experimental narrator audition.", js)
+        self.assertIn("sample_status", js)
         self.assertIn("Audio render not yet qualified.", js)
-        self.assertIn("audio_src", js)
 
 
 if __name__ == "__main__":
