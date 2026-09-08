@@ -2,11 +2,13 @@
   "chapter_id": "ga-001",
   "title": "The Boy",
   "status": "experimental",
-  "sample_status": "full_chapter_experimental",
+  "sample_status": "full_chapter_external_with_embedded_preview",
   "scope": "full_chapter",
+  "embedded_scope": "opening_preview",
   "sample_label": "Audio Experiment 002 · Greg Subjective Cut · Full Chapter",
   "voice_style": "deep",
   "renderer_adapter": "ai_voice_generator",
   "duration_seconds": null,
-  "audio_src": "https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305"
+  "audio_src": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fbb48307-729b-4e59-a943-1ab151429a50.mp3",
+  "full_audio_url": "https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305"
 }
