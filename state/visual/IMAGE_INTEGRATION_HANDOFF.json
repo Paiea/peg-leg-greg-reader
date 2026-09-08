@@ -6,6 +6,7 @@
   "approval_authority": "state/visual/BOUNDED_GENERATION_APPROVALS.json",
   "integration_authorization": "Creator explicitly authorized integration of supplied existing assets for this bounded batch on 2026-09-08. This does not lift state/visual/PRODUCTION_HOLD.json for unrelated generation or promotion.",
   "routing_rule": "Resolve these five records first. Do not rescan the manuscript, rediscover scenes, regenerate art, or inspect unrelated chapters. If an anchor fails, search only the target chapter with nearby terms.",
+  "completion_rule": "A record is integrated only when the asset exists at target_asset, the intended chapter references it at the mapped moment, required registry/approval state is current, and targeted validation finds no duplicate insertion.",
   "items": [
     {
       "candidate_id": "de-ch005-player-reads-greg",
@@ -14,8 +15,11 @@
       "target_asset": "visual/chapter_art/005/de-ch005-player-reads-greg-v1.webp",
       "source_asset": "Candlelit Renaissance Gambling Game.png",
       "source_status": "resolved_supplied_asset",
+      "source_sha256": "4e2e3dff74c989fd96f33bfd3e414ef7fbe2a31e95296e5fa83acc1feecc439a",
+      "source_dimensions": "1448x1086",
       "queue_status": "queued_and_approved",
-      "integration_status": "asset_transfer_pending"
+      "integration_status": "asset_transfer_pending",
+      "next_action": "Copy/convert the resolved supplied source to target_asset using existing WebP conventions, then use the normal registry/approval path and place it immediately after the mapped paragraph. Preserve all existing Chapter 5 art."
     },
     {
       "candidate_id": "de-ch005-jorren-offers-hand",
@@ -25,7 +29,8 @@
       "source_asset": null,
       "source_status": "awaiting_source_asset",
       "queue_status": "queued_and_approved",
-      "integration_status": "waiting_for_supplied_asset"
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not discover or generate replacement art. Once resolved, integrate at this exact Chapter 5 anchor and preserve existing Jorren art."
     },
     {
       "candidate_id": "de-ch007-antonius-reverses-frame",
@@ -35,7 +40,8 @@
       "source_asset": null,
       "source_status": "awaiting_source_asset",
       "queue_status": "queued_and_approved",
-      "integration_status": "waiting_for_supplied_asset"
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not rediscover the scene. Once resolved, integrate at this exact Chapter 7 anchor and preserve existing chapter art."
     },
     {
       "candidate_id": "de-ch013-arlo-one-page",
@@ -45,7 +51,8 @@
       "source_asset": null,
       "source_status": "awaiting_source_asset",
       "queue_status": "queued_and_approved",
-      "integration_status": "waiting_for_supplied_asset"
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not rediscover the scene. Once resolved, integrate at this exact Chapter 13 anchor and preserve existing chapter art."
     },
     {
       "candidate_id": "de-ch018-hessa-covers-bowl",
@@ -55,7 +62,8 @@
       "source_asset": null,
       "source_status": "awaiting_source_asset",
       "queue_status": "queued_and_approved",
-      "integration_status": "waiting_for_supplied_asset"
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not rediscover the scene. Once resolved, integrate at this exact Chapter 18 anchor and preserve existing chapter art."
     }
   ]
 }
