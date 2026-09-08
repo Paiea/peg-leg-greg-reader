@@ -27,19 +27,26 @@ A workbench composition built around controlled access: Arlo keeps most of the n
 Characters: Greg, Arlo. Show them doing the physical action implied by the scene rather than posing for a portrait.
 
 ### CAMERA
-Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
+Use the workbench as the composition axis. Favor hands, notebook geometry, and the failed regulator over generic face-to-face conversation staging.
 
 ### FOREGROUND
-Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
+Use the notebook edge, failed regulator, testing fixture, tools, or workbench clutter to create depth. The notebook must remain physically under Arlo's control.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: Arlo workshop. Mood: technical, guarded, collaborative. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: Arlo workshop. Mood: technical, guarded, collaborative. Keep the room visibly working and imperfect rather than turning it into a clean laboratory.
 
 ### EYE PATH
-Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
+The eye should read the page Arlo permits Greg to see, then notice that Arlo still physically owns the rest of the notebook. The failed regulator between them should reinforce that this is process evidence, not a symbolic handoff.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A workbench composition built around controlled access: Arlo keeps most of the notebook under his hand or close to his body while rotating one page toward Greg. A cracked failed regulator sits between them, with the ugly testing fixture visible on the shelf behind. The gesture must read as sharing evidence without giving away ownership.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Arlo shares exactly enough evidence to explain the result without surrendering his process ownership.
+
+### TEMPORAL CHARACTER STATE
+- Greg: `greg-early-pre-amputation`
+  - appearance age: nineteen
+  - appearance facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+- Scene-local continuity overrides temporal body/mobility fields when they conflict; temporal appearance guidance still applies unless the scene says otherwise.
+- This state is derived editorial continuity guidance, not canon authority.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
