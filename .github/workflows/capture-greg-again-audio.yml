@@ -25,63 +25,126 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install chromium --with-deps
-      - name: Capture media request from generated page
+      - name: Capture ten generated segments
         shell: bash
         run: |
-          mkdir -p greg-again/audio/assets
+          mkdir -p /tmp/greg-audio
           cat > capture.mjs <<'JS'
           import fs from 'node:fs';
           import { chromium } from 'playwright';
 
-          const target = 'https://www.aidocmaker.com/g0/audio?name=ef4bd152f363417387db64ed87c15305';
-          const out = 'greg-again/audio/assets/chapter-001.mp3';
-          const browser = await chromium.launch({headless:true});
-          const page = await browser.newPage();
-          let saved = false;
+          const ids = [
+            '1b090b86872f4362918d5bf71ae0f183',
+            'd219f2dfc78844ea8662805ebff01f5f',
+            '6662527fd0094ebeb3b265468f23db66',
+            '2057bf13b3a74dc2802765c7cad5251a',
+            'e3490a2ccd22454c80e1a0ecf3305584',
+            'b3da7a867c4c4f18b1eda85ee085cd16',
+            'b7eb984e88d54555a3834e65815e0d0c',
+            'ef31a04a142b453ab00d4d21c8f25c32',
+            '37e4c53e5eb64083bb7eea884dfa1ba5',
+            '314fa08cf7ff45e5a87c5f08948ff1d9'
+          ];
 
-          page.on('response', async (response) => {
-            try {
-              const url = response.url();
-              const ct = (await response.headerValue('content-type')) || '';
-              if (ct.startsWith('audio/') || /\.mp3(?:$|\?)/i.test(url) || /audio-playback/i.test(url)) {
-                console.log('AUDIO_CANDIDATE', ct, url);
-                const body = await response.body();
-                if (body.length > 10000) {
-                  fs.writeFileSync(out, body);
-                  console.log('AUDIO_SAVED', body.length, url);
-                  saved = true;
+          const browser = await chromium.launch({ headless: true });
+
+          async function captureSegment(id, index) {
+            const out = `/tmp/greg-audio/${String(index + 1).padStart(2, '0')}.mp3`;
+            for (let attempt = 1; attempt <= 6; attempt++) {
+              const page = await browser.newPage();
+              let saved = false;
+              const candidatePromises = [];
+
+              page.on('response', response => {
+                candidatePromises.push((async () => {
+                  try {
+                    const url = response.url();
+                    const ct = (await response.headerValue('content-type')) || '';
+                    if (ct.startsWith('audio/') || /\.mp3(?:$|\?)/i.test(url) || /audio-playback/i.test(url)) {
+                      const body = await response.body();
+                      console.log('AUDIO_CANDIDATE', index + 1, ct, body.length, url);
+                      if (!saved && body.length > 10000) {
+                        fs.writeFileSync(out, body);
+                        saved = true;
+                        console.log('AUDIO_SAVED', index + 1, body.length);
+                      }
+                    }
+                  } catch (e) {
+                    console.log('RESPONSE_CAPTURE_ERROR', index + 1, String(e));
+                  }
+                })());
+              });
+
+              const target = `https://www.aidocmaker.com/g0/audio?name=${id}`;
+              await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 60000 });
+              await page.waitForTimeout(5000);
+
+              const bodyText = await page.locator('body').innerText().catch(() => '');
+              console.log('SEGMENT_BODY', index + 1, attempt, bodyText.slice(0, 1800));
+              if (/longer than 2 minutes requires a paid plan/i.test(bodyText)) {
+                await page.close();
+                throw new Error(`segment ${index + 1} exceeded free render length`);
+              }
+
+              const audioSources = await page.locator('audio').evaluateAll(nodes => nodes.map(n => n.currentSrc || n.src).filter(Boolean)).catch(() => []);
+              for (const src of audioSources) {
+                console.log('AUDIO_ELEMENT_SRC', index + 1, src);
+                try {
+                  const response = await page.request.get(src);
+                  if (response.ok()) {
+                    const body = await response.body();
+                    if (!saved && body.length > 10000) {
+                      fs.writeFileSync(out, body);
+                      saved = true;
+                      console.log('AUDIO_ELEMENT_SAVED', index + 1, body.length);
+                    }
+                  }
+                } catch (e) {
+                  console.log('AUDIO_ELEMENT_FETCH_ERROR', index + 1, String(e));
                 }
               }
-            } catch (e) {
-              console.log('RESPONSE_CAPTURE_ERROR', String(e));
-            }
-          });
 
-          await page.goto(target, {waitUntil:'domcontentloaded', timeout:60000});
-          await page.waitForTimeout(7000);
-          console.log('BODY_TEXT', (await page.locator('body').innerText()).slice(0,6000));
-          const audios = await page.locator('audio').evaluateAll(nodes => nodes.map(n => ({src:n.src, currentSrc:n.currentSrc})));
-          console.log('AUDIO_ELEMENTS', JSON.stringify(audios));
-          for (const item of audios) {
-            if (item.currentSrc || item.src) console.log('AUDIO_ELEMENT_SRC', item.currentSrc || item.src);
-          }
-          const buttons = await page.getByRole('button').allTextContents();
-          console.log('BUTTONS', JSON.stringify(buttons));
-          for (const label of ['Play', 'Listen', 'Preview']) {
-            const b = page.getByRole('button', {name:new RegExp(label,'i')}).first();
-            if (await b.count()) {
-              console.log('CLICKING', label);
-              await b.click().catch(e => console.log('CLICK_ERROR', String(e)));
-              await page.waitForTimeout(8000);
-              if (saved) break;
+              if (!saved) {
+                const buttons = await page.getByRole('button').allTextContents().catch(() => []);
+                console.log('BUTTONS', index + 1, JSON.stringify(buttons));
+                for (const label of ['Play', 'Listen', 'Preview']) {
+                  const button = page.getByRole('button', { name: new RegExp(label, 'i') }).first();
+                  if (await button.count()) {
+                    await button.click().catch(() => {});
+                    await page.waitForTimeout(5000);
+                    if (saved) break;
+                  }
+                }
+              }
+
+              await Promise.allSettled(candidatePromises);
+              await page.close();
+              if (saved && fs.existsSync(out)) return out;
+              await new Promise(resolve => setTimeout(resolve, 5000));
             }
+            throw new Error(`no playable media surfaced for segment ${index + 1}`);
+          }
+
+          for (let i = 0; i < ids.length; i++) {
+            await captureSegment(ids[i], i);
           }
           await browser.close();
-          if (!saved && !fs.existsSync(out)) process.exit(3);
           JS
           node capture.mjs
+          ls -lh /tmp/greg-audio
+      - name: Assemble full chapter
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p greg-again/audio/assets
+          : > /tmp/concat.txt
+          for f in /tmp/greg-audio/*.mp3; do
+            printf "file '%s'\n" "$f" >> /tmp/concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/concat.txt -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-001.mp3
           file greg-again/audio/assets/chapter-001.mp3
           du -h greg-again/audio/assets/chapter-001.mp3
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 greg-again/audio/assets/chapter-001.mp3
       - name: Commit captured audio
         run: |
           git config user.name 'github-actions[bot]'
