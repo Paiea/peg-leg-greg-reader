@@ -2,7 +2,7 @@
 
 Use **one primary narrator** for the whole proving run. The narrator carries the world and also performs Greg and other characters without turning the project into a full-cast drama.
 
-The primary narrator should read as **male / masculine**. Greg must clearly sound like a man. His current body is nineteen, but his interior life carries decades of experience; do not solve that contradiction by giving him a caricatured old-man voice. Let age show through timing, judgment, weariness, confidence, and the kinds of things he notices rather than forced vocal aging.
+The primary narrator should read as **male/masculine**. Greg must clearly sound like a man. His current body is nineteen, but his interior life carries decades of experience. Do not solve that contradiction by giving him a caricatured old-man voice. Let age show through timing, judgment, weariness, confidence, and the kinds of things he notices rather than forced vocal aging.
 
 Greg is the dominant point of view, but the narrator is not literally Greg's acoustic identity at every moment. Keep a stable base voice. Character distinction should come mostly from behavior, rhythm, confidence, timing, and small shifts in delivery rather than cartoon accents.
 
@@ -14,7 +14,7 @@ Greg is the dominant point of view, but the narrator is not literally Greg's aco
 - His intelligence should sound active, not smug by default.
 - Do not make every internal observation sound like a punchline.
 
-### Thought-thread continuity
+## Thought-thread continuity
 
 Greg's consciousness is the primary continuity track for the audio experience.
 
@@ -31,6 +31,35 @@ Random-feeling thought motion is welcome when it reveals Greg's actual mind. Avo
 Do not constantly summarize what another character said. Often let the listener hear the one line whose exact wording matters, then let Greg's reaction, interpretation, misinterpretation, or associative thought carry the transition.
 
 Other characters still own their actions. Greg owns perception, not the causal universe.
+
+## ATTENTION HAS GRAVITY
+
+Greg does not finish a thought merely because he started it. When something more salient enters the scene, his attention is allowed to switch immediately.
+
+Physical urgency, threat, embarrassment, attraction, pain, hunger, money, a surprising object, another person's tone, an unexpected movement, or a memory trigger can interrupt the current thought. The old thought may resume later, mutate because of the interruption, or disappear completely.
+
+Do not make every interruption elegant. Human attention drops threads.
+
+Use this rule to resist essay-shaped interior narration. Reality gets voting rights over Greg's mental agenda.
+
+## VOCAL SURFACE
+
+The spoken wording itself should help the renderer perform Greg. Hidden direction is not enough.
+
+Use a small, character-specific vocal grammar:
+
+- Short paragraph breaks can create genuine thought pauses.
+- Tiny resets such as `Right.`, `Okay.`, `No.`, `Wait.`, or `Fine.` are allowed when they reflect Greg actually recalibrating.
+- Self-correction is useful: `I knew that. Well. I'd seen it.`
+- Fragments can mark attention jumps or compressed thinking.
+- Repetition can show a thought catching rather than merely emphasize prose.
+- Commas should usually support breath and continuation. Periods should create firmer mental stops.
+- Ellipses are rare. Use them only when Greg genuinely trails off or cannot finish.
+- Interruptions should be encoded in natural spoken phrasing rather than stage tags whenever possible.
+
+Do not turn vocal tics into a quota. If every paragraph says `Right`, the tic becomes machinery instead of character.
+
+The performance mark must still sound like something Greg would think or say. Avoid SSML-like markup or visible `[pause]`, `[sad]`, `[angry]`, or timing commands in audience speech unless later renderer evidence proves they are necessary.
 
 ## Other voices
 
