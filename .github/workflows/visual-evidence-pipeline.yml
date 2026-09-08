@@ -1,0 +1,72 @@
+name: Validate visual evidence pipeline
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/build_generation_queue.py'
+      - 'scripts/build_prompt_packs.py'
+      - 'scripts/build_generation_packet.py'
+      - 'scripts/character_visual_timeline.py'
+      - 'scripts/build_visual_scene_evidence.py'
+      - 'scripts/apply_illustration_approvals.py'
+      - 'scripts/illustration_state.py'
+      - 'scripts/build_reader_presentation.py'
+      - 'scripts/generate_illustrated.py'
+      - 'scripts/test_character_visual_timeline.py'
+      - 'scripts/test_build_visual_scene_evidence.py'
+      - 'scripts/test_build_generation_queue.py'
+      - 'scripts/test_build_prompt_packs.py'
+      - 'scripts/test_build_generation_packet.py'
+      - 'scripts/test_apply_illustration_approvals.py'
+      - 'scripts/test_build_reader_presentation.py'
+      - 'scripts/test_generate_illustrated_presentation.py'
+      - 'state/visual/CHARACTER_VISUAL_TIMELINE.json'
+      - 'state/visual/VISUAL_SCENE_EVIDENCE.json'
+      - 'state/visual/BOUNDED_GENERATION_APPROVALS.json'
+      - '.github/workflows/visual-evidence-pipeline.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_generation_queue.py'
+      - 'scripts/build_prompt_packs.py'
+      - 'scripts/build_generation_packet.py'
+      - 'scripts/character_visual_timeline.py'
+      - 'scripts/build_visual_scene_evidence.py'
+      - 'scripts/apply_illustration_approvals.py'
+      - 'scripts/illustration_state.py'
+      - 'scripts/build_reader_presentation.py'
+      - 'scripts/generate_illustrated.py'
+      - 'state/visual/CHARACTER_VISUAL_TIMELINE.json'
+      - 'state/visual/VISUAL_SCENE_EVIDENCE.json'
+      - '.github/workflows/visual-evidence-pipeline.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  focused-regressions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate derived state JSON
+        run: |
+          python -m json.tool state/visual/CHARACTER_VISUAL_TIMELINE.json >/dev/null
+          python -m json.tool state/visual/VISUAL_SCENE_EVIDENCE.json >/dev/null
+          python -m json.tool state/visual/BOUNDED_GENERATION_APPROVALS.json >/dev/null
+          python -m json.tool state/visual/GENERATION_QUEUE.json >/dev/null
+      - name: Check PERFORMANCE reference freshness
+        run: python scripts/performance_roundtrip_references.py --check
+      - name: Run focused visual regressions
+        run: |
+          python scripts/test_character_visual_timeline.py
+          python scripts/test_build_visual_scene_evidence.py
+          python scripts/test_build_generation_queue.py
+          python scripts/test_build_prompt_packs.py
+          python scripts/test_build_generation_packet.py
+          python scripts/test_apply_illustration_approvals.py
+          python scripts/test_build_reader_presentation.py
+          python scripts/test_generate_illustrated_presentation.py
+          python scripts/test_generate_illustrated.py
