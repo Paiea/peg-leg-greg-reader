@@ -9,6 +9,7 @@ FIT_TARGETS = {"exact", "close_enough"}
 SPOILER_LEVELS = {"low", "medium", "high"}
 SCENE_STATUSES = {"candidate", "prompt_ready", "generated", "approved", "live", "rejected"}
 REGISTRY_STATUSES = {"queued", "generated", "approved", "live", "rejected"}
+PRESENTATION_ROLES = {"sketch-beat", "scene-illustration", "feature-illustration", "feature-portrait"}
 
 
 def _load_json_list(path: Path, label: str) -> list[dict]:
@@ -98,6 +99,13 @@ def validate_registry(records: list[dict], root: Path | None = None) -> None:
             value = record.get(field, "")
             if not isinstance(value, str):
                 raise ValueError(f"illustration {art_id} {field} must be text")
+
+        if "presentation_role" in record:
+            _require_enum(record, "presentation_role", PRESENTATION_ROLES, f"illustration {art_id}")
+        if "editorial_purpose" in record:
+            _require_text(record, "editorial_purpose", f"illustration {art_id}")
+        if "editorial_note" in record and not isinstance(record.get("editorial_note"), str):
+            raise ValueError(f"illustration {art_id} editorial_note must be text")
 
         if status in {"approved", "live"}:
             _require_text(record, "alt_text", f"illustration {art_id}")
