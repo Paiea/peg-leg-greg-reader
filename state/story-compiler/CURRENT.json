@@ -1,6 +1,6 @@
 {
   "schema": "story_compiler_current/v1",
-  "architecture_version": "story-compiler/rehearsal-led-temporal-slabs-v2",
+  "architecture_version": "story-compiler/rehearsal-led-temporal-slabs-v3-time-action-pressure",
   "authority": {
     "repository": "Paiea/peg-leg-greg-reader",
     "branch": "architecture/long-form-story-compiler",
@@ -15,6 +15,8 @@
     "rehearsal": "experiment selection and orchestration",
     "performance": "high-fidelity embodied-behavior experiment available inside rehearsal",
     "story_sync": "learning and convergence",
+    "time": "off-camera causality and elapsed pressure",
+    "action": "state change under pressure",
     "prose": "rendering"
   },
   "persistent_acts": ["act-i", "act-ii", "act-iii", "act-iv"],
@@ -22,6 +24,18 @@
   "shared_story_ir": {
     "authority": "conservative_derived_memory",
     "contains": ["promoted discoveries", "repeated signals", "strong threads", "story truths", "forward consequences", "backward requirements", "boundary contradictions", "major relationship/character state", "hidden-canon implications", "reader-state implications", "provenance"]
+  },
+  "time_action_pressure": {
+    "authority": "derived_pressure_only",
+    "contract": "state/story-compiler/TIME_ACTION.md",
+    "helper": "scripts/story_time_action.py",
+    "time_equation": "TIME = off-camera causality + elapsed pressure",
+    "action_equation": "ACTION = state change under pressure",
+    "gap_modes": ["continuous_scene", "compressed_repetition", "off_camera_gap", "deliberate_skip"],
+    "time_tracks": ["off_camera_changes", "growth_allowed", "decay_risks", "missed_opportunities", "routine_changes"],
+    "action_tracks": ["pressure_sources", "physical_constraints", "state_changes", "residue", "win_condition_changes", "independent_vectors"],
+    "warnings": ["time_gap_without_state_change", "action_without_residue"],
+    "anti_rule": "no time-jump quota and no action quota; expose causal pressure rather than forcing speed"
   },
   "forward_rule": "extract candidate later consequences from tested earlier behavior; later acts test rather than obey them",
   "backward_rule": "extract candidate earlier prerequisites implied by tested later states/payoffs; earlier acts test whether they arise naturally",
@@ -46,7 +60,7 @@
     "counterpressure": "creator-surprise"
   },
   "memory_policy": {
-    "hot": ["active act packets", "active boundaries", "open high-value questions", "current directional messages", "compact recent rehearsal evidence", "active STORY SYNC discoveries/contradictions"],
+    "hot": ["active act packets", "active boundaries", "open high-value questions", "current directional messages", "compact recent rehearsal evidence", "active STORY SYNC discoveries/contradictions", "current time/action pressure when it changes interval viability"],
     "cold": ["routine full rehearsal/performance transcripts after reduction", "superseded branches", "historical reasoning represented by provenance", "inactive structural speculation"],
     "retain_full_evidence_when": "materially useful as case law, high-value provenance, or later audit evidence"
   },
@@ -57,7 +71,8 @@
     "event-driven sync and rehearsal feedback targets",
     "creator-taste evidence storage/rebuild",
     "persistent_act_runtime with four slabs, boundary contradictions, long-range messages, non-starving scheduling, temporal-consistency reporting, derived delta integration, STORY SYNC delegation",
-    "Dragon Spotter first-bargain high-heat performance evidence"
+    "Dragon Spotter first-bargain high-heat performance evidence",
+    "derived time/action pressure contract with gap modes, elapsed-change tracks, action residue, changed win conditions, and explicit missing-residue warnings"
   ],
   "hypotheses": [
     "four persistent temporal slabs outperform simpler frontier scheduling",
@@ -65,7 +80,9 @@
     "temporal/4D rehearsal improves continuity",
     "backward implied-history extraction avoids retrofit sludge",
     "compact evidence can replace routine full transcripts",
-    "baseline heartbeat remains useful late in convergence"
+    "baseline heartbeat remains useful late in convergence",
+    "explicit elapsed-time pressure reduces accidental camera-on-every-day long-form generation",
+    "action-residue checks improve event density without turning slice-of-life into combat quota"
   ],
   "active_experiment": {
     "project": "Dragon Spotter",
@@ -74,5 +91,5 @@
     "strong_hypotheses": ["reciprocal dragon obligation", "observation-driven improvisation constrained by Scholar knowledge", "voluntary recognition may matter because force cannot create agreement"],
     "preserved_divergence": ["land restoration versus relic restitution", "treasure form", "late professional identity"]
   },
-  "next_step": "Finish creator-taste compatibility seam; then add generic rehearsal-target experiment_mode + fidelity contracts and compact rehearsal-evidence reduction to persistent_act_runtime, expose one derived-only runtime cycle in plg_ai_tools, and run the existing Dragon Spotter first-bargain evidence through the loop without canon writes."
+  "next_step": "Finish creator-taste compatibility seam; keep the new time/action pressure contract available to interval design and rehearsal; then add generic rehearsal-target experiment_mode + fidelity contracts and compact rehearsal-evidence reduction to persistent_act_runtime, expose one derived-only runtime cycle in plg_ai_tools, and run the existing Dragon Spotter first-bargain evidence through the loop without canon writes."
 }
