@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +36,27 @@ def main() -> int:
         assert "presentation role" in str(exc).lower(), exc
     else:
         raise AssertionError("invalid presentation role must fail")
+
+    registry = [
+        {
+            "id": "feature-seven",
+            "candidate_id": "feature-seven",
+            "chapter": 7,
+            "kind": "chapter_illustration",
+            "status": "live",
+            "live_asset": "visual/chapter_art/007/feature.webp",
+            "paragraph_anchor": "",
+            "alt_text": "Feature.",
+            "caption": "",
+            "presentation_role": "feature-illustration",
+            "editorial_purpose": "Make this a visual scene anchor.",
+        }
+    ]
+    with tempfile.TemporaryDirectory() as tmp:
+        missing = Path(tmp) / "missing-presentation.json"
+        derived = generate_illustrated.load_reader_presentation(missing, registry=registry)
+    assert derived["visual/chapter_art/007/feature.webp"]["presentation_role"] == "feature-illustration", derived
+    assert derived["visual/chapter_art/007/feature.webp"]["editorial_purpose"].startswith("Make this"), derived
 
     print("illustrated reader presentation regressions passed")
     return 0
