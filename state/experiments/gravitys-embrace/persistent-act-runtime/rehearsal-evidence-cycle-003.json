@@ -1,0 +1,110 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-act-iv-trust-pressure-performance",
+    "target_id": "target:ge-act-iv-trust-pressure-performance",
+    "source_act": "act-iv",
+    "experiment_mode": "performance",
+    "fidelity": "high_heat",
+    "finding": "The downstream trust thread survives only when another person owns a genuinely consequential part of the gravity attempt rather than serving as emotional decoration. A late attempt becomes dramatically useful when the player must commit before she can fully verify the other person's timing, rescue choice, or public handling of the result. That intervention can save her, expose her, fail her, or become leverage. The behavior works across multiple relationship labels, so the experiment strengthens embodied dependence without choosing romance architecture.",
+    "confidence": 0.83,
+    "provenance": "gravitys-embrace:rehearsal:cycle-003:act-iv-trust-pressure-performance",
+    "local_discoveries": [
+      {
+        "id": "ge-a4-trust-is-also-leverage",
+        "finding": "The same mechanical dependence that makes trust useful also gives the trusted person real power over safety, secrecy, reputation, or outcome."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "mechanics-can-carry-trust",
+        "evidence": {
+          "source_id": "rehearsal:ge-evidence-act-iv-trust-pressure-performance:adversarial-trust",
+          "independent_group": "ge-act-iv-trust-pressure-challenge",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["relationship", "plot", "tension"],
+          "regions": ["act-iv"]
+        }
+      }
+    ],
+    "constraint_responses": [
+      {
+        "message_id": "ge-forward-power-increases-relational-vulnerability",
+        "response": "supported",
+        "reason": "A more capable gravity attempt can demand more consequential coordination, so power increases the cost of trusting another person's timing or intervention."
+      },
+      {
+        "message_id": "ge-forward-trust-can-be-exploited",
+        "response": "supported",
+        "reason": "The trusted person's mechanical role naturally creates the ability to save, expose, fail, manipulate, or validate the player without inventing a separate betrayal mechanism."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-late-ordinary-mechanics-challenge",
+    "target_id": "target:sync:survival-enables-offense:challenge_strong_thread",
+    "source_act": "act-iv",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "Pushing the premise into a late-book deliberate gravity attempt does not require Maximum HP to mutate into offense. The coherent trajectory keeps HP defensive, keeps collision and gravity ordinary, and makes mastery consist of choosing conditions, accepting cost, and surviving enough risk to use those mechanics intentionally. The exact exploit recipe remains open.",
+    "confidence": 0.88,
+    "provenance": "gravitys-embrace:rehearsal:cycle-003:late-ordinary-mechanics-challenge",
+    "local_discoveries": [
+      {
+        "id": "ge-a4-mastery-is-control-not-immunity",
+        "finding": "Late mastery is more coherent as better control over ordinary dangerous conditions than as immunity to gravity or a new damage power."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "survival-enables-offense",
+        "evidence": {
+          "source_id": "rehearsal:ge-evidence-late-ordinary-mechanics-challenge:late-worldline",
+          "independent_group": "ge-late-ordinary-mechanics-challenge",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["plot", "progression", "ending"],
+          "regions": ["act-iv"]
+        }
+      }
+    ],
+    "constraint_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-technique-attention-forward-probe",
+    "target_id": "target:message:ge-forward-technique-attracts-attention",
+    "source_act": "act-iii",
+    "experiment_mode": "forward_consequence_test",
+    "fidelity": "probe",
+    "finding": "The social-access third path makes the existing forward consequence more plausible: a visibly useful underleveled technique can attract recruitment, curiosity, competition, sponsorship, control attempts, or requests for replication without requiring the first fall to move the player geographically.",
+    "confidence": 0.76,
+    "provenance": "gravitys-embrace:rehearsal:cycle-003:technique-attention-forward-probe",
+    "local_discoveries": [
+      {
+        "id": "ge-a3-attention-can-follow-usefulness",
+        "finding": "Higher-level attention can plausibly arise from witnessed utility rather than from the player's level, credentials, or early geographic placement."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-forward-technique-attracts-attention",
+        "response": "supported",
+        "reason": "Act III has a causal route for attention through witnessed technique value while preserving both social-entry and geographic branches."
+      }
+    ]
+  }
+]

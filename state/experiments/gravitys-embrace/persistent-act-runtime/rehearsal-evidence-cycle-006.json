@@ -1,0 +1,43 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-act-i-ii-gravity-model-bridge",
+    "target_id": "target:boundary:act-i:act-ii:gravity_model:ge-a1-out-gravity:ge-a2-in-gravity",
+    "source_act": "act-ii",
+    "experiment_mode": "state_transition_test",
+    "fidelity": "development",
+    "finding": "The Act I to Act II transition is credible if the first fall leaves a falsifiable discrepancy rather than a recipe: the protagonist can compare the observed survival and aftermath against the ordinary result he had reason to expect, verify that the event was not consequence-free, and identify at least one concrete feature worth varying without knowing which feature caused the anomaly. That makes a deliberately bounded second test rational because the question becomes whether any part of the result can recur under safer, controlled conditions, not whether he should repeat the original apparently suicidal fall. The evidence supports uncertain reproduction while preserving multiple causal hypotheses and leaving the exact gravity recipe unresolved.",
+    "confidence": 0.82,
+    "provenance": "gravitys-embrace:rehearsal:cycle-006:act-i-ii-gravity-model-boundary",
+    "local_discoveries": [
+      {
+        "id": "ge-a2-reproduction-begins-with-discrepancy-not-recipe",
+        "finding": "A rational second experiment can be motivated by a concrete mismatch between expected and observed consequences plus the ability to test a bounded variation; the protagonist needs evidence that the anomaly is investigable, not knowledge of its cause."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [
+      {
+        "act_id": "act-ii",
+        "boundary_side": "state_in",
+        "boundary_id": "ge-a2-in-gravity",
+        "value": "anomaly-evidenced-reproduction-uncertain",
+        "confidence": 0.72,
+        "reason": "Development rehearsal supports deliberate investigation only after the protagonist has a concrete discrepancy and a bounded safer comparison available. This narrows uncertain reproduction into evidence-backed investigability without identifying the controlling gravity variables or recipe."
+      }
+    ],
+    "boundary_responses": [
+      {
+        "boundary_id": "boundary:act-i:act-ii:gravity_model:ge-a1-out-gravity:ge-a2-in-gravity",
+        "target_act": "act-ii",
+        "response": "supported",
+        "reason": "The bridge is supported by a lived epistemic sequence: anomalous survival leaves a concrete mismatch with ordinary expectation; the mismatch survives basic sanity checking while real cost remains visible; a safer bounded comparison can test recurrence without repeating the original lethal exposure; multiple causal explanations remain live. The transition therefore earns uncertain reproduction without solving the mechanic."
+      }
+    ]
+  }
+]

@@ -1,0 +1,310 @@
+{
+  "schema": "dragon_spotter_high_heat_rehearsal/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "scene_id": "ds.act-i.first-bargain.high-heat",
+  "mode": "free",
+  "heat": "high",
+  "purpose": [
+    "resolve q.first-dragon-want without forcing one outline answer",
+    "challenge gift-reciprocity",
+    "challenge improvisation-is-competence-path",
+    "test mutual-indispensability",
+    "preserve first-gift-form divergence"
+  ],
+  "dramatic_lock": {
+    "preserve": [
+      "the Spotter is genuinely underqualified",
+      "the Scholar possesses real historical/protocol knowledge he lacks",
+      "the dragon is sovereign, intelligent, dangerous, and not a pet",
+      "the encounter must become a negotiation rather than a fight",
+      "no possibility becomes Dragon Spotter canon in this trial"
+    ],
+    "leave_open": [
+      "the exact demand",
+      "the exact treasure form",
+      "whether the dragon knows the fraud immediately",
+      "which actor first understands the real bargain",
+      "how much of the old treaty survives modern human law"
+    ]
+  },
+  "actors": [
+    {
+      "actor_id": "actor.ds.spotter.v1",
+      "actor_name": "Spotter Performer",
+      "role": "Spotter",
+      "objective": "survive first contact, avoid exposure, and get a deal he can take back to human authority",
+      "pressure": ["fraud", "physical danger", "obsolete manual", "Scholar scrutiny"],
+      "behavioral_anchor": "bluffs until concrete observation gives him something real to work with"
+    },
+    {
+      "actor_id": "actor.ds.scholar.v1",
+      "actor_name": "Scholar Performer",
+      "role": "Scholar",
+      "objective": "prevent an ignorant fraud from triggering a diplomatic catastrophe while proving her expertise has value",
+      "pressure": ["resentment", "professional responsibility", "dragon awe", "institutional doctrine failing in real time"],
+      "behavioral_anchor": "uses doctrine as a constraint system, not a personality"
+    },
+    {
+      "actor_id": "actor.ds.dragon.v1",
+      "actor_name": "Dragon Performer",
+      "role": "First Dragon",
+      "objective": "obtain meaningful human compliance with an old reciprocal obligation without reducing itself to a monster demanding tribute",
+      "pressure": ["human encroachment", "thirty years of absence", "broken continuity of treaty knowledge", "contempt for empty ceremony"],
+      "behavioral_anchor": "dangerous, literal about obligation, dryly impatient with humans confusing price with relationship"
+    }
+  ],
+  "variance_groups": [
+    {
+      "group_id": "bargain.land-restoration",
+      "premise": "The dragon can seize an old landing shelf by force, but wants humans to voluntarily restore the treaty boundary and stop quarrying it.",
+      "takes": [
+        {
+          "take_id": "land-a",
+          "outputs": [
+            {
+              "actor_name": "Spotter Performer",
+              "role": "Spotter",
+              "body": [
+                {"kind": "failed_protocol", "value": "starts the memorized greeting, then stops when the dragon keeps looking past him at the quarry scars"},
+                {"kind": "observation", "value": "tracks the dragon's attention to blast marks and the beacon tower rather than its hoard or the armed escort"}
+              ],
+              "voice": [
+                {"value": "You could clear that shelf yourself."},
+                {"value": "So why are you asking us to do it?"},
+                {"value": "No blasting from today. Give me thirty days for the lower shelf and an inspection tomorrow before anybody moves a boundary stone."}
+              ],
+              "private_inner_voice": [
+                {"form": "calculation", "value": "It is not asking whether it can take the land. It is asking whether we will give back what we promised.", "authority": "performed_interpretation"}
+              ]
+            },
+            {
+              "actor_name": "Scholar Performer",
+              "role": "Scholar",
+              "body": [
+                {"kind": "intervention", "value": "stops herself from correcting his form of address when his question changes the dragon's attention"},
+                {"kind": "support", "value": "quietly supplies the old boundary term when he asks what exactly must be inspected"}
+              ],
+              "voice": [
+                {"value": "The old text calls it a landing shelf, not a holding."},
+                {"value": "Thirty days is not an insult if blasting stops now."}
+              ],
+              "private_inner_voice": [
+                {"form": "recognition", "value": "He asked the question the manual never does.", "authority": "performed_interpretation"}
+              ]
+            },
+            {
+              "actor_name": "Dragon Performer",
+              "role": "First Dragon",
+              "body": [
+                {"kind": "threat_without_attack", "value": "one claw closes around a quarried block and turns it to gravel while the rest of its body remains still"},
+                {"kind": "offer", "value": "places an old gold treaty medallion on the stone between them after accepting the temporary terms"}
+              ],
+              "voice": [
+                {"value": "Taking is easy. Agreement is the thing your people have misplaced."},
+                {"value": "The blasting stops with this conversation. The tower leaves before the moon is new."},
+                {"value": "Carry that to whoever still remembers what a promise costs."}
+              ],
+              "private_inner_voice": [
+                {"form": "recognition", "value": "The liar is finally asking about the obligation instead of performing knowledge of it.", "authority": "performed_interpretation"}
+              ]
+            }
+          ],
+          "observable_findings": [
+            "A physical demand becomes negotiable when the dragon wants voluntary restoration of obligation, not mere possession.",
+            "The Spotter becomes useful when he notices what the dragon attends to and asks the dangerous concrete question.",
+            "The Scholar improves the bargain when her doctrine supplies constraints after his observation opens the negotiation.",
+            "Treasure works naturally as earnest/surety attached to reciprocal obligation."
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "bargain.relic-restitution",
+      "premise": "The dragon wants an old treaty object held by the Crown returned voluntarily; stealing it back would recover the object but not repair the human acknowledgment of debt.",
+      "takes": [
+        {
+          "take_id": "relic-a",
+          "outputs": [
+            {
+              "actor_name": "Spotter Performer",
+              "role": "Spotter",
+              "body": [{"kind": "reframe", "value": "stops discussing the object's market value when the dragon becomes colder rather than angrier"}],
+              "voice": [
+                {"value": "You don't need us to lose the object. You need us to return it."},
+                {"value": "That means I need somebody with the authority to admit it was never ours."}
+              ],
+              "private_inner_voice": [
+                {"form": "calculation", "value": "It could rob the palace. Robbery would prove nothing.", "authority": "performed_interpretation"}
+              ]
+            },
+            {
+              "actor_name": "Scholar Performer",
+              "role": "Scholar",
+              "body": [{"kind": "memory_use", "value": "connects the object's museum name to a mistranslated clause in the old treaty catalogue"}],
+              "voice": [
+                {"value": "It was recorded as tribute. The older hand calls it a pledge."},
+                {"value": "If that reading is right, possession was conditional."}
+              ],
+              "private_inner_voice": [
+                {"form": "self_correction", "value": "The archive was not wrong about the object. It was wrong about the relationship.", "authority": "performed_interpretation"}
+              ]
+            },
+            {
+              "actor_name": "Dragon Performer",
+              "role": "First Dragon",
+              "body": [{"kind": "offer", "value": "sheds a single old scale from beneath the jaw and leaves it as safe-conduct only after the human distinction is spoken aloud"}],
+              "voice": [
+                {"value": "If I take it, you will call me thief and keep your lie."},
+                {"value": "Return it, and we may discover whether your dead still bind your living."}
+              ],
+              "private_inner_voice": [
+                {"form": "recognition", "value": "One human has finally distinguished possession from restitution.", "authority": "performed_interpretation"}
+              ]
+            }
+          ],
+          "observable_findings": [
+            "A dragon may negotiate for a voluntary human act because force can recover property but cannot create acknowledgment.",
+            "The Scholar's historical knowledge becomes dramatically useful when it changes the meaning of the bargain rather than replacing live negotiation.",
+            "A scale-token works naturally as safe-conduct/reciprocal evidence without functioning as random loot."
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "challenge.dead-protocol-no-gift",
+      "premise": "Challenge the gift-reciprocity and improvisation threads: let correct formal protocol lead, remove treasure entirely, and see whether the bargain becomes stronger.",
+      "takes": [
+        {
+          "take_id": "protocol-a",
+          "outputs": [
+            {
+              "actor_name": "Spotter Performer",
+              "role": "Spotter",
+              "body": [{"kind": "retreat", "value": "keeps to memorized responses after the Scholar warns him not to improvise"}],
+              "voice": [{"value": "The Crown offers tribute in recognition of your return."}],
+              "private_inner_voice": [{"form": "calculation", "value": "This is the line. Say the line and don't die.", "authority": "performed_interpretation"}]
+            },
+            {
+              "actor_name": "Scholar Performer",
+              "role": "Scholar",
+              "body": [{"kind": "protocol", "value": "executes the surviving first-contact sequence exactly as the archive prescribes"}],
+              "voice": [{"value": "By the Third Accord, gift answers arrival before grievance."}],
+              "private_inner_voice": [{"form": "recognition", "value": "Every word is correct and the exchange is still getting worse.", "authority": "performed_interpretation"}]
+            },
+            {
+              "actor_name": "Dragon Performer",
+              "role": "First Dragon",
+              "body": [{"kind": "rejection", "value": "does not touch the offered tribute and turns its head toward the damaged treaty ground"}],
+              "voice": [
+                {"value": "You cannot purchase release from a promise with a gift."},
+                {"value": "Ask why I came, or send me someone who can."}
+              ],
+              "private_inner_voice": [{"form": "emotional_recoil", "value": "They preserved the words and discarded the obligation.", "authority": "performed_interpretation"}]
+            }
+          ],
+          "observable_findings": [
+            "Correct ritual alone can preserve safety briefly but does not discover the actual bargain.",
+            "Removing reciprocal treasure does not break the scene, but it weakens the material bridge between dragon obligation, the protagonist's money motive, and later human politics.",
+            "The gift-reciprocity thread survives an explicit no-gift challenge as a stronger cross-book connector rather than a requirement for every negotiation."
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "challenge.reckless-improvisation",
+      "premise": "Challenge the competence thread from the opposite direction: let the Spotter improvise without the Scholar's constraints and see whether improvisation alone is actually competence.",
+      "takes": [
+        {
+          "take_id": "reckless-a",
+          "outputs": [
+            {
+              "actor_name": "Spotter Performer",
+              "role": "Spotter",
+              "body": [{"kind": "overreach", "value": "mistakes the dragon's willingness to answer one direct question for permission to bargain casually"}],
+              "voice": [{"value": "Fine. What's your price for leaving the shelf alone?"}],
+              "private_inner_voice": [{"form": "wrong_inference", "value": "Got it talking. Keep it talking.", "authority": "performed_interpretation"}]
+            },
+            {
+              "actor_name": "Scholar Performer",
+              "role": "Scholar",
+              "body": [{"kind": "interruption", "value": "cuts across him before the dragon can interpret price as an offer to buy its own right from it"}],
+              "voice": [
+                {"value": "Not price. Terms."},
+                {"value": "He means terms for human withdrawal without injury."}
+              ],
+              "private_inner_voice": [{"form": "recognition", "value": "His flexibility is useful only if someone knows where the cliffs are.", "authority": "performed_interpretation"}]
+            },
+            {
+              "actor_name": "Dragon Performer",
+              "role": "First Dragon",
+              "body": [{"kind": "threat", "value": "heat ripples across the stone at the word price, then recedes when the Scholar repairs the meaning"}],
+              "voice": [{"value": "Your colleague has just saved you from becoming the first payment."}],
+              "private_inner_voice": [{"form": "recognition", "value": "The liar listens quickly. The learned one knows which errors kill.", "authority": "performed_interpretation"}]
+            }
+          ],
+          "observable_findings": [
+            "Improvisation by itself is not competence; live observation needs domain constraints.",
+            "The strongest working pair is doctrine catching lethal category errors while the Spotter adapts to behavior the doctrine never predicted.",
+            "The dragon's useful preference is responsiveness, not dishonesty itself."
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "lead_candidate": "land-a",
+    "why": [
+      "creates immediate physical and human stakes without requiring a villain",
+      "makes negotiation necessary because voluntary recognition cannot be seized",
+      "connects old treaty logic to current human land use",
+      "lets Spotter observation and Scholar doctrine both matter",
+      "supports treasure as reciprocal surety while preserving coin versus scale-token as an open branch"
+    ],
+    "runner_up": "relic-a",
+    "preserve_for_future_testing": ["relic-a"],
+    "challenge_only": ["protocol-a", "reckless-a"],
+    "not_story_canon": true
+  },
+  "discoveries": [
+    {
+      "scene_id": "ds.act-i.first-bargain.high-heat",
+      "kind": "behavioral_discovery",
+      "finding": "The first dragon's demand is strongest when force could seize the physical thing but cannot obtain the voluntary human recognition of reciprocal obligation that the dragon actually wants.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["land-a", "relic-a"]
+    },
+    {
+      "scene_id": "ds.act-i.first-bargain.high-heat",
+      "kind": "behavioral_discovery",
+      "finding": "Dragon treasure survives a no-gift challenge as a useful reciprocal surety and cross-book consequence, but not as a mandatory reward attached to every negotiation.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["land-a", "relic-a", "protocol-a"]
+    },
+    {
+      "scene_id": "ds.act-i.first-bargain.high-heat",
+      "kind": "behavioral_discovery",
+      "finding": "The Spotter's path to competence is observation-driven improvisation constrained by real knowledge; pure protocol and pure improvisation both fail in different ways.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["land-a", "protocol-a", "reckless-a"]
+    },
+    {
+      "scene_id": "ds.act-i.first-bargain.high-heat",
+      "kind": "relationship_behavior",
+      "finding": "The first bargain strengthens mutual indispensability: the Scholar catches lethal category errors while the Spotter notices live behavior the archive cannot predict.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["land-a", "relic-a", "reckless-a"]
+    },
+    {
+      "scene_id": "ds.act-i.first-bargain.high-heat",
+      "kind": "character_hypothesis",
+      "finding": "The dragon appears to value responsiveness and accurate recognition more than the Spotter's dishonesty; 'dragon prefers the liar' may be the wrong causal explanation.",
+      "provenance_class": "rehearsal_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["land-a", "reckless-a"]
+    }
+  ]
+}

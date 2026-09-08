@@ -1,0 +1,50 @@
+{
+  "schema": "creator_taste_context/v1",
+  "project": "gravitys-embrace",
+  "cross_project_signals": [],
+  "project_signals": [
+    {
+      "id": "ordinary-mechanics-leverage",
+      "scope": "project",
+      "direction": "prefer",
+      "confidence": 0.98,
+      "summary": "Keep Maximum HP an ordinary defensive stat and gravity an ordinary dangerous mechanic; story leverage should come from how the player understands and combines normal rules, not from a replacement secret class."
+    },
+    {
+      "id": "relationships-carry-dramatic-weight",
+      "scope": "project",
+      "direction": "prefer",
+      "confidence": 0.9,
+      "summary": "Use LitRPG mechanics as causal pressure while relationships, trust, belonging, rivalry, status, and social consequence carry substantial dramatic weight."
+    },
+    {
+      "id": "broad-fantasy-romance-readability",
+      "scope": "project",
+      "direction": "prefer",
+      "confidence": 0.82,
+      "summary": "Favor character-legible fantasy and romance readability over stat-sheet density or system exposition for its own sake."
+    },
+    {
+      "id": "avoid-stat-sheet-sludge",
+      "scope": "project",
+      "direction": "avoid",
+      "confidence": 0.9,
+      "summary": "Do not let numerical optimization or mechanical explanation replace scenes that change character, relationship, danger, status, or choice."
+    },
+    {
+      "id": "romance-architecture-open",
+      "scope": "project",
+      "direction": "explore",
+      "confidence": 0.9,
+      "summary": "Keep pre-existing-connection and experimentation-grown romance paths alive until performed behavior gives a reason to converge."
+    },
+    {
+      "id": "geographic-gate-not-competence-skip",
+      "scope": "project",
+      "direction": "explore",
+      "confidence": 0.75,
+      "summary": "A gravity accident may create access to a higher-level place or social layer, but it should not erase the competence, danger, or social costs of being underprepared."
+    }
+  ],
+  "authority_effect": "heuristic_only_no_story_authority"
+}

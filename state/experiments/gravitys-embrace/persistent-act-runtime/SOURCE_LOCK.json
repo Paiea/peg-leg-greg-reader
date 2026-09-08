@@ -1,0 +1,33 @@
+{
+  "schema": "story_project_source_lock/v1",
+  "project": "gravitys-embrace",
+  "compiler_authority": {
+    "repository": "Paiea/peg-leg-greg-reader",
+    "branch": "architecture/long-form-story-compiler",
+    "trailhead": [
+      "state/story-compiler/CURRENT.md",
+      "state/story-compiler/CURRENT.json"
+    ]
+  },
+  "project_authority": {
+    "repository": "Paiea/Projects",
+    "branch": "main",
+    "commit": "95a96ef4f06e63ce6e30cf7dbe15008b800284d5",
+    "project_state": {
+      "path": "stories/gravitys-embrace/PROJECT_STATE.md",
+      "blob": "57ddd192425d605d369f10e4254337e8afd86f04"
+    },
+    "accepted_seed": {
+      "path": "stories/gravitys-embrace/STORY_SEED.md",
+      "blob": "2ac626853a748c4e73d118c377462f468ca19618"
+    }
+  },
+  "accepted_story_authority": [
+    "Maximum HP remains an ordinary defensive stat.",
+    "Gravity remains dangerous and useful because the player learns ordinary mechanics differently.",
+    "Do not replace the engine with an unrelated hidden legendary class.",
+    "No accepted manuscript prose exists yet; the seed direction is not exact prose canon."
+  ],
+  "uncertainty_policy": "Anything beyond accepted project authority is hypothesis, creator heuristic, rehearsal evidence, or derived state until explicitly promoted.",
+  "authority_effect": "project_local_source_lock_no_canon_creation"
+}

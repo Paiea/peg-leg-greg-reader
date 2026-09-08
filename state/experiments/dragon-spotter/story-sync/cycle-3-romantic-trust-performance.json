@@ -1,0 +1,182 @@
+{
+  "schema": "dragon_spotter_high_heat_boundary_performance/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "scene_id": "ds.act-ii-to-iii.romantic-trust.high-heat",
+  "target_boundary_id": "boundary:act-ii:act-iii:romantic_trust:a2-out-romantic-trust:a3-in-romantic-trust",
+  "mode": "free",
+  "heat": "high",
+  "purpose": [
+    "test whether guarded-respect can honestly reach the current Act III mutual-reliance hypothesis",
+    "separate operational reliance from broad personal or romantic trust",
+    "challenge mutual-indispensability under refusal, asymmetry, attraction, and failure",
+    "allow a third relationship path rather than prescribing the Act III state"
+  ],
+  "pressure_situation": {
+    "premise": "During a later dragon negotiation under Crown scrutiny, a treaty breach must be interpreted and answered in real time. The Scholar can determine what the surviving doctrine actually means, but the Spotter can read the dragon's live behavioral distinctions and negotiate inside them. Officials will treat a public mistake as evidence that he is a dangerous fraud and that she enabled him. The dragon will not wait for a committee, and neither lead can safely perform the other's job.",
+    "reliance_cost": [
+      "the Spotter must publicly follow a Scholar correction that costs him face and may expose the limits of his knowledge",
+      "the Scholar must let his live behavioral read carry her interpretation before she can independently verify every consequence",
+      "either can refuse to back the other and preserve individual reputation at the cost of the negotiation",
+      "a wrong read can create physical danger while a wrong doctrinal claim can create diplomatic liability"
+    ],
+    "attraction_rule": "Attraction may intensify during competent behavior, but attraction supplies no evidence of trust by itself."
+  },
+  "dramatic_lock": {
+    "preserve": [
+      "the Spotter remains genuinely underqualified in formal doctrine",
+      "the Scholar retains real expertise and is not reduced to his assistant",
+      "the Spotter's live behavioral reading remains a real competence he has earned",
+      "the Scholar has rational reasons to distrust his fraud and institutional liability",
+      "neither lead can trivially replace the other in this pressure situation",
+      "failure and refusal remain valid outcomes",
+      "no relationship outcome becomes Dragon Spotter canon in this trial"
+    ],
+    "leave_open": [
+      "whether reliance becomes reciprocal",
+      "whether professional reliance broadens into personal trust",
+      "whether attraction helps or worsens interpretation",
+      "whether either lead resents dependence",
+      "whether the later Act III relationship state must be revised"
+    ]
+  },
+  "actors": [
+    {
+      "actor_id": "actor.ds.spotter.v1",
+      "actor_name": "Spotter Performer",
+      "role": "Spotter",
+      "objective": "keep the bargain alive, protect people in the room, and prove his field judgment is more than lucky bluffing without surrendering all agency to the Scholar",
+      "pressure": ["fraud exposure", "physical danger", "Crown scrutiny", "attraction he cannot safely treat as trust"],
+      "behavioral_anchor": "reads concrete behavior quickly, resists humiliation, and is most reliable when he stops pretending to know what he does not know"
+    },
+    {
+      "actor_id": "actor.ds.scholar.v1",
+      "actor_name": "Scholar Performer",
+      "role": "Scholar",
+      "objective": "prevent a diplomatic failure, keep doctrine accurate, and avoid letting a useful fraud turn her expertise and reputation into collateral",
+      "pressure": ["professional responsibility", "resentment", "public association with his fraud", "attraction that does not erase evidence against trusting him"],
+      "behavioral_anchor": "will delegate only when observed competence earns it and will withdraw support when he substitutes ego for field judgment"
+    },
+    {
+      "actor_id": "actor.ds.later-dragon.v1",
+      "actor_name": "Later Dragon Performer",
+      "role": "Later Dragon",
+      "objective": "force the humans to answer the actual breach rather than hide behind office, scholarship, or improvised charm",
+      "pressure": ["broken treaty continuity", "human delay", "public witnesses", "need for an answer that binds behavior rather than ceremony"],
+      "behavioral_anchor": "responds to coherent human action and becomes more dangerous when the humans use each other as excuses"
+    }
+  ],
+  "takes": [
+    {
+      "take_id": "reciprocal-delegation",
+      "hypothesis": "Costly reciprocal delegation may produce real reliance without producing broad personal trust.",
+      "behavior": [
+        "The Scholar gives a terse doctrinal correction that publicly exposes the Spotter's ignorance instead of softening it to protect him.",
+        "He takes the correction without bluffing over it and immediately uses his live read of the dragon to translate it into workable terms.",
+        "When the dragon changes posture, he quietly tells the Scholar not to retreat; she acts on his read before she can prove it from doctrine.",
+        "When officials demand that she distance herself from his unauthorized wording, she backs the specific field decision while refusing to certify him as generally trustworthy.",
+        "After the danger passes, neither converts successful coordination into a confession or promise. Both acknowledge that the other's judgment mattered."
+      ],
+      "observable_findings": [
+        "Reciprocal reliance is behaviorally reachable when each accepts a specific cost for acting on the other's competence.",
+        "The successful reliance remains domain-bounded: they trust each other's field judgment more than they trust each other's motives or future choices.",
+        "Attraction intensifies around competence but does not close the personal-trust gap."
+      ],
+      "outcome_class": "third_path_operational_reliance_with_guarded_personal_trust"
+    },
+    {
+      "take_id": "professional-compartment",
+      "hypothesis": "They may succeed through clean role separation without meaningful interpersonal trust.",
+      "behavior": [
+        "The Scholar supplies only verified treaty facts and refuses to endorse any live inference she cannot independently justify.",
+        "The Spotter uses her facts but treats her as an information source rather than a partner with decision authority.",
+        "The bargain survives, but both repeatedly pause to protect individual responsibility and miss openings the reciprocal-delegation take used."
+      ],
+      "observable_findings": [
+        "Professional coordination is viable but slower and less adaptive than reciprocal reliance.",
+        "Success alone does not prove emotional or romantic trust."
+      ],
+      "outcome_class": "professional_reliance_without_emotional_trust"
+    },
+    {
+      "take_id": "attraction-misread",
+      "hypothesis": "Competence heat may increase while distrust also increases.",
+      "behavior": [
+        "The Spotter makes a fast physical intervention that prevents the Scholar from stepping into the dragon's warning space.",
+        "She recognizes the accuracy of the intervention but reads his refusal to explain first as another reckless seizure of control.",
+        "Their attraction becomes more visible under adrenaline while their argument about judgment becomes sharper after the danger passes."
+      ],
+      "observable_findings": [
+        "Attraction and trust can move in opposite directions.",
+        "Protective competence is not automatically experienced as trustworthy behavior when consent and explanation are missing."
+      ],
+      "outcome_class": "increased_attraction_persistent_distrust"
+    },
+    {
+      "take_id": "asymmetric-reliance",
+      "hypothesis": "One lead may rely before the other can reciprocate.",
+      "behavior": [
+        "The Spotter follows the Scholar's technical instruction immediately because prior failures taught him where his knowledge ends.",
+        "She continues to verify his live reads before acting on them and refuses one time-sensitive inference that later proves correct.",
+        "The bargain remains possible, but the delay costs leverage and leaves him resentful that dependence flows mostly one way."
+      ],
+      "observable_findings": [
+        "Asymmetric reliance is plausible and dramatically active rather than a failed version of instant mutual trust.",
+        "The Scholar needs independent behavioral evidence before reciprocal dependence feels honest."
+      ],
+      "outcome_class": "asymmetric_reliance"
+    },
+    {
+      "take_id": "forced-trust-failure",
+      "hypothesis": "If the pair behaves as though mutual trust is already settled, the scene should expose whether that confidence is earned.",
+      "behavior": [
+        "The Spotter assumes the Scholar will repair an aggressive improvisation without checking whether the underlying treaty category permits it.",
+        "The Scholar assumes he will recognize her warning signal and withholds a direct interruption to avoid undermining him publicly.",
+        "Both assumptions fail. The dragon ends the exchange and imposes a narrower temporary condition rather than continuing the bargain."
+      ],
+      "observable_findings": [
+        "Presumed intimacy is less reliable than explicit reciprocal delegation.",
+        "Mutual reliance requires observable coordination habits; attraction and prior success cannot substitute for them."
+      ],
+      "outcome_class": "deeper_conflict"
+    }
+  ],
+  "comparison": {
+    "behaviorally_strongest_take": "reciprocal-delegation",
+    "why": [
+      "both characters retain meaningful competence and decision ownership",
+      "each accepts a distinct reputational or physical cost for acting on the other's judgment",
+      "the pair performs better together without erasing rational distrust",
+      "the result survives comparison against professional-only, attraction-with-distrust, asymmetric, and presumed-trust failure paths"
+    ],
+    "observed_relationship_result": "third_path_operational_reliance_with_guarded_personal_trust",
+    "current_act_iii_mutual_reliance_hypothesis": "too_broad_if_read_as_personal_or_romantic_trust",
+    "required_adaptation": "Act III should enter with reciprocal operational reliance established while broad personal trust remains guarded and available for later movement.",
+    "not_story_canon": true
+  },
+  "discoveries": [
+    {
+      "scene_id": "ds.act-ii-to-iii.romantic-trust.high-heat",
+      "kind": "relationship_behavior",
+      "finding": "Reciprocal operational reliance can become earned before broad personal trust; each lead can act on the other's competence under cost while still reserving judgment about motives and intimacy.",
+      "provenance_class": "performance_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["reciprocal-delegation", "professional-compartment", "asymmetric-reliance", "forced-trust-failure"]
+    },
+    {
+      "scene_id": "ds.act-ii-to-iii.romantic-trust.high-heat",
+      "kind": "relationship_behavior",
+      "finding": "Attraction does not predict trust direction; competence heat can rise while distrust persists or sharpens.",
+      "provenance_class": "performance_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["reciprocal-delegation", "attraction-misread"]
+    },
+    {
+      "scene_id": "ds.act-ii-to-iii.romantic-trust.high-heat",
+      "kind": "challenge_survived",
+      "finding": "Mutual indispensability survives adversarial variation because reciprocal delegation outperforms both role replacement and one-way dependence, while presumed trust without coordination fails.",
+      "provenance_class": "performance_hypothesis",
+      "dramatic_lock_status": "preserved",
+      "support": ["reciprocal-delegation", "professional-compartment", "asymmetric-reliance", "forced-trust-failure"]
+    }
+  ]
+}

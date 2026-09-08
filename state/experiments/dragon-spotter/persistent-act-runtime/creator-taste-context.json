@@ -1,0 +1,26 @@
+{
+  "schema": "creator_taste_context/v1",
+  "project": "dragon-spotter",
+  "cross_project_signals": [
+    {
+      "id": "consequence_over_explanation",
+      "scope": "cross_project",
+      "direction": "prefer",
+      "confidence": 0.75,
+      "evidence_count": 2,
+      "counterexample_count": 0,
+      "summary": "Prefer mechanics that create visible human consequences.",
+      "last_evidence_reference": "ct-002"
+    }
+  ],
+  "project_signals": [
+    {
+      "id": "competence_as_romantic_pressure",
+      "scope": "project",
+      "direction": "explore",
+      "confidence": 0.81,
+      "summary": "Competence and professional conflict are valuable sources of attraction in this project."
+    }
+  ],
+  "authority_effect": "heuristic_only_no_story_authority"
+}

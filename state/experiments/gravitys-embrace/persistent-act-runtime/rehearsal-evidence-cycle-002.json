@@ -1,0 +1,185 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-first-survival-constraint-probe",
+    "target_id": "target:message:ge-forward-first-survival-not-mastery",
+    "source_act": "act-ii",
+    "experiment_mode": "forward_consequence_test",
+    "fidelity": "probe",
+    "finding": "Cycle-one reproduction evidence supports the earlier claim: the first survival proves possibility but leaves the useful gravity recipe unresolved, costly, and dangerous enough to require continued experimentation.",
+    "confidence": 0.84,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:first-survival-constraint-probe",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-forward-first-survival-not-mastery",
+        "response": "supported",
+        "reason": "Act II's multivariable failures and recovery costs naturally preserve the uncertainty Act I sends forward."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-ordinary-mastery-backward-probe",
+    "target_id": "target:message:ge-backward-mastery-stays-ordinary",
+    "source_act": "act-i",
+    "experiment_mode": "backward_prerequisite_test",
+    "fidelity": "probe",
+    "finding": "The late requirement is already compatible with the accepted seed and cycle-one evidence. No hidden replacement class is needed: Maximum HP remains defensive while ordinary gravity becomes useful because survivability creates room to learn dangerous impact mechanics.",
+    "confidence": 0.92,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:ordinary-mastery-backward-probe",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-backward-mastery-stays-ordinary",
+        "response": "supported",
+        "reason": "Accepted Act I mechanics already satisfy the late constraint without retrofitting a secret power."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-social-access-third-path-probe",
+    "target_id": "target:message:ge-backward-social-access-earns-gate",
+    "source_act": "act-i",
+    "experiment_mode": "backward_prerequisite_test",
+    "fidelity": "probe",
+    "finding": "Act I rejects the assumption that later access to higher-level people must be prepaid by an early geographic gate. A third path remains plausible: the player can stay geographically local while an observable, useful gravity technique later creates recruitment, curiosity, obligation, or institutional attention. This does not settle either geographic branch.",
+    "confidence": 0.68,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:social-access-third-path-probe",
+    "local_discoveries": [
+      {
+        "id": "ge-a1-social-access-without-geographic-lock",
+        "finding": "Later high-level social access can be earned by technique visibility or usefulness rather than requiring the first fall itself to relocate the player."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-backward-social-access-earns-gate",
+        "response": "third_path",
+        "reason": "Earlier reality can preserve geographic uncertainty while still making later social access earnable through witnessed technique value."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-support-role-development",
+    "target_id": "target:sync:mechanics-can-carry-trust:challenge_strong_thread",
+    "source_act": "act-ii",
+    "experiment_mode": "state_transition_test",
+    "fidelity": "development",
+    "finding": "Before any romantic interpretation is required, the risky multivariable gravity loop creates practical work another person can genuinely own: spotting setup errors, controlling timing, preserving a safe landing option, deciding when to stop, and handling recovery. The relationship pressure therefore arises from the mechanic rather than being stapled onto it later.",
+    "confidence": 0.79,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:support-role-development",
+    "local_discoveries": [
+      {
+        "id": "ge-a2-support-role-precedes-label",
+        "finding": "The gravity learning loop can create a real support role before the story decides whether that person becomes a friend, rival, romantic partner, recruiter, or some overlap."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "mechanics-can-carry-trust",
+        "evidence": {
+          "source_id": "rehearsal:ge-evidence-support-role-development:practical-dependence",
+          "independent_group": "ge-support-role-development",
+          "kind": "support",
+          "dramatic_uses": ["plot", "progression"],
+          "regions": ["act-ii"]
+        }
+      }
+    ],
+    "constraint_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-social-cost-forward-probe",
+    "target_id": "target:message:ge-forward-experiment-cost-becomes-social",
+    "source_act": "act-iii",
+    "experiment_mode": "forward_consequence_test",
+    "fidelity": "probe",
+    "finding": "Act III can inherit a mechanically useful helper relationship without requiring that relationship to be romantic. Setup, timing, rescue, and recovery costs are enough to make another person's competence matter.",
+    "confidence": 0.8,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:social-cost-forward-probe",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-forward-experiment-cost-becomes-social",
+        "response": "supported",
+        "reason": "Act III can make another person's help causally valuable through gravity setup and recovery before assigning a relationship label."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-first-fall-recipe-backward-probe",
+    "target_id": "target:message:ge-backward-first-fall-hides-recipe",
+    "source_act": "act-i",
+    "experiment_mode": "backward_prerequisite_test",
+    "fidelity": "probe",
+    "finding": "The first fall can honestly reveal that impact is useful without supplying controlled measurements for the variables that matter. The later learning curve therefore does not require artificial withholding.",
+    "confidence": 0.82,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:first-fall-recipe-backward-probe",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-backward-first-fall-hides-recipe",
+        "response": "supported",
+        "reason": "Act I can reveal the phenomenon while lacking the controlled information needed to solve the multivariable recipe."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-public-cost-backward-probe",
+    "target_id": "target:message:ge-backward-public-cost-needs-failures",
+    "source_act": "act-ii",
+    "experiment_mode": "backward_prerequisite_test",
+    "fidelity": "probe",
+    "finding": "Act II already has a natural place for failed tests, recovery costs, equipment loss, bad positioning, and inconsistent outcomes. A later public consequence therefore does not need retroactive danger inserted solely to stop easy copying.",
+    "confidence": 0.76,
+    "provenance": "gravitys-embrace:rehearsal:cycle-002:public-cost-backward-probe",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "ge-backward-public-cost-needs-failures",
+        "response": "supported",
+        "reason": "Cycle-one multivariable learning already establishes visible failure and recovery costs that can explain why copying remains dangerous."
+      }
+    ]
+  }
+]

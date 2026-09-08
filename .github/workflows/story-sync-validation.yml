@@ -1,0 +1,45 @@
+name: Validate STORY SYNC
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/story_sync_engine.py'
+      - 'scripts/persistent_act_runtime.py'
+      - 'scripts/story_rehearsal_orchestrator.py'
+      - 'scripts/plg_ai_tools.py'
+      - 'tests/test_story_sync_*.py'
+      - 'tests/test_story_rehearsal_orchestrator.py'
+      - 'tests/test_creator_taste_prior.py'
+      - 'tests/test_persistent_act_runtime.py'
+      - 'tests/test_plg_ai_tools.py'
+      - 'state/experiments/**/story-sync/**'
+      - 'state/experiments/**/persistent-act-runtime/**'
+      - 'state/story-compiler/**'
+      - '.github/workflows/story-sync-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  story-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Focused STORY SYNC tests
+        run: |
+          python -m unittest \
+            tests.test_story_sync_engine \
+            tests.test_story_sync_rehearsal_bridge \
+            tests.test_story_sync_report_evidence \
+            tests.test_story_sync_persistent_rehearsal_cycle \
+            tests.test_story_sync_persistent_evidence_update \
+            tests.test_story_sync_constraint_response_evidence \
+            tests.test_story_sync_project_runtime_fixtures \
+            tests.test_story_sync_plg_runtime_cycle \
+            tests.test_creator_taste_prior \
+            tests.test_persistent_act_runtime \
+            tests.test_story_rehearsal_orchestrator \
+            tests.test_plg_ai_tools
+      - name: Full repository unit suite
+        run: python -m unittest discover -s tests -p 'test_*.py'

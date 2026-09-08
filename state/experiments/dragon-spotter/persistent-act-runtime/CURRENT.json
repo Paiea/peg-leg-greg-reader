@@ -1,0 +1,145 @@
+{
+  "schema": "dragon_spotter_persistent_act_runtime_current/v1",
+  "project": "dragon-spotter",
+  "authority": "derived_experimental_not_story_canon",
+  "architecture_branch": "architecture/long-form-story-compiler",
+  "pull_request": 161,
+  "cycle": 6,
+  "cycle_status": "green_observed_candidate_passable_broad_discovery_complete",
+  "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
+  "source_inputs": {
+    "runtime": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json",
+    "cycle_1_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/first-bargain-evidence.json",
+    "cycle_2_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-2-directional-evidence.json",
+    "cycle_3_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-boundary-evidence.json",
+    "cycle_4_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-adversarial-evidence.json",
+    "cycle_5_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-evidence.json",
+    "cycle_6_adversarial_experiment": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-6-adversarial-convergence.json",
+    "cycle_6_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-6-adversarial-evidence.json",
+    "creator_taste": "state/experiments/dragon-spotter/persistent-act-runtime/creator-taste-context.json"
+  },
+  "verification": {
+    "executable_checkpoint_commit": "534b8367dc18eed7494c5a09d4d97270f5dcba84",
+    "workflow_run": 34142323005,
+    "focused_suite": {"tests": 72, "result": "green"},
+    "full_repository_suite": {"tests": 532, "skipped": 6, "result": "green"},
+    "ci_authority": "read_only_validation",
+    "concurrent_gravity_work_preserved": true,
+    "gravity_cycle_8_fixture_green": true
+  },
+  "observed": {
+    "target_count_before": 11,
+    "target_count_after": 11,
+    "boundary_contradiction_count": 0,
+    "unresolved_message_count": 0,
+    "open_temporal_pressure": 0,
+    "trajectory_status": "candidate_passable",
+    "open_branch_count_before": 11,
+    "open_branch_count_after": 11,
+    "open_branch_delta": 0,
+    "new_forward_consequences": 0,
+    "new_backward_requirements": 0,
+    "new_foundational_discoveries": [],
+    "new_foundational_structure_required": false,
+    "branches_mechanically_changed": [],
+    "branches_preserved_in_runtime_authority": [
+      "first-bargain.land-restoration",
+      "first-bargain.relic-restitution",
+      "gift.coin",
+      "gift.scale-token",
+      "ending.crown-spotter",
+      "ending.dragon-envoy"
+    ],
+    "story_truths": ["mutual-indispensability"],
+    "strong_threads": [
+      "gift-reciprocity",
+      "heat-through-competence",
+      "improvisation-is-competence-path",
+      "operational-reliance-before-personal-trust"
+    ],
+    "repeated_signals": [],
+    "motivational_discoveries": {
+      "first-dragon-wants-voluntary-repair": {
+        "maturity": "speculation",
+        "cycle_6_status": "survived_hostile_challenge_with_narrowing",
+        "narrowed_finding": "The first dragon values restoration of a workable reciprocal order through costly voluntary human compliance; do not encode this as apology, forgiveness, emotional recognition, or human moral closure."
+      },
+      "legitimacy-as-usable-authority": {
+        "maturity": "speculation",
+        "cycle_6_status": "survived_hostile_challenge_with_narrowing",
+        "narrowed_finding": "Greg needs effective recognized standing for cross-polity work, not certification as the source of identity. Paper authority alone is insufficient; total institutional independence is also insufficient."
+      }
+    },
+    "recognized_cross_polity_mandate": {
+      "status": "narrowed_to_state_constraint_not_required_named_office",
+      "finding": "Enough human standing for commitments to function while dragon recognition remains independently earned. Do not invent a convenient new institution solely to instantiate the label."
+    },
+    "first_gift_form": {
+      "story_sync_status": "formally_unresolved_causally_discriminated_and_hostile_test_survived",
+      "gift_coin": "favored_noncanon_rendering_default",
+      "gift_scale_token": "weaker_noncanon_alternative",
+      "land_restoration": "preserved_manifestation",
+      "relic_restitution": "preserved_manifestation",
+      "compression_status": "preserved_one_deeper_dragon_motive_currently_explains_both"
+    },
+    "ending_office_role": {
+      "story_sync_status": "formally_unresolved_causally_discriminated_and_hostile_test_survived",
+      "crown_spotter": "preserved_more_incorporated_or_human_legal_wrapper_trajectory",
+      "dragon_envoy": "favored_cross_polity_trajectory_without_title_lock",
+      "compression_status": "preserved_both_are_distinct_manifestations_of_deeper_legitimacy_problem"
+    },
+    "relationship": {
+      "mutual_indispensability": "story_truth_unchanged",
+      "operational_reliance_before_personal_trust": "strong_thread_unchanged",
+      "reopened_in_cycle_6": false,
+      "attraction_is_trust": false
+    },
+    "unresolved_contradictions": ["ending-office-role", "first-gift-form"]
+  },
+  "falsification_assessment": {
+    "did_hostile_challenge_materially_change_causal_or_emotional_architecture": false,
+    "did_first_dragon_cycle_5_explanation_fail": false,
+    "did_greg_cycle_5_explanation_fail": false,
+    "did_hypotheses_narrow": true,
+    "did_run_require_new_foundational_structure": false,
+    "dragon_hypothesis_narrowing": "reciprocity_is_operational_political_order_not_sentimental_moral_closure",
+    "greg_hypothesis_narrowing": "usable_legitimacy_requires_effective_recognition_and_enough_discretion_not_paperwork_or_total_independence",
+    "cross_polity_mandate_correction": "state_constraint_not_mandatory_new_office",
+    "broad_discovery_information_gain": "below_cost"
+  },
+  "rendering_gate": {
+    "status": "BROAD_DISCOVERY_COMPLETE",
+    "decision": "BOUNDED_PROSE_RENDERING_EXPERIMENT",
+    "reasons": [
+      "temporal pressure remains zero",
+      "boundaries remain compatible",
+      "unresolved long-range messages remain zero",
+      "no new temporal obligations emerged",
+      "no major foundational restructuring emerged",
+      "relationship trajectory remained stable",
+      "Cycle 5 motivational explanations survived direct falsification with only narrowing",
+      "remaining branches are understood as meaningful manifestations rather than unexplained architecture",
+      "another broad discovery cycle has lower expected information value than rendering"
+    ],
+    "sustained_prose_authorized": false,
+    "candidate_prose_only": true
+  },
+  "next_edge": {
+    "objective": "run_a_bounded_prose_rendering_experiment_without_reopening_broad_story_discovery",
+    "recommended_slice": "first_dragon_bargain_sequence",
+    "why": "It has the densest accumulated PERFORMANCE, motivational, reciprocity, competence, and convergence evidence and can test whether derived story state now renders into good prose without inventing missing architecture.",
+    "constraints": [
+      "candidate prose only; no automatic canon write",
+      "render from current derived state and high-value PERFORMANCE case law rather than fresh outlining",
+      "preserve land restoration and relic restitution as explicit renderer alternatives unless bounded rendering itself supplies decisive evidence",
+      "favor material/coin-like reciprocal treasure as a noncanon rendering default while retaining scale-token as comparison if useful",
+      "preserve observation plus Scholar constraint as Greg's competence path",
+      "render the dragon as an independent actor seeking workable reciprocal order rather than Greg validation or sentimental closure",
+      "preserve operational-reliance-before-personal-trust exactly and do not accelerate romance/trust",
+      "evaluate causal fidelity, embodied character behavior, voice, readability, and whether prose exposes one genuine missing causal variable",
+      "if rendering exposes a real causal gap, return that exact gap to REHEARSAL rather than restarting broad discovery"
+    ],
+    "sustained_prose_authorized": false
+  },
+  "authority_effect": "derived_only_no_canon_mutation"
+}

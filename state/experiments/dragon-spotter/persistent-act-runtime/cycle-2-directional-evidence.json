@@ -1,0 +1,98 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-2:a1-to-a3-reciprocity-politics",
+    "target_id": "target:message:a1-to-a3-reciprocity-politics",
+    "source_act": "act-iii",
+    "experiment_mode": "forward_consequence_test",
+    "fidelity": "probe",
+    "finding": "Act III already contains a live institutional dispute over whether accepting dragon treasure creates legal, diplomatic, or personal obligation, so the Act I reciprocity consequence remains causally usable there.",
+    "confidence": 0.76,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json#a3.gift-politics",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "a1-to-a3-reciprocity-politics",
+        "response": "supported",
+        "reason": "The existing Act III gift-politics state already supplies the human institutional disagreement predicted by the Act I consequence."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-2:first-bargain-reciprocity-forward",
+    "target_id": "target:message:first-bargain-reciprocity-forward",
+    "source_act": "act-iii",
+    "experiment_mode": "forward_consequence_test",
+    "fidelity": "probe",
+    "finding": "The first-bargain reciprocity frame reaches an already-existing Act III argument about what dragon gifts obligate humans to do, so this new forward message does not require a new plot machine to survive.",
+    "confidence": 0.78,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json#a3.gift-politics",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "first-bargain-reciprocity-forward",
+        "response": "supported",
+        "reason": "Act III's existing gift-politics discovery is a direct compatible landing point for the first-bargain reciprocal-obligation consequence."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-2:a4-to-a1-earned-recognition",
+    "target_id": "target:message:a4-to-a1-earned-recognition",
+    "source_act": "act-i",
+    "experiment_mode": "backward_prerequisite_test",
+    "fidelity": "probe",
+    "finding": "The high-heat first bargain already shows the dragon responding to accurate recognition and responsive behavior rather than credentials; this satisfies the early behavioral prerequisite without requiring the dragon to approve of the fraud itself.",
+    "confidence": 0.8,
+    "provenance": "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "a4-to-a1-earned-recognition",
+        "response": "supported",
+        "reason": "The first bargain supports the requirement through behavior-based recognition, preserving the earlier third-path insight that recognition need not mean liking or validating the fraud."
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-2:a4-to-a2-public-risk",
+    "target_id": "target:message:a4-to-a2-public-risk",
+    "source_act": "act-ii",
+    "experiment_mode": "backward_prerequisite_test",
+    "fidelity": "probe",
+    "finding": "Act II already exits with his professional role hypothesized as political liability, so the later public-role ending has an existing earlier institutional-cost path to test rather than needing a newly invented cost.",
+    "confidence": 0.7,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json#a2-out-role",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [
+      {
+        "message_id": "a4-to-a2-public-risk",
+        "response": "supported",
+        "reason": "The existing Act II political-liability state is structurally compatible with the Act IV requirement for an earlier institutional cost."
+      }
+    ]
+  }
+]

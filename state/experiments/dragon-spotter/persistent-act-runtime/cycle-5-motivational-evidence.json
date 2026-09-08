@@ -1,0 +1,140 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-5:first-dragon-motivation",
+    "target_id": "target:q.first-dragon-want",
+    "source_act": "act-i",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "Across land and relic variants, the first dragon's stable objective is a costly voluntary human act that restores reciprocal standing. Physical possession alone is insufficient because force can seize ground or object but cannot produce acknowledgment of obligation. Greg becomes relevant by recognizing that distinction, not because the dragon came seeking Greg personally.",
+    "confidence": 0.86,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-experiments.json#experiment_a_first_dragon_motivation",
+    "local_discoveries": [
+      {
+        "id": "a1.first-dragon-reciprocal-standing",
+        "finding": "The first dragon wants humans to enact a costly voluntary repair that proves reciprocal obligation still has force; land or relic is the concrete grievance, not the whole motive."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [
+      {
+        "id": "first-dragon-wants-voluntary-repair",
+        "finding": "The first dragon's demand is best explained by wanting voluntary human repair of reciprocal standing, something physical force cannot create.",
+        "confidence": "speculation",
+        "book_shaping": false,
+        "evidence": [
+          {
+            "source_id": "trajectory:ds.cycle-5.first-dragon-motivation",
+            "independent_group": "cycle-5-first-dragon-motivation",
+            "kind": "support",
+            "dramatic_uses": ["character", "plot", "world"],
+            "regions": ["act-i"]
+          }
+        ]
+      }
+    ],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "gift-reciprocity",
+        "evidence": {
+          "source_id": "trajectory:ds.cycle-5.dragon-want-cross-branch",
+          "independent_group": "cycle-5-first-dragon-motivation",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["plot", "world", "character"],
+          "regions": ["act-i"]
+        }
+      }
+    ],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-5:first-gift-discrimination",
+    "target_id": "target:shared-contradiction:first-gift-form",
+    "source_act": "act-i",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "finding": "Once the dragon's want is separated from the demanded object, reciprocal treasure does not need to mirror land or relic. Material treasure better preserves the useful human misread of value versus obligation; a recognition-coded scale token now duplicates later behavior-earned dragon recognition and risks credentialing Greg too early.",
+    "confidence": 0.81,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-experiments.json#gift_discrimination",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-5:greg-legitimacy-motivation",
+    "target_id": "target:shared-contradiction:ending-office-role",
+    "source_act": "act-iv",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "Greg's trajectory supports legitimacy primarily as usable authority, access, and protection for cross-polity mediation rather than certification as the source of his identity or competence. Total independence is also too absolute because human institutions must be able to honor commitments he negotiates.",
+    "confidence": 0.84,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-experiments.json#experiment_b_greg_institutional_legitimacy",
+    "local_discoveries": [
+      {
+        "id": "a4.legitimacy-as-usable-authority",
+        "finding": "Greg needs enough recognized standing to mediate and make agreements stick; he does not need institutional approval to retroactively create the competence he has earned."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [
+      {
+        "id": "legitimacy-as-usable-authority",
+        "finding": "Greg's transformed relationship to legitimacy is instrumental: authority, access, and protection for effective mediation matter more than certification as personal vindication.",
+        "confidence": "speculation",
+        "book_shaping": false,
+        "evidence": [
+          {
+            "source_id": "trajectory:ds.cycle-5.greg-legitimacy",
+            "independent_group": "cycle-5-greg-legitimacy",
+            "kind": "support",
+            "dramatic_uses": ["character", "plot", "ending"],
+            "regions": ["act-iv"]
+          }
+        ]
+      }
+    ],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:cycle-5:ending-role-discrimination",
+    "target_id": "target:shared-contradiction:ending-office-role",
+    "source_act": "act-iv",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "development",
+    "finding": "A purely incorporated Crown Spotter ending overweights certification relative to Greg's observed need for usable cross-polity authority. Dragon-envoy trajectory is favored, while a hybrid recognized cross-polity mandate remains a legitimate third path if the Crown supplies legal authority without owning the dragon-side legitimacy.",
+    "confidence": 0.8,
+    "provenance": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-experiments.json#ending_discrimination",
+    "local_discoveries": [
+      {
+        "id": "a4.recognized-cross-polity-mandate",
+        "finding": "A possible final institutional form can combine human legal authority with independently earned dragon recognition without making Crown certification the source of Greg's competence."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [],
+    "constraint_responses": [],
+    "boundary_updates": [],
+    "boundary_responses": []
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "schema": "story_sync_state/v1",
+  "authority": "experimental_trial_not_dragon_spotter_canon",
+  "strategy": "hybrid_global_search",
+  "story_confidence": 0.58,
+  "possibilities": [
+    {
+      "id": "gift.coin",
+      "branch_group": "first-gift",
+      "region": "act-i",
+      "status": "active",
+      "viability": "viable",
+      "sync_reason": "Material treasure cleanly pays off his mercenary motive and creates a human valuation problem.",
+      "evidence": ["rehearsal.first-negotiation.a"]
+    },
+    {
+      "id": "gift.scale-token",
+      "branch_group": "first-gift",
+      "region": "act-i",
+      "status": "active",
+      "viability": "viable",
+      "sync_reason": "A non-cash token better exposes that dragon treasure may carry diplomatic meaning humans misread.",
+      "evidence": ["possibility.gift-token.a"]
+    },
+    {
+      "id": "ending.crown-spotter",
+      "branch_group": "ending-office-role",
+      "region": "act-iv",
+      "status": "active",
+      "viability": "viable",
+      "sync_reason": "Preserves the comedy of the bureaucracy finally needing the office it neglected.",
+      "evidence": ["ending.probe.crown"]
+    },
+    {
+      "id": "ending.dragon-envoy",
+      "branch_group": "ending-office-role",
+      "region": "act-iv",
+      "status": "active",
+      "viability": "viable",
+      "sync_reason": "Pays off dragons increasingly recognizing him as the useful human interlocutor.",
+      "evidence": ["ending.probe.dragon"]
+    },
+    {
+      "id": "conflict.hidden-conspiracy",
+      "branch_group": "central-conflict",
+      "region": "act-iii",
+      "status": "active",
+      "viability": "redundant",
+      "sync_reason": "A hidden-villain conspiracy duplicates pressure already created by old treaties, human expansion, and dragon reciprocity while adding unrelated machinery.",
+      "evidence": ["compare.central-conflict.2"]
+    },
+    {
+      "id": "romance.clean-rivals",
+      "branch_group": "romance-shape",
+      "region": "act-ii",
+      "status": "active",
+      "viability": "weak",
+      "sync_reason": "Current rehearsals suggest the chemistry is more interesting when professional resentment mutates into mutual dependence rather than following a clean rivalry ladder.",
+      "evidence": ["rehearsal.scholar-confrontation.a"]
+    }
+  ],
+  "discoveries": [
+    {
+      "id": "gift-reciprocity",
+      "finding": "Dragon treasure behaves like reciprocal diplomatic obligation rather than random loot.",
+      "confidence": "speculation",
+      "book_shaping": true,
+      "evidence": [
+        {
+          "source_id": "rehearsal:ds.act-i.first-negotiation:behavioral_discovery",
+          "independent_group": "first-negotiation.a",
+          "kind": "support",
+          "dramatic_uses": ["plot", "world", "character"],
+          "regions": ["act-i"]
+        },
+        {
+          "source_id": "possibility:human-response-to-gift",
+          "independent_group": "gift-politics.a",
+          "kind": "support",
+          "dramatic_uses": ["plot", "relationship", "setup_payoff"],
+          "regions": ["act-iii"]
+        }
+      ],
+      "propagation": [
+        {
+          "direction": "backward",
+          "target": "act-i.opening-and-first-contact",
+          "reason": "Seed dragon reciprocity/treaty logic before the gift so the later meaning feels earned rather than invented."
+        },
+        {
+          "direction": "forward",
+          "target": "act-ii-and-act-iii",
+          "reason": "Let officials and the scholar disagree about what accepting dragon treasure legally and relationally means."
+        }
+      ]
+    },
+    {
+      "id": "improvisation-is-competence-path",
+      "finding": "The fraud becomes most effective when he stops imitating dead protocol and negotiates from concrete observation.",
+      "confidence": "repeated_signal",
+      "book_shaping": true,
+      "evidence": [
+        {
+          "source_id": "rehearsal:ds.act-i.first-dragon:behavioral_discovery",
+          "independent_group": "first-dragon.a",
+          "kind": "support",
+          "dramatic_uses": ["character", "plot", "comedy"],
+          "regions": ["act-i"]
+        },
+        {
+          "source_id": "rehearsal:ds.act-ii.scholar-pressure:behavioral_discovery",
+          "independent_group": "scholar-pressure.a",
+          "kind": "support",
+          "dramatic_uses": ["character", "relationship", "plot"],
+          "regions": ["act-ii"]
+        }
+      ],
+      "propagation": [
+        {
+          "direction": "forward",
+          "target": "act-ii-and-act-iii",
+          "reason": "Pressure later negotiations to distinguish bluffing from newly earned field judgment."
+        }
+      ]
+    },
+    {
+      "id": "mutual-indispensability",
+      "finding": "The legitimate scholar and fraudulent Spotter work better when neither can replace the other.",
+      "evidence": [
+        {
+          "source_id": "rehearsal:ds.act-i.scholar-briefing:relationship_behavior",
+          "independent_group": "briefing.a",
+          "kind": "support",
+          "dramatic_uses": ["relationship", "character"],
+          "regions": ["act-i"]
+        },
+        {
+          "source_id": "rehearsal:ds.act-ii.second-negotiation:relationship_behavior",
+          "independent_group": "second-negotiation.a",
+          "kind": "support",
+          "dramatic_uses": ["relationship", "character"],
+          "regions": ["act-ii"]
+        }
+      ]
+    },
+    {
+      "id": "dragon-prefers-liar",
+      "finding": "The first dragon may prefer the liar precisely because he is less doctrinaire than credentialed experts.",
+      "evidence": [
+        {
+          "source_id": "rehearsal:ds.act-i.first-dragon-preference:relationship_behavior",
+          "independent_group": "first-dragon-preference.a",
+          "kind": "support",
+          "dramatic_uses": ["character", "relationship"],
+          "regions": ["act-i"]
+        }
+      ]
+    },
+    {
+      "id": "absence-needs-conspiracy",
+      "finding": "The thirty-year dragon absence may have been deliberately engineered by a hidden human faction.",
+      "evidence": [
+        {
+          "source_id": "possibility:conspiracy",
+          "independent_group": "conspiracy.a",
+          "kind": "support",
+          "dramatic_uses": ["mystery"],
+          "regions": ["act-iii"]
+        }
+      ]
+    },
+    {
+      "id": "heat-through-competence",
+      "finding": "Romantic heat rises most naturally when each lead witnesses the other's competence under dangerous professional pressure.",
+      "evidence": [
+        {
+          "source_id": "rehearsal:ds.act-ii.first-joint-fieldwork:relationship_behavior",
+          "independent_group": "joint-fieldwork.a",
+          "kind": "support",
+          "dramatic_uses": ["relationship", "heat"],
+          "regions": ["act-ii"]
+        },
+        {
+          "source_id": "rehearsal:ds.act-iii.later-negotiation:relationship_behavior",
+          "independent_group": "later-negotiation.a",
+          "kind": "support",
+          "dramatic_uses": ["relationship", "heat"],
+          "regions": ["act-iii"]
+        }
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "first-gift-form",
+      "members": ["gift.coin", "gift.scale-token"],
+      "status": "unresolved",
+      "severity": "medium"
+    },
+    {
+      "id": "ending-office-role",
+      "members": ["ending.crown-spotter", "ending.dragon-envoy"],
+      "status": "unresolved",
+      "severity": "high",
+      "book_shaping": true
+    }
+  ],
+  "canon_events": [
+    {
+      "id": "first-negotiation-visible",
+      "canon": true,
+      "visibility": "show"
+    },
+    {
+      "id": "training-week-hidden",
+      "canon": true,
+      "visibility": "hide"
+    },
+    {
+      "id": "scholar-briefings-hidden",
+      "canon": true,
+      "visibility": "hide"
+    },
+    {
+      "id": "second-negotiation-visible",
+      "canon": true,
+      "visibility": "show"
+    }
+  ],
+  "reader_requirements": [
+    {
+      "id": "earned-competence-legibility",
+      "payoff_event": "second-negotiation-visible",
+      "required_setup_any": ["training-week-hidden"]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "central-conflict-needs-conspiracy",
+      "status": "superseded",
+      "replaced_by": "gift-reciprocity",
+      "why": "Treaty/reciprocity consequences already connect the first dragon bargain to politics, character progression, and later payoffs without adding a separate villain machine.",
+      "evidence": ["gift-reciprocity", "compare.central-conflict.2"]
+    }
+  ],
+  "unresolved_questions": [
+    {
+      "id": "q.first-dragon-want",
+      "question": "What concrete thing does the first dragon want badly enough to negotiate rather than simply take?",
+      "regions": ["act-i", "act-iii"],
+      "importance": "high"
+    },
+    {
+      "id": "q.dragon-absence-cause",
+      "question": "Why were dragons absent for thirty years, and what changed now?",
+      "regions": ["act-i", "act-iii", "act-iv"],
+      "importance": "medium"
+    },
+    {
+      "id": "q.romance-crossing",
+      "question": "Which professional pressure makes attraction undeniable without turning romance into a separate side plot?",
+      "regions": ["act-ii", "act-iii"],
+      "importance": "medium"
+    }
+  ]
+}

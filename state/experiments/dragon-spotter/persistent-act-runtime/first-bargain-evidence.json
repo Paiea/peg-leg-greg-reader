@@ -1,0 +1,56 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "dragon-spotter:first-bargain-high-heat",
+    "target_id": "target:q.first-dragon-want",
+    "source_act": "act-i",
+    "experiment_mode": "performance",
+    "fidelity": "high_heat",
+    "finding": "The first bargain is strongest when live observation and Scholar doctrine constrain each other, while the dragon seeks voluntary recognition of reciprocal obligation rather than mere possession.",
+    "confidence": 0.8,
+    "provenance": "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json",
+    "local_discoveries": [
+      {
+        "id": "first-bargain.live-observation-plus-doctrine",
+        "finding": "The Spotter and Scholar become jointly useful when his live behavioral reading opens a path and her doctrine catches lethal category errors."
+      }
+    ],
+    "forward_consequences": [
+      {
+        "id": "first-bargain-reciprocity-forward",
+        "target_act": "act-iii",
+        "statement": "A first bargain framed as reciprocal obligation gives later human institutions something concrete to dispute about dragon gifts and obligations.",
+        "confidence": 0.72,
+        "thread_key": "reciprocal-obligation"
+      }
+    ],
+    "backward_requirements": [],
+    "branch_updates": [
+      {
+        "possibility_id": "first-bargain.protocol-only",
+        "status": "superseded",
+        "viability": "redundant",
+        "reason": "The explicit dead-protocol challenge shows correct ritual can preserve safety briefly but cannot discover the actual bargain."
+      },
+      {
+        "possibility_id": "first-bargain.reckless-improvisation",
+        "status": "superseded",
+        "viability": "redundant",
+        "reason": "The explicit reckless-improvisation challenge shows observation without Scholar constraints creates lethal category errors."
+      }
+    ],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "mutual-indispensability",
+        "evidence": {
+          "source_id": "rehearsal:ds.act-i.first-bargain.high-heat:relationship_behavior",
+          "independent_group": "first-bargain-high-heat",
+          "kind": "support",
+          "dramatic_uses": ["plot"],
+          "regions": ["act-i"]
+        }
+      }
+    ]
+  }
+]

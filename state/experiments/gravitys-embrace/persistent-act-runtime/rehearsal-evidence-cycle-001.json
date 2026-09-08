@@ -1,0 +1,172 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-first-fall-mechanic-probe",
+    "target_id": "target:ge-first-fall-mechanic-probe",
+    "source_act": "act-i",
+    "experiment_mode": "plausibility_probe",
+    "fidelity": "probe",
+    "finding": "The cleanest version does not make Maximum HP offensive. HP only makes a class of otherwise suicidal impact experiments survivable enough to discover that ordinary collision damage can matter. The first accident should prove possibility, not reveal the complete recipe.",
+    "confidence": 0.78,
+    "provenance": "gravitys-embrace:rehearsal:cycle-001:first-fall-mechanic-probe",
+    "local_discoveries": [
+      {
+        "id": "ge-a1-impact-option-not-power",
+        "finding": "The first fall works best as evidence that survivability opens an offensive option, while the exact damage conditions remain unknown."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "survival-enables-offense",
+        "evidence": {
+          "source_id": "rehearsal:ge-evidence-first-fall-mechanic-probe:impact-option",
+          "independent_group": "ge-first-fall-mechanic-probe",
+          "kind": "support",
+          "dramatic_uses": ["plot", "character"],
+          "regions": ["act-i"]
+        }
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-costly-reproduction-development",
+    "target_id": "target:ge-costly-reproduction-development",
+    "source_act": "act-ii",
+    "experiment_mode": "state_transition_test",
+    "fidelity": "development",
+    "finding": "A height-only damage rule collapses the search too quickly. A multivariable ordinary-physics recipe is more useful: height and velocity matter, but body mass or gear, target movement, contact geometry, terrain, and recovery cost can make repeated attempts inconsistent and dangerous without adding a secret power.",
+    "confidence": 0.82,
+    "provenance": "gravitys-embrace:rehearsal:cycle-001:costly-reproduction-development",
+    "local_discoveries": [
+      {
+        "id": "ge-a2-multivariable-risk",
+        "finding": "Gravity stays dramatically alive when successful impact depends on several ordinary variables and failed tests consume health, time, equipment, positioning, or recovery capacity."
+      }
+    ],
+    "forward_consequences": [
+      {
+        "id": "ge-forward-experiment-cost-becomes-social",
+        "target_act": "act-iii",
+        "statement": "If repeated gravity testing has visible recovery or setup costs, another person's help can become mechanically valuable before it becomes romantically meaningful.",
+        "confidence": 0.65,
+        "thread_key": "mechanics-trust-entanglement"
+      }
+    ],
+    "backward_requirements": [
+      {
+        "id": "ge-backward-first-fall-hides-recipe",
+        "target_act": "act-i",
+        "statement": "The first successful fall should not expose enough controlled information to make the later multivariable learning curve feel artificially withheld.",
+        "confidence": 0.7,
+        "thread_key": "costly-gravity-learning"
+      }
+    ],
+    "branch_updates": [
+      {
+        "possibility_id": "damage-height-only",
+        "status": "superseded",
+        "viability": "redundant",
+        "reason": "Height remains a variable, but a height-only branch solves the mechanic too cheaply and duplicates the stronger multivariable ordinary-physics path."
+      },
+      {
+        "possibility_id": "quick-mastery",
+        "status": "superseded",
+        "viability": "redundant",
+        "reason": "Immediate reliable mastery removes the experimentation, danger, and causal runway needed for later relationship and public-pressure scenes."
+      }
+    ],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "survival-enables-offense",
+        "evidence": {
+          "source_id": "rehearsal:ge-evidence-costly-reproduction-development:multivariable-risk",
+          "independent_group": "ge-costly-reproduction-development",
+          "kind": "support",
+          "dramatic_uses": ["progression", "tension"],
+          "regions": ["act-ii"]
+        }
+      }
+    ]
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-combat-trust-performance",
+    "target_id": "target:ge-combat-trust-performance",
+    "source_act": "act-iii",
+    "experiment_mode": "performance",
+    "fidelity": "high_heat",
+    "finding": "The trust beat becomes specific when another person must control timing, positioning, rescue, or recovery while the player commits to a fall she cannot fully correct alone. That gives the relationship physical stakes without deciding in advance whether the bond is friendship, romance, rivalry, or institutional dependence.",
+    "confidence": 0.76,
+    "provenance": "gravitys-embrace:rehearsal:cycle-001:combat-trust-performance",
+    "local_discoveries": [
+      {
+        "id": "ge-a3-trust-is-mechanical-before-romantic",
+        "finding": "Gravity experimentation can create an earned embodied trust test before the story decides what relationship label ultimately grows around it."
+      }
+    ],
+    "forward_consequences": [
+      {
+        "id": "ge-forward-trust-can-be-exploited",
+        "target_act": "act-iv",
+        "statement": "A technique that improves through shared timing or rescue also creates a later vulnerability: the trusted person may be able to save, fail, expose, manipulate, or publicly validate the player.",
+        "confidence": 0.62,
+        "thread_key": "mechanics-trust-entanglement"
+      }
+    ],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [
+      {
+        "id": "mechanics-can-carry-trust",
+        "finding": "Gravity experimentation may carry relationship development when another person's judgment or intervention becomes causally necessary to the attempt.",
+        "confidence": "speculation",
+        "book_shaping": true,
+        "evidence": [
+          {
+            "source_id": "rehearsal:ge-evidence-combat-trust-performance:embodied-trust",
+            "independent_group": "ge-combat-trust-performance",
+            "kind": "support",
+            "dramatic_uses": ["relationship", "character", "tension"],
+            "regions": ["act-iii"]
+          }
+        ],
+        "propagation": [
+          {
+            "direction": "backward",
+            "target": "act-ii",
+            "reason": "If the relationship later depends on embodied gravity trust, Act II should leave practical problems another person can genuinely help solve rather than inventing dependence only when romance needs it."
+          },
+          {
+            "direction": "forward",
+            "target": "act-iv",
+            "reason": "Later trust pressure should arise from the same mechanical vulnerability rather than from an unrelated misunderstanding."
+          }
+        ]
+      }
+    ],
+    "story_sync_evidence_updates": []
+  },
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-geographic-gate-probe",
+    "target_id": "target:ge-geographic-gate-probe",
+    "source_act": "act-i",
+    "experiment_mode": "counterfactual_branch_comparison",
+    "fidelity": "probe",
+    "finding": "Both branches remain viable. A fall that changes geographic access creates immediate social contrast and status pressure, while a local-only discovery gives the mechanic more solitary runway. Current evidence is not strong enough to kill either branch; access must not be mistaken for competence if the geographic gate survives.",
+    "confidence": 0.55,
+    "provenance": "gravitys-embrace:rehearsal:cycle-001:geographic-gate-probe",
+    "local_discoveries": [],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": []
+  }
+]
