@@ -16,7 +16,7 @@
     "provider_urls": "greg-again/audio/production/015-017/ch016.urls",
     "note": "Human reassignment releases Chapter 16 for new production. Preserve these legacy contexts and files as historical recovery material; do not overwrite or delete them."
   },
-  "status": "generated_preview_urls_captured",
+  "status": "verified_playable",
   "takes": [
     {
       "take": 1,
@@ -24,11 +24,11 @@
       "last_anchor": "The first had purple staining around the lower housing.",
       "word_count": 51,
       "transcript_sha256": "3d219d41a152fbed86b2fb5d2228bd9beff040b040617212673a77637040e549",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "9c2a164fcd6f468280191c8bb9d41f7d",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/efc7f57c-24d2-49cb-8959-a042d0d8719a.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/01.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.08
     },
     {
       "take": 2,
@@ -36,11 +36,11 @@
       "last_anchor": "His boots stuck out beside a box of brass fittings.",
       "word_count": 48,
       "transcript_sha256": "bc8a2f82a88affb822ba3f20df17e1b88ba827a31d404d3e1ea5f3ba36d89914",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "2b45293d325647329b7d2af814ed557a",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5ee14b6e-a5d3-4c86-9979-5543c9b216a7.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/02.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.72
     },
     {
       "take": 3,
@@ -48,11 +48,11 @@
       "last_anchor": "Ivena looked down at him.",
       "word_count": 53,
       "transcript_sha256": "530655c11e559427860ca238cab102b7574ed6dbea08d9b24839429104a216f4",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "40257cc3a39e4400b5c48715bd1bd69b",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1b5ee803-5cc6-4678-9905-795757b9a30a.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/03.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.368
     },
     {
       "take": 4,
@@ -60,11 +60,11 @@
       "last_anchor": "That bought me perhaps two seconds of dignity.",
       "word_count": 55,
       "transcript_sha256": "a355477f50d4706a7595c9c611be37d09209631b0684eecdb06399a74b2248fd",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "eb4bf88047f34dd391494ab11aa0f4ec",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/62c985c3-7c25-4f54-bd98-c629cd52066d.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/04.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.176
     },
     {
       "take": 5,
@@ -72,11 +72,11 @@
       "last_anchor": "Dates listed.",
       "word_count": 47,
       "transcript_sha256": "6bdfc4ddd3cc7631afc52365cdc7e21c86d81f207138374549847e7a2c43a7c4",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "ed80c394987245d19d442b02c88a1d55",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/34f62e8f-299a-4763-990a-951534cf3090.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/05.mp3",
-      "duration_seconds": null
+      "duration_seconds": 17.016
     },
     {
       "take": 6,
@@ -84,11 +84,11 @@
       "last_anchor": "Ah.",
       "word_count": 53,
       "transcript_sha256": "e773d7a8dab89715bf258400ece17633705118c91711726f24aca81a2ff6e123",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "ed62169ee80a459e9946f5acd8770293",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/24e48494-f157-4478-9214-28a00fad1cc1.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/06.mp3",
-      "duration_seconds": null
+      "duration_seconds": 17.904
     },
     {
       "take": 7,
@@ -96,11 +96,11 @@
       "last_anchor": "Businesses watched one another.",
       "word_count": 53,
       "transcript_sha256": "739b63016a51024e5a09f2de537e5454258fe2c2937c55a1e22d2efd87529bba",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "4416438e688f4fa6aa8069ed76d96bcc",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bdb8df27-5335-478a-9fe9-d542e79076ee.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/07.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.584
     },
     {
       "take": 8,
@@ -108,11 +108,11 @@
       "last_anchor": "More if one cracked.",
       "word_count": 50,
       "transcript_sha256": "d9587db2eb5b8a30bfbc6920224d7dccc3f8b7397dcbe04e91470e64832fc69b",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "aca9ad2b7f16403fb3988e585f56228d",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1aeb57e0-63c4-45da-85ea-27805896b40d.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/08.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.936
     },
     {
       "take": 9,
@@ -120,11 +120,11 @@
       "last_anchor": "Enough to start.",
       "word_count": 42,
       "transcript_sha256": "d5a2cfd61d4f016ad963c3ab45f869133d598dc8b42ba19106b2ab4738246a2c",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "fa49e8a4462f42968e05a128340ac339",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/78503e9c-4a54-4b23-98c6-e9117d460752.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/09.mp3",
-      "duration_seconds": null
+      "duration_seconds": 14.568
     },
     {
       "take": 10,
@@ -132,11 +132,11 @@
       "last_anchor": "I counted what I had without taking the purse out.",
       "word_count": 55,
       "transcript_sha256": "230a808813df1b4e2c0c4d6175b89079634be9bd0a30af4c4be71c4eda4fe089",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "52a70bac07194b74a9829187cdf2ba26",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/939bd5f9-a27d-46aa-9b3a-fb7aa459b917.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/10.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.96
     },
     {
       "take": 11,
@@ -144,11 +144,11 @@
       "last_anchor": "Time had.",
       "word_count": 37,
       "transcript_sha256": "b6cae436e21a833b5539f7cf3f84b0bd6b8a225b7ad41181b3374b52448646d0",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "f46ccbb404f64bd49f99755cbd7bea3a",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/117c795c-e0dd-4646-bdab-2af74b3388fb.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/11.mp3",
-      "duration_seconds": null
+      "duration_seconds": 13.152
     },
     {
       "take": 12,
@@ -156,11 +156,11 @@
       "last_anchor": "\"You walk around wearing it.\"",
       "word_count": 51,
       "transcript_sha256": "c40d422338bc516f0581ae7ece95b8f40adb6438fe6947be4867761f2f0a4702",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "a17142fbc66f4dd08be7fad7e6f20f66",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/27532452-27ce-4d55-9a48-069269c736ce.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/12.mp3",
-      "duration_seconds": null
+      "duration_seconds": 17.88
     },
     {
       "take": 13,
@@ -168,11 +168,11 @@
       "last_anchor": "I read.",
       "word_count": 50,
       "transcript_sha256": "a1e663cca32218ce919c1d442221f31c3100c0239fa4d096044a3bbacdf3180f",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "50451ddc7ca24715bcded196a3662605",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/edc4cf1f-5cd4-4f5c-a7ab-aed3e5c234b6.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/13.mp3",
-      "duration_seconds": null
+      "duration_seconds": 17.568
     },
     {
       "take": 14,
@@ -180,11 +180,11 @@
       "last_anchor": "She folded her arms.",
       "word_count": 52,
       "transcript_sha256": "4dbc4ecd403611b6a08868c5b03b7cc078c28b4ad0079378a55875e942be5f07",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "898390aced9d4c4ebc9c3f5faacb8177",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/164f088a-a5f1-4cd4-98b2-eff5c5d0fceb.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/14.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.152
     },
     {
       "take": 15,
@@ -192,11 +192,11 @@
       "last_anchor": "\"I supplied the wash. I found the failure you didn't reproduce. I bought the catch basins. I changed the feed process. The bypass is in there because my workers were the ones standing beside the first version when it tried to spit hot residue at them.\"",
       "word_count": 54,
       "transcript_sha256": "465d77359019f85b0bb525d363019549ca3218d734d6687604a71cb4a6d3f543",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "bff6a51c532544c98887d70ab40d3a8b",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6e8f0b93-fd96-418b-a894-52616d274792.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/15.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.72
     },
     {
       "take": 16,
@@ -204,11 +204,11 @@
       "last_anchor": "He looked pleased to be included.",
       "word_count": 50,
       "transcript_sha256": "fc1a7e104bb55326574a08814822b0f5324e8e11553bff65ba8f1a5f983a7ead",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "56be5f4fc5ac4ee882c8df42ac1f647c",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fa4891d6-e0c5-4910-bf56-7fce36ab0d40.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/16.mp3",
-      "duration_seconds": null
+      "duration_seconds": 17.616
     },
     {
       "take": 17,
@@ -216,11 +216,11 @@
       "last_anchor": "I sat.",
       "word_count": 52,
       "transcript_sha256": "b057ecbaafe6ce7b99a7607071e1c10d98bf87e5897c59841fa638146e2c63ea",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "9ecc009ed4f94316a65503b33e997a6b",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fe2b03b9-d29d-46e0-9bfc-083da8160f01.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/17.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.576
     },
     {
       "take": 18,
@@ -228,11 +228,11 @@
       "last_anchor": "One fifth.",
       "word_count": 53,
       "transcript_sha256": "1014c33fcbcd71a04af37ac9c366a503a07c438c9b23f5aeb761af57ac63e2ac",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "0fea8511ef6d49648591e1edbca579cf",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/43cdabbf-bba0-42af-882d-04352474bf81.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/18.mp3",
-      "duration_seconds": null
+      "duration_seconds": 20.952
     },
     {
       "take": 19,
@@ -240,11 +240,11 @@
       "last_anchor": "I remembered crates of cartridges stacked beside loading bays.",
       "word_count": 53,
       "transcript_sha256": "5dcc053314fcb2d3ae464f58b0a755cb06142d256c48051fe7904802f6028589",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "b5d65441c24d469790c48dc6dc46534c",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ee2f4b2e-3b65-49bf-ba1a-129843ee31c9.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/19.mp3",
-      "duration_seconds": null
+      "duration_seconds": 21.504
     },
     {
       "take": 20,
@@ -252,11 +252,11 @@
       "last_anchor": "If the whole thing did not become obsolete.",
       "word_count": 53,
       "transcript_sha256": "d7778d58412c2bc7ab141e48a9e56b12e6b9762c437fb054f1659c440e522225",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "d4b04088fa0e474c883d5b83b9b1e0f0",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/86e2f91d-4099-49bf-a92a-97bf0375d524.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/20.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.92
     },
     {
       "take": 21,
@@ -264,11 +264,11 @@
       "last_anchor": "\"Half your generosity.\"",
       "word_count": 53,
       "transcript_sha256": "0ee99e939890a4e0754e5313374558996c2f3b60e5076c3d80c833a48a3361ef",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "c80365698eae42109d8b3262ae5c2319",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/06953029-a08d-4a78-aff1-019b67a2b729.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/21.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.168
     },
     {
       "take": 22,
@@ -276,11 +276,11 @@
       "last_anchor": "Probably.",
       "word_count": 52,
       "transcript_sha256": "67e9e31e06ef09d97e32cdb47680386188457780f3cc6774f2ed1377c82efca2",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "ddb8de2e03c04bbcbecc47c13c2d0d09",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/44f9c46a-1def-46c1-8065-95647deaf951.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/22.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.368
     },
     {
       "take": 23,
@@ -288,11 +288,11 @@
       "last_anchor": "That thought arrived so smoothly I almost admired it.",
       "word_count": 43,
       "transcript_sha256": "8dff18f3ca0ed7d2c1e1c774886bbc7be6e50debcabd1e5054deb255143c59a4",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "d6ca02c545084015b1c8d4ad82f58cc1",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3b5a4005-8e2a-4905-9556-db8b22c6c813.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/23.mp3",
-      "duration_seconds": null
+      "duration_seconds": 14.04
     },
     {
       "take": 24,
@@ -300,11 +300,11 @@
       "last_anchor": "Maybe even smart.",
       "word_count": 40,
       "transcript_sha256": "67d080ff46982ab3daae43c342fef2894df2c1fd3bfa95f71545c224e59f72e3",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "55ca53f059fc4f4fbd46badce5502f17",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dc396e7b-c254-48ff-9cdd-139acfc6b064.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/24.mp3",
-      "duration_seconds": null
+      "duration_seconds": 16.344
     },
     {
       "take": 25,
@@ -312,11 +312,11 @@
       "last_anchor": "Clean history.",
       "word_count": 53,
       "transcript_sha256": "2943925c2f7e0244ba794f650343ab80c498d94315c888461e7f1174bb65695f",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "39e21730867f41feab40223da0729444",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ede23a1b-a0ba-4d5a-8413-049f3570941e.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/25.mp3",
-      "duration_seconds": null
+      "duration_seconds": 17.616
     },
     {
       "take": 26,
@@ -324,11 +324,11 @@
       "last_anchor": "No sentence in that history would include a dyer buying extra ash because she had learned exactly how much failure a catch basin should be allowed to hold.",
       "word_count": 52,
       "transcript_sha256": "fa7c701d0fe61de0f3115900647f296b92f2bc9a204647f3bcd3e89acf8c3d70",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "fc4a05a0ff3b4cfa9b6e17f1205334a7",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/93b32171-bb5f-4de0-9409-59e3b69007e0.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/26.mp3",
-      "duration_seconds": null
+      "duration_seconds": 19.848
     },
     {
       "take": 27,
@@ -336,11 +336,11 @@
       "last_anchor": "Unfortunate.",
       "word_count": 46,
       "transcript_sha256": "f64fa48ca3642d0cfa66c06d36604e07139b70a04f0e964db5075baf59684e99",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "1927d405ae3b4773b0f830136b53bd7c",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c8cb3e09-cf1e-4a4b-af1b-600b144fd040.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/27.mp3",
-      "duration_seconds": null
+      "duration_seconds": 16.344
     },
     {
       "take": 28,
@@ -348,11 +348,11 @@
       "last_anchor": "Not just ownership for advice.",
       "word_count": 48,
       "transcript_sha256": "71568155583233b814a8ff8476e952057e33151069e2059903aa6b8a7585876a",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "c6496297780744078714f2f0496db725",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/74f8e4cd-f24f-42eb-8841-90765c91cdb7.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/28.mp3",
-      "duration_seconds": null
+      "duration_seconds": 16.488
     },
     {
       "take": 29,
@@ -360,11 +360,11 @@
       "last_anchor": "Annoying relationship.",
       "word_count": 49,
       "transcript_sha256": "090d0b9171b9608132925189eb2faf3e39ce939c9c67f7037003c7ea07c5bf8b",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "73e0ae4146574411b19c7effb1d8325b",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/37c65903-4a5d-4817-9e20-a0f4404e6909.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/29.mp3",
-      "duration_seconds": null
+      "duration_seconds": 21.0
     },
     {
       "take": 30,
@@ -372,11 +372,11 @@
       "last_anchor": "Three orders per customer.",
       "word_count": 54,
       "transcript_sha256": "2fd472ee0dea9c4692c6a96ba43f673c081c54c1e53e885d299c4a6fedb034a1",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "97dfc14b6b7a49229c731ea6d72ea2f2",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/03e538bf-e87b-480c-ac22-ad3694ce963b.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/30.mp3",
-      "duration_seconds": null
+      "duration_seconds": 21.096
     },
     {
       "take": 31,
@@ -384,11 +384,11 @@
       "last_anchor": "She objected.",
       "word_count": 51,
       "transcript_sha256": "6a3107cee93d7b0ddbcbc4b42dfbb8d85a989b4ebe4f852cb0f4ae707ce2c820",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "ff82f946ebfa41b28ace3dc0a86763d5",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5f34ae55-0443-4266-8ace-30576a8ff2b6.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/31.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.648
     },
     {
       "take": 32,
@@ -396,11 +396,11 @@
       "last_anchor": "In arithmetic.",
       "word_count": 55,
       "transcript_sha256": "bd3211859f0ef4004e36bf90650453aeb704c0f780e178d18309a934d7ea2c73",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "f0d21f62bbaa45f5b0cdbd5c6ae2ace9",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/76bc0325-6509-4810-8ab5-ae01460ae00d.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/32.mp3",
-      "duration_seconds": null
+      "duration_seconds": 20.112
     },
     {
       "take": 33,
@@ -408,11 +408,11 @@
       "last_anchor": "I looked at Arlo.",
       "word_count": 54,
       "transcript_sha256": "9874de234e37887a2fc37a0416648918121d632b618d3ba3ab3bf4aea0ec2d93",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "f4528d0df39f4c02889afe02b34646d3",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/379d9011-b9a3-4080-af37-282ea1c4ae5b.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/33.mp3",
-      "duration_seconds": null
+      "duration_seconds": 20.112
     },
     {
       "take": 34,
@@ -420,11 +420,11 @@
       "last_anchor": "Ivena second because she took the pen from him.",
       "word_count": 51,
       "transcript_sha256": "bd50f68c0554aa67ec09182feaf980443705c51da785ef4e005d0b9061c3e9c6",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "8f8223e2f5964bfbab8329eba2e60774",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3e43ac37-3c73-4f4b-bb71-c046063f4cfb.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/34.mp3",
-      "duration_seconds": null
+      "duration_seconds": 18.888
     },
     {
       "take": 35,
@@ -432,11 +432,11 @@
       "last_anchor": "Arlo took the page away before I could reread my lost percentage into a personal tragedy.",
       "word_count": 55,
       "transcript_sha256": "1a06724f297de64b395fd68e391d22aab27559abd7a42b71a33db93005c9489c",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "4cbb45df48d34ca5a81b6001a4e538b1",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a118e3c5-ebd7-47ef-8abb-cc6d4bafff40.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/35.mp3",
-      "duration_seconds": null
+      "duration_seconds": 21.312
     },
     {
       "take": 36,
@@ -444,11 +444,14 @@
       "last_anchor": "I carried the bucket.",
       "word_count": 66,
       "transcript_sha256": "327f9c0d9450a44d6b90a8364e03993bdb7716212c8b7a896fb426f00d7bacc1",
-      "status": "generated_preview_url_captured",
+      "status": "artifact_captured",
       "provider_context_id": "aadb1a0d5a2f49cbb7d626c4c1edc5d0",
       "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/555a6365-900e-4577-89c1-9dd5f0a67806.mp3",
       "durable_file": "greg-again/audio/assets/chunks/016-short/36.mp3",
-      "duration_seconds": null
+      "duration_seconds": 24.432
     }
-  ]
+  ],
+  "assembled_file": "greg-again/audio/assets/chapter-016.mp3",
+  "assembled_duration_seconds": 672.216,
+  "component_duration_seconds": 672.168
 }
