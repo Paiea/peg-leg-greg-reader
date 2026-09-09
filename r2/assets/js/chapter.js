@@ -35,12 +35,6 @@
     audio.src = chapter.audio.path;
     audio.setAttribute('aria-label', `${chapter.title} audio rendition`);
     slot.appendChild(audio);
-    if (chapter.audio.label) {
-      const label = document.createElement('p');
-      label.className = 'audio-label';
-      label.textContent = chapter.audio.label;
-      slot.appendChild(label);
-    }
   }
 
   function stripInternalPrelude(markdown) {
