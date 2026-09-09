@@ -13,8 +13,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 253)])
-        self.assertEqual(project['current_chapter'], 'r2-ch252')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 279)])
+        self.assertEqual(project['current_chapter'], 'r2-ch278')
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
@@ -51,8 +51,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Shared Greg Surface', readme)
         self.assertIn('medium-specific finish', readme)
 
-    def test_written_frontier_is_public_through_chapter_two_hundred_fifty_two(self):
-        for number in range(1, 253):
+    def test_written_frontier_is_public_through_chapter_two_hundred_seventy_eight(self):
+        for number in range(1, 279):
             chapter_id = f'r2-ch{number:03d}'
             manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
             self.assertTrue(manifest_path.exists(), chapter_id)
@@ -68,7 +68,7 @@ class R2SiteTests(unittest.TestCase):
             )
             self.assertEqual(
                 chapter['navigation']['next'],
-                None if number == 252 else f'r2-ch{number + 1:03d}',
+                None if number == 278 else f'r2-ch{number + 1:03d}',
             )
 
     def test_selected_written_chapters_publish_directly_to_r2_reader(self):
