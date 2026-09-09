@@ -99,6 +99,37 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("Also progress.", script)
         self.assertIn("Production takes: **14**", script)
 
+    def test_chapter_nine_preserves_present_uncertainty_and_publishes_audio(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        self.assertIn("ga-009", by_id)
+        self.assertEqual("The Backstop", by_id["ga-009"]["title"])
+        self.assertEqual("shared-greg-surface", by_id["ga-009"]["lens"])
+        self.assertEqual("processing-space", by_id["ga-009"]["audio_finish"])
+        self.assertEqual(12, by_id["ga-009"]["take_count"])
+        self.assertEqual(671.352, by_id["ga-009"]["duration_seconds"])
+        self.assertEqual("assets/chapter-009.mp3", by_id["ga-009"]["audio_src"])
+
+        audio = AUDIO_ROOT / "assets" / "chapter-009.mp3"
+        self.assertTrue(audio.exists())
+        self.assertGreater(audio.stat().st_size, 5_000_000)
+
+        script = (AUDIO_ROOT / "scripts" / "009-the-backstop.md").read_text(encoding="utf-8")
+        self.assertIn("DO NOT OPTIMIZE AWAY PROCESSING TIME", script)
+        self.assertIn("PROCESSING SPACE", script)
+        self.assertIn("FUTURE MEMORY MUST NOT COLLAPSE PRESENT UNCERTAINTY", script)
+        self.assertIn("Production takes: **12**", script)
+        self.assertIn("Future knowledge did not need to be explicit to be dangerous.", script)
+        self.assertIn("Present first.", script)
+        self.assertIn("Not weight. / Direction.", script)
+        self.assertIn("Brace where it's going.", script)
+        self.assertIn("The future gave me the answer without the history.", script)
+
+        chapter = json.loads((R2_ROOT / "data/chapters/ch009.json").read_text(encoding="utf-8"))
+        self.assertEqual("The Backstop", chapter["title"])
+        self.assertEqual("published", chapter["audio"]["status"])
+        self.assertEqual("../greg-again/audio/assets/chapter-009.mp3", chapter["audio"]["path"])
+
     def test_r2_chapter_five_routes_published_audio(self):
         chapter = json.loads((R2_ROOT / "data/chapters/ch005.json").read_text(encoding="utf-8"))
         self.assertEqual("The Partner", chapter["title"])
