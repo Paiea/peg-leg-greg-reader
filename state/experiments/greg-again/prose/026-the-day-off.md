@@ -162,7 +162,7 @@ That mattered more than I expected.
 
 I could go to the Guild.
 
-Sella would have work somewhere.
+There was usually work somewhere.
 
 Maybe not good work.
 
@@ -238,7 +238,7 @@ I looked at the new flue collar.
 
 Noll followed my eyes.
 
-"Hasn't burned the building down since yesterday."
+"Hasn't burned the building down yet."
 
 "Strong evidence."
 
@@ -579,8 +579,6 @@ Food stack.
 Support stack.
 
 Available cash.
-
-No debt to Antonius.
 
 No warehouse shift required before breakfast.
 
