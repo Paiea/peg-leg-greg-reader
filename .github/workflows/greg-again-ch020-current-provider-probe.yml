@@ -1,0 +1,43 @@
+name: Probe Fresh Greg Again Chapter 20 Provider Artifact
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch020-recovery-publish
+    paths:
+      - .github/workflows/greg-again-ch020-current-provider-probe.yml
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch020-recovery-publish
+      - name: Probe fresh provider context
+        shell: bash
+        run: |
+          set -euo pipefail
+          endpoint='https://level2labs-prod--adm-agent-helper-user-fetch-document.modal.run'
+          out='greg-again/audio/production/020/fresh-provider-probe.txt'
+          mkdir -p "$(dirname "$out")"
+          curl -sS -D /tmp/h.txt -o /tmp/b.txt \
+            -w 'http=%{http_code}\ncontent_type=%{content_type}\nsize=%{size_download}\n' \
+            -H 'Content-Type: application/json' \
+            -H 'X-Client-UUID: client_uuid_greg_again_audio_worker' \
+            -H 'X-Client-URL: https://www.aidocmaker.com/g0/audio' \
+            -H 'X-Timezone: Pacific/Honolulu' \
+            --data '{"context_id":"c41f69fbbfdb4fdcb6e0576c286b5df4","context_type":"audio","refresh":true}' \
+            "$endpoint" > "$out" || true
+          echo '--- headers ---' >> "$out"
+          cat /tmp/h.txt >> "$out" || true
+          echo '--- body ---' >> "$out"
+          cat /tmp/b.txt >> "$out" || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$out"
+          git commit -m 'audio: record fresh Chapter 20 provider probe' || true
+          git push origin HEAD:audio/greg-again-ch020-recovery-publish
