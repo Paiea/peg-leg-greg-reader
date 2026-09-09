@@ -4,6 +4,7 @@ import json
 import subprocess
 from pathlib import Path
 
+# Round 10 publication builder.
 ROOT = Path(__file__).resolve().parents[1]
 R2 = ROOT / "r2"
 START = 305
