@@ -12,7 +12,8 @@ class GregAgainChapter12AudioTest(unittest.TestCase):
         manifest = json.loads((AUDIO / "manifest.json").read_text(encoding="utf-8"))
         by_id = {item["chapter_id"]: item for item in manifest["chapters"]}
         entry = by_id["ga-012"]
-        self.assertEqual("The Stranger", entry["title"])
+        self.assertEqual(12, entry["number"])
+        self.assertEqual("assets/chapter-012.mp3", entry["audio_src"])
         self.assertEqual("shared-greg-surface", entry["lens"])
         self.assertEqual("processing-space", entry["audio_finish"])
         self.assertEqual(25, entry["take_count"])
