@@ -126,6 +126,39 @@ Default audit order:
 4. read the connected run again
 5. preserve SOURCE wherever the challenger does not clearly win
 
+## A-zone variance pressure
+
+Before an A-zone chapter is selected or published, challenge whether it is taking a familiar successful R2 shape because the scene earned that shape or merely because the generator has learned that shape well.
+
+Check especially for:
+
+- fragment cadence used by habit rather than Greg's actual cognition
+- repeated `competence -> correction -> insight -> thesis landing` chapter grammar
+- outside characters who are too consistently professional, reasonable, clean, or useful
+- scenes compressed because compression usually works rather than because this scene wants compression
+- explanatory endings that restate a principle the scene already proved
+- missing physical, social, environmental, relational, irrational, or emotionally messy embodiment that would materially improve the scene
+
+Variance is diagnostic, not a quota. Do not force length, conflict, dialogue, messiness, or structural novelty merely to look different. A `SOURCE WIN` may survive unchanged if it still wins after the challenge.
+
+As Greg becomes more capable, do not assume pressure must escalate through combat or spectacle. Prefer earned situations where valuable things can conflict: work, money, trust, friendship, business, Guild duty, bodily limits, future knowledge, another person's agency, reputation, or responsibility. Good judgment may sometimes preserve everything. When the story earns a harder choice, let competent action have a real cost.
+
+## Cold adversarial run audit
+
+After a substantial contiguous accepted run, use an occasional cold read to test whether successful local patterns are converging into a predictable novel.
+
+A useful cadence is roughly every 40–50 accepted chapters, or before another large forward promotion/generation wave when doing so is cheap and does not block ordinary writing.
+
+For the cold read:
+
+1. hide generator route, A/B/C/D provenance, survivor labels, and prior evaluation verdicts when practical
+2. read the accepted run as a novel rather than as pipeline output
+3. challenge repeated chapter grammar, rhythmic convergence, same-shaped endings, emotional neatness, insufficient interpersonal friction, over-clean competence, and compressed scenes that should breathe
+4. distinguish deliberate house voice from repetition that is no longer buying anything
+5. feed useful findings into later A-zone re-performance, targeted revision, or forward-generation judgment
+
+The audit is evidence, not an automatic rejection or retroactive demotion system. Do not create a rewrite quota. A high survival rate is a reason to test the challenger harder, not proof that the run is bad or that changes must be manufactured.
+
 ## Discovery contract
 
 Before substantial forward writing near a speculative frontier:
