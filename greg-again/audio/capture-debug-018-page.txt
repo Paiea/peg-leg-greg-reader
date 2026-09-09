@@ -1,0 +1,38 @@
+--- mp3/storage/http candidates ---
+--- context id occurrences ---
+--- likely endpoint strings ---
+//www.aidocmaker.com/ai-voice-generator
+//www.aidocmaker.com/ai-voice-generator
+apple-mobile-web-app-status-bar-style
+/audio
+--- script src ---
+/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0rr-pnj_pmij2.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0x6tyfpkripay.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0zl~67_sx1ros.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0ns8lp0p.9rtw.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0jgm2gpf4pm9r.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0f0d8i-rgi7cj.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0~xc6_rxj1fn0.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0.s3o18f-~cv4.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0r2umb2qvm152.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/05rya8smbpz.p.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/turbopack-03bvlccu8t7n9.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0.ydgvdlrk3ob.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0bv9v9ygib1.s.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0_nw4rb13rqak.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/17.y02maoqjww.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0-oypsly40fov.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0.99kejv-vouk.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/17zrps7xubbp-.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0mh933502pq9o.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0e~-4z~ae3t-z.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0hvqnzqt_d47i.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0zaczb-y41ftk.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/01d--t-nxw22e.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/01wniesp1nl8q.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/0ij2w8sj~fl_l.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/chunks/turbopack-0p-uk7v3emxyl.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/build-TfctsWXpff2fKS/_buildManifest.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/build-TfctsWXpff2fKS/_ssgManifest.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
+/_next/static/build-TfctsWXpff2fKS/_clientMiddlewareManifest.js?dpl=dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY
