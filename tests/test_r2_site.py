@@ -43,6 +43,17 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Read', html)
         self.assertIn('Look', html)
 
+    def test_public_copy_presents_r2_as_an_intentional_story(self):
+        homepage = (R2 / 'index.html').read_text(encoding='utf-8')
+        about = (R2 / 'about/index.html').read_text(encoding='utf-8')
+        public_copy = f'{homepage}\n{about}'.lower()
+
+        self.assertNotIn('audio experiment', public_copy)
+        self.assertNotIn('renditions catch up', public_copy)
+        self.assertNotIn('machinery broke', public_copy)
+        self.assertNotIn('production pipelines worked', public_copy)
+        self.assertIn('greg knows what he became. the problem is getting there again.', public_copy)
+
     def test_public_routes_exist(self):
         for path in ['about/index.html', 'chapters/index.html', 'gallery/index.html', 'chapter.html']:
             self.assertTrue((R2 / path).exists(), path)
