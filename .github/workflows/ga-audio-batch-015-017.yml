@@ -6,60 +6,29 @@ on:
       - audio/greg-again-batch-015-017
     paths:
       - .github/workflows/ga-audio-batch-015-017.yml
-      - greg-again/audio/production/015-017/**
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  assemble:
+  inspect-player:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download, verify, and assemble queued chapters
+      - name: Inspect provider player markup
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/ga-audio greg-again/audio/assets
-          shopt -s nullglob
-          for job in greg-again/audio/production/015-017/ch*.urls; do
-            chapter="$(basename "$job" .urls | sed 's/^ch//')"
-            work="/tmp/ga-audio/$chapter"
-            mkdir -p "$work"
-            : > "$work/concat.txt"
-            while IFS='|' read -r take context url; do
-              [ -n "$take" ] || continue
-              out="$work/${take}.mp3"
-              ok=0
-              for attempt in $(seq 1 60); do
-                if curl -fL --retry 2 --retry-delay 2 "$url" -o "$out"; then
-                  if ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$out" >/dev/null 2>&1; then
-                    ok=1
-                    break
-                  fi
-                fi
-                sleep 5
-              done
-              if [ "$ok" -ne 1 ]; then
-                echo "Provider take $chapter/$take ($context) never became playable" >&2
-                exit 1
-              fi
-              printf "file '%s'\n" "$out" >> "$work/concat.txt"
-            done < "$job"
-            final="greg-again/audio/assets/chapter-${chapter}.mp3"
-            ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i "$work/concat.txt" -c copy "$final"
-            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$final" | tee "$work/duration.txt"
-          done
-      - name: Commit assembled chapter audio
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add greg-again/audio/assets/chapter-*.mp3
-          if git diff --cached --quiet; then
-            echo 'No new chapter audio to commit.'
-            exit 0
-          fi
-          git commit -m 'Assemble Greg Again audio batch 015-017'
-          git push
+          curl -fsSL 'https://www.aidocmaker.com/g0/audio?name=a9b6ca920b60470db8a87f206533cee3' -o /tmp/player.html
+          python - <<'PY'
+          import re
+          s=open('/tmp/player.html',encoding='utf-8',errors='replace').read()
+          print('bytes', len(s))
+          for m in sorted(set(re.findall(r'https?://[^"\'<> ]+', s))):
+              if any(k in m.lower() for k in ('audio','mp3','wav','download','storage','blob')):
+                  print(m[:1000])
+          print('--- relevant markup ---')
+          for line in s.splitlines():
+              if any(k in line.lower() for k in ('audio','mp3','wav','download','source src')):
+                  print(line[:2000])
+          PY
