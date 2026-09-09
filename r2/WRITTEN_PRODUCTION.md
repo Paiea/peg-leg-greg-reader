@@ -25,6 +25,16 @@ CURRENT STORY AUTHORITY
 
 Do not stop at `selected on experiment branch` merely to preserve an extra promotion gate.
 
+## Future survivor evidence
+
+When unaccepted temporal-survivor material exists near the current written frontier, consult `r2/FUTURE_SURVIVOR_PROTOCOL.md` before inventing the next run cold.
+
+Future survivor material is rehearsal/challenger evidence, not story authority and not a publication queue. Read newest accepted authority first, inspect only the relevant survivor/reconciliation evidence, then still ask:
+
+> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
+
+When a speculative unit approaches publication territory, prefer fresh re-performance against current Story State and recent exact prose. Preserve old wording only where it still wins. A missing, stale, conflicting, or inaccessible survivor experiment never blocks normal forward production.
+
 ## What stays experimental
 
 Story-search files, rehearsals, evaluations, long-range maps, Seven Lamps/world-iceberg memory, performance experiments, and other development evidence may remain on their working branch when that is the safest or clearest ownership model.
