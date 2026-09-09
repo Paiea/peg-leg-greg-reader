@@ -1,0 +1,84 @@
+name: Inventory Greg Again Final Take Transcripts
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ending-ellipsis-001-023
+    paths:
+      - .github/workflows/greg-again-ending-final-take-inventory.yml
+
+permissions:
+  contents: write
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ending-ellipsis-001-023
+          fetch-depth: 0
+      - name: Extract final take transcripts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib, re
+          manifest = json.loads(pathlib.Path('greg-again/audio/manifest.json').read_text())
+          scripts = pathlib.Path('greg-again/audio/scripts')
+          out = []
+          for e in manifest['chapters']:
+              n = int(e['number'])
+              if n > 23:
+                  continue
+              candidates = sorted(scripts.glob(f'{n:03d}-*.md'))
+              chosen = None
+              final_take = None
+              for p in candidates:
+                  text = p.read_text(encoding='utf-8')
+                  matches = list(re.finditer(r'^## Take\s+([^\n]+)\s*$', text, flags=re.M|re.I))
+                  if not matches:
+                      continue
+                  m = matches[-1]
+                  body = text[m.end():].strip()
+                  if not body:
+                      continue
+                  # prefer the script whose final take actually reaches the written ending
+                  written = pathlib.Path(f'r2/assets/written/ch{n:03d}.md').read_text(encoding='utf-8').splitlines()
+                  final_line = next(x.strip() for x in reversed(written) if x.strip())
+                  plain_final = re.sub(r'\.\.\.$', '.', final_line)
+                  if final_line.rstrip('.') in body or plain_final.rstrip('.') in body:
+                      chosen = p
+                      final_take = {'label':m.group(1).strip(),'transcript':body}
+                      break
+                  if chosen is None:
+                      chosen = p
+                      final_take = {'label':m.group(1).strip(),'transcript':body}
+              out.append({
+                  'chapter':n,
+                  'published':True,
+                  'script':str(chosen) if chosen else None,
+                  'final_take_label':final_take['label'] if final_take else None,
+                  'final_take_transcript':final_take['transcript'] if final_take else None,
+              })
+          d = pathlib.Path('greg-again/audio/production/ending-retrofit-001-023')
+          d.mkdir(parents=True, exist_ok=True)
+          p = d/'final-take-inventory.json'
+          p.write_text(json.dumps({'chapters':out}, indent=2) + '\n', encoding='utf-8')
+          print(p.read_text())
+          PY
+          git diff --check
+      - name: Commit inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name Paiea
+          git config user.email paiea.tv@gmail.com
+          git add greg-again/audio/production/ending-retrofit-001-023/final-take-inventory.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'audio: inventory final take transcripts for ending retrofit'
+          git fetch origin audio/greg-again-ending-ellipsis-001-023
+          git rebase origin/audio/greg-again-ending-ellipsis-001-023
+          git push origin HEAD:audio/greg-again-ending-ellipsis-001-023
