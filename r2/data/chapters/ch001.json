@@ -1,24 +1,5 @@
 {
-  "chapter_id": "r2-ch001",
-  "display_number": 1,
-  "title": "The Boy",
-  "status": "published",
-  "book": 1,
-  "act": 1,
-  "teaser": "Greg's second run begins where a life becomes his again.",
-  "audio": {
-    "status": "published",
-    "path": "../greg-again/audio/assets/chapter-001.mp3",
-    "duration_seconds": 959.808,
-    "label": "Audio-first rendition"
-  },
-  "written": {
-    "status": "unavailable",
-    "path": null
-  },
-  "images": [],
-  "navigation": {
-    "previous": null,
-    "next": "r2-ch002"
-  }
+  "chapter_id":"r2-ch001","display_number":1,"title":"The Boy","status":"published","book":1,"act":1,"teaser":"Greg's second run begins where a life becomes his again.",
+  "audio":{"status":"published","path":"../greg-again/audio/assets/chapter-001.mp3","duration_seconds":959.808,"label":"Audio-first rendition"},
+  "written":{"status":"published","path":"assets/written/ch001.md"},"images":[],"navigation":{"previous":null,"next":"r2-ch002"}
 }

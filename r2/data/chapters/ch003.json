@@ -1,0 +1,5 @@
+{
+  "chapter_id":"r2-ch003","display_number":3,"title":"The Borrower","status":"published","book":1,"act":1,"teaser":"Future knowledge opens a door. The door charges six silver.",
+  "audio":{"status":"published","path":"../greg-again/audio/assets/chapter-003.mp3","duration_seconds":752.544,"label":"Audio-first rendition"},
+  "written":{"status":"published","path":"assets/written/ch003.md"},"images":[],"navigation":{"previous":"r2-ch002","next":"r2-ch004"}
+}
