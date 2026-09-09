@@ -6,6 +6,7 @@ on:
       - audio/greg-again-ch022-auto
     paths:
       - .github/workflows/greg-again-ch022-final-check.yml
+      - tests/test_greg_again_audio_ch022.py
 
 jobs:
   verify:
