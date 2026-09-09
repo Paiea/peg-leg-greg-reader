@@ -9,21 +9,16 @@ R2_ROOT = ROOT / "r2"
 
 
 class GregAgainAudioCatalogTest(unittest.TestCase):
-    def test_catalog_publishes_chapters_one_through_seven(self):
+    def test_catalog_uses_stable_chapter_identity(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
         chapters = manifest["chapters"]
         by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
-        for number in range(1, 8):
-            self.assertIn(f"ga-{number:03d}", by_id)
-        self.assertEqual("The Boy", by_id["ga-001"]["title"])
-        self.assertEqual("The Novice", by_id["ga-002"]["title"])
-        self.assertEqual("The Borrower", by_id["ga-003"]["title"])
-        self.assertEqual("The Contractor", by_id["ga-004"]["title"])
-        self.assertEqual("The Partner", by_id["ga-005"]["title"])
-        self.assertEqual("The Troubleshooter", by_id["ga-006"]["title"])
-        self.assertEqual("The Extra Guard", by_id["ga-007"]["title"])
-        for number in range(1, 8):
-            self.assertEqual(f"assets/chapter-{number:03d}.mp3", by_id[f"ga-{number:03d}"]["audio_src"])
+        for number in range(1, 15):
+            chapter_id = f"ga-{number:03d}"
+            self.assertIn(chapter_id, by_id)
+            self.assertEqual(number, by_id[chapter_id]["number"])
+            self.assertEqual(f"assets/chapter-{number:03d}.mp3", by_id[chapter_id]["audio_src"])
         self.assertEqual("greg-dominant", by_id["ga-002"]["lens"])
         self.assertEqual("greg-dominant", by_id["ga-003"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-004"]["lens"])
@@ -111,7 +106,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
         self.assertIn("ga-010", by_id)
-        self.assertEqual("The Returner", by_id["ga-010"]["title"])
+        self.assertEqual(10, by_id["ga-010"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-010"]["lens"])
         self.assertEqual("processing-space", by_id["ga-010"]["audio_finish"])
         self.assertEqual(12, by_id["ga-010"]["take_count"])
@@ -141,7 +136,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
         self.assertIn("ga-011", by_id)
-        self.assertEqual("The Gate Hand", by_id["ga-011"]["title"])
+        self.assertEqual(11, by_id["ga-011"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-011"]["lens"])
         self.assertEqual("processing-space", by_id["ga-011"]["audio_finish"])
         self.assertEqual("assets/chapter-011.mp3", by_id["ga-011"]["audio_src"])
@@ -164,7 +159,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
         self.assertIn("ga-013", by_id)
-        self.assertEqual("The Fighter", by_id["ga-013"]["title"])
+        self.assertEqual(13, by_id["ga-013"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-013"]["lens"])
         self.assertEqual("processing-space", by_id["ga-013"]["audio_finish"])
         self.assertEqual(13, by_id["ga-013"]["take_count"])
@@ -188,11 +183,24 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("published", chapter["audio"]["status"])
         self.assertEqual("../greg-again/audio/assets/chapter-013.mp3", chapter["audio"]["path"])
 
+    def test_chapter_nineteen_recovered_audio_is_durable(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        self.assertIn("ga-019", by_id)
+        chapter = by_id["ga-019"]
+        self.assertEqual(19, chapter["number"])
+        self.assertEqual(36, chapter["take_count"])
+        self.assertEqual(867.168, chapter["duration_seconds"])
+        self.assertEqual("assets/chapter-019.mp3", chapter["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "chapter-019.mp3"
+        self.assertTrue(audio.exists())
+        self.assertGreater(audio.stat().st_size, 10_000_000)
+
     def test_chapter_twenty_one_preserves_contact_and_publishes_audio(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
         self.assertIn("ga-021", by_id)
-        self.assertEqual("The Letter Writer", by_id["ga-021"]["title"])
+        self.assertEqual(21, by_id["ga-021"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-021"]["lens"])
         self.assertEqual("processing-space", by_id["ga-021"]["audio_finish"])
         self.assertEqual(13, by_id["ga-021"]["take_count"])
