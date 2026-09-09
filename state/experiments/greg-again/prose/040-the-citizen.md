@@ -424,8 +424,6 @@ Still.
 
 Good.
 
-The world had not turned every prior relationship into a sequel.
-
 "Gate changes the need," he said. "Doesn't erase the route."
 
 Accurate.
@@ -526,9 +524,7 @@ Growth again.
 
 I took one short warehouse inventory shift for the afternoon.
 
-Not because it advanced anything.
-
-Because it paid three copper and ended before dinner.
+It paid three copper and ended before dinner.
 
 The warehouse had no monsters.
 
