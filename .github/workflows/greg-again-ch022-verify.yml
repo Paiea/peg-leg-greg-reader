@@ -1,0 +1,22 @@
+name: Verify Greg Again Chapter 22
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch022-auto
+    paths:
+      - .github/workflows/greg-again-ch022-verify.yml
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch022-auto
+      - name: Run Chapter 22 audio test
+        run: python -m unittest tests.test_greg_again_audio_ch022 -v
+      - name: Validate manifest JSON
+        run: python -m json.tool greg-again/audio/manifest.json >/dev/null
+      - name: Validate Chapter 22 route JSON
+        run: python -m json.tool r2/data/chapters/ch022.json >/dev/null
