@@ -1,0 +1,28 @@
+name: Final Check Greg Again Chapter 22
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch022-auto
+    paths:
+      - .github/workflows/greg-again-ch022-final-check.yml
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch022-auto
+      - run: python -m unittest tests.test_greg_again_audio_ch022 -v
+      - run: python -m json.tool greg-again/audio/manifest.json >/dev/null
+      - run: python -m json.tool r2/data/chapters/ch022.json >/dev/null
+      - name: Confirm concurrent publications survived
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open('greg-again/audio/manifest.json'))
+          ids={x['chapter_id'] for x in d['chapters']}
+          assert {'ga-009','ga-019','ga-021','ga-022'} <= ids
+          PY
