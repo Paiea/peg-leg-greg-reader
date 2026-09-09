@@ -1,28 +1,152 @@
-name: Validate Greg Again Audio
+name: Align low-confidence mana repairs
 
 on:
-  pull_request:
-    paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
-      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - main
+      - audio/greg-again-mana-pronunciation-repair-v2
     paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  validate:
+  align:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
         with:
-          python-version: '3.13'
-      - name: Run Greg Again audio catalog contract
-        run: python -m unittest tests.test_greg_again_audio_catalog -v
+          ref: audio/greg-again-mana-pronunciation-repair-v2
+          fetch-depth: 0
+      - name: Install alignment tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          python -m pip install --quiet faster-whisper
+      - name: Align low-confidence targets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          from difflib import SequenceMatcher
+          from faster_whisper import WhisperModel
+
+          root=Path('.')
+          diag_path=root/'greg-again/audio/production/2026-09-08-mana-seam-diagnostic.json'
+          diag=json.loads(diag_path.read_text(encoding='utf-8'))
+          idx=json.loads((root/'greg-again/audio/production/mana-repair-source/micro-index-original.json').read_text(encoding='utf-8'))
+          ledger=json.loads((root/'greg-again/audio/production/2026-09-08-mana-provider-ledger.json').read_text(encoding='utf-8'))
+          accepted={x['target']:x for x in ledger['accepted']}
+          index={f"ch{int(x['chapter']):03d}-t{int(x['take']):02d}-m{int(x['micro']):02d}":x for x in idx['items']}
+          work=Path('/tmp/mana-whisper'); work.mkdir(parents=True,exist_ok=True)
+          model=WhisperModel('small.en', device='cpu', compute_type='int8')
+
+          def norm_word(s):
+              return re.sub(r"[^a-z0-9']+",'',s.lower())
+          def words_text(s):
+              return [norm_word(x) for x in re.findall(r"[A-Za-z0-9']+",s) if norm_word(x)]
+          def get_audio(ch,take):
+              if ch==11:
+                  data=json.loads((root/'greg-again/audio/takes/011.json').read_text(encoding='utf-8'))
+                  rec=next(x for x in data['takes'] if int(x['take'])==take)
+                  out=work/f'ch011-t{take:02d}.mp3'
+                  if not out.exists(): subprocess.run(['curl','--fail','--location','--retry','4',rec['artifact_url'],'-o',str(out)],check=True)
+                  return out
+              p=root/f'greg-again/audio/assets/chunks/{ch:03d}/{take:02d}.mp3'
+              if not p.exists(): raise FileNotFoundError(p)
+              return p
+          def transcribe(path):
+              segs,_=model.transcribe(str(path),beam_size=5,word_timestamps=True,vad_filter=False,language='en')
+              out=[]
+              for seg in segs:
+                  for w in seg.words or []:
+                      nw=norm_word(w.word)
+                      if nw:
+                          out.append({'word':nw,'raw':w.word,'start':float(w.start),'end':float(w.end),'probability':float(w.probability or 0)})
+              return out
+          def best_span(asr,target_words):
+              # Search flexible windows near target length. Penalize length drift; require lexical agreement.
+              best=None
+              n=len(target_words)
+              for i in range(len(asr)):
+                  for L in range(max(1,n-4),min(len(asr)-i,n+5)+1):
+                      cand=[x['word'] for x in asr[i:i+L]]
+                      ratio=SequenceMatcher(None,target_words,cand).ratio()
+                      score=ratio-0.025*abs(L-n)
+                      if best is None or score>best[0]: best=(score,ratio,i,i+L,cand)
+              return best
+          def ff_silences(path):
+              log=work/(path.stem+'.sil.log')
+              with log.open('w') as f:
+                  subprocess.run(['ffmpeg','-hide_banner','-loglevel','info','-i',str(path),'-af','silencedetect=noise=-46dB:d=0.025','-f','null','-'],stdout=subprocess.DEVNULL,stderr=f,check=False)
+              txt=log.read_text(errors='replace'); ev=[]
+              for ln in txt.splitlines():
+                  m=re.search(r'silence_start: ([0-9.]+)',ln)
+                  if m: ev.append(('s',float(m.group(1))))
+                  m=re.search(r'silence_end: ([0-9.]+)',ln)
+                  if m: ev.append(('e',float(m.group(1))))
+              ev.sort(key=lambda x:x[1]); out=[]; cur=None
+              for k,t in ev:
+                  if k=='s': cur=t
+                  elif cur is not None: out.append((cur,t)); cur=None
+              return out
+          def snap_before(t,sils,max_gap=1.5):
+              c=[(a,b) for a,b in sils if b<=t+0.20 and t-b<=max_gap]
+              if not c:return None
+              a,b=max(c,key=lambda x:x[1]); return (a,b,(a+b)/2)
+          def snap_after(t,sils,max_gap=1.5):
+              c=[(a,b) for a,b in sils if a>=t-0.20 and a-t<=max_gap]
+              if not c:return None
+              a,b=min(c,key=lambda x:x[0]); return (a,b,(a+b)/2)
+
+          low=[x for x in diag['targets'] if x.get('status')=='low_confidence']
+          results=[]
+          cache={}
+          for old in low:
+              target=old['target']; meta=index[target]; ch=int(meta['chapter']); take=int(meta['take'])
+              audio=get_audio(ch,take)
+              key=(ch,take)
+              if key not in cache: cache[key]=(transcribe(audio),ff_silences(audio))
+              asr,sils=cache[key]
+              # For ordinary micro use exact target sentence. For Ch11 special context was already high confidence and is not here.
+              tw=words_text(meta['original_text'])
+              best=best_span(asr,tw)
+              rec={'target':target,'chapter':ch,'take':take,'old_diagnostic':old}
+              if not best:
+                  rec.update(status='low_confidence',reason='no_asr_span'); results.append(rec); continue
+              score,ratio,i,j,cand=best
+              span=asr[i:j]
+              start=span[0]['start']; end=span[-1]['end']
+              left=snap_before(start,sils); right=snap_after(end,sils)
+              avgprob=sum(w['probability'] for w in span)/len(span)
+              rec.update(asr_ratio=round(ratio,3),asr_score=round(score,3),asr_avg_probability=round(avgprob,3),asr_words=cand,
+                         speech_start=round(start,3),speech_end=round(end,3),left_silence=left,right_silence=right)
+              ok=ratio>=0.72 and avgprob>=0.35 and left is not None and right is not None and right[2]>left[2] and (right[2]-left[2])<35
+              if ok:
+                  rec.update(status='high_confidence_asr',splice_start=round(left[2],3),splice_end=round(right[2],3),region_duration=round(right[2]-left[2],3),provider_text=accepted[target]['provider_text'])
+              else:
+                  rec.update(status='low_confidence',reason='asr_or_silence_gate_failed')
+              results.append(rec)
+              print(target,rec['status'],'ratio',rec.get('asr_ratio'),'prob',rec.get('asr_avg_probability'),'span',rec.get('speech_start'),rec.get('speech_end'),'cuts',rec.get('splice_start'),rec.get('splice_end'))
+
+          out={'method':'faster-whisper small.en word timestamps + exact historical target + nearby silence snap','targets':results,
+               'summary':{'target_count':len(results),'high_confidence_asr':sum(x['status']=='high_confidence_asr' for x in results),'low_confidence':sum(x['status']=='low_confidence' for x in results)}}
+          (root/'greg-again/audio/production/2026-09-08-mana-asr-alignment.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(out['summary']))
+          PY
+      - name: Restore validator and commit alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/production/2026-09-08-mana-asr-alignment.json .github/workflows/greg-again-audio.yml
+          git commit -m 'audio: align low-confidence mana repair seams'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
