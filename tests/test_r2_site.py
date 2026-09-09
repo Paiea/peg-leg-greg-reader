@@ -64,6 +64,11 @@ class R2SiteTests(unittest.TestCase):
                 None if number == 16 else f'r2-ch{number + 1:03d}',
             )
 
+    def test_written_renderer_hides_internal_experiment_prelude(self):
+        js = (R2 / 'assets/js/chapter.js').read_text(encoding='utf-8')
+        self.assertIn('function stripInternalPrelude(markdown)', js)
+        self.assertIn('stripInternalPrelude(await response.text())', js)
+
     def test_chapter_one_reuses_existing_audio_and_publishes_written(self):
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['chapter_id'], 'r2-ch001')
