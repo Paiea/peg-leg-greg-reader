@@ -1,0 +1,71 @@
+name: Recover Chapter 18 mana take map
+on:
+  push:
+    branches: [audio/greg-again-mana-pronunciation-repair]
+    paths: [.github/workflows/mana-ch018-map-recovery.yml]
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          src=Path('r2/assets/written/ch018.md').read_text(encoding='utf-8')
+          prose=src.split('\n---\n',1)[1].strip()
+          spoken=prose.replace('**','')
+          paras=[p.strip() for p in re.split(r'\n\s*\n',spoken) if p.strip()]
+          LIMIT=430
+          def split_long(text):
+              if len(text)<=LIMIT: return [text]
+              pieces=re.split(r'(?<=[.!?])\s+',text)
+              out=[]; cur=''
+              for piece in pieces:
+                  if len(piece)>LIMIT:
+                      for word in piece.split():
+                          cand=(cur+' '+word).strip()
+                          if cur and len(cand)>LIMIT: out.append(cur); cur=word
+                          else: cur=cand
+                  else:
+                      cand=(cur+' '+piece).strip() if cur else piece
+                      if cur and len(cand)>LIMIT: out.append(cur); cur=piece
+                      else: cur=cand
+              if cur: out.append(cur)
+              return out
+          units=[]
+          for p in paras: units.extend(split_long(p))
+          takes=[]; cur=''
+          for u in units:
+              cand=(cur+'\n\n'+u).strip() if cur else u
+              if cur and len(cand)>LIMIT: takes.append(cur); cur=u
+              else: cur=cand
+          if cur: takes.append(cur)
+          actual=json.loads(Path('greg-again/audio/takes/018.json').read_text())
+          expected=int(actual.get('take_count',len(actual.get('takes',[]))))
+          if len(takes)!=expected:
+              raise SystemExit(f'deterministic factory mismatch: reconstructed={len(takes)} published={expected}')
+          rx=re.compile(r'\bmana\b',re.I)
+          hits=[]
+          for i,t in enumerate(takes,1):
+              if rx.search(t): hits.append({'take':i,'transcript':t,'chars':len(t),'mana_tokens':len(rx.findall(t))})
+          if sum(x['mana_tokens'] for x in hits)!=3:
+              raise SystemExit(f'expected 3 mana tokens, found {sum(x["mana_tokens"] for x in hits)}')
+          out={'chapter':18,'factory_limit':LIMIT,'take_count':len(takes),'published_take_count':expected,'affected':hits,'status':'factory_reconstruction_exact_by_count_and_algorithm'}
+          p=Path('greg-again/audio/production/2026-09-08-mana-ch018-map.json')
+          p.parent.mkdir(parents=True,exist_ok=True)
+          p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(out,ensure_ascii=False,indent=2))
+          PY
+          rm .github/workflows/mana-ch018-map-recovery.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/2026-09-08-mana-ch018-map.json .github/workflows/mana-ch018-map-recovery.yml
+          git commit -m 'audio: recover Chapter 18 mana take map'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair
