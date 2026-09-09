@@ -23,26 +23,26 @@ class R2ProfessionalHomepageTests(unittest.TestCase):
         self.assertNotIn(">Read<", nav)
         self.assertNotIn(">Look<", nav)
 
-    def test_homepage_has_editorial_hero_without_floating_card(self):
+    def test_homepage_has_frontispiece_hero_without_floating_card(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        css = (R2 / "assets/css/r2.css").read_text(encoding="utf-8")
-        self.assertIn('class="hero-copy"', html)
-        self.assertIn('class="hero-media"', html)
-        self.assertIn("grid-template-columns", css)
+        css = (R2 / "assets/css/r2-home.css").read_text(encoding="utf-8")
+        self.assertIn('class="r2-home-hero-copy"', html)
+        self.assertIn('class="r2-home-hero-media"', html)
+        self.assertIn("position: absolute", css)
         self.assertNotIn("margin: -1.4rem auto 0", css)
         self.assertNotIn("box-shadow: 0 16px 36px", css)
 
     def test_homepage_prioritizes_listen_then_read(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        hero = html.split('<section class="hero"', 1)[1].split("</section>", 1)[0]
-        listen_index = hero.index("Listen to Chapter 1")
-        read_index = hero.index("Read Chapter 1")
+        hero = html.split('<section class="r2-home-hero"', 1)[1].split("</section>", 1)[0]
+        listen_index = hero.index("Start Listening")
+        read_index = hero.index("Start Reading")
         self.assertLess(listen_index, read_index)
         self.assertNotIn(">Look<", hero)
 
     def test_homepage_uses_compact_lineage_and_no_empty_art_section(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        self.assertIn('class="lineage-strip"', html)
+        self.assertIn('class="r2-home-lineage"', html)
         self.assertNotIn('class="lineage-grid"', html)
         self.assertNotIn('class="section recent-art"', html)
         self.assertNotIn("Art will grow with the story.", html)
