@@ -1,0 +1,23 @@
+{
+  "chapter_id": "ga-018",
+  "chapter_number": 18,
+  "title_metadata": "Six Weeks",
+  "voice": "deep",
+  "take_count": 34,
+  "duration_seconds": 790.128,
+  "final_asset": "greg-again/audio/assets/chapter-018.mp3",
+  "final_git_blob_sha": "a980a8d9e2893950b6b16a6ca5d635dbca04a628",
+  "take_map": "greg-again/audio/takes/018.json",
+  "chunk_directory": "greg-again/audio/assets/chunks/018",
+  "recovered_existing_provider_work": true,
+  "regenerated_provider_work": false,
+  "capture_verification": {
+    "per_take_ffprobe": true,
+    "positive_duration_required": true,
+    "chunk_count_required": 34,
+    "stitch_method": "ffmpeg concat demuxer with stream copy",
+    "final_ffprobe": true,
+    "final_minimum_bytes": 1000000
+  },
+  "identity_policy": "chapter_id + numeric chapter number are stable identity; title is mutable metadata"
+}
