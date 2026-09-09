@@ -21,11 +21,13 @@ A normal chapter worker:
 1. fresh-reads current GitHub authority
 2. inspects open image PRs / active image branches for ownership
 3. claims one eligible unclaimed chapter with a draft PR or equivalent durable branch signal before generating
-4. reads only the story/visual neighborhood needed for that chapter
-5. produces at most one anchor plus zero to two genuinely useful support/texture images
-6. reviews and stages approved outputs
-7. leaves durable GitHub state / handshake for the next worker
-8. stops after that transaction instead of claiming another chapter in the same chat
+4. reads the actual current chapter source, not just chapter metadata
+5. resolves roughly five visually distinct source moments from that chapter
+6. retrieves the relevant visual canon, continuity references, and task-relevant story brains
+7. generates up to five scene-specific images, normally one per resolved moment
+8. reviews and stages approved outputs
+9. leaves durable GitHub state / handshake for the next worker
+10. stops after that transaction instead of claiming another chapter in the same chat
 
 Do not optimize for keeping a worker alive. Optimize for making the next fresh worker cheap to start from authority.
 
@@ -41,9 +43,48 @@ Foundational visual-canon work may use a bounded non-chapter transaction when la
 
 Finish that seed deliberately. Do not let every chapter worker independently invent a new Greg or Carrow.
 
+## Hard source-grounding rule
+
+> STORY SOURCE FIRST. TITLE LAST.
+
+Chapter titles, role labels, manifest summaries, and chapter-browser metadata are **not sufficient image source material**.
+
+A chapter worker must not generate from a title such as `The Contractor`, `The Fighter`, `The Investor`, or any equivalent role label as though the title were a visual brief.
+
+For routine chapter art, source priority is:
+
+1. exact current R2 chapter/story source for the claimed chapter
+2. scene truth and physical action resolved from that source
+3. current R2 visual canon
+4. approved R2 continuity references
+5. task-relevant character/setting/story brains that remain compatible with current R2 authority
+6. chapter manifest and title as weak metadata only
+
+If the exact chapter source cannot be found, is stale, or does not provide enough evidence to resolve a real scene, do not improvise a generic fantasy composition. Record the authority gap and stop or escalate.
+
+### Whole-chapter read requirement
+
+Before choosing images, read enough of the actual chapter to understand its full movement, not merely the opening paragraph or title.
+
+Then identify about five visually distinct moments that are genuinely present in the source.
+
+Prefer moments with:
+
+- physical action or work
+- a relationship beat with visible behavior
+- a meaningful object or material consequence
+- a distinctive location or environmental use
+- a state change, realization, arrival, departure, failure, repair, exchange, threat, or other imageable turn
+
+Avoid five near-duplicate portraits, five generic conversation poses, or five visualizations of the chapter title.
+
+If the chapter genuinely contains fewer than five strong moments, use fewer. The target creates useful production volume, not filler.
+
 ## Model routing
 
 Routine chapter-image transactions are intentionally narrow enough to **default to Instant** when available.
+
+Instant is acceptable only when the worker actually performs the source-grounding and retrieval steps above. Skipping the source to save context is a production failure, not an optimization.
 
 Escalate to a higher-thinking worker when the job materially depends on judgment that should become durable visual authority, including:
 
@@ -52,6 +93,7 @@ Escalate to a higher-thinking worker when the job materially depends on judgment
 - conflicting visual/story authority
 - ambiguous scene selection where the image itself could change interpretation
 - repeated identity/style/world drift after a normal retry
+- inability to resolve strong source-grounded scene choices without invention
 - a major cover/frontdoor image
 - image-system, release-system, or integration architecture changes
 
@@ -65,8 +107,9 @@ For R2 visual work:
 2. current R2 visual canon state in `visual-state/R2_VISUAL_CANON.md`
 3. approved R2 continuity references
 4. current image packet
-5. shared Image OS process guidance
-6. Run 1 visual material as optional evidence only
+5. task-relevant R2-compatible story brains
+6. shared Image OS process guidance
+7. Run 1 visual material as optional evidence only
 
 When Run 1 and R2 conflict, R2 wins.
 
@@ -105,6 +148,7 @@ Avoid:
 - anonymous fantasy-city backgrounds
 - overdesigned costumes and props unsupported by the story
 - attractive outputs that silently invent new visual canon
+- chapter-title poster compositions disconnected from actual scenes
 
 ## Greg direction
 
@@ -180,17 +224,23 @@ Every planned image gets one primary role:
 - `texture`: object / place / atmospheric detail
 - `continuity`: internal reference that may never publish
 
-## Chapter publishing rule
+## Chapter production vs publishing
 
-Image count is a **value decision, not a quota**.
+Routine production target:
 
-Normal chapter policy:
+- read one full claimed chapter
+- choose about five source-grounded scene moments
+- generate up to five images, normally one per moment
 
-- 0 to 1 anchor image
-- 0 to 2 support/texture images
-- publish only images that add distinct value
+Publication remains a **value decision, not a quota**.
 
-Some chapters should have no art. One strong image is better than three filler images. Do not turn the reader into an AI scrapbook merely to hit coverage numbers.
+The final chapter may publish:
+
+- zero images
+- one strong anchor
+- several distinct supporting images when they genuinely add value
+
+Generating five candidates does not require publishing five. The worker batch exists to create selection and useful Library accumulation without lowering the bar for the reader.
 
 ## Minimal image packet
 
@@ -198,9 +248,13 @@ Before generation, each image job must resolve:
 
 - `image_id`
 - `chapter_id`
+- `source_file`
+- `source_excerpt`
 - `scene_id`
+- `scene_truth`
 - `role`
 - `priority`
+- `image_reason`
 - `purpose`
 - `must_show`
 - `must_not_show`
@@ -255,7 +309,7 @@ The worker's success criterion is durable staging, not a conversational claim th
 
 Default chapter-worker loop:
 
-**FRESH READ → CLAIM → PLAN → RETRIEVE → GENERATE → REVIEW → STAGE → RECORD → STOP**
+**FRESH READ → CLAIM → READ CHAPTER → SELECT ~5 SCENES → RETRIEVE BRAINS/REFERENCES → GENERATE → REVIEW → STAGE → RECORD → STOP**
 
 Later release/integration loop:
 
@@ -263,29 +317,30 @@ Later release/integration loop:
 
 ### PLAN
 
-A normal chapter worker owns one chapter and at most three publishable images:
+A normal chapter worker owns one chapter and resolves about five distinct source moments before generation.
 
-1. zero or one anchor
-2. zero to two support/texture images
-
-Do not widen into the next chapter merely because generation is cheap.
+Each selected scene must earn its own image. Do not widen into the next chapter merely because generation is cheap.
 
 ### RETRIEVE
 
-Use the smallest useful reference neighborhood.
+Use the smallest useful reference neighborhood for each selected scene.
 
 Reference hierarchy:
 
-1. identity/face anchor when identity matters
-2. body/clothing anchor when needed
-3. location/object authority when needed
-4. style/mood support
+1. exact chapter scene evidence
+2. identity/face anchor when identity matters
+3. body/clothing anchor when needed
+4. location/object authority when needed
+5. task-relevant character/setting/story brain evidence
+6. style/mood support
 
 Do not dump every available reference into every generation.
 
 ### GENERATE
 
 If an image depends on continuity that does not exist yet, stop the routine chapter transaction and route the missing continuity problem as a higher-judgment visual-canon task.
+
+Generate against the selected scene, not the chapter title. The source scene should determine subject, action, environment, and composition.
 
 Batch multiple images inside the claimed chapter when they share authority and add distinct value. Do not batch unrelated chapters in one worker.
 
@@ -310,6 +365,9 @@ Useful compact failure tags:
 - `scene_mismatch`
 - `anatomy_issue`
 - `too_ai_generic`
+- `too_title_literal`
+- `insufficient_scene_specificity`
+- `not_grounded_in_source`
 - `unwanted_text`
 - `binary_corruption`
 
@@ -388,6 +446,8 @@ Durable state should make it possible to answer:
 - which chapters are already claimed
 - what continuity references are approved
 - what this worker's one chapter transaction owns
+- what exact source chapter was read
+- which roughly five scenes were selected and why
 - what images are planned/generated/approved
 - which binaries are staged in Library and where
 - which approved binaries are still unreleased
