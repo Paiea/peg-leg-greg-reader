@@ -1,0 +1,107 @@
+name: Capture Greg Again Audio Batch 18-20 v2
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-018-020
+    paths:
+      - '.github/workflows/greg-again-batch-018-020-capture-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+          fetch-depth: 0
+      - name: Reconcile newest main
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git merge --no-edit origin/main
+      - name: Capture provider takes and stitch chapters
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/ga18 /tmp/ga19 /tmp/ga20 greg-again/audio/assets
+          download_take() {
+            local chapter="$1" take="$2" id="$3"
+            local out="/tmp/ga${chapter}/take-$(printf '%02d' "$take").mp3"
+            local tmp="${out}.tmp" url="https://www.aidocmaker.com/g0/audio?name=${id}"
+            local attempt http size
+            for attempt in $(seq 1 36); do
+              rm -f "$tmp"
+              http="$(curl -L -sS --connect-timeout 20 --max-time 120 -o "$tmp" -w '%{http_code}' "$url" || true)"
+              size=0
+              if [ -f "$tmp" ]; then size="$(stat -c%s "$tmp")"; fi
+              if [ "$http" = "200" ] && [ "$size" -gt 10000 ] && ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$tmp" >/dev/null 2>&1; then
+                mv "$tmp" "$out"
+                echo "captured ch${chapter} take ${take}: ${size} bytes"
+                return 0
+              fi
+              echo "ch${chapter} take ${take} not ready: attempt=${attempt} http=${http} bytes=${size}"
+              sleep 5
+            done
+            echo "FAILED ch${chapter} take ${take} id=${id}" >&2
+            return 1
+          }
+          download_take 18 1 7c31ecb98d01441298fbb5e536696ee1
+          download_take 18 2 17848c02c01e47309b48ce8fd83d43a5
+          download_take 18 3 57bdc7b413f4481e9a1557d66242b87c
+          download_take 18 4 d6276b0d36cc42c4bc00a64409d124f1
+          download_take 18 5 80b0ac51e91248b1b74353627e143978
+          download_take 18 6 b174fca57c504e6b968806adf54700af
+          download_take 18 7 f3b3e72719604cda8e99fea15b66d863
+          download_take 18 8 d87745585cf44ce3a8f118df4e7eac32
+          download_take 18 9 79c92e7c3d064af5967703ba6581350c
+          download_take 18 10 32964c1fc5af4e4ea66b867d66e76454
+          download_take 18 11 c7a0de4c02bf4a3c8cbc24b01d76fd37
+          download_take 18 12 d9933b4ce8f94fc0bf8daf4189c5827d
+          download_take 19 1 6a6473b54d08417eb1ef00d807436e8f
+          download_take 19 2 5c76e27580cc48749354e16772e102f4
+          download_take 19 3 34d4801727714bc8a8430f9ea3f4af2c
+          download_take 19 4 f991438e5cde42aa9c9e8437df08847c
+          download_take 19 5 c312307054a545c2ae6945a8eef0d85b
+          download_take 19 6 a89e64fefa6b4be2bd6a4bd3bda1f0bd
+          download_take 19 7 8935d6855b9f442690766f6744c825c0
+          download_take 19 8 6112eaefbfd541dca63939f026475c2f
+          download_take 19 9 255d88131fd34c5da77b61350ddc70d9
+          download_take 19 10 7125ee0435004288b9d16d1e2cb12446
+          download_take 19 11 32bd43ea9fbf4dbc86253d6379c040d2
+          download_take 19 12 8a9b6c3c85f348288600a970967209ca
+          download_take 20 1 6a4d00920c0545a5867806c7b6b0f48f
+          download_take 20 2 829e2dadca7b42fa8255ffcde89f75ae
+          download_take 20 3 50660bd77b104ba6b0e6db6cf1f84ca9
+          download_take 20 4 28f058cf29ba43329d95c2d14e4645b8
+          download_take 20 5 85b7bc8afff74690af9d67edc6a268de
+          download_take 20 6 7e9520d3a04641e5a678a0ccb31082bb
+          download_take 20 7 e6fdee94325542bc83db40f2ae74a771
+          download_take 20 8 b491ddd4bf1a4ed3a729e1219bebbc47
+          download_take 20 9 11e8d8d22bb941b5b40d63c93cc0404c
+          download_take 20 10 2251e22d3e0d42cfaa0913821193bf04
+          download_take 20 11 34a272f0432148ad968cb76925102984
+          download_take 20 12 d5b4231e13f8400183e20cc26db272e1
+          download_take 20 13 0932bd6dc40e4369aa65072899758941
+          stitch() {
+            local ch="$1"
+            find "/tmp/ga${ch}" -name 'take-*.mp3' | sort | awk '{print "file \x27" $0 "\x27"}' > "/tmp/ga${ch}/concat.txt"
+            ffmpeg -v error -f concat -safe 0 -i "/tmp/ga${ch}/concat.txt" -c:a libmp3lame -q:a 2 "greg-again/audio/assets/chapter-0${ch}.mp3"
+            test "$(stat -c%s "greg-again/audio/assets/chapter-0${ch}.mp3")" -gt 1000000
+            ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 "greg-again/audio/assets/chapter-0${ch}.mp3"
+          }
+          stitch 18
+          stitch 19
+          stitch 20
+      - name: Commit captured binaries
+        run: |
+          set -euo pipefail
+          git add greg-again/audio/assets/chapter-018.mp3 greg-again/audio/assets/chapter-019.mp3 greg-again/audio/assets/chapter-020.mp3
+          git commit -m 'Capture Greg Again audio Chapters 18-20'
+          git push origin HEAD:audio/greg-again-batch-018-020
