@@ -457,3 +457,40 @@ because those possibilities are now preserved.
 Search from current causal state first.
 
 > **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
+
+---
+
+## 17. SELECTED WRITING GOES TO THE LIVE R2 READER
+
+R2 is itself a public experiment.
+
+Once a chapter has been:
+
+- written from current authority
+- locally evaluated
+- verified
+- selected as the written frontier
+
+its normal next state is:
+
+> **SELECTED WRITTEN CHAPTER -> LIVE R2 READER ON MAIN**
+
+Do not stop at `selected on experiment branch` merely to preserve another promotion ceremony.
+
+Follow the current publication contract on `main`:
+
+`r2/WRITTEN_PRODUCTION.md`
+
+Story-search files, rehearsals, evaluations, performance experiments, long-range maps, and deeper development memory may remain on the story branch. The live reader needs the selected written rendition and accurate manifest state, not the entire development archaeology.
+
+Public R2 publication means the **current readable R2 experiment**. It does not make the wording immutable, promote R2 into Run 1 canon, or require audio/images to be complete first.
+
+Missing sibling media must not block Read publication.
+
+Before integrating the selected chapter, fresh-read newest `main` and reconcile shared manifests in favor of newer authority. Audio/image workers may be active simultaneously.
+
+Publication follows story selection. Publication does not influence story selection.
+
+The local writer still starts with:
+
+> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
