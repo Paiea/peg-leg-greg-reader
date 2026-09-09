@@ -19,33 +19,63 @@ jobs:
         with:
           ref: audio/greg-again-ch10-returner
 
-      - name: Wait for completed voice render
+      - name: Capture ten performance takes
+        shell: bash
         run: |
-          mkdir -p greg-again/audio/assets
-          for attempt in $(seq 1 30); do
-            curl --location --fail --silent --show-error \
-              'https://www.aidocmaker.com/g0/audio?name=225f642054124245bd75c06a565ae486' \
-              --output greg-again/audio/assets/chapter-010.mp3 || true
-            bytes=$(stat -c%s greg-again/audio/assets/chapter-010.mp3 2>/dev/null || echo 0)
-            kind=$(file -b --mime-type greg-again/audio/assets/chapter-010.mp3 2>/dev/null || true)
-            echo "attempt=$attempt bytes=$bytes mime=$kind"
-            if [ "$bytes" -gt 1000000 ] && echo "$kind" | grep -Eq '^audio/|application/octet-stream'; then
-              exit 0
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/010
+          ids=(
+            2c89b1cbef114e4eab3f84f018b5b656
+            e1c1af8a6a244b52a1b251bf471c8636
+            5b56d8e7bb0440b293a35e9db6f81477
+            3be62df29f054af6880a22c1aae7e5ed
+            12cf935c3eee464188b4344c04fee201
+            9ee1dcbef161477ea12bfad7b2fd84ea
+            5dc9af4ebb6f48a496a9039b6c61ff93
+            a8445f6a7c6748b2bbb522eb195a8297
+            1bba43599d13474f9be7376da1b6365e
+            df2aefb1cd594970869b682c96aa55c2
+          )
+          for i in $(seq 1 10); do
+            id="${ids[$((i-1))]}"
+            out=$(printf 'greg-again/audio/assets/chunks/010/%02d.mp3' "$i")
+            ready=0
+            for attempt in $(seq 1 45); do
+              curl --location --fail --silent --show-error \
+                "https://www.aidocmaker.com/g0/audio?name=$id" \
+                --output "$out" || true
+              bytes=$(stat -c%s "$out" 2>/dev/null || echo 0)
+              kind=$(file -b --mime-type "$out" 2>/dev/null || true)
+              echo "take=$i attempt=$attempt bytes=$bytes mime=$kind"
+              if [ "$bytes" -gt 100000 ] && echo "$kind" | grep -Eq '^audio/|application/octet-stream'; then
+                ready=1
+                break
+              fi
+              sleep 8
+            done
+            if [ "$ready" -ne 1 ]; then
+              echo "Take $i never became a durable audio payload." >&2
+              exit 1
             fi
-            sleep 10
+            ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 "$out"
           done
-          echo 'Voice render never became a durable audio payload.' >&2
-          exit 1
 
-      - name: Verify media
+      - name: Assemble chapter
+        shell: bash
         run: |
-          file greg-again/audio/assets/chapter-010.mp3
+          set -euo pipefail
+          : > /tmp/ch10-concat.txt
+          for f in greg-again/audio/assets/chunks/010/*.mp3; do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/ch10-concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/ch10-concat.txt -c copy greg-again/audio/assets/chapter-010.mp3
+          test "$(stat -c%s greg-again/audio/assets/chapter-010.mp3)" -gt 1000000
           ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 greg-again/audio/assets/chapter-010.mp3
 
       - name: Commit durable audio
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add greg-again/audio/assets/chapter-010.mp3
+          git add greg-again/audio/assets/chunks/010 greg-again/audio/assets/chapter-010.mp3
           git commit -m 'Capture Greg Again Chapter 10 audio'
           git push origin HEAD:audio/greg-again-ch10-returner
