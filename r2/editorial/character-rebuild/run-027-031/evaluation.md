@@ -10,9 +10,9 @@ This is a calibration artifact, not story authority.
 
 **MIXED, leaning PASS.**
 
-The five-chapter run is materially more alive than the historical 27–31 trajectory and earns continuation in principle, but three surface habits are clear losers and should be removed before the run becomes the calibration sample for renewed temporal generation.
+The five-chapter run was materially more alive than the historical 27–31 trajectory, but three surface habits were clear losers and needed removal before this run could become the calibration sample for renewed temporal generation.
 
-The structure itself survives. Do not re-outline the run.
+The structure itself survived. No re-outline was needed.
 
 ## Chapter verdicts
 
@@ -48,7 +48,7 @@ Watch only: the final `Eventually` line is polished, but it earns survival becau
 
 ### Chapter 29 — The Seven
 
-**MIXED → target LIGHT FINISH**
+**MIXED → LIGHT FINISH → PASS**
 
 What wins:
 
@@ -60,15 +60,15 @@ What wins:
 - Jorren's changed card tell demonstrates off-camera life without a distributed-agency lecture being necessary.
 - Noll's `You didn't` lands the independent-relationship pressure cleanly.
 
-Clear loser:
+Clear loser removed:
 
-- `This was either emotional cowardice or excellent pacing.` is authorial scaffolding disguised as Greg. It calls attention to scene construction at exactly the moment the unresolved discomfort should simply remain unresolved.
+- `This was either emotional cowardice or excellent pacing.` called attention to scene construction at exactly the moment the discomfort should simply remain unresolved.
 
-Revision: delete that sentence and let `Nobody apologized. I dealt.` carry the residue.
+The revision now lets `Nobody apologized. I dealt.` carry the residue.
 
 ### Chapter 30 — The Workshop
 
-**MIXED → target LIGHT FINISH**
+**MIXED → LIGHT FINISH → PASS**
 
 What wins:
 
@@ -80,15 +80,15 @@ What wins:
 - `You got yelled at into a business` is a strong Jorren-specific puncture of Greg's self-presentation.
 - Jorren becomes useful without being praised or converted into a lesson.
 
-Clear loser:
+Clear loser removed:
 
-- `Good. No. Fuck good. I was still a little annoyed. That was allowed.` visibly argues with old R2 doctrine. The annoyance is valuable; the editorial commentary around it is not.
+- The explicit `Good. No. Fuck good... That was allowed.` passage visibly argued with old R2 doctrine instead of simply letting Greg remain annoyed.
 
-Revision: keep the annoyance as lived residue without explaining why the text is permitting it.
+The annoyance remains. The editorial permission slip is gone.
 
 ### Chapter 31 — The Next Road
 
-**MIXED → target LIGHT FINISH**
+**MIXED → LIGHT FINISH → PASS**
 
 What wins:
 
@@ -103,12 +103,12 @@ What wins:
 - The cook tin moving inside the straps is an excellent physical callback.
 - The room/Tavin/onions ending is ordinary residue, not thesis closure.
 
-Clear losers:
+Clear losers removed:
 
-- Greg proves the same control impulse too many times in succession: shoulder, strap, socks, weather, cook tin. The repetition turns a human defense into a demonstrated pattern for the reader.
-- `No invitation to discuss my abandonment issues over potatoes` uses modern therapy-language shorthand and makes the prose explain the emotional category too cleanly.
+- The sock interrogation and weather-advice loop repeated the same control defense already established through shoulder/strap concern and the cook tin.
+- The `abandonment issues over potatoes` line used modern therapy-language shorthand and explained Greg too cleanly.
 
-Revision: preserve shoulder/strap and cook-tin pressure; remove the sock interrogation and weather-advice repetition; remove the therapy-language sentence. Keep the actual admission and departure intact.
+The chapter is shorter and the emotional defense reads as behavior rather than a demonstrated pattern.
 
 ## Character challenger
 
@@ -122,7 +122,6 @@ Name-stripped evidence still points to this specific protagonist:
 - uses practical questions to hide attachment
 - has forty years of emotional road history under a nineteen-year-old friendship
 - resents autonomy he intellectually supports
-- mistakes his own maintenance history for Jorren's
 - can become sharp when lost memory feels socially available to others
 
 He is not merely `competent reincarnated man learns to let people choose`.
@@ -178,7 +177,7 @@ The strongest scenes cannot be moved wholesale into another competent reincarnat
 
 ## Repetition challenger
 
-**MIXED before revision; PASS target after listed cuts.**
+**PASS after targeted revision.**
 
 Healthy variation across scene grammar:
 
@@ -190,13 +189,13 @@ Healthy variation across scene grammar:
 
 No chapter uses the old `expert corrects Greg -> Greg performs better -> Greg names lesson` engine.
 
-Persistent house machinery still visible:
+Persistent house machinery remains visible but does not currently justify another rewrite pass:
 
 - `Apparently`, `There`, `Good`, `I hated/disliked` remain common Greg tools.
 - Several chapters use short evaluator fragments.
-- Greg frequently interprets his own reaction immediately.
+- Greg frequently interprets his own reaction quickly.
 
-These are not currently severe enough to justify broad rewriting. The three targeted cuts above remove the places where the machinery becomes more visible than the character.
+These remain watch items for future connected-run audits, not reasons to sand down this run.
 
 ## Quality test
 
@@ -207,13 +206,27 @@ These are not currently severe enough to justify broad rewriting. The three targ
 - **Did ordinary life feel physical and specific? — PASS.** Onions, bowls, blanket, floor, letters, straps, road food, kiln slip, cart padding, cook tin.
 - **Did Old Greg affect him emotionally, not only informationally? — PASS.** Jorren's return/departure triggers old road grief/fear.
 - **Meaningfully different scene grammars? — PASS.** Five distinct shapes.
-- **Avoid explaining each chapter's lesson? — MIXED before revision.** Chapters 29 and 30 contain explicit editorial-feeling lines; targeted cuts fix them.
+- **Avoid explaining each chapter's lesson? — PASS after light finish.** The three most visible scaffolding/explanation leaks were removed.
 - **Unresolved residue? — PASS.** Tavin reply remains unsent, Chapter 29 discomfort remains imperfectly repaired, Jorren leaves, Mara stays off-camera.
 - **Could these scenes only belong to these people? — PASS.** Strongly yes after anonymous challenge.
 - **Would a reader care what happens next because of people? — PASS.** Tavin, Mara, Jorren, Noll, and the shop all now create live social pressure independent of another subsystem reveal.
 
-## Promotion judgment
+## Post-revision connected reader verdict
 
-After the three targeted LIGHT FINISH revisions and a fresh connected reread, this run may serve as the **character-first calibration sample** for renewed temporal development.
+**PASS.**
 
-Do not continue because five chapters exist. Continue only if the post-revision connected read still preserves the above PASS evidence.
+The revised run earns continuation.
+
+The key reason is not simply that the chapters are individually stronger. The five-chapter sequence accumulates different kinds of human pressure without collapsing them into one lesson:
+
+- Chapter 27 threatens Greg's ownership of his own desires.
+- Chapter 28 gives him embarrassing relief and social displacement.
+- Chapter 29 makes damaged memory socially painful.
+- Chapter 30 exposes vanity inside a work setting without turning work into the plot.
+- Chapter 31 lets attachment become control, then leaves the attachment unresolved.
+
+The sequence ends with more live people than it began with, not merely more information.
+
+This run is approved as the **character-first calibration sample** for renewed temporal development.
+
+Continuation must preserve the exact lesson of this pass: temporal leverage is useful only when character-specific wants, independent clocks, social residue, and scene discovery remain stronger than the engine's preferred procedural grammar.
