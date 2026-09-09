@@ -100,21 +100,21 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(chapter['audio']['status'], 'published')
         self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-003.mp3')
 
-    def test_homepage_presents_story_first_and_links_run_one(self):
+    def test_homepage_presents_clean_cover_entry_and_links_run_one(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
         self.assertIn('PEG-LEG GREG', html)
-        self.assertIn('He remembers an entire life. He woke up nineteen.', html)
+        self.assertIn('A second life. A second run.', html)
         self.assertIn('Peg-Leg Greg was written once already', html)
         self.assertIn('href="../index.html"', html)
-        self.assertIn('Listen', html)
-        self.assertIn('Read', html)
+        self.assertIn('Start Listening', html)
+        self.assertIn('Start Reading', html)
         self.assertIn('Chapters', html)
 
     def test_homepage_progress_is_manifest_aware(self):
         js = (R2 / 'assets/js/home.js').read_text(encoding='utf-8')
         self.assertIn('project.current_chapter', js)
-        self.assertIn("chapter.written?.status === 'published'", js)
-        self.assertIn("chapter.audio?.status === 'published'", js)
+        self.assertIn('publishedWritten(chapter)', js)
+        self.assertIn('publishedAudio(chapter)', js)
         self.assertIn('Read through Chapter', js)
         self.assertIn('Listen through Chapter', js)
 
@@ -127,7 +127,7 @@ class R2SiteTests(unittest.TestCase):
         self.assertNotIn('renditions catch up', public_copy)
         self.assertNotIn('machinery broke', public_copy)
         self.assertNotIn('production pipelines worked', public_copy)
-        self.assertIn('greg knows what he became. now he has to live his way there again.', public_copy)
+        self.assertIn('the story has lived once already. this is the second run.', public_copy)
 
     def test_public_routes_exist(self):
         for path in ['about/index.html', 'chapters/index.html', 'gallery/index.html', 'chapter.html']:
@@ -155,10 +155,10 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('@media (max-width: 760px)', css)
         self.assertNotIn('animation:', css)
 
-    def test_hero_asset_is_referenced_without_becoming_chapter_canon(self):
+    def test_cover_asset_is_referenced_without_becoming_chapter_canon(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('assets/images/r2-hero-wide.webp', html)
-        self.assertIn('assets/images/r2-hero-portrait.webp', html)
+        self.assertIn('assets/images/r2-cover-wide.webp', html)
+        self.assertIn('assets/images/r2-cover-portrait.webp', html)
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['images'], [])
 
