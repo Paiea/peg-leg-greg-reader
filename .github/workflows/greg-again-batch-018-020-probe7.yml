@@ -1,0 +1,43 @@
+name: Test Audio Document Fetch With Client Metadata
+on:
+  push:
+    branches: [audio/greg-again-batch-018-020]
+    paths: ['.github/workflows/greg-again-batch-018-020-probe7.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+      - name: Probe current and known documents
+        run: |
+          set -euo pipefail
+          endpoint='https://level2labs-prod--adm-agent-helper-user-fetch-document.modal.run'
+          : > greg-again/audio/capture-debug-018-document2.txt
+          probe() {
+            local id="$1" label="$2"
+            echo "=== $label $id ===" >> greg-again/audio/capture-debug-018-document2.txt
+            curl -sS -D /tmp/h.txt -o /tmp/b.txt -w 'http=%{http_code}\ncontent_type=%{content_type}\nsize=%{size_download}\n' \
+              -H 'Content-Type: application/json' \
+              -H 'X-Client-UUID: client_uuid_greg_again_audio_worker' \
+              -H 'X-Client-URL: https://www.aidocmaker.com/g0/audio' \
+              -H 'X-Timezone: Pacific/Honolulu' \
+              --data "{\"context_id\":\"$id\",\"context_type\":\"audio\",\"refresh\":true}" \
+              "$endpoint" >> greg-again/audio/capture-debug-018-document2.txt
+            echo '--- body ---' >> greg-again/audio/capture-debug-018-document2.txt
+            cat /tmp/b.txt >> greg-again/audio/capture-debug-018-document2.txt
+            echo >> greg-again/audio/capture-debug-018-document2.txt
+          }
+          probe 7c31ecb98d01441298fbb5e536696ee1 current
+          probe a6226a4016584045a3ee7364511cf2eb known-ch11
+          echo '=== public bucket listing ===' >> greg-again/audio/capture-debug-018-document2.txt
+          curl -sS -o /tmp/list.txt -w 'http=%{http_code}\ncontent_type=%{content_type}\nsize=%{size_download}\n' 'https://storage.googleapis.com/adm--audio-playback--7d--public?prefix=mcp-preview/' >> greg-again/audio/capture-debug-018-document2.txt || true
+          head -c 2000 /tmp/list.txt >> greg-again/audio/capture-debug-018-document2.txt || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/capture-debug-018-document2.txt
+          git commit -m 'Test audio document fetch with client metadata'
+          git push origin HEAD:audio/greg-again-batch-018-020
