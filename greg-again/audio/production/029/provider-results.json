@@ -4,6 +4,7 @@
   "title": "The Other Letter",
   "voice": "deep",
   "provider": "ai_voice_generator",
+  "capture_retry": "ffmpeg-installed-runner",
   "results": [
     {"take":1,"context_id":"4540e3e151304592987d285b6d942138","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e84786a6-6b82-46f1-966d-ad8bd7cbab41.mp3","audio_url":"https://www.aidocmaker.com/g0/audio?name=4540e3e151304592987d285b6d942138","status":"ready"},
     {"take":2,"context_id":"593112486d66479792dc272b2dc4fc83","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a9b7e32c-399f-4b6d-8f92-5e0ea53a4acb.mp3","audio_url":"https://www.aidocmaker.com/g0/audio?name=593112486d66479792dc272b2dc4fc83","status":"ready"},
