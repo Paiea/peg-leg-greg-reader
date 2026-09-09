@@ -18,7 +18,7 @@
     {
       "chapter_id": "ga-002",
       "number": 2,
-      "title": "Two Things",
+      "title": "The Novice",
       "status": "experimental",
       "lens": "greg-dominant",
       "take_count": 12,
@@ -40,7 +40,7 @@
     {
       "chapter_id": "ga-004",
       "number": 4,
-      "title": "Thirty Days",
+      "title": "The Contractor",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "take_count": 12,
@@ -63,7 +63,7 @@
     {
       "chapter_id": "ga-006",
       "number": 6,
-      "title": "The First Customer",
+      "title": "The Troubleshooter",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -71,6 +71,18 @@
       "duration_seconds": 873.6,
       "audio_src": "assets/chapter-006.mp3",
       "note": "Chapter 6 applies processing space to a spatial-action stress test: wet floor, conductive residue, copper, trapped pressure, bypass, spray, and Greg's tiny barrier remain causally legible to the ear. One dense hazard section was split into two provider-safe production takes without changing story state."
+    },
+    {
+      "chapter_id": "ga-007",
+      "number": 7,
+      "title": "The Extra Guard",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 14,
+      "duration_seconds": 818.136,
+      "audio_src": "assets/chapter-007.mp3",
+      "note": "Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."
     }
   ]
 }

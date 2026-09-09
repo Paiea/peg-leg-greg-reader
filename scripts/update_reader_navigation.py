@@ -9,11 +9,15 @@ from generate_light import SHOWCASE_MANIFEST, load_all_sources
 from showcase import build_showcase_map, load_showcase_manifest
 
 LIGHT_ACTION = '<a class="secondary-action" href="light/index.html">Text Reader</a>'
+R2_ACTION = '<a class="tertiary-action" href="r2/">R2 · Run 2</a>'
 BEGIN_ACTION_RE = re.compile(
     r'<a class="start primary-action" href="chapters/\d{3}\.html">Begin Reading</a>'
 )
 LIGHT_ACTION_RE = re.compile(
     r'<a class="secondary-action" href="light/index\.html">(?:Read Light|Text Reader)</a>'
+)
+R2_ACTION_RE = re.compile(
+    r'<a class="tertiary-action" href="r2/">(?:R2(?: · Run 2)?|Run 2)</a>'
 )
 
 
@@ -28,8 +32,9 @@ def patch_home(path: Path, *, begin_canon: int = 1) -> bool:
         raise SystemExit(f'could not find homepage Begin Reading action in {path}')
 
     updated = LIGHT_ACTION_RE.sub('', original)
+    updated = R2_ACTION_RE.sub('', updated)
     desired_begin = begin_action(begin_canon)
-    updated = BEGIN_ACTION_RE.sub(desired_begin + LIGHT_ACTION, updated, count=1)
+    updated = BEGIN_ACTION_RE.sub(desired_begin + LIGHT_ACTION + R2_ACTION, updated, count=1)
 
     if updated == original:
         return False

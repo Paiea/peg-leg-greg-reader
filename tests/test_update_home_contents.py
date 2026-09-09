@@ -25,6 +25,13 @@ class HomeContentsTests(unittest.TestCase):
         self.assertEqual(chapter_href(156), 'chapters/156.html')
         self.assertEqual(chapter_href(346), 'chapters/346.html')
 
+    def test_parse_chapter_index_accepts_current_routing_window_format(self):
+        sample = '''# PEG-LEG GREG — CHAPTER INDEX\n\n## Recent title window\n- 489. **THE TIMER**\n- 490. **THE CONTRACTOR**\n- 500. **THE RESIDENT**\n'''
+        chapters = parse_chapter_index(sample)
+        self.assertEqual(chapters[489], 'THE TIMER')
+        self.assertEqual(chapters[490], 'THE CONTRACTOR')
+        self.assertEqual(chapters[500], 'THE RESIDENT')
+
     def test_manifest_can_extend_a_stale_handwritten_index(self):
         with tempfile.TemporaryDirectory() as tmp:
             manifest = Path(tmp) / 'manifest.json'
