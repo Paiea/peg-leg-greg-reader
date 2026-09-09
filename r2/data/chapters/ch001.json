@@ -8,7 +8,7 @@
   "teaser": "Greg's second run begins where a life becomes his again.",
   "audio": {
     "status": "published",
-    "path": "../../greg-again/audio/assets/chapter-001.mp3",
+    "path": "../greg-again/audio/assets/chapter-001.mp3",
     "duration_seconds": 959.808,
     "label": "Audio-first rendition"
   },
