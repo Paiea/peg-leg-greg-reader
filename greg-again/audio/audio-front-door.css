@@ -1,46 +1,81 @@
 .audio-shell {
-  width: min(68rem, calc(100% - 40px));
-  padding-top: 1.5rem;
+  padding-top: clamp(1.4rem, 4vw, 3.2rem);
 }
 
 .listen-hero {
-  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(18rem, .65fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: center;
+  margin-bottom: clamp(2rem, 5vw, 4rem);
 }
 
 .listen-hero-media {
   overflow: hidden;
+  min-height: 20rem;
   border: 1px solid var(--line);
-  background: #11100e;
+  background: var(--paper-soft);
+  box-shadow: 0 18px 50px rgba(70, 52, 35, .09);
 }
 
-.listen-hero-media picture,
-.listen-hero-media img {
+.listen-hero-image {
   display: block;
   width: 100%;
+  height: 100%;
+  min-height: 20rem;
+  object-fit: cover;
+  aspect-ratio: 16 / 10;
 }
 
 .listen-hero-copy {
-  max-width: 48rem;
-  margin: 1.8rem auto 0;
-  text-align: center;
-}
-
-.listen-hero-copy h1 {
-  font-size: clamp(3rem, 8vw, 5.8rem);
+  max-width: 32rem;
 }
 
 .listen-hero-copy .lede {
-  margin-inline: auto;
+  font-size: clamp(1.05rem, 2vw, 1.18rem);
 }
 
 .listen-start {
   min-height: 48px;
   display: inline-flex;
   align-items: center;
-  margin-top: 1.2rem;
-  color: var(--link-strong);
+  gap: .55rem;
+  margin-top: 1.35rem;
+  padding: .7rem 1rem;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fffaf3;
   font-family: var(--ui);
-  font-size: .9rem;
+  font-size: .88rem;
+  font-weight: 800;
+  letter-spacing: .02em;
+  text-decoration: none;
+}
+
+.listen-start:hover,
+.listen-start:focus-visible {
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+}
+
+.availability-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: clamp(3rem, 7vw, 5.5rem);
+  padding: 1rem 0;
+  border-block: 1px solid var(--line);
+  color: var(--muted);
+  font: .82rem/1.5 var(--ui);
+}
+
+.availability-strip p { margin: 0; }
+.availability-strip a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-strong);
   font-weight: 700;
   text-decoration: none;
 }
@@ -50,40 +85,98 @@
   align-items: end;
   justify-content: space-between;
   gap: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .listen-shelf-heading h2 {
   margin: .15rem 0 0;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2.4rem, 5vw, 4rem);
   font-weight: 500;
-  line-height: 1;
+  line-height: .95;
+  letter-spacing: -.035em;
 }
 
 .listen-shelf-heading > p {
-  margin: 0;
+  margin: 0 0 .3rem;
   color: var(--muted);
 }
 
-.player-card {
-  padding: 1.8rem 0 2rem;
+.chapter-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
 }
 
-.player-card .chapter {
-  font-size: clamp(1.6rem, 3.5vw, 2.15rem);
+.chapter-card {
+  overflow: hidden;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--card);
+  box-shadow: 0 9px 26px rgba(70, 52, 35, .045);
 }
 
-.player-card audio {
-  margin-top: .85rem;
+.chapter-art {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line-soft);
+  background: var(--paper-soft);
+}
+
+.chapter-card-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: clamp(1.15rem, 2.5vw, 1.55rem);
+}
+
+.chapter-number {
+  margin: 0 0 .45rem;
+  color: var(--accent);
+  font: 800 .68rem/1.2 var(--ui);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.chapter-quote {
+  margin: 1rem 0 .25rem;
+  padding: .2rem 0 .2rem 1rem;
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.chapter-card .chapter-meta {
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.chapter-card audio {
+  margin-top: .15rem;
 }
 
 .audio-note {
   font-size: 1.02rem;
 }
 
+@media (max-width: 900px) {
+  .listen-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .listen-hero-copy {
+    max-width: 46rem;
+  }
+}
+
 @media (max-width: 760px) {
   .audio-shell {
-    width: min(100% - 28px, 68rem);
     padding-top: 1rem;
   }
 
@@ -92,15 +185,24 @@
     margin-left: -14px;
     border-left: 0;
     border-right: 0;
+    min-height: 0;
   }
 
-  .listen-hero-copy {
-    text-align: left;
+  .listen-hero-image {
+    min-height: 0;
+    aspect-ratio: 4 / 3;
   }
 
+  .availability-strip,
   .listen-shelf-heading {
     align-items: flex-start;
     flex-direction: column;
-    gap: .4rem;
+  }
+
+  .availability-strip { gap: .3rem; }
+  .listen-shelf-heading { gap: .35rem; }
+
+  .chapter-list {
+    grid-template-columns: 1fr;
   }
 }
