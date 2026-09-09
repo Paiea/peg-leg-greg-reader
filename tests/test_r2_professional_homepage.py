@@ -6,16 +6,16 @@ R2 = ROOT / "r2"
 
 
 class R2ProfessionalHomepageTests(unittest.TestCase):
-    def test_homepage_uses_new_responsive_hero_assets(self):
+    def test_homepage_uses_new_responsive_cover_assets(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        self.assertIn("assets/images/r2-hero-wide.webp", html)
-        self.assertIn("assets/images/r2-hero-portrait.webp", html)
+        self.assertIn("assets/images/r2-cover-wide.webp", html)
+        self.assertIn("assets/images/r2-cover-portrait.webp", html)
         self.assertIn("<picture", html)
         self.assertNotIn("r2-harbor-hero.webp", html)
 
     def test_homepage_navigation_is_quiet_and_reader_focused(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        nav = html.split('<nav aria-label="Primary">', 1)[1].split("</nav>", 1)[0]
+        nav = html.split('<nav class="site-nav" aria-label="Primary">', 1)[1].split("</nav>", 1)[0]
         self.assertIn("Chapters", nav)
         self.assertIn("About", nav)
         self.assertIn("Run 1", nav)
@@ -23,26 +23,25 @@ class R2ProfessionalHomepageTests(unittest.TestCase):
         self.assertNotIn(">Read<", nav)
         self.assertNotIn(">Look<", nav)
 
-    def test_homepage_has_frontispiece_hero_without_floating_card(self):
+    def test_homepage_uses_cover_and_entry_layout(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        css = (R2 / "assets/css/r2-home.css").read_text(encoding="utf-8")
-        self.assertIn('class="r2-home-hero-copy"', html)
-        self.assertIn('class="r2-home-hero-media"', html)
-        self.assertIn("position: absolute", css)
-        self.assertNotIn("margin: -1.4rem auto 0", css)
-        self.assertNotIn("box-shadow: 0 16px 36px", css)
+        self.assertIn('class="cover-section"', html)
+        self.assertIn('class="cover-frame"', html)
+        self.assertIn('class="entry-panel"', html)
+        self.assertIn('assets/css/r2-home-clean.css', html)
+        self.assertNotIn('class="r2-home-hero"', html)
 
     def test_homepage_prioritizes_listen_then_read(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        hero = html.split('<section class="r2-home-hero"', 1)[1].split("</section>", 1)[0]
-        listen_index = hero.index("Start Listening")
-        read_index = hero.index("Start Reading")
+        entry = html.split('<div class="entry-panel">', 1)[1].split("</div>", 1)[0]
+        listen_index = entry.index("Start Listening")
+        read_index = entry.index("Start Reading")
         self.assertLess(listen_index, read_index)
-        self.assertNotIn(">Look<", hero)
+        self.assertNotIn(">Look<", entry)
 
     def test_homepage_uses_compact_lineage_and_no_empty_art_section(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        self.assertIn('class="r2-home-lineage"', html)
+        self.assertIn('class="lineage-strip"', html)
         self.assertNotIn('class="lineage-grid"', html)
         self.assertNotIn('class="section recent-art"', html)
         self.assertNotIn("Art will grow with the story.", html)
