@@ -1,0 +1,27 @@
+{
+  "chapter": 18,
+  "factory_limit": 430,
+  "take_count": 34,
+  "published_take_count": 34,
+  "affected": [
+    {
+      "take": 13,
+      "transcript": "Specialist instruction was not sold the way yard time was sold.\n\nThe Guild would happily rent me a patch of dirt and let me become worse at swordsmanship alone.\n\nSupport work involved other people's bodies, mana loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment.",
+      "chars": 390,
+      "mana_tokens": 1
+    },
+    {
+      "take": 18,
+      "transcript": "Current body.\n\nCurrent mana.\n\nNo historical exemptions for having once been impressive.\n\nI counted twelve copper onto the counter.\n\nSella counted them again.\n\nI had just counted them.\n\nShe worked for the Guild.\n\nDifferent religion.\n\nShe wrote my name into the ledger.\n\nGreg. Bronze. Ward-support intake.\n\nI read it upside down.\n\n\"Ward support?\"\n\n\"You make planes.\"\n\n\"I make several things.\"",
+      "chars": 390,
+      "mana_tokens": 1
+    },
+    {
+      "take": 32,
+      "transcript": "I was experienced in most of them.\n\nTraining harder than my mana could support was one.\n\nBuying things because waiting felt passive was another.\n\nInventing emergency roles for myself in a business that had stopped asking for them was probably a third.\n\nI folded the receipt once and put it away.\n\nThen I went to the yard.\n\nNot for six weeks of preparation.\n\nFor today.",
+      "chars": 368,
+      "mana_tokens": 1
+    }
+  ],
+  "status": "factory_reconstruction_exact_by_count_and_algorithm"
+}
