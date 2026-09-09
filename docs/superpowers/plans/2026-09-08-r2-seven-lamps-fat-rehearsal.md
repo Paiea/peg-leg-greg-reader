@@ -32,48 +32,58 @@
 **Files:**
 - Create: `state/experiments/greg-again/written/SEVEN_LAMPS_WORLD_ICEBERG.md`
 
-- [ ] Preserve Seven Lamps backend principles from approved spec.
-- [ ] Separate underlying magical reality from human schools/traditions.
-- [ ] Preserve Greg's elite practical expertise while leaving deep theory incomplete.
-- [ ] Add magical ecology, beasts, shapeshifters, strange places, and non-Guild classification.
-- [ ] Add other-people's-myth quarry and explicit anti-cosplay translation rule.
-- [ ] Add trade/economy consequences and causality-in-both-directions rule.
-- [ ] Commit with `story: add R2 Seven Lamps world iceberg`.
+- [x] Preserve Seven Lamps backend principles from approved spec.
+- [x] Separate underlying magical reality from human schools/traditions.
+- [x] Preserve Greg's elite practical expertise while leaving deep theory incomplete.
+- [x] Add magical ecology, beasts, shapeshifters, strange places, and non-Guild classification.
+- [x] Add other-people's-myth quarry and explicit anti-cosplay translation rule.
+- [x] Add trade/economy consequences and causality-in-both-directions rule.
+- [x] Commit with `story: add R2 Seven Lamps world iceberg`.
 
 ### Task 2: Add compact local story-engine inheritance
 
 **Files:**
 - Modify: `state/experiments/greg-again/written/STORY_ENGINE_GUIDE.md`
 
-- [ ] Re-fetch newest file to avoid concurrent overwrite.
-- [ ] Add a compact `MAGIC IS AN ICEBERG` section pointing to the specialist file.
-- [ ] Add `OTHER PEOPLE'S MYTHS` and magical ecology pressures.
-- [ ] Add `CAUSALITY PAYS BOTH DIRECTIONS` to prevent both compulsive nerfing and positivity protection.
-- [ ] Keep explicit anti-queue language.
-- [ ] Commit with `story: route world iceberg into R2 engine`.
+- [x] Re-fetch newest file to avoid concurrent overwrite.
+- [x] Add a compact `MAGIC IS AN ICEBERG` section pointing to the specialist file.
+- [x] Add `OTHER PEOPLE'S MYTHS` and magical ecology pressures.
+- [x] Add `CAUSALITY PAYS BOTH DIRECTIONS` to prevent both compulsive nerfing and positivity protection.
+- [x] Keep explicit anti-queue language.
+- [x] Preserve the exact pre-pass guide content and append the new world-iceberg priors after recovering from a write collision.
 
 ### Task 3: Run fat multi-year rehearsal 003
 
 **Files:**
 - Create: `state/experiments/greg-again/written/LONG_RANGE_REHEARSAL_003_WORLD_ICEBERG.md`
+- Create companion reconciliation: `state/experiments/greg-again/written/LONG_RANGE_REHEARSAL_003_R1_RECONCILIATION.md`
 
-- [ ] Fresh-read current frontier and prior long-range maps.
-- [ ] Run at least six materially different 5–10 year futures.
-- [ ] Vary theatre/no theatre, leg-loss timing, warrior persistence, artifact centrality, party formation, magical ecology prominence, Seven-Lamps visibility, trade prominence, and other-people's-myth frequency.
-- [ ] Sample useful temporal distances around current/19, ~20, early twenties, mid-twenties, later twenties.
-- [ ] Reason backward from promising future states using pressures/relationships/competencies/mistakes/losses/acquisitions/absences/travel/ordinary life.
-- [ ] Extract HARD ATTRACTOR / STRONG GRAVITY / RECURRING POSSIBILITY / R1 QUARRY ONLY / CLEVER BUT UNGROUNDED / ACTIVELY AVOID.
-- [ ] Identify surprising convergences and distinguish recurrence from prompt-suggestion effects.
-- [ ] Do not select Chapter 24.
-- [ ] Commit with `story: rehearse R2 world iceberg across years`.
+- [x] Fresh-read current frontier and prior long-range maps.
+- [x] Run at least six materially different 5–10 year futures; seven were retained.
+- [x] Vary theatre/no theatre, leg-loss timing, warrior persistence, artifact centrality, party formation, magical ecology prominence, Seven-Lamps visibility, trade prominence, and other-people's-myth frequency.
+- [x] Sample useful temporal distances around current/19, ~20, early twenties, mid-twenties, later twenties.
+- [x] Reason backward from promising future states using pressures/relationships/competencies/mistakes/losses/acquisitions/absences/travel/ordinary life.
+- [x] Extract HARD ATTRACTOR / STRONG GRAVITY / RECURRING POSSIBILITY / R1 QUARRY ONLY / CLEVER BUT UNGROUNDED / ACTIVELY AVOID.
+- [x] Identify surprising convergences and distinguish recurrence from prompt-suggestion effects.
+- [x] Reconcile the new architecture against mature R1 artifact-market, pricing, economy, progression, ecology, and setting brains without importing exact R1 state.
+- [x] Do not select Chapter 24.
 
 ### Task 4: Verify and leave durable routing
 
 **Files:**
-- Verify the spec, iceberg file, engine guide, rehearsal 003, branch head, and latest written frontier.
+- Verify the spec, iceberg file, engine guide, rehearsal 003, R1 reconciliation, branch head, and latest written frontier.
 
 - [ ] Confirm no prose file changed during this implementation.
 - [ ] Confirm current frontier was not overwritten.
-- [ ] Confirm engine guide points to specialist iceberg rather than embedding a textbook.
+- [ ] Confirm engine guide points to specialist iceberg rather than turning the local boot into a Seven Lamps textbook.
 - [ ] Confirm rehearsal 003 does not queue future chapters.
-- [ ] Mark this plan executed with any concurrency deviations recorded.
+- [ ] Confirm temporary recovery files are absent from the final tree.
+- [ ] Record final branch head after verification.
+
+## Execution notes
+
+A write-collision/recovery mistake temporarily replaced `STORY_ENGINE_GUIDE.md` during implementation. The exact pre-pass blob remained available in Git history and was fetched directly. The guide was then restored from that exact prior authority and extended with the new iceberg sections. Temporary recovery files created during that process were deleted.
+
+The R1 comparison discovered that the mature repository already contains unusually compatible artifact-market, artifact-pricing, economy-continuity, progression, and magical-ecology doctrine. Rather than bloat the main rehearsal further, the surviving systems learning was stored in the companion `LONG_RANGE_REHEARSAL_003_R1_RECONCILIATION.md`.
+
+Final verification must use repository evidence rather than this checklist before claiming completion.
