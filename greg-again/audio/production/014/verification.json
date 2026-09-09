@@ -1,0 +1,12 @@
+{
+  "chapter": 14,
+  "take_count": 15,
+  "duration_seconds": 678.936,
+  "final_asset": "greg-again/audio/assets/chapter-014.mp3",
+  "final_size_bytes": 10863405,
+  "chunk_total_bytes": 10862976,
+  "chunk_count": 15,
+  "audio_probe": "passed",
+  "source_coverage": "locked by greg-again/audio/scripts/014-the-back-room-takes.md",
+  "repair_note": "Original provider take 02 hit the two-minute plan gate; only that exact source range was split into four replacement takes. Eleven successful original artifacts were preserved."
+}
