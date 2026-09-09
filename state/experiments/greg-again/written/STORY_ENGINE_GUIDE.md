@@ -8,6 +8,8 @@ Heavy long-range memory remains in:
 
 - `state/experiments/greg-again/written/LONG_RANGE_PRESSURE_MAP.md`
 - `state/experiments/greg-again/written/LONG_RANGE_REHEARSAL_002_MAGIC_RANK.md`
+- `state/experiments/greg-again/written/LONG_RANGE_REHEARSAL_003_WORLD_ICEBERG.md`
+- `state/experiments/greg-again/written/SEVEN_LAMPS_WORLD_ICEBERG.md`
 
 Current selected prose and current written state outrank this guide.
 
@@ -220,91 +222,134 @@ Later knowledge may come from:
 - professional reputation
 - personal memory
 
-Do not assume later history is complete or morally correct.
+Do not treat later reputation as moral truth.
 
-A future-famous person is still a present person with independent wants and continuation.
+Especially for future Rankers, authority-granted titles are an institutional history machine: a complicated human and complicated deed are compressed into class + title.
 
-## 8. LET THE WORLD GET BIGGER
+Greg may know the later compression before he knows the current person.
 
-R2 may plausibly span roughly 500 chapters across approximately 5–10 years.
+Do not make every future-famous person a neon destiny encounter.
 
-Carrow may become home without becoming a cage.
+A name may sit for years before its later meaning matters.
 
-Allow causally earned expansion into:
+## 8. TIME CAN ACTUALLY PASS
 
-- roads
-- rivers
-- new towns and cities
+R2 may plausibly span roughly **500 chapters across approximately 5–10 years**.
+
+That is permission, not a quota.
+
+Do not preserve a one-year emotional clock merely because the opening run was dense.
+
+Allow:
+
+- seasons
+- long absences
+- repeated jobs becoming shorthand
+- people changing rank away from Greg
+- businesses growing or failing offscreen
+- relationships surviving distance or not
+- equipment aging
+- cities changing
+- routes changing
+- young people becoming adults
+- historical people gradually becoming historical
+
+Elapsed time should still leave residue.
+
+Do not use time skips merely to skip consequences.
+
+## 9. THE FANTASY WORLD MAY BE BIG
+
+R2 is allowed to be an actual fantasy-adventure life.
+
+When causally earned, welcome:
+
+- underground work
 - ruins
-- underground places
-- old infrastructure
-- magical ecology
+- old magical infrastructure
 - monsters
+- magical ecology
+- dangerous travel
+- Guild contracts
 - salvage
 - strange markets
-- dangerous travel
-- different Guild cultures
-- different magical practice
+- new cities and regions
+- combat
+- exploration
+- unusual practitioners
+- high-rank professionals
 
-Do not travel merely to demonstrate map size.
+Do not overcorrect against progression fantasy until the fantasy itself disappears.
 
-Places matter when people, work, cost, route, culture, danger, memory, or relationship make them matter.
-
-## 9. LONG TIME MEANS MULTIPLE REAL LIVES
-
-Do not treat Greg's age nineteen state as the permanent operating system of the book.
-
-Across years, let changes accumulate in:
-
-- body
-- skill
-- magic
-- work
-- money
-- ownership
-- housing
-- reputation
-- Guild standing
-- travel range
-- equipment
-- relationships
-- party habits
-- knowledge confidence
-- what Greg considers normal
-
-The story may contain multiple distinct eras of Greg's life without becoming a conventional act outline.
-
-The permanent LEFT lower-leg loss with knee preserved remains the only hard long-range attractor.
-
-Do not rush it.
-
-Theatre remains strong post-loss gravity, not a required destination.
+Avoid monster-of-the-week and dungeon-grind default grammar.
 
 ## 10. ORDINARY LIFE SURVIVES THE FANTASY
 
-More adventure does not mean deleting the mundane accumulation engine.
-
-Keep:
+As scale rises, continue accumulating:
 
 - food
 - rooms
-- letters
-- wages
-- repairs
+- money
 - clothing
 - sex and desire
-- boring jobs
-- neighbors
-- equipment maintenance
-- shopping
+- letters
 - transport
+- maintenance
 - recurring merchants
-- bad sleep
-- people doing things without Greg
+- neighbors
+- jokes with history
+- boring paid work
+- injuries
+- weather
+- equipment problems
+- people having lives while Greg is absent
 
-Large fantasy is stronger when ordinary things acquire history.
+The larger world is stronger when ordinary capability and social memory keep accumulating underneath it.
 
-## 11. MAGIC IS AN ICEBERG
+## 11. DISTANT GRAVITY IS NOT A QUEUE
+
+The engine must not read this guide as:
+
+- show a Gold party next
+- unlock a new spell next
+- find an artifact next
+- bring Jorren back next
+- form a party next
+- meet a future Ranker next
+- go underground next
+- lose the leg next
+- introduce theatre next
+
+Those are not assignments.
+
+Search from current causal state first.
+
+When a local opening naturally touches one of these systems, do not suppress it merely because earlier R2 was cautious.
+
+Use the long-range files only when distant reasoning is actually needed.
+
+## Compact story-search check
+
+After generating plausible next movements, ask only what is relevant:
+
+- **CAUSAL:** what has actually changed enough to produce a chapter?
+- **WIN:** have we been making Greg pay for every advantage lately? Could a true advantage simply work?
+- **MAGIC:** if magic is present, are we treating reserve as the whole system?
+- **WORLD:** has the fantasy world become too small or too Carrow-bound for too long?
+- **CEILING:** when higher competence enters naturally, are we letting it look genuinely competent?
+- **PEOPLE:** can an established person return instead of creating a disposable one?
+- **TIME:** has elapsed time left residue, or are we unconsciously holding everyone still?
+- **ARTIFACT:** does an object change strategy / economics / relationships rather than merely power?
+- **HISTORY:** is a current person being mistaken for their later historical compression?
+- **ORDINARY:** what still costs money, hurts, needs cleaning, breaks, gets eaten, gets mailed, or waits at home?
+
+Do not answer every question every chapter.
+
+The winning next movement still has to be the most causally alive thing now.
+
+---
+
+## 12. MAGIC IS AN ICEBERG
 
 Deep world/magic architecture lives in:
 
@@ -324,7 +369,7 @@ Do not make Greg uniquely destined to discover the complete system.
 
 Do not turn the Seven Lamps into seven visible elemental schools.
 
-## 12. MAGICAL ECOLOGY IS NOT A POWER CHART
+## 13. MAGICAL ECOLOGY IS NOT A POWER CHART
 
 Magical beasts and phenomena may have habitat, diet, migration, mating, nesting, territory, symbiosis, seasonality, trade value, and relationships with human extraction or settlement.
 
@@ -338,7 +383,7 @@ Let creature knowledge sometimes give Greg a clean field advantage.
 
 Let other creatures expose limits in later human theory.
 
-## 13. OTHER PEOPLE'S MYTHS
+## 14. OTHER PEOPLE'S MYTHS
 
 R2 may translate causal/emotional structures from prior Hawaiian / moʻolelo-inspired quarry into its own invented cultures and geography.
 
@@ -354,7 +399,7 @@ Greg may enter through work, travel, trade, shelter, salvage, a party obligation
 
 Myth-scale material may be funny, petty, romantic, familial, practical, tragic, or dangerous. Do not make it automatically solemn.
 
-## 14. MAGIC, MONEY, AND TRADE INTERLOCK
+## 15. MAGIC, MONEY, AND TRADE INTERLOCK
 
 When earned, let magic affect:
 
@@ -380,7 +425,7 @@ He may also make a bad trade.
 
 Markets do not owe him balance.
 
-## 15. CAUSALITY PAYS BOTH DIRECTIONS
+## 16. CAUSALITY PAYS BOTH DIRECTIONS
 
 `LET GREG WIN` is a correction against compulsive nerfing, not a protection spell.
 
@@ -396,26 +441,18 @@ Do not staple a hidden punishment onto every success.
 
 Do not rescue Greg from earned failure.
 
----
+### Iceberg anti-queue
 
-## ANTI-QUEUE
+The deeper architecture does **not** mean the next chapter should:
 
-This guide does **not** mean the next chapter should:
-
-- show Gold
-- unlock a spell
-- introduce a magical school
 - reveal a Lamp
-- find an artifact
-- form a party
-- meet a future Ranker
-- go underground
+- explain a magical school
 - encounter a magical beast
 - enter a myth-shaped local story
-- lose the leg
-- introduce theatre
+- feature artifact appraisal
+- introduce foreign magic
 
-because those possibilities are listed here.
+because those possibilities are now preserved.
 
 Search from current causal state first.
 
