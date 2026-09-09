@@ -1,0 +1,61 @@
+name: Assemble Greg Again Chapter 4 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch4-shared-surface
+    paths:
+      - .github/workflows/assemble-greg-again-ch4-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch4-shared-surface
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Verify and assemble twelve takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          chunk_dir='greg-again/audio/assets/chunks/004'
+          out='greg-again/audio/assets/chapter-004.mp3'
+          list_file='/tmp/chapter-004-concat.txt'
+          : > "$list_file"
+          for n in $(seq -w 1 12); do
+            file="$chunk_dir/$n.mp3"
+            test -s "$file"
+            size=$(stat -c%s "$file")
+            test "$size" -gt 300000
+            printf "file '%s/%s.mp3'\n" "$GITHUB_WORKSPACE/$chunk_dir" "$n" >> "$list_file"
+          done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i "$list_file" -c:a libmp3lame -b:a 128k "$out"
+          size=$(stat -c%s "$out")
+          duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$out")
+          echo "CHAPTER_004_SIZE=$size"
+          echo "CHAPTER_004_DURATION=$duration"
+          python - "$size" "$duration" <<'PY'
+          import sys
+          size = int(sys.argv[1])
+          duration = float(sys.argv[2])
+          assert size > 1_000_000, size
+          assert 550 < duration < 950, duration
+          PY
+      - name: Commit assembled chapter
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-004.mp3
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: assemble Greg Again Chapter 4 audio'
+            git push origin HEAD:audio/greg-again-ch4-shared-surface
+          fi
