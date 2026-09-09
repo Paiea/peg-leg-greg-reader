@@ -1,0 +1,114 @@
+{
+  "chapter_id": "ga-022",
+  "number": 22,
+  "reader_title": "The Neighbor",
+  "written_source": "r2/assets/written/ch022.md",
+  "written_source_sha": "33b0bfef83dacb09c290b42b1213e652d86bd7cb",
+  "voice": "deep",
+  "audio_finish": "processing-space",
+  "status": "verified_playable",
+  "takes": [
+    {
+      "take": "01",
+      "first": "The man next door started pounding on my door before dawn.",
+      "last": "Understanding arrived halfway down the rear stairs.",
+      "provider_context_id": "56fdc48e6a9b4c33866a2c680244c51f",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=56fdc48e6a9b4c33866a2c680244c51f",
+      "durable_file": "greg-again/audio/assets/chunks/022/01.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 70.032
+    },
+    {
+      "take": "02",
+      "first": "The building wrapped around a narrow courtyard with a pump in the middle and laundry lines overhead.",
+      "last": "The fire was inside the wall.",
+      "provider_context_id": "116dbcdc969748c39b4e98afc6deee4b",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=116dbcdc969748c39b4e98afc6deee4b",
+      "durable_file": "greg-again/audio/assets/chunks/022/02.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 76.584
+    },
+    {
+      "take": "03",
+      "first": "I set the buckets down.",
+      "last": "The plaster broke against his shoulder instead of his temple and exploded across the floor.",
+      "provider_context_id": "b3bced509f904256bd6d49f12acedc77",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=b3bced509f904256bd6d49f12acedc77",
+      "durable_file": "greg-again/audio/assets/chunks/022/03.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 76.608
+    },
+    {
+      "take": "04",
+      "first": "The plane vanished.",
+      "last": "We went back inside.",
+      "provider_context_id": "42317232f2734e6ba548fc72ba6adb16",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=42317232f2734e6ba548fc72ba6adb16",
+      "durable_file": "greg-again/audio/assets/chunks/022/04.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 85.44
+    },
+    {
+      "take": "05",
+      "first": "The next ten minutes became work.",
+      "last": "We used both sets of information.",
+      "provider_context_id": "110e053b62594e5495184abe2e0a7f4f",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=110e053b62594e5495184abe2e0a7f4f",
+      "durable_file": "greg-again/audio/assets/chunks/022/05.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 78.528
+    },
+    {
+      "take": "06",
+      "first": "That seemed fairer than deciding which one counted as expertise.",
+      "last": "Cost lost narrowly.",
+      "provider_context_id": "974db90976d143aa900e7bd12dba4ca3",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=974db90976d143aa900e7bd12dba4ca3",
+      "durable_file": "greg-again/audio/assets/chunks/022/06.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 80.832
+    },
+    {
+      "take": "07",
+      "first": "By sunrise the smoke had thinned enough that we could go upstairs.",
+      "last": "Sometimes a fire was a fire.",
+      "provider_context_id": "3b5f7e2a885b4c8f8968e82e5ca82f75",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=3b5f7e2a885b4c8f8968e82e5ca82f75",
+      "durable_file": "greg-again/audio/assets/chunks/022/07.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 70.656
+    },
+    {
+      "take": "08",
+      "first": "Noll appeared in my doorway carrying what remained of his blanket.",
+      "last": "The man sleeping on my floor tonight because his mattress had lost an argument with a bucket brigade.",
+      "provider_context_id": "426a60fa3a934ef18fbcd10eec0d7a0b",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=426a60fa3a934ef18fbcd10eec0d7a0b",
+      "durable_file": "greg-again/audio/assets/chunks/022/08.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 80.376
+    },
+    {
+      "take": "09",
+      "first": "Current facts.",
+      "last": "Some systems survived history perfectly.",
+      "provider_context_id": "2f4ebf9331804d96b5a2c835fb943e9c",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=2f4ebf9331804d96b5a2c835fb943e9c",
+      "durable_file": "greg-again/audio/assets/chunks/022/09.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 60.24
+    },
+    {
+      "take": "10",
+      "first": "By evening, every landing had a full bucket beside the stairs.",
+      "last": "Then I slept too.",
+      "provider_context_id": "a253881c462143d481b64c6bcd663d14",
+      "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=a253881c462143d481b64c6bcd663d14",
+      "durable_file": "greg-again/audio/assets/chunks/022/10.mp3",
+      "status": "artifact_captured",
+      "duration_seconds": 52.32
+    }
+  ],
+  "take_duration_sum_seconds": 731.616,
+  "assembled_duration_seconds": 731.616
+}
