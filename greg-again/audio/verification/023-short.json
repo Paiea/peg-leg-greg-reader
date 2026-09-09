@@ -1,0 +1,11 @@
+{
+  "chapter_id": "ga-023",
+  "title": "The Adventurer",
+  "voice": "deep",
+  "take_count": 46,
+  "assembled_duration_seconds": 1020.408,
+  "assembled_sha256": "a0f38530eac004b6416a2754063cfa9f99424e9ec645ff1b4a349bb418182a19",
+  "written_source_sha": "5c63704d9a13a5cc816c345f3e9c620635b85676",
+  "tail_silence_seconds": 2.0,
+  "status": "verified_playable"
+}
