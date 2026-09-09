@@ -1,0 +1,40 @@
+name: Trace Provider Client Audio API
+on:
+  push:
+    branches: [audio/greg-again-batch-018-020]
+    paths: ['.github/workflows/greg-again-batch-018-020-probe3.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+      - name: Inspect client chunks
+        run: |
+          set -euo pipefail
+          base='https://www.aidocmaker.com'
+          curl -L -sS "$base/g0/audio?name=7c31ecb98d01441298fbb5e536696ee1" -o /tmp/page.html
+          grep -oE '<script[^>]+src="[^"]+' /tmp/page.html | sed 's/.*src="//' > /tmp/scripts.txt
+          : > /tmp/all.js
+          while IFS= read -r src; do
+            case "$src" in
+              http*) url="$src" ;;
+              *) url="$base$src" ;;
+            esac
+            curl -L -sS "$url" >> /tmp/all.js || true
+            printf '\n' >> /tmp/all.js
+          done < /tmp/scripts.txt
+          {
+            echo '--- api/fetch candidates ---'
+            grep -oE '.{0,180}(fetch\(|/api/|g0/audio|audioUrl|audio_url|preview_url|storage.googleapis|mcp-preview|playback|context_id|contextId|jobId|status).{0,320}' /tmp/all.js | head -500 || true
+            echo '--- endpoint-looking strings ---'
+            grep -oE '["'"'][^"'"']{0,160}(audio|voice|generate|playback|status)[^"'"']{0,200}["'"']' /tmp/all.js | head -500 || true
+          } > greg-again/audio/capture-debug-018-client.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/capture-debug-018-client.txt
+          git commit -m 'Trace provider client audio API'
+          git push origin HEAD:audio/greg-again-batch-018-020
