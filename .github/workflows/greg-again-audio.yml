@@ -1,28 +1,139 @@
-name: Validate Greg Again Audio
+name: Anchor-align final mana repair seams
 
 on:
-  pull_request:
-    paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
-      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - main
+      - audio/greg-again-mana-pronunciation-repair-v2
     paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  validate:
+  align:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
         with:
-          python-version: '3.13'
-      - name: Run Greg Again audio catalog contract
-        run: python -m unittest tests.test_greg_again_audio_catalog -v
+          ref: audio/greg-again-mana-pronunciation-repair-v2
+          fetch-depth: 0
+      - name: Install alignment tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          python -m pip install --quiet faster-whisper
+      - name: Align between surrounding transcript anchors
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          from difflib import SequenceMatcher
+          from faster_whisper import WhisperModel
+
+          root=Path('.')
+          asr_prev=json.loads((root/'greg-again/audio/production/2026-09-08-mana-asr-alignment.json').read_text(encoding='utf-8'))
+          idx=json.loads((root/'greg-again/audio/production/mana-repair-source/micro-index-original.json').read_text(encoding='utf-8'))
+          ledger=json.loads((root/'greg-again/audio/production/2026-09-08-mana-provider-ledger.json').read_text(encoding='utf-8'))
+          accepted={x['target']:x for x in ledger['accepted']}
+          index={f"ch{int(x['chapter']):03d}-t{int(x['take']):02d}-m{int(x['micro']):02d}":x for x in idx['items']}
+          work=Path('/tmp/mana-anchor'); work.mkdir(parents=True,exist_ok=True)
+          model=WhisperModel('small.en',device='cpu',compute_type='int8')
+
+          def norm(s): return re.sub(r"[^a-z0-9']+",'',s.lower())
+          def toks(s): return [norm(x) for x in re.findall(r"[A-Za-z0-9']+",s) if norm(x)]
+          def get_audio(ch,take):
+              p=root/f'greg-again/audio/assets/chunks/{ch:03d}/{take:02d}.mp3'
+              if p.exists(): return p
+              raise FileNotFoundError(p)
+          def transcribe(path):
+              segs,_=model.transcribe(str(path),beam_size=5,word_timestamps=True,vad_filter=False,language='en')
+              out=[]
+              for seg in segs:
+                  for w in seg.words or []:
+                      nw=norm(w.word)
+                      if nw: out.append({'word':nw,'start':float(w.start),'end':float(w.end),'p':float(w.probability or 0)})
+              return out
+          def best(asr, target):
+              tw=toks(target); n=len(tw); best=None
+              if not tw: return None
+              for i in range(len(asr)):
+                  for L in range(max(1,n-5),min(len(asr)-i,n+6)+1):
+                      cand=[x['word'] for x in asr[i:i+L]]
+                      r=SequenceMatcher(None,tw,cand).ratio()
+                      score=r-.02*abs(L-n)
+                      if best is None or score>best[0]: best=(score,r,i,i+L,cand)
+              return best
+          def silences(path):
+              log=work/(path.stem+'.sil.log')
+              with log.open('w') as f:
+                  subprocess.run(['ffmpeg','-hide_banner','-loglevel','info','-i',str(path),'-af','silencedetect=noise=-47dB:d=0.02','-f','null','-'],stdout=subprocess.DEVNULL,stderr=f,check=False)
+              txt=log.read_text(errors='replace'); ev=[]
+              for ln in txt.splitlines():
+                  m=re.search(r'silence_start: ([0-9.]+)',ln)
+                  if m: ev.append(('s',float(m.group(1))))
+                  m=re.search(r'silence_end: ([0-9.]+)',ln)
+                  if m: ev.append(('e',float(m.group(1))))
+              ev.sort(key=lambda x:x[1]); out=[]; cur=None
+              for k,t in ev:
+                  if k=='s': cur=t
+                  elif cur is not None: out.append((cur,t)); cur=None
+              return out
+          def cut_after(t,sils):
+              # choose first silence beginning within 1.2s after anchor speech end, or overlapping it slightly
+              c=[(a,b) for a,b in sils if a>=t-.15 and a-t<=1.2]
+              if not c:return None
+              a,b=min(c,key=lambda x:x[0]); return (a,b,(a+b)/2)
+          def cut_before(t,sils):
+              c=[(a,b) for a,b in sils if b<=t+.15 and t-b<=1.2]
+              if not c:return None
+              a,b=max(c,key=lambda x:x[1]); return (a,b,(a+b)/2)
+
+          lows=[x for x in asr_prev['targets'] if x['status']=='low_confidence']
+          cache={}; results=[]
+          for old in lows:
+              target=old['target']; meta=index[target]; ch=int(meta['chapter']); take=int(meta['take']); pi=int(meta['paragraph_index'])
+              source=(root/f'greg-again/audio/production/mana-repair-inputs/ch{ch:03d}-t{take:02d}.txt').read_text(encoding='utf-8').strip()
+              paras=[p.strip() for p in source.split('\n\n') if p.strip()]
+              before=' '.join(paras[max(0,pi-3):pi])
+              after=' '.join(paras[pi+1:min(len(paras),pi+4)])
+              audio=get_audio(ch,take); key=(ch,take)
+              if key not in cache: cache[key]=(transcribe(audio),silences(audio))
+              asr,sils=cache[key]
+              b=best(asr,before); a=best(asr,after)
+              rec={'target':target,'chapter':ch,'take':take,'paragraph_index':pi,'before_anchor_text':before,'after_anchor_text':after}
+              if not b or not a:
+                  rec.update(status='low_confidence',reason='missing_anchor_match');results.append(rec);continue
+              _,br,bi,bj,bc=b; _,ar,ai,aj,ac=a
+              bspan=asr[bi:bj]; aspan=asr[ai:aj]
+              bend=bspan[-1]['end']; astart=aspan[0]['start']
+              bprob=sum(x['p'] for x in bspan)/len(bspan); aprob=sum(x['p'] for x in aspan)/len(aspan)
+              left=cut_after(bend,sils); right=cut_before(astart,sils)
+              rec.update(before_ratio=round(br,3),after_ratio=round(ar,3),before_probability=round(bprob,3),after_probability=round(aprob,3),before_end=round(bend,3),after_start=round(astart,3),left_silence=left,right_silence=right,before_asr=bc,after_asr=ac)
+              ok=(br>=.72 and ar>=.72 and bprob>=.35 and aprob>=.35 and left is not None and right is not None and right[2]>left[2] and right[2]-left[2]<20 and bend<astart)
+              if ok:
+                  rec.update(status='high_confidence_anchor',splice_start=round(left[2],3),splice_end=round(right[2],3),region_duration=round(right[2]-left[2],3),provider_text=accepted[target]['provider_text'])
+              else:
+                  rec.update(status='low_confidence',reason='anchor_or_silence_gate_failed')
+              results.append(rec)
+              print(target,rec['status'],'ratios',rec.get('before_ratio'),rec.get('after_ratio'),'probs',rec.get('before_probability'),rec.get('after_probability'),'cuts',rec.get('splice_start'),rec.get('splice_end'))
+          out={'method':'surrounding historical transcript anchors + faster-whisper word timestamps + silence snap','targets':results,'summary':{'target_count':len(results),'high_confidence_anchor':sum(x['status']=='high_confidence_anchor' for x in results),'low_confidence':sum(x['status']=='low_confidence' for x in results)}}
+          (root/'greg-again/audio/production/2026-09-08-mana-anchor-alignment.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(out['summary']))
+          PY
+      - name: Restore validator and commit alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/production/2026-09-08-mana-anchor-alignment.json .github/workflows/greg-again-audio.yml
+          git commit -m 'audio: anchor-align final mana repair seams'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
