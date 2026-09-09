@@ -126,6 +126,66 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
             chapter["audio"]["path"],
         )
 
+    def test_chapter_ten_preserves_time_residue_and_publishes_audio(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        self.assertIn("ga-010", by_id)
+        self.assertEqual("The Returner", by_id["ga-010"]["title"])
+        self.assertEqual("shared-greg-surface", by_id["ga-010"]["lens"])
+        self.assertEqual("processing-space", by_id["ga-010"]["audio_finish"])
+        self.assertEqual(12, by_id["ga-010"]["take_count"])
+        self.assertEqual(710.544, by_id["ga-010"]["duration_seconds"])
+        self.assertEqual("assets/chapter-010.mp3", by_id["ga-010"]["audio_src"])
+
+        audio = AUDIO_ROOT / "assets" / "chapter-010.mp3"
+        self.assertTrue(audio.exists())
+        self.assertGreater(audio.stat().st_size, 10_000_000)
+
+        script = (AUDIO_ROOT / "scripts" / "010-the-returner.md").read_text(encoding="utf-8")
+        self.assertIn("DO NOT OPTIMIZE AWAY PROCESSING TIME", script)
+        self.assertIn("PROCESSING SPACE", script)
+        self.assertIn("TIME MUST LEAVE RESIDUE", script)
+        self.assertIn("Time had happened.", script)
+        self.assertIn("That was different from time passing.", script)
+
+        take_map = (AUDIO_ROOT / "scripts" / "010-the-returner-takes.md").read_text(encoding="utf-8")
+        self.assertIn("Production takes: **12**", take_map)
+        for number in range(1, 13):
+            take = AUDIO_ROOT / "assets" / "chunks" / "010" / f"{number:02d}.mp3"
+            self.assertTrue(take.exists())
+            self.assertGreater(take.stat().st_size, 10_000)
+
+        chapter = json.loads((R2_ROOT / "data/chapters/ch010.json").read_text(encoding="utf-8"))
+        self.assertEqual("The Returner", chapter["title"])
+        self.assertEqual("published", chapter["audio"]["status"])
+        self.assertEqual("../greg-again/audio/assets/chapter-010.mp3", chapter["audio"]["path"])
+
+    def test_chapter_eleven_preserves_future_uncertainty_and_publishes_audio(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        self.assertIn("ga-011", by_id)
+        self.assertEqual("The Gate Hand", by_id["ga-011"]["title"])
+        self.assertEqual("shared-greg-surface", by_id["ga-011"]["lens"])
+        self.assertEqual("processing-space", by_id["ga-011"]["audio_finish"])
+        self.assertEqual("assets/chapter-011.mp3", by_id["ga-011"]["audio_src"])
+
+        audio = AUDIO_ROOT / "assets" / "chapter-011.mp3"
+        self.assertTrue(audio.exists())
+        self.assertGreater(audio.stat().st_size, 1_000_000)
+
+        script = (AUDIO_ROOT / "scripts" / "011-the-gate-hand.md").read_text(encoding="utf-8")
+        self.assertIn("DO NOT OPTIMIZE AWAY PROCESSING TIME", script)
+        self.assertIn("PROCESSING SPACE", script)
+        self.assertIn("FUTURE KNOWLEDGE IS NOT PRESENT PROOF", script)
+        self.assertIn("Correct future fact.", script)
+        self.assertIn("Missing history.", script)
+        self.assertIn("For once, I let that remain true.", script)
+
+        chapter = json.loads((R2_ROOT / "data/chapters/ch011.json").read_text(encoding="utf-8"))
+        self.assertEqual("The Gate Hand", chapter["title"])
+        self.assertEqual("published", chapter["audio"]["status"])
+        self.assertEqual("../greg-again/audio/assets/chapter-011.mp3", chapter["audio"]["path"])
+
     def test_public_page_renders_catalog_instead_of_one_hardcoded_chapter(self):
         html = (AUDIO_ROOT / "index.html").read_text(encoding="utf-8")
         player = (AUDIO_ROOT / "player.js").read_text(encoding="utf-8")

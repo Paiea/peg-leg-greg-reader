@@ -83,6 +83,30 @@
       "duration_seconds": 818.136,
       "audio_src": "assets/chapter-007.mp3",
       "note": "Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."
+    },
+    {
+      "chapter_id": "ga-010",
+      "number": 10,
+      "title": "The Returner",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 12,
+      "duration_seconds": 710.544,
+      "audio_src": "assets/chapter-010.mp3",
+      "note": "Chapter 10 preserves time residue across Jorren's departure, Greg's ordinary road changes, and Carrow's offscreen progress. Twelve short deep-voice takes keep production seams locally repairable while Arlo, Ivena, Sella, work, money, body, and mana all continue moving without Greg at the center."
+    },
+    {
+      "chapter_id": "ga-011",
+      "number": 11,
+      "title": "The Gate Hand",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 29,
+      "duration_seconds": 694.2,
+      "audio_src": "assets/chapter-011.mp3",
+      "note": "Chapter 11 preserves remembered future fact as distinct from present causal proof. Twenty-nine short provider-safe takes preserve exact Shared Greg Surface wording and processing space while keeping every seam locally repairable."
     }
   ]
 }
