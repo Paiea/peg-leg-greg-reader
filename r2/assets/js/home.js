@@ -126,7 +126,6 @@
     const summary = document.getElementById('availability-summary');
     const currentTarget = document.getElementById('current-chapter');
     const listTarget = document.getElementById('chapter-list');
-    const listenLink = document.getElementById('hero-listen');
     const readLink = document.getElementById('hero-read');
 
     try {
@@ -134,19 +133,17 @@
       const chapters = await Promise.all((project.chapters || []).map(id => fetchJson(`data/chapters/${chapterFile(id)}.json`)));
       const ordered = chapters.slice().sort((a, b) => (a.display_number || 0) - (b.display_number || 0));
 
-      const firstAudio = ordered.find(publishedAudio) || ordered[0];
       const firstWritten = ordered.find(ch => publishedWritten(ch) || ch.written?.status !== 'unavailable') || ordered[0];
       const latestAudio = ordered.filter(publishedAudio).slice(-1)[0] || null;
       const latestWritten = ordered.filter(publishedWritten).slice(-1)[0] || ordered.slice(-1)[0] || null;
       const currentId = project.current_chapter || latestWritten?.chapter_id || ordered.slice(-1)[0]?.chapter_id;
       const current = ordered.find(ch => ch.chapter_id === currentId) || ordered.slice(-1)[0];
 
-      if (firstAudio) listenLink.href = chapterHref(firstAudio.chapter_id, '#listen');
-      if (firstWritten) readLink.href = chapterHref(firstWritten.chapter_id, '#read');
+      if (firstWritten && readLink) readLink.href = chapterHref(firstWritten.chapter_id, '#read');
 
       const readLabel = latestWritten ? `Read through Chapter ${latestWritten.display_number}` : 'Read frontier unavailable';
       const listenLabel = latestAudio ? `Listen through Chapter ${latestAudio.display_number}` : 'Audio coming soon';
-      summary.textContent = `${readLabel} · ${listenLabel}`;
+      summary.textContent = `${listenLabel} · ${readLabel}`;
 
       if (current) renderCurrent(currentTarget, current);
 

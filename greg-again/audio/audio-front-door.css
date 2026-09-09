@@ -1,0 +1,106 @@
+.audio-shell {
+  width: min(68rem, calc(100% - 40px));
+  padding-top: 1.5rem;
+}
+
+.listen-hero {
+  margin-bottom: 4rem;
+}
+
+.listen-hero-media {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #11100e;
+}
+
+.listen-hero-media picture,
+.listen-hero-media img {
+  display: block;
+  width: 100%;
+}
+
+.listen-hero-copy {
+  max-width: 48rem;
+  margin: 1.8rem auto 0;
+  text-align: center;
+}
+
+.listen-hero-copy h1 {
+  font-size: clamp(3rem, 8vw, 5.8rem);
+}
+
+.listen-hero-copy .lede {
+  margin-inline: auto;
+}
+
+.listen-start {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.2rem;
+  color: var(--link-strong);
+  font-family: var(--ui);
+  font-size: .9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.listen-shelf-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.listen-shelf-heading h2 {
+  margin: .15rem 0 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.listen-shelf-heading > p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.player-card {
+  padding: 1.8rem 0 2rem;
+}
+
+.player-card .chapter {
+  font-size: clamp(1.6rem, 3.5vw, 2.15rem);
+}
+
+.player-card audio {
+  margin-top: .85rem;
+}
+
+.audio-note {
+  font-size: 1.02rem;
+}
+
+@media (max-width: 760px) {
+  .audio-shell {
+    width: min(100% - 28px, 68rem);
+    padding-top: 1rem;
+  }
+
+  .listen-hero-media {
+    width: calc(100% + 28px);
+    margin-left: -14px;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .listen-hero-copy {
+    text-align: left;
+  }
+
+  .listen-shelf-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .4rem;
+  }
+}
