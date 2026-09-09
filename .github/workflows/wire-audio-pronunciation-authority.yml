@@ -1,0 +1,38 @@
+name: Wire audio pronunciation authority
+on:
+  push:
+    branches: [audio/greg-again-mana-pronunciation-repair]
+    paths: [.github/workflows/wire-audio-pronunciation-authority.yml]
+permissions:
+  contents: write
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-mana-pronunciation-repair
+      - shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('r2/AUDIO_PRODUCTION.md')
+          s=p.read_text(encoding='utf-8')
+          needle='### Pronunciation authority\n\n'
+          insert=(
+              '### Pronunciation authority\n\n'
+              'Before synthesis, read `r2/AUDIO_PRONUNCIATION.md`. It owns the durable provider-facing pronunciation rules and instability watchlist. Hard aliases are applied by default to new synthesis. Instability-watchlist entries may use their safer provider spelling going forward, but they do not trigger mass historical regeneration when existing audio is already acceptable. Listener-caught inconsistencies should be added there so the factory learns from QA instead of leaving the knowledge in chat history.\n\n'
+          )
+          if 'Before synthesis, read `r2/AUDIO_PRONUNCIATION.md`.' not in s:
+              if needle not in s:
+                  raise SystemExit('Pronunciation authority heading not found')
+              s=s.replace(needle,insert,1)
+              p.write_text(s,encoding='utf-8')
+          PY
+          rm .github/workflows/wire-audio-pronunciation-authority.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/AUDIO_PRODUCTION.md .github/workflows/wire-audio-pronunciation-authority.yml
+          git commit -m 'audio: wire pronunciation watchlist into production authority'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair
