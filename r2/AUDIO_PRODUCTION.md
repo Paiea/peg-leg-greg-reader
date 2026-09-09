@@ -8,9 +8,9 @@ Current GitHub authority outranks chat history and stale handoff text.
 
 ## Default worker behavior
 
-A fresh audio worker should not ask the human which chapters it owns unless GitHub state is genuinely ambiguous.
+A fresh audio worker should not ask the human which chapter it owns unless GitHub state is genuinely ambiguous.
 
-If the human did not explicitly assign a range, the worker must:
+If the human did not explicitly assign a chapter, the worker must:
 
 1. inspect current `main`
 2. read root `AGENTS.md`
@@ -19,88 +19,139 @@ If the human did not explicitly assign a range, the worker must:
 5. inspect `greg-again/audio/manifest.json`
 6. inspect current Greg, Again written authority / written frontier
 7. inspect live Greg, Again audio branches and open PRs
-8. compute the earliest available contiguous batch
-9. create the claim branch
-10. verify the claim still does not overlap newer work
+8. scan upward for the earliest written chapter that is unpublished and not already durably owned
+9. create the single-chapter claim branch
+10. refresh ownership evidence and verify the claim still does not overlap newer work
 11. only then begin synthesis
 
-## Default batch size
+Do **not** stop merely because an earlier unpublished chapter is already claimed. Skip occupied chapters and continue scanning upward until the earliest free written chapter is found.
 
-The default auto-claimed batch is **3 chapters**.
+## Default claim size
 
-A worker may claim a smaller tail batch when fewer than 3 written chapters are available before the written frontier.
+The default auto-claim is **1 chapter per worker**.
 
-Do not skip an earlier free chapter merely to create prettier multiples of three.
+One worker owns one audio chapter. This is the normal unit of parallel production.
 
-A worker that has explicitly been assigned a different non-overlapping range may honor that assignment after checking current GitHub state.
+A worker that has explicitly been assigned one different non-overlapping chapter may honor that assignment after checking current GitHub state.
 
-The 3-chapter batch is an **ownership envelope**, not a provider-concurrency limit. Keep ownership small and legible while allowing many independent take jobs inside that envelope to run or queue concurrently.
+Do not claim a second chapter merely because the current chapter has provider jobs queued, is waiting on artifact retrieval, or is blocked on downstream plumbing. More parallelism should normally come from another worker claiming another free chapter.
+
+This keeps ownership narrow while still allowing roughly a dozen independent take jobs inside one chapter to run or queue aggressively.
 
 ## Protocol-native claim branches
 
 New automatic claims use:
 
-`audio/greg-again-batch-NNN-MMM`
+`audio/greg-again-chNNN-auto`
 
 Examples:
 
-- `audio/greg-again-batch-012-014`
-- `audio/greg-again-batch-015-017`
-- `audio/greg-again-batch-018-020`
+- `audio/greg-again-ch012-auto`
+- `audio/greg-again-ch013-auto`
+- `audio/greg-again-ch014-auto`
 
 Creating the branch is the claim operation.
 
 A protocol-native worker must not begin voice synthesis until its claim branch exists.
 
-If branch creation fails because the ref already exists, refresh GitHub state and compute the next available batch. Never force-update or overwrite the existing claim.
+If branch creation fails because the ref already exists, refresh GitHub state, mark that chapter unavailable, and scan upward for the next free written chapter. Never force-update or overwrite the existing claim.
 
 ## What counts as unavailable
 
 A chapter is unavailable when any of the following is true:
 
 - it is already published in the current `greg-again/audio/manifest.json`
-- it is covered by an existing protocol-native batch claim whose unpublished chapters have not been explicitly released
-- a live pre-protocol Greg, Again audio branch clearly owns that chapter
-- an open Greg, Again audio PR clearly owns that chapter
-- other current durable WIP makes ownership clear
+- a live single-chapter audio branch clearly owns that chapter
+- an open audio PR clearly owns that chapter
+- a legacy batch branch contains durable chapter-specific production work for that chapter
+- other current durable WIP makes chapter ownership clear
 
-When ownership is genuinely ambiguous, avoid overlap rather than maximizing batch size.
+A chapter is **not** unavailable merely because an old multi-chapter branch name happens to include its number.
+
+When ownership is genuinely ambiguous, avoid overlap and inspect the branch / PR / status evidence before synthesizing.
 
 Never claim beyond the current authoritative written frontier.
 
-## Transitional compatibility
+## Availability scan
 
-Audio workers already running before this protocol remain valid.
+The scan is chapter-by-chapter, not frontier-contiguous.
+
+Conceptually:
+
+```text
+for chapter in written chapters from low to high:
+    if published:
+        continue
+    if durably claimed / active:
+        continue
+    claim this chapter
+    stop
+```
+
+Therefore:
+
+- Chapter 12 may be unfinished and actively owned
+- Chapter 13 may still be free
+- a fresh worker should claim Chapter 13 rather than reporting that it cannot proceed because Chapter 12 is unfinished
+
+Holes are allowed during production. Publication may reconcile out-of-order worker completion safely through the shared-file rules below.
+
+## Transitional compatibility with old batch claims
+
+Earlier protocol versions used 3-chapter branches such as:
+
+`audio/greg-again-batch-012-014`
+
+Those historical branches remain durable WIP and must not be deleted, renamed, or force-updated just to normalize naming.
+
+However, after adoption of the single-chapter protocol, **a legacy batch branch is no longer a blanket reservation for every number in its branch name**.
+
+Evaluate each chapter inside that old range separately.
+
+A chapter remains reserved by the legacy worker when current durable evidence shows chapter-specific work such as:
+
+- a locked take map
+- submitted provider jobs
+- generated provider artifacts
+- captured take binaries
+- chapter-specific Audio Finish / production files
+- a PR or STATUS file explicitly saying that chapter is actively in production
+
+A chapter inside the old range is free for a new single-chapter worker when the only ownership evidence is the legacy range name and current durable state shows that chapter was not actually started.
+
+If a legacy worker already has expensive provider work on more than one chapter, preserve that completed/generated work and let the worker finish those chapters. Do not throw away real synthesis merely to enforce prettier ownership history.
+
+But a legacy worker should **not start new synthesis on an otherwise-unstarted sibling chapter merely because its old branch name covered the range**. That unstarted chapter belongs back in the free chapter scan.
+
+Current GitHub evidence always outranks examples or stale chat memory.
+
+## Pre-protocol per-chapter compatibility
 
 Existing per-chapter branches such as:
 
 `audio/greg-again-ch8-evidence-before-certainty`
 
-reserve their exact chapter while that work remains live or unpublished.
+remain valid exact-chapter claims while that work is live or unpublished.
 
 Do not rename, restart, absorb, or regenerate those workers merely to normalize branch naming.
-
-At protocol adoption time, Chapters 8–11 already had separate live ownership signals. New workers should respect whatever the newest GitHub state shows rather than assuming those exact chapters remain current forever.
 
 ## No automatic stealing
 
 A worker must never:
 
-- delete another worker's claim branch
-- force-update another worker's claim branch
-- assume an apparently idle branch is abandoned
-- steal work because a PR is slow
+- delete another worker's active claim branch
+- force-update another worker's active claim branch
+- steal a chapter that has durable chapter-specific WIP
+- assume apparently slow provider work is abandoned
 - regenerate published chapters to normalize production history
 
-An abandoned or mistaken claim requires explicit release or reassignment by the human or a clearly authorized integration worker.
+The single-chapter transition releases only **unstarted sibling reservations from old multi-chapter envelopes**. It does not release real chapter-specific work.
 
-## Working inside a claimed batch
+An actually abandoned or mistaken single-chapter claim still requires explicit release or reassignment by the human or a clearly authorized integration worker.
 
-The claim defines ownership, not a requirement to finish all chapters in one giant transaction.
+## Working inside a claimed chapter
 
-Within a claimed batch, produce and verify chapters sequentially enough that each completed chapter can cross a durable publication boundary. A worker may prepare later chapters while provider jobs for an earlier chapter are processing, but it must not let partial preparation overwrite newer story or audio authority.
-
-For every owned chapter:
+For the owned chapter:
 
 1. resolve the current authoritative Shared Greg Surface / written source
 2. apply current `r2/PIPELINE.md` Audio Finish doctrine
@@ -114,7 +165,7 @@ For every owned chapter:
 10. reconcile shared catalog / manifest files against newest GitHub authority
 11. publish the verified chapter durably
 
-Do not redesign settled audio philosophy merely because a worker owns several chapters.
+Do not redesign settled audio philosophy during ordinary production.
 
 ## Established short-take voice factory
 
@@ -264,17 +315,9 @@ wait again
 
 Provider-side serialization or throttling is acceptable. The worker's job is to avoid creating artificial serial waiting when independent jobs can already be queued.
 
-### Queue across owned chapters
+The default strategy is now:
 
-The same rule applies across already-claimed chapters. Once exact transcripts are locked, a worker may queue takes from Chapters N, N+1, and N+2 without waiting for the previous chapter to finish assembly.
-
-This means a 3-chapter worker may legitimately have roughly 30–40 independent provider jobs in flight or queued while still owning only three chapters.
-
-The default strategy is therefore:
-
-**small ownership envelope + high internal take concurrency**
-
-Do not increase chapter claim size merely to increase provider throughput.
+**one-chapter ownership + high internal take concurrency + many parallel workers**
 
 If the available account/tool quota stops further generations, preserve the take map, generated provider artifacts, and captured binaries exactly. Do not surrender or duplicate the chapter claim merely because synthesis quota is temporarily exhausted.
 
@@ -312,18 +355,18 @@ Before publication, record the actual `take_count` and final chapter duration in
 
 Do not claim a chapter was produced as a single render when it was assembled from short takes.
 
-## Provider queueing across chapters and workers
+## Provider queueing across workers
 
 Voice-generation jobs are independent production work when their transcripts are already locked.
 
-Multiple workers may operate simultaneously when each owns a distinct claimed chapter range. Each worker may aggressively queue its own takes, provided:
+Multiple workers may operate simultaneously when each owns a distinct chapter. Each worker may aggressively queue its own chapter's takes, provided:
 
 - exact transcript-to-take mapping is preserved
 - chapter ownership is already claimed
 - provider quota / rate limits are respected
 - no wording is changed merely to make queueing easier
 - generated output remains traceable deterministically to chapter and take
-- another worker's claimed chapters are never submitted or regenerated
+- another worker's claimed chapter is never submitted or regenerated
 
 Provider throttling, serialization, quota exhaustion, or artifact-handoff trouble does not release chapter ownership.
 
@@ -333,11 +376,11 @@ The current short-take / stitched workflow remains valid. Do not pay a regenerat
 
 R2 may separate expensive synthesis work from cheap deterministic downstream work when that increases throughput.
 
-A **producer** may lock takes, submit voice jobs, and capture durable artifacts.
+A **producer** may lock takes, submit voice jobs, and capture durable artifacts for one claimed chapter.
 
-A **finisher** may consume already-captured artifacts to stitch, verify, reconcile manifests, and publish.
+A **finisher** may consume already-captured artifacts to stitch, verify, reconcile manifests, and publish that same chapter.
 
-This is an allowed execution topology, not a requirement to create permanent new worker roles. Keep it simple when one worker can finish its own batch cleanly.
+This is an allowed execution topology, not a requirement to create permanent new worker roles. Keep it simple when one worker can finish its own chapter cleanly.
 
 When separating roles:
 
@@ -361,11 +404,13 @@ Immediately before modifying a shared file:
 1. refresh current `main`
 2. inspect newer neighboring audio merges
 3. preserve every valid newer entry
-4. add or change only the current worker's owned chapters
+4. add or change only the current worker's owned chapter
 
 Never restore a stale whole-file copy over newer audio publication.
 
 A worker may merge current `main` into its branch or otherwise reconcile according to repository workflow before publication.
+
+Out-of-order production is acceptable. Shared publication state must preserve already-landed neighboring chapters rather than assuming completion order is contiguous.
 
 ## Verification
 
@@ -390,24 +435,23 @@ Published entries in `greg-again/audio/manifest.json` are the durable proof that
 
 A successful provider render alone is **not** chapter completion.
 
-A historical claim branch may remain after merge. Its existence does not make already-published chapters unfinished.
+A historical claim branch may remain after merge. Its existence does not make an already-published chapter unfinished.
 
-For any unpublished chapter still covered by an unreleased claim, preserve that ownership until explicit release or completion.
+For any unpublished chapter with durable chapter-specific WIP, preserve that ownership until explicit release or completion.
 
 ## Handoff
 
-At the end of a batch, report compactly:
+At the end of a chapter, report compactly:
 
-- claimed range
-- completed / published chapters
-- actual take count per completed chapter
-- any chapter still in progress
+- claimed chapter
+- completed / published state
+- actual take count
 - provider jobs completed / outstanding
 - generated takes whose binaries are not yet durably captured
 - recovery artifacts or durable provider references that must be preserved
 - provider quota / throttling issue, if any
 - branch / PR / merge state
-- next available range only if current GitHub state makes it clear
+- next free chapter only if current GitHub state makes it clear
 
 Then leave the normal repository handshake.
 
@@ -415,8 +459,8 @@ Then leave the normal repository handshake.
 
 > Continue Greg, Again audio production from current GitHub authority.
 >
-> Auto-claim the next available audio batch using `r2/AUDIO_PRODUCTION.md`, then produce, capture durable take artifacts, verify, publish, and leave the next handshake.
+> Auto-claim the next available free audio chapter using `r2/AUDIO_PRODUCTION.md`, then produce it with the established short-take voice factory, capture durable take artifacts, verify, publish, and leave the next handshake.
 >
-> Preserve newer authority, preserve already-generated provider work, and do not overlap another worker.
+> Preserve newer authority, preserve already-generated provider work, skip chapters already durably owned by another worker, and do not overlap.
 
-A fresh worker should derive its actual chapter range from GitHub rather than asking the human to assign it.
+A fresh worker should derive its actual chapter from GitHub rather than asking the human to assign it.
