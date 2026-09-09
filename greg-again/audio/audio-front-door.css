@@ -108,6 +108,7 @@
 }
 
 .chapter-card {
+  scroll-margin-top: 1.25rem;
   overflow: hidden;
   display: flex;
   min-height: 100%;
@@ -116,6 +117,11 @@
   border: 1px solid var(--line);
   background: var(--card);
   box-shadow: 0 9px 26px rgba(70, 52, 35, .045);
+}
+
+.chapter-card:target {
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px rgba(95, 34, 36, .12);
 }
 
 .chapter-art {
@@ -159,6 +165,28 @@
 
 .chapter-card audio {
   margin-top: .15rem;
+}
+
+.chapter-card-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: .75rem;
+  font: .78rem/1.4 var(--ui);
+}
+
+.chapter-card-links a {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-strong);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.chapter-card-links a:hover,
+.chapter-card-links a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: .18em;
 }
 
 .audio-note {
