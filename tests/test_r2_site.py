@@ -13,8 +13,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], ['r2-ch001', 'r2-ch002'])
-        self.assertEqual(project['current_chapter'], 'r2-ch002')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 17)])
+        self.assertEqual(project['current_chapter'], 'r2-ch016')
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
@@ -44,23 +44,49 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Shared Greg Surface', readme)
         self.assertIn('medium-specific finish', readme)
 
-    def test_chapter_one_reuses_existing_audio_without_claiming_missing_prose(self):
+    def test_written_frontier_is_public_through_chapter_sixteen(self):
+        for number in range(1, 17):
+            chapter_id = f'r2-ch{number:03d}'
+            manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
+            self.assertTrue(manifest_path.exists(), chapter_id)
+            chapter = json.loads(manifest_path.read_text(encoding='utf-8'))
+            self.assertEqual(chapter['chapter_id'], chapter_id)
+            self.assertEqual(chapter['display_number'], number)
+            self.assertEqual(chapter['written']['status'], 'published')
+            self.assertEqual(chapter['written']['path'], f'assets/written/ch{number:03d}.md')
+            self.assertTrue((R2 / f'assets/written/ch{number:03d}.md').exists(), chapter_id)
+            self.assertEqual(
+                chapter['navigation']['previous'],
+                None if number == 1 else f'r2-ch{number - 1:03d}',
+            )
+            self.assertEqual(
+                chapter['navigation']['next'],
+                None if number == 16 else f'r2-ch{number + 1:03d}',
+            )
+
+    def test_chapter_one_reuses_existing_audio_and_publishes_written(self):
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['chapter_id'], 'r2-ch001')
         self.assertEqual(chapter['title'], 'The Boy')
         self.assertEqual(chapter['audio']['status'], 'published')
         self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-001.mp3')
-        self.assertEqual(chapter['written']['status'], 'unavailable')
+        self.assertEqual(chapter['written']['status'], 'published')
         self.assertEqual(chapter['images'], [])
 
-    def test_chapter_two_reuses_current_main_audio(self):
+    def test_chapter_two_reuses_current_main_audio_and_publishes_written(self):
         chapter = json.loads((R2 / 'data/chapters/ch002.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['chapter_id'], 'r2-ch002')
         self.assertEqual(chapter['title'], 'Two Things')
         self.assertEqual(chapter['audio']['status'], 'published')
         self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-002.mp3')
-        self.assertEqual(chapter['written']['status'], 'unavailable')
+        self.assertEqual(chapter['written']['status'], 'published')
         self.assertEqual(chapter['navigation']['previous'], 'r2-ch001')
+
+    def test_chapter_three_reuses_published_audio(self):
+        chapter = json.loads((R2 / 'data/chapters/ch003.json').read_text(encoding='utf-8'))
+        self.assertEqual(chapter['title'], 'The Borrower')
+        self.assertEqual(chapter['audio']['status'], 'published')
+        self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-003.mp3')
 
     def test_homepage_explains_run_two_and_links_run_one(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
