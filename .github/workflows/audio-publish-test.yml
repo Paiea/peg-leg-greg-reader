@@ -53,7 +53,7 @@ jobs:
           cp /tmp/a1314/final/chapter-013.mp3 "$root/chapter-013.mp3"
           cp /tmp/a1314/final/chapter-014.mp3 "$root/chapter-014.mp3"
 
-          find "$root/chunks/012" -name '*.mp3' -printf "file '%p'\n" | sort > /tmp/ch12.txt
+          for f in "$root/chunks/012"/*.mp3; do printf "file '%s'\n" "$(realpath "$f")"; done | sort > /tmp/ch12.txt
           ffmpeg -v error -f concat -safe 0 -i /tmp/ch12.txt -c copy -y "$root/chapter-012.mp3"
 
           test "$(find "$root/chunks/012" -name '*.mp3' | wc -l)" -eq 25
