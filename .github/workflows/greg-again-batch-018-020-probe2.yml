@@ -1,0 +1,34 @@
+name: Trace Greg Again Provider Playback Reference
+on:
+  push:
+    branches: [audio/greg-again-batch-018-020]
+    paths: ['.github/workflows/greg-again-batch-018-020-probe2.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+      - name: Extract playback references
+        run: |
+          set -euo pipefail
+          url='https://www.aidocmaker.com/g0/audio?name=7c31ecb98d01441298fbb5e536696ee1'
+          curl -L -sS "$url" -o /tmp/page.html
+          {
+            echo '--- mp3/storage/http candidates ---'
+            grep -oE 'https?[^"<> ]+' /tmp/page.html | grep -Ei 'mp3|storage|audio|playback|api' | head -100 || true
+            echo '--- context id occurrences ---'
+            grep -oE '.{0,180}7c31ecb98d01441298fbb5e536696ee1.{0,300}' /tmp/page.html | head -20 || true
+            echo '--- likely endpoint strings ---'
+            grep -oE '[A-Za-z0-9_./?-]{1,120}(audio|voice|playback|generate|status)[A-Za-z0-9_./?=&-]{0,160}' /tmp/page.html | head -150 || true
+            echo '--- script src ---'
+            grep -oE '<script[^>]+src="[^"]+' /tmp/page.html | sed 's/.*src="//' | head -100 || true
+          } > greg-again/audio/capture-debug-018-page.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/capture-debug-018-page.txt
+          git commit -m 'Trace Greg Again provider playback reference'
+          git push origin HEAD:audio/greg-again-batch-018-020
