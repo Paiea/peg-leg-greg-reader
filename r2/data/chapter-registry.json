@@ -1,6 +1,6 @@
 {
   "project_id": "r2",
-  "current_chapter": "r2-ch023",
+  "current_chapter": "r2-ch025",
   "identity_policy": "r2-chNNN and display_number are stable identity; title is mutable metadata refreshed from current written authority",
   "chapters": {
     "r2-ch001": {
@@ -534,6 +534,54 @@
     "r2-ch023": {
       "display_number": 23,
       "title": "The Adventurer",
+      "status": "in_progress",
+      "pipeline": {
+        "scene_packets": "in_progress",
+        "audio": "not_started",
+        "written": "published",
+        "story_sync": "in_progress",
+        "image_plan": "not_started",
+        "image_generation": "not_started",
+        "image_review": "not_started",
+        "image_integration": "not_started"
+      },
+      "images": {
+        "target_count": 2,
+        "planned": 0,
+        "generated": 0,
+        "approved": 0,
+        "integrated": 0
+      },
+      "last_completed_stage": "written",
+      "next_action": "publish_audio_and_plan_images"
+    },
+    "r2-ch024": {
+      "display_number": 24,
+      "title": "The Watchman",
+      "status": "in_progress",
+      "pipeline": {
+        "scene_packets": "in_progress",
+        "audio": "not_started",
+        "written": "published",
+        "story_sync": "in_progress",
+        "image_plan": "not_started",
+        "image_generation": "not_started",
+        "image_review": "not_started",
+        "image_integration": "not_started"
+      },
+      "images": {
+        "target_count": 2,
+        "planned": 0,
+        "generated": 0,
+        "approved": 0,
+        "integrated": 0
+      },
+      "last_completed_stage": "written",
+      "next_action": "publish_audio_and_plan_images"
+    },
+    "r2-ch025": {
+      "display_number": 25,
+      "title": "The Hired Sword",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
