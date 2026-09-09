@@ -1,14 +1,30 @@
 {
-  "chapter_id": "ga-001",
-  "title": "The Boy",
+  "series": "Greg, Again",
   "status": "experimental",
-  "sample_status": "full_chapter_self_hosted",
-  "scope": "full_chapter",
-  "embedded_scope": "full_chapter",
-  "sample_label": "Audio Experiment 002 \u00b7 Greg Subjective Cut \u00b7 Full Chapter",
-  "voice_style": "deep",
   "renderer_adapter": "ai_voice_generator",
-  "duration_seconds": 959.808,
-  "audio_src": "assets/chapter-001.mp3",
-  "full_audio_url": null
+  "voice_style": "deep",
+  "chapters": [
+    {
+      "chapter_id": "ga-001",
+      "number": 1,
+      "title": "The Boy",
+      "status": "experimental",
+      "lens": "greg-subjective",
+      "take_count": 11,
+      "duration_seconds": 959.808,
+      "audio_src": "assets/chapter-001.mp3",
+      "note": "Full Greg-subjective Chapter 1 render, assembled from eleven performance-sized takes."
+    },
+    {
+      "chapter_id": "ga-002",
+      "number": 2,
+      "title": "Two Things",
+      "status": "experimental",
+      "lens": "greg-dominant",
+      "take_count": 12,
+      "duration_seconds": 841.92,
+      "audio_src": "assets/chapter-002.mp3",
+      "note": "Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."
+    }
+  ]
 }
