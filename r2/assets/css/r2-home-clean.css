@@ -1,18 +1,1 @@
-:root {
-  color-scheme: light;
-  --paper: #fbfaf7;
-  --paper-soft: #f5f2ec;
-  --paper-deep: #ebe6dd;
-  --ink: #231f1a;
-  --ink-soft: #4f4942;
-  --muted: #776f66;
-  --faint: #9a9288;
-  --line: #ded9d1;
-  --line-soft: #ebe7e0;
-  --link: #3e4a42;
-  --link-strong: #28332d;
-  --danger: #8f4334;
-  --shadow: 0 16px 44px rgba(35,31,26,.12);
-  --serif: Georgia, 'Times New Roman', serif;
-  --ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
+:root { color-scheme: light; --paper: #fbfaf7; --ink: #231f1a; --link: #3e4a42; }
