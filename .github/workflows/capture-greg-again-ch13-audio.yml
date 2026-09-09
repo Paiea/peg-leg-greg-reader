@@ -1,0 +1,92 @@
+name: Capture Greg Again Chapter 13 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch013-auto
+    paths:
+      - .github/workflows/capture-greg-again-ch13-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-chunks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch013-auto
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Install browser harness
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+      - name: Capture Chapter 13 takes
+        shell: bash
+        run: |
+          mkdir -p greg-again/audio/assets/chunks/013
+          cat > capture.mjs <<'JS'
+          import fs from 'node:fs';
+          import { chromium } from 'playwright';
+          const jobs = [
+            ['01','6daa7d18801a441e964f8b4bf6d06b7f'],
+            ['02','c6425902e9ac47c2ae8f39f3e46dc6ca'],
+            ['03','50610bc49b7246f5befa500b7de34a94'],
+            ['04','f02a4cc647c8415d9f1b8ac562fd7581'],
+            ['05','759adf808c1a4e98bdebef20d2fa9dc7'],
+            ['06','0d4403328e9741df82b47c0f77526fca'],
+            ['07','ddd68cb41b524e269947e4793077c7cc'],
+            ['08','2f6b5cabf8ef4664bc268c5fea94acae'],
+            ['09','09d914a259364f4d9bf9afa0083816f4'],
+            ['10','697278c4b6c0465eb4831e204c8a09be'],
+            ['11','7a056a065cca4c8a8ffcc0cb903b574a'],
+            ['12','74e3726447fb4069ba7748d7b640992d']
+          ];
+          const browser = await chromium.launch({headless:true});
+          const failures=[];
+          async function capture(label,id){
+            const out=`greg-again/audio/assets/chunks/013/${label}.mp3`;
+            if(fs.existsSync(out)&&fs.statSync(out).size>10000)return;
+            const page=await browser.newPage();
+            try{
+              for(let attempt=1;attempt<=12;attempt++){
+                await page.goto(`https://www.aidocmaker.com/g0/audio?name=${id}`,{waitUntil:'domcontentloaded',timeout:60000});
+                await page.waitForTimeout(5000);
+                const text=await page.locator('body').innerText().catch(()=> '');
+                if(/longer than 2 minutes requires a paid plan/i.test(text)) throw new Error('two-minute gate');
+                if(/File Not Found/i.test(text)) throw new Error('file not found');
+                const sources=await page.locator('audio').evaluateAll(nodes=>nodes.map(n=>n.currentSrc||n.src).filter(Boolean)).catch(()=>[]);
+                for(const src of sources){
+                  const response=await page.request.get(src).catch(()=>null);
+                  if(!response||!response.ok()) continue;
+                  const body=await response.body();
+                  if(body.length>10000){fs.writeFileSync(out,body);console.log('CAPTURED',label,body.length);return;}
+                }
+                await page.waitForTimeout(4000);
+              }
+              throw new Error('no playable media surfaced');
+            }finally{await page.close();}
+          }
+          for(const [label,id] of jobs){try{await capture(label,id);}catch(error){failures.push(`${label}: ${error.message}`);}}
+          await browser.close();
+          fs.writeFileSync('/tmp/capture-failures.txt',failures.join('\n'));
+          JS
+          node capture.mjs
+          ls -lh greg-again/audio/assets/chunks/013 || true
+      - name: Commit every successful take
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/013
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: persist Greg Again Chapter 13 takes'
+            git push origin HEAD:audio/greg-again-ch013-auto
+          fi
+      - name: Report missing chunks
+        run: |
+          if [ -s /tmp/capture-failures.txt ]; then cat /tmp/capture-failures.txt; exit 1; fi
