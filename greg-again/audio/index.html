@@ -3,23 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Greg, Again — Audio Experiments</title>
-  <meta name="description" content="Greg, Again audio-native proving runs.">
+  <meta name="theme-color" content="#e5d8bd">
+  <title>Audio Experiments · Peg-Leg Greg R2</title>
+  <meta name="description" content="Playable Peg-Leg Greg R2 audio experiments and chapter renders.">
   <link rel="stylesheet" href="audio.css">
 </head>
 <body>
-  <main class="audio-shell">
-    <p class="eyebrow">GREG, AGAIN</p>
-    <h1>Audio Experiments</h1>
-    <p class="status" id="status" data-state="experimental">Experimental</p>
+  <a class="skip-link" href="#main">Skip to audio</a>
 
-    <section id="chapter-list" class="chapter-list" aria-live="polite">
+  <header class="site-header">
+    <a class="brand" href="../../r2/" aria-label="Peg-Leg Greg R2 home">
+      <span>PEG-LEG GREG</span><small>R2</small>
+    </a>
+    <nav aria-label="Audio experiments navigation">
+      <a href="../../r2/">R2 Home</a>
+      <a href="../../r2/chapters/">Chapters</a>
+      <a aria-current="page" href="./">Audio</a>
+      <a href="../../r2/about/">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="audio-shell">
+    <header class="audio-header">
+      <p class="eyebrow">R2 · Listening lab</p>
+      <h1>Audio Experiments</h1>
+      <p class="lede">Every public audio proving render lives here. Listen straight through, compare chapters, or jump back into the main R2 reader.</p>
+      <p class="status" id="status" data-state="experimental">Experimental</p>
+    </header>
+
+    <section id="chapter-list" class="chapter-list" aria-live="polite" aria-label="Playable audio chapters">
       <p class="render-state">Checking audio renders…</p>
     </section>
 
-    <p class="note">These are medium-specific Greg renders, not conventional audiobook conversions. Each chapter is built in performance-sized takes, assembled into one continuous self-hosted MP3.</p>
-    <p class="note">The question stays simple: would you keep listening?</p>
+    <aside class="audio-note" aria-label="About these renders">
+      <p>These are medium-specific Greg renders, not conventional audiobook conversions. Each chapter is built in performance-sized takes, assembled into one continuous self-hosted MP3.</p>
+      <p>The question stays simple: would you keep listening?</p>
+    </aside>
+
+    <nav class="return-nav" aria-label="Return to R2">
+      <a href="../../r2/">← R2 Home</a>
+      <a href="../../r2/chapters/">Browse written chapters →</a>
+    </nav>
   </main>
+
+  <footer class="site-footer">
+    <p>Peg-Leg Greg · R2 Audio</p>
+    <a href="../../r2/">R2 Home</a>
+  </footer>
+
   <script src="player.js"></script>
 </body>
 </html>
