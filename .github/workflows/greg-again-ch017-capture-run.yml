@@ -1,0 +1,52 @@
+name: Capture and stitch Greg Again Chapter 17
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-015-017
+    paths:
+      - .github/workflows/greg-again-ch017-capture-run.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-015-017
+          fetch-depth: 0
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Capture and stitch
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/017-short
+          list=$(mktemp)
+          i=0
+          while IFS= read -r url; do
+            test -n "$url" || continue
+            i=$((i+1)); n=$(printf '%02d' "$i")
+            out="greg-again/audio/assets/chunks/017-short/${n}.mp3"
+            curl -L --fail --silent --show-error "$url" -o "$out"
+            test "$(stat -c%s "$out")" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out"
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$out" >> "$list"
+          done < greg-again/audio/production/015-017/ch017-short-preview-urls.txt
+          test "$i" -eq 37
+          ffmpeg -v error -f concat -safe 0 -i "$list" -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-017.mp3
+          test "$(stat -c%s greg-again/audio/assets/chapter-017.mp3)" -gt 1000000
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 greg-again/audio/assets/chapter-017.mp3
+      - name: Commit durable Chapter 17 artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/017-short greg-again/audio/assets/chapter-017.mp3
+          git commit -m 'audio: capture regenerated Chapter 17'
+          git push origin HEAD:audio/greg-again-batch-015-017
