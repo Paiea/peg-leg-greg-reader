@@ -1,28 +1,313 @@
-name: Validate Greg Again Audio
+name: Apply verified mana pronunciation repairs
 
 on:
-  pull_request:
-    paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
-      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - main
+      - audio/greg-again-mana-pronunciation-repair-v2
     paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+  repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
         with:
-          python-version: '3.13'
-      - name: Run Greg Again audio catalog contract
-        run: python -m unittest tests.test_greg_again_audio_catalog -v
+          ref: audio/greg-again-mana-pronunciation-repair-v2
+          fetch-depth: 0
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Apply exact verified repair map
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          export REPAIR_MAIN_SHA="$(git rev-parse origin/main)"
+          echo "Repair source authority: $REPAIR_MAIN_SHA"
+
+          python3 - <<'PY'
+          import hashlib, json, os, re, shutil, subprocess, tempfile
+          from pathlib import Path
+
+          root=Path('.')
+          audio=root/'greg-again/audio'
+          prod=audio/'production'
+          ledger=json.loads((prod/'2026-09-08-mana-provider-ledger.json').read_text())
+          initial=json.loads((prod/'2026-09-08-mana-seam-diagnostic.json').read_text())
+          asr=json.loads((prod/'2026-09-08-mana-asr-alignment.json').read_text())
+
+          allow=[
+            'ch002-t02-m01','ch002-t10-m01','ch003-t01-m01','ch003-t03-m01','ch003-t03-m02','ch003-t04-m01',
+            'ch004-t01-m01','ch004-t02-m01','ch005-t04-m01','ch006-t03-m01','ch006-t04-m01','ch006-t04-m02',
+            'ch006-t05-m01','ch006-t06-m01','ch006-t08-m01','ch006-t10-m01','ch006-t12-m01','ch011-t14-m01',
+            'ch018-t13-m01','ch018-t18-m01','ch018-t32-m01','ch019-t07-m01','ch019-t08-m01','ch022-t03-m01'
+          ]
+          allowset=set(allow)
+          accepted={x['target']:x for x in ledger['accepted']}
+          if set(accepted) != allowset:
+              raise SystemExit(f'accepted provider ledger mismatch missing={sorted(allowset-set(accepted))} extra={sorted(set(accepted)-allowset)}')
+
+          def parse_target(key):
+              m=re.fullmatch(r'ch(\d{3})-t(\d+)-m(\d+)',key)
+              if not m: raise ValueError(key)
+              return int(m.group(1)), int(m.group(2)), int(m.group(3))
+
+          def default_source(key):
+              ch,take,_=parse_target(key)
+              return f'greg-again/audio/assets/chunks/{ch:03d}/{take:02d}.mp3'
+
+          # Start only from the original diagnostic entries that were already classified high-confidence.
+          final={}
+          for x in initial['targets']:
+              if x['target'] in allowset and x.get('status')=='high_confidence':
+                  final[x['target']]={'start':float(x['splice_start']),'end':float(x['splice_end']),'source':default_source(x['target']),'evidence':'initial_high_confidence'}
+
+          # Replace low-confidence first-pass coordinates only where the speech-alignment pass proved them.
+          for x in asr['targets']:
+              if x['target'] in allowset and x.get('status')=='high_confidence_asr':
+                  final[x['target']]={'start':float(x['splice_start']),'end':float(x['splice_end']),'source':default_source(x['target']),'evidence':'asr_high_confidence'}
+
+          # Provider-safe split routing and tighter locally-proven seams.
+          explicit={
+            'ch006-t05-m01': {'source':'greg-again/audio/assets/chunks/006/06.mp3','start':7.988,'end':9.610,'evidence':'widened_metal_sentence_waveform'},
+            'ch006-t06-m01': {'source':'greg-again/audio/assets/chunks/006/07.mp3','start':24.955,'end':26.095,'evidence':'focused_local_word_and_silence'},
+            'ch006-t08-m01': {'source':'greg-again/audio/assets/chunks/006/09.mp3','start':1.515,'end':3.202,'evidence':'authoritative_provider_alignment'},
+            'ch006-t10-m01': {'source':'greg-again/audio/assets/chunks/006/11.mp3','start':29.110,'end':30.696,'evidence':'authoritative_provider_alignment'},
+            'ch006-t12-m01': {'source':'greg-again/audio/assets/chunks/006/13.mp3','start':17.701,'end':19.621,'evidence':'authoritative_provider_alignment'},
+            'ch011-t14-m01': {'source':'greg-again/audio/assets/chapter-011.mp3','start':331.964,'end':335.772,'evidence':'assembled_chapter_exact_match_ratio_1'},
+            'ch018-t18-m01': {'source':'greg-again/audio/assets/chunks/018/17.mp3','start':21.691,'end':22.844,'evidence':'direct_provider_chunk_search_and_local_silence'},
+            'ch022-t03-m01': {'source':'greg-again/audio/assets/chunks/022/04.mp3','start':70.461,'end':73.048,'evidence':'direct_provider_chunk_search_and_local_silence'},
+          }
+          final.update(explicit)
+
+          if set(final)!=allowset:
+              raise SystemExit(f'final splice map incomplete missing={sorted(allowset-set(final))} extra={sorted(set(final)-allowset)}')
+          if len(final)!=24:
+              raise SystemExit(f'expected 24 repair actions, got {len(final)}')
+
+          # Bind every action to the exact human-accepted durable provider clip.
+          for key,action in final.items():
+              p=accepted[key]
+              action['replacement']=p['durable_path']
+              action['provider_text']=p['provider_text']
+              action['context_id']=p['context_id']
+              action['expected_replacement_sha256']=p['sha256']
+          # One awkward Chapter 6 sentence has a wider replacement so both seams are natural.
+          final['ch006-t05-m01'].update({
+              'replacement':'greg-again/audio/production/mana-repair-artifacts/ch006-t05-m01-wide.mp3',
+              'provider_text':'Metal. Mah-nah-bearing residue.',
+              'context_id':'26d3c2900dec4f11b84b456c9e21dbd4',
+              'expected_replacement_sha256':'a6888b57126901b372e59b1454612b3a344467380c9efda2187d8c02dbe0cd81'
+          })
+
+          sources={x['source'] for x in final.values()}
+          if len(sources)!=22:
+              raise SystemExit(f'expected 22 unique repair audio sources, got {len(sources)}: {sorted(sources)}')
+
+          def sha256_bytes(b): return hashlib.sha256(b).hexdigest()
+          def sha256_file(p): return sha256_bytes(Path(p).read_bytes())
+          def git_bytes(ref,path): return subprocess.check_output(['git','show',f'{ref}:{path}'])
+          def duration(p):
+              return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],text=True).strip())
+          def probe_stream(p):
+              d=json.loads(subprocess.check_output(['ffprobe','-v','error','-select_streams','a:0','-show_entries','stream=sample_rate,channels,bit_rate','-of','json',str(p)],text=True))['streams'][0]
+              return int(d.get('sample_rate') or 24000), int(d.get('channels') or 1), int(d.get('bit_rate') or 128000)
+          def run(cmd): subprocess.run(cmd,check=True)
+
+          # Fail closed if current main changed any source underneath the proven coordinates.
+          source_guard=[]
+          for src in sorted(sources):
+              p=root/src
+              if not p.is_file(): raise SystemExit(f'missing repair source: {src}')
+              local=sha256_file(p); main=sha256_bytes(git_bytes('origin/main',src))
+              same=local==main
+              source_guard.append({'path':src,'local_sha256':local,'current_main_sha256':main,'matches_current_main':same})
+              if not same: raise SystemExit(f'ABORT source drift versus current main: {src}')
+
+          # Verify replacement identities before editing.
+          for key,a in final.items():
+              rp=root/a['replacement']
+              if not rp.is_file(): raise SystemExit(f'missing replacement {key}: {rp}')
+              got=sha256_file(rp)
+              if got!=a['expected_replacement_sha256']:
+                  raise SystemExit(f'replacement hash mismatch {key}: {got}')
+              if a['start']>=a['end']:
+                  raise SystemExit(f'invalid splice {key}: {a}')
+
+          pre_source={src:{'sha256':sha256_file(root/src),'duration_seconds':round(duration(root/src),3)} for src in sources}
+          affected_chapters=sorted({parse_target(k)[0] for k in allow})
+          if affected_chapters != [2,3,4,5,6,11,18,19,22]: raise SystemExit(affected_chapters)
+          pre_chapter={ch:{'sha256':sha256_file(audio/f'assets/chapter-{ch:03d}.mp3'),'duration_seconds':round(duration(audio/f'assets/chapter-{ch:03d}.mp3'),3)} for ch in affected_chapters}
+
+          tmp=Path(tempfile.mkdtemp(prefix='mana-repair-'))
+          try:
+              # Rebuild each source once from its original bytes. Multiple repairs in one source use
+              # original coordinates in sorted order, so the first replacement cannot shift the second.
+              by_source={}
+              for key,a in final.items(): by_source.setdefault(a['source'],[]).append((key,a))
+              source_results=[]
+              for idx,(src,actions) in enumerate(sorted(by_source.items())):
+                  original=root/src
+                  acts=sorted(actions,key=lambda kv:kv[1]['start'])
+                  last=-1
+                  for key,a in acts:
+                      if a['start'] < last: raise SystemExit(f'overlapping repairs in {src}: {acts}')
+                      last=a['end']
+                  sr,channels,bitrate=probe_stream(original)
+                  pieces=[]; cursor=0.0
+                  for n,(key,a) in enumerate(acts):
+                      if a['start']>cursor+0.001:
+                          seg=tmp/f'{idx:02d}-{n:02d}-orig.mp3'
+                          cmd=['ffmpeg','-hide_banner','-loglevel','error','-y']
+                          if cursor>0: cmd += ['-ss',f'{cursor:.6f}']
+                          cmd += ['-i',str(original),'-t',f'{a["start"]-cursor:.6f}','-c:a','copy',str(seg)]
+                          run(cmd); pieces.append(seg)
+                      rep=tmp/f'{idx:02d}-{n:02d}-rep.mp3'
+                      run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',str(root/a['replacement']),'-ar',str(sr),'-ac',str(channels),'-c:a','libmp3lame','-b:a',str(bitrate),str(rep)])
+                      pieces.append(rep); cursor=a['end']
+                  suffix=tmp/f'{idx:02d}-suffix.mp3'
+                  run(['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',f'{cursor:.6f}','-i',str(original),'-c:a','copy',str(suffix)])
+                  pieces.append(suffix)
+                  concat=tmp/f'{idx:02d}.txt'
+                  concat.write_text(''.join(f"file '{p.resolve()}'\n" for p in pieces))
+                  repaired=tmp/f'{idx:02d}-repaired.mp3'
+                  run(['ffmpeg','-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',str(concat),'-c:a','copy',str(repaired)])
+                  run(['ffprobe','-v','error',str(repaired)])
+                  shutil.copyfile(repaired,original)
+                  source_results.append({
+                      'path':src,'repair_targets':[k for k,_ in acts],
+                      'pre_sha256':pre_source[src]['sha256'],'post_sha256':sha256_file(original),
+                      'pre_duration_seconds':pre_source[src]['duration_seconds'],'post_duration_seconds':round(duration(original),3)
+                  })
+                  if source_results[-1]['pre_sha256']==source_results[-1]['post_sha256']:
+                      raise SystemExit(f'repair produced no byte change: {src}')
+
+              # Restitch only chapters backed by durable chunk sets. Chapter 11 is intentionally direct.
+              restitch=[2,3,4,5,6,18,19,22]
+              for ch in restitch:
+                  cdir=audio/f'assets/chunks/{ch:03d}'
+                  chunks=sorted([p for p in cdir.glob('*.mp3') if re.fullmatch(r'\d+\.mp3',p.name)],key=lambda p:int(p.stem))
+                  if not chunks: raise SystemExit(f'no numeric chunks for chapter {ch}')
+                  listing=tmp/f'ch{ch:03d}.txt'
+                  listing.write_text(''.join(f"file '{p.resolve()}'\n" for p in chunks))
+                  out=tmp/f'chapter-{ch:03d}.mp3'
+                  run(['ffmpeg','-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',str(listing),'-c:a','copy',str(out)])
+                  run(['ffprobe','-v','error',str(out)])
+                  shutil.copyfile(out,audio/f'assets/chapter-{ch:03d}.mp3')
+
+              post_chapter={ch:{'sha256':sha256_file(audio/f'assets/chapter-{ch:03d}.mp3'),'duration_seconds':round(duration(audio/f'assets/chapter-{ch:03d}.mp3'),3)} for ch in affected_chapters}
+              for ch in affected_chapters:
+                  if pre_chapter[ch]['sha256']==post_chapter[ch]['sha256']:
+                      raise SystemExit(f'chapter {ch} did not change')
+
+              # Refresh duration-only fields where durable take maps safely expose their audio files.
+              modified_sources=set(sources)
+              takes_updates=[]
+              for ch in affected_chapters:
+                  tp=audio/f'takes/{ch:03d}.json'
+                  if not tp.is_file(): continue
+                  data=json.loads(tp.read_text())
+                  changed=[]
+                  for t in data.get('takes',[]):
+                      durable=t.get('durable_file')
+                      if durable and durable in modified_sources and (root/durable).is_file():
+                          old=t.get('duration_seconds'); new=round(duration(root/durable),3)
+                          t['duration_seconds']=new; changed.append({'take':t.get('take'),'durable_file':durable,'old_duration_seconds':old,'new_duration_seconds':new})
+                  if 'take_duration_sum_seconds' in data:
+                      vals=[t.get('duration_seconds') for t in data.get('takes',[]) if isinstance(t.get('duration_seconds'),(int,float))]
+                      if len(vals)==len(data.get('takes',[])): data['take_duration_sum_seconds']=round(sum(vals),3)
+                  if 'assembled_duration_seconds' in data: data['assembled_duration_seconds']=post_chapter[ch]['duration_seconds']
+                  if changed or 'assembled_duration_seconds' in data:
+                      tp.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
+                      takes_updates.append({'chapter':ch,'changed_takes':changed,'assembled_duration_seconds':post_chapter[ch]['duration_seconds']})
+
+              # Manifest duration metadata follows the actual repaired files. Identity and titles are untouched.
+              mp=audio/'manifest.json'; manifest=json.loads(mp.read_text())
+              bynum={x['number']:x for x in manifest['chapters']}
+              manifest_changes=[]
+              for ch in affected_chapters:
+                  entry=bynum[ch]; old=entry.get('duration_seconds'); new=post_chapter[ch]['duration_seconds']
+                  entry['duration_seconds']=new
+                  manifest_changes.append({'chapter':ch,'chapter_id':entry['chapter_id'],'old_duration_seconds':old,'new_duration_seconds':new})
+              mp.write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n')
+
+              # Chapter 19 has one exact-duration regression assertion. Keep it accurate rather than stale.
+              testp=root/'tests/test_greg_again_audio_catalog.py'
+              text=testp.read_text()
+              old='self.assertEqual(867.168, chapter["duration_seconds"])'
+              new=f'self.assertEqual({post_chapter[19]["duration_seconds"]}, chapter["duration_seconds"])'
+              if old in text: text=text.replace(old,new,1)
+              elif new not in text: raise SystemExit('Chapter 19 exact-duration assertion changed unexpectedly')
+              testp.write_text(text)
+
+              # Durable lesson from the repair: provider segmentation outranks script numbering.
+              doc=root/'r2/AUDIO_PRODUCTION.md'
+              dtext=doc.read_text()
+              marker='## Surgical repair provenance\n'
+              if marker not in dtext:
+                  addition='''\n\n## Surgical repair provenance\n\nFor surgical audio repair, do not assume a script take number maps one-to-one to the same numbered provider chunk. Provider-safe synthesis may split one script take into multiple durable chunks, which shifts later provider numbering. Resolve the actual durable provider artifact from take maps, provider contexts, capture evidence, or direct audio evidence before deriving splice coordinates.\n\nHistorical chapters may predate persisted provider chunks. When an exact provider artifact cannot be durably recovered, a repair may target the verified assembled chapter audio directly, but only after exact historical spoken text and local audio boundaries are proven. Never invent a missing chunk or regenerate from current prose merely to make the storage model look uniform.\n'''
+                  doc.write_text(dtext.rstrip()+addition+'\n')
+
+              repair_record={
+                  'repair':'Greg Again mana pronunciation surgical repair',
+                  'main_source_authority':os.environ['REPAIR_MAIN_SHA'],
+                  'canonical_spelling':'mana',
+                  'canonical_text_changed':False,
+                  'repair_action_count':len(final),
+                  'unique_source_count':len(sources),
+                  'affected_chapters':affected_chapters,
+                  'source_guard':source_guard,
+                  'actions':[dict(target=k,**final[k]) for k in allow],
+                  'source_results':source_results,
+                  'chapter_results':[{'chapter':ch,'pre':pre_chapter[ch],'post':post_chapter[ch]} for ch in affected_chapters],
+                  'take_metadata_updates':takes_updates,
+                  'manifest_duration_updates':manifest_changes,
+                  'chapter_11_mode':'direct assembled chapter repair; legacy provider chunks were not persisted',
+                  'routing_lessons':['script take number is not automatically provider chunk number','provider-safe splits can shift later durable chunk numbering','repair coordinates belong to verified audio artifacts, not inferred filenames']
+              }
+              (prod/'2026-09-09-mana-pronunciation-repair.json').write_text(json.dumps(repair_record,indent=2,ensure_ascii=False)+'\n')
+
+              print(json.dumps({
+                  'main_source_authority':os.environ['REPAIR_MAIN_SHA'],
+                  'repair_actions':len(final),'unique_sources':len(sources),'affected_chapters':affected_chapters,
+                  'manifest_durations':{str(ch):post_chapter[ch]['duration_seconds'] for ch in affected_chapters}
+              },indent=2))
+          finally:
+              shutil.rmtree(tmp,ignore_errors=True)
+          PY
+
+          python -m unittest tests.test_greg_again_audio_catalog -v
+
+          # Hard changed-path/canonical guard before committing.
+          git diff --name-only > /tmp/changed.txt
+          echo 'Changed paths:'
+          cat /tmp/changed.txt
+          if grep -E '^(r2/assets/written/|state/experiments/greg-again/prose/|greg-again/audio/scripts/)' /tmp/changed.txt; then
+            echo 'Canonical or script surface changed unexpectedly' >&2
+            exit 1
+          fi
+          unexpected=$(grep -Ev '^(.github/workflows/greg-again-audio.yml|greg-again/audio/assets/chapter-(002|003|004|005|006|011|018|019|022)\.mp3|greg-again/audio/assets/chunks/(002|003|004|005|006|018|019|022)/[0-9]+\.mp3|greg-again/audio/manifest\.json|greg-again/audio/takes/(002|003|004|005|006|011|018|019|022)\.json|greg-again/audio/production/2026-09-09-mana-pronunciation-repair\.json|r2/AUDIO_PRODUCTION\.md|tests/test_greg_again_audio_catalog\.py)$' /tmp/changed.txt || true)
+          if [ -n "$unexpected" ]; then
+            echo 'Unexpected changed paths:' >&2
+            printf '%s\n' "$unexpected" >&2
+            exit 1
+          fi
+      - name: Restore validator, verify again, and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Restore the repository validator, never ship the temporary surgery harness.
+          git show origin/main:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
+          python -m unittest tests.test_greg_again_audio_catalog -v
+          git add greg-again/audio/assets greg-again/audio/manifest.json greg-again/audio/takes greg-again/audio/production/2026-09-09-mana-pronunciation-repair.json r2/AUDIO_PRODUCTION.md tests/test_greg_again_audio_catalog.py .github/workflows/greg-again-audio.yml
+          git status --short
+          git commit -m 'audio: repair Greg Again mana pronunciation'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
