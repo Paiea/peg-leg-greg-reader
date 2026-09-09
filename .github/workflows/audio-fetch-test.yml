@@ -8,26 +8,26 @@ on:
       - .github/workflows/audio-fetch-test.yml
 
 jobs:
-  fetch-document-record:
+  fetch-preview-bridge:
     runs-on: ubuntu-latest
     steps:
-      - name: Resolve Chapter 12 take 01 document record
+      - name: Fetch public preview MP3
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p out
-          endpoint='https://level2labs-prod--adm-agent-helper-user-fetch-document.modal.run'
-          curl --silent --show-error --location \
-            -X POST "$endpoint" \
-            -H 'Content-Type: application/json' \
-            --data '{"context_id":"98aef78da55b4520a8acf2c5636c7d56","context_type":"audio","refresh":true}' \
-            -D out/headers.txt \
-            -o out/document.json
-          echo '--- status/body ---'
-          cat out/headers.txt
-          python -m json.tool out/document.json || cat out/document.json
+          url='https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c3a7eb16-58f2-4ba9-97b2-9b1a60bf5e5e.mp3'
+          curl --fail --location "$url" -o out/handoff-test.mp3
+          test -s out/handoff-test.mp3
+          file out/handoff-test.mp3
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('out/handoff-test.mp3')
+          b=p.read_bytes()
+          print('bytes',len(b),'prefix',b[:16].hex())
+          PY
       - uses: actions/upload-artifact@v4
         with:
-          name: ga012-take01-document-record
-          path: out
+          name: ga-audio-preview-bridge-test
+          path: out/handoff-test.mp3
           if-no-files-found: error
