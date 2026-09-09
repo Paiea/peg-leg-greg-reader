@@ -27,24 +27,44 @@ jobs:
           download_take() {
             local take="$1" id="$2"
             local out="greg-again/audio/assets/chunks/020/${take}.mp3"
+            local page="/tmp/ga20/${take}.page"
             local tmp="${out}.tmp"
-            local url="https://www.aidocmaker.com/g0/audio?name=${id}"
-            local attempt http size
-            for attempt in $(seq 1 18); do
-              rm -f "$tmp"
-              http="$(curl -L -sS --connect-timeout 20 --max-time 120 -o "$tmp" -w '%{http_code}' "$url" || true)"
-              size=0
-              if [ -f "$tmp" ]; then size="$(stat -c%s "$tmp")"; fi
-              if [ "$http" = "200" ] && [ "$size" -gt 10000 ] && ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$tmp" >/dev/null 2>&1; then
-                mv "$tmp" "$out"
-                echo "captured take ${take}: ${size} bytes"
-                return 0
-              fi
-              echo "take ${take} not ready: attempt=${attempt} http=${http} bytes=${size}"
-              sleep 5
-            done
-            echo "FAILED take ${take} id=${id}" >&2
-            return 1
+            local provider="https://www.aidocmaker.com/g0/audio?name=${id}"
+            rm -f "$page" "$tmp"
+            curl -L --fail -sS --connect-timeout 20 --max-time 120 "$provider" -o "$page"
+            if ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$page" >/dev/null 2>&1; then
+              mv "$page" "$out"
+              echo "captured raw take ${take}"
+              return 0
+            fi
+            local direct
+            direct="$(python - "$page" <<'PY'
+          import html, re, sys
+          text = open(sys.argv[1], 'r', encoding='utf-8', errors='ignore').read()
+          text = html.unescape(text).replace('\\u002F','/').replace('\\/','/')
+          patterns = [
+              r'https://storage\.googleapis\.com/[^"\'<>\\ ]+?\.mp3(?:\?[^"\'<>\\ ]*)?',
+              r'https://[^"\'<>\\ ]+?mcp-preview/[^"\'<>\\ ]+?\.mp3(?:\?[^"\'<>\\ ]*)?',
+              r'https://[^"\'<>\\ ]+?\.mp3(?:\?[^"\'<>\\ ]*)?'
+          ]
+          for pat in patterns:
+              m = re.search(pat, text)
+              if m:
+                  print(m.group(0))
+                  raise SystemExit(0)
+          raise SystemExit(1)
+          PY
+            )" || {
+              echo "No direct MP3 URL found for take ${take}. Playback-page clues:" >&2
+              grep -Eio '.{0,120}(storage\.googleapis\.com|mcp-preview|\.mp3|audioUrl|audio_url|downloadUrl|playback).{0,180}' "$page" | head -80 || true
+              return 1
+            }
+            echo "unwrapped take ${take}: ${direct}"
+            curl -L --fail -sS --retry 3 --connect-timeout 20 --max-time 180 "$direct" -o "$tmp"
+            test "$(stat -c%s "$tmp")" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$tmp" >/dev/null
+            mv "$tmp" "$out"
+            echo "captured take ${take}: $(stat -c%s "$out") bytes"
           }
           download_take 01 208ccbd1ff0043248c12d56da0327d3e
           download_take 02 9ea1d604d57f415a83b61787d9637269
