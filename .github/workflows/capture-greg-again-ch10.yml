@@ -1,0 +1,42 @@
+name: Capture Greg Again Chapter 10
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch10-returner
+    paths:
+      - .github/workflows/capture-greg-again-ch10.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch10-returner
+
+      - name: Download completed voice render
+        run: |
+          mkdir -p greg-again/audio/assets
+          curl --location --fail --retry 20 --retry-delay 15 --retry-all-errors \
+            'https://www.aidocmaker.com/g0/audio?name=225f642054124245bd75c06a565ae486' \
+            --output greg-again/audio/assets/chapter-010.mp3
+          test -s greg-again/audio/assets/chapter-010.mp3
+          test "$(stat -c%s greg-again/audio/assets/chapter-010.mp3)" -gt 1000000
+
+      - name: Verify media
+        run: |
+          file greg-again/audio/assets/chapter-010.mp3
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 greg-again/audio/assets/chapter-010.mp3
+
+      - name: Commit durable audio
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-010.mp3
+          git commit -m 'Capture Greg Again Chapter 10 audio'
+          git push origin HEAD:audio/greg-again-ch10-returner
