@@ -1,0 +1,47 @@
+name: Inspect Provider Client Bundle Audio API
+on:
+  push:
+    branches: [audio/greg-again-batch-018-020]
+    paths: ['.github/workflows/greg-again-batch-018-020-probe4.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+      - name: Inspect client bundle
+        run: |
+          python <<'PY'
+          import re, urllib.request
+          from pathlib import Path
+          base='https://www.aidocmaker.com'
+          page=urllib.request.urlopen(base+'/g0/audio?name=7c31ecb98d01441298fbb5e536696ee1').read().decode('utf-8','ignore')
+          srcs=re.findall(r'<script[^>]+src="([^"]+)',page)
+          chunks=[]
+          for src in srcs:
+            url=src if src.startswith('http') else base+src
+            try:
+              chunks.append(urllib.request.urlopen(url,timeout=30).read().decode('utf-8','ignore'))
+            except Exception as e:
+              chunks.append(f'/* ERR {url} {e} */')
+          text='\n'.join(chunks)
+          needles=['fetch(','/api/','g0/audio','audioUrl','audio_url','storage.googleapis','mcp-preview','playback','context_id','contextId','jobId','generateAudio','voice']
+          lines=[]
+          for needle in needles:
+            lines.append(f'--- {needle} ---')
+            start=0; count=0
+            while count<80:
+              i=text.find(needle,start)
+              if i<0: break
+              lines.append(text[max(0,i-240):min(len(text),i+520)].replace('\n',' '))
+              start=i+len(needle); count+=1
+          Path('greg-again/audio/capture-debug-018-client.txt').write_text('\n'.join(lines),encoding='utf-8')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/capture-debug-018-client.txt
+          git commit -m 'Inspect provider client bundle audio API'
+          git push origin HEAD:audio/greg-again-batch-018-020
