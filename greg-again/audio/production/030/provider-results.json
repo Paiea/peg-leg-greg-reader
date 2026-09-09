@@ -1,0 +1,33 @@
+{
+  "chapter_id": "ga-030",
+  "chapter": 30,
+  "title": "Eventually",
+  "voice": "deep",
+  "provider": "ai_voice_generator",
+  "results": [
+    {"take":1,"context_id":"93c62921d43f4b47b08af01c1254e583","audio_url":"https://www.aidocmaker.com/g0/audio?name=93c62921d43f4b47b08af01c1254e583","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/066bdf2b-8393-48b0-bf24-9d261fd4f03d.mp3","status":"ready"},
+    {"take":2,"context_id":"eef4a54dc9d14f52ad0287ecdf6ad41b","audio_url":"https://www.aidocmaker.com/g0/audio?name=eef4a54dc9d14f52ad0287ecdf6ad41b","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/052990e4-168b-4a42-8613-13a2600c63f0.mp3","status":"ready"},
+    {"take":3,"context_id":"9de6b3d71a94456a851aad6fa78f0f61","audio_url":"https://www.aidocmaker.com/g0/audio?name=9de6b3d71a94456a851aad6fa78f0f61","status":"queued"},
+    {"take":4,"context_id":"923799aae20742f589cc2c07365addc6","audio_url":"https://www.aidocmaker.com/g0/audio?name=923799aae20742f589cc2c07365addc6","status":"queued"},
+    {"take":5,"context_id":"3aa9322b2bcd4c218ac990177dca452d","audio_url":"https://www.aidocmaker.com/g0/audio?name=3aa9322b2bcd4c218ac990177dca452d","status":"queued"},
+    {"take":6,"context_id":"44dd9c10f0914523ba3ec43cc049e3e6","audio_url":"https://www.aidocmaker.com/g0/audio?name=44dd9c10f0914523ba3ec43cc049e3e6","status":"queued"},
+    {"take":7,"context_id":"d2ef6ede019e416393d2f3cc0168f32b","audio_url":"https://www.aidocmaker.com/g0/audio?name=d2ef6ede019e416393d2f3cc0168f32b","status":"queued"},
+    {"take":8,"context_id":"316d081b57bd4b6d920ac047a0935e88","audio_url":"https://www.aidocmaker.com/g0/audio?name=316d081b57bd4b6d920ac047a0935e88","status":"queued"},
+    {"take":9,"context_id":"572ec56651c64a6ca90b942d4c22affe","audio_url":"https://www.aidocmaker.com/g0/audio?name=572ec56651c64a6ca90b942d4c22affe","status":"queued"},
+    {"take":10,"context_id":"8aef05ee38714e2e8a7b9c0a2d49929f","audio_url":"https://www.aidocmaker.com/g0/audio?name=8aef05ee38714e2e8a7b9c0a2d49929f","status":"queued"},
+    {"take":11,"context_id":"e870748eb15945be855e8f34a4e068df","audio_url":"https://www.aidocmaker.com/g0/audio?name=e870748eb15945be855e8f34a4e068df","status":"queued"},
+    {"take":12,"context_id":"576113c44b8a449d8a633da86a14549d","audio_url":"https://www.aidocmaker.com/g0/audio?name=576113c44b8a449d8a633da86a14549d","status":"queued"},
+    {"take":13,"context_id":"322a8d47bd594fd5babe5909b0762f58","audio_url":"https://www.aidocmaker.com/g0/audio?name=322a8d47bd594fd5babe5909b0762f58","status":"queued"},
+    {"take":14,"context_id":"80220903a3974811935bad507412aefc","audio_url":"https://www.aidocmaker.com/g0/audio?name=80220903a3974811935bad507412aefc","status":"queued"},
+    {"take":15,"context_id":"d3404150148c43078043b3de439f486f","audio_url":"https://www.aidocmaker.com/g0/audio?name=d3404150148c43078043b3de439f486f","status":"queued"},
+    {"take":16,"context_id":"8afb952ddb6c4c82bc375792248a256b","audio_url":"https://www.aidocmaker.com/g0/audio?name=8afb952ddb6c4c82bc375792248a256b","status":"queued"},
+    {"take":17,"context_id":"bccd7e15954d4e2d96f11beb5938c25b","audio_url":"https://www.aidocmaker.com/g0/audio?name=bccd7e15954d4e2d96f11beb5938c25b","status":"queued"},
+    {"take":18,"context_id":"f2966519c05245d99011d8777b61edc4","audio_url":"https://www.aidocmaker.com/g0/audio?name=f2966519c05245d99011d8777b61edc4","status":"queued"},
+    {"take":19,"context_id":"6ec99905f96b47d7b2d68cffd1603531","audio_url":"https://www.aidocmaker.com/g0/audio?name=6ec99905f96b47d7b2d68cffd1603531","status":"queued"},
+    {"take":20,"context_id":"2a2c67e134b746519fd9faf141d6cedc","audio_url":"https://www.aidocmaker.com/g0/audio?name=2a2c67e134b746519fd9faf141d6cedc","status":"queued"},
+    {"take":21,"context_id":"10bc1f31b1f34b018929c6b64e06a5fa","audio_url":"https://www.aidocmaker.com/g0/audio?name=10bc1f31b1f34b018929c6b64e06a5fa","status":"queued"},
+    {"take":22,"context_id":"57834b17ed2a4934ad3c95d13b4f3f51","audio_url":"https://www.aidocmaker.com/g0/audio?name=57834b17ed2a4934ad3c95d13b4f3f51","status":"queued"},
+    {"take":23,"context_id":"c33344093c9f44f7aeab1975c85eec51","audio_url":"https://www.aidocmaker.com/g0/audio?name=c33344093c9f44f7aeab1975c85eec51","status":"queued"},
+    {"take":24,"context_id":"63d3ed64e398473e99a93e3a21f6b7eb","audio_url":"https://www.aidocmaker.com/g0/audio?name=63d3ed64e398473e99a93e3a21f6b7eb","status":"queued"}
+  ]
+}
