@@ -29,6 +29,7 @@ r2/
     css/                     # R2-only presentation
     js/                      # manifest-driven site/chapter rendering
     images/                  # site/UI mood art only
+      site/                  # preferred deterministic path for homepage/site art
 
   about/                     # public process/lineage explanation
   chapters/                  # public chapter browser
@@ -83,7 +84,26 @@ Only mark `written.status` as `published` once a real R2 written rendition exist
 
 ### Images
 
-Chapter manifests contain only approved R2 chapter images. Mood/site artwork belongs under `r2/assets/images/` and stays separate from chapter visual canon.
+Chapter manifests contain only approved R2 chapter images. Mood/site artwork belongs under `r2/assets/images/site/` and stays separate from chapter visual canon.
+
+Generated/edited image binaries follow `state/IMAGE_BINARY_HANDOFF.md`.
+
+Do not use the AI/GitHub binary-write path as the default transport for approved generated art after the corrupted R2 hero incident. For normal image handoff:
+
+1. AI chooses the stable filename and exact destination.
+2. AI provides the handoff manifest/instructions and, for batches, a clean ZIP when safe bytes are actually available.
+3. Keoni manually places the approved binary into the named repo path when direct binary transport is unreliable.
+4. AI re-reads and opens the repository file to verify the actual bytes.
+5. Only then should HTML, chapter manifests, gallery state, or visual continuity state point at the asset.
+6. Highly visible site art should also be checked on the deployed page after merge.
+
+For the current homepage hero, the preferred stable path is:
+
+```text
+r2/assets/images/site/r2-hero.webp
+```
+
+A site hero is `site_mood`, not Greg character canon unless a later explicit visual-authority decision promotes useful evidence from it.
 
 ## Reader principles
 
