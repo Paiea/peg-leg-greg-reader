@@ -1,0 +1,23 @@
+{
+  "chapter_id": "ga-028",
+  "chapter": 28,
+  "title": "The Second Hand",
+  "source": "r2/assets/written/ch028.md",
+  "voice": "deep",
+  "takes": [
+    {"take":1,"source_start":"Sella found me work the next morning because apparently spending money near her desk created a scent.","source_end":"I chose suspicion.","context_id":"3559b258366d48cfa5e0cc3c4a5bb000","status":"submitted"},
+    {"take":2,"source_start":"\"Specifically?\"","source_end":"\"Then this is another strong morning.\"","context_id":"61479fedb18241259e05817c0eaa369c","status":"submitted"},
+    {"take":3,"source_start":"Meren Voss was waiting outside a long brick counting house with a tool case at her feet and a cup of something steaming in one hand.","source_end":"Professional authority had many forms.","context_id":"2e6ff43accb44025a34f43041294405b","status":"submitted"},
+    {"take":4,"source_start":"Meren crouched by the left rail.","source_end":"Good.","context_id":"8a8399b25fa54096a9596914d76b40ed","status":"submitted"},
+    {"take":5,"source_start":"Meren stood and took a narrow forked tool from the case.","source_end":"Very measurable profession.","context_id":"ef21f7f62c6945b39bc946fd4f7706b8","status":"submitted"},
+    {"take":6,"source_start":"She stood.","source_end":"Different body part.","context_id":"cab243ff8aa846f687de160807d09679","status":"submitted"},
+    {"take":7,"source_start":"Meren reset.","source_end":"Trust, commercial edition.","context_id":"fed6fa5eb89f4d178d833ebead2f06cb","status":"submitted"},
+    {"take":8,"source_start":"Again.","source_end":"Title acquired.","context_id":"aa388ce08814470788f50694ca726eeb","status":"submitted"},
+    {"take":9,"source_start":"Meren opened the upper bar.","source_end":"Less wasted time spending it.","context_id":"d841023ea40c4e7ab245cd0620e69a83","status":"submitted","provider_substitution":"written mana -> provider ma-na"},
+    {"take":10,"source_start":"The foreman reappeared.","source_end":"Never volunteer for that title.","context_id":"1ef687ff59d74cb3b20423fce04aa398","status":"submitted"},
+    {"take":11,"source_start":"Meren reopened the upper bar.","source_end":"Support branding remained terrible.","context_id":"6a8d6dd2632547e7b6834faa540fcbf2","status":"submitted"},
+    {"take":12,"source_start":"Meren packed the tools.","source_end":"I carried the case to her cart.","context_id":"077d89ecf9354abf96a93339b5984a3d","status":"submitted"},
+    {"take":13,"source_start":"At the Guild, Sella counted five copper onto the desk.","source_end":"No reason.","context_id":"98257e28486f4f9aa208784b85e1d087","status":"submitted","provider_substitution":"written Vale -> provider Vayle"},
+    {"take":14,"source_start":"I formed the plane anyway.","source_end":"Then I went to buy lunch...","context_id":"55f99a569b0045228e82941aee25fac7","status":"submitted"}
+  ]
+}
