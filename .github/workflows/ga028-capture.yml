@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/assets/chunks/028
-          cat > /tmp/capture.mjs <<'NODE'
+          cat > .ga028-capture.mjs <<'NODE'
           import { chromium } from 'playwright';
           import fs from 'fs';
           const jobs = [
@@ -83,7 +83,8 @@ jobs:
           fs.writeFileSync('greg-again/audio/production/028/capture-results.json', JSON.stringify(results,null,2)+'\n');
           await browser.close();
           NODE
-          node /tmp/capture.mjs
+          node .ga028-capture.mjs
+          rm -f .ga028-capture.mjs
           for f in greg-again/audio/assets/chunks/028/*.mp3; do
             test $(stat -c%s "$f") -gt 10000
             ffprobe -v error "$f"
