@@ -7,7 +7,7 @@
   "description": "An audio-first second run of Peg-Leg Greg, with writing and images rendered from the same story underneath.",
   "run1_href": "../index.html",
   "rendering_pipeline": "data/rendering-pipeline.json",
-  "current_chapter": "r2-ch018",
+  "current_chapter": "r2-ch019",
   "chapters": [
     "r2-ch001",
     "r2-ch002",
@@ -26,6 +26,7 @@
     "r2-ch015",
     "r2-ch016",
     "r2-ch017",
-    "r2-ch018"
+    "r2-ch018",
+    "r2-ch019"
   ]
 }
