@@ -1,0 +1,26 @@
+name: Verify Greg Again Chapter 19
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch019-auto
+    paths:
+      - .github/workflows/greg-again-ch019-verify.yml
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Run audio contracts
+        run: |
+          python -m unittest tests.test_greg_again_audio_catalog tests.test_greg_again_audio_ch019 -v
+      - name: Verify stitched media
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-019.mp3
+          test "$(find greg-again/audio/assets/chunks/019 -name '*.mp3' | wc -l)" -eq 36
