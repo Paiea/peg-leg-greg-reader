@@ -62,6 +62,37 @@ class R2AudioFrontDoorTests(unittest.TestCase):
         self.assertIn("Start Listening", html)
         self.assertIn('class="button button-primary" href="../greg-again/audio/"', html)
 
+    def test_audio_cards_have_stable_deep_link_anchors(self):
+        js = (AUDIO / "player.js").read_text(encoding="utf-8")
+        self.assertIn("card.id = id", js)
+        self.assertIn("card.dataset.chapterId = id", js)
+
+    def test_each_audio_card_routes_to_the_matching_written_reference(self):
+        js = (AUDIO / "player.js").read_text(encoding="utf-8")
+        self.assertIn("function writtenReferenceHref", js)
+        self.assertIn("../../r2/chapter.html?id=", js)
+        self.assertIn("Written reference", js)
+        self.assertIn("#read", js)
+
+    def test_start_listening_routes_to_first_playable_chapter(self):
+        html = (AUDIO / "index.html").read_text(encoding="utf-8")
+        js = (AUDIO / "player.js").read_text(encoding="utf-8")
+        self.assertIn('id="hero-listen-start"', html)
+        self.assertIn("startListening.href = `#${stableId(playable[0])}`", js)
+
+    def test_availability_summary_exposes_current_audio_frontier(self):
+        js = (AUDIO / "player.js").read_text(encoding="utf-8")
+        self.assertIn("const latestPlayable = playable[playable.length - 1]", js)
+        self.assertIn("through Chapter ${latestPlayable.number}", js)
+
+    def test_art_drop_folder_contract_is_documented_for_manual_uploads(self):
+        guide = (AUDIO / "assets" / "art" / "README.md").read_text(encoding="utf-8")
+        self.assertIn("listening-edition-hero.webp", guide)
+        self.assertIn("chapter-NNN.webp", guide)
+        self.assertIn("presentation.json", guide)
+        self.assertIn("ga-NNN", guide)
+        self.assertIn("Audio publication never waits on art", guide)
+
 
 if __name__ == "__main__":
     unittest.main()
