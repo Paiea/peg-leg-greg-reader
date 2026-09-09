@@ -10,27 +10,42 @@ This state file owns the **Greg, Again story + written renderer** lane.
 
 It does not own audio synthesis, voice-provider selection, audio hosting/player plumbing, audiobook product packaging, or full audio-native chapter production.
 
-The audio lane may consume selected written results. It should not redefine written story authority from this file.
+The audio lane may consume selected story / shared-surface results. It should not redefine written story authority from this file.
+
+Cross-lane Greg surface authority:
+
+`state/experiments/greg-again/CURRENT.md`
+
+Latest shared-surface listen evidence:
+
+`state/experiments/greg-again/evals/002-shared-surface-listen-test.md`
 
 ## Core question
 
-> **What does R2 want to be as a written novel?**
+> **What does R2 want to be as a written novel while remaining naturally speakable?**
 
 No style is locked.
 
 R1/canon and prior R2 prose are evidence, controls, and quarry. They are not a required route.
 
-The written lane searches in this order:
+The written lane now searches in this order:
 
 ```text
 CURRENT STORY STATE
 → WHAT SHOULD ACTUALLY HAPPEN NEXT?
 → PERFORMANCE / OUTSIDE AGENCY WHEN UNCERTAINTY EARNS IT
-→ SUBJECTIVE LENS
-→ PAGE-NATIVE PROSE
+→ GREG EXPERIENCE
+→ SHARED GREG SURFACE
+→ SMALL WRITTEN FINISH WHEN THE PAGE EARNS IT
 → COMPARE AGAINST PRIOR MATERIAL WHEN USEFUL
 → KEEP ONLY SURVIVING LEARNING
 ```
+
+Do not assume a separate audio rewrite is required after the shared surface.
+
+Do not write prose toward synthetic performance tricks.
+
+> **GOOD GREG PROSE IS THE DEFAULT SHARED SURFACE.**
 
 Primary debrief guardrails:
 
@@ -43,6 +58,71 @@ Chapter 1 short-horizon promise ledger:
 The promise ledger exists because R2 is likely to cover months to roughly a year rather than hundreds of chapters of open-ended time. It distinguishes promises that must be revisited from texture that does not deserve forced payoff.
 
 At roughly five-chapter frontiers, glance at the ledger for abandonment or natural opportunities. Do not turn it into a quota.
+
+## Shared Greg Surface posture
+
+The Shared Greg Surface carries discoveries that belong to Greg rather than a medium:
+
+- Greg-dominant continuity
+- attention gravity
+- selective direct speech
+- earned voice breaches
+- embodied outside characters
+- associative thought
+- fragments when cognition genuinely fragments
+- action interrupting analysis
+- language-as-action
+
+The page should normally need only small finishing changes.
+
+If listening later teaches something about **Greg's experience**, that discovery may move upstream and change this shared surface.
+
+If listening teaches only an **ear problem**, it stays audio-only.
+
+If reading teaches only an **eye problem**, it stays written-only.
+
+> **DIFFERENCES REQUIRE A MEDIUM REASON.**
+
+Do not optimize toward a lexical-overlap percentage.
+
+## Listening correction
+
+A controlled Chapter 2 A/B/C listen test used the same voice/software on the same training-yard material.
+
+- A: more conventional LIGHT-ish prose
+- B: Greg-dominant page-native prose read essentially as written
+- C: more deliberately audio-shaped Greg-dominant prose with extra segmentation / resets
+
+Listener preference:
+
+> **B over C.**
+
+C sounded too smooth despite being more visibly fragmented.
+
+Current interpretation:
+
+> **PAUSES COME FROM CONTRAST, NOT FRAGMENTATION.**
+
+This strengthens an existing written concern: do not manufacture Greg through tics.
+
+### DO NOT WRITE TICS FOR PERFORMANCE
+
+Surface resets such as `Good`, `Right`, `Fine`, `Probably`, `Again`, `Of course`, `Fair`, `There`, `Interesting`, `Progress`, and `Apparently` survive only when they represent an actual cognitive move.
+
+Do not add them because they look or sound audiobook-like.
+
+Do not uniformly break prose into breath-sized fragments merely because it will be synthesized later.
+
+Useful pause contrast can already come from:
+
+- sentence-length variation
+- paragraph structure
+- punctuation
+- action interruption
+- a direct voice breach
+- one isolated thought among normal flow
+
+> **WRITE GREG CORRECTLY FIRST. DO NOT ADD FAKE GREG AFTERWARD.**
 
 ## Tool-use posture
 
@@ -108,9 +188,11 @@ Do not explain the lesson after the scene already proved it unless the interpret
 
 ### DO NOT MANUFACTURE GREG
 
-Surface resets such as `Good`, `Right`, `Of course`, `Fair`, `There`, `Interesting`, `Progress`, and `Apparently` are allowed only when they carry a real thought turn.
+Recurring Greg language is allowed only when it carries a real thought turn.
 
-Do not stack them to simulate voice.
+Do not stack surface markers to simulate voice.
+
+The audio listen test removes any remaining excuse to add those markers merely for synthetic performance.
 
 ### GREG'S STRENGTHS CREATE SPECIFIC FAILURE MODES
 
@@ -173,6 +255,8 @@ Close Greg consciousness survives page-native rerendering. Future knowledge is e
 `state/experiments/greg-again/prose/002-two-things.md`
 
 GREG-DOMINANT provisionally beats LIGHT-ish and EXTREME for this scene.
+
+The later A/B/C listen test also suggests this page-native Greg-dominant surface can serve directly as the shared spoken surface better than a more deliberately fragmented audio rewrite.
 
 ### 3 — The Borrower
 
@@ -388,6 +472,8 @@ Strong live vectors:
 - one Chapter 1 promise may ride inside a live event if it fits cheaply, but the event must work without the ledger
 
 Before too much more in-story time passes, cheaply place the Guild fire and Red Winter relative to the likely months-to-one-year R2 horizon.
+
+For Chapter 17 forward, default to writing the Shared Greg Surface directly. Do not add audio-facing tics or fragment the prose for synthesis. Let later listening request only the smallest repairs it actually earns.
 
 Do not run audio synthesis from this lane.
 
