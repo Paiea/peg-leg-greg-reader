@@ -9,11 +9,28 @@ This folder is the stable repository destination for the larger image binaries u
 
 Keep chapter art associated by stable audio identity (`ga-NNN`), never by mutable chapter title.
 
-## Wiring art into the shelf
+## Fast local workflow
 
-The public renderer reads optional metadata from `../../presentation.json`.
+For chapter art, the normal path is deliberately simple:
 
-Example:
+1. Put approved WebP files in this folder using `chapter-NNN.webp`.
+2. From the repository root, run:
+
+```bash
+python scripts/sync_r2_listening_art.py
+```
+
+The helper reads the current audio manifest, matches each conventional filename to its real `ga-NNN` identity, and updates only the matching `image_src` entry in `../../presentation.json`.
+
+It preserves existing quote and alt metadata, ignores filenames that do not correspond to a current audio chapter, and does not touch the audio manifest or audio binaries. That keeps manual large-file uploads cheap without making the public page probe for nonexistent images.
+
+The hero remains configured by the `hero` entry in `presentation.json`; dropping `listening-edition-hero.webp` at the conventional path satisfies the existing hero mapping.
+
+## Optional presentation metadata
+
+`presentation.json` remains the place for presentation-only details such as a source-grounded alt description or an approved exact chapter quote.
+
+Example after syncing and editorial metadata are both present:
 
 ```json
 {
@@ -27,12 +44,10 @@ Example:
 }
 ```
 
-The hero entry uses `assets/art/listening-edition-hero.webp`.
-
 Do not duplicate title, duration, publication state, or audio source here. Those stay authoritative in the audio manifest.
 
 ## Publication rule
 
 Audio publication never waits on art. A published chapter with no image or presentation entry must remain fully playable as a text-first card.
 
-Large image binaries can be generated, reviewed, converted to WebP, and uploaded manually to this folder. After the binary exists, add only the matching stable-ID metadata to `presentation.json`.
+Large image binaries can be generated, reviewed, converted to WebP, and uploaded manually to this folder. The sync helper handles conventional chapter image registration afterward.
