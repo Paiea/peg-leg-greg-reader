@@ -1,0 +1,67 @@
+name: Verify Greg Again Chapter 14
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch014-auto
+    paths:
+      - .github/workflows/verify-greg-again-ch14.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch014-auto
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Verify durable audio and record metrics
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(find greg-again/audio/assets/chunks/014 -maxdepth 1 -type f -name '*.mp3' | wc -l)" -eq 15
+          total=0
+          for i in $(seq 1 15); do
+            f=$(printf 'greg-again/audio/assets/chunks/014/%02d.mp3' "$i")
+            test "$(stat -c%s "$f")" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f" >/dev/null
+            total=$((total + $(stat -c%s "$f")))
+          done
+          final=greg-again/audio/assets/chapter-014.mp3
+          test "$(stat -c%s "$final")" -gt 1000000
+          duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$final")
+          size=$(stat -c%s "$final")
+          mkdir -p greg-again/audio/production/014
+          python - "$duration" "$size" "$total" <<'PY'
+          import json,sys
+          duration=float(sys.argv[1]); size=int(sys.argv[2]); chunks=int(sys.argv[3])
+          data={
+            "chapter":14,
+            "take_count":15,
+            "duration_seconds":round(duration,3),
+            "final_asset":"greg-again/audio/assets/chapter-014.mp3",
+            "final_size_bytes":size,
+            "chunk_total_bytes":chunks,
+            "chunk_count":15,
+            "audio_probe":"passed",
+            "source_coverage":"locked by greg-again/audio/scripts/014-the-back-room-takes.md",
+            "repair_note":"Original provider take 02 hit the two-minute plan gate; only that exact source range was split into four replacement takes. Eleven successful original artifacts were preserved."
+          }
+          open('greg-again/audio/production/014/verification.json','w',encoding='utf-8').write(json.dumps(data,indent=2)+'\n')
+          PY
+      - name: Commit verification record
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/014/verification.json
+          git commit -m 'audio: verify Greg Again Chapter 14 artifacts'
+          git push origin HEAD:audio/greg-again-ch014-auto
