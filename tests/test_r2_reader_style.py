@@ -44,7 +44,7 @@ class R2ReaderStyleTests(unittest.TestCase):
             self.assertIn('../../greg-again/audio/', html, path)
             self.assertIn('>Audio<', html, path)
 
-    def test_audio_experiments_links_back_to_r2_and_matches_dark_reader_surface(self):
+    def test_audio_listening_edition_links_back_to_r2_and_matches_light_home_surface(self):
         html = (AUDIO / 'index.html').read_text(encoding='utf-8')
         css = (AUDIO / 'audio.css').read_text(encoding='utf-8')
         self.assertIn('PEG-LEG GREG', html)
@@ -52,11 +52,12 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn('R2 Home', html)
         self.assertIn('../../r2/chapters/', html)
         self.assertIn('Chapters', html)
-        self.assertIn('color-scheme: dark', css)
-        self.assertIn('--paper: #171614', css)
-        self.assertIn('--ink: #e8e2d9', css)
-        self.assertIn('--link: #bdc8bd', css)
-        self.assertIn('background: var(--paper)', css)
+        self.assertIn('R2 Listening Edition', html)
+        self.assertIn('color-scheme: light', css)
+        self.assertIn('--paper: #f3eddf', css)
+        self.assertIn('--ink: #29231d', css)
+        self.assertIn('--accent: #7a2f2f', css)
+        self.assertIn('var(--paper)', css)
         self.assertIn("Georgia, 'Times New Roman', serif", css)
 
     def test_chapter_page_prioritizes_reading_over_panels(self):
