@@ -1,0 +1,151 @@
+name: Publish Greg Again Chapter 15
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch015-publish
+    paths:
+      - .github/workflows/greg-again-ch015-publish.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch015-publish
+          fetch-depth: 0
+
+      - name: Import verified Chapter 15 artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin audio/greg-again-batch-015-017
+          git checkout origin/audio/greg-again-batch-015-017 -- \
+            greg-again/audio/assets/chapter-015.mp3 \
+            greg-again/audio/assets/chunks/015-short \
+            greg-again/audio/takes/015-short.json
+
+      - name: Publish stable Chapter 15 identity
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest_path = Path('greg-again/audio/manifest.json')
+          manifest = json.loads(manifest_path.read_text())
+          chapters = [c for c in manifest['chapters'] if c['chapter_id'] != 'ga-015']
+          chapters.append({
+              'chapter_id': 'ga-015',
+              'number': 15,
+              'title': 'The Friend',
+              'status': 'experimental',
+              'lens': 'shared-greg-surface',
+              'audio_finish': 'processing-space',
+              'take_count': 27,
+              'duration_seconds': 415.32,
+              'audio_src': 'assets/chapter-015.mp3',
+              'note': 'Chapter 15 returns to the original short-take factory: twenty-seven complete preview-safe deep-voice takes are captured directly as durable MP3 artifacts, preserving the farewell, departure, ordinary river traffic, incomplete Tavin memory, and apple ending without relying on the provider full-audio player page.'
+          })
+          manifest['chapters'] = sorted(chapters, key=lambda c: c['number'])
+          manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + '\n')
+
+          registry_path = Path('r2/data/chapter-registry.json')
+          registry = json.loads(registry_path.read_text())
+          ch = registry['chapters']['r2-ch015']
+          ch['title'] = 'The Friend'
+          ch['pipeline']['audio'] = 'published'
+          ch['next_action'] = 'plan_images'
+          registry_path.write_text(json.dumps(registry, indent=2, ensure_ascii=False) + '\n')
+
+          route_path = Path('r2/data/chapters/ch015.json')
+          route = json.loads(route_path.read_text())
+          route['title'] = 'The Friend'
+          route['audio'] = {
+              'status': 'published',
+              'path': '../greg-again/audio/assets/chapter-015.mp3'
+          }
+          route_path.write_text(json.dumps(route, separators=(',', ':'), ensure_ascii=False) + '\n')
+          PY
+
+      - name: Add Chapter 15 publication verification
+        shell: bash
+        run: |
+          cat > tests/test_greg_again_audio_ch015.py <<'PY'
+          import json
+          import unittest
+          from pathlib import Path
+
+          ROOT = Path(__file__).resolve().parents[1]
+          AUDIO = ROOT / 'greg-again' / 'audio'
+          R2 = ROOT / 'r2'
+
+          class GregAgainChapter15AudioTest(unittest.TestCase):
+              def test_chapter_15_is_durable_and_published(self):
+                  manifest = json.loads((AUDIO / 'manifest.json').read_text(encoding='utf-8'))
+                  by_id = {c['chapter_id']: c for c in manifest['chapters']}
+                  self.assertIn('ga-015', by_id)
+                  ch = by_id['ga-015']
+                  self.assertEqual(15, ch['number'])
+                  self.assertEqual('The Friend', ch['title'])
+                  self.assertEqual(27, ch['take_count'])
+                  self.assertEqual(415.32, ch['duration_seconds'])
+                  self.assertEqual('assets/chapter-015.mp3', ch['audio_src'])
+
+                  audio = AUDIO / 'assets' / 'chapter-015.mp3'
+                  self.assertTrue(audio.exists())
+                  self.assertGreater(audio.stat().st_size, 1_000_000)
+
+                  take_map = json.loads((AUDIO / 'takes' / '015-short.json').read_text(encoding='utf-8'))
+                  self.assertEqual('original_short_take_complete_preview', take_map['production_mode'])
+                  self.assertEqual(27, take_map['take_count'])
+                  self.assertEqual(27, len(take_map['takes']))
+                  self.assertTrue(all(t['status'] == 'artifact_captured' for t in take_map['takes']))
+                  for i in range(1, 28):
+                      take = AUDIO / 'assets' / 'chunks' / '015-short' / f'{i:02d}.mp3'
+                      self.assertTrue(take.exists())
+                      self.assertGreater(take.stat().st_size, 10_000)
+
+                  route = json.loads((R2 / 'data' / 'chapters' / 'ch015.json').read_text(encoding='utf-8'))
+                  self.assertEqual('The Friend', route['title'])
+                  self.assertEqual('published', route['audio']['status'])
+                  self.assertEqual('../greg-again/audio/assets/chapter-015.mp3', route['audio']['path'])
+
+                  registry = json.loads((R2 / 'data' / 'chapter-registry.json').read_text(encoding='utf-8'))
+                  reg = registry['chapters']['r2-ch015']
+                  self.assertEqual('The Friend', reg['title'])
+                  self.assertEqual('published', reg['pipeline']['audio'])
+
+          if __name__ == '__main__':
+              unittest.main()
+          PY
+
+      - name: Verify publication payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s tests -p 'test_greg_again_audio_ch015.py'
+          python -m unittest discover -s tests -p 'test_greg_again_audio_catalog.py'
+
+      - name: Commit publication payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/greg-again-ch015-publish.yml
+          git add \
+            greg-again/audio/manifest.json \
+            greg-again/audio/assets/chapter-015.mp3 \
+            greg-again/audio/assets/chunks/015-short \
+            greg-again/audio/takes/015-short.json \
+            r2/data/chapter-registry.json \
+            r2/data/chapters/ch015.json \
+            tests/test_greg_again_audio_ch015.py
+          git commit -m 'audio: publish Greg Again Chapter 15'
+          git push origin HEAD:audio/greg-again-ch015-publish
