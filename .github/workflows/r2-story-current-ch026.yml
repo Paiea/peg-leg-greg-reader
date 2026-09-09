@@ -26,158 +26,26 @@ jobs:
           set -euo pipefail
           git fetch origin experiment/plg-r2-opening main
           git reset --hard origin/experiment/plg-r2-opening
-
-          # Never stamp an older frontier over newer story work.
           if compgen -G 'state/experiments/greg-again/prose/027-*.md' > /dev/null; then
-            echo 'A Chapter 27 prose file already exists; refusing to declare Chapter 26 current.' >&2
+            echo 'Chapter 27 already exists; refusing to stamp Chapter 26 as current.' >&2
             exit 42
           fi
-
           test "$(git hash-object state/experiments/greg-again/prose/026-the-day-off.md)" = "80a1762b582553755dd8b8b3602fd65b77d08535"
           test -f state/experiments/greg-again/rehearsals/026-story-search.md
           test -f state/experiments/greg-again/evals/026-day-off-eval.md
-
+          git show origin/main:r2/data/chapters/ch026.json | grep -q '"written":{"status":"published"'
           python - <<'PY'
-          import json
-          import subprocess
+          import base64
           from pathlib import Path
-
-          # Public main must already expose the selected Chapter 26 before story state says publication is complete.
-          raw = subprocess.check_output(['git','show','origin/main:r2/data/chapters/ch026.json'], text=True)
-          route = json.loads(raw)
-          assert route['chapter_id'] == 'r2-ch026'
-          assert route['title'] == 'The Day Off'
-          assert route['written']['status'] == 'published'
-          assert route['written']['path'] == 'assets/written/ch026.md'
-
-          path = Path('state/experiments/greg-again/written/CURRENT.md')
-          text = path.read_text(encoding='utf-8')
+          p = Path('state/experiments/greg-again/written/CURRENT.md')
+          text = p.read_text(encoding='utf-8')
           marker = '# CURRENT FRONTIER UPDATE — CHAPTER 26'
-          if marker in text:
-              raise SystemExit(0)
-
-          addition = r'''
-
----
-
-# CURRENT FRONTIER UPDATE — CHAPTER 26
-
-This section is newer authority than the Chapter 25 frontier above.
-
-The Chapter 25 frontier remains historical state. Use this section for current forward story search.
-
-## 26 — The Day Off
-
-Selected prose:
-
-`state/experiments/greg-again/prose/026-the-day-off.md`
-
-Story search:
-
-`state/experiments/greg-again/rehearsals/026-story-search.md`
-
-Evaluation:
-
-`state/experiments/greg-again/evals/026-day-off-eval.md`
-
-Chapter 26 follows the completed five-day West Cut contract with one ordinary recovery / maintenance day rather than automatically converting Greg's return into another contract, training beat, business emergency, artifact acquisition, party declaration, or adventure hook.
-
-Greg sleeps past midday. The field job leaves ordinary body residue rather than a dramatic injury: tight calves and shoulders, a heel blister, small hand scrapes, and a pannier bruise. He does not need healing magic and his support capability does not increase.
-
-The field pay creates a new kind of margin. Greg allocates money toward rent, food, a small support reserve, and road maintenance while preserving some available cash. The exact five-day payout remains unstated.
-
-Concrete maintenance costs established in prose:
-
-- two copper to restitch both boot heels;
-- two copper for two pairs of socks;
-- one copper for lunch;
-- sword oil and waxed thread are purchased without an exact stated price.
-
-The better sword never left its sheath on the West Cut, but rain still made maintenance necessary. Greg dries the scabbard, checks the blade, and oils it. The sword remains ordinary expensive working equipment rather than a reward ladder.
-
-Lower Rook continues as a living home system. The repaired cookroom stove is working. Noll remains Greg's current neighbor, cooks badly, jokes with accumulated history, and borrows Greg's soap again. No recovered old-life memory is required for the relationship to continue becoming real.
-
-Arlo and Ivena's filtration venture also continues independently. Greg sees Dena driving an Arlo-marked service cart with one clean matched chamber and one dirty chamber returning toward the workshop. Dena and Greg exchange a small wave. Nobody stops Greg, summons him, reports a crisis, or requires him to re-enter the business. The service system is visibly moving without him.
-
-No new Mara packet arrives. Packet time remains packet time.
-
-Edda, Harl, and Pate remain off-page. Harl's possible future repair survey remains only a future possibility if authorized. No follow-up work is scheduled.
-
-Greg deliberately does not turn toward the Guild merely because he is outside in repaired boots and could look for work. He buys lunch instead.
-
-At the end of the day, Greg almost puts the field pack under the bed, then places it beside the door instead:
-
-> **Not packed for departure. Ready to be packed.**
-
-The behavioral residue matters more than a declaration. Greg now expects field equipment to have another use even though no next job has been selected.
-
-Surviving discovery:
-
-> **Paid adventure work can buy maintenance, recovery, and a little unsold time.**
-
-The live R2 reader on `main` now publishes Chapter 26 as the selected written frontier. Audio and images may remain incomplete without blocking written authority.
-
-## Current frontier after Chapter 26
-
-Current selected state:
-
-- selected written frontier is Chapter 26, **The Day Off**;
-- Greg is in Carrow, at Lower Rook Street, after one full recovery / maintenance day following the five-day West Cut contract;
-- Greg remains Bronze;
-- Greg received the agreed West Cut field pay, exact payout unstated;
-- after allocating rent, food, support reserve, and maintenance, Greg still has some available personal cash;
-- Greg spent two copper repairing both boot heels, two copper on two pairs of socks, and one copper on lunch;
-- Greg also bought sword oil and waxed thread at unstated prices;
-- Greg's road clothes, pack, boots, and sword have been cleaned / maintained after the field contract;
-- Greg has ordinary soreness, a heel blister, minor hand scrapes, and a pannier bruise, but no established significant injury;
-- Greg's better sword remains maintained working equipment and was not used in Chapter 26;
-- Greg's support magnitude does not increase and no magic is used in Chapter 26;
-- Greg's formal support assessment remains weeks away and off-page;
-- Kesra Dain remains off-page;
-- the field pack now rests beside Greg's door, ready to be packed but not packed for any selected destination;
-- Noll remains Greg's current neighbor and the Lower Rook cookroom stove is functioning after its repair;
-- Arlo and Ivena continue operating the filtration venture independently;
-- Dena is still performing service / delivery work for that system and can move matched clean / dirty chambers without Greg at center;
-- no new filtration crisis, ownership change, order, or expansion event is established by Chapter 26;
-- Mara correspondence continues on packet time and no new packet has arrived;
-- Edda / Harl / Pate remain earned field-work relationships but no permanent party exists;
-- no West Cut repair survey is scheduled;
-- North Gate remains standing and unresolved;
-- the Guild fire remains a coming-Deepwinter long shadow with no established cause;
-- Red Winter remains farther out;
-- Jorren remains north;
-- Tavin remains somewhere south with a river company;
-- Vey Shipping remains living present infrastructure rather than proven destiny-company history;
-- the unresolved second Chapter 1 letter remains unresolved and must not be invented merely to create movement;
-- no Chapter 27 event is preselected.
-
-## Immediate next pressure after 26
-
-Chapter 26 deliberately ends with tomorrow open.
-
-Search fresh from that openness rather than treating Greg's final list of possibilities as a queue.
-
-Useful live questions include:
-
-- after recovery, what established person, institution, obligation, market condition, relationship, or ordinary need has actually changed enough to require Greg's attention?
-- does Greg choose work, training, company, correspondence, business attention, or something else, and what present evidence makes that choice live now?
-- has packet time advanced enough for Mara correspondence to move, or not yet?
-- has the filtration service system produced a real new consequence, or is its continued independence still the more important fact?
-- does the Guild have work that is unusually suited to Greg now, rather than merely generic work existing somewhere?
-- does an established relationship return for its own reason rather than because the story wants recurrence?
-- what does having a small cash margin change about Greg's choices without immediately turning money into an upgrade?
-
-Do not automatically send Greg to the Guild, Arlo, Ivena, Mara, Edda, Harl, Kesra, the West Cut, an artifact market, a higher-rank showcase, a magic lesson, or another field contract.
-
-The next chapter still begins with:
-
-> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
-'''
-          path.write_text(text.rstrip() + addition + '\n', encoding='utf-8')
+          if marker not in text:
+              payload = base64.b64decode('LS0tCiMgQ1VSUkVOVCBGUk9OVElFUiBVUERBVEUg4oCUIENIQVBURVIgMjYKClRoaXMgc2VjdGlvbiBpcyBuZXdlciBhdXRob3JpdHkgdGhhbiB0aGUgQ2hhcHRlciAyNSBmcm9udGllciBhYm92ZS4gVXNlIGl0IGZvciBjdXJyZW50IGZvcndhcmQgc3Rvcnkgc2VhcmNoLgoKIyMgMjYg4oCUIFRoZSBEYXkgT2ZmCgpTZWxlY3RlZCBwcm9zZTogYHN0YXRlL2V4cGVyaW1lbnRzL2dyZWctYWdhaW4vcHJvc2UvMDI2LXRoZS1kYXktb2ZmLm1kYApTdG9yeSBzZWFyY2g6IGBzdGF0ZS9leHBlcmltZW50cy9ncmVnLWFnYWluL3JlaGVhcnNhbHMvMDI2LXN0b3J5LXNlYXJjaC5tZGAKRXZhbHVhdGlvbjogYHN0YXRlL2V4cGVyaW1lbnRzL2dyZWctYWdhaW4vZXZhbHMvMDI2LWRheS1vZmYtZXZhbC5tZGAKCkNoYXB0ZXIgMjYgZm9sbG93cyB0aGUgY29tcGxldGVkIGZpdmUtZGF5IFdlc3QgQ3V0IGNvbnRyYWN0IHdpdGggb25lIG9yZGluYXJ5IHJlY292ZXJ5IC8gbWFpbnRlbmFuY2UgZGF5IHJhdGhlciB0aGFuIGF1dG9tYXRpY2FsbHkgdHVybmluZyBHcmVnJ3MgcmV0dXJuIGludG8gYW5vdGhlciBjb250cmFjdCwgdHJhaW5pbmcgYmVhdCwgYnVzaW5lc3MgZW1lcmdlbmN5LCBhcnRpZmFjdCwgcGFydHkgZGVjbGFyYXRpb24sIG9yIGFkdmVudHVyZSBob29rLgoKR3JlZyBzbGVlcHMgcGFzdCBtaWRkYXkuIFRoZSBqb2IgbGVhdmVzIG9yZGluYXJ5IGJvZHkgcmVzaWR1ZTogdGlnaHQgY2FsdmVzIGFuZCBzaG91bGRlcnMsIGEgaGVlbCBibGlzdGVyLCBzbWFsbCBoYW5kIHNjcmFwZXMsIGFuZCBhIHBhbm5pZXIgYnJ1aXNlLCBidXQgbm8gc2lnbmlmaWNhbnQgaW5qdXJ5LiBIaXMgc3VwcG9ydCBjYXBhYmlsaXR5IGRvZXMgbm90IGluY3JlYXNlIGFuZCBoZSB1c2VzIG5vIG1hZ2ljLgoKVGhlIGZpZWxkIHBheSBjcmVhdGVzIG1hcmdpbi4gR3JlZyBhbGxvY2F0ZXMgbW9uZXkgdG93YXJkIHJlbnQsIGZvb2QsIGEgc21hbGwgc3VwcG9ydCByZXNlcnZlLCBhbmQgcm9hZCBtYWludGVuYW5jZSB3aGlsZSBwcmVzZXJ2aW5nIHNvbWUgYXZhaWxhYmxlIGNhc2guIEV4YWN0IGZpdmUtZGF5IHBheW91dCByZW1haW5zIHVuc3RhdGVkLiBFc3RhYmxpc2hlZCBjb3N0czogdHdvIGNvcHBlciB0byByZXN0aXRjaCBib3RoIGJvb3QgaGVlbHMsIHR3byBjb3BwZXIgZm9yIHR3byBwYWlycyBvZiBzb2Nrcywgb25lIGNvcHBlciBmb3IgbHVuY2g7IHN3b3JkIG9pbCBhbmQgd2F4ZWQgdGhyZWFkIGhhdmUgbm8gZXhhY3Qgc3RhdGVkIHByaWNlLgoKVGhlIGJldHRlciBzd29yZCBuZXZlciBsZWZ0IGl0cyBzaGVhdGggb24gdGhlIFdlc3QgQ3V0LCBidXQgcmFpbiBzdGlsbCByZXF1aXJlcyBtYWludGVuYW5jZS4gR3JlZyBkcmllcyB0aGUgc2NhYmJhcmQsIGNoZWNrcyBhbmQgb2lscyB0aGUgYmxhZGUuIFRoZSBzd29yZCByZW1haW5zIG9yZGluYXJ5IGV4cGVuc2l2ZSB3b3JraW5nIGVxdWlwbWVudC4KCkxvd2VyIFJvb2sgY29udGludWVzIGluZGVwZW5kZW50bHkuIFRoZSByZXBhaXJlZCBjb29rcm9vbSBzdG92ZSB3b3Jrcy4gTm9sbCByZW1haW5zIEdyZWcncyBjdXJyZW50IG5laWdoYm9yIGFuZCBib3Jyb3dzIGhpcyBzb2FwIGFnYWluLiBBcmxvIGFuZCBJdmVuYSdzIGZpbHRyYXRpb24gdmVudHVyZSBhbHNvIG1vdmVzIHdpdGhvdXQgR3JlZzogRGVuYSBwYXNzZXMgZHJpdmluZyBhbiBBcmxvLW1hcmtlZCBzZXJ2aWNlIGNhcnQgd2l0aCBhIGNsZWFuIG1hdGNoZWQgY2hhbWJlciBhbmQgYSBkaXJ0eSBvbmUgcmV0dXJuaW5nIHRvd2FyZCB0aGUgd29ya3Nob3AuIFNoZSBhbmQgR3JlZyBleGNoYW5nZSBhIHNtYWxsIHdhdmU7IG5vYm9keSBzdW1tb25zIEdyZWcgb3IgcmVwb3J0cyBhIGNyaXNpcy4KCk5vIG5ldyBNYXJhIHBhY2tldCBhcnJpdmVzLiBFZGRhLCBIYXJsLCBhbmQgUGF0ZSByZW1haW4gb2ZmLXBhZ2UuIE5vIFdlc3QgQ3V0IHJlcGFpciBzdXJ2ZXkgaXMgc2NoZWR1bGVkLgoKR3JlZyBkZWxpYmVyYXRlbHkgZG9lcyBub3QgdHVybiB0b3dhcmQgdGhlIEd1aWxkIG1lcmVseSBiZWNhdXNlIHdvcmsgbWlnaHQgZXhpc3QuIEhlIGJ1eXMgbHVuY2ggaW5zdGVhZC4gQXQgZGF5J3MgZW5kIGhlIGFsbW9zdCBwdXRzIHRoZSBmaWVsZCBwYWNrIHVuZGVyIHRoZSBiZWQsIHRoZW4gbGVhdmVzIGl0IGJlc2lkZSB0aGUgZG9vcjoKCj4gKipOb3QgcGFja2VkIGZvciBkZXBhcnR1cmUuIFJlYWR5IHRvIGJlIHBhY2tlZC4qKgoKU3Vydml2aW5nIGRpc2NvdmVyeToKCj4gKipQYWlkIGFkdmVudHVyZSB3b3JrIGNhbiBidXkgbWFpbnRlbmFuY2UsIHJlY292ZXJ5LCBhbmQgYSBsaXR0bGUgdW5zb2xkIHRpbWUuKioKClRoZSBsaXZlIFIyIHJlYWRlciBvbiBgbWFpbmAgcHVibGlzaGVzIENoYXB0ZXIgMjYgYXMgdGhlIHNlbGVjdGVkIHdyaXR0ZW4gZnJvbnRpZXIuCgojIyBDdXJyZW50IGZyb250aWVyIGFmdGVyIENoYXB0ZXIgMjYKCgotIEdyZWcgaXMgaW4gQ2Fycm93IGF0IExvd2VyIFJvb2sgU3RyZWV0IGFmdGVyIG9uZSByZWNvdmVyeSAvIG1haW50ZW5hbmNlIGRheSBmb2xsb3dpbmcgdGhlIGZpdmUtZGF5IFdlc3QgQ3V0IGNvbnRyYWN0LgotIEdyZWcgcmVtYWlucyBCcm9uemUuIE5vIHJhbmsgb3IgbWFnaWMgaW5jcmVhc2Ugb2NjdXJzLgotIFdlc3QgQ3V0IGZpZWxkIHBheSBpcyByZWNlaXZlZDsgZXhhY3QgcGF5b3V0IGlzIHVuc3RhdGVkLiBHcmVnIHJldGFpbnMgc29tZSBhdmFpbGFibGUgY2FzaCBhZnRlciByZW50IC8gZm9vZCAvIHN1cHBvcnQgcmVzZXJ2ZSAvIG1haW50ZW5hbmNlIGFsbG9jYXRpb25zLgotIFJvYWQgY2xvdGhlcywgcGFjaywgcmVwYWlyZWQgYm9vdHMsIGFuZCBzd29yZCBhcmUgbWFpbnRhaW5lZCBhbmQgcmVhZHkgZm9yIGZ1dHVyZSB3b3JrLgotIEdyZWcgaGFzIG9yZGluYXJ5IHNvcmVuZXNzIGFuZCBtaW5vciBmaWVsZCB3ZWFyLCBub3QgYSBzaWduaWZpY2FudCBlc3RhYmxpc2hlZCBpbmp1cnkuCi0gRm9ybWFsIHN1cHBvcnQgYXNzZXNzbWVudCByZW1haW5zIHdlZWtzIGF3YXkuIEtlc3JhIERhaW4gcmVtYWlucyBvZmYtcGFnZS4KLSBOb2xsIHJlbWFpbnMgR3JlZydzIGN1cnJlbnQgbmVpZ2hib3I7IHRoZSBMb3dlciBSb29rIGNvb2tyb29tIHN0b3ZlIGlzIGZ1bmN0aW9uaW5nLgotIEFybG8gYW5kIEl2ZW5hIGNvbnRpbnVlIHRoZSBmaWx0cmF0aW9uIHZlbnR1cmUgaW5kZXBlbmRlbnRseTsgRGVuYSBjYW4gZXhlY3V0ZSBzZXJ2aWNlIC8gZGVsaXZlcnkgd29yayB3aXRob3V0IEdyZWcgYXQgY2VudGVyLiBObyBuZXcgZmlsdHJhdGlvbiBjcmlzaXMsIG93bmVyc2hpcCBjaGFuZ2UsIG9yZGVyLCBvciBleHBhbnNpb24gaXMgZXN0YWJsaXNoZWQuCi0gTWFyYSBjb3JyZXNwb25kZW5jZSByZW1haW5zIG9uIHBhY2tldCB0aW1lOyBubyBuZXcgcGFja2V0IGhhcyBhcnJpdmVkLgotIEVkZGEgLyBIYXJsIC8gUGF0ZSByZW1haW4gZWFybmVkIGZpZWxkLXdvcmsgcmVsYXRpb25zaGlwczsgbm8gcGVybWFuZW50IHBhcnR5IGV4aXN0cyBhbmQgbm8gcmVwYWlyIHN1cnZleSBpcyBzY2hlZHVsZWQuCi0gTm9ydGggR2F0ZSByZW1haW5zIHN0YW5kaW5nIGFuZCB1bnJlc29sdmVkLiBUaGUgR3VpbGQgZmlyZSByZW1haW5zIGEgY29taW5nLURlZXB3aW50ZXIgbG9uZyBzaGFkb3cuIFJlZCBXaW50ZXIgcmVtYWlucyBmYXJ0aGVyIG91dC4KLSBKb3JyZW4gcmVtYWlucyBub3J0aC4gVGF2aW4gcmVtYWlucyBzb21ld2hlcmUgc291dGggd2l0aCBhIHJpdmVyIGNvbXBhbnkuIFZleSBTaGlwcGluZyByZW1haW5zIGxpdmluZyBwcmVzZW50IGluZnJhc3RydWN0dXJlIHJhdGhlciB0aGFuIHByb3ZlbiBkZXN0aW55LWNvbXBhbnkgaGlzdG9yeS4KLSBUaGUgdW5yZXNvbHZlZCBzZWNvbmQgQ2hhcHRlciAxIGxldHRlciByZW1haW5zIHVucmVzb2x2ZWQuCi0gTm8gQ2hhcHRlciAyNyBldmVudCBpcyBwcmVzZWxlY3RlZC4KCiMjIEltbWVkaWF0ZSBuZXh0IHByZXNzdXJlIGFmdGVyIDI2CgpDaGFwdGVyIDI2IGVuZHMgd2l0aCB0b21vcnJvdyBnZW51aW5lbHkgb3Blbi4gU2VhcmNoIGZyb20gdGhhdCBvcGVubmVzcywgbm90IGZyb20gR3JlZydzIGNsb3NpbmcgbGlzdCBvZiBwb3NzaWJpbGl0aWVzIGFzIGEgcXVldWUuIEFzayB3aGF0IGVzdGFibGlzaGVkIHBlcnNvbiwgaW5zdGl0dXRpb24sIG9ibGlnYXRpb24sIG1hcmtldCBjb25kaXRpb24sIHJlbGF0aW9uc2hpcCwgb3Igb3JkaW5hcnkgbmVlZCBoYXMgYWN0dWFsbHkgY2hhbmdlZCBlbm91Z2ggdG8gcmVxdWlyZSBHcmVnJ3MgYXR0ZW50aW9uLgoKRG8gbm90IGF1dG9tYXRpY2FsbHkgc2VuZCBHcmVnIHRvIHRoZSBHdWlsZCwgQXJsbywgSXZlbmEsIE1hcmEsIEVkZGEsIEhhcmwsIEtlc3JhLCB0aGUgV2VzdCBDdXQsIGFuIGFydGlmYWN0IG1hcmtldCwgYSBoaWdoZXItcmFuayBzaG93Y2FzZSwgYSBtYWdpYyBsZXNzb24sIG9yIGFub3RoZXIgZmllbGQgY29udHJhY3QuCgpUaGUgbmV4dCBjaGFwdGVyIHN0aWxsIGJlZ2lucyB3aXRoOgoKPiAqKldIQVQgU0hPVUxEIEFDVFVBTExZIEhBUFBFTiBORVhUPyoqCg==').decode('utf-8')
+              p.write_text(text.rstrip() + '\n\n' + payload, encoding='utf-8')
           PY
-
           grep -q '^# CURRENT FRONTIER UPDATE — CHAPTER 26$' state/experiments/greg-again/written/CURRENT.md
-          grep -q 'selected written frontier is Chapter 26' state/experiments/greg-again/written/CURRENT.md
+          grep -q 'No Chapter 27 event is preselected' state/experiments/greg-again/written/CURRENT.md
 
       - name: Commit current frontier
         shell: bash
