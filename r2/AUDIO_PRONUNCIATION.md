@@ -8,11 +8,17 @@ Written prose remains authoritative for displayed text. This file controls provi
 
 ### 1. Hard provider aliases
 
-Use these provider-facing spellings by default whenever the written token appears in newly synthesized audio. These are settled pronunciation rules, not one-off repairs.
+Use these provider-facing spellings by default whenever the written token appears in newly synthesized audio. These are settled pronunciation rules, not prose edits.
 
-| Written token | Provider spelling | Intended sound | Historical repair | Notes |
+| Written token | Preferred provider spelling | Intended sound | Historical repair | Notes |
 | --- | --- | --- | --- | --- |
-| `mana` / `Mana` | `mah-nah` / `Mah-nah` | Hawaiian-context `MAH-nah` | Yes, where a published spoken occurrence is confirmed wrong | Human audition approved 2026-09-08. Written spelling remains `mana`. |
+| `mana` / `Mana` | `ma-na` / `Ma-na` | Hawaiian-context `MAH-nah` | Yes, where a published spoken occurrence is confirmed wrong | Listener QA on 2026-09-08 showed that literal `mah-nah` can make the `deep` voice audibly pronounce the written H. `ma-na` produced the more reliable target sound in the approved second-pass repairs. Written spelling remains `mana`. |
+
+#### Historical `mah-nah` evidence
+
+`mah-nah` was the first provider spelling tested and can sound correct in some contexts, so successful existing clips do not need regeneration solely to normalize spelling. However, it is **not** the forward default because listener QA caught multiple renders where Deep vocalized the H or otherwise sounded unnatural.
+
+When generating a new take or regenerating a rejected repair, prefer `ma-na` first. Preserve an already-generated `mah-nah` clip when the listener-facing pronunciation is already acceptable.
 
 ### 2. Instability watchlist
 
@@ -29,20 +35,22 @@ Before sending a take or micro-repair to the voice provider:
 
 1. preserve the exact written/spoken wording as the semantic authority
 2. apply hard provider aliases to provider-facing text
-3. check the instability watchlist for names or terms present in the take
-4. use the preferred provider spelling when it is a safe phonetic equivalent
-5. record any provider-facing substitution in the take / repair evidence
-6. never treat a phonetic provider spelling as a prose edit
+3. for written `mana`, prefer provider-facing `ma-na`
+4. check the instability watchlist for names or terms present in the take
+5. use the preferred provider spelling when it is a safe phonetic equivalent
+6. record any provider-facing substitution in the take / repair evidence
+7. never treat a phonetic provider spelling as a prose edit
 
 For already-published audio:
 
 - do not mass-regenerate merely because a word appears on the instability watchlist
-- preserve acceptable historical readings
+- preserve acceptable historical readings, including acceptable earlier `mah-nah` renders
 - repair only confirmed bad occurrences, using the smallest sentence-local or take-local patch that preserves surrounding performance
+- if an ultra-short repair such as `No mana.` is swallowed or produces silence, include the smallest neighboring spoken context needed for a reliable provider performance, then splice only the target listener-facing region
 - when a new listener-caught inconsistency appears, add it here so future workers inherit the knowledge
 
 ## Why this exists
 
-Voice synthesis can be nondeterministic about names, fantasy terms, homographs, and uncommon words. A term can sound correct in ten takes and fail in the eleventh. Listener QA should therefore accumulate into durable production knowledge instead of remaining trapped in chat history.
+Voice synthesis can be nondeterministic about names, fantasy terms, homographs, phonetic respellings, and uncommon words. A term can sound correct in ten takes and fail in the eleventh. Listener QA should therefore accumulate into durable production knowledge instead of remaining trapped in chat history.
 
 The goal is not to phoneticize the book. The goal is to make future provider calls more reliable while keeping written authority clean.
