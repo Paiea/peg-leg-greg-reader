@@ -1,0 +1,609 @@
+# Chapter 52: The Delivery
+
+Status: **TEMPORAL 50 NOW CANDIDATE / NOT ACCEPTED STORY AUTHORITY**
+
+---
+
+Old Fenn reopened at second bell.
+
+Nobody cheered.
+
+Professional infrastructure rarely received the applause it deserved.
+
+The road keeper walked into the mile house while people were still eating breakfast and said:
+
+"Light carts first. Freight after third if the north approach stays clean."
+
+Half the room stood up.
+
+The other half complained because their carts had apparently become heavy overnight through classification.
+
+Orrin finished his oat cake.
+
+"We're light."
+
+"Instrument glass has feelings."
+
+"Not enough to change axle load."
+
+Correct driver.
+
+We packed.
+
+Outside, the bridge looked less dangerous and more ugly.
+
+Dark grit covered the north half.
+
+Scraped ice sat in grey piles along the parapet.
+
+The crooked freight wagon from yesterday had been removed.
+
+One wheel track remained against the stone where it had slid.
+
+The road-work woman was already kneeling near the seep again.
+
+Hands to stone.
+
+Frost releasing in narrow strips.
+
+Nobody asked her to explain magic to the waiting traffic.
+
+Good.
+
+The keeper stopped each light cart before the approach.
+
+Wheel width.
+
+Load.
+
+Horse shoes.
+
+Driver name.
+
+No hurry because merchants had become loud.
+
+Our turn came fourth.
+
+Orrin handed over the manifest.
+
+The keeper checked the closure stamp from yesterday.
+
+Then crouched beside Marta's front hoof.
+
+"Studs?"
+
+Orrin lifted the foot.
+
+Small winter studs set into the shoe.
+
+The keeper nodded.
+
+"Walk her. No riding. Keep center until north arch. Then left wheel on grit line."
+
+Orrin took the bridle.
+
+I walked rear left.
+
+Not because the keeper told me.
+
+Because if the cart moved sideways, I wanted the road side rather than the parapet side.
+
+Future Greg knew several elegant ways to stabilize a sliding cart.
+
+Current Greg had a five-inch plane.
+
+Different inventory.
+
+I kept my hands free and hoped not to need either.
+
+The first arch was dry.
+
+Second had grit.
+
+Marta placed each foot as if she had read the road notice herself.
+
+Good horse.
+
+At the north approach one wheel slipped perhaps an inch.
+
+My body tightened.
+
+Orrin said, "Easy."
+
+To Marta.
+
+Possibly to me.
+
+The wheel caught grit.
+
+Cart straightened.
+
+No magic.
+
+No brace ring.
+
+No hidden competence reveal.
+
+We crossed a bridge because the people responsible for the bridge had made it safe enough to cross.
+
+Useful system.
+
+Beyond Old Fenn, the road climbed.
+
+The marsh fell behind us.
+
+Stonecross sat another half day north on a low ridge where three roads met badly.
+
+I recognized the ridge.
+
+Not the town.
+
+Later Stonecross had two brick warehouses, a proper south road, and a square paved badly enough that everyone complained about paying for it.
+
+Current Stonecross had one brick warehouse.
+
+One muddy square.
+
+And no evidence anyone had yet been charged for paving.
+
+History remained under construction.
+
+The apothecary cooperative occupied a long narrow building near the market.
+
+Blue-painted door.
+
+White mortar.
+
+Two delivery carts already outside.
+
+One local.
+
+One from somewhere east based on mud color and my complete lack of expertise in mud color.
+
+Orrin backed our cart toward the side door.
+
+I watched the lane.
+
+Nothing threatening.
+
+A woman in a grey apron came out carrying a wax tablet.
+
+"Carrow?"
+
+"Late Carrow," Orrin said.
+
+"Fenn?"
+
+"Fenn."
+
+She nodded.
+
+No accusation.
+
+Road information traveled ahead through people faster than our cart had.
+
+"I'm Sera Pell. Receiving."
+
+Pell.
+
+Different Pell, probably.
+
+Carrow had already taught me names were not systems.
+
+She checked Orrin's manifest.
+
+Then my Bronze token.
+
+"Escort Greg?"
+
+"Yes."
+
+My name had arrived before me through paper.
+
+Small reputation.
+
+Correct size.
+
+"Side door. Glass first. Tinctures second. Dry goods last."
+
+She owned unloading priority.
+
+Orrin nodded.
+
+We worked.
+
+Not adventuring.
+
+Boxes.
+
+One case of instrument glass went directly onto a padded table inside where another worker opened it under Sera's eye.
+
+Each piece wrapped in straw.
+
+Counted.
+
+Held to window light.
+
+One tiny bubble in one tube created a discussion I did not understand.
+
+The tube still passed.
+
+Professional mercy.
+
+Sealed tincture bottles went to a locked cabinet.
+
+Bandages and dried bark to shelves.
+
+Lamp chimneys to a separate storeroom because fire and medicine apparently preferred administrative distance.
+
+Nothing missing.
+
+Nothing broken.
+
+Marta had carried civilization successfully.
+
+Sera signed the manifest.
+
+"We expected you yesterday."
+
+Orrin showed the Old Fenn closure stamp.
+
+"You and everybody else."
+
+She looked at it.
+
+"Good."
+
+Not good that the road closed.
+
+Good evidence.
+
+I liked her immediately.
+
+Operationally.
+
+"Did the delay hurt?" I asked.
+
+Sera looked at me.
+
+Not offended.
+
+Evaluating whether escort had wandered into inventory.
+
+"Some."
+
+Good answer.
+
+She pointed toward the back room.
+
+"We had two days' fever tincture on hand. Borrowed another case from the east clinic this morning. Instrument glass was worse. One practitioner postponed nonurgent replacements. Lamp stock doesn't matter until market day."
+
+There.
+
+Adaptation.
+
+No one had sat beside an empty shelf waiting for Greg to arrive with the plot.
+
+"You borrowed?" Orrin asked.
+
+"They borrow antiseptic wash from us every spring."
+
+Relationship accounting.
+
+Current world.
+
+Sera made another note.
+
+"East case goes back when next wagon clears."
+
+The delay had created work.
+
+Not disaster.
+
+Not nothing.
+
+Correct scale.
+
+"Anything for return?" Orrin asked.
+
+"Two empty glass crates. No medical load."
+
+He looked at me.
+
+"Danger reduced."
+
+"Crime will be devastated."
+
+Sera ignored us both.
+
+Good professional.
+
+Stonecross owed us one overnight under the contract.
+
+The reimbursable lodging limit bought exactly one narrow room if two people shared it.
+
+Orrin looked at the single bed.
+
+I looked at Orrin.
+
+"No."
+
+"Agreed."
+
+We paid extra for a second room.
+
+Material dignity.
+
+My room was smaller than the Chapter One room in Carrow.
+
+This felt personally insulting until I remembered I did not live here.
+
+One bed.
+
+One hook.
+
+One wash basin with water cold enough to punish honesty.
+
+Window facing the market.
+
+Enough.
+
+I had several hours before dark.
+
+No contract obligation until morning.
+
+I walked Stonecross.
+
+Not to research future history.
+
+Mostly.
+
+The square contained a cooper, a baker, two food stalls, one seller of wool gloves, a potter displaying bowls on a plank, and a man offering sharpened knives while using a knife that needed sharpening.
+
+Current economy.
+
+I bought bread.
+
+Then stopped at the bowls.
+
+Noll had said three more.
+
+I owned two.
+
+Borrowed one.
+
+People happened.
+
+The Stonecross potter sold plain glazed bowls for less than the Carrow market because apparently pottery had geography.
+
+I picked up a blue-grey one.
+
+Thick wall.
+
+Uneven rim.
+
+No crack when tapped.
+
+One copper.
+
+I bought two.
+
+Not three.
+
+Financial independence preserved.
+
+The potter wrapped them in straw.
+
+"Travel?"
+
+"Carrow."
+
+"Don't put them against your sword."
+
+Useful craft knowledge.
+
+I packed them beside spare socks.
+
+Road equipment had expanded into tableware.
+
+Old Greg would have laughed.
+
+Current Greg needed bowls.
+
+Better authority.
+
+At the north edge of town, the road continued.
+
+Of course.
+
+I stood where the last houses became fields and looked at it.
+
+Later memory supplied destinations.
+
+Names.
+
+Contracts.
+
+One city I would eventually spend three miserable weeks in because an employer considered indoor walls a luxury.
+
+None of that belonged to today.
+
+Stonecross itself barely belonged to me yet.
+
+One delivery.
+
+One bad map comparison.
+
+Two bowls.
+
+Enough.
+
+I went back before cold turned curiosity into stupidity.
+
+We left after first bell next morning.
+
+Old Fenn remained open.
+
+No second chapter hiding in the bridge.
+
+The road-work crew had marked the seep with two red stakes and a temporary drainage cut.
+
+Current work continuing.
+
+The woman who loosened frost was not there.
+
+Probably sleeping.
+
+Probably somewhere else.
+
+People did that.
+
+We crossed without slipping.
+
+Wicker Ford by midday.
+
+Carrow before dark.
+
+North Gate inspection on return cared more about empty crates than our tired faces.
+
+Correct border priorities.
+
+At East Annex, Sella checked the closure stamp.
+
+Then the completed manifest.
+
+Then the client receipt.
+
+"One delay day," she said.
+
+"Officially," I said.
+
+"Best kind."
+
+Orrin looked betrayed.
+
+"You two have the same disease."
+
+Sella ignored him and counted my pay.
+
+Standard escort.
+
+Winter premium.
+
+Half-rate delay day.
+
+More money because the road had made the job longer.
+
+Also one floor fee.
+
+Two stews.
+
+One second room above reimbursement.
+
+Travel economics survived success.
+
+I counted the net in my head.
+
+Still good work.
+
+Less beautiful than gross pay.
+
+Healthy.
+
+Sella stamped the closeout.
+
+"Client satisfied."
+
+Not praise.
+
+Contract state.
+
+Orrin took his copy.
+
+I took mine.
+
+Outside East Annex, we stopped beneath a vegetable awning because sleet had started.
+
+"You walking home?" Orrin asked.
+
+"Eventually."
+
+He adjusted his wool hat.
+
+"You travel all right."
+
+I waited for an offer.
+
+None came.
+
+Good.
+
+"You drive all right."
+
+"Marta does most of it."
+
+Accurate delegation.
+
+He turned toward the cooperative yard.
+
+"See you around."
+
+"Probably."
+
+Then he left.
+
+No next route.
+
+No promise.
+
+One man who knew what I was like on a road now knew a little more.
+
+That was enough reputation for one week.
+
+At Lower Rook, Noll saw the straw-wrapped bowls before I got upstairs.
+
+"You listened."
+
+"Dangerous precedent."
+
+He unwrapped one.
+
+Tapped the rim.
+
+"Stonecross."
+
+I stared.
+
+"How?"
+
+"Glaze."
+
+Of course he knew bowl geography.
+
+"Cousin?"
+
+"No."
+
+He handed it back.
+
+Relationship inquiry denied.
+
+Upstairs, I put the two new bowls beside the old ones.
+
+Four owned.
+
+One borrowed.
+
+Noll had asked for three more.
+
+I was approaching competence gradually.
+
+The road north had given me no treasure.
+
+No secret.
+
+No new rank.
+
+It had given me actual Stonecross instead of remembered Stonecross, a road closure stamp, worse stew than Noll promised, two cheap bowls, and another completed job with a man who had chosen me once.
+
+The map in my head was beginning to acquire weather...
