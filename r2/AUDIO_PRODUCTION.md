@@ -511,3 +511,10 @@ Then leave the normal repository handshake.
 > Preserve newer authority, preserve already-generated provider work, skip chapters already durably owned by another worker, and do not overlap.
 
 A fresh worker should derive its actual chapter from GitHub rather than asking the human to assign it.
+
+## Surgical repair provenance
+
+For surgical audio repair, do not assume a script take number maps one-to-one to the same numbered provider chunk. Provider-safe synthesis may split one script take into multiple durable chunks, which shifts later provider numbering. Resolve the actual durable provider artifact from take maps, provider contexts, capture evidence, or direct audio evidence before deriving splice coordinates.
+
+Historical chapters may predate persisted provider chunks. When an exact provider artifact cannot be durably recovered, a repair may target the verified assembled chapter audio directly, but only after exact historical spoken text and local audio boundaries are proven. Never invent a missing chunk or regenerate from current prose merely to make the storage model look uniform.
+

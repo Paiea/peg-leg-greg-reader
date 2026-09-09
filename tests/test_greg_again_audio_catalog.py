@@ -190,7 +190,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         chapter = by_id["ga-019"]
         self.assertEqual(19, chapter["number"])
         self.assertEqual(36, chapter["take_count"])
-        self.assertEqual(867.168, chapter["duration_seconds"])
+        self.assertEqual(868.68, chapter["duration_seconds"])
         self.assertEqual("assets/chapter-019.mp3", chapter["audio_src"])
         audio = AUDIO_ROOT / "assets" / "chapter-019.mp3"
         self.assertTrue(audio.exists())
