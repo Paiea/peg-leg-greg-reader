@@ -1,6 +1,7 @@
 # Greg, Again - Chapter 15 Audio Finish
 
-Chapter: **015 - The Morning Barge**
+Chapter: **015 - The Friend**
+Written source title: **The Morning Barge**
 Source authority: `r2/assets/written/ch015.md`
 Voice: `deep`
 Lens: **SHARED GREG SURFACE**
