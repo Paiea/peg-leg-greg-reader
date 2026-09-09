@@ -134,7 +134,7 @@ Use cheap local story judgment when the next causal movement is already clear.
 
 Escalate to stronger machinery only when it answers a consequential uncertainty better:
 
-- CHARACTER PRESSURE / PERFORMANCE for behaviorally uncertain relationship crossings, confrontations, negotiations, intimacy, or other high-heat scenes
+- CHARACTER PRESSURE / PERFORMANCE for behaviorally uncertain relationship crossings, confrontations, intimacy, or other high-heat scenes
 - time/action pressure when elapsed time or residue is genuinely uncertain
 - long-range compiler / forward-backward rehearsal when local chapters risk losing distant pull
 - STORY SYNC only when repeated evidence needs conservative promotion
@@ -477,42 +477,73 @@ And:
 
 > **Future legends should be allowed to enter as ordinary present people before history knows what to call them.**
 
-## Frontier after Chapter 18
+### 19 — Who Cleans It
+
+`state/experiments/greg-again/prose/019-who-cleans-it.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/019-story-search.md`
+
+Five ordinary days pass after Greg books the support assessment. He trains lightly, earns a little ordinary warehouse-count money, and deliberately does not keep checking Arlo's workshop.
+
+Arlo and Ivena move the filtration venture without him. A tannery trial proves the unit works under real process load, then exposes a less glamorous failure: by the third day the removable chamber is packed with tannery solids and the customer does not want to buy a device that creates an hour of recurring cleaning labor.
+
+Greg reaches for the mature-world solution of interchangeable replacement chambers. Current fabrication falsifies the shortcut. Firing shrinkage, hand-finished collars, and small dimensional variation mean one clean chamber does not simply fit another housing even when both were built to the same nominal design.
+
+Ivena solves the present problem instead of the forty-year problem. Each tannery unit can have its own matched spare chamber. The clean matched chamber is swapped in quickly; the dirty one returns to Arlo's workshop for cleaning and later return.
+
+A tannery wash worker also improves the pressure tongue by asking for visible warning colors that survive dirty working conditions better than black marks.
+
+The tannery accepts one unit for a two-week service trial, not a six-unit order. The venture receives a small weekly service payment only while the unit remains usable. If a needed swap is missed, the tannery bypasses the unit and does not pay for that interval.
+
+The result opens another scale problem: recurring revenue creates recurring labor, route time, spare-stock needs, cleaning capacity, and failure responsibility. North Gate rerouting appears only as ordinary traffic friction on the walk home.
+
+Surviving discovery:
+
+> **A product that works once is not yet a system that keeps working.**
+
+And:
+
+> **Recurring value and recurring obligation are the same structure seen from opposite sides.**
+
+Do not convert that second line into business-theory dialogue. The chapter proves it by making Greg carry the dirty chamber home.
+
+## Frontier after Chapter 19
 
 Current selected state:
 
-- roughly one day has passed since Chapter 17; no large time skip has occurred.
-- Mara remains away toward / in transit to Halden.
-- Greg's first packet letter to Mara has been accepted by the Carrow packet office, stamped, paid at ordinary postage, and placed in the Vey Shipping route sack. It has left Greg's hands but has not been shown received.
-- the packet clerk says the Halden packet is expected to leave at noon if the lower quay remains usable, continuing North Gate / river congestion as infrastructure pressure without making it the chapter plot.
+- roughly five ordinary days have passed since Chapter 18; no large time skip has occurred.
+- Greg's support assessment is now roughly five weeks and two days away, still scheduled for First Deepwinter.
+- do not skip directly to the assessment and do not pull Kesra on-page merely because the clock is moving.
+- Greg still cannot afford / has not purchased the whole instructional sequence; the twelve-copper deposit only secured the assessment slot.
+- Greg continues light yard / support practice without a new power jump. He can still make a small stable plane for several breaths under light conditions.
+- Greg took one ordinary half-day warehouse count for cash during the five-day interval. No recurring employment arrangement is established.
+- Mara's first letter remains traveling toward Halden. It has not been shown received and no reply has arrived.
 - Greg still has Tavin's old card deck, the brass key, and the marked support cord.
-- Greg has spent twelve copper as a nonrefundable deposit on a formal Guild support intake assessment.
-- the assessment is scheduled roughly six weeks ahead, on First Deepwinter.
-- do not treat six weeks as a command to skip directly to the assessment.
-- Greg cannot afford / has not purchased the whole instructional sequence yet; he has paid for access to the next gate.
-- current Carrow support procedure requires assessment before formal instruction.
-- two local intake-capable support practitioners are currently tied up on North Gate city rotation; the specialist examiner comes through on circuit.
-- Sella records Greg as Bronze, ward-support intake, low reserve.
-- Greg can currently form a small stable plane of roughly five inches for several breaths without immediate headache under light conditions. This is not a power jump.
-- Kesra Dain is now established as a current Silver specialist / rotating examiner scheduled to assess Greg in six weeks.
-- Greg knows Kesra later becomes one of the other six S-class adventurers on the continent and remembers ordinary peer-life details about her, but current Greg has not met current Kesra on-page.
-- do not immediately bring Kesra into Chapter 19 merely because the name is now available.
-- the Guild fire is now placed as plausibly occurring during the coming Deepwinter if Greg's seasonal memory is correct. The roof remains red and no fire cause has been established.
-- the Red Winter is now placed as probably the winter after the coming one, outside the likely next-year R2 horizon if Greg's East Verrel dating is correct.
-- Soren remains unresolved and should not be hunted merely because the Red Winter chronology has been placed.
+- Kesra Dain remains a current Silver specialist / future S-class peer scheduled to assess Greg later. Current Greg has still not met current Kesra on-page.
+- the Guild fire remains a coming-Deepwinter long shadow with no established cause.
+- Red Winter remains probably the following winter and does not need near-term event treatment.
+- Soren remains unresolved.
 - the filtration venture remains owned by Arlo, Greg, and Ivena.
-- six ordered units remain in production; the tannery still wants to see a working unit before ordering.
-- Arlo's workshop remains Arlo's and the venture still does not require Greg at every step.
-- production capacity and brass fittings remain live constraints.
-- Greg nearly turns toward Arlo's workshop by habit, then allows the venture to continue without him and uses ordinary yard time for himself instead.
-- Vale's lower-quay payment has improved Greg's cash position, but the support deposit and future assessment / instruction costs keep money relevant.
-- Vale has evidence Greg can be useful for practical short work, but no recurring employment arrangement or new debt exists.
-- Rusk remains in Vale's orbit.
-- North Gate remains standing and unresolved. Current restrictions continue changing city logistics and consuming support capacity.
-- Orra remains a present-day Vey Shipping river worker. Greg still does not know her from later history.
-- Vey Shipping remains living current infrastructure rather than proven destiny-company history.
+- the six already ordered units remain a production obligation; the tannery is a separate bounded service trial rather than a new six-unit purchase.
+- one tannery unit is now under a two-week service trial.
+- that tannery unit has / will receive its own matched spare chamber because current chambers are not reliably interchangeable across housings.
+- current firing shrinkage, hand finishing, and collar variation prevent Greg from importing mature interchangeability by idea alone.
+- Arlo owns the current hardware / fabrication reality and is considering easier service-side fasteners.
+- Ivena owns the strongest customer-conversion action and created the matched-spare service solution.
+- a tannery wash worker materially improved the pressure-tongue interface by asking for visible warning colors rather than black-on-dirty-surface marks.
+- the tannery pays a small weekly service amount only while the unit remains usable; missed required service means bypass / no service payment for that interval.
+- the new filtration constraints include chamber cleaning, matched spares, route time, labor, cleaning capacity, breakage responsibility, and eventually standardization.
+- do not immediately scale the service model because Greg can see the later network shape. Ivena explicitly chooses to learn one unit first.
+- production capacity and brass fittings remain live constraints for the six ordered units.
+- Arlo's workshop remains Arlo's. The filtration venture can still move without Greg.
+- Greg's future knowledge remains useful as a lead but overreaches when it assumes mature manufacturing infrastructure already exists.
+- Vale's lower-quay work remains historical evidence of Greg's usefulness, not a standing job.
+- North Gate remains standing and unresolved. Restrictions continue changing city routes, freight, and support capacity, but Chapter 19 does not foreground the gate.
+- Orra remains a present-day Vey Shipping river worker and Vey remains living current infrastructure rather than proven destiny-company history.
 - Jorren remains north.
-- Sella remains a familiar institutional relationship.
+- Sella remains a familiar Guild relationship.
 - Tavin remains somewhere south with a river company.
 
 ## Chapter 1 promise posture
@@ -521,38 +552,45 @@ See:
 
 `state/experiments/greg-again/written/CHAPTER_1_PROMISE_LEDGER.md`
 
-Chapter 18 materially updates three promises without solving them all:
+Chapter 19 deliberately does not stack another named promise payoff after Chapter 18's chronology / Kesra seam.
 
-- **Guild fire:** horizon now likely inside the coming winter, but causation / exact event remain unproven.
-- **Soren / Red Winter:** Red Winter is probably beyond the current one-year-ish R2 horizon; Soren remains unresolved.
-- **later S-class peer / social history:** Kesra Dain enters present attention as a current Silver specialist, not yet as the future legend Greg remembers.
+It does strengthen the governing Chapter 1 promise that future knowledge is a lead rather than present terrain: Greg correctly remembers mature interchangeable filter service, but he initially skips the current manufacturing system that makes interchangeability possible.
+
+The Chapter 19 search also verifies the unresolved second-letter problem cheaply:
+
+- selected Chapter 1 prose says `Two letters.`
+- the upstream subjective-cut source identifies Mara's letter but does not identify a second letter
+- the earlier prose control also identifies only Mara's letter
+
+Therefore the second letter is a real promise created by the selected written surface, but there is no surviving upstream authority defining its identity. Do not invent what it was merely to clear the ledger. Let a live relationship or practical need earn that decision later.
 
 Still-open strong obligations include:
 
-- the unresolved second letter from Chapter 1; verify what it was before using it rather than inventing a replacement.
-- continued proof around river-shipping history without turning Vey into a preselected destiny company.
-- continued material support identity beyond the tiny-plane sequence, now with a real assessment clock.
-- Northern Gate belief update before the long shadow eventually resolves.
-
-Do not stack another promise payment immediately because Chapter 18 happened to create a natural seam.
+- continued proof around river-shipping history without turning Vey into a preselected destiny company
+- continued material support identity beyond the tiny-plane sequence, now with a real assessment clock
+- Northern Gate belief update before the long shadow eventually resolves
+- the Guild fire itself / stronger causal evidence if story time reaches the coming Deepwinter
+- broader ordinary-life memory beyond Mara when a real person or object earns it
 
 ## Immediate next pressure
 
-Chapter 18 is intentionally quieter institutional / progression action after Chapter 17's physical river emergency.
+Chapter 19 is commercial / operational pressure after Chapter 18's institutional waiting problem. It advances several days without turning elapsed time into montage.
 
 Live pressure now includes:
 
-- six weeks until the support assessment, but the story should live during those six weeks rather than skip them automatically.
-- Mara's first letter is traveling; do not manufacture an immediate reply before packet time earns it.
-- the filtration venture has a tannery demonstration / customer-conversion pressure available, but do not return to the business merely because it is convenient.
-- Greg still needs money for the later assessment balance / instruction while also preserving ordinary living cash.
-- North Gate restrictions continue affecting the city and now consume some support capacity, but the gate does not need to own every nearby chapter.
-- Kesra exists as a distant future-person thread. Do not pull her on-page early unless a live causal event earns it.
-- the Guild fire is now a closer long shadow inside the coming winter. Do not create an arson plot just because the horizon is placed.
-- Red Winter no longer needs near-term event treatment; its chronology can remain background until stronger evidence arrives.
-- the unresolved second letter remains concrete but should be verified before use.
+- roughly five weeks and two days until the support assessment, but the intervening story should remain alive on its own terms.
+- Mara's first letter is still traveling; do not manufacture an immediate reply.
+- the tannery service trial now has a two-week clock, but Chapter 20 does not need to return there immediately. Let service become residue unless a real failure / success changes state.
+- six already ordered filtration units still create production pressure separate from the tannery trial.
+- maintenance labor, matched spare chambers, route time, cleaning capacity, and eventual standardization are now real venture constraints.
+- Greg still needs money for ordinary life and the later assessment balance / instruction.
+- North Gate restrictions continue changing city logistics and consuming some support capacity without needing to own every chapter.
+- Kesra remains distant.
+- the Guild fire remains closer but should not become an arson plot because the horizon exists.
+- Red Winter remains background chronology.
+- the unresolved second letter now has a verified authority gap. Do not repeat the verification search unless new evidence appears.
 
-For Chapter 19, do a fresh bounded next-story search from this state. Prefer the strongest causal movement, not the nearest queued thread.
+For Chapter 20, do a fresh bounded next-story search from this state. Because 20 is the next five-chapter frontier after 15, glance at the Chapter 1 promise ledger once after selecting the live causal event, not before.
 
 Continue writing the Shared Greg Surface directly. Use PERFORMANCE only when behavioral uncertainty actually earns it.
 
