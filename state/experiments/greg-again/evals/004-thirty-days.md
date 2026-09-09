@@ -1,160 +1,151 @@
-# Greg, Again — Chapter 4 Lens Calibration
+# Greg, Again — Chapter 4 Evaluation
 
-Status: **QUEUED WRITTEN CALIBRATION / NON-CANON**
+Status: **SELECTED WRITTEN RESULT / NON-CANON**
 
 Control: `state/experiments/plg-r2/prose/004-thirty-days.md`
 
-Chapter 3 prior: **Greg should own continuity. Other voices should own the moments only they can make happen.**
+Story rehearsal: `state/experiments/greg-again/rehearsals/004-story-search.md`
 
-Chapter 3 also added two earned breach classes:
+Selected page render: `state/experiments/greg-again/prose/004-thirty-days.md`
 
-- **VOICE AS FALSIFICATION** — another mind challenges Greg's model in a way Greg cannot honestly generate for himself.
-- **LANGUAGE AS STATE TRANSITION** — words create or change obligations, prices, promises, refusals, terms, or deadlines.
+## Result
 
-## Why Chapter 4 is a new test
+> **RESIDUE UNDER PRESSURE + GREG-DOMINANT wins Chapter 4.**
 
-Chapter 4 changes the problem again.
+The saltback material survives, but the inherited chapter structure does not.
 
-It contains:
+The stronger version gets the live contract moving earlier and lets the month reveal itself through changed state encountered under a current objective.
 
-- a one-month time jump rendered through changed state rather than calendar summary
-- accumulated independent progress by Sella, Jorren, Arlo, Vale, and Greg
-- familiar banter that now carries relationship history
-- a small contract negotiation with Jorren
-- Sella enforcing equipment safety
-- Jorren contributing recent monster knowledge Greg does not possess
-- combat in a room that invalidates Greg's best practiced attack
-- shouted commands and corrections under immediate physical pressure
-- payoff showing that practice has become embodied capability rather than remembered theory
+The selection is not `more action at any cost`.
 
-The new risk is not mainly flattening negotiation.
+It wins because action becomes the place where time, training, money, relationships, and independent character motion all become causal at once.
 
-It is **over-mediating urgent outside information until action loses speed or trust.**
+## What improved over the control
 
-## Outside-agency lock
+### 1. TIME ARRIVES WHILE THE STORY IS MOVING
 
-### Sella
+The month is still visible through:
 
-**WANT** — keep the Guild moving, enforce safety/process, maintain her own certification, and waste as little time as possible.
+- Sella no longer asking for Greg's token
+- Greg's callus and deteriorating handwriting
+- worn sword grip / practiced ground / damaged tree
+- Jorren's new boots and earned north-road escort
+- Vale still owning part of Greg's time
+- Arlo improving the project independently
+- Greg's mana becoming slightly more usable at continued cost
 
-**ACTION** — anticipates Greg's arrival, tracks his changed habits, exposes the real reason the saltback pay increased, forces an acid kit into the job, continues her own staff drills, and later processes the contract return without treating Greg's survival as a ceremony.
+But these facts no longer need a long runway before the current problem begins.
 
-**SCENE DELTA** — turns elapsed time into relationship habit, reduces Greg's contract profit before he leaves, and materially prevents acid damage from becoming worse.
+### 2. ACTION PROVES PROGRESSION
 
-**GREG MISREAD** — keeps treating Sella's ordinary competence as a private challenge to his own progression.
+The overhead cut and side step are no longer merely reported as improved.
 
-**CONTINUATION** — keeps running the Guild desk and training whether Greg is present or not.
+They matter in the cellar.
 
-### Jorren
+The side step prevents acid from hitting Greg's chest.
 
-**WANT** — prepare for his north-road escort, keep improving, earn money, and not die on a saltback contract.
+The overhead cut becomes capable of killing a monster once Greg changes the environment enough to use it.
 
-**ACTION** — earns new boots and a caravan place off-camera, negotiates his split, supplies an acid kit, brings recent saltback knowledge, corrects Greg's assumptions, adapts inside the cellar, and kills the second creature himself.
+Current-life capability is proven through consequence.
 
-**SCENE DELTA** — proves time changed him too, prevents Greg from relying on stale future memory, and becomes the more locally competent fighter in parts of the contract.
+### 3. SUCCESS CREATES THE NEXT DEFICIENCY
 
-**GREG MISREAD** — still wants to treat Jorren as a useful benchmark orbiting Greg's training when Jorren has his own trajectory and current expertise.
+Greg's overhead cut works.
 
-**CONTINUATION** — leaves north next week whether Greg is ready for that relationship change or not.
+Then recovery almost gets him burned.
 
-### Arlo
+New rule:
 
-**WANT** — make the Kestrin experiment real enough to matter and own his workshop's contribution.
+> **Progress should often reveal the next constraint rather than merely closing the old one.**
 
-**ACTION** — improves the clay mix without Greg, invests his own money, and later summons Greg because the project has moved while Greg was elsewhere.
+This keeps progression causal and prevents training payoff from becoming a static victory screen.
 
-**SCENE DELTA** — proves the project is no longer Greg's private future-knowledge toy.
+### 4. ENVIRONMENT GETS AUTHORITY
 
-**GREG MISREAD** — feels privately offended when Arlo's independent work beats his suggestions.
+The low ceiling invalidates Greg's best practiced attack.
 
-**CONTINUATION** — continues experimenting and creating value off-camera.
+The movement is not wrong. The room makes it wrong.
 
-### Antonius Vale
+New pressure:
 
-**WANT** — keep profitable leverage over Greg's borrowing.
+> **Capability is conditional on environment, timing, equipment, fatigue, information, and other actors.**
 
-**ACTION** — has already been repaid once, lends again, and currently owns a time claim on part of Greg's week.
+This helps prevent progression from becoming abstract stat growth.
 
-**SCENE DELTA** — preserves money pressure through the month instead of letting the time skip erase consequences.
+### 5. VOICE AS MOTOR INTERRUPT SURVIVES
 
-**GREG MISREAD** — calls lower balance progress while Vale correctly measures the ongoing dependency.
+Jorren's urgent corrections and tactical language improve the action when they arrive before Greg has time to metabolize them.
 
-**CONTINUATION** — keeps pricing Greg and everyone else as risk.
+The useful sequence is sometimes:
 
-## Lens hypothesis
+```text
+HEAR
+→ MOVE
+→ UNDERSTAND
+```
 
-### Strong first candidate: GREG-DOMINANT, but less aggressive in live combat
+not:
 
-The opening month-summary material naturally suits Greg mediation because the interesting thing is how he notices changed state.
+```text
+HEAR
+→ EXPLAIN
+→ MOVE
+```
 
-Routine banter can compress when the relationship is already legible.
+This is now repeated written-renderer evidence that direct outside voice can seize the page when latency itself matters.
 
-But the saltback cellar creates a different rule: some outside language must arrive **faster than interpretation**.
+### 6. JORREN CANNOT BE REPLACED BY A NAMELESS HELPER
 
-Examples:
+Jorren brings:
 
-- Jorren's correction that this kind of acid behaves differently
-- `Wrap your sword hand.` plus the reason
-- `Usually after.` correcting Greg's spit/charge model
-- `Don't rush it.`
-- `Stairs.` / `Bring it to the stairs.` during tactical coordination
-- short warnings when a delayed paraphrase would make the action feel retrospectively narrated
+- recent saltback knowledge Greg does not have
+- prior relationship texture
+- independent contract ambition
+- the upcoming north-road departure
+- the second kill
+- tactical adaptation during the first fight
 
-## New pressure under test — VOICE AS MOTOR INTERRUPT
+His life is moving in a direction that will remove him from Greg's immediate orbit.
 
-Sometimes another person's words matter because Greg must act before he can metabolize them.
+That makes time directional rather than decorative.
 
-> **If the useful sequence is HEAR → MOVE → UNDERSTAND, do not force it into HEAR → GREG EXPLAINS → MOVE.**
+## What was intentionally not preserved
 
-This matters especially in:
+The selected render compresses some of the control's pre-fight recap and routine dialogue.
 
-- combat
-- emergencies
-- sex/intimacy boundaries
-- shouted warnings
-- team coordination
-- time-sensitive orders
+That material was not removed because it was bad.
 
-Direct speech can function as an interrupt on Greg's thought-thread.
+It was removed or relocated when the same information became stronger as evidence under a live objective.
 
-The fact that Greg owns continuity does not mean he gets to insert explanatory latency between stimulus and response.
+## Current written grammar after Chapter 4
 
-## Time-jump pressure
+Repeated wins now support the following **priors**, not laws:
 
-Chapter 4 also suggests a separate written-renderer rule:
+1. **Greg owns continuity.**
+2. **Outside voice earns space when another mind falsifies Greg.**
+3. **Language gets direct force when words themselves change story state.**
+4. **Outside voice may interrupt immediately when action requires HEAR → MOVE → UNDERSTAND.**
+5. **Time is strongest when revealed through residue that changes present action.**
+6. **Progression is stronger when success exposes the next constraint.**
+7. **Environment and other actors retain authority over whether a learned capability is useful.**
 
-> **Elapsed time should arrive as changed evidence before summary when possible.**
+## What remains unproven
 
-The chapter already does this well:
+Do not generalize this yet to:
 
-- Sella no longer asks for the token
-- Greg has callus and worn grip
-- dirt grooves and stripped bark show repetitions
-- Jorren has new boots and an earned escort
-- Arlo has invested independently
-- Vale still owns part of Greg's week
+- intimacy
+- sustained emotional confrontation
+- ensemble scenes with several equally important outside voices
+- scenes where Greg is not the most interesting consciousness in the room
 
-Do not turn a time jump into a recap paragraph when physical, economic, relational, and institutional residue can prove the passage of time.
+## Next story question
 
-## Voice-breach candidates
+Chapter 4 ends with Arlo summoning Greg because the filtration project advanced without him.
 
-Preserve or strongly consider preserving:
+Do not assume the existing Chapter 5 structure is correct.
 
-- Sella/Jorren lines that reveal accumulated relationship rather than first-time exposition
-- negotiated `Two-fifty` split because the agreement changes money state
-- Sella's acid-kit enforcement because refusal of the paper is leverage
-- Jorren's recent saltback corrections because he knows something Greg does not
-- urgent combat coordination where hearing precedes understanding
-- `Your fucking overhead thing?` because the line carries both tactical recognition and Jorren's relationship to Greg's absurd training project
+The next search should ask:
 
-Compress routine connective chatter if behavior already carries it.
+> **What should Arlo's independent success force Greg to do now, especially with Vale's debt deadline still active?**
 
-## Calibration question
-
-> **Can the written Greg-dominant lens remain close and distinctive while allowing another person's voice to seize the page instantly when speed, trust, or coordination matters?**
-
-If yes, the grammar begins to cover a much wider share of the novel.
-
-If no, action-heavy scenes may require a lighter lens than training, bureaucracy, and negotiation.
-
-Do not full-render Chapter 4 until this question is rehearsed against the saltback cellar. The opening time-jump material does not need a three-way test unless a new problem appears.
+The existing `The Partner` chapter is quarry/control, not a required route.
