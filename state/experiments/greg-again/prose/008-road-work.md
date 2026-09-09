@@ -1,0 +1,797 @@
+# Chapter 8: Road Work
+
+Status: **EXPERIMENTAL SECOND-RUN PROSE / TRUE-FRONTIER STORY**
+
+Batch rehearsal: `state/experiments/greg-again/rehearsals/007-010-story-batch.md`
+
+---
+
+By the fourth morning, I could sleep through wagon wheels.
+
+Not all wagon wheels.
+
+That would have been stupid.
+
+I could sleep through the ordinary ones.
+
+Left rear on wagon six still clicked every third turn because the hub pin sat slightly proud. Wagon two squealed when the road leaned right. The passenger cart behind us had a canopy buckle that knocked against wood whenever the driver forgot to tighten it after lunch.
+
+Those sounds had become furniture.
+
+A new sound woke me.
+
+Apparently the body could learn a caravan faster than it could learn a sword.
+
+Useful.
+
+Less glamorous.
+
+My shoulders had stopped complaining about the pack because the skin beneath the straps had become harder.
+
+My right heel had one blister healing beneath another.
+
+Jorren no longer asked whether I wanted first or second watch.
+
+I took second.
+
+He took first.
+
+This had happened three nights in a row without becoming an agreement.
+
+Time liked doing that.
+
+Breakfast was oats again.
+
+Nobody discussed it.
+
+On the first morning, three people had complained.
+
+On the fourth, complaint had become inefficient.
+
+I ate.
+
+Then held my left hand flat beneath one of Meral's marked cords.
+
+Thumb to knuckle.
+
+Four inches.
+
+The cord hung between two wagon hooks while Meral checked a cracked wheel rim ten feet away.
+
+She was not watching me.
+
+This was somehow worse.
+
+I reached for mana.
+
+Nothing.
+
+Again.
+
+Pressure.
+
+A translucent plane appeared between my palm and the cord.
+
+Thin.
+
+Crooked on the left.
+
+But there.
+
+One breath.
+
+Two.
+
+Gone.
+
+I smiled.
+
+"Again," Meral said without turning.
+
+Of course.
+
+Second attempt failed.
+
+Third produced something shaped like a bent plate.
+
+Fourth worked for one breath.
+
+Meral finally came over.
+
+She tapped the cord.
+
+"You're making a shield."
+
+I looked at the four-inch square of empty air where my magic had recently existed.
+
+"Very threatening shield."
+
+"Still thinking shield."
+
+She took my wrist and turned my hand twenty degrees.
+
+"Plane. Direction. Load. Forget protection."
+
+That sounded wrong at a spiritual level.
+
+Support magic protected things.
+
+That was half the point.
+
+Meral saw the argument arrive.
+
+"If I brace a wheel, what am I protecting?"
+
+The wheel.
+
+No.
+
+The axle?
+
+No.
+
+The wagon?
+
+She waited.
+
+Right.
+
+"Whatever happens if the wagon fails."
+
+"Better."
+
+She let go.
+
+The caravan started moving before I got another attempt.
+
+Also normal now.
+
+Nobody organized the day around my progression.
+
+Good system.
+
+We made twelve miles before noon and another eight before the road narrowed between scrub-covered slopes.
+
+Dusk started arriving early between them.
+
+The quartermaster wanted another mile before camp.
+
+Meral wanted open ground.
+
+Meral won.
+
+Not because of authority.
+
+Because the next open ground was one mile ahead and the light was already bad enough to make every shadow look employed.
+
+We kept moving.
+
+The road bent.
+
+A handcart lay on its side across most of the track.
+
+One wheel missing.
+
+Two baskets spilled beside it.
+
+A man stood in the road waving both arms.
+
+A woman crouched beside the cart holding one ankle.
+
+Jorren, walking beside me, slowed.
+
+So did I.
+
+Not because the scene looked dangerous.
+
+Because it looked arranged.
+
+Too centered.
+
+The cart blocked enough road to force the lead wagon left, where the shoulder narrowed between brush and a drainage cut.
+
+Maybe accident.
+
+Most ambushes looked like accidents until the useful moment.
+
+I searched memory.
+
+Nothing.
+
+No famous north-road gang.
+
+No future warning.
+
+Good.
+
+Current eyes, then.
+
+The man waving had clean palms.
+
+Could mean nothing.
+
+The woman holding her ankle had mud on one knee and none on the other.
+
+Also nothing.
+
+Their baskets had onions in them.
+
+Real onions.
+
+That annoyed me.
+
+Meral stepped ahead of the lead wagon.
+
+"Stay spread."
+
+That reached everyone who needed it.
+
+No explanation.
+
+The quartermaster called to the man in the road.
+
+Wheel came off.
+
+Axle pin lost.
+
+Needed help moving the cart.
+
+Plausible.
+
+The lead wagon slowed to a walk.
+
+The caravan compressed behind it.
+
+There.
+
+That was the actual problem.
+
+Nine wagons were becoming one long target because the front could not move.
+
+I looked behind us.
+
+Brush on both sides.
+
+Low ridge.
+
+No obvious movement.
+
+Then a bird lifted from the right slope.
+
+One bird.
+
+Two.
+
+Three.
+
+Something had moved through the brush beneath them.
+
+"Right ridge."
+
+Jorren looked.
+
+Too late to see it.
+
+He trusted me anyway.
+
+That mattered.
+
+His sword came out.
+
+The man in the road stopped waving.
+
+Meral's ward went up.
+
+Not dramatic.
+
+A pale curve appeared along the caravan's exposed right side, high enough to catch arrows, low enough that people could still move beneath it.
+
+Professional shape.
+
+Long.
+
+Efficient.
+
+A ceramic bead flew out of the brush.
+
+Small enough that I almost missed it.
+
+It struck the ward.
+
+Cracked.
+
+White light flashed.
+
+Meral's entire barrier collapsed like somebody had cut a rope.
+
+Prepared system.
+
+Prepared answer.
+
+Two crossbows fired before the light faded.
+
+Someone screamed.
+
+I moved.
+
+Not thought.
+
+Side step.
+
+One bolt passed where my chest had been.
+
+The other was not aimed at me.
+
+Passenger cart.
+
+Woman standing beside it.
+
+No time.
+
+My hand came up.
+
+Plane.
+
+Direction.
+
+Load.
+
+Four inches was useless.
+
+So I made six.
+
+That was not how training worked.
+
+Mana arrived anyway.
+
+A crooked sheet snapped into the bolt's path.
+
+Not enough to stop it.
+
+Enough to change the angle.
+
+The bolt struck, kicked sideways, and buried itself in the cart frame instead of the woman's ribs.
+
+My forearm went numb.
+
+Useful later.
+
+Three attackers came out of the right brush.
+
+Two more from behind.
+
+Not charging the guards.
+
+They were going for wagon seven.
+
+Small cargo.
+
+Locked chest beneath the driver's bench.
+
+They knew exactly where.
+
+"Rear!"
+
+Jorren turned before I finished the word.
+
+Good.
+
+Meral was already rebuilding something smaller around the passenger carts.
+
+No broad ward this time.
+
+The charm had taught her too.
+
+The man from the fake cart pulled a short blade.
+
+The injured woman stood up perfectly well.
+
+Of course.
+
+I had spent valuable attention on the mud pattern.
+
+People remained rude enough to contain multiple clues.
+
+One attacker reached wagon seven and cut the rear lashing.
+
+Another threw a hook toward the chest.
+
+Not robbery by search.
+
+Extraction.
+
+Fast.
+
+Specific.
+
+Jorren hit the first one before he reached the wheel.
+
+Not elegantly.
+
+Shoulder into ribs.
+
+Both went down.
+
+The second attacker pulled the hook line tight.
+
+The chest shifted under the bench.
+
+Driver tried to kick the hook free.
+
+Bad position.
+
+A third attacker came at him with a club.
+
+I ran.
+
+My legs had spent four days walking.
+
+They objected to sprinting.
+
+Not relevant.
+
+The clubman saw me.
+
+Changed target.
+
+Good.
+
+Better me than the driver.
+
+He swung horizontal.
+
+I stepped outside.
+
+Small.
+
+Clean.
+
+The club missed.
+
+Opening.
+
+Overhead cut.
+
+Open sky.
+
+Finally architecture approved.
+
+My sword came down.
+
+He got his club up with both hands.
+
+Steel hit wood.
+
+Shock through my wrists.
+
+The cut drove him backward.
+
+Not through the guard.
+
+Of course not.
+
+I recovered.
+
+Late.
+
+Still late.
+
+He punched me in the mouth.
+
+White light.
+
+I tasted blood.
+
+Excellent diagnostic.
+
+Recovery remained bad.
+
+He raised the club again.
+
+Jorren's blade entered the space between us.
+
+Not into him.
+
+Across his line.
+
+The attacker checked his swing.
+
+I moved.
+
+This time I did not try to win the exchange.
+
+I kicked his knee sideways.
+
+Ugly.
+
+Effective enough.
+
+He fell.
+
+Jorren hit him in the temple with the pommel.
+
+Done.
+
+"You good?"
+
+My mouth hurt.
+
+Yes.
+
+"Then move."
+
+Motor interrupt.
+
+Correct.
+
+The hook line on the chest went tight again.
+
+Someone in the brush was pulling from the far side.
+
+The driver had one foot planted against the bench, trying to hold the chest with his whole body.
+
+Wrong contest.
+
+I cut the line.
+
+The tension vanished.
+
+Something crashed in the brush.
+
+Good.
+
+The man by the road shouted.
+
+Not at us.
+
+Retreat signal.
+
+The attackers had lost speed.
+
+That changed the economics.
+
+Two ran immediately.
+
+The one Jorren had tackled tried to rise and got a boot between the shoulders from the wagon driver.
+
+The false injured woman disappeared through the left brush faster than anybody with an ankle problem deserved.
+
+Meral sent one flat ward across the road behind the lead wagon.
+
+Not to trap them.
+
+To stop another crossbow lane.
+
+One bolt hit it and dropped.
+
+Then nothing.
+
+No heroic last charge.
+
+No leader revealing himself.
+
+The road gang left because the fast robbery had become a fight.
+
+Reasonable people.
+
+I hated reasonable enemies.
+
+The whole exchange had taken maybe forty seconds.
+
+My body claimed several years.
+
+I touched my lip.
+
+Blood.
+
+Jorren looked at it.
+
+"Recovery."
+
+I glared.
+
+He smiled.
+
+Friendship was a mistake.
+
+Meral was already moving through the caravan.
+
+One passenger had a shallow bolt cut along the upper arm.
+
+One driver had twisted a wrist.
+
+No penetrations.
+
+No dead animals.
+
+The captured attacker had regained consciousness and seemed disappointed by the development.
+
+The quartermaster kicked the false cart out of the road with help from two drivers.
+
+Inside one basket, beneath the onions, were spare crossbow bolts.
+
+I felt vindicated.
+
+Then embarrassed that I felt vindicated.
+
+Meral picked up the broken ceramic bead from the dirt.
+
+"Ward popper."
+
+Cheap?
+
+"Cheaper than hiring someone who can break mine honestly."
+
+She turned it in her fingers.
+
+Common enough on caravan roads.
+
+That bothered me more than if it had been rare.
+
+I had seen her broad ward and mentally upgraded the caravan from vulnerable to defended.
+
+The attackers had seen the same thing and brought a tool for it.
+
+Systems created counters.
+
+Of course they did.
+
+I knew that.
+
+Apparently knowledge could expire when applied to other people's systems.
+
+Meral looked at the bolt buried in the passenger cart.
+
+Then at me.
+
+"That yours?"
+
+The crooked deflection.
+
+Yes.
+
+"How big?"
+
+Six inches.
+
+Maybe seven if I lied.
+
+I did not.
+
+"How long?"
+
+Less than a breath.
+
+She nodded.
+
+No praise.
+
+Good.
+
+"You tried to stop it?"
+
+I had.
+
+"Next time, turn it earlier."
+
+Earlier meant smaller force.
+
+Smaller force meant less mana.
+
+Right.
+
+I looked at the bolt.
+
+The thought was obvious after she said it.
+
+Annoying teacher.
+
+Not teacher.
+
+Warder whose day improved if I became less stupid.
+
+Better.
+
+The quartermaster wanted to camp immediately.
+
+Meral said no.
+
+The attackers knew where we were.
+
+We moved another mile in darkness.
+
+Nobody enjoyed it.
+
+That was not the criterion.
+
+The caravan widened its spacing.
+
+Two guards walked rear.
+
+Jorren took one side.
+
+I took the other.
+
+My forearm trembled from the plane.
+
+My lip swelled.
+
+The road was almost invisible beyond the lanterns.
+
+Nobody talked much.
+
+An hour later we reached open ground beside a dry stone wall and finally stopped.
+
+I sat with my back against a wagon wheel while Meral checked the injured passenger.
+
+Jorren dropped beside me.
+
+"You blocked a bolt."
+
+Deflected.
+
+"Still."
+
+"You hit a man."
+
+"I've done that before."
+
+Fair.
+
+I looked at my hand.
+
+One emergency at the dyehouse.
+
+One runaway wagon.
+
+One bolt.
+
+Three times now, my old instinct had reached for more magic than I possessed.
+
+Three times, something smaller had mattered.
+
+Not enough to make me strong.
+
+Enough to make me useful.
+
+That distinction was starting to feel important.
+
+Across camp, the captured attacker was telling the quartermaster absolutely nothing useful.
+
+Meral had reset one of her cords between two wagon hooks.
+
+Four inches.
+
+Waiting.
+
+I should have slept.
+
+Instead I stood.
+
+My head hurt.
+
+My arm hurt.
+
+My mouth hurt.
+
+I walked toward the cord anyway.
+
+Meral looked up.
+
+"No."
+
+I stopped.
+
+"You spent it."
+
+I hated that sentence.
+
+She pointed at my bedroll.
+
+"Support includes knowing which resource is empty."
+
+There.
+
+Another profession ruined by accounting.
+
+I went to sleep.
