@@ -1,0 +1,90 @@
+name: Capture Greg Again Chapter 9 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch9-backstop
+    paths:
+      - .github/workflows/capture-greg-again-ch9-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-chunks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch9-backstop
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Install browser harness
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+      - name: Capture Chapter 9 generated chunks
+        shell: bash
+        run: |
+          mkdir -p greg-again/audio/assets/chunks/009
+          cat > capture.mjs <<'JS'
+          import fs from 'node:fs';
+          import { chromium } from 'playwright';
+          const jobs = [
+            ['01','4c0b4d4cb42949dfa8464012e3521853'],
+            ['02','c8f71f4bbd38475ca306eaa3ddd80940'],
+            ['03','bdf4f915654b45c29dce260b016d505b'],
+            ['04','c3b8bffc32704421b0494fbf061983ab'],
+            ['05','6b1cb564997f45249cbf36cda8b36d9b'],
+            ['06','54bdeb756fa745baac643b7fa23d148a'],
+            ['07','2296ccdd89644d76aae1866000a6e303'],
+            ['08','9a5c630dc3a845799d36f8ebacfa8c47'],
+            ['09','7d4f6928098b4c8bbda322eb1c1558a5'],
+            ['10','4c7ae721461b4d3db9324493a43ee08f']
+          ];
+          const browser = await chromium.launch({headless:true});
+          const failures=[];
+          async function capture(label,id){
+            const out=`greg-again/audio/assets/chunks/009/${label}.mp3`;
+            if(fs.existsSync(out)&&fs.statSync(out).size>10000)return;
+            const page=await browser.newPage();
+            try{
+              for(let attempt=1;attempt<=12;attempt++){
+                await page.goto(`https://www.aidocmaker.com/g0/audio?name=${id}`,{waitUntil:'domcontentloaded',timeout:60000});
+                await page.waitForTimeout(5000);
+                const text=await page.locator('body').innerText().catch(()=> '');
+                if(/longer than 2 minutes requires a paid plan/i.test(text)) throw new Error('two-minute gate');
+                if(/File Not Found/i.test(text)) throw new Error('file not found');
+                const sources=await page.locator('audio').evaluateAll(nodes=>nodes.map(n=>n.currentSrc||n.src).filter(Boolean)).catch(()=>[]);
+                for(const src of sources){
+                  const response=await page.request.get(src).catch(()=>null);
+                  if(!response||!response.ok()) continue;
+                  const body=await response.body();
+                  if(body.length>10000){fs.writeFileSync(out,body);console.log('CAPTURED',label,body.length);return;}
+                }
+                await page.waitForTimeout(4000);
+              }
+              throw new Error('no playable media surfaced');
+            }finally{await page.close();}
+          }
+          for(const [label,id] of jobs){try{await capture(label,id);}catch(error){failures.push(`${label}: ${error.message}`);}}
+          await browser.close();
+          fs.writeFileSync('/tmp/capture-failures.txt',failures.join('\n'));
+          JS
+          node capture.mjs
+          ls -lh greg-again/audio/assets/chunks/009 || true
+      - name: Commit every successful chunk
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/009
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: persist Greg Again Chapter 9 audio chunks'
+            git push origin HEAD:audio/greg-again-ch9-backstop
+          fi
+      - name: Report missing chunks
+        run: |
+          if [ -s /tmp/capture-failures.txt ]; then cat /tmp/capture-failures.txt; exit 1; fi
