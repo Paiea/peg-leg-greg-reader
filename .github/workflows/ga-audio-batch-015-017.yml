@@ -6,7 +6,6 @@ on:
       - audio/greg-again-batch-015-017
     paths:
       - .github/workflows/ga-audio-batch-015-017.yml
-      - greg-again/audio/production/015-017/**
 
 permissions:
   contents: read
@@ -15,27 +14,27 @@ jobs:
   resolve-contexts:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - name: Resolve provider contexts
         shell: bash
         run: |
           set -euo pipefail
           endpoint='https://level2labs-prod--adm-agent-helper-user-fetch-document.modal.run'
-          for job in greg-again/audio/production/015-017/ch*.urls; do
-            chapter="$(basename "$job" .urls)"
-            echo "===== $chapter ====="
+          raw='https://raw.githubusercontent.com/Paiea/peg-leg-greg-reader/audio/greg-again-batch-015-017/greg-again/audio/production/015-017'
+          for chapter in 015 016 017; do
+            curl -fsSL "$raw/ch${chapter}.urls" -o "/tmp/ch${chapter}.urls"
+            echo "===== ch${chapter} ====="
             while IFS='|' read -r take context old_url; do
               [ -n "$context" ] || continue
               body=$(printf '{"context_id":"%s","context_type":"audio","refresh":true}' "$context")
-              code=$(curl -sS -o /tmp/resp.json -w '%{http_code}' -H 'Content-Type: application/json' -X POST "$endpoint" --data "$body" || true)
+              code=$(curl --max-time 20 -sS -o /tmp/resp.json -w '%{http_code}' -H 'Content-Type: application/json' -X POST "$endpoint" --data "$body" || true)
               printf '%s|%s|HTTP %s|' "$take" "$context" "$code"
               python - <<'PY'
           import json
           try:
               x=json.load(open('/tmp/resp.json'))
-              print(json.dumps(x,separators=(',',':'))[:4000])
+              print(json.dumps(x,separators=(',',':'))[:5000])
           except Exception:
-              print(open('/tmp/resp.json',errors='replace').read()[:4000])
+              print(open('/tmp/resp.json',errors='replace').read()[:5000])
           PY
-            done < "$job"
+            done < "/tmp/ch${chapter}.urls"
           done
