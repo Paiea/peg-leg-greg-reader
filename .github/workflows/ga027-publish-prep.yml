@@ -1,0 +1,50 @@
+name: Prepare Greg Again Chapter 27 Publication
+
+on:
+  push:
+    branches: [audio/greg-again-ch027-auto]
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    if: contains(github.event.head_commit.message, 'Run Chapter 27 publication prep')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch027-auto
+          fetch-depth: 0
+      - name: Reconcile newest main
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git merge --no-edit origin/main
+      - name: Publish manifest entry and remove temporary harnesses
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('greg-again/audio/manifest.json')
+          d=json.loads(p.read_text())
+          ids=[x['chapter_id'] for x in d['chapters']]
+          if 'ga-027' not in ids:
+              d['chapters'].append({
+                'chapter_id':'ga-027','number':27,'title':'The Student','status':'experimental',
+                'lens':'shared-greg-surface','audio_finish':'processing-space','take_count':33,
+                'duration_seconds':847.152,'audio_src':'assets/chapter-027.mp3',
+                'note':'Chapter 27 uses thirty-three provider-safe deep-voice takes with exact current spoken-source coverage. All provider identities and durable take artifacts were preserved; Take 10 was recovered from its original provider job rather than regenerated, ordered playback was verified, and the stitched chapter includes the forward-production listener tail.'
+              })
+          d['chapters'].sort(key=lambda x:x['number'])
+          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+          PY
+          rm -f .github/workflows/ga027-capture.yml \
+                .github/workflows/ga027-capture-v2.yml \
+                .github/workflows/ga027-publish-prep.yml \
+                greg-again/audio/production/027/CAPTURE_TRIGGER.txt \
+                greg-again/audio/production/027/CAPTURE_TRIGGER_V2.txt \
+                greg-again/audio/production/027/PUBLISH_TRIGGER.txt
+          git add -A
+          git commit -m 'Prepare Chapter 27 audio publication'
+          git push origin HEAD:audio/greg-again-ch027-auto
