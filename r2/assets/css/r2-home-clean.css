@@ -1,34 +1,37 @@
 :root {
-  color-scheme: dark;
-  --bg: #13110f;
-  --bg-soft: #1b1713;
-  --panel: #1f1a16;
-  --line: #342a20;
-  --line-soft: #29211a;
-  --ink: #efe7d7;
-  --muted: #b5aa99;
-  --faint: #8f8372;
-  --gold: #c9a36c;
-  --gold-bright: #e4c38f;
-  --shadow: 0 16px 48px rgba(0,0,0,.36);
-  --serif: Georgia, "Times New Roman", serif;
-  --ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: light;
+  --paper: #e5d8bd;
+  --paper-soft: #eee4d1;
+  --paper-deep: #d5c29f;
+  --ink: #241d16;
+  --ink-soft: #45392e;
+  --muted: #756654;
+  --faint: #998873;
+  --line: rgba(67, 52, 36, .22);
+  --line-soft: rgba(67, 52, 36, .13);
+  --gold: #8d612d;
+  --gold-bright: #6f451d;
+  --danger: #8f4334;
+  --shadow: 0 16px 44px rgba(67, 52, 36, .18);
+  --serif: 'Iowan Old Style', Baskerville, 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  --ui: 'Avenir Next', Avenir, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle at top, rgba(201,163,108,.08), transparent 36rem), var(--bg);
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
   line-height: 1.65;
+  text-rendering: optimizeLegibility;
 }
 img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; }
 .skip-link {
   position: fixed; top: .75rem; left: .75rem; z-index: 100;
-  background: var(--ink); color: var(--bg); padding: .65rem .9rem;
+  background: var(--ink); color: var(--paper); padding: .65rem .9rem;
   transform: translateY(-160%);
 }
 .skip-link:focus { transform: translateY(0); }
@@ -41,6 +44,7 @@ a { color: inherit; }
 }
 .site-header {
   min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  border-bottom: 1px solid var(--line-soft);
 }
 .site-brand {
   display: inline-flex; align-items: baseline; gap: .7rem; text-decoration: none;
@@ -60,15 +64,15 @@ a { color: inherit; }
 .site-nav a:hover, .site-nav a:focus-visible, .site-footer a:hover, .site-footer a:focus-visible, .text-link:hover, .text-link:focus-visible {
   color: var(--gold-bright);
 }
-.home-main { padding: .3rem 0 5rem; }
+.home-main { padding: 1rem 0 5rem; }
 .cover-section { padding-top: .2rem; }
 .cover-frame {
   max-width: 1040px; margin-inline: auto; border: 1px solid var(--line);
-  background: #0d0b09; box-shadow: var(--shadow); overflow: hidden; border-radius: 8px;
+  background: #17120d; box-shadow: var(--shadow); overflow: hidden; border-radius: 8px;
 }
 .cover-frame picture, .cover-frame img { width: 100%; }
 .entry-panel {
-  max-width: 820px; margin: 1.5rem auto 0; text-align: center;
+  max-width: 820px; margin: 1.65rem auto 0; text-align: center;
 }
 .entry-kicker, .eyebrow {
   margin: 0; color: var(--gold); font-family: var(--ui); font-size: .73rem; font-weight: 700;
@@ -86,8 +90,8 @@ a { color: inherit; }
   color: var(--ink); text-decoration: none; font-family: var(--ui); font-size: .92rem; font-weight: 700;
 }
 .button:hover, .button:focus-visible { border-color: var(--gold); color: var(--gold-bright); }
-.button-primary { background: var(--gold); color: #17120d; border-color: var(--gold); }
-.button-primary:hover, .button-primary:focus-visible { background: var(--gold-bright); color: #17120d; }
+.button-primary { background: var(--gold); color: #fff8ec; border-color: var(--gold); }
+.button-primary:hover, .button-primary:focus-visible { background: var(--gold-bright); color: #fff8ec; }
 .availability-summary {
   margin: .95rem 0 0; color: var(--faint); font-family: var(--ui); font-size: .9rem;
 }
@@ -142,7 +146,7 @@ a { color: inherit; }
 }
 .lineage-strip p:last-of-type { max-width: 46rem; color: var(--muted); }
 .loading-note, .error-note { color: var(--muted); }
-.error-note { color: #d8a08a; }
+.error-note { color: var(--danger); }
 .site-footer {
   min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
   border-top: 1px solid var(--line-soft); color: var(--faint); font-family: var(--ui); font-size: .8rem;
