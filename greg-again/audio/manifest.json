@@ -18,7 +18,7 @@
     {
       "chapter_id": "ga-002",
       "number": 2,
-      "title": "Two Things",
+      "title": "The Novice",
       "status": "experimental",
       "lens": "greg-dominant",
       "take_count": 12,
@@ -40,7 +40,7 @@
     {
       "chapter_id": "ga-004",
       "number": 4,
-      "title": "Thirty Days",
+      "title": "The Contractor",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "take_count": 12,
@@ -63,7 +63,7 @@
     {
       "chapter_id": "ga-006",
       "number": 6,
-      "title": "The First Customer",
+      "title": "The Troubleshooter",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",

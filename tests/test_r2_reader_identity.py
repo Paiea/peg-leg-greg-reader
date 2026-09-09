@@ -1,5 +1,4 @@
 import json
-import re
 import unittest
 from pathlib import Path
 
@@ -45,12 +44,14 @@ class R2ReaderIdentityTests(unittest.TestCase):
         self.assertIn('max-width: 760px', css)
 
     def test_run_one_and_r2_cross_link_each_other(self):
-        run1_home = (ROOT / 'index.html').read_text(encoding='utf-8')
+        run1_home_updater = (ROOT / 'scripts/update_reader_navigation.py').read_text(encoding='utf-8')
         run1_generator = (ROOT / 'scripts/generate_illustrated.py').read_text(encoding='utf-8')
+        run1_shell_updater = (ROOT / 'scripts/update_showcase_chapter_shells.py').read_text(encoding='utf-8')
         r2_home = (R2 / 'index.html').read_text(encoding='utf-8')
 
-        self.assertIn('href="r2/"', run1_home)
+        self.assertIn('href="r2/"', run1_home_updater)
         self.assertIn('href="../r2/"', run1_generator)
+        self.assertIn('href="../r2/"', run1_shell_updater)
         self.assertIn('href="../index.html"', r2_home)
 
 

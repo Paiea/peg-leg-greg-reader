@@ -39,6 +39,12 @@ def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
         return text
 
     updated = text.replace('../index.html#chapters', '../index.html#books')
+    if 'href="../r2/"' not in updated:
+        updated = updated.replace(
+            '<a href="../art.html">ART</a>',
+            '<a href="../art.html">ART</a><a href="../r2/">R2</a>',
+            1,
+        )
     updated = re.sub(
         r'(<title>\s*Chapter\s+)\d+(\s*:)',
         rf'\g<1>{display}\g<2>',
