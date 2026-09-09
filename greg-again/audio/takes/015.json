@@ -1,0 +1,18 @@
+{
+  "chapter_id": "ga-015",
+  "chapter_number": 15,
+  "title": "The Friend",
+  "written_source_title": "The Morning Barge",
+  "source": "r2/assets/written/ch015.md",
+  "voice": "deep",
+  "take_count": 6,
+  "artifact_boundary": "pending_authorized_export",
+  "takes": [
+    {"take":1,"first_anchor":"I was early.","last_anchor":"Argument concluded.","provider_context_id":"a9b6ca920b60470db8a87f206533cee3","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=a9b6ca920b60470db8a87f206533cee3","artifact_url":null,"status":"submitted"},
+    {"take":2,"first_anchor":"The packet barge left from the western river quay.","last_anchor":"That seemed correct.","provider_context_id":"9ca342079ad94d388d64bbde17e7bf9f","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=9ca342079ad94d388d64bbde17e7bf9f","artifact_url":null,"status":"submitted"},
+    {"take":3,"first_anchor":"Neither of us moved for a second.","last_anchor":"Maybe I like parts of this version better.","provider_context_id":"82acffbd90074a6398aa28765f7d7fab","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=82acffbd90074a6398aa28765f7d7fab","artifact_url":null,"status":"submitted"},
+    {"take":4,"first_anchor":"I blinked.","last_anchor":"I did too.","provider_context_id":"c16416c10ac94a8d8d35211927eaf306","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=c16416c10ac94a8d8d35211927eaf306","artifact_url":null,"status":"submitted"},
+    {"take":5,"first_anchor":"No dramatic last words.","last_anchor":"Mara's mother had seen enough.","provider_context_id":"e553a288ba4b48a99990e40f80ecf967","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=e553a288ba4b48a99990e40f80ecf967","artifact_url":null,"status":"submitted"},
+    {"take":6,"first_anchor":"Those were yours.","last_anchor":"I ate one of the apples Mara's mother had forced into my pocket instead.","provider_context_id":"edb87f7729744ccaa225c7967d193220","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=edb87f7729744ccaa225c7967d193220","artifact_url":null,"status":"submitted"}
+  ]
+}
