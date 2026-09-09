@@ -1,0 +1,101 @@
+name: Experiment B materialize reconciled prose
+
+on:
+  push:
+    branches:
+      - experiment/r2-temporal-b-distributed-prose
+    paths:
+      - .github/workflows/experiment-b-materialize-reconciled.yml
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch immutable first-pass windows
+        run: |
+          git fetch origin \
+            experiment/r2-temporal-b-distributed-prose-a:refs/remotes/origin/experiment/r2-temporal-b-distributed-prose-a \
+            experiment/r2-temporal-b-distributed-prose-b:refs/remotes/origin/experiment/r2-temporal-b-distributed-prose-b \
+            experiment/r2-temporal-b-distributed-prose-c:refs/remotes/origin/experiment/r2-temporal-b-distributed-prose-c \
+            experiment/r2-temporal-b-distributed-prose-d:refs/remotes/origin/experiment/r2-temporal-b-distributed-prose-d
+      - name: Extract selected contiguous run and apply approved minor repairs
+        run: |
+          python - <<'PY'
+          import pathlib, re, subprocess
+
+          root = pathlib.Path('r2/experiments/temporal-writing/b-distributed-prose')
+          out = root / 'reconciled'
+          out.mkdir(parents=True, exist_ok=True)
+
+          specs = {
+              'a': ('experiment/r2-temporal-b-distributed-prose-a', root / 'windows/a/first-pass.md'),
+              'b': ('experiment/r2-temporal-b-distributed-prose-b', root / 'windows/b/first-pass.md'),
+              'c': ('experiment/r2-temporal-b-distributed-prose-c', root / 'windows/c/first-pass.md'),
+          }
+
+          def git_show(branch, path):
+              return subprocess.check_output(
+                  ['git', 'show', f'origin/{branch}:{path.as_posix()}'], text=True
+              )
+
+          def parse(text):
+              matches = list(re.finditer(r'(?m)^# Chapter (\d+): .+$', text))
+              result = {}
+              for i, m in enumerate(matches):
+                  end = matches[i+1].start() if i + 1 < len(matches) else len(text)
+                  result[int(m.group(1))] = text[m.start():end].strip() + '\n'
+              return result
+
+          parsed = {k: parse(git_show(branch, path)) for k, (branch, path) in specs.items()}
+          selected = {}
+          for n in range(49, 63): selected[n] = parsed['a'][n]
+          for n in range(63, 73): selected[n] = parsed['b'][n]
+          for n in range(73, 87): selected[n] = parsed['c'][n]
+
+          old = "Current lungs were much better than they had been in Chapter Two, though I did not think of it that way because I was busy being hit.\n\nI caught myself before the thought finished becoming stupid."
+          new = "Current lungs were much better than they had been when I first started paying Lera to hit me.\n\nThat was useful."
+          assert old in selected[51]
+          selected[51] = selected[51].replace(old, new, 1)
+
+          old = "She slept in my bed.\n\nI slept beside her."
+          new = "She took the bed.\n\nI took my bedroll on the floor beside it."
+          assert old in selected[68]
+          selected[68] = selected[68].replace(old, new, 1)
+
+          old = "Neris made me move the plane without rebuilding it.\n\nOne inch."
+          new = "I finally bought another support block from Neris after the first lesson had spent enough time becoming habit.\n\nShe made me move the plane without rebuilding it.\n\nOne inch."
+          assert old in selected[81]
+          selected[81] = selected[81].replace(old, new, 1)
+
+          for n, text in selected.items():
+              (out / f'ch{n:03d}.md').write_text(text, encoding='utf-8')
+
+          lines = [
+              '# Experiment B Reconciled Selection', '',
+              'Status: EXPERIMENTAL RECONCILED CANDIDATE ONLY', '',
+              'Contiguous candidate: **49–86**', '',
+              '- A49–62', '- B63–72', '- C73–86', '',
+              'Approved minor repairs: A51 anti-meta cleanup; B68 Mara sleeping-arrangement correction; C81 explicit later paid support-block context.', '',
+              'Original first-pass window files remain unchanged on their four window branches.', ''
+          ]
+          (out / 'selected-map.md').write_text('\n'.join(lines), encoding='utf-8')
+
+          assert len(selected) == 38
+          assert sorted(selected) == list(range(49, 87))
+          assert 'Chapter Two' not in selected[51]
+          assert 'She slept in my bed.\n\nI slept beside her.' not in selected[68]
+          PY
+      - name: Commit reconciled evidence and remove one-shot workflow
+        run: |
+          rm .github/workflows/experiment-b-materialize-reconciled.yml
+          git config user.name "experiment-b-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add r2/experiments/temporal-writing/b-distributed-prose/reconciled .github/workflows/experiment-b-materialize-reconciled.yml
+          git commit -m "Experiment B: materialize reconciled Chapters 49-86"
+          git push origin HEAD:experiment/r2-temporal-b-distributed-prose
