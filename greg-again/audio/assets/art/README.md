@@ -20,9 +20,19 @@ For chapter art, the normal path is deliberately simple:
 python scripts/sync_r2_listening_art.py
 ```
 
-The helper reads the current audio manifest, matches each conventional filename to its real `ga-NNN` identity, and updates only the matching `image_src` entry in `../../presentation.json`.
+The helper reads the current audio manifest, matches each conventional filename to its real `ga-NNN` identity, and updates only the matching conventional `image_src` state in `../../presentation.json`.
 
-It preserves existing quote and alt metadata, ignores filenames that do not correspond to a current audio chapter, and does not touch the audio manifest or audio binaries. That keeps manual large-file uploads cheap without making the public page probe for nonexistent images.
+It preserves existing quote and alt metadata, ignores filenames that do not correspond to a current audio chapter, and does not touch the audio manifest or audio binaries. If a conventional `chapter-NNN.webp` file is removed, the helper removes only that conventional `image_src`; any quote, alt text, or nonconventional manual image mapping is preserved.
+
+That keeps manual large-file uploads cheap without making the public page probe for nonexistent images.
+
+Before committing, you can verify that the art folder and presentation metadata already agree without writing anything:
+
+```bash
+python scripts/sync_r2_listening_art.py --check
+```
+
+A nonzero exit means the conventional chapter-art registration is out of sync.
 
 The hero remains configured by the `hero` entry in `presentation.json`; dropping `listening-edition-hero.webp` at the conventional path satisfies the existing hero mapping.
 
