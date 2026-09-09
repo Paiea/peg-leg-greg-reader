@@ -230,6 +230,18 @@
       "note": "Recovered from completed Chapter 19 production without regenerating provider work. Thirty-six provider-safe deep-voice takes preserve maintenance, route time, matched spares, cleaning capacity, and service labor."
     },
     {
+      "chapter_id": "ga-020",
+      "number": 20,
+      "title": "Ward Hand",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 41,
+      "duration_seconds": 985.248,
+      "audio_src": "assets/chapter-020.mp3",
+      "note": "Chapter 20 closes a zombie publication gap with forty-one complete preview-safe deep-voice takes captured directly as durable MP3 artifacts from the current written source. Exact ordered take artifacts, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
+    },
+    {
       "chapter_id": "ga-021",
       "number": 21,
       "title": "The Reply",
