@@ -1,0 +1,15 @@
+{
+  "chapter_id": "ga-020",
+  "number": 20,
+  "title": "The Ward Hand",
+  "voice": "deep",
+  "production_mode": "original_short_take_complete_preview",
+  "written_source": "r2/assets/written/ch020.md",
+  "written_source_sha": "a39e994cfe329731355ab84e802235aa56f31cc3",
+  "take_count": 41,
+  "duration_seconds": 985.248,
+  "size_bytes": 8797485,
+  "sha256": "3a13a0721153539c50255d5c05c90f3b69748e31eabd9b1687d67d91c7a6a224",
+  "trailing_silence_added_seconds": 2.0,
+  "status": "verified_playable"
+}
