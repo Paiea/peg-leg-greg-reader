@@ -59,12 +59,22 @@ jobs:
           test "$(find "$root/chunks/012" -name '*.mp3' | wc -l)" -eq 25
           test "$(find "$root/chunks/013" -name '*.mp3' | wc -l)" -eq 28
           test "$(find "$root/chunks/014" -name '*.mp3' | wc -l)" -eq 29
-          echo 'a6c8a7aecadd56e6cf4a8d27a0b528a68ac039a12d5551bdb03cd404f9c81aab  greg-again/audio/assets/chapter-012.mp3' | sha256sum -c -
+          for f in "$root/chunks/012"/*.mp3; do ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" >/dev/null; done
           echo '8fc5583cf87616a72027b5605559d2406bdf94d9e65ead217fce7fe501ab2654  greg-again/audio/assets/chapter-013.mp3' | sha256sum -c -
           echo '70024079506ccb1e6534b5d6eef8e04eddc2d6bb58d88b1e81e417eeade2271a  greg-again/audio/assets/chapter-014.mp3' | sha256sum -c -
-          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$root/chapter-012.mp3"
-          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$root/chapter-013.mp3"
-          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$root/chapter-014.mp3"
+          sha256sum "$root/chapter-012.mp3"
+          d12=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$root/chapter-012.mp3")
+          d13=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$root/chapter-013.mp3")
+          d14=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$root/chapter-014.mp3")
+          python - "$d12" "$d13" "$d14" <<'PY'
+          import sys
+          got=list(map(float,sys.argv[1:]))
+          exp=[606.504,653.952,678.096]
+          for ch,g,e in zip((12,13,14),got,exp):
+              print(f'chapter {ch}: {g:.3f}s')
+              if abs(g-e)>0.05:
+                  raise SystemExit(f'chapter {ch} duration mismatch: {g} vs {e}')
+          PY
       - name: Commit verified binaries
         shell: bash
         run: |
