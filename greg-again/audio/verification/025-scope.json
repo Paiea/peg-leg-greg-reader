@@ -47,8 +47,10 @@
     "greg-again/audio/manifest.json",
     "greg-again/audio/scripts/025-short-transcripts.json",
     "greg-again/audio/takes/025-short.json",
+    "greg-again/audio/verification/025-scope.json",
     "greg-again/audio/verification/025-short.json",
     "r2/data/chapter-registry.json",
-    "r2/data/chapters/ch025.json"
+    "r2/data/chapters/ch025.json",
+    "tests/test_greg_again_audio_ch025.py"
   ]
 }
