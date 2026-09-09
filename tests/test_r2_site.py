@@ -179,6 +179,22 @@ class R2SiteTests(unittest.TestCase):
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['images'], [])
 
+    def test_image_worker_is_source_grounded_and_scene_batched(self):
+        worker = (R2 / 'IMAGE_WORKER.md').read_text(encoding='utf-8')
+        system = (R2 / 'IMAGE_SYSTEM.md').read_text(encoding='utf-8')
+        packet = (R2 / 'image-packets/TEMPLATE.md').read_text(encoding='utf-8')
+
+        self.assertIn('CHAPTER TITLE IS METADATA, NOT IMAGE SOURCE.', worker)
+        self.assertIn('READ THE CHAPTER', worker)
+        self.assertIn('about five visually distinct moments', worker)
+        self.assertIn('up to five scene-specific generated images', worker)
+        self.assertIn('STORY SOURCE FIRST. TITLE LAST.', system)
+        self.assertIn('source_excerpt', system)
+        self.assertIn('not_grounded_in_source', system)
+        self.assertIn('chapter_read_complete', packet)
+        self.assertIn('Scene shortlist', packet)
+        self.assertIn('could this image have been generated from title alone', packet)
+
 
 if __name__ == '__main__':
     unittest.main()
