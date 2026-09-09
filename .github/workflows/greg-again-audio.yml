@@ -19,7 +19,7 @@ jobs:
         with:
           ref: audio/greg-again-mana-pronunciation-repair-v2
           fetch-depth: 0
-      - name: Reconcile current main and verify target chunks
+      - name: Reconcile current main and verify target audio sources
         shell: bash
         run: |
           set -euo pipefail
@@ -46,7 +46,7 @@ jobs:
           greg-again/audio/assets/chunks/006/09.mp3
           greg-again/audio/assets/chunks/006/11.mp3
           greg-again/audio/assets/chunks/006/13.mp3
-          greg-again/audio/assets/chunks/011/14.mp3
+          greg-again/audio/assets/chapter-011.mp3
           greg-again/audio/assets/chunks/018/13.mp3
           greg-again/audio/assets/chunks/018/17.mp3
           greg-again/audio/assets/chunks/018/32.mp3
@@ -56,15 +56,12 @@ jobs:
           EOF
 
           python3 - <<'PY'
-          import hashlib,json,os,subprocess
+          import hashlib,json,subprocess
           from pathlib import Path
           targets=[x.strip() for x in Path('/tmp/targets.txt').read_text().splitlines() if x.strip()]
-          def git_blob(ref,path):
-              return subprocess.check_output(['git','rev-parse',f'{ref}:{path}'],text=True).strip()
-          def file_sha(path):
-              h=hashlib.sha256(); h.update(Path(path).read_bytes()); return h.hexdigest()
-          def git_sha(ref,path):
-              data=subprocess.check_output(['git','show',f'{ref}:{path}']); return hashlib.sha256(data).hexdigest()
+          def git_blob(ref,path): return subprocess.check_output(['git','rev-parse',f'{ref}:{path}'],text=True).strip()
+          def file_sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+          def git_sha(ref,path): return hashlib.sha256(subprocess.check_output(['git','show',f'{ref}:{path}'])).hexdigest()
           rows=[]
           for p in targets:
               if not Path(p).is_file(): raise SystemExit(f'missing branch target before merge: {p}')
@@ -82,10 +79,7 @@ jobs:
             conflicts=$(git diff --name-only --diff-filter=U)
             printf 'CONFLICTS\n%s\n' "$conflicts"
             unexpected=$(printf '%s\n' "$conflicts" | grep -v '^.github/workflows/greg-again-audio.yml$' || true)
-            if [ -n "$unexpected" ]; then
-              echo 'Unexpected reconcile conflicts' >&2
-              exit 1
-            fi
+            if [ -n "$unexpected" ]; then echo 'Unexpected reconcile conflicts' >&2; exit 1; fi
             git checkout --theirs .github/workflows/greg-again-audio.yml
             git add .github/workflows/greg-again-audio.yml
           fi
@@ -97,31 +91,17 @@ jobs:
           rows=json.loads(Path('/tmp/reconcile-before.json').read_text())
           changed=[]
           for r in rows:
-              p=r['path']
-              data=Path(p).read_bytes(); post=hashlib.sha256(data).hexdigest()
-              blob=subprocess.check_output(['git','hash-object',p],text=True).strip()
-              r['post_merge_blob']=blob
-              r['post_merge_sha256']=post
+              p=r['path']; post=hashlib.sha256(Path(p).read_bytes()).hexdigest(); blob=subprocess.check_output(['git','hash-object',p],text=True).strip()
+              r['post_merge_blob']=blob; r['post_merge_sha256']=post
               r['changed_by_reconcile']=r['before_sha256']!=post
               r['post_matches_main']=post==r['main_sha256']
               if r['changed_by_reconcile']: changed.append(p)
-              if not r['post_matches_main']:
-                  raise SystemExit(f'post-merge target does not match current main: {p}')
-          out={
-            'repair_branch':'audio/greg-again-mana-pronunciation-repair-v2',
-            'branch_before_merge':os.environ['BEFORE_SHA'],
-            'main_authority':os.environ['MAIN_SHA'],
-            'target_chunk_count':len(rows),
-            'changed_target_count':len(changed),
-            'changed_targets':changed,
-            'all_post_merge_targets_match_main':True,
-            'targets':rows
-          }
+              if not r['post_matches_main']: raise SystemExit(f'post-merge target does not match current main: {p}')
+          out={'repair_branch':'audio/greg-again-mana-pronunciation-repair-v2','branch_before_merge':os.environ['BEFORE_SHA'],'main_authority':os.environ['MAIN_SHA'],'target_audio_source_count':len(rows),'changed_target_count':len(changed),'changed_targets':changed,'all_post_merge_targets_match_main':True,'chapter_11_mode':'assembled chapter source because historical provider takes were not persisted as repo chunks','targets':rows}
           Path('greg-again/audio/production/2026-09-09-mana-main-reconcile.json').write_text(json.dumps(out,indent=2)+'\n')
           print(json.dumps({'main':out['main_authority'],'targets':len(rows),'changed':len(changed),'changed_targets':changed},indent=2))
           PY
 
-          # Restore the normal validator from the exact reconciled main authority.
           git show origin/main:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
           git add -A
           test -z "$(git diff --name-only --diff-filter=U)"
