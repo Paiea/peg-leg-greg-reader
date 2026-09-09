@@ -10,8 +10,8 @@ A fresh chat may be started with only:
 
 ```text
 Continue R2 image production from current GitHub authority.
-Auto-claim one eligible unclaimed chapter image transaction, use the R2 image-production protocol, stage approved outputs to the R2 ChatGPT Library, leave the next handshake, then stop.
-Preserve newer authority and do not overlap another worker.
+Auto-claim one eligible unclaimed chapter image transaction. Read the actual chapter source, choose about five visually distinct source-grounded scenes, use the R2 visual/story brains and approved continuity references, generate and review one image per useful scene, stage approved outputs to the R2 ChatGPT Library, leave the next handshake, then stop.
+Preserve newer authority, treat chapter titles as metadata rather than image source, and do not overlap another worker.
 ```
 
 The worker must recover the rest from repository authority rather than asking Keoni to restate the system.
