@@ -1,24 +1,39 @@
 import json
 from pathlib import Path
+import re
 import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def current_endpoint():
+    text = (ROOT / "state" / "MANUSCRIPT_STATE.md").read_text(encoding="utf-8")
+    match = re.search(
+        r"Current exact story endpoint: (Chapter \d+ - \*\*[^*]+\*\*)\.",
+        text,
+    )
+    if not match:
+        raise AssertionError("MANUSCRIPT_STATE.md is missing the current endpoint line")
+    return match.group(1)
+
+
 class ForwardRehearsalStateTests(unittest.TestCase):
     def test_open_threads_routes_to_current_endpoint(self):
         text = (ROOT / "state" / "OPEN_THREADS.md").read_text(encoding="utf-8")
-        self.assertIn("Chapter 492 - **THE RESPONDENT**", text)
+        self.assertIn(current_endpoint(), text)
         self.assertNotIn("Current exact story endpoint: Chapter 320", text)
-        self.assertIn("`MANUSCRIPT_STATE.md` owns the exact endpoint", text)
+        self.assertIn("`MANUSCRIPT_STATE.md` owns exact endpoint/numerical state/trailhead", text)
 
     def test_chapter_index_is_current_and_compact(self):
         text = (ROOT / "state" / "MANUSCRIPT_CHAPTER_INDEX.md").read_text(encoding="utf-8")
-        self.assertIn("Chapter 492 - **THE RESPONDENT**", text)
+        endpoint = current_endpoint()
+        self.assertIn(endpoint, text)
         self.assertNotIn("**Current endpoint:** Chapter 248", text)
-        self.assertIn("481. **THE SUBSTITUTE**", text)
-        self.assertIn("492. **THE RESPONDENT**", text)
+        match = re.fullmatch(r"Chapter (\d+) - \*\*([^*]+)\*\*", endpoint)
+        self.assertIsNotNone(match)
+        chapter, title = match.groups()
+        self.assertIn(f"{chapter}. **{title}**", text)
         self.assertIn("search the repository", text.lower())
 
     def test_forward_workflow_places_rehearsal_before_prose(self):
@@ -43,9 +58,10 @@ class ForwardRehearsalStateTests(unittest.TestCase):
         data = json.loads(path.read_text(encoding="utf-8"))
         self.assertEqual(data["schema"], "forward_rehearsal_proving_run/v1")
         self.assertEqual(data["range"], {"start": 493, "end": 500})
+        self.assertEqual(data["status"], "complete")
         chapters = data["chapters"]
         self.assertEqual([row["chapter"] for row in chapters], list(range(493, 501)))
-        self.assertTrue(all(row["status"] == "pending" for row in chapters))
+        self.assertTrue(all(row["status"] == "shipped" for row in chapters))
         self.assertIn("performance", chapters[0])
         self.assertIn("evaluation", data)
 

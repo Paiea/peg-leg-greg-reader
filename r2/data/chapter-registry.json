@@ -1,0 +1,54 @@
+{
+  "project_id": "r2",
+  "current_chapter": "r2-ch002",
+  "chapters": {
+    "r2-ch001": {
+      "display_number": 1,
+      "title": "The Boy",
+      "status": "in_progress",
+      "pipeline": {
+        "scene_packets": "in_progress",
+        "audio": "published",
+        "written": "not_started",
+        "story_sync": "in_progress",
+        "image_plan": "not_started",
+        "image_generation": "not_started",
+        "image_review": "not_started",
+        "image_integration": "not_started"
+      },
+      "images": {
+        "target_count": 2,
+        "planned": 0,
+        "generated": 0,
+        "approved": 0,
+        "integrated": 0
+      },
+      "last_completed_stage": "audio",
+      "next_action": "finish_story_state_and_written_rendition"
+    },
+    "r2-ch002": {
+      "display_number": 2,
+      "title": "Two Things",
+      "status": "in_progress",
+      "pipeline": {
+        "scene_packets": "in_progress",
+        "audio": "published",
+        "written": "not_started",
+        "story_sync": "in_progress",
+        "image_plan": "not_started",
+        "image_generation": "not_started",
+        "image_review": "not_started",
+        "image_integration": "not_started"
+      },
+      "images": {
+        "target_count": 2,
+        "planned": 0,
+        "generated": 0,
+        "approved": 0,
+        "integrated": 0
+      },
+      "last_completed_stage": "audio",
+      "next_action": "finish_story_state_and_written_rendition"
+    }
+  }
+}
