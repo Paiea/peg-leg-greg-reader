@@ -37,6 +37,8 @@ Future survivor material is rehearsal/challenger evidence, not story authority a
 
 When a speculative unit approaches publication territory, prefer fresh re-performance against current Story State and recent exact prose. Preserve old wording only where it still wins. A missing, stale, conflicting, or inaccessible survivor experiment never blocks normal forward production.
 
+Before publishing prose descended from speculative temporal material, run the `Embodiment challenger` and `Connected-listen challenger` in `r2/FUTURE_SURVIVOR_PROTOCOL.md`. Causal completeness is not enough by itself; speculative-origin prose must still earn normal R2 experiential and listening fidelity.
+
 After a substantial contiguous accepted run, use the cold adversarial run audit defined in `r2/FUTURE_SURVIVOR_PROTOCOL.md` when practical. Roughly 40–50 accepted chapters is a useful default checkpoint, especially before another large forward generation or promotion wave. The audit informs future judgment and targeted revision; it is not an automatic rollback, rewrite quota, or publication blocker.
 
 ## What stays experimental
