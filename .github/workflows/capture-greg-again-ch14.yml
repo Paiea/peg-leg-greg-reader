@@ -1,0 +1,126 @@
+name: Capture Greg Again Chapter 14
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch014-auto
+    paths:
+      - .github/workflows/capture-greg-again-ch14.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-chunks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch014-auto
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Install browser and audio harness
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Capture Chapter 14 takes
+        shell: bash
+        run: |
+          mkdir -p greg-again/audio/assets/chunks/014
+          cat > capture.mjs <<'JS'
+          import fs from 'node:fs';
+          import { chromium } from 'playwright';
+          const jobs = [
+            ['01','9ba95eb17d2044578b67695e735478fb'],
+            ['02','00daa7c959e749aebd17568aa53d06a9'],
+            ['03','62e40e7faadc4246a0e3fe549ac5612b'],
+            ['04','e84b8c405dab4a94aec97c5b7b7c06b8'],
+            ['05','0bac1fe1b97249fbb62311c6688dbe34'],
+            ['06','6f1462acc5124c78bc4a979d84af48ea'],
+            ['07','da54b6aa96f4460290a98ccda443f0b8'],
+            ['08','7f7394085f8540a4ba85818421a31502'],
+            ['09','607947f4b5364677bc44453c10ab74ca'],
+            ['10','5616c2fa46684a5ea15cb3816ccd082e'],
+            ['11','75e3e8c639594bfe8774e4ab786d5cf7'],
+            ['12','c1886c784d25411aaa4a53c325db6453']
+          ];
+          const browser = await chromium.launch({headless:true});
+          const failures=[];
+          async function capture(label,id){
+            const out=`greg-again/audio/assets/chunks/014/${label}.mp3`;
+            if(fs.existsSync(out)&&fs.statSync(out).size>10000)return;
+            const page=await browser.newPage();
+            try{
+              for(let attempt=1;attempt<=12;attempt++){
+                await page.goto(`https://www.aidocmaker.com/g0/audio?name=${id}`,{waitUntil:'domcontentloaded',timeout:60000});
+                await page.waitForTimeout(5000);
+                const text=await page.locator('body').innerText().catch(()=> '');
+                console.log('SEGMENT',label,'ATTEMPT',attempt,text.slice(0,700).replaceAll('\n',' | '));
+                if(/longer than 2 minutes requires a paid plan/i.test(text))throw new Error('two-minute gate');
+                if(/File Not Found/i.test(text))throw new Error('file not found');
+                const sources=await page.locator('audio').evaluateAll(nodes=>nodes.map(n=>n.currentSrc||n.src).filter(Boolean)).catch(()=>[]);
+                for(const src of sources){
+                  const response=await page.request.get(src).catch(()=>null);
+                  if(!response||!response.ok())continue;
+                  const body=await response.body();
+                  if(body.length>10000){fs.writeFileSync(out,body);console.log('CAPTURED',label,body.length);return;}
+                }
+                await page.waitForTimeout(4000);
+              }
+              throw new Error('no playable media surfaced');
+            }finally{await page.close();}
+          }
+          for(const [label,id] of jobs){try{await capture(label,id);}catch(error){failures.push(`${label}: ${error.message}`);console.log('FAILED',label,error.message);}}
+          await browser.close();
+          fs.writeFileSync('/tmp/capture-failures.txt',failures.join('\n'));
+          JS
+          node capture.mjs
+      - name: Commit every successful chunk
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git stash push --include-untracked --message chapter-14-takes
+          git pull --rebase origin audio/greg-again-ch014-auto
+          git stash pop
+          git add greg-again/audio/assets/chunks/014
+          if ! git diff --cached --quiet; then
+            git commit -m 'audio: persist Greg Again Chapter 14 takes'
+            git push origin HEAD:audio/greg-again-ch014-auto
+          fi
+      - name: Verify and assemble Chapter 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -s /tmp/capture-failures.txt ]; then cat /tmp/capture-failures.txt; exit 1; fi
+          test "$(find greg-again/audio/assets/chunks/014 -maxdepth 1 -type f -name '*.mp3' | wc -l)" -eq 12
+          : > /tmp/ch14-concat.txt
+          for i in $(seq 1 12); do
+            f=$(printf 'greg-again/audio/assets/chunks/014/%02d.mp3' "$i")
+            test "$(stat -c%s "$f")" -gt 10000
+            ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 "$f"
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/ch14-concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/ch14-concat.txt -c copy greg-again/audio/assets/chapter-014.mp3
+          test "$(stat -c%s greg-again/audio/assets/chapter-014.mp3)" -gt 1000000
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 greg-again/audio/assets/chapter-014.mp3
+      - name: Commit assembled Chapter 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git stash push --include-untracked --message chapter-14-final
+          git pull --rebase origin audio/greg-again-ch014-auto
+          git stash pop
+          git add greg-again/audio/assets/chapter-014.mp3
+          if ! git diff --cached --quiet; then
+            git commit -m 'audio: assemble Greg Again Chapter 14'
+            git push origin HEAD:audio/greg-again-ch014-auto
+          fi
