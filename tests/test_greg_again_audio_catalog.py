@@ -36,9 +36,9 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("ATTENTION GRAVITY", script)
         self.assertIn("VOICE BREACH", script)
         self.assertIn("LANGUAGE AS ACTION", script)
-        self.assertIn('"You\'re nineteen."', script)
-        self.assertIn('"That\'s predatory."', script)
-        self.assertIn('"Yes."', script)
+        self.assertIn("You're nineteen.", script)
+        self.assertIn("That's predatory.", script)
+        self.assertIn("Yes.", script)
 
     def test_public_page_renders_catalog_instead_of_one_hardcoded_chapter(self):
         html = (AUDIO_ROOT / "index.html").read_text(encoding="utf-8")
