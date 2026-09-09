@@ -1,246 +1,378 @@
-# GREG, AGAIN — CURRENT WRITTEN FRONTIER
+# GREG, AGAIN - CURRENT WRITTEN FRONTIER
 
 Status: **ACTIVE CURRENT FRONTIER / NON-CANON**
 
 Branch: `experiment/plg-r2-opening`
 
-This compact file is newer forward-story authority than the historical frontier sections in `written/CURRENT.md`.
+This compact file is the forward-story handoff. It outranks older frontier sections in `written/CURRENT.md` for deciding what happens next.
 
-Use `written/CURRENT.md` for accumulated history and renderer doctrine through Chapter 26.
-Use this file for the currently selected story edge.
+Historical prose, searches, evaluations, and rehearsals remain authoritative for their own chapters. This file keeps only the state a new forward writer needs.
 
 Local selection still begins with:
 
 > **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
 
----
+Sprint method:
 
-# SELECTED SPRINT — CHAPTERS 27–34
+> **WRITE 5-8 CHAPTERS -> REHEARSE THE CONNECTED RUN -> CHANGE ONLY WHAT CLEARLY LOSES -> CONTINUE**
 
-## 27 — The Student
+Core sprint warning:
 
-Prose: `state/experiments/greg-again/prose/027-the-student.md`
-Evaluation: `state/experiments/greg-again/rehearsals/027-story-eval.md`
-
-Greg spends one silver on real sword instruction from the faded-Silver yard instructor, now established as **Lera**. His overhead cut and side step have improved enough that the next bottleneck is no longer the initial attack but what happens immediately after commitment.
-
-Lera's practical grammar:
-
-> **CUT. ARRIVE. RECOVER.**
-
-Greg gets one clean read during the lesson through old-life people-reading, but current execution remains Bronze and he is repeatedly hit after his cuts.
-
-A four-person **Gold party** trains in another yard lane. They are genuinely excellent. Their movement, equipment, magic, spacing, and handoffs make difficult coordination look ordinary. They do not notice Greg, recruit him, explain themselves, or become foils for him.
-
-Lera's strongest correction when Greg says he can see what they are doing:
-
-> **That has never been your problem.**
-
-Gold becomes a physical professional ceiling instead of an abstract badge.
-
-No rank increase. No new spell. No party hook.
-
-## 28 — The Second Hand
-
-Prose: `state/experiments/greg-again/prose/028-the-second-hand.md`
-Evaluation: selected by `state/experiments/greg-again/rehearsals/028-story-eval.md`.
-
-Commercial warder **Meren Voss** requests Greg again because the prior ward-hand shift proved he can be depended on for several useful breaths of small-plane support.
-
-Greg's construct does **not** get larger.
-
-Repeated professional cycling improves:
-
-- formation speed
-- release timing
-- ability to let a plane disappear cleanly when Meren says off
-- reduced wasted effort between short holds
-
-The advancement is operational rather than magnitude-based.
-
-Meren gradually trusts the timing enough to move attention back to her own work instead of watching Greg every second.
-
-No formal lesson credit, rank increase, or assessment shortcut is created.
-
-## 29 — The Other Letter
-
-Prose: `state/experiments/greg-again/prose/029-the-other-letter.md`
-Evaluation: selected by `state/experiments/greg-again/rehearsals/029-story-eval.md`.
-
-Greg finally opens the unresolved second letter from Chapter 1.
-
-It is from **Tavin**, written before the reset.
-
-The letter offers young Greg a practical route into several weeks of paid freight / guard work outside Carrow with Tavin's river-company orbit. It confirms that nineteen-year-old Greg was already imagining a wider road-working life before Old Greg arrived in his body.
-
-This matters because Current Greg's renewed adventurer identity is not merely a sixty-year-old man's profession imposed on a stranger. Young Greg had his own restless trajectory.
-
-The letter does not summon Greg south now, create an urgent Tavin plot, or restore missing memory wholesale.
-
-The Chapter 1 concrete second-letter object promise is now paid.
-
-## 30 — Eventually
-
-Prose: `state/experiments/greg-again/prose/030-eventually.md`
-Evaluation: selected by `state/experiments/greg-again/rehearsals/030-story-eval.md`.
-
-**Jorren returns** from weeks of independent northern road work.
-
-He has improved too.
-
-Greg's new recovery drill produces one clean sparring touch, but Jorren adapts and lands later exchanges. Nobody froze while Greg progressed.
-
-Their reunion remains ordinary rather than sentimental. Their previous road trust still fits, but both have accumulated life separately.
-
-They accept one bounded two-Bronze half-day job together: inspect an old subcellar access beneath East Mill.
-
-This is recurrence before party declaration.
-
-## 31 — The Dry Wall
-
-Prose: `state/experiments/greg-again/prose/031-the-dry-wall.md`
-Evaluation: selected by `state/experiments/greg-again/rehearsals/031-story-eval.md`.
-
-Greg and Jorren perform the East Mill subcellar access check.
-
-The underground space is work infrastructure, not a dungeon.
-
-Jorren owns the useful current creature knowledge during one small underground hazard. Greg contributes one fast small-plane intervention when falling material needs its path changed.
-
-They find a short section of **older dry / faintly warm stone** whose behavior neither man can explain and which does not fit the surrounding damp subcellar.
-
-They also confirm an active public water line that prevents the owner from simply sealing the whole access.
-
-The strange wall is marked for appropriate specialists. Greg and Jorren leave because their contract does not authorize archaeology.
-
-This is deliberate Seven-Lamps / world-iceberg behavior: evidence before explanation.
-
-No artifact is acquired. No secret school is revealed. No quest is assigned.
-
-## 32 — The Longer Route
-
-Prose: `state/experiments/greg-again/prose/032-the-longer-route.md`
-Evaluation: selected by `state/experiments/greg-again/rehearsals/032-story-eval.md`.
-
-Packet time earns another Mara letter.
-
-Mara's life in Halden has widened independently. Vey Shipping temporarily sends her toward **Bracken** as a route clerk, with route-account work becoming a possible professional next step if she proves useful.
-
-She is excited and frightened by the larger responsibility.
-
-Greg does not reassure her with later-history certainty, buy Vey stock, or claim the company is destined to succeed.
-
-Their correspondence remains contact between two lives that are becoming geographically larger.
-
-## 33 — The Share
-
-Prose: `state/experiments/greg-again/prose/033-the-share.md`
-Evaluation: selected by `state/experiments/greg-again/rehearsals/033-story-eval.md`.
-
-The filtration venture reaches a new economic state: Greg receives his first actual **owner distribution**, **nine copper**, generated while Arlo, Ivena, Dena, customers, and the service system operated without him.
-
-The money is not equivalent to cashing out venture value.
-
-Before distribution, **Ivena successfully argues for a service reserve** so recurring obligations have money behind them.
-
-Arlo wants a better kiln. Instead of converting cash immediately into a capital purchase, the owners approve a bounded two-batch test of whether improved firing actually solves the current bottleneck enough to justify the expense.
-
-Greg deliberately takes his nine-copper distribution rather than reinvesting every coin.
-
-Ownership begins producing money without making Greg central to operations.
-
-## 34 — The Dark Loft
-
-Prose: `state/experiments/greg-again/prose/034-the-dark-loft.md`
-Evaluation: `state/experiments/greg-again/rehearsals/034-story-eval.md`
-
-Greg and Jorren take a bounded Bronze cinderwing-removal job in a dry-goods warehouse.
-
-Greg knows this ecology from repeated first-life field experience.
-
-The clean procedure works:
-
-- shut off leaking mana lamps together
-- use daylight
-- allow stored wing-joint charge to fade
-- move dry goods out from below the cluster
-- place an expendable low-charge bait source outside the structure
-- let the adults migrate toward it
-- physically remove remaining nest material and egg cases
-- address the leaking lamp fixtures that created the pressure
-
-The warehouse does not burn.
-
-Greg's knowledge is simply correct.
-
-He and Jorren earn four copper each for roughly two hours of ordinary successful work.
-
-Jorren independently identifies the next professional implication: specialized knowledge that reliably reduces risk and time may itself deserve different pricing **before** a future contract is accepted.
-
-Greg tells Sella he is proud of the result and does not retract it.
-
-Surviving discovery:
-
-> **Forty years of field life should sometimes turn a dangerous-looking fantasy problem into ordinary paid work because Greg simply knows what he is looking at.**
+> **THE WORLD HAS NOT READ THE PREVIOUS CHAPTER.**
 
 ---
 
-# CURRENT FRONTIER AFTER CHAPTER 34
+# SELECTED FRONTIER THROUGH CHAPTER 48
 
-- selected written frontier is Chapter 34, **The Dark Loft**.
-- Greg remains nineteen and Bronze.
-- Greg is becoming a genuinely working adventurer through accumulated contracts rather than a declared identity upgrade.
-- Greg's sword work now has a concrete current drill: **cut / arrive / recover**. Execution remains Bronze.
-- Lera is an established Silver-grade Guild-yard instructor relationship and may recur when paid instruction naturally matters.
-- a four-person Gold party has been seen doing genuinely excellent integrated work; their identities and future relevance are not established.
-- Greg's support construct remains small. Recent improvement is faster formation, cleaner release, and professional repeatability under Meren's direction, not increased size or reserve.
-- Meren Voss now has reason to request Greg again for bounded commercial support work but is not his formal instructor.
-- Greg's formal support assessment with Kesra Dain remains in the future and off-page unless enough story time naturally reaches it.
-- the second Chapter 1 letter is now identified as Tavin's and establishes that young Greg already intended to pursue wider paid road / river work.
-- Tavin remains away with a river-company orbit; no current trip south is scheduled.
-- Jorren has returned from independent northern work and is more capable than when he left.
-- Greg and Jorren have renewed professional compatibility through sparring and two bounded jobs after reunion.
-- no permanent party has been declared.
-- the East Mill subcellar contains a marked section of anomalously dry / warm older stone that requires specialist follow-up; Greg does not own that investigation.
-- Mara is currently widening her Vey Shipping work from Halden toward temporary Bracken route-clerk / route-account responsibility.
-- Mara and Greg continue correspondence without restoring or terminating romance by decree.
-- the filtration venture remains owned by Arlo, Greg, and Ivena and can operate without Greg.
-- Greg has received a first nine-copper owner distribution.
-- the venture now maintains a service reserve.
-- a better-kiln idea is under bounded two-batch testing rather than already purchased.
-- Greg has practical first-life cinderwing knowledge and one clean current success applying it.
-- Greg / Jorren have not created a specialist pest business.
-- specialized knowledge as future contract-pricing leverage is now a live possibility, not an established Guild rate or title.
-- the better sword remains maintained working equipment.
-- Lower Rook / Noll remain ordinary current home-life infrastructure.
-- Edda / Harl / Pate and the West Cut remain earned prior field relationships and geography, not queued follow-up.
-- North Gate remains standing and unresolved.
-- the Guild fire remains a long shadow rather than a queued event.
-- Red Winter remains farther out.
-- the Seven Lamps remain backend architecture. No character has discovered or named the full system.
-- no artifact acquisition, rank-up, Kesra appearance, future-famous-person reveal, permanent party, leg-loss setup, theatre route, or Chapter 35 event is preselected.
+## 35 - The Pair
 
-# IMMEDIATE NEXT PRESSURE
+Greg and Jorren are now paired by the Guild when a job needs two proven Bronze field hands because repeated completed work has made them cheaper to supervise together.
 
-Do not make Chapter 35 another cinderwing job merely because Greg succeeded.
+They still have not declared a permanent party.
 
-Do not reward Chapters 27–34 with a rank increase or automatic specialist reputation.
+Meral leads a two-day relay-maintenance contract as the Silver authority. Rank is expressed through ownership of decisions and consequence, not simply greater force.
 
-Search from the life that now exists:
+## 36 - The Listener
 
-- Greg has more credible professional references than he had eight chapters ago.
-- Jorren is back and fits as a repeat coworker without needing to accompany Greg everywhere.
-- Greg has paid for sword instruction and has a real drill that requires time, not another explanation.
-- Greg's tiny support magic is becoming more dependable at current scale.
-- the Gold ceiling is visible but distant.
-- Mara's work is widening away from Carrow.
-- the business can pay Greg while moving without him.
-- Greg now knows that young Greg also wanted the road.
-- unusual deep-world evidence exists under East Mill without belonging to Greg.
-- field expertise may eventually change how Greg prices himself.
+The dead uphill relay was deliberately disconnected by **Tess Orin**, a hill farmer whose iron gate began arcing during the storm.
+
+Tess was right to isolate it.
+
+Meral validates the civilian action, diagnoses before reconnecting, reroutes the return farther from the newer gate iron, and records Tess as the local emergency-isolation contact.
+
+The relay contract closes successfully.
+
+## 37 - The Tenant
+
+Greg moves to a larger third-floor room in the same Lower Rook building for **three copper more per week**.
+
+The new room has better warmth, two windows, dedicated drying / gear space, stable shelving, and enough clear floor for real sword practice.
+
+He remains in the same working-class building and keeps Noll / cookroom / neighborhood continuity.
+
+**Maud Pell** is established as Lower Rook's bounded rent collector / manager.
+
+## 38 - The Applicant
+
+First Deepwinter arrives and Greg completes the support intake with **Kesra Dain**, currently a competent Silver circuit examiner rather than a destiny figure.
+
+Greg passes with the profile:
+
+**LOW RESERVE. STRONG SHORT-FORM CONTROL. IRREGULAR EXPERIENCE.**
+
+Kesra's strongest diagnosis:
+
+> Greg makes professional mistakes because he sees multiple variables, tries to solve too many, and does not have the current reserve to support the professional solution.
+
+Greg learns to preserve the stated objective instead of controlling every variable.
+
+Kesra demonstrates a **tension sink**, a different practical magical mechanism acting through an existing connection rather than opposing motion with a Barrier.
+
+Greg receives eligibility for paid support instruction but no rank, reserve increase, free access, or spell unlock.
+
+Kesra leaves Carrow on her own circuit schedule.
+
+## 39 - The Owner
+
+The filtration venture's old two-batch kiln test matures without Greg hovering over it.
+
+The better kiln genuinely improves firing consistency, but the used kiln opportunity has already sold and buying another kiln is not automatically justified.
+
+Arlo, Ivena, Dena, and Greg choose limited rented overflow capacity from Bell Tile rather than immediately tying up reserve in a purchase.
+
+The venture still has multiple bottlenecks beyond firing capacity.
+
+No automatic owner distribution follows.
+
+## 40 - The Citizen
+
+North Gate independently reaches **temporary controlled reopening**:
+
+- one eastern lane
+- light carts
+- foot traffic
+- daily load review
+- closure after heavy freeze, structural shift, or support fault
+
+The reopening changes real Carrow economics, contract rates, route use, and staffing.
+
+Harl confirms West Cut still exists as an alternate route but the repair survey remains unauthorized.
+
+Greg cannot reconcile the current repaired gate perfectly with the later gate he remembers collapsing. He accepts current evidence instead of treating later collapse as a reason current repairs are meaningless.
+
+## 41 - The Cordon
+
+The same four-person Gold crew previously seen training has already handled a dangerous shardback encounter on its own clock.
+
+Edda owns the follow-up cordon / processor escort and chooses Greg as second Bronze from prior field trust while Jorren is away on his own grain escort.
+
+Gold remains genuinely excellent and professionally distant.
+
+Mesk owns carcass-processing authority.
+
+Greg gets one clean field-expertise win by identifying a cold-set compressed shoulder plate before unsafe wedging.
+
+Shardback material remains licensed salvage, not Greg's loot.
+
+## 42 - The Correspondent
+
+Tavin's reply returns through his own freight-company route life.
+
+He confirms that young Greg wanted multiple things independently:
+
+- Halden partly because Mara wanted Halden
+- Rell Ford because pay sounded better
+- the coast because Greg had never seen it
+- enough money to return to Carrow without anyone deciding where he slept
+
+Tavin remains with Venn Freight through the thaw unless his own work changes.
+
+No job waits for Greg.
+No southern trip is scheduled.
+
+Greg writes:
+
+> **I am not coming south now. That is not the same as no.**
+
+## 43 - The Support
+
+Greg finally buys the first **field support foundations** block Kesra recommended, after several unrelated chapters and after North Gate staffing releases local practitioners.
+
+Instructor: **Neris Holt**, competent current Silver support practitioner.
+
+The lesson does not increase reserve or plane size.
+
+Its key progression is social / operational:
+
+- support must be legible to teammates
+- call before placing support
+- call release / disappearance
+- preserve the named objective
+- do not silently solve a different problem because Greg can see it
+
+Greg improves movement / release / re-formation timing at current scale.
+
+Neris refuses to sell the next block immediately and tells Greg to use this one first.
+
+## 44 - The Swordsman
+
+Greg takes an ordinary one-Bronze north-road medicine-cart escort because North Gate traffic is moving again.
+
+Three low-level road thieves attempt the cart.
+
+Greg handles the sword side cleanly with current-body training and the good sword:
+
+**CUT. ARRIVE. RECOVER.**
+
+No magic is used.
+No one dies.
+No rank increase follows.
+
+Driver **Orrin Kesh** materially owns the horse / cart side and uses a removable brake handle as an improvised weapon.
+
+Greg misses the third attacker initially, correctly prioritizes moving the cart over pursuit, and completes the job.
+
+## 45 - The Host
+
+Jorren returns from an uneventful five-day grain escort and has independently rented his own narrow room near East Market.
+
+Greg's larger Lower Rook room finally becomes social infrastructure.
+
+Jorren and Noll eat there, argue trade economics, and play Tavin's old card deck.
+
+No recovered old-life memory arrives.
+
+Greg instead learns a **current Jorren card tell** and wins money from him.
+
+The burned-seven debt remains unresolved and is now jurisdictionally funny rather than secretly important.
+
+Greg owns too few bowls. Noll's diagnosis:
+
+> **People happen.**
+
+## 46 - The Buyer
+
+North Gate works create a municipal surplus sale.
+
+Greg recognizes an obsolete three-tab **brace ring** pattern that later field practice knows is unusually tolerant of ugly improvised anchors at modest load.
+
+Current sellers correctly know the hardware is damaged, obsolete, unrated, and mostly useful for scrap / training / parts.
+
+Greg buys six damaged rings as one lot for nine copper, sells parts back to repairer **Pell Orst**, and reduces the effective economics to roughly eight copper for one repaired useful ring plus one ugly spare.
+
+The ring is not a power source and does not increase mana.
+
+The useful target ring is left with Pell for repair. The spare goes on Greg's shelf.
+
+Most importantly, the new artifact is **not** immediately used by the next chapter.
+
+## 47 - The Alarm
+
+The long-standing **Deepwinter Guild fire** finally occurs on its own clock.
+
+The western Guild roof and upper archive burn badly.
+
+Greg did not know the exact date, ignition source, or casualties in advance.
+
+City fire crews own suppression.
+Sella owns people / records.
+Meren and Neris own dangerous ward isolation.
+
+Greg contributes one called five-inch redirection when a failing installed ward dumps load into a falling gutter bracket:
+
+- **LEFT!** before support
+- small plane changes the path
+- **GONE!** after release
+- then Greg returns to the bucket line
+
+Sella refuses a dangerous archive rescue:
+
+> **Then ten years burns.**
+
+No established character dies.
+
+The west roof and upper archive take real loss.
+
+Fire cause remains unresolved.
+
+Guild operations move before dawn to **Market Hall East Annex**.
+
+## 48 - The Member
+
+The next morning the Guild actually operates from Market Hall East Annex among canvas screens, improvised desks, contract boards, and vegetable sellers.
+
+The institution survives as practice before the building is repaired.
+
+A Bronze worker, **Bren Tal**, arrives with a twelve-silver completed-job closeout whose original issue record and seal-reference material are missing because of the fire.
+
+Sella does not simply trust or deny him. The Guild reconstructs verification through the client, Hollen Brick, and pays money Bren already earned.
+
+This establishes a real cost to archive loss for someone other than Greg.
+
+Fire investigation narrows the likely origin zone to the west roof void between the archive flue wall and an old return channel, but **does not establish ignition cause**.
+
+Neris and Meren remain evidence owners for the ward side.
+
+Greg's current Bronze status / support eligibility / recent closeouts survived. Some older young-Greg membership paper may have burned, but it is operationally unnecessary and receives no special rescue mission.
+
+The Guild training yard remains unavailable while salvage work continues. Lera is negotiating temporary drill space elsewhere.
+
+---
+
+# CURRENT STATE AFTER CHAPTER 48
+
+## Greg
+
+- age nineteen
+- Bronze
+- no rank-up queued
+- good sword, maintained and now blooded in one ordinary road robbery
+- current sword grammar increasingly embodied: **CUT. ARRIVE. RECOVER.**
+- support construct remains small, roughly five inches at useful current scale
+- reserve remains low
+- formation / release / cycling are materially cleaner than early chapters
+- support calls and teammate legibility are now part of current practice
+- formal support intake passed
+- only one paid field-support block completed
+- no second support block scheduled
+- brace-ring option exists but has not been demonstrated in field use
+- larger Lower Rook room now functions as home, maintenance space, and social space
+- recurring rent is three copper per week higher than the Chapter 1 room
+
+## Greg / Jorren
+
+- repeated compatible coworkers
+- Guild now recognizes them as a useful two-Bronze pairing
+- Jorren has his own housing and jobs
+- Jorren does not accompany Greg automatically
+- no permanent party declared
+- current friendship now includes ordinary food, cards, money, and separate schedules
+
+## Magic / instruction
+
+- Kesra is gone on her circuit
+- Neris Holt is a current Silver support-instruction relationship
+- Meren Voss remains a repeat commercial warder relationship
+- Meral remains a competent Silver field-lead relationship
+- tension sink has been seen, not learned
+- Seven Lamps remain backend architecture only
+- no school taxonomy has been revealed
+
+## Guild / Carrow
+
+- Guild building is fire-damaged and closed
+- west roof / upper archive suffered major loss
+- Guild operations continue at Market Hall East Annex
+- training-yard access is disrupted
+- archive reconstruction will create ongoing administrative friction
+- fire cause remains unresolved
+- no sabotage theory is established
+- North Gate is conditionally open for light traffic
+- current repairs are real and useful
+- later remembered collapse remains unexplained
+
+## Economy / business
+
+- filtration venture operates independently of Greg
+- service reserve exists
+- first owner distribution already occurred earlier
+- kiln test succeeded technically
+- venture currently rents limited overflow firing capacity rather than buying a kiln
+- Greg can now spend modestly on tools / maintenance / housing without every purchase threatening rent
+- money still matters and specialized instruction still hurts
+
+## Relationships / wider world
+
+- Mara remains west in Vey Shipping's widening route / account work
+- Tavin remains in Venn Freight's southern / river-company orbit through the thaw unless his own schedule changes
+- Greg has an open southern relationship path but no trip scheduled
+- Edda remains an earned recurring Bronze field relationship
+- Harl / Pate / West Cut remain prior earned geography / work, not queued continuation
+- Gold adventurers have now been seen both training and handling dangerous work cleanly; they remain distant professionals, not Greg's orbit
+
+## Open evidence / unresolved world
+
+- East Mill anomalous dry / warm old wall remains marked for appropriate specialists and does not belong to Greg
+- West Cut repair survey remains unauthorized
+- North Gate later collapse remains unexplained
+- Guild fire ignition cause remains unexplained
+- brace ring remains an unused option
+- no artifact quest exists
+- no leg-loss setup has been selected
+- no theatre route has been selected
+- Red Winter remains farther out
+
+---
+
+# IMMEDIATE NEXT SEARCH
+
+Do **not** automatically make Chapter 49:
+
+- fire investigation
+- Guild rebuilding
+- brace-ring field test
+- second support lesson
+- rank-up
+- Greg/Jorren contract
+- Mara letter
+- Tavin trip
+- Gold encounter
+
+Those systems can move independently and return when their own clocks earn it.
+
+The fire is a major state change, so its indirect consequences may persist without requiring Greg to remain at the center of recovery.
+
+Search from a life in which:
+
+- Greg is now a Guild member whose institution has physically moved
+- his work options / training access may temporarily change
+- the city and clients continue despite the fire
+- his home, business, friendships, and wider correspondence all exist outside the Guild
+- he has accumulated real current competence in sword, field judgment, ecology, and small support
+- several new capabilities and objects are deliberately **not** waiting to be cashed immediately
 
 Then ask:
 
 > **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
 
-No Chapter 35 event is selected by this file.
+No Chapter 49 event is selected by this file.
