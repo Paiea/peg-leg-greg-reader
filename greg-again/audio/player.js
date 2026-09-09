@@ -17,6 +17,34 @@
     return `ga-${String(chapter.number).padStart(3, '0')}`;
   }
 
+  function orderedPlayable(chapters) {
+    return (Array.isArray(chapters) ? chapters : [])
+      .slice()
+      .sort((a, b) => Number(a.number) - Number(b.number));
+  }
+
+  function availabilityLabel(playable) {
+    if (!playable.length) return 'No playable chapters yet · Written reference available';
+
+    const numbers = playable
+      .map((chapter) => Number(chapter.number))
+      .filter((number) => Number.isInteger(number) && number > 0);
+    const latest = numbers[numbers.length - 1];
+    const available = new Set(numbers);
+    const missing = [];
+
+    for (let number = 1; number <= latest; number += 1) {
+      if (!available.has(number)) missing.push(number);
+    }
+
+    const count = `${playable.length} playable chapter${playable.length === 1 ? '' : 's'}`;
+    if (!missing.length) {
+      return `${count} · through Chapter ${latest} · Written reference available`;
+    }
+
+    return `${count} · latest Chapter ${latest} · ${missing.length} audio gap${missing.length === 1 ? '' : 's'} · Written reference available`;
+  }
+
   function writtenReferenceHref(chapter) {
     const writtenId = `r2-ch${String(chapter.number).padStart(3, '0')}`;
     return `../../r2/chapter.html?id=${encodeURIComponent(writtenId)}#read`;
@@ -83,7 +111,11 @@
 
     const heading = document.createElement('h3');
     heading.className = 'chapter';
-    heading.textContent = chapter.title;
+    const headingLink = document.createElement('a');
+    headingLink.href = `#${id}`;
+    headingLink.textContent = chapter.title;
+    headingLink.setAttribute('aria-label', `Link to Chapter ${chapter.number}: ${chapter.title}`);
+    heading.append(headingLink);
 
     copy.append(number, heading);
 
@@ -126,8 +158,7 @@
 
     if (!manifestResponse.ok) throw new Error(`manifest ${manifestResponse.status}`);
     const manifest = await manifestResponse.json();
-    const playable = Array.isArray(manifest.chapters) ? manifest.chapters : [];
-    const latestPlayable = playable[playable.length - 1];
+    const playable = orderedPlayable(manifest.chapters);
 
     applyHeroPresentation(presentation.hero);
 
@@ -136,9 +167,7 @@
     }
 
     if (availability) {
-      availability.textContent = latestPlayable
-        ? `${playable.length} playable chapter${playable.length === 1 ? '' : 's'} · through Chapter ${latestPlayable.number} · Written reference available`
-        : 'No playable chapters yet · Written reference available';
+      availability.textContent = availabilityLabel(playable);
     }
 
     chapterList.replaceChildren();
