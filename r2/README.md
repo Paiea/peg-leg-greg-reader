@@ -27,6 +27,8 @@ The public site may explain the Run 1 → Run 2 lineage and process on the homep
 ```text
 r2/
   PIPELINE.md                 # shared Greg surface / medium finishing contract
+  TITLE_POLICY.md             # selected chapter title authority / embodied Greg role rule
+  TITLE_ROLE_AUDIT.md         # approved current-frontier role-title decisions
   IMAGE_SYSTEM.md             # R2 visual authority + production architecture
   IMAGE_WORKER.md             # disposable one-chapter image worker engine
   IMAGE_RELEASES.md           # large ChatGPT Library release packaging
@@ -64,6 +66,8 @@ r2/
 - `data/project.json` answers **what chapters exist publicly and in what order**.
 - `data/rendering-pipeline.json` answers **how one Greg-shaped wording surface forks into Listen and Read**.
 - `PIPELINE.md` is the human worker contract for that same rendering route.
+- `TITLE_POLICY.md` answers **what a selected R2 chapter title means, what owns title authority, and what title changes must never rename**.
+- `TITLE_ROLE_AUDIT.md` records **approved role-title judgments at the current audited frontier**.
 - `IMAGE_SYSTEM.md` answers **how R2 visual work is claimed, generated, reviewed, staged, released, verified, and integrated**.
 - `IMAGE_WORKER.md` answers **how a fresh parallel chapter-image worker executes one transaction and stops**.
 - `IMAGE_RELEASES.md` answers **how approved Library binaries become large repo-ready handoff ZIPs**.
