@@ -93,14 +93,23 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(chapter['audio']['status'], 'published')
         self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-003.mp3')
 
-    def test_homepage_explains_run_two_and_links_run_one(self):
+    def test_homepage_presents_story_first_and_links_run_one(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('Greg has had two lives so far. So has his story.', html)
+        self.assertIn('PEG-LEG GREG', html)
+        self.assertIn('He remembers an entire life. He woke up nineteen.', html)
         self.assertIn('Peg-Leg Greg was written once already', html)
         self.assertIn('href="../index.html"', html)
         self.assertIn('Listen', html)
         self.assertIn('Read', html)
-        self.assertIn('Look', html)
+        self.assertIn('Chapters', html)
+
+    def test_homepage_progress_is_manifest_aware(self):
+        js = (R2 / 'assets/js/home.js').read_text(encoding='utf-8')
+        self.assertIn('project.current_chapter', js)
+        self.assertIn("chapter.written?.status === 'published'", js)
+        self.assertIn("chapter.audio?.status === 'published'", js)
+        self.assertIn('Read through Chapter', js)
+        self.assertIn('Listen through Chapter', js)
 
     def test_public_copy_presents_r2_as_an_intentional_story(self):
         homepage = (R2 / 'index.html').read_text(encoding='utf-8')
@@ -111,7 +120,7 @@ class R2SiteTests(unittest.TestCase):
         self.assertNotIn('renditions catch up', public_copy)
         self.assertNotIn('machinery broke', public_copy)
         self.assertNotIn('production pipelines worked', public_copy)
-        self.assertIn('greg knows what he became. the problem is getting there again.', public_copy)
+        self.assertIn('greg knows what he became. now he has to live his way there again.', public_copy)
 
     def test_public_routes_exist(self):
         for path in ['about/index.html', 'chapters/index.html', 'gallery/index.html', 'chapter.html']:
