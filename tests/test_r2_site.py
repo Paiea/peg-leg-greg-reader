@@ -94,7 +94,7 @@ class R2SiteTests(unittest.TestCase):
     def test_chapter_two_reuses_current_main_audio_and_publishes_written(self):
         chapter = json.loads((R2 / 'data/chapters/ch002.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['chapter_id'], 'r2-ch002')
-        self.assertEqual(chapter['title'], 'Two Things')
+        self.assertEqual(chapter['title'], 'The Novice')
         self.assertEqual(chapter['audio']['status'], 'published')
         self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-002.mp3')
         self.assertEqual(chapter['written']['status'], 'published')
