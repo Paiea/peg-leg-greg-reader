@@ -29,7 +29,7 @@
     },
     "r2-ch002": {
       "display_number": 2,
-      "title": "Two Things",
+      "title": "The Novice",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -77,7 +77,7 @@
     },
     "r2-ch004": {
       "display_number": 4,
-      "title": "Thirty Days",
+      "title": "The Contractor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -125,7 +125,7 @@
     },
     "r2-ch006": {
       "display_number": 6,
-      "title": "The First Customer",
+      "title": "The Troubleshooter",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -173,7 +173,7 @@
     },
     "r2-ch008": {
       "display_number": 8,
-      "title": "Road Work",
+      "title": "The Defender",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -197,7 +197,7 @@
     },
     "r2-ch009": {
       "display_number": 9,
-      "title": "The Bridge",
+      "title": "The Backstop",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -221,7 +221,7 @@
     },
     "r2-ch010": {
       "display_number": 10,
-      "title": "What Moved",
+      "title": "The Returner",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -245,7 +245,7 @@
     },
     "r2-ch011": {
       "display_number": 11,
-      "title": "The North Gate",
+      "title": "The Gate Hand",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -269,7 +269,7 @@
     },
     "r2-ch012": {
       "display_number": 12,
-      "title": "Mara",
+      "title": "The Stranger",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -293,7 +293,7 @@
     },
     "r2-ch013": {
       "display_number": 13,
-      "title": "The Good Sword",
+      "title": "The Fighter",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -317,7 +317,7 @@
     },
     "r2-ch014": {
       "display_number": 14,
-      "title": "The Back Room",
+      "title": "The Helper",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -365,7 +365,7 @@
     },
     "r2-ch016": {
       "display_number": 16,
-      "title": "Three Names",
+      "title": "The Investor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -413,7 +413,7 @@
     },
     "r2-ch018": {
       "display_number": 18,
-      "title": "Six Weeks",
+      "title": "The Applicant",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -437,7 +437,7 @@
     },
     "r2-ch019": {
       "display_number": 19,
-      "title": "Who Cleans It",
+      "title": "The Maintainer",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -485,7 +485,7 @@
     },
     "r2-ch021": {
       "display_number": 21,
-      "title": "The Reply",
+      "title": "The Letter Writer",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -605,7 +605,7 @@
     },
     "r2-ch026": {
       "display_number": 26,
-      "title": "The Day Off",
+      "title": "The Adventurer",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",

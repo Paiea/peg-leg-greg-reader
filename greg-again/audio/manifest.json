@@ -19,7 +19,7 @@
     {
       "chapter_id": "ga-002",
       "number": 2,
-      "title": "Two Things",
+      "title": "The Novice",
       "status": "experimental",
       "lens": "greg-dominant",
       "take_count": 12,
@@ -41,13 +41,13 @@
     {
       "chapter_id": "ga-004",
       "number": 4,
-      "title": "Thirty Days",
+      "title": "The Contractor",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "take_count": 12,
       "duration_seconds": 728.424,
       "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR \u2192 MOVE \u2192 UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
     },
     {
       "chapter_id": "ga-005",
@@ -64,7 +64,7 @@
     {
       "chapter_id": "ga-006",
       "number": 6,
-      "title": "The First Customer",
+      "title": "The Troubleshooter",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -88,7 +88,7 @@
     {
       "chapter_id": "ga-008",
       "number": 8,
-      "title": "Road Work",
+      "title": "The Defender",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -100,7 +100,7 @@
     {
       "chapter_id": "ga-009",
       "number": 9,
-      "title": "The Bridge",
+      "title": "The Backstop",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -112,7 +112,7 @@
     {
       "chapter_id": "ga-010",
       "number": 10,
-      "title": "What Moved",
+      "title": "The Returner",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -124,7 +124,7 @@
     {
       "chapter_id": "ga-011",
       "number": 11,
-      "title": "The North Gate",
+      "title": "The Gate Hand",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -136,7 +136,7 @@
     {
       "chapter_id": "ga-012",
       "number": 12,
-      "title": "Mara",
+      "title": "The Stranger",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -148,7 +148,7 @@
     {
       "chapter_id": "ga-013",
       "number": 13,
-      "title": "The Good Sword",
+      "title": "The Fighter",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -160,7 +160,7 @@
     {
       "chapter_id": "ga-014",
       "number": 14,
-      "title": "The Back Room",
+      "title": "The Helper",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -208,7 +208,7 @@
     {
       "chapter_id": "ga-018",
       "number": 18,
-      "title": "Six Weeks",
+      "title": "The Applicant",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -220,7 +220,7 @@
     {
       "chapter_id": "ga-019",
       "number": 19,
-      "title": "Who Cleans It",
+      "title": "The Maintainer",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -244,7 +244,7 @@
     {
       "chapter_id": "ga-021",
       "number": 21,
-      "title": "The Reply",
+      "title": "The Letter Writer",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
@@ -304,7 +304,7 @@
     {
       "chapter_id": "ga-026",
       "number": 26,
-      "title": "The Day Off",
+      "title": "The Adventurer",
       "status": "experimental",
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",

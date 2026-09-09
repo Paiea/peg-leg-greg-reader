@@ -1,0 +1,42 @@
+name: Apply R2 Role Title Migration
+
+on:
+  push:
+    branches:
+      - r2/role-title-authority
+    paths:
+      - '.github/workflows/r2-role-title-migration.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: r2/role-title-authority
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Promote approved role titles and synchronize metadata
+        run: python scripts/sync_r2_role_titles.py --promote-audit
+      - name: Verify migrated title authority
+        run: |
+          python scripts/sync_r2_role_titles.py --check
+          python -m unittest tests.test_r2_role_titles -v
+          python -m unittest tests.test_r2_site -v
+          git diff --check
+      - name: Commit deterministic migration
+        run: |
+          if git diff --quiet; then
+            echo 'No migration changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/assets/written r2/data/chapters r2/data/chapter-registry.json greg-again/audio/manifest.json
+          git commit -m 'fix: promote R2 embodied role titles'
+          git push origin HEAD:r2/role-title-authority

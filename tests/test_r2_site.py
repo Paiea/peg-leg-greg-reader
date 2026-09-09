@@ -93,7 +93,7 @@ class R2SiteTests(unittest.TestCase):
         self.assertNotIn('Status: **EXPERIMENTAL', prose)
         self.assertNotIn('Story search:', prose)
         self.assertNotIn('Relationship rehearsal:', prose)
-        self.assertTrue(prose.startswith('# Chapter 21: The Reply\n\n---\n'))
+        self.assertTrue(prose.startswith('# Chapter 21: The Letter Writer\n\n---\n'))
 
     def test_chapter_twenty_one_uses_public_role_title(self):
         chapter = json.loads((R2 / 'data/chapters/ch021.json').read_text(encoding='utf-8'))
