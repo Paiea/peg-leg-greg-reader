@@ -1,0 +1,283 @@
+name: Capture Greg Again Audio Batch 18-20
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-018-020
+    paths:
+      - '.github/workflows/greg-again-batch-018-020-capture.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+          fetch-depth: 0
+
+      - name: Reconcile newest main
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git merge --no-edit origin/main
+
+      - name: Capture and stitch provider takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/ga18 /tmp/ga19 /tmp/ga20 greg-again/audio/assets greg-again/audio/takes greg-again/audio/scripts
+
+          download_take() {
+            local chapter="$1" take="$2" id="$3"
+            local out="/tmp/ga${chapter}/take-$(printf '%02d' "$take").mp3"
+            curl --fail --location --retry 18 --retry-delay 5 --retry-all-errors \
+              "https://www.aidocmaker.com/g0/audio?name=${id}" --output "$out"
+            test "$(stat -c%s "$out")" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$out" >/dev/null
+          }
+
+          # Chapter 18 - The Applicant - 12 takes
+          download_take 18 1 7c31ecb98d01441298fbb5e536696ee1
+          download_take 18 2 17848c02c01e47309b48ce8fd83d43a5
+          download_take 18 3 57bdc7b413f4481e9a1557d66242b87c
+          download_take 18 4 d6276b0d36cc42c4bc00a64409d124f1
+          download_take 18 5 80b0ac51e91248b1b74353627e143978
+          download_take 18 6 b174fca57c504e6b968806adf54700af
+          download_take 18 7 f3b3e72719604cda8e99fea15b66d863
+          download_take 18 8 d87745585cf44ce3a8f118df4e7eac32
+          download_take 18 9 79c92e7c3d064af5967703ba6581350c
+          download_take 18 10 32964c1fc5af4e4ea66b867d66e76454
+          download_take 18 11 c7a0de4c02bf4a3c8cbc24b01d76fd37
+          download_take 18 12 d9933b4ce8f94fc0bf8daf4189c5827d
+
+          # Chapter 19 - The Maintainer - 12 takes
+          download_take 19 1 6a6473b54d08417eb1ef00d807436e8f
+          download_take 19 2 5c76e27580cc48749354e16772e102f4
+          download_take 19 3 34d4801727714bc8a8430f9ea3f4af2c
+          download_take 19 4 f991438e5cde42aa9c9e8437df08847c
+          download_take 19 5 c312307054a545c2ae6945a8eef0d85b
+          download_take 19 6 a89e64fefa6b4be2bd6a4bd3bda1f0bd
+          download_take 19 7 8935d6855b9f442690766f6744c825c0
+          download_take 19 8 6112eaefbfd541dca63939f026475c2f
+          download_take 19 9 255d88131fd34c5da77b61350ddc70d9
+          download_take 19 10 7125ee0435004288b9d16d1e2cb12446
+          download_take 19 11 32bd43ea9fbf4dbc86253d6379c040d2
+          download_take 19 12 8a9b6c3c85f348288600a970967209ca
+
+          # Chapter 20 - The Ward Hand - 13 takes
+          download_take 20 1 6a4d00920c0545a5867806c7b6b0f48f
+          download_take 20 2 829e2dadca7b42fa8255ffcde89f75ae
+          download_take 20 3 50660bd77b104ba6b0e6db6cf1f84ca9
+          download_take 20 4 28f058cf29ba43329d95c2d14e4645b8
+          download_take 20 5 85b7bc8afff74690af9d67edc6a268de
+          download_take 20 6 7e9520d3a04641e5a678a0ccb31082bb
+          download_take 20 7 e6fdee94325542bc83db40f2ae74a771
+          download_take 20 8 b491ddd4bf1a4ed3a729e1219bebbc47
+          download_take 20 9 11e8d8d22bb941b5b40d63c93cc0404c
+          download_take 20 10 2251e22d3e0d42cfaa0913821193bf04
+          download_take 20 11 34a272f0432148ad968cb76925102984
+          download_take 20 12 d5b4231e13f8400183e20cc26db272e1
+          download_take 20 13 0932bd6dc40e4369aa65072899758941
+
+          stitch_chapter() {
+            local chapter="$1"
+            find "/tmp/ga${chapter}" -name 'take-*.mp3' | sort | sed "s#^#file '#; s#$#'#" > "/tmp/ga${chapter}/concat.txt"
+            ffmpeg -v error -f concat -safe 0 -i "/tmp/ga${chapter}/concat.txt" \
+              -c:a libmp3lame -q:a 2 "greg-again/audio/assets/chapter-0${chapter}.mp3"
+            test "$(stat -c%s "greg-again/audio/assets/chapter-0${chapter}.mp3")" -gt 1000000
+            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 \
+              "greg-again/audio/assets/chapter-0${chapter}.mp3" >/dev/null
+          }
+
+          stitch_chapter 18
+          stitch_chapter 19
+          stitch_chapter 20
+
+      - name: Build exact take maps and verify source coverage
+        run: |
+          set -euo pipefail
+          python <<'PY'
+          import json, re
+          from pathlib import Path
+
+          specs = {
+            18: {
+              'title':'The Applicant', 'source':'r2/assets/written/ch018.md',
+              'ids':['7c31ecb98d01441298fbb5e536696ee1','17848c02c01e47309b48ce8fd83d43a5','57bdc7b413f4481e9a1557d66242b87c','d6276b0d36cc42c4bc00a64409d124f1','80b0ac51e91248b1b74353627e143978','b174fca57c504e6b968806adf54700af','f3b3e72719604cda8e99fea15b66d863','d87745585cf44ce3a8f118df4e7eac32','79c92e7c3d064af5967703ba6581350c','32964c1fc5af4e4ea66b867d66e76454','c7a0de4c02bf4a3c8cbc24b01d76fd37','d9933b4ce8f94fc0bf8daf4189c5827d'],
+              'starts':['The packet office opened before breakfast.','The office was smaller than the later Vey packet halls I remembered.','Breakfast became possible again.','Mine arrived after twenty minutes.','"Cost?"','I counted twelve copper onto the counter.','The Guild hall continued around me.','"She\'s good?"','The other winter memory took longer.','Outside the Guild, I almost turned toward Arlo\'s workshop.','The tree behind the Guild still had the narrow strip of missing bark from my old sword.','The letter was moving toward Halden.']
+            },
+            19: {
+              'title':'The Maintainer', 'source':'r2/assets/written/ch019.md',
+              'ids':['6a6473b54d08417eb1ef00d807436e8f','5c76e27580cc48749354e16772e102f4','34d4801727714bc8a8430f9ea3f4af2c','f991438e5cde42aa9c9e8437df08847c','c312307054a545c2ae6945a8eef0d85b','a89e64fefa6b4be2bd6a4bd3bda1f0bd','8935d6855b9f442690766f6744c825c0','6112eaefbfd541dca63939f026475c2f','255d88131fd34c5da77b61350ddc70d9','7125ee0435004288b9d16d1e2cb12446','32bd43ea9fbf4dbc86253d6379c040d2','8a9b6c3c85f348288600a970967209ca'],
+              'starts':['Five days passed without trying to kill me.','The tannery occupied a long stone building west of East Mill where the air became information before the sign did.','"How long?"','The foreman looked at Ivena.','"They don\'t swap."','Ivena had stopped listening to me.','The foreman looked at the unit.','The foreman watched that exchange and unfolded his arms the rest of the way.','I did the calculation anyway.','The tannery kept the current unit for a two-week service trial.','On the walk back, Arlo carried the dirty chamber in a lidded bucket.','"And if it works?" Arlo asked.']
+            },
+            20: {
+              'title':'The Ward Hand', 'source':'r2/assets/written/ch020.md',
+              'ids':['6a4d00920c0545a5867806c7b6b0f48f','829e2dadca7b42fa8255ffcde89f75ae','50660bd77b104ba6b0e6db6cf1f84ca9','28f058cf29ba43329d95c2d14e4645b8','85b7bc8afff74690af9d67edc6a268de','7e9520d3a04641e5a678a0ccb31082bb','e6fdee94325542bc83db40f2ae74a771','b491ddd4bf1a4ed3a729e1219bebbc47','11e8d8d22bb941b5b40d63c93cc0404c','2251e22d3e0d42cfaa0913821193bf04','34a272f0432148ad968cb76925102984','d5b4231e13f8400183e20cc26db272e1','0932bd6dc40e4369aa65072899758941'],
+              'starts':['Sella found me work before I found lunch.','"Why me?"','She looked at my sword.','The thing I was being paid for.','I sat back on my heels.','The third site was an apothecary storehouse near the south market.','Meren exposed the left vertical channel.','Meren did not answer immediately.','Meren loosened the anchor.','We restored the line.','Meren signed the bottom of the work slip.','Meren left.','Sella reached for the next contract.']
+            }
+          }
+
+          def spoken_body(path):
+            text = Path(path).read_text(encoding='utf-8').replace('\r\n','\n')
+            text = re.sub(r'^# .*?\n\n---\n\n', '', text, count=1, flags=re.S)
+            text = text.replace('**','')
+            return text.strip()
+
+          for num, spec in specs.items():
+            body = spoken_body(spec['source'])
+            starts = spec['starts']
+            positions=[]
+            cursor=0
+            for start in starts:
+              pos=body.find(start,cursor)
+              if pos < 0:
+                raise SystemExit(f'ch{num}: missing start anchor: {start}')
+              positions.append(pos)
+              cursor=pos+len(start)
+            if positions[0] != 0:
+              raise SystemExit(f'ch{num}: first take does not begin at body start')
+            takes=[]
+            reconstructed=[]
+            for i,pos in enumerate(positions):
+              end=positions[i+1] if i+1 < len(positions) else len(body)
+              transcript=body[pos:end].strip()
+              reconstructed.append(transcript)
+              paras=[p.strip() for p in transcript.split('\n\n') if p.strip()]
+              takes.append({
+                'take':i+1,
+                'transcript':transcript,
+                'provider_context_id':spec['ids'][i],
+                'artifact_url':f"https://www.aidocmaker.com/g0/audio?name={spec['ids'][i]}",
+                'first_anchor':paras[0],
+                'last_anchor':paras[-1]
+              })
+            if '\n\n'.join(reconstructed) != body:
+              raise SystemExit(f'ch{num}: take coverage mismatch')
+            out={
+              'chapter_id':f'ga-{num:03d}', 'chapter_number':num, 'title':spec['title'],
+              'source':spec['source'], 'voice':'deep', 'take_count':len(takes), 'takes':takes
+            }
+            Path(f'greg-again/audio/takes/{num:03d}.json').write_text(json.dumps(out,separators=(',',':'))+'\n',encoding='utf-8')
+          PY
+
+      - name: Reconcile catalog and chapter routes
+        run: |
+          set -euo pipefail
+          python <<'PY'
+          import json, subprocess
+          from pathlib import Path
+
+          meta={
+            18:('The Applicant',12,'Chapter 18 preserves time as an active constraint: the letter leaves Greg, the assessment moves toward a date, and future memory never substitutes for present proof.'),
+            19:('The Maintainer',12,'Chapter 19 preserves outside ownership as the working filter becomes a maintenance service. Present workers solve Tuesday while Greg repeatedly catches himself trying to import mature infrastructure.'),
+            20:('The Ward Hand',13,'Chapter 20 keeps support work at current scale: Meren owns ward procedure, Greg contributes several useful breaths and one good observation, and six copper remains earned present-tense value.')
+          }
+          root=Path('greg-again/audio')
+          manifest_path=root/'manifest.json'
+          manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
+          replace=set(f'ga-{n:03d}' for n in meta)
+          manifest['chapters']=[c for c in manifest['chapters'] if c['chapter_id'] not in replace]
+          for n,(title,count,note) in meta.items():
+            audio=root/'assets'/f'chapter-{n:03d}.mp3'
+            duration=round(float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(audio)],text=True).strip()),3)
+            manifest['chapters'].append({
+              'chapter_id':f'ga-{n:03d}','number':n,'title':title,'status':'experimental',
+              'lens':'shared-greg-surface','audio_finish':'processing-space','take_count':count,
+              'duration_seconds':duration,'audio_src':f'assets/chapter-{n:03d}.mp3','note':note
+            })
+            chapter_path=Path(f'r2/data/chapters/ch{n:03d}.json')
+            chapter=json.loads(chapter_path.read_text(encoding='utf-8'))
+            chapter['audio']={'status':'published','path':f'../greg-again/audio/assets/chapter-{n:03d}.mp3'}
+            chapter_path.write_text(json.dumps(chapter,separators=(',',':'))+'\n',encoding='utf-8')
+          manifest['chapters'].sort(key=lambda c:c['number'])
+          manifest_path.write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+          PY
+
+          cat > greg-again/audio/scripts/018-the-applicant.md <<'EOF'
+          # Greg, Again - Chapter 18 Audio Finish
+
+          Chapter: **018 - The Applicant**
+          Source authority: `r2/assets/written/ch018.md`
+          Voice: `deep`
+          Lens: **SHARED GREG SURFACE**
+          Audio finish: **PROCESSING SPACE**
+          Production takes: **12**
+          Take map: `greg-again/audio/takes/018.json`
+
+          The Shared Greg Surface is the exact spoken wording after removing non-spoken Markdown. Processing space preserves the difference between future knowledge, present evidence, and the new constraint of waiting. The chapter must not turn Kesra's future identity, the Guild fire memory, or the Red Winter anchor into present certainty.
+          EOF
+
+          cat > greg-again/audio/scripts/019-the-maintainer.md <<'EOF'
+          # Greg, Again - Chapter 19 Audio Finish
+
+          Chapter: **019 - The Maintainer**
+          Source authority: `r2/assets/written/ch019.md`
+          Voice: `deep`
+          Lens: **SHARED GREG SURFACE**
+          Audio finish: **PROCESSING SPACE**
+          Production takes: **12**
+          Take map: `greg-again/audio/takes/019.json`
+
+          The Shared Greg Surface is the exact spoken wording after removing non-spoken Markdown. Audio must preserve outside ownership: Arlo owns fit and hardware limits, Ivena solves the achievable service model, the wash man improves the indicator, and the foreman defines value and liability. Greg may see the future system without stealing the present solution.
+          EOF
+
+          cat > greg-again/audio/scripts/020-the-ward-hand.md <<'EOF'
+          # Greg, Again - Chapter 20 Audio Finish
+
+          Chapter: **020 - The Ward Hand**
+          Source authority: `r2/assets/written/ch020.md`
+          Voice: `deep`
+          Lens: **SHARED GREG SURFACE**
+          Audio finish: **PROCESSING SPACE**
+          Production takes: **13**
+          Take map: `greg-again/audio/takes/020.json`
+
+          The Shared Greg Surface is the exact spoken wording after removing non-spoken Markdown. Meren owns procedure and current domain authority. Greg's useful observation matters, but so do his wrong scraper, wrong angle, wrong drain instinct, five-inch plane, several useful breaths, and six-copper scale. Do not let later S-class identity overwrite present work.
+          EOF
+
+      - name: Verify durable product before commit
+        run: |
+          set -euo pipefail
+          python -m unittest tests.test_greg_again_audio_catalog
+          python <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path('greg-again/audio/manifest.json').read_text())
+          by={c['number']:c for c in manifest['chapters']}
+          for n,count in [(18,12),(19,12),(20,13)]:
+            assert n in by and by[n]['take_count']==count
+            audio=Path(f'greg-again/audio/assets/chapter-{n:03d}.mp3')
+            assert audio.stat().st_size > 1_000_000
+            takes=json.loads(Path(f'greg-again/audio/takes/{n:03d}.json').read_text())
+            assert takes['take_count']==count and len(takes['takes'])==count
+            chapter=json.loads(Path(f'r2/data/chapters/ch{n:03d}.json').read_text())
+            assert chapter['audio']['status']=='published'
+          PY
+
+      - name: Commit verified batch
+        run: |
+          set -euo pipefail
+          git add greg-again/audio/assets/chapter-018.mp3 \
+                  greg-again/audio/assets/chapter-019.mp3 \
+                  greg-again/audio/assets/chapter-020.mp3 \
+                  greg-again/audio/manifest.json \
+                  greg-again/audio/scripts/018-the-applicant.md \
+                  greg-again/audio/scripts/019-the-maintainer.md \
+                  greg-again/audio/scripts/020-the-ward-hand.md \
+                  greg-again/audio/takes/018.json \
+                  greg-again/audio/takes/019.json \
+                  greg-again/audio/takes/020.json \
+                  r2/data/chapters/ch018.json \
+                  r2/data/chapters/ch019.json \
+                  r2/data/chapters/ch020.json
+          git commit -m 'Publish Greg Again audio Chapters 18-20'
+          git push origin HEAD:audio/greg-again-batch-018-020
