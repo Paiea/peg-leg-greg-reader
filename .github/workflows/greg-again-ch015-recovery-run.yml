@@ -23,45 +23,48 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Capture six authorized Chapter 15 take URLs
+      - name: Capture 27 direct short-take MP3 previews
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p greg-again/audio/assets/chunks/015
-          ids=(
-            '15b862f5bf9c4e5fbd0e401b3ff753a3'
-            'c0e1776c689c44a6be3e846595045996'
-            'a41b7579f79e4812ac2c426dae56fc29'
-            'e33c7e4a79f44034834cb0c489b10e08'
-            'bb42574cca414211bad3dd1c25af82f0'
-            '842bf96b301643bc986fece4d6ef5714'
+          mkdir -p greg-again/audio/assets/chunks/015-short
+          urls=(
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0892ab35-1164-426d-aa4c-53128c698b78.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6956e85b-c364-43ca-b7e9-3a9ba1650dc8.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/932c60bf-7401-4db0-bb2c-3e23ad878d34.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/11a67649-43e2-467e-9296-bc59e7ffb40c.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4c84fe83-f3ae-4e07-8c1d-44b6da4b459a.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a686a616-54dc-4192-848e-9b6d938c4256.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/81fb100f-ffe4-4bd4-bb4c-25df6cd4aea7.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0f7761e2-a61c-4f6f-adac-04368255892e.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ccaf07ec-4934-41da-b50b-dd838ad97e3f.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a30d7eb0-054a-4b09-81c7-39601611852d.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bd63c15b-731f-43c9-aae2-b6c8a311a823.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b8c5fc95-cb83-4496-9b68-9269eaed4105.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/da30f894-1324-42e9-8a11-0f14eece3ff9.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6359e744-5064-4982-8354-a65d42d69b4c.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fe9493af-698f-4c42-8540-6d1ffed7152f.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6187491e-f465-4fdd-aa4a-164f315adbb5.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/80312fe2-7c72-44b7-aeb6-f7db5a7dd32b.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6e8df8b5-0bdc-44e8-a8c5-689e4bfd45c4.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e6d17953-f563-4506-ab4f-71230cb5fcd1.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a2d0d630-1489-4252-8d9f-7738fb4f78e2.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aa16b6ea-e1af-45d8-8d57-2c81ad9eb2bf.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4b2fa935-c093-4a7c-b481-977b6a23aa3c.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/35fda90f-58b7-4787-a253-c67d34c5544a.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/00765eeb-ba03-45bf-a919-d87fd64a4a32.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/45b7aa4c-4687-4cc2-88a8-6437d0a01920.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d464163e-6de5-438f-96fe-4d6fd161f5a1.mp3'
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8fb78781-6ab7-40e0-a2fd-c67a40ea0cab.mp3'
           )
-          download_take() {
-            local take="$1" id="$2"
-            local n out tmp url attempt http size
-            n=$(printf '%02d' "$take")
-            out="greg-again/audio/assets/chunks/015/${n}.mp3"
-            tmp="${out}.tmp"
-            url="https://www.aidocmaker.com/g0/audio?name=${id}"
-            for attempt in $(seq 1 36); do
-              rm -f "$tmp"
-              http="$(curl -L -sS --connect-timeout 20 --max-time 120 -o "$tmp" -w '%{http_code}' "$url" || true)"
-              size=0
-              if [ -f "$tmp" ]; then size="$(stat -c%s "$tmp")"; fi
-              if [ "$http" = "200" ] && [ "$size" -gt 10000 ] && ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$tmp" >/dev/null 2>&1; then
-                mv "$tmp" "$out"
-                echo "captured ch15 take ${take}: ${size} bytes"
-                ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out"
-                return 0
-              fi
-              echo "ch15 take ${take} not ready: attempt=${attempt} http=${http} bytes=${size}"
-              sleep 5
-            done
-            echo "FAILED ch15 take ${take} id=${id}" >&2
-            return 1
-          }
-          for i in $(seq 1 6); do
-            download_take "$i" "${ids[$((i-1))]}"
+          for i in $(seq 1 27); do
+            n=$(printf '%02d' "$i")
+            out="greg-again/audio/assets/chunks/015-short/${n}.mp3"
+            curl -L --fail --silent --show-error "${urls[$((i-1))]}" -o "$out"
+            size=$(stat -c%s "$out")
+            test "$size" -gt 10000
+            duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out")
+            echo "take ${n}: bytes=${size} duration=${duration}"
           done
 
       - name: Stitch Chapter 15
@@ -69,50 +72,64 @@ jobs:
         run: |
           set -euo pipefail
           list=$(mktemp)
-          for i in $(seq -w 1 6); do
-            printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/015/${i}.mp3" >> "$list"
+          for i in $(seq -w 1 27); do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/015-short/${i}.mp3" >> "$list"
           done
           ffmpeg -v error -f concat -safe 0 -i "$list" -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-015.mp3
           test "$(stat -c%s greg-again/audio/assets/chapter-015.mp3)" -gt 1000000
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 greg-again/audio/assets/chapter-015.mp3
 
-      - name: Preserve original contexts and record captured replacement contexts
+      - name: Record short-take provider identities
         shell: bash
         run: |
           python3 - <<'PY'
           import json, subprocess
           from pathlib import Path
 
-          p = Path('greg-again/audio/takes/015.json')
-          data = json.loads(p.read_text())
-          replacement = [
-              ('15b862f5bf9c4e5fbd0e401b3ff753a3','https://www.aidocmaker.com/g0/audio?name=15b862f5bf9c4e5fbd0e401b3ff753a3'),
-              ('c0e1776c689c44a6be3e846595045996','https://www.aidocmaker.com/g0/audio?name=c0e1776c689c44a6be3e846595045996'),
-              ('a41b7579f79e4812ac2c426dae56fc29','https://www.aidocmaker.com/g0/audio?name=a41b7579f79e4812ac2c426dae56fc29'),
-              ('e33c7e4a79f44034834cb0c489b10e08','https://www.aidocmaker.com/g0/audio?name=e33c7e4a79f44034834cb0c489b10e08'),
-              ('bb42574cca414211bad3dd1c25af82f0','https://www.aidocmaker.com/g0/audio?name=bb42574cca414211bad3dd1c25af82f0'),
-              ('842bf96b301643bc986fece4d6ef5714','https://www.aidocmaker.com/g0/audio?name=842bf96b301643bc986fece4d6ef5714'),
+          ids = [
+            '6b62dacdc4a6472f9a9ffb9153ab8e4e','aa0008a030d142bc8e46077a7afda593','cb1d8308a22b470dbf5fe628c5adc287',
+            '4edaf4c088d44961adac47990af9a6fc','b7611589e6014614918941dfb83350ec','9c5ae1bd94834738823ffe5050d8eec9',
+            '3a7831cbbd2845e48403d71dde0d5731','ae5a927b13e541049b4639910a126ddb','30ad0dd4080b4b8090eff8f4cf667291',
+            'ae90bd3663494df883d597e2a49837b6','bbe17ce5add044d1bfec321f2ac61ac2','49bb2c828b3f461d9fc0e8b527a4dde4',
+            '7e6a1b3e0cd9416fbfb6abc6f2b11c9f','3dccf9a9661543b5a4be4982e5e8e6c9','8d4ce13333ac4102bec30423d70d1192',
+            'c940f62c27af41ef9ad8c76fd512b6dc','01b59b2b1fde4a0cbf68868f12651b7b','df50015050624cea859edfdd72d28eee',
+            '32a02981f0fb4f86968bad5d24cc60b7','e2ca64065275443f9575cac71ba4ebbf','6ee78a2c3f8e4019b22fb9217173ee11',
+            'f939d10ae76c49859d97c07da600e371','b8a6fc8911bf4568bdd3fae427e778e2','1a58d97ced5441019be1be7fa60ad833',
+            'd9265a1e60a640a3b857aee90d8dbb2e','2f62b1237bf44f11b5643af6e011b3ea','55f274de96324ecfadb81690079a5605'
           ]
-          total = 0.0
-          for i, take in enumerate(data['takes'], 1):
-              f = Path(f'greg-again/audio/assets/chunks/015/{i:02d}.mp3')
-              dur = float(subprocess.check_output([
-                  'ffprobe','-v','error','-show_entries','format=duration',
-                  '-of','default=nw=1:nk=1',str(f)
-              ], text=True).strip())
-              total += dur
-              take['original_provider_context_id'] = take.get('provider_context_id')
-              take['original_provider_player_url'] = take.get('provider_player_url')
-              take['replacement_context_id'] = replacement[i-1][0]
-              take['artifact_url'] = replacement[i-1][1]
-              take['durable_file'] = str(f)
-              take['duration_seconds'] = round(dur, 3)
-              take['status'] = 'artifact_captured'
-          data['artifact_boundary'] = 'captured_replacement_after_explicit_user_authorization'
-          data['assembled_file'] = 'greg-again/audio/assets/chapter-015.mp3'
-          data['assembled_duration_seconds'] = round(total, 3)
-          data['status'] = 'verified_playable'
-          p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+          urls = [
+            '0892ab35-1164-426d-aa4c-53128c698b78','6956e85b-c364-43ca-b7e9-3a9ba1650dc8','932c60bf-7401-4db0-bb2c-3e23ad878d34',
+            '11a67649-43e2-467e-9296-bc59e7ffb40c','4c84fe83-f3ae-4e07-8c1d-44b6da4b459a','a686a616-54dc-4192-848e-9b6d938c4256',
+            '81fb100f-ffe4-4bd4-bb4c-25df6cd4aea7','0f7761e2-a61c-4f6f-adac-04368255892e','ccaf07ec-4934-41da-b50b-dd838ad97e3f',
+            'a30d7eb0-054a-4b09-81c7-39601611852d','bd63c15b-731f-43c9-aae2-b6c8a311a823','b8c5fc95-cb83-4496-9b68-9269eaed4105',
+            'da30f894-1324-42e9-8a11-0f14eece3ff9','6359e744-5064-4982-8354-a65d42d69b4c','fe9493af-698f-4c42-8540-6d1ffed7152f',
+            '6187491e-f465-4fdd-aa4a-164f315adbb5','80312fe2-7c72-44b7-aeb6-f7db5a7dd32b','6e8df8b5-0bdc-44e8-a8c5-689e4bfd45c4',
+            'e6d17953-f563-4506-ab4f-71230cb5fcd1','a2d0d630-1489-4252-8d9f-7738fb4f78e2','aa16b6ea-e1af-45d8-8d57-2c81ad9eb2bf',
+            '4b2fa935-c093-4a7c-b481-977b6a23aa3c','35fda90f-58b7-4787-a253-c67d34c5544a','00765eeb-ba03-45bf-a919-d87fd64a4a32',
+            '45b7aa4c-4687-4cc2-88a8-6437d0a01920','d464163e-6de5-438f-96fe-4d6fd161f5a1','8fb78781-6ab7-40e0-a2fd-c67a40ea0cab'
+          ]
+          takes=[]
+          total=0.0
+          for i,(cid,u) in enumerate(zip(ids,urls),1):
+            f=Path(f'greg-again/audio/assets/chunks/015-short/{i:02d}.mp3')
+            dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(f)],text=True).strip())
+            total += dur
+            takes.append({
+              'take': i,
+              'provider_context_id': cid,
+              'preview_url': f'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/{u}.mp3',
+              'durable_file': str(f),
+              'duration_seconds': round(dur,3),
+              'status': 'artifact_captured'
+            })
+          out={
+            'chapter_id':'ga-015','chapter_number':15,'title':'The Friend','voice':'deep',
+            'production_mode':'original_short_take_complete_preview','take_count':27,
+            'assembled_file':'greg-again/audio/assets/chapter-015.mp3',
+            'assembled_duration_seconds':round(total,3),'status':'verified_playable',
+            'preserves_legacy_take_map':'greg-again/audio/takes/015.json','takes':takes
+          }
+          Path('greg-again/audio/takes/015-short.json').write_text(json.dumps(out,indent=2)+'\n')
           PY
 
       - name: Commit durable Chapter 15 artifacts
@@ -121,6 +138,6 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add greg-again/audio/assets/chunks/015 greg-again/audio/assets/chapter-015.mp3 greg-again/audio/takes/015.json
-          git commit -m 'audio: recover and stitch Greg Again Chapter 15'
+          git add greg-again/audio/assets/chunks/015-short greg-again/audio/assets/chapter-015.mp3 greg-again/audio/takes/015-short.json
+          git commit -m 'audio: capture original short-take Chapter 15'
           git push origin HEAD:audio/greg-again-batch-015-017
