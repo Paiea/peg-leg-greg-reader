@@ -2,6 +2,7 @@
   const chapterList = document.getElementById('chapter-list');
   const availability = document.getElementById('availability-summary');
   const heroImage = document.querySelector('.listen-hero-image');
+  const startListening = document.getElementById('hero-listen-start');
 
   function formatDuration(seconds) {
     const total = Math.round(Number(seconds) || 0);
@@ -14,6 +15,11 @@
     const explicit = chapter.id || chapter.chapter_id || chapter.audio_id;
     if (typeof explicit === 'string' && /^ga-\d{3}$/.test(explicit)) return explicit;
     return `ga-${String(chapter.number).padStart(3, '0')}`;
+  }
+
+  function writtenReferenceHref(chapter) {
+    const writtenId = `r2-ch${String(chapter.number).padStart(3, '0')}`;
+    return `../../r2/chapter.html?id=${encodeURIComponent(writtenId)}#read`;
   }
 
   async function loadOptionalPresentation() {
@@ -52,9 +58,11 @@
   }
 
   function renderChapter(chapter, presentation = {}) {
+    const id = stableId(chapter);
     const card = document.createElement('article');
     card.className = 'player-card chapter-card';
-    card.dataset.chapterId = stableId(chapter);
+    card.id = id;
+    card.dataset.chapterId = id;
 
     if (presentation.image_src) {
       const art = document.createElement('img');
@@ -96,7 +104,16 @@
     audio.src = chapter.audio_src;
     audio.setAttribute('aria-label', `Play Chapter ${chapter.number}: ${chapter.title}`);
 
-    copy.append(meta, audio);
+    const links = document.createElement('div');
+    links.className = 'chapter-card-links';
+
+    const writtenReference = document.createElement('a');
+    writtenReference.href = writtenReferenceHref(chapter);
+    writtenReference.textContent = 'Written reference';
+    writtenReference.setAttribute('aria-label', `Open written reference for Chapter ${chapter.number}: ${chapter.title}`);
+    links.append(writtenReference);
+
+    copy.append(meta, audio, links);
     card.append(copy);
     return card;
   }
@@ -110,11 +127,18 @@
     if (!manifestResponse.ok) throw new Error(`manifest ${manifestResponse.status}`);
     const manifest = await manifestResponse.json();
     const playable = Array.isArray(manifest.chapters) ? manifest.chapters : [];
+    const latestPlayable = playable[playable.length - 1];
 
     applyHeroPresentation(presentation.hero);
 
+    if (startListening && playable.length) {
+      startListening.href = `#${stableId(playable[0])}`;
+    }
+
     if (availability) {
-      availability.textContent = `${playable.length} playable chapter${playable.length === 1 ? '' : 's'} · Written reference available`;
+      availability.textContent = latestPlayable
+        ? `${playable.length} playable chapter${playable.length === 1 ? '' : 's'} · through Chapter ${latestPlayable.number} · Written reference available`
+        : 'No playable chapters yet · Written reference available';
     }
 
     chapterList.replaceChildren();
@@ -122,6 +146,12 @@
       const id = stableId(chapter);
       chapterList.append(renderChapter(chapter, presentation.chapters[id] || {}));
     });
+
+    if (window.location.hash) {
+      const targetId = decodeURIComponent(window.location.hash.slice(1));
+      const target = document.getElementById(targetId);
+      if (target) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+    }
   } catch (error) {
     chapterList.textContent = 'Audio chapters are temporarily unavailable.';
     if (availability) availability.textContent = 'Listening shelf temporarily unavailable.';
