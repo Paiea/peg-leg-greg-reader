@@ -1,0 +1,188 @@
+name: Greg Again mana pronunciation audit
+
+on:
+  push:
+    branches:
+      - audio/greg-again-mana-pronunciation-repair
+    paths:
+      - .github/workflows/mana-pronunciation-audit.yml
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Audit mana occurrences and audio localization
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path('.')
+          rx = re.compile(r'\bmana\b', re.IGNORECASE)
+          manifest = json.loads((root / 'greg-again/audio/manifest.json').read_text(encoding='utf-8'))
+          published = {int(c['number']): c for c in manifest.get('chapters', [])}
+
+          def line_hits(path):
+              text = path.read_text(encoding='utf-8')
+              hits = []
+              for i, line in enumerate(text.splitlines(), 1):
+                  if rx.search(line):
+                      hits.append((i, line.strip()))
+              return hits
+
+          def script_take_hits(path):
+              hits = []
+              current_take = None
+              for i, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
+                  m = re.match(r'^##\s+TAKE\s+(.+?)\s*$', line.strip(), re.IGNORECASE)
+                  if m:
+                      current_take = m.group(1).strip()
+                  if rx.search(line):
+                      hits.append((current_take, i, line.strip()))
+              return hits
+
+          def walk_json(obj, path='$'):
+              if isinstance(obj, dict):
+                  for k, v in obj.items():
+                      yield from walk_json(v, f'{path}.{k}')
+              elif isinstance(obj, list):
+                  for i, v in enumerate(obj):
+                      yield from walk_json(v, f'{path}[{i}]')
+              elif isinstance(obj, str) and rx.search(obj):
+                  yield path, obj
+
+          report = []
+          report.append('# Greg, Again `mana` pronunciation audit')
+          report.append('')
+          report.append('Purpose: locate every canonical written occurrence of the word `mana` through Chapter 22, then localize occurrences to published audio take evidence without changing canonical prose.')
+          report.append('')
+          report.append('Pronunciation target for synthesis repair: Hawaiian-style `MAH-nah`. Canonical written text remains `mana`.')
+          report.append('')
+
+          canonical_total = 0
+          published_total = 0
+          chapters_with_hits = []
+          unresolved_published = []
+          audio_localized = {}
+
+          for n in range(1, 23):
+              written = root / f'r2/assets/written/ch{n:03d}.md'
+              if not written.exists():
+                  continue
+              hits = line_hits(written)
+              if not hits:
+                  continue
+              chapters_with_hits.append(n)
+              canonical_total += sum(len(rx.findall(line)) for _, line in hits)
+              if n in published:
+                  published_total += sum(len(rx.findall(line)) for _, line in hits)
+
+              locs = []
+              for script in sorted((root / 'greg-again/audio/scripts').glob(f'{n:03d}-*.md')):
+                  for take, lineno, line in script_take_hits(script):
+                      if take is not None:
+                          locs.append(('script', script.as_posix(), str(take), lineno, line))
+
+              for take_map in sorted((root / 'greg-again/audio/takes').glob(f'{n:03d}*.json')):
+                  try:
+                      data = json.loads(take_map.read_text(encoding='utf-8'))
+                  except Exception:
+                      continue
+                  for jpath, text in walk_json(data):
+                      locs.append(('json', take_map.as_posix(), jpath, None, ' '.join(text.split())))
+
+              # De-duplicate identical textual localization evidence.
+              seen = set()
+              clean = []
+              for loc in locs:
+                  key = (loc[0], loc[1], loc[2], loc[4])
+                  if key not in seen:
+                      seen.add(key)
+                      clean.append(loc)
+              audio_localized[n] = clean
+              if n in published and not clean:
+                  unresolved_published.append(n)
+
+          report.append('## Summary')
+          report.append('')
+          report.append(f'- Canonical `mana` token count through Chapter 22: **{canonical_total}**')
+          report.append(f'- Published-audio `mana` token count by current manifest: **{published_total}**')
+          report.append(f"- Chapters containing `mana`: **{', '.join(f'{n:03d}' for n in chapters_with_hits) if chapters_with_hits else 'none'}**")
+          report.append(f"- Published chapters lacking local take evidence after repository scan: **{', '.join(f'{n:03d}' for n in unresolved_published) if unresolved_published else 'none'}**")
+          report.append('')
+
+          for n in chapters_with_hits:
+              written = root / f'r2/assets/written/ch{n:03d}.md'
+              hits = line_hits(written)
+              entry = published.get(n)
+              report.append(f'## Chapter {n:03d}')
+              report.append('')
+              report.append(f"- Audio status: **{'published' if entry else 'not published'}**")
+              if entry:
+                  report.append(f"- Manifest identity: `{entry.get('chapter_id')}` / `{entry.get('title')}` / `{entry.get('take_count')} takes`")
+              report.append('- Canonical occurrences:')
+              for lineno, line in hits:
+                  count = len(rx.findall(line))
+                  report.append(f'  - `r2/assets/written/ch{n:03d}.md:{lineno}` ({count} token' + ('s' if count != 1 else '') + f'): {line}')
+              locs = audio_localized.get(n, [])
+              if locs:
+                  report.append('- Audio localization evidence:')
+                  for kind, path, take, lineno, line in locs:
+                      if kind == 'script':
+                          report.append(f'  - `{path}` TAKE `{take}` line {lineno}: {line}')
+                      else:
+                          report.append(f'  - `{path}` JSON `{take}`: {line}')
+              elif entry:
+                  report.append('- Audio localization evidence: **NOT FOUND**. Do not regenerate a guessed take; reconstruct take boundaries from production evidence first.')
+              else:
+                  report.append('- Audio localization evidence: not required yet; future synthesis rule should apply automatically.')
+              report.append('')
+
+          report.append('## Repository-wide pronunciation evidence')
+          report.append('')
+          report.append('The following text files outside canonical written chapters also contain whole-word `mana`; these are evidence only and are not counted as extra story occurrences.')
+          report.append('')
+          evidence = []
+          skip_suffixes = {'.mp3', '.png', '.jpg', '.jpeg', '.gif', '.zip', '.woff', '.woff2', '.pdf'}
+          for p in root.rglob('*'):
+              if not p.is_file() or p.suffix.lower() in skip_suffixes or '.git' in p.parts:
+                  continue
+              if p.as_posix().startswith('r2/assets/written/ch'):
+                  continue
+              try:
+                  for lineno, line in line_hits(p):
+                      evidence.append((p.as_posix(), lineno, line))
+              except (UnicodeDecodeError, OSError):
+                  pass
+          for path, lineno, line in evidence:
+              report.append(f'- `{path}:{lineno}`: {line}')
+
+          out = root / 'greg-again/audio/production/2026-09-08-mana-pronunciation-audit.md'
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text('\n'.join(report) + '\n', encoding='utf-8')
+          print('\n'.join(report[:20]))
+          PY
+
+      - name: Commit durable audit and remove one-shot workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/mana-pronunciation-audit.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add greg-again/audio/production/2026-09-08-mana-pronunciation-audit.md .github/workflows/mana-pronunciation-audit.yml
+          git diff --cached --stat
+          git commit -m "audio: audit mana pronunciation occurrences"
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair
