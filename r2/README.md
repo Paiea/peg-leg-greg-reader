@@ -12,14 +12,24 @@ R2 presents one story through three sibling renderings:
 2. **Read** — written rendition from the same story truth, not a transcript.
 3. **Look** — approved illustrations derived from the same scene/story truth.
 
+Before either Listen or Read becomes a medium-specific artifact, use the shared rendering contract in `PIPELINE.md`.
+
+The default wording path is:
+
+`Story State / Performance → Greg Experience → Shared Greg Surface → Audio Finish / Written Finish`
+
+Audio and written are sibling medium-specific finishes from the same Shared Greg Surface. Do not use written prose as a mandatory source transcript for audio, and do not treat audio wording as a transcript that must later be rewritten back into prose.
+
 The public site may explain the Run 1 → Run 2 lineage and process on the homepage/About page. Chapter pages should stay focused on the story.
 
 ## Where to look
 
 ```text
 r2/
+  PIPELINE.md                 # shared Greg surface / medium finishing contract
   data/
     project.json             # public project order/current chapter
+    rendering-pipeline.json  # machine-readable rendering route
     chapter-registry.json    # production state / unfinished work
     chapters/
       ch001.json             # public presentation manifest
@@ -41,6 +51,8 @@ r2/
 ## Authority boundaries
 
 - `data/project.json` answers **what chapters exist publicly and in what order**.
+- `data/rendering-pipeline.json` answers **how one Greg-shaped wording surface forks into Listen and Read**.
+- `PIPELINE.md` is the human worker contract for that same rendering route.
 - `data/chapters/chNNN.json` answers **what the public reader should display for that chapter**.
 - `data/chapter-registry.json` answers **what production work remains**.
 - Audio, written, and image files are assets referenced by manifests. Folder scanning does not define story order.
@@ -64,13 +76,15 @@ The presentation filename for a chapter remains `data/chapters/ch001.json`, whil
 When Chapter N audio or another public rendering becomes real:
 
 1. Confirm the newest GitHub authority first.
-2. Create/update `data/chapters/chNNN.json`.
-3. Add `r2-chNNN` to `data/project.json` in intended reading order and update `current_chapter` if appropriate.
-4. Update previous/next IDs in neighboring chapter manifests.
-5. Update `data/chapter-registry.json` with the actual production state.
-6. Reference existing audio/written/image assets instead of duplicating them when a stable source already exists.
-7. Run `python -m unittest tests.test_r2_site -v`.
-8. Do not claim missing written/image output exists. The reader degrades cleanly when optional renderings are unavailable.
+2. Confirm or create the chapter's Shared Greg Surface before medium-specific finishing unless the chapter is an explicitly documented legacy experiment.
+3. Classify listen-back/page-read discoveries before revision: shared Greg Experience, audio-only, or written-only.
+4. Create/update `data/chapters/chNNN.json`.
+5. Add `r2-chNNN` to `data/project.json` in intended reading order and update `current_chapter` if appropriate.
+6. Update previous/next IDs in neighboring chapter manifests.
+7. Update `data/chapter-registry.json` with the actual production state.
+8. Reference existing audio/written/image assets instead of duplicating them when a stable source already exists.
+9. Run `python -m unittest tests.test_r2_site -v`.
+10. Do not claim missing written/image output exists. The reader degrades cleanly when optional renderings are unavailable.
 
 ## Asset rules
 
@@ -78,9 +92,13 @@ When Chapter N audio or another public rendering becomes real:
 
 Current audio experiments live under `greg-again/audio/assets/` and may be referenced by R2 while that remains the current source. Do not duplicate large MP3 files only to satisfy directory symmetry.
 
+Audio Finish is a light medium-specific finish from the Shared Greg Surface, not an independent rewrite of the chapter.
+
 ### Written
 
 Only mark `written.status` as `published` once a real R2 written rendition exists at the referenced path.
+
+Written Finish is a light medium-specific finish from the Shared Greg Surface. Clean performance residue without cleaning away cognition.
 
 ### Images
 

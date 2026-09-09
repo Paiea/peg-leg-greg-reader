@@ -1,0 +1,435 @@
+# Chapter 15: The Morning Barge
+
+Status: **EXPERIMENTAL SECOND-RUN PROSE / TRUE-FRONTIER STORY**
+
+Continuation from Chapter 14. No additional high-heat branch was required because the core behavioral uncertainty was already rehearsed.
+
+---
+
+I was early.
+
+This deserved recognition.
+
+Not celebration. That would be dangerous.
+
+Recognition.
+
+The river was still gray when I reached Mara's mother's house. Bakers were awake. Teamsters were awake. People with better relationships to morning than mine were rolling barrels toward the docks.
+
+I had eaten first.
+
+Also worth noting.
+
+The front door opened before I reached for the key.
+
+Mara's mother stood there in her apron.
+
+"You ate?"
+
+"Yes."
+
+She looked suspicious.
+
+"What?"
+
+"Nothing."
+
+She let me in.
+
+Mara was upstairs tying the last crate shut.
+
+Her room had crossed the line overnight.
+
+Yesterday it looked like somebody was packing.
+
+Today it looked like somebody had left and forgotten to walk out the door.
+
+Bare mattress.
+
+Empty shelf.
+
+No blue cup.
+
+The map gone from the wall.
+
+A pale square where the paper had protected the plaster from years of smoke.
+
+Mara knelt beside the final crate pulling rope tight.
+
+"You're early."
+
+"Apparently."
+
+"Should I be worried?"
+
+"Probably."
+
+She snorted and handed me the rope.
+
+I finished the knot.
+
+She checked it.
+
+Then retied it.
+
+I chose not to take this personally.
+
+We carried the crates down one at a time.
+
+The boatman came through the kitchen exactly as promised and complained that books were a malicious form of cargo.
+
+Mara had three crates of them.
+
+He charged her extra for the third.
+
+She argued.
+
+He reduced the extra charge by one copper.
+
+I stayed out of it.
+
+Growth continued in strange directions.
+
+Her mother packed food into a cloth bag large enough to survive a siege.
+
+Mara protested.
+
+Her mother added two apples.
+
+Argument concluded.
+
+The packet barge left from the western river quay.
+
+Not a grand passenger dock.
+
+Working dock.
+
+Cargo first. People fit around it.
+
+Mara's crates went beneath a canvas cover beside two barrels of lamp oil, a cage containing six offended chickens, and a locked metal box whose owner watched everybody else too carefully.
+
+Vey Shipping had painted its mark on the barge's side in yellow.
+
+I knew the company.
+
+Later version.
+
+Bigger offices. Faster hulls. Warehouses in six river cities.
+
+This barge had one patched sail and a deck hand bailing rainwater from yesterday out of the stern with a cooking pot.
+
+The future remained committed to embarrassing itself in advance.
+
+Mara handed over her travel paper.
+
+The clerk checked the name.
+
+Checked the crates.
+
+Checked the ledger position noted beside her destination.
+
+Halden.
+
+Real now.
+
+Not a circle on her wall.
+
+She turned back to us.
+
+Her mother hugged her immediately.
+
+No restraint.
+
+Mara endured it for perhaps one second before giving up and hugging back.
+
+I looked toward the river.
+
+Not because I was uncomfortable.
+
+Because some moments belonged to the people actually having them.
+
+When I looked back, her mother was crying and pretending the wind had become unusually targeted.
+
+Mara came to me last.
+
+That seemed correct.
+
+Neither of us moved for a second.
+
+"You came," she said.
+
+"Twice."
+
+"Don't get ambitious."
+
+I smiled.
+
+Then it went away on its own.
+
+Mara looked at me carefully.
+
+"I meant what I said yesterday."
+
+Letters.
+
+Not making her stupid.
+
+Not inventing certainty.
+
+"I know."
+
+"Do you?"
+
+There she was.
+
+"Enough to be nervous."
+
+That almost pleased her.
+
+"Good."
+
+The deck hand called for passengers.
+
+Mara glanced toward the barge.
+
+Then back at me.
+
+"I don't know what happened to you."
+
+No useful response.
+
+She continued.
+
+"I don't know if you're going to remember more. I don't know if you're going to become somebody I recognize again."
+
+I could feel myself preparing an answer.
+
+She saw it.
+
+"Don't."
+
+I stopped.
+
+"I also don't know if that's what I want."
+
+That landed somewhere deeper.
+
+Not cruel.
+
+Better than cruel.
+
+True.
+
+Young Greg had belonged to her in some unfinished way.
+
+I was not young Greg preserved.
+
+Not exactly.
+
+She should not have to wait for me to reconstruct him so she could resume whatever they had almost become.
+
+Mara looked toward the river again.
+
+"Maybe I like parts of this version better."
+
+I blinked.
+
+"That seems irresponsible."
+
+"There he is."
+
+I laughed.
+
+She did too.
+
+Then neither of us did.
+
+The barge master shouted that anyone not aboard in one minute could practice swimming to Halden.
+
+Mara stepped closer.
+
+For one irrational second I expected a kiss.
+
+Memory supplied none.
+
+Expectation supplied too much.
+
+She hugged me instead.
+
+Quickly.
+
+Harder than I expected.
+
+My arms came around her a heartbeat late.
+
+That bothered me.
+
+Then it didn't.
+
+She let go.
+
+"Write something true."
+
+Not often.
+
+Not every week.
+
+Not promise.
+
+True.
+
+"I can try that."
+
+"Terrifying."
+
+She climbed aboard.
+
+Her mother called three instructions after her before the deck hand pushed the loading plank away.
+
+Mara answered none of them.
+
+The barge poles went down.
+
+Wood creaked.
+
+Water moved along the hull.
+
+For several yards, departure looked unimpressive.
+
+Then the current caught.
+
+The barge turned toward midriver.
+
+Mara stood near the stern rail with one hand on the canvas covering her books.
+
+She lifted the other.
+
+I did too.
+
+No dramatic last words.
+
+Too much water between us almost immediately.
+
+The boat passed beneath the lower bridge.
+
+Yellow company mark.
+
+Patched sail.
+
+Six furious chickens.
+
+Then smaller.
+
+Then part of river traffic.
+
+Then gone around the bend.
+
+Her mother stayed beside me until she could no longer pretend there was anything left to see.
+
+"She'll be fine," I said.
+
+She looked at me.
+
+"I know."
+
+Right.
+
+Not reassurance she needed.
+
+We walked back together.
+
+At the house, she stopped me in the kitchen and put a small bundle on the table.
+
+Cards.
+
+Old deck.
+
+Edges soft with use.
+
+One corner burned on the seven of cups.
+
+I knew the deck before I knew why.
+
+My hand rested on the top card.
+
+Tavin.
+
+Not a complete memory.
+
+A table in the back room.
+
+Rain.
+
+Mara complaining because we were using dried beans as stakes and Greg had eaten one of the red ones to prove some point that had not survived history.
+
+A man's hand slapping mine away from the pot.
+
+Laughter.
+
+Gone.
+
+I opened my eyes.
+
+Mara's mother had seen enough.
+
+"Those were yours."
+
+"Tavin's."
+
+She tilted her head.
+
+"His first. Yours after he bought a better deck."
+
+Of course he did.
+
+People improved equipment in every timeline.
+
+I picked up the seven of cups.
+
+Burned corner.
+
+"What happened?"
+
+"You tried to cheat at candle tricks."
+
+"Did it work?"
+
+"You set the card on fire."
+
+That sounded more likely.
+
+She pushed the deck toward me.
+
+"Take them."
+
+I did.
+
+No argument.
+
+Outside, morning had become day.
+
+The Guild board would have new work.
+
+Arlo would be awake.
+
+Ivena probably already was.
+
+The North Gate still stood.
+
+My purse still needed help.
+
+All true.
+
+I went back to my room first.
+
+The marked support cord was beside the window.
+
+The brass key beside it.
+
+I placed the old deck on the table.
+
+Three objects from three versions of me.
+
+I did not arrange them into a theory.
+
+I ate one of the apples Mara's mother had forced into my pocket instead.

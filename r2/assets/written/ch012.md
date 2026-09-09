@@ -1,0 +1,705 @@
+# Chapter 12: Mara
+
+Status: **EXPERIMENTAL SECOND-RUN PROSE / TRUE-FRONTIER STORY**
+
+Batch rehearsal: `state/experiments/greg-again/rehearsals/011-013-story-batch.md`
+
+---
+
+Mara was sitting on the floor outside my room.
+
+That was how I learned I had been avoiding her.
+
+Not consciously.
+
+Conscious avoidance had planning in it.
+
+This was worse.
+
+I reached the top of the stairs and stopped.
+
+She looked up.
+
+Dark hair tied badly behind her head. Gray work dress. Ink on two fingers. One boot unlaced because apparently she had been waiting long enough to stop respecting presentation.
+
+I knew her face.
+
+Immediately.
+
+Relief came first.
+
+Then shame, because relief was not the correct emotion when someone had been sitting outside your room long enough to become furniture.
+
+"There you are."
+
+Her voice landed somewhere old.
+
+Not forty-years-old.
+
+Earlier.
+
+Summer heat. River steps. Somebody throwing plum pits from a roof.
+
+Gone before I could catch it.
+
+"Mara."
+
+She stood.
+
+The fact that I knew her name seemed to annoy her.
+
+"Congratulations."
+
+Fair.
+
+No.
+
+I was not doing that.
+
+I unlocked the door.
+
+She did not move.
+
+"You got my letter?"
+
+There it was.
+
+The letter was still in the drawer beside my bed.
+
+I had recognized her handwriting on the first morning.
+
+Then spent six weeks building systems around everything except opening it properly.
+
+I had looked at the date.
+
+Read the first line.
+
+Stopped when the first line referred to a conversation I could not remember.
+
+Then I had told myself I would come back when the world made more sense.
+
+The world had declined.
+
+"Yes."
+
+"And?"
+
+I looked at her.
+
+She looked back.
+
+No exit appeared.
+
+"I didn't answer."
+
+"I noticed."
+
+"I should have."
+
+"Also noticed."
+
+She crossed her arms.
+
+I had negotiated with Antonius Vale while owing him money.
+
+This was worse.
+
+"Do you want to come in?"
+
+"Do you?"
+
+That question should not have been difficult.
+
+It was.
+
+"Yes."
+
+Mara stepped inside.
+
+She looked around once.
+
+The room had changed since my first morning.
+
+New basin.
+
+Better rag.
+
+Training clothes folded instead of dropped on the chair.
+
+Three pages of Arlo numbers beneath a cup.
+
+A length of marked cord from Meral coiled near the window.
+
+My old cheap sword against the wall.
+
+Mara picked up the cord.
+
+"What's this?"
+
+"Magic practice."
+
+She looked at me.
+
+"You hate magic practice."
+
+I said nothing.
+
+Her face changed.
+
+Not much.
+
+Enough.
+
+"You do."
+
+Apparently young me had opinions I no longer remembered having.
+
+"Did."
+
+"Six weeks ago."
+
+Right.
+
+She put the cord down.
+
+"You missed Tavin's send-off."
+
+The name meant nothing.
+
+My stomach tightened before my face did.
+
+Mara saw both.
+
+"You missed it," she repeated.
+
+"I don't remember Tavin."
+
+Silence.
+
+That was the wrong answer.
+
+Also the only honest one I had.
+
+Mara stared at me.
+
+"What?"
+
+"I know the name should mean something."
+
+"He lived across from us for twelve years."
+
+Us.
+
+Another word with architecture inside it.
+
+"He taught you cards."
+
+That one hurt differently.
+
+Cards.
+
+White Dog.
+
+Dockworker protecting winnings.
+
+Man selling the story of tilt.
+
+Forty years of gambling instincts.
+
+The person who taught nineteen-year-old Greg enough to begin had vanished completely.
+
+I sat on the edge of the bed.
+
+Mara stayed standing.
+
+"Where did he go?"
+
+"River company. South branch."
+
+Alive.
+
+Good.
+
+The relief must have shown.
+
+Mara's anger sharpened.
+
+"Why are you looking relieved?"
+
+I could not answer that without becoming insane.
+
+Because for a second I thought you were telling me I had missed a funeral.
+
+Because too many people in my memory were dead and apparently I had begun assuming absence meant the same thing.
+
+Because Tavin being alive felt like getting someone back even though I had no memory of losing him.
+
+"I thought something worse happened."
+
+"Worse than you forgetting him?"
+
+There was no useful response.
+
+Mara sat on the chair.
+
+Not because the conversation improved.
+
+Because anger apparently had knees.
+
+"Did you get hit in the head?"
+
+Maybe.
+
+Not recently.
+
+"No."
+
+"Fever?"
+
+"No."
+
+"Spell accident?"
+
+"Not that I know of."
+
+"Then what is this?"
+
+She gestured at me.
+
+Not the room.
+
+Me.
+
+I wanted a model.
+
+Memory damage.
+
+Temporal displacement.
+
+Identity discontinuity.
+
+Forty years compressed into a nineteen-year-old nervous system.
+
+None of those belonged in this room.
+
+Mara waited.
+
+I could lie.
+
+Head injury.
+
+Trauma.
+
+Bad dreams.
+
+Anything ordinary enough to fit inside her understanding.
+
+The problem was that she already knew me.
+
+Not the person I had become.
+
+The person I was supposed to be.
+
+A lie would have to survive contact with someone who knew the original version better than I did.
+
+"Something happened to my memory."
+
+Her anger moved.
+
+Not gone.
+
+Moved.
+
+"What kind of something?"
+
+"I don't know how to explain it."
+
+"Try."
+
+I looked at my hands.
+
+Young hands.
+
+Still strange when I remembered to notice.
+
+"I remember things that happened a long time ago better than things that happened recently."
+
+True.
+
+Wrong direction.
+
+"How long ago?"
+
+I almost laughed.
+
+Did not.
+
+"Long."
+
+She hated that answer.
+
+"Greg."
+
+There were versions of my name.
+
+Sella used it when I became administratively irritating.
+
+Jorren used it when I was about to do something funny or stupid.
+
+Arlo used it like a warning label.
+
+Mara used it as if I had left something unfinished.
+
+I remembered that.
+
+Not a scene.
+
+A pattern.
+
+"I remember you," I said.
+
+She said nothing.
+
+"Not enough."
+
+Still nothing.
+
+The sentence I had rehearsed in no version of this conversation arrived anyway.
+
+"I remember you. Not in the order you deserve."
+
+Mara looked away.
+
+That was worse than anger.
+
+I let it stay quiet.
+
+For once.
+
+After a while she reached into her pocket and put a small brass key on the table.
+
+I knew the key.
+
+No idea what it opened.
+
+She watched me fail.
+
+"Your old room."
+
+I looked around.
+
+"This is my old room."
+
+"Before this one."
+
+Ah.
+
+She almost smiled.
+
+Almost.
+
+"My mother's back room. You stayed there after your parents died."
+
+The room changed around me without moving.
+
+After my parents died.
+
+Mara's mother.
+
+Back room.
+
+I reached for memory and got rain against shutters. Bread cut too thick. A woman with flour on one wrist telling someone to stop bleeding on the good cloth.
+
+No face.
+
+Then Mara at fifteen, maybe sixteen, sitting on a windowsill with her knees pulled up.
+
+Gone.
+
+I closed my hand around the key.
+
+"Your mother let me stay there."
+
+"For eight months."
+
+I had remembered princes more clearly.
+
+That was obscene.
+
+Mara saw something in my face and softened despite herself.
+
+I wished she hadn't.
+
+Anger I could survive.
+
+Kindness made the missing pieces heavier.
+
+"She's alive," Mara said.
+
+I looked up too quickly.
+
+She noticed that too.
+
+Of course.
+
+"Why wouldn't she be?"
+
+No reason.
+
+No present reason.
+
+"I don't know."
+
+Mara leaned back in the chair.
+
+"You're frightening me."
+
+There.
+
+No joke.
+
+No useful reframing.
+
+I had done that.
+
+"I'm sorry."
+
+"Stop saying things like someone twice your age."
+
+That almost got me.
+
+I looked down before the smile could make the apology worse.
+
+Mara exhaled.
+
+"I leave in four days."
+
+The room tightened again.
+
+"Where?"
+
+"Halden."
+
+I knew Halden.
+
+Small river city west of the low ranges. Textile warehouses. Later known for glasswork. Not destroyed in any war I immediately remembered.
+
+The absence of catastrophe felt like a gift.
+
+"Ledger position with Vey Shipping."
+
+She studied me.
+
+"This is the part where you say I hate boats."
+
+I waited.
+
+"I hate boats."
+
+"Do you?"
+
+"Very much."
+
+Good to know.
+
+She laughed once.
+
+Small.
+
+Unwilling.
+
+The first thing in the room that felt like a door opening instead of closing.
+
+"I told you about it before Tavin left."
+
+"I don't remember."
+
+"I know."
+
+Less sharp this time.
+
+She looked at the cord again.
+
+Then the sword.
+
+Then me.
+
+"You said you'd come."
+
+I went still.
+
+"To Halden?"
+
+"Eventually. Not forever. You said Carrow was getting small."
+
+Young Greg wanted out.
+
+That made sense.
+
+I had forgotten wanting it.
+
+Six weeks ago I had left Carrow for the first time in this life and thought the road widened the world.
+
+Apparently the boy had known that before me.
+
+"Were we..."
+
+I stopped.
+
+Coward.
+
+Mara's eyes narrowed.
+
+"Were we what?"
+
+Several terrible nouns presented themselves.
+
+Together.
+
+Dating.
+
+Sleeping together.
+
+In love.
+
+None arrived with enough memory to trust.
+
+"Close."
+
+Her expression did something complicated.
+
+"Yes."
+
+Not enough information.
+
+She knew that.
+
+"Greg."
+
+"I'm trying not to invent the part I don't remember."
+
+That changed her face again.
+
+She looked at the floor.
+
+"We kissed twice."
+
+Ah.
+
+"Twice?"
+
+"You counted too."
+
+That sounded like me.
+
+"Did it go badly?"
+
+"The first one was terrible."
+
+"Good."
+
+"Why is that good?"
+
+"Seems credible."
+
+She laughed despite herself.
+
+Then covered her mouth because apparently she resented giving me progress.
+
+"Second was better."
+
+I had no memory of either.
+
+The grief of that was small enough to be embarrassing and sharp enough to matter.
+
+Not losing a wife.
+
+Not losing a great love.
+
+Losing two kisses.
+
+A room.
+
+A neighbor who taught me cards.
+
+A woman who fed me after my parents died.
+
+Ordinary things.
+
+History had not bothered to preserve them.
+
+Neither had I.
+
+Mara stood.
+
+"I'm not asking you to come to Halden."
+
+I nodded.
+
+"I was. Before. I'm not now."
+
+That hurt because it was fair.
+
+"I understand."
+
+"Do you?"
+
+"Enough."
+
+She picked up the brass key, then stopped.
+
+Put it back on the table.
+
+"Keep that."
+
+"Why?"
+
+"Because my mother will hit you with a spoon if you make her explain you to yourself."
+
+Something warm moved behind my ribs.
+
+No system for it.
+
+Good.
+
+Mara went to the door.
+
+I stood too.
+
+"Four days?"
+
+"Morning barge."
+
+"I want to see you before you go."
+
+She looked at me for a long moment.
+
+"Then do."
+
+No promise.
+
+No appointment.
+
+No protection against me getting distracted by a contract, a sword, a filter, a future catastrophe, or my own thoughts.
+
+Just a deadline.
+
+She left.
+
+I stayed in the doorway until her steps disappeared down the stairs.
+
+Then I looked at the brass key in my hand.
+
+I could remember the siege of East Verrel.
+
+I could remember the shape of an S-class barrier under dragonfire.
+
+I could remember market prices from cities that no longer existed in my first life.
+
+I could not remember being kissed behind whatever building Mara had chosen twice.
+
+That was not a problem I could solve by remembering harder.
+
+Four days.
+
+This time, I wrote it down.

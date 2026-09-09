@@ -1,24 +1,5 @@
 {
-  "chapter_id": "r2-ch002",
-  "display_number": 2,
-  "title": "Two Things",
-  "status": "published",
-  "book": 1,
-  "act": 1,
-  "teaser": "Greg's second run starts teaching him which thoughts can stay thoughts and which ones change the room.",
-  "audio": {
-    "status": "published",
-    "path": "../greg-again/audio/assets/chapter-002.mp3",
-    "duration_seconds": 841.92,
-    "label": "Audio-first rendition"
-  },
-  "written": {
-    "status": "unavailable",
-    "path": null
-  },
-  "images": [],
-  "navigation": {
-    "previous": "r2-ch001",
-    "next": null
-  }
+  "chapter_id":"r2-ch002","display_number":2,"title":"Two Things","status":"published","book":1,"act":1,"teaser":"Greg knows what he became. The problem is getting there again.",
+  "audio":{"status":"published","path":"../greg-again/audio/assets/chapter-002.mp3","duration_seconds":841.92,"label":"Audio-first rendition"},
+  "written":{"status":"published","path":"assets/written/ch002.md"},"images":[],"navigation":{"previous":"r2-ch001","next":"r2-ch003"}
 }
