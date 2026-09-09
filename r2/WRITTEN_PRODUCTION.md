@@ -17,6 +17,7 @@ CURRENT STORY AUTHORITY
 → SHARED GREG SURFACE
 → WRITTEN FINISH
 → LOCAL EVALUATION + VERIFICATION
+→ ROLE TITLE VALIDATION
 → SELECTED WRITTEN CHAPTER
 → LIVE R2 READER ON MAIN
 ```
@@ -59,18 +60,36 @@ This reduces drift between the selected prose and the public reader.
 
 Do not publish an unselected draft, candidate, theorycraft, story-search file, or rehearsal as chapter prose.
 
+## Selected chapter title gate
+
+`r2/TITLE_POLICY.md` owns R2 chapter-title semantics.
+
+Working story-search, rehearsal, or development titles may remain provisional. Before a chapter becomes the selected/public written rendition, read the actual chapter and ask:
+
+> **Who is Greg in this chapter?**
+
+The selected heading must name a role, social position, temporary function, relational identity, situational identity, or clean metaphorical role Greg actually inhabits. A title that merely names an object, event, place, time span, abstraction, problem, or chapter topic does not pass selection. A role that materially belongs to somebody else also does not pass.
+
+Duplicate roles are allowed when they are true. Do not invent awkward occupational nouns merely to satisfy the pattern. Do not create a second `role` metadata field that can drift from `title`.
+
+For a selected/public chapter, the first-line heading at `r2/assets/written/chNNN.md` is semantic title authority. Public chapter manifests, production registry metadata, audio title metadata, and future divider-card labels follow that selected heading by stable chapter number.
+
+A title change never changes chapter identity. `r2-chNNN`, `ga-NNN`, and the numeric chapter number remain stable.
+
+Use `python scripts/sync_r2_role_titles.py --check` as the parity guard after the selected chapter and its public metadata are assembled. For a deliberate title-only repair, reconcile newest `main` first, change the selected heading, and use `--apply` only against that current authority so shared manifests are not restored from stale state.
+
 ## Publication transaction
 
 After a chapter is selected and verified:
 
 1. Fresh-read newest `main` and preserve newer authority.
-2. Publish the exact selected written rendition to `r2/assets/written/chNNN.md`.
-3. Create/update `r2/data/chapters/chNNN.json`.
+2. Publish the exact selected written rendition to `r2/assets/written/chNNN.md`, with a heading that passes `r2/TITLE_POLICY.md`.
+3. Create/update `r2/data/chapters/chNNN.json` using the same selected role title.
 4. Update neighboring previous/next navigation.
 5. Append the stable chapter ID to `r2/data/project.json` and move `current_chapter` when appropriate.
-6. Update `r2/data/chapter-registry.json` so written authority, title, and production gaps are accurate.
+6. Update `r2/data/chapter-registry.json` so written authority, selected title, and production gaps are accurate.
 7. Leave unavailable audio/images unavailable. Missing sibling media must not block Read publication.
-8. Run/inspect the R2 reader verification surface available to the worker. When local tests are available, use `python -m unittest tests.test_r2_site -v`.
+8. Run `python scripts/sync_r2_role_titles.py --check`, then inspect the R2 reader verification surface. When local tests are available, use `python -m unittest tests.test_r2_site -v`.
 9. Re-read newest `main` before integration and reconcile if it moved.
 10. Merge the small publication transaction and verify the live reader manifests afterward.
 
@@ -82,7 +101,7 @@ Never restore stale shared manifests over newer work.
 
 If `main` moves while publishing, rebuild/reconcile the publication transaction on the newer head before merge.
 
-Chapter number / stable ID owns identity. Title is mutable metadata and must follow newest written authority.
+Chapter number / stable ID owns identity. Title is mutable metadata, and selected written authority owns its semantic value. A title mismatch is a metadata reconciliation problem, not evidence that existing audio or another published rendering disappeared.
 
 ## Local story freedom
 
