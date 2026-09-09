@@ -2,117 +2,128 @@
 
 Status: **ACTIVE TEMPORAL ROUTING / EXPERIMENT BRANCH ONLY**
 
-Authority frontier for this experiment: reconstructed Chapter 31 after post-revision PASS.
+Accepted rebuild A frontier: **Chapter 35 — The Ask**.
 
-Public R2 remains untouched historical evidence.
+Public `main` also ends at Chapter 35 after PR #275. Historical old Chapter 36+ files remain quarry only.
 
 ## Current horizons
 
 | Horizon | Material | Authority | Status |
 |---|---|---|---|
-| A | reconstructed Chapters 32–35 | HARD | next connected full-fidelity run; must earn acceptance through connected evaluation |
-| B | next 3–5 high-fidelity scene units after A | HARD / REPLACEABLE | intentionally unnumbered until A determines what actually survives |
-| C | warm character-clock rehearsal | SPECULATIVE | unnumbered; choose only after A reveals which live pressure needs a future test |
-| D | far edge | SPECULATIVE | intentionally empty until a materially distinct contrast or hinge exists |
+| A | Chapters 36–39 working container | HARD / TO BE WRITTEN | fresh re-performance from accepted 35 + surviving B pressures; 3–5 chapters total, container may change if the read demands it |
+| B | `temporal/b-hard/scene-01-brass-spoon.md` through `scene-03-lower-rook.md` | HARD / REPLACEABLE | connected story PASS, prose MIXED; SOURCE WIN material requires fresh A re-performance |
+| C | `temporal/c-warm.md` — Tavin freight/packet clock | SPECULATIVE | FORK / DISCOVERY ONLY; paper-first and freight-first variants both remain live |
+| D | `temporal/d-cold.md` | SPECULATIVE | intentionally empty |
 
-## Current accepted rebuild evidence
-
-Calibration run 27–31 established:
-
-- Tavin is a live relationship possibility through an unsent reply and disputed burned seven.
-- Jorren is Greg's friend, owns road contacts, and has left on a four-or-five-day millstone escort after telling Greg `Next one, ask.`
-- Noll and Jorren have formed their own social edge.
-- Noll has outgrown Greg's `neighbor` category even though Greg has not cleanly renamed the relationship.
-- Greg wants admiration and recognition more than he admits.
-- Greg can endorse another person's autonomy intellectually while resenting it emotionally.
-- Arlo/Ivena/Dena operate the filtration venture without Greg's central control.
-- Dena initiated fixed service days for reasons Greg has not yet heard from her directly.
-- Mara remains in Halden on her own Vey/work/correspondence clock.
-- Greg wants roads and is also accumulating a home.
-- Greg's support assessment remains ahead rather than immediate.
-
-## Relevant clocks only
+## Accepted A state through Chapter 35
 
 ### Greg
 
-- location: Carrow / Lower Rook
-- money: enough current slack that the next scene is not forced by immediate starvation
-- body: field-used but functional; Jorren's return/departure has made Greg project road concern onto another body
-- magic: small bounded support remains available; assessment still ahead
-- work: filtration ownership plus Guild access; neither currently demands a new subsystem chapter
-- home: Lower Rook matters materially; Noll through the wall and ordinary room objects now carry belonging
-- desire pressure: roads, friendship, admiration, Mara, independence from young Greg, and being chosen can conflict
+- in Carrow / Lower Rook
+- wants roads and genuinely wanted Jorren's Doss Ferry offer
+- said no because he had already told Mara `Yes. Dinner. I'll be here.`
+- packed for the road briefly, then unpacked; two pairs of socks remained in the field pack
+- wants to be asked by Jorren again even after declining this road
+- dislikes being replaceable by Beren despite having said no
+- Tavin reply has been sent
+- old burned seven remains in the room; disputed copper were spent/loaned to Noll and later repaid in B rehearsal only, not yet numbered authority
 
 ### Jorren
 
-- away east on Vell's two-millstone-wagon job
-- expected duration: four days if dry, five if not
-- client relationship belongs to Jorren, not Greg
-- right shoulder mildly sore but functional
-- relationship residue: Greg admitted he wanted Jorren to stay `a little`; Jorren answered `Next one, ask.`
-- Jorren may return changed by events Greg does not witness; do not pre-write what those events are unless later pressure earns them
+- asked Greg first about the north-east/Doss road, honoring `Next one, ask.`
+- Greg declined
+- Beren is a legitimate alternative and has his own Guild/road life
+- Jorren's road can proceed without Greg
+- do not drag Jorren back early merely to keep him on-page
 
 ### Mara
 
-- in Halden working for Vey
-- correspondence is active but not guaranteed on Greg's preferred timing
-- current established language includes blue cup, books, freight/ledger work, blunt correction, ordinary details, and refusal to grade Greg's performed correctness kindly
-- her work/ambition is not a romance obstacle
-- if a new letter or visit occurs, it must come from her actual work/packet clock rather than because Greg needs emotional content
+- Vey work is bringing her to Carrow on a real packet/ledger problem
+- Greg has promised to be present for dinner
+- arrival timing is not under Greg's control
+- current relationship pressure includes attraction, irritation, letters, work clocks, and the question of whether Greg's choices become emotional debts
+- B rehearsal discovered a strong contradiction worth re-performing: Mara does not want Greg to owe her the declined road and would still have been angry if he left
 
 ### Noll
 
-- Lower Rook / cookroom life active
-- current relationship language: soap, food, onions, blankets, noise, fire, floor space, cheap arguments
-- has independent social capacity; invited Jorren to eat without Greg
-- outside work/ambition remains underdefined at the frontier and may be discovered rather than invented wholesale
+- Brass Spoon trial is the strongest near-front independent clock
+- B rehearsal strongly supports four regular Brass Spoon nights rather than five, preserving Lower Rook cooking/home work even though it pays less
+- his changed work schedule should alter the texture of home before it becomes a career-progression story
 
 ### Arlo / Ivena / Dena
 
-- filtration service is functioning
-- fixed service days are new
-- Dena wanted the schedule change
-- Greg has not yet heard Dena's actual motive/terms directly
-- business can generate money/labor/status pressure but should not become the automatic next chapter engine
+- filtration service continues without needing immediate narrative attention
+- Dena's route ownership/fixed-day motive has already been experienced in Chapter 33
+- do not return to filtration merely because it is a reliable scene engine
 
 ### Tavin
 
-- old freight letter is now found
-- Greg has partially revised a reply but has not sent it
-- Tavin's exact current location/work is not newly established beyond the historical South Latch/freight context in the letter
-- do not force a reply merely to close the thread; sending may happen casually when current life makes it plausible
+- Greg's letter is moving toward South Latch/Venn freight context
+- no direct memory-loss confession was sent
+- C keeps both packet-first and freight-first future contact open
+- no Tavin arrival date or chapter number is protected
 
 ### Sella / Guild / support assessment
 
-- Guild remains available but no current urgent contract demands Greg
-- support assessment is still weeks away at the Chapter 26/31 frontier
-- do not accelerate the assessment solely because it is an existing progression thread
+- support assessment remains ahead, not urgent
+- Guild remains available without requiring a contract chapter
+- do not accelerate progression to interrupt the current social/work clocks
 
-## A routing pressure for 32–35
+## B survivors that may influence A 36+
 
-Do not pre-outline a plot machine. The first A run should let independent clocks begin colliding naturally while Jorren is away.
+These are facts/pressures to re-perform, not wording to preserve:
 
-Priorities:
+- Greg sees Noll working at Brass Spoon as a customer.
+- Noll's work-self is physically distinct from Lower Rook behavior.
+- Vessa owns the kitchen rather than becoming Greg's next systems peer.
+- Noll chooses four nights, keeping Lower Rook in his week.
+- Mara arrives one day late, already occupied by Vey work.
+- Greg has checked for her more than once.
+- Mara carries the blue cup.
+- Mara and Noll recognize each other directly.
+- the declined Jorren road becomes uncomfortable relationship information.
+- Mara refuses to become proof Greg chose correctly.
+- Mara chooses to see Lower Rook.
+- the half-packed road bag exposes how close Greg came to leaving.
+- Mara admits she would have been angry if he left.
+- Greg admits reciprocal anger if she failed to arrive.
+- Mara initiates current physical intimacy if that still wins in fresh A performance.
+- Old Greg may create a brief embodied interruption without stealing the scene.
+- Mara wants to stay but work can still make her leave.
+- Noll returns from his own job and intersects their evening on his own clock.
 
-1. Let at least one non-Jorren relationship advance while he is gone.
-2. Let at least one ordinary work/money fact matter without becoming a competence lesson.
-3. Let Greg make at least one choice because he wants something, not because it is optimal.
-4. Keep Mara on her own clock.
-5. Do not create another professional subsystem.
-6. Do not make all four chapters relationship-only merely to prove the rebuild changed.
-7. Let elapsed time exist. Jorren's four/five-day absence is useful temporal space.
-8. End 35 with a live choice/residue that genuinely determines what B should rehearse.
+## Mandatory re-performance kills
 
-## B/C/D routing rule
+Do not carry these B habits into A:
 
-Do not populate B/C/D from this initial state by guessing what Chapter 35 will want.
+- explicit `future quarry` / chronology-management language
+- labels such as `Work-self`, `Institutional learning`, `Current physical fact`
+- `No magic. No memory recovery.`
+- `No history required.`
+- lines that praise the story for satisfying character-first doctrine
+- later-R2 bedbug chronology leakage
 
-After A 32–35 is written and evaluated:
+## A 36–39 search pressure
 
-- B follows the strongest live claim created by A.
-- C tests an independent clock not already exhausted by B.
-- D remains empty unless another distinct far-edge pressure would materially improve judgment.
+Do not map B1/B2/B3 mechanically onto 36/37/38.
+
+Fresh-read accepted 32–35 and the B evaluation, then ask what connected four-chapter run best carries the surviving pressure.
+
+Useful questions:
+
+1. How does Noll's outside work alter Greg's actual home before Mara arrives?
+2. How does Mara's arrival remain primarily her work movement while still giving Greg what he wanted?
+3. What does Greg reveal accidentally when the declined road is discussed?
+4. If intimacy happens, what makes it specifically current rather than recovered history?
+5. What does Mara's work do the next morning or second day, when one good evening cannot become permanent access?
+6. What unresolved human pressure should remain after she leaves or becomes unavailable again?
+
+## C/D rule
+
+- C Tavin pressure stays warm until A creates a legitimate opening.
+- D stays empty.
+- Do not fill either horizon merely to maintain throughput.
 
 ## Next action
 
-Fresh-read revised 27–31 plus relevant exact Mara/Noll/filtration references, write immediate-only `run-032-035/scene-search.md`, then write Chapter 32.
+Create `run-036-039/scene-search.md` from a fresh read of accepted 32–35 plus B evaluation/reconciliation. Then write the connected A run at full fidelity and stop before Chapter 40 for evaluation.
