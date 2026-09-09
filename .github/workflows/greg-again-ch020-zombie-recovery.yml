@@ -1,0 +1,89 @@
+name: Recover Greg Again Chapter 20 Zombie Audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch020-zombie-publish
+    paths:
+      - '.github/workflows/greg-again-ch020-zombie-recovery.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch020-zombie-publish
+          fetch-depth: 0
+      - name: Recover generated takes and assemble chapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/ga20 greg-again/audio/assets/chunks/020 greg-again/audio/verification
+          download_take() {
+            local take="$1" id="$2"
+            local out="greg-again/audio/assets/chunks/020/${take}.mp3"
+            local tmp="${out}.tmp"
+            local url="https://www.aidocmaker.com/g0/audio?name=${id}"
+            local attempt http size
+            for attempt in $(seq 1 18); do
+              rm -f "$tmp"
+              http="$(curl -L -sS --connect-timeout 20 --max-time 120 -o "$tmp" -w '%{http_code}' "$url" || true)"
+              size=0
+              if [ -f "$tmp" ]; then size="$(stat -c%s "$tmp")"; fi
+              if [ "$http" = "200" ] && [ "$size" -gt 10000 ] && ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$tmp" >/dev/null 2>&1; then
+                mv "$tmp" "$out"
+                echo "captured take ${take}: ${size} bytes"
+                return 0
+              fi
+              echo "take ${take} not ready: attempt=${attempt} http=${http} bytes=${size}"
+              sleep 5
+            done
+            echo "FAILED take ${take} id=${id}" >&2
+            return 1
+          }
+          download_take 01 208ccbd1ff0043248c12d56da0327d3e
+          download_take 02 9ea1d604d57f415a83b61787d9637269
+          download_take 03 b496e0ccca4d4ba5ba6a10a9bbb49f97
+          download_take 04 de084545a0f2486ca7843eb3c918bc14
+          download_take 05 d0d85e6e62804c62b2a9c8649677cc53
+          download_take 06 14aff736df5b4574ac4dc0d3ad0a871e
+          download_take 07 afdb4d7d031c4e2190e527acea695ed7
+          download_take 08 59f1f229b3ad442588b1c25913af131f
+          download_take 09 d87fa6d425a94fff8546fdae2f260304
+          download_take 10 fcac3573d94c401c96da74dfbbec5104
+          download_take 11 22183b5779144a5c8e555b837ccf8db0
+          : > /tmp/ga20/concat.txt
+          for f in greg-again/audio/assets/chunks/020/*.mp3; do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/ga20/concat.txt
+          done
+          ffmpeg -v error -f concat -safe 0 -i /tmp/ga20/concat.txt -af 'apad=pad_dur=2' -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-020.mp3
+          test "$(stat -c%s greg-again/audio/assets/chapter-020.mp3)" -gt 1000000
+          duration="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 greg-again/audio/assets/chapter-020.mp3)"
+          size="$(stat -c%s greg-again/audio/assets/chapter-020.mp3)"
+          sha256="$(sha256sum greg-again/audio/assets/chapter-020.mp3 | awk '{print $1}')"
+          cat > greg-again/audio/verification/020-recovery.json <<EOF
+          {
+            "chapter_id": "ga-020",
+            "number": 20,
+            "take_count": 11,
+            "source": "preserved generated provider artifacts",
+            "duration_seconds": ${duration},
+            "size_bytes": ${size},
+            "sha256": "${sha256}",
+            "trailing_silence_added_seconds": 2.0
+          }
+          EOF
+      - name: Commit recovered audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/020 greg-again/audio/assets/chapter-020.mp3 greg-again/audio/verification/020-recovery.json
+          git commit -m 'audio: recover and assemble Greg Again Chapter 20'
+          git push origin HEAD:audio/greg-again-ch020-zombie-publish
