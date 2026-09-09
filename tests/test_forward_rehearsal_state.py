@@ -23,7 +23,7 @@ class ForwardRehearsalStateTests(unittest.TestCase):
         text = (ROOT / "state" / "OPEN_THREADS.md").read_text(encoding="utf-8")
         self.assertIn(current_endpoint(), text)
         self.assertNotIn("Current exact story endpoint: Chapter 320", text)
-        self.assertIn("`MANUSCRIPT_STATE.md` owns the exact endpoint", text)
+        self.assertIn("`MANUSCRIPT_STATE.md` owns exact endpoint/numerical state/trailhead", text)
 
     def test_chapter_index_is_current_and_compact(self):
         text = (ROOT / "state" / "MANUSCRIPT_CHAPTER_INDEX.md").read_text(encoding="utf-8")
