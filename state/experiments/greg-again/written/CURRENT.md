@@ -625,3 +625,183 @@ Continue writing the Shared Greg Surface directly. Use PERFORMANCE only when beh
 Do not run audio synthesis from this lane.
 
 Do not promote Greg, Again prose into canon merely because the experiment wins locally.
+
+---
+
+# CURRENT FRONTIER UPDATE — CHAPTERS 21–23
+
+This section is newer authority than the historical `Frontier after Chapter 20` material above.
+
+The Chapter 20 frontier is preserved as historical state, but it must not be used as the current story frontier.
+
+## Horizon correction
+
+The prior months-to-roughly-one-year assumption is retired by:
+
+`state/experiments/greg-again/written/LONG_RANGE_PRESSURE_MAP.md`
+
+R2 may plausibly run roughly **500 chapters across approximately 5–10 years of Greg's life**.
+
+Treat that as permission, not schedule.
+
+The Chapter 1 promise ledger remains long-delay promise memory rather than a short-horizon quota.
+
+Long-range direction is **MOUNTAINS, NOT RAILROAD TRACKS**. Local chapter selection still begins with:
+
+> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
+
+## Chapter-title rule
+
+Titles should name **what Greg embodies in the chapter**.
+
+The rule is not `The + job noun` and not plot-summary naming.
+
+Use:
+
+> **WHO IS GREG IN THIS CHAPTER?**
+
+A title may be vocational, relational, tactical, social, or situational when that identity genuinely owns Greg's chapter experience.
+
+## 21 — The Reply / public role: The Letter Writer
+
+Selected prose:
+
+`state/experiments/greg-again/prose/021-the-reply.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/021-story-search.md`
+
+Enough packet time passes for Mara's first reply to return from Halden.
+
+Mara's life has moved independently. She works in the cramped current-scale Vey Shipping office and chooses to continue the correspondence without restoring romance or asking Greg to recreate young certainty.
+
+She identifies a real Greg failure mode: his first truthful letter still reads like evidence prepared for grading.
+
+Greg answers smaller. Ordinary facts become relationship material instead of justification.
+
+The tannery service trial matures in the background under Arlo and Ivena without requiring Greg at center.
+
+Surviving result:
+
+> **CONTACT, NOT DOCUMENTATION.**
+
+Mara's reply makes the packet route a real two-way relationship practice.
+
+## 22 — The Neighbor
+
+Selected prose:
+
+`state/experiments/greg-again/prose/022-the-neighbor.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/022-story-search.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/022-neighbor-eval.md`
+
+A first-cold-stretch building fire wakes Greg before dawn.
+
+The next-door man from Chapter 1 becomes **Noll** through present action rather than recovered memory.
+
+Noll knows the patched flue, bad rail, pump behavior, and building better than Greg does. Greg follows current local expertise.
+
+Greg's tiny support plane changes one falling slab's angle without increasing in magnitude. The better sword cuts a burning laundry line.
+
+The building survives with real residue: smoke, water damage, a cold cookroom, damaged landing, and full fire buckets on every landing.
+
+Noll sleeps on Greg's floor for one night because his mattress is soaked.
+
+Surviving discovery:
+
+> **Ordinary people can return to Greg through current relationship before they return through memory.**
+
+## 23 — The Adventurer
+
+Selected prose:
+
+`state/experiments/greg-again/prose/023-the-adventurer.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/023-story-search.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/023-adventurer-eval.md`
+
+Greg stops treating the weeks before Kesra as a hallway and deliberately takes several days of field work west of Carrow.
+
+North Gate congestion has made an old quarry route worth verifying for light couriers and pack traffic.
+
+Established Bronze fighter Edda leads escort procedure. Road-office surveyor Harl Fen owns route certification and current terrain facts. Harl's mule is Pate.
+
+The old West Cut stone crossing is too damaged for a loaded animal, but Greg accurately remembers an upstream ford near a willow stand. Harl independently verifies the present ford and the party crosses successfully.
+
+Greg's future knowledge therefore gets a clean win without replacing current authority.
+
+Greg does not use support magic. The crossing is solved through rope discipline, movement, Edda's help, and food.
+
+Greg spends roughly three copper refreshing ordinary field supplies and repairing small road-kit failures.
+
+The chapter ends outside Carrow on the first night of a multi-day contract, with Greg taking second watch.
+
+Surviving discovery:
+
+> **An old identity can return through current behavior before old power returns.**
+
+The identity is behavioral before it is institutional.
+
+## Current frontier after Chapter 23
+
+Current selected state:
+
+- selected written frontier is Chapter 23, **The Adventurer**.
+- Greg is west of Carrow on a multi-day Guild / road-office route-verification contract.
+- the contract is expected to take at least four days and may take longer depending on route condition and weather.
+- Edda is the Bronze escort lead for this job.
+- Harl Fen is the road-office surveyor and owns route certification.
+- Pate is Harl's pack mule.
+- the old West Cut stone crossing is materially damaged and cannot carry a loaded animal safely in its current condition.
+- an upstream ford still exists and has been verified usable for the party's loaded mule.
+- Greg's remembered later geography correctly identified the ford from the willow landmark.
+- Greg's future knowledge is allowed to work cleanly when present evidence proves it.
+- Greg spent roughly three copper refreshing field supplies.
+- Greg's support capability did not increase and was not used in Chapter 23.
+- Greg's better sword remains current field equipment and requires ordinary maintenance.
+- Greg's formal support assessment remains weeks away and off-page.
+- Kesra Dain remains off-page and should not be pulled closer merely because Greg is now traveling.
+- Noll remains Greg's current neighbor. He also revealed he used to take carts on the West Cut before working at the brick yard.
+- Lower Rook Street fire residue continues offscreen.
+- Mara correspondence continues on packet time.
+- Arlo and Ivena continue operating the filtration venture without Greg at center.
+- North Gate remains standing and unresolved; its logistics pressure helped create the West Cut contract without owning the chapter setting.
+- the Guild fire remains a coming-Deepwinter long shadow with no established cause.
+- Red Winter remains farther out and does not require near-term treatment.
+- Jorren remains north.
+- Tavin remains somewhere south with a river company.
+- Vey Shipping remains living present infrastructure rather than proven destiny-company history.
+- the long-range map permits warrior / adventurer life, larger geography, artifacts, historical people, eventual left lower-leg loss, and other distant gravity without scheduling any of them.
+- no Chapter 24 event is preselected.
+
+## Immediate next pressure after 23
+
+Search from the actual route state, not from the long-range map.
+
+Useful live questions include:
+
+- what does the West Cut actually produce on the remaining survey days?
+- does present terrain confirm, alter, or kill the route?
+- what do Edda and Harl do that Greg would not have done?
+- what does several days outside Carrow change in Greg's body, money, field habits, or attention?
+- what changes back in Carrow while he is absent?
+
+Do not force a monster, ruin, artifact, future-famous person, or North Gate revelation merely because the widened operating scale makes them available.
+
+Continue writing the Shared Greg Surface directly.
+
+Use PERFORMANCE only when behavior or outside agency is genuinely uncertain enough to earn it.
+
+Do not run audio synthesis from this lane.
