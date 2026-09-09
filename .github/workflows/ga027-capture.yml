@@ -1,0 +1,101 @@
+name: Capture Greg Again Chapter 27
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch027-auto
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    if: contains(github.event.head_commit.message, 'Run Chapter 27 capture')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch027-auto
+          fetch-depth: 0
+      - name: Capture direct preview artifacts
+        run: |
+          mkdir -p greg-again/audio/production/027/takes
+          python - <<'PY'
+          import json, pathlib, subprocess
+          r=json.load(open('greg-again/audio/production/027/provider-results.json'))
+          for x in r['production_takes']:
+              if not x.get('preview_url'): continue
+              n=x['take']; out=f'greg-again/audio/production/027/takes/ga-027-take-{n:02d}.mp3'
+              subprocess.run(['curl','-L','--fail','--retry','4','--retry-delay','2','-o',out,x['preview_url']],check=True)
+          PY
+      - name: Recover Take 10 from preserved provider job
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          npm init -y >/dev/null 2>&1
+          npm install playwright >/dev/null 2>&1
+          npx playwright install chromium >/dev/null 2>&1
+          cat > /tmp/capture.js <<'JS'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const page=await browser.newPage();
+            const url='https://www.aidocmaker.com/g0/audio?name=3dd055be8ca149d6bf9ab6f91012af2e';
+            let src=null;
+            for(let attempt=0;attempt<12 && !src;attempt++){
+              await page.goto(url,{waitUntil:'domcontentloaded',timeout:120000});
+              await page.waitForTimeout(5000);
+              src=await page.locator('audio').first().evaluate(el=>el.currentSrc||el.src).catch(()=>null);
+              if(!src) await page.waitForTimeout(5000);
+            }
+            if(!src) throw new Error('Take 10 media source not surfaced');
+            const resp=await page.request.get(src,{timeout:120000});
+            if(!resp.ok()) throw new Error(`Take 10 media fetch failed ${resp.status()}`);
+            const body=await resp.body();
+            if(body.length<10000) throw new Error(`Take 10 artifact too small ${body.length}`);
+            fs.writeFileSync('greg-again/audio/production/027/takes/ga-027-take-10.mp3',body);
+            console.log('take10',src,body.length);
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+          node /tmp/capture.js
+      - name: Verify takes and assemble chapter
+        run: |
+          python - <<'PY'
+          import json, pathlib, subprocess, hashlib
+          d=json.load(open('greg-again/audio/production/027/takes.json'))
+          r=json.load(open('greg-again/audio/production/027/provider-results.json'))
+          by={x['take']:x for x in r['production_takes']}
+          for t in d['takes']:
+              n=t['take']; p=pathlib.Path(t['durable_file'])
+              if not p.exists() or p.stat().st_size<10000: raise SystemExit(f'missing/small take {n}')
+              subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],check=True,stdout=subprocess.DEVNULL)
+              t['provider_job_id']=by[n]['context_id']
+              t['preview_url']=by[n].get('preview_url')
+              t['status']='artifact_captured'
+              t['artifact_sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
+              t['artifact_bytes']=p.stat().st_size
+          pathlib.Path('greg-again/audio/production/027/takes.json').write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+          with open('/tmp/concat.txt','w') as f:
+              for t in d['takes']:
+                  f.write("file '%s'\n" % pathlib.Path(t['durable_file']).resolve())
+          PY
+          ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -c copy /tmp/ch027-spoken.mp3
+          mkdir -p greg-again/audio/assets
+          ffmpeg -y -v error -i /tmp/ch027-spoken.mp3 -af 'apad=pad_dur=2' -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-027.mp3
+          ffprobe -v error -show_entries format=duration,size -of json greg-again/audio/assets/chapter-027.mp3 > /tmp/final.json
+          python - <<'PY'
+          import json, hashlib, pathlib
+          f=pathlib.Path('greg-again/audio/assets/chapter-027.mp3')
+          meta=json.load(open('/tmp/final.json'))['format']
+          status=f'''# Greg, Again Chapter 27 Audio Status\n\nClaim: `audio/greg-again-ch027-auto`\n\nChapter: 27 — The Student\n\nState: production captured and stitched; publication reconciliation next.\n\nVoice: `deep`\n\nTakes: 33\n\nSource: `r2/assets/written/ch027.md`\n\nFinal duration: {float(meta['duration']):.3f} seconds\n\nFinal bytes: {f.stat().st_size}\n\nFinal SHA-256: `{hashlib.sha256(f.read_bytes()).hexdigest()}`\n\nAll 33 locked source ranges have durable MP3 artifacts. Provider identities are preserved in `provider-results.json` and `takes.json`. Take 10 was recovered from its original provider job rather than regenerated. The final assembly adds approximately two seconds of listener-facing silence after the spoken ending.\n'''
+          pathlib.Path('greg-again/audio/production/027/STATUS.md').write_text(status)
+          PY
+      - name: Commit durable audio artifacts
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/production/027 greg-again/audio/assets/chapter-027.mp3
+          git commit -m 'Capture and stitch Chapter 27 audio'
+          git push origin HEAD:audio/greg-again-ch027-auto
