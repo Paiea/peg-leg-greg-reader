@@ -609,7 +609,7 @@
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
-        "audio": "not_started",
+        "audio": "published",
         "written": "published",
         "story_sync": "in_progress",
         "image_plan": "not_started",
