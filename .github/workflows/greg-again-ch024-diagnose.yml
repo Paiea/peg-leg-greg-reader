@@ -1,0 +1,74 @@
+name: Diagnose Greg Again Chapter 24 capture
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch024-auto
+    paths:
+      - .github/workflows/greg-again-ch024-diagnose.yml
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch024-auto
+          fetch-depth: 0
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Diagnose source reconstruction and first preview capture
+        shell: bash
+        run: |
+          set +e
+          mkdir -p greg-again/audio/production/024
+          out=greg-again/audio/production/024/capture-diagnosis.txt
+          : > "$out"
+          echo '=== source reconstruction ===' >> "$out"
+          python3 - <<'PY' >> "$out" 2>&1
+          from pathlib import Path
+          raw=Path('r2/assets/written/ch024.md').read_text()
+          body=raw.split('\n---\n',1)[1].strip()
+          paras=body.split('\n\n')
+          anchors=[
+            'Too irregular for wheels.',"His lead rope tightened against the stake.",'Closer than I wanted.','That covered it.','Current evidence remained rude.',
+            'Survey case first because Harl would apparently rescue it before any of us if forced to choose.','Then obeyed.','The sound did not.','Also good.',
+            '"Not unless we make the road theirs and ours at the same time."','They were not.','People had been naming things badly for centuries.','Good.','His ankle did not.',
+            'Then enough that counting became work I did not need.','A young one had only short horn nubs with almost no light in them.','It was simply how bodies moving together learned to leave room.',
+            'Harl gave one short nod.','I stopped.','Some questions did not deserve experiments.','Walked on.','The herd kept coming.','Nobody complained.','The last animal was not always the last animal.',
+            'Then the Cut went dark again.','The discussion ended.','"A lot?"','I liked her more for that too.','He had been there long enough that Edda had eaten half her breakfast before I asked what he was doing.',
+            'I did not know every year between them.','"The animals didn\'t."','"Current corridor use," he said.','"It makes the route seasonal until proven otherwise."','The survey was not done.','Good sword.','I followed them west.'
+          ]
+          start=0
+          for n,a in enumerate(anchors,1):
+              hits=[i for i in range(start,len(paras)) if paras[i]==a]
+              assert hits, f'anchor missing at take {n}: {a!r}; start={start}'
+              end=hits[0]
+              print(f'take {n:02d}: paragraphs {start}-{end}, anchor={a!r}')
+              start=end+1
+          print('paragraphs',len(paras),'consumed',start,'exact',start==len(paras))
+          assert start==len(paras)
+          PY
+          echo "python_rc=$?" >> "$out"
+          echo '=== first preview curl ===' >> "$out"
+          url='https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/68bc2390-de53-4738-9214-09e81baae5c5.mp3'
+          curl -L --fail --silent --show-error "$url" -o /tmp/ga024-01.mp3 >> "$out" 2>&1
+          echo "curl_rc=$?" >> "$out"
+          if [ -f /tmp/ga024-01.mp3 ]; then
+            stat -c 'bytes=%s' /tmp/ga024-01.mp3 >> "$out" 2>&1
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 /tmp/ga024-01.mp3 | sed 's/^/duration=/' >> "$out" 2>&1
+            ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nw=1:nk=1 /tmp/ga024-01.mp3 | sed 's/^/codec=/' >> "$out" 2>&1
+          fi
+          cat "$out"
+      - name: Commit diagnosis
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/024/capture-diagnosis.txt
+          git commit -m 'audio: record Chapter 24 capture diagnosis'
+          git push origin HEAD:audio/greg-again-ch024-auto

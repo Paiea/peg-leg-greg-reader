@@ -1,0 +1,68 @@
+name: ga024 short take capture
+on:
+  push:
+    branches: [audio/greg-again-ch024-auto]
+    paths: ['.github/workflows/ga024-short-take-capture.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch024-auto
+      - name: Capture complete preview MP3s
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/024-short
+          urls=(
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/45fa06cb-bc2b-4dc0-a9e9-8437d6d7ae2d.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2ce06b86-4806-479a-b8b6-22b2293ebac2.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e226ef18-008d-474e-8016-26f9ae2e4372.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/714df4c6-7222-4363-825f-517439931ac0.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4aa9b3ff-8e50-4756-916a-04c14cbbd7b9.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/59087dd7-c8a3-4018-be59-7decea3e2766.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/48897dae-5d91-49b1-8534-840f7fb3cb4e.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c2a23ed7-6d64-4049-b84e-1d415dd2343d.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bdfb27ce-5f82-4af9-b538-dcd696cee7ef.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c81f886f-3c2f-4eb5-8922-a1be383996eb.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dae17a24-4958-49f0-93c6-5068429d1c1a.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d1a9a58a-a1b6-481a-b51b-311e9b0811d4.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/25acd7ea-4314-4bd0-9c6a-ce4de63856f2.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ad5fffb4-81fd-4492-8328-14aa58838288.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/584a49b2-3619-4541-95a1-2fa9d44c1886.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/265b0b7e-58d8-4517-90fb-409f2cc59f98.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cd862649-fcbf-4615-8819-c9d560581fb2.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4d3220ba-e366-4a79-8b8c-134814164fa6.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c258f2da-c69e-49aa-8b3a-bdd316e6227b.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7606a934-27b9-4175-8b54-c919cdc3767f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5b7402aa-71ce-4391-8408-c2bb0eaa1c54.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3e350499-95d8-4b43-a150-bdcc38396925.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d8254395-fe3a-4337-8ccd-813adaaf9e4d.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ee6961ed-433f-4df8-bcbb-6c1cabea28c7.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/84b4b830-1e26-4916-83a4-cdecc444098d.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2382ecbe-eaca-44f2-b6e9-e0d512cfa88f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cb660141-cd1a-45b5-80bc-da3dfa31a1ff.mp3'
+          )
+          for i in "${!urls[@]}"; do
+            n=$(printf '%02d' $((i+1)))
+            curl -fL --retry 3 --retry-delay 2 "${urls[$i]}" -o "greg-again/audio/assets/chunks/024-short/${n}.mp3"
+            test $(stat -c%s "greg-again/audio/assets/chunks/024-short/${n}.mp3") -gt 1000
+            ffprobe -v error "greg-again/audio/assets/chunks/024-short/${n}.mp3"
+          done
+          printf "file '%s'\n" greg-again/audio/assets/chunks/024-short/*.mp3 > /tmp/list.txt
+          ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/assembled.mp3
+          ffmpeg -v error -i /tmp/assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-024.mp3
+          ffprobe -v error greg-again/audio/assets/chapter-024.mp3
+          sha256sum greg-again/audio/assets/chunks/024-short/*.mp3 greg-again/audio/assets/chapter-024.mp3 > greg-again/audio/assets/chunks/024-short/SHA256SUMS
+      - name: Commit captured binaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/024-short greg-again/audio/assets/chapter-024.mp3
+          git commit -m 'Capture and assemble ga-024 short takes'
+          git push origin HEAD:audio/greg-again-ch024-auto

@@ -1,0 +1,58 @@
+name: Finalize ga024 durable capture
+on:
+  push:
+    branches: [audio/greg-again-ch024-auto]
+    paths: [.github/workflows/ga024-capture-final.yml]
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch024-auto
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Capture, verify, stitch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import ast,hashlib,json,re,subprocess,urllib.request
+          from pathlib import Path
+          wf=Path('.github/workflows/greg-again-ch024-capture.yml').read_text()
+          m=re.search(r'rows=\[(.*?)\]\n          takes=',wf,re.S)
+          assert m
+          rows=ast.literal_eval('['+m.group(1)+']')
+          assert len(rows)==36
+          body=Path('r2/assets/written/ch024.md').read_text().split('\n---\n',1)[1].strip()
+          paras=body.split('\n\n'); takes=[]; start=0
+          out=Path('greg-again/audio/assets/chunks/024-short'); out.mkdir(parents=True,exist_ok=True)
+          for n,(anchor,ctx,url) in enumerate(rows,1):
+            end=next(i for i in range(start,len(paras)) if paras[i]==anchor)
+            transcript='\n\n'.join(paras[start:end+1]); start=end+1
+            p=out/f'{n:02d}.mp3'; urllib.request.urlretrieve(url,p)
+            assert p.stat().st_size>10000
+            codec=subprocess.check_output(['ffprobe','-v','error','-select_streams','a:0','-show_entries','stream=codec_name','-of','default=nw=1:nk=1',str(p)],text=True).strip()
+            dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],text=True))
+            assert codec=='mp3' and 2<dur<30.0,(n,codec,dur)
+            takes.append({'take':n,'transcript':transcript,'transcript_sha256':hashlib.sha256(transcript.encode()).hexdigest(),'provider_context_id':ctx,'preview_url':url,'duration_seconds':round(dur,3),'byte_size':p.stat().st_size,'audio_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'durable_file':str(p),'status':'artifact_captured_verified'})
+          assert start==len(paras)
+          assert '\n\n'.join(t['transcript'] for t in takes)==body
+          data={'chapter_id':'ga-024','chapter_number':24,'title':'The Watchman','written_source_title':'The Watchman','written_source_path':'r2/assets/written/ch024.md','written_source_sha256':hashlib.sha256(body.encode()).hexdigest(),'voice':'deep','take_count':36,'component_duration_seconds':round(sum(t['duration_seconds'] for t in takes),3),'status':'durable_takes_verified','takes':takes,'historical_note':'Preserves original 36 short-take provider identities. Take 30 is a complete intended preview at 29.928 seconds; earlier overlong full-player attempts remain historical only.'}
+          Path('greg-again/audio/takes/024-short.json').write_text(json.dumps(data,indent=2)+'\n')
+          PY
+          list=$(mktemp)
+          for i in $(seq -w 1 36); do printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/024-short/${i}.mp3" >> "$list"; done
+          ffmpeg -v error -f concat -safe 0 -i "$list" -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-024.mp3
+          ffprobe -v error greg-again/audio/assets/chapter-024.mp3
+          sha256sum greg-again/audio/assets/chunks/024-short/*.mp3 greg-again/audio/assets/chapter-024.mp3 > greg-again/audio/assets/chunks/024-short/SHA256SUMS
+      - name: Commit durable artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/024-short greg-again/audio/assets/chapter-024.mp3 greg-again/audio/takes/024-short.json
+          git commit -m 'Capture and assemble ga-024 short takes'
+          git push origin HEAD:audio/greg-again-ch024-auto
