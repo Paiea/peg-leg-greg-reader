@@ -1,0 +1,22 @@
+{
+  "chapter_id": "ga-016",
+  "chapter_number": 16,
+  "title": "The Investor",
+  "written_source_title": "Three Names",
+  "source": "r2/assets/written/ch016.md",
+  "voice": "deep",
+  "take_count": 10,
+  "artifact_boundary": "pending_authorized_export",
+  "takes": [
+    {"take":1,"first_anchor":"Arlo had made four.","last_anchor":"Painful but measurable.","provider_context_id":"c32958719d2c4892bd655c85e921bfe3","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=c32958719d2c4892bd655c85e921bfe3","artifact_url":null,"status":"submitted"},
+    {"take":2,"first_anchor":"They came to you?","last_anchor":"Right.","provider_context_id":"f1cad06be4dd4132b7940c3452d51fa0","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=f1cad06be4dd4132b7940c3452d51fa0","artifact_url":null,"status":"submitted"},
+    {"take":3,"first_anchor":"I counted what I had without taking the purse out.","last_anchor":"Say it.","provider_context_id":"070579544bfc4f67a91e7bef786167df","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=070579544bfc4f67a91e7bef786167df","artifact_url":null,"status":"submitted"},
+    {"take":4,"first_anchor":"She folded her arms.","last_anchor":"What number?","provider_context_id":"6fd59b79824e4256b456adb4ce03cbf9","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=6fd59b79824e4256b456adb4ce03cbf9","artifact_url":null,"status":"submitted"},
+    {"take":5,"first_anchor":"Ivena wanted one fifth","last_anchor":"Half your generosity.","provider_context_id":"8f93d552b3b14079a52c4b1f4fa51db6","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=8f93d552b3b14079a52c4b1f4fa51db6","artifact_url":null,"status":"submitted"},
+    {"take":6,"first_anchor":"Ivena leaned against the bench.","last_anchor":"Not your test bucket.","provider_context_id":"fd86b999144a4cbb964d52eeedcfb6ea","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=fd86b999144a4cbb964d52eeedcfb6ea","artifact_url":null,"status":"submitted"},
+    {"take":7,"first_anchor":"The later history in my head had no Ivena in it.","last_anchor":"It made the history worse.","provider_context_id":"60365d8c2f0542dcbc4e8c2e90cc9943","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=60365d8c2f0542dcbc4e8c2e90cc9943","artifact_url":null,"status":"submitted"},
+    {"take":8,"first_anchor":"One fifth is high","last_anchor":"Annoying relationship.","provider_context_id":"ff983581d4784c74abe3b854e2488487","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=ff983581d4784c74abe3b854e2488487","artifact_url":null,"status":"submitted"},
+    {"take":9,"first_anchor":"I countered at one sixth with a condition.","last_anchor":"Then came the capital problem.","provider_context_id":"09705076819b4a98ab7577ef1c09d576","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=09705076819b4a98ab7577ef1c09d576","artifact_url":null,"status":"submitted"},
+    {"take":10,"first_anchor":"I could contribute twenty copper","last_anchor":"I carried the bucket.","provider_context_id":"81c2574a160b4435b103021e5bce0fbb","provider_player_url":"https://www.aidocmaker.com/g0/audio?name=81c2574a160b4435b103021e5bce0fbb","artifact_url":null,"status":"submitted"}
+  ]
+}
