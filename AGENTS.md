@@ -115,6 +115,10 @@ Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and cu
 ### Publishing / repository integration
 Prefer small legible commits. Reconcile in favor of newer authority. Never restore stale whole-file versions over newer work. Showcase curation changes public presentation only; never apply a showcase hide decision as a manuscript deletion.
 
+## R2 future survivor evidence
+
+For forward R2 narrative work, `r2/FUTURE_SURVIVOR_PROTOCOL.md` defines how to discover and use surviving temporal experiment material when it exists. Treat survivor branches as optional challenger/rehearsal evidence, never accepted story authority or a mandatory outline. Read current `main` first. If relevant survivor evidence is missing, stale, conflicting, or inaccessible, continue normal R2 production from accepted authority.
+
 ## GitHub workflow
 
 Use:
