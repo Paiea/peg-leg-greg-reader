@@ -14,7 +14,7 @@ permissions:
 jobs:
   capture-chunks:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7
         with:
@@ -26,7 +26,7 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install chromium --with-deps
-      - name: Capture Chapter 13 takes
+      - name: Capture Chapter 13 split repair takes
         shell: bash
         run: |
           mkdir -p greg-again/audio/assets/chunks/013
@@ -34,18 +34,8 @@ jobs:
           import fs from 'node:fs';
           import { chromium } from 'playwright';
           const jobs = [
-            ['01','6daa7d18801a441e964f8b4bf6d06b7f'],
-            ['02','c6425902e9ac47c2ae8f39f3e46dc6ca'],
-            ['03','50610bc49b7246f5befa500b7de34a94'],
-            ['04','f02a4cc647c8415d9f1b8ac562fd7581'],
-            ['05','759adf808c1a4e98bdebef20d2fa9dc7'],
-            ['06','0d4403328e9741df82b47c0f77526fca'],
-            ['07','ddd68cb41b524e269947e4793077c7cc'],
-            ['08','2f6b5cabf8ef4664bc268c5fea94acae'],
-            ['09','09d914a259364f4d9bf9afa0083816f4'],
-            ['10','697278c4b6c0465eb4831e204c8a09be'],
-            ['11','7a056a065cca4c8a8ffcc0cb903b574a'],
-            ['12','74e3726447fb4069ba7748d7b640992d']
+            ['03a','6ec158dcc21f4479872d38b39848f6d4'],
+            ['03b','b5d9141f75f04395a277fa3454dca20c']
           ];
           const browser = await chromium.launch({headless:true});
           const failures=[];
@@ -78,13 +68,13 @@ jobs:
           JS
           node capture.mjs
           ls -lh greg-again/audio/assets/chunks/013 || true
-      - name: Commit every successful take
+      - name: Commit split repair takes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add greg-again/audio/assets/chunks/013
+          git add greg-again/audio/assets/chunks/013/03a.mp3 greg-again/audio/assets/chunks/013/03b.mp3
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: persist Greg Again Chapter 13 takes'
+            git commit -m 'chore: persist Greg Again Chapter 13 split takes'
             git push origin HEAD:audio/greg-again-ch013-auto
           fi
       - name: Report missing chunks
