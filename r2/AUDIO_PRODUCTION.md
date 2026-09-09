@@ -236,10 +236,10 @@ The written ellipsis and the assembled chapter-tail silence solve different prob
 
 ### Pronunciation authority
 
-Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. In particular:
+Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. `r2/AUDIO_PRONUNCIATION.md` is the durable provider-facing pronunciation authority and instability watchlist. Read it before synthesis and repair work. In particular:
 
 - written `mana` stays `mana`
-- provider-facing `mana` should be rendered as `mah-nah` when needed to preserve the approved pronunciation
+- provider-facing `mana` should default to `ma-na` / `Ma-na` to preserve the approved Hawaiian-context pronunciation without causing the `deep` voice to audibly pronounce a synthetic H
 
 Record such pronunciation substitutions in production evidence when they differ from the written spelling. Do not flow phonetic provider spellings back into the written chapter unless the prose itself is separately edited.
 

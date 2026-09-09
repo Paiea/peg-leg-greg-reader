@@ -1,47 +1,28 @@
-name: Wire ma-na pronunciation authority
+name: Validate Greg Again Audio
 
 on:
+  pull_request:
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - audio/greg-again-mana-pronunciation-repair-v2
+      - main
     paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  wire:
+  validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
-          ref: audio/greg-again-mana-pronunciation-repair-v2
-          fetch-depth: 0
-      - name: Patch production authority and restore validator
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('r2/AUDIO_PRODUCTION.md')
-          text = p.read_text(encoding='utf-8')
-          old_line = '- provider-facing `mana` should be rendered as `mah-nah` when needed to preserve the approved pronunciation'
-          new_line = '- provider-facing `mana` should default to `ma-na` / `Ma-na` to preserve the approved Hawaiian-context pronunciation without causing the `deep` voice to audibly pronounce a synthetic H'
-          if text.count(old_line) != 1:
-              raise SystemExit(f'Expected one old mana provider line, found {text.count(old_line)}')
-          text = text.replace(old_line, new_line)
-          needle = 'Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. In particular:\n\n'
-          insert = 'Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. `r2/AUDIO_PRONUNCIATION.md` is the durable provider-facing pronunciation authority and instability watchlist. Read it before synthesis and repair work. In particular:\n\n'
-          if text.count(needle) != 1:
-              raise SystemExit(f'Expected one pronunciation intro, found {text.count(needle)}')
-          text = text.replace(needle, insert)
-          p.write_text(text, encoding='utf-8')
-          PY
-          git fetch origin main --depth=1
-          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add r2/AUDIO_PRODUCTION.md .github/workflows/greg-again-audio.yml
-          git commit -m 'audio: wire ma-na pronunciation authority'
-          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
