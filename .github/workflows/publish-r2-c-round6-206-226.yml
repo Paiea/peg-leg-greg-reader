@@ -1,0 +1,32 @@
+name: Publish Experiment C Round 06
+
+on:
+  push:
+    branches:
+      - publish/r2-written-c-round6-206-226
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch reconciled experiment authority
+        run: git fetch origin experiment/r2-temporal-c-hybrid
+      - name: Materialize selected prose and reader state
+        run: python r2/publish_round6.py
+      - name: Run R2 reader contract
+        run: python -m unittest tests.test_r2_site -v
+      - name: Commit publication transaction
+        run: |
+          git config user.name "experiment-c-publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add r2 tests/test_r2_site.py
+          git rm .github/workflows/publish-r2-c-round6-206-226.yml
+          git rm r2/publish_round6.py
+          git commit -m "Publish Experiment C Round 06 Chapters 206-226"
+          git push origin HEAD:publish/r2-written-c-round6-206-226
