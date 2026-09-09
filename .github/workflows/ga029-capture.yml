@@ -1,0 +1,76 @@
+name: Capture Greg Again Chapter 29 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch029-auto
+    paths:
+      - '.github/workflows/ga029-capture.yml'
+      - 'greg-again/audio/production/029/provider-results.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch029-auto
+          fetch-depth: 0
+
+      - name: Capture provider MP3s
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/production/029/takes
+          jq -r '.results[] | [.take, .preview_url] | @tsv' greg-again/audio/production/029/provider-results.json | while IFS=$'\t' read -r take url; do
+            n=$(printf '%02d' "$take")
+            out="greg-again/audio/production/029/takes/take-${n}.mp3"
+            curl --retry 5 --retry-delay 2 --fail --location "$url" --output "$out"
+            test "$(stat -c%s "$out")" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out"
+          done
+          test "$(find greg-again/audio/production/029/takes -name 'take-*.mp3' | wc -l)" -eq 24
+
+      - name: Stitch and verify chapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/concat.txt
+          for f in greg-again/audio/production/029/takes/take-*.mp3; do
+            printf "file '%s/%s'\n" "$GITHUB_WORKSPACE" "$f" >> /tmp/concat.txt
+          done
+          ffmpeg -y -f concat -safe 0 -i /tmp/concat.txt -c copy /tmp/chapter-029-joined.mp3
+          ffmpeg -y -i /tmp/chapter-029-joined.mp3 -af 'apad=pad_dur=2' -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-029.mp3
+          duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-029.mp3)
+          size=$(stat -c%s greg-again/audio/assets/chapter-029.mp3)
+          sha=$(sha256sum greg-again/audio/assets/chapter-029.mp3 | awk '{print $1}')
+          {
+            echo '# Chapter 29 audio verification'
+            echo
+            echo '- take_count: 24'
+            echo "- duration_seconds: ${duration}"
+            echo "- size_bytes: ${size}"
+            echo "- sha256: ${sha}"
+            echo '- voice: deep'
+            echo '- source_blob: 0f0bb34d5ab35fd9013ce841afc8ee50a174a9ac'
+            echo '- ordered provider artifacts: captured and ffprobe-readable'
+            echo '- final chapter: ffprobe-readable with 2 second assembly tail'
+          } > greg-again/audio/production/029/VERIFY.md
+
+      - name: Preserve captured artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/029/takes greg-again/audio/production/029/VERIFY.md greg-again/audio/assets/chapter-029.mp3
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'audio: capture and stitch Chapter 29 artifacts'
+          git push origin HEAD:audio/greg-again-ch029-auto
