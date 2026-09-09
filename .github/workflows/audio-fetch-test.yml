@@ -8,85 +8,52 @@ on:
       - .github/workflows/audio-fetch-test.yml
 
 jobs:
-  prepare-preview-takes:
+  fetch-chapter-012:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: audio/greg-again-batch-012-014
-      - name: Build exact preview-safe take transcripts
+      - name: Fetch Chapter 12 preview-bridge takes
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p out
           python - <<'PY'
-          import json, re
-          from pathlib import Path
-
-          LIMIT=430
-          chapters={
-            12:'r2/assets/written/ch012.md',
-            13:'r2/assets/written/ch013.md',
-            14:'r2/assets/written/ch014.md',
+          import json, subprocess, pathlib
+          urls = {
+            1:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d50e3b2c-c57a-47ca-9f05-3fac5d7eab8f.mp3',
+            2:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6cdeafbc-3a9b-48bb-a42a-737ef7f16da6.mp3',
+            3:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8e34e0fd-7f35-4443-b87d-c5766073c3aa.mp3',
+            4:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a675d4f8-93fa-4ec0-8e1d-e904a6c28218.mp3',
+            5:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ae2299ae-9b3f-4a20-99bf-ac05139bfd56.mp3',
+            6:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ff3f247b-6269-403a-90ff-1b36a03101d2.mp3',
+            7:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a2a9596c-f0e4-4be4-89a3-8a36f2d6cc03.mp3',
+            8:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/008ccd17-55e4-439b-ac1b-ed79876243c4.mp3',
+            9:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/740fa0b3-50e5-4301-836c-5145e7756cf8.mp3',
+            10:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3b7c8f22-a911-43ac-83ff-c1a4469a2388.mp3',
+            11:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/181b3243-4b56-48e0-b1ca-f9e858c15e0c.mp3',
+            12:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/21aa29c7-c3b1-45b9-9468-d8dfb6a1d455.mp3',
+            13:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f3a88ed0-ddf7-4e81-a847-bb53d95a222b.mp3',
+            14:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8830e5e1-de6e-450e-844e-55169835574c.mp3',
+            15:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c7823b4d-7383-4d45-bb7d-f13acf396bb3.mp3',
+            16:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a63ea85c-8985-4610-ab2a-0b12749fb8a3.mp3',
+            17:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/61e4d1d5-439d-4840-aa0c-02aaa5418845.mp3',
+            18:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7926bfaa-d5e1-499c-9222-20e0a4be0073.mp3',
+            19:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1a445551-7576-4985-879e-7d0ff12eb801.mp3',
+            20:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/baa15cf5-8de0-4ab1-9b3b-a722f7a7bf85.mp3',
+            21:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f85240b5-73fa-4f18-ba29-7d1b12b03717.mp3',
+            22:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8fa26048-609b-4737-9a89-dd0434f42551.mp3',
+            23:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7c1c38a1-ec5b-4e2e-a546-f3100e348991.mp3',
+            24:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/550b668e-195b-4b2a-8330-119e93b904b1.mp3',
+            25:'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8f06175c-0072-4d00-b9d7-16cf3b28cab9.mp3',
           }
-
-          def spoken(path):
-              s=Path(path).read_text(encoding='utf-8')
-              if '\n---\n' not in s:
-                  raise SystemExit(f'missing prose separator: {path}')
-              return s.split('\n---\n',1)[1].strip()
-
-          def split_long(text, limit):
-              if len(text)<=limit: return [text]
-              # sentence-aware first, then word-aware
-              pieces=re.split(r'(?<=[.!?])\s+', text)
-              out=[]; cur=''
-              for piece in pieces:
-                  if len(piece)>limit:
-                      words=piece.split()
-                      for w in words:
-                          cand=(cur+' '+w).strip()
-                          if cur and len(cand)>limit:
-                              out.append(cur); cur=w
-                          else: cur=cand
-                  else:
-                      cand=(cur+' '+piece).strip()
-                      if cur and len(cand)>limit:
-                          out.append(cur); cur=piece
-                      else: cur=cand
-              if cur: out.append(cur)
-              return out
-
-          summary={}
-          for ch,path in chapters.items():
-              text=spoken(path)
-              paras=[p.strip() for p in re.split(r'\n\s*\n', text) if p.strip()]
-              units=[]
-              for p in paras:
-                  units.extend(split_long(p,LIMIT))
-              takes=[]; cur=''
-              for u in units:
-                  cand=(cur+'\n\n'+u).strip() if cur else u
-                  if cur and len(cand)>LIMIT:
-                      takes.append(cur); cur=u
-                  else: cur=cand
-              if cur: takes.append(cur)
-              # Exact normalized coverage proof: joining take paragraphs equals source paragraphs.
-              source_norm='\n\n'.join(paras)
-              take_norm='\n\n'.join(takes)
-              if source_norm != take_norm:
-                  raise SystemExit(f'coverage mismatch ch{ch}: {len(source_norm)} != {len(take_norm)}')
-              data=[]
-              for i,t in enumerate(takes,1):
-                  data.append({'chapter':ch,'take':i,'chars':len(t),'transcript':t})
-              Path(f'out/ch{ch:03d}-takes.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
-              Path(f'out/ch{ch:03d}-spoken.txt').write_text(text,encoding='utf-8')
-              summary[str(ch)]={'take_count':len(takes),'chars':len(text),'max_take_chars':max(map(len,takes))}
-          Path('out/summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
-          print(json.dumps(summary,indent=2))
+          for n,url in urls.items():
+              p=pathlib.Path('out')/f'{n:02d}.mp3'
+              subprocess.run(['curl','--fail','--location','--retry','3',url,'-o',str(p)],check=True)
+              if p.stat().st_size < 1000: raise SystemExit(f'take {n} too small')
+              subprocess.run(['file',str(p)],check=True)
+          pathlib.Path('out/urls.json').write_text(json.dumps(urls,indent=2))
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: ga012-014-preview-take-transcripts
+          name: ga012-preview-takes
           path: out
           if-no-files-found: error
