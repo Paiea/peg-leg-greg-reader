@@ -2,6 +2,7 @@ import json
 import unittest
 from pathlib import Path
 
+# Chapter 25 publication contract.
 ROOT = Path(__file__).resolve().parents[1]
 AUDIO_ROOT = ROOT / 'greg-again' / 'audio'
 R2_ROOT = ROOT / 'r2'
