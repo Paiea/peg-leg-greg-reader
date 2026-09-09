@@ -161,7 +161,7 @@ def render_chapter(
     title_case = html.escape(chapter.title.title())
     return f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta name="description" content="Peg-Leg Greg Chapter {display_number}: {title_case}."/><title>Chapter {display_number}: {title_case} — Peg-Leg Greg</title><link href="../assets/reader.css" rel="stylesheet"/></head>
-<body><header class="site-head"><a href="../index.html">PEG-LEG GREG</a><nav aria-label="Reader navigation" class="site-nav"><a href="../index.html#chapters">CHAPTERS</a><a href="../light/{chapter.number:03d}.html">TEXT</a><a href="../art.html">ART</a></nav></header>
+<body><header class="site-head"><a href="../index.html">PEG-LEG GREG</a><nav aria-label="Reader navigation" class="site-nav"><a href="../index.html#chapters">CHAPTERS</a><a href="../light/{chapter.number:03d}.html">TEXT</a><a href="../art.html">ART</a><a href="../r2/">R2</a></nav></header>
 <main class="chapter-shell"><nav class="chapter-nav chapter-nav-top" aria-label="Chapter navigation">{prev_link}<a href="../index.html#chapters">Chapters</a>{next_link}</nav><header class="chapter-title"><div class="number">CHAPTER {display_number}</div><h1>{title}</h1></header><article class="prose">{prose}</article><nav class="chapter-nav" aria-label="Chapter navigation">{prev_link}<a href="../index.html#chapters">Chapters</a>{next_link}</nav></main>
 <script>try{{localStorage.setItem('plg:lastIllustratedChapter','{chapter.number}')}}catch(e){{}}</script></body></html>'''
 
