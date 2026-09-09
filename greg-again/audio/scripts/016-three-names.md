@@ -1,6 +1,7 @@
 # Greg, Again - Chapter 16 Audio Finish
 
-Chapter: **016 - Three Names**
+Chapter: **016 - The Investor**
+Written source title: **Three Names**
 Source authority: `r2/assets/written/ch016.md`
 Voice: `deep`
 Lens: **SHARED GREG SURFACE**
