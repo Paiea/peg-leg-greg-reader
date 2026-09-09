@@ -1,0 +1,29 @@
+curl_exit=0
+http=200
+url=https://www.aidocmaker.com/g0/audio?name=7c31ecb98d01441298fbb5e536696ee1
+content_type=text/html; charset=utf-8
+size=16478
+--- headers ---
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 45174
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline
+content-type: text/html; charset=utf-8
+date: Wed, 09 Sep 2026 05:27:20 GMT
+etag: "dcd7208d59e4cd5c974804f06e207cae"
+server: Vercel
+strict-transport-security: max-age=63072000
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+x-matched-path: /g0/audio
+x-vercel-cache: HIT
+x-vercel-id: sfo1::q4746-1788931640147-1479dd4b25f6
+content-length: 16478
+
+--- file ---
+/tmp/body.bin: HTML document, Unicode text, UTF-8 text, with very long lines (16477), with no line terminators
+--- ffprobe ---
+/home/runner/work/_temp/92dbddef-57ab-4b38-a8d8-e06eb55e4b77.sh: line 13: ffprobe: command not found
+--- first 512 bytes strings ---
+<!DOCTYPE html><html lang="en" data-dpl-id="dpl_2te8jp2x7UWA36AB5uAkfVPPjpVY"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" data-next-head=""/><title data-next-head="">AI Voice Generator - Free Text to Speech Online</title><meta name="description" content="Generate top-quality voiceovers with AI. Go instantly from text to voice. Try our AI Voice Generator free today." data-next-head=""/><link rel="canonical" href="https
