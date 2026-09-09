@@ -51,6 +51,20 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('data/chapters/', js)
         self.assertIn('chapter.html?id=', js)
 
+    def test_r2_css_is_responsive_and_audio_first(self):
+        css = (R2 / 'assets/css/r2.css').read_text(encoding='utf-8')
+        self.assertIn('.audio-panel', css)
+        self.assertIn('.reading-copy', css)
+        self.assertIn('min-height: 44px', css)
+        self.assertIn('@media (max-width: 760px)', css)
+        self.assertNotIn('animation:', css)
+
+    def test_hero_asset_is_referenced_without_becoming_chapter_canon(self):
+        html = (R2 / 'index.html').read_text(encoding='utf-8')
+        self.assertIn('assets/images/r2-harbor-hero.png', html)
+        chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
+        self.assertEqual(chapter['images'], [])
+
 
 if __name__ == '__main__':
     unittest.main()
