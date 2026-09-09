@@ -71,6 +71,12 @@ class R2SiteTests(unittest.TestCase):
                 None if number == 20 else f'r2-ch{number + 1:03d}',
             )
 
+    def test_chapter_twenty_public_copy_excludes_internal_experiment_prelude(self):
+        prose = (R2 / 'assets/written/ch020.md').read_text(encoding='utf-8')
+        self.assertNotIn('Status: **EXPERIMENTAL', prose)
+        self.assertNotIn('Story search:', prose)
+        self.assertTrue(prose.startswith('# Chapter 20: Ward Hand\n\n---\n'))
+
     def test_written_renderer_hides_internal_experiment_prelude(self):
         js = (R2 / 'assets/js/chapter.js').read_text(encoding='utf-8')
         self.assertIn('function stripInternalPrelude(markdown)', js)
