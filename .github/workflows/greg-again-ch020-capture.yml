@@ -13,48 +13,75 @@ permissions:
 jobs:
   capture:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
           ref: audio/greg-again-ch020-auto
           fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser harness
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
       - name: Capture provider artifacts
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/assets/chunks/020
-          python3 - <<'PY' > /tmp/urls.tsv
-          import json
-          p='greg-again/audio/takes/020.json'
-          d=json.load(open(p))
-          for t in d['takes']:
-              print(t['take']+'\t'+t['provider_audio_url']+'\t'+t['durable_file'])
-          PY
-          while IFS=$'\t' read -r take url dest; do
-            echo "Capturing take $take"
-            tmp="/tmp/ga020-${take}.mp3"
-            ok=0
-            for attempt in $(seq 1 40); do
-              if curl -L --fail --silent --show-error "$url" -o "$tmp" && ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$tmp" >/tmp/duration 2>/dev/null; then
-                if [ -s "$tmp" ]; then ok=1; break; fi
-              fi
-              echo "take $take not ready, attempt $attempt"
-              sleep 15
-            done
-            if [ "$ok" -ne 1 ]; then
-              echo "Failed to capture take $take" >&2
-              exit 1
-            fi
-            mkdir -p "$(dirname "$dest")"
-            mv "$tmp" "$dest"
-          done < /tmp/urls.tsv
+          cat > /tmp/capture.mjs <<'JS'
+          import fs from 'node:fs';
+          import { chromium } from 'playwright';
+          const map=JSON.parse(fs.readFileSync('greg-again/audio/takes/020.json','utf8'));
+          const browser=await chromium.launch({headless:true});
+          const failures=[];
+          async function capture(t){
+            const out=t.durable_file;
+            if(fs.existsSync(out)&&fs.statSync(out).size>10000)return;
+            const page=await browser.newPage();
+            try{
+              for(let attempt=1;attempt<=18;attempt++){
+                await page.goto(t.provider_audio_url,{waitUntil:'domcontentloaded',timeout:60000});
+                await page.waitForTimeout(5000);
+                const text=await page.locator('body').innerText().catch(()=> '');
+                if(/longer than 2 minutes requires a paid plan/i.test(text)) throw new Error('two-minute gate');
+                const sources=await page.locator('audio').evaluateAll(nodes=>nodes.map(n=>n.currentSrc||n.src).filter(Boolean)).catch(()=>[]);
+                for(const src of sources){
+                  const response=await page.request.get(src).catch(()=>null);
+                  if(!response||!response.ok()) continue;
+                  const body=await response.body();
+                  if(body.length>10000){
+                    fs.mkdirSync(out.substring(0,out.lastIndexOf('/')),{recursive:true});
+                    fs.writeFileSync(out,body);
+                    console.log('CAPTURED',t.take,body.length,src);
+                    return;
+                  }
+                }
+                console.log('not ready',t.take,'attempt',attempt,text.slice(0,120).replace(/\s+/g,' '));
+                await page.waitForTimeout(5000);
+              }
+              throw new Error('no playable media surfaced');
+            }finally{await page.close();}
+          }
+          for(const t of map.takes){
+            try{await capture(t);}catch(error){failures.push(`${t.take}: ${error.message}`);}
+          }
+          await browser.close();
+          if(failures.length){console.error(failures.join('\n'));process.exit(1);}
+          JS
+          node /tmp/capture.mjs
+          for f in greg-again/audio/assets/chunks/020/*.mp3; do
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f"
+          done
       - name: Stitch chapter
         shell: bash
         run: |
           set -euo pipefail
           : > /tmp/concat.txt
-          for f in greg-again/audio/assets/chunks/020/*.mp3; do
-            printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/concat.txt
+          for n in $(seq -w 1 11); do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/020/$n.mp3" >> /tmp/concat.txt
           done
           ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/concat.txt -c copy greg-again/audio/assets/chapter-020.mp3
           ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-020.mp3
