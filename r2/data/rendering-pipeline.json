@@ -17,6 +17,13 @@
       "role": "light_medium_finish"
     }
   },
+  "publication": {
+    "written_policy": "WRITTEN_PRODUCTION.md",
+    "selected_verified_written_default": "publish_to_live_r2_reader",
+    "public_surface": "current_readable_experiment",
+    "requires_audio_or_images": false,
+    "implies_immutable_canon": false
+  },
   "feedback_classes": [
     "shared_greg_experience",
     "audio_only",
@@ -39,7 +46,10 @@
     ]
   },
   "similarity": {
-    "heuristic_lexical_overlap_percent": [90, 97],
+    "heuristic_lexical_overlap_percent": [
+      90,
+      97
+    ],
     "hard_gate": false
   }
 }
