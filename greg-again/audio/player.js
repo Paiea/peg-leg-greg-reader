@@ -1,5 +1,4 @@
 (async () => {
-  const status = document.getElementById('status');
   const chapterList = document.getElementById('chapter-list');
 
   function formatDuration(seconds) {
@@ -19,7 +18,7 @@
 
     const meta = document.createElement('p');
     meta.className = 'chapter-meta';
-    meta.textContent = `${formatDuration(chapter.duration_seconds)} · ${chapter.take_count} performance takes · ${chapter.lens}`;
+    meta.textContent = formatDuration(chapter.duration_seconds);
 
     const audio = document.createElement('audio');
     audio.controls = true;
@@ -27,17 +26,7 @@
     audio.src = chapter.audio_src;
     audio.setAttribute('aria-label', `Play Chapter ${chapter.number}: ${chapter.title}`);
 
-    const renderState = document.createElement('p');
-    renderState.className = 'render-state';
-    renderState.textContent = chapter.status === 'approved'
-      ? 'Approved render.'
-      : 'Playable experimental render. Not yet qualified.';
-
-    const note = document.createElement('p');
-    note.className = 'chapter-note';
-    note.textContent = chapter.note || '';
-
-    card.append(heading, meta, audio, renderState, note);
+    card.append(heading, meta, audio);
     return card;
   }
 
@@ -46,13 +35,10 @@
     if (!response.ok) throw new Error(`manifest ${response.status}`);
     const manifest = await response.json();
 
-    status.textContent = manifest.status === 'approved' ? 'Approved' : 'Experimental';
-    status.dataset.state = manifest.status;
-
     chapterList.replaceChildren();
     manifest.chapters.forEach((chapter) => chapterList.append(renderChapter(chapter)));
   } catch (error) {
-    chapterList.textContent = 'Audio renders are temporarily unavailable.';
+    chapterList.textContent = 'Audio chapters are temporarily unavailable.';
     console.error(error);
   }
 })();
