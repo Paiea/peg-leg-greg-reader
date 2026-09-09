@@ -512,8 +512,6 @@ He did not know he did it.
 
 I used this information responsibly by taking three copper from him over the next hour.
 
-Relationship progression.
-
 Noll saw what I was doing before Jorren did.
 
 He said nothing because morality had entered a tournament structure.
