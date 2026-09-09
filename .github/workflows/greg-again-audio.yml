@@ -1,75 +1,28 @@
-name: Capture mana pronunciation repair artifacts
+name: Validate Greg Again Audio
 
 on:
+  pull_request:
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - audio/greg-again-mana-pronunciation-repair-v2
+      - main
     paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  capture:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
-          ref: audio/greg-again-mana-pronunciation-repair-v2
-          fetch-depth: 0
-      - name: Capture and verify provider MP3s
-        shell: bash
-        run: |
-          set -euo pipefail
-          if ! command -v ffprobe >/dev/null 2>&1; then
-            sudo apt-get update -qq
-            sudo apt-get install -y -qq ffmpeg >/dev/null
-          fi
-          python - <<'PY'
-          import hashlib, json, subprocess
-          from pathlib import Path
-          ledger_path = Path('greg-again/audio/production/2026-09-08-mana-provider-ledger.json')
-          ledger = json.loads(ledger_path.read_text(encoding='utf-8'))
-          outdir = Path('greg-again/audio/production/mana-repair-artifacts')
-          outdir.mkdir(parents=True, exist_ok=True)
-          for item in ledger['accepted']:
-              target = item['target']
-              out = outdir / f'{target}.mp3'
-              subprocess.run(['curl','--fail','--location','--retry','4','--retry-delay','2',item['preview_url'],'-o',str(out)], check=True)
-              if out.stat().st_size < 1000:
-                  raise SystemExit(f'{target}: captured file too small: {out.stat().st_size}')
-              duration = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(out)], text=True).strip())
-              if not (0.15 < duration < 60.0):
-                  raise SystemExit(f'{target}: unexpected duration {duration}')
-              item['durable_path'] = str(out)
-              item['duration_seconds'] = round(duration, 3)
-              item['bytes'] = out.stat().st_size
-              item['sha256'] = hashlib.sha256(out.read_bytes()).hexdigest()
-              item['capture_status'] = 'artifact_captured_verified'
-              print(target, item['duration_seconds'], item['bytes'], item['sha256'][:16])
-          ledger['artifact_count'] = len(ledger['accepted'])
-          ledger['capture_status'] = 'all_accepted_provider_previews_captured'
-          ledger_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          PY
-      - name: Preserve historical source maps
-        shell: bash
-        run: |
-          set -euo pipefail
-          git fetch origin audio/greg-again-mana-pronunciation-repair --depth=1
-          oldref=FETCH_HEAD
-          mkdir -p greg-again/audio/production/mana-repair-source
-          git show "$oldref":greg-again/audio/production/mana-micro-inputs/index.json > greg-again/audio/production/mana-repair-source/micro-index-original.json
-          git archive "$oldref" greg-again/audio/production/mana-repair-inputs | tar -x
-      - name: Restore validator and commit durable artifacts
-        shell: bash
-        run: |
-          set -euo pipefail
-          git fetch origin main --depth=1
-          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add greg-again/audio/production/2026-09-08-mana-provider-ledger.json greg-again/audio/production/mana-repair-artifacts greg-again/audio/production/mana-repair-source greg-again/audio/production/mana-repair-inputs .github/workflows/greg-again-audio.yml
-          git commit -m 'audio: capture mana pronunciation repair artifacts'
-          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
