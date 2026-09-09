@@ -1,0 +1,25 @@
+{
+  "chapter_id": "ga-015",
+  "chapter_number": 15,
+  "authorization": "explicit user request to pick one visible 15-17 gap and run it",
+  "source_take_map": "greg-again/audio/takes/015.json",
+  "voice": "deep",
+  "take_count": 6,
+  "policy": "preserve original six submitted contexts; this recovery run does not replace or erase them",
+  "recovery_contexts": [
+    {"take":1,"context_id":"15b862f5bf9c4e5fbd0e401b3ff753a3","player_url":"https://www.aidocmaker.com/g0/audio?name=15b862f5bf9c4e5fbd0e401b3ff753a3"},
+    {"take":2,"context_id":"c0e1776c689c44a6be3e846595045996","player_url":"https://www.aidocmaker.com/g0/audio?name=c0e1776c689c44a6be3e846595045996"},
+    {"take":3,"context_id":"a41b7579f79e4812ac2c426dae56fc29","player_url":"https://www.aidocmaker.com/g0/audio?name=a41b7579f79e4812ac2c426dae56fc29"},
+    {"take":4,"context_id":"e33c7e4a79f44034834cb0c489b10e08","player_url":"https://www.aidocmaker.com/g0/audio?name=e33c7e4a79f44034834cb0c489b10e08"},
+    {"take":5,"context_id":"bb42574cca414211bad3dd1c25af82f0","player_url":"https://www.aidocmaker.com/g0/audio?name=bb42574cca414211bad3dd1c25af82f0"},
+    {"take":6,"context_id":"842bf96b301643bc986fece4d6ef5714","player_url":"https://www.aidocmaker.com/g0/audio?name=842bf96b301643bc986fece4d6ef5714"}
+  ],
+  "capture_attempt": {
+    "workflow": ".github/workflows/greg-again-ch015-recovery-run.yml",
+    "workflow_run_id": 34324527704,
+    "result": "blocked_before_artifact_boundary",
+    "evidence": "Take 1 returned an HTTP 200 HTML/player shell of 16478 bytes for 32 ffprobe-gated polls, then HTTP 403 responses for polls 33-36. No valid audio binary was accepted. Stitch, take-map mutation, and publication were skipped.",
+    "regenerate_again": false
+  },
+  "next_action": "Use an authorized provider retrieval/export surface to capture one of the preserved context sets as raw audio. Do not regenerate again merely to solve provider export plumbing."
+}
