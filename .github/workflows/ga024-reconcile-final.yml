@@ -1,0 +1,43 @@
+name: Reconcile ga024 newest main
+on:
+  push:
+    branches: [audio/greg-again-ch024-auto]
+    paths: [.github/workflows/ga024-reconcile-final.yml]
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch024-auto
+          fetch-depth: 0
+      - name: Merge newest main and reapply Chapter 24 publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          set +e
+          git merge --no-commit origin/main
+          rc=$?
+          set -e
+          if [ $rc -ne 0 ]; then
+            git checkout --theirs greg-again/audio/manifest.json r2/data/chapter-registry.json || true
+            git checkout --ours r2/data/chapters/ch024.json || true
+          fi
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          take=json.loads(Path('greg-again/audio/takes/024-short.json').read_text())
+          mpath=Path('greg-again/audio/manifest.json'); m=json.loads(mpath.read_text()); m['chapters']=[c for c in m['chapters'] if c.get('number')!=24 and c.get('chapter_id')!='ga-024']; m['chapters'].append({'chapter_id':'ga-024','number':24,'title':'The Watchman','status':'experimental','lens':'shared-greg-surface','audio_finish':'processing-space','take_count':36,'duration_seconds':round(take['component_duration_seconds']+2.0,3),'audio_src':'assets/chapter-024.mp3','note':'Chapter 24 uses thirty-six complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take order, and a listener-safe trailing tail were verified before publication.'}); m['chapters'].sort(key=lambda c:c['number']); mpath.write_text(json.dumps(m,indent=2,ensure_ascii=False)+'\n')
+          rpath=Path('r2/data/chapters/ch024.json'); r=json.loads(rpath.read_text()); r['audio']={'status':'published','path':'../greg-again/audio/assets/chapter-024.mp3'}; rpath.write_text(json.dumps(r,separators=(',',':'),ensure_ascii=False)+'\n')
+          gpath=Path('r2/data/chapter-registry.json'); g=json.loads(gpath.read_text()); c=g['chapters']['r2-ch024']; c['pipeline']['audio']='published'; c['next_action']='plan_images'; gpath.write_text(json.dumps(g,indent=2,ensure_ascii=False)+'\n')
+          assert any(c.get('number')==25 for c in m['chapters']), 'newest main Chapter 25 audio was not preserved'
+          assert any(c.get('number')==24 for c in m['chapters'])
+          PY
+          git add -A
+          if git diff --cached --quiet; then git commit --allow-empty -m 'Reconcile ga-024 with newest main'; else git commit -m 'Reconcile ga-024 with newest main'; fi
+          git push origin HEAD:audio/greg-again-ch024-auto

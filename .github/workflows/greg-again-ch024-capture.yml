@@ -1,0 +1,98 @@
+name: Capture and stitch Greg Again Chapter 24
+on:
+  push:
+    branches: [audio/greg-again-ch024-auto]
+    paths: [.github/workflows/greg-again-ch024-capture.yml]
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch024-auto
+          fetch-depth: 0
+      - name: Capture exact locked provider takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,json,subprocess,urllib.request
+          from pathlib import Path
+          body=Path('r2/assets/written/ch024.md').read_text().split('\n---\n',1)[1].strip()
+          paras=body.split('\n\n')
+          rows=[
+          ('Too irregular for wheels.','99d0ac9baef649869b38518bc1cc5fe0','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/68bc2390-de53-4738-9214-09e81baae5c5.mp3'),
+          ("His lead rope tightened against the stake.",'b4ca77826f184b7ea5e9b8ac1220f24d','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bdaabf84-2f75-41c7-8093-6175280c7970.mp3'),
+          ('Closer than I wanted.','11fe97dd0cdb47e8a4934d569bf3dd85','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f5659d01-3837-44d4-b0bd-1472a9cc0286.mp3'),
+          ('That covered it.','f6bd7888c9584bf09440724e7c34348a','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bfd27e2d-160d-4ed0-9368-311d608425ab.mp3'),
+          ('Current evidence remained rude.','ca8d3486b46b4ffda77a72acff040ffc','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7de58812-7a1f-43b1-b5fb-4ca7b2deee73.mp3'),
+          ('Survey case first because Harl would apparently rescue it before any of us if forced to choose.','96fc80e843ea4f55a48b08e20d59e834','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/33dd6f3d-1ee9-4672-8133-da6ec34885df.mp3'),
+          ('Then obeyed.','6d3d4da3122b4300b7c087dd51604fb0','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8a78a197-70bb-4f69-aca8-fafc82695096.mp3'),
+          ('The sound did not.','788ef319817c4d0ea722100d6d2c8a69','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fa684561-aee3-4138-8846-743cb1821d99.mp3'),
+          ('Also good.','e631dada068a493da0e8af209713e524','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7487cee2-fef1-4e5d-9ee4-22c198b6d612.mp3'),
+          ('"Not unless we make the road theirs and ours at the same time."','331cb8c6ad664875b1ed3a6dd148e573','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1aa93137-335a-4ea2-9339-11529ca60ba4.mp3'),
+          ('They were not.','4d284d2b84e8458fa3b5199af2c398ef','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5a56ec83-5904-44fe-aba7-fc7d33f8f91d.mp3'),
+          ('People had been naming things badly for centuries.','432baf133a9e4870b19244cefcc6eaf2','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f9209e06-8d8b-4552-a061-92e56ecaf896.mp3'),
+          ('Good.','b0180dd439fc42c7b2f857a378fb7fa5','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f8438854-d9f7-4de8-9e5a-e784b71a4223.mp3'),
+          ('His ankle did not.','94d2825db402484399f9e36ada5e65e1','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d4536999-9739-4d51-8f44-55213c411e78.mp3'),
+          ('Then enough that counting became work I did not need.','cf640a34c2244016aef1742e0207f978','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8862d21a-b127-4246-a266-2fa54d5859db.mp3'),
+          ('A young one had only short horn nubs with almost no light in them.','1da2dcd1e2c5461c924fb5e18f4b145c','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0aa39c7c-2230-4c4c-91ec-410bf6203161.mp3'),
+          ('It was simply how bodies moving together learned to leave room.','eca64668ef63457d98038efcbe09c780','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0c90927a-5545-4976-ad19-a0b57a66d89d.mp3'),
+          ('Harl gave one short nod.','873c03ad7d4e46b4a4a25223f84ca439','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/21539ebb-86e6-4602-b4a2-fc46bb04368e.mp3'),
+          ('I stopped.','012a693b608247a2b1ac791b13e97932','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4ee27f56-2ab1-45ab-b432-0fb3ae3b627c.mp3'),
+          ('Some questions did not deserve experiments.','0ad421fab5c64ef6ac3fd0427b8ccd73','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/95d1fddc-7a76-4443-894b-1d5f265dba3f.mp3'),
+          ('Walked on.','cf8d4847dde245149e3dd1918eb2849e','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4a5462b5-4419-4969-a7e3-7ba83e51f1b1.mp3'),
+          ('The herd kept coming.','776ab3a9bfcd4575a50b7dfe90671c83','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/be5add5e-09fd-4895-9c19-b84fb09fedf5.mp3'),
+          ('Nobody complained.','930898bc9413443297377735e8ccba26','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d2e3145b-4387-42cf-8883-36d958ee7008.mp3'),
+          ('The last animal was not always the last animal.','85e9ae387e874ec090ebe6ad1bc4b139','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/631dbf05-926d-4b68-98f7-a24550833830.mp3'),
+          ('Then the Cut went dark again.','ef881bde48e949ec80414b74858add3a','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bd6ea33b-0157-4f11-ad74-e6d124e46065.mp3'),
+          ('The discussion ended.','adf041117956422cb3f17ef5ef671f70','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e154fe26-a5db-4a2c-9bc8-513628a68ce8.mp3'),
+          ('"A lot?"','0799660d67ec47dbbb8d16f2aace8522','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/735b47b5-55f8-4c7b-a812-7d0d98ca000f.mp3'),
+          ('I liked her more for that too.','598739fa30cf44128102a87f17032f3c','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f255246c-1c26-4388-a6b5-87430e08f576.mp3'),
+          ('He had been there long enough that Edda had eaten half her breakfast before I asked what he was doing.','745c713c3e5d444fae78b957a227ec6a','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/77285c42-6581-4a2d-b92f-2037b39212c9.mp3'),
+          ('I did not know every year between them.','9187d97dbca842a180ed5fdcd5696200','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/22e3de23-e512-49f5-93dc-0cb9fe58292f.mp3'),
+          ('"The animals didn\'t."','5e8632db35e04b0baea6e22205457b14','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/660ea701-828a-4481-8e7d-6f64c61c181e.mp3'),
+          ('"Current corridor use," he said.','aaf166446b294e64a76052e9d205709c','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/656ebdde-68ea-49a5-9931-6a2ef6c574e9.mp3'),
+          ('"It makes the route seasonal until proven otherwise."','2faf4ada34ac4707b0b57beb25efebd4','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8cb02f5c-771d-4922-ad0e-d5a53d957421.mp3'),
+          ('The survey was not done.','b1c5a05095ee4e5aade32aa89912af99','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a1ceb986-7c62-4fad-8b94-9f160cf17d79.mp3'),
+          ('Good sword.','02ee9c1dc601458da4fbddda7f31922f','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c22c129c-a0d5-4c9d-963f-c136597e87f9.mp3'),
+          ('I followed them west.','b652f3f0b31e40b2aa0647f2ff25e56d','https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f9347122-3738-4ee3-96f6-b44188b08e4e.mp3')]
+          takes=[]; start=0
+          for n,(anchor,ctx,url) in enumerate(rows,1):
+            end=next(i for i in range(start,len(paras)) if paras[i]==anchor)
+            transcript='\n\n'.join(paras[start:end+1]); start=end+1
+            takes.append({'take':n,'transcript':transcript,'transcript_sha256':hashlib.sha256(transcript.encode()).hexdigest(),'provider_context_id':ctx,'preview_url':url})
+          assert start==len(paras)
+          assert '\n\n'.join(t['transcript'] for t in takes)==body
+          out=Path('greg-again/audio/assets/chunks/024-short'); out.mkdir(parents=True,exist_ok=True)
+          total=0
+          for t in takes:
+            p=out/f"{t['take']:02d}.mp3"; urllib.request.urlretrieve(t['preview_url'],p)
+            assert p.stat().st_size>10000
+            dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],text=True))
+            assert 2<dur<30.0, (t['take'],dur)
+            t.update(duration_seconds=round(dur,3),byte_size=p.stat().st_size,audio_sha256=hashlib.sha256(p.read_bytes()).hexdigest(),durable_file=str(p),status='artifact_captured_verified')
+            total+=dur
+          data={'chapter_id':'ga-024','chapter_number':24,'title':'The Watchman','written_source_title':'The Watchman','written_source_path':'r2/assets/written/ch024.md','written_source_sha256':hashlib.sha256(body.encode()).hexdigest(),'voice':'deep','take_count':36,'component_duration_seconds':round(total,3),'status':'durable_takes_verified','takes':takes,'historical_note':'Original provider identities preserved; capture verifier accepts complete preview take 30 at 29.928s.'}
+          Path('greg-again/audio/takes/024-short.json').write_text(json.dumps(data,indent=2)+'\n')
+          PY
+      - name: Stitch and verify
+        shell: bash
+        run: |
+          set -euo pipefail
+          list=$(mktemp)
+          for i in $(seq -w 1 36); do printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/024-short/${i}.mp3" >> "$list"; done
+          ffmpeg -v error -f concat -safe 0 -i "$list" -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-024.mp3
+          ffprobe -v error greg-again/audio/assets/chapter-024.mp3
+          sha256sum greg-again/audio/assets/chunks/024-short/*.mp3 greg-again/audio/assets/chapter-024.mp3 > greg-again/audio/assets/chunks/024-short/SHA256SUMS
+      - name: Commit durable artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/024-short greg-again/audio/assets/chapter-024.mp3 greg-again/audio/takes/024-short.json
+          git commit -m 'Capture and assemble ga-024 short takes'
+          git push origin HEAD:audio/greg-again-ch024-auto

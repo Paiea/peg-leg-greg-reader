@@ -1,0 +1,18 @@
+{
+  "chapter_id": "ga-025",
+  "chapter_number": 25,
+  "title": "The Hired Sword",
+  "voice": "deep",
+  "take_count": 38,
+  "exact_source_coverage": true,
+  "take_order_verified": true,
+  "individual_mp3s_verified": true,
+  "assembled_mp3_verified": true,
+  "assembled_duration_seconds": 931.44,
+  "assembled_sha256": "98a198d25553f57eb19fd1d0070928eb3336c0d6e71c16eb7ef4f7b25f5ded2d",
+  "provider_context_count": 38,
+  "provider_preview_count": 38,
+  "chapter_tail_silence_seconds_added": 2.0,
+  "source_path": "r2/assets/written/ch025.md",
+  "source_blob_sha": "11229b660f83589b1249447b6e19f8a359e314ec"
+}

@@ -1,0 +1,60 @@
+name: Prepare ga024 publication
+on:
+  push:
+    branches: [audio/greg-again-ch024-auto]
+    paths: [.github/workflows/ga024-publish.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch024-auto
+          fetch-depth: 0
+      - name: Reconcile newest main and publish only Chapter 24
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git rebase origin/main
+          python3 - <<'PY'
+          import json,hashlib,subprocess
+          from pathlib import Path
+          take=json.loads(Path('greg-again/audio/takes/024-short.json').read_text())
+          assert take['chapter_id']=='ga-024' and take['chapter_number']==24 and take['title']=='The Watchman'
+          assert take['status']=='durable_takes_verified' and take['take_count']==36
+          body=Path('r2/assets/written/ch024.md').read_text().split('\n---\n',1)[1].strip()
+          assert '\n\n'.join(t['transcript'] for t in take['takes'])==body
+          for t in take['takes']:
+            p=Path(t['durable_file']); assert p.exists() and p.stat().st_size==t['byte_size']; assert hashlib.sha256(p.read_bytes()).hexdigest()==t['audio_sha256']
+          assembled=Path('greg-again/audio/assets/chapter-024.mp3'); assert assembled.exists() and assembled.stat().st_size>1000000
+          manifest=Path('greg-again/audio/manifest.json'); m=json.loads(manifest.read_text())
+          assert not any(c.get('number')==24 or c.get('chapter_id')=='ga-024' for c in m['chapters'])
+          m['chapters'].append({'chapter_id':'ga-024','number':24,'title':'The Watchman','status':'experimental','lens':'shared-greg-surface','audio_finish':'processing-space','take_count':36,'duration_seconds':round(take['component_duration_seconds']+2.0,3),'audio_src':'assets/chapter-024.mp3','note':'Chapter 24 uses thirty-six complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take order, and a listener-safe trailing tail were verified before publication.'})
+          m['chapters'].sort(key=lambda c:c['number'])
+          manifest.write_text(json.dumps(m,indent=2,ensure_ascii=False)+'\n')
+          route=Path('r2/data/chapters/ch024.json'); r=json.loads(route.read_text()); assert r['chapter_id']=='r2-ch024' and r['title']=='The Watchman'; r['audio']={'status':'published','path':'../greg-again/audio/assets/chapter-024.mp3'}; route.write_text(json.dumps(r,separators=(',',':'),ensure_ascii=False)+'\n')
+          reg=Path('r2/data/chapter-registry.json'); rg=json.loads(reg.read_text()); c=rg['chapters']['r2-ch024']; assert c['display_number']==24 and c['title']=='The Watchman' and c['pipeline']['written']=='published'; c['pipeline']['audio']='published'; c['next_action']='plan_images'; reg.write_text(json.dumps(rg,indent=2,ensure_ascii=False)+'\n')
+          Path('greg-again/audio/verification').mkdir(parents=True,exist_ok=True)
+          Path('greg-again/audio/verification/024.md').write_text(f'''# ga-024 verification\n\n- Stable identity: `ga-024` / Chapter 24\n- Current title: `The Watchman`\n- Voice: `deep`\n- Written source: `r2/assets/written/ch024.md`\n- Exact source coverage: verified across 36 ordered takes\n- Durable take binaries: verified by byte size and SHA-256\n- Assembled MP3: present and nontrivial\n- Listener tail: approximately 2 seconds added after the final spoken word\n- Component duration: {take['component_duration_seconds']} seconds\n- Published duration: {round(take['component_duration_seconds']+2.0,3)} seconds\n- Scope: Chapter 24 only\n''')
+          PY
+          python3 -m json.tool greg-again/audio/manifest.json >/dev/null
+          python3 -m json.tool r2/data/chapter-registry.json >/dev/null
+          python3 -m json.tool r2/data/chapters/ch024.json >/dev/null
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('greg-again/audio/manifest.json').read_text()); c=[x for x in m['chapters'] if x['chapter_id']=='ga-024']; assert len(c)==1 and c[0]['number']==24 and c[0]['audio_src']=='assets/chapter-024.mp3'
+          r=json.loads(Path('r2/data/chapters/ch024.json').read_text()); assert r['audio']['status']=='published'
+          rg=json.loads(Path('r2/data/chapter-registry.json').read_text()); assert rg['chapters']['r2-ch024']['pipeline']['audio']=='published'
+          print('ga-024 publication surfaces agree')
+          PY
+          git add greg-again/audio/manifest.json r2/data/chapter-registry.json r2/data/chapters/ch024.json greg-again/audio/verification/024.md
+          git commit -m 'Publish Greg Again audio for Chapter 24'
+          bad=$(git diff --name-only origin/main...HEAD | grep -E 'chapter-(0[0-1][0-9]|02[0-35-9])\.mp3|chunks/(0[0-1][0-9]|02[0-35-9])|takes/(0[0-1][0-9]|02[0-35-9])|r2/data/chapters/ch(0[0-1][0-9]|02[0-35-9])\.json' || true)
+          test -z "$bad" || { echo "scope guard failed: $bad"; exit 1; }
+          git push --force-with-lease origin HEAD:audio/greg-again-ch024-auto

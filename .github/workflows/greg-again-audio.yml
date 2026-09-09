@@ -1,109 +1,28 @@
-name: Reconcile mana repair with current main
+name: Validate Greg Again Audio
 
 on:
+  pull_request:
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - audio/greg-again-mana-pronunciation-repair-v2
+      - main
     paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  reconcile:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 15
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
-          ref: audio/greg-again-mana-pronunciation-repair-v2
-          fetch-depth: 0
-      - name: Reconcile current main and verify target audio sources
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git fetch origin main
-          MAIN_SHA=$(git rev-parse origin/main)
-          BEFORE_SHA=$(git rev-parse HEAD)
-          export MAIN_SHA BEFORE_SHA
-
-          cat > /tmp/targets.txt <<'EOF'
-          greg-again/audio/assets/chunks/002/02.mp3
-          greg-again/audio/assets/chunks/002/10.mp3
-          greg-again/audio/assets/chunks/003/01.mp3
-          greg-again/audio/assets/chunks/003/03.mp3
-          greg-again/audio/assets/chunks/003/04.mp3
-          greg-again/audio/assets/chunks/004/01.mp3
-          greg-again/audio/assets/chunks/004/02.mp3
-          greg-again/audio/assets/chunks/005/04.mp3
-          greg-again/audio/assets/chunks/006/03.mp3
-          greg-again/audio/assets/chunks/006/04.mp3
-          greg-again/audio/assets/chunks/006/06.mp3
-          greg-again/audio/assets/chunks/006/07.mp3
-          greg-again/audio/assets/chunks/006/09.mp3
-          greg-again/audio/assets/chunks/006/11.mp3
-          greg-again/audio/assets/chunks/006/13.mp3
-          greg-again/audio/assets/chapter-011.mp3
-          greg-again/audio/assets/chunks/018/13.mp3
-          greg-again/audio/assets/chunks/018/17.mp3
-          greg-again/audio/assets/chunks/018/32.mp3
-          greg-again/audio/assets/chunks/019/07.mp3
-          greg-again/audio/assets/chunks/019/08.mp3
-          greg-again/audio/assets/chunks/022/04.mp3
-          EOF
-
-          python3 - <<'PY'
-          import hashlib,json,subprocess
-          from pathlib import Path
-          targets=[x.strip() for x in Path('/tmp/targets.txt').read_text().splitlines() if x.strip()]
-          def git_blob(ref,path): return subprocess.check_output(['git','rev-parse',f'{ref}:{path}'],text=True).strip()
-          def file_sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
-          def git_sha(ref,path): return hashlib.sha256(subprocess.check_output(['git','show',f'{ref}:{path}'])).hexdigest()
-          rows=[]
-          for p in targets:
-              if not Path(p).is_file(): raise SystemExit(f'missing branch target before merge: {p}')
-              rows.append({'path':p,'before_blob':git_blob('HEAD',p),'before_sha256':file_sha(p),'main_blob':git_blob('origin/main',p),'main_sha256':git_sha('origin/main',p)})
-          Path('/tmp/reconcile-before.json').write_text(json.dumps(rows,indent=2)+'\n')
-          print('TARGETS',len(rows))
-          print('DIFFER_FROM_MAIN_BEFORE',sum(r['before_blob']!=r['main_blob'] for r in rows))
-          PY
-
-          set +e
-          git merge --no-commit --no-ff origin/main
-          rc=$?
-          set -e
-          if [ "$rc" -ne 0 ]; then
-            conflicts=$(git diff --name-only --diff-filter=U)
-            printf 'CONFLICTS\n%s\n' "$conflicts"
-            unexpected=$(printf '%s\n' "$conflicts" | grep -v '^.github/workflows/greg-again-audio.yml$' || true)
-            if [ -n "$unexpected" ]; then echo 'Unexpected reconcile conflicts' >&2; exit 1; fi
-            git checkout --theirs .github/workflows/greg-again-audio.yml
-            git add .github/workflows/greg-again-audio.yml
-          fi
-
-          mkdir -p greg-again/audio/production
-          python3 - <<'PY'
-          import hashlib,json,os,subprocess
-          from pathlib import Path
-          rows=json.loads(Path('/tmp/reconcile-before.json').read_text())
-          changed=[]
-          for r in rows:
-              p=r['path']; post=hashlib.sha256(Path(p).read_bytes()).hexdigest(); blob=subprocess.check_output(['git','hash-object',p],text=True).strip()
-              r['post_merge_blob']=blob; r['post_merge_sha256']=post
-              r['changed_by_reconcile']=r['before_sha256']!=post
-              r['post_matches_main']=post==r['main_sha256']
-              if r['changed_by_reconcile']: changed.append(p)
-              if not r['post_matches_main']: raise SystemExit(f'post-merge target does not match current main: {p}')
-          out={'repair_branch':'audio/greg-again-mana-pronunciation-repair-v2','branch_before_merge':os.environ['BEFORE_SHA'],'main_authority':os.environ['MAIN_SHA'],'target_audio_source_count':len(rows),'changed_target_count':len(changed),'changed_targets':changed,'all_post_merge_targets_match_main':True,'chapter_11_mode':'assembled chapter source because historical provider takes were not persisted as repo chunks','targets':rows}
-          Path('greg-again/audio/production/2026-09-09-mana-main-reconcile.json').write_text(json.dumps(out,indent=2)+'\n')
-          print(json.dumps({'main':out['main_authority'],'targets':len(rows),'changed':len(changed),'changed_targets':changed},indent=2))
-          PY
-
-          git show origin/main:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
-          git add -A
-          test -z "$(git diff --name-only --diff-filter=U)"
-          git commit -m 'Merge current main before mana pronunciation repair'
-          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
