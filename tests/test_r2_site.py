@@ -16,6 +16,34 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['chapters'], ['r2-ch001', 'r2-ch002'])
         self.assertEqual(project['current_chapter'], 'r2-ch002')
 
+    def test_r2_declares_shared_greg_surface_pipeline(self):
+        project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
+        self.assertEqual(project['rendering_pipeline'], 'data/rendering-pipeline.json')
+
+        pipeline = json.loads((R2 / 'data/rendering-pipeline.json').read_text(encoding='utf-8'))
+        self.assertEqual(pipeline['schema'], 'r2_rendering_pipeline/v1')
+        self.assertEqual(
+            pipeline['shared_flow'],
+            ['story_state_or_performance', 'greg_experience', 'shared_greg_surface'],
+        )
+        self.assertEqual(pipeline['renderers']['audio']['input'], 'shared_greg_surface')
+        self.assertEqual(pipeline['renderers']['written']['input'], 'shared_greg_surface')
+        self.assertEqual(
+            pipeline['feedback_classes'],
+            ['shared_greg_experience', 'audio_only', 'written_only'],
+        )
+
+        contract = (R2 / 'PIPELINE.md').read_text(encoding='utf-8')
+        self.assertIn('Clean performance residue. Do not clean away cognition.', contract)
+        self.assertIn('Greg may own the linguistic surface.', contract)
+        self.assertIn('Audio Finish', contract)
+        self.assertIn('Written Finish', contract)
+
+        readme = (R2 / 'README.md').read_text(encoding='utf-8')
+        self.assertIn('PIPELINE.md', readme)
+        self.assertIn('Shared Greg Surface', readme)
+        self.assertIn('medium-specific finish', readme)
+
     def test_chapter_one_reuses_existing_audio_without_claiming_missing_prose(self):
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['chapter_id'], 'r2-ch001')
