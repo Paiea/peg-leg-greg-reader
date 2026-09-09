@@ -19,24 +19,27 @@ jobs:
         with:
           ref: audio/greg-again-ch10-returner
 
-      - name: Capture ten performance takes
+      - name: Capture twelve performance takes
         shell: bash
         run: |
           set -euo pipefail
+          rm -rf greg-again/audio/assets/chunks/010
           mkdir -p greg-again/audio/assets/chunks/010
           ids=(
-            2c89b1cbef114e4eab3f84f018b5b656
+            e95dc587ae584d42879e3a60fc61787f
+            2faae5fbef53491ca04a27363c176781
             e1c1af8a6a244b52a1b251bf471c8636
             5b56d8e7bb0440b293a35e9db6f81477
             3be62df29f054af6880a22c1aae7e5ed
             12cf935c3eee464188b4344c04fee201
-            9ee1dcbef161477ea12bfad7b2fd84ea
+            4faf6e8d85fd46d98054b20e527b2611
+            7599d14874664ea7b30850c6d59374b2
             5dc9af4ebb6f48a496a9039b6c61ff93
             a8445f6a7c6748b2bbb522eb195a8297
             1bba43599d13474f9be7376da1b6365e
             df2aefb1cd594970869b682c96aa55c2
           )
-          for i in $(seq 1 10); do
+          for i in $(seq 1 12); do
             id="${ids[$((i-1))]}"
             out=$(printf 'greg-again/audio/assets/chunks/010/%02d.mp3' "$i")
             ready=0
@@ -59,13 +62,15 @@ jobs:
             fi
             ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 "$out"
           done
+          test "$(find greg-again/audio/assets/chunks/010 -maxdepth 1 -type f -name '*.mp3' | wc -l)" -eq 12
 
       - name: Assemble chapter
         shell: bash
         run: |
           set -euo pipefail
           : > /tmp/ch10-concat.txt
-          for f in greg-again/audio/assets/chunks/010/*.mp3; do
+          for i in $(seq 1 12); do
+            f=$(printf 'greg-again/audio/assets/chunks/010/%02d.mp3' "$i")
             printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/ch10-concat.txt
           done
           ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/ch10-concat.txt -c copy greg-again/audio/assets/chapter-010.mp3
