@@ -148,6 +148,19 @@
   text-transform: uppercase;
 }
 
+.chapter-card .chapter a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.chapter-card .chapter a:hover,
+.chapter-card .chapter a:focus-visible {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+}
+
 .chapter-quote {
   margin: 1rem 0 .25rem;
   padding: .2rem 0 .2rem 1rem;
