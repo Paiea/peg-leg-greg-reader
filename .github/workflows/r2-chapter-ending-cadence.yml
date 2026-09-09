@@ -1,0 +1,62 @@
+name: Apply R2 Chapter Ending Cadence Rule
+
+on:
+  push:
+    branches:
+      - audio/chapter-landing-doctrine
+    paths:
+      - .github/workflows/r2-chapter-ending-cadence.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/chapter-landing-doctrine
+      - name: Apply cadence doctrine updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          pipeline = Path('r2/PIPELINE.md')
+          text = pipeline.read_text()
+          anchor = "After the final spoken word, the listener should get a short clean tail before the file ends so the last idea has time to register by ear. Production owns the exact tail treatment."
+          replacement = """The final spoken beat should also **sound finished**. Prefer a settled, downward cadence rather than a rising or continuation-like delivery that makes a complete idea feel unfinished. This is performance shaping, not story rewriting.\n\nProvider-facing performance punctuation may differ from written punctuation when the spoken words remain identical and the change reliably improves cadence. For example, a terminal ellipsis may be used on the final take when it produces the desired settling delivery. Do not silently change lexical content, and do not flow provider-only punctuation back into written authority unless the prose itself is separately revised.\n\nAfter the final spoken word, the listener should get a short clean tail before the file ends so the last idea has time to register by ear. Production owns the exact tail treatment."""
+          if anchor not in text:
+              raise SystemExit('PIPELINE chapter-landing anchor missing')
+          pipeline.write_text(text.replace(anchor, replacement, 1))
+
+          production = Path('r2/AUDIO_PRODUCTION.md')
+          text = production.read_text()
+          anchor = """7. do not silently paraphrase the text because a provider call is inconvenient\n\nA useful deterministic naming shape is:"""
+          replacement = """7. do not silently paraphrase the text because a provider call is inconvenient\n\nFor the **final take of a chapter**, shape the delivery so the authoritative last thought lands with a settled, downward cadence rather than sounding like a question or like more narration is about to follow. Provider-facing punctuation may be adjusted without changing the spoken words when that reliably controls performance. A terminal ellipsis is an allowed tool when it produces the desired landing. Record any such punctuation-only performance treatment in the take map; it is not a written-prose change.\n\nA useful deterministic naming shape is:"""
+          if anchor not in text:
+              raise SystemExit('AUDIO_PRODUCTION voice anchor missing')
+          text = text.replace(anchor, replacement, 1)
+
+          anchor = """- the last spoken beat matches the authoritative chapter ending rather than a convenient production cutoff\n- the final listener-facing file preserves roughly 2–4 seconds of clean tail silence after the last spoken word unless a deliberate ending requires otherwise\n"""
+          replacement = """- the last spoken beat matches the authoritative chapter ending rather than a convenient production cutoff\n- the final spoken beat has a settled ending cadence appropriate to the chapter, rather than an accidental rising / continuation-like delivery\n- the final listener-facing file preserves roughly 2–4 seconds of clean tail silence after the last spoken word unless a deliberate ending requires otherwise\n"""
+          if anchor not in text:
+              raise SystemExit('AUDIO_PRODUCTION verification anchor missing')
+          production.write_text(text.replace(anchor, replacement, 1))
+          PY
+
+          git diff --check
+          grep -n "sound finished" r2/PIPELINE.md
+          grep -n "final take of a chapter" r2/AUDIO_PRODUCTION.md
+          grep -n "settled ending cadence" r2/AUDIO_PRODUCTION.md
+      - name: Commit cadence doctrine updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/PIPELINE.md r2/AUDIO_PRODUCTION.md
+          git commit -m 'audio: define final take cadence treatment'
+          git push origin HEAD:audio/chapter-landing-doctrine
