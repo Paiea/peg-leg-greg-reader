@@ -839,3 +839,125 @@ Continue writing the Shared Greg Surface directly.
 Use PERFORMANCE only when behavior or outside agency is genuinely uncertain enough to earn it.
 
 Do not run audio synthesis from this lane.
+
+---
+
+# CURRENT FRONTIER UPDATE — CHAPTER 25
+
+This section is newer authority than the Chapter 24 frontier above.
+
+The Chapter 24 frontier remains historical state. Use this section for current forward story search.
+
+## 25 — The Hired Sword
+
+Selected prose:
+
+`state/experiments/greg-again/prose/025-the-hired-sword.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/025-story-search.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/025-hired-sword-eval.md`
+
+The West Cut route-verification contract finishes after five days instead of automatically becoming one chapter per survey day.
+
+Harl follows the fresh glasshorn tracks far enough to establish that the observed herd leaves the main Cut near the old quarry spur. The ecological constraint remains real but bounded.
+
+Farther west, the party meets an independent current traveler already using the Cut opportunistically because the formal northern route is slow. Edda owns safe passing procedure. Harl treats the traveler's repeated-use knowledge as evidence, then independently measures the west shelf and remaining route.
+
+The route reconnects to maintained western road. Harl returns a conditional verdict rather than a binary success or failure:
+
+> **Useful for foot couriers and single light pack animals in dry conditions. Not carts or general freight in its current state.**
+
+The broken stone crossing, verified ford, observed glasshorn corridor, narrow shelf, and wet-weather west slope all remain part of that answer.
+
+Greg receives the agreed five-day field pay. He gets no rank increase, no heroic bonus, no new magic, and no need to draw the sword.
+
+Repeated work produces the first real crew shorthand: on the return crossing, Greg, Edda, and Harl take the same handling positions without discussion.
+
+Harl tells Sella that if a future repair survey is authorized, he wants the same escorts if they are available. No follow-up job is scheduled and no permanent party is declared.
+
+Greg returns to Lower Rook Street. The cookroom stove has been repaired while he was gone. Noll is eating soup. No new Mara packet is forced to arrive merely because five days passed.
+
+Surviving discovery:
+
+> **Adventure can accumulate as completed paid work, not only encounters.**
+
+## Five-chapter promise check after 25
+
+A fresh glance at `CHAPTER_1_PROMISE_LEDGER.md` does not justify retrofitting another promise into Chapter 25.
+
+Recent prose already keeps several major opening promises healthy:
+
+- future knowledge received a clean geographic win in Chapter 23;
+- old field expertise received a clean ecological / behavioral win in Chapter 24;
+- magical ecology broadens the `future monsters / world` promise without becoming a creature arc;
+- Kesra Dain already places a future S-class peer into current institutional reality without forcing a reunion;
+- Guild-fire timing and Red-Winter chronology were already placed earlier;
+- river-shipping / Vey remains active through present infrastructure and Mara's Halden life.
+
+The concrete second-letter object remains unresolved. Do not invent its identity merely because this is a five-chapter review point.
+
+## Current frontier after Chapter 25
+
+Current selected state:
+
+- selected written frontier is Chapter 25, **The Hired Sword**.
+- Greg has returned to Carrow after completing the five-day West Cut route-verification contract.
+- Edda remains an established Bronze fighter / escort lead with whom Greg now has one completed multi-day field job and some practical shorthand.
+- Harl Fen remains the road-office surveyor and owns the current West Cut verdict.
+- Pate remains Harl's pack mule.
+- the West Cut is conditionally useful for foot couriers and single light pack animals in dry conditions.
+- the West Cut is not currently suitable for carts or general reliable freight.
+- the old stone crossing remains failed for loaded-animal use.
+- the upstream ford remains the verified current bypass.
+- the observed glasshorn movement leaves the main Cut near the old quarry spur in this current survey evidence.
+- the west shelf remains narrow enough to require careful single-animal handling and becomes unreliable after hard rain.
+- current travelers are already using the Cut opportunistically because other road / North Gate pressure is inconvenient.
+- Harl has requested the same escorts if a repair survey is later authorized and if they are available. No such job is currently scheduled.
+- Greg / Edda / Harl have accumulated first-contract work shorthand without becoming a declared permanent party.
+- Greg received the agreed five-day field pay. Exact coin value remains unstated because prior contract prose did not establish a precise payout.
+- Greg receives no rank increase.
+- Greg's support capability does not increase and is not used in Chapter 25.
+- Greg's better sword remains ordinary maintained field equipment and is not drawn in Chapter 25.
+- Greg is back in his Lower Rook Street room.
+- the Lower Rook cookroom stove was repaired during Greg's absence.
+- Noll remains Greg's neighbor and continues ordinary life.
+- no new Mara packet has arrived merely because five days passed; correspondence remains on packet time.
+- Arlo and Ivena continue operating the filtration venture independently. Do not assume they stood still during Greg's absence, but do not manufacture a change until current causality earns it.
+- Greg's formal support assessment remains weeks away and off-page.
+- Kesra Dain remains off-page.
+- North Gate remains standing and unresolved. Its logistics pressure now has one small conditional alternate-route consequence without being solved.
+- the Guild fire remains a coming-Deepwinter long shadow with no established cause.
+- Red Winter remains farther out and does not require near-term treatment.
+- Jorren remains north.
+- Tavin remains somewhere south with a river company.
+- Vey Shipping remains living present infrastructure rather than proven destiny-company history.
+- the unresolved second Chapter 1 letter remains a real object promise whose identity must be verified before use.
+- no artifact, ruin, future-famous-person meeting, higher-rank showcase, repair survey, new adventure contract, Kesra appearance, leg-loss setup, theatre route, Seven Lamps reveal, or Chapter 26 event is preselected.
+
+## Immediate next pressure after 25
+
+Chapter 25 closes the West Cut transaction. Do not continue the road simply because Harl mentioned a possible repair survey.
+
+Search fresh from Greg being back in Carrow after five days away.
+
+Useful live questions include:
+
+- what, if anything, actually changed in Greg's ordinary Carrow systems while he was absent?
+- what does the new field pay make possible now without forcing an upgrade purchase?
+- does Greg want rest, city work, training, another field job, time with somebody, or something less optimizable?
+- has the filtration venture, Lower Rook fire repair, Guild workload, packet route, or another established lane moved enough to change a live choice?
+- what residue from Edda / Harl / Pate should remain merely remembered until work naturally crosses again?
+- has five days of field work changed Greg's body, appetite, sleep, maintenance, or sense of what kind of work he wants next?
+
+Do not automatically reward the completed adventure with another adventure, party declaration, spell unlock, artifact, higher-rank encounter, future-famous person, or long-range attractor.
+
+Continue writing the Shared Greg Surface directly.
+
+Use PERFORMANCE only when behavior or outside agency is genuinely uncertain enough to earn it.
+
+Do not run audio synthesis from this lane.
