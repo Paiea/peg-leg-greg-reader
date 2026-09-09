@@ -17,6 +17,17 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn("'Iowan Old Style'", css)
         self.assertIn('Baskerville', css)
 
+    def test_homepage_uses_same_parchment_palette_and_book_type(self):
+        css = (R2 / 'assets/css/r2-home-clean.css').read_text(encoding='utf-8')
+        html = (R2 / 'index.html').read_text(encoding='utf-8')
+        self.assertIn('color-scheme: light', css)
+        self.assertIn('--paper: #e5d8bd', css)
+        self.assertIn('--ink: #241d16', css)
+        self.assertIn('background: var(--paper)', css)
+        self.assertIn("'Iowan Old Style'", css)
+        self.assertIn('Baskerville', css)
+        self.assertIn('<meta name="theme-color" content="#e5d8bd">', html)
+
     def test_chapter_page_prioritizes_reading_over_panels(self):
         css = (R2 / 'assets/css/r2.css').read_text(encoding='utf-8')
         self.assertIn('.chapter-page', css)
