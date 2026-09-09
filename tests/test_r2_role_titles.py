@@ -1,11 +1,15 @@
 import json
 import re
+import subprocess
+import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).parents[1]
 R2 = ROOT / 'r2'
 AUDIO_MANIFEST = ROOT / 'greg-again' / 'audio' / 'manifest.json'
+SYNC_SCRIPT = ROOT / 'scripts' / 'sync_r2_role_titles.py'
 HEADING_RE = re.compile(r'^# Chapter (?P<number>\d+): (?P<title>.+)$')
 
 EXPECTED_TITLES = {
@@ -71,6 +75,92 @@ class R2RoleTitleTests(unittest.TestCase):
                     chapter['audio']['path'],
                     f'../greg-again/audio/assets/chapter-{number:03d}.mp3',
                 )
+
+    def test_reconciler_apply_changes_only_title_metadata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'r2' / 'assets' / 'written').mkdir(parents=True)
+            (root / 'r2' / 'data' / 'chapters').mkdir(parents=True)
+            (root / 'greg-again' / 'audio').mkdir(parents=True)
+
+            (root / 'r2' / 'assets' / 'written' / 'ch001.md').write_text(
+                '# Chapter 1: The Novice\n\n---\n\nBody stays exactly here.\n',
+                encoding='utf-8',
+            )
+            (root / 'r2' / 'data' / 'project.json').write_text(
+                json.dumps({'chapters': ['r2-ch001']}, indent=2) + '\n', encoding='utf-8'
+            )
+            public = {
+                'chapter_id': 'r2-ch001',
+                'display_number': 1,
+                'title': 'Two Things',
+                'audio': {'status': 'published', 'path': '../greg-again/audio/assets/chapter-001.mp3'},
+                'written': {'status': 'published', 'path': 'assets/written/ch001.md'},
+                'navigation': {'previous': None, 'next': None},
+            }
+            (root / 'r2' / 'data' / 'chapters' / 'ch001.json').write_text(
+                json.dumps(public, indent=2) + '\n', encoding='utf-8'
+            )
+            registry = {
+                'project_id': 'r2',
+                'current_chapter': 'r2-ch001',
+                'chapters': {
+                    'r2-ch001': {
+                        'display_number': 1,
+                        'title': 'Two Things',
+                        'pipeline': {'audio': 'published', 'written': 'published'},
+                    }
+                },
+            }
+            (root / 'r2' / 'data' / 'chapter-registry.json').write_text(
+                json.dumps(registry, indent=2) + '\n', encoding='utf-8'
+            )
+            audio = {
+                'series': 'Greg, Again',
+                'chapters': [
+                    {
+                        'chapter_id': 'ga-001',
+                        'number': 1,
+                        'title': 'Two Things',
+                        'audio_src': 'assets/chapter-001.mp3',
+                        'take_count': 12,
+                    }
+                ],
+            }
+            (root / 'greg-again' / 'audio' / 'manifest.json').write_text(
+                json.dumps(audio, indent=2) + '\n', encoding='utf-8'
+            )
+
+            result = subprocess.run(
+                [sys.executable, str(SYNC_SCRIPT), '--root', str(root), '--apply'],
+                cwd=ROOT,
+                text=True,
+                capture_output=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+            updated_public = json.loads(
+                (root / 'r2' / 'data' / 'chapters' / 'ch001.json').read_text(encoding='utf-8')
+            )
+            updated_registry = json.loads(
+                (root / 'r2' / 'data' / 'chapter-registry.json').read_text(encoding='utf-8')
+            )
+            updated_audio = json.loads(
+                (root / 'greg-again' / 'audio' / 'manifest.json').read_text(encoding='utf-8')
+            )
+
+            self.assertEqual(updated_public['title'], 'The Novice')
+            self.assertEqual(updated_public['chapter_id'], 'r2-ch001')
+            self.assertEqual(updated_public['audio']['path'], '../greg-again/audio/assets/chapter-001.mp3')
+            self.assertEqual(updated_registry['chapters']['r2-ch001']['title'], 'The Novice')
+            self.assertEqual(updated_registry['chapters']['r2-ch001']['pipeline']['audio'], 'published')
+            self.assertEqual(updated_audio['chapters'][0]['title'], 'The Novice')
+            self.assertEqual(updated_audio['chapters'][0]['chapter_id'], 'ga-001')
+            self.assertEqual(updated_audio['chapters'][0]['take_count'], 12)
+            self.assertEqual(
+                (root / 'r2' / 'assets' / 'written' / 'ch001.md').read_text(encoding='utf-8'),
+                '# Chapter 1: The Novice\n\n---\n\nBody stays exactly here.\n',
+            )
 
     def test_registry_titles_match_approved_role_titles_by_stable_id(self):
         registry = json.loads((R2 / 'data' / 'chapter-registry.json').read_text(encoding='utf-8'))
