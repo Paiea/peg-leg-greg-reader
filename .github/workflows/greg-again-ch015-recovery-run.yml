@@ -13,6 +13,7 @@ permissions:
 jobs:
   recover:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v7
         with:
@@ -27,21 +28,40 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/assets/chunks/015
-          urls=(
-            'https://www.aidocmaker.com/g0/audio?name=15b862f5bf9c4e5fbd0e401b3ff753a3'
-            'https://www.aidocmaker.com/g0/audio?name=c0e1776c689c44a6be3e846595045996'
-            'https://www.aidocmaker.com/g0/audio?name=a41b7579f79e4812ac2c426dae56fc29'
-            'https://www.aidocmaker.com/g0/audio?name=e33c7e4a79f44034834cb0c489b10e08'
-            'https://www.aidocmaker.com/g0/audio?name=bb42574cca414211bad3dd1c25af82f0'
-            'https://www.aidocmaker.com/g0/audio?name=842bf96b301643bc986fece4d6ef5714'
+          ids=(
+            '15b862f5bf9c4e5fbd0e401b3ff753a3'
+            'c0e1776c689c44a6be3e846595045996'
+            'a41b7579f79e4812ac2c426dae56fc29'
+            'e33c7e4a79f44034834cb0c489b10e08'
+            'bb42574cca414211bad3dd1c25af82f0'
+            '842bf96b301643bc986fece4d6ef5714'
           )
-          for i in $(seq 1 6); do
-            n=$(printf '%02d' "$i")
-            url="${urls[$((i-1))]}"
+          download_take() {
+            local take="$1" id="$2"
+            local n out tmp url attempt http size
+            n=$(printf '%02d' "$take")
             out="greg-again/audio/assets/chunks/015/${n}.mp3"
-            curl --fail --location --retry 12 --retry-delay 10 --retry-all-errors "$url" -o "$out"
-            test "$(stat -c%s "$out")" -gt 10000
-            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out"
+            tmp="${out}.tmp"
+            url="https://www.aidocmaker.com/g0/audio?name=${id}"
+            for attempt in $(seq 1 36); do
+              rm -f "$tmp"
+              http="$(curl -L -sS --connect-timeout 20 --max-time 120 -o "$tmp" -w '%{http_code}' "$url" || true)"
+              size=0
+              if [ -f "$tmp" ]; then size="$(stat -c%s "$tmp")"; fi
+              if [ "$http" = "200" ] && [ "$size" -gt 10000 ] && ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$tmp" >/dev/null 2>&1; then
+                mv "$tmp" "$out"
+                echo "captured ch15 take ${take}: ${size} bytes"
+                ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out"
+                return 0
+              fi
+              echo "ch15 take ${take} not ready: attempt=${attempt} http=${http} bytes=${size}"
+              sleep 5
+            done
+            echo "FAILED ch15 take ${take} id=${id}" >&2
+            return 1
+          }
+          for i in $(seq 1 6); do
+            download_take "$i" "${ids[$((i-1))]}"
           done
 
       - name: Stitch Chapter 15
@@ -52,9 +72,9 @@ jobs:
           for i in $(seq -w 1 6); do
             printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/015/${i}.mp3" >> "$list"
           done
-          ffmpeg -v error -f concat -safe 0 -i "$list" -c copy greg-again/audio/assets/chapter-015.mp3
+          ffmpeg -v error -f concat -safe 0 -i "$list" -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-015.mp3
           test "$(stat -c%s greg-again/audio/assets/chapter-015.mp3)" -gt 1000000
-          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-015.mp3
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 greg-again/audio/assets/chapter-015.mp3
 
       - name: Preserve original contexts and record captured replacement contexts
         shell: bash
