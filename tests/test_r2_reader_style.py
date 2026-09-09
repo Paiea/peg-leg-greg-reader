@@ -41,6 +41,15 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertNotIn("label.className = 'audio-label'", js)
         self.assertNotIn('chapter.audio.label', js)
 
+    def test_secondary_pages_share_story_brand_and_plain_language_nav(self):
+        for path in ['chapters/index.html', 'gallery/index.html', 'about/index.html']:
+            html = (R2 / path).read_text(encoding='utf-8')
+            self.assertIn('PEG-LEG GREG', html, path)
+            self.assertIn('Run 1', html, path)
+            self.assertNotIn('>Look<', html, path)
+            self.assertNotIn('>Listen<', html, path)
+            self.assertNotIn('>Read<', html, path)
+
 
 if __name__ == '__main__':
     unittest.main()
