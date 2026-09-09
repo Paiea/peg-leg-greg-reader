@@ -1,0 +1,27 @@
+name: Verify Greg Again Chapter 3 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch3
+    paths:
+      - .github/workflows/verify-greg-again-ch3-audio.yml
+      - tests/test_greg_again_audio_catalog.py
+      - greg-again/audio/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch3
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run Chapter 3 audio publication contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
