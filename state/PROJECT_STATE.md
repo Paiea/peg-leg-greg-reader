@@ -87,6 +87,7 @@ Reusable research belongs in `RESEARCH_LEDGER.md` and must separate supported pr
 - `PLOT_CONTROL.md` — active engines, pressures, possibilities, avoidances
 - `VISUAL_BIBLE.md` — illustration language / continuity
 - `IMAGE_PRODUCTION.md` — image workflow
+- `IMAGE_BINARY_HANDOFF.md` — image-binary transport / manual drop / verification rule
 - `READER_DESIGN_LAB.md` — UI/graphics development ideas
 - `HANDSHAKE_PROTOCOL.md` — cross-chat continuation convention
 
@@ -175,6 +176,8 @@ If a prompt or chat claims Chapter N exists but current GitHub authority ends at
 Visual state remains separate from manuscript state. Existing reader artwork and visual-production material are preserved. Development contact sheets remain DEVELOPMENT unless explicitly promoted.
 
 Use `VISUAL_BIBLE.md` + `IMAGE_PRODUCTION.md` for future coverage work. Reader/UI experimentation belongs in `READER_DESIGN_LAB.md` until validated principles graduate.
+
+For generated or edited image binaries, also read `IMAGE_BINARY_HANDOFF.md`. Do not trust a successful blob write as proof that a visual asset survived transport. When direct AI → GitHub binary transfer is unreliable, use deterministic manual handoff: AI owns planning/filenames/manifests/code/verification, Keoni performs the final approved binary drop into the named path, and integration happens only after the repository file is opened and verified. Prefer clean ZIP handoffs for multi-image batches when safe bytes are available.
 
 ## Current synchronization rule
 
