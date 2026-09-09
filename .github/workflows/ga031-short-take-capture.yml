@@ -58,7 +58,7 @@ jobs:
             test $(stat -c%s "$out") -gt 1000
             ffprobe -v error "$out"
           done
-          printf "file '%s'\n" greg-again/audio/assets/chunks/031-short/*.mp3 > /tmp/list.txt
+          printf "file '%s'\n" "$PWD"/greg-again/audio/assets/chunks/031-short/*.mp3 > /tmp/list.txt
           ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/assembled.mp3
           ffmpeg -v error -i /tmp/assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-031.mp3
           ffprobe -v error greg-again/audio/assets/chapter-031.mp3
@@ -76,7 +76,7 @@ jobs:
           - voice: deep
           - source_blob: d796cdf019f19b1f7eccc7adb796b5ada31d7f18
           - ordered provider artifacts: 27 direct complete preview MP3s captured and ffprobe-readable
-          - provider pronunciation substitution: written `Mana-sensitive` synthesized as `Ma-na-sensitive` in Take 08 only
+          - provider pronunciation substitution: written Mana-sensitive synthesized as Ma-na-sensitive in Take 08 only
           - final chapter: ffprobe-readable with 2 second assembly tail
           EOF
       - name: Commit captured binaries
