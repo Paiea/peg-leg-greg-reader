@@ -1,0 +1,17 @@
+=== current 7c31ecb98d01441298fbb5e536696ee1 ===
+http=500
+content_type=text/plain; charset=utf-8
+size=21
+--- body ---
+Internal Server Error
+=== known-ch11 a6226a4016584045a3ee7364511cf2eb ===
+http=500
+content_type=text/plain; charset=utf-8
+size=21
+--- body ---
+Internal Server Error
+=== public bucket listing ===
+http=403
+content_type=application/xml; charset=UTF-8
+size=378
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.list access to the Google Cloud Storage bucket. Permission 'storage.objects.list' denied on resource '//storage.googleapis.com/projects/_/buckets/adm--audio-playback--7d--public' (or it may not exist).</Details></Error>
