@@ -39,7 +39,6 @@ jobs:
 
           manifest_path=Path('greg-again/audio/manifest.json')
           manifest=json.loads(manifest_path.read_text())
-          assert not any(x['chapter_id']=='ga-025' for x in manifest['chapters'])
           verification=json.loads(Path('greg-again/audio/verification/025-short.json').read_text())
           assert verification['assembled_duration_seconds']==931.44
           entry={
@@ -49,7 +48,7 @@ jobs:
             'audio_src':'assets/chapter-025.mp3',
             'note':'Chapter 25 uses thirty-eight complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, ordered provider identity, individual MP3 playability, stitched chapter audio, durable hashes, and the final chapter-tail landing were verified before publication.'
           }
-          manifest['chapters'].append(entry)
+          manifest['chapters']=[x for x in manifest['chapters'] if x['chapter_id']!='ga-025']+[entry]
           manifest['chapters'].sort(key=lambda x:x['number'])
           manifest_path.write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n')
 
@@ -177,5 +176,5 @@ jobs:
         run: |
           set -euo pipefail
           git add greg-again/audio/manifest.json r2/data/chapters/ch025.json r2/data/chapter-registry.json tests/test_greg_again_audio_ch025.py greg-again/audio/verification/025-scope.json
-          git commit -m 'audio: publish Greg Again Chapter 25'
+          git commit -m 'audio: republish Greg Again Chapter 25 over newest main' || true
           git push origin HEAD:audio/greg-again-ch025-auto
