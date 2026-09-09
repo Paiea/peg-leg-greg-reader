@@ -1,144 +1,152 @@
 # Chapter 30: Eventually
 
-Status: **EXPERIMENTAL SECOND-RUN PROSE / TRUE-FRONTIER STORY**
+Status: **EXPERIMENTAL SECOND-RUN PROSE / SECOND-PASS RECOMPOSED**
 
-Story search: `state/experiments/greg-again/rehearsals/030-story-search.md`
+Story search: `state/experiments/greg-again/rehearsals/030-second-pass-recompose.md`
 
 ---
 
-Jorren came back while I was trying not to become clever.
+Four days after I mailed Tavin a letter south, I learned Eventually had been back in Carrow since yesterday and had not bothered to tell me.
 
-This was inconsiderate timing.
+This felt personal.
 
-The Guild yard had given me a narrow strip beside the fence because every proper lane was occupied.
+The four days themselves had failed to become chapters.
 
-Fine.
+I approved.
 
-I did not need a lane.
+One warehouse count.
 
-I needed six feet, one post, and enough humility to repeat the same thing without upgrading it into something worse.
+Two short trips to the Guild yard where I paid nobody and repeated Lera's stupidly useful cut until my shoulders told me to stop.
 
-Cut.
+One morning where the Bronze board contained three jobs I could do and none I wanted enough to sell the day for.
 
-Arrive.
+Meren did not need a second hand.
 
-Recover.
+The Gold party did not return to provide educational scenery.
 
-Again.
+No letter arrived from Halden.
 
-The fifth repetition almost turned into a remembered diagonal counter.
+No letter arrived from South Latch.
 
-I stopped it.
+Carrow survived the lack of narrative attention.
 
-Progress.
+Then I found Jorren eating onions beside South Market.
 
-"That looked boring."
+Not deliberately.
 
-I knew the voice.
+The onions were inside a meat pie.
 
-This time the name arrived too.
+Mostly.
 
-I turned.
+He stood beside a food stall with his pack between his boots and one hand wrapped around the pie while the other counted change back into a purse that looked thinner than I remembered.
 
-Jorren stood just inside the yard gate with a pack over one shoulder and road dust built into everything else.
+Same broad shoulders.
 
-He looked mostly the same.
+Same face.
 
-That was the first lie distance told.
+Same expression people wore when trying to decide whether the hot filling currently burning their mouth was worth admitting to.
 
-Same broad chest.
-
-Same grin.
-
-Same habit of standing slightly off-center as if the world might attack during conversation.
-
-Then details arrived.
+Then the differences arrived.
 
 His boots had been resoled.
 
-One sleeve had a neat leather patch over the forearm.
+The left sleeve of his road coat carried a neat leather patch from wrist almost to elbow.
 
-The sword belt rode higher than before.
+His sword belt sat higher on the hip.
 
-A narrow scar crossed the outside of his left hand between thumb and wrist.
+A pale line crossed the outside of his left hand between thumb and wrist.
 
-His pack straps had been shortened and the loose ends tied back instead of flapping.
+Both pack straps had been shortened and the loose ends tied flat.
 
-Small things.
+Small changes.
 
 Weeks of them.
 
-"Eventually," I said.
+I stopped three paces away.
+
+Jorren noticed me because people who stayed alive on roads eventually noticed very tall men staring at them.
+
+He swallowed.
+
+"Eventually."
+
+I stared.
+
+"That's mine."
+
+"You were gone."
+
+"You were gone."
+
+"I came back."
+
+"Yesterday, apparently."
 
 He smiled.
 
+There he was.
+
 "You remembered."
 
-"I am improving at names."
+"I have become excellent at resentment."
 
-"Mine specifically?"
+"Name too?"
 
-"Let's not get ambitious."
+"Let's not ruin it."
 
-He dropped the pack beside the fence.
+He picked up his pack.
 
 Not carefully.
 
-It landed upright anyway.
+It came off the ground without twisting him sideways.
 
-Road skill.
+That was new too.
 
-"How long have you been back?"
+"How did you know I got back yesterday?"
 
-"Twenty minutes."
+"You just told me."
 
-"And you came here?"
+Jorren considered this.
 
-"Had to close the north contract."
+"Strong start."
 
-Reasonable.
+I pointed at the pie.
 
-"You?"
+"You eat onions now?"
 
-I gestured at the post.
+"They came with meat."
 
-"Trying not to become clever."
+"That's how they get you."
 
-Jorren looked at the cut marks.
+He bought me one.
 
-"Going badly?"
+I accepted because friendship had standards.
 
-"Improving."
+We ate against the low market wall while people with actual errands stepped around us.
 
-"Same thing, then."
+Jorren had gone farther north than the first caravan planned.
 
-There he was.
+Then east.
 
-I sheathed the sword.
+Then north again because apparently roads were permitted to form sentences without consulting maps.
 
-"North?"
+Eight days with the smaller freight branch after the caravan split.
 
-He leaned against the fence.
+Six days on a grain escort.
 
-The first caravan had gone two towns farther, like he said it might.
+Three days beside a bridge-repair crew that never got attacked.
 
-Then the company split.
+One additional day after somebody stole breakfast.
 
-Jorren stayed with the smaller branch because it paid another eight days.
+"Bandits?" I asked.
 
-After that he took a grain escort east for six.
+"Dog."
 
-Then three days guarding a bridge-repair crew that never got attacked and one day guarding them after somebody stole their breakfast.
+"You stayed another day because of a dog?"
 
-The thief turned out to be a dog.
+"Large dog."
 
-Large dog.
-
-"You fight it?"
-
-"No."
-
-"Good."
+"Did you fight it?"
 
 "Cook did."
 
@@ -148,67 +156,73 @@ Large dog.
 
 Reasonable ecology.
 
-He had come south with a wool caravan and walked through the north gate this morning.
+After that came culvert work outside Berren Ford.
 
-No baker.
+Not glamorous.
 
-No religion.
+Two days clearing old access grates so a road crew could see whether spring runoff had cracked the channel behind them.
 
-I had apparently overestimated his options.
+That explained the leather patch on his forearm.
 
-"You?" he asked.
+"Stone?"
 
-This was harder.
+"Limeback."
 
-What had happened since he left?
+I stopped chewing.
 
-Good sword.
+"A what?"
 
-Bridge.
+"Little white things under wet masonry. Too many legs. Pel said don't put your hand under one."
 
-Mara.
+"Who is Pel?"
 
-North Gate.
+"Old man on the road crew."
 
-Road work.
+"How old?"
 
-Filter business.
+"Forty."
 
-Vale jobs.
+I looked away until the universe became respectful again.
 
-Ward seams.
+Jorren watched me.
 
-Glasshorns.
+"You okay?"
 
-One Gold party.
+"Continue insulting the elderly."
 
-A neighbor whose name I finally knew.
+"You asked."
 
-Several letters.
+Fair.
 
-Too much.
+He had come south with a wool caravan and reached Carrow late yesterday.
 
-"Work," I said.
+His first night back had not involved finding me.
 
-Jorren stared.
+It had involved closing two work slips, getting paid, washing road mud out of places he refused to specify, and discovering every cheap Guild bed was occupied.
 
-"You became worse at stories."
+I approved of all four priorities except perhaps the order.
 
-"Mara agrees."
+"Where'd you sleep?"
 
-"Mara left?"
+"Stable loft."
 
-Right.
+"Guild?"
 
-He had missed that.
+"Across from it."
 
-"Halden. Vey Shipping office."
+"Paid?"
 
-Jorren nodded once.
+"One copper."
 
-No dramatic sympathy.
+"Luxury."
 
-Good.
+"Had straw."
+
+Dangerous standards.
+
+I told him Mara had left for Halden.
+
+He did not turn that into a funeral.
 
 "You going?"
 
@@ -216,123 +230,419 @@ Good.
 
 "Useful answer."
 
-"I've been practicing."
+I told him I had been west for five days with Edda and Harl.
 
-"I can tell."
+He knew Edda.
 
-I looked at him.
+Of course he did.
 
-"From the post?"
+Not well.
 
-"From you not swinging while we talk."
+Enough to say she did not waste steps.
+
+That was accurate.
+
+I told him about the glasshorns.
+
+He wanted to know whether Pate had panicked.
+
+Apparently he remembered Harl's mule better than Harl.
+
+I told him Pate had behaved more professionally than several humans.
+
+Jorren accepted this immediately.
+
+Then he asked about the sword.
+
+I touched the hilt.
+
+"Still expensive."
+
+"Better?"
+
+"Yes."
+
+"You?"
 
 Rude.
 
-Accurate.
+"Some."
 
-He picked up a wooden practice sword from the rack.
+He looked at me for half a breath too long.
 
-"You want to see if any of it works?"
+"You paid somebody."
 
-I looked toward the yard clerk.
+I stared.
 
-The clerk looked at our Bronze tokens.
+"How do you know that?"
 
-Then at the empty sparring circle near the fence.
+"You said some instead of explaining why everyone else was wrong."
 
-Then returned to his book.
+I disliked travel.
 
-Permission through indifference.
+It had improved him.
 
-I took a practice sword.
+"One silver."
 
-"Same rules?"
+Jorren stopped with the pie halfway to his mouth.
 
-Jorren stepped into the circle.
+Then laughed hard enough that the stall woman looked over.
 
-"We had rules?"
+"You paid one silver to get hit?"
 
-Fair.
+"There was instruction between hits."
 
-The first exchange lasted three seconds.
+"How much?"
 
-Jorren cut high.
+"Less than I hoped."
 
-I read the shoulder.
+He was still smiling when he pulled a folded work slip from inside his coat.
 
-Stepped outside.
+Not casually.
 
-Recovered.
+The smile went away first.
 
-His second cut was already coming.
+Work.
 
-I caught it late.
+Different posture.
 
-Wood cracked against wood.
+"Sella gave me this after I closed the north contracts."
 
-He pressed.
+I took the page.
 
-I gave ground.
+**SUBCELLAR ACCESS CHECK. EAST MILL. TWO BRONZE MINIMUM.**
 
-Not too far.
+There it was.
 
-He changed angle.
+Not waiting at a desk for the exact moment we reunited.
 
-I saw it.
+Already in Jorren's pocket.
 
-My feet did not.
+I looked at him.
 
-Tap against ribs.
+"Why you?"
 
-"Dead," he said.
-
-I hated how comforting that was.
-
-"Again."
-
-Second exchange.
-
-He did not use the same opening.
+"She read the culvert line on the closeout."
 
 Good.
 
-He had learned too.
+"City inspector has an old passage behind a warehouse wall. Water damage opened it. They want the accessible part checked before masons do anything stupid."
 
-Jorren's biggest change was not speed.
+"They said stupid?"
 
-It was patience.
+"I improved the language."
 
-Before, pressure his sword side and his first answer had usually been backward.
+Growth.
 
-Now he sometimes stayed.
+I read the scope.
 
-Sometimes shifted half a step.
+Mark junctions.
 
-Once he let me commit into empty space and tapped the back of my shoulder before I recovered.
+Confirm obvious structural failure, occupied service line, active ward infrastructure, water route, or creature den.
 
-I glared.
+No salvage rights.
 
-"Roads?"
+That line was underlined twice.
 
-"Old man named Pel taught me that."
+Carrow had history.
 
-"How old?"
+"You signed?"
 
-"Forty."
+"Not yet."
 
-I nearly dropped the sword.
+"Why not?"
 
-Jorren frowned.
+"Needs two."
+
+I looked up.
+
+Jorren took another bite of pie.
+
+Chewed.
+
+Waited.
+
+"You're asking me."
+
+"Eventually."
+
+Terrible man.
+
+"Why me?"
+
+That made him frown.
+
+Not because the question was difficult.
+
+Because apparently it was unnecessary.
+
+"I know what you do when something moves."
+
+There.
+
+Not best swordsman.
+
+Not warder.
+
+Not future S-class anything.
+
+I know what you do when something moves.
+
+A strangely good professional reference.
+
+I looked back at the sheet.
+
+"Any smell?"
+
+"Wet stone. No rot. No sulfur."
+
+I looked at him.
+
+"You asked."
+
+"Yes."
+
+"Air moving?"
+
+"A little."
+
+"Water coming through the opening?"
+
+"No."
+
+"Floor drop?"
+
+"Not immediately. Apprentice put his head in."
+
+I lowered the paper.
+
+"His head."
+
+"That was also my reaction."
+
+Jorren had already done the intake I would have done.
+
+Interesting.
+
+Useful.
+
+Annoying in the healthiest possible way.
+
+"Tomorrow?"
+
+"First bell."
+
+"Half day?"
+
+"Unless it goes farther than a hundred yards. Extra after that."
+
+"No salvage."
+
+"Very no salvage."
+
+I handed the sheet back.
+
+"Fine."
+
+Jorren blinked.
+
+"That's it?"
+
+"Would you prefer a speech?"
+
+"I expected more questions."
+
+"You stole them."
+
+"Roads are educational."
+
+"Cheaper than Lera."
+
+"Most things are."
+
+We finished the pies.
+
+Then Jorren remembered he still did not have a bed.
+
+Lower Rook was not a bed.
+
+It did contain a floor.
+
+I had learned this from Noll.
+
+"One night," I said.
+
+Jorren looked at me.
 
 "What?"
 
-"Nothing. Continue disrespecting age."
+"My floor. One night."
+
+"You offering before I ask?"
+
+"I am trying something reckless."
+
+"Food too?"
+
+"Absolutely not."
+
+"Good host."
+
+"I have soap."
+
+He thought about it.
+
+"Better than the stable."
+
+This would become relevant later.
+
+Lower Rook accepted Jorren without ceremony.
+
+Noll was in the cookroom repairing the handle of a pan that had already survived several administrations.
+
+He looked at Jorren.
+
+Then at the pack.
+
+Then at me.
+
+"Guest?"
+
+"Floor," I said.
+
+Noll nodded.
+
+Apparently the building maintained categories.
+
+Jorren introduced himself.
+
+Noll gave his name back.
+
+No one discovered a lost memory.
+
+No one produced an old story about young Greg.
+
+Jorren asked where the pump was.
+
+Noll pointed.
+
+Current relationships remained satisfyingly current.
+
+That night Jorren unrolled his bedroll beside my bed and immediately proved he had lied about snoring.
+
+Not loudly.
+
+Enough.
+
+I lay awake for three minutes considering violence.
+
+Then slept anyway.
+
+At dawn I woke to Jorren already dressed.
+
+This was offensive.
+
+"Road habit," he said.
+
+"Roads are terrible."
+
+"You like roads."
+
+"Not before breakfast."
+
+We reached the Guild early because Jorren's road habit had infected scheduling too.
+
+Sella had not arrived at the desk yet.
+
+The yard clerk had.
+
+I had ten minutes.
+
+That was enough time to make a mistake.
+
+I took a wooden practice sword from the rack.
+
+Jorren saw it.
+
+"Show me the silver."
+
+"That sentence sounds criminal."
+
+He took another.
+
+We used the narrow circle beside the fence.
+
+No warmup worth naming.
+
+No audience.
+
+Jorren lifted the blade.
+
+I knew his old first answer under pressure.
+
+Backward.
+
+I also knew better than to assume weeks had preserved him for my convenience.
+
+He came high.
+
+I stepped outside.
+
+Cut.
+
+Arrive.
+
+Recover.
+
+His second strike came before the old version of me would have been ready.
+
+This version was ready enough.
+
+Wood met wood.
+
+Ugly.
+
+Useful.
+
+We reset.
+
+Jorren smiled.
+
+"Less stupid."
+
+"Paid for."
+
+Second exchange.
+
+He waited.
+
+That was new.
+
+I gave him a small opening.
+
+He did not take it.
+
+Also new.
+
+Then his weight shifted.
+
+I saw it.
+
+Moved.
+
+His blade changed line anyway.
+
+Tap against ribs.
+
+"Dead."
+
+Comforting, somehow.
 
 Third exchange.
 
-I watched his breathing instead of the blade.
+I watched breath instead of sword.
 
-Commitment came.
+Commitment.
 
 Side step.
 
@@ -342,350 +652,100 @@ Arrive.
 
 Recover.
 
-He parried.
+Jorren parried.
 
 Expected.
 
 His counter came low.
 
-I was ready enough to move.
+I was already leaving the first action.
 
-Not elegant.
+Not fast.
 
-Enough.
+Ready.
 
-We reset.
+The tip of my wooden sword touched his shoulder before his reached my thigh.
 
-No hit.
+We stopped.
 
-That felt better than several hits would have.
-
-Jorren noticed.
-
-"You got less stupid."
-
-"I paid for it."
-
-"How much?"
-
-"One silver."
-
-He stopped.
-
-Then laughed hard enough that the yard clerk looked up.
-
-"You paid one silver to learn not to get hit?"
-
-"The return policy is unclear."
-
-"I learned that for free."
-
-"You were punched by a dog thief."
-
-"Man thief. Dog was separate."
-
-Important distinction.
-
-Fourth exchange.
-
-Jorren came in faster.
-
-I stepped.
-
-He expected it.
-
-His sword changed line.
-
-Mine was already recovered.
-
-This time I got the tip against his shoulder first.
-
-Tap.
-
-We both stopped.
-
-Jorren looked at the wooden blade.
+Jorren looked at the blade.
 
 Then at me.
 
 "Huh."
 
-That was worth at least half the silver.
+That remained worth at least half the silver.
 
 He hit me twice after that.
 
 Balance restored.
 
-We finished when my shoulders began making the same argument Lera had taught me to recognize as resource depletion rather than moral weakness.
+The yard door opened.
 
-Also progress.
+Sella walked in, saw us, and did not even slow down.
 
-Jorren put the sword back.
+"If you break those before first bell, you buy them."
 
-"You're better."
+Institutional welcome.
 
-There.
+We put the swords away.
+
+"You're better," Jorren said.
 
 Clean.
 
-I returned mine.
-
 "So are you."
-
-He nodded.
 
 Also clean.
 
-No need to determine which one of us had advanced more while living separate lives.
+No ranking required.
 
-That felt unusually adult.
+Inside, Sella took the East Mill slip from Jorren.
 
-We went inside.
+"Found a second?"
 
-Sella was holding a contract sheet at arm's length while a mason tried to explain why a hole under his warehouse was not technically his hole.
+Jorren pointed at me.
 
-The argument had reached property law.
+I objected to the wording more than the answer.
 
-Promising.
+Sella looked at me.
 
-Sella saw Jorren.
+"You read the scope?"
 
-"You're back."
+"Yes."
 
-"Apparently."
+"No salvage."
 
-I looked at him.
+"I noticed the emotional emphasis."
 
-"That's mine."
+"City noticed previous adventurers."
 
-"You were gone."
+History confirmed.
 
-Fair.
+Jorren signed first.
 
-Sella stamped his closed contract.
+Not because I waited.
 
-Then held out another sheet.
+Because it was his job before it was ours.
 
-Not to him.
-
-To the mason.
-
-"If the wall opened from your cellar, city inspection says your access is your responsibility until the line reaches public grade."
-
-The mason objected to several nouns.
-
-Sella survived.
-
-I should have walked away.
-
-Instead I looked at the sheet.
-
-The title was visible upside down.
-
-**SUBCELLAR ACCESS CHECK. TWO BRONZE MINIMUM.**
-
-Of course.
-
-Jorren saw me reading.
-
-"Don't."
-
-"I am only observing."
-
-"You have the face."
-
-Sella heard that.
-
-Traitor.
-
-She turned the contract around.
-
-Recent water damage beneath an old bonded warehouse near East Mill had opened a section of cellar wall.
-
-Behind it was a masonry passage not shown on the owner's current building plan.
-
-Not unheard of in Carrow.
-
-Cities accumulated forgotten structures the way old adventurers accumulated injuries.
-
-The owner wanted the accessible section checked before masons sealed or incorporated it.
-
-City wanted chalk marks at every junction and confirmation that nobody had found a public drain, occupied service line, active ward system, obvious structural failure, or creature den.
-
-Two Bronze minimum.
-
-Half-day rate.
-
-Extra if the passage extended beyond the first hundred yards.
-
-No salvage rights.
-
-That line was underlined twice.
-
-Somebody had learned.
-
-Jorren read beside me.
-
-"Tomorrow?"
-
-Sella said yes.
-
-The mason said preferably today.
-
-Sella ignored him.
-
-I looked at Jorren.
-
-He looked at me.
-
-There were several reasons not to take the job.
-
-Underground uncertainty.
-
-Old masonry.
-
-Possible water.
-
-No salvage.
-
-My support assessment still weeks away.
-
-My purse had recently experienced education and postage.
-
-There were also several reasons to take it.
-
-Underground uncertainty.
-
-Old masonry.
-
-Possible water.
-
-Pay.
-
-Jorren smiled.
-
-"You're doing the face again."
-
-"Which one?"
-
-"The one before you make my day longer."
-
-Excellent.
-
-Sella held out the pen.
-
-I did not take it.
-
-Not yet.
-
-I looked at the mason.
-
-"Any smell?"
-
-He blinked.
-
-"What?"
-
-"From the opening. Rot. Sulfur. Sweet. Metal. Animals."
-
-He thought.
-
-"Wet stone."
-
-"Air moving?"
-
-"A little."
-
-"Water coming through?"
-
-"No."
-
-"Anyone go inside?"
-
-One apprentice had put his head through.
-
-How far?
-
-"His head."
-
-Useful apprentice.
-
-Jorren asked whether the floor dropped.
-
-The mason said not immediately.
-
-Good question.
-
-Sella waited while we did enough of her intake work to become irritating.
-
-Then she held the pen out again.
-
-Jorren took it first.
-
-Signed.
-
-He handed it to me.
-
-Not a promise.
-
-Not a party.
-
-A half-day contract.
+He handed me the pen.
 
 I signed beneath him.
 
-Sella sanded the ink.
+Two Bronze.
 
-"Tomorrow. First bell. Bring lamps. Owner supplies chalk."
+One half-day access check.
 
-The mason finally looked relieved.
+No party declaration.
 
-That made one of us.
+No destiny.
 
-Outside the Guild, Jorren picked up his pack.
+No promise beyond the work slip.
 
-"I need a bed."
+The warehouse mason was waiting outside with a sack of chalk and the face of a man whose hole had survived the night.
 
-"Guild beds?"
+We started toward East Mill.
 
-"Full."
+Eventually had not arrived when I was ready for it.
 
-I thought about Lower Rook.
-
-Noll had slept on my floor after the fire.
-
-There was room.
-
-Probably.
-
-I opened my mouth.
-
-Then remembered that generosity had logistics.
-
-"You snore?"
-
-Jorren looked offended.
-
-"No."
-
-Everyone said that.
-
-"Fine. One night. Floor."
-
-"You have food?"
-
-"No."
-
-"Good host."
-
-"I have soap."
-
-"Better."
-
-We started toward Lower Rook.
-
-Tomorrow we would go under somebody else's building and determine whether an old hole qualified as a problem.
-
-Today Jorren needed a floor.
-
-Eventually had arrived looking remarkably ordinary...
+It had come back yesterday, eaten a meat pie, found work without me, and only then decided I might be useful...
