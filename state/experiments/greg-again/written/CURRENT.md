@@ -60,6 +60,8 @@ Greg owns POV continuity, not reality, causality, expertise, or everybody else's
 
 Bodies, tools, money, habits, relationships, institutional behavior, absences, new competence, and changed opportunities can prove time passed.
 
+Skip repetition once its pattern is established. Return when residue changes a live choice.
+
 ### PROGRESSION OPENS THE NEXT CONSTRAINT
 
 > **Success should often reveal the next deficiency instead of functioning as a static reward screen.**
@@ -71,6 +73,16 @@ Capability remains conditional on environment, equipment, timing, fatigue, infor
 Thought is action when it changes the next bet, cut, step, purchase, refusal, question, instruction, or choice under pressure.
 
 Avoid essay-shaped interiority that could be moved after the event without changing behavior.
+
+Strong action-thought pattern:
+
+```text
+STIMULUS
+→ GREG MODEL / EXPECTATION
+→ ACTION INTERRUPTS OR FALSIFIES IT
+→ MOTOR RESPONSE / DECISION
+→ THOUGHT UPDATES AFTER CONSEQUENCE
+```
 
 ### GREG'S STRENGTHS CREATE SPECIFIC FAILURE MODES
 
@@ -102,13 +114,33 @@ Greg may recognize the shape of a failure, danger, negotiation, or support probl
 
 A small current-life ability does not need to solve the whole scene to matter.
 
-One correctly placed step, barrier pulse, warning, or decision can change an outcome without becoming a power spike.
+One correctly placed step, barrier pulse, warning, brace, or decision can change an outcome without becoming a power spike.
+
+The useful variable may be angle, timing, load direction, or placement rather than magnitude.
 
 ### ACTION IS STATE CHANGE UNDER PRESSURE
 
 Combat is one kind of action.
 
-Technical failure, gambling, negotiation, industrial hazard, pursuit, logistics, sex/intimacy, magical failure, and other pressure can all be action when decisions immediately change state.
+Technical failure, gambling, negotiation, industrial hazard, mechanical emergency, road violence, rescue, travel logistics, intimacy, magical failure, and other pressure can all be action when decisions immediately change state.
+
+### PREPARED SYSTEMS CREATE PREPARED OPPOSITION
+
+A defense, business model, habitual tactic, or known capability may cause other actors to develop counters.
+
+Progression should not become permanent safety merely because the capability worked once.
+
+### FUTURE KNOWLEDGE IS LATER REALITY, NOT PRESENT TERRAIN
+
+Future knowledge may omit the history, current constraints, intermediate inventions, ownership, people, or infrastructure that produced the remembered result.
+
+It can mislead through confidence even when the remembered future fact is true.
+
+### TIME MAY MAKE GREG LESS CENTRAL
+
+Supporting characters are allowed to become more competent, make decisions, gain opportunities, leave, build relationships, and change systems while Greg is absent.
+
+The world moving without Greg is evidence of world agency, not lost protagonist agency.
 
 ### STOP WHEN THE CAUSAL CHAIN LANDS
 
@@ -120,160 +152,177 @@ Move useful material to the next place where it causes something.
 
 ### Chapter 1 — The Boy
 
-Selected page-native experiment:
-
 `state/experiments/greg-again/prose/001-the-boy.md`
 
-Signal:
-
-- close Greg consciousness survives a return from speech-oriented experimentation when page rhythm is rebuilt rather than copied
+Close Greg consciousness survives a return from speech-oriented experimentation when page rhythm is rebuilt rather than copied.
 
 ### Chapter 2 — Two Things
 
-Selected page render:
-
 `state/experiments/greg-again/prose/002-two-things.md`
 
-Evaluation:
+Evaluation: `state/experiments/greg-again/evals/002-two-things.md`
 
-`state/experiments/greg-again/evals/002-two-things.md`
-
-Result:
-
-> **GREG-DOMINANT provisionally beats both the LIGHT-ish control and EXTREME for this scene.**
+GREG-DOMINANT provisionally beats the LIGHT-ish control and EXTREME for this scene.
 
 ### Chapter 3 — The Borrower
 
-Selected page render:
-
 `state/experiments/greg-again/prose/003-the-borrower.md`
 
-Hostile rehearsal:
+Hostile rehearsal: `state/experiments/greg-again/rehearsals/003-arlo-vale-hostile-test.md`
 
-`state/experiments/greg-again/rehearsals/003-arlo-vale-hostile-test.md`
+Evaluation: `state/experiments/greg-again/evals/003-the-borrower.md`
 
-Evaluation:
-
-`state/experiments/greg-again/evals/003-the-borrower.md`
-
-Result:
-
-> **GREG-DOMINANT independently survives technical falsification and binding negotiation.**
+GREG-DOMINANT independently survives technical falsification and binding negotiation.
 
 ### Chapter 4 — Thirty Days
 
-Control/quarry:
-
-`state/experiments/plg-r2/prose/004-thirty-days.md`
-
-Story search:
-
-`state/experiments/greg-again/rehearsals/004-story-search.md`
-
-Selected page render:
-
 `state/experiments/greg-again/prose/004-thirty-days.md`
 
-Evaluation:
+Story search: `state/experiments/greg-again/rehearsals/004-story-search.md`
 
-`state/experiments/greg-again/evals/004-thirty-days.md`
+Evaluation: `state/experiments/greg-again/evals/004-thirty-days.md`
 
-Result:
-
-> **RESIDUE UNDER PRESSURE + GREG-DOMINANT wins.**
-
-The saltback material survives, but the inherited structure does not. The selected chapter reaches the live contract earlier and lets action prove what the month changed.
+RESIDUE UNDER PRESSURE + GREG-DOMINANT wins. The saltback material survives, but the inherited structure does not. Action proves what the month changed.
 
 ### Chapter 5 — The Partner
 
-Control/quarry:
-
-`state/experiments/plg-r2/prose/005-the-partner.md`
-
-Story search:
-
-`state/experiments/greg-again/rehearsals/005-story-search.md`
-
-Selected page render:
-
 `state/experiments/greg-again/prose/005-the-partner.md`
 
-Evaluation:
+Story search: `state/experiments/greg-again/rehearsals/005-story-search.md`
 
-`state/experiments/greg-again/evals/005-the-partner.md`
+Evaluation: `state/experiments/greg-again/evals/005-the-partner.md`
 
-Result:
-
-> **PARTNERSHIP UNDER DEADLINE → GAMBLING CONSEQUENCE wins.**
-
-Arlo's first sale forces ownership boundaries. Future project value does not solve Greg's present debt. Greg then uses real gambling skill to solve the cash gap and nearly taxes his own success because the unfinished model becomes more interesting than leaving.
-
-The better-sword purchase from the control is preserved as quarry but moved out of the chapter because it functioned as an unnecessary fourth ending.
+PARTNERSHIP UNDER DEADLINE → GAMBLING CONSEQUENCE wins. The better-sword purchase remains quarry rather than a fourth ending.
 
 ### Chapter 6 — The First Customer
 
-There is no inherited R2 Chapter 6 authority.
-
-Story search:
-
-`state/experiments/greg-again/rehearsals/006-story-search.md`
-
-Selected new page-native chapter:
-
 `state/experiments/greg-again/prose/006-the-first-customer.md`
 
-Evaluation:
+Story search: `state/experiments/greg-again/rehearsals/006-story-search.md`
 
-`state/experiments/greg-again/evals/006-the-first-customer.md`
+Evaluation: `state/experiments/greg-again/evals/006-the-first-customer.md`
 
-Result:
+FIRST CUSTOMER CONSEQUENCE → MAGIC / INDUSTRIAL INCIDENT wins the first true-frontier search. Scale changes the product problem. Greg's support expertise arrives first as procedure and prioritization. Raw power returns only as a tiny emergency pulse.
 
-> **FIRST CUSTOMER CONSEQUENCE → MAGIC/INDUSTRIAL INCIDENT wins the first true-frontier story search.**
+## Chapters 7–10 — Action / Time Batch
 
-Arlo's first sale works before failing under real-use scale. The customer relationship acquires downside and bargaining power. Greg's old support instincts recognize a containment problem before his current mana can execute the remembered solution. A tiny barrier pulse matters without solving the incident.
+Batch rehearsal:
 
-New signals:
+`state/experiments/greg-again/rehearsals/007-010-story-batch.md`
 
-- SCALE CHANGES THE PROBLEM
-- shared downside makes partnership real
-- customer/domain authority matters
-- old expertise can survive as procedural instinct before power
-- tiny capability can matter at high leverage
-- action can be non-combat without becoming static
+Batch evaluation:
 
-## True frontier after Chapter 6
+`state/experiments/greg-again/evals/007-010-action-time-batch.md`
+
+The batch deliberately widens the physical world, increases action density, and allows roughly two weeks to pass without showing every day.
+
+### Chapter 7 — The Extra Guard
+
+`state/experiments/greg-again/prose/007-the-extra-guard.md`
+
+Greg takes the first leg of Jorren's north-road caravan rather than remaining in Carrow for another optimization loop.
+
+A runaway loaded wagon creates logistical action and introduces Meral as a working caravan warder rather than a bespoke mentor.
+
+Signal:
+
+> **Support controls which failure reaches people.**
+
+### Chapter 8 — Road Work
+
+`state/experiments/greg-again/prose/008-road-work.md`
+
+Several road days compress into changed habits before a prepared robbery uses a ward-break charm against Meral's expected defense.
+
+Greg contributes through warning, movement, one small projectile deflection, and one sword exchange. Jorren and Meral remain better at their current specialties. Greg's bad recovery gets him punched.
+
+Signals:
+
+> **A support mind should change the field even when its individual actions are small.**
+
+> **Prepared systems create prepared opposition.**
+
+### Chapter 9 — The Bridge
+
+`state/experiments/greg-again/prose/009-the-bridge.md`
+
+Rain-damaged present infrastructure defeats Greg's false familiarity with the future version of the crossing.
+
+A wagon rescue requires Jorren, Meral, drivers, draft animals, ropes, wards, and Greg to solve different constraints.
+
+Greg intentionally rotates his tiny plane under load for the first time.
+
+Signals:
+
+> **Small capability becomes large at the constraint.**
+
+> **Future knowledge is a map of later reality, not present terrain.**
+
+### Chapter 10 — What Moved
+
+`state/experiments/greg-again/prose/010-what-moved.md`
+
+Jorren continues north. Greg returns south after roughly two weeks away total.
+
+The return travel compresses aggressively because repetition no longer creates new decisions.
+
+Arlo and Ivena have advanced the filter design, safety system, customer relationship, pricing, and production without Greg.
+
+A live full-load test succeeds partly because the revised system expects pressure and gives failure somewhere safe to go.
+
+Signal:
+
+> **Time is allowed to make Greg less central.**
+
+## Batch result through Chapter 10
+
+The selected written run now has materially more action and larger honest time movement than the inherited early R2 structure.
+
+Chapters 7–10 use four distinct action modes:
+
+1. moving mechanical emergency
+2. human road violence
+3. environmental rescue
+4. live industrial test under customer constraints
+
+Only one is primarily combat.
+
+Time advances when repetition has established its pattern. The narrative returns when changed state alters a live choice.
+
+Progression across the batch is qualitative rather than numeric:
+
+- accidental useful shape becomes deliberate drill
+- deliberate shape works under attack but exposes resource limits
+- the same tiny shape gains directional control under load
+- the skill survives without Meral and becomes part of Greg's independent decision set
+
+## Frontier after Chapter 10
 
 Current selected story state:
 
-- Vale is paid on time.
-- Greg has almost no cash again.
-- Vale remains interested but has not automatically become the next plot.
-- Greg and Arlo remain bounded partners after absorbing their first real customer loss.
-- Ivena is now a real customer relationship with process knowledge, losses, and bargaining power.
-- Kestrin filtration remains promising but has an earned warm-flow / duration / load constraint.
-- Arlo needs a warm continuous-flow test and a safer bypass condition.
-- Greg produced a crooked palm-wide barrier response for less than a heartbeat.
-- support magic now matters emotionally because it touches what Greg later became.
-- mana remains weak enough that remembered support solutions are unavailable.
-- recovery remains a sword gap.
-- Jorren leaves north soon.
-- Greg cannot pursue business, mana, sword, money, Jorren, and every future lead simultaneously.
+- Greg has road pay and no Vale debt.
+- Greg can intentionally produce and angle a tiny support plane for several breaths under calm conditions.
+- he has successfully used tiny support acts in multiple high-leverage emergencies.
+- he remains nowhere near old S-class power.
+- recovery remains an active sword weakness.
+- Jorren is north and unavailable as a convenient local training partner.
+- Meral is gone and should not become a standing curriculum dispenser.
+- Arlo and Ivena have a safer two-stage filter path and a four-unit real order.
+- Arlo and Ivena can improve the project without Greg.
+- Greg's remembered mature filter no longer cleanly matches the present invention path.
+- Greg now has enough cash for one or two meaningful choices, not every progression lane.
+- better sword remains available quarry, but is not automatically the next reward.
+- support instruction, cash reserve, filter investment, equipment, and other opportunities now compete.
+- Vale has seen Greg repay on time and may update how he prices or uses Greg later, but Vale does not need to appear immediately.
+- the world has physically widened beyond Carrow.
 
-## Next story search pressure
+## Next story pressure
 
 > **MAKE PRIORITY CAUSAL.**
 
-The next chapter should not let Greg advance every lane at once.
+Greg now has more options than resources.
 
-Live candidates include:
-
-- pursue support-magic instruction while the barrier failure is emotionally hot
-- stay with Arlo/Ivena long enough to make the product safe in real use
-- spend scarce time with Jorren before he leaves north
-- exploit or resist Vale's growing interest
-- solve cash scarcity again without returning immediately to the same gambling loop
-
-The next story should make choosing one direction create cost or movement in another.
+The next irreversible choice should force him to advance one or two lanes while allowing others to move, worsen, close, or become somebody else's opportunity.
 
 Do not ask what canon did next unless quarry becomes useful after the current-state search.
 
