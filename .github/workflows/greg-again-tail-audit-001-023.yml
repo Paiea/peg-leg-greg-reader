@@ -1,4 +1,4 @@
-name: Normalize Greg Again Chapter Tails 001-023
+name: Diagnose Greg Again Chapter 015 Tail
 
 on:
   push:
@@ -8,253 +8,51 @@ on:
       - .github/workflows/greg-again-tail-audit-001-023.yml
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  normalize:
+  diagnose:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
         with:
           ref: audio/greg-again-tail-normalize-001-023
-          fetch-depth: 0
+          fetch-depth: 1
       - name: Install ffmpeg tools
         shell: bash
         run: |
           set -euo pipefail
-          sudo apt-get update -y
-          sudo apt-get install -y ffmpeg
-      - name: Refresh current main
+          sudo apt-get update -y >/dev/null
+          sudo apt-get install -y ffmpeg >/dev/null
+      - name: Reproduce Chapter 015 concat edge
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git fetch origin main
-          git merge --no-edit origin/main
-      - name: Normalize published chapter tails
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import datetime, hashlib, json, pathlib, re, shutil, subprocess, tempfile
+          src='greg-again/audio/assets/chapter-015.mp3'
+          tmp="$(mktemp -d)"
+          trap 'rm -rf "$tmp"' EXIT
 
-          ROOT = pathlib.Path('.')
-          MANIFEST = ROOT / 'greg-again/audio/manifest.json'
-          REPORT = ROOT / 'greg-again/audio/production/2026-09-08-tail-normalization-001-023.md'
-          TARGET = 2.0
-          MIN_OK = 1.5
-          MAX_OK = 2.5
+          echo '=== ORIGINAL PROBE ==='
+          ffprobe -v error -show_entries stream=codec_name,sample_rate,channels,channel_layout,bit_rate -show_entries format=duration,bit_rate,start_time -of json "$src"
+          echo '=== ORIGINAL LAST PACKETS ==='
+          ffprobe -v error -select_streams a:0 -show_packets -show_entries packet=pts_time,dts_time,duration_time,size,flags -of csv=p=0 "$src" | tail -n 8
+          echo '=== ORIGINAL TAIL DETECT ==='
+          ffmpeg -hide_banner -nostats -sseof -5 -i "$src" -af 'silencedetect=noise=-45dB:d=0.10' -f null - 2>&1 | grep -E 'silence_(start|end)|Duration|time=' || true
 
-          def run(cmd, **kwargs):
-              return subprocess.run(cmd, check=True, text=True, **kwargs)
+          ffmpeg -v error -y -f lavfi -i 'anullsrc=r=24000:cl=mono' -t 1.401 -c:a libmp3lame -b:a 128k -write_xing 0 -id3v2_version 0 "$tmp/silence.mp3"
+          echo '=== SILENCE PROBE ==='
+          ffprobe -v error -show_entries stream=codec_name,sample_rate,channels,channel_layout,bit_rate -show_entries format=duration,bit_rate,start_time -of json "$tmp/silence.mp3"
+          echo '=== SILENCE DETECT ==='
+          ffmpeg -hide_banner -nostats -i "$tmp/silence.mp3" -af 'silencedetect=noise=-45dB:d=0.10' -f null - 2>&1 | grep -E 'silence_(start|end)|Duration|time=' || true
 
-          def probe(path):
-              out = subprocess.check_output([
-                  'ffprobe','-v','error','-select_streams','a:0',
-                  '-show_entries','stream=codec_name,sample_rate,channels,channel_layout,bit_rate',
-                  '-show_entries','format=duration','-of','json',str(path)
-              ], text=True)
-              d = json.loads(out)
-              s = d['streams'][0]
-              return {
-                  'codec': s.get('codec_name'),
-                  'sample_rate': int(s.get('sample_rate') or 0),
-                  'channels': int(s.get('channels') or 0),
-                  'channel_layout': s.get('channel_layout') or ('mono' if int(s.get('channels') or 0) == 1 else 'stereo'),
-                  'bit_rate': int(s.get('bit_rate') or 128000),
-                  'duration': float(d['format']['duration']),
-              }
-
-          def tail_silence(path):
-              info = probe(path)
-              proc = subprocess.run([
-                  'ffmpeg','-hide_banner','-nostats','-i',str(path),
-                  '-af','silencedetect=noise=-45dB:d=0.10','-f','null','-'
-              ], text=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, check=False)
-              starts = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', proc.stderr)]
-              ends = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', proc.stderr)]
-              tail = 0.0
-              if starts:
-                  last_start = starts[-1]
-                  later_end = next((e for e in ends if e > last_start), None)
-                  if later_end is None or later_end >= info['duration'] - 0.05:
-                      tail = max(0.0, info['duration'] - last_start)
-              return info, tail
-
-          def packet_hashes(path):
-              out = subprocess.check_output([
-                  'ffprobe','-v','error','-select_streams','a:0','-show_packets',
-                  '-show_entries','packet=data_hash','-show_data_hash','sha256','-of','json',str(path)
-              ], text=True)
-              return [p.get('data_hash') for p in json.loads(out).get('packets', []) if p.get('data_hash')]
-
-          manifest = json.load(open(MANIFEST, encoding='utf-8'))
-          chapters = sorted(
-              [c for c in manifest['chapters'] if 1 <= int(c['number']) <= 23],
-              key=lambda c: int(c['number'])
-          )
-          if not chapters:
-              raise SystemExit('No published chapters 1-23 found in manifest')
-
-          before = {}
-          modified = []
-          rows = []
-
-          for c in chapters:
-              n = int(c['number'])
-              path = ROOT / 'greg-again/audio' / c['audio_src']
-              if not path.is_file():
-                  raise SystemExit(f'Missing published audio: {path}')
-              info_before, tail_before = tail_silence(path)
-              if info_before['codec'] != 'mp3':
-                  raise SystemExit(f'Chapter {n:03d} is not MP3: {info_before}')
-              original_packet_hashes = packet_hashes(path)
-              if not original_packet_hashes:
-                  raise SystemExit(f'No MP3 packet hashes for Chapter {n:03d}')
-
-              before[n] = (info_before, tail_before, original_packet_hashes)
-              if tail_before >= MIN_OK:
-                  rows.append((n, info_before['duration'], tail_before, info_before['duration'], tail_before, 0.0, 'left unchanged'))
-                  continue
-
-              add = TARGET - tail_before
-              if add <= 0:
-                  raise SystemExit(f'Unexpected non-positive append for Chapter {n:03d}: {add}')
-
-              with tempfile.TemporaryDirectory(prefix=f'ga{n:03d}-tail-') as td:
-                  td = pathlib.Path(td)
-                  silence = td / 'silence.mp3'
-                  concat = td / 'concat.txt'
-                  candidate = td / 'candidate.mp3'
-
-                  bitrate_k = max(32, round(info_before['bit_rate'] / 1000))
-                  run([
-                      'ffmpeg','-v','error','-y','-f','lavfi',
-                      '-i',f"anullsrc=r={info_before['sample_rate']}:cl={info_before['channel_layout']}",
-                      '-t',f'{add:.6f}','-c:a','libmp3lame','-b:a',f'{bitrate_k}k',
-                      '-write_xing','0','-id3v2_version','0',str(silence)
-                  ])
-
-                  def esc(p):
-                      return str(p.resolve()).replace("'", "'\\''")
-                  concat.write_text(f"file '{esc(path)}'\nfile '{esc(silence)}'\n", encoding='utf-8')
-                  run([
-                      'ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',str(concat),
-                      '-map','0:a:0','-c:a','copy','-write_xing','0','-id3v2_version','0',str(candidate)
-                  ])
-
-                  info_after, tail_after = tail_silence(candidate)
-                  candidate_hashes = packet_hashes(candidate)
-                  if info_after['codec'] != info_before['codec']:
-                      raise SystemExit(f'Codec changed for Chapter {n:03d}')
-                  if info_after['sample_rate'] != info_before['sample_rate'] or info_after['channels'] != info_before['channels']:
-                      raise SystemExit(f'Stream shape changed for Chapter {n:03d}: {info_before} -> {info_after}')
-                  if not (MIN_OK <= tail_after <= MAX_OK):
-                      raise SystemExit(f'Chapter {n:03d} candidate tail {tail_after:.3f}s outside {MIN_OK}-{MAX_OK}s')
-                  # Stream-copy assembly must retain the original compressed audio packets exactly,
-                  # followed only by newly encoded silence packets. Allow at most one leading
-                  # muxer bookkeeping packet difference, then require the original packet run.
-                  found = False
-                  for offset in (0, 1):
-                      end = offset + len(original_packet_hashes)
-                      if candidate_hashes[offset:end] == original_packet_hashes:
-                          found = True
-                          break
-                  if not found:
-                      raise SystemExit(f'Original MP3 packet payloads were not preserved for Chapter {n:03d}')
-                  if info_after['duration'] <= info_before['duration']:
-                      raise SystemExit(f'Duration did not increase for Chapter {n:03d}')
-
-                  shutil.copyfile(candidate, path)
-                  c['duration_seconds'] = round(info_after['duration'], 3)
-                  modified.append(n)
-                  rows.append((n, info_before['duration'], tail_before, info_after['duration'], tail_after, add, 'normalized'))
-
-          # Re-probe every published chapter in scope after all writes.
-          for c in chapters:
-              n = int(c['number'])
-              path = ROOT / 'greg-again/audio' / c['audio_src']
-              info, tail = tail_silence(path)
-              if not (MIN_OK <= tail <= MAX_OK):
-                  raise SystemExit(f'FINAL VERIFY: Chapter {n:03d} tail {tail:.3f}s outside {MIN_OK}-{MAX_OK}s')
-              if abs(float(c['duration_seconds']) - info['duration']) > 0.08:
-                  raise SystemExit(f'FINAL VERIFY: manifest duration mismatch Chapter {n:03d}: {c["duration_seconds"]} vs {info["duration"]:.3f}')
-
-          with open(MANIFEST, 'w', encoding='utf-8') as f:
-              json.dump(manifest, f, indent=2, ensure_ascii=False)
-              f.write('\n')
-
-          published_numbers = [int(c['number']) for c in chapters]
-          missing = [n for n in range(1, 24) if n not in published_numbers]
-          lines = [
-              '# Greg, Again Chapters 001-023 Tail Normalization',
-              '',
-              'Date: 2026-09-08 (Hawaiʻi local project date)',
-              '',
-              '## Purpose',
-              '',
-              'Retrofit the listener-facing chapter-tail finishing rule approved after Chapter 23 production began. This pass does not regenerate narration and does not alter individual provider take files. It appends only the missing deterministic silence to final published chapter MP3s.',
-              '',
-              'Target: about 2.0 seconds of silence after the final spoken word. Accepted verification window: 1.5–2.5 seconds.',
-              '',
-              'Detection: `ffmpeg` `silencedetect=noise=-45dB:d=0.10` on the final listener-facing chapter file.',
-              '',
-              'Assembly: generate a short MP3 silence segment matching the chapter stream, then concatenate with `-c:a copy`. Original compressed MP3 packet payload hashes are verified as an unchanged prefix before replacement.',
-              '',
-              '## Results',
-              '',
-              '| Chapter | Before duration | Before tail | Added target | After duration | After tail | Result |',
-              '| ---: | ---: | ---: | ---: | ---: | ---: | --- |',
-          ]
-          for n,bd,bt,ad,at,add,status in rows:
-              lines.append(f'| {n:03d} | {bd:.3f}s | {bt:.3f}s | {add:.3f}s | {ad:.3f}s | {at:.3f}s | {status} |')
-          lines += [
-              '',
-              f'Published chapters in scope: {len(published_numbers)}.',
-              f'Normalized final chapter files: {len(modified)}.',
-              'Normalized chapters: ' + (', '.join(f'{n:03d}' for n in modified) if modified else 'none') + '.',
-              'Unpublished chapter numbers still absent from current manifest at this pass: ' + (', '.join(f'{n:03d}' for n in missing) if missing else 'none') + '.',
-              '',
-              'Any chapter not yet published was deliberately not taken from another worker branch. Its normal publication worker remains responsible for the current chapter-tail rule.',
-              '',
-              '## Verification',
-              '',
-              '- every published Chapter 001-023 final MP3 is playable by `ffprobe`/`ffmpeg`',
-              '- sample rate and channel count are unchanged for every modified chapter',
-              '- original compressed narration packet payloads are preserved before the appended silence',
-              '- every published final chapter in scope finishes within the 1.5–2.5 second accepted tail window',
-              '- manifest `duration_seconds` values match final files within 0.08 seconds',
-              '- individual take/chunk binaries are untouched',
-              '',
-          ]
-          REPORT.parent.mkdir(parents=True, exist_ok=True)
-          REPORT.write_text('\n'.join(lines), encoding='utf-8')
-
-          print(f'published_count={len(published_numbers)}')
-          print('normalized=' + ','.join(f'{n:03d}' for n in modified))
-          print('unpublished=' + ','.join(f'{n:03d}' for n in missing))
-          for n,bd,bt,ad,at,add,status in rows:
-              print(f'{n:03d}: {bt:.3f}s -> {at:.3f}s tail; {bd:.3f}s -> {ad:.3f}s duration; {status}')
-          PY
-      - name: Guard changed paths and commit
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          changed="$(git status --short | awk '{print $2}')"
-          echo "$changed"
-          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^greg-again/audio/assets/chapter-(00[1-9]|01[0-9]|02[0-3])\.mp3$|^greg-again/audio/manifest\.json$|^greg-again/audio/production/2026-09-08-tail-normalization-001-023\.md$' || true)"
-          if [ -n "$unexpected" ]; then
-            echo 'Unexpected changed paths:' >&2
-            printf '%s\n' "$unexpected" >&2
-            exit 1
-          fi
-          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard greg-again/audio/production/2026-09-08-tail-normalization-001-023.md)" ]; then
-            echo 'No normalization changes produced' >&2
-            exit 1
-          fi
-          git add greg-again/audio/assets/chapter-*.mp3 greg-again/audio/manifest.json greg-again/audio/production/2026-09-08-tail-normalization-001-023.md
-          git commit -m 'audio: normalize Greg Again chapter tails 001-023'
-          git push origin HEAD:audio/greg-again-tail-normalize-001-023
+          printf "file '%s'\nfile '%s'\n" "$(realpath "$src")" "$(realpath "$tmp/silence.mp3")" > "$tmp/concat.txt"
+          echo '=== CONCAT COMMAND ==='
+          ffmpeg -hide_banner -y -f concat -safe 0 -i "$tmp/concat.txt" -map 0:a:0 -c:a copy -write_xing 0 -id3v2_version 0 "$tmp/candidate.mp3" 2>&1 | tail -n 30
+          echo '=== CANDIDATE PROBE ==='
+          ffprobe -v error -show_entries stream=codec_name,sample_rate,channels,channel_layout,bit_rate -show_entries format=duration,bit_rate,start_time -of json "$tmp/candidate.mp3"
+          echo '=== CANDIDATE LAST PACKETS ==='
+          ffprobe -v error -select_streams a:0 -show_packets -show_entries packet=pts_time,dts_time,duration_time,size,flags -of csv=p=0 "$tmp/candidate.mp3" | tail -n 16
+          echo '=== CANDIDATE TAIL DETECT FULL ==='
+          ffmpeg -hide_banner -nostats -i "$tmp/candidate.mp3" -af 'silencedetect=noise=-45dB:d=0.10' -f null - 2>&1 | grep -E 'silence_(start|end)|Duration|time=' | tail -n 20 || true
+          echo '=== CANDIDATE TAIL DETECT SSEOF ==='
+          ffmpeg -hide_banner -nostats -sseof -5 -i "$tmp/candidate.mp3" -af 'silencedetect=noise=-45dB:d=0.10' -f null - 2>&1 | grep -E 'silence_(start|end)|Duration|time=' || true
