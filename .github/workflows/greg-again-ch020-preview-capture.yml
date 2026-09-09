@@ -17,6 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: audio/greg-again-ch020-recovery-publish
+          fetch-depth: 0
       - name: Capture preview-safe take
         shell: bash
         run: |
@@ -34,7 +35,7 @@ jobs:
               raise SystemExit(f'unexpected MP3 signature: {head!r}')
           print(f'captured {p} ({p.stat().st_size} bytes)')
           PY
-      - name: Commit captured artifact
+      - name: Commit captured artifact safely
         shell: bash
         run: |
           set -euo pipefail
@@ -46,4 +47,6 @@ jobs:
             exit 0
           fi
           git commit -m 'audio: capture Chapter 20 preview-safe take 01'
+          git fetch origin audio/greg-again-ch020-recovery-publish
+          git rebase origin/audio/greg-again-ch020-recovery-publish
           git push origin HEAD:audio/greg-again-ch020-recovery-publish
