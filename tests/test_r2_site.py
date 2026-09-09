@@ -24,6 +24,19 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(chapter['written']['status'], 'unavailable')
         self.assertEqual(chapter['images'], [])
 
+    def test_homepage_explains_run_two_and_links_run_one(self):
+        html = (R2 / 'index.html').read_text(encoding='utf-8')
+        self.assertIn('Greg has had two lives so far. So has his story.', html)
+        self.assertIn('Peg-Leg Greg was written once already', html)
+        self.assertIn('href="../index.html"', html)
+        self.assertIn('Listen', html)
+        self.assertIn('Read', html)
+        self.assertIn('Look', html)
+
+    def test_public_routes_exist(self):
+        for path in ['about/index.html', 'chapters/index.html', 'gallery/index.html', 'chapter.html']:
+            self.assertTrue((R2 / path).exists(), path)
+
 
 if __name__ == '__main__':
     unittest.main()
