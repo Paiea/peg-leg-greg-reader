@@ -96,6 +96,10 @@ The final spoken beat should feel like the chapter's actual closing thought, ima
 
 Do not invent an extra closing sentence just to manufacture closure. If the authoritative ending is deliberately unresolved, abrupt, or open, preserve that shape. The rule is to let the real ending land, not to conventionalize it.
 
+The final spoken beat should also **sound finished**. Prefer a settled, downward cadence rather than a rising or continuation-like delivery that makes a complete idea feel unfinished. This is performance shaping, not story rewriting.
+
+Provider-facing performance punctuation may differ from written punctuation when the spoken words remain identical and the change reliably improves cadence. For example, a terminal ellipsis may be used on the final take when it produces the desired settling delivery. Do not silently change lexical content, and do not flow provider-only punctuation back into written authority unless the prose itself is separately revised.
+
 After the final spoken word, the listener should get a short clean tail before the file ends so the last idea has time to register by ear. Production owns the exact tail treatment.
 
 ## Written Finish

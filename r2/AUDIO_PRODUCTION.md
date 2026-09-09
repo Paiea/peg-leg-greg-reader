@@ -226,6 +226,8 @@ For each take:
 6. cross the provider artifact boundary before considering the take production-complete
 7. do not silently paraphrase the text because a provider call is inconvenient
 
+For the **final take of a chapter**, shape the delivery so the authoritative last thought lands with a settled, downward cadence rather than sounding like a question or like more narration is about to follow. Provider-facing punctuation may be adjusted without changing the spoken words when that reliably controls performance. A terminal ellipsis is an allowed tool when it produces the desired landing. Record any such punctuation-only performance treatment in the take map; it is not a written-prose change.
+
 A useful deterministic naming shape is:
 
 - `ga-012-take-01`
@@ -453,6 +455,7 @@ For every published chapter verify at minimum:
 - manifest/catalog entries point to the correct artifact
 - neighboring workers' chapters were not overwritten
 - the last spoken beat matches the authoritative chapter ending rather than a convenient production cutoff
+- the final spoken beat has a settled ending cadence appropriate to the chapter, rather than an accidental rising / continuation-like delivery
 - the final listener-facing file preserves roughly 2–4 seconds of clean tail silence after the last spoken word unless a deliberate ending requires otherwise
 
 When one local take fails, prefer repairing the smallest responsible take rather than regenerating the whole chapter.
