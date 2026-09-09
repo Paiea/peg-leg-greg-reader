@@ -4,97 +4,19 @@
   "renderer_adapter": "ai_voice_generator",
   "voice_style": "deep",
   "chapters": [
-    {
-      "chapter_id": "ga-001",
-      "number": 1,
-      "title": "The Boy",
-      "status": "experimental",
-      "lens": "greg-subjective",
-      "take_count": 11,
-      "duration_seconds": 959.808,
-      "audio_src": "assets/chapter-001.mp3",
-      "note": "Full Greg-subjective Chapter 1 render, assembled from eleven performance-sized takes."
-    },
-    {
-      "chapter_id": "ga-002",
-      "number": 2,
-      "title": "The Novice",
-      "status": "experimental",
-      "lens": "greg-dominant",
-      "take_count": 12,
-      "duration_seconds": 841.92,
-      "audio_src": "assets/chapter-002.mp3",
-      "note": "Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."
-    },
-    {
-      "chapter_id": "ga-003",
-      "number": 3,
-      "title": "The Borrower",
-      "status": "experimental",
-      "lens": "greg-dominant",
-      "take_count": 12,
-      "duration_seconds": 752.544,
-      "audio_src": "assets/chapter-003.mp3",
-      "note": "Greg-dominant Chapter 3: attention gravity, selective voice breaches, and language-as-action preserve Arlo's technical ownership and Vale's binding loan terms."
-    },
-    {
-      "chapter_id": "ga-004",
-      "number": 4,
-      "title": "The Contractor",
-      "status": "experimental",
-      "lens": "shared-greg-surface",
-      "take_count": 12,
-      "duration_seconds": 728.976,
-      "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics."
-    },
-    {
-      "chapter_id": "ga-005",
-      "number": 5,
-      "title": "The Partner",
-      "status": "experimental",
-      "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 748.944,
-      "audio_src": "assets/chapter-005.mp3",
-      "note": "Chapter 5 applies the processing-space Audio Finish: repetition, resets, connective thought, tiny reactions, and pauses are used selectively so the listener can construct Greg's changing model without optimizing away useful processing time."
-    },
-    {
-      "chapter_id": "ga-006",
-      "number": 6,
-      "title": "The Troubleshooter",
-      "status": "experimental",
-      "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 13,
-      "duration_seconds": 873.6,
-      "audio_src": "assets/chapter-006.mp3",
-      "note": "Chapter 6 applies processing space to a spatial-action stress test: wet floor, conductive residue, copper, trapped pressure, bypass, spray, and Greg's tiny barrier remain causally legible to the ear. One dense hazard section was split into two provider-safe production takes without changing story state."
-    },
-    {
-      "chapter_id": "ga-007",
-      "number": 7,
-      "title": "The Extra Guard",
-      "status": "experimental",
-      "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 818.136,
-      "audio_src": "assets/chapter-007.mp3",
-      "note": "Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."
-    },
-    {
-      "chapter_id": "ga-008",
-      "number": 8,
-      "title": "The Defender",
-      "status": "experimental",
-      "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 703.08,
-      "audio_src": "assets/chapter-008.mp3",
-      "note": "Chapter 8 preserves evidence before certainty: suspicion, caravan vulnerability, confirming movement, prepared counters, and Greg's updated threat model land in sequence. All fourteen provider-safe takes were captured without a split."
-    }
+    {"chapter_id":"ga-001","number":1,"title":"The Boy","status":"experimental","lens":"greg-subjective","take_count":11,"duration_seconds":959.808,"audio_src":"assets/chapter-001.mp3","note":"Full Greg-subjective Chapter 1 render, assembled from eleven performance-sized takes."},
+    {"chapter_id":"ga-002","number":2,"title":"The Novice","status":"experimental","lens":"greg-dominant","take_count":12,"duration_seconds":841.92,"audio_src":"assets/chapter-002.mp3","note":"Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."},
+    {"chapter_id":"ga-003","number":3,"title":"The Borrower","status":"experimental","lens":"greg-dominant","take_count":12,"duration_seconds":752.544,"audio_src":"assets/chapter-003.mp3","note":"Greg-dominant Chapter 3: attention gravity, selective voice breaches, and language-as-action preserve Arlo's technical ownership and Vale's binding loan terms."},
+    {"chapter_id":"ga-004","number":4,"title":"The Contractor","status":"experimental","lens":"shared-greg-surface","take_count":12,"duration_seconds":728.976,"audio_src":"assets/chapter-004.mp3","note":"Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics."},
+    {"chapter_id":"ga-005","number":5,"title":"The Partner","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":14,"duration_seconds":748.944,"audio_src":"assets/chapter-005.mp3","note":"Chapter 5 applies the processing-space Audio Finish: repetition, resets, connective thought, tiny reactions, and pauses are used selectively so the listener can construct Greg's changing model without optimizing away useful processing time."},
+    {"chapter_id":"ga-006","number":6,"title":"The Troubleshooter","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":13,"duration_seconds":873.6,"audio_src":"assets/chapter-006.mp3","note":"Chapter 6 applies processing space to a spatial-action stress test: wet floor, conductive residue, copper, trapped pressure, bypass, spray, and Greg's tiny barrier remain causally legible to the ear. One dense hazard section was split into two provider-safe production takes without changing story state."},
+    {"chapter_id":"ga-007","number":7,"title":"The Extra Guard","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":14,"duration_seconds":818.136,"audio_src":"assets/chapter-007.mp3","note":"Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."},
+    {"chapter_id":"ga-008","number":8,"title":"The Defender","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":14,"duration_seconds":703.08,"audio_src":"assets/chapter-008.mp3","note":"Chapter 8 preserves evidence before certainty: suspicion, caravan vulnerability, confirming movement, prepared counters, and Greg's updated threat model land in sequence. All fourteen provider-safe takes were captured without a split."},
+    {"chapter_id":"ga-010","number":10,"title":"The Returner","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":12,"duration_seconds":710.544,"audio_src":"assets/chapter-010.mp3","note":"Chapter 10 preserves time residue across Jorren's departure, Greg's ordinary road changes, and Carrow's offscreen progress. Twelve short deep-voice takes keep production seams locally repairable while Arlo, Ivena, Sella, work, money, body, and mana all continue moving without Greg at the center."},
+    {"chapter_id":"ga-011","number":11,"title":"The Gate Hand","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":29,"duration_seconds":694.2,"audio_src":"assets/chapter-011.mp3","note":"Chapter 11 preserves remembered future fact as distinct from present causal proof. Twenty-nine short provider-safe takes preserve exact Shared Greg Surface wording and processing space while keeping every seam locally repairable."},
+    {"chapter_id":"ga-012","number":12,"title":"The Stranger","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":25,"duration_seconds":606.504,"audio_src":"assets/chapter-012.mp3","note":"Chapter 12 preserves memory absence as absence. Twenty-five preview-safe deep-voice takes keep Mara's knowledge of young Greg distinct from Greg's missing recent memory while preserving the ordinary losses that history did not record."},
+    {"chapter_id":"ga-013","number":13,"title":"The Fighter","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":13,"duration_seconds":621.456,"audio_src":"assets/chapter-013.mp3","note":"Chapter 13 keeps the better sword useful without confusing the right tool for the right answer. Thirteen durable deep-voice takes preserve Greg's judgment under the hooktail fight; one oversized provider attempt was repaired locally as 03a/03b while all successful original takes were preserved."},
+    {"chapter_id":"ga-014","number":14,"title":"The Helper","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":15,"duration_seconds":678.936,"audio_src":"assets/chapter-014.mp3","note":"Chapter 14 preserves belonging without false certainty across Mara's departure, the old back room, bodily familiarity, and Greg's attempt to make promises he can honestly keep. Fifteen provider-safe deep-voice takes preserve eleven successful original artifacts while replacing only one overlong gated source range with four smaller exact-wording takes."},
+    {"chapter_id":"ga-021","number":21,"title":"The Letter Writer","status":"experimental","lens":"shared-greg-surface","audio_finish":"processing-space","take_count":13,"duration_seconds":771.816,"audio_src":"assets/chapter-021.mp3","note":"Chapter 21 keeps Mara's reply as contact rather than documentation. Thirteen provider-safe deep-voice takes preserve postal time residue, Pell and Dena as offscreen lives, Greg's report-making reflex, and the smaller second letter without optimizing away processing space."}
   ]
 }

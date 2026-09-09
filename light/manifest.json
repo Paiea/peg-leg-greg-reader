@@ -1,6 +1,6 @@
 {
-  "latest": 491,
-  "latest_showcase": 380,
+  "latest": 500,
+  "latest_showcase": 389,
   "chapters": [
     {
       "number": 100,
@@ -2108,6 +2108,69 @@
       "title": "THE ACQUAINTANCE",
       "source": "checkpoint",
       "path": "491.html"
+    },
+    {
+      "number": 492,
+      "showcase_number": 381,
+      "title": "THE RESPONDENT",
+      "source": "checkpoint",
+      "path": "492.html"
+    },
+    {
+      "number": 493,
+      "showcase_number": 382,
+      "title": "THE CLIENT",
+      "source": "checkpoint",
+      "path": "493.html"
+    },
+    {
+      "number": 494,
+      "showcase_number": 383,
+      "title": "THE BIDDER",
+      "source": "checkpoint",
+      "path": "494.html"
+    },
+    {
+      "number": 495,
+      "showcase_number": 384,
+      "title": "THE SUBSCRIBER",
+      "source": "checkpoint",
+      "path": "495.html"
+    },
+    {
+      "number": 496,
+      "showcase_number": 385,
+      "title": "THE FITTER",
+      "source": "checkpoint",
+      "path": "496.html"
+    },
+    {
+      "number": 497,
+      "showcase_number": 386,
+      "title": "THE CORRESPONDENT",
+      "source": "checkpoint",
+      "path": "497.html"
+    },
+    {
+      "number": 498,
+      "showcase_number": 387,
+      "title": "THE OBSERVER",
+      "source": "checkpoint",
+      "path": "498.html"
+    },
+    {
+      "number": 499,
+      "showcase_number": 388,
+      "title": "THE TESTER",
+      "source": "checkpoint",
+      "path": "499.html"
+    },
+    {
+      "number": 500,
+      "showcase_number": 389,
+      "title": "THE RESIDENT",
+      "source": "checkpoint",
+      "path": "500.html"
     }
   ]
 }

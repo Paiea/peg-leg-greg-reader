@@ -64,11 +64,19 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn('.chapter-page', css)
         self.assertIn('.reading-copy', css)
         self.assertIn('max-width: 720px', css)
+        self.assertIn('font-size: clamp(1.16rem, 2vw, 1.28rem)', css)
         self.assertIn('line-height: 1.78', css)
         self.assertIn('p:first-of-type::first-letter', css)
         self.assertIn('.audio-panel', css)
         self.assertIn('max-width: 760px', css)
         self.assertIn('.written-panel', css)
+
+    def test_written_chapter_begins_without_redundant_read_label(self):
+        html = (R2 / 'chapter.html').read_text(encoding='utf-8')
+        self.assertNotIn('<p class="eyebrow">Read</p>', html)
+        self.assertNotIn('Chapter text', html)
+        self.assertIn('<section id="read" class="written-panel">', html)
+        self.assertIn('<article id="written-slot" class="reading-copy">', html)
 
     def test_chapter_shell_uses_story_brand_and_quiet_navigation(self):
         html = (R2 / 'chapter.html').read_text(encoding='utf-8')
