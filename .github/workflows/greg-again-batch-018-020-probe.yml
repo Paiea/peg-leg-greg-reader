@@ -1,0 +1,40 @@
+name: Probe Greg Again Batch Audio Endpoint
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-018-020
+    paths:
+      - '.github/workflows/greg-again-batch-018-020-probe.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+      - name: Probe endpoint
+        run: |
+          set +e
+          url='https://www.aidocmaker.com/g0/audio?name=7c31ecb98d01441298fbb5e536696ee1'
+          curl -L -sS -D /tmp/headers.txt -o /tmp/body.bin -w 'http=%{http_code}\nurl=%{url_effective}\ncontent_type=%{content_type}\nsize=%{size_download}\n' "$url" > /tmp/meta.txt
+          code=$?
+          {
+            echo "curl_exit=$code"
+            cat /tmp/meta.txt
+            echo '--- headers ---'
+            cat /tmp/headers.txt
+            echo '--- file ---'
+            file /tmp/body.bin || true
+            echo '--- ffprobe ---'
+            ffprobe -v error -show_entries format=duration,format_name -of default=noprint_wrappers=1 /tmp/body.bin 2>&1 || true
+            echo '--- first 512 bytes strings ---'
+            head -c 512 /tmp/body.bin | strings || true
+          } > greg-again/audio/capture-debug-018.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/capture-debug-018.txt
+          git commit -m 'Record Greg Again batch endpoint probe'
+          git push origin HEAD:audio/greg-again-batch-018-020
