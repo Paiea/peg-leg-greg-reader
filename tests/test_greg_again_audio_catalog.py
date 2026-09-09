@@ -160,6 +160,34 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("published", chapter["audio"]["status"])
         self.assertEqual("../greg-again/audio/assets/chapter-011.mp3", chapter["audio"]["path"])
 
+    def test_chapter_thirteen_preserves_tool_judgment_and_publishes_audio(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        self.assertIn("ga-013", by_id)
+        self.assertEqual("The Fighter", by_id["ga-013"]["title"])
+        self.assertEqual("shared-greg-surface", by_id["ga-013"]["lens"])
+        self.assertEqual("processing-space", by_id["ga-013"]["audio_finish"])
+        self.assertEqual(13, by_id["ga-013"]["take_count"])
+        self.assertEqual(621.456, by_id["ga-013"]["duration_seconds"])
+        self.assertEqual("assets/chapter-013.mp3", by_id["ga-013"]["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "chapter-013.mp3"
+        self.assertTrue(audio.exists())
+        self.assertGreater(audio.stat().st_size, 9_000_000)
+        script = (AUDIO_ROOT / "scripts" / "013-the-fighter.md").read_text(encoding="utf-8")
+        self.assertIn("THE RIGHT TOOL IS NOT THE RIGHT ANSWER", script)
+        self.assertIn("production takes: 13", script)
+        take_map = json.loads((AUDIO_ROOT / "takes" / "013.json").read_text(encoding="utf-8"))
+        self.assertEqual(13, len(take_map["takes"]))
+        self.assertEqual(["01", "02", "03a", "03b", "04", "05", "06", "07", "08", "09", "10", "11", "12"], [take["take"] for take in take_map["takes"]])
+        for take in take_map["takes"]:
+            durable = ROOT / take["durable_file"]
+            self.assertTrue(durable.exists())
+            self.assertGreater(durable.stat().st_size, 10_000)
+        chapter = json.loads((R2_ROOT / "data/chapters/ch013.json").read_text(encoding="utf-8"))
+        self.assertEqual("The Fighter", chapter["title"])
+        self.assertEqual("published", chapter["audio"]["status"])
+        self.assertEqual("../greg-again/audio/assets/chapter-013.mp3", chapter["audio"]["path"])
+
     def test_chapter_twenty_one_preserves_contact_and_publishes_audio(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
