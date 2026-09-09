@@ -35,6 +35,8 @@ Future survivor material is rehearsal/challenger evidence, not story authority a
 
 When a speculative unit approaches publication territory, prefer fresh re-performance against current Story State and recent exact prose. Preserve old wording only where it still wins. A missing, stale, conflicting, or inaccessible survivor experiment never blocks normal forward production.
 
+Before publishing prose descended from speculative temporal material, run the `Embodiment challenger` and `Connected-listen challenger` in `r2/FUTURE_SURVIVOR_PROTOCOL.md`. Causal completeness is not enough by itself; speculative-origin prose must still earn normal R2 experiential and listening fidelity.
+
 ## What stays experimental
 
 Story-search files, rehearsals, evaluations, long-range maps, Seven Lamps/world-iceberg memory, performance experiments, and other development evidence may remain on their working branch when that is the safest or clearest ownership model.
