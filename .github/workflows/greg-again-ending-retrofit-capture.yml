@@ -1,0 +1,55 @@
+name: Capture Greg Again Ending Retrofit 001-023
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ending-ellipsis-001-023
+    paths:
+      - greg-again/audio/production/ending-retrofit-001-023/provider-map.json
+      - .github/workflows/greg-again-ending-retrofit-capture.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ending-ellipsis-001-023
+          fetch-depth: 0
+      - name: Capture durable landing MP3s
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib, subprocess
+          m = json.loads(pathlib.Path('greg-again/audio/production/ending-retrofit-001-023/provider-map.json').read_text())
+          out = pathlib.Path('greg-again/audio/production/ending-retrofit-001-023/audio')
+          out.mkdir(parents=True, exist_ok=True)
+          for e in m['entries']:
+              p = out / f"{e['chapter']:03d}.mp3"
+              subprocess.run(['curl','-fL','--retry','3','-o',str(p),e['preview_url']], check=True)
+              b = p.read_bytes()
+              if len(b) < 1000:
+                  raise SystemExit(f'{p}: too small {len(b)}')
+              if not (b.startswith(b'ID3') or (len(b) >= 2 and b[0] == 0xff and (b[1] & 0xe0) == 0xe0)):
+                  raise SystemExit(f'{p}: invalid MP3 signature')
+              print(f'{p}: {len(b)} bytes')
+          PY
+      - name: Commit durable artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name Paiea
+          git config user.email paiea.tv@gmail.com
+          git add greg-again/audio/production/ending-retrofit-001-023/audio/*.mp3
+          if git diff --cached --quiet; then
+            echo 'No new artifacts.'
+            exit 0
+          fi
+          git commit -m 'audio: capture ending retrofit landing artifacts'
+          git fetch origin audio/greg-again-ending-ellipsis-001-023
+          git rebase origin/audio/greg-again-ending-ellipsis-001-023
+          git push origin HEAD:audio/greg-again-ending-ellipsis-001-023
