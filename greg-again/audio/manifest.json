@@ -23,7 +23,7 @@
       "status": "experimental",
       "lens": "greg-dominant",
       "take_count": 12,
-      "duration_seconds": 841.92,
+      "duration_seconds": 842.664,
       "audio_src": "assets/chapter-002.mp3",
       "note": "Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."
     },
@@ -34,7 +34,7 @@
       "status": "experimental",
       "lens": "greg-dominant",
       "take_count": 12,
-      "duration_seconds": 752.544,
+      "duration_seconds": 756.984,
       "audio_src": "assets/chapter-003.mp3",
       "note": "Greg-dominant Chapter 3: attention gravity, selective voice breaches, and language-as-action preserve Arlo's technical ownership and Vale's binding loan terms."
     },
@@ -45,9 +45,9 @@
       "status": "experimental",
       "lens": "shared-greg-surface",
       "take_count": 12,
-      "duration_seconds": 728.424,
+      "duration_seconds": 731.712,
       "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR \u2192 MOVE \u2192 UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
     },
     {
       "chapter_id": "ga-005",
@@ -57,7 +57,7 @@
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
       "take_count": 14,
-      "duration_seconds": 748.944,
+      "duration_seconds": 750.312,
       "audio_src": "assets/chapter-005.mp3",
       "note": "Chapter 5 applies the processing-space Audio Finish: repetition, resets, connective thought, tiny reactions, and pauses are used selectively so the listener can construct Greg's changing model without optimizing away useful processing time."
     },
@@ -69,7 +69,7 @@
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
       "take_count": 13,
-      "duration_seconds": 873.6,
+      "duration_seconds": 874.056,
       "audio_src": "assets/chapter-006.mp3",
       "note": "Chapter 6 applies processing space to a spatial-action stress test: wet floor, conductive residue, copper, trapped pressure, bypass, spray, and Greg's tiny barrier remain causally legible to the ear. One dense hazard section was split into two provider-safe production takes without changing story state."
     },
@@ -129,7 +129,7 @@
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
       "take_count": 29,
-      "duration_seconds": 694.2,
+      "duration_seconds": 693.048,
       "audio_src": "assets/chapter-011.mp3",
       "note": "Chapter 11 preserves remembered future fact as distinct from present causal proof. Twenty-nine short provider-safe takes preserve exact Shared Greg Surface wording and processing space while keeping every seam locally repairable."
     },
@@ -213,7 +213,7 @@
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
       "take_count": 34,
-      "duration_seconds": 790.128,
+      "duration_seconds": 788.736,
       "audio_src": "assets/chapter-018.mp3",
       "note": "Recovered from completed Chapter 18 production without regenerating provider work. Thirty-four captured deep-voice takes and the existing stitched chapter audio are preserved by stable chapter identity."
     },
@@ -225,7 +225,7 @@
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
       "take_count": 36,
-      "duration_seconds": 867.168,
+      "duration_seconds": 868.68,
       "audio_src": "assets/chapter-019.mp3",
       "note": "Recovered from completed Chapter 19 production without regenerating provider work. Thirty-six provider-safe deep-voice takes preserve maintenance, route time, matched spares, cleaning capacity, and service labor."
     },
@@ -261,7 +261,7 @@
       "lens": "shared-greg-surface",
       "audio_finish": "processing-space",
       "take_count": 10,
-      "duration_seconds": 731.616,
+      "duration_seconds": 731.208,
       "audio_src": "assets/chapter-022.mp3",
       "note": "Chapter 22 keeps current local knowledge distinct from Greg's later expertise as the building fire turns Noll from remembered fragments into a present neighbor. Ten provider-safe deep-voice takes preserve the bucket-line work, six-inch barrier, laundry cut, fire-watch handoff, and ordinary aftermath without optimizing away processing space."
     },

@@ -1,0 +1,590 @@
+{
+  "chunks": [
+    {
+      "chapter": 18,
+      "chunk": 17,
+      "text": "Selah tapped the ledger. Do you want the slot? That was the actual question. Not whether six weeks was fair, not whether later guilds had improved the system, not whether my first life had contained better access. A slot existed in six weeks. Deposit now. Miss it. Lose the deposit. Show up. Get assessed. Pass or fail based on what I could do then. Current body. Current mana. No historical exemptions for having once been impressive.",
+      "word_count": 76,
+      "matches": [
+        {
+          "target": "current body current mana",
+          "ratio": 1.0,
+          "start": 20.96,
+          "end": 22.36,
+          "words": [
+            "current",
+            "body",
+            "current",
+            "mana"
+          ]
+        },
+        {
+          "target": "current mana",
+          "ratio": 1.0,
+          "start": 21.9,
+          "end": 22.36,
+          "words": [
+            "current",
+            "mana"
+          ]
+        },
+        {
+          "target": "no historical exemptions",
+          "ratio": 1.0,
+          "start": 23.16,
+          "end": 24.3,
+          "words": [
+            "no",
+            "historical",
+            "exemptions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "chunk": 18,
+      "text": "I counted twelve copper onto the counter. Cela counted them again. I had just counted them. She worked for the guild, different religion. She wrote my name into the ledger. Greg, bronze, ward support intake. I read it upside down. Ward support? You make planes. I make several things. This was technically true if failure counted as variety. She held out her hand. Show me.",
+      "word_count": 65,
+      "matches": [
+        {
+          "target": "current body current mana",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.18,
+          "words": [
+            "i"
+          ]
+        },
+        {
+          "target": "current mana",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.18,
+          "words": [
+            "i"
+          ]
+        },
+        {
+          "target": "no historical exemptions",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.18,
+          "words": [
+            "i"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 1,
+      "text": "The man next door started pounding on my door before dawn. I knew the fist before the name, three hard knocks. Pause, two more louder because apparently my continued existence had become personally offensive. Then his voice came through the wood. Greg, up. I opened my eyes. Smoke had already reached the ceiling. That simplified things. I got one foot on the floor before the cold boards reminded me that boots existed. The second knock became a kick. Greg, I'm up. Then be up faster. Fair. I pulled on trousers, shoved my feet into boots without tying them, and opened the door. The hallway smelled like hot plaster and bad wood. Not cooking smoke, not chimney smoke either. Something drier underneath it. The man from next door stood in the corridor wearing one boot, no coat, and an expression suggesting the building had failed him personally. He had a bucket in each hand. I still did not have his name. Courtyard, he said. Pump. Rear stairs. I looked toward the front landing. Smoke rolled upward along the ceiling from the stairwell. Where is it? Wall by the bake stove. Move. He shoved one bucket into my chest. I moved.",
+      "word_count": 199,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 10.96,
+          "end": 12.36,
+          "words": [
+            "offensive",
+            "then"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.286,
+          "start": 33.14,
+          "end": 33.54,
+          "words": [
+            "feet",
+            "into"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.5,
+          "start": 1.62,
+          "end": 3.28,
+          "words": [
+            "my",
+            "door",
+            "before",
+            "dawn",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 0.0,
+          "end": 0.14,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 2,
+      "text": "Understanding arrived halfway down the rear stairs. The building wrapped around a narrow courtyard with a pump in the middle and laundry lines overhead. Two floors of cheap rooms above a ground level divided between storage, a cook room, and whatever the owner called the front room when rent was due. The rear stair was exterior except for a roof of patched boards and canvas. Cold air hit hard enough to make the smoke behind us look thicker. Three people were already at the pump. An older woman in a sleeping shift worked the handle while a boy held buckets under the spout. Another man carried them toward the cook room. Nobody asked what I knew about fire. Useful organization. I took two full buckets and followed the man from next door back inside. He took one. I noticed that because mine were heavy. 19 had solved several old problems and created a new one where 59 year old expectations continued assigning work to a body that had not agreed. The cook room was hotter than the corridor. No open flame. Worse. A section of plaster beside the iron bake stove had gone brown around the edges. Smoke pushed from a crack near the ceiling in slow gray threads. The stove door was shut. The fire was inside the wall.",
+      "word_count": 220,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 23.82,
+          "end": 24.34,
+          "words": [
+            "hard",
+            "enough"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.96,
+          "words": [
+            "understanding",
+            "arrived"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.182,
+          "start": 37.72,
+          "end": 38.7,
+          "words": [
+            "nobody",
+            "asked",
+            "what",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 1.6,
+          "end": 1.76,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 3,
+      "text": "I set the buckets down. Flue? Clay collar split last winter, the man said. We patched the plaster, should have pulled the whole section. He knew exactly where to put his hand on the wall without touching the hot part. I did not. Later construction codes ran clay liners all the way through walls like this. Later carol required clear stone around commercial stove flues. Later was currently useless. How far does it run? He pointed. Up there then left under the landing. The landing above us had six people on it. That seemed worth changing. I looked toward them. Everyone off the front stairs, rear courtyard only. The man beside me snapped his fingers at the same time. You heard him, move. People moved. I did not ask whether that made the order mine or his. The answer did not matter enough. He grabbed the iron poker from beside the stove and drove the point into the brown plaster. I caught his wrist. You open that, it gets air. It already has air, not that much. And if we leave it, it eats the landing. He was right faster than I was. Annoying, I released him. Small opening first. That was the plan. Apparently I had improved it by repeating it. He punched through, the plaster broke inward, orange appeared behind it.",
+      "word_count": 223,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 27.06,
+          "end": 27.58,
+          "words": [
+            "there",
+            "then"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.286,
+          "start": 38.76,
+          "end": 39.18,
+          "words": [
+            "me",
+            "snapped"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.364,
+          "start": 42.1,
+          "end": 44.78,
+          "words": [
+            "move",
+            "people",
+            "moved",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 0.32,
+          "end": 0.48,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 4,
+      "text": "Not a wall of flame, worse in a different way. Blackened wood and packed lath glowing around the flue, fire crawling upward through material that had been waiting years for somebody to heat it correctly. He stepped back. Water. I threw half a bucket through the hole. Steam hit us both. He swore. I approved of the wording. The fire hissed, dimmed, and continued above the opening. Higher, he said. We broke more plaster. This part was slower. Opened too much and we fed it. Opened too little and we chased smoke while the fire climbed around us. I had spent years supporting people through monster nests where one bad decision could collapse a tunnel. The skill transferred less elegantly to a rented building with a stove. The principal did not. Find the thing actually killing you. Do not fight the visible part because it is visible. The heat line climbed left beneath the landing. There, I said. I know. Of course he did. He had lived here while I spent 40 years elsewhere. He struck the plaster again. A chunk larger than his head broke loose from above the opening. His eyes went up. Too late. My hand moved before I finished thinking. Mana gathered badly. Then enough. A support plane snapped into place between the falling plaster and the side of his face. Five inches. Maybe six. The slab hit at an angle. The plane did not stop it. It changed the angle. That was enough.",
+      "word_count": 248,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 1.0,
+          "start": 70.98,
+          "end": 72.6,
+          "words": [
+            "mana",
+            "gathered",
+            "badly",
+            "then",
+            "enough"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 1.0,
+          "start": 73.62,
+          "end": 75.02,
+          "words": [
+            "support",
+            "plane",
+            "snapped",
+            "into",
+            "place"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 1.0,
+          "start": 68.16,
+          "end": 69.94,
+          "words": [
+            "my",
+            "hand",
+            "moved",
+            "before",
+            "i",
+            "finished",
+            "thinking"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.8,
+          "start": 81.94,
+          "end": 82.34,
+          "words": [
+            "the",
+            "plane"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 5,
+      "text": "The plaster broke against his shoulder instead of his temple and exploded across the floor. The plane vanished. Pressure punched behind my eyes. He stared at me. What was that? Small. Very helpful answer. Water. He looked at the fire. Better answer. We threw both buckets. More people arrived behind us with full ones. Then somebody in the courtyard screamed. Not pain. Warning. We both turned. A strip of burning cloth had fallen from an upstairs window onto the canvas covering the rear stair. The canvas caught along one edge. Flame ran faster than seemed polite. The man beside me pointed through the doorway. Cut the laundry line. I went. The rope crossed above the stair roof and held enough shirts, sheets, and underclothes to make three households publicly vulnerable. One end had begun burning where it touched the canvas frame. I reached for the knife at my belt. Then remembered I owned a better option. The good sword came out cleanly. The first useful thing it did in Lower Rook Street was murder laundry. One cut. The line parted. Wet cloth, dry cloth, and one pair of trousers dropped into the courtyard hard enough to knock the bucket boy sideways. He recovered before the trousers did. The burning end fell away from the awning. Someone dumped a bucket on it.",
+      "word_count": 221,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 18.74,
+          "end": 19.8,
+          "words": [
+            "ones",
+            "then"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.286,
+          "start": 4.74,
+          "end": 5.1,
+          "words": [
+            "the",
+            "plane"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.333,
+          "start": 53.24,
+          "end": 55.0,
+          "words": [
+            "my",
+            "belt",
+            "then",
+            "remembered",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 1.0,
+          "start": 4.74,
+          "end": 5.58,
+          "words": [
+            "the",
+            "plane",
+            "vanished"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 6,
+      "text": "The older woman at the pump looked at my sword, then at the laundry. Those were clean. Some were on fire. Not all of them. This was technically true. The man from next door came out behind me carrying another bucket. The gray shirt was mine. It was also on fire. Still mine. I pointed at the cook room. Your wall is burning. He considered this fair. We went back inside. The next 10 minutes became work. Not dramatic work, worse. Buckets, plaster, smoke, move, empty, back, again. The fire had followed the old lath upward and left. We opened the wall in sections, soaked each pocket, waited for the hiss to change, then opened the next. I stopped trying to improve the man's route after the second time he reached the correct section before I did. The current building belonged to current people. My later version of Carrow had replaced half these walls and forgotten every hand that patched them. He knew which board under the landing was hollow. He knew the rear stair rail came loose if you pulled instead of pushed. He knew the second pump stroke stuck in cold weather and needed a kick near the base. I knew how to keep a six inch barrier from collapsing when my lungs wanted all available attention. We used both sets of information. That seemed fairer than deciding which one counted as expertise.",
+      "word_count": 235,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 1.58,
+          "end": 2.22,
+          "words": [
+            "sword",
+            "then"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.32,
+          "words": [
+            "the",
+            "older"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.364,
+          "start": 43.98,
+          "end": 45.38,
+          "words": [
+            "correct",
+            "section",
+            "before",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 0.0,
+          "end": 0.14,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 7,
+      "text": "The city fire watch arrived after we had the visible flame out. They arrived with leather coats, roof hooks, two hand pumps, and the confidence of people who had done this more often than anyone should. A woman with cropped hair took one look at the opened wall and started issuing orders. We obeyed. She sent two men to the roof, one to the upper landing, and me back outside because apparently smoke inhalation did not become professional merely because I had opinions. I objected once. She pointed at the courtyard. I went. The man next door followed, coughing into his sleeve. Someone on the upper landing shouted down, Nall, your mattress is soaked through. The man beside me closed his eyes. Of course it is. Nall, there. The name fit nowhere in memory. No click. No recovered scene. No young Greg turning around somewhere in my head to say yes. Obviously, Nall. Just a current fact arriving at the correct time. Nall, he snored, borrowed soap, threw badly, knew the buildings flew better than I did, had just nearly taken plaster through the side of his skull because he opened the correct wall faster than I wanted him to. Better list.",
+      "word_count": 202,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 58.52,
+          "end": 59.18,
+          "words": [
+            "threw",
+            "badly"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.286,
+          "start": 34.16,
+          "end": 34.64,
+          "words": [
+            "coughing",
+            "into"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.182,
+          "start": 6.16,
+          "end": 7.34,
+          "words": [
+            "roof",
+            "hooks",
+            "two",
+            "hand"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 0.0,
+          "end": 0.14,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 8,
+      "text": "The fire watch tore three roof tiles loose and found one scorched joist that had not caught properly yet. That was the difference between a bad morning and losing the building. The cropped hair woman came down black with soot and told everyone within hearing distance that the flu needed to be stripped to brick before the stove was used again. The older woman at the pump said something about cost. The fire watch woman said something about dying. Cost lost narrowly. By sunrise, the smoke had thinned enough that we could go upstairs. The hallway looked worse than the fire had felt. Black water ran along the wall and pooled at the foot of the front stairs. Plaster covered the cook room floor. The landing rail had one burned section where heat had traveled behind it. My room smelled like wet ash. The bed was dry, mostly. One corner had taken water through the wall. Apparently that corner had a career now. Taven's cards were still on the table. The brass key sat beside them. Mara's Haldan envelope was in my coat pocket because I had carried it around like an idiot since the day it arrived. I had not thought about any of them while the building was burning. I noticed that. Then stopped before I could turn survival priorities into a moral examination. Sometimes a fire was a fire.",
+      "word_count": 232,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 30.46,
+          "end": 30.98,
+          "words": [
+            "thinned",
+            "enough"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.286,
+          "start": 74.86,
+          "end": 75.8,
+          "words": [
+            "priorities",
+            "into"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.364,
+          "start": 72.96,
+          "end": 74.06,
+          "words": [
+            "then",
+            "stopped",
+            "before",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 0.0,
+          "end": 0.14,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 9,
+      "text": "Nall appeared in my doorway carrying what remained of his blanket. It dripped onto my floor. My ceiling leaks now. Congratulations! My mattress is dead. Less congratulations! He looked at my bed, then at the floor, then at me. I understood the negotiation. No. I didn't ask. You looked. Looking is free. Floor. One night. Nall nodded immediately. Generous neighbor. Neighbor. That word landed harder than the plaster had, not because it recovered anything, because it did not need to. I knew what Nall had been to nineteen-year-old Greg in fragments. Noise through a wall. Missing soap. Bad aim. I knew what he had been this morning much better. The man who got me out of bed before smoke became flame. The man who knew which wall to open. The man whose shirt I cut down while saving the building. The man sleeping on my floor tonight because his mattress had lost an argument with a bucket brigade. Current facts. Enough of them, apparently, could become a person.",
+      "word_count": 170,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 11.0,
+          "end": 11.86,
+          "words": [
+            "bed",
+            "then"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.52,
+          "words": [
+            "nall",
+            "appeared"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.235,
+          "start": 10.82,
+          "end": 13.64,
+          "words": [
+            "my",
+            "bed",
+            "then",
+            "at",
+            "the",
+            "floor",
+            "then",
+            "at",
+            "me",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 11.98,
+          "end": 12.12,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "chunk": 10,
+      "text": "Nall leaned against the door frame. You still have soap? I looked at him. He looked back. There was no way he knew why that was funny. I started laughing anyway. Nall waited. What? Nothing. That's usually when people are laughing at me. Probably. He pointed toward the wash basin. Soap? I handed it over. Some systems survived history perfectly. By evening, every landing had a full bucket beside the stairs. Nobody had voted. Nobody had written a rule. The buckets were simply there. The cookroom stove stayed cold. Dinner came from the corner stall instead, and half the building complained about the price while eating it anyway. Nall slept on my floor wrapped in the least wet blanket we could find. He snored. That memory, at least, had been accurate. I lay awake for a while listening to him and smelling smoke in my hair. Then I slept too.",
+      "word_count": 150,
+      "matches": [
+        {
+          "target": "mana gathered badly then enough",
+          "ratio": 0.286,
+          "start": 49.98,
+          "end": 51.36,
+          "words": [
+            "hair",
+            "then"
+          ]
+        },
+        {
+          "target": "support plane snapped into place",
+          "ratio": 0.0,
+          "start": 0.0,
+          "end": 0.52,
+          "words": [
+            "nall",
+            "leaned"
+          ]
+        },
+        {
+          "target": "my hand moved before i finished thinking",
+          "ratio": 0.364,
+          "start": 49.82,
+          "end": 51.52,
+          "words": [
+            "my",
+            "hair",
+            "then",
+            "i"
+          ]
+        },
+        {
+          "target": "the plane vanished",
+          "ratio": 0.5,
+          "start": 0.82,
+          "end": 1.04,
+          "words": [
+            "the"
+          ]
+        }
+      ]
+    }
+  ]
+}

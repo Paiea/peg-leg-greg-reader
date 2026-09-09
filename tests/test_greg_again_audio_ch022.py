@@ -17,7 +17,7 @@ class GregAgainChapter22AudioTest(unittest.TestCase):
         self.assertEqual("shared-greg-surface", chapter["lens"])
         self.assertEqual("processing-space", chapter["audio_finish"])
         self.assertEqual(10, chapter["take_count"])
-        self.assertEqual(731.616, chapter["duration_seconds"])
+        self.assertEqual(731.208, chapter["duration_seconds"])
         self.assertEqual("assets/chapter-022.mp3", chapter["audio_src"])
 
         final_audio = AUDIO_ROOT / "assets" / "chapter-022.mp3"
@@ -28,7 +28,7 @@ class GregAgainChapter22AudioTest(unittest.TestCase):
         self.assertEqual("verified_playable", take_map["status"])
         self.assertEqual("33b0bfef83dacb09c290b42b1213e652d86bd7cb", take_map["written_source_sha"])
         self.assertEqual(10, len(take_map["takes"]))
-        self.assertEqual(731.616, take_map["assembled_duration_seconds"])
+        self.assertEqual(731.208, take_map["assembled_duration_seconds"])
         for take in take_map["takes"]:
             self.assertEqual("artifact_captured", take["status"])
             durable = ROOT / take["durable_file"]

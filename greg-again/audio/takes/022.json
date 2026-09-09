@@ -46,7 +46,7 @@
       "provider_audio_url": "https://www.aidocmaker.com/g0/audio?name=42317232f2734e6ba548fc72ba6adb16",
       "durable_file": "greg-again/audio/assets/chunks/022/04.mp3",
       "status": "artifact_captured",
-      "duration_seconds": 85.44
+      "duration_seconds": 85.032
     },
     {
       "take": "05",
@@ -109,6 +109,6 @@
       "duration_seconds": 52.32
     }
   ],
-  "take_duration_sum_seconds": 731.616,
-  "assembled_duration_seconds": 731.616
+  "take_duration_sum_seconds": 731.208,
+  "assembled_duration_seconds": 731.208
 }
