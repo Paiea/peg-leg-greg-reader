@@ -1,6 +1,6 @@
 # R2 Website Design
 
-**Status:** Approved design direction, pending implementation plan
+**Status:** Design direction approved; written spec pending user review before implementation planning
 
 ## Purpose
 
