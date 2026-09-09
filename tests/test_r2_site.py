@@ -37,6 +37,20 @@ class R2SiteTests(unittest.TestCase):
         for path in ['about/index.html', 'chapters/index.html', 'gallery/index.html', 'chapter.html']:
             self.assertTrue((R2 / path).exists(), path)
 
+    def test_chapter_renderer_has_missing_media_fallbacks(self):
+        js = (R2 / 'assets/js/chapter.js').read_text(encoding='utf-8')
+        self.assertIn('Written rendition coming soon.', js)
+        self.assertIn('Audio version coming soon.', js)
+        self.assertIn('new URLSearchParams', js)
+        self.assertIn("document.createElement('audio')", js)
+        self.assertIn('chapter.images', js)
+
+    def test_site_renderer_is_manifest_driven(self):
+        js = (R2 / 'assets/js/site.js').read_text(encoding='utf-8')
+        self.assertIn('data/project.json', js)
+        self.assertIn('data/chapters/', js)
+        self.assertIn('chapter.html?id=', js)
+
 
 if __name__ == '__main__':
     unittest.main()
