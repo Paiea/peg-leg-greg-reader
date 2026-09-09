@@ -1,0 +1,78 @@
+name: Prepare Greg Again Chapter 33 Publication
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch033-auto
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch033-auto
+          fetch-depth: 0
+
+      - name: Reconcile Chapter 33 manifest entry
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib
+          p = pathlib.Path('greg-again/audio/manifest.json')
+          data = json.loads(p.read_text())
+          chapters = [c for c in data['chapters'] if c.get('number') != 33]
+          chapters.append({
+              'chapter_id': 'ga-033',
+              'number': 33,
+              'title': 'The Share',
+              'status': 'experimental',
+              'lens': 'shared-greg-surface',
+              'audio_finish': 'processing-space',
+              'take_count': 24,
+              'duration_seconds': 523.32,
+              'audio_src': 'assets/chapter-033.mp3',
+              'note': 'Chapter 33 uses twenty-four complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, ordered take playback, stitched chapter audio, durable hashes, the authoritative final ellipsis landing, and a two-second listener tail were verified before publication.'
+          })
+          data['chapters'] = sorted(chapters, key=lambda c: c['number'])
+          p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+          PY
+
+      - name: Remove temporary capture plumbing
+        run: |
+          rm -f .github/workflows/capture-greg-again-ch033.yml
+          rm -f .github/workflows/prepare-greg-again-ch033.yml
+
+      - name: Verify Chapter 33 catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest tests.test_greg_again_audio_catalog
+          python -m unittest tests.test_r2_site
+          test -s greg-again/audio/assets/chapter-033.mp3
+          python3 - <<'PY'
+          import json
+          d=json.load(open('greg-again/audio/manifest.json'))
+          hits=[c for c in d['chapters'] if c['number']==33]
+          assert len(hits)==1, hits
+          c=hits[0]
+          assert c['chapter_id']=='ga-033'
+          assert c['take_count']==24
+          assert c['duration_seconds']==523.32
+          PY
+
+      - name: Commit publication prep
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m "Prepare Chapter 33 audio publication"
+          git push origin HEAD:audio/greg-again-ch033-auto
