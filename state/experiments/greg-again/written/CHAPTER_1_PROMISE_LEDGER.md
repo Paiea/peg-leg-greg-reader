@@ -30,7 +30,7 @@ Chapter 1 establishes that Greg ended his first life as one of seven S-class adv
 
 It also establishes the painful gap between remembered S-class capability and almost no current usable mana.
 
-**Through Chapter 15:** ACTIVE / PARTIALLY PAID
+**Through Chapter 16:** ACTIVE / PARTIALLY PAID
 
 The tiny support plane, dyehouse incident, wagon redirection, road violence, bridge rescue, and later controlled use have all paid the premise honestly. Old expertise is returning faster than old magnitude.
 
@@ -51,9 +51,9 @@ The tiny support plane, dyehouse incident, wagon redirection, road violence, bri
 
 Chapter 1 promises that Greg can know elite movement, magic, systems, and people while his present body cannot execute what he remembers.
 
-**Through Chapter 15:** STRONG REPEATED PAYMENT
+**Through Chapter 16:** STRONG REPEATED PAYMENT
 
-Sword recovery, Jorren, the hooktail, tiny support capability, fatigue, present terrain, and better equipment have all kept this alive.
+Sword recovery, Jorren, the hooktail, tiny support capability, fatigue, present terrain, emotional memory, and business ownership have all kept this alive.
 
 **Short-horizon obligation:** continue varying the mismatch. Do not reduce it to physical training only. Knowledge may fail because of timing, emotion, missing history, social context, ownership, infrastructure, or false confidence.
 
@@ -69,9 +69,9 @@ Chapter 1 explicitly states:
 
 It also warns that Greg remembers outcomes with causes rubbed off.
 
-**Through Chapter 15:** STRONG REPEATED PAYMENT
+**Through Chapter 16:** STRONG REPEATED PAYMENT
 
-Arlo's filter path, the later bridge, North Gate, Mara / Tavin memory, and ordinary present-day institutions have all challenged remembered certainty.
+Arlo's filter path, the later bridge, North Gate, Mara / Tavin memory, Vey Shipping, and Ivena's newly formalized ownership have all challenged remembered certainty.
 
 **Short-horizon obligation:** preserve both sides.
 
@@ -85,7 +85,7 @@ Greg's future knowledge must sometimes produce real leverage, not only be wrong.
 
 Chapter 1 gives Greg a neighbor whose habits survive without his name, Mara's handwriting before Greg remembers whether he likes her, dead parents whose grief returns sharply, and a general mismatch between remembered historical importance and ordinary personal importance.
 
-**Through Chapter 15:** STRONG PAYMENT, OPEN
+**Through Chapter 16:** STRONG PAYMENT, OPEN
 
 Mara, her mother, Tavin, the back room, the old cards, and the two forgotten kisses turned this into a real emotional thread.
 
@@ -101,7 +101,7 @@ The point is not a memory scavenger hunt. The point is that history and affectio
 
 Chapter 1 visibly plants Mara's letter and Greg's uncertainty about her.
 
-**Through Chapter 15:** PAID / TRANSFORMED
+**Through Chapter 16:** PAID / TRANSFORMED
 
 Mara confronted Greg, the missing recent past became relationally costly, Greg chose time with her over a useful contract, and Mara left for Halden with a packet-letter route still open.
 
@@ -115,7 +115,7 @@ Mara confronted Greg, the missing recent past became relationally costly, Greg c
 
 Chapter 1 explicitly asks whether Greg truly knows when the Northern Gate collapsed or merely remembers a later anniversary story.
 
-**Through Chapter 15:** ACTIVE
+**Through Chapter 16:** ACTIVE
 
 Chapter 11 returned Greg to the present North Gate during a structural emergency without proving any causal relation to the remembered collapse.
 
@@ -129,7 +129,7 @@ Chapter 11 returned Greg to the present North Gate during a structural emergency
 
 At the end of Chapter 1, Greg sees the red-tiled Guild roof and remembers that it was changed after a fire. He believes he knows when the fire happened, then corrects himself back to lead / proof.
 
-**Through Chapter 15:** UNPAID
+**Through Chapter 16:** UNPAID
 
 **Short-horizon obligation:** establish whether the fire falls inside the R2 time window before the story advances too far. If it does, pressure should begin before the event. If it does not, Greg should still have reason to verify or update the memory rather than letting the loaded statement vanish.
 
@@ -143,9 +143,13 @@ Do not manufacture an immediate arson plot merely because the promise exists.
 
 Chapter 1 specifically questions whether Greg knows a merchant family became rich from river shipping or merely remembers the history they later paid to have repeated.
 
-**Through Chapter 15:** UNPAID, WITH ORGANIC SEAM
+**Through Chapter 16:** ACTIVE / PARTIALLY PAID
 
-Tavin now works south with a river company. Mara left by barge. River movement is already part of the present world.
+Chapter 15 puts Mara aboard a small present-day Vey Shipping packet barge. Greg recognizes the later company: bigger offices, faster hulls, and warehouses in six river cities. The present operation is ordinary, patched, labor-heavy, and materially smaller than the historical image in Greg's head.
+
+Tavin also works south with a river company, so the living present has multiple organic routes back into the shipping promise.
+
+The story has **not yet established** that Vey is definitely the exact merchant-family history Greg questioned in Chapter 1. Preserve that uncertainty unless present evidence earns the connection.
 
 **Short-horizon obligation:** revisit the claim through present-day shipping, ownership, labor, customers, or competing explanations. It does not have to become an investment subplot. The important question is whether Greg's remembered success story survives contact with the people who actually made it happen.
 
@@ -159,7 +163,7 @@ Chapter 1 asks whether Soren died in the Red Winter or whether Greg only remembe
 
 This names both a person and an event while explicitly questioning chronology.
 
-**Through Chapter 15:** UNPAID
+**Through Chapter 16:** UNPAID
 
 **Short-horizon obligation:** determine where Soren and the Red Winter sit relative to the R2 year. The story should encounter evidence that updates this memory before the run ends, even if the Red Winter itself remains later.
 
@@ -173,12 +177,14 @@ Do not force Soren into the next chapter merely to clear the ledger.
 
 Chapter 1 says Greg remembers which professions become valuable, which wars happen, which people matter, which mistakes ruin guilds, which discoveries change industries, and which monsters are worse than their contracts claim.
 
-**Through Chapter 15:** PARTIALLY PAID
+**Through Chapter 16:** PARTIALLY PAID
 
 - Arlo / filtration pressures the discovery and industry side
+- Ivena's ownership makes visible a contributor absent from Greg's clean remembered product history
 - Sella / Guild work pressures institutional knowledge
 - road / hooktail / saltback work pressures monster and contract knowledge
 - North Gate begins the future-event side
+- Vey Shipping begins testing remembered business history
 
 **Short-horizon obligation:** broaden the evidence. At least one genuinely consequential **future person** and one larger historical / institutional development should enter the present story before R2 becomes only a local Carrow progression arc.
 
@@ -192,9 +198,11 @@ Greg's knowledge should sometimes earn a real advantage so the premise retains t
 
 "One of seven" is more specific than "very strong." It implies a tiny later-life peer group, reputation, and history.
 
-**Through Chapter 15:** UNPAID AS SOCIAL HISTORY
+**Through Chapter 16:** UNPAID AS SOCIAL HISTORY
 
 Greg's support expertise is active, but the other six and the social reality of that status have not entered R2.
+
+A cheap Run 1 quarry search did not surface a reliable existing roster. Do not deep-mine the old 500-chapter run merely to avoid invention; R2 may create the peer history when a live scene earns it.
 
 **Short-horizon obligation:** before the first major long-form turn, bring at least one member of that later S-class world into Greg's present attention somehow: as a younger unknown person, an existing older figure, a future enemy/ally, a name in current institutions, or evidence that Greg's remembered peer story is incomplete.
 
@@ -208,7 +216,7 @@ Do not assemble the whole team early.
 
 Chapter 1 inventories **two letters**. Mara's is identified. The other letter is not resolved in the selected Chapter 1 prose.
 
-**Through Chapter 15:** NOT TRACKED AS PAID
+**Through Chapter 16:** NOT TRACKED AS PAID
 
 **Short-horizon obligation:** verify whether the second letter has already resurfaced in prose. If not, decide what it actually was before inventing a new replacement thread. The object was concrete enough that simply forgetting it risks looking accidental rather than like Greg's memory problem.
 
@@ -220,7 +228,7 @@ Chapter 1 inventories **two letters**. Mara's is identified. The other letter is
 
 Chapter 1 finds a bent lockpick Greg does not remember owning and thinks he probably should not have owned.
 
-**Through Chapter 15:** NOT TRACKED AS PAID
+**Through Chapter 16:** NOT TRACKED AS PAID
 
 **Short-horizon obligation:** use only if it reveals something useful about nineteen-year-old Greg, his missing ordinary past, or a present relationship. Do not create a thief subplot solely to justify the prop.
 
@@ -288,15 +296,18 @@ At roughly each **five-chapter frontier**, glance at this ledger and ask only:
 
 This is a review rhythm, not a quota.
 
-## Current pressure after Chapter 15
+## Current pressure after Chapter 16
 
-The next chapter does not need to pay a Chapter 1 promise merely because this ledger now exists.
+Chapter 16 deliberately does **not** pay another named Chapter 1 promise simply because this ledger exists.
 
-However, several promises already have organic present seams:
+It instead makes the broader Chapter 1 history problem concrete: mature objects and industries hide the ordinary people who built them. Ivena now owns part of the filtration venture because her present contribution is real even though Greg's remembered future product history contains no Ivena.
 
-- **river shipping** can intersect Tavin, Mara's packet route, merchants, labor, or Arlo/Ivena distribution
-- **the second letter** can create a consequence of Greg's neglected first weeks if it remains unresolved
-- **the Guild fire** can begin as mundane present evidence rather than a disaster countdown
+Several promises retain organic present seams:
+
+- **river shipping** can continue through Mara's packet route, Tavin, labor, merchants, or later distribution without forcing Greg to Halden
+- **the second letter** remains a concrete unresolved object and should be verified before use
+- **the Guild fire** needs horizon placement before too much more in-story time passes
 - **the S-class peer world** can enter as a person / name / institution before Greg has power to meet it as an equal
+- **Soren / Red Winter** needs chronology placement, not immediate scene insertion
 
 Prefer the next event that is causally alive **without knowing about the ledger**. Then ask whether one promise can ride inside it cheaply.
