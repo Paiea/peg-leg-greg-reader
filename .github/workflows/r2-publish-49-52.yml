@@ -1,0 +1,148 @@
+name: One-shot R2 written publish 49-52
+
+on:
+  push:
+    branches:
+      - publish/r2-written-ch049-052
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch TEMPORAL 50 source
+        run: git fetch origin experiment/r2-temporal-50:refs/remotes/origin/experiment/r2-temporal-50
+      - name: Build accepted written transaction
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib, re, subprocess
+          root = pathlib.Path('.')
+          exp = 'origin/experiment/r2-temporal-50'
+          titles = {
+              49: 'The Reserve',
+              50: 'The Request',
+              51: 'The Traveler',
+              52: 'The Delivery',
+          }
+          teasers = {
+              49: "The filtration venture's service reserve finally has to do its job when a Deepwinter chamber fails, and Greg discovers that keeping a promise can cost money even when the cause stays uncertain.",
+              50: "Orrin Kesh names Greg for another north-road escort, turning one ordinary completed job into the first direct client request Greg has actually earned.",
+              51: "A frozen crossing stops Greg and Orrin beyond Wicker Ford, and the road teaches Greg that unfamiliar magic can be ordinary work to the people who actually own it.",
+              52: "Stonecross has already adapted to the late medicine cart before Greg arrives, leaving him with a wider current map, two cheap bowls, and another completed professional reference.",
+          }
+          for n in range(49, 53):
+              src = f'r2/experiments/temporal-50/prose/{n:03d}-{titles[n].lower().replace(" ", "-")}.md'
+              raw = subprocess.check_output(['git','show',f'{exp}:{src}'], text=True)
+              marker = '\n---\n'
+              assert marker in raw, src
+              body = raw.split(marker, 1)[1].lstrip('\n')
+              clean = f'# Chapter {n}: {titles[n]}\n\n---\n\n' + body
+              if n == 49:
+                  old = "Irena's eyes narrowed.\n\nI corrected the name in my head before it escaped.\n\nIvena.\n\nCurrent people deserved current spelling."
+                  assert old in clean
+                  clean = clean.replace(old, "Ivena's eyes narrowed.")
+              if n == 51:
+                  assert '\nNo dramatic reversal.\n' in clean
+                  clean = clean.replace('\nNo dramatic reversal.\n', '\n')
+              if n == 52:
+                  for old in ['\nNo hidden competence reveal.\n', '\nNo second chapter hiding in the bridge.\n']:
+                      assert old in clean
+                      clean = clean.replace(old, '\n')
+                  old = 'No one had sat beside an empty shelf waiting for Greg to arrive with the plot.'
+                  assert old in clean
+                  clean = clean.replace(old, 'No one had sat beside an empty shelf waiting for me to arrive.')
+                  old = "We crossed without slipping.\n\nWicker Ford by midday.\n\nCarrow before dark."
+                  assert old in clean
+                  new = "We crossed without slipping.\n\nWicker Ford came late in the afternoon.\n\nOrrin looked at the falling light, then at the south road.\n\n\"No.\"\n\nI agreed before he explained.\n\nThe road was hard, the sky was clear, and neither fact created more daylight.\n\nWe paid for two cheap beds above the Wicker Ford cooper and gave Marta the stable.\n\nAnother night out because one bridge had been closed one morning.\n\nThere was the delay day.\n\nNot paperwork pretending.\n\nTime.\n\nWe left at first bell on the fourth morning.\n\nCarrow before midday."
+                  clean = clean.replace(old, new)
+              assert '—' not in clean, f'em dash in ch{n}'
+              assert clean.rstrip().endswith('...'), f'ellipsis missing ch{n}'
+              (root / f'r2/assets/written/ch{n:03d}.md').write_text(clean, encoding='utf-8')
+
+          # Chapter manifests and navigation.
+          ch48p = root / 'r2/data/chapters/ch048.json'
+          ch48 = json.loads(ch48p.read_text())
+          ch48['navigation']['next'] = 'r2-ch049'
+          ch48p.write_text(json.dumps(ch48, separators=(',', ':')) + '\n')
+          for n in range(49, 53):
+              chapter = {
+                  'chapter_id': f'r2-ch{n:03d}',
+                  'display_number': n,
+                  'title': titles[n],
+                  'status': 'published',
+                  'book': 1,
+                  'act': 1,
+                  'teaser': teasers[n],
+                  'audio': {'status': 'unavailable', 'path': None},
+                  'written': {'status': 'published', 'path': f'assets/written/ch{n:03d}.md'},
+                  'images': [],
+                  'navigation': {
+                      'previous': f'r2-ch{n-1:03d}',
+                      'next': None if n == 52 else f'r2-ch{n+1:03d}',
+                  },
+              }
+              (root / f'r2/data/chapters/ch{n:03d}.json').write_text(json.dumps(chapter, separators=(',', ':')) + '\n')
+
+          project_p = root / 'r2/data/project.json'
+          project = json.loads(project_p.read_text())
+          for n in range(49, 53):
+              cid = f'r2-ch{n:03d}'
+              if cid not in project['chapters']:
+                  project['chapters'].append(cid)
+          project['current_chapter'] = 'r2-ch052'
+          project_p.write_text(json.dumps(project, indent=2) + '\n')
+
+          reg_p = root / 'r2/data/chapter-registry.json'
+          reg = json.loads(reg_p.read_text())
+          for n in range(49, 53):
+              cid = f'r2-ch{n:03d}'
+              reg['chapters'][cid] = {
+                  'display_number': n,
+                  'title': titles[n],
+                  'status': 'in_progress',
+                  'pipeline': {
+                      'scene_packets': 'in_progress',
+                      'audio': 'not_started',
+                      'written': 'published',
+                      'story_sync': 'in_progress',
+                      'image_plan': 'not_started',
+                      'image_generation': 'not_started',
+                      'image_review': 'not_started',
+                      'image_integration': 'not_started',
+                  },
+                  'images': {'target_count':2,'planned':0,'generated':0,'approved':0,'integrated':0},
+                  'last_completed_stage': 'written',
+                  'next_action': 'publish_audio_and_plan_images',
+              }
+          reg['current_chapter'] = 'r2-ch052'
+          reg_p.write_text(json.dumps(reg, separators=(',', ':')) + '\n')
+
+          test_p = root / 'tests/test_r2_site.py'
+          t = test_p.read_text()
+          replacements = {
+              "range(1, 49)": "range(1, 53)",
+              "'r2-ch048'": "'r2-ch052'",
+              "test_written_frontier_is_public_through_chapter_forty_eight": "test_written_frontier_is_public_through_chapter_fifty_two",
+              "None if number == 48 else f'r2-ch{number + 1:03d}'": "None if number == 52 else f'r2-ch{number + 1:03d}'",
+          }
+          for old,new in replacements.items():
+              assert old in t, old
+              t = t.replace(old,new)
+          test_p.write_text(t)
+          PY
+      - name: Verify R2 reader
+        run: python -m unittest tests.test_r2_site -v
+      - name: Commit verified publication and remove one-shot workflow
+        run: |
+          git config user.name "r2-publication-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git rm .github/workflows/r2-publish-49-52.yml
+          git add r2/assets/written r2/data tests/test_r2_site.py
+          git commit -m "Publish R2 written Chapters 49-52 [temporal-50 wave 01]"
+          git push origin HEAD:publish/r2-written-ch049-052
