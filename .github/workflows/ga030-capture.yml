@@ -35,7 +35,7 @@ jobs:
             93c62921d43f4b47b08af01c1254e583,eef4a54dc9d14f52ad0287ecdf6ad41b,9de6b3d71a94456a851aad6fa78f0f61,923799aae20742f589cc2c07365addc6,3aa9322b2bcd4c218ac990177dca452d,44dd9c10f0914523ba3ec43cc049e3e6,d2ef6ede019e416393d2f3cc0168f32b,316d081b57bd4b6d920ac047a0935e88,572ec56651c64a6ca90b942d4c22affe,8aef05ee38714e2e8a7b9c0a2d49929f,e870748eb15945be855e8f34a4e068df,576113c44b8a449d8a633da86a14549d,322a8d47bd594fd5babe5909b0762f58,80220903a3974811935bad507412aefc,d3404150148c43078043b3de439f486f,8afb952ddb6c4c82bc375792248a256b,bccd7e15954d4e2d96f11beb5938c25b,f2966519c05245d99011d8777b61edc4,6ec99905f96b47d7b2d68cffd1603531,2a2c67e134b746519fd9faf141d6cedc,10bc1f31b1f34b018929c6b64e06a5fa,57834b17ed2a4934ad3c95d13b4f3f51,c33344093c9f44f7aeab1975c85eec51,63d3ed64e398473e99a93e3a21f6b7eb
         run: |
           mkdir -p greg-again/audio/production/030/takes
-          cat > /tmp/capture.mjs <<'JS'
+          cat > capture.mjs <<'JS'
           import { chromium } from 'playwright';
           import fs from 'fs';
           const ids = process.env.CONTEXTS.split(',');
@@ -76,7 +76,8 @@ jobs:
           fs.writeFileSync('/tmp/capture-results.json', JSON.stringify(results,null,2));
           await browser.close();
           JS
-          node /tmp/capture.mjs
+          node capture.mjs
+          rm -f capture.mjs
           cp /tmp/capture-results.json greg-again/audio/production/030/capture-results.json
           for f in greg-again/audio/production/030/takes/*.mp3; do ffprobe -v error -show_entries format=duration,size -of json "$f"; done
       - name: Assemble verified chapter
