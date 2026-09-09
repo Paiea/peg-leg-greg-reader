@@ -1,0 +1,151 @@
+[
+  {
+    "take": 1,
+    "context_id": "93c62921d43f4b47b08af01c1254e583",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 2,
+    "context_id": "eef4a54dc9d14f52ad0287ecdf6ad41b",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 3,
+    "context_id": "9de6b3d71a94456a851aad6fa78f0f61",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 4,
+    "context_id": "923799aae20742f589cc2c07365addc6",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 5,
+    "context_id": "3aa9322b2bcd4c218ac990177dca452d",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 6,
+    "context_id": "44dd9c10f0914523ba3ec43cc049e3e6",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 7,
+    "context_id": "d2ef6ede019e416393d2f3cc0168f32b",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 8,
+    "context_id": "316d081b57bd4b6d920ac047a0935e88",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 9,
+    "context_id": "572ec56651c64a6ca90b942d4c22affe",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 10,
+    "context_id": "8aef05ee38714e2e8a7b9c0a2d49929f",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 11,
+    "context_id": "e870748eb15945be855e8f34a4e068df",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 12,
+    "context_id": "576113c44b8a449d8a633da86a14549d",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 13,
+    "context_id": "322a8d47bd594fd5babe5909b0762f58",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 14,
+    "context_id": "80220903a3974811935bad507412aefc",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 15,
+    "context_id": "d3404150148c43078043b3de439f486f",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 16,
+    "context_id": "8afb952ddb6c4c82bc375792248a256b",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 17,
+    "context_id": "bccd7e15954d4e2d96f11beb5938c25b",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 18,
+    "context_id": "f2966519c05245d99011d8777b61edc4",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 19,
+    "context_id": "6ec99905f96b47d7b2d68cffd1603531",
+    "last": "",
+    "status": "not_ready"
+  },
+  {
+    "take": 20,
+    "context_id": "2a2c67e134b746519fd9faf141d6cedc",
+    "src": "https://storage.googleapis.com/adm--audio-files--lt--private/21005bc1-1fdd-4167-bdd4-b1522011dc21?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=dev-vm%40stockcagr.iam.gserviceaccount.com%2F20260909%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260909T133908Z&X-Goog-Expires=43200&X-Goog-SignedHeaders=host&response-content-type=audio%2Fmpeg&X-Goog-Signature=c8cdcdf4c201f663f994ff07ea85c74326c4546468166e253c50db8e297edcdabccaf37c956c09f7f16a4a4a18a9127e653cbd96581819bf4534e06e257fdcc07c20b3d49cfb1ef93793ac23e9e783507f477e76dd1be0255d3ee33e789071d7a8d0dd93423fdd5b4f9f8628e7c9e2ed955f53735cb09879f165b3f8070f892dc814dc8269fb5d0e900a27f0086d6743413e68d029bfce7360cf5a949d64f47d7eda2bccadbdfa460a044b9f28c07d2fa2eb7c45d81a395476b0abb82630394a217daaf5bdc5ff1a7f4e69d0de2c1c849e6b66b9058184f03a628db2c7a41be23503516a1b12795ecc41750735c8766f108bbe1b090dc681c2179b0b8ad8e04e",
+    "bytes": 191616,
+    "status": "captured"
+  },
+  {
+    "take": 21,
+    "context_id": "10bc1f31b1f34b018929c6b64e06a5fa",
+    "src": "https://storage.googleapis.com/adm--audio-files--lt--private/6629893f-598e-4d23-ac9e-7bd0f370baee?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=dev-vm%40stockcagr.iam.gserviceaccount.com%2F20260909%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260909T133916Z&X-Goog-Expires=43200&X-Goog-SignedHeaders=host&response-content-type=audio%2Fmpeg&X-Goog-Signature=bbc25556c13a8b8b28cd42762445612e128ff1cb97890d5fbc6a44e2dc04edeb16e16a10de8f8d71c3629dafd221bccf752656112940f907983f9e0c63d828c4d88ac4bd0078b458362144bf214c2b7a791c2e782026f76735ec7ca99dd3f2cc7cbe3d6a204d17e3fc7f5f6f905754cefc0f3cb8b3dd6aac0f8a007f8f14cfe894071c0d973ddca246ef569d1a4d159b445595d535d183667c79344fe0df40d45c9f15260432aa6b82265bf4539d0866cc0228c8bd34d97d7ed27673ad2223ba951ee53acc2d193634b544bd29ea520bd5fa12f4668cabb0c15ae2ae5492ddf4b2e207f3cabd1d67c377dc0e57f62ce7674a8ad6433af166212789fb788c85b6",
+    "bytes": 124032,
+    "status": "captured"
+  },
+  {
+    "take": 22,
+    "context_id": "57834b17ed2a4934ad3c95d13b4f3f51",
+    "src": "https://storage.googleapis.com/adm--audio-files--lt--private/79f9593a-f3e8-481e-b146-1198eb5eafed?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=dev-vm%40stockcagr.iam.gserviceaccount.com%2F20260909%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260909T133924Z&X-Goog-Expires=43200&X-Goog-SignedHeaders=host&response-content-type=audio%2Fmpeg&X-Goog-Signature=37018da1a3bc924eda6a5e77df1dcc567c334f4a7e944a14ff80090506399d4ed61fecfa23a54681e6090eb5b243d6f8e2415d9d5411968040f198cbaf43ef61c505ab4255674e776522a67e9b50fa0a01df6e568b5579a4d34685c6c1f430cd01efdc75f19017a1d2d0cc9946a607e97e829f610ed7df2d53fce56e313fca82499710a12b6820349b01c5c3fe152b65bf66ac5b5218bf4863045e84f1a807f741d12063b9fea8c3cac2cf81d5de16811810dbcd9a04c879ef1e25fde1b01d2292d3cd3f08bee1120e593f76f21d3af776beea503b8bf13dde3c4ee1090484629078a0da95d8a7fe8bbda6ce8b9961d94706c36a98c201fb2a0474a8fe7a89df",
+    "bytes": 78336,
+    "status": "captured"
+  },
+  {
+    "take": 23,
+    "context_id": "c33344093c9f44f7aeab1975c85eec51",
+    "src": "https://storage.googleapis.com/adm--audio-files--lt--private/2849d95a-770e-4ea2-9cbc-15d6477e769e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=dev-vm%40stockcagr.iam.gserviceaccount.com%2F20260909%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260909T133932Z&X-Goog-Expires=43200&X-Goog-SignedHeaders=host&response-content-type=audio%2Fmpeg&X-Goog-Signature=a0fa4cd13b4832cae9ae323a49f44e885ff9ba345bf76c5712913fcbc0fe2e5576bfb74aeed2a1fc84cc13068d59037c41ac9b46477ebe3dcea1d0b31cc2060d5b6144bc866381ee3620ae2350400ad353d9b72f916a670a273d083ff3b09c89c91973e9484a0f99738790413e74c9dbea31525ab4fc51934a85cfe2b8117f8682af6fb8e9dc9287dd7c19babec22d40d0e069210e353b689b36d5d1f22b88d6bf33fa1673fd66c8abc8c136e4ed7358cc225c9940b04df827d4241c1bda58311f63cc6a12076041e69fc520b08cff0631b80c1acfccd4574c646d1a14ef043f645abd3b715c7cbb0d479d5072dedf5589c952407656c908ad795d9933663a9c",
+    "bytes": 167040,
+    "status": "captured"
+  },
+  {
+    "take": 24,
+    "context_id": "63d3ed64e398473e99a93e3a21f6b7eb",
+    "src": "https://storage.googleapis.com/adm--audio-files--lt--private/62964782-13c6-4d93-8da8-38844ae02c80?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=dev-vm%40stockcagr.iam.gserviceaccount.com%2F20260909%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260909T133940Z&X-Goog-Expires=43200&X-Goog-SignedHeaders=host&response-content-type=audio%2Fmpeg&X-Goog-Signature=141d92aa5088815faf11772e9189cc6a420ef9cbbbe85e73e4f83d95282b5907fedb01001c214d54a2e65a91cc804364dad100e702940d4f89c290519a031f48e10911307ca5f78715c109a545b8ebb44142f335d2c486742330577a963fc47f86639ea52e9831a75f8dc8ea1bd68386b99eb9b1834c5f947975ee6a4768ce78a632d9fd2147059bca8ba3a1013d3cc9559229e5bcff1139a5d0bcc5d29e1eebadeee05b9f95f1e60f65ece96fa44e93b1e47a6b3571c098d6ecf133aeeaeb985fbc3ee32da25d53e32ec1d5eed2f6ec746517f2273a224c47c0940cce6d998d1d442893e1344b2307b40ed76866303086b79387d5aab8b2686c4f75adb83361",
+    "bytes": 54144,
+    "status": "captured"
+  }
+]
