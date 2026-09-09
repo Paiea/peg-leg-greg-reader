@@ -444,33 +444,75 @@ Surviving discovery:
 
 > **Greg's competence can appear as fast model abandonment when somebody else owns the terrain.**
 
-## Frontier after Chapter 17
+### 18 — Six Weeks
+
+`state/experiments/greg-again/prose/018-six-weeks.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/018-story-search.md`
+
+Greg takes Mara's first letter to the packet office before breakfast. The ordinary Carrow packet office accepts it for Halden and places it into the Vey route sack. The letter is now dispatched rather than merely written.
+
+Greg then uses some of the lower-quay cash to act on the proper support instruction he deferred after buying the better sword.
+
+Sella exposes the current Guild procedure: formal support instruction begins with a specialist intake assessment. Greg can finally afford the twelve-copper deposit, but the next circuit slot is six weeks away because local support capacity is tied up in city work and the specialist examiner rotates through Carrow.
+
+Greg books the slot. The progression problem changes from pure money scarcity into time / access. No lesson occurs and Greg gains no new power.
+
+Sella records Greg as `Bronze / ward-support intake / low reserve` after one small stable plane. The classification is unglamorous and accurate.
+
+The examiner name is **Kesra Dain**, currently only a Silver specialist in the Guild ledger. Greg knows Kesra as one of the other six S-class adventurers from his later life. She does not appear on-page and Greg does not chase her. The future-peer thread enters as ordinary present history rather than a reunion.
+
+The Guild calendar also places two Chapter 1 chronology promises cheaply without making them the plot:
+
+- Greg's remembered Guild fire belongs to the coming Deepwinter if his seasonal memory is correct, putting it plausibly inside the next few months while causation remains unproven.
+- using East Verrel as the same public anchor from Chapter 1, Greg places the Red Winter two winters farther than the current date, meaning not the winter coming but the one after. It is probably outside the next one-year R2 horizon, though Greg still treats the chronology as memory rather than proof.
+
+Surviving discovery:
+
+> **Progression can reveal a new constraint instead of immediately raising capability. Money opened the door; time and access now own the next step.**
+
+And:
+
+> **Future legends should be allowed to enter as ordinary present people before history knows what to call them.**
+
+## Frontier after Chapter 18
 
 Current selected state:
 
-- roughly seven days have passed since Mara left Carrow.
-- Mara remains in transit / away toward Halden through Vey Shipping; she does not reappear in Chapter 17.
-- Greg has written his first packet letter to Mara and intends to take it to the packet office before breakfast; the chapter does not yet show dispatch or receipt.
-- the letter tells Mara that Greg misunderstood a river job, that Arlo and Ivena have six units in production, and that he has Tavin's old cards.
+- roughly one day has passed since Chapter 17; no large time skip has occurred.
+- Mara remains away toward / in transit to Halden.
+- Greg's first packet letter to Mara has been accepted by the Carrow packet office, stamped, paid at ordinary postage, and placed in the Vey Shipping route sack. It has left Greg's hands but has not been shown received.
+- the packet clerk says the Halden packet is expected to leave at noon if the lower quay remains usable, continuing North Gate / river congestion as infrastructure pressure without making it the chapter plot.
 - Greg still has Tavin's old card deck, the brass key, and the marked support cord.
-- Greg's liquid cash is improved by Vale's lower-quay payment, though he is not suddenly wealthy and proper support instruction remains deferred.
-- Vale now has present evidence that Greg can be worth hiring for short practical work, but no recurring employment arrangement or new debt exists.
-- Rusk remains part of Vale's current orbit and can find Greg through Arlo's workshop.
+- Greg has spent twelve copper as a nonrefundable deposit on a formal Guild support intake assessment.
+- the assessment is scheduled roughly six weeks ahead, on First Deepwinter.
+- do not treat six weeks as a command to skip directly to the assessment.
+- Greg cannot afford / has not purchased the whole instructional sequence yet; he has paid for access to the next gate.
+- current Carrow support procedure requires assessment before formal instruction.
+- two local intake-capable support practitioners are currently tied up on North Gate city rotation; the specialist examiner comes through on circuit.
+- Sella records Greg as Bronze, ward-support intake, low reserve.
+- Greg can currently form a small stable plane of roughly five inches for several breaths without immediate headache under light conditions. This is not a power jump.
+- Kesra Dain is now established as a current Silver specialist / rotating examiner scheduled to assess Greg in six weeks.
+- Greg knows Kesra later becomes one of the other six S-class adventurers on the continent and remembers ordinary peer-life details about her, but current Greg has not met current Kesra on-page.
+- do not immediately bring Kesra into Chapter 19 merely because the name is now available.
+- the Guild fire is now placed as plausibly occurring during the coming Deepwinter if Greg's seasonal memory is correct. The roof remains red and no fire cause has been established.
+- the Red Winter is now placed as probably the winter after the coming one, outside the likely next-year R2 horizon if Greg's East Verrel dating is correct.
+- Soren remains unresolved and should not be hunted merely because the Red Winter chronology has been placed.
 - the filtration venture remains owned by Arlo, Greg, and Ivena.
-- six ordered units are in production; two new housings are cooling at the start of Chapter 17.
-- Ivena is maintaining customer / order information and has a tannery asking to see a working unit before ordering.
-- Arlo's workshop remains Arlo's and the venture continues moving without Greg.
+- six ordered units remain in production; the tannery still wants to see a working unit before ordering.
+- Arlo's workshop remains Arlo's and the venture still does not require Greg at every step.
 - production capacity and brass fittings remain live constraints.
-- North Gate remains standing and unresolved, but repair restrictions are now visibly changing traffic and lower-quay work elsewhere in Carrow.
-- Orra is a present-day Vey Shipping river worker with real domain authority. Greg does not know her from later history.
-- Vey Shipping is now present not only as Mara's packet carrier but as ordinary working river infrastructure under congestion. The exact relation to Greg's remembered merchant-family success story remains unproven.
-- Greg initially misread the river emergency by focusing on a visibly bad rope / restraint instead of the current and hull angle.
-- Greg obeyed Orra's cut command before understanding it, then updated correctly afterward.
-- the better sword has now mattered as a practical high-pressure tool as well as a combat upgrade. This does not imply sword mastery.
-- Greg's tiny support plane can matter at leverage scale by changing an angle by inches, but it broke immediately under the iron-eye deflection and remains low magnitude.
+- Greg nearly turns toward Arlo's workshop by habit, then allows the venture to continue without him and uses ordinary yard time for himself instead.
+- Vale's lower-quay payment has improved Greg's cash position, but the support deposit and future assessment / instruction costs keep money relevant.
+- Vale has evidence Greg can be useful for practical short work, but no recurring employment arrangement or new debt exists.
+- Rusk remains in Vale's orbit.
+- North Gate remains standing and unresolved. Current restrictions continue changing city logistics and consuming support capacity.
+- Orra remains a present-day Vey Shipping river worker. Greg still does not know her from later history.
+- Vey Shipping remains living current infrastructure rather than proven destiny-company history.
 - Jorren remains north.
 - Sella remains a familiar institutional relationship.
-- Northern Gate remains an open long shadow rather than a solved prophecy.
 - Tavin remains somewhere south with a river company.
 
 ## Chapter 1 promise posture
@@ -479,36 +521,40 @@ See:
 
 `state/experiments/greg-again/written/CHAPTER_1_PROMISE_LEDGER.md`
 
-Strong open obligations still include:
+Chapter 18 materially updates three promises without solving them all:
 
-- Guild fire horizon placement
-- Soren / Red Winter chronology placement
-- at least one later S-class peer / social-history thread
-- the unresolved second letter
-- continued proof around river-shipping history without turning Vey into a preselected destiny company
+- **Guild fire:** horizon now likely inside the coming winter, but causation / exact event remain unproven.
+- **Soren / Red Winter:** Red Winter is probably beyond the current one-year-ish R2 horizon; Soren remains unresolved.
+- **later S-class peer / social history:** Kesra Dain enters present attention as a current Silver specialist, not yet as the future legend Greg remembers.
 
-Chapter 17 advances river-shipping evidence naturally but does not prove the remembered merchant-family story.
+Still-open strong obligations include:
 
-Do not pay the remaining promises all at once.
+- the unresolved second letter from Chapter 1; verify what it was before using it rather than inventing a replacement.
+- continued proof around river-shipping history without turning Vey into a preselected destiny company.
+- continued material support identity beyond the tiny-plane sequence, now with a real assessment clock.
+- Northern Gate belief update before the long shadow eventually resolves.
+
+Do not stack another promise payment immediately because Chapter 18 happened to create a natural seam.
 
 ## Immediate next pressure
 
-Chapter 17 already delivers a physical / industrial emergency. Do not mechanically repeat another paid hazard in Chapter 18 just because the action worked.
+Chapter 18 is intentionally quieter institutional / progression action after Chapter 17's physical river emergency.
 
 Live pressure now includes:
 
-- Greg has slightly more breathing room in cash but still lacks the money / access for every upgrade he wants.
-- the first letter to Mara is written but not yet shown leaving Carrow.
-- the filtration venture is progressing under Arlo and Ivena without needing Greg at every step.
-- North Gate restrictions are changing ordinary city logistics without revealing whether they matter to the remembered collapse.
-- Vey Shipping has accumulated present labor / infrastructure evidence without proving Greg's historical model.
-- Greg has now had a scene where another person's domain model beat his and he adapted quickly; do not immediately repeat the same correction grammar.
+- six weeks until the support assessment, but the story should live during those six weeks rather than skip them automatically.
+- Mara's first letter is traveling; do not manufacture an immediate reply before packet time earns it.
+- the filtration venture has a tannery demonstration / customer-conversion pressure available, but do not return to the business merely because it is convenient.
+- Greg still needs money for the later assessment balance / instruction while also preserving ordinary living cash.
+- North Gate restrictions continue affecting the city and now consume some support capacity, but the gate does not need to own every nearby chapter.
+- Kesra exists as a distant future-person thread. Do not pull her on-page early unless a live causal event earns it.
+- the Guild fire is now a closer long shadow inside the coming winter. Do not create an arson plot just because the horizon is placed.
+- Red Winter no longer needs near-term event treatment; its chronology can remain background until stronger evidence arrives.
+- the unresolved second letter remains concrete but should be verified before use.
 
-Before too much additional in-story time passes, cheaply establish where the **Guild fire** and **Red Winter** sit relative to the likely months-to-one-year R2 horizon.
+For Chapter 19, do a fresh bounded next-story search from this state. Prefer the strongest causal movement, not the nearest queued thread.
 
-Do not force either into the next scene unless the next causal event works without the ledger.
-
-For Chapter 18 forward, continue writing the Shared Greg Surface directly. Use PERFORMANCE only when behavioral uncertainty actually earns it.
+Continue writing the Shared Greg Surface directly. Use PERFORMANCE only when behavioral uncertainty actually earns it.
 
 Do not run audio synthesis from this lane.
 
