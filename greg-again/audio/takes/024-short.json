@@ -1,0 +1,15 @@
+{
+  "chapter_id": "ga-024",
+  "chapter_number": 24,
+  "title": "The Watchman",
+  "voice": "deep",
+  "source_path": "r2/assets/written/ch024.md",
+  "source_blob": "e722b77463ba7d8f8e79a69f4d99747540963b78",
+  "status": "locked_for_short_take_generation",
+  "factory": "complete-preview short takes",
+  "notes": [
+    "Exact spoken body begins after the source metadata separator.",
+    "Provider requests must keep each complete intended take within preview-safe size.",
+    "Final take inherits current written ending; chapter assembly adds about 2 seconds trailing silence."
+  ]
+}
