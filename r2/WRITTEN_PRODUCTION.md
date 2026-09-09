@@ -16,7 +16,7 @@ CURRENT STORY AUTHORITY
 → STORY SEARCH / PERFORMANCE IF EARNED
 → SHARED GREG SURFACE
 → WRITTEN FINISH
-→ LOCAL EVALUATION + A-ZONE VARIANCE CHECK + VERIFICATION
+→ LOCAL EVALUATION + VERIFICATION
 → SELECTED WRITTEN CHAPTER
 → LIVE R2 READER ON MAIN
 ```
@@ -24,8 +24,6 @@ CURRENT STORY AUTHORITY
 > **SELECTED + VERIFIED WRITTEN CHAPTERS PUBLISH TO THE R2 SITE BY DEFAULT.**
 
 Do not stop at `selected on experiment branch` merely to preserve an extra promotion gate.
-
-The A-zone variance check is a compact diagnostic from `r2/FUTURE_SURVIVOR_PROTOCOL.md`, not a second selection ceremony. It asks whether familiar successful R2 grammar is still earned by the specific scene. It does not require a rewrite or reward novelty for its own sake.
 
 ## Future survivor evidence
 
@@ -37,7 +35,7 @@ Future survivor material is rehearsal/challenger evidence, not story authority a
 
 When a speculative unit approaches publication territory, prefer fresh re-performance against current Story State and recent exact prose. Preserve old wording only where it still wins. A missing, stale, conflicting, or inaccessible survivor experiment never blocks normal forward production.
 
-After a substantial contiguous accepted run, use the cold adversarial run audit defined in `r2/FUTURE_SURVIVOR_PROTOCOL.md` when practical. Roughly 40–50 accepted chapters is a useful default checkpoint, especially before another large forward generation or promotion wave. The audit informs future judgment and targeted revision; it is not an automatic rollback, rewrite quota, or publication blocker.
+Before publishing prose descended from speculative temporal material, run the `Embodiment challenger` and `Connected-listen challenger` in `r2/FUTURE_SURVIVOR_PROTOCOL.md`. Causal completeness is not enough by itself; speculative-origin prose must still earn normal R2 experiential and listening fidelity.
 
 ## What stays experimental
 
@@ -106,4 +104,4 @@ The writer still begins with:
 
 > **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
 
-Do not write toward the website, audio queue, image queue, publication cadence, or a cold-audit score. Write/select the chapter first. Publication follows selection; publication does not select the story.
+Do not write toward the website, audio queue, image queue, or publication cadence. Write/select the chapter first. Publication follows selection; publication does not select the story.
