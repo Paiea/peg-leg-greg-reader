@@ -13,8 +13,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 22)])
-        self.assertEqual(project['current_chapter'], 'r2-ch021')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 23)])
+        self.assertEqual(project['current_chapter'], 'r2-ch022')
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
@@ -51,8 +51,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Shared Greg Surface', readme)
         self.assertIn('medium-specific finish', readme)
 
-    def test_written_frontier_is_public_through_chapter_twenty_one(self):
-        for number in range(1, 22):
+    def test_written_frontier_is_public_through_chapter_twenty_two(self):
+        for number in range(1, 23):
             chapter_id = f'r2-ch{number:03d}'
             manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
             self.assertTrue(manifest_path.exists(), chapter_id)
@@ -68,7 +68,7 @@ class R2SiteTests(unittest.TestCase):
             )
             self.assertEqual(
                 chapter['navigation']['next'],
-                None if number == 21 else f'r2-ch{number + 1:03d}',
+                None if number == 22 else f'r2-ch{number + 1:03d}',
             )
 
     def test_chapter_twenty_public_copy_excludes_internal_experiment_prelude(self):
@@ -87,6 +87,16 @@ class R2SiteTests(unittest.TestCase):
     def test_chapter_twenty_one_uses_public_role_title(self):
         chapter = json.loads((R2 / 'data/chapters/ch021.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['title'], 'The Letter Writer')
+
+    def test_chapter_twenty_two_public_copy_excludes_internal_experiment_prelude(self):
+        prose = (R2 / 'assets/written/ch022.md').read_text(encoding='utf-8')
+        self.assertNotIn('Status: **EXPERIMENTAL', prose)
+        self.assertNotIn('Story search:', prose)
+        self.assertTrue(prose.startswith('# Chapter 22: The Neighbor\n\n---\n'))
+
+    def test_chapter_twenty_two_title_names_what_greg_embodies(self):
+        chapter = json.loads((R2 / 'data/chapters/ch022.json').read_text(encoding='utf-8'))
+        self.assertEqual(chapter['title'], 'The Neighbor')
 
     def test_written_renderer_hides_internal_experiment_prelude(self):
         js = (R2 / 'assets/js/chapter.js').read_text(encoding='utf-8')
