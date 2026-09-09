@@ -1,0 +1,191 @@
+name: Advance Greg Again written frontier to Chapter 26
+
+on:
+  push:
+    branches:
+      - experiment/plg-r2-opening
+    paths:
+      - .github/workflows/r2-story-current-ch026.yml
+
+permissions:
+  contents: write
+
+jobs:
+  advance-current:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: experiment/plg-r2-opening
+          fetch-depth: 0
+
+      - name: Verify current authority and append Chapter 26 frontier
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin experiment/plg-r2-opening main
+          git reset --hard origin/experiment/plg-r2-opening
+
+          # Never stamp an older frontier over newer story work.
+          if compgen -G 'state/experiments/greg-again/prose/027-*.md' > /dev/null; then
+            echo 'A Chapter 27 prose file already exists; refusing to declare Chapter 26 current.' >&2
+            exit 42
+          fi
+
+          test "$(git hash-object state/experiments/greg-again/prose/026-the-day-off.md)" = "80a1762b582553755dd8b8b3602fd65b77d08535"
+          test -f state/experiments/greg-again/rehearsals/026-story-search.md
+          test -f state/experiments/greg-again/evals/026-day-off-eval.md
+
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          # Public main must already expose the selected Chapter 26 before story state says publication is complete.
+          raw = subprocess.check_output(['git','show','origin/main:r2/data/chapters/ch026.json'], text=True)
+          route = json.loads(raw)
+          assert route['chapter_id'] == 'r2-ch026'
+          assert route['title'] == 'The Day Off'
+          assert route['written']['status'] == 'published'
+          assert route['written']['path'] == 'assets/written/ch026.md'
+
+          path = Path('state/experiments/greg-again/written/CURRENT.md')
+          text = path.read_text(encoding='utf-8')
+          marker = '# CURRENT FRONTIER UPDATE — CHAPTER 26'
+          if marker in text:
+              raise SystemExit(0)
+
+          addition = r'''
+
+---
+
+# CURRENT FRONTIER UPDATE — CHAPTER 26
+
+This section is newer authority than the Chapter 25 frontier above.
+
+The Chapter 25 frontier remains historical state. Use this section for current forward story search.
+
+## 26 — The Day Off
+
+Selected prose:
+
+`state/experiments/greg-again/prose/026-the-day-off.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/026-story-search.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/026-day-off-eval.md`
+
+Chapter 26 follows the completed five-day West Cut contract with one ordinary recovery / maintenance day rather than automatically converting Greg's return into another contract, training beat, business emergency, artifact acquisition, party declaration, or adventure hook.
+
+Greg sleeps past midday. The field job leaves ordinary body residue rather than a dramatic injury: tight calves and shoulders, a heel blister, small hand scrapes, and a pannier bruise. He does not need healing magic and his support capability does not increase.
+
+The field pay creates a new kind of margin. Greg allocates money toward rent, food, a small support reserve, and road maintenance while preserving some available cash. The exact five-day payout remains unstated.
+
+Concrete maintenance costs established in prose:
+
+- two copper to restitch both boot heels;
+- two copper for two pairs of socks;
+- one copper for lunch;
+- sword oil and waxed thread are purchased without an exact stated price.
+
+The better sword never left its sheath on the West Cut, but rain still made maintenance necessary. Greg dries the scabbard, checks the blade, and oils it. The sword remains ordinary expensive working equipment rather than a reward ladder.
+
+Lower Rook continues as a living home system. The repaired cookroom stove is working. Noll remains Greg's current neighbor, cooks badly, jokes with accumulated history, and borrows Greg's soap again. No recovered old-life memory is required for the relationship to continue becoming real.
+
+Arlo and Ivena's filtration venture also continues independently. Greg sees Dena driving an Arlo-marked service cart with one clean matched chamber and one dirty chamber returning toward the workshop. Dena and Greg exchange a small wave. Nobody stops Greg, summons him, reports a crisis, or requires him to re-enter the business. The service system is visibly moving without him.
+
+No new Mara packet arrives. Packet time remains packet time.
+
+Edda, Harl, and Pate remain off-page. Harl's possible future repair survey remains only a future possibility if authorized. No follow-up work is scheduled.
+
+Greg deliberately does not turn toward the Guild merely because he is outside in repaired boots and could look for work. He buys lunch instead.
+
+At the end of the day, Greg almost puts the field pack under the bed, then places it beside the door instead:
+
+> **Not packed for departure. Ready to be packed.**
+
+The behavioral residue matters more than a declaration. Greg now expects field equipment to have another use even though no next job has been selected.
+
+Surviving discovery:
+
+> **Paid adventure work can buy maintenance, recovery, and a little unsold time.**
+
+The live R2 reader on `main` now publishes Chapter 26 as the selected written frontier. Audio and images may remain incomplete without blocking written authority.
+
+## Current frontier after Chapter 26
+
+Current selected state:
+
+- selected written frontier is Chapter 26, **The Day Off**;
+- Greg is in Carrow, at Lower Rook Street, after one full recovery / maintenance day following the five-day West Cut contract;
+- Greg remains Bronze;
+- Greg received the agreed West Cut field pay, exact payout unstated;
+- after allocating rent, food, support reserve, and maintenance, Greg still has some available personal cash;
+- Greg spent two copper repairing both boot heels, two copper on two pairs of socks, and one copper on lunch;
+- Greg also bought sword oil and waxed thread at unstated prices;
+- Greg's road clothes, pack, boots, and sword have been cleaned / maintained after the field contract;
+- Greg has ordinary soreness, a heel blister, minor hand scrapes, and a pannier bruise, but no established significant injury;
+- Greg's better sword remains maintained working equipment and was not used in Chapter 26;
+- Greg's support magnitude does not increase and no magic is used in Chapter 26;
+- Greg's formal support assessment remains weeks away and off-page;
+- Kesra Dain remains off-page;
+- the field pack now rests beside Greg's door, ready to be packed but not packed for any selected destination;
+- Noll remains Greg's current neighbor and the Lower Rook cookroom stove is functioning after its repair;
+- Arlo and Ivena continue operating the filtration venture independently;
+- Dena is still performing service / delivery work for that system and can move matched clean / dirty chambers without Greg at center;
+- no new filtration crisis, ownership change, order, or expansion event is established by Chapter 26;
+- Mara correspondence continues on packet time and no new packet has arrived;
+- Edda / Harl / Pate remain earned field-work relationships but no permanent party exists;
+- no West Cut repair survey is scheduled;
+- North Gate remains standing and unresolved;
+- the Guild fire remains a coming-Deepwinter long shadow with no established cause;
+- Red Winter remains farther out;
+- Jorren remains north;
+- Tavin remains somewhere south with a river company;
+- Vey Shipping remains living present infrastructure rather than proven destiny-company history;
+- the unresolved second Chapter 1 letter remains unresolved and must not be invented merely to create movement;
+- no Chapter 27 event is preselected.
+
+## Immediate next pressure after 26
+
+Chapter 26 deliberately ends with tomorrow open.
+
+Search fresh from that openness rather than treating Greg's final list of possibilities as a queue.
+
+Useful live questions include:
+
+- after recovery, what established person, institution, obligation, market condition, relationship, or ordinary need has actually changed enough to require Greg's attention?
+- does Greg choose work, training, company, correspondence, business attention, or something else, and what present evidence makes that choice live now?
+- has packet time advanced enough for Mara correspondence to move, or not yet?
+- has the filtration service system produced a real new consequence, or is its continued independence still the more important fact?
+- does the Guild have work that is unusually suited to Greg now, rather than merely generic work existing somewhere?
+- does an established relationship return for its own reason rather than because the story wants recurrence?
+- what does having a small cash margin change about Greg's choices without immediately turning money into an upgrade?
+
+Do not automatically send Greg to the Guild, Arlo, Ivena, Mara, Edda, Harl, Kesra, the West Cut, an artifact market, a higher-rank showcase, a magic lesson, or another field contract.
+
+The next chapter still begins with:
+
+> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
+'''
+          path.write_text(text.rstrip() + addition + '\n', encoding='utf-8')
+          PY
+
+          grep -q '^# CURRENT FRONTIER UPDATE — CHAPTER 26$' state/experiments/greg-again/written/CURRENT.md
+          grep -q 'selected written frontier is Chapter 26' state/experiments/greg-again/written/CURRENT.md
+
+      - name: Commit current frontier
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm -f .github/workflows/r2-story-current-ch026.yml
+          git add -A state/experiments/greg-again/written/CURRENT.md .github/workflows/r2-story-current-ch026.yml
+          git commit -m 'story: advance current frontier through Chapter 26'
+          git push origin HEAD:experiment/plg-r2-opening
