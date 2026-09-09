@@ -1,0 +1,67 @@
+name: Experiment C Round 02 materialize
+on:
+  push:
+    branches: [experiment/r2-temporal-c-hybrid]
+    paths: ['.github/workflows/experiment-c-round2-materialize.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: experiment/r2-temporal-c-hybrid
+      - name: Extract reconciled 113-138
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin experiment/r2-temporal-c-hybrid-r2-a:refs/remotes/origin/experiment/r2-temporal-c-hybrid-r2-a
+          git fetch origin experiment/r2-temporal-c-hybrid-r2-b:refs/remotes/origin/experiment/r2-temporal-c-hybrid-r2-b
+          python - <<'PY'
+          import re, subprocess
+          from pathlib import Path
+
+          out = Path('r2/experiments/temporal-writing/c-hybrid/reconciled/round-02')
+          out.mkdir(parents=True, exist_ok=True)
+
+          def source(branch, path):
+              return subprocess.check_output(['git','show',f'origin/{branch}:{path}'], text=True)
+
+          a = source('experiment/r2-temporal-c-hybrid-r2-a','r2/experiments/temporal-writing/c-hybrid/round-02/a/first-pass.md')
+          b = source('experiment/r2-temporal-c-hybrid-r2-b','r2/experiments/temporal-writing/c-hybrid/round-02/b/first-pass.md')
+
+          def chapters(text):
+              matches = list(re.finditer(r'^# Chapter (\d+): .+$', text, re.M))
+              result = {}
+              for i,m in enumerate(matches):
+                  start=m.start(); end=matches[i+1].start() if i+1 < len(matches) else len(text)
+                  chunk=text[start:end].rstrip()
+                  if chunk.endswith('---'):
+                      chunk=chunk[:-3].rstrip()
+                  result[int(m.group(1))]=chunk+'\n'
+              return result
+
+          ac=chapters(a); bc=chapters(b)
+          for n in range(113,127):
+              out.joinpath(f'ch{n:03d}.md').write_text(ac[n],encoding='utf-8')
+          for n in range(127,139):
+              text=bc[n]
+              if n==129:
+                  text=text.replace("Mara's letter came from Tern.", "Weeks later, Mara's next letter came from Tern.", 1)
+              if n==137:
+                  old='Apparently I had applied at some point in the projected life leading here.'
+                  new='I had filed the application before the long job. The Guild had found a window while I was east.'
+                  if old not in text:
+                      raise SystemExit('B137 repair anchor missing')
+                  text=text.replace(old,new,1)
+              out.joinpath(f'ch{n:03d}.md').write_text(text,encoding='utf-8')
+          assert len(list(out.glob('ch*.md'))) == 26
+          PY
+          git config user.name experiment-c-materializer
+          git config user.email actions@users.noreply.github.com
+          git rm .github/workflows/experiment-c-round2-materialize.yml
+          git add r2/experiments/temporal-writing/c-hybrid/reconciled/round-02
+          git commit -m 'Experiment C: materialize Round 02 Chapters 113-138'
+          git push origin HEAD:experiment/r2-temporal-c-hybrid
