@@ -10,7 +10,8 @@ AUDIO = ROOT / "greg-again" / "audio"
 class R2AudioFrontDoorTests(unittest.TestCase):
     def test_audio_page_is_presented_as_the_listening_edition(self):
         html = (AUDIO / "index.html").read_text(encoding="utf-8")
-        self.assertIn("Listen to Peg-Leg Greg R2", html)
+        self.assertIn("Peg-Leg Greg R2", html)
+        self.assertIn("R2 Listening Edition", html)
         self.assertIn("../../r2/assets/images/r2-cover-wide.webp", html)
         self.assertNotIn("Audio Experiments", html)
         self.assertNotIn("Listening lab", html)
