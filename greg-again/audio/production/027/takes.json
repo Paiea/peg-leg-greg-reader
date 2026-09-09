@@ -15,10 +15,13 @@
       "provider_transcript": "The next morning I spent one silver on being told I was bad at something.\n\nThis was progress.\n\nIt did not feel like progress while Sella took the coin.\n\nShe held it up between two fingers.\n\n\"Instruction?\"\n\n\"Yes.\"\n\n\"Sword?\"\n\n\"Yes.\"\n\nShe looked at me.\n\nThen at the coin.\n\nThen back at me.\n\n\"Voluntarily?\"\n\n\"I have made several financial mistakes recently. I wanted variety.\"\n\nThat almost got her.\n\nAlmost.",
       "written_sha256": "9d3e03c60bf894da276dfabc84b58ded8e592c21cfc213df842b058002dce758",
       "provider_sha256": "9d3e03c60bf894da276dfabc84b58ded8e592c21cfc213df842b058002dce758",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "38a5b50951604be2a25fa7d35488d16f",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/89dad330-1722-44e8-8dba-63b5e9a29f8c.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-01.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "a346a5a6a9d4b1865b77b94750494d20671b1898059d665c7eed92121204079c",
+      "artifact_bytes": 379392,
+      "duration_seconds": 23.712
     },
     {
       "take": 2,
@@ -26,10 +29,13 @@
       "provider_transcript": "She slid the coin into the Guild tray and wrote my name into a narrow ledger.\n\nThe line beneath mine had a Bronze courier paying for climbing instruction. The line above belonged to someone named Fenn who had apparently purchased three hours of spear work and one replacement practice shaft.\n\nExpensive morning for Fenn.\n\nSella blotted the ink.\n\n\"Lera has the east lane.\"\n\nI paused.\n\n\"Lera.\"\n\nSella's eyes moved up from the ledger.",
       "written_sha256": "30ca76ac644ebabbe07a7d2df7ad48a222b456b175bfecbcce098f554e4e9e4c",
       "provider_sha256": "30ca76ac644ebabbe07a7d2df7ad48a222b456b175bfecbcce098f554e4e9e4c",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "69922f08cd07498f95e67401dda91171",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/10149172-725e-42ab-ac27-d8e045c7cb55.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-02.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "1247261a9e9e581cfaba279d131c42585b8aa63499e8f644d9f6dd823300e594",
+      "artifact_bytes": 421632,
+      "duration_seconds": 26.352
     },
     {
       "take": 3,
@@ -37,10 +43,13 @@
       "provider_transcript": "\"You paid for instruction before learning the instructor's name?\"\n\n\"I asked her one question.\"\n\n\"Did the question contain her name?\"\n\n\"No.\"\n\n\"Then this is going very well.\"\n\nI took my Bronze token back.\n\nLera.\n\nGood.\n\nThat was one less person in Carrow stored under a profession.\n\nThe yard sounded almost exactly as it had the first time.",
       "written_sha256": "24de38e544d9b15bc6cb33761b801ef6eed24c17e1a301118bf8414204b7bb38",
       "provider_sha256": "24de38e544d9b15bc6cb33761b801ef6eed24c17e1a301118bf8414204b7bb38",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "d81d8e02160248e997e51ae9fecbe165",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60e7c9cd-ebdf-4dcd-a2fc-67c20ce8777c.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-03.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "75979b9cf7639d40fa929bd88e50159b5c1b2e7bc88e0dd50df209cada2d1907",
+      "artifact_bytes": 322944,
+      "duration_seconds": 20.184
     },
     {
       "take": 4,
@@ -48,10 +57,13 @@
       "provider_transcript": "Wood striking wood. Boots in sand. Somebody swearing at a shield strap. An instructor counting in a tone that made eight sound morally disappointing.\n\nThe difference was me.\n\nI knew that because I stepped through the doors without immediately cataloguing twelve things everyone else was doing wrong.\n\nOnly seven.\n\nGrowth.\n\nLera stood in the east lane with the same faded Silver leathers and the same short stick she had used to point at my feet weeks ago.",
       "written_sha256": "b816bd3f1b34b992f2ec4042229fd5c216b86fbe6a79c5f1123fed319cf0e992",
       "provider_sha256": "b816bd3f1b34b992f2ec4042229fd5c216b86fbe6a79c5f1123fed319cf0e992",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "7ecd8460e2bd4b21b1894cb23c6fd684",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b9478dda-a7f7-498c-b83d-f042f7b49e47.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-04.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "b34fbb3826e28581af033105ba9174fa09ef6bd7c34d67d8064c2b9995805d42",
+      "artifact_bytes": 448896,
+      "duration_seconds": 28.056
     },
     {
       "take": 5,
@@ -59,10 +71,13 @@
       "provider_transcript": "One side of her head was still shaved close. The longer side had been tied back badly enough that several strands had escaped.\n\nShe watched me approach.\n\nRecognition arrived slowly.\n\nThen all at once.\n\n\"Furniture.\"\n\n\"Greg.\"\n\n\"I liked Furniture.\"\n\n\"I have paid money now.\"\n\n\"That makes it worse.\"\n\nShe held out her hand.\n\nI gave her the stamped instruction chit Sella had given me.\n\nLera checked the time mark and tucked it into her belt.\n\n\"Sword.\"",
       "written_sha256": "ed3165a8984a1d1804377756ba18525a072271768024811bd528c631d38b83ae",
       "provider_sha256": "ed3165a8984a1d1804377756ba18525a072271768024811bd528c631d38b83ae",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "18ccf3ec6ec4404687edebd767a1c9b7",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8b1a2d7a-e7d4-468e-8126-d15e09cb0a95.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-05.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "aa65b78f3cf172231be3d5a314499e944ccdbacfc117e1338392dde0fc821fd1",
+      "artifact_bytes": 429312,
+      "duration_seconds": 26.832
     },
     {
       "take": 6,
@@ -70,10 +85,13 @@
       "provider_transcript": "I touched the good sword at my hip.\n\n\"Mine?\"\n\n\"Did you pay me to teach the rack?\"\n\nFair.\n\nI drew it.\n\nThe blade felt familiar now.\n\nNot like an old limb.\n\nNot even close.\n\nBut familiar in the honest way an object became familiar after enough mornings of putting it on, enough practice cuts, enough roads walked with the weight at one hip, enough times checking the edge before a job that never required drawing it.\n\nLera looked at the blade.\n\nHer eyebrows moved.\n\n\"Better sword.\"",
       "written_sha256": "fc16ea6c814d8ba4cec886aa339b68a384c06526ecb3d513947e55da3335fa3e",
       "provider_sha256": "fc16ea6c814d8ba4cec886aa339b68a384c06526ecb3d513947e55da3335fa3e",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "5fb28a457e624176b142a18b2ed2f654",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/12c2a37a-984c-4efd-b717-36e3eb9ba126.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-06.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "207f42ecabdf5217dcf4053fbc7fb3f062c11d42077788304e2292a2a3349811",
+      "artifact_bytes": 463104,
+      "duration_seconds": 28.944
     },
     {
       "take": 7,
@@ -81,10 +99,13 @@
       "provider_transcript": "\"Yes.\"\n\n\"You get better too?\"\n\n\"Some.\"\n\n\"Show me.\"\n\nShe pointed at the post.\n\nI took position.\n\nOverhead cut.\n\nNo committee meeting.\n\nHands lifted. Weight settled. Hips joined late enough not to announce themselves and early enough not to sabotage the rest. Blade down through the marked line.\n\nRecover.\n\nNot beautiful.\n\nServiceable.\n\nI knew that before Lera spoke.\n\n\"Again.\"\n\nI did it again.\n\n\"Again.\"\n\nThird cut.\n\nShe clicked her tongue once.\n\n\"Less furniture.\"",
       "written_sha256": "4737e5e6a4362733019fdfbeb37908eeee30aa3b13e75a6379f15b529bb39750",
       "provider_sha256": "4737e5e6a4362733019fdfbeb37908eeee30aa3b13e75a6379f15b529bb39750",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "a7b5d255cc8c4464a895fd469649cc09",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/eaeca027-b1da-4d64-ab37-293bc4237462.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-07.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "3690f4dfb7a8133a673baad8aeb231660229f4a81f643d299f896e188beaad9b",
+      "artifact_bytes": 427392,
+      "duration_seconds": 26.712
     },
     {
       "take": 8,
@@ -92,10 +113,13 @@
       "provider_transcript": "I lowered the sword.\n\n\"Thank you.\"\n\n\"Wasn't praise.\"\n\n\"I paid a silver. I'm taking what I can get.\"\n\nShe pointed with the stick.\n\n\"Side step.\"\n\nI stepped left.\n\nSmall.\n\nEnough to leave a line without trying to relocate to another district.\n\nRight.\n\nBetter.\n\nLera's face remained professionally unrewarding.\n\n\"You practice?\"\n\n\"Yes.\"\n\n\"Fight?\"\n\n\"Some.\"\n\n\"Work outside?\"\n\n\"Five days last week.\"\n\n\"That explains your feet.\"\n\nI looked down.\n\n\"They're attached.\"\n\n\"Better than before.\"",
       "written_sha256": "58741a1c0f6f5213acd8ef4190d9e3f276deaf6e5d578ffd312e0e66172d3701",
       "provider_sha256": "58741a1c0f6f5213acd8ef4190d9e3f276deaf6e5d578ffd312e0e66172d3701",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "c8b406b3be124812b1391fef0ef9fb04",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8adbc519-f7cd-4894-af87-3310a4ac8132.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-08.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "1be31613748303a1d10553f4595305442d0da0422466464f66bde85eba179ac2",
+      "artifact_bytes": 437760,
+      "duration_seconds": 27.36
     },
     {
       "take": 9,
@@ -103,10 +127,13 @@
       "provider_transcript": "Again, somehow not praise.\n\nShe moved behind me and tapped the outside of my rear ankle with the stick.\n\n\"You don't plant it as hard.\"\n\n\"Roads objected.\"\n\n\"Roads are good instructors.\"\n\n\"Cheaper than you.\"\n\nThe stick hit my calf.\n\nNot hard.\n\nEnough.\n\n\"Road doesn't stop you when you're stupid.\"\n\n\"Neither did you last time.\"\n\n\"You weren't paying.\"\n\nThat was difficult to argue with.\n\nLera moved in front of me.\n\n\"Cut.\"\n\nI cut.",
       "written_sha256": "5225ef58ed8aee9af6cf33a954d38979f587ba3075c92273032aabc99eb39fcb",
       "provider_sha256": "5225ef58ed8aee9af6cf33a954d38979f587ba3075c92273032aabc99eb39fcb",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "afb59cbd9b244c1fae80fd0110631611",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dc2af71f-3c77-4709-9cca-a1774c6246f7.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-09.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "1004fdf7560fa9352530df8c0d6231fb05e76fb95614ff60ba38abfa497f1f11",
+      "artifact_bytes": 398592,
+      "duration_seconds": 24.912
     },
     {
       "take": 10,
@@ -114,10 +141,13 @@
       "provider_transcript": "The stick touched my ribs before my sword returned to guard.\n\nI stopped.\n\nShe had not moved quickly.\n\nThat made it worse.\n\n\"Again.\"\n\nCut.\n\nTap against my shoulder.\n\nAgain.\n\nCut.\n\nI recovered faster.\n\nThe stick touched my forearm.\n\n\"You're hitting me after the cut.\"\n\n\"Yes.\"\n\n\"I noticed.\"\n\n\"Good.\"\n\n\"This lesson is already paying for itself.\"\n\nShe did not smile.\n\nI was increasingly convinced this required active effort.\n\n\"What's wrong?\"",
       "written_sha256": "c85bb969cd452a6d12286df324e6dc218a6651fe7f7dec63eaa9e48a0b15cb7f",
       "provider_sha256": "c85bb969cd452a6d12286df324e6dc218a6651fe7f7dec63eaa9e48a0b15cb7f",
-      "provider_job_id": null,
+      "provider_job_id": "3dd055be8ca149d6bf9ab6f91012af2e",
       "preview_url": null,
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-10.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "d8c5df126c1fdabd1629872824c5e27ea9b4a50a3c0e7ddcfa12264bfa8094af",
+      "artifact_bytes": 405120,
+      "duration_seconds": 25.32
     },
     {
       "take": 11,
@@ -125,10 +155,13 @@
       "provider_transcript": "\"You think the cut ends when the thing gets hit.\"\n\n\"Often useful.\"\n\n\"Thing might have friends.\"\n\n\"Often inconvenient.\"\n\nShe pointed at the post.\n\n\"Again.\"\n\nI cut.\n\nThis time I thought about the recovery before the blade landed.\n\nThat made the cut worse.\n\nLera hit me in the ribs.\n\n\"Excellent.\"\n\n\"That was worse.\"\n\n\"Yes. Now you know where the work is.\"\n\nI stared at her.",
       "written_sha256": "f9a21fce3849681524567c4abcb90691891897b6bf4a5819ea3538698c19fc36",
       "provider_sha256": "f9a21fce3849681524567c4abcb90691891897b6bf4a5819ea3538698c19fc36",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "71241db815474f4f8820ccc10c3ce87b",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b323b35d-23a2-480a-a137-9a6d666c0ed8.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-11.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "c739efd3d097620d65eaa2f403dd96d554ce8ca32242a54a6eff53db4d800641",
+      "artifact_bytes": 343680,
+      "duration_seconds": 21.48
     },
     {
       "take": 12,
@@ -136,10 +169,13 @@
       "provider_transcript": "There were instructors in my later life who could have delivered that sentence with enough dignity to get it carved into a school wall.\n\nLera scratched the side of her nose with the practice stick.\n\nBetter.\n\n\"Cut. Arrive. Recover.\"\n\n\"Arrive?\"\n\n\"Blade gets where it's going. So do you. Then leave ready.\"\n\n\"Leave where?\"\n\n\"Anywhere I can't hit you for free.\"\n\nPractical education.\n\nI liked it.\n\nWhich remained dangerous.\n\nShe had me cut again.\n\nAnd again.\n\nAnd again.",
       "written_sha256": "d3aed8ea29ef03be0348da43a6c8b9a23792a8d8147aeca4ff7c7ad1b2da859c",
       "provider_sha256": "d3aed8ea29ef03be0348da43a6c8b9a23792a8d8147aeca4ff7c7ad1b2da859c",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "9b9aec466643493599b8d3041c80f3eb",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c25b0f9e-616c-4ade-a7e0-e3817739da03.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-12.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "a8195af2092236b2857be7a8c91220145725e75b74d44bbd52214f50e365945a",
+      "artifact_bytes": 441984,
+      "duration_seconds": 27.624
     },
     {
       "take": 13,
@@ -147,10 +183,13 @@
       "provider_transcript": "The first problem was that recovery had too many pieces.\n\nHands.\n\nFeet.\n\nBlade.\n\nEyes.\n\nBreathing.\n\nWeight.\n\nAll of them had been doing something after a cut already. The problem was that they had not been doing the same something.\n\nMy hands wanted guard.\n\nMy feet wanted to admire the successful attack.\n\nMy eyes wanted to find the next opening.\n\nMy shoulders wanted to remain involved in the previous one.\n\nFifty-nine-year-old me had opinions about all of this.",
       "written_sha256": "4a8d3f5123737fd6161326ef15fca5787159994c97b3148de92bcdcc6f7609c5",
       "provider_sha256": "4a8d3f5123737fd6161326ef15fca5787159994c97b3148de92bcdcc6f7609c5",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "0a06ae0b34c143e6a3273cdeb7b74adc",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ddff1eb6-0300-442e-a8de-232aef149133.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-13.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "838770f485b70d437733b6401b7dabf6172322fa885556374c9a236ad8bb2a7b",
+      "artifact_bytes": 446208,
+      "duration_seconds": 27.888
     },
     {
       "take": 14,
@@ -158,10 +197,13 @@
       "provider_transcript": "Nineteen-year-old me had calves.\n\nLera simplified.\n\n\"Don't fix everything.\"\n\nI almost laughed.\n\n\"I've heard that before.\"\n\n\"Then somebody else got tired of you first.\"\n\nShe put a chalk mark on the post at chest height.\n\n\"Cut through that. Then give me your eyes before your sword stops moving.\"\n\n\"My eyes.\"\n\n\"Look at me.\"\n\n\"You're standing beside the post.\"\n\n\"Very good.\"\n\nI cut.\n\nThe blade crossed the mark.\n\nMy eyes found Lera.\n\nHer stick came low.\n\nI stepped.\n\nToo late.",
       "written_sha256": "17ecf2ba0893cf70be2bfc7bdce32385324e5d85f0890eaad60ca6f00fa80e20",
       "provider_sha256": "17ecf2ba0893cf70be2bfc7bdce32385324e5d85f0890eaad60ca6f00fa80e20",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "5e9c1ac9efb340aebcb1867dc1399d57",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/05426e02-fb08-45aa-b30a-1a71db361a2a.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-14.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "bf2c66a47ec3948b2aebe1d1e339a5112d6b2e5f5a359dd2b49093ebd298a12a",
+      "artifact_bytes": 443520,
+      "duration_seconds": 27.72
     },
     {
       "take": 15,
@@ -169,10 +211,13 @@
       "provider_transcript": "Tap against the outside of my thigh.\n\nAgain.\n\nCut.\n\nEyes.\n\nStick high.\n\nI ducked.\n\nWrong response.\n\nThe stick stopped against the side of my head.\n\n\"Dead.\"\n\n\"I dislike how often people say that to me here.\"\n\n\"Useful building.\"\n\nAgain.\n\nThis time the stick came toward my shoulder.\n\nI saw her breath change first.\n\nSmall inhale.\n\nWeight already settling through her left foot.\n\nThe shoulder was a lie.\n\nLow strike.\n\nI stepped before the stick moved.\n\nNot far.\n\nJust enough.",
       "written_sha256": "cc98ed8d5b3b652a74c0307e07b9689647f7362c40c255421329061740bea234",
       "provider_sha256": "cc98ed8d5b3b652a74c0307e07b9689647f7362c40c255421329061740bea234",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "9b5430d0046e49ad86258f829d11d0a9",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1a305f8c-cc70-40a2-bcb3-039a9ef0e2b3.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-15.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "802e459aa9e1903e27550a012f0f99f55adbc2389502fad31969a0134408d071",
+      "artifact_bytes": 438144,
+      "duration_seconds": 27.384
     },
     {
       "take": 16,
@@ -180,10 +225,13 @@
       "provider_transcript": "The padded end passed the outside of my knee.\n\nMy sword returned to guard.\n\nLera stopped.\n\nI stopped.\n\nThat had been clean.\n\nNot fast.\n\nNot impressive.\n\nCorrect.\n\n\"Again,\" she said.\n\nNo praise.\n\nBetter.\n\nWe repeated it.\n\nThe next one hit me.\n\nThe one after that hit me too.\n\nCausality remained committed to moderation.\n\nBy the tenth repetition I could cut, find Lera, and recover without turning all three into separate administrative processes.",
       "written_sha256": "936093328088dd51338a1c86fb3a2d8a1612dbc49eaa4c7feed363d2d4ad7e30",
       "provider_sha256": "936093328088dd51338a1c86fb3a2d8a1612dbc49eaa4c7feed363d2d4ad7e30",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "658054d9b5e741b19be0fcb8e78995ef",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5648e419-a45b-44db-a457-c9aa894fa6ca.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-16.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "11bc44e2aaec51fda7d406c651220db063e7685dd9a1301440480f4bed43e4f0",
+      "artifact_bytes": 419712,
+      "duration_seconds": 26.232
     },
     {
       "take": 17,
@@ -191,10 +239,13 @@
       "provider_transcript": "That was when the west side of the yard changed.\n\nNot louder.\n\nQuieter.\n\nPeople began moving equipment out of one lane without being asked twice.\n\nA pair of Bronze fighters abandoned a spar-ring circle and carried their practice shields to the rack. One of the yard assistants rolled a low iron frame from storage and checked the pins with both hands.\n\nLera glanced over.\n\n\"Keep cutting.\"\n\nI kept cutting.\n\nThis lasted four repetitions.",
       "written_sha256": "f34826b4979490899ca256d07555d9447f48656913780b340b173a2da285e19a",
       "provider_sha256": "4bbd05f84c2e36bd1fdaa470599c18c68f86dc780039d7add9622002510cc115",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "ab5de7b1c22547fdbd336fae8057ab37",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/906d45c7-47d8-4cdc-8693-732227c61810.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-17.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "506a50c4706f94506d8f76b10f2554c8f197082221daab27fe9a021db763c97a",
+      "artifact_bytes": 427392,
+      "duration_seconds": 26.712
     },
     {
       "take": 18,
@@ -202,10 +253,13 @@
       "provider_transcript": "Then four people walked into the yard wearing Gold.\n\nNot gold clothing.\n\nGold rank marks at collar and shoulder, worn enough that none of them looked recently acquired.\n\nA woman with a long spear went first.",
       "written_sha256": "153f14d4ae375b5f758b0a3c863f312e53ea7dc4176012c1451341655aac98aa",
       "provider_sha256": "153f14d4ae375b5f758b0a3c863f312e53ea7dc4176012c1451341655aac98aa",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "2d574ed2dd58439b96799319a1ac6cab",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1bcd6b06-ffcb-4aa5-bd9c-5aa09a198227.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-18.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "9edf46c8c1785307ec5b56f979b3ad42e802899608cd92aaa1babb953ac2c2c2",
+      "artifact_bytes": 195840,
+      "duration_seconds": 12.24
     },
     {
       "take": 19,
@@ -213,10 +267,13 @@
       "provider_transcript": "Behind her came a broad man carrying a shield with three repaired edge plates and no decorative surface left on the front. The third had a short sword and a coil of thin cord looped across one shoulder. The fourth carried no obvious weapon at all, just a narrow case under one arm and a pair of gloves tucked through his belt.\n\nNobody announced them.\n\nNobody needed to.\n\nGold.\n\nI had seen Gold adventurers before.\n\nOf course I had.",
       "written_sha256": "a343f19edf17a11dd671f07eeb1ab80ae9ac5a662fc38f54c663feb2f7d3a89e",
       "provider_sha256": "a343f19edf17a11dd671f07eeb1ab80ae9ac5a662fc38f54c663feb2f7d3a89e",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "6b53c7599a6b4110af335a93e3acf156",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8bef4b54-9f62-4939-b2c3-3d925ce22f91.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-19.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "6acff844e6b9b84da8c221318b97377dd36d5f3fd16cb52a639e27c16c147fdb",
+      "artifact_bytes": 427392,
+      "duration_seconds": 26.712
     },
     {
       "take": 20,
@@ -224,10 +281,13 @@
       "provider_transcript": "In my first life I had passed through Gold on the way to becoming something else.\n\nI remembered contracts at that level. People. Arguments. Equipment. The particular kind of confidence that came after surviving enough difficult work to stop performing confidence for strangers.\n\nBut memory was cheating.\n\nCurrent Greg had spent weeks surrounded mostly by Bronze workers, competent specialists, a few Silvers, and people whose jobs mattered more than their rank.",
       "written_sha256": "5ccbf0845b755c2b2cb7b17e20867442d5f54f3ad306233e2433378ca7331be4",
       "provider_sha256": "5ccbf0845b755c2b2cb7b17e20867442d5f54f3ad306233e2433378ca7331be4",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "bb40a7641c484e59a2d8d127442cb382",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2f6ec092-1b57-49ae-9e3a-356e77819739.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-20.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "da1c0673c3647f4c0661b4a39f60f8c0618e432fd010f7207e8075fa4022f6ea",
+      "artifact_bytes": 458112,
+      "duration_seconds": 28.632
     },
     {
       "take": 21,
@@ -235,10 +295,13 @@
       "provider_transcript": "The gap had become theoretical.\n\nThen four Golds began warming up thirty yards away.\n\nThe gap became physical.\n\nThe spearwoman did not move quickly.\n\nThat was the first thing.\n\nShe moved exactly as quickly as the next position required.\n\nOne thrust into the weighted frame.\n\nRecover.\n\nShieldman crossed before the spear was fully back.\n\nThe unarmed man touched two fingers to the shield's rear strap.",
       "written_sha256": "ae5b073c499b3c634e0d630f221c879210fc2321bcf9c3405987373ed757ff49",
       "provider_sha256": "ae5b073c499b3c634e0d630f221c879210fc2321bcf9c3405987373ed757ff49",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "baa29657689c4cf98ff782ea9e8bbcbf",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4f11441a-05a9-4da2-b3e1-c7d31b55a63c.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-21.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "321ac5d12ca31511261746719dca0e22635531d8c390a20e23b5bcaf8cefa3bf",
+      "artifact_bytes": 390528,
+      "duration_seconds": 24.408
     },
     {
       "take": 22,
@@ -246,10 +309,13 @@
       "provider_transcript": "A faint line of pale light appeared for less than a breath across the shieldman's outside foot and the sand beneath it.\n\nNot a wall.\n\nNot a dramatic spell.\n\nSomething about traction or load, maybe.\n\nThe shieldman received the frame's swinging return without giving ground.\n\nThe short-sword woman was already through the space the spearwoman had opened.\n\nOne cut.\n\nShe was gone before the weighted arm came back.\n\nThen all four reset.\n\nNo discussion.\n\nAgain.\n\nDifferent order.",
       "written_sha256": "f92dc0bb2f848646329e6de5ceb74238a7eda7be0831d713a9b1dc8d28ce845e",
       "provider_sha256": "f92dc0bb2f848646329e6de5ceb74238a7eda7be0831d713a9b1dc8d28ce845e",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "d87ab80718904cc0aa0346756e05768a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1a254ea9-eeb0-4d07-bac9-9ffe4374d6c6.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-22.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "546c6d7410971c052fa3d14fae0b9466e4eee4b042563ca548968b8eb579bc92",
+      "artifact_bytes": 460416,
+      "duration_seconds": 28.776
     },
     {
       "take": 23,
@@ -257,10 +323,13 @@
       "provider_transcript": "The spearwoman moved second this time.\n\nShield first.\n\nCord came off the third woman's shoulder and caught one of the frame's upper hooks at exactly the moment its weight shifted.\n\nThe unarmed man's fingers moved.\n\nA brief translucent shape appeared near the iron hinge.\n\nGone.\n\nThe frame turned six inches farther than its construction wanted to turn.\n\nThat was enough for the spear.\n\nNo one celebrated.\n\nNo one checked whether the others had seen what they did.",
       "written_sha256": "2bdfa77f6b57e3b024616464e8a599a7d4de719585028d593742aab01871adf2",
       "provider_sha256": "2bdfa77f6b57e3b024616464e8a599a7d4de719585028d593742aab01871adf2",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "434555fa7c184b40bb7e17fc091fc058",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ea5fdb28-11fd-4838-ac12-e442365e143e.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-23.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "0b5469cdbfd63ea660cea529555bb17a1ea41fbb86afafa4cb754a892439acea",
+      "artifact_bytes": 450048,
+      "duration_seconds": 28.128
     },
     {
       "take": 24,
@@ -268,10 +337,13 @@
       "provider_transcript": "They were already resetting.\n\nI missed Lera's stick.\n\nIt hit me in the ribs.\n\n\"Ow.\"\n\n\"You're paying me.\"\n\n\"There are Golds.\"\n\n\"Excellent eyesight.\"\n\n\"That support work.\"\n\n\"Not your lesson.\"\n\n\"Did you see the hinge?\"\n\nThe stick hit my ribs again.\n\nSame place.\n\n\"I am beginning to think this is personal.\"\n\n\"Stop watching them.\"\n\n\"I can see what they're doing.\"\n\nThat finally made her smile.\n\nVery small.\n\nAlmost cruel.\n\n\"That has never been your problem.\"\n\nI shut my mouth.",
       "written_sha256": "7aa654963e94807e40559526f9e09bad7ee19b0ea7e8a0cf5ae1e558d7020a4a",
       "provider_sha256": "7aa654963e94807e40559526f9e09bad7ee19b0ea7e8a0cf5ae1e558d7020a4a",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "4dc3ad664f3c43da89d067401dc4b929",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0437092f-187b-4759-8637-4ad33cc4b210.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-24.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "7c4935449d9e1076aa7e542cfe3b067901015bdcacacc98faef5d58a63ab0bb0",
+      "artifact_bytes": 436992,
+      "duration_seconds": 27.312
     },
     {
       "take": 25,
@@ -279,10 +351,13 @@
       "provider_transcript": "Reasonable.\n\nShe pointed at the post.\n\n\"Cut.\"\n\nI cut.\n\nArrive.\n\nEyes.\n\nLera moved.\n\nI read high.\n\nWrong.\n\nTap against my thigh.\n\nAgain.\n\nBehind her, the Gold party ran the frame in another pattern.\n\nI heard the shield strike.\n\nDid not look.\n\nCut.\n\nArrive.\n\nEyes.\n\nBreath.\n\nWeight.\n\nLera's right shoulder shifted.\n\nThis time the shoulder told the truth.\n\nI stepped outside the line.\n\nRecovered.\n\nHer stick missed.\n\nMy sword was ready.\n\nThere.\n\nI felt the opening arrive.",
       "written_sha256": "65096dc68d7bc7e0d7165d580375e47f01df014e4e213f07b0cedb65afb44002",
       "provider_sha256": "65096dc68d7bc7e0d7165d580375e47f01df014e4e213f07b0cedb65afb44002",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "4b88963939704795bf38fbe91c9c7369",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2feaa38a-a752-4b61-9590-a5015b4b56eb.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-25.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "6bbdfddee90872aea616d2147b7e5fa18a800dd94720e770e773a7826d5ee632",
+      "artifact_bytes": 421632,
+      "duration_seconds": 26.352
     },
     {
       "take": 26,
@@ -290,10 +365,13 @@
       "provider_transcript": "Not a theoretical opening.\n\nA real one.\n\nLera's stick had crossed low and her right side was open.\n\nI knew three counters.\n\nOne belonged to a swordsman I had watched win a continental final thirty years from now.\n\nOne depended on a support brace I could not currently form quickly enough.\n\nOne was stupid.\n\nI did none of them.\n\nI held guard.\n\nLera's eyes changed.\n\n\"Good.\"\n\nActual praise.\n\nTiny.\n\nI almost ruined it by becoming pleased.\n\n\"Again.\"\n\nOf course.\n\nWe kept going.",
       "written_sha256": "caccede909ca4c4aeb35ae7e74a4395b2dbfd87f16f3794c5b420f8e7cab7fec",
       "provider_sha256": "caccede909ca4c4aeb35ae7e74a4395b2dbfd87f16f3794c5b420f8e7cab7fec",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "c565adcf3ca341f39b1fa84206e5ccb3",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8ca89635-fbeb-4d22-aa21-fd87787d4ca2.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-26.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "39fc11d90a96c0d59468bf9a34d0b85cdb3c4c4105e0114f609e7da071d13acc",
+      "artifact_bytes": 450432,
+      "duration_seconds": 28.152
     },
     {
       "take": 27,
@@ -301,10 +379,13 @@
       "provider_transcript": "The lesson ended with my shoulders burning and my one silver fully converted into corrections.\n\nLera took the practice stick under one arm and handed me the stamped chit back with a mark across the corner.\n\n\"What do I practice?\"\n\n\"Same cut.\"\n\nI waited.\n\n\"That's it?\"\n\n\"No. You practice finishing it.\"\n\n\"Cut, arrive, recover.\"\n\n\"If you need the words.\"\n\n\"How many?\"\n\nShe shrugged.\n\n\"Enough that you stop asking what comes after the cut.\"\n\n\"Very measurable.\"",
       "written_sha256": "9b3595c403ddd1be326f2e6547d7c8fbad210d4a8870f3d8d59069aaf353e54b",
       "provider_sha256": "9b3595c403ddd1be326f2e6547d7c8fbad210d4a8870f3d8d59069aaf353e54b",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "e3cc81a0099b4c83aeaa173b5ee1100e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0c5f3c04-fa5a-411e-b259-1961e66c92d0.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-27.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "2365a2136c0067efc0546b6fb83f070e34538b9e17627a7d91b0138c00097826",
+      "artifact_bytes": 431616,
+      "duration_seconds": 26.976
     },
     {
       "take": 28,
@@ -312,10 +393,13 @@
       "provider_transcript": "\"You want measurable, pay me another silver.\"\n\nI looked toward the Gold lane.\n\nThey were done.\n\nThat surprised me.\n\nNo exhausted collapse. No final dramatic exchange. The shieldman was checking one repaired edge plate with his thumb. The spearwoman had a cloth around the head of the spear. The woman with the cord was rewinding it carefully, checking each span for fray. The unarmed man had opened the narrow case and was putting three little metal pieces back into fitted slots.",
       "written_sha256": "b2e20240e708f89cf41449aa393d0bcdb2439faed7af89b08b462210496cb8f8",
       "provider_sha256": "b2e20240e708f89cf41449aa393d0bcdb2439faed7af89b08b462210496cb8f8",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "e573ffcdf9b54219ba1ffdbc4bfedf48",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4d957e88-b2d2-4cba-aad8-82b7eead5849.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-28.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "dc19d4bd26934fc86917756476d0254689e6f3d18012b954e0ca78bc85380c8c",
+      "artifact_bytes": 467712,
+      "duration_seconds": 29.232
     },
     {
       "take": 29,
@@ -323,10 +407,13 @@
       "provider_transcript": "Maintenance.\n\nOf course.\n\nOne of the yard assistants asked them something.\n\nThe spearwoman answered.\n\nThey left through the west door.\n\nNo one applauded.\n\nA Bronze pair moved back into the lane ten seconds later.\n\nI watched them go anyway.\n\nGold.\n\nReally Gold.\n\nGood enough that four people could make a complicated thing look less complicated by refusing to waste motion on it.\n\nOld me had been above that.\n\nMuch above it, eventually.",
       "written_sha256": "f612c67f22b111c0669d4be03fcf55063b2fc6c40d492db311fd6a97cf064413",
       "provider_sha256": "f612c67f22b111c0669d4be03fcf55063b2fc6c40d492db311fd6a97cf064413",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "33bc63a125b848ddb0470878dd67855d",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cdf13247-97a7-4ced-a978-3f67c3c8fce5.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-29.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "eb1ef8751a9820bb7a54994a2c84c72211dee49e5d550be15eba4d7a638b2bca",
+      "artifact_bytes": 412416,
+      "duration_seconds": 25.776
     },
     {
       "take": 30,
@@ -334,10 +421,13 @@
       "provider_transcript": "The thought should have made current Greg feel small.\n\nIt did.\n\nA little.\n\nIt also made the distance real.\n\nThat was better.\n\nLera tapped my sword with the stick.\n\n\"You done?\"\n\n\"Apparently.\"\n\n\"Then sheath it before you cut somebody buying lunch.\"\n\nI sheathed it.\n\nOutside the yard, Sella was dealing with a man who had filled out the back of a form and somehow missed the front.\n\nBalance restored.\n\nShe glanced at my marked chit.\n\n\"Worth it?\"\n\nI thought about the silver.",
       "written_sha256": "e02366955c4951ff9373b4d51e7d6b2b7b4e1d755abf8145727bf0aa65f11d0e",
       "provider_sha256": "e02366955c4951ff9373b4d51e7d6b2b7b4e1d755abf8145727bf0aa65f11d0e",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "c1cba2eadec249cdb70647efddb7091a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c70f2c1d-7994-4a3c-9f59-b23c6bc67446.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-30.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "2ae6ce9eb4fd5d1c819385fc5316e858871c4325aaa81755f6109a3193966848",
+      "artifact_bytes": 449664,
+      "duration_seconds": 28.104
     },
     {
       "take": 31,
@@ -345,10 +435,13 @@
       "provider_transcript": "Two repaired boot heels had cost two copper.\n\nTwo pairs of socks had cost two more.\n\nLunch yesterday had been one.\n\nOne silver still hurt.\n\nGood.\n\nIt should.\n\n\"Ask me when I stop getting hit after the cut.\"\n\nSella looked past me toward the yard.\n\n\"So no.\"\n\n\"Not yet.\"\n\nShe took the chit and stamped the ledger.\n\nI left the Guild with less money, sore shoulders, and no new job.\n\nThat felt suspiciously responsible.\n\nOn Lower Rook Street, I did not practice the cut between carts.",
       "written_sha256": "3798ce14974a793c1eb355a9c3aeb8546605f0252f7217d487a9afd88be6a38a",
       "provider_sha256": "3798ce14974a793c1eb355a9c3aeb8546605f0252f7217d487a9afd88be6a38a",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "ce70e99d9a6d4c55b0ea24c5521303a7",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e2d74722-4219-41d5-bfc0-5713a6102366.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-31.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "9676c3c52315df171bcf6646b3fa8c8f4d459484840d4b4647eea57de086f699",
+      "artifact_bytes": 458496,
+      "duration_seconds": 28.656
     },
     {
       "take": 32,
@@ -356,10 +449,13 @@
       "provider_transcript": "I had matured.\n\nInstead I waited until the small yard behind the building was empty.\n\nNoll's laundry hung from one line.\n\nSomeone else's shirts occupied the other.\n\nI found six feet of space between a rain barrel and the wall.\n\nRaised the sword.\n\nCut.\n\nArrive.\n\nRecover.\n\nMy eyes found the doorway.\n\nNobody there.\n\nAgain.\n\nCut.\n\nArrive.\n\nRecover.\n\nThe first two felt slow because I was thinking about them.\n\nThe third felt worse.\n\nThe fourth nearly became clever.\n\nI stopped it.",
       "written_sha256": "c669976dd0e9805ffc1ca87023f1fa29662258f641452027610a599c279080f8",
       "provider_sha256": "c669976dd0e9805ffc1ca87023f1fa29662258f641452027610a599c279080f8",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "8ba13a9912af4e05b9e2810fd61f3add",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f6de3832-2876-4149-a786-f8c73281c2b6.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-32.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "4a6b86985c043f91e96eb6103b7f8e61c2f62e09d83d9360a1355bcec56d8095",
+      "artifact_bytes": 449664,
+      "duration_seconds": 28.104
     },
     {
       "take": 33,
@@ -367,10 +463,13 @@
       "provider_transcript": "That might have been the most expensive part of the lesson.\n\nAgain...",
       "written_sha256": "5971b6ff34bb9a6dff1bc470b4c6efde583ea93501635e9ccf362d79153422e8",
       "provider_sha256": "5971b6ff34bb9a6dff1bc470b4c6efde583ea93501635e9ccf362d79153422e8",
-      "provider_job_id": null,
-      "preview_url": null,
+      "provider_job_id": "67bf2cab69ba49858d4a2a01541ea528",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/72cd731f-a15b-4070-be16-98edbfce4c34.mp3",
       "durable_file": "greg-again/audio/production/027/takes/ga-027-take-33.mp3",
-      "status": "locked"
+      "status": "artifact_captured",
+      "artifact_sha256": "616edefc6f4b9e4e0106f1fd4132923b23f07382087de774e7efaf03d1c48a66",
+      "artifact_bytes": 66048,
+      "duration_seconds": 4.128
     }
   ]
 }
