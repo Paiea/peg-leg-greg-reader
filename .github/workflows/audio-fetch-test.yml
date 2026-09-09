@@ -8,26 +8,85 @@ on:
       - .github/workflows/audio-fetch-test.yml
 
 jobs:
-  fetch-preview-bridge:
+  prepare-preview-takes:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch public preview MP3
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-batch-012-014
+      - name: Build exact preview-safe take transcripts
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p out
-          url='https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c3a7eb16-58f2-4ba9-97b2-9b1a60bf5e5e.mp3'
-          curl --fail --location "$url" -o out/handoff-test.mp3
-          test -s out/handoff-test.mp3
-          file out/handoff-test.mp3
           python - <<'PY'
+          import json, re
           from pathlib import Path
-          p=Path('out/handoff-test.mp3')
-          b=p.read_bytes()
-          print('bytes',len(b),'prefix',b[:16].hex())
+
+          LIMIT=430
+          chapters={
+            12:'r2/assets/written/ch012.md',
+            13:'r2/assets/written/ch013.md',
+            14:'r2/assets/written/ch014.md',
+          }
+
+          def spoken(path):
+              s=Path(path).read_text(encoding='utf-8')
+              if '\n---\n' not in s:
+                  raise SystemExit(f'missing prose separator: {path}')
+              return s.split('\n---\n',1)[1].strip()
+
+          def split_long(text, limit):
+              if len(text)<=limit: return [text]
+              # sentence-aware first, then word-aware
+              pieces=re.split(r'(?<=[.!?])\s+', text)
+              out=[]; cur=''
+              for piece in pieces:
+                  if len(piece)>limit:
+                      words=piece.split()
+                      for w in words:
+                          cand=(cur+' '+w).strip()
+                          if cur and len(cand)>limit:
+                              out.append(cur); cur=w
+                          else: cur=cand
+                  else:
+                      cand=(cur+' '+piece).strip()
+                      if cur and len(cand)>limit:
+                          out.append(cur); cur=piece
+                      else: cur=cand
+              if cur: out.append(cur)
+              return out
+
+          summary={}
+          for ch,path in chapters.items():
+              text=spoken(path)
+              paras=[p.strip() for p in re.split(r'\n\s*\n', text) if p.strip()]
+              units=[]
+              for p in paras:
+                  units.extend(split_long(p,LIMIT))
+              takes=[]; cur=''
+              for u in units:
+                  cand=(cur+'\n\n'+u).strip() if cur else u
+                  if cur and len(cand)>LIMIT:
+                      takes.append(cur); cur=u
+                  else: cur=cand
+              if cur: takes.append(cur)
+              # Exact normalized coverage proof: joining take paragraphs equals source paragraphs.
+              source_norm='\n\n'.join(paras)
+              take_norm='\n\n'.join(takes)
+              if source_norm != take_norm:
+                  raise SystemExit(f'coverage mismatch ch{ch}: {len(source_norm)} != {len(take_norm)}')
+              data=[]
+              for i,t in enumerate(takes,1):
+                  data.append({'chapter':ch,'take':i,'chars':len(t),'transcript':t})
+              Path(f'out/ch{ch:03d}-takes.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
+              Path(f'out/ch{ch:03d}-spoken.txt').write_text(text,encoding='utf-8')
+              summary[str(ch)]={'take_count':len(takes),'chars':len(text),'max_take_chars':max(map(len,takes))}
+          Path('out/summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
+          print(json.dumps(summary,indent=2))
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: ga-audio-preview-bridge-test
-          path: out/handoff-test.mp3
+          name: ga012-014-preview-take-transcripts
+          path: out
           if-no-files-found: error
