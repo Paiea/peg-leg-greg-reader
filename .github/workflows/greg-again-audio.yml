@@ -1,130 +1,28 @@
-name: Resolve final mana splice seams
+name: Validate Greg Again Audio
 
 on:
+  pull_request:
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - audio/greg-again-mana-pronunciation-repair-v2
+      - main
     paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  resolve:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 15
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
-          ref: audio/greg-again-mana-pronunciation-repair-v2
-          fetch-depth: 0
-      - name: Install tools
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg >/dev/null
-          python -m pip install --quiet faster-whisper
-      - name: Resolve exact local seams
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          import json,re,subprocess
-          from pathlib import Path
-          from difflib import SequenceMatcher
-          from faster_whisper import WhisperModel
-
-          root=Path('.')
-          work=Path('/tmp/final-mana-seams'); work.mkdir(parents=True,exist_ok=True)
-          model=WhisperModel('small.en',device='cpu',compute_type='int8')
-          cases={
-            'ch006-t05-m01': {
-              'audio':'greg-again/audio/assets/chunks/006/06.mp3',
-              'target':'Mana-bearing residue.',
-              'expanded':'Metal. Mana-bearing residue.',
-              'prompt':'Not memories exactly. Shape. Failure shape. Conductive path. Wet floor. Metal. Mana-bearing residue. People standing inside it. Back.'},
-            'ch018-t18-m01': {
-              'audio':'greg-again/audio/assets/chunks/018/17.mp3',
-              'target':'Current mana.',
-              'expanded':'Current body. Current mana.',
-              'prompt':'A slot existed in six weeks. Deposit now. Miss it. Lose the deposit. Show up. Get assessed. Pass or fail based on what I could do then. Current body. Current mana. No historical exemptions for having once been impressive.'},
-            'ch022-t03-m01': {
-              'audio':'greg-again/audio/assets/chunks/022/04.mp3',
-              'target':'Mana gathered badly, then enough.',
-              'expanded':'My hand moved before I finished thinking. Mana gathered badly, then enough. A support plane snapped into place between the falling plaster and the side of his face.',
-              'prompt':'A chunk larger than his head broke loose from above the opening. His eyes went up. Too late. My hand moved before I finished thinking. Mana gathered badly, then enough. A support plane snapped into place between the falling plaster and the side of his face. Five inches. Maybe six.'}
-          }
-          def normword(s):
-            x=re.sub(r"[^a-z0-9']+",'',s.lower())
-            if x in {'manna','mahna','manaa','manah'}: x='mana'
-            return x
-          def toks(s): return [normword(x) for x in re.findall(r"[A-Za-z0-9']+",s) if normword(x)]
-          def best(words,text):
-            target=toks(text); bestv=None
-            for i in range(len(words)):
-              for L in range(max(1,len(target)-2),min(len(words)-i,len(target)+3)+1):
-                cand=[w['word'] for w in words[i:i+L]]
-                ratio=SequenceMatcher(None,target,cand).ratio()
-                score=ratio-.02*abs(L-len(target))
-                if bestv is None or score>bestv[0]: bestv=(score,ratio,i,i+L,cand)
-            return bestv
-          def silence_sets(path):
-            out={}
-            for noise in (-50,-46,-42,-38,-34):
-              log=work/f'{path.stem}-{abs(noise)}.log'
-              with log.open('w') as fh:
-                subprocess.run(['ffmpeg','-hide_banner','-loglevel','info','-i',str(path),'-af',f'silencedetect=noise={noise}dB:d=0.012','-f','null','-'],stdout=subprocess.DEVNULL,stderr=fh,check=False)
-              ev=[]; cur=None; arr=[]
-              for line in log.read_text(errors='replace').splitlines():
-                m=re.search(r'silence_start: ([0-9.]+)',line)
-                if m: ev.append(('s',float(m.group(1))))
-                m=re.search(r'silence_end: ([0-9.]+)',line)
-                if m: ev.append(('e',float(m.group(1))))
-              ev.sort(key=lambda z:z[1])
-              for k,t in ev:
-                if k=='s': cur=t
-                elif cur is not None: arr.append((cur,t)); cur=None
-              out[str(noise)]=arr
-            return out
-          records=[]
-          for key,c in cases.items():
-            src=root/c['audio']
-            segs,_=model.transcribe(str(src),beam_size=5,word_timestamps=True,vad_filter=False,language='en',condition_on_previous_text=False,initial_prompt=c['prompt'])
-            words=[]
-            for seg in segs:
-              for w in seg.words or []:
-                nw=normword(w.word)
-                if nw: words.append({'word':nw,'raw':w.word.strip(),'start':round(float(w.start),3),'end':round(float(w.end),3),'prob':round(float(w.probability or 0),3)})
-            sil=silence_sets(src)
-            rec={'target':key,'source_audio':c['audio'],'target_text':c['target'],'expanded_text':c['expanded'],'word_count':len(words),'words':words,'silences':sil}
-            for label,text in [('target',c['target']),('expanded',c['expanded'])]:
-              b=best(words,text)
-              if not b: continue
-              score,ratio,i,j,cand=b; span=words[i:j]
-              s=span[0]['start']; e=span[-1]['end']
-              seams=[]
-              for noise,arr in sil.items():
-                left=[x for x in arr if x[1] <= s+.12 and s-x[1] <= 2.0]
-                right=[x for x in arr if x[0] >= e-.12 and x[0]-e <= 2.0]
-                L=max(left,key=lambda x:x[1]) if left else None
-                R=min(right,key=lambda x:x[0]) if right else None
-                seams.append({'noise_db':int(noise),'left':L,'right':R,'left_mid':round(sum(L)/2,3) if L else None,'right_mid':round(sum(R)/2,3) if R else None})
-              rec[label+'_match']={'ratio':round(ratio,3),'score':round(score,3),'words':cand,'speech_start':s,'speech_end':e,'previous_word':words[i-1] if i else None,'next_word':words[j] if j<len(words) else None,'seams':seams}
-            records.append(rec)
-            print('\n',key)
-            print(' target',rec.get('target_match'))
-            print(' expanded',rec.get('expanded_match'))
-          out={'method':'whole correct provider chunk + prompted word timestamps + multi-threshold 12ms silence seams','records':records}
-          (root/'greg-again/audio/production/2026-09-09-mana-final-seams.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          PY
-      - name: Restore validator and commit evidence
-        shell: bash
-        run: |
-          set -euo pipefail
-          git fetch origin main --depth=1
-          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add greg-again/audio/production/2026-09-09-mana-final-seams.json .github/workflows/greg-again-audio.yml
-          git commit -m 'audio: resolve final mana splice seams'
-          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
