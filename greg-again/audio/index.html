@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171614">
+  <meta name="theme-color" content="#f3eddf">
   <title>Listen · Peg-Leg Greg R2</title>
   <meta name="description" content="Listen to Peg-Leg Greg R2, the audio-first second run of the story.">
   <link rel="stylesheet" href="audio.css">
   <link rel="stylesheet" href="audio-front-door.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to audio</a>
+  <a class="skip-link" href="#chapter-list">Skip to audio chapters</a>
 
   <header class="site-header">
     <a class="brand" href="../../r2/" aria-label="Peg-Leg Greg R2 home">
@@ -18,34 +18,41 @@
     </a>
     <nav aria-label="Listening edition navigation">
       <a href="../../r2/">R2 Home</a>
-      <a aria-current="page" href="./">Listen</a>
-      <a href="../../r2/chapters/">Read</a>
+      <a aria-current="page" href="./">Audio</a>
+      <a href="../../r2/chapters/">Chapters</a>
       <a href="../../r2/about/">About</a>
     </nav>
   </header>
 
   <main id="main" class="audio-shell">
     <section class="listen-hero" aria-labelledby="listen-title">
-      <div class="listen-hero-media">
-        <picture>
-          <source media="(max-width: 760px)" srcset="../../r2/assets/images/r2-cover-portrait.webp">
-          <img src="../../r2/assets/images/r2-cover-wide.webp" alt="Peg-Leg Greg R2 cover art showing young Greg in Carrow.">
-        </picture>
+      <div class="listen-hero-media" data-hero-art>
+        <img
+          class="listen-hero-image"
+          src="../../r2/assets/images/r2-cover-wide.webp"
+          data-custom-src="assets/art/listening-edition-hero.webp"
+          alt="Peg-Leg Greg R2 cover art showing young Greg in Carrow."
+        >
       </div>
       <div class="listen-hero-copy">
-        <p class="eyebrow">R2 · Listening edition</p>
-        <h1 id="listen-title">Listen to Peg-Leg Greg R2</h1>
-        <p class="lede">This is the main way into R2. Start at Chapter 1, keep moving down the shelf, and use the written chapters whenever you want to check a line, a name, or a detail.</p>
-        <a class="listen-start" href="#chapter-list">Start listening ↓</a>
+        <p class="eyebrow">R2 Listening Edition</p>
+        <h1 id="listen-title">Peg-Leg Greg R2</h1>
+        <p class="lede">Built to be heard first. Start with Chapter 1, then use the written chapters whenever you want to check a name, line, or detail.</p>
+        <a class="listen-start" href="#chapter-list">Start Listening <span aria-hidden="true">↓</span></a>
       </div>
+    </section>
+
+    <section class="availability-strip" aria-label="Listening edition availability">
+      <p id="availability-summary">Loading the listening shelf…</p>
+      <a href="../../r2/chapters/">Written reference</a>
     </section>
 
     <section class="listen-shelf-heading" aria-labelledby="chapters-title">
       <div>
-        <p class="eyebrow">The story</p>
+        <p class="eyebrow">Listening shelf</p>
         <h2 id="chapters-title">Chapters</h2>
       </div>
-      <p>One chapter at a time, in order.</p>
+      <p>Choose a role and press play.</p>
     </section>
 
     <section id="chapter-list" class="chapter-list" aria-live="polite" aria-label="Playable audio chapters">
@@ -53,12 +60,12 @@
     </section>
 
     <aside class="audio-note" aria-label="About the listening edition">
-      <p>R2 is written for the ear first. The text is still there when you want to check what you heard.</p>
+      <p>The story lives in the listening. The written chapters are there when you want to check what you heard.</p>
     </aside>
 
     <nav class="return-nav" aria-label="More R2">
       <a href="../../r2/">← R2 Home</a>
-      <a href="../../r2/chapters/">Read the chapters →</a>
+      <a href="../../r2/chapters/">Written chapters →</a>
     </nav>
   </main>
 
