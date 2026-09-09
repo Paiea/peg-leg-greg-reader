@@ -1,0 +1,67 @@
+name: Reconcile Greg Again Chapter 22 Current Main
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch022-auto
+    paths:
+      - .github/workflows/greg-again-ch022-reconcile-current.yml
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch022-auto
+          fetch-depth: 0
+      - name: Merge current main and preserve Chapter 22 publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python3 - <<'PY'
+          import json
+          d=json.load(open('greg-again/audio/manifest.json'))
+          entry=next(x for x in d['chapters'] if x['chapter_id']=='ga-022')
+          json.dump(entry,open('/tmp/ga022.json','w'))
+          PY
+          git fetch origin main
+          set +e
+          git merge --no-commit origin/main
+          rc=$?
+          set -e
+          if [ "$rc" -ne 0 ]; then
+            conflicts="$(git diff --name-only --diff-filter=U)"
+            unexpected="$(printf '%s\n' "$conflicts" | grep -v '^greg-again/audio/manifest.json$' || true)"
+            if [ -n "$unexpected" ]; then
+              echo 'Unexpected conflicts:' >&2
+              printf '%s\n' "$unexpected" >&2
+              exit 1
+            fi
+            git checkout --theirs greg-again/audio/manifest.json
+            git add greg-again/audio/manifest.json
+          fi
+          python3 - <<'PY'
+          import json
+          p='greg-again/audio/manifest.json'
+          d=json.load(open(p))
+          entry=json.load(open('/tmp/ga022.json'))
+          d['chapters']=[x for x in d['chapters'] if x['chapter_id']!='ga-022']+[entry]
+          d['chapters'].sort(key=lambda x:x['number'])
+          with open(p,'w') as f:
+              json.dump(d,f,indent=2,ensure_ascii=False)
+              f.write('\n')
+          PY
+          git add greg-again/audio/manifest.json
+          test -z "$(git diff --name-only --diff-filter=U)"
+          if git rev-parse -q --verify MERGE_HEAD >/dev/null; then
+            git commit -m 'Merge current main before Chapter 22 publication'
+          else
+            git commit -m 'audio: refresh Chapter 22 over current main' || true
+          fi
+          git push origin HEAD:audio/greg-again-ch022-auto
