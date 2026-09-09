@@ -1,0 +1,25 @@
+{
+  "chapter_id": "ga-028",
+  "voice": "deep",
+  "source": "r2/assets/written/ch028.md",
+  "provider_aliases": {
+    "mana": "ma-na",
+    "Vale": "Vayle"
+  },
+  "takes": [
+    {"take":1,"context_id":"3559b258366d48cfa5e0cc3c4a5bb000","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ce4c6e05-b52b-4d99-83fe-0b958ccb77fb.mp3"},
+    {"take":2,"context_id":"61479fedb18241259e05817c0eaa369c"},
+    {"take":3,"context_id":"2e6ff43accb44025a34f43041294405b"},
+    {"take":4,"context_id":"8a8399b25fa54096a9596914d76b40ed"},
+    {"take":5,"context_id":"ef21f7f62c6945b39bc946fd4f7706b8"},
+    {"take":6,"context_id":"cab243ff8aa846f687de160807d09679"},
+    {"take":7,"context_id":"fed6fa5eb89f4d178d833ebead2f06cb"},
+    {"take":8,"context_id":"aa388ce08814470788f50694ca726eeb"},
+    {"take":9,"context_id":"d841023ea40c4e7ab245cd0620e69a83","provider_substitution":"mana -> ma-na"},
+    {"take":10,"context_id":"1ef687ff59d74cb3b20423fce04aa398"},
+    {"take":11,"context_id":"6a8d6dd2632547e7b6834faa540fcbf2"},
+    {"take":12,"context_id":"077d89ecf9354abf96a93339b5984a3d"},
+    {"take":13,"context_id":"98257e28486f4f9aa208784b85e1d087","provider_substitution":"Vale -> Vayle"},
+    {"take":14,"context_id":"55f99a569b0045228e82941aee25fac7","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4682841f-e421-4c06-9796-a9663a3cffcb.mp3"}
+  ]
+}
