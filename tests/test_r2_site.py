@@ -48,7 +48,7 @@ class R2SiteTests(unittest.TestCase):
         about = (R2 / 'about/index.html').read_text(encoding='utf-8')
         public_copy = f'{homepage}\n{about}'.lower()
 
-        self.assertNotIn('audio experiment', public_copy)
+        self.assertNotIn('experiment', public_copy)
         self.assertNotIn('renditions catch up', public_copy)
         self.assertNotIn('machinery broke', public_copy)
         self.assertNotIn('production pipelines worked', public_copy)
