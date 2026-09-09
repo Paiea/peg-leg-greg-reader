@@ -103,22 +103,157 @@ For every owned chapter:
 1. resolve the current authoritative Shared Greg Surface / written source
 2. apply current `r2/PIPELINE.md` Audio Finish doctrine
 3. preserve current narrator / voice / pronunciation authority
-4. split into provider-safe performance takes only as needed
-5. generate voice takes
-6. assemble the chapter audio
+4. split into provider-safe performance takes using the established short-take factory below
+5. generate each take as its own voice job
+6. assemble the ordered take audio into one continuous chapter MP3
 7. verify text coverage, take order, seams, playability, title, duration, and route
 8. reconcile shared catalog / manifest files against newest GitHub authority
 9. publish the verified chapter durably
 
 Do not redesign settled audio philosophy merely because a worker owns several chapters.
 
-## Provider queueing
+## Established short-take voice factory
+
+**Do not default to one giant chapter-long voice generation.**
+
+The current proven Greg, Again production method makes the chapter from multiple short provider-safe voice generations and then stitches those outputs into one final chapter MP3.
+
+Published Chapters 1–7 used **11–14 takes per chapter**:
+
+- Chapter 1: 11 takes
+- Chapter 2: 12 takes
+- Chapter 3: 12 takes
+- Chapter 4: 12 takes
+- Chapter 5: 14 takes
+- Chapter 6: 13 takes
+- Chapter 7: 14 takes
+
+Therefore a normal roughly 12–15 minute Greg, Again chapter should usually be expected to require **about a dozen separate voice-generation jobs**, not one long generation. The exact count follows the chapter. Do not force 12 when 11 or 14 creates cleaner provider-safe boundaries.
+
+### Voice generation
+
+Use the current repository renderer / available AI voice-generation tool. When the tool exposes the established voice choice, use:
+
+`deep`
+
+Treat **one take as one voice-generation request**.
+
+For each take:
+
+1. lock the exact spoken transcript for that take
+2. submit only that intended spoken material to the voice renderer
+3. use the same established `deep` narrator across the chapter
+4. capture the returned audio artifact
+5. associate it deterministically with chapter + take number
+6. do not silently paraphrase the text because a provider call is inconvenient
+
+A useful deterministic naming shape is:
+
+- `ga-012-take-01`
+- `ga-012-take-02`
+- ...
+- `ga-012-take-12`
+
+Follow existing repository file conventions when a current chapter already establishes a more specific path/name.
+
+### Take map
+
+Before or during generation, preserve an ordered take map containing at minimum:
+
+- chapter number / ID
+- take number
+- exact transcript or exact source boundaries
+- first-word / last-word anchors when useful
+- returned audio artifact identity / filename once generated
+- any local repair note
+
+The take map exists so assembly can prove that every spoken segment appears once and in the correct order.
+
+### Choosing take boundaries
+
+Take boundaries are **production seams, not story edits**.
+
+Prefer natural boundaries around:
+
+- paragraph / thought movement
+- scene movement
+- speaker transition
+- action transition
+- realization
+- interruption
+- a natural pause that will survive stitching
+
+If a section is too dense or too large for reliable provider generation, split it again without changing story state or meaning. Chapters 6 and 7 already established this precedent with extra provider-safe splits.
+
+Do not shorten Greg's processing space merely to fit a larger chunk.
+
+### Queue the voice jobs
+
+Once take transcripts are locked, the takes are independent provider jobs.
+
+**Submit multiple takes without unnecessarily waiting for each previous take to finish** when the tool/provider permits queued or parallel requests.
+
+For a 12-take chapter, the desired behavior is conceptually:
+
+```text
+submit take 01
+submit take 02
+submit take 03
+...
+submit take 12
+collect completed outputs
+assemble in take order
+```
+
+not:
+
+```text
+submit take 01
+wait for full downstream assembly work
+submit take 02
+wait again
+...
+```
+
+Provider-side serialization or throttling is acceptable. The worker's job is to avoid creating artificial serial waiting when independent jobs can already be queued.
+
+If the available account/tool quota stops further generations, preserve the take map and completed artifacts exactly. Do not surrender or duplicate the chapter claim merely because synthesis quota is temporarily exhausted.
+
+### Assembly
+
+The final listener-facing chapter is **one continuous MP3 assembled from the take outputs**.
+
+Assembly must:
+
+1. order takes numerically
+2. include every take exactly once
+3. preserve intentional end/start silence when it carries useful processing space
+4. avoid accidental duplicated phrases at seams
+5. avoid accidental missing phrases at seams
+6. avoid adding decorative sound design, music, crossfades, or performance effects unless separately authorized
+7. produce the established chapter audio artifact path used by the Greg, Again manifest/catalog
+
+Do not publish the individual provider takes as if they were the audiobook chapter. They are production components.
+
+### Repair behavior
+
+If one take has bad pronunciation, cadence, truncation, corruption, or another local synthesis failure, regenerate **that take**, not the whole chapter.
+
+Only widen the repair when the problem crosses a seam or originates in the locked Audio Finish text.
+
+This replaceable-take property is a major reason the current short-take factory is preserved even though longer paid voice generations may exist.
+
+### Final production record
+
+Before publication, record the actual `take_count` and final chapter duration in the same durable surfaces used by previous chapters.
+
+Do not claim a chapter was produced as a single render when it was assembled from short takes.
+
+## Provider queueing across chapters
 
 Voice-generation jobs are independent production work when their transcripts are already locked.
 
-Queue multiple independent provider-safe takes without unnecessary serial waiting when the available voice tool permits it.
-
-Within a claimed batch, the worker may also prepare or submit later owned chapter takes while earlier owned chapter jobs are processing, provided:
+Within a claimed batch, the worker may prepare or submit later owned chapter takes while earlier owned chapter jobs are processing, provided:
 
 - exact transcript-to-take mapping is preserved
 - chapter ownership is already claimed
@@ -179,7 +314,9 @@ At the end of a batch, report compactly:
 
 - claimed range
 - completed / published chapters
+- actual take count per completed chapter
 - any chapter still in progress
+- provider jobs completed / outstanding
 - provider quota / throttling issue, if any
 - branch / PR / merge state
 - next available range only if current GitHub state makes it clear
