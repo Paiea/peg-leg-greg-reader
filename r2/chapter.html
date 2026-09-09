@@ -3,18 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chapter — R2</title>
-  <meta name="description" content="Listen to and read R2, Run 2 of Peg-Leg Greg.">
+  <title>Chapter — Peg-Leg Greg R2</title>
+  <meta name="description" content="Listen to and read Peg-Leg Greg R2.">
   <link rel="stylesheet" href="assets/css/r2.css">
 </head>
 <body data-page="chapter">
   <a class="skip-link" href="#chapter-main">Skip to chapter</a>
+
   <header class="site-header site-header-reader">
-    <a class="brand" href="index.html"><span>R2</span><small>RUN 2</small></a>
+    <a class="brand" href="index.html" aria-label="Peg-Leg Greg R2 home">
+      <span>PEG-LEG GREG</span><small>R2</small>
+    </a>
     <nav aria-label="Reader">
       <a href="chapters/">Chapters</a>
-      <a href="gallery/">Look</a>
+      <a href="gallery/">Gallery</a>
       <a href="about/">About</a>
+      <a href="../index.html">Run 1</a>
     </nav>
   </header>
 
@@ -28,7 +32,7 @@
     <section id="listen" class="audio-panel" aria-labelledby="listen-title">
       <div class="panel-heading">
         <p class="eyebrow">Listen</p>
-        <h2 id="listen-title">Audio-first rendition</h2>
+        <h2 id="listen-title">Audio</h2>
       </div>
       <div id="audio-slot"><p class="loading-note">Loading audio…</p></div>
     </section>
@@ -38,14 +42,14 @@
     <section id="read" class="written-panel" aria-labelledby="read-title">
       <div class="panel-heading">
         <p class="eyebrow">Read</p>
-        <h2 id="read-title">Written rendition</h2>
+        <h2 id="read-title">Chapter text</h2>
       </div>
       <article id="written-slot" class="reading-copy"><p class="loading-note">Loading written rendition…</p></article>
     </section>
 
     <section id="chapter-art-section" class="chapter-art-section" aria-labelledby="art-heading" hidden>
       <div class="panel-heading">
-        <p class="eyebrow">Look</p>
+        <p class="eyebrow">Illustrations</p>
         <h2 id="art-heading">Chapter art</h2>
       </div>
       <div id="support-art-grid" class="gallery-grid"></div>
@@ -57,7 +61,12 @@
       <a id="next-chapter" class="chapter-nav-link" href="chapters/" hidden>Next →</a>
     </nav>
   </main>
-  <footer class="site-footer"><p>R2 · Run 2 of Peg-Leg Greg</p><a href="../index.html">Run 1</a></footer>
+
+  <footer class="site-footer">
+    <p>Peg-Leg Greg · R2</p>
+    <a href="../index.html">Run 1</a>
+  </footer>
+
   <script src="assets/js/chapter.js" defer></script>
 </body>
 </html>
