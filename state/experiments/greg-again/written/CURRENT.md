@@ -8,54 +8,100 @@ Branch: `experiment/plg-r2-opening`
 
 This state file owns the **Greg, Again story + written renderer** lane.
 
-It does not own:
+It does not own audio synthesis, voice-provider selection, audio hosting/player plumbing, audiobook product packaging, or full audio-native chapter production.
 
-- audio synthesis
-- voice-provider selection
-- audio hosting/player plumbing
-- audiobook product packaging
-- full audio-native chapter production
+The audio lane may consume selected written results. It should not redefine written story authority from this file.
 
-Those concerns may consume the written experiment's selected scene/prose results, but they should not redefine written story authority from this file.
-
-## Current written question
+## Core question
 
 > **What does R2 want to be as a written novel?**
 
 No style is locked.
 
-The current strongest repeated prior is:
+R1/canon and prior R2 prose are evidence, controls, and quarry. They are not a required route.
+
+The written lane now searches in this order:
+
+```text
+CURRENT STORY STATE
+→ WHAT SHOULD ACTUALLY HAPPEN NEXT?
+→ PERFORMANCE / OUTSIDE AGENCY
+→ SUBJECTIVE LENS
+→ PAGE-NATIVE PROSE
+→ COMPARE AGAINST PRIOR MATERIAL
+→ KEEP ONLY SURVIVING LEARNING
+```
+
+The strongest repeated stylistic prior remains:
 
 > **Greg should own continuity. Other voices should own the moments only they can make happen.**
 
-This is more precise than `use less dialogue` and more flexible than `Greg owns the linguistic surface` as a hard rule.
+## Current written grammar under pressure
 
-## Evidence so far
+These are priors, not laws.
+
+### GREG OWNS CONTINUITY
+
+Let Greg's perception, interpretation, wrong models, body, memory, money sense, tactical attention, embarrassment, and associative thought carry the reader from beat to beat when that is the most interesting surface.
+
+### OUTSIDE VOICE EARNS DIRECT SPACE FOR
+
+- **FALSIFICATION** — another mind challenges Greg in a way he cannot honestly generate for himself
+- **STATE TRANSITION** — offers, refusals, prices, promises, threats, wagers, consent, deadlines, ownership terms, and other language that changes obligations
+- **MOTOR INTERRUPT** — the useful sequence is HEAR → MOVE → UNDERSTAND
+- **IRREPLACEABLE CHARACTER LANGUAGE** — exact wording carries humor, intimacy, threat, leverage, identity, or surprise that Greg's mediation weakens
+
+### TIME AS RESIDUE
+
+> **Elapsed time should arrive as changed evidence before summary when possible.**
+
+Bodies, tools, money, habits, relationships, institutional behavior, absences, new competence, and changed opportunities can prove time passed.
+
+### PROGRESSION OPENS THE NEXT CONSTRAINT
+
+> **Success should often reveal the next deficiency instead of functioning as a static reward screen.**
+
+Capability remains conditional on environment, equipment, timing, fatigue, information, and other actors.
+
+### THOUGHT MUST EARN CAUSAL SPACE
+
+Thought is action when it changes the next bet, cut, step, purchase, refusal, question, or choice under pressure.
+
+Avoid essay-shaped interiority that could be moved after the event without changing behavior.
+
+### GREG'S STRENGTHS CREATE SPECIFIC FAILURE MODES
+
+Greg is genuinely good at models, systems, future leads, people-reading, and leverage.
+
+Those strengths should create temptations specific to the strength.
+
+Example: at cards Greg can solve the money problem and still remain exposed because finishing the model becomes more rewarding than leaving with the money.
+
+### VALUE TYPES STAY DISTINCT
+
+Potential value, cash, capability, reputation, ownership, access, information, and leverage are related but not automatically interchangeable.
+
+Future upside does not pay tomorrow's debt until the story earns the conversion.
+
+### STOP WHEN THE CAUSAL CHAIN LANDS
+
+Do not append additional progression rewards merely because good material is available.
+
+Move useful material to the next place where it causes something.
+
+## Selected written run
 
 ### Chapter 1 — The Boy
 
-Page-native Greg-surface round trip exists:
+Selected page-native experiment:
 
 `state/experiments/greg-again/prose/001-the-boy.md`
 
-Useful signal:
+Signal:
 
-- close Greg consciousness survives audio-pressure discoveries when page rhythm is rebuilt rather than copied
-- visual prose should not preserve every speech-oriented fragment/tic
+- close Greg consciousness survives a return from speech-oriented experimentation when page rhythm is rebuilt rather than copied
 
 ### Chapter 2 — Two Things
-
-Control:
-
-`state/experiments/plg-r2/prose/002-two-things.md`
-
-Extreme stress test:
-
-`state/experiments/greg-again/audio/chapters/002/subjective-cut-001.md`
-
-Greg-dominant candidate:
-
-`state/experiments/greg-again/audio/chapters/002/subjective-cut-002.md`
 
 Selected page render:
 
@@ -67,18 +113,13 @@ Evaluation:
 
 Result:
 
-> **GREG-DOMINANT provisionally wins Chapter 2.**
-
-Discovery:
-
-- Greg can mediate much more conversational continuity than conventional prose assumes
-- outside lines should breach when exact wording carries character, leverage, humor, rule-breaking, or a moment Greg cannot improve by absorbing it
+> **GREG-DOMINANT provisionally beats both the LIGHT-ish control and EXTREME for this scene.**
 
 ### Chapter 3 — The Borrower
 
-Control:
+Selected page render:
 
-`state/experiments/plg-r2/prose/003-the-borrower.md`
+`state/experiments/greg-again/prose/003-the-borrower.md`
 
 Hostile rehearsal:
 
@@ -88,101 +129,100 @@ Evaluation:
 
 `state/experiments/greg-again/evals/003-the-borrower.md`
 
-Selected page render:
-
-`state/experiments/greg-again/prose/003-the-borrower.md`
-
 Result:
 
-> **GREG-DOMINANT independently wins the Arlo/Vale hostile test.**
+> **GREG-DOMINANT independently survives technical falsification and binding negotiation.**
 
-New discoveries:
+### Chapter 4 — Thirty Days
 
-### VOICE AS FALSIFICATION
-
-> **Outside speech deserves space when another mind is actively falsifying Greg.**
-
-Arlo should not become summarized skepticism. His shortest questions matter because they apply pressure Greg cannot honestly apply to himself in the same way.
-
-### LANGUAGE AS STATE TRANSITION
-
-> **When language changes obligations, preserve the state transition in the moment rather than summarizing it afterward.**
-
-Prices, offers, refusals, counters, promises, threats, wagers, consent, deadlines, and final terms can be literal story actions.
-
-Vale's loan works better when Greg mediates connective bargaining but binding terms arrive with immediate force.
-
-## Current written grammar under pressure
-
-```text
-GREG OWNS CONTINUITY
-
-OUTSIDE VOICE EARNS DIRECT SPACE FOR:
-- falsification
-- binding state change
-- character-specific leverage
-- memorable humor / intimacy / threat
-- interruption Greg cannot metabolize without losing value
-```
-
-Do not turn this into a quota.
-
-Do not preserve outside speech merely because dialogue is conventional.
-
-Do not remove outside speech merely because Greg mediation is distinctive.
-
-Select the treatment that makes the scene most interesting while preserving independent character life and exact causal state.
-
-## Chapter 4 — Thirty Days
-
-Control:
+Control/quarry:
 
 `state/experiments/plg-r2/prose/004-thirty-days.md`
 
-Calibration:
+Story search:
+
+`state/experiments/greg-again/rehearsals/004-story-search.md`
+
+Selected page render:
+
+`state/experiments/greg-again/prose/004-thirty-days.md`
+
+Evaluation:
 
 `state/experiments/greg-again/evals/004-thirty-days.md`
 
-Chapter 4 introduces two new written pressures.
+Result:
 
-### TIME AS RESIDUE
+> **RESIDUE UNDER PRESSURE + GREG-DOMINANT wins.**
 
-> **Elapsed time should arrive as changed evidence before summary when possible.**
+The saltback material survives, but the inherited structure does not. The selected chapter reaches the live contract earlier and lets action prove what the month changed.
 
-Useful residue already present:
+New repeated signals:
 
-- Sella stops asking for Greg's token
-- Greg's palm, sword grip, practice dirt, and tree show repetition
-- Jorren has new boots and a north-road escort he earned off-camera
-- Arlo improves the project independently
-- Vale still owns part of Greg's week
-- relationships have acquired habits and callbacks
+- TIME AS RESIDUE
+- VOICE AS MOTOR INTERRUPT
+- progression exposing recovery as the next gap
+- environment retaining authority over learned technique
+- Jorren's current local competence outranking Greg's future memory in parts of the fight
 
-Do not turn this back into calendar recap.
+### Chapter 5 — The Partner
 
-### VOICE AS MOTOR INTERRUPT
+Control/quarry:
 
-The saltback cellar pressures Greg mediation differently.
+`state/experiments/plg-r2/prose/005-the-partner.md`
 
-> **If the useful sequence is HEAR → MOVE → UNDERSTAND, do not force it into HEAR → GREG EXPLAINS → MOVE.**
+Story search:
 
-Another person's direct words may need to seize the page immediately when they are:
+`state/experiments/greg-again/rehearsals/005-story-search.md`
 
-- warnings
-- tactical coordination
-- urgent corrections
-- emergency instructions
-- consent/refusal under time pressure
-- information Greg must act on before he can interpret it
+Selected page render:
 
-This is not an action-only rule. It may later matter in intimacy, emergencies, teamwork, and other scenes where response latency is itself dramatic.
+`state/experiments/greg-again/prose/005-the-partner.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/005-the-partner.md`
+
+Result:
+
+> **PARTNERSHIP UNDER DEADLINE → GAMBLING CONSEQUENCE wins.**
+
+Arlo's first sale forces ownership boundaries. Future project value does not solve Greg's present debt. Greg then uses real gambling skill to solve the cash gap and nearly taxes his own success because the unfinished model becomes more interesting than leaving.
+
+The better-sword purchase from the control is preserved as quarry but moved out of the chapter because it functioned as an unnecessary fourth ending.
+
+## True frontier after Chapter 5
+
+The inherited R2 prose run currently ends here.
+
+There is no existing R2 Chapter 6 that must be followed.
+
+Current story state:
+
+- Greg can pay Vale on time tomorrow, but will have little cash afterward.
+- Greg and Arlo are now bounded partners rather than vaguely aligned collaborators.
+- one Kestrin disk has sold; durability and repeat demand remain unproven.
+- the dyer may want more if the first disk survives.
+- Jorren leaves north soon.
+- recovery is Greg's newly exposed sword gap.
+- overhead cut and side step are useful current-life capability, not universal answers.
+- mana remains weak, real, and expensive to improve.
+- Greg's model-completion vulnerability at the gambling table is now verified.
+- Sella has become an accumulated institutional relationship rather than a first-contact clerk.
+- Arlo, Jorren, Sella, and Vale all have trajectories that continue without Greg.
+- the better-sword idea remains available quarry if equipment becomes causally important.
 
 ## Next move
 
-1. Rehearse the Chapter 4 saltback cellar only, testing whether GREG-DOMINANT can preserve fast outside interrupts without losing Greg continuity.
-2. If it survives, render a full page-native Chapter 4 using TIME AS RESIDUE and the expanded voice-breach grammar.
-3. Compare the result against the R2 control for interestingness, action clarity, Jorren independence, and whether the month feels lived rather than summarized.
-4. Carry only repeated winning grammar into Chapter 5.
+Run a true Chapter 6 story search from this state.
+
+Do not ask `what did canon do next?` first.
+
+Ask:
+
+> **Which live pressure creates the strongest next causal movement while keeping the fantasy/action promise, time pressure, independent characters, and Greg's thought engine alive?**
+
+Use prior book material only afterward as quarry or comparison.
 
 Do not run audio synthesis from this lane.
 
