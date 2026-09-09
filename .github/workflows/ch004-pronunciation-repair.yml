@@ -1,0 +1,142 @@
+name: Chapter 4 pronunciation repair bridge
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch004-pronunciation-repair
+    paths:
+      - .github/workflows/ch004-pronunciation-repair.yml
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure ffmpeg is available
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v ffmpeg >/dev/null 2>&1 || ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+
+      - name: Retrieve regenerated Take 01
+        shell: bash
+        env:
+          TAKE_URL: https://www.aidocmaker.com/g0/audio?name=1aa6c6df8ed346f19849ead71b02acfe
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/ch004-repair
+          curl --fail --location --retry 4 --retry-delay 2 "$TAKE_URL" -o /tmp/ch004-repair/01.mp3
+          test -s /tmp/ch004-repair/01.mp3
+          file /tmp/ch004-repair/01.mp3
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/ch004-repair/01.mp3 | tee /tmp/ch004-repair/take01-duration.txt
+          python - <<'PY'
+          from pathlib import Path
+          d = float(Path('/tmp/ch004-repair/take01-duration.txt').read_text().strip())
+          if not 40.0 < d < 120.0:
+              raise SystemExit(f'Unexpected Take 01 duration: {d}')
+          print(f'Validated replacement Take 01 duration: {d:.3f}s')
+          PY
+
+      - name: Replace only Take 01 and restitch Chapter 4
+        shell: bash
+        run: |
+          set -euo pipefail
+          chunk_dir="greg-again/audio/assets/chunks/004"
+          chapter="greg-again/audio/assets/chapter-004.mp3"
+          test -d "$chunk_dir"
+          test "$(find "$chunk_dir" -maxdepth 1 -type f -name '*.mp3' | wc -l)" -eq 12
+          cp /tmp/ch004-repair/01.mp3 "$chunk_dir/01.mp3"
+
+          : > /tmp/ch004-repair/concat.txt
+          for n in $(seq -w 1 12); do
+            test -s "$chunk_dir/$n.mp3"
+            printf "file '%s/%s.mp3'\n" "$GITHUB_WORKSPACE/$chunk_dir" "$n" >> /tmp/ch004-repair/concat.txt
+          done
+
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/ch004-repair/concat.txt -c copy /tmp/ch004-repair/chapter-004.mp3
+          test -s /tmp/ch004-repair/chapter-004.mp3
+          mv /tmp/ch004-repair/chapter-004.mp3 "$chapter"
+
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$chapter" | tee /tmp/ch004-repair/chapter-duration.txt
+
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+
+          root = Path('.')
+          chunk_dir = root / 'greg-again/audio/assets/chunks/004'
+          chapter = root / 'greg-again/audio/assets/chapter-004.mp3'
+
+          def duration(path):
+              out = subprocess.check_output([
+                  'ffprobe', '-v', 'error', '-show_entries', 'format=duration',
+                  '-of', 'default=noprint_wrappers=1:nokey=1', str(path)
+              ], text=True).strip()
+              return float(out)
+
+          chunks = [chunk_dir / f'{n:02d}.mp3' for n in range(1, 13)]
+          durations = [duration(p) for p in chunks]
+          final_duration = duration(chapter)
+          summed = sum(durations)
+          if abs(final_duration - summed) > 0.25:
+              raise SystemExit(f'Concat duration mismatch: final={final_duration:.3f}s sum={summed:.3f}s')
+
+          manifest_path = root / 'greg-again/audio/manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          entry = next(c for c in manifest['chapters'] if c['chapter_id'] == 'ga-004')
+          if entry['number'] != 4 or entry['take_count'] != 12 or entry['audio_src'] != 'assets/chapter-004.mp3':
+              raise SystemExit(f'Unexpected Chapter 4 manifest identity: {entry}')
+          entry['duration_seconds'] = round(final_duration, 3)
+          note = entry.get('note', '')
+          repair_note = ' Take 01 pronunciation repair replaces only the local sparring-session synthesis; Takes 02–12 remain the original published provider work.'
+          if repair_note.strip() not in note:
+              entry['note'] = note.rstrip() + repair_note
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          repair_dir = root / 'greg-again/audio/production/004'
+          repair_dir.mkdir(parents=True, exist_ok=True)
+          (repair_dir / '2026-09-08-sparring-pronunciation-repair.md').write_text(
+              '# Chapter 4 pronunciation repair\n\n'
+              '- Chapter identity: `ga-004` / 4 / `Thirty Days`\n'
+              '- Listener report: around `00:44`, `sparring` was pronounced like `spare-ing`.\n'
+              '- Root cause location: Take 01, sentence ending `for most of a sparring session.`\n'
+              '- Repair scope: regenerate Take 01 only with the established `deep` voice; preserve Takes 02–12.\n'
+              '- Provider-only pronunciation cue: `spar-ring`; written/audio script authority remains `sparring`.\n'
+              '- Provider artifact context: `1aa6c6df8ed346f19849ead71b02acfe`.\n'
+              f'- Replacement Take 01 duration: `{durations[0]:.3f}s`.\n'
+              f'- Restitched Chapter 4 duration: `{final_duration:.3f}s`.\n'
+              '- Assembly: numeric Takes 01–12, each exactly once, ffmpeg concat copy.\n'
+              '- Verification: all 12 chunk files present and playable by ffprobe; final duration equals summed take durations within 0.25s.\n',
+              encoding='utf-8'
+          )
+
+          print(f'Restitched Chapter 4: {final_duration:.3f}s from 12 takes')
+          PY
+
+      - name: Commit repaired audio and durable repair record
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/ch004-pronunciation-repair.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            greg-again/audio/assets/chunks/004/01.mp3 \
+            greg-again/audio/assets/chapter-004.mp3 \
+            greg-again/audio/manifest.json \
+            greg-again/audio/production/004/2026-09-08-sparring-pronunciation-repair.md \
+            .github/workflows/ch004-pronunciation-repair.yml
+          git diff --cached --stat
+          git commit -m "audio: repair Chapter 4 sparring pronunciation"
+          git push origin HEAD:audio/greg-again-ch004-pronunciation-repair
