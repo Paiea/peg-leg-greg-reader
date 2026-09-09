@@ -1,0 +1,102 @@
+name: ga028 capture provider audio
+on:
+  push:
+    branches: [audio/greg-again-ch028-auto]
+    paths: ['.github/workflows/ga028-capture.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch028-auto
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install capture dependencies
+        run: |
+          npm install playwright
+          npx playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Capture provider MP3s and assemble chapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/028
+          cat > /tmp/capture.mjs <<'NODE'
+          import { chromium } from 'playwright';
+          import fs from 'fs';
+          const jobs = [
+            '3559b258366d48cfa5e0cc3c4a5bb000',
+            '61479fedb18241259e05817c0eaa369c',
+            '2e6ff43accb44025a34f43041294405b',
+            '8a8399b25fa54096a9596914d76b40ed',
+            'ef21f7f62c6945b39bc946fd4f7706b8',
+            'cab243ff8aa846f687de160807d09679',
+            'fed6fa5eb89f4d178d833ebead2f06cb',
+            'aa388ce08814470788f50694ca726eeb',
+            'd841023ea40c4e7ab245cd0620e69a83',
+            '1ef687ff59d74cb3b20423fce04aa398',
+            '6a8d6dd2632547e7b6834faa540fcbf2',
+            '077d89ecf9354abf96a93339b5984a3d',
+            '98257e28486f4f9aa208784b85e1d087',
+            '55f99a569b0045228e82941aee25fac7'
+          ];
+          const browser = await chromium.launch({headless:true});
+          async function capture(job, idx) {
+            const page = await browser.newPage();
+            const url = `https://www.aidocmaker.com/g0/audio?name=${job}`;
+            let last = '';
+            try {
+              for (let attempt=1; attempt<=48; attempt++) {
+                await page.goto(url, {waitUntil:'domcontentloaded', timeout:60000}).catch(()=>{});
+                await page.waitForTimeout(5000);
+                const src = await page.locator('audio').evaluateAll(els => els.map(a => a.currentSrc || a.src).find(Boolean) || '').catch(()=> '');
+                last = src || last;
+                if (src && !src.startsWith('blob:')) {
+                  const resp = await page.request.get(src, {timeout:60000}).catch(()=>null);
+                  if (resp && resp.ok()) {
+                    const body = await resp.body();
+                    if (body.length > 10000) {
+                      const n = String(idx+1).padStart(2,'0');
+                      fs.writeFileSync(`greg-again/audio/assets/chunks/028/${n}.mp3`, body);
+                      console.log(`captured ${n} ${job} ${body.length} ${src}`);
+                      return {take:idx+1, job, src, bytes:body.length};
+                    }
+                  }
+                }
+                await page.waitForTimeout(10000);
+              }
+              throw new Error(`no durable audio for job ${job}; last src=${last}`);
+            } finally {
+              await page.close();
+            }
+          }
+          const results = await Promise.all(jobs.map((j,i)=>capture(j,i)));
+          fs.writeFileSync('greg-again/audio/production/028/capture-results.json', JSON.stringify(results,null,2)+'\n');
+          await browser.close();
+          NODE
+          node /tmp/capture.mjs
+          for f in greg-again/audio/assets/chunks/028/*.mp3; do
+            test $(stat -c%s "$f") -gt 10000
+            ffprobe -v error "$f"
+          done
+          : > /tmp/list.txt
+          for f in greg-again/audio/assets/chunks/028/*.mp3; do printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/list.txt; done
+          ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/ga028-core.mp3
+          ffmpeg -v error -i /tmp/ga028-core.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-028.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1 greg-again/audio/assets/chapter-028.mp3
+          sha256sum greg-again/audio/assets/chunks/028/*.mp3 greg-again/audio/assets/chapter-028.mp3 > greg-again/audio/assets/chunks/028/SHA256SUMS
+      - name: Commit durable audio artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/028 greg-again/audio/assets/chapter-028.mp3 greg-again/audio/production/028/capture-results.json
+          git commit -m 'Capture and assemble ga-028 audio'
+          git push origin HEAD:audio/greg-again-ch028-auto
