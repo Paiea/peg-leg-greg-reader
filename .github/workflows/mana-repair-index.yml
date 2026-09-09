@@ -15,9 +15,10 @@ jobs:
       - shell: bash
         run: |
           set -euo pipefail
-          find greg-again/audio/production/mana-repair-inputs -maxdepth 1 -type f -name '*.txt' -printf '%f\n' | sort > greg-again/audio/production/mana-repair-inputs/index.txt
-          test "$(wc -l < greg-again/audio/production/mana-repair-inputs/index.txt)" -eq 22
-          cat greg-again/audio/production/mana-repair-inputs/index.txt
+          find greg-again/audio/production/mana-repair-inputs -maxdepth 1 -type f -name 'ch*.txt' -printf '%f\n' | sort > /tmp/mana-repair-index.txt
+          test "$(wc -l < /tmp/mana-repair-index.txt)" -eq 22
+          cat /tmp/mana-repair-index.txt
+          cp /tmp/mana-repair-index.txt greg-again/audio/production/mana-repair-inputs/index.txt
           rm .github/workflows/mana-repair-index.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
