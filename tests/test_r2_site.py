@@ -32,10 +32,17 @@ class R2SiteTests(unittest.TestCase):
             pipeline['feedback_classes'],
             ['shared_greg_experience', 'audio_only', 'written_only'],
         )
+        self.assertTrue(pipeline['rules']['do_not_optimize_away_processing_time'])
+        self.assertEqual(
+            pipeline['rules']['processing_space_may_use'],
+            ['pause', 'repetition', 'reset', 'self_correction', 'connective_thought', 'tiny_reaction'],
+        )
 
         contract = (R2 / 'PIPELINE.md').read_text(encoding='utf-8')
         self.assertIn('Clean performance residue. Do not clean away cognition.', contract)
         self.assertIn('Greg may own the linguistic surface.', contract)
+        self.assertIn('DO NOT OPTIMIZE AWAY PROCESSING TIME.', contract)
+        self.assertIn('Smoothness is not automatically clarity.', contract)
         self.assertIn('Audio Finish', contract)
         self.assertIn('Written Finish', contract)
 
