@@ -18,7 +18,7 @@ SHOWCASE_MANIFEST = Path('publishing/showcase_chapters.json')
 
 def parse_chapter_index(text: str) -> dict[int, str]:
     chapters: dict[int, str] = {}
-    for match in re.finditer(r'^(\d+)\.\s+\*\*(.+?)\*\*\s*$', text, re.MULTILINE):
+    for match in re.finditer(r'^\s*(?:[-*]\s*)?(\d+)\.\s+\*\*(.+?)\*\*\s*$', text, re.MULTILINE):
         chapters[int(match.group(1))] = match.group(2).strip()
     if not chapters:
         raise ValueError('no chapters found in manuscript chapter index')
