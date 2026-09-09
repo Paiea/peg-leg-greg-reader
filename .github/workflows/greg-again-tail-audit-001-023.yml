@@ -1,0 +1,68 @@
+name: Audit Greg Again Chapter Tails 001-023
+
+on:
+  push:
+    branches:
+      - audio/greg-again-tail-normalize-001-023
+    paths:
+      - .github/workflows/greg-again-tail-audit-001-023.yml
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-tail-normalize-001-023
+          fetch-depth: 0
+      - name: Audit published chapter tails
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib, re, subprocess, sys
+
+          manifest = json.load(open('greg-again/audio/manifest.json', encoding='utf-8'))
+          chapters = [c for c in manifest['chapters'] if 1 <= int(c['number']) <= 23]
+          if not chapters:
+              raise SystemExit('No published chapters 1-23 found in manifest')
+
+          short = []
+          rows = []
+          for c in chapters:
+              n = int(c['number'])
+              p = pathlib.Path('greg-again/audio') / c['audio_src']
+              if not p.is_file():
+                  raise SystemExit(f'Missing published audio: {p}')
+              dur = float(subprocess.check_output([
+                  'ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)
+              ], text=True).strip())
+              proc = subprocess.run([
+                  'ffmpeg','-hide_banner','-nostats','-i',str(p),
+                  '-af','silencedetect=noise=-45dB:d=0.10','-f','null','-'
+              ], text=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, check=False)
+              starts = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', proc.stderr)]
+              ends = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', proc.stderr)]
+              tail = 0.0
+              if starts:
+                  last_start = starts[-1]
+                  later_end = next((e for e in ends if e > last_start), None)
+                  if later_end is None or later_end >= dur - 0.05:
+                      tail = max(0.0, dur - last_start)
+              rows.append((n, dur, tail, p.as_posix()))
+              if tail < 1.5:
+                  short.append(n)
+
+          print('chapter,duration_seconds,trailing_silence_seconds,path')
+          for n,dur,tail,p in rows:
+              print(f'{n:03d},{dur:.3f},{tail:.3f},{p}')
+          print(f'published_count={len(rows)}')
+          print('short_tail_chapters=' + ','.join(f'{n:03d}' for n in short))
+          if short:
+              print('RED: one or more published chapters have less than 1.5 seconds of detected trailing silence', file=sys.stderr)
+              raise SystemExit(1)
+          print('All published chapters already satisfy the accepted 1.5-2.5 second tail window.')
+          PY
