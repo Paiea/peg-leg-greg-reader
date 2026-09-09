@@ -6,6 +6,7 @@ Source authority: `r2/assets/written/ch009.md`
 Voice: `deep`
 Lens: **SHARED GREG SURFACE**
 Audio finish: **PROCESSING SPACE**
+Production takes: **10**
 
 ## Production contract
 
@@ -15,7 +16,7 @@ Audio finish: **PROCESSING SPACE**
 
 > **FUTURE MEMORY MUST NOT COLLAPSE PRESENT UNCERTAINTY.**
 
-Chapter 9 stays close to the current Shared Greg Surface. Audio Finish should preserve the tension between Greg recognizing the future location and Greg not actually knowing the present bridge, present approach, present failure timing, or the history between them.
+Chapter 9 stays close to the current Shared Greg Surface. Audio Finish preserves the tension between Greg recognizing the future location and Greg not actually knowing the present bridge, present approach, present failure timing, or the history between them.
 
 The listener must be able to hold both truths at once:
 
@@ -28,7 +29,73 @@ The chapter-specific listening grammar is:
 
 **RECOGNIZE → DOUBT → RE-ORIENT TO PRESENT → SEE FAILURE → BRACE DIRECTION → CORRECT UNDER LOAD → UPDATE**
 
-Important anchors:
+The source prose is the exact spoken surface. Take boundaries are production seams only.
+
+## Take map
+
+### TAKE 01 — `01.mp3`
+Start: `It rained for two days.`
+End: `Action became history very quickly when a road still needed walking.`
+
+Purpose: wet-road baseline, Greg's shaping progress, and physical residue from the previous attack.
+
+### TAKE 02 — `02.mp3`
+Start: `We reached the Brell River after noon.`
+End: `exposing roots and pale gravel beneath the top layer.`
+
+Purpose: establish the dangerous mismatch between remembered future bridge and present crossing.
+
+### TAKE 03 — `03.mp3`
+Start: `The quartermaster stopped the caravan.`
+End: `The earth beneath it collapsed anyway.`
+
+Purpose: competent inspection, controlled crossing, present-first reorientation, then failure despite reasonable precautions.
+
+### TAKE 04 — `04.mp3`
+Start: `Not dramatically at first.`
+End: `They converted panic into jobs.`
+
+Purpose: let the wagon failure accelerate without losing Jorren's trace-line read or Meral's command ownership.
+
+### TAKE 05 — `05.mp3`
+Start: `I passed the first line under the axle`
+End: `For now.`
+
+Purpose: build the rescue geometry and load-bearing systems before the hardest pull begins.
+
+### TAKE 06 — `06.mp3`
+Start: `Pull!`
+End: `Not stronger. / Chosen.`
+
+Purpose: Greg sees the rear-line failure, braces direction rather than weight, and corrects his angle under load.
+
+### TAKE 07 — `07.mp3`
+Start: `Four breaths.`
+End: `somebody else's problem.`
+
+Purpose: Meral takes over Greg's failing plane, cargo becomes expendable after the driver is safe, and the wagon returns to road.
+
+### TAKE 08 — `08.mp3`
+Start: `I sat in the mud.`
+End: `Current me was learning to arrive several seconds sooner.`
+
+Purpose: convert success into instruction. The key lesson is not strength but earlier directional support.
+
+### TAKE 09 — `09.mp3`
+Start: `The driver had a badly bruised shin`
+End: `I briefly understood religion.`
+
+Purpose: account for costs, return to the future-bridge mismatch, and land `the answer without the history` before decompression.
+
+### TAKE 10 — `10.mp3`
+Start: `Jorren's caravan continued north at dawn`
+End: `Tomorrow he would.`
+
+Purpose: let road separation exist as Jorren's life, not as a lesson delivery system for Greg, while preserving the four-inch joke and quieter headache.
+
+## Listening anchors
+
+Preserve these lines with enough space for their function to register:
 
 - `Different bridge. / Same river.`
 - `Future knowledge did not need to be explicit to be dangerous.`
@@ -44,4 +111,4 @@ Important anchors:
 - `His road did not exist to teach me anything.`
 - `Very heroic four inches.`
 
-The source prose is the spoken surface. Take boundaries are production seams only. Do not add story facts, compress away Greg's re-orientation, or make his future memory sound like reliable present knowledge.
+Do not add story facts, compress away Greg's re-orientation, or make his future memory sound like reliable present knowledge.
