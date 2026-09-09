@@ -18,6 +18,12 @@ jobs:
         with:
           ref: audio/greg-again-tail-normalize-001-023
           fetch-depth: 0
+      - name: Install ffmpeg tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg
       - name: Audit published chapter tails
         shell: bash
         run: |
