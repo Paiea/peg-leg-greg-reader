@@ -76,15 +76,20 @@ class R2RoleTitleTests(unittest.TestCase):
                     f'../greg-again/audio/assets/chapter-{number:03d}.mp3',
                 )
 
-    def test_reconciler_apply_changes_only_title_metadata(self):
+    def test_reconciler_promotes_approved_audit_then_changes_only_title_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / 'r2' / 'assets' / 'written').mkdir(parents=True)
             (root / 'r2' / 'data' / 'chapters').mkdir(parents=True)
             (root / 'greg-again' / 'audio').mkdir(parents=True)
 
+            original_body = '\n\n---\n\nBody stays exactly here.\n'
             (root / 'r2' / 'assets' / 'written' / 'ch001.md').write_text(
-                '# Chapter 1: The Novice\n\n---\n\nBody stays exactly here.\n',
+                '# Chapter 1: Two Things' + original_body,
+                encoding='utf-8',
+            )
+            (root / 'r2' / 'TITLE_ROLE_AUDIT.md').write_text(
+                '# Audit\n\n## Approved title map\n\n```text\n001 The Novice\n```\n',
                 encoding='utf-8',
             )
             (root / 'r2' / 'data' / 'project.json').write_text(
@@ -132,7 +137,7 @@ class R2RoleTitleTests(unittest.TestCase):
             )
 
             result = subprocess.run(
-                [sys.executable, str(SYNC_SCRIPT), '--root', str(root), '--apply'],
+                [sys.executable, str(SYNC_SCRIPT), '--root', str(root), '--promote-audit'],
                 cwd=ROOT,
                 text=True,
                 capture_output=True,
@@ -148,7 +153,9 @@ class R2RoleTitleTests(unittest.TestCase):
             updated_audio = json.loads(
                 (root / 'greg-again' / 'audio' / 'manifest.json').read_text(encoding='utf-8')
             )
+            selected = (root / 'r2' / 'assets' / 'written' / 'ch001.md').read_text(encoding='utf-8')
 
+            self.assertEqual(selected, '# Chapter 1: The Novice' + original_body)
             self.assertEqual(updated_public['title'], 'The Novice')
             self.assertEqual(updated_public['chapter_id'], 'r2-ch001')
             self.assertEqual(updated_public['audio']['path'], '../greg-again/audio/assets/chapter-001.mp3')
@@ -157,10 +164,6 @@ class R2RoleTitleTests(unittest.TestCase):
             self.assertEqual(updated_audio['chapters'][0]['title'], 'The Novice')
             self.assertEqual(updated_audio['chapters'][0]['chapter_id'], 'ga-001')
             self.assertEqual(updated_audio['chapters'][0]['take_count'], 12)
-            self.assertEqual(
-                (root / 'r2' / 'assets' / 'written' / 'ch001.md').read_text(encoding='utf-8'),
-                '# Chapter 1: The Novice\n\n---\n\nBody stays exactly here.\n',
-            )
 
     def test_registry_titles_match_approved_role_titles_by_stable_id(self):
         registry = json.loads((R2 / 'data' / 'chapter-registry.json').read_text(encoding='utf-8'))
