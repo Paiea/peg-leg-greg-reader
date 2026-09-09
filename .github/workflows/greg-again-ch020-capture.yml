@@ -31,7 +31,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/assets/chunks/020
-          cat > /tmp/capture.mjs <<'JS'
+          cat > capture.mjs <<'JS'
           import fs from 'node:fs';
           import { chromium } from 'playwright';
           const map=JSON.parse(fs.readFileSync('greg-again/audio/takes/020.json','utf8'));
@@ -71,7 +71,8 @@ jobs:
           await browser.close();
           if(failures.length){console.error(failures.join('\n'));process.exit(1);}
           JS
-          node /tmp/capture.mjs
+          node capture.mjs
+          rm capture.mjs
           for f in greg-again/audio/assets/chunks/020/*.mp3; do
             ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f"
           done
