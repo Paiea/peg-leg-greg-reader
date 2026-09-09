@@ -1,0 +1,34 @@
+name: Validate R2 Role Titles
+
+on:
+  pull_request:
+    paths:
+      - 'r2/**'
+      - 'greg-again/audio/manifest.json'
+      - 'scripts/sync_r2_role_titles.py'
+      - 'tests/test_r2_role_titles.py'
+      - '.github/workflows/r2-role-title-authority.yml'
+  push:
+    branches:
+      - r2/role-title-authority
+    paths:
+      - 'r2/**'
+      - 'greg-again/audio/manifest.json'
+      - 'scripts/sync_r2_role_titles.py'
+      - 'tests/test_r2_role_titles.py'
+      - '.github/workflows/r2-role-title-authority.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run R2 role title contract
+        run: python -m unittest tests.test_r2_role_titles -v
