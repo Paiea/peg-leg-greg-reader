@@ -40,6 +40,8 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("processing-space", by_id["ga-005"]["audio_finish"])
         self.assertEqual("processing-space", by_id["ga-006"]["audio_finish"])
         self.assertEqual("processing-space", by_id["ga-007"]["audio_finish"])
+        self.assertEqual(14, by_id["ga-007"]["take_count"])
+        self.assertEqual(818.136, by_id["ga-007"]["duration_seconds"])
 
     def test_chapters_two_through_seven_audio_are_durable_and_nontrivial(self):
         for number in (2, 3, 4, 5, 6, 7):
@@ -95,6 +97,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("Horses first.", script)
         self.assertIn("The world had not paused because I left the city.", script)
         self.assertIn("Also progress.", script)
+        self.assertIn("Production takes: **14**", script)
 
     def test_r2_chapter_five_routes_published_audio(self):
         chapter = json.loads((R2_ROOT / "data/chapters/ch005.json").read_text(encoding="utf-8"))
