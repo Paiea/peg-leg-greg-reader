@@ -1,5 +1,6 @@
 name: Final Check Greg Again Chapter 22
 
+# Re-run after reconciling current main authority.
 on:
   push:
     branches:
@@ -26,4 +27,5 @@ jobs:
           d=json.load(open('greg-again/audio/manifest.json'))
           ids={x['chapter_id'] for x in d['chapters']}
           assert {'ga-009','ga-019','ga-021','ga-022'} <= ids
+          assert d.get('identity_policy')
           PY
