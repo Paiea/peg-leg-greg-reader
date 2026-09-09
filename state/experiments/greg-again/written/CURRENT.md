@@ -418,29 +418,59 @@ Useful result:
 
 Do not immediately convert this into a lesson speech or investment victory. The venture is simply more alive and Greg owns less of it.
 
-## Frontier after Chapter 16
+### 17 — The Wrong Rope
+
+`state/experiments/greg-again/prose/017-the-wrong-rope.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/017-story-search.md`
+
+Roughly one packet-letter interval after Mara leaves, the North Gate restriction has begun producing ordinary city residue at the lower quay: rerouted freight, congestion, rushed transfers, and more river work.
+
+Vale hires Greg for a short paid transfer job because Greg is useful enough to justify as an extra operator rather than merely an old debtor.
+
+A paper barge begins to pivot dangerously when its stern line becomes the wrong restraint. Greg initially tries to strengthen the control he understands. Vey river worker Orra sees the current / hull problem faster and orders him to cut instead.
+
+Greg follows before his own model catches up. The better sword cuts the loaded line cleanly enough to matter, and the tiny support plane later changes the path of a released iron eye by inches before breaking.
+
+The emergency remains collaborative. Orra owns river authority, another deckhand improves Greg's leverage during the rescue, and Greg is useful without becoming the person who understood the field best.
+
+Greg is paid. North Gate pressure becomes offscreen economic consequence rather than another gate scene. Vey Shipping gains another piece of living present-day evidence without proving Greg's remembered merchant history.
+
+Greg also writes the first seventh-day letter to Mara. The letter is small and truthful rather than a reconstruction of certainty. It is written and ready for the packet office, but has not yet been shown as dispatched.
+
+Surviving discovery:
+
+> **Greg's competence can appear as fast model abandonment when somebody else owns the terrain.**
+
+## Frontier after Chapter 17
 
 Current selected state:
 
-- Mara is in transit to Halden through Vey Shipping.
-- Mara and Greg have a packet-letter route every seventh day; no letter has yet been written on-page.
-- Mara wants truthful contact rather than reconstructed certainty.
-- Mara's mother and Tavin remain active ordinary-past connections.
-- Greg has Tavin's old card deck, the brass key, and the marked support cord.
-- Greg bought the better sword and sacrificed a useful warehouse contract, so liquid cash remains limited.
-- proper support instruction remains deferred.
-- Greg's tiny support plane remains available but is not the foreground curriculum.
-- Arlo's workshop remains Arlo's.
-- the filtration formulation venture now has three formal owners: Arlo, Greg, and Ivena.
-- Greg's share has been diluted equally with Arlo's to make room for Ivena.
-- Ivena has independent ownership, customer-referral economics, and capital at risk.
-- two additional local businesses have placed orders for six units total.
-- production capacity and brass fittings are current constraints.
-- the venture can continue without Greg and is now even less protagonist-dependent.
+- roughly seven days have passed since Mara left Carrow.
+- Mara remains in transit / away toward Halden through Vey Shipping; she does not reappear in Chapter 17.
+- Greg has written his first packet letter to Mara and intends to take it to the packet office before breakfast; the chapter does not yet show dispatch or receipt.
+- the letter tells Mara that Greg misunderstood a river job, that Arlo and Ivena have six units in production, and that he has Tavin's old cards.
+- Greg still has Tavin's old card deck, the brass key, and the marked support cord.
+- Greg's liquid cash is improved by Vale's lower-quay payment, though he is not suddenly wealthy and proper support instruction remains deferred.
+- Vale now has present evidence that Greg can be worth hiring for short practical work, but no recurring employment arrangement or new debt exists.
+- Rusk remains part of Vale's current orbit and can find Greg through Arlo's workshop.
+- the filtration venture remains owned by Arlo, Greg, and Ivena.
+- six ordered units are in production; two new housings are cooling at the start of Chapter 17.
+- Ivena is maintaining customer / order information and has a tannery asking to see a working unit before ordering.
+- Arlo's workshop remains Arlo's and the venture continues moving without Greg.
+- production capacity and brass fittings remain live constraints.
+- North Gate remains standing and unresolved, but repair restrictions are now visibly changing traffic and lower-quay work elsewhere in Carrow.
+- Orra is a present-day Vey Shipping river worker with real domain authority. Greg does not know her from later history.
+- Vey Shipping is now present not only as Mara's packet carrier but as ordinary working river infrastructure under congestion. The exact relation to Greg's remembered merchant-family success story remains unproven.
+- Greg initially misread the river emergency by focusing on a visibly bad rope / restraint instead of the current and hull angle.
+- Greg obeyed Orra's cut command before understanding it, then updated correctly afterward.
+- the better sword has now mattered as a practical high-pressure tool as well as a combat upgrade. This does not imply sword mastery.
+- Greg's tiny support plane can matter at leverage scale by changing an angle by inches, but it broke immediately under the iron-eye deflection and remains low magnitude.
 - Jorren remains north.
 - Sella remains a familiar institutional relationship.
-- Northern Gate remains an open long shadow.
-- Vey Shipping is now a visible present-day version of a later larger company, but the exact relation to Chapter 1's merchant-family memory remains unproven.
+- Northern Gate remains an open long shadow rather than a solved prophecy.
 - Tavin remains somewhere south with a river company.
 
 ## Chapter 1 promise posture
@@ -449,31 +479,36 @@ See:
 
 `state/experiments/greg-again/written/CHAPTER_1_PROMISE_LEDGER.md`
 
-Strong open obligations include:
+Strong open obligations still include:
 
 - Guild fire horizon placement
 - Soren / Red Winter chronology placement
 - at least one later S-class peer / social-history thread
 - the unresolved second letter
-- continued proof around river-shipping history without forcing Mara into a destiny role
+- continued proof around river-shipping history without turning Vey into a preselected destiny company
 
-Do not pay these all at once.
+Chapter 17 advances river-shipping evidence naturally but does not prove the remembered merchant-family story.
+
+Do not pay the remaining promises all at once.
 
 ## Immediate next pressure
 
-Chapter 16 is binding action rather than physical action. Energy can swing physical again next.
+Chapter 17 already delivers a physical / industrial emergency. Do not mechanically repeat another paid hazard in Chapter 18 just because the action worked.
 
-Strong live vectors:
+Live pressure now includes:
 
-- Greg needs cash and cannot solve it through the filtration venture immediately because current capital is going back into production
-- a road / river / city job can use his recent reputation without becoming generic contract-board filler
-- Vale may now view Greg as a useful operator rather than a debtor
-- North Gate consequences can alter city work without revealing the long shadow
-- one Chapter 1 promise may ride inside a live event if it fits cheaply, but the event must work without the ledger
+- Greg has slightly more breathing room in cash but still lacks the money / access for every upgrade he wants.
+- the first letter to Mara is written but not yet shown leaving Carrow.
+- the filtration venture is progressing under Arlo and Ivena without needing Greg at every step.
+- North Gate restrictions are changing ordinary city logistics without revealing whether they matter to the remembered collapse.
+- Vey Shipping has accumulated present labor / infrastructure evidence without proving Greg's historical model.
+- Greg has now had a scene where another person's domain model beat his and he adapted quickly; do not immediately repeat the same correction grammar.
 
-Before too much more in-story time passes, cheaply place the Guild fire and Red Winter relative to the likely months-to-one-year R2 horizon.
+Before too much additional in-story time passes, cheaply establish where the **Guild fire** and **Red Winter** sit relative to the likely months-to-one-year R2 horizon.
 
-For Chapter 17 forward, default to writing the Shared Greg Surface directly. Do not add audio-facing tics or fragment the prose for synthesis. Let later listening request only the smallest repairs it actually earns.
+Do not force either into the next scene unless the next causal event works without the ledger.
+
+For Chapter 18 forward, continue writing the Shared Greg Surface directly. Use PERFORMANCE only when behavioral uncertainty actually earns it.
 
 Do not run audio synthesis from this lane.
 
