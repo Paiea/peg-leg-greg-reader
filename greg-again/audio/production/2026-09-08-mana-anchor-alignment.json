@@ -1,0 +1,274 @@
+{
+  "method": "surrounding historical transcript anchors + faster-whisper word timestamps + silence snap",
+  "targets": [
+    {
+      "target": "ch006-t05-m01",
+      "chapter": 6,
+      "take": 5,
+      "paragraph_index": 26,
+      "before_anchor_text": "Conductive path. Wet floor. Metal.",
+      "after_anchor_text": "People standing inside it. \"Back.\" Ivena moved immediately.",
+      "before_ratio": 0.333,
+      "after_ratio": 0.25,
+      "before_probability": 0.999,
+      "after_probability": 0.991,
+      "before_end": 19.24,
+      "after_start": 22.82,
+      "left_silence": [
+        19.2815,
+        19.3385,
+        19.310000000000002
+      ],
+      "right_silence": [
+        22.4715,
+        22.8366,
+        22.654049999999998
+      ],
+      "before_asr": [
+        "metal"
+      ],
+      "after_asr": [
+        "it",
+        "hit",
+        "the",
+        "wet",
+        "stone",
+        "purple",
+        "light",
+        "moved"
+      ],
+      "status": "low_confidence",
+      "reason": "anchor_or_silence_gate_failed"
+    },
+    {
+      "target": "ch006-t06-m01",
+      "chapter": 6,
+      "take": 6,
+      "paragraph_index": 17,
+      "before_anchor_text": "Buy everyone ten seconds. Simple. I put out my hand.",
+      "after_anchor_text": "The remembered motion was enormous. The answer was not. Pressure behind my eyes.",
+      "before_ratio": 0.1,
+      "after_ratio": 0.154,
+      "before_probability": 0.961,
+      "after_probability": 0.96,
+      "before_end": 2.56,
+      "after_start": 13.8,
+      "left_silence": [
+        2.41138,
+        2.45808,
+        2.43473
+      ],
+      "right_silence": [
+        13.5259,
+        13.8629,
+        13.6944
+      ],
+      "before_asr": [
+        "every",
+        "later",
+        "life",
+        "instinct",
+        "i",
+        "had",
+        "woke",
+        "up",
+        "at",
+        "once"
+      ],
+      "after_asr": [
+        "good",
+        "arlo",
+        "did",
+        "not",
+        "he",
+        "was",
+        "staring",
+        "at",
+        "the",
+        "pick",
+        "i",
+        "grabbed",
+        "the"
+      ],
+      "status": "low_confidence",
+      "reason": "anchor_or_silence_gate_failed"
+    },
+    {
+      "target": "ch006-t10-m01",
+      "chapter": 6,
+      "take": 10,
+      "paragraph_index": 20,
+      "before_anchor_text": "Flow. Time under load. Concentration.",
+      "after_anchor_text": "Maybe all of them. A month ago I would have tried to solve all five before leaving the building. Current me had recently been introduced to ceilings.",
+      "before_ratio": 0.0,
+      "after_ratio": 0.185,
+      "before_probability": 0.905,
+      "after_probability": 0.991,
+      "before_end": 0.84,
+      "after_start": 7.66,
+      "left_silence": null,
+      "right_silence": [
+        7.34258,
+        7.56154,
+        7.4520599999999995
+      ],
+      "before_asr": [
+        "she",
+        "looked",
+        "at",
+        "the",
+        "ash"
+      ],
+      "after_asr": [
+        "liked",
+        "her",
+        "arlo",
+        "sat",
+        "on",
+        "an",
+        "overturned",
+        "bucket",
+        "and",
+        "examined",
+        "the",
+        "ceramic",
+        "fragments",
+        "with",
+        "the",
+        "expression",
+        "of",
+        "a",
+        "man",
+        "trying",
+        "to",
+        "solve",
+        "a",
+        "murder",
+        "where",
+        "he",
+        "had"
+      ],
+      "status": "low_confidence",
+      "reason": "anchor_or_silence_gate_failed"
+    },
+    {
+      "target": "ch018-t18-m01",
+      "chapter": 18,
+      "take": 18,
+      "paragraph_index": 1,
+      "before_anchor_text": "Current body.",
+      "after_anchor_text": "No historical exemptions for having once been impressive. I counted twelve copper onto the counter. Sella counted them again.",
+      "before_ratio": 0.0,
+      "after_ratio": 0.526,
+      "before_probability": 0.963,
+      "after_probability": 0.931,
+      "before_end": 0.4,
+      "after_start": 0.0,
+      "left_silence": [
+        0.506167,
+        0.530125,
+        0.518146
+      ],
+      "right_silence": [
+        0.0,
+        0.0600833,
+        0.03004165
+      ],
+      "before_asr": [
+        "i",
+        "counted"
+      ],
+      "after_asr": [
+        "i",
+        "counted",
+        "twelve",
+        "copper",
+        "onto",
+        "the",
+        "counter",
+        "cela",
+        "counted",
+        "them",
+        "again",
+        "i",
+        "had",
+        "just",
+        "counted",
+        "them",
+        "she",
+        "worked",
+        "for"
+      ],
+      "status": "low_confidence",
+      "reason": "anchor_or_silence_gate_failed"
+    },
+    {
+      "target": "ch022-t03-m01",
+      "chapter": 22,
+      "take": 3,
+      "paragraph_index": 62,
+      "before_anchor_text": "His eyes went up. Too late. My hand moved before I finished thinking.",
+      "after_anchor_text": "A support plane snapped into place between the falling plaster and the side of his face. Five inches. Maybe six.",
+      "before_ratio": 0.231,
+      "after_ratio": 0.2,
+      "before_probability": 0.993,
+      "after_probability": 0.976,
+      "before_end": 13.18,
+      "after_start": 4.6,
+      "left_silence": [
+        13.6571,
+        13.7105,
+        13.6838
+      ],
+      "right_silence": [
+        4.19292,
+        4.21517,
+        4.204045
+      ],
+      "before_asr": [
+        "to",
+        "put",
+        "his",
+        "hand",
+        "on",
+        "the",
+        "wall",
+        "without",
+        "touching",
+        "the",
+        "hot",
+        "part",
+        "i"
+      ],
+      "after_asr": [
+        "the",
+        "man",
+        "said",
+        "we",
+        "patched",
+        "the",
+        "plaster",
+        "should",
+        "have",
+        "pulled",
+        "the",
+        "whole",
+        "section",
+        "he",
+        "knew",
+        "exactly",
+        "where",
+        "to",
+        "put",
+        "his"
+      ],
+      "status": "low_confidence",
+      "reason": "anchor_or_silence_gate_failed"
+    }
+  ],
+  "summary": {
+    "target_count": 5,
+    "high_confidence_anchor": 0,
+    "low_confidence": 5
+  }
+}
