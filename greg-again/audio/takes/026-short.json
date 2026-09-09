@@ -1,0 +1,356 @@
+{
+  "chapter_id": "ga-026",
+  "number": 26,
+  "title": "The Day Off",
+  "voice": "deep",
+  "source_path": "r2/assets/written/ch026.md",
+  "source_sha": "80a1762b582553755dd8b8b3602fd65b77d08535",
+  "status": "verified_playable",
+  "take_count": 38,
+  "assembled_duration_seconds": 766.104,
+  "assembled_sha256": "9187c263e793a7e5940226358a9e7b65b90c5ea8727ca4283b4a94257c48d845",
+  "takes": [
+    {
+      "take": 1,
+      "provider_context_id": "b10119f6049e421480edde10a39bea68",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0dbe7ab5-19ed-4b3a-be7f-f49be9708fbe.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/01.mp3",
+      "duration_seconds": 16.752,
+      "sha256": "7731a8a55e0d617a27886e92cbeda76107163524869ece465c5f15d979448058",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 2,
+      "provider_context_id": "fe92b6c4b9f84735ad6f376311349916",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ddbef1ce-9f27-4497-8709-463762fa6d2f.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/02.mp3",
+      "duration_seconds": 18.912,
+      "sha256": "1fa219f5ecb4bf2a3be477239c6bd624b91687262fcd12c525f8f50e503ee90f",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 3,
+      "provider_context_id": "b4ffb19a03134b0bba5de8e3f3c146a5",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/14d952f9-4ea2-4a3a-8dca-784142982dae.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/03.mp3",
+      "duration_seconds": 20.568,
+      "sha256": "b61f220873ae1b979f90f5b8b7abdb00898abdfa8fa1d0a51f9784f4642f52ea",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 4,
+      "provider_context_id": "efac4b0f27a44964a790d6ee0a0348df",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/956dcb95-fa60-415f-9bfa-75d569502812.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/04.mp3",
+      "duration_seconds": 18.12,
+      "sha256": "89b1be9ba4de6a5d1eb4aa38a508708e178f4b85bfdea6f541fd16ea5dc820c4",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 5,
+      "provider_context_id": "bebde5a76cf74ca1927f9a02b2dfb38c",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6f36e0c2-23e4-424b-a723-49091ee160c8.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/05.mp3",
+      "duration_seconds": 19.656,
+      "sha256": "733d0cf6298ec788e71118c3572d5c8cc34de8a38b9136c4de1e49415ed84ff5",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 6,
+      "provider_context_id": "729c6ea01bb0477a92e6ae9ca535ea29",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d61ee01a-c70d-47e5-a5d0-64232c468b74.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/06.mp3",
+      "duration_seconds": 20.16,
+      "sha256": "8122287a57d63cc690d9d6ccc98ab7ad8f0d5f8f0d975bb2dfb40047c3e181f1",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 7,
+      "provider_context_id": "069eea29f1924a408b72a4b4bd411712",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/39089a69-24bc-44c1-9682-0971af70c1ac.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/07.mp3",
+      "duration_seconds": 21.816,
+      "sha256": "c3151c3bba604b23cc5c2c35a260faa1fa3e327b7131bb1623328e2029037e0a",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 8,
+      "provider_context_id": "ce42d0d7eebf4066a045cf46a7471489",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d79fe226-04fe-4e6b-b506-bc7909977134.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/08.mp3",
+      "duration_seconds": 18.264,
+      "sha256": "218a47357b54b0700abbd9ce9919ca1fb3f96df5735eef966fe07735f552da0d",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 9,
+      "provider_context_id": "125bad1a7259489ea2a15aedbe094276",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aa11fe0c-7085-40d1-993b-d19a9ccb549d.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/09.mp3",
+      "duration_seconds": 20.736,
+      "sha256": "95cb9a9db124ea5df95e3100006e48887d38809f211d91dfccc4dfff1a892c3a",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 10,
+      "provider_context_id": "0059439a9db34ca587c6578fd5946921",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ae6eedcd-b705-4dbe-b4de-48d4bcca2b4e.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/10.mp3",
+      "duration_seconds": 18.48,
+      "sha256": "ded393229a1d7c69ce0141a38791c8aed438d087d2b0cecd25f144de8c1a3650",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 11,
+      "provider_context_id": "f4999eeac1f64ec783ff9b5b579f8f26",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9a036a85-cd47-4e2d-aedb-6c4b1aea06e2.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/11.mp3",
+      "duration_seconds": 22.536,
+      "sha256": "33a19457108f1b85a603ebd4302b2d62a3c635087d65ce1f5bc400b81a6b04b4",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 12,
+      "provider_context_id": "0cbb91220f9a472f9414a06e1dd1fc2e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/84f428af-a7d0-4122-9950-a68f98bba667.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/12.mp3",
+      "duration_seconds": 19.488,
+      "sha256": "90134e9f34b3ae759c0eec66623c7627d484964ce4e755aae38732c57122af37",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 13,
+      "provider_context_id": "a1c9f494cff047f593f704a4bf483529",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8c0b6d17-b072-4a48-97c9-c5d0e067526f.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/13.mp3",
+      "duration_seconds": 24.432,
+      "sha256": "43df1395688dfa9aec723493542ff28315ecf896b395deba1865d0066d5426cf",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 14,
+      "provider_context_id": "892cd7000d124dd8903cfbc3999f0813",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/57549da0-e0b0-4e37-a2da-a38c3ae798ac.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/14.mp3",
+      "duration_seconds": 17.616,
+      "sha256": "d21bbce83001ce6f305919edccc668756c911719b743430e1938d8cde0ad26a8",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 15,
+      "provider_context_id": "bfbfb59ccefe460ca8d6a10a0e658b46",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f6d9c6b4-11f8-4571-b6f9-346078b1c7a7.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/15.mp3",
+      "duration_seconds": 19.536,
+      "sha256": "ee427a9a04dfb028669709ae9a077d81059ac6af01a33fc72ee9a2d92e212c60",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 16,
+      "provider_context_id": "86a0c57aad1b4fceb2060500fc7f7e96",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fdee0589-b0fa-468e-af68-95ba2a194e4c.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/16.mp3",
+      "duration_seconds": 18.792,
+      "sha256": "a3a6d1c91464530a227a2fe16a87f99847b553f45bc2a60bd6339ee748c6fda5",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 17,
+      "provider_context_id": "34668e457bf842728de9f51c902eade8",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e2604359-ff50-4bf0-9803-febce65e78bb.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/17.mp3",
+      "duration_seconds": 17.448,
+      "sha256": "e5aabadf06d96362adbbe77e69a1195970057989c4b27f63a0b78ca6fdfa5615",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 18,
+      "provider_context_id": "2553d62199434e39b7d701aa1d319e56",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/04f4408f-69e0-4d1c-a2eb-ffd3a8298e5c.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/18.mp3",
+      "duration_seconds": 25.056,
+      "sha256": "b82e6479b9d67dc3752e5726da38e60c9a9f1d5e70921f39fc1d12d444429f4d",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 19,
+      "provider_context_id": "d34721fd57c0485fb6c187b3327fa501",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/62f32aa5-8bc4-4931-b175-c1430773ed9c.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/19.mp3",
+      "duration_seconds": 21.72,
+      "sha256": "066c26f2dcdfbb78a3a939f8f2c77601f42d8d50b43dacb24bfa725577c2005e",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 20,
+      "provider_context_id": "d9e517a7d65b481c9d862e3715e78e9c",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d15b0f3d-4364-4cc0-81f1-7505661ccdf9.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/20.mp3",
+      "duration_seconds": 22.704,
+      "sha256": "3e2a1525b839707350c3241f64f7ab1beef02e9a54b2dbc5787222b1316650d3",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 21,
+      "provider_context_id": "47b74e3ac87d44a1993c97edb48cfb4c",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2283eef8-b4d9-4b0a-a17c-4987ccb1613f.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/21.mp3",
+      "duration_seconds": 23.904,
+      "sha256": "6d910126d33db29a57822535e2139dfa0ac56638c0fe553f0a6d635642e0813c",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 22,
+      "provider_context_id": "070d77f09e0f4bbf9cf5f12bb1fd1396",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aaf855bb-9596-446d-9da5-62ee403d6c8b.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/22.mp3",
+      "duration_seconds": 20.352,
+      "sha256": "fd3a031ae20da1e4393698ec2f206c0f2d511a67c8707eb4a740952a79f4481d",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 23,
+      "provider_context_id": "4f2665318d8a48e192f1662c3fd57868",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1d8ba849-6706-4cc1-9be7-6af5879a357c.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/23.mp3",
+      "duration_seconds": 20.088,
+      "sha256": "8eabfd346daf6dad5d765b42c6d76b889890ae7e329e96ae822c13185a29306b",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 24,
+      "provider_context_id": "471ae62a9ea140bf8a18c9e11a60405d",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f8f513b0-6db9-4f73-acbd-bea901f89ec7.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/24.mp3",
+      "duration_seconds": 17.808,
+      "sha256": "df03d6cf15eaa7b193533177b91748d25d0bc62280b1e0bf0db316f50010ed45",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 25,
+      "provider_context_id": "a242060bd220479bb5eb55624cada802",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f8d748f7-0d65-4e2c-bf01-96576727e00e.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/25.mp3",
+      "duration_seconds": 19.008,
+      "sha256": "817177b705aaf2375a6811ac200ea752a055e8d04aaf25449edfe8e0cb71dc00",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 26,
+      "provider_context_id": "23058e5873fa41349a789a99d3246798",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/644b309d-a4af-4ee1-8a9e-fd6c6f613488.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/26.mp3",
+      "duration_seconds": 19.728,
+      "sha256": "2d2b148203e21ad5d5ec0f7472fcb087d183e268243ba6c112feac00603baa8c",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 27,
+      "provider_context_id": "88134aba26fe4f32868c80286fd2ad14",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a231a651-8a77-4912-9233-c32e0e85bedf.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/27.mp3",
+      "duration_seconds": 25.176,
+      "sha256": "4bd67d0eee5d2f507e6f071dc63540785f58bf20785f5c4cd8d64d7c1dd4aef3",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 28,
+      "provider_context_id": "9f64f76614ce491a8580467c1bd8e48c",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/df5537e5-fc78-47c7-9253-992d93ca3856.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/28.mp3",
+      "duration_seconds": 24.6,
+      "sha256": "a5cf5957a1757aec2b64a1cd7c2a6372ffd529f41583f35798903af1b6b3d297",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 29,
+      "provider_context_id": "0f4385a17e1841349a2be4776a304e89",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/71509cb0-aed0-403c-8dd0-ae2f808f5b58.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/29.mp3",
+      "duration_seconds": 19.872,
+      "sha256": "e80a2beafe23356913f0dbb656f28c97fd9034c15ee23b6434db505d2444dca5",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 30,
+      "provider_context_id": "e4b7e3f6632f4991a26af84a21070066",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7655dcf9-1d40-4955-b10e-0fd038c9c30c.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/30.mp3",
+      "duration_seconds": 21.24,
+      "sha256": "144b60fd20de41c225c6ec429b9cb5a5b8f9038f199de07f32dd04570874728c",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 31,
+      "provider_context_id": "ba4eaa187b91464cb165b9d89d6b973d",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/368fe805-e4a0-46f3-abb2-1bdeb1db8bb6.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/31.mp3",
+      "duration_seconds": 14.976,
+      "sha256": "5981444f160646c34f3130b6824a1df91ee9f9d3377db4363299e8bd52edd117",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 32,
+      "provider_context_id": "7532e78f45234b01adf5b26b38036fc6",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8972ab5b-0b4b-4222-9a20-7d9405dfd8bc.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/32.mp3",
+      "duration_seconds": 15.192,
+      "sha256": "830ffd9b1e39c58c1b1880f4d5bce9f93e099f2e4e50583d27ca305bf36d28a9",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 33,
+      "provider_context_id": "40cb823ac9f74d5ea03bbfa8060b5628",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/601d26b3-18dd-4827-8ea1-583853e9bce8.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/33.mp3",
+      "duration_seconds": 20.52,
+      "sha256": "0a5f2523e75ca1975e507a184e9be972866470f8bbdcf01c5b71808b1fb4b0f9",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 34,
+      "provider_context_id": "efcc5935d82c4d2180851b4dc5932cf3",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/58091de2-b6fd-4105-9e31-88a4a2c1dc4d.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/34.mp3",
+      "duration_seconds": 15.6,
+      "sha256": "959b5aa4f93346363cc8e3700c3506d093f8fb6323d834bc8126cce34d19fd8b",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 35,
+      "provider_context_id": "8f8640fd708f4766896aa44ed61f9ac5",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9e93a2d6-1140-429d-b5e3-10118dec51f2.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/35.mp3",
+      "duration_seconds": 18.672,
+      "sha256": "68831ab1ef793c8dbee85e84cb10f07b339c8db19f78bb2052da64d6c897da05",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 36,
+      "provider_context_id": "a85470a0351a4e758b345e0ca5aa3989",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/35da6c70-f45d-4cc7-94ef-92eb53718661.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/36.mp3",
+      "duration_seconds": 20.64,
+      "sha256": "2cfb116796e38b1e0436ead7e738c5c8d6f9a42b62eec8534f0ac6d28299857f",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 37,
+      "provider_context_id": "526032c852484b75b3459eaf8e698cad",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/579bbcb7-ee09-4bd3-a6f3-43c173bc4a0e.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/37.mp3",
+      "duration_seconds": 19.752,
+      "sha256": "739ea41133ce485c988215f1fe080236b6afe70a6d22c13244a927c348df6e26",
+      "status": "artifact_captured_verified"
+    },
+    {
+      "take": 38,
+      "provider_context_id": "c0298fd20c104ab88af8bcae62000c4a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/483fbecc-4d35-448a-887f-873c760fc8cc.mp3",
+      "durable_file": "greg-again/audio/assets/chunks/026-short/38.mp3",
+      "duration_seconds": 24.12,
+      "sha256": "9567f4d0219c1bc5eb3cecc68e409b45f1e93659436d3532fd9f09f246f80d10",
+      "status": "artifact_captured_verified"
+    }
+  ]
+}
