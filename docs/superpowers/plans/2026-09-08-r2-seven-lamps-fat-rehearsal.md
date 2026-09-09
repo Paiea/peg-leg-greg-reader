@@ -73,12 +73,33 @@
 **Files:**
 - Verify the spec, iceberg file, engine guide, rehearsal 003, R1 reconciliation, branch head, and latest written frontier.
 
-- [ ] Confirm no prose file changed during this implementation.
-- [ ] Confirm current frontier was not overwritten.
-- [ ] Confirm engine guide points to specialist iceberg rather than turning the local boot into a Seven Lamps textbook.
-- [ ] Confirm rehearsal 003 does not queue future chapters.
-- [ ] Confirm temporary recovery files are absent from the final tree.
-- [ ] Record final branch head after verification.
+- [x] Confirm no prose file changed during this implementation.
+- [x] Confirm current frontier was not overwritten.
+- [x] Confirm engine guide points to specialist iceberg rather than turning the local boot into a Seven Lamps textbook.
+- [x] Confirm rehearsal 003 does not queue future chapters.
+- [x] Confirm temporary recovery files are absent from the final tree.
+- [x] Record verification head before this final plan-status commit: `75441766175e7fff877fc5fdb79197792bb9b9ba`.
+
+## Verification evidence
+
+Comparison from pre-pass head `ef6da491efbc41146f48b33570a28a2c0650522c` through verification head `75441766175e7fff877fc5fdb79197792bb9b9ba` showed only six net files:
+
+- this implementation plan
+- the approved design spec
+- `SEVEN_LAMPS_WORLD_ICEBERG.md`
+- `LONG_RANGE_REHEARSAL_003_WORLD_ICEBERG.md`
+- `LONG_RANGE_REHEARSAL_003_R1_RECONCILIATION.md`
+- additive changes to `STORY_ENGINE_GUIDE.md`
+
+No `state/experiments/greg-again/prose/*` file appeared in the compare.
+
+Fresh `written/CURRENT.md` still records Chapter 23, **The Adventurer**, as the selected frontier and explicitly states that no Chapter 24 event is preselected.
+
+Fresh `STORY_ENGINE_GUIDE.md` points deep magic to `SEVEN_LAMPS_WORLD_ICEBERG.md`, tells the local writer not to explain the hidden architecture, and includes explicit anti-queue language.
+
+Fresh rehearsal 003 ends by returning to **WHAT SHOULD ACTUALLY HAPPEN NEXT?** and states that no future listed there is owed a chapter.
+
+Both temporary recovery paths returned GitHub 404 after cleanup.
 
 ## Execution notes
 
@@ -86,4 +107,4 @@ A write-collision/recovery mistake temporarily replaced `STORY_ENGINE_GUIDE.md` 
 
 The R1 comparison discovered that the mature repository already contains unusually compatible artifact-market, artifact-pricing, economy-continuity, progression, and magical-ecology doctrine. Rather than bloat the main rehearsal further, the surviving systems learning was stored in the companion `LONG_RANGE_REHEARSAL_003_R1_RECONCILIATION.md`.
 
-Final verification must use repository evidence rather than this checklist before claiming completion.
+Status: **IMPLEMENTED AND VERIFIED.**
