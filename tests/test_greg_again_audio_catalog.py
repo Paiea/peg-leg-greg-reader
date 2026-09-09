@@ -126,6 +126,32 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
             chapter["audio"]["path"],
         )
 
+    def test_chapter_eleven_preserves_future_uncertainty_and_publishes_audio(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        self.assertIn("ga-011", by_id)
+        self.assertEqual("The Gate Hand", by_id["ga-011"]["title"])
+        self.assertEqual("shared-greg-surface", by_id["ga-011"]["lens"])
+        self.assertEqual("processing-space", by_id["ga-011"]["audio_finish"])
+        self.assertEqual("assets/chapter-011.mp3", by_id["ga-011"]["audio_src"])
+
+        audio = AUDIO_ROOT / "assets" / "chapter-011.mp3"
+        self.assertTrue(audio.exists())
+        self.assertGreater(audio.stat().st_size, 1_000_000)
+
+        script = (AUDIO_ROOT / "scripts" / "011-the-gate-hand.md").read_text(encoding="utf-8")
+        self.assertIn("DO NOT OPTIMIZE AWAY PROCESSING TIME", script)
+        self.assertIn("PROCESSING SPACE", script)
+        self.assertIn("FUTURE KNOWLEDGE IS NOT PRESENT PROOF", script)
+        self.assertIn("Correct future fact.", script)
+        self.assertIn("Missing history.", script)
+        self.assertIn("For once, I let that remain true.", script)
+
+        chapter = json.loads((R2_ROOT / "data/chapters/ch011.json").read_text(encoding="utf-8"))
+        self.assertEqual("The Gate Hand", chapter["title"])
+        self.assertEqual("published", chapter["audio"]["status"])
+        self.assertEqual("../greg-again/audio/assets/chapter-011.mp3", chapter["audio"]["path"])
+
     def test_public_page_renders_catalog_instead_of_one_hardcoded_chapter(self):
         html = (AUDIO_ROOT / "index.html").read_text(encoding="utf-8")
         player = (AUDIO_ROOT / "player.js").read_text(encoding="utf-8")
