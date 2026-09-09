@@ -1,0 +1,23 @@
+{
+  "chapter_id": "ga-020",
+  "number": 20,
+  "reader_title": "The Ward Hand",
+  "written_source": "r2/assets/written/ch020.md",
+  "written_source_sha": "ea9d26b52b27e1c4a5691497da2ca60c241905e3",
+  "voice": "deep",
+  "audio_finish": "source-faithful-short-take",
+  "guardrail": "CURRENT SCALE IS STILL REAL SUPPORT.",
+  "takes": [
+    {"take":"01","source_lines":"5-100","first":"Sella found me work before I found lunch.","last":"That was less flattering than accurate.","provider_context_id":"208ccbd1ff0043248c12d56da0327d3e","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=208ccbd1ff0043248c12d56da0327d3e","durable_file":"greg-again/audio/assets/chunks/020/01.mp3","status":"generated"},
+    {"take":"02","source_lines":"101-200","first":"Two of the Guild's intake-capable support people were still tied up on North Gate city rotation.","last":"A copper channel set into stone.","provider_context_id":"9ea1d604d57f415a83b61787d9637269","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=9ea1d604d57f415a83b61787d9637269","durable_file":"greg-again/audio/assets/chunks/020/02.mp3","status":"generated"},
+    {"take":"03","source_lines":"201-300","first":"Ceramic bridge pieces at each corner.","last":"I felt the load touch the plane.","provider_context_id":"b496e0ccca4d4ba5ba6a10a9bbb49f97","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=b496e0ccca4d4ba5ba6a10a9bbb49f97","durable_file":"greg-again/audio/assets/chunks/020/03.mp3","status":"generated"},
+    {"take":"04","source_lines":"301-400","first":"Not impact.","last":"Scraping.","provider_context_id":"de084545a0f2486ca7843eb3c918bc14","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=de084545a0f2486ca7843eb3c918bc14","durable_file":"greg-again/audio/assets/chunks/020/04.mp3","status":"generated"},
+    {"take":"05","source_lines":"401-500","first":"I spent twenty minutes on my knees removing industrial history from a groove the width of two fingers.","last":"Later crews did worse things in collapsed ruins with active wards and dead people on the wrong side.","provider_context_id":"d0d85e6e62804c62b2a9c8649677cc53","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=d0d85e6e62804c62b2a9c8649677cc53","durable_file":"greg-again/audio/assets/chunks/020/05.mp3","status":"generated"},
+    {"take":"06","source_lines":"501-600","first":"My brain began designing the shortcut.","last":"The manager said last month.","provider_context_id":"14aff736df5b4574ac4dc0d3ad0a871e","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=14aff736df5b4574ac4dc0d3ad0a871e","durable_file":"greg-again/audio/assets/chunks/020/06.mp3","status":"generated"},
+    {"take":"07","source_lines":"601-700","first":"There.","last":"Probably people like Meren.","provider_context_id":"afdb4d7d031c4e2190e527acea695ed7","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=afdb4d7d031c4e2190e527acea695ed7","durable_file":"greg-again/audio/assets/chunks/020/07.mp3","status":"generated"},
+    {"take":"08","source_lines":"701-800","first":"\"If you open that plate live,\" I said.","last":"Current procedure.","provider_context_id":"59f1f229b3ad442588b1c25913af131f","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=59f1f229b3ad442588b1c25913af131f","durable_file":"greg-again/audio/assets/chunks/020/08.mp3","status":"generated"},
+    {"take":"09","source_lines":"801-900","first":"Current materials.","last":"I looked at her.","provider_context_id":"d87fa6d425a94fff8546fdae2f260304","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=d87fa6d425a94fff8546fdae2f260304","durable_file":"greg-again/audio/assets/chunks/020/09.mp3","status":"generated"},
+    {"take":"10","source_lines":"901-1000","first":"\"Was that a test?\"","last":"Sella reached for the next contract.","provider_context_id":"fcac3573d94c401c96da74dfbbec5104","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=fcac3573d94c401c96da74dfbbec5104","durable_file":"greg-again/audio/assets/chunks/020/10.mp3","status":"generated"},
+    {"take":"11","source_lines":"1001-1120","first":"I moved before she could find another use for me.","last":"Later history had not been there.","provider_context_id":"22183b5779144a5c8e555b837ccf8db0","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=22183b5779144a5c8e555b837ccf8db0","durable_file":"greg-again/audio/assets/chunks/020/11.mp3","status":"generated"}
+  ]
+}
