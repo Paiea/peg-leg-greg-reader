@@ -1,0 +1,52 @@
+name: Prepare Greg Again Chapter 29 publication
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch029-auto
+    paths:
+      - '.github/workflows/ga029-publish-prep.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch029-auto
+          fetch-depth: 0
+      - name: Reconcile current main manifest and add Chapter 29
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git show origin/main:greg-again/audio/manifest.json > /tmp/manifest.json
+          jq 'if any(.chapters[]; .chapter_id == "ga-029") then . else .chapters += [{
+            "chapter_id": "ga-029",
+            "number": 29,
+            "title": "The Other Letter",
+            "status": "experimental",
+            "lens": "shared-greg-surface",
+            "audio_finish": "processing-space",
+            "take_count": 24,
+            "duration_seconds": 574.488,
+            "audio_src": "assets/chapter-029.mp3",
+            "note": "Chapter 29 uses twenty-four complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, ordered take playback, stitched chapter audio, durable hashes, authoritative final ellipsis landing, and a two-second listener tail were verified before publication."
+          }] end' /tmp/manifest.json > greg-again/audio/manifest.json
+          jq empty greg-again/audio/manifest.json
+          test "$(jq '[.chapters[] | select(.chapter_id == "ga-029")] | length' greg-again/audio/manifest.json)" -eq 1
+          test "$(jq -r '.chapters[] | select(.chapter_id == "ga-029") | .duration_seconds' greg-again/audio/manifest.json)" = "574.488"
+      - name: Commit reconciled manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/manifest.json
+          git commit -m 'audio: publish Chapter 29 manifest entry'
+          git push origin HEAD:audio/greg-again-ch029-auto
