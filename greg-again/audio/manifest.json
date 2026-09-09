@@ -264,6 +264,18 @@
       "duration_seconds": 729.344,
       "audio_src": "assets/chapter-024.mp3",
       "note": "Chapter 24 uses thirty-six complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take order, and a listener-safe trailing tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-025",
+      "number": 25,
+      "title": "The Hired Sword",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 38,
+      "duration_seconds": 931.44,
+      "audio_src": "assets/chapter-025.mp3",
+      "note": "Chapter 25 uses thirty-eight complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, ordered provider identity, individual MP3 playability, stitched chapter audio, durable hashes, and the final chapter-tail landing were verified before publication."
     }
   ]
 }

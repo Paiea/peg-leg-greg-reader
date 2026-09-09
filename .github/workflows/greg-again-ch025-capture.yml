@@ -1,0 +1,147 @@
+name: Capture and stitch Greg Again Chapter 25
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch025-auto
+    paths:
+      - .github/workflows/greg-again-ch025-capture.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch025-auto
+          fetch-depth: 0
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Materialize locked short-take records
+        shell: bash
+        env:
+          PAYLOAD_B64: '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'
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/scripts greg-again/audio/takes
+          python3 - <<'PY'
+          import base64, json, os, zlib
+          from pathlib import Path
+          payload=json.loads(zlib.decompress(base64.b64decode(os.environ['PAYLOAD_B64'])))
+          Path('greg-again/audio/scripts/025-short-transcripts.json').write_text(json.dumps(payload['spec'], indent=2, ensure_ascii=False)+'\n')
+          Path('greg-again/audio/takes/025-short.json').write_text(json.dumps(payload['take_map'], indent=2, ensure_ascii=False)+'\n')
+          PY
+
+      - name: Verify exact take coverage and provider identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          src=Path('r2/assets/written/ch025.md').read_text()
+          body=src.split('\n---\n',1)[1].strip().replace('**','')
+          spec=json.loads(Path('greg-again/audio/scripts/025-short-transcripts.json').read_text())
+          m=json.loads(Path('greg-again/audio/takes/025-short.json').read_text())
+          assert spec['chapter_id']=='ga-025' and spec['chapter_number']==25 and spec['title']=='The Hired Sword'
+          assert spec['written_source_title']=='The Hired Sword' and spec['voice']=='deep'
+          assert len(spec['takes'])==len(m['takes'])==38
+          assert [x['take'] for x in spec['takes']]==list(range(1,39))
+          rebuilt='\n\n'.join(x['transcript'].strip() for x in spec['takes'])
+          assert rebuilt==body, 'short-take transcripts do not exactly reconstruct current spoken body'
+          for s,t in zip(spec['takes'],m['takes']):
+              h=hashlib.sha256(s['transcript'].encode()).hexdigest()
+              assert h==s['sha256']==t['transcript_sha256']
+              assert t['provider_context_id']
+              assert t['preview_url'].startswith('https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/')
+              assert t['status']=='generated_preview_url_captured'
+          assert len({x['provider_context_id'] for x in m['takes']})==38
+          assert len({x['preview_url'] for x in m['takes']})==38
+          print(f'exact coverage verified: {len(body)} chars across 38 ordered takes')
+          PY
+
+      - name: Capture and verify 38 direct preview MP3s
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/025-short
+          python3 - <<'PY' > /tmp/urls.txt
+          import json
+          from pathlib import Path
+          m=json.loads(Path('greg-again/audio/takes/025-short.json').read_text())
+          for t in m['takes']: print(t['preview_url'])
+          PY
+          i=0
+          while IFS= read -r url; do
+            i=$((i+1)); n=$(printf '%02d' "$i")
+            out="greg-again/audio/assets/chunks/025-short/${n}.mp3"
+            curl -L --fail --silent --show-error "$url" -o "$out"
+            size=$(stat -c%s "$out"); test "$size" -gt 10000
+            duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out")
+            codec=$(ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nw=1:nk=1 "$out")
+            test "$codec" = mp3
+            python3 - "$duration" <<'PY'
+          import sys
+          d=float(sys.argv[1]); assert 2.0 < d < 29.9, d
+          PY
+            echo "take ${n}: bytes=${size} duration=${duration} codec=${codec}"
+          done < /tmp/urls.txt
+          test "$i" -eq 38
+
+      - name: Stitch Chapter 25 and add chapter-tail landing
+        shell: bash
+        run: |
+          set -euo pipefail
+          list=$(mktemp)
+          for i in $(seq -w 1 38); do printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/025-short/${i}.mp3" >> "$list"; done
+          ffmpeg -v error -f concat -safe 0 -i "$list" -af "apad=pad_dur=2" -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-025.mp3
+          size=$(stat -c%s greg-again/audio/assets/chapter-025.mp3); test "$size" -gt 1000000
+          duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-025.mp3)
+          codec=$(ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nw=1:nk=1 greg-again/audio/assets/chapter-025.mp3)
+          test "$codec" = mp3
+          python3 - "$duration" <<'PY'
+          import sys
+          d=float(sys.argv[1]); assert 300 < d < 1200, d
+          PY
+          echo "chapter-025: bytes=${size} duration=${duration} codec=${codec}"
+
+      - name: Record durable hashes durations and verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/verification
+          python3 - <<'PY'
+          import hashlib, json, subprocess
+          from pathlib import Path
+          p=Path('greg-again/audio/takes/025-short.json'); m=json.loads(p.read_text())
+          total=0.0
+          for t in m['takes']:
+              f=Path(f"greg-again/audio/assets/chunks/025-short/{t['take']:02d}.mp3")
+              dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(f)],text=True).strip())
+              t['duration_seconds']=round(dur,3); total+=dur
+              t['status']='artifact_captured_verified'; t['durable_file']=str(f)
+              t['sha256']=hashlib.sha256(f.read_bytes()).hexdigest()
+          a=Path('greg-again/audio/assets/chapter-025.mp3')
+          ad=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(a)],text=True).strip())
+          m.update({'status':'verified_playable','assembled_file':str(a),'assembled_duration_seconds':round(ad,3),'component_duration_seconds':round(total,3),'assembled_sha256':hashlib.sha256(a.read_bytes()).hexdigest(),'chapter_tail_silence_seconds_added':2.0})
+          p.write_text(json.dumps(m,indent=2)+'\n')
+          v={'chapter_id':'ga-025','chapter_number':25,'title':'The Hired Sword','voice':'deep','take_count':38,'exact_source_coverage':True,'take_order_verified':True,'individual_mp3s_verified':True,'assembled_mp3_verified':True,'assembled_duration_seconds':round(ad,3),'assembled_sha256':m['assembled_sha256'],'provider_context_count':38,'provider_preview_count':38,'chapter_tail_silence_seconds_added':2.0,'source_path':'r2/assets/written/ch025.md','source_blob_sha':'11229b660f83589b1249447b6e19f8a359e314ec'}
+          Path('greg-again/audio/verification/025-short.json').write_text(json.dumps(v,indent=2)+'\n')
+          print(json.dumps(v,indent=2))
+          PY
+
+      - name: Commit durable Chapter 25 artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/scripts/025-short-transcripts.json greg-again/audio/takes/025-short.json greg-again/audio/assets/chunks/025-short greg-again/audio/assets/chapter-025.mp3 greg-again/audio/verification/025-short.json
+          git commit -m 'audio: capture and stitch Chapter 25 short takes'
+          git push origin HEAD:audio/greg-again-ch025-auto
