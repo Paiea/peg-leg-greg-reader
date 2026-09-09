@@ -1,0 +1,33 @@
+name: Experiment C Round 05 materialize
+
+on:
+  push:
+    branches:
+      - experiment/r2-temporal-c-hybrid
+    paths:
+      - .github/workflows/experiment-c-round5-materialize.yml
+      - .github/scripts/experiment_c_round5_materialize.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch hard windows
+        run: git fetch origin experiment/r2-temporal-c-hybrid-r5-a experiment/r2-temporal-c-hybrid-r5-b
+      - name: Materialize reconciled run
+        run: python .github/scripts/experiment_c_round5_materialize.py
+      - name: Commit reconciled run
+        run: |
+          git config user.name "experiment-c-materializer"
+          git config user.email "actions@users.noreply.github.com"
+          git add r2/experiments/temporal-writing/c-hybrid/round-05/reconciled
+          git rm .github/workflows/experiment-c-round5-materialize.yml
+          git rm .github/scripts/experiment_c_round5_materialize.py
+          git commit -m "Materialize Experiment C Round 05 Chapters 191-205"
+          git push origin HEAD:experiment/r2-temporal-c-hybrid
