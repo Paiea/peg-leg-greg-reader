@@ -1,0 +1,30 @@
+name: Greg Again Audio Batch 015-017
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-015-017
+    paths:
+      - .github/workflows/ga-audio-batch-015-017.yml
+      - greg-again/audio/production/015-017/**
+
+permissions:
+  contents: write
+
+jobs:
+  verify-provider-transport:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download queued provider take
+        run: |
+          mkdir -p /tmp/ga-audio
+          for i in $(seq 1 30); do
+            if curl -fL --retry 2 --retry-delay 2 'https://www.aidocmaker.com/g0/audio?name=a9b6ca920b60470db8a87f206533cee3' -o /tmp/ga-audio/take01.mp3; then
+              if ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/ga-audio/take01.mp3; then
+                exit 0
+              fi
+            fi
+            sleep 5
+          done
+          exit 1
