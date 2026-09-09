@@ -1,0 +1,36 @@
+{
+  "schema": "r2_rendering_pipeline/v1",
+  "shared_flow": [
+    "story_state_or_performance",
+    "greg_experience",
+    "shared_greg_surface"
+  ],
+  "renderers": {
+    "audio": {
+      "input": "shared_greg_surface",
+      "output": "audio_finish",
+      "role": "light_medium_finish"
+    },
+    "written": {
+      "input": "shared_greg_surface",
+      "output": "written_finish",
+      "role": "light_medium_finish"
+    }
+  },
+  "feedback_classes": [
+    "shared_greg_experience",
+    "audio_only",
+    "written_only"
+  ],
+  "rules": {
+    "clean_performance_residue_not_cognition": true,
+    "greg_owns_pov_not_causal_universe": true,
+    "outside_language_may_be_state_changing": true,
+    "medium_finishes_may_not_add_story_facts": true,
+    "provider_markup_in_shared_surface": false
+  },
+  "similarity": {
+    "heuristic_lexical_overlap_percent": [90, 97],
+    "hard_gate": false
+  }
+}
