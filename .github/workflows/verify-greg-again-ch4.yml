@@ -1,0 +1,23 @@
+name: Verify Greg Again Chapter 4 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch4-shared-surface
+    paths:
+      - .github/workflows/verify-greg-again-ch4.yml
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch4-shared-surface
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
