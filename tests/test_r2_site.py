@@ -39,6 +39,11 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Audio Finish', contract)
         self.assertIn('Written Finish', contract)
 
+        readme = (R2 / 'README.md').read_text(encoding='utf-8')
+        self.assertIn('PIPELINE.md', readme)
+        self.assertIn('Shared Greg Surface', readme)
+        self.assertIn('medium-specific finish', readme)
+
     def test_chapter_one_reuses_existing_audio_without_claiming_missing_prose(self):
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['chapter_id'], 'r2-ch001')
