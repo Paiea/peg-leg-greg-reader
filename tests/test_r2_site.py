@@ -13,8 +13,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 20)])
-        self.assertEqual(project['current_chapter'], 'r2-ch019')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 23)])
+        self.assertEqual(project['current_chapter'], 'r2-ch022')
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
@@ -51,8 +51,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Shared Greg Surface', readme)
         self.assertIn('medium-specific finish', readme)
 
-    def test_written_frontier_is_public_through_chapter_nineteen(self):
-        for number in range(1, 20):
+    def test_written_frontier_is_public_through_chapter_twenty_two(self):
+        for number in range(1, 23):
             chapter_id = f'r2-ch{number:03d}'
             manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
             self.assertTrue(manifest_path.exists(), chapter_id)
@@ -68,8 +68,35 @@ class R2SiteTests(unittest.TestCase):
             )
             self.assertEqual(
                 chapter['navigation']['next'],
-                None if number == 19 else f'r2-ch{number + 1:03d}',
+                None if number == 22 else f'r2-ch{number + 1:03d}',
             )
+
+    def test_chapter_twenty_public_copy_excludes_internal_experiment_prelude(self):
+        prose = (R2 / 'assets/written/ch020.md').read_text(encoding='utf-8')
+        self.assertNotIn('Status: **EXPERIMENTAL', prose)
+        self.assertNotIn('Story search:', prose)
+        self.assertTrue(prose.startswith('# Chapter 20: Ward Hand\n\n---\n'))
+
+    def test_chapter_twenty_one_public_copy_excludes_internal_experiment_prelude(self):
+        prose = (R2 / 'assets/written/ch021.md').read_text(encoding='utf-8')
+        self.assertNotIn('Status: **EXPERIMENTAL', prose)
+        self.assertNotIn('Story search:', prose)
+        self.assertNotIn('Relationship rehearsal:', prose)
+        self.assertTrue(prose.startswith('# Chapter 21: The Reply\n\n---\n'))
+
+    def test_chapter_twenty_one_uses_public_role_title(self):
+        chapter = json.loads((R2 / 'data/chapters/ch021.json').read_text(encoding='utf-8'))
+        self.assertEqual(chapter['title'], 'The Letter Writer')
+
+    def test_chapter_twenty_two_public_copy_excludes_internal_experiment_prelude(self):
+        prose = (R2 / 'assets/written/ch022.md').read_text(encoding='utf-8')
+        self.assertNotIn('Status: **EXPERIMENTAL', prose)
+        self.assertNotIn('Story search:', prose)
+        self.assertTrue(prose.startswith('# Chapter 22: The Neighbor\n\n---\n'))
+
+    def test_chapter_twenty_two_title_names_what_greg_embodies(self):
+        chapter = json.loads((R2 / 'data/chapters/ch022.json').read_text(encoding='utf-8'))
+        self.assertEqual(chapter['title'], 'The Neighbor')
 
     def test_written_renderer_hides_internal_experiment_prelude(self):
         js = (R2 / 'assets/js/chapter.js').read_text(encoding='utf-8')
@@ -161,6 +188,22 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('assets/images/r2-cover-portrait.webp', html)
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
         self.assertEqual(chapter['images'], [])
+
+    def test_image_worker_is_source_grounded_and_scene_batched(self):
+        worker = (R2 / 'IMAGE_WORKER.md').read_text(encoding='utf-8')
+        system = (R2 / 'IMAGE_SYSTEM.md').read_text(encoding='utf-8')
+        packet = (R2 / 'image-packets/TEMPLATE.md').read_text(encoding='utf-8')
+
+        self.assertIn('CHAPTER TITLE IS METADATA, NOT IMAGE SOURCE.', worker)
+        self.assertIn('READ THE CHAPTER', worker)
+        self.assertIn('about five visually distinct moments', worker)
+        self.assertIn('up to five scene-specific generated images', worker)
+        self.assertIn('STORY SOURCE FIRST. TITLE LAST.', system)
+        self.assertIn('source_excerpt', system)
+        self.assertIn('not_grounded_in_source', system)
+        self.assertIn('chapter_read_complete', packet)
+        self.assertIn('Scene shortlist', packet)
+        self.assertIn('could this image have been generated from title alone', packet)
 
 
 if __name__ == '__main__':

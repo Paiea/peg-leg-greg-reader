@@ -72,6 +72,16 @@ For Manuscript / 01, `MANUSCRIPT_STATE.md` is the normal home for the next execu
 
 That compact prompt is intentionally sufficient. The worker must discover the current endpoint, exact prose edge, constraints, and next trailhead from GitHub.
 
+## Greg, Again audio re-prompt
+
+> Continue Greg, Again audio production from current GitHub authority.
+>
+> Auto-claim the next available free audio chapter using `r2/AUDIO_PRODUCTION.md`, then produce it with the established short-take voice factory, capture durable take artifacts, verify, publish, and leave the next handshake.
+>
+> Preserve newer authority, preserve already-generated provider work, skip chapters already durably owned by another worker, and do not overlap.
+
+A fresh audio worker owns **one chapter**. It scans upward through current written authority, skipping published chapters and chapters with durable chapter-specific WIP, until it finds the earliest free chapter. An unfinished earlier chapter does not block a later free chapter. Legacy multi-chapter branch names do not blanket-reserve unstarted sibling chapters.
+
 ## Reader / UI re-prompt
 
 > Continue Peg-Leg Greg reader work from GitHub. Read project authority plus `state/READER_DESIGN_LAB.md` and visual guidance. Use a branch for broad changes. Preserve manuscript prose and newer art/UI work. Validate, update durable design state, and leave the next handshake.
@@ -87,9 +97,12 @@ The human should increasingly be able to say only:
 - `continue reader`
 - `continue images`
 - `continue story control`
+- `continue Greg, Again audio`
 - or simply `continue the highest-value Peg-Leg Greg work`
 
 Within an already-running Manuscript Engine chat, `Continue` or `Next chapter` is enough after the prior chapter has been durably committed and verified.
+
+Within an already-running Greg, Again audio worker, `Continue` is enough after the worker has a durable single-chapter claim and current chapter work remains within that claim.
 
 The worker is responsible for discovering current state from GitHub.
 
