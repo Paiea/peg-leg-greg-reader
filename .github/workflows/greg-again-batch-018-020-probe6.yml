@@ -1,0 +1,28 @@
+name: Fetch Queued Audio Document Record
+on:
+  push:
+    branches: [audio/greg-again-batch-018-020]
+    paths: ['.github/workflows/greg-again-batch-018-020-probe6.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-batch-018-020
+      - name: Fetch audio document record
+        run: |
+          set -euo pipefail
+          endpoint='https://level2labs-prod--adm-agent-helper-user-fetch-document.modal.run'
+          curl -sS -D /tmp/h.txt -o /tmp/b.txt -w 'http=%{http_code}\ncontent_type=%{content_type}\nsize=%{size_download}\n' \
+            -H 'Content-Type: application/json' \
+            --data '{"context_id":"7c31ecb98d01441298fbb5e536696ee1","context_type":"audio","refresh":true}' \
+            "$endpoint" > /tmp/m.txt
+          { cat /tmp/m.txt; echo '--- headers ---'; cat /tmp/h.txt; echo '--- body ---'; cat /tmp/b.txt; } > greg-again/audio/capture-debug-018-document.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/capture-debug-018-document.txt
+          git commit -m 'Fetch queued audio document record'
+          git push origin HEAD:audio/greg-again-batch-018-020
