@@ -25,6 +25,17 @@
       "duration_seconds": 841.92,
       "audio_src": "assets/chapter-002.mp3",
       "note": "Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."
+    },
+    {
+      "chapter_id": "ga-003",
+      "number": 3,
+      "title": "The Borrower",
+      "status": "experimental",
+      "lens": "greg-dominant",
+      "take_count": 12,
+      "duration_seconds": 752.544,
+      "audio_src": "assets/chapter-003.mp3",
+      "note": "Greg-dominant Chapter 3: attention gravity, selective voice breaches, and language-as-action preserve Arlo's technical ownership and Vale's binding loan terms."
     }
   ]
 }
