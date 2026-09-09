@@ -20,7 +20,7 @@ No style is locked.
 
 R1/canon and prior R2 prose are evidence, controls, and quarry. They are not a required route.
 
-The written lane now searches in this order:
+The written lane searches in this order:
 
 ```text
 CURRENT STORY STATE
@@ -28,7 +28,7 @@ CURRENT STORY STATE
 → PERFORMANCE / OUTSIDE AGENCY
 → SUBJECTIVE LENS
 → PAGE-NATIVE PROSE
-→ COMPARE AGAINST PRIOR MATERIAL
+→ COMPARE AGAINST PRIOR MATERIAL WHEN USEFUL
 → KEEP ONLY SURVIVING LEARNING
 ```
 
@@ -44,12 +44,15 @@ These are priors, not laws.
 
 Let Greg's perception, interpretation, wrong models, body, memory, money sense, tactical attention, embarrassment, and associative thought carry the reader from beat to beat when that is the most interesting surface.
 
+Greg owns POV continuity, not reality, causality, expertise, or everybody else's language.
+
 ### OUTSIDE VOICE EARNS DIRECT SPACE FOR
 
 - **FALSIFICATION** — another mind challenges Greg in a way he cannot honestly generate for himself
 - **STATE TRANSITION** — offers, refusals, prices, promises, threats, wagers, consent, deadlines, ownership terms, and other language that changes obligations
 - **MOTOR INTERRUPT** — the useful sequence is HEAR → MOVE → UNDERSTAND
 - **IRREPLACEABLE CHARACTER LANGUAGE** — exact wording carries humor, intimacy, threat, leverage, identity, or surprise that Greg's mediation weakens
+- **DOMAIN AUTHORITY** — another actor owns information Greg needs faster or more accurately than he can infer it
 
 ### TIME AS RESIDUE
 
@@ -61,17 +64,17 @@ Bodies, tools, money, habits, relationships, institutional behavior, absences, n
 
 > **Success should often reveal the next deficiency instead of functioning as a static reward screen.**
 
-Capability remains conditional on environment, equipment, timing, fatigue, information, and other actors.
+Capability remains conditional on environment, equipment, timing, fatigue, information, scale, and other actors.
 
 ### THOUGHT MUST EARN CAUSAL SPACE
 
-Thought is action when it changes the next bet, cut, step, purchase, refusal, question, or choice under pressure.
+Thought is action when it changes the next bet, cut, step, purchase, refusal, question, instruction, or choice under pressure.
 
 Avoid essay-shaped interiority that could be moved after the event without changing behavior.
 
 ### GREG'S STRENGTHS CREATE SPECIFIC FAILURE MODES
 
-Greg is genuinely good at models, systems, future leads, people-reading, and leverage.
+Greg is genuinely good at models, systems, future leads, people-reading, support prioritization, and leverage.
 
 Those strengths should create temptations specific to the strength.
 
@@ -82,6 +85,30 @@ Example: at cards Greg can solve the money problem and still remain exposed beca
 Potential value, cash, capability, reputation, ownership, access, information, and leverage are related but not automatically interchangeable.
 
 Future upside does not pay tomorrow's debt until the story earns the conversion.
+
+### SCALE CHANGES THE PROBLEM
+
+A system that works in a small, short, controlled test may behave differently under more time, flow, heat, people, money, danger, or institutional load.
+
+Do not treat successful small-scale evidence as universal proof.
+
+### OLD EXPERTISE MAY ARRIVE BEFORE OLD POWER
+
+> **Old expertise can survive as prioritization, sequencing, attention, and procedural instinct before it survives as current capability.**
+
+Greg may recognize the shape of a failure, danger, negotiation, or support problem long before his nineteen-year-old body or mana can execute the remembered solution.
+
+### TINY CAPABILITY CAN MATTER AT HIGH LEVERAGE
+
+A small current-life ability does not need to solve the whole scene to matter.
+
+One correctly placed step, barrier pulse, warning, or decision can change an outcome without becoming a power spike.
+
+### ACTION IS STATE CHANGE UNDER PRESSURE
+
+Combat is one kind of action.
+
+Technical failure, gambling, negotiation, industrial hazard, pursuit, logistics, sex/intimacy, magical failure, and other pressure can all be action when decisions immediately change state.
 
 ### STOP WHEN THE CAUSAL CHAIN LANDS
 
@@ -157,14 +184,6 @@ Result:
 
 The saltback material survives, but the inherited structure does not. The selected chapter reaches the live contract earlier and lets action prove what the month changed.
 
-New repeated signals:
-
-- TIME AS RESIDUE
-- VOICE AS MOTOR INTERRUPT
-- progression exposing recovery as the next gap
-- environment retaining authority over learned technique
-- Jorren's current local competence outranking Greg's future memory in parts of the fight
-
 ### Chapter 5 — The Partner
 
 Control/quarry:
@@ -191,38 +210,72 @@ Arlo's first sale forces ownership boundaries. Future project value does not sol
 
 The better-sword purchase from the control is preserved as quarry but moved out of the chapter because it functioned as an unnecessary fourth ending.
 
-## True frontier after Chapter 5
+### Chapter 6 — The First Customer
 
-The inherited R2 prose run currently ends here.
+There is no inherited R2 Chapter 6 authority.
 
-There is no existing R2 Chapter 6 that must be followed.
+Story search:
 
-Current story state:
+`state/experiments/greg-again/rehearsals/006-story-search.md`
 
-- Greg can pay Vale on time tomorrow, but will have little cash afterward.
-- Greg and Arlo are now bounded partners rather than vaguely aligned collaborators.
-- one Kestrin disk has sold; durability and repeat demand remain unproven.
-- the dyer may want more if the first disk survives.
+Selected new page-native chapter:
+
+`state/experiments/greg-again/prose/006-the-first-customer.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/006-the-first-customer.md`
+
+Result:
+
+> **FIRST CUSTOMER CONSEQUENCE → MAGIC/INDUSTRIAL INCIDENT wins the first true-frontier story search.**
+
+Arlo's first sale works before failing under real-use scale. The customer relationship acquires downside and bargaining power. Greg's old support instincts recognize a containment problem before his current mana can execute the remembered solution. A tiny barrier pulse matters without solving the incident.
+
+New signals:
+
+- SCALE CHANGES THE PROBLEM
+- shared downside makes partnership real
+- customer/domain authority matters
+- old expertise can survive as procedural instinct before power
+- tiny capability can matter at high leverage
+- action can be non-combat without becoming static
+
+## True frontier after Chapter 6
+
+Current selected story state:
+
+- Vale is paid on time.
+- Greg has almost no cash again.
+- Vale remains interested but has not automatically become the next plot.
+- Greg and Arlo remain bounded partners after absorbing their first real customer loss.
+- Ivena is now a real customer relationship with process knowledge, losses, and bargaining power.
+- Kestrin filtration remains promising but has an earned warm-flow / duration / load constraint.
+- Arlo needs a warm continuous-flow test and a safer bypass condition.
+- Greg produced a crooked palm-wide barrier response for less than a heartbeat.
+- support magic now matters emotionally because it touches what Greg later became.
+- mana remains weak enough that remembered support solutions are unavailable.
+- recovery remains a sword gap.
 - Jorren leaves north soon.
-- recovery is Greg's newly exposed sword gap.
-- overhead cut and side step are useful current-life capability, not universal answers.
-- mana remains weak, real, and expensive to improve.
-- Greg's model-completion vulnerability at the gambling table is now verified.
-- Sella has become an accumulated institutional relationship rather than a first-contact clerk.
-- Arlo, Jorren, Sella, and Vale all have trajectories that continue without Greg.
-- the better-sword idea remains available quarry if equipment becomes causally important.
+- Greg cannot pursue business, mana, sword, money, Jorren, and every future lead simultaneously.
 
-## Next move
+## Next story search pressure
 
-Run a true Chapter 6 story search from this state.
+> **MAKE PRIORITY CAUSAL.**
 
-Do not ask `what did canon do next?` first.
+The next chapter should not let Greg advance every lane at once.
 
-Ask:
+Live candidates include:
 
-> **Which live pressure creates the strongest next causal movement while keeping the fantasy/action promise, time pressure, independent characters, and Greg's thought engine alive?**
+- pursue support-magic instruction while the barrier failure is emotionally hot
+- stay with Arlo/Ivena long enough to make the product safe in real use
+- spend scarce time with Jorren before he leaves north
+- exploit or resist Vale's growing interest
+- solve cash scarcity again without returning immediately to the same gambling loop
 
-Use prior book material only afterward as quarry or comparison.
+The next story should make choosing one direction create cost or movement in another.
+
+Do not ask what canon did next unless quarry becomes useful after the current-state search.
 
 Do not run audio synthesis from this lane.
 
