@@ -26,4 +26,72 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          printf '%s' 'MDEJZmIwMDEyYjJlYTZlNDdlYzlkOTkyOGMyOTBkYzhkNDkJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvMTIzYTYxMGUtY2ViZS00NDFlLWFkMDYtZmIxMmMxNDBkYWU1Lm1wMgowMgk5Y2FkZjg2YjI2N2Q0ZDQ4ODRhMjNiYzAxZmU0NjE0MwlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy8zYjM4YzE3Mi0zMmE0LTQwNDUtYWNlZi1iM2ZlMDc0OWEwOGYubXAzCjAzCTE5Njc3NjdiNTk3NDQzZDE5NDhlNDUwNWRlOTEyNzk1CWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3L2RkMGZlYzc0LWU3MTYtNGE5Ni1iYjk0LTQ5ZWI2Y2JmNTRmYy5tcDMKMDQJMjdiZDg0ZTc3ZGY3NDliYWE5ODc3MDk5MmFkMTVhNmMJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvMjJmZDZkYTItMGRmMS00YjYzLTg4MTYtOGJmOTIxZWZiYzE2Lm1wMgowNQkyMTU3OTcwODU2MGY0ZjdiOGVhYzkxZWQ1NDAzYjE1NwlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy82NTE4MzNlMS1iZmE3LTQ1YzEtYmI5NC0yYjk2NzI0NDY4NTUubXAzCjA2CTY3OTE0MWUwZmFhNzQ2MDJhOTFiMTE1YjA2NDA3MmFjCWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3L2E0MzRiMTcxLWQzNTktNDZhZC1hOTVlLTUwYjM5YjZmNzg0MC5tcDMKMDcJZDQ5NGNiOTE1NDIwNDJiNDg4OTlhNzQ0ZjliZDE5OWUJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvYjUwM2I4MjktMjU3ZC00NzI5LWIxNTktZTRhM2Q5MzkzMzYwLm1wMwowOAk2NTg0Yjg4NmIyZmQ0MzI5OWFiNjVlZTVmN2Q1Yzg4ZQlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy80MmUyYjllOS1hZDgxLTQ5MjQtOGVlZi0xZGZkNGY4MzIyOWEubXAzCjA5CWI5YjA3ODZiMmRjMzQ2ZjI5YWYxNzY3Y2M4OWM5MzhhCWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3LzRjMThhNjYxLWE4YjItNGVlYy1hZWMzLTlhNmI3YTFjZGUzYS5tcDMKMTALMTdhYTQwNWRjNjFmNGM5ZjljMmI5ZmU4MDIzOTgzNmYJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvZmViYjI2OTEtYTJmYS00YTE3LWE0ZjYtMjM4YmY4MzFjODQ3Lm1wMwoxMQlhMTE2MGRlY2EyZDM0YjE0OGQzOGIwMTg1YzYzNmJhMAlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy80MGYyZjI5Ny1hOTQyLTRlYjgtODI3ZC1kZTMyN2RkOTc0ZmQubXAzCjEyCWM4NjU2ODA4ZjViYzQzZDU4OGQ5Njg5MDA3OTNiNzdkCWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3LzFkM2YwNTA2LWI3MWYtNGRkMC04NjE5LTExN2QwNjg3NjYxMS5tcDMKMTMJMzFmM2Y0OThjYTA5NDk5ZWIyN2Q1ZjMxMmRhYTc4YTAJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvM2YwMmZkZDYtODJiZS00N2MwLTg4MGEtNjU0NjBjODk1YzBkLm1wMwoxNAlkMGQ0OTM3NjFmZmI0NmU1ODY2ZDQwNGMyYWQ3ZGVlZQlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy9jYTFjYjc5Yy03MmY2LTRiNzMtODU0MC1hOGZmMmRjNDQzNTgubXAzCjE1CWJlYzJhMzc1MjJiNTQzNzA4ZTAwNjkzNTZjYzU1ZTFiCWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3LzAwZWZjNmIxLTE3MDAtNDVmMS05NjExLWM4ZDhmMDQ5MjUzZS5tcDMKMTYJMTE3MTQ0ZWY1NjI4NDQ3YWI3ZDEyMWJiMWU2YWI4YWIJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvZDViZDczZDMtY2ZlYi00NDk2LThjZmYtOWZiNzE2ZmIxMjYyLm1wMwoxNwkxM2JmZTM4YTM4NTM0ZDBmOGU0YmQ3YmNmZDk0Mzk2MQlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy84MzNkYzVkZC1hNGY1LTQ0MDYtYmZjNS01MGM1YzdmNzZjODYubXAzCjE4CTY5MGVmOTkwYjY1YTQ0ZDE5YTIwNGRhN2Q2Mjk0N2Q4CWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3LzRhOTA0YmM3LTFhM2UtNGQ3YS1hZGUyLWVjZjZkNThhY2U1OS5tcDMKMTkJZDA4ZWRjZGI5MGM4NGEzNmIyNmRmYjhlNGYyYjVhNjEJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvNzdiNGZiNWUtYTdhOC00N2E1LWI2NGMtMjEyZGVlZTY2OGM0Lm1wMwoyMAkyMjQwNmNlMmYzN2I0NzNkOTRiN2NkOWUyMDNiNWI4MwlodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy83YzJjMmNiMi1kNjIxLTQ3YmQtOTNjMi1iMWQ4ZDkxMWQ4ZDcubXAzCjIxCTljNTBmYmExNDZjODRmZjhiMzUyZDkxNmUyODBiYTI3CWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3L2UyMjYwNDc2LWJlMmQtNGJkZi1iOTEwLWU2ODU5NTUyOGRkOC5tcDMKMjIJYjEwOGIzMmRhOGU0NGY2MWI2NDA2MzA3ZTQ5MWE0NzYJaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2FkbS0tYXVkaW8tcGxheWJhY2stLTdkLS1wdWJsaWMvbWNwLXByZXZpZXcvOTg3ZjZhM2YtM2UyZC00MjRmLTk1N2YtYWMzOWM3MTRlNTNlLm1wMwoyMwk0Y2E4YWRhZTM4NDU0OGZhYjM3ZTYwZjJkMGM3NTdiMglodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vYWRtLS1hdWRpby1wbGF5YmFjay0tN2QtLXB1YmxpYy9tY3AtcHJldmlldy9lYmY1ZTMwZi02YTJkLTQ5NmMtYjZhNy0yMjFjNmJmMmQ2NGYubXAzCjI0CWYzOGE4OGE1ZjVlNTQ0YTA5OTQwY2UzZTZlNjljNzFlCWh0dHBzOi8vc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hZG0tLWF1ZGlvLXBsYXliYWNrLS03ZC0tcHVibGljL21jcC1wcmV2aWV3L2E1YTdiYmY3LTU5MmUtNDk5Yy1hNTUyLTk4MWFjNzMwMTMxYS5tcDMKMjUJ Omitted'
+          mkdir -p greg-again/audio/assets/chunks/019
+          while IFS=$'\t' read -r n context url; do
+            out="greg-again/audio/assets/chunks/019/${n}.mp3"
+            curl --fail --location --retry 3 --output "$out" "$url"
+            test -s "$out"
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out"
+          done < greg-again/audio/production/019/provider-artifacts.tsv
+      - name: Update durable take map
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          rows=[]
+          for line in Path('greg-again/audio/production/019/provider-artifacts.tsv').read_text().splitlines():
+              n,context,url=line.split('\t')
+              rows.append((int(n),context,url))
+          path=Path('greg-again/audio/takes/019.json')
+          data=json.loads(path.read_text())
+          assert data['take_count']==36
+          assert [t['take'] for t in data['takes']] == list(range(1,37))
+          lookup={n:(context,url) for n,context,url in rows}
+          for take in data['takes']:
+              n=take['take']; context,url=lookup[n]
+              take['provider_context_id']=context
+              take['provider_preview_url']=url
+              take['durable_audio']=f'assets/chunks/019/{n:02d}.mp3'
+              take['status']='artifact_captured'
+          path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Stitch Chapter 19
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/concat.txt
+          for n in $(seq -w 1 36); do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/019/${n}.mp3" >> /tmp/concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/concat.txt -c copy greg-again/audio/assets/chapter-019.mp3
+          test -s greg-again/audio/assets/chapter-019.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-019.mp3 | tee /tmp/duration.txt
+      - name: Record capture status
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          duration=Path('/tmp/duration.txt').read_text().strip()
+          out=Path('greg-again/audio/production/019/STATUS.md')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(
+              '# Greg, Again Chapter 19 audio production\n\n'
+              'Claim: `audio/greg-again-ch019-auto`\n'
+              'Source: `r2/assets/written/ch019.md`\n'
+              'Title: **The Maintainer**\n'
+              'Voice: `deep`\n'
+              'Takes: **36 / 36 artifact-captured**\n'
+              'Final MP3: `greg-again/audio/assets/chapter-019.mp3`\n'
+              f'Duration seconds: **{duration}**\n\n'
+              'All 36 provider-safe takes were captured from the exact successful provider preview artifacts recorded in `greg-again/audio/takes/019.json`, stitched in numeric order, and ffprobe-verified. Publication/shared-manifest reconciliation remains the next step.\n'
+          )
+          PY
+      - name: Commit durable Chapter 19 audio
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/019 greg-again/audio/assets/chapter-019.mp3 greg-again/audio/takes/019.json greg-again/audio/production/019/STATUS.md
+          git commit -m 'audio: capture and stitch Greg Again Chapter 19'
+          git push origin HEAD:audio/greg-again-ch019-auto
