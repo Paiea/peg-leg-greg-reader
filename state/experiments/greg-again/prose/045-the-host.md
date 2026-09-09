@@ -70,7 +70,7 @@ I felt superior for almost one second before remembering I paid three copper mor
 
 Jorren followed me upstairs.
 
-My room had not become impressive since Chapter Thirty-Seven.
+My room had not become impressive since I moved.
 
 It had become used.
 
@@ -276,9 +276,9 @@ Jorren stopped eating.
 
 Everyone appreciated equipment eventually.
 
-The story ended there because nobody needed the complete tactical reconstruction.
+I stopped there.
 
-Good.
+Nobody needed the complete tactical reconstruction.
 
 Jorren's grain job involved no fighting, so he told us about the wet-grain argument instead.
 
