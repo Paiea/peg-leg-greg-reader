@@ -10,6 +10,53 @@ This file governs Run 2 image work. It may reuse process lessons from Run 1 and 
 
 The goal is not to generate attractive one-off pictures. The goal is to produce story-useful images that remain coherent across chapters, survive chat loss, and can be integrated safely.
 
+## Worker execution model
+
+Routine R2 chapter-image production uses **disposable single-transaction workers**.
+
+> ONE FRESH WORKER = ONE CLAIM = ONE CHAPTER IMAGE TRANSACTION = STOP.
+
+A normal chapter worker:
+
+1. fresh-reads current GitHub authority
+2. inspects open image PRs / active image branches for ownership
+3. claims one eligible unclaimed chapter with a draft PR or equivalent durable branch signal before generating
+4. reads only the story/visual neighborhood needed for that chapter
+5. produces at most one anchor plus zero to two genuinely useful support/texture images
+6. reviews and stages approved outputs
+7. leaves durable GitHub state / handshake for the next worker
+8. stops after that transaction instead of claiming another chapter in the same chat
+
+Do not optimize for keeping a worker alive. Optimize for making the next fresh worker cheap to start from authority.
+
+### Claim rule
+
+The PR / branch is the claim lock. Do not create a shared mutable claim file merely to coordinate parallel workers.
+
+Before claiming, inspect current open PRs and active `image/r2-*` branches. If another worker owns a chapter, skip it and claim the next eligible chapter. Preserve newer authority and reconcile with current `main` before publication/integration.
+
+### Bootstrap exception
+
+Foundational visual-canon work may use a bounded non-chapter transaction when later workers depend on it, such as the first Greg face/body/style/Carrow anchors in `image-packets/PACKET_001.md`.
+
+Finish that seed deliberately. Do not let every chapter worker independently invent a new Greg or Carrow.
+
+## Model routing
+
+Routine chapter-image transactions are intentionally narrow enough to **default to Instant** when available.
+
+Escalate to a higher-thinking worker when the job materially depends on judgment that should become durable visual authority, including:
+
+- establishing or replacing a canon identity/style/location anchor
+- a new recurring character or location with no trustworthy visual reference
+- conflicting visual/story authority
+- ambiguous scene selection where the image itself could change interpretation
+- repeated identity/style/world drift after a normal retry
+- a major cover/frontdoor image
+- image-system, release-system, or integration architecture changes
+
+Do not escalate routine support art merely because a stronger model exists. Spend higher-thinking effort where the project compounds from the decision.
+
 ## Authority order
 
 For R2 visual work:
@@ -127,11 +174,11 @@ A beautiful image does not become full canon automatically.
 
 Every planned image gets one primary role:
 
-- `cover_frontdoor` — homepage / section identity
-- `anchor` — main chapter illustration
-- `support` — secondary story beat
-- `texture` — object / place / atmospheric detail
-- `continuity` — internal reference that may never publish
+- `cover_frontdoor`: homepage / section identity
+- `anchor`: main chapter illustration
+- `support`: secondary story beat
+- `texture`: object / place / atmospheric detail
+- `continuity`: internal reference that may never publish
 
 ## Chapter publishing rule
 
@@ -139,8 +186,8 @@ Image count is a **value decision, not a quota**.
 
 Normal chapter policy:
 
-- 0–1 anchor image
-- 0–2 support/texture images
+- 0 to 1 anchor image
+- 0 to 2 support/texture images
 - publish only images that add distinct value
 
 Some chapters should have no art. One strong image is better than three filler images. Do not turn the reader into an AI scrapbook merely to hit coverage numbers.
@@ -169,22 +216,59 @@ Before generation, each image job must resolve:
 
 Use `image-packets/TEMPLATE.md`.
 
+## GPT Library staging
+
+GitHub owns story authority, claims, packets, manifests, and integration state. **ChatGPT Library is the shared binary staging warehouse** for parallel image workers.
+
+R2 uses the existing Library project shelf:
+
+```text
+/Peg-Leg Greg Image Integration/R2/
+  00 Canon/
+  01 Incoming/
+  02 Approved/
+  03 Releases/
+  04 Released/
+```
+
+Meaning:
+
+- `00 Canon/`: promoted continuity/reference binaries that future workers may retrieve
+- `01 Incoming/`: generated keepers awaiting final approval or routing
+- `02 Approved/`: approved, release-ready binaries not yet included in a large handoff release
+- `03 Releases/`: packaged release ZIPs and release manifests
+- `04 Released/`: approved source binaries already included in a release, retained so they are not accidentally packaged twice
+
+Use deterministic filenames. Chapter workers may create chapter subfolders such as `01 Incoming/ch012/` or `02 Approved/ch012/` when useful.
+
+Library files do **not** outrank R2 story or visual canon merely because they exist there.
+
+### Generator-to-Library gate
+
+When a generated output is exposed as a usable file reference, route it directly to the correct R2 Library shelf.
+
+If the generation surface does not expose safe bytes / a file reference that Library can store, do not pretend the image is staged. Mark the transaction `library_stage_pending` and preserve the approved output for the narrowest manual deposit possible.
+
+The worker's success criterion is durable staging, not a conversational claim that an image exists.
+
 ## Production loop
 
-Default loop:
+Default chapter-worker loop:
 
-**PLAN → RETRIEVE → GENERATE → REVIEW → PROMOTE USEFUL EVIDENCE → HANDOFF → VERIFY → INTEGRATE**
+**FRESH READ → CLAIM → PLAN → RETRIEVE → GENERATE → REVIEW → STAGE → RECORD → STOP**
+
+Later release/integration loop:
+
+**COLLECT APPROVED → PACKAGE RELEASE → MANUAL REPO DROP → VERIFY → INTEGRATE**
 
 ### PLAN
 
-Work in bounded packets, usually 3–5 images.
+A normal chapter worker owns one chapter and at most three publishable images:
 
-Prioritize jobs that create leverage:
+1. zero or one anchor
+2. zero to two support/texture images
 
-1. missing continuity anchors
-2. high-value chapter anchor art
-3. support art that adds a distinct visual beat
-4. replacements only when materially better
+Do not widen into the next chapter merely because generation is cheap.
 
 ### RETRIEVE
 
@@ -201,9 +285,9 @@ Do not dump every available reference into every generation.
 
 ### GENERATE
 
-If an image depends on continuity that does not exist yet, generate the continuity anchor first.
+If an image depends on continuity that does not exist yet, stop the routine chapter transaction and route the missing continuity problem as a higher-judgment visual-canon task.
 
-Batch generation is encouraged when the jobs can share authority without flattening composition. Do not batch unrelated scenes simply for throughput.
+Batch multiple images inside the claimed chapter when they share authority and add distinct value. Do not batch unrelated chapters in one worker.
 
 ### REVIEW
 
@@ -237,21 +321,34 @@ Approved images may teach future work. Promote only the useful part.
 
 Example: a scene may have an excellent Greg face but an invented costume. Promote the face reference, not the costume.
 
-### HANDOFF
+Promoted binaries belong in the Library `00 Canon/` shelf and must be reflected in durable R2 visual-canon state before future workers treat them as authority.
 
-Generated image binaries follow `../state/IMAGE_BINARY_HANDOFF.md`.
+### STAGE / HANDOFF
 
-When direct binary transport is unreliable:
+Normal chapter workers do **not** need to create a tiny ZIP for Keoni after every transaction.
 
-- AI owns planning, generation, review support, filenames, destination paths, manifests, code, and verification
-- Keoni performs the final approved binary drop
-- AI verifies the actual repository file before integration
+Instead:
 
-Prefer clean ZIP handoffs for approved batches when safe bytes are available.
+- generated candidates go to `01 Incoming/` when safe bytes are available
+- approved release-ready keepers go to `02 Approved/`
+- record the intended repository path in the packet/claim state
+- stop the worker after the chapter transaction
+
+Large handoff packaging is a separate release-worker job governed by `IMAGE_RELEASES.md`.
+
+Generated image binaries still follow `../state/IMAGE_BINARY_HANDOFF.md`: GitHub binary transport is not trusted merely because a write succeeds.
+
+### RELEASE
+
+A separate packager worker periodically gathers approved unreleased Library assets, normally when Keoni asks or when roughly 50 to 100 useful images have accumulated.
+
+The packager creates one repo-mirrored release ZIP, stores it under `03 Releases/`, records membership, then moves included source binaries to `04 Released/` so the Library itself remains an obvious unreleased queue.
+
+See `IMAGE_RELEASES.md`.
 
 ### VERIFY
 
-Before manifest integration:
+After Keoni performs the large manual repository drop:
 
 - file exists at exact destination
 - binary decodes
@@ -261,7 +358,7 @@ Before manifest integration:
 
 ### INTEGRATE
 
-Only approved + verified chapter art enters `data/chapters/chNNN.json`.
+Only approved + repository-verified chapter art enters `data/chapters/chNNN.json`.
 
 Preferred chapter-art path:
 
@@ -284,16 +381,18 @@ r2/assets/images/site/
 
 ## Resume-first state
 
-The current packet should make it possible for a fresh worker to answer:
+A fresh chapter worker should be able to reconstruct its whole job from GitHub plus the R2 Library shelves. It should not need old chat history.
 
-- what is planned
-- what is generated
-- what awaits review
-- what is approved
-- what awaits handoff
-- what has been uploaded but not verified
-- what is integrated
-- which approved outputs became continuity anchors
-- what should happen next
+Durable state should make it possible to answer:
+
+- which chapters are already claimed
+- what continuity references are approved
+- what this worker's one chapter transaction owns
+- what images are planned/generated/approved
+- which binaries are staged in Library and where
+- which approved binaries are still unreleased
+- what has already been released
+- what has been repository-verified and integrated
+- what the next fresh worker should claim
 
 Do not make a fresh worker reconstruct those answers from chat.
