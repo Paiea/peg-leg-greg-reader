@@ -3,6 +3,9 @@ on:
   push:
     branches: [audio/greg-again-ch028-auto]
     paths: ['.github/workflows/ga028-capture.yml']
+concurrency:
+  group: ga028-capture
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -99,4 +102,5 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add greg-again/audio/assets/chunks/028 greg-again/audio/assets/chapter-028.mp3 greg-again/audio/production/028/capture-results.json
           git commit -m 'Capture and assemble ga-028 audio'
+          git pull --rebase origin audio/greg-again-ch028-auto
           git push origin HEAD:audio/greg-again-ch028-auto
