@@ -226,6 +226,23 @@ For each take:
 6. cross the provider artifact boundary before considering the take production-complete
 7. do not silently paraphrase the text because a provider call is inconvenient
 
+### Final-take landing
+
+The final take should inherit the authoritative written chapter ending, including the R2 default terminal `...`. Do not create a separate hidden punctuation version merely for the voice provider when the written surface already carries the landing cue.
+
+The purpose is performance: the last spoken thought should settle downward and sound complete rather than rising like a question or sounding as though another sentence is about to follow. If the renderer still gives the authoritative final line a continuation-like cadence, repair or regenerate only the smallest final take that owns that ending. Preserve all acceptable earlier takes.
+
+The written ellipsis and the assembled chapter-tail silence solve different problems. The ellipsis shapes delivery; the roughly 2-second assembly tail gives the listener room after the final spoken word. Keep both rules.
+
+### Pronunciation authority
+
+Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. In particular:
+
+- written `mana` stays `mana`
+- provider-facing `mana` should be rendered as `mah-nah` when needed to preserve the approved pronunciation
+
+Record such pronunciation substitutions in production evidence when they differ from the written spelling. Do not flow phonetic provider spellings back into the written chapter unless the prose itself is separately edited.
+
 A useful deterministic naming shape is:
 
 - `ga-012-take-01`
@@ -453,6 +470,8 @@ For every published chapter verify at minimum:
 - duration metadata is recorded when required
 - manifest/catalog entries point to the correct artifact
 - neighboring workers' chapters were not overwritten
+- the final take preserves the authoritative chapter-ending punctuation and lands as a completed, downward final thought rather than an accidental question / continuation
+- approved pronunciation substitutions such as written `mana` -> provider `mah-nah` are preserved where relevant
 - for chapters produced after adoption of the chapter-tail rule, the final listener-facing file has about **2.0 seconds of silence after the final spoken word**; roughly **1.5–2.5 seconds** is acceptable
 
 When one local take fails, prefer repairing the smallest responsible take rather than regenerating the whole chapter.

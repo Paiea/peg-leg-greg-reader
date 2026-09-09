@@ -102,6 +102,14 @@ It may:
 
 It may not conventionalize Greg away, add story facts, transfer causal ownership, or become a transcript-cleanup pass after an independently authored audio rewrite.
 
+### Chapter-ending punctuation
+
+R2 uses a visible chapter-ending ellipsis as the default house convention. The final prose sentence of a completed chapter should normally end with `...` so the chapter lands as a settling final thought instead of visually or vocally suggesting that the narration is about to continue.
+
+The ellipsis belongs to the Shared Greg Surface / written rendition and is therefore visible in Read. Audio should inherit it rather than inventing a separate provider-only ending mark. Do not add a new sentence merely to manufacture closure. Preserve the chapter's actual final thought and change only its terminal punctuation when this convention is being applied.
+
+Treat `...` as the default, not an absolute law. A deliberate question, exclamation, interruption, quoted form, or other ending may keep different terminal punctuation when the ending itself requires it. Such exceptions should be intentional rather than accidental.
+
 ## Core cleanup rule
 
 > **Clean performance residue. Do not clean away cognition.**
