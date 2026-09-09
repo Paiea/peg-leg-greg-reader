@@ -38,6 +38,40 @@ Written frontier:
 
 `state/experiments/greg-again/written/CURRENT.md`
 
+## Story-engine routing
+
+For local Greg, Again story search, also use the compact positive priors in:
+
+`state/experiments/greg-again/written/STORY_ENGINE_GUIDE.md`
+
+The compact guide exists to counterbalance an earlier tendency to make every Greg advantage expose a new deficiency. It preserves the brakes while reminding the engine that:
+
+- Greg may win cleanly sometimes
+- low mana reserve is one magical constraint, not the whole magic system
+- Barrier can grow through geometry, timing, precision, movement, concurrency, and integration rather than only larger walls
+- Greg may learn and use non-Barrier magic when current-world evidence earns it
+- higher-rank adventurers should look genuinely excellent rather than becoming foils for Greg
+- ordinary Guild rank and exceptional authority-granted Ranker status are different systems
+- repeat field people should be preferred over disposable crews when causality supports recurrence
+- party structure may accumulate through repeated work rather than roster assembly
+- artifacts should change strategy, economics, and relationships rather than behave as a linear stat ladder
+- future-historical people may exist for years before later titles or reputations compress them
+- R2 may plausibly span roughly 500 chapters across approximately 5–10 years
+- ordinary life continues underneath widening fantasy scale
+
+This is guidance, not a queue.
+
+Do not turn the next chapter into `show Gold`, `unlock spell`, `find artifact`, `form party`, `meet future Ranker`, `go underground`, `lose the leg`, or `introduce theatre` merely because those possibilities exist.
+
+Local chapter selection still begins with:
+
+> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
+
+Use the heavier long-range files only when the current story has genuinely earned distant reasoning:
+
+- `state/experiments/greg-again/written/LONG_RANGE_PRESSURE_MAP.md`
+- `state/experiments/greg-again/written/LONG_RANGE_REHEARSAL_002_MAGIC_RANK.md`
+
 ## Shared Greg Surface
 
 The Shared Greg Surface should already be:
