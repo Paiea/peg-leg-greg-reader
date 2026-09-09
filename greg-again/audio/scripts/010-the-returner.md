@@ -1,0 +1,754 @@
+# Greg, Again - Chapter 10 Audio Finish
+
+Chapter: **010 - The Returner**
+Written source header: **Chapter 10: What Moved**
+Source authority: `r2/assets/written/ch010.md`
+Voice: `deep`
+Lens: **SHARED GREG SURFACE**
+Audio finish: **PROCESSING SPACE**
+
+## Production contract
+
+> **DO NOT OPTIMIZE AWAY PROCESSING TIME.**
+
+> **SMOOTHNESS IS NOT AUTOMATICALLY CLARITY.**
+
+> **TIME MUST LEAVE RESIDUE.**
+
+Chapter 10 is a return chapter. The listener needs enough space to feel three distinct movements: Jorren leaving, Greg traveling back changed by ordinary repetition, and Carrow continuing without Greg. The chapter should not rush the offscreen progress reveal into exposition. Arlo, Ivena, Sella, the dyehouse system, Greg's body, Greg's mana discipline, and Greg's money all moved while he was away.
+
+The exact spoken surface is the current written prose below. Audio Finish is intentionally light: preserve paragraph contrast, short Greg reactions, and the pauses around absence, return, safe failure, and loss of centrality. Do not invent dialogue or transfer Arlo/Ivena competence to Greg.
+
+## Spoken surface
+
+Jorren left north before breakfast.
+
+This was rude.
+
+Breakfast existed specifically to delay unpleasant decisions until after food.
+
+The caravan did not respect that.
+
+His pack was already on wagon three when I came downstairs.
+
+New boots.
+
+Road dust permanently embedded around the stitching.
+
+Bruise fading at the shoulder.
+
+Sword tied where he could reach it without unpacking anything.
+
+Six days had made him look more like someone leaving than someone training to leave.
+
+I disliked the distinction.
+
+He checked the strap on his pack.
+
+Then checked it again.
+
+Nothing wrong with it.
+
+Hands needed jobs too.
+
+I knew that one.
+
+"You're coming back, right?" I asked.
+
+Jorren looked at me.
+
+"Eventually."
+
+Bad answer.
+
+Accurate answer.
+
+The north-road contract ran longer than he had first expected. Caravan went two more towns, then split. He could return with the same company, take another escort, find work there, get eaten by something stupid, fall in love with a baker, or discover a religious commitment to roads that did not contain me.
+
+His life had options.
+
+Annoying.
+
+"Try not to become important while I'm gone," I said.
+
+He smiled.
+
+"You first."
+
+There.
+
+Good enough.
+
+No speech about friendship.
+
+No promise to write.
+
+Jorren climbed onto the side rail of wagon three because the driver had started moving before he finished deciding how to say goodbye.
+
+Also good.
+
+The road took him.
+
+Not all at once.
+
+One wagon.
+
+Then another.
+
+Then dust between buildings.
+
+Then nothing.
+
+I stood outside the inn until Meral came past carrying one of her cords.
+
+"Your caravan leaves tomorrow."
+
+I knew.
+
+"Then stop staring north like it'll refund him."
+
+I looked at her.
+
+"Do all support mages ruin emotional moments?"
+
+"Only inefficient ones."
+
+I liked her less every day.
+
+Useful pattern.
+
+The southbound trip took six days.
+
+I will spare everyone five of them.
+
+Road.
+
+Oats.
+
+Rain once.
+
+Dust twice.
+
+One wheel bearing replaced before it failed, which was far less exciting than replacing it afterward and therefore evidence that somebody competent had learned from the trip north.
+
+I took second watch without being assigned.
+
+I stopped waking when a driver coughed.
+
+My heel blister became skin.
+
+My shoulders stopped negotiating with the pack.
+
+The four-inch plane became five on good attempts and remained four whenever I tried to impress myself.
+
+Meral was no longer there.
+
+That mattered more than I expected.
+
+No cord.
+
+No one correcting the angle.
+
+No short voice telling me when I was about to spend mana proving a point instead of solving a problem.
+
+So I used the side of my eating bowl as a reference.
+
+Plane.
+
+Tilt.
+
+Release.
+
+Once in the morning.
+
+Once at night.
+
+Never after the headache began.
+
+Mostly.
+
+The first time I stopped because I was tired rather than because somebody ordered me to, I felt insultingly proud.
+
+Carrow appeared on the sixth afternoon.
+
+Same walls.
+
+Same red roofs.
+
+Different size.
+
+Not physically.
+
+I had left after six chapters believing the city contained the important part of my second life because all my active problems lived inside it.
+
+Two weeks on the road had fixed that.
+
+Cities were places people returned to.
+
+Roads were places problems learned to move.
+
+The north gate swallowed the caravan one wagon at a time.
+
+Noise changed immediately.
+
+Road noise became city noise.
+
+Vendors.
+
+Carts.
+
+Hammering.
+
+Children doing something legally adjacent to running beneath wagon axles.
+
+I stepped aside before one hit me.
+
+Experience.
+
+The Guild came first because I needed to close the contract.
+
+Sella saw me before I reached the counter.
+
+She did not ask for the token.
+
+She did not ask whether the caravan made it.
+
+She looked at my face.
+
+"Road?"
+
+I had the face again.
+
+Apparently there were categories.
+
+"Road."
+
+She held out the register.
+
+I signed.
+
+My handwriting was worse.
+
+Some things survived travel.
+
+Sella checked the contract mark.
+
+Then slid my pay across.
+
+More coin than I had possessed after paying Vale.
+
+Not enough to become stupid.
+
+Probably.
+
+There was a folded note beneath it.
+
+Arlo.
+
+Not handwriting this time.
+
+A scrap from his workshop ledger.
+
+MILL STREET. TODAY. IF YOU ARE BACK. DO NOT COME TO THE SHOP FIRST.
+
+No greeting.
+
+Good partnership.
+
+"How long has that been here?"
+
+Three days.
+
+Ah.
+
+I had been absent long enough for instructions to wait for me.
+
+That felt different.
+
+I took the note.
+
+Sella had already moved to the next person.
+
+Some relationships matured into efficiency.
+
+I went to Mill Street.
+
+Ivena's dyehouse had changed.
+
+Not the building.
+
+The system.
+
+A second housing now stood beside the first line.
+
+Two narrower ceramic chambers instead of one broad disk case.
+
+A bypass pipe ran around both and emptied into a shallow ceramic catch basin beneath the trough.
+
+Someone had painted a black line along the side of the upper reservoir.
+
+Maximum fill.
+
+Simple.
+
+Visible.
+
+Useful.
+
+I stopped in the doorway.
+
+Arlo was tightening a clamp.
+
+Ivena was on a platform above him pouring warm wash into the reservoir.
+
+Neither noticed me.
+
+That lasted three seconds.
+
+Then Ivena pointed at a valve without looking down.
+
+"If you're going to stand there, stand there usefully."
+
+She pointed to the bypass lever.
+
+Apparently I had returned to employment.
+
+I took the position.
+
+Arlo glanced over.
+
+"You're back."
+
+Yes.
+
+"Good. Hold that if the pressure mark hits red."
+
+There was a pressure mark now.
+
+Of course there was.
+
+A thin metal tongue beside the housing moved against three painted bands.
+
+Black.
+
+Yellow.
+
+Red.
+
+Crude.
+
+Excellent.
+
+I looked at the two housings again.
+
+"Why split the disk?"
+
+Arlo did not answer immediately because he was doing something with both hands.
+
+Correct priority.
+
+Ivena did.
+
+Single disk loaded unevenly.
+
+Two thinner chambers let them reverse order between runs and clean one while the other cooled.
+
+Flow improved.
+
+Surface area changed.
+
+Durability improved on the last three tests.
+
+My future memory objected.
+
+Later Arwick filters used one deep cartridge.
+
+I remembered that clearly.
+
+One housing.
+
+Replaceable internal stack.
+
+Compact.
+
+Cheap.
+
+This was two ugly ceramic chambers connected by enough pipe to insult an installer.
+
+Wrong.
+
+Probably.
+
+Eventually.
+
+I opened my mouth.
+
+Arlo looked at me.
+
+Not defensively.
+
+Waiting.
+
+That made it worse.
+
+He would actually listen.
+
+Which meant I needed a reason better than forty years later it looks different.
+
+I did not have one.
+
+I closed my mouth.
+
+Arlo's eyebrows rose.
+
+"You sick?"
+
+"Growing."
+
+"Looks painful."
+
+It was.
+
+Ivena opened the feed.
+
+Warm purple wash entered the first housing.
+
+The metal tongue moved into black.
+
+Held.
+
+Liquid came through the second side slower and paler.
+
+Not clear.
+
+Cleaner.
+
+Same distinction.
+
+Different machine.
+
+We watched.
+
+Five minutes.
+
+Nothing dramatic.
+
+Ten.
+
+Pressure climbed toward yellow.
+
+Arlo checked the first chamber temperature with the back of two fingers.
+
+Ivena reduced feed slightly.
+
+Nobody asked me.
+
+I survived.
+
+Fifteen minutes.
+
+Yellow.
+
+The old failure had already begun slowing by now.
+
+This one kept moving.
+
+Arlo wrote down flow volume.
+
+Ivena swapped a catch bowl.
+
+I watched the pale mana shimmer along the waste line.
+
+Lower than before.
+
+Not gone.
+
+The ceramic catch basin beneath the bypass had a layer of ash already spread across the bottom.
+
+I pointed at it.
+
+Ivena looked offended.
+
+"I bought more."
+
+Fair.
+
+Twenty minutes.
+
+Pressure moved deeper into yellow.
+
+Arlo reached toward the housing.
+
+I almost told him not to.
+
+He picked up a wooden probe first.
+
+Also growth.
+
+The first chamber had begun collecting residue unevenly again, but less aggressively.
+
+I looked at the flow line.
+
+Small vibration near the upper clamp.
+
+Familiar shape.
+
+Not memory.
+
+Present.
+
+"Clamp."
+
+Arlo looked.
+
+The vibration strengthened.
+
+He reached for his wrench.
+
+Ivena did not wait.
+
+She reduced feed.
+
+Pressure dropped half a band.
+
+Vibration stopped.
+
+Nobody needed magic.
+
+Nobody needed me to explain why I had noticed.
+
+Good.
+
+Thirty minutes.
+
+The tongue touched red.
+
+My hand closed on the bypass lever.
+
+"Now," Arlo said.
+
+I pulled.
+
+The bypass opened.
+
+Flow shifted around the housings into the ceramic basin.
+
+No burst.
+
+No purple lightning.
+
+No worker climbing onto a platform because I yelled badly.
+
+Pressure fell.
+
+Arlo closed the main feed.
+
+Ivena shut the heat.
+
+The system became quiet in the boring, wonderful way functional systems did.
+
+We stood there.
+
+Nothing happened.
+
+I smiled.
+
+Ivena saw it.
+
+"Don't."
+
+Apparently this had spread beyond Arlo.
+
+"It failed safely."
+
+"It didn't fail."
+
+"Pressure hit limit."
+
+"And the bypass handled it."
+
+Exactly.
+
+She looked at me.
+
+Then understood what I meant.
+
+The old disk had treated slowdown as a surprise.
+
+This version expected slowdown to happen eventually and had somewhere for the problem to go.
+
+Support.
+
+In ceramic.
+
+I liked it more immediately.
+
+Arlo opened the first chamber after it cooled enough.
+
+Residue pattern better.
+
+Still heavier at the bottom.
+
+Second chamber lighter.
+
+No cracks.
+
+No hot spot on the fitting.
+
+Ivena poured the filtered wash into a sample trough.
+
+Color looked cleaner than the batch beside it.
+
+She knew better than I did.
+
+Her face changed by perhaps half an inch.
+
+Enough.
+
+"Four," she said.
+
+I looked at Arlo.
+
+He already knew what she meant.
+
+Four units.
+
+Not six.
+
+They had renegotiated while I was gone.
+
+Of course they had.
+
+Ivena needed four at the current throughput, not six because she had originally guessed six from the bowl tests.
+
+Arlo had asked what she actually needed.
+
+My line.
+
+Used without me.
+
+Rude.
+
+Good.
+
+Price had gone up too.
+
+Not much.
+
+Enough to cover slower production and the bypass hardware.
+
+I looked at Arlo.
+
+"You negotiated."
+
+"I survived."
+
+Ivena snorted.
+
+Outside voice.
+
+Correct.
+
+Arlo had sold two of the four already as deposits.
+
+That surprised me.
+
+He had used the deposits to buy clay and hardware.
+
+Also without me.
+
+The project had moved from eight copper and a broken disk to a small order, a safer housing, a customer who understood the limits, and money cycling through the work.
+
+While I was on the road.
+
+I felt something ugly and familiar.
+
+Not jealousy exactly.
+
+Loss of centrality.
+
+The old me had spent decades becoming the person rooms waited for.
+
+S-class did that to people.
+
+Authority did it too.
+
+Eventually you stopped noticing how often a system paused until you arrived.
+
+This one had not.
+
+Arlo had learned.
+
+Ivena had learned.
+
+They had made decisions.
+
+Some of them were probably wrong.
+
+Some of mine would have been too.
+
+The work had continued anyway.
+
+I touched the road pay in my pocket.
+
+Then the folded paid note from Vale.
+
+Then, without meaning to, flexed the hand that could now hold a four-inch plane for several breaths.
+
+Two weeks.
+
+Jorren farther north.
+
+Arlo more independent.
+
+Ivena part of the design whether the partnership paperwork acknowledged her or not.
+
+Sella no longer waiting for explanations.
+
+Me slightly harder in several unremarkable places.
+
+Time had happened.
+
+That was different from time passing.
+
+Arlo handed me a page.
+
+Costs.
+
+Deposits.
+
+Projected material.
+
+My share if the four units survived the first month.
+
+Small number.
+
+Real number.
+
+I liked it.
+
+Then I looked at the rest of my money.
+
+Road pay.
+
+Not debt.
+
+Enough for one good sword if I bought nothing else interesting.
+
+Enough for several proper support lessons if I found someone willing to give them.
+
+Enough to put more into Arlo's production if I wanted to become stupid in a familiar direction.
+
+Enough to keep as cash and experience the unfamiliar luxury of not immediately converting possibility into obligation.
+
+Four choices.
+
+One purse.
+
+I had crossed a river, stopped a rope from walking off a post, been punched by a road thief, learned four inches of support magic, and returned to discover that everybody else had been busy too.
+
+Apparently the reward was another decision.
+
+Good.
+
+I was starting to trust those more than rewards.
