@@ -1,4 +1,4 @@
-name: Greg Again Audio Fetch Test
+name: Greg Again Audio Binary Publisher
 
 on:
   push:
@@ -7,44 +7,64 @@ on:
     paths:
       - .github/workflows/audio-fetch-test.yml
 
+permissions:
+  contents: write
+
 jobs:
-  fetch-and-stitch:
+  publish-binaries:
     runs-on: ubuntu-latest
     steps:
-      - name: Install ffmpeg
-        shell: bash
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-      - name: Fetch and stitch Chapters 13-14
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-batch-012-014
+          fetch-depth: 0
+      - name: Reconcile current main
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p out/013 out/014 out/final
+          git fetch origin main
+          git merge --no-edit origin/main
+      - name: Install ffmpeg
+        shell: bash
+        run: |
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y ffmpeg >/dev/null
+      - name: Build verified Chapter 12-14 binaries
+        shell: bash
+        run: |
+          set -euo pipefail
           python - <<'PY'
-          import pathlib, subprocess
+          import hashlib, pathlib, shutil, subprocess
           base='https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/'
-          urls={
-          13:[
-          '987b64bb-45e9-4555-9841-d881e1709b28','7e436744-8a34-4a67-b1df-dcee0565a8bc','c0be655b-3200-4ac0-9e69-53bfbdd3eaea','6e4b65e0-25ec-4a19-9bba-53232f76b088','43cbb451-8109-4884-ae4a-655a32dd2737','ceaeef6a-ddef-4000-af3c-7a197bdae869','d3aa8130-b279-42eb-bc92-868571736e98','0630d609-8702-4058-8cc1-f6520735fc6c','e8bae97e-08eb-49ac-96be-abdbb3a11636','b44b1964-6bdc-487f-b6f3-e206535642e4','a17e9c1b-c4ec-4f17-81a6-63b4d15725c4','715c806a-45cc-4ba4-b385-b31e593be06b','f460f596-7639-4fab-b79c-6bea7a9f912a','eb5f0c11-95bd-4694-a813-7b492beb25c5','f5e3a99f-ae5f-4bf6-9ed8-35813611a2ea','90e7e177-7025-4818-a358-28b076637df2','3232fee8-a4fd-4fbe-92ce-40591fe429ba','f61ca67b-1345-4412-b6bb-0963d2bc8b78','0267a708-6bd2-49fa-ae63-1f3664382d1d','adc1491d-183e-4270-afc4-430417b7ee46','c6c2ada3-3f09-4312-8e7f-8209cbeb44d8','01b879e0-8eae-40f6-a0e6-24d624b20a45','2ab4d7cd-24ac-4934-8760-524c60265c76','76c11fd4-54f2-4a42-9b8f-d27b57eca50e','1d4978a7-55b0-4bfa-bffc-cd543ea1d81d','bd031491-0f9d-423d-9fef-c408d15b433d','35a8af48-b263-4d26-af01-a2eebdb2e4ef','7bfaf092-2501-480f-bb1c-e44e32b3fa50'],
-          14:[
-          '44a89af1-fc4a-4e51-a40d-c36b2a58b54d','cc1965c7-3e63-403f-9600-f51efe53c7db','8271d22c-8b0a-4b08-bd6d-65120d416125','a9f87643-7366-4c3a-b5cd-189d72cabada','4190e324-d490-49b3-88c0-54f7996981c0','cff1f29b-f736-4c14-b3aa-a7369832411a','d6b634e6-5ab5-4794-ab1c-d66481304a63','78088ec9-2176-4ac4-9e82-30a55243dc9e','4dfee40d-fc6f-4fda-a4fd-b4fb009b3f22','5b48a2a9-62a7-414e-97f3-9c44decf51ae','96a627e4-5491-45d6-a26a-044b057deab4','bee1f2cb-3d6c-4b1e-ad0e-4c5937d7b85e','b5593634-b30b-4b3b-aa8c-533c034e7784','445ab43e-ff17-464c-8248-06e39b2bd0b0','a3c3dc04-10c2-45c7-a145-f6758fc3e769','ab260a10-799d-4d25-a180-97394914472b','cd3ff553-d449-4475-b06a-cebfc3c3325b','d4089607-fb67-4659-9018-5fd3371d7d4f','5130ae24-1bda-4fe7-9ed7-5ccfe40b8885','3a23715f-0ff6-4d12-b521-1eaf4b910beb','be5a672b-f1c5-4ac6-a5a5-90de05ad2a01','179179e8-8678-4324-8730-daffcc5f2143','b3f935c1-6797-4051-9f5e-6e316a3f7a0a','4893cbb9-7cfd-4354-bb42-117681e9d5be','f8fce2fb-80a4-45be-8158-d4fe993f6bb4','5f916a24-1dc0-4cb1-bfb8-7e4d985cfe81','866c5134-25e1-498f-be80-cbabe96a4913','249cd639-96e5-4bbe-9a0d-a4d8494bd683','5235bd61-506e-44c3-aef4-7234df0ed7a1']}
-          for ch,ids in urls.items():
-              d=pathlib.Path(f'out/{ch:03d}')
-              for n,uid in enumerate(ids,1):
+          ids={
+          12:['d50e3b2c-c57a-47ca-9f05-3fac5d7eab8f','6cdeafbc-3a9b-48bb-a42a-737ef7f16da6','8e34e0fd-7f35-4443-b87d-c5766073c3aa','a675d4f8-93fa-4ec0-8e1d-e904a6c28218','ae2299ae-9b3f-4a20-99bf-ac05139bfd56','ff3f247b-6269-403a-90ff-1b36a03101d2','a2a9596c-f0e4-4be4-89a3-8a36f2d6cc03','008ccd17-55e4-439b-ac1b-ed79876243c4','740fa0b3-50e5-4301-836c-5145e7756cf8','3b7c8f22-a911-43ac-83f1-f6520735fc6c','181b3243-4b56-48e0-b1ca-f9e858c15e0c','21aa29c7-c3b1-45b9-9468-d8dfb6a1d455','f3a88ed0-ddf7-4e81-a847-bb53d95a222b','8830e5e1-de6e-450e-844e-55169835574c','c7823b4d-7383-4d45-bb7d-f13acf396bb3','a63ea85c-8985-4610-ab2a-0b12749fb8a3','61e4d1d5-439d-4840-aa0c-02aaa5418845','7926bfaa-d5e1-499c-9222-20e0a4be0073','1a445551-7576-4985-879e-7d0ff12eb801','baa15cf5-8de0-4ab1-9b3b-a722f7a7bf85','f85240b5-73fa-4f18-ba29-7d1b12b03717','8fa26048-609b-4737-9a89-dd0434f42551','7c1c38a1-ec5b-4e2e-a546-f3100e348991','550b668e-195b-4b2a-8330-119e93b904b1','8f06175c-0072-4d00-b9d7-16cf3b28cab9'],
+          13:['987b64bb-45e9-4555-9841-d881e1709b28','7e436744-8a34-4a67-b1df-dcee0565a8bc','c0be655b-3200-4ac0-9e69-53bfbdd3eaea','6e4b65e0-25ec-4a19-9bba-53232f76b088','43cbb451-8109-4884-ae4a-655a32dd2737','ceaeef6a-ddef-4000-af3c-7a197bdae869','d3aa8130-b279-42eb-bc92-868571736e98','0630d609-8702-4058-8cc1-f6520735fc6c','e8bae97e-08eb-49ac-96be-abdbb3a11636','b44b1964-6bdc-487f-b6f3-e206535642e4','a17e9c1b-c4ec-4f17-81a6-63b4d15725c4','715c806a-45cc-4ba4-b385-b31e593be06b','f460f596-7639-4fab-b79c-6bea7a9f912a','eb5f0c11-95bd-4694-a813-7b492beb25c5','f5e3a99f-ae5f-4bf6-9ed8-35813611a2ea','90e7e177-7025-4818-a358-28b076637df2','3232fee8-a4fd-4fbe-92ce-40591fe429ba','f61ca67b-1345-4412-b6bb-0963d2bc8b78','0267a708-6bd2-49fa-ae63-1f3664382d1d','adc1491d-183e-4270-afc4-430417b7ee46','c6c2ada3-3f09-4312-8e7f-8209cbeb44d8','01b879e0-8eae-40f6-a0e6-24d624b20a45','2ab4d7cd-24ac-4934-8760-524c60265c76','76c11fd4-54f2-4a42-9b8f-d27b57eca50e','1d4978a7-55b0-4bfa-bffc-cd543ea1d81d','bd031491-0f9d-423d-9fef-c408d15b433d','35a8af48-b263-4d26-af01-a2eebdb2e4ef','7bfaf092-2501-480f-bb1c-e44e32b3fa50'],
+          14:['44a89af1-fc4a-4e51-a40d-c36b2a58b54d','cc1965c7-3e63-403f-9600-f51efe53c7db','8271d22c-8b0a-4b08-bd6d-65120d416125','a9f87643-7366-4c3a-b5cd-189d72cabada','4190e324-d490-49b3-88c0-54f7996981c0','cff1f29b-f736-4c14-b3aa-a7369832411a','d6b634e6-5ab5-4794-ab1c-d66481304a63','78088ec9-2176-4ac4-9e82-30a55243dc9e','4dfee40d-fc6f-4fda-a4fd-b4fb009b3f22','5b48a2a9-62a7-414e-97f3-9c44decf51ae','96a627e4-5491-45d6-a26a-044b057deab4','bee1f2cb-3d6c-4b1e-ad0e-4c5937d7b85e','b5593634-b30b-4b3b-aa8c-533c034e7784','445ab43e-ff17-464c-8248-06e39b2bd0b0','a3c3dc04-10c2-45c7-a145-f6758fc3e769','ab260a10-799d-4d25-a180-97394914472b','cd3ff553-d449-4475-b06a-cebfc3c3325b','d4089607-fb67-4659-9018-5fd3371d7d4f','5130ae24-1bda-4fe7-9ed7-5ccfe40b8885','3a23715f-0ff6-4d12-b521-1eaf4b910beb','be5a672b-f1c5-4ac6-a5a5-90de05ad2a01','179179e8-8678-4324-8730-daffcc5f2143','b3f935c1-6797-4051-9f5e-6e316a3f7a0a','4893cbb9-7cfd-4354-bb42-117681e9d5be','f8fce2fb-80a4-45be-8158-d4fe993f6bb4','5f916a24-1dc0-4cb1-bfb8-7e4d985cfe81','866c5134-25e1-498f-be80-cbabe96a4913','249cd639-96e5-4bbe-9a0d-a4d8494bd683','5235bd61-506e-44c3-aef4-7234df0ed7a1']}
+          expected={12:'a6c8a7aecadd56e6cf4a8d27a0b528a68ac039a12d5551bdb03cd404f9c81aab',13:'8fc5583cf87616a72027b5605559d2406bdf94d9e65ead217fce7fe501ab2654',14:'70024079506ccb1e6534b5d6eef8e04eddc2d6bb58d88b1e81e417eeade2271a'}
+          root=pathlib.Path('greg-again/audio/assets')
+          for ch,uids in ids.items():
+              d=root/'chunks'/f'{ch:03d}'; d.mkdir(parents=True,exist_ok=True)
+              for old in d.glob('*.mp3'): old.unlink()
+              for n,uid in enumerate(uids,1):
                   p=d/f'{n:02d}.mp3'
                   subprocess.run(['curl','--fail','--location','--retry','3',base+uid+'.mp3','-o',str(p)],check=True)
-                  if p.stat().st_size < 1000: raise SystemExit(f'ch{ch} take {n} too small')
-                  subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],check=True)
-              concat=d/'concat.txt'
+                  if p.stat().st_size<10_000: raise SystemExit(f'ch{ch} take {n} too small')
+                  subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(p)],check=True,stdout=subprocess.DEVNULL)
+              concat=pathlib.Path(f'/tmp/ch{ch}.txt')
               concat.write_text('\n'.join(f"file '{p.resolve()}'" for p in sorted(d.glob('*.mp3')))+'\n')
-              final=pathlib.Path(f'out/final/chapter-{ch:03d}.mp3')
-              subprocess.run(['ffmpeg','-v','error','-f','concat','-safe','0','-i',str(concat),'-c','copy',str(final)],check=True)
-              subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(final)],check=True)
-              subprocess.run(['sha256sum',str(final)],check=True)
+              final=root/f'chapter-{ch:03d}.mp3'
+              subprocess.run(['ffmpeg','-v','error','-f','concat','-safe','0','-i',str(concat),'-c','copy','-y',str(final)],check=True)
+              digest=hashlib.sha256(final.read_bytes()).hexdigest()
+              if digest!=expected[ch]: raise SystemExit(f'ch{ch} hash mismatch {digest}')
+              dur=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(final)],text=True).strip()
+              print(ch,dur,digest)
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ga013-014-stitched
-          path: out
-          if-no-files-found: error
+      - name: Commit verified binaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name Paiea
+          git config user.email paiea.tv@gmail.com
+          git add greg-again/audio/assets/chapter-012.mp3 greg-again/audio/assets/chapter-013.mp3 greg-again/audio/assets/chapter-014.mp3 greg-again/audio/assets/chunks/012 greg-again/audio/assets/chunks/013 greg-again/audio/assets/chunks/014
+          git commit -m 'Publish verified Greg Again audio binaries for Chapters 12-14'
+          git push origin HEAD:audio/greg-again-batch-012-014
