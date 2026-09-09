@@ -13,8 +13,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 24)])
-        self.assertEqual(project['current_chapter'], 'r2-ch023')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 26)])
+        self.assertEqual(project['current_chapter'], 'r2-ch025')
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
@@ -51,8 +51,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('Shared Greg Surface', readme)
         self.assertIn('medium-specific finish', readme)
 
-    def test_written_frontier_is_public_through_chapter_twenty_three(self):
-        for number in range(1, 24):
+    def test_written_frontier_is_public_through_chapter_twenty_five(self):
+        for number in range(1, 26):
             chapter_id = f'r2-ch{number:03d}'
             manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
             self.assertTrue(manifest_path.exists(), chapter_id)
@@ -68,8 +68,19 @@ class R2SiteTests(unittest.TestCase):
             )
             self.assertEqual(
                 chapter['navigation']['next'],
-                None if number == 23 else f'r2-ch{number + 1:03d}',
+                None if number == 25 else f'r2-ch{number + 1:03d}',
             )
+
+    def test_selected_written_chapters_publish_directly_to_r2_reader(self):
+        pipeline = json.loads((R2 / 'data/rendering-pipeline.json').read_text(encoding='utf-8'))
+        publication = pipeline['publication']
+        self.assertEqual(publication['selected_verified_written_default'], 'publish_to_live_r2_reader')
+        self.assertFalse(publication['requires_audio_or_images'])
+        self.assertFalse(publication['implies_immutable_canon'])
+
+        policy = (R2 / 'WRITTEN_PRODUCTION.md').read_text(encoding='utf-8')
+        self.assertIn('SELECTED + VERIFIED WRITTEN CHAPTERS PUBLISH TO THE R2 SITE BY DEFAULT.', policy)
+        self.assertIn('WHAT SHOULD ACTUALLY HAPPEN NEXT?', policy)
 
     def test_chapter_twenty_public_copy_excludes_internal_experiment_prelude(self):
         prose = (R2 / 'assets/written/ch020.md').read_text(encoding='utf-8')
