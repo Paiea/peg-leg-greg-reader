@@ -961,3 +961,64 @@ Continue writing the Shared Greg Surface directly.
 Use PERFORMANCE only when behavior or outside agency is genuinely uncertain enough to earn it.
 
 Do not run audio synthesis from this lane.
+
+---
+# CURRENT FRONTIER UPDATE — CHAPTER 26
+
+This section is newer authority than the Chapter 25 frontier above. Use it for current forward story search.
+
+## 26 — The Day Off
+
+Selected prose: `state/experiments/greg-again/prose/026-the-day-off.md`
+Story search: `state/experiments/greg-again/rehearsals/026-story-search.md`
+Evaluation: `state/experiments/greg-again/evals/026-day-off-eval.md`
+
+Chapter 26 follows the completed five-day West Cut contract with one ordinary recovery / maintenance day rather than automatically turning Greg's return into another contract, training beat, business emergency, artifact, party declaration, or adventure hook.
+
+Greg sleeps past midday. The job leaves ordinary body residue: tight calves and shoulders, a heel blister, small hand scrapes, and a pannier bruise, but no significant injury. His support capability does not increase and he uses no magic.
+
+The field pay creates margin. Greg allocates money toward rent, food, a small support reserve, and road maintenance while preserving some available cash. Exact five-day payout remains unstated. Established costs: two copper to restitch both boot heels, two copper for two pairs of socks, one copper for lunch; sword oil and waxed thread have no exact stated price.
+
+The better sword never left its sheath on the West Cut, but rain still requires maintenance. Greg dries the scabbard, checks and oils the blade. The sword remains ordinary expensive working equipment.
+
+Lower Rook continues independently. The repaired cookroom stove works. Noll remains Greg's current neighbor and borrows his soap again. Arlo and Ivena's filtration venture also moves without Greg: Dena passes driving an Arlo-marked service cart with a clean matched chamber and a dirty one returning toward the workshop. She and Greg exchange a small wave; nobody summons Greg or reports a crisis.
+
+No new Mara packet arrives. Edda, Harl, and Pate remain off-page. No West Cut repair survey is scheduled.
+
+Greg deliberately does not turn toward the Guild merely because work might exist. He buys lunch instead. At day's end he almost puts the field pack under the bed, then leaves it beside the door:
+
+> **Not packed for departure. Ready to be packed.**
+
+Surviving discovery:
+
+> **Paid adventure work can buy maintenance, recovery, and a little unsold time.**
+
+The live R2 reader on `main` publishes Chapter 26 as the selected written frontier.
+
+## Current frontier after Chapter 26
+
+
+- Greg is in Carrow at Lower Rook Street after one recovery / maintenance day following the five-day West Cut contract.
+- Greg remains Bronze. No rank or magic increase occurs.
+- West Cut field pay is received; exact payout is unstated. Greg retains some available cash after rent / food / support reserve / maintenance allocations.
+- Road clothes, pack, repaired boots, and sword are maintained and ready for future work.
+- Greg has ordinary soreness and minor field wear, not a significant established injury.
+- Formal support assessment remains weeks away. Kesra Dain remains off-page.
+- Noll remains Greg's current neighbor; the Lower Rook cookroom stove is functioning.
+- Arlo and Ivena continue the filtration venture independently; Dena can execute service / delivery work without Greg at center. No new filtration crisis, ownership change, order, or expansion is established.
+- Mara correspondence remains on packet time; no new packet has arrived.
+- Edda / Harl / Pate remain earned field-work relationships; no permanent party exists and no repair survey is scheduled.
+- North Gate remains standing and unresolved. The Guild fire remains a coming-Deepwinter long shadow. Red Winter remains farther out.
+- Jorren remains north. Tavin remains somewhere south with a river company. Vey Shipping remains living present infrastructure rather than proven destiny-company history.
+- The unresolved second Chapter 1 letter remains unresolved.
+- No Chapter 27 event is preselected.
+
+## Immediate next pressure after 26
+
+Chapter 26 ends with tomorrow genuinely open. Search from that openness, not from Greg's closing list of possibilities as a queue. Ask what established person, institution, obligation, market condition, relationship, or ordinary need has actually changed enough to require Greg's attention.
+
+Do not automatically send Greg to the Guild, Arlo, Ivena, Mara, Edda, Harl, Kesra, the West Cut, an artifact market, a higher-rank showcase, a magic lesson, or another field contract.
+
+The next chapter still begins with:
+
+> **WHAT SHOULD ACTUALLY HAPPEN NEXT?**
