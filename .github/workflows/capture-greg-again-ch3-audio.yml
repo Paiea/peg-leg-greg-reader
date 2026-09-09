@@ -1,0 +1,113 @@
+name: Capture Greg Again Chapter 3 audio
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch3
+    paths:
+      - .github/workflows/capture-greg-again-ch3-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-chunks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch3
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Install browser harness
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+      - name: Capture Chapter 3 generated chunks
+        shell: bash
+        run: |
+          mkdir -p greg-again/audio/assets/chunks/003
+          cat > capture.mjs <<'JS'
+          import fs from 'node:fs';
+          import { chromium } from 'playwright';
+
+          const jobs = [
+            ['01', '7c210907a8374af9a83079a086324952'],
+            ['02', 'bfc46622eacc4b50b88ac77470cd9371'],
+            ['03', '7e940bbb183a4cbf809798644b92ca2c'],
+            ['04', '81d78013d80d427296c02fbb5441c35e'],
+            ['05', '3f9f037a4bcd430488a50c3d9cd93c5c'],
+            ['06', '50a360f0bc9b4c4ea7ce0da817d1135c'],
+            ['07', 'ae8b8ae78aa54ef0aeacb18fa641d2c1'],
+            ['08', 'c91c43a399214a0e9357e81d71785358'],
+            ['09', 'f95783248bd647128bb4e7f5eea47483'],
+            ['10', 'd71743a807a0418db0e85347a737cefd'],
+            ['11', '00048532537c42eb8079cd568a417b88'],
+            ['12', '4b824f997fea4d2ba564796070549a91']
+          ];
+
+          const browser = await chromium.launch({ headless: true });
+          const failures = [];
+
+          async function capture(label, id) {
+            const out = `greg-again/audio/assets/chunks/003/${label}.mp3`;
+            if (fs.existsSync(out) && fs.statSync(out).size > 10000) return;
+            const page = await browser.newPage();
+            try {
+              for (let attempt = 1; attempt <= 10; attempt++) {
+                await page.goto(`https://www.aidocmaker.com/g0/audio?name=${id}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
+                await page.waitForTimeout(5000);
+                const text = await page.locator('body').innerText().catch(() => '');
+                console.log('SEGMENT', label, 'ATTEMPT', attempt, text.slice(0, 700).replaceAll('\n', ' | '));
+                if (/longer than 2 minutes requires a paid plan/i.test(text)) throw new Error('two-minute gate');
+                if (/File Not Found/i.test(text)) throw new Error('file not found');
+                const sources = await page.locator('audio').evaluateAll(nodes => nodes.map(n => n.currentSrc || n.src).filter(Boolean)).catch(() => []);
+                for (const src of sources) {
+                  const response = await page.request.get(src).catch(() => null);
+                  if (!response || !response.ok()) continue;
+                  const body = await response.body();
+                  if (body.length > 10000) {
+                    fs.writeFileSync(out, body);
+                    console.log('CAPTURED', label, body.length);
+                    return;
+                  }
+                }
+                await page.waitForTimeout(4000);
+              }
+              throw new Error('no playable media surfaced');
+            } finally {
+              await page.close();
+            }
+          }
+
+          for (const [label, id] of jobs) {
+            try { await capture(label, id); }
+            catch (error) {
+              failures.push(`${label}: ${error.message}`);
+              console.log('FAILED', label, error.message);
+            }
+          }
+          await browser.close();
+          fs.writeFileSync('/tmp/capture-failures.txt', failures.join('\n'));
+          JS
+          node capture.mjs
+          ls -lh greg-again/audio/assets/chunks/003 || true
+      - name: Commit every successful chunk
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/003
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: persist Greg Again Chapter 3 audio chunks'
+            git push origin HEAD:audio/greg-again-ch3
+          fi
+      - name: Report missing chunks
+        shell: bash
+        run: |
+          if [ -s /tmp/capture-failures.txt ]; then
+            cat /tmp/capture-failures.txt
+            exit 1
+          fi
