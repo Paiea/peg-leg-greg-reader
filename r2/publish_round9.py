@@ -5,6 +5,7 @@ import re
 import subprocess
 from pathlib import Path
 
+# Round 09 publication builder.
 ROOT = Path(__file__).resolve().parents[1]
 R2 = ROOT / "r2"
 START = 279
