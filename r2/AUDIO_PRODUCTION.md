@@ -357,6 +357,9 @@ Assembly must:
 5. avoid accidental missing phrases at seams
 6. avoid adding decorative sound design, music, crossfades, or performance effects unless separately authorized
 7. produce the established chapter audio artifact path used by the Greg, Again manifest/catalog
+8. preserve the chapter's actual final spoken beat as the ending, then leave roughly **2–4 seconds of clean tail silence** after the final word so the listener can register that the chapter has ended
+
+If the final take already contains a clean natural tail in that range, preserve it instead of stacking more silence on top. If it ends too tightly, add deterministic tail silence during final assembly. A deliberately unusual ending may justify a different tail, but ordinary production should default to the 2–4 second landing window.
 
 Do not publish the individual provider takes as if they were the audiobook chapter. They are production components.
 
@@ -449,6 +452,8 @@ For every published chapter verify at minimum:
 - duration metadata is recorded when required
 - manifest/catalog entries point to the correct artifact
 - neighboring workers' chapters were not overwritten
+- the last spoken beat matches the authoritative chapter ending rather than a convenient production cutoff
+- the final listener-facing file preserves roughly 2–4 seconds of clean tail silence after the last spoken word unless a deliberate ending requires otherwise
 
 When one local take fails, prefer repairing the smallest responsible take rather than regenerating the whole chapter.
 

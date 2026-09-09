@@ -88,6 +88,16 @@ A repeated word or extra thought must buy cognition, orientation, anticipation, 
 
 When a moment becomes too compressed to process by ear, prefer an earned beat of Greg over a perfectly efficient sentence.
 
+## Chapter landing
+
+A chapter ending needs both a **semantic landing** and an **acoustic landing**.
+
+The final spoken beat should feel like the chapter's actual closing thought, image, joke, consequence, realization, or emotional state from current story authority. Do not cut that beat short merely because a provider-safe take boundary is convenient.
+
+Do not invent an extra closing sentence just to manufacture closure. If the authoritative ending is deliberately unresolved, abrupt, or open, preserve that shape. The rule is to let the real ending land, not to conventionalize it.
+
+After the final spoken word, the listener should get a short clean tail before the file ends so the last idea has time to register by ear. Production owns the exact tail treatment.
+
 ## Written Finish
 
 Written Finish is also a light medium-specific finish.
