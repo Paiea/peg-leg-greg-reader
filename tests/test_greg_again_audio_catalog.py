@@ -18,11 +18,11 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
             self.assertIn(f"ga-{number:03d}", by_id)
 
         self.assertEqual("The Boy", by_id["ga-001"]["title"])
-        self.assertEqual("Two Things", by_id["ga-002"]["title"])
+        self.assertEqual("The Novice", by_id["ga-002"]["title"])
         self.assertEqual("The Borrower", by_id["ga-003"]["title"])
-        self.assertEqual("Thirty Days", by_id["ga-004"]["title"])
+        self.assertEqual("The Contractor", by_id["ga-004"]["title"])
         self.assertEqual("The Partner", by_id["ga-005"]["title"])
-        self.assertEqual("The First Customer", by_id["ga-006"]["title"])
+        self.assertEqual("The Troubleshooter", by_id["ga-006"]["title"])
         self.assertEqual("The Extra Guard", by_id["ga-007"]["title"])
 
         for number in range(1, 8):
@@ -110,7 +110,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
 
     def test_r2_chapter_six_routes_published_audio(self):
         chapter = json.loads((R2_ROOT / "data/chapters/ch006.json").read_text(encoding="utf-8"))
-        self.assertEqual("The First Customer", chapter["title"])
+        self.assertEqual("The Troubleshooter", chapter["title"])
         self.assertEqual("published", chapter["audio"]["status"])
         self.assertEqual(
             "../greg-again/audio/assets/chapter-006.mp3",
