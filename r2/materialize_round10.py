@@ -4,6 +4,7 @@ import re
 import subprocess
 from pathlib import Path
 
+# Round 10 reconciled materializer.
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "r2/experiments/temporal-writing/c-hybrid/round-10/reconciled"
 A_BRANCH = "origin/experiment/r2-temporal-c-hybrid-r10-a"
