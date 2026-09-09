@@ -107,6 +107,8 @@ Read `r2/PIPELINE.md` and `r2/AUDIO_PRODUCTION.md`, then resolve current audio p
 
 If no chapter was explicitly assigned, auto-claim the earliest available free written/unpublished chapter using `r2/AUDIO_PRODUCTION.md` **before voice synthesis**. Audio ownership is one chapter per worker. Scan past occupied unfinished chapters rather than treating the audio frontier as contiguous. Legacy multi-chapter branch names do not blanket-reserve unstarted sibling chapters; durable chapter-specific WIP does. Preserve already-generated provider work, never steal real chapter-specific work, never claim beyond written authority, and reconcile shared manifests/catalogs against newest GitHub state before publication.
 
+Forward Greg, Again audio production must follow the chapter-tail finishing rule in `r2/AUDIO_PRODUCTION.md`: the final listener-facing chapter should end with about 2 seconds of silence after the last spoken word. Apply that silence at chapter assembly only, not at internal take seams. This is a forward-production default and does not require retroactive repair of already-published chapters unless an ending is actually abrupt or a separate repair is authorized.
+
 ### Reader / UI
 Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and current project authority. Use a branch for broad changes. Never rewrite prose as a presentation side effect. When showcase curation is active, use `publishing/showcase_chapters.json` and generated showcase numbering for public ordering while preserving canonical file paths and art identity.
 
