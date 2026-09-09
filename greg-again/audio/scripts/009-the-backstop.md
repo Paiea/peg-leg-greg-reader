@@ -6,7 +6,7 @@ Source authority: `r2/assets/written/ch009.md`
 Voice: `deep`
 Lens: **SHARED GREG SURFACE**
 Audio finish: **PROCESSING SPACE**
-Production takes: **10**
+Production takes: **12**
 
 ## Production contract
 
@@ -39,55 +39,67 @@ End: `Action became history very quickly when a road still needed walking.`
 
 Purpose: wet-road baseline, Greg's shaping progress, and physical residue from the previous attack.
 
-### TAKE 02 — `02.mp3`
+### TAKE 02 — `02a.mp3`
 Start: `We reached the Brell River after noon.`
+End: `Very useful memory.`
+
+Purpose: let future recognition arrive first without letting it silently become present certainty.
+
+### TAKE 03 — `02b.mp3`
+Start: `The bridge in front of me had no arches.`
 End: `exposing roots and pale gravel beneath the top layer.`
 
-Purpose: establish the dangerous mismatch between remembered future bridge and present crossing.
+Purpose: force the present bridge model to replace the remembered one before the caravan commits to the crossing.
 
-### TAKE 03 — `03.mp3`
+### TAKE 04 — `03.mp3`
 Start: `The quartermaster stopped the caravan.`
 End: `The earth beneath it collapsed anyway.`
 
 Purpose: competent inspection, controlled crossing, present-first reorientation, then failure despite reasonable precautions.
 
-### TAKE 04 — `04.mp3`
+### TAKE 05 — `04.mp3`
 Start: `Not dramatically at first.`
 End: `They converted panic into jobs.`
 
 Purpose: let the wagon failure accelerate without losing Jorren's trace-line read or Meral's command ownership.
 
-### TAKE 05 — `05.mp3`
+### TAKE 06 — `05.mp3`
 Start: `I passed the first line under the axle`
 End: `For now.`
 
 Purpose: build the rescue geometry and load-bearing systems before the hardest pull begins.
 
-### TAKE 06 — `06.mp3`
+### TAKE 07 — `06a.mp3`
 Start: `Pull!`
+End: `Right place.`
+
+Purpose: Greg identifies the actual failure path and commits his tiny plane to the rope's direction rather than the wagon's scale.
+
+### TAKE 08 — `06b.mp3`
+Start: `I formed it against the rope where it wanted to walk sideways.`
 End: `Not stronger. / Chosen.`
 
-Purpose: Greg sees the rear-line failure, braces direction rather than weight, and corrects his angle under load.
+Purpose: preserve load sensation, breath count, and the under-load angle correction as a distinct learning beat.
 
-### TAKE 07 — `07.mp3`
+### TAKE 09 — `07.mp3`
 Start: `Four breaths.`
 End: `somebody else's problem.`
 
 Purpose: Meral takes over Greg's failing plane, cargo becomes expendable after the driver is safe, and the wagon returns to road.
 
-### TAKE 08 — `08.mp3`
+### TAKE 10 — `08.mp3`
 Start: `I sat in the mud.`
 End: `Current me was learning to arrive several seconds sooner.`
 
 Purpose: convert success into instruction. The key lesson is not strength but earlier directional support.
 
-### TAKE 09 — `09.mp3`
+### TAKE 11 — `09.mp3`
 Start: `The driver had a badly bruised shin`
 End: `I briefly understood religion.`
 
 Purpose: account for costs, return to the future-bridge mismatch, and land `the answer without the history` before decompression.
 
-### TAKE 10 — `10.mp3`
+### TAKE 12 — `10.mp3`
 Start: `Jorren's caravan continued north at dawn`
 End: `Tomorrow he would.`
 
