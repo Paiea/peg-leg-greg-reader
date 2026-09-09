@@ -13,7 +13,8 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], ['r2-ch001'])
+        self.assertEqual(project['chapters'], ['r2-ch001', 'r2-ch002'])
+        self.assertEqual(project['current_chapter'], 'r2-ch002')
 
     def test_chapter_one_reuses_existing_audio_without_claiming_missing_prose(self):
         chapter = json.loads((R2 / 'data/chapters/ch001.json').read_text(encoding='utf-8'))
@@ -23,6 +24,15 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-001.mp3')
         self.assertEqual(chapter['written']['status'], 'unavailable')
         self.assertEqual(chapter['images'], [])
+
+    def test_chapter_two_reuses_current_main_audio(self):
+        chapter = json.loads((R2 / 'data/chapters/ch002.json').read_text(encoding='utf-8'))
+        self.assertEqual(chapter['chapter_id'], 'r2-ch002')
+        self.assertEqual(chapter['title'], 'Two Things')
+        self.assertEqual(chapter['audio']['status'], 'published')
+        self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-002.mp3')
+        self.assertEqual(chapter['written']['status'], 'unavailable')
+        self.assertEqual(chapter['navigation']['previous'], 'r2-ch001')
 
     def test_homepage_explains_run_two_and_links_run_one(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
