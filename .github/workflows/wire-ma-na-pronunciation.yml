@@ -1,0 +1,61 @@
+name: Wire ma-na pronunciation default
+
+on:
+  push:
+    branches:
+      - audio/greg-again-mana-pronunciation-repair-v2
+    paths:
+      - .github/workflows/wire-ma-na-pronunciation.yml
+
+permissions:
+  contents: write
+
+jobs:
+  wire:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-mana-pronunciation-repair-v2
+      - name: Update production pronunciation authority
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('r2/AUDIO_PRODUCTION.md')
+          text = p.read_text(encoding='utf-8')
+          old = '''### Pronunciation authority
+
+Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. In particular:
+
+- written `mana` stays `mana`
+- provider-facing `mana` should be rendered as `mah-nah` when needed to preserve the approved pronunciation
+
+Record such pronunciation substitutions in production evidence when they differ from the written spelling. Do not flow phonetic provider spellings back into the written chapter unless the prose itself is separately edited.
+'''
+          new = '''### Pronunciation authority
+
+Written spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose.
+
+`r2/AUDIO_PRONUNCIATION.md` is the durable provider-facing pronunciation authority and instability watchlist. Read it before synthesis and repair work. In particular:
+
+- written `mana` stays `mana`
+- provider-facing `mana` should default to `ma-na` / `Ma-na` to preserve the approved Hawaiian-context pronunciation without causing the `deep` voice to audibly pronounce a synthetic H
+- preserve an already-generated historical pronunciation clip when the listener-facing result is acceptable; do not regenerate merely to normalize provider spelling
+
+Record pronunciation substitutions in production evidence when they differ from the written spelling. Do not flow phonetic provider spellings back into the written chapter unless the prose itself is separately edited.
+'''
+          if old not in text:
+              raise SystemExit('Expected pronunciation block not found; refusing blind patch')
+          if text.count(old) != 1:
+              raise SystemExit(f'Expected one pronunciation block, found {text.count(old)}')
+          p.write_text(text.replace(old, new), encoding='utf-8')
+          PY
+          rm .github/workflows/wire-ma-na-pronunciation.yml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add r2/AUDIO_PRODUCTION.md .github/workflows/wire-ma-na-pronunciation.yml
+          git commit -m 'audio: wire ma-na pronunciation authority'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
