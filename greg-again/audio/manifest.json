@@ -312,6 +312,18 @@
       "duration_seconds": 766.104,
       "audio_src": "assets/chapter-026.mp3",
       "note": "Chapter 26 uses thirty-eight complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, ordered take playback, stitched chapter audio, durable hashes, authoritative final ellipsis landing, and the forward-production listener tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-027",
+      "number": 27,
+      "title": "The Student",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 33,
+      "duration_seconds": 847.152,
+      "audio_src": "assets/chapter-027.mp3",
+      "note": "Chapter 27 uses thirty-three provider-safe deep-voice takes with exact current spoken-source coverage. All provider identities and durable take artifacts were preserved; Take 10 was recovered from its original provider job rather than regenerated, ordered playback was verified, and the stitched chapter includes the forward-production listener tail."
     }
   ]
 }
