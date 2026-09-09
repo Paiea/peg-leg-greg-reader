@@ -1,0 +1,158 @@
+name: One-shot R2 written publish 35-48
+
+on:
+  push:
+    branches:
+      - publish/r2-written-ch035-048
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: ${{ !contains(github.event.head_commit.message, '[r2-publish-35-48]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch story authority
+        run: git fetch origin experiment/plg-r2-opening:refs/remotes/origin/experiment/plg-r2-opening
+
+      - name: Build written publication transaction
+        shell: python
+        run: |
+          import json
+          import subprocess
+          from pathlib import Path
+
+          titles = {
+              35: 'The Pair', 36: 'The Listener', 37: 'The Tenant', 38: 'The Applicant',
+              39: 'The Owner', 40: 'The Citizen', 41: 'The Cordon', 42: 'The Correspondent',
+              43: 'The Support', 44: 'The Swordsman', 45: 'The Host', 46: 'The Buyer',
+              47: 'The Alarm', 48: 'The Member',
+          }
+          slugs = {
+              35: 'the-pair', 36: 'the-listener', 37: 'the-tenant', 38: 'the-applicant',
+              39: 'the-owner', 40: 'the-citizen', 41: 'the-cordon', 42: 'the-correspondent',
+              43: 'the-support', 44: 'the-swordsman', 45: 'the-host', 46: 'the-buyer',
+              47: 'the-alarm', 48: 'the-member',
+          }
+          teasers = {
+              35: "Sella starts putting Greg and Jorren on the same side of the counter, and a Silver-led relay job shows what repeated work looks like before anyone calls it a party.",
+              36: "A dead relay line turns out to be a correct emergency shutdown by the farmer living beside it, and good authority gets more accurate by listening.",
+              37: "Greg spends three more copper a week on a larger room in Lower Rook and discovers that progress can mean somewhere better to live.",
+              38: "First Deepwinter brings Greg to Kesra Dain for the support assessment that has been waiting six weeks, where low reserve meets unusually mature judgment.",
+              39: "The filtration venture's kiln test finally matures, and Greg has to decide whether better results actually justify buying more capacity.",
+              40: "North Gate reopens one controlled lane, changing Carrow's routes, rates, and daily life without resolving the collapse Greg remembers later.",
+              41: "A Gold crew has already handled the dangerous part. Greg joins Edda for the professional work that begins after the fight is over.",
+              42: "Tavin's reply finally finds Greg through the freight routes, correcting pieces of young Greg's plans without putting a job or deadline at the end of the letter.",
+              43: "Greg buys his first field-support block and learns that useful magic has to be legible to the people carrying the load.",
+              44: "An ordinary medicine-cart escort becomes a road robbery, and Greg's current sword training finally works cleanly when somebody actually comes at him.",
+              45: "Jorren comes home from an uneventful grain escort, Noll brings stew, and Greg's larger room becomes somewhere people can actually stay.",
+              46: "North Gate surplus puts obsolete brace hardware on a city table, and Greg's future knowledge finally helps him buy an option instead of a destiny object.",
+              47: "The Deepwinter Guild fire finally arrives on its own clock, leaving Greg with buckets, one five-inch redirection, and no answer for what started it.",
+              48: "The Guild opens the next morning inside a vegetable hall, where burned records turn one worker's earned twelve silver into a problem that still has to be solved.",
+          }
+
+          def story_blob(number):
+              src = f"state/experiments/greg-again/prose/{number:03d}-{slugs[number]}.md"
+              return subprocess.check_output([
+                  'git', 'show', f'origin/experiment/plg-r2-opening:{src}'
+              ])
+
+          written = Path('r2/assets/written')
+          written.mkdir(parents=True, exist_ok=True)
+          for n in range(35, 49):
+              data = story_blob(n)
+              (written / f'ch{n:03d}.md').write_bytes(data)
+              assert (written / f'ch{n:03d}.md').read_bytes() == data
+
+          # Preserve current Chapter 34 media/status and only advance navigation.
+          ch34_path = Path('r2/data/chapters/ch034.json')
+          ch34 = json.loads(ch34_path.read_text(encoding='utf-8'))
+          ch34['navigation']['next'] = 'r2-ch035'
+          ch34_path.write_text(json.dumps(ch34, separators=(',', ':')) + '\n', encoding='utf-8')
+
+          chapter_dir = Path('r2/data/chapters')
+          for n in range(35, 49):
+              manifest = {
+                  'chapter_id': f'r2-ch{n:03d}',
+                  'display_number': n,
+                  'title': titles[n],
+                  'status': 'published',
+                  'book': 1,
+                  'act': 1,
+                  'teaser': teasers[n],
+                  'audio': {'status': 'unavailable', 'path': None},
+                  'written': {'status': 'published', 'path': f'assets/written/ch{n:03d}.md'},
+                  'images': [],
+                  'navigation': {
+                      'previous': f'r2-ch{n-1:03d}',
+                      'next': None if n == 48 else f'r2-ch{n+1:03d}',
+                  },
+              }
+              (chapter_dir / f'ch{n:03d}.json').write_text(
+                  json.dumps(manifest, separators=(',', ':')) + '\n', encoding='utf-8'
+              )
+
+          project_path = Path('r2/data/project.json')
+          project = json.loads(project_path.read_text(encoding='utf-8'))
+          project['chapters'] = [f'r2-ch{i:03d}' for i in range(1, 49)]
+          project['current_chapter'] = 'r2-ch048'
+          project_path.write_text(json.dumps(project, indent=2) + '\n', encoding='utf-8')
+
+          registry_path = Path('r2/data/chapter-registry.json')
+          registry = json.loads(registry_path.read_text(encoding='utf-8'))
+          registry['current_chapter'] = 'r2-ch048'
+          for n in range(35, 49):
+              registry['chapters'][f'r2-ch{n:03d}'] = {
+                  'display_number': n,
+                  'title': titles[n],
+                  'status': 'in_progress',
+                  'pipeline': {
+                      'scene_packets': 'in_progress',
+                      'audio': 'not_started',
+                      'written': 'published',
+                      'story_sync': 'in_progress',
+                      'image_plan': 'not_started',
+                      'image_generation': 'not_started',
+                      'image_review': 'not_started',
+                      'image_integration': 'not_started',
+                  },
+                  'images': {'target_count': 2, 'planned': 0, 'generated': 0, 'approved': 0, 'integrated': 0},
+                  'last_completed_stage': 'written',
+                  'next_action': 'publish_audio_and_plan_images',
+              }
+          registry_path.write_text(json.dumps(registry, separators=(',', ':')) + '\n', encoding='utf-8')
+
+          tests_path = Path('tests/test_r2_site.py')
+          tests = tests_path.read_text(encoding='utf-8')
+          tests = tests.replace("range(1, 35)", "range(1, 49)")
+          tests = tests.replace("self.assertEqual(project['current_chapter'], 'r2-ch034')", "self.assertEqual(project['current_chapter'], 'r2-ch048')")
+          tests = tests.replace(
+              'def test_written_frontier_is_public_through_chapter_thirty_four(self):',
+              'def test_written_frontier_is_public_through_chapter_forty_eight(self):',
+          )
+          tests = tests.replace('None if number == 34 else', 'None if number == 48 else')
+          tests_path.write_text(tests, encoding='utf-8')
+
+          # Publication contract assertions.
+          assert json.loads(project_path.read_text())['current_chapter'] == 'r2-ch048'
+          assert len(json.loads(project_path.read_text())['chapters']) == 48
+          assert json.loads(registry_path.read_text())['current_chapter'] == 'r2-ch048'
+          assert json.loads(ch34_path.read_text())['navigation']['next'] == 'r2-ch035'
+          assert json.loads((chapter_dir / 'ch048.json').read_text())['navigation']['next'] is None
+
+      - name: Verify R2 reader
+        run: python -m unittest tests.test_r2_site -v
+
+      - name: Commit verified publication and remove one-shot workflow
+        run: |
+          git config user.name "r2-publication-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git rm .github/workflows/r2-publish-35-48.yml
+          git add r2/assets/written/ch0{35..48}.md r2/data/project.json r2/data/chapter-registry.json r2/data/chapters/ch0{34..48}.json tests/test_r2_site.py
+          git commit -m "Publish R2 written Chapters 35-48 [r2-publish-35-48]"
+          git push origin HEAD:publish/r2-written-ch035-048
