@@ -17,14 +17,37 @@ If the human did not explicitly assign a chapter, the worker must:
 3. read `r2/PIPELINE.md`
 4. read this file
 5. inspect `greg-again/audio/manifest.json`
-6. inspect current Greg, Again written authority / written frontier
-7. inspect live Greg, Again audio branches and open PRs
-8. scan upward for the earliest written chapter that is unpublished and not already durably owned
-9. create the single-chapter claim branch
-10. refresh ownership evidence and verify the claim still does not overlap newer work
-11. only then begin synthesis
+6. resolve the current authoritative Greg, Again written ref and enumerate its actual numbered prose files under `state/experiments/greg-again/prose/`
+7. read current written state such as `state/experiments/greg-again/written/CURRENT.md` for story context / trailhead, but do not use a stale summary frontier as the numerical audio-eligibility gate
+8. inspect live Greg, Again audio branches and open PRs
+9. scan the actual written prose-file inventory upward for the earliest chapter that is unpublished and not already durably owned
+10. create the single-chapter claim branch
+11. refresh ownership evidence and verify the claim still does not overlap newer work
+12. only then begin synthesis
 
 Do **not** stop merely because an earlier unpublished chapter is already claimed. Skip occupied chapters and continue scanning upward until the earliest free written chapter is found.
+
+## Written chapter inventory authority
+
+For audio eligibility, the authoritative written inventory is the set of **actual numbered Greg, Again prose files** present on the current authoritative written ref under:
+
+`state/experiments/greg-again/prose/`
+
+Exact prose outranks compact summaries.
+
+Therefore:
+
+- enumerate the directory instead of trusting a cached numerical frontier
+- a numbered chapter prose file that actually exists on the authoritative written ref counts as written and may enter the audio availability scan
+- `state/experiments/greg-again/written/CURRENT.md` remains important story-state / next-writing context, but its headings or trailhead language do **not** undercount prose files that already exist
+- if `CURRENT.md` still says `Frontier after Chapter N` while `N+1` or later numbered prose files already exist on the same authoritative written ref, the actual prose files win for audio inventory
+- if a summary, rehearsal, chat handoff, branch name, or state note mentions a chapter but the actual numbered prose file is missing, that chapter is **not** audio-ready
+- never reconstruct or synthesize a missing chapter from summaries merely to fill a number
+- do not assume `main` itself contains the newest experimental prose when current GitHub routing identifies another written ref as authority
+
+The written inventory may advance faster than a compact state summary is refreshed. That lag must not strand otherwise complete written chapters from audio production.
+
+When current written-ref routing is genuinely ambiguous, resolve that ambiguity from GitHub authority before claiming. Do not guess between competing prose versions.
 
 ## Default claim size
 
@@ -70,16 +93,16 @@ A chapter is **not** unavailable merely because an old multi-chapter branch name
 
 When ownership is genuinely ambiguous, avoid overlap and inspect the branch / PR / status evidence before synthesizing.
 
-Never claim beyond the current authoritative written frontier.
+Never claim a chapter that lacks an actual numbered prose file on the current authoritative written ref.
 
 ## Availability scan
 
-The scan is chapter-by-chapter, not frontier-contiguous.
+The scan is chapter-by-chapter across the actual written prose-file inventory, not frontier-contiguous and not summary-frontier-driven.
 
 Conceptually:
 
 ```text
-for chapter in written chapters from low to high:
+for chapter in actual numbered prose files on current authoritative written ref, low to high:
     if published:
         continue
     if durably claimed / active:
@@ -459,7 +482,7 @@ Then leave the normal repository handshake.
 
 > Continue Greg, Again audio production from current GitHub authority.
 >
-> Auto-claim the next available free audio chapter using `r2/AUDIO_PRODUCTION.md`, then produce it with the established short-take voice factory, capture durable take artifacts, verify, publish, and leave the next handshake.
+> Auto-claim the next available free audio chapter using `r2/AUDIO_PRODUCTION.md`. Derive the written inventory from the actual numbered Greg, Again prose files on the current authoritative written ref, then produce the earliest free written/unpublished chapter with the established short-take voice factory, capture durable take artifacts, verify, publish, and leave the next handshake.
 >
 > Preserve newer authority, preserve already-generated provider work, skip chapters already durably owned by another worker, and do not overlap.
 
