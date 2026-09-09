@@ -1,0 +1,28 @@
+name: Validate Greg Again Audio
+
+on:
+  pull_request:
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
