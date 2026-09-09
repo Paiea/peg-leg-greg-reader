@@ -1,6 +1,7 @@
 # Greg, Again - Chapter 17 Audio Finish
 
-Chapter: **017 - The Wrong Rope**
+Chapter: **017 - The Extra Hand**
+Written source title: **The Wrong Rope**
 Source authority: `r2/assets/written/ch017.md`
 Voice: `deep`
 Lens: **SHARED GREG SURFACE**
