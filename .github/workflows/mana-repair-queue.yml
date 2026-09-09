@@ -1,0 +1,110 @@
+name: Build mana pronunciation repair queue
+on:
+  push:
+    branches: [audio/greg-again-mana-pronunciation-repair]
+    paths: [.github/workflows/mana-repair-queue.yml]
+permissions:
+  contents: write
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-mana-pronunciation-repair
+          fetch-depth: 0
+      - shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          python - <<'PY'
+          import json,re,subprocess
+          from pathlib import Path
+          rx=re.compile(r'\bmana\b', re.I)
+          entries=[]
+          audit=json.loads(Path('greg-again/audio/production/2026-09-08-mana-spoken-audit.json').read_text(encoding='utf-8'))
+          for item in audit['exact_spoken_take_hits']:
+              entries.append({
+                  'chapter':int(item['chapter']),
+                  'take':int(item['take']),
+                  'transcript':item['transcript'],
+                  'source':item['source'],
+                  'evidence':'exact_published_spoken_transcript'
+              })
+          ch18=json.loads(Path('greg-again/audio/production/2026-09-08-mana-ch018-map.json').read_text(encoding='utf-8'))
+          for item in ch18['affected']:
+              entries.append({
+                  'chapter':18,'take':int(item['take']),'transcript':item['transcript'],
+                  'source':'factory-reconstructed Chapter 18 map, exact 34/34 take-count match',
+                  'evidence':'deterministic_factory_reconstruction'
+              })
+          raw=subprocess.check_output(['git','show','a6bb642cff752d4a1fb90c08f722a1c3c1a31548:greg-again/audio/takes/019.json'], text=True)
+          ch19=json.loads(raw)
+          for item in ch19['takes']:
+              if rx.search(item['transcript']):
+                  entries.append({
+                      'chapter':19,'take':int(item['take']),'transcript':item['transcript'],
+                      'source':'historical locked greg-again/audio/takes/019.json @ a6bb642c',
+                      'evidence':'historical_exact_locked_transcript'
+                  })
+          takes22=json.loads(subprocess.check_output(['git','show','origin/main:greg-again/audio/takes/022.json'], text=True))
+          written22=subprocess.check_output(['git','show','origin/main:r2/assets/written/ch022.md'], text=True)
+          spoken22=written22.split('\n---\n',1)[1].strip().replace('**','')
+          for take in takes22['takes']:
+              first=take['first']; last=take['last']
+              start=spoken22.find(first)
+              if start < 0: raise SystemExit(f'Ch22 take {take["take"]} first anchor missing')
+              end=spoken22.find(last,start)
+              if end < 0: raise SystemExit(f'Ch22 take {take["take"]} last anchor missing')
+              end += len(last)
+              transcript=spoken22[start:end]
+              if rx.search(transcript):
+                  entries.append({
+                      'chapter':22,'take':int(take['take']),'transcript':transcript,
+                      'source':'current written source delimited by published take anchors',
+                      'evidence':'published_anchor_exact_slice'
+                  })
+          seen=set(); out=[]
+          for e in sorted(entries,key=lambda x:(x['chapter'],x['take'])):
+              key=(e['chapter'],e['take'])
+              if key in seen: raise SystemExit(f'duplicate queue entry {key}')
+              seen.add(key)
+              tokens=len(rx.findall(e['transcript']))
+              if tokens < 1: raise SystemExit(f'no mana in {key}')
+              provider=re.sub(r'\bMana\b','Mah-nah',e['transcript'])
+              provider=re.sub(r'\bmana\b','mah-nah',provider)
+              special=[]
+              if key==(4,1):
+                  if 'sparring' not in provider: raise SystemExit('Ch4 T01 lost sparring source guard')
+                  provider=provider.replace('sparring','spar-ring')
+                  special.append('sparring -> spar-ring preserved from prior approved repair')
+              if rx.search(provider): raise SystemExit(f'provider transcript still has raw mana {key}')
+              e.update({'mana_tokens':tokens,'provider_transcript':provider,'provider_voice':'deep','special_repairs':special,'status':'approved_pronunciation_queued'})
+              out.append(e)
+          expected_takes=22
+          expected_tokens=25
+          if len(out)!=expected_takes: raise SystemExit(f'expected {expected_takes} takes, got {len(out)}')
+          total=sum(e['mana_tokens'] for e in out)
+          if total!=expected_tokens: raise SystemExit(f'expected {expected_tokens} tokens, got {total}')
+          payload={
+              'repair':'mana-pronunciation',
+              'written_spelling':'mana',
+              'provider_spelling':'mah-nah',
+              'voice':'deep',
+              'human_audition_context_id':'eafc21b783664cbdbc0275bd57deebd4',
+              'human_audition_result':'approved',
+              'take_count':len(out),
+              'mana_token_count':total,
+              'chapter_1_status':'audition approved; exact historical take transcript provenance still unresolved, excluded from destructive repair',
+              'entries':out
+          }
+          p=Path('greg-again/audio/production/2026-09-08-mana-repair-queue.json')
+          p.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'take_count':len(out),'mana_token_count':total,'keys':[(e['chapter'],e['take']) for e in out]},indent=2))
+          PY
+          rm .github/workflows/mana-repair-queue.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/2026-09-08-mana-repair-queue.json .github/workflows/mana-repair-queue.yml
+          git commit -m 'audio: lock approved mana pronunciation repair queue'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair
