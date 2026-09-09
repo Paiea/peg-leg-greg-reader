@@ -148,11 +148,9 @@ Accurate anyway.
 
 **If you come south, use Venn's office. If I am gone they will know which route I am on unless the clerk with boiled-cabbage maps has taken over the ledger. Do not come because you think I have work waiting. I do not. Come if you want to see me or if Carrow finally becomes as small as you used to claim.**
 
-No hook.
+No job waiting.
 
 No deadline.
-
-No six-week offer waiting patiently for my character development.
 
 Just a friend somewhere south.
 
