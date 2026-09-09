@@ -1,0 +1,74 @@
+name: Greg Again Audio Artifact Publisher
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-012-014
+    paths:
+      - .github/workflows/audio-publish-test.yml
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-batch-012-014
+          fetch-depth: 0
+      - name: Reconcile current main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name Paiea
+          git config user.email paiea.tv@gmail.com
+          git fetch origin main
+          git merge --no-edit origin/main
+      - name: Install ffmpeg
+        shell: bash
+        run: |
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y ffmpeg >/dev/null
+      - name: Materialize verified audio artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/a12 /tmp/a1314
+          gh api /repos/Paiea/peg-leg-greg-reader/actions/artifacts/10089800680/zip > /tmp/a12.zip
+          gh api /repos/Paiea/peg-leg-greg-reader/actions/artifacts/10090358470/zip > /tmp/a1314.zip
+          unzip -q /tmp/a12.zip -d /tmp/a12
+          unzip -q /tmp/a1314.zip -d /tmp/a1314
+
+          root=greg-again/audio/assets
+          mkdir -p "$root/chunks/012" "$root/chunks/013" "$root/chunks/014"
+          rm -f "$root/chunks/012"/*.mp3 "$root/chunks/013"/*.mp3 "$root/chunks/014"/*.mp3
+          cp /tmp/a12/*.mp3 "$root/chunks/012/"
+          cp /tmp/a1314/013/*.mp3 "$root/chunks/013/"
+          cp /tmp/a1314/014/*.mp3 "$root/chunks/014/"
+          cp /tmp/a1314/final/chapter-013.mp3 "$root/chapter-013.mp3"
+          cp /tmp/a1314/final/chapter-014.mp3 "$root/chapter-014.mp3"
+
+          find "$root/chunks/012" -name '*.mp3' -printf "file '%p'\n" | sort > /tmp/ch12.txt
+          ffmpeg -v error -f concat -safe 0 -i /tmp/ch12.txt -c copy -y "$root/chapter-012.mp3"
+
+          test "$(find "$root/chunks/012" -name '*.mp3' | wc -l)" -eq 25
+          test "$(find "$root/chunks/013" -name '*.mp3' | wc -l)" -eq 28
+          test "$(find "$root/chunks/014" -name '*.mp3' | wc -l)" -eq 29
+          echo 'a6c8a7aecadd56e6cf4a8d27a0b528a68ac039a12d5551bdb03cd404f9c81aab  greg-again/audio/assets/chapter-012.mp3' | sha256sum -c -
+          echo '8fc5583cf87616a72027b5605559d2406bdf94d9e65ead217fce7fe501ab2654  greg-again/audio/assets/chapter-013.mp3' | sha256sum -c -
+          echo '70024079506ccb1e6534b5d6eef8e04eddc2d6bb58d88b1e81e417eeade2271a  greg-again/audio/assets/chapter-014.mp3' | sha256sum -c -
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$root/chapter-012.mp3"
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$root/chapter-013.mp3"
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$root/chapter-014.mp3"
+      - name: Commit verified binaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add greg-again/audio/assets/chapter-012.mp3 greg-again/audio/assets/chapter-013.mp3 greg-again/audio/assets/chapter-014.mp3 greg-again/audio/assets/chunks/012 greg-again/audio/assets/chunks/013 greg-again/audio/assets/chunks/014
+          git commit -m 'Publish verified Greg Again audio binaries for Chapters 12-14'
+          git push origin HEAD:audio/greg-again-batch-012-014
