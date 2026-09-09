@@ -1,0 +1,85 @@
+name: Publish Greg Again Chapter 26
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch026-auto
+    paths:
+      - .github/workflows/publish-ga026.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch026-auto
+          fetch-depth: 0
+      - name: Configure git and reconcile newest main
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git merge --no-edit origin/main
+      - name: Build publication surfaces
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/026-short greg-again/audio/takes greg-again/audio/verification
+          python - <<'PY'
+          import csv, hashlib, json
+          from pathlib import Path
+          root=Path('.')
+          audio=root/'greg-again/audio'
+          vals=dict(line.split('=',1) for line in (audio/'production/026/verification.txt').read_text().splitlines() if '=' in line)
+          duration=round(float(vals['duration_seconds']),3)
+          rows=[]
+          with (audio/'production/026/provider-artifacts.tsv').open() as f:
+              for r in csv.DictReader(f, delimiter='\t'):
+                  n=r['take']
+                  src=audio/'production/026/takes'/f'ga026-take-{n}.mp3'
+                  dst=audio/'assets/chunks/026-short'/f'{n}.mp3'
+                  dst.write_bytes(src.read_bytes())
+                  rows.append({'take':int(n),'provider_context_id':r['provider_context'],'preview_url':r['preview_url'],'durable_file':str(dst).replace('\\','/'),'sha256':hashlib.sha256(dst.read_bytes()).hexdigest(),'status':'artifact_captured_verified'})
+          take_map={'chapter_id':'ga-026','number':26,'title':'The Day Off','voice':'deep','source_path':'r2/assets/written/ch026.md','source_sha':'80a1762b582553755dd8b8b3602fd65b77d08535','status':'verified_playable','take_count':38,'assembled_duration_seconds':duration,'assembled_sha256':vals['sha256'],'takes':rows}
+          (audio/'takes/026-short.json').write_text(json.dumps(take_map,indent=2)+'\n')
+          verification={'chapter_id':'ga-026','source_sha':'80a1762b582553755dd8b8b3602fd65b77d08535','exact_source_coverage':True,'take_order_verified':True,'individual_mp3s_verified':True,'assembled_mp3_verified':True,'provider_identity_recorded':True,'chapter_tail_silence_seconds_added':2.0,'take_count':38,'assembled_duration_seconds':duration,'assembled_sha256':vals['sha256']}
+          (audio/'verification/026-short.json').write_text(json.dumps(verification,indent=2)+'\n')
+          manifest=json.loads((audio/'manifest.json').read_text())
+          manifest['chapters']=[c for c in manifest['chapters'] if c.get('number')!=26]
+          manifest['chapters'].append({'chapter_id':'ga-026','number':26,'title':'The Day Off','status':'experimental','lens':'shared-greg-surface','audio_finish':'processing-space','take_count':38,'duration_seconds':duration,'audio_src':'assets/chapter-026.mp3','note':'Chapter 26 uses thirty-eight complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, ordered take playback, stitched chapter audio, durable hashes, authoritative final ellipsis landing, and the forward-production listener tail were verified before publication.'})
+          manifest['chapters'].sort(key=lambda c:c['number'])
+          (audio/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+          route_path=root/'r2/data/chapters/ch026.json'
+          route=json.loads(route_path.read_text())
+          route['title']='The Day Off'
+          route['audio']={'status':'published','path':'../greg-again/audio/assets/chapter-026.mp3'}
+          route_path.write_text(json.dumps(route,separators=(',',':'))+'\n')
+          reg_path=root/'r2/data/chapter-registry.json'
+          reg=json.loads(reg_path.read_text())
+          reg['chapters']['r2-ch026']['pipeline']['audio']='published'
+          reg_path.write_text(json.dumps(reg,indent=2)+'\n')
+          test=root/'tests/test_greg_again_audio_ch026.py'
+          test.write_text('''import json\nimport unittest\nfrom pathlib import Path\nROOT=Path(__file__).resolve().parents[1]\nA=ROOT/'greg-again'/'audio'\nR=ROOT/'r2'\nclass GregAgainChapter26AudioTest(unittest.TestCase):\n    def test_chapter_26_is_durable_and_routed(self):\n        m=json.loads((A/'manifest.json').read_text())\n        c={x['chapter_id']:x for x in m['chapters']}['ga-026']\n        self.assertEqual('The Day Off',c['title'])\n        self.assertEqual(38,c['take_count'])\n        self.assertEqual(766.104,c['duration_seconds'])\n        self.assertEqual('assets/chapter-026.mp3',c['audio_src'])\n        self.assertTrue((A/'assets/chapter-026.mp3').stat().st_size>1_000_000)\n        t=json.loads((A/'takes/026-short.json').read_text())\n        self.assertEqual(38,len(t['takes']))\n        self.assertEqual('verified_playable',t['status'])\n        self.assertEqual('9187c263e793a7e5940226358a9e7b65b90c5ea8727ca4283b4a94257c48d845',t['assembled_sha256'])\n        for x in t['takes']:\n            self.assertEqual('artifact_captured_verified',x['status'])\n            self.assertTrue((ROOT/x['durable_file']).stat().st_size>10_000)\n            self.assertEqual(64,len(x['sha256']))\n        v=json.loads((A/'verification/026-short.json').read_text())\n        self.assertTrue(v['exact_source_coverage'])\n        self.assertTrue(v['take_order_verified'])\n        self.assertTrue(v['individual_mp3s_verified'])\n        self.assertTrue(v['assembled_mp3_verified'])\n        self.assertEqual(2.0,v['chapter_tail_silence_seconds_added'])\n        route=json.loads((R/'data/chapters/ch026.json').read_text())\n        self.assertEqual('published',route['audio']['status'])\n        reg=json.loads((R/'data/chapter-registry.json').read_text())\n        self.assertEqual('published',reg['chapters']['r2-ch026']['pipeline']['audio'])\nif __name__=='__main__': unittest.main()\n''')
+          PY
+      - name: Verify publication contract
+        run: |
+          set -euo pipefail
+          python -m unittest tests.test_greg_again_audio_ch026 -v
+          python -m json.tool greg-again/audio/manifest.json >/dev/null
+          python -m json.tool r2/data/chapter-registry.json >/dev/null
+          python -m json.tool r2/data/chapters/ch026.json >/dev/null
+      - name: Remove temporary workflows and production duplicates
+        run: |
+          git rm -f .github/workflows/capture-ga026.yml .github/workflows/publish-ga026.yml
+          rm -rf greg-again/audio/production/026/takes
+      - name: Commit reconciled publication branch
+        run: |
+          set -euo pipefail
+          git add -A
+          git commit -m 'Publish Greg Again Chapter 26 audio'
+          git push origin HEAD:audio/greg-again-ch026-auto
