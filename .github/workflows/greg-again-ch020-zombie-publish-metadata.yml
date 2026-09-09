@@ -1,0 +1,70 @@
+name: Publish Greg Again Chapter 20 Zombie Metadata
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch020-zombie-publish
+    paths:
+      - '.github/workflows/greg-again-ch020-zombie-publish-metadata.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch020-zombie-publish
+          fetch-depth: 1
+      - name: Reconcile Chapter 20 publication surfaces
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('.')
+          manifest_path=root/'greg-again/audio/manifest.json'
+          manifest=json.loads(manifest_path.read_text())
+          entry={
+            'chapter_id':'ga-020','number':20,'title':'Ward Hand','status':'experimental',
+            'lens':'shared-greg-surface','audio_finish':'processing-space','take_count':41,
+            'duration_seconds':985.248,'audio_src':'assets/chapter-020.mp3',
+            'note':'Chapter 20 closes a zombie publication gap with forty-one complete preview-safe deep-voice takes captured directly as durable MP3 artifacts from the current written source. Exact ordered take artifacts, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication.'
+          }
+          chapters=[c for c in manifest['chapters'] if c.get('chapter_id')!='ga-020']
+          chapters.append(entry); chapters.sort(key=lambda c:c['number'])
+          manifest['chapters']=chapters
+          manifest_path.write_text(json.dumps(manifest,indent=2)+'\n')
+
+          registry_path=root/'r2/data/chapter-registry.json'
+          registry=json.loads(registry_path.read_text())
+          ch=registry['chapters']['r2-ch020']
+          ch['title']='Ward Hand'
+          ch['pipeline']['audio']='published'
+          ch['last_completed_stage']='written'
+          ch['next_action']='plan_images'
+          registry_path.write_text(json.dumps(registry,indent=2)+'\n')
+
+          route_path=root/'r2/data/chapters/ch020.json'
+          route=json.loads(route_path.read_text())
+          route['title']='Ward Hand'
+          route['audio']={'status':'published','path':'../greg-again/audio/assets/chapter-020.mp3'}
+          route_path.write_text(json.dumps(route,separators=(',',':'))+'\n')
+
+          test=(root/'tests/test_greg_again_audio_ch020.py')
+          test.write_text('''import json,unittest\nfrom pathlib import Path\nR=Path(__file__).resolve().parents[1]; A=R/"greg-again"/"audio"\nclass T(unittest.TestCase):\n  def test_ch20(self):\n    c={x["chapter_id"]:x for x in json.loads((A/"manifest.json").read_text())["chapters"]}["ga-020"]; self.assertEqual((20,"Ward Hand",41,985.248),(c["number"],c["title"],c["take_count"],c["duration_seconds"])); self.assertGreater((A/"assets/chapter-020.mp3").stat().st_size,8_000_000)\n    m=json.loads((A/"takes/020-short.json").read_text()); self.assertEqual(("ga-020","deep","verified_playable",41,985.248),(m["chapter_id"],m["voice"],m["status"],len(m["takes"]),m["assembled_duration_seconds"]))\n    for t in m["takes"]: self.assertEqual("artifact_captured",t["status"]); self.assertGreater((R/t["durable_file"]).stat().st_size,10_000)\n    self.assertEqual("published",json.loads((R/"r2/data/chapters/ch020.json").read_text())["audio"]["status"]); self.assertEqual("published",json.loads((R/"r2/data/chapter-registry.json").read_text())["chapters"]["r2-ch020"]["pipeline"]["audio"])\n''')
+          PY
+          python -m unittest tests.test_greg_again_audio_ch020
+          rm -f .github/workflows/greg-again-ch020-zombie-recovery.yml
+          rm -f .github/workflows/greg-again-ch020-zombie-recovery-v2.yml
+          rm -f .github/workflows/greg-again-ch020-zombie-publish-metadata.yml
+      - name: Commit publication metadata
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'audio: publish Greg Again Chapter 20'
+          git push origin HEAD:audio/greg-again-ch020-zombie-publish
