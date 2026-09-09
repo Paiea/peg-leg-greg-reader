@@ -25,8 +25,15 @@ jobs:
           curl --fail --location --retry 3 \
             'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/148f226d-81bc-4cd0-8b02-c49a619754cb.mp3' \
             -o greg-again/audio/assets/chunks/020/01.mp3
-          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chunks/020/01.mp3
           test "$(stat -c%s greg-again/audio/assets/chunks/020/01.mp3)" -gt 1000
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('greg-again/audio/assets/chunks/020/01.mp3')
+          head = p.read_bytes()[:3]
+          if head != b'ID3' and not (len(head) >= 2 and head[0] == 0xFF and (head[1] & 0xE0) == 0xE0):
+              raise SystemExit(f'unexpected MP3 signature: {head!r}')
+          print(f'captured {p} ({p.stat().st_size} bytes)')
+          PY
       - name: Commit captured artifact
         shell: bash
         run: |
