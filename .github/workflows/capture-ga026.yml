@@ -1,0 +1,56 @@
+name: Capture Greg Again Chapter 26
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch026-auto
+    paths:
+      - .github/workflows/capture-ga026.yml
+      - greg-again/audio/production/026/provider-artifacts.tsv
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch026-auto
+          fetch-depth: 0
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Capture and verify takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/production/026/takes
+          tail -n +2 greg-again/audio/production/026/provider-artifacts.tsv | while IFS=$'\t' read -r take context url; do
+            out="greg-again/audio/production/026/takes/ga026-take-${take}.mp3"
+            curl --fail --location --retry 4 --retry-all-errors "$url" -o "$out"
+            test "$(stat -c%s "$out")" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$out"
+          done
+      - name: Assemble chapter with listener tail
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/concat.txt
+          for f in greg-again/audio/production/026/takes/ga026-take-*.mp3; do
+            printf "file '%s/%s'\n" "$GITHUB_WORKSPACE" "$f" >> /tmp/concat.txt
+          done
+          ffmpeg -y -f concat -safe 0 -i /tmp/concat.txt -af "apad=pad_dur=2" -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-026.mp3
+          duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 greg-again/audio/assets/chapter-026.mp3)
+          sha=$(sha256sum greg-again/audio/assets/chapter-026.mp3 | awk '{print $1}')
+          printf 'chapter=26\ntake_count=38\nduration_seconds=%s\nsha256=%s\nsource_sha=80a1762b582553755dd8b8b3602fd65b77d08535\nvoice=deep\n' "$duration" "$sha" > greg-again/audio/production/026/verification.txt
+      - name: Commit durable Chapter 26 artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/production/026/takes greg-again/audio/production/026/verification.txt greg-again/audio/assets/chapter-026.mp3
+          git commit -m 'Capture and stitch Greg Again Chapter 26' || exit 0
+          git push origin HEAD:audio/greg-again-ch026-auto
