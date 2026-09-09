@@ -1,0 +1,32 @@
+name: Experiment C Round 09 materialize
+
+on:
+  push:
+    branches:
+      - experiment/r2-temporal-c-hybrid
+    paths:
+      - r2/materialize_round9.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch hard windows
+        run: |
+          git fetch origin experiment/r2-temporal-c-hybrid-r9-a experiment/r2-temporal-c-hybrid-r9-b
+      - name: Materialize reconciled run
+        run: python r2/materialize_round9.py
+      - name: Commit reconciled run
+        run: |
+          rm -f r2/materialize_round9.py .github/workflows/experiment-c-round9-materialize.yml
+          git config user.name "experiment-c-materializer"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "story: materialize Experiment C Round 09" || exit 0
+          git push origin HEAD:experiment/r2-temporal-c-hybrid
