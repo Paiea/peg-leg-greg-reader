@@ -1,4 +1,4 @@
-name: Chapter 4 pronunciation repair diagnostic
+name: Chapter 4 pronunciation micro repair
 
 on:
   push:
@@ -8,10 +8,11 @@ on:
       - .github/workflows/ch004-pronunciation-repair.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  diagnose:
+  repair:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repair branch
@@ -28,7 +29,7 @@ jobs:
             sudo apt-get install -y -qq ffmpeg >/dev/null
           fi
 
-      - name: Validate micro replacement clip
+      - name: Download pronunciation-safe micro take
         shell: bash
         env:
           MICRO_URL: https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/957ae6cc-7de2-43cc-b110-8f293e6d454e.mp3
@@ -36,71 +37,201 @@ jobs:
           set -euo pipefail
           mkdir -p /tmp/ch004-repair
           curl --fail --location --retry 4 --retry-delay 2 "$MICRO_URL" -o /tmp/ch004-repair/micro.mp3
+          test -s /tmp/ch004-repair/micro.mp3
           file /tmp/ch004-repair/micro.mp3
-          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/ch004-repair/micro.mp3 | tee /tmp/ch004-repair/micro-duration.txt
-          python - <<'PY'
-          from pathlib import Path
-          d = float(Path('/tmp/ch004-repair/micro-duration.txt').read_text().strip())
-          if not 3.0 < d < 30.0:
-              raise SystemExit(f'Unexpected micro clip duration: {d}')
-          print(f'MICRO_DURATION={d:.3f}')
-          PY
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/ch004-repair/micro.mp3
 
-      - name: Map silence seams around listener timestamp
+      - name: Locate safe sentence seam
         shell: bash
         run: |
           set -euo pipefail
           src="greg-again/audio/assets/chunks/004/01.mp3"
-          test -s "$src"
-          printf 'ORIGINAL_TAKE01_DURATION='
-          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$src"
-          ffmpeg -hide_banner -loglevel info -i "$src" -af silencedetect=noise=-42dB:d=0.12 -f null - 2> /tmp/ch004-repair/silence.log || true
+          ffmpeg -hide_banner -loglevel info -i "$src" -af silencedetect=noise=-42dB:d=0.12 -f null - 2> /tmp/ch004-repair/original-silence.log || true
+          ffmpeg -hide_banner -loglevel info -i /tmp/ch004-repair/micro.mp3 -af silencedetect=noise=-45dB:d=0.05 -f null - 2> /tmp/ch004-repair/micro-silence.log || true
           python - <<'PY'
-          import re
+          import re, subprocess
           from pathlib import Path
-          text = Path('/tmp/ch004-repair/silence.log').read_text(errors='replace')
-          starts = []
-          ends = []
-          for line in text.splitlines():
-              m = re.search(r'silence_start: ([0-9.]+)', line)
-              if m:
-                  starts.append(float(m.group(1)))
-              m = re.search(r'silence_end: ([0-9.]+)', line)
-              if m:
-                  ends.append(float(m.group(1)))
-          events = sorted([('start', x) for x in starts] + [('end', x) for x in ends], key=lambda x: x[1])
-          print('SILENCE_EVENTS_25_TO_60')
-          for kind, t in events:
-              if 25 <= t <= 60:
-                  print(f'{kind:5s} {t:8.3f}')
-          print('ALL_SILENCE_EVENT_COUNT', len(events))
-          PY
 
-      - name: Inspect provider landing page safely
+          def duration(path):
+              return float(subprocess.check_output([
+                  'ffprobe','-v','error','-show_entries','format=duration',
+                  '-of','default=noprint_wrappers=1:nokey=1',path
+              ], text=True).strip())
+
+          def intervals(log_path):
+              text = Path(log_path).read_text(errors='replace')
+              events = []
+              for line in text.splitlines():
+                  m = re.search(r'silence_start: ([0-9.]+)', line)
+                  if m: events.append(('start', float(m.group(1))))
+                  m = re.search(r'silence_end: ([0-9.]+)', line)
+                  if m: events.append(('end', float(m.group(1))))
+              events.sort(key=lambda x: x[1])
+              out, current = [], None
+              for kind, t in events:
+                  if kind == 'start':
+                      current = t
+                  elif current is not None:
+                      out.append((current, t))
+                      current = None
+              return out
+
+          listener_t = 44.0
+          original = intervals('/tmp/ch004-repair/original-silence.log')
+          substantial = [(a,b) for a,b in original if b-a >= 0.40]
+          before = [x for x in substantial if x[1] < listener_t]
+          after = [x for x in substantial if x[0] > listener_t]
+          if not before or not after:
+              raise SystemExit('Could not bracket listener timestamp with safe silences')
+          left = max(before, key=lambda x: x[1])
+          right = min(after, key=lambda x: x[0])
+          # Protect against accidentally selecting a huge unrelated region.
+          if not (36.0 < left[1] < 40.0 and 45.0 < right[0] < 47.0):
+              raise SystemExit(f'Unexpected seam pair: left={left} right={right}')
+          splice_start = sum(left)/2
+          splice_end = sum(right)/2
+
+          micro_d = duration('/tmp/ch004-repair/micro.mp3')
+          micro_intervals = intervals('/tmp/ch004-repair/micro-silence.log')
+          micro_start = 0.0
+          micro_end = micro_d
+          if micro_intervals and micro_intervals[0][0] <= 0.08:
+              micro_start = micro_intervals[0][1]
+          if micro_intervals and micro_intervals[-1][1] >= micro_d - 0.08:
+              micro_end = micro_intervals[-1][0]
+          if micro_end - micro_start < 3.0:
+              raise SystemExit(f'Unexpected trimmed micro duration: {micro_end-micro_start}')
+
+          Path('/tmp/ch004-repair/seam.env').write_text(
+              f'SPLICE_START={splice_start:.6f}\n'
+              f'SPLICE_END={splice_end:.6f}\n'
+              f'MICRO_START={micro_start:.6f}\n'
+              f'MICRO_END={micro_end:.6f}\n'
+          )
+          print(f'LEFT_SILENCE={left[0]:.3f}-{left[1]:.3f}')
+          print(f'RIGHT_SILENCE={right[0]:.3f}-{right[1]:.3f}')
+          print(f'SPLICE={splice_start:.3f}-{splice_end:.3f}')
+          print(f'MICRO_TRIM={micro_start:.3f}-{micro_end:.3f} of {micro_d:.3f}s')
+          PY
+          cat /tmp/ch004-repair/seam.env
+
+      - name: Replace only the bad sentence inside Take 01
         shell: bash
-        env:
-          TAKE_PAGE_URL: https://www.aidocmaker.com/g0/audio?name=1aa6c6df8ed346f19849ead71b02acfe
         run: |
           set -euo pipefail
-          curl --fail --location --retry 2 "$TAKE_PAGE_URL" -o /tmp/ch004-repair/provider.html
+          source /tmp/ch004-repair/seam.env
+          src="greg-again/audio/assets/chunks/004/01.mp3"
+          repaired=/tmp/ch004-repair/01-repaired.mp3
+
+          # Read the original stream shape and encode the tiny replacement to match it.
+          SR=$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=noprint_wrappers=1:nokey=1 "$src")
+          CH=$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of default=noprint_wrappers=1:nokey=1 "$src")
+          BR=$(ffprobe -v error -select_streams a:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 "$src")
+          test -n "$SR"; test -n "$CH"
+          if [ -z "$BR" ] || [ "$BR" = "N/A" ]; then BR=128000; fi
+
+          ffmpeg -hide_banner -loglevel error -y -i "$src" -t "$SPLICE_START" -c:a copy /tmp/ch004-repair/prefix.mp3
+          ffmpeg -hide_banner -loglevel error -y -i /tmp/ch004-repair/micro.mp3 -ss "$MICRO_START" -to "$MICRO_END" -ar "$SR" -ac "$CH" -b:a "$BR" /tmp/ch004-repair/replacement.mp3
+          ffmpeg -hide_banner -loglevel error -y -ss "$SPLICE_END" -i "$src" -c:a copy /tmp/ch004-repair/suffix.mp3
+
+          cat > /tmp/ch004-repair/take01-concat.txt <<EOF
+          file '/tmp/ch004-repair/prefix.mp3'
+          file '/tmp/ch004-repair/replacement.mp3'
+          file '/tmp/ch004-repair/suffix.mp3'
+          EOF
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/ch004-repair/take01-concat.txt -c:a copy "$repaired"
+          test -s "$repaired"
+          ffprobe -v error "$repaired"
+          cp "$repaired" "$src"
+
+      - name: Restitch and verify Chapter 4
+        shell: bash
+        run: |
+          set -euo pipefail
+          chunk_dir="greg-again/audio/assets/chunks/004"
+          chapter="greg-again/audio/assets/chapter-004.mp3"
+          test "$(find "$chunk_dir" -maxdepth 1 -type f -name '*.mp3' | wc -l)" -eq 12
+          : > /tmp/ch004-repair/chapter-concat.txt
+          for n in $(seq -w 1 12); do
+            test -s "$chunk_dir/$n.mp3"
+            ffprobe -v error "$chunk_dir/$n.mp3"
+            printf "file '%s/%s.mp3'\n" "$GITHUB_WORKSPACE/$chunk_dir" "$n" >> /tmp/ch004-repair/chapter-concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/ch004-repair/chapter-concat.txt -c:a copy /tmp/ch004-repair/chapter-004.mp3
+          test -s /tmp/ch004-repair/chapter-004.mp3
+          ffprobe -v error /tmp/ch004-repair/chapter-004.mp3
+          mv /tmp/ch004-repair/chapter-004.mp3 "$chapter"
+
           python - <<'PY'
-          import html, re
+          import json, subprocess
           from pathlib import Path
-          from urllib.parse import urlsplit
-          text = Path('/tmp/ch004-repair/provider.html').read_text(errors='replace')
-          decoded = html.unescape(text).replace('\\/', '/')
-          print('PROVIDER_HTML_BYTES', len(text.encode()))
-          for needle in ['.mp3', 'storage.googleapis.com', 'audioUrl', 'audio_url', 'download', '1aa6c6df8ed346f19849ead71b02acfe']:
-              print('MARKER', needle, decoded.count(needle))
-          urls = re.findall(r'https?://[^"\'<>\\s]+', decoded)
-          seen = set()
-          print('AUDIOISH_URL_SHAPES')
-          for u in urls:
-              if u in seen:
-                  continue
-              seen.add(u)
-              low = u.lower()
-              if any(k in low for k in ['mp3', 'audio', 'storage.googleapis', 'download']):
-                  p = urlsplit(u)
-                  print(p.netloc + p.path)
+          root = Path('.')
+          chunk_dir = root/'greg-again/audio/assets/chunks/004'
+          chapter = root/'greg-again/audio/assets/chapter-004.mp3'
+          def dur(p):
+              return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(p)], text=True).strip())
+          takes = [chunk_dir/f'{n:02d}.mp3' for n in range(1,13)]
+          take_durations = [dur(p) for p in takes]
+          final_d = dur(chapter)
+          if abs(final_d - sum(take_durations)) > 0.75:
+              raise SystemExit(f'Chapter concat duration mismatch: final={final_d:.3f} sum={sum(take_durations):.3f}')
+
+          manifest_path = root/'greg-again/audio/manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          entry = next(c for c in manifest['chapters'] if c['chapter_id']=='ga-004')
+          if entry['number'] != 4 or entry['take_count'] != 12 or entry['audio_src'] != 'assets/chapter-004.mp3':
+              raise SystemExit(f'Unexpected Chapter 4 manifest identity: {entry}')
+          entry['duration_seconds'] = round(final_d, 3)
+          repair_note = ' Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work.'
+          if repair_note.strip() not in entry.get('note',''):
+              entry['note'] = entry.get('note','').rstrip() + repair_note
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          seam = {}
+          for line in Path('/tmp/ch004-repair/seam.env').read_text().splitlines():
+              k,v = line.split('=',1); seam[k]=float(v)
+          repair_dir = root/'greg-again/audio/production/004'
+          repair_dir.mkdir(parents=True, exist_ok=True)
+          (repair_dir/'2026-09-08-sparring-pronunciation-repair.md').write_text(
+              '# Chapter 4 pronunciation repair\n\n'
+              '- Identity: `ga-004` / Chapter 4 / `Thirty Days`.\n'
+              '- Listener report: around `00:44`, `sparring` sounded like `spare-ing`.\n'
+              '- Root cause location: Take 01, sentence ending `for most of a sparring session.`\n'
+              '- Written/audio script authority remains `sparring`; no prose or script text changed.\n'
+              '- Provider-only pronunciation cue: `spar-ring`.\n'
+              '- Replacement scope: sentence-local micro take only inside Take 01.\n'
+              '- Original Take 01 Git blob before repair: `b1e236f9cdd4cd4ade41bdc31716483cd29df8f9`.\n'
+              '- Provider micro artifact context: `1a712e4fdb394caeb98631231b617f9e`.\n'
+              f'- Safe splice window: `{seam["SPLICE_START"]:.3f}s` to `{seam["SPLICE_END"]:.3f}s`, both inside detected silence.\n'
+              f'- Repaired Take 01 duration: `{take_durations[0]:.3f}s`.\n'
+              f'- Restitched Chapter 4 duration: `{final_d:.3f}s`.\n'
+              '- Takes 02-12 were not regenerated or modified.\n'
+              '- Verification: 12 numeric chunks present, each ffprobe-readable; chapter assembled 01-12 exactly once; manifest identity preserved.\n',
+              encoding='utf-8'
+          )
+          print(f'REPAIRED_TAKE01_DURATION={take_durations[0]:.3f}')
+          print(f'REPAIRED_CHAPTER_DURATION={final_d:.3f}')
           PY
+
+          # Guard the scope before committing.
+          git diff --exit-code -- greg-again/audio/scripts/004-thirty-days.md
+          changed=$(git diff --name-only | sort)
+          printf '%s\n' "$changed"
+          for path in $changed; do
+            case "$path" in
+              .github/workflows/ch004-pronunciation-repair.yml|greg-again/audio/assets/chunks/004/01.mp3|greg-again/audio/assets/chapter-004.mp3|greg-again/audio/manifest.json|greg-again/audio/production/004/2026-09-08-sparring-pronunciation-repair.md) ;;
+              *) echo "Unexpected changed path: $path" >&2; exit 1 ;;
+            esac
+          done
+
+      - name: Commit durable repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/ch004-pronunciation-repair.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --stat
+          git commit -m "audio: repair Chapter 4 sparring pronunciation"
+          git push origin HEAD:audio/greg-again-ch004-pronunciation-repair
