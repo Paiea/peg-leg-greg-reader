@@ -47,7 +47,7 @@
       "take_count": 12,
       "duration_seconds": 728.424,
       "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR \u2192 MOVE \u2192 UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
     },
     {
       "chapter_id": "ga-005",
@@ -230,6 +230,18 @@
       "note": "Recovered from completed Chapter 19 production without regenerating provider work. Thirty-six provider-safe deep-voice takes preserve maintenance, route time, matched spares, cleaning capacity, and service labor."
     },
     {
+      "chapter_id": "ga-020",
+      "number": 20,
+      "title": "Ward Hand",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 41,
+      "duration_seconds": 985.248,
+      "audio_src": "assets/chapter-020.mp3",
+      "note": "Chapter 20 closes a zombie publication gap with forty-one complete preview-safe deep-voice takes captured directly as durable MP3 artifacts from the current written source. Exact ordered take artifacts, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
+    },
+    {
       "chapter_id": "ga-021",
       "number": 21,
       "title": "The Reply",
@@ -288,6 +300,18 @@
       "duration_seconds": 931.44,
       "audio_src": "assets/chapter-025.mp3",
       "note": "Chapter 25 uses thirty-eight complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, ordered provider identity, individual MP3 playability, stitched chapter audio, durable hashes, and the final chapter-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-026",
+      "number": 26,
+      "title": "The Day Off",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 38,
+      "duration_seconds": 766.104,
+      "audio_src": "assets/chapter-026.mp3",
+      "note": "Chapter 26 uses thirty-eight complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, ordered take playback, stitched chapter audio, durable hashes, authoritative final ellipsis landing, and the forward-production listener tail were verified before publication."
     }
   ]
 }
