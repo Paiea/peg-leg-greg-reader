@@ -1,0 +1,105 @@
+name: Inventory Greg Again Final Audio Segments
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ending-ellipsis-001-023
+    paths:
+      - .github/workflows/greg-again-ending-audio-inventory.yml
+
+permissions:
+  contents: write
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ending-ellipsis-001-023
+          fetch-depth: 0
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -y >/dev/null
+          sudo apt-get install -y ffmpeg >/dev/null
+      - name: Build final-segment inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, pathlib, re, subprocess
+
+          manifest = json.loads(pathlib.Path('greg-again/audio/manifest.json').read_text())
+          out = []
+
+          def natural_key(p):
+              return [int(x) if x.isdigit() else x for x in re.split(r'(\d+)', p.name)]
+
+          for entry in manifest['chapters']:
+              n = int(entry['number'])
+              if n > 23:
+                  continue
+              written = pathlib.Path(f'r2/assets/written/ch{n:03d}.md')
+              lines = written.read_text(encoding='utf-8').splitlines()
+              final_line = next(x.strip() for x in reversed(lines) if x.strip())
+              if not final_line.endswith('...'):
+                  raise SystemExit(f'ch{n:03d} written ending missing ellipsis: {final_line}')
+
+              dirs = [
+                  pathlib.Path(f'greg-again/audio/assets/chunks/{n:03d}'),
+                  pathlib.Path(f'greg-again/audio/assets/chunks/{n:03d}-short'),
+              ]
+              files = []
+              for d in dirs:
+                  if d.is_dir():
+                      files.extend(d.glob('*.mp3'))
+              if n == 1:
+                  root = pathlib.Path('greg-again/audio/assets/chunks')
+                  files.extend([p for p in root.glob('*.mp3') if re.fullmatch(r'\d+\.mp3', p.name)])
+              files = sorted(set(files), key=natural_key)
+              if not files:
+                  raise SystemExit(f'no durable chunks for published ch{n:03d}')
+              final_chunk = files[-1]
+
+              probe = json.loads(subprocess.check_output([
+                  'ffprobe','-v','error','-show_entries','format=duration','-of','json',str(final_chunk)
+              ], text=True))
+              duration = float(probe['format']['duration'])
+              proc = subprocess.run([
+                  'ffmpeg','-hide_banner','-nostats','-i',str(final_chunk),
+                  '-af','silencedetect=noise=-45dB:d=0.25','-f','null','-'
+              ], text=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+              starts = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', proc.stderr)]
+              ends = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', proc.stderr)]
+              silences=[]
+              for i,s in enumerate(starts):
+                  e = ends[i] if i < len(ends) else duration
+                  silences.append({'start':s,'end':e,'duration':max(0,e-s),'suffix_after_end':max(0,duration-e)})
+
+              out.append({
+                  'chapter': n,
+                  'chapter_id': entry['chapter_id'],
+                  'title': entry['title'],
+                  'final_line': final_line,
+                  'final_chunk': str(final_chunk),
+                  'chunk_count': len(files),
+                  'final_chunk_duration': duration,
+                  'silences': silences[-12:],
+              })
+
+          pathlib.Path('greg-again/audio/production/ending-ellipsis-001-023').mkdir(parents=True, exist_ok=True)
+          p = pathlib.Path('greg-again/audio/production/ending-ellipsis-001-023/inventory.json')
+          p.write_text(json.dumps({'published_chapters':len(out),'chapters':out}, indent=2) + '\n')
+          print(p.read_text())
+          PY
+          git diff --check
+      - name: Commit inventory
+        run: |
+          set -euo pipefail
+          git config user.name Paiea
+          git config user.email paiea.tv@gmail.com
+          git add greg-again/audio/production/ending-ellipsis-001-023/inventory.json
+          git commit -m 'audio: inventory final segments for ending retrofit'
+          git fetch origin audio/greg-again-ending-ellipsis-001-023
+          git rebase origin/audio/greg-again-ending-ellipsis-001-023
+          git push origin HEAD:audio/greg-again-ending-ellipsis-001-023
