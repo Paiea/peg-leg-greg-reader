@@ -18,17 +18,20 @@ jobs:
         with:
           ref: audio/greg-again-ch026-auto
           fetch-depth: 0
-      - name: Reconcile newest main
+      - name: Configure git and reconcile newest main
         run: |
           set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git fetch origin main
           git merge --no-edit origin/main
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Build publication surfaces
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/assets/chunks/026-short greg-again/audio/takes greg-again/audio/verification
-          cp greg-again/audio/production/026/takes/ga026-take-*.mp3 greg-again/audio/assets/chunks/026-short/
           python - <<'PY'
           import csv, hashlib, json, subprocess
           from pathlib import Path
@@ -82,8 +85,6 @@ jobs:
       - name: Commit reconciled publication branch
         run: |
           set -euo pipefail
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add -A
           git commit -m 'Publish Greg Again Chapter 26 audio'
           git push origin HEAD:audio/greg-again-ch026-auto
