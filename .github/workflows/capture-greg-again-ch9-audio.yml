@@ -34,16 +34,16 @@ jobs:
           import fs from 'node:fs';
           import { chromium } from 'playwright';
           const jobs = [
-            ['01','4c0b4d4cb42949dfa8464012e3521853'],
-            ['02','c8f71f4bbd38475ca306eaa3ddd80940'],
-            ['03','bdf4f915654b45c29dce260b016d505b'],
-            ['04','c3b8bffc32704421b0494fbf061983ab'],
-            ['05','6b1cb564997f45249cbf36cda8b36d9b'],
-            ['06','54bdeb756fa745baac643b7fa23d148a'],
-            ['07','2296ccdd89644d76aae1866000a6e303'],
-            ['08','9a5c630dc3a845799d36f8ebacfa8c47'],
-            ['09','7d4f6928098b4c8bbda322eb1c1558a5'],
-            ['10','4c7ae721461b4d3db9324493a43ee08f']
+            ['01','21667d8a92c64adda3e4544d716c29b1'],
+            ['02','8a264f62ae334d638ed9056f2acc9a52'],
+            ['03','c1adde48589845aebbf7a3114e7c0612'],
+            ['04','373b5154bd8943d992e89926d93d7a89'],
+            ['05','c5f8502774024cd0b9720db5087a0c01'],
+            ['06','de539688ff394df497bbf3d119f5c8d8'],
+            ['07','b412a1f6165c428bb08178a9ee833150'],
+            ['08','618018912f694b99a8431b00495e2ee4'],
+            ['09','c76fa3dbe2e74f05988224f976f395fc'],
+            ['10','4520501211da4bb9b56016cdeec1c76c']
           ];
           const browser = await chromium.launch({headless:true});
           const failures=[];
