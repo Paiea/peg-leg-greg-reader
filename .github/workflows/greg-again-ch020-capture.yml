@@ -1,0 +1,93 @@
+name: Greg Again Chapter 20 capture
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch020-auto
+    paths:
+      - .github/workflows/greg-again-ch020-capture.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch020-auto
+          fetch-depth: 0
+      - name: Capture provider artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/020
+          python3 - <<'PY' > /tmp/urls.tsv
+          import json
+          p='greg-again/audio/takes/020.json'
+          d=json.load(open(p))
+          for t in d['takes']:
+              print(t['take']+'\t'+t['provider_audio_url']+'\t'+t['durable_file'])
+          PY
+          while IFS=$'\t' read -r take url dest; do
+            echo "Capturing take $take"
+            tmp="/tmp/ga020-${take}.mp3"
+            ok=0
+            for attempt in $(seq 1 40); do
+              if curl -L --fail --silent --show-error "$url" -o "$tmp" && ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$tmp" >/tmp/duration 2>/dev/null; then
+                if [ -s "$tmp" ]; then ok=1; break; fi
+              fi
+              echo "take $take not ready, attempt $attempt"
+              sleep 15
+            done
+            if [ "$ok" -ne 1 ]; then
+              echo "Failed to capture take $take" >&2
+              exit 1
+            fi
+            mkdir -p "$(dirname "$dest")"
+            mv "$tmp" "$dest"
+          done < /tmp/urls.tsv
+      - name: Stitch chapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/concat.txt
+          for f in greg-again/audio/assets/chunks/020/*.mp3; do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/concat.txt -c copy greg-again/audio/assets/chapter-020.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-020.mp3
+      - name: Record capture verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, subprocess
+          p='greg-again/audio/takes/020.json'
+          d=json.load(open(p))
+          total=0.0
+          for t in d['takes']:
+              f=t['durable_file']
+              dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',f], text=True).strip())
+              t['status']='artifact_captured'
+              t['duration_seconds']=round(dur,3)
+              total += dur
+          chapter='greg-again/audio/assets/chapter-020.mp3'
+          chapter_dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',chapter], text=True).strip())
+          d['capture_status']='verified_playable'
+          d['take_duration_sum_seconds']=round(total,3)
+          d['assembled_duration_seconds']=round(chapter_dur,3)
+          with open(p,'w') as fh:
+              json.dump(d, fh, indent=2)
+              fh.write('\n')
+          PY
+      - name: Commit durable audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add greg-again/audio/assets/chunks/020 greg-again/audio/assets/chapter-020.mp3 greg-again/audio/takes/020.json
+          git commit -m "audio: capture Chapter 20 provider takes" || exit 0
+          git push origin HEAD:audio/greg-again-ch020-auto
