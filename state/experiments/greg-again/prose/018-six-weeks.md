@@ -318,9 +318,9 @@ Two local instructors could conduct basic intake, but both were on city support 
 
 The specialist examiner came through Carrow on circuit.
 
-Last circuit had been eight days ago.
+The last circuit had been the week Mara left.
 
-I had been helping Mara pack.
+I had been elsewhere.
 
 Interesting collision.
 
@@ -718,16 +718,10 @@ Enough.
 
 There would be another day tomorrow whether I improved correctly or not.
 
-I had a letter moving toward Halden.
+The letter was moving toward Halden.
 
-A support assessment moving toward me.
+The receipt in my coat was six weeks from becoming useful.
 
-A future S-class peer currently written in a ledger as Silver.
-
-A Guild roof that might burn this winter.
-
-A Red Winter that probably would not arrive until the next one.
-
-And, for the first time since waking nineteen, a problem whose correct next action might actually be waiting.
+For the first time since waking nineteen, the correct next action might actually be waiting.
 
 I hated it immediately.
