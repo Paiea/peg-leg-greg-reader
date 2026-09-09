@@ -5,32 +5,38 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIO_ROOT = ROOT / "greg-again" / "audio"
+R2_ROOT = ROOT / "r2"
 
 
 class GregAgainAudioCatalogTest(unittest.TestCase):
-    def test_catalog_publishes_chapters_one_through_four(self):
+    def test_catalog_publishes_chapters_one_through_five(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         chapters = manifest["chapters"]
         by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
 
-        self.assertIn("ga-001", by_id)
-        self.assertIn("ga-002", by_id)
-        self.assertIn("ga-003", by_id)
-        self.assertIn("ga-004", by_id)
+        for number in range(1, 6):
+            self.assertIn(f"ga-{number:03d}", by_id)
+
         self.assertEqual("The Boy", by_id["ga-001"]["title"])
         self.assertEqual("Two Things", by_id["ga-002"]["title"])
         self.assertEqual("The Borrower", by_id["ga-003"]["title"])
         self.assertEqual("Thirty Days", by_id["ga-004"]["title"])
-        self.assertEqual("assets/chapter-001.mp3", by_id["ga-001"]["audio_src"])
-        self.assertEqual("assets/chapter-002.mp3", by_id["ga-002"]["audio_src"])
-        self.assertEqual("assets/chapter-003.mp3", by_id["ga-003"]["audio_src"])
-        self.assertEqual("assets/chapter-004.mp3", by_id["ga-004"]["audio_src"])
+        self.assertEqual("The Partner", by_id["ga-005"]["title"])
+
+        for number in range(1, 6):
+            self.assertEqual(
+                f"assets/chapter-{number:03d}.mp3",
+                by_id[f"ga-{number:03d}"]["audio_src"],
+            )
+
         self.assertEqual("greg-dominant", by_id["ga-002"]["lens"])
         self.assertEqual("greg-dominant", by_id["ga-003"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-004"]["lens"])
+        self.assertEqual("shared-greg-surface", by_id["ga-005"]["lens"])
+        self.assertEqual("processing-space", by_id["ga-005"]["audio_finish"])
 
-    def test_chapters_two_through_four_audio_are_durable_and_nontrivial(self):
-        for number in (2, 3, 4):
+    def test_chapters_two_through_five_audio_are_durable_and_nontrivial(self):
+        for number in (2, 3, 4, 5):
             chapter = AUDIO_ROOT / "assets" / f"chapter-{number:03d}.mp3"
             self.assertTrue(chapter.exists())
             self.assertGreater(chapter.stat().st_size, 1_000_000)
@@ -52,6 +58,23 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("DO NOT WRITE TICS FOR PERFORMANCE", script)
         self.assertIn("HEAR → MOVE → UNDERSTAND", script)
         self.assertIn("STOP BUYING SHALE. COME SEE THIS.", script)
+
+    def test_chapter_five_preserves_processing_space_contract(self):
+        script = (AUDIO_ROOT / "scripts" / "005-the-partner.md").read_text(encoding="utf-8")
+        self.assertIn("DO NOT OPTIMIZE AWAY PROCESSING TIME", script)
+        self.assertIn("PROCESSING SPACE", script)
+        self.assertIn("SMOOTHNESS IS NOT AUTOMATICALLY CLARITY", script)
+        self.assertIn("Being smarter had not removed the idiot.", script)
+        self.assertIn("It had given him better arguments.", script)
+
+    def test_r2_chapter_five_routes_published_audio(self):
+        chapter = json.loads((R2_ROOT / "data/chapters/ch005.json").read_text(encoding="utf-8"))
+        self.assertEqual("The Partner", chapter["title"])
+        self.assertEqual("published", chapter["audio"]["status"])
+        self.assertEqual(
+            "../greg-again/audio/assets/chapter-005.mp3",
+            chapter["audio"]["path"],
+        )
 
     def test_public_page_renders_catalog_instead_of_one_hardcoded_chapter(self):
         html = (AUDIO_ROOT / "index.html").read_text(encoding="utf-8")

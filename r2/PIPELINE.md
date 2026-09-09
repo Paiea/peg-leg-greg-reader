@@ -60,12 +60,33 @@ It may:
 
 - split paragraphs into breath-sized units
 - isolate a word or phrase when the pause reflects cognition
-- add a rare reset, self-correction, or repetition when one-pass listening genuinely needs it
+- add a reset, self-correction, repetition, connective thought, or tiny reaction when one-pass listening genuinely benefits from the processing space
 - simplify syntax that is hard to understand once
 - make speaker ownership explicit when the ear would otherwise lose it
 - preserve voice breaches and binding language with special care
 
 It may not add story facts, transfer another character's agency or expertise to Greg, invent dialogue for liveliness, or substantially rewrite a Shared Greg Surface that already works aloud.
+
+## Processing time
+
+> **DO NOT OPTIMIZE AWAY PROCESSING TIME.**
+
+Audio clarity is not the same thing as linguistic efficiency. A listener cannot glance backward on the page, so the cleanest or shortest sentence is not automatically the clearest spoken experience.
+
+Repetition, resets, self-correction, short reactions, connective thought, and pauses may be functional when they give the listener time to:
+
+- construct the physical moment
+- orient to who is acting
+- anticipate consequence
+- absorb an emotional turn
+- follow Greg's model changing in real time
+- register a joke before the next piece of information arrives
+
+A repeated word or extra thought must buy cognition, orientation, anticipation, comedy, or emotional absorption. Do not add verbal debris merely to make a voice sound more human.
+
+> **Smoothness is not automatically clarity.**
+
+When a moment becomes too compressed to process by ear, prefer an earned beat of Greg over a perfectly efficient sentence.
 
 ## Written Finish
 
@@ -116,7 +137,7 @@ Example: a cart enters and becomes more salient than Greg's current thought. If 
 
 ### Audio only
 
-If the problem is breath, pause length, pronunciation, one-pass clarity, audible speaker ownership, or performance timing, revise only Audio Finish.
+If the problem is breath, pause length, pronunciation, one-pass clarity, audible speaker ownership, processing time, or performance timing, revise only Audio Finish.
 
 ### Written only
 
@@ -132,8 +153,8 @@ This is not a quota or automated gate. Story clarity wins when a scene genuinely
 
 ## Legacy experiments
 
-Existing Chapters 1-3 are experimental evidence that helped discover this pipeline.
+Existing Chapters 1-3 are experimental evidence that helped discover this pipeline. Chapter 4 is also useful as a smoother Shared Greg Surface control after the first processing-space tests.
 
-Do not force-rewrite or regenerate them merely to make them conform. Reconcile older chapters only when a real listen-back, page-read, or story revision justifies the work.
+Do not force-rewrite or regenerate older chapters merely to make them conform. Reconcile older chapters only when a real listen-back, page-read, or story revision justifies the work.
 
-Future chapters should use the Shared Greg Surface model by default.
+Future chapters should use the Shared Greg Surface model by default, with selective processing space in Audio Finish when the listener needs time to build or absorb the moment.

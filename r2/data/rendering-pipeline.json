@@ -27,7 +27,16 @@
     "greg_owns_pov_not_causal_universe": true,
     "outside_language_may_be_state_changing": true,
     "medium_finishes_may_not_add_story_facts": true,
-    "provider_markup_in_shared_surface": false
+    "provider_markup_in_shared_surface": false,
+    "do_not_optimize_away_processing_time": true,
+    "processing_space_may_use": [
+      "pause",
+      "repetition",
+      "reset",
+      "self_correction",
+      "connective_thought",
+      "tiny_reaction"
+    ]
   },
   "similarity": {
     "heuristic_lexical_overlap_percent": [90, 97],

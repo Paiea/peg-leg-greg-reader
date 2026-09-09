@@ -47,6 +47,18 @@
       "duration_seconds": 728.976,
       "audio_src": "assets/chapter-004.mp3",
       "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics."
+    },
+    {
+      "chapter_id": "ga-005",
+      "number": 5,
+      "title": "The Partner",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 14,
+      "duration_seconds": 748.944,
+      "audio_src": "assets/chapter-005.mp3",
+      "note": "Chapter 5 applies the processing-space Audio Finish: repetition, resets, connective thought, tiny reactions, and pauses are used selectively so the listener can construct Greg's changing model without optimizing away useful processing time."
     }
   ]
 }
