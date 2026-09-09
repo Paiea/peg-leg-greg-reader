@@ -353,10 +353,14 @@ Assembly must:
 1. order takes numerically
 2. include every take exactly once
 3. preserve intentional end/start silence when it carries useful processing space
-4. avoid accidental duplicated phrases at seams
-5. avoid accidental missing phrases at seams
-6. avoid adding decorative sound design, music, crossfades, or performance effects unless separately authorized
-7. produce the established chapter audio artifact path used by the Greg, Again manifest/catalog
+4. end the final listener-facing chapter with about **2.0 seconds of trailing silence after the final spoken word**; an existing natural tail of roughly **1.5–2.5 seconds** is acceptable and does not need normalization
+5. apply chapter-tail silence at final chapter assembly only, not by adding extra silence to every take or internal seam
+6. avoid accidental duplicated phrases at seams
+7. avoid accidental missing phrases at seams
+8. avoid adding decorative sound design, music, crossfades, or performance effects unless separately authorized
+9. produce the established chapter audio artifact path used by the Greg, Again manifest/catalog
+
+The chapter-tail rule is a **forward-production finishing default**. Do not retroactively regenerate, restitch, or republish already-published chapters solely to normalize their trailing silence. Repair an older chapter only when its listener-facing ending is actually abrupt or a separate audio repair is authorized.
 
 Do not publish the individual provider takes as if they were the audiobook chapter. They are production components.
 
@@ -449,6 +453,7 @@ For every published chapter verify at minimum:
 - duration metadata is recorded when required
 - manifest/catalog entries point to the correct artifact
 - neighboring workers' chapters were not overwritten
+- for chapters produced after adoption of the chapter-tail rule, the final listener-facing file has about **2.0 seconds of silence after the final spoken word**; roughly **1.5–2.5 seconds** is acceptable
 
 When one local take fails, prefer repairing the smallest responsible take rather than regenerating the whole chapter.
 
