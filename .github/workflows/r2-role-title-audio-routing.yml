@@ -1,0 +1,50 @@
+name: Wire R2 Audio Title Routing
+
+on:
+  push:
+    branches:
+      - r2/role-title-authority
+    paths:
+      - '.github/workflows/r2-role-title-audio-routing.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: r2/role-title-authority
+      - name: Wire title authority into audio production
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('r2/AUDIO_PRODUCTION.md')
+          text = path.read_text(encoding='utf-8')
+          heading = '## R2 chapter title authority\n'
+          if heading not in text:
+              marker = 'Current GitHub authority outranks chat history and stale handoff text.\n'
+              if marker not in text:
+                  raise SystemExit('Could not locate audio authority marker')
+              section = '''Current GitHub authority outranks chat history and stale handoff text.\n\n## R2 chapter title authority\n\nBefore deciding, reconciling, or publishing chapter title metadata, read `r2/TITLE_POLICY.md`.\n\nFor selected/public R2 chapters:\n\n- chapter number and `ga-NNN` own audio identity; title text never does\n- the selected R2 written heading owns semantic title authority\n- audio-manifest title metadata follows that selected heading by stable chapter number\n- a title rename does **not** make existing audio missing, stale, unowned, or eligible for regeneration\n- never synthesize, reclaim, or replace provider work merely to normalize a renamed title\n- when shared title metadata drifts, reconcile newest `main` first, preserve every non-title audio field, then repair title metadata only\n- use `python scripts/sync_r2_role_titles.py --check` as the parity guard when the selected/public R2 surfaces are present\n\nThe title policy is editorial; audio production remains an identity- and artifact-preservation system.\n'''
+              text = text.replace(marker, section, 1)
+              path.write_text(text, encoding='utf-8')
+          PY
+          git diff --check
+          grep -Fq '## R2 chapter title authority' r2/AUDIO_PRODUCTION.md
+          grep -Fq 'title rename does **not** make existing audio missing' r2/AUDIO_PRODUCTION.md
+      - name: Commit audio routing rule
+        run: |
+          if git diff --quiet; then
+            echo 'Audio title routing already present.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/AUDIO_PRODUCTION.md
+          git commit -m 'docs: route audio titles through selected R2 authority'
+          git push origin HEAD:r2/role-title-authority
