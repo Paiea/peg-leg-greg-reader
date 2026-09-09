@@ -1,0 +1,28 @@
+name: Reconcile Greg Again Chapter 22
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch022-auto
+    paths:
+      - .github/workflows/greg-again-ch022-reconcile.yml
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch022-auto
+          fetch-depth: 0
+      - name: Merge newest main
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git merge --no-edit origin/main
+          git push origin HEAD:audio/greg-again-ch022-auto
