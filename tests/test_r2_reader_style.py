@@ -3,6 +3,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parents[1]
 R2 = ROOT / 'r2'
+AUDIO = ROOT / 'greg-again' / 'audio'
 
 
 class R2ReaderStyleTests(unittest.TestCase):
@@ -27,6 +28,31 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn("'Iowan Old Style'", css)
         self.assertIn('Baskerville', css)
         self.assertIn('<meta name="theme-color" content="#e5d8bd">', html)
+
+    def test_r2_surfaces_expose_audio_experiments_as_first_class_navigation(self):
+        homepage = (R2 / 'index.html').read_text(encoding='utf-8')
+        chapter = (R2 / 'chapter.html').read_text(encoding='utf-8')
+        self.assertIn('../greg-again/audio/', homepage)
+        self.assertIn('>Audio<', homepage)
+        self.assertIn('../greg-again/audio/', chapter)
+        self.assertIn('>Audio<', chapter)
+        for path in ['chapters/index.html', 'gallery/index.html', 'about/index.html']:
+            html = (R2 / path).read_text(encoding='utf-8')
+            self.assertIn('../../greg-again/audio/', html, path)
+            self.assertIn('>Audio<', html, path)
+
+    def test_audio_experiments_links_back_to_r2_and_matches_publication_surface(self):
+        html = (AUDIO / 'index.html').read_text(encoding='utf-8')
+        css = (AUDIO / 'audio.css').read_text(encoding='utf-8')
+        self.assertIn('PEG-LEG GREG', html)
+        self.assertIn('../../r2/', html)
+        self.assertIn('R2 Home', html)
+        self.assertIn('../../r2/chapters/', html)
+        self.assertIn('Chapters', html)
+        self.assertIn('color-scheme: light', css)
+        self.assertIn('--paper: #e5d8bd', css)
+        self.assertIn('background: var(--paper)', css)
+        self.assertIn("'Iowan Old Style'", css)
 
     def test_chapter_page_prioritizes_reading_over_panels(self):
         css = (R2 / 'assets/css/r2.css').read_text(encoding='utf-8')
