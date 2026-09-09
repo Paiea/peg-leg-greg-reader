@@ -1,0 +1,59 @@
+name: Apply R2 Chapter Ending Ellipsis Rule
+
+on:
+  push:
+    branches:
+      - docs/r2-ending-ellipsis-rule
+    paths:
+      - .github/workflows/r2-ending-ellipsis-rule.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: docs/r2-ending-ellipsis-rule
+      - name: Update writing and audio brains
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          pipeline = Path('r2/PIPELINE.md')
+          text = pipeline.read_text()
+          anchor = """It may not conventionalize Greg away, add story facts, transfer causal ownership, or become a transcript-cleanup pass after an independently authored audio rewrite.\n\n## Core cleanup rule\n"""
+          replacement = """It may not conventionalize Greg away, add story facts, transfer causal ownership, or become a transcript-cleanup pass after an independently authored audio rewrite.\n\n### Chapter-ending punctuation\n\nR2 uses a visible chapter-ending ellipsis as the default house convention. The final prose sentence of a completed chapter should normally end with `...` so the chapter lands as a settling final thought instead of visually or vocally suggesting that the narration is about to continue.\n\nThe ellipsis belongs to the Shared Greg Surface / written rendition and is therefore visible in Read. Audio should inherit it rather than inventing a separate provider-only ending mark. Do not add a new sentence merely to manufacture closure. Preserve the chapter's actual final thought and change only its terminal punctuation when this convention is being applied.\n\nTreat `...` as the default, not an absolute law. A deliberate question, exclamation, interruption, quoted form, or other ending may keep different terminal punctuation when the ending itself requires it. Such exceptions should be intentional rather than accidental.\n\n## Core cleanup rule\n"""
+          if anchor not in text:
+              raise SystemExit('PIPELINE anchor missing')
+          pipeline.write_text(text.replace(anchor, replacement, 1))
+
+          production = Path('r2/AUDIO_PRODUCTION.md')
+          text = production.read_text()
+          anchor = """7. do not silently paraphrase the text because a provider call is inconvenient\n\nA useful deterministic naming shape is:\n"""
+          replacement = """7. do not silently paraphrase the text because a provider call is inconvenient\n\n### Final-take landing\n\nThe final take should inherit the authoritative written chapter ending, including the R2 default terminal `...`. Do not create a separate hidden punctuation version merely for the voice provider when the written surface already carries the landing cue.\n\nThe purpose is performance: the last spoken thought should settle downward and sound complete rather than rising like a question or sounding as though another sentence is about to follow. If the renderer still gives the authoritative final line a continuation-like cadence, repair or regenerate only the smallest final take that owns that ending. Preserve all acceptable earlier takes.\n\nThe written ellipsis and the assembled chapter-tail silence solve different problems. The ellipsis shapes delivery; the roughly 2-second assembly tail gives the listener room after the final spoken word. Keep both rules.\n\n### Pronunciation authority\n\nWritten spelling remains authoritative for Read. Provider-facing pronunciation substitutions may be used when needed without changing the displayed prose. In particular:\n\n- written `mana` stays `mana`\n- provider-facing `mana` should be rendered as `mah-nah` when needed to preserve the approved pronunciation\n\nRecord such pronunciation substitutions in production evidence when they differ from the written spelling. Do not flow phonetic provider spellings back into the written chapter unless the prose itself is separately edited.\n\nA useful deterministic naming shape is:\n"""
+          if anchor not in text:
+              raise SystemExit('AUDIO_PRODUCTION voice anchor missing')
+          text = text.replace(anchor, replacement, 1)
+
+          anchor = """- neighboring workers' chapters were not overwritten\n- for chapters produced after adoption of the chapter-tail rule, the final listener-facing file has about **2.0 seconds of silence after the final spoken word**; roughly **1.5–2.5 seconds** is acceptable\n"""
+          replacement = """- neighboring workers' chapters were not overwritten\n- the final take preserves the authoritative chapter-ending punctuation and lands as a completed, downward final thought rather than an accidental question / continuation\n- approved pronunciation substitutions such as written `mana` -> provider `mah-nah` are preserved where relevant\n- for chapters produced after adoption of the chapter-tail rule, the final listener-facing file has about **2.0 seconds of silence after the final spoken word**; roughly **1.5–2.5 seconds** is acceptable\n"""
+          if anchor not in text:
+              raise SystemExit('AUDIO_PRODUCTION verification anchor missing')
+          production.write_text(text.replace(anchor, replacement, 1))
+          PY
+
+          git diff --check
+          grep -n 'Chapter-ending punctuation' r2/PIPELINE.md
+          grep -n 'Final-take landing' r2/AUDIO_PRODUCTION.md
+          grep -n 'written `mana` stays `mana`' r2/AUDIO_PRODUCTION.md
+          git rm .github/workflows/r2-ending-ellipsis-rule.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/PIPELINE.md r2/AUDIO_PRODUCTION.md
+          git commit -m 'docs: define R2 chapter ending ellipsis convention'
+          git push origin HEAD:docs/r2-ending-ellipsis-rule
