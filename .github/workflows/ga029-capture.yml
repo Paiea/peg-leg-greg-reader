@@ -20,7 +20,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: audio/greg-again-ch029-auto
-          fetch-depth: 0
+          fetch-depth: 1
+
+      - name: Install ffmpeg
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version
+          ffprobe -version
 
       - name: Capture provider MP3s
         shell: bash
