@@ -8,25 +8,48 @@ on:
       - .github/workflows/audio-fetch-test.yml
 
 jobs:
-  inspect-provider-page:
+  inspect-provider-client:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch provider landing page
+      - name: Fetch landing page and client chunks
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p out
-          curl --fail --location --retry 3 --retry-delay 2 \
-            'https://www.aidocmaker.com/g0/audio?name=98aef78da55b4520a8acf2c5636c7d56' \
-            -o out/provider.html
-          test -s out/provider.html
-          file out/provider.html
-          echo '--- media-like references ---'
-          grep -Eo 'https?://[^"'"'"'<> ]+|src=["'"'"'][^"'"'"']+|href=["'"'"'][^"'"'"']+' out/provider.html | grep -Ei 'audio|mp3|wav|m4a|media|storage|download|blob|g0' | head -100 || true
-          echo '--- audio tokens ---'
-          grep -Eio '.{0,120}(audio|mp3|wav|m4a|download|storage|blob).{0,220}' out/provider.html | head -100 || true
+          mkdir -p out/chunks
+          PAGE='https://www.aidocmaker.com/g0/audio?name=98aef78da55b4520a8acf2c5636c7d56'
+          curl --fail --location "$PAGE" -o out/provider.html
+          python - <<'PY' > out/script-paths.txt
+          import re
+          s=open('out/provider.html',encoding='utf-8').read()
+          for p in re.findall(r'<script[^>]+src="([^"]+)"', s):
+              print(p)
+          PY
+          while IFS= read -r p; do
+            [ -n "$p" ] || continue
+            f="out/chunks/$(basename "${p%%\?*}")"
+            curl --fail --location "https://www.aidocmaker.com$p" -o "$f"
+          done < out/script-paths.txt
+          python - <<'PY'
+          from pathlib import Path
+          needles=('audio','name=','searchParams','download','storage','blob','api/','audioUrl','audio_url','fileUrl','file_url')
+          found=[]
+          for p in Path('out/chunks').glob('*.js'):
+              s=p.read_text(errors='ignore')
+              low=s.lower()
+              if any(n.lower() in low for n in needles):
+                  import re
+                  for m in re.finditer(r'(?i).{0,180}(audio|searchParams|download|storage|blob|audioUrl|audio_url|fileUrl|file_url|/api/).{0,320}',s):
+                      found.append(f'FILE {p.name}\n{m.group(0)}\n')
+                      if len(found)>=120: break
+              if len(found)>=120: break
+          print('\n'.join(found))
+          Path('out/matches.txt').write_text('\n'.join(found))
+          PY
       - uses: actions/upload-artifact@v4
         with:
-          name: ga012-provider-page
-          path: out/provider.html
+          name: ga012-provider-client-inspect
+          path: |
+            out/provider.html
+            out/script-paths.txt
+            out/matches.txt
           if-no-files-found: error
