@@ -117,6 +117,7 @@ Watch for local overuse of:
 - `No.`
 - `Wait.`
 - `Of course.`
+- `Apparently.`
 - one-line fragments
 - repeated self-correction cadence
 - every observation ending as a joke
@@ -125,6 +126,30 @@ Watch for local overuse of:
 Do not ban recurring tics. Ask whether each occurrence reflects an actual cognitive move.
 
 If removing half the tics changes nothing about Greg's thinking, the renderer is imitating the surface rather than rendering the mind.
+
+### Listening correction
+
+A Chapter 2 A/B/C listen comparison found that the Greg-dominant **page-native** surface was preferred over a more deliberately audio-fragmented version using the same voice/software.
+
+The more segmented version sounded too smooth rather than more cognitively alive.
+
+Current interpretation:
+
+> **PAUSES COME FROM CONTRAST, NOT FRAGMENTATION.**
+
+Do not add tics, resets, repeated words, self-corrections, or isolated fragments merely to create an audiobook performance surface.
+
+> **DO NOT WRITE TICS FOR PERFORMANCE.**
+
+Useful pause structure may instead come from sentence variation, paragraph contrast, punctuation, action interruption, and one genuinely isolated line surrounded by normal flow.
+
+If a tic represents Greg's actual cognition, keep it in the shared surface and let both page and ear inherit it.
+
+If listening alone reveals a specific failure, repair that failure in audio rather than changing Greg by default.
+
+Evidence:
+
+`state/experiments/greg-again/evals/002-shared-surface-listen-test.md`
 
 ## UPDATE 5 — FAILURE BECOMES LEARNING, NOT DOCTRINE
 
@@ -155,6 +180,20 @@ For each comparison record:
 - any Greg tic or flattening failure
 
 STORY SYNC may learn repeated patterns such as `training tends Greg-dominant` or `intimacy wants more voice breach`, but these remain priors rather than hard style laws.
+
+## SHARED-SURFACE ROUTING
+
+When a render change appears useful, classify it before promoting it:
+
+- **GREG EXPERIENCE** — cognition, salience, interruption, interpretation, voice ownership, or behavior truth. Move upstream so both media inherit it.
+- **EAR ONLY** — one-pass clarity, audible referents, needed spoken pause, synthesis failure. Keep audio-only.
+- **EYE ONLY** — paragraph shape, visual repetition, page punctuation, reread-friendly density. Keep written-only.
+
+Do not enforce a lexical overlap percentage.
+
+Use:
+
+> **DIFFERENCES REQUIRE A MEDIUM REASON.**
 
 ## COMPACT SCENE CARD
 
