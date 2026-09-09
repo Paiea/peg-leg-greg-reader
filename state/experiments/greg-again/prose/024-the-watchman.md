@@ -354,10 +354,6 @@ Edda looked over once.
 
 Harl gave one short nod.
 
-Three people doing three different jobs.
-
-Nobody needed to become the solution.
-
 A larger glasshorn came around the bend.
 
 Male, probably.
@@ -642,24 +638,6 @@ Harl tapped the board with one finger.
 
 "It makes the route seasonal until proven otherwise."
 
-There it was.
-
-Not monster attack.
-
-Not road failure.
-
-A herd had somewhere to be.
-
-The road office had somewhere else it wanted people to be.
-
-Same strip of ground.
-
-Problem.
-
-I left the interpretation there.
-
-Harl did not need help having his own thought.
-
 We packed the shelf.
 
 Pate came down the loose stone carefully, then stopped at the road and smelled every hoofprint as if gathering evidence for a lawsuit.
@@ -699,9 +677,5 @@ I considered arguing.
 Then Harl called back that the road narrowed again ahead and Edda moved past me to look.
 
 Conversation over.
-
-Apparently competence had consequences.
-
-Fine.
 
 I followed them west.
