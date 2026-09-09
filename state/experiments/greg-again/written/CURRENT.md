@@ -628,7 +628,7 @@ Do not promote Greg, Again prose into canon merely because the experiment wins l
 
 ---
 
-# CURRENT FRONTIER UPDATE — CHAPTERS 21–23
+# CURRENT FRONTIER UPDATE — CHAPTERS 21–24
 
 This section is newer authority than the historical `Frontier after Chapter 20` material above.
 
@@ -754,51 +754,85 @@ Surviving discovery:
 
 The identity is behavioral before it is institutional.
 
-## Current frontier after Chapter 23
+## 24 — The Watchman
+
+Selected prose:
+
+`state/experiments/greg-again/prose/024-the-watchman.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/024-story-search.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/024-watchman-eval.md`
+
+Greg's second watch produces a real field problem: after the cold rain, a seasonal glasshorn herd moves through the limestone West Cut corridor.
+
+Greg recognizes the herd from repeated first-life field experience before the others can identify it clearly. His useful claim is behavioral rather than theoretical: get people and Pate out of the corridor and do not turn normal herd movement into a fight.
+
+Edda owns the immediate escort decision and moves the camp to a higher shelf. Harl handles Pate and the survey gear competently.
+
+The herd passes without combat, support magic, or lore exposition.
+
+By daylight, Harl verifies current corridor use from the fresh tracks and treats the route as seasonally constrained until the remaining survey proves where herd use begins and ends.
+
+Surviving discovery:
+
+> **A field problem does not have to become a fight for Old Greg's adventurer experience to matter.**
+
+## Current frontier after Chapter 24
 
 Current selected state:
 
-- selected written frontier is Chapter 23, **The Adventurer**.
-- Greg is west of Carrow on a multi-day Guild / road-office route-verification contract.
-- the contract is expected to take at least four days and may take longer depending on route condition and weather.
-- Edda is the Bronze escort lead for this job.
-- Harl Fen is the road-office surveyor and owns route certification.
-- Pate is Harl's pack mule.
-- the old West Cut stone crossing is materially damaged and cannot carry a loaded animal safely in its current condition.
-- an upstream ford still exists and has been verified usable for the party's loaded mule.
-- Greg's remembered later geography correctly identified the ford from the willow landmark.
-- Greg's future knowledge is allowed to work cleanly when present evidence proves it.
-- Greg spent roughly three copper refreshing field supplies.
-- Greg's support capability did not increase and was not used in Chapter 23.
-- Greg's better sword remains current field equipment and requires ordinary maintenance.
+- selected written frontier is Chapter 24, **The Watchman**.
+- Greg remains west of Carrow on the multi-day Guild / road-office West Cut route-verification contract.
+- Edda remains the Bronze escort lead and owns immediate field-safety decisions.
+- Harl Fen remains the road-office surveyor and owns route certification.
+- Pate remains Harl's pack mule and was handled competently during the night move.
+- the old West Cut stone crossing remains materially damaged and unusable for loaded animals in its current state.
+- the upstream ford remains present and verified usable.
+- after cold rain, a glasshorn herd used the limestone West Cut corridor during Greg's second watch.
+- glasshorns are established only narrowly here as large herd animals with translucent mineral horn-sheaths that can show faint pale light in wet darkness.
+- a moving glasshorn herd can be dangerous in a constrained corridor without being predatory or malicious.
+- Greg has repeated first-life practical experience with glasshorn behavior.
+- Greg believes glasshorns commonly use limestone corridors after the first cold rains while moving down from higher ground, but exact local chronology, duration, and annual route use remain unproved.
+- current tracks establish active herd-corridor use on this section of the Cut now.
+- Harl currently treats this part of the route as seasonally constrained until the survey establishes where the animals enter and leave and what that means for reliable pack traffic.
+- the route-verification contract continues west. The quarry spur, west slope, and remaining post-rain route condition remain unresolved.
+- Greg's fieldcraft received a clean win through recognition and restraint rather than combat.
+- Greg's support capability did not increase and was not used in Chapter 24.
+- Greg's better sword was not drawn and remains ordinary maintained field equipment.
+- Greg / Edda work trust has increased slightly through repeated competence without a friendship declaration.
+- Edda now has stronger reason to notice that Greg possesses more field experience than his age plausibly explains, but she does not know why and did not force the question.
 - Greg's formal support assessment remains weeks away and off-page.
-- Kesra Dain remains off-page and should not be pulled closer merely because Greg is now traveling.
-- Noll remains Greg's current neighbor. He also revealed he used to take carts on the West Cut before working at the brick yard.
-- Lower Rook Street fire residue continues offscreen.
+- Kesra Dain remains off-page and should not be pulled closer merely because Greg is traveling.
+- Noll remains Greg's current neighbor; Lower Rook Street fire residue continues offscreen.
 - Mara correspondence continues on packet time.
 - Arlo and Ivena continue operating the filtration venture without Greg at center.
-- North Gate remains standing and unresolved; its logistics pressure helped create the West Cut contract without owning the chapter setting.
+- North Gate remains standing and unresolved; its logistics pressure helped create the West Cut contract without owning the current field story.
 - the Guild fire remains a coming-Deepwinter long shadow with no established cause.
 - Red Winter remains farther out and does not require near-term treatment.
 - Jorren remains north.
 - Tavin remains somewhere south with a river company.
 - Vey Shipping remains living present infrastructure rather than proven destiny-company history.
-- the long-range map permits warrior / adventurer life, larger geography, artifacts, historical people, eventual left lower-leg loss, and other distant gravity without scheduling any of them.
-- no Chapter 24 event is preselected.
+- no artifact, Seven Lamps reveal, future-famous person, leg-loss setup, theatre route, Kesra movement, or Chapter 25 event is preselected.
 
-## Immediate next pressure after 23
+## Immediate next pressure after 24
 
-Search from the actual route state, not from the long-range map.
+Search from the remaining survey days, not from the long-range map.
 
 Useful live questions include:
 
-- what does the West Cut actually produce on the remaining survey days?
-- does present terrain confirm, alter, or kill the route?
+- where do the current glasshorn tracks enter and leave the Cut, and does that materially change Harl's route verdict?
+- what do the quarry spur, west slope, and post-rain terrain actually produce?
+- does the West Cut become certifiable, seasonally usable, partially useful, or dead for the intended traffic?
 - what do Edda and Harl do that Greg would not have done?
-- what does several days outside Carrow change in Greg's body, money, field habits, or attention?
-- what changes back in Carrow while he is absent?
+- what does several days of repeated field work change in Greg's body, money, habits, or work shorthand with Edda and Harl?
+- what changes back in Carrow while Greg is absent?
 
-Do not force a monster, ruin, artifact, future-famous person, or North Gate revelation merely because the widened operating scale makes them available.
+Do not force another creature encounter, artifact, ruin, future-famous person, Kesra appearance, North Gate revelation, or other long-range attractor merely because the fantasy world is now wider.
 
 Continue writing the Shared Greg Surface directly.
 
