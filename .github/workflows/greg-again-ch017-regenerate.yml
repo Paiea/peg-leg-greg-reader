@@ -1,0 +1,74 @@
+name: Capture regenerated Greg Again Chapter 17
+on:
+  push:
+    branches: [audio/greg-again-batch-015-017]
+    paths: [.github/workflows/greg-again-ch017-regenerate.yml]
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Capture and stitch
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/017
+          cat > /tmp/urls <<'EOF'
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0d6a802d-0106-470a-8713-a95d61eb3a78.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/49a13ad3-095f-4e27-9cb0-c83da77f376f.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cd13a18f-ceb8-4182-a567-3820028bba7d.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/41227609-85e2-4c67-8b9a-fec566475141.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2496a9e4-1a65-49a5-a87c-fa35c43c638f.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e2b92acb-2e2a-4518-bd44-727239e05569.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dbba12d5-0095-40ea-aef4-2a384b811ed9.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fee75f2e-d3fe-4245-a702-f3a3afe316d5.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bba95e21-c0fc-47ea-b13d-9a8bc2e20248.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/894698a3-754e-44bf-976a-78112df59845.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/47e73885-f9aa-42ec-bb1d-7d637b329835.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6d4f11e6-5d62-45b3-92da-fce18876ddfd.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2999676c-b873-4b66-8a49-45dbf492b847.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/79b59b63-52cd-4eb4-9076-8326c61aa22d.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5f7ae4cc-75e5-45c6-bb89-4b897501d5f4.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5ec489ec-7c2b-4529-8d3f-0e16c46b966d.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1b28481d-ffe2-477d-9a83-98f26dc868bb.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/18f28563-a7b2-4ad5-96fb-7a6a5a2b752f.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/422e8ed6-f8da-4a27-8847-c0c8c1dc253c.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c27ca09c-2d7d-43f9-9003-ba5c1842566b.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9439de2f-6a34-410e-9acf-fa8c7ef1df74.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/610adae7-43dc-4893-aac0-ea0f7340ff85.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f8499d43-b086-4b6a-807f-15c347e19e18.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b65c92f6-44ac-40bd-a950-800661a7163f.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1cd0c9e-c206-4533-ac40-939f8b3f43b9.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/baa00fae-82ca-43b0-a37b-b4a0e16bbcfa.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f183569c-4bb8-4ef4-b3de-ef10ab8f49d2.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5ffc2c76-e317-45bf-9479-06ee96fee869.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4574b75f-9c51-4028-953f-7446c6dd6f0a.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/14f9e990-30bd-4e4e-90b6-267bb5287188.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/58126318-1749-4a0b-9182-9206b5dd119b.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c4c76a4d-301e-4d72-bc3f-015681b998fa.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b83035e7-bdca-404f-a1fc-6335ebce84a4.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b663d7a4-03c0-4923-814e-41b4401fd994.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a89c3d36-e2e8-4c07-9070-eea613daa5e1.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a5d7c2e4-70cb-4891-bd35-abcbc6369539.mp3
+https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0f952bb8-7b08-41e1-8964-b65fc8b9738e.mp3
+EOF
+          : > /tmp/concat.txt
+          n=0
+          while IFS= read -r url; do
+            n=$((n+1)); f=$(printf 'greg-again/audio/assets/chunks/017/%02d.mp3' "$n")
+            curl -fL --retry 3 "$url" -o "$f"
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f"
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/concat.txt
+          done < /tmp/urls
+          ffmpeg -v error -f concat -safe 0 -i /tmp/concat.txt -c copy greg-again/audio/assets/chapter-017.mp3
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 greg-again/audio/assets/chapter-017.mp3
+      - name: Commit durable audio
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/017 greg-again/audio/assets/chapter-017.mp3
+          git commit -m 'audio: capture regenerated Chapter 17 takes'
+          git push
