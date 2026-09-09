@@ -1,0 +1,24 @@
+{
+  "chapter_id": "ga-013",
+  "number": 13,
+  "reader_title": "The Fighter",
+  "written_source": "r2/assets/written/ch013.md",
+  "written_source_sha": "3ecba1f063e00271f48800b67c544ed58410b5a3",
+  "voice": "deep",
+  "audio_finish": "processing-space",
+  "guardrail": "THE RIGHT TOOL IS NOT THE RIGHT ANSWER.",
+  "takes": [
+    {"take":1,"first":"The sword was still there.","last":"I bought the sword.","provider_context_id":"6daa7d18801a441e964f8b4bf6d06b7f","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=6daa7d18801a441e964f8b4bf6d06b7f","durable_file":"greg-again/audio/assets/chunks/013/01.mp3","status":"generated"},
+    {"take":2,"first":"The smith wrapped the old one without asking whether I wanted to trade it.","last":"The new sword felt heavier on my belt because money had weight too.","provider_context_id":"c6425902e9ac47c2ae8f39f3e46dc6ca","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=c6425902e9ac47c2ae8f39f3e46dc6ca","durable_file":"greg-again/audio/assets/chunks/013/02.mp3","status":"generated"},
+    {"take":3,"first":"Two other Bronze fighters met me outside.","last":"Better.","provider_context_id":"50610bc49b7246f5befa500b7de34a94","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=50610bc49b7246f5befa500b7de34a94","durable_file":"greg-again/audio/assets/chunks/013/03.mp3","status":"generated"},
+    {"take":4,"first":"We entered the yard.","last":"Several wet hides slid off anyway and landed at my feet.","provider_context_id":"f02a4cc647c8415d9f1b8ac562fd7581","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=f02a4cc647c8415d9f1b8ac562fd7581","durable_file":"greg-again/audio/assets/chunks/013/04.mp3","status":"generated"},
+    {"take":5,"first":"The hooktail bolted toward the broken wall panel.","last":"Still an animal attached to the tail.","provider_context_id":"759adf808c1a4e98bdebef20d2fa9dc7","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=759adf808c1a4e98bdebef20d2fa9dc7","durable_file":"greg-again/audio/assets/chunks/013/05.mp3","status":"generated"},
+    {"take":6,"first":"Edda's spear struck the ground in front of its face.","last":"Edda lost the spear.","provider_context_id":"0d4403328e9741df82b47c0f77526fca","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=0d4403328e9741df82b47c0f77526fca","durable_file":"greg-again/audio/assets/chunks/013/06.mp3","status":"generated"},
+    {"take":7,"first":"The hooktail ran with it hanging from the wound.","last":"I stepped out of the opening instead.","provider_context_id":"ddd68cb41b524e269947e4793077c7cc","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=ddd68cb41b524e269947e4793077c7cc","durable_file":"greg-again/audio/assets/chunks/013/07.mp3","status":"generated"},
+    {"take":8,"first":"The hooktail took the escape.","last":"Done.","provider_context_id":"2f6b5cabf8ef4664bc268c5fea94acae","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=2f6b5cabf8ef4664bc268c5fea94acae","durable_file":"greg-again/audio/assets/chunks/013/08.mp3","status":"generated"},
+    {"take":9,"first":"We returned to the yard.","last":"No speech required.","provider_context_id":"09d914a259364f4d9bf9afa0083816f4","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=09d914a259364f4d9bf9afa0083816f4","durable_file":"greg-again/audio/assets/chunks/013/09.mp3","status":"generated"},
+    {"take":10,"first":"The Guild paid hazard rate because the hooktail had crossed into a second commercial yard.","last":"That was enough.","provider_context_id":"697278c4b6c0465eb4831e204c8a09be","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=697278c4b6c0465eb4831e204c8a09be","durable_file":"greg-again/audio/assets/chunks/013/10.mp3","status":"generated"},
+    {"take":11,"first":"Back in my room, I counted what remained.","last":"Later.","provider_context_id":"7a056a065cca4c8a8ffcc0cb903b574a","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=7a056a065cca4c8a8ffcc0cb903b574a","durable_file":"greg-again/audio/assets/chunks/013/11.mp3","status":"generated"},
+    {"take":12,"first":"The marked cord sat near the window.","last":"That mattered more tonight.","provider_context_id":"74e3726447fb4069ba7748d7b640992d","provider_audio_url":"https://www.aidocmaker.com/g0/audio?name=74e3726447fb4069ba7748d7b640992d","durable_file":"greg-again/audio/assets/chunks/013/12.mp3","status":"generated"}
+  ]
+}
