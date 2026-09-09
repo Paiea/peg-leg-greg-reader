@@ -12,19 +12,54 @@ permissions:
   contents: write
 
 jobs:
-  verify-provider-transport:
+  assemble:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download queued provider take
+      - name: Download, verify, and assemble queued chapters
+        shell: bash
         run: |
-          mkdir -p /tmp/ga-audio
-          for i in $(seq 1 30); do
-            if curl -fL --retry 2 --retry-delay 2 'https://www.aidocmaker.com/g0/audio?name=a9b6ca920b60470db8a87f206533cee3' -o /tmp/ga-audio/take01.mp3; then
-              if ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/ga-audio/take01.mp3; then
-                exit 0
+          set -euo pipefail
+          mkdir -p /tmp/ga-audio greg-again/audio/assets
+          shopt -s nullglob
+          for job in greg-again/audio/production/015-017/ch*.urls; do
+            chapter="$(basename "$job" .urls | sed 's/^ch//')"
+            work="/tmp/ga-audio/$chapter"
+            mkdir -p "$work"
+            : > "$work/concat.txt"
+            while IFS='|' read -r take context url; do
+              [ -n "$take" ] || continue
+              out="$work/${take}.mp3"
+              ok=0
+              for attempt in $(seq 1 60); do
+                if curl -fL --retry 2 --retry-delay 2 "$url" -o "$out"; then
+                  if ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$out" >/dev/null 2>&1; then
+                    ok=1
+                    break
+                  fi
+                fi
+                sleep 5
+              done
+              if [ "$ok" -ne 1 ]; then
+                echo "Provider take $chapter/$take ($context) never became playable" >&2
+                exit 1
               fi
-            fi
-            sleep 5
+              printf "file '%s'\n" "$out" >> "$work/concat.txt"
+            done < "$job"
+            final="greg-again/audio/assets/chapter-${chapter}.mp3"
+            ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i "$work/concat.txt" -c copy "$final"
+            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$final" | tee "$work/duration.txt"
           done
-          exit 1
+      - name: Commit assembled chapter audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-*.mp3
+          if git diff --cached --quiet; then
+            echo 'No new chapter audio to commit.'
+            exit 0
+          fi
+          git commit -m 'Assemble Greg Again audio batch 015-017'
+          git push
