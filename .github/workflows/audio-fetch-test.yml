@@ -1,0 +1,29 @@
+name: Greg Again Audio Fetch Test
+
+on:
+  push:
+    branches:
+      - audio/greg-again-batch-012-014
+    paths:
+      - .github/workflows/audio-fetch-test.yml
+
+jobs:
+  fetch-take-01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch exact provider artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          curl --fail --location --retry 3 --retry-delay 2 \
+            'https://www.aidocmaker.com/g0/audio?name=98aef78da55b4520a8acf2c5636c7d56' \
+            -o out/01.mp3
+          test -s out/01.mp3
+          file out/01.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1 out/01.mp3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ga012-take01
+          path: out/01.mp3
+          if-no-files-found: error
