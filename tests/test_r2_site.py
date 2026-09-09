@@ -20,7 +20,7 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(chapter['chapter_id'], 'r2-ch001')
         self.assertEqual(chapter['title'], 'The Boy')
         self.assertEqual(chapter['audio']['status'], 'published')
-        self.assertEqual(chapter['audio']['path'], '../../greg-again/audio/assets/chapter-001.mp3')
+        self.assertEqual(chapter['audio']['path'], '../greg-again/audio/assets/chapter-001.mp3')
         self.assertEqual(chapter['written']['status'], 'unavailable')
         self.assertEqual(chapter['images'], [])
 
