@@ -25,7 +25,7 @@ The written lane searches in this order:
 ```text
 CURRENT STORY STATE
 → WHAT SHOULD ACTUALLY HAPPEN NEXT?
-→ PERFORMANCE / OUTSIDE AGENCY
+→ PERFORMANCE / OUTSIDE AGENCY WHEN UNCERTAINTY EARNS IT
 → SUBJECTIVE LENS
 → PAGE-NATIVE PROSE
 → COMPARE AGAINST PRIOR MATERIAL WHEN USEFUL
@@ -37,6 +37,23 @@ Primary debrief guardrails now live at:
 `state/experiments/greg-again/written/DEBRIEF_GUARDRAILS.md`
 
 They are experimental pressures, not locked style rules.
+
+## Tool-use posture
+
+> **Use tools as leverage, not ceremony.**
+
+The chapter writer stays fast.
+
+Use cheap local story judgment when the next causal movement is already clear.
+
+Escalate to stronger machinery only when it answers a consequential uncertainty better:
+
+- CHARACTER PRESSURE / PERFORMANCE for behaviorally uncertain relationship crossings, confrontations, negotiations, intimacy, or other high-heat scenes
+- time/action pressure when elapsed time or residue is genuinely uncertain
+- long-range compiler / forward-backward rehearsal when local chapters risk losing distant pull
+- STORY SYNC only when repeated evidence needs conservative promotion
+
+Do not run every chapter through every layer because the layers exist.
 
 ## Current written grammar under pressure
 
@@ -223,79 +240,111 @@ Batch evaluation:
 
 Greg chooses paid work and liquidity instead of another upgrade.
 
-A routine repair becomes a structural emergency. Greg contributes through present judgment and coordination rather than magical progression.
-
-The Northern Gate becomes the first explicit long shadow:
-
-> Greg remembers it eventually collapses. He has no evidence that today's repair matters.
-
-Preserve that uncertainty.
+A routine repair becomes a structural emergency. The Northern Gate becomes the first explicit long shadow: Greg remembers it eventually collapses but has no evidence today's repair matters.
 
 ### 12 — Mara
 
 `state/experiments/greg-again/prose/012-mara.md`
 
-Greg confronts the ordinary human history his future memory failed to preserve.
-
-Mara remembers young Greg's recent life better than he does, including Tavin, eight months in her mother's back room after his parents died, and two kisses Greg cannot remember.
+Mara remembers young Greg's ordinary life better than he does, including Tavin, eight months in her mother's back room after his parents died, and two kisses Greg cannot remember.
 
 Useful pressure:
 
 > **History remembers what becomes important. People remember what was important to them.**
 
-Direct dialogue rises because Mara's exact language changes relationship state.
-
-Mara leaves Carrow in four days at chapter start.
-
 ### 13 — The Good Sword
 
 `state/experiments/greg-again/prose/013-the-good-sword.md`
 
-Greg spends a meaningful portion of road pay on the balanced sword previously preserved as quarry.
+Greg spends a meaningful portion of road pay on the balanced sword. Proper support instruction becomes temporarily unaffordable and cash reserve shrinks.
 
-This closes immediate options: proper support instruction is no longer affordable and cash reserve shrinks.
+An urban hooktail response proves the better tool improves blade control and recovery without repairing Greg's positioning or judgment.
 
-An urban hooktail response proves that the better tool materially improves blade control and recovery without repairing Greg's positioning or judgment.
+## Chapters 14–15 — Mara Departure Crossing
 
-The chapter stops rather than converting that evidence into another progression lecture.
+High-heat rehearsal:
 
-## Frontier after Chapter 13
+`state/experiments/greg-again/rehearsals/014-mara-performance.md`
+
+Evaluation:
+
+`state/experiments/greg-again/evals/014-015-mara-crossing.md`
+
+### 14 — The Back Room
+
+`state/experiments/greg-again/prose/014-the-back-room.md`
+
+Greg turns down a useful two-day warehouse contract rather than pretending he can fit Mara around it.
+
+He returns to Mara's mother's house, helps pack the move, and encounters mundane embodied memory of the back room where he lived after his parents died.
+
+Result:
+
+> **PRESENCE IS EVIDENCE, NOT PAYMENT.**
+
+Choosing Mara costs money but does not purchase forgiveness, restored memory, or romance.
+
+Mara chooses a smaller possible future: packet-boat letters, provided Greg does not let her make decisions around confidence he does not actually possess.
+
+### 15 — The Morning Barge
+
+`state/experiments/greg-again/prose/015-the-morning-barge.md`
+
+Mara leaves Carrow on schedule.
+
+The departure remains ordinary: crates, food, shipping papers, patched barge, family instructions, one hug.
+
+Mara does not ask Greg to follow her and does not ask him to become young Greg again.
+
+She asks for something narrower:
+
+> **Write something true.**
+
+Mara's mother gives Greg the old deck Tavin first owned and later gave him. The cards produce one small ordinary-memory fragment but no convenient restoration.
+
+The chapter deliberately stops before Greg converts the key, support cord, and old cards into a theory.
+
+## Frontier after Chapter 15
 
 Current selected state:
 
-- Greg has no Vale debt.
-- Greg bought the better-balanced sword and has less cash reserve.
-- proper support instruction is temporarily unaffordable.
-- Greg's tiny support plane remains real but is not the current curriculum.
-- Greg can now distinguish more clearly which sword errors were tool compensation and which belong to him.
+- Mara has left Carrow for Halden.
+- Mara and Greg remain emotionally unresolved but a packet-boat letter route exists every seventh day.
+- Mara wants truthful contact, not confident invention.
+- Mara's mother remains alive and connected to Greg's missing ordinary past.
+- Greg has the old card deck once owned by Tavin and one small fragment of playing cards in the back room.
+- Greg sacrificed a useful two-day contract and still needs income.
+- Greg has the better sword but less cash reserve.
+- proper support instruction remains deferred.
+- Greg's tiny support plane remains available capability but is not the foreground curriculum.
 - Arlo and Ivena have a real four-unit filter order and can continue without Greg.
 - Jorren remains north.
 - Sella remains a familiar institutional relationship.
-- Northern Gate is an active long shadow with no present proof of cause.
-- Mara has confronted Greg's missing youth-memory directly.
-- Mara leaves Carrow in two days.
-- Greg has written the deadline down.
-- Mara's mother is alive and still represents a piece of Greg's youth he has not revisited.
-- Tavin, who taught young Greg cards, is alive and working south with a river company.
-- Greg's memory bias toward historically important material now has personal cost on-page.
+- Northern Gate remains an open long shadow with no present proof of cause.
+- Tavin remains alive somewhere south with a river company.
+- Greg has now experienced both kinds of future pressure: historically important events he remembers and ordinary people he failed to preserve.
 
 ## Immediate next pressure
 
-> **WILL GREG CHOOSE A PERSON WHEN THE SYSTEM OFFERS HIM A PROFITABLE REASON NOT TO?**
+Do not immediately follow Mara to Halden.
 
-The next chapter should make Mara's two-day deadline compete with something materially useful:
+Do not investigate North Gate simply because the thread exists.
 
-- paid work Greg genuinely needs after buying the sword
-- an Arlo/Ivena business need that can proceed without him
-- another attractive progression opportunity
+Greg needs money, but the next chapter should not merely reset to generic contract board work.
 
-If Greg chooses Mara, the sacrifice should cost something real.
+Cheap story search should ask:
 
-If he does not, the relationship should move without waiting for him.
+> **What consequence of Chapters 11–15 arrives now because Greg spent time, money, and attention elsewhere?**
 
-Do not immediately investigate Northern Gate.
+Strong live vectors include:
 
-Do not resume support curriculum merely because that lane is available.
+- Arlo/Ivena's order encountering a production or ownership consequence while Greg was occupied
+- Vale updating his assessment of Greg after repayment and visible new activity
+- city/Guild consequences from the North Gate emergency without explaining the long shadow
+- a new opportunity arising from Greg's road reputation or recent emergency work
+- Tavin or river-company information arriving indirectly, without turning memory into a scavenger hunt
+
+Use stronger compiler machinery only if the next causal choice is genuinely ambiguous.
 
 Do not run audio synthesis from this lane.
 
