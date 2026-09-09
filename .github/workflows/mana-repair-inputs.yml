@@ -1,0 +1,37 @@
+name: Materialize mana repair provider inputs
+on:
+  push:
+    branches: [audio/greg-again-mana-pronunciation-repair]
+    paths: [.github/workflows/mana-repair-inputs.yml]
+permissions:
+  contents: write
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-mana-pronunciation-repair
+      - shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          q=json.loads(Path('greg-again/audio/production/2026-09-08-mana-repair-queue.json').read_text(encoding='utf-8'))
+          root=Path('greg-again/audio/production/mana-repair-inputs')
+          root.mkdir(parents=True,exist_ok=True)
+          for e in q['entries']:
+              p=root/f"ch{e['chapter']:03d}-t{e['take']:02d}.txt"
+              p.write_text(e['provider_transcript'].rstrip()+'\n',encoding='utf-8')
+          files=sorted(root.glob('*.txt'))
+          if len(files)!=q['take_count']:
+              raise SystemExit(f"input count mismatch {len(files)} != {q['take_count']}")
+          print('\n'.join(str(p) for p in files))
+          PY
+          rm .github/workflows/mana-repair-inputs.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/mana-repair-inputs .github/workflows/mana-repair-inputs.yml
+          git commit -m 'audio: materialize approved mana repair provider inputs'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair
