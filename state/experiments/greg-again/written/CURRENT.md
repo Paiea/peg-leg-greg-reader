@@ -32,11 +32,17 @@ CURRENT STORY STATE
 → KEEP ONLY SURVIVING LEARNING
 ```
 
-Primary debrief guardrails now live at:
+Primary debrief guardrails:
 
 `state/experiments/greg-again/written/DEBRIEF_GUARDRAILS.md`
 
-They are experimental pressures, not locked style rules.
+Chapter 1 short-horizon promise ledger:
+
+`state/experiments/greg-again/written/CHAPTER_1_PROMISE_LEDGER.md`
+
+The promise ledger exists because R2 is likely to cover months to roughly a year rather than hundreds of chapters of open-ended time. It distinguishes promises that must be revisited from texture that does not deserve forced payoff.
+
+At roughly five-chapter frontiers, glance at the ledger for abandonment or natural opportunities. Do not turn it into a quota.
 
 ## Tool-use posture
 
@@ -132,7 +138,7 @@ The useful variable may be angle, timing, load direction, or placement rather th
 
 Combat is one kind of action.
 
-Technical failure, gambling, negotiation, industrial hazard, mechanical emergency, road violence, rescue, travel, intimacy, magical failure, institutional pressure, and relationship confrontation can all count when decisions immediately change state.
+Technical failure, gambling, negotiation, industrial hazard, mechanical emergency, road violence, rescue, travel, intimacy, magical failure, institutional pressure, relationship confrontation, and binding ownership decisions can all count when decisions immediately change state.
 
 ### FUTURE KNOWLEDGE IS LATER REALITY, NOT PRESENT TERRAIN
 
@@ -302,49 +308,86 @@ She asks for something narrower:
 
 Mara's mother gives Greg the old deck Tavin first owned and later gave him. The cards produce one small ordinary-memory fragment but no convenient restoration.
 
-The chapter deliberately stops before Greg converts the key, support cord, and old cards into a theory.
+Chapter 15 also gives a cheap Chapter 1 promise echo: Mara departs on a small present-day Vey Shipping packet. Greg recognizes the much larger later company but does not yet know whether this is the exact merchant-family success story he questioned in Chapter 1.
 
-## Frontier after Chapter 15
+### 16 — Three Names
+
+`state/experiments/greg-again/prose/016-three-names.md`
+
+Story search:
+
+`state/experiments/greg-again/rehearsals/016-story-search.md`
+
+Greg returns to Arlo and Ivena after spending money and attention elsewhere.
+
+The four-unit order is complete. Ivena has brought additional customers and has become too causally important to remain merely the first customer.
+
+She demands ownership in the current filtration venture based on process knowledge, safety changes, customer access, and new capital.
+
+Greg can preserve more of his remembered-future upside only by contributing cash he no longer has or borrowing again.
+
+He instead accepts dilution. Ivena becomes a formal third owner.
+
+Useful result:
+
+> **A smaller share of a system that can move without Greg may be more valuable than controlling a system that waits for him.**
+
+Do not immediately convert this into a lesson speech or investment victory. The venture is simply more alive and Greg owns less of it.
+
+## Frontier after Chapter 16
 
 Current selected state:
 
-- Mara has left Carrow for Halden.
-- Mara and Greg remain emotionally unresolved but a packet-boat letter route exists every seventh day.
-- Mara wants truthful contact, not confident invention.
-- Mara's mother remains alive and connected to Greg's missing ordinary past.
-- Greg has the old card deck once owned by Tavin and one small fragment of playing cards in the back room.
-- Greg sacrificed a useful two-day contract and still needs income.
-- Greg has the better sword but less cash reserve.
+- Mara is in transit to Halden through Vey Shipping.
+- Mara and Greg have a packet-letter route every seventh day; no letter has yet been written on-page.
+- Mara wants truthful contact rather than reconstructed certainty.
+- Mara's mother and Tavin remain active ordinary-past connections.
+- Greg has Tavin's old card deck, the brass key, and the marked support cord.
+- Greg bought the better sword and sacrificed a useful warehouse contract, so liquid cash remains limited.
 - proper support instruction remains deferred.
-- Greg's tiny support plane remains available capability but is not the foreground curriculum.
-- Arlo and Ivena have a real four-unit filter order and can continue without Greg.
+- Greg's tiny support plane remains available but is not the foreground curriculum.
+- Arlo's workshop remains Arlo's.
+- the filtration formulation venture now has three formal owners: Arlo, Greg, and Ivena.
+- Greg's share has been diluted equally with Arlo's to make room for Ivena.
+- Ivena has independent ownership, customer-referral economics, and capital at risk.
+- two additional local businesses have placed orders for six units total.
+- production capacity and brass fittings are current constraints.
+- the venture can continue without Greg and is now even less protagonist-dependent.
 - Jorren remains north.
 - Sella remains a familiar institutional relationship.
-- Northern Gate remains an open long shadow with no present proof of cause.
-- Tavin remains alive somewhere south with a river company.
-- Greg has now experienced both kinds of future pressure: historically important events he remembers and ordinary people he failed to preserve.
+- Northern Gate remains an open long shadow.
+- Vey Shipping is now a visible present-day version of a later larger company, but the exact relation to Chapter 1's merchant-family memory remains unproven.
+- Tavin remains somewhere south with a river company.
+
+## Chapter 1 promise posture
+
+See:
+
+`state/experiments/greg-again/written/CHAPTER_1_PROMISE_LEDGER.md`
+
+Strong open obligations include:
+
+- Guild fire horizon placement
+- Soren / Red Winter chronology placement
+- at least one later S-class peer / social-history thread
+- the unresolved second letter
+- continued proof around river-shipping history without forcing Mara into a destiny role
+
+Do not pay these all at once.
 
 ## Immediate next pressure
 
-Do not immediately follow Mara to Halden.
+Chapter 16 is binding action rather than physical action. Energy can swing physical again next.
 
-Do not investigate North Gate simply because the thread exists.
+Strong live vectors:
 
-Greg needs money, but the next chapter should not merely reset to generic contract board work.
+- Greg needs cash and cannot solve it through the filtration venture immediately because current capital is going back into production
+- a road / river / city job can use his recent reputation without becoming generic contract-board filler
+- Vale may now view Greg as a useful operator rather than a debtor
+- North Gate consequences can alter city work without revealing the long shadow
+- one Chapter 1 promise may ride inside a live event if it fits cheaply, but the event must work without the ledger
 
-Cheap story search should ask:
-
-> **What consequence of Chapters 11–15 arrives now because Greg spent time, money, and attention elsewhere?**
-
-Strong live vectors include:
-
-- Arlo/Ivena's order encountering a production or ownership consequence while Greg was occupied
-- Vale updating his assessment of Greg after repayment and visible new activity
-- city/Guild consequences from the North Gate emergency without explaining the long shadow
-- a new opportunity arising from Greg's road reputation or recent emergency work
-- Tavin or river-company information arriving indirectly, without turning memory into a scavenger hunt
-
-Use stronger compiler machinery only if the next causal choice is genuinely ambiguous.
+Before too much more in-story time passes, cheaply place the Guild fire and Red Winter relative to the likely months-to-one-year R2 horizon.
 
 Do not run audio synthesis from this lane.
 
