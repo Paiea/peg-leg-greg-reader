@@ -1,0 +1,651 @@
+{
+  "method": "faster-whisper small.en word timestamps + exact historical target + nearby silence snap",
+  "targets": [
+    {
+      "target": "ch003-t04-m01",
+      "chapter": 3,
+      "take": 4,
+      "old_diagnostic": {
+        "target": "ch003-t04-m01",
+        "chapter": 3,
+        "take": 4,
+        "paragraph_index": 21,
+        "span_start_paragraph": 21,
+        "span_end_paragraph": 21,
+        "paragraph_count": 28,
+        "original_duration": 60.744,
+        "detected_silence_count": 59,
+        "splice_start": 43.019,
+        "splice_end": 46.473,
+        "original_region_duration": 3.454,
+        "micro_duration": 3.504,
+        "left_boundary": {
+          "expected": 43.401,
+          "silence_start": 42.665,
+          "silence_end": 43.373,
+          "center": 43.019,
+          "silence_duration": 0.708,
+          "error_seconds": 0.382
+        },
+        "right_boundary": {
+          "expected": 46.644,
+          "silence_start": 46.446,
+          "silence_end": 46.5,
+          "center": 46.473,
+          "silence_duration": 0.054,
+          "error_seconds": 0.171
+        },
+        "max_boundary_error": 0.382,
+        "confidence_threshold": 3.341,
+        "min_boundary_silence": 0.054,
+        "status": "low_confidence",
+        "original_text": "Mana conditioning would cost once I found a teacher.",
+        "provider_text": "Mah-nah conditioning would cost once I found a teacher."
+      },
+      "asr_ratio": 1.0,
+      "asr_score": 1.0,
+      "asr_avg_probability": 0.96,
+      "asr_words": [
+        "mana",
+        "conditioning",
+        "would",
+        "cost",
+        "once",
+        "i",
+        "found",
+        "a",
+        "teacher"
+      ],
+      "speech_start": 43.56,
+      "speech_end": 45.74,
+      "left_silence": [
+        42.6656,
+        43.3723,
+        43.018950000000004
+      ],
+      "right_silence": [
+        45.6134,
+        45.6513,
+        45.63235
+      ],
+      "status": "high_confidence_asr",
+      "splice_start": 43.019,
+      "splice_end": 45.632,
+      "region_duration": 2.613,
+      "provider_text": "Mah-nah conditioning would cost once I found a teacher."
+    },
+    {
+      "target": "ch006-t05-m01",
+      "chapter": 6,
+      "take": 5,
+      "old_diagnostic": {
+        "target": "ch006-t05-m01",
+        "chapter": 6,
+        "take": 5,
+        "status": "low_confidence",
+        "diagnostic": {
+          "reason": "too_few_silences",
+          "expected_boundaries": 37,
+          "candidate_silences": 33
+        }
+      },
+      "asr_ratio": 0.0,
+      "asr_score": 0.0,
+      "asr_avg_probability": 0.647,
+      "asr_words": [
+        "purple",
+        "black",
+        "paste"
+      ],
+      "speech_start": 0.0,
+      "speech_end": 0.9,
+      "left_silence": [
+        0.0,
+        0.060125,
+        0.0300625
+      ],
+      "right_silence": [
+        1.65979,
+        1.74817,
+        1.70398
+      ],
+      "status": "low_confidence",
+      "reason": "asr_or_silence_gate_failed"
+    },
+    {
+      "target": "ch006-t06-m01",
+      "chapter": 6,
+      "take": 6,
+      "old_diagnostic": {
+        "target": "ch006-t06-m01",
+        "chapter": 6,
+        "take": 6,
+        "status": "low_confidence",
+        "diagnostic": {
+          "reason": "too_few_silences",
+          "expected_boundaries": 36,
+          "candidate_silences": 31
+        }
+      },
+      "asr_ratio": 0.5,
+      "asr_score": 0.45,
+      "asr_avg_probability": 0.773,
+      "asr_words": [
+        "mana"
+      ],
+      "speech_start": 8.74,
+      "speech_end": 8.74,
+      "left_silence": [
+        7.2655,
+        7.29283,
+        7.279165000000001
+      ],
+      "right_silence": [
+        9.58008,
+        9.64462,
+        9.61235
+      ],
+      "status": "low_confidence",
+      "reason": "asr_or_silence_gate_failed"
+    },
+    {
+      "target": "ch006-t10-m01",
+      "chapter": 6,
+      "take": 10,
+      "old_diagnostic": {
+        "target": "ch006-t10-m01",
+        "chapter": 6,
+        "take": 10,
+        "paragraph_index": 20,
+        "span_start_paragraph": 20,
+        "span_end_paragraph": 20,
+        "paragraph_count": 37,
+        "original_duration": 85.368,
+        "detected_silence_count": 85,
+        "splice_start": 38.577,
+        "splice_end": 39.447,
+        "original_region_duration": 0.87,
+        "micro_duration": 1.2,
+        "left_boundary": {
+          "expected": 38.107,
+          "silence_start": 38.548,
+          "silence_end": 38.606,
+          "center": 38.577,
+          "silence_duration": 0.058,
+          "error_seconds": 0.47
+        },
+        "right_boundary": {
+          "expected": 40.032,
+          "silence_start": 39.404,
+          "silence_end": 39.491,
+          "center": 39.447,
+          "silence_duration": 0.087,
+          "error_seconds": 0.585
+        },
+        "max_boundary_error": 0.585,
+        "confidence_threshold": 4.695,
+        "min_boundary_silence": 0.058,
+        "status": "low_confidence",
+        "original_text": "Maybe mana salt.",
+        "provider_text": "Maybe mah-nah salt."
+      },
+      "asr_ratio": 0.0,
+      "asr_score": 0.0,
+      "asr_avg_probability": 0.86,
+      "asr_words": [
+        "she",
+        "looked",
+        "at"
+      ],
+      "speech_start": 0.0,
+      "speech_end": 0.5,
+      "left_silence": [
+        0.0,
+        0.062,
+        0.031
+      ],
+      "right_silence": null,
+      "status": "low_confidence",
+      "reason": "asr_or_silence_gate_failed"
+    },
+    {
+      "target": "ch018-t13-m01",
+      "chapter": 18,
+      "take": 13,
+      "old_diagnostic": {
+        "target": "ch018-t13-m01",
+        "chapter": 18,
+        "take": 13,
+        "paragraph_index": 2,
+        "span_start_paragraph": 2,
+        "span_end_paragraph": 2,
+        "paragraph_count": 3,
+        "original_duration": 30.648,
+        "detected_silence_count": 28,
+        "splice_start": 14.889,
+        "splice_end": 30.648,
+        "original_region_duration": 15.759,
+        "micro_duration": 14.184,
+        "left_boundary": {
+          "expected": 14.368,
+          "silence_start": 14.86,
+          "silence_end": 14.917,
+          "center": 14.889,
+          "silence_duration": 0.057,
+          "error_seconds": 0.521
+        },
+        "right_boundary": null,
+        "max_boundary_error": 0.521,
+        "confidence_threshold": 2.2,
+        "min_boundary_silence": 0.057,
+        "status": "low_confidence",
+        "original_text": "Support work involved other people's bodies, mana loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment.",
+        "provider_text": "Support work involved other people's bodies, mah-nah loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment."
+      },
+      "asr_ratio": 0.909,
+      "asr_score": 0.909,
+      "asr_avg_probability": 0.957,
+      "asr_words": [
+        "swordsmanship",
+        "alone",
+        "support",
+        "work",
+        "involved",
+        "other",
+        "people's",
+        "bodies",
+        "manalodes",
+        "ward",
+        "interactions",
+        "healing",
+        "delays",
+        "movement",
+        "assumptions",
+        "and",
+        "the",
+        "general",
+        "problem",
+        "that",
+        "a",
+        "bad",
+        "support",
+        "mage",
+        "could",
+        "make",
+        "competent",
+        "people",
+        "wrong",
+        "at",
+        "exactly",
+        "the",
+        "dangerous"
+      ],
+      "speech_start": 14.92,
+      "speech_end": 29.94,
+      "left_silence": [
+        14.881,
+        14.9145,
+        14.89775
+      ],
+      "right_silence": [
+        30.5124,
+        30.648,
+        30.580199999999998
+      ],
+      "status": "high_confidence_asr",
+      "splice_start": 14.898,
+      "splice_end": 30.58,
+      "region_duration": 15.682,
+      "provider_text": "Support work involved other people's bodies, mah-nah loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment."
+    },
+    {
+      "target": "ch018-t18-m01",
+      "chapter": 18,
+      "take": 18,
+      "old_diagnostic": {
+        "target": "ch018-t18-m01",
+        "chapter": 18,
+        "take": 18,
+        "paragraph_index": 1,
+        "span_start_paragraph": 1,
+        "span_end_paragraph": 1,
+        "paragraph_count": 14,
+        "original_duration": 23.04,
+        "detected_silence_count": 22,
+        "splice_start": 1.167,
+        "splice_end": 2.315,
+        "original_region_duration": 1.148,
+        "micro_duration": 0.96,
+        "left_boundary": {
+          "expected": 0.896,
+          "silence_start": 1.139,
+          "silence_end": 1.195,
+          "center": 1.167,
+          "silence_duration": 0.055,
+          "error_seconds": 0.271
+        },
+        "right_boundary": {
+          "expected": 2.1,
+          "silence_start": 2.046,
+          "silence_end": 2.583,
+          "center": 2.315,
+          "silence_duration": 0.537,
+          "error_seconds": 0.215
+        },
+        "max_boundary_error": 0.271,
+        "confidence_threshold": 2.2,
+        "min_boundary_silence": 0.055,
+        "status": "low_confidence",
+        "original_text": "Current mana.",
+        "provider_text": "Current mah-nah."
+      },
+      "asr_ratio": 0.0,
+      "asr_score": 0.0,
+      "asr_avg_probability": 0.963,
+      "asr_words": [
+        "i",
+        "counted"
+      ],
+      "speech_start": 0.0,
+      "speech_end": 0.4,
+      "left_silence": [
+        0.0,
+        0.0600833,
+        0.03004165
+      ],
+      "right_silence": [
+        0.505625,
+        0.531125,
+        0.518375
+      ],
+      "status": "low_confidence",
+      "reason": "asr_or_silence_gate_failed"
+    },
+    {
+      "target": "ch018-t32-m01",
+      "chapter": 18,
+      "take": 32,
+      "old_diagnostic": {
+        "target": "ch018-t32-m01",
+        "chapter": 18,
+        "take": 32,
+        "paragraph_index": 1,
+        "span_start_paragraph": 1,
+        "span_end_paragraph": 1,
+        "paragraph_count": 8,
+        "original_duration": 25.368,
+        "detected_silence_count": 21,
+        "splice_start": 2.544,
+        "splice_end": 6.675,
+        "original_region_duration": 4.131,
+        "micro_duration": 3.216,
+        "left_boundary": {
+          "expected": 2.738,
+          "silence_start": 2.221,
+          "silence_end": 2.867,
+          "center": 2.544,
+          "silence_duration": 0.646,
+          "error_seconds": 0.194
+        },
+        "right_boundary": {
+          "expected": 6.515,
+          "silence_start": 6.645,
+          "silence_end": 6.705,
+          "center": 6.675,
+          "silence_duration": 0.059,
+          "error_seconds": 0.16
+        },
+        "max_boundary_error": 0.194,
+        "confidence_threshold": 2.2,
+        "min_boundary_silence": 0.059,
+        "status": "low_confidence",
+        "original_text": "Training harder than my mana could support was one.",
+        "provider_text": "Training harder than my mah-nah could support was one."
+      },
+      "asr_ratio": 0.889,
+      "asr_score": 0.889,
+      "asr_avg_probability": 0.954,
+      "asr_words": [
+        "training",
+        "harder",
+        "than",
+        "my",
+        "manna",
+        "could",
+        "support",
+        "was",
+        "one"
+      ],
+      "speech_start": 5.02,
+      "speech_end": 7.42,
+      "left_silence": [
+        4.48925,
+        5.11867,
+        4.80396
+      ],
+      "right_silence": [
+        7.52987,
+        8.3305,
+        7.930185
+      ],
+      "status": "high_confidence_asr",
+      "splice_start": 4.804,
+      "splice_end": 7.93,
+      "region_duration": 3.126,
+      "provider_text": "Training harder than my mah-nah could support was one."
+    },
+    {
+      "target": "ch019-t07-m01",
+      "chapter": 19,
+      "take": 7,
+      "old_diagnostic": {
+        "target": "ch019-t07-m01",
+        "chapter": 19,
+        "take": 7,
+        "paragraph_index": 3,
+        "span_start_paragraph": 3,
+        "span_end_paragraph": 3,
+        "paragraph_count": 13,
+        "original_duration": 25.056,
+        "detected_silence_count": 21,
+        "splice_start": 7.516,
+        "splice_end": 10.024,
+        "original_region_duration": 2.508,
+        "micro_duration": 2.328,
+        "left_boundary": {
+          "expected": 7.786,
+          "silence_start": 7.285,
+          "silence_end": 7.746,
+          "center": 7.516,
+          "silence_duration": 0.461,
+          "error_seconds": 0.271
+        },
+        "right_boundary": {
+          "expected": 10.18,
+          "silence_start": 9.988,
+          "silence_end": 10.06,
+          "center": 10.024,
+          "silence_duration": 0.072,
+          "error_seconds": 0.156
+        },
+        "max_boundary_error": 0.271,
+        "confidence_threshold": 2.2,
+        "min_boundary_silence": 0.072,
+        "status": "low_confidence",
+        "original_text": "No mana crawling across the floor.",
+        "provider_text": "No mah-nah crawling across the floor."
+      },
+      "asr_ratio": 1.0,
+      "asr_score": 1.0,
+      "asr_avg_probability": 0.929,
+      "asr_words": [
+        "no",
+        "mana",
+        "crawling",
+        "across",
+        "the",
+        "floor"
+      ],
+      "speech_start": 7.76,
+      "speech_end": 9.38,
+      "left_silence": [
+        7.29154,
+        7.74604,
+        7.51879
+      ],
+      "right_silence": [
+        9.51071,
+        9.62208,
+        9.566395
+      ],
+      "status": "high_confidence_asr",
+      "splice_start": 7.519,
+      "splice_end": 9.566,
+      "region_duration": 2.048,
+      "provider_text": "No mah-nah crawling across the floor."
+    },
+    {
+      "target": "ch019-t08-m01",
+      "chapter": 19,
+      "take": 8,
+      "old_diagnostic": {
+        "target": "ch019-t08-m01",
+        "chapter": 19,
+        "take": 8,
+        "paragraph_index": 4,
+        "span_start_paragraph": 4,
+        "span_end_paragraph": 4,
+        "paragraph_count": 6,
+        "original_duration": 24.936,
+        "detected_silence_count": 29,
+        "splice_start": 11.232,
+        "splice_end": 17.655,
+        "original_region_duration": 6.423,
+        "micro_duration": 5.4,
+        "left_boundary": {
+          "expected": 12.094,
+          "silence_start": 10.937,
+          "silence_end": 11.528,
+          "center": 11.232,
+          "silence_duration": 0.591,
+          "error_seconds": 0.862
+        },
+        "right_boundary": {
+          "expected": 17.156,
+          "silence_start": 17.628,
+          "silence_end": 17.682,
+          "center": 17.655,
+          "silence_duration": 0.054,
+          "error_seconds": 0.499
+        },
+        "max_boundary_error": 0.862,
+        "confidence_threshold": 2.2,
+        "min_boundary_silence": 0.054,
+        "status": "low_confidence",
+        "original_text": "Dyehouse sludge had taught us about heat, flow, concentration, and mana-bearing waste.",
+        "provider_text": "Dyehouse sludge had taught us about heat, flow, concentration, and mah-nah-bearing waste."
+      },
+      "asr_ratio": 0.96,
+      "asr_score": 0.935,
+      "asr_avg_probability": 0.897,
+      "asr_words": [
+        "sludge",
+        "had",
+        "taught",
+        "us",
+        "about",
+        "heat",
+        "flow",
+        "concentration",
+        "and",
+        "mana",
+        "bearing",
+        "waste"
+      ],
+      "speech_start": 11.88,
+      "speech_end": 15.42,
+      "left_silence": [
+        10.938,
+        11.527,
+        11.2325
+      ],
+      "right_silence": [
+        15.5085,
+        15.5776,
+        15.543050000000001
+      ],
+      "status": "high_confidence_asr",
+      "splice_start": 11.232,
+      "splice_end": 15.543,
+      "region_duration": 4.311,
+      "provider_text": "Dyehouse sludge had taught us about heat, flow, concentration, and mah-nah-bearing waste."
+    },
+    {
+      "target": "ch022-t03-m01",
+      "chapter": 22,
+      "take": 3,
+      "old_diagnostic": {
+        "target": "ch022-t03-m01",
+        "chapter": 22,
+        "take": 3,
+        "paragraph_index": 62,
+        "span_start_paragraph": 62,
+        "span_end_paragraph": 62,
+        "paragraph_count": 71,
+        "original_duration": 76.608,
+        "detected_silence_count": 76,
+        "splice_start": 68.268,
+        "splice_end": 68.467,
+        "original_region_duration": 0.199,
+        "micro_duration": 2.112,
+        "left_boundary": {
+          "expected": 67.121,
+          "silence_start": 68.236,
+          "silence_end": 68.3,
+          "center": 68.268,
+          "silence_duration": 0.064,
+          "error_seconds": 1.147
+        },
+        "right_boundary": {
+          "expected": 68.082,
+          "silence_start": 68.325,
+          "silence_end": 68.609,
+          "center": 68.467,
+          "silence_duration": 0.284,
+          "error_seconds": 0.385
+        },
+        "max_boundary_error": 1.147,
+        "confidence_threshold": 4.213,
+        "min_boundary_silence": 0.064,
+        "status": "low_confidence",
+        "original_text": "Mana gathered badly, then enough.",
+        "provider_text": "Mah-nah gathered badly, then enough."
+      },
+      "asr_ratio": 0.333,
+      "asr_score": 0.233,
+      "asr_avg_probability": 0.54,
+      "asr_words": [
+        "then"
+      ],
+      "speech_start": 27.34,
+      "speech_end": 27.58,
+      "left_silence": [
+        27.1233,
+        27.1597,
+        27.1415
+      ],
+      "right_silence": [
+        27.7908,
+        27.8334,
+        27.8121
+      ],
+      "status": "low_confidence",
+      "reason": "asr_or_silence_gate_failed"
+    }
+  ],
+  "summary": {
+    "target_count": 10,
+    "high_confidence_asr": 5,
+    "low_confidence": 5
+  }
+}

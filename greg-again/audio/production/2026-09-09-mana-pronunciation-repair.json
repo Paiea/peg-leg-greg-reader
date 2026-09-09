@@ -1,0 +1,844 @@
+{
+  "repair": "Greg Again mana pronunciation surgical repair",
+  "main_source_authority": "d97333bfd737b74681296c9412000b6d8b9cdd81",
+  "canonical_spelling": "mana",
+  "canonical_text_changed": false,
+  "repair_action_count": 24,
+  "unique_source_count": 22,
+  "affected_chapters": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    11,
+    18,
+    19,
+    22
+  ],
+  "source_guard": [
+    {
+      "path": "greg-again/audio/assets/chapter-011.mp3",
+      "local_sha256": "6f57ce264fb0ec7fa7ee3c0c1cd522c05dd0366712728bd4159cef265279075d",
+      "current_main_sha256": "6f57ce264fb0ec7fa7ee3c0c1cd522c05dd0366712728bd4159cef265279075d",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/002/02.mp3",
+      "local_sha256": "d4967913056042fccf6eb1721ce2e26a6029e32f1ff90f9c1eaa423e904870ea",
+      "current_main_sha256": "d4967913056042fccf6eb1721ce2e26a6029e32f1ff90f9c1eaa423e904870ea",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/002/10.mp3",
+      "local_sha256": "049c58cc97b633f50ea8f5433a6e50e9c93d15a857ea7d298a8ba799cb9293bb",
+      "current_main_sha256": "049c58cc97b633f50ea8f5433a6e50e9c93d15a857ea7d298a8ba799cb9293bb",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/003/01.mp3",
+      "local_sha256": "705b6628cfeec6ea2820b1101b1175745bfa7abc2c65bc42ae7eb41f3a456da7",
+      "current_main_sha256": "705b6628cfeec6ea2820b1101b1175745bfa7abc2c65bc42ae7eb41f3a456da7",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/003/03.mp3",
+      "local_sha256": "bd9f145d6cf246a57e41ca9c260a418a3fb5f7215be390060c1428b2bfed0d10",
+      "current_main_sha256": "bd9f145d6cf246a57e41ca9c260a418a3fb5f7215be390060c1428b2bfed0d10",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/003/04.mp3",
+      "local_sha256": "822f9b5047161cac928f392df37185a4e3112ce2acd14618e79442dd41b7b971",
+      "current_main_sha256": "822f9b5047161cac928f392df37185a4e3112ce2acd14618e79442dd41b7b971",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/004/01.mp3",
+      "local_sha256": "612679ce8e99acdb96e08db8958d17061d2ea80c3092cb41b9ff77fcd49ef619",
+      "current_main_sha256": "612679ce8e99acdb96e08db8958d17061d2ea80c3092cb41b9ff77fcd49ef619",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/004/02.mp3",
+      "local_sha256": "725f6fde2d53b9cae9806fe89d6a7aa2eedef5d96d3e7a66c3179f7d0e42b812",
+      "current_main_sha256": "725f6fde2d53b9cae9806fe89d6a7aa2eedef5d96d3e7a66c3179f7d0e42b812",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/005/04.mp3",
+      "local_sha256": "fcee20c6294b16c03cc8769883c25f563214af64bd8a0ddb4b5109a2c21572e4",
+      "current_main_sha256": "fcee20c6294b16c03cc8769883c25f563214af64bd8a0ddb4b5109a2c21572e4",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/03.mp3",
+      "local_sha256": "88e49f9fa9ec4d50300e82f5d955acbee3f999a9231a56fab1657269623ab280",
+      "current_main_sha256": "88e49f9fa9ec4d50300e82f5d955acbee3f999a9231a56fab1657269623ab280",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/04.mp3",
+      "local_sha256": "e824ff23dd3486202cf69e09305efabf7cf1f4980935b62f8da09d52cdcf420d",
+      "current_main_sha256": "e824ff23dd3486202cf69e09305efabf7cf1f4980935b62f8da09d52cdcf420d",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/06.mp3",
+      "local_sha256": "6727e853ffb39bc0dbed4ca5f4c01a592f30f87b7634d6df8e50dca292e7d2c2",
+      "current_main_sha256": "6727e853ffb39bc0dbed4ca5f4c01a592f30f87b7634d6df8e50dca292e7d2c2",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/07.mp3",
+      "local_sha256": "cce74de42f12d8ab0a42891bab4e0fc012fb306d30c7714750f1a7b1274964c8",
+      "current_main_sha256": "cce74de42f12d8ab0a42891bab4e0fc012fb306d30c7714750f1a7b1274964c8",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/09.mp3",
+      "local_sha256": "e10559cd0813a740310daaf69a1321c8710a1f387ea5a0c4fcf22ba872ff942d",
+      "current_main_sha256": "e10559cd0813a740310daaf69a1321c8710a1f387ea5a0c4fcf22ba872ff942d",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/11.mp3",
+      "local_sha256": "1a6955a9c214e30a1c8f09141bafed6c133c87840d969fb9aadc162462515697",
+      "current_main_sha256": "1a6955a9c214e30a1c8f09141bafed6c133c87840d969fb9aadc162462515697",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/13.mp3",
+      "local_sha256": "907bcc222428ef4b842a99f16b9a2feb9b8c619f21d4d16478614b392de617b3",
+      "current_main_sha256": "907bcc222428ef4b842a99f16b9a2feb9b8c619f21d4d16478614b392de617b3",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/018/13.mp3",
+      "local_sha256": "4f0065eb1f14451ea42afd984370408e1c8878e42b2b742abaa270f3dd5a1472",
+      "current_main_sha256": "4f0065eb1f14451ea42afd984370408e1c8878e42b2b742abaa270f3dd5a1472",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/018/17.mp3",
+      "local_sha256": "db1d2d173789d496e4185275ed529db718606baf343b586ef225ce370dfa0221",
+      "current_main_sha256": "db1d2d173789d496e4185275ed529db718606baf343b586ef225ce370dfa0221",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/018/32.mp3",
+      "local_sha256": "93f78e86abef18c3716a6ebb70071e3572dd2fb184aa0c913bcb990abcf66a1a",
+      "current_main_sha256": "93f78e86abef18c3716a6ebb70071e3572dd2fb184aa0c913bcb990abcf66a1a",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/019/07.mp3",
+      "local_sha256": "bb570eccacb05df05a66342d6c4a5e84806e3fef4eddafc10e0b0d69de8c2e91",
+      "current_main_sha256": "bb570eccacb05df05a66342d6c4a5e84806e3fef4eddafc10e0b0d69de8c2e91",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/019/08.mp3",
+      "local_sha256": "c9e3929c49214c3039971ba7ab976dc7ff6bffc57bd82cb89ee1b438c5158300",
+      "current_main_sha256": "c9e3929c49214c3039971ba7ab976dc7ff6bffc57bd82cb89ee1b438c5158300",
+      "matches_current_main": true
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/022/04.mp3",
+      "local_sha256": "7b933e906c420d5fb8e117dcc534126e7e48ad512005c8d6834f139a0f4871a1",
+      "current_main_sha256": "7b933e906c420d5fb8e117dcc534126e7e48ad512005c8d6834f139a0f4871a1",
+      "matches_current_main": true
+    }
+  ],
+  "actions": [
+    {
+      "target": "ch002-t02-m01",
+      "start": 7.56,
+      "end": 10.45,
+      "source": "greg-again/audio/assets/chunks/002/02.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch002-t02-m01.mp3",
+      "provider_text": "An explanation for why my mah-nah barely answered.",
+      "context_id": "91ed191b72d540e8afc110a292713ba7",
+      "expected_replacement_sha256": "16c7eaa07686731444aea666e7ef6ba52307fcadd540d7373b93fc15688337e7"
+    },
+    {
+      "target": "ch002-t10-m01",
+      "start": 34.199,
+      "end": 42.949,
+      "source": "greg-again/audio/assets/chunks/002/10.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch002-t10-m01.mp3",
+      "provider_text": "Mah-nah conditioning would cost too, once I found someone willing to teach a nineteen-year-old whose mah-nah currently answered like a sleepy cat.",
+      "context_id": "616046ce28e644b7b8ced3b1129cb155",
+      "expected_replacement_sha256": "08338a8ab1a9bd7909385536998e40b6a8bd69a85b2a69c97c5c0af4af0aa96b"
+    },
+    {
+      "target": "ch003-t01-m01",
+      "start": 19.377,
+      "end": 23.798,
+      "source": "greg-again/audio/assets/chunks/003/01.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch003-t01-m01.mp3",
+      "provider_text": "Cheap. Brittle. Mildly mah-nah-reactive. Mostly used where nobody cared if it cracked.",
+      "context_id": "5d0cb564a5264a1ba27d745eeed27d65",
+      "expected_replacement_sha256": "caa42329578debfcbd4b98492e30c5ed90585273f25ba53a7340ea3318db12d9"
+    },
+    {
+      "target": "ch003-t03-m01",
+      "start": 0.0,
+      "end": 2.854,
+      "source": "greg-again/audio/assets/chunks/003/03.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch003-t03-m01.mp3",
+      "provider_text": "I asked whether he worked with mah-nah-reactive ceramic mixes.",
+      "context_id": "1049e57af0cd40ddb304aed6bd0940e8",
+      "expected_replacement_sha256": "db9f87d4e620d765ca97095ea14ed9326dcc71aa0a8868e81d1f41b45e6bdbcd"
+    },
+    {
+      "target": "ch003-t03-m02",
+      "start": 15.715,
+      "end": 20.741,
+      "source": "greg-again/audio/assets/chunks/003/03.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch003-t03-m02.mp3",
+      "provider_text": "“Trace ma-na. Cheap structure. High surface area if powdered. I think heat changes how it binds residue.”",
+      "context_id": "155012a63d6141bb9f2b18cc7dd4372b",
+      "expected_replacement_sha256": "8eb8b24a4abb400efbdedaaa7bb476ea9e8aebd5907e56dcbd0e81f0eacb2ace"
+    },
+    {
+      "target": "ch003-t04-m01",
+      "start": 43.019,
+      "end": 45.632,
+      "source": "greg-again/audio/assets/chunks/003/04.mp3",
+      "evidence": "asr_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch003-t04-m01.mp3",
+      "provider_text": "Mah-nah conditioning would cost once I found a teacher.",
+      "context_id": "6c0bba22b84e458bb55066bf8b7e1160",
+      "expected_replacement_sha256": "7d6951b37a02aafb4839fcb6309ee820b06c665c4d3774fa31342adf43c1e921"
+    },
+    {
+      "target": "ch004-t01-m01",
+      "start": 6.398,
+      "end": 19.413,
+      "source": "greg-again/audio/assets/chunks/004/01.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch004-t01-m01.mp3",
+      "provider_text": "Not the calendar. Not the tally marks beside my bed. Not the increasingly complicated page where I had attempted to track training, debt, food, mah-nah, shale, and several financial decisions that became less defensible when arranged chronologically.",
+      "context_id": "4f7a5fcbf2a44bd4a588fe62b52a83d0",
+      "expected_replacement_sha256": "16c608067a34f2213dd1c89fbe4f387adb4c22b53d478c5c69c091f6a0fd25a6"
+    },
+    {
+      "target": "ch004-t02-m01",
+      "start": 73.501,
+      "end": 79.226,
+      "source": "greg-again/audio/assets/chunks/004/02.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch004-t02-m01.mp3",
+      "provider_text": "My mah-nah had improved from almost nothing to a small stable pulse I could hold for several breaths.",
+      "context_id": "aec9ebbc81c44c4ab344165114f5b61f",
+      "expected_replacement_sha256": "84e0860d4df82070e870adc0b0bd6327b13e043e161af8f8e39a477162e8c9a0"
+    },
+    {
+      "target": "ch005-t04-m01",
+      "start": 8.929,
+      "end": 16.655,
+      "source": "greg-again/audio/assets/chunks/005/04.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch005-t04-m01.mp3",
+      "provider_text": "He had changed the clay body first, then the firing schedule. He thought flow mattered more than the ma-na reaction I had originally obsessed over.",
+      "context_id": "60d7cc9dbc4c41ff80ac55338f4ac18a",
+      "expected_replacement_sha256": "6ebcfba376d2df646b34e1164cc2e5af8a8d958218a880c8b3581ba55aee6062"
+    },
+    {
+      "target": "ch006-t03-m01",
+      "start": 97.557,
+      "end": 98.215,
+      "source": "greg-again/audio/assets/chunks/006/03.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t03-m01.mp3",
+      "provider_text": "Ma-na.",
+      "context_id": "abb14c9e7a1e41f4a5ec8e0d447bcfdc",
+      "expected_replacement_sha256": "01e6ba7799a919526664d0194071967c32cccbb4ac7105f6487df8016e1b3bde"
+    },
+    {
+      "target": "ch006-t04-m01",
+      "start": 10.885,
+      "end": 17.83,
+      "source": "greg-again/audio/assets/chunks/006/04.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t04-m01.mp3",
+      "provider_text": "Pigment. Binding salt. Ash treatment. A cheap ma-na-set additive used to keep the darker purple from washing gray.",
+      "context_id": "89d80e1472cb4750a73ee1b34190ef39",
+      "expected_replacement_sha256": "d5a95d7d1d0829b1f78a05047f180dbf48687f24dd820db8a026bd31445ac6b8"
+    },
+    {
+      "target": "ch006-t04-m02",
+      "start": 18.513,
+      "end": 19.792,
+      "source": "greg-again/audio/assets/chunks/006/04.mp3",
+      "evidence": "initial_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t04-m02.mp3",
+      "provider_text": "Mah-nah-set additive.",
+      "context_id": "de7a267ef7264c268a39d29eca95a641",
+      "expected_replacement_sha256": "130c671f8dde10e42bac82ba2a0bee24f9f00372d80ae256cb81085db2210d61"
+    },
+    {
+      "target": "ch006-t05-m01",
+      "source": "greg-again/audio/assets/chunks/006/06.mp3",
+      "start": 7.988,
+      "end": 9.61,
+      "evidence": "widened_metal_sentence_waveform",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t05-m01-wide.mp3",
+      "provider_text": "Metal. Mah-nah-bearing residue.",
+      "context_id": "26d3c2900dec4f11b84b456c9e21dbd4",
+      "expected_replacement_sha256": "a6888b57126901b372e59b1454612b3a344467380c9efda2187d8c02dbe0cd81"
+    },
+    {
+      "target": "ch006-t06-m01",
+      "source": "greg-again/audio/assets/chunks/006/07.mp3",
+      "start": 24.955,
+      "end": 26.095,
+      "evidence": "focused_local_word_and_silence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t06-m01.mp3",
+      "provider_text": "Reached for mah-nah.",
+      "context_id": "49c1d23d4a274ef8bdefb8103eca230c",
+      "expected_replacement_sha256": "53c95b59409e219127f4d1590310d9b85559923119ad2b403e92b22a4fe7a338"
+    },
+    {
+      "target": "ch006-t08-m01",
+      "source": "greg-again/audio/assets/chunks/006/09.mp3",
+      "start": 1.515,
+      "end": 3.202,
+      "evidence": "authoritative_provider_alignment",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t08-m01.mp3",
+      "provider_text": "Mah-nah answered this time.",
+      "context_id": "f1463414a42d43f6b6d53bed3cfeb6b0",
+      "expected_replacement_sha256": "9c0add8b2141ea86cc242f862cb8c6383ae8df0d6a1d8e097fb63de4cdfe04f1"
+    },
+    {
+      "target": "ch006-t10-m01",
+      "source": "greg-again/audio/assets/chunks/006/11.mp3",
+      "start": 29.11,
+      "end": 30.696,
+      "evidence": "authoritative_provider_alignment",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t10-m01.mp3",
+      "provider_text": "Maybe mah-nah salt.",
+      "context_id": "14e48ece36ed421bbda167ef95089cb7",
+      "expected_replacement_sha256": "da972210f4956f2cfb0f8f8d3aa05d399f9bf51a590b70756202fb62016aa0fa"
+    },
+    {
+      "target": "ch006-t12-m01",
+      "source": "greg-again/audio/assets/chunks/006/13.mp3",
+      "start": 17.701,
+      "end": 19.621,
+      "evidence": "authoritative_provider_alignment",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch006-t12-m01.mp3",
+      "provider_text": "Maybe ma-na would take longer.",
+      "context_id": "51b8269dc03044cf866e37aff38b149e",
+      "expected_replacement_sha256": "a41a56d9a896d2f98c92e60d72b75c5e6b44b6a1166f9fa2d07f4073a8b4d956"
+    },
+    {
+      "target": "ch011-t14-m01",
+      "source": "greg-again/audio/assets/chapter-011.mp3",
+      "start": 331.964,
+      "end": 335.772,
+      "evidence": "assembled_chapter_exact_match_ratio_1",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch011-t14-m01.mp3",
+      "provider_text": "I ran. No ma-na. Did not even reach for it.",
+      "context_id": "f1c23ba2637d49d098e36366f1f8fcdd",
+      "expected_replacement_sha256": "70be005fb427e502c556293630f9c2d3dd6352cd5a0da13499be1671e8ea37e2"
+    },
+    {
+      "target": "ch018-t13-m01",
+      "start": 14.898,
+      "end": 30.58,
+      "source": "greg-again/audio/assets/chunks/018/13.mp3",
+      "evidence": "asr_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch018-t13-m01.mp3",
+      "provider_text": "Support work involved other people's bodies, mah-nah loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment.",
+      "context_id": "221942731bba4f9b805f7cc29b5f8933",
+      "expected_replacement_sha256": "21ace06144ce498c33cf56321a68fb3ee21b1d85dbc3c11a9a3d8dcc0f441d89"
+    },
+    {
+      "target": "ch018-t18-m01",
+      "source": "greg-again/audio/assets/chunks/018/17.mp3",
+      "start": 21.691,
+      "end": 22.844,
+      "evidence": "direct_provider_chunk_search_and_local_silence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch018-t18-m01.mp3",
+      "provider_text": "Current mah-nah.",
+      "context_id": "85672747daf7476e8d888060100e85bf",
+      "expected_replacement_sha256": "5fac720627724d143e3eb974524b1394001617779fda874150d86ea561ddbe43"
+    },
+    {
+      "target": "ch018-t32-m01",
+      "start": 4.804,
+      "end": 7.93,
+      "source": "greg-again/audio/assets/chunks/018/32.mp3",
+      "evidence": "asr_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch018-t32-m01.mp3",
+      "provider_text": "Training harder than my mah-nah could support was one.",
+      "context_id": "7f7e6d76270e408c9c953ab30d1c0ff1",
+      "expected_replacement_sha256": "cc61177859a39024bfc06f2c8d17216baff0fad4d28c734d6400d538b31d08d5"
+    },
+    {
+      "target": "ch019-t07-m01",
+      "start": 7.519,
+      "end": 9.566,
+      "source": "greg-again/audio/assets/chunks/019/07.mp3",
+      "evidence": "asr_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch019-t07-m01.mp3",
+      "provider_text": "No mah-nah crawling across the floor.",
+      "context_id": "03c5a44bf89d471aabc4261c0f75952c",
+      "expected_replacement_sha256": "1c88f127e42aa4f4db315e482e3c743edec1fb09338346fe17fa78045ba889a2"
+    },
+    {
+      "target": "ch019-t08-m01",
+      "start": 11.232,
+      "end": 15.543,
+      "source": "greg-again/audio/assets/chunks/019/08.mp3",
+      "evidence": "asr_high_confidence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch019-t08-m01.mp3",
+      "provider_text": "Dyehouse sludge had taught us about heat, flow, concentration, and mah-nah-bearing waste.",
+      "context_id": "728f134bb86a46078e4f682336dc7956",
+      "expected_replacement_sha256": "8fa814868dfbf5feefccdc4f96cb18e68bd36d60a7132e39e3ad841ef876bef1"
+    },
+    {
+      "target": "ch022-t03-m01",
+      "source": "greg-again/audio/assets/chunks/022/04.mp3",
+      "start": 70.461,
+      "end": 73.048,
+      "evidence": "direct_provider_chunk_search_and_local_silence",
+      "replacement": "greg-again/audio/production/mana-repair-artifacts/ch022-t03-m01.mp3",
+      "provider_text": "Mah-nah gathered badly, then enough.",
+      "context_id": "3f50913ab2ac45a2bc06d715e062d025",
+      "expected_replacement_sha256": "9afaae003c2acf95741355288ff3e2c51015576fc30b9323d95d5184622a2dc0"
+    }
+  ],
+  "source_results": [
+    {
+      "path": "greg-again/audio/assets/chapter-011.mp3",
+      "repair_targets": [
+        "ch011-t14-m01"
+      ],
+      "pre_sha256": "6f57ce264fb0ec7fa7ee3c0c1cd522c05dd0366712728bd4159cef265279075d",
+      "post_sha256": "70462431acb4d795df7fd77aea71d88b6e24c9a385260d1fcba2153597a1301d",
+      "pre_duration_seconds": 694.2,
+      "post_duration_seconds": 693.048
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/002/02.mp3",
+      "repair_targets": [
+        "ch002-t02-m01"
+      ],
+      "pre_sha256": "d4967913056042fccf6eb1721ce2e26a6029e32f1ff90f9c1eaa423e904870ea",
+      "post_sha256": "83162187ab27bb633884a1f0fcafda3a86766dc54bc10591947343008f4259a8",
+      "pre_duration_seconds": 82.632,
+      "post_duration_seconds": 82.968
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/002/10.mp3",
+      "repair_targets": [
+        "ch002-t10-m01"
+      ],
+      "pre_sha256": "049c58cc97b633f50ea8f5433a6e50e9c93d15a857ea7d298a8ba799cb9293bb",
+      "post_sha256": "07329060c4154d38498cff61d5a6d200e6e5eeada0eaa6afa70099614cc88299",
+      "pre_duration_seconds": 66.12,
+      "post_duration_seconds": 66.576
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/003/01.mp3",
+      "repair_targets": [
+        "ch003-t01-m01"
+      ],
+      "pre_sha256": "705b6628cfeec6ea2820b1101b1175745bfa7abc2c65bc42ae7eb41f3a456da7",
+      "post_sha256": "6253bfbd36c5f155d64732e7561c3fb94f0b6b2e2d0e92a747a96b71e918ddb7",
+      "pre_duration_seconds": 70.752,
+      "post_duration_seconds": 71.688
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/003/03.mp3",
+      "repair_targets": [
+        "ch003-t03-m01",
+        "ch003-t03-m02"
+      ],
+      "pre_sha256": "bd9f145d6cf246a57e41ca9c260a418a3fb5f7215be390060c1428b2bfed0d10",
+      "post_sha256": "c70b3d2cb7ca5adc231fd7e3ef64635141622f3b808828c6f1129591f5977e68",
+      "pre_duration_seconds": 64.224,
+      "post_duration_seconds": 66.816
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/003/04.mp3",
+      "repair_targets": [
+        "ch003-t04-m01"
+      ],
+      "pre_sha256": "822f9b5047161cac928f392df37185a4e3112ce2acd14618e79442dd41b7b971",
+      "post_sha256": "4659947041665c5a0dd77ec9da03b5e735e99463bd7dfe0b6ee3ca98264e55c3",
+      "pre_duration_seconds": 60.744,
+      "post_duration_seconds": 61.704
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/004/01.mp3",
+      "repair_targets": [
+        "ch004-t01-m01"
+      ],
+      "pre_sha256": "612679ce8e99acdb96e08db8958d17061d2ea80c3092cb41b9ff77fcd49ef619",
+      "post_sha256": "c97f604667748c0f1aac5b0721db745e227e5334f4286fa30b6c50d702e49785",
+      "pre_duration_seconds": 74.928,
+      "post_duration_seconds": 77.472
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/004/02.mp3",
+      "repair_targets": [
+        "ch004-t02-m01"
+      ],
+      "pre_sha256": "725f6fde2d53b9cae9806fe89d6a7aa2eedef5d96d3e7a66c3179f7d0e42b812",
+      "post_sha256": "fd253911ed01db47fb3185d39bbc92f2fe210783c5e0125b27731da39add275e",
+      "pre_duration_seconds": 85.656,
+      "post_duration_seconds": 86.4
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/005/04.mp3",
+      "repair_targets": [
+        "ch005-t04-m01"
+      ],
+      "pre_sha256": "fcee20c6294b16c03cc8769883c25f563214af64bd8a0ddb4b5109a2c21572e4",
+      "post_sha256": "8746da887915409982881b242932b1f5c86ec21a1c3a3471789baff15d50f930",
+      "pre_duration_seconds": 58.728,
+      "post_duration_seconds": 60.144
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/03.mp3",
+      "repair_targets": [
+        "ch006-t03-m01"
+      ],
+      "pre_sha256": "88e49f9fa9ec4d50300e82f5d955acbee3f999a9231a56fab1657269623ab280",
+      "post_sha256": "dc08820ab4d086cf7d6e1691d87fbba0506776cef44af580da2a257c81d2b8b4",
+      "pre_duration_seconds": 102.192,
+      "post_duration_seconds": 102.12
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/04.mp3",
+      "repair_targets": [
+        "ch006-t04-m01",
+        "ch006-t04-m02"
+      ],
+      "pre_sha256": "e824ff23dd3486202cf69e09305efabf7cf1f4980935b62f8da09d52cdcf420d",
+      "post_sha256": "45fb5068f0c9fbba769ab88751c2fc9487844918634a966110bab642043891b0",
+      "pre_duration_seconds": 77.304,
+      "post_duration_seconds": 77.568
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/06.mp3",
+      "repair_targets": [
+        "ch006-t05-m01"
+      ],
+      "pre_sha256": "6727e853ffb39bc0dbed4ca5f4c01a592f30f87b7634d6df8e50dca292e7d2c2",
+      "post_sha256": "de7051d01f995e16e3eaaf81d35844697f625e33c5c4ee61aac6f45cd6a2562b",
+      "pre_duration_seconds": 26.472,
+      "post_duration_seconds": 26.76
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/07.mp3",
+      "repair_targets": [
+        "ch006-t06-m01"
+      ],
+      "pre_sha256": "cce74de42f12d8ab0a42891bab4e0fc012fb306d30c7714750f1a7b1274964c8",
+      "post_sha256": "c84f3d027ee2819add3c4ae18efdeffbf2ae50f7ae643fdb20341d18e5637da7",
+      "pre_duration_seconds": 51.864,
+      "post_duration_seconds": 52.08
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/09.mp3",
+      "repair_targets": [
+        "ch006-t08-m01"
+      ],
+      "pre_sha256": "e10559cd0813a740310daaf69a1321c8710a1f387ea5a0c4fcf22ba872ff942d",
+      "post_sha256": "1b1bd7f4a08ea374500a130aa9a2ca4294e37b7dd36026e86eb39d31a752d42a",
+      "pre_duration_seconds": 58.032,
+      "post_duration_seconds": 58.128
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/11.mp3",
+      "repair_targets": [
+        "ch006-t10-m01"
+      ],
+      "pre_sha256": "1a6955a9c214e30a1c8f09141bafed6c133c87840d969fb9aadc162462515697",
+      "post_sha256": "6f2433c962c29d10274c6b68608b389ec44092b72a1d624d5072476381ad612b",
+      "pre_duration_seconds": 66.192,
+      "post_duration_seconds": 65.856
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/006/13.mp3",
+      "repair_targets": [
+        "ch006-t12-m01"
+      ],
+      "pre_sha256": "907bcc222428ef4b842a99f16b9a2feb9b8c619f21d4d16478614b392de617b3",
+      "post_sha256": "cb879fdf0e3346f1f38f3e13b0974913685be7a0e21be13c0ba509d612e2e35d",
+      "pre_duration_seconds": 55.488,
+      "post_duration_seconds": 55.488
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/018/13.mp3",
+      "repair_targets": [
+        "ch018-t13-m01"
+      ],
+      "pre_sha256": "4f0065eb1f14451ea42afd984370408e1c8878e42b2b742abaa270f3dd5a1472",
+      "post_sha256": "93aabc588ed0ca800e33ffb13adeb236bceb65b4eb9fdb163e2255858b03a3d4",
+      "pre_duration_seconds": 30.648,
+      "post_duration_seconds": 29.208
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/018/17.mp3",
+      "repair_targets": [
+        "ch018-t18-m01"
+      ],
+      "pre_sha256": "db1d2d173789d496e4185275ed529db718606baf343b586ef225ce370dfa0221",
+      "post_sha256": "8fa8e289431de5ff1f47c79795f910fcb33db9c420b19a6eeeeb4f5b8abcae72",
+      "pre_duration_seconds": 26.88,
+      "post_duration_seconds": 26.76
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/018/32.mp3",
+      "repair_targets": [
+        "ch018-t32-m01"
+      ],
+      "pre_sha256": "93f78e86abef18c3716a6ebb70071e3572dd2fb184aa0c913bcb990abcf66a1a",
+      "post_sha256": "6196baf3c1d2299606aca51b13c7d226ea11a772d6fde2246f801cb48c558709",
+      "pre_duration_seconds": 25.368,
+      "post_duration_seconds": 25.536
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/019/07.mp3",
+      "repair_targets": [
+        "ch019-t07-m01"
+      ],
+      "pre_sha256": "bb570eccacb05df05a66342d6c4a5e84806e3fef4eddafc10e0b0d69de8c2e91",
+      "post_sha256": "52be1b6d0531bbbc1b64e79ecf9cd825d46e63b47a4abdf74791361dd71b781c",
+      "pre_duration_seconds": 25.056,
+      "post_duration_seconds": 25.416
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/019/08.mp3",
+      "repair_targets": [
+        "ch019-t08-m01"
+      ],
+      "pre_sha256": "c9e3929c49214c3039971ba7ab976dc7ff6bffc57bd82cb89ee1b438c5158300",
+      "post_sha256": "3facc1cb53c1067b5d017d16ad0d1530276c423c38800230daf590f61fd8ca43",
+      "pre_duration_seconds": 24.936,
+      "post_duration_seconds": 26.088
+    },
+    {
+      "path": "greg-again/audio/assets/chunks/022/04.mp3",
+      "repair_targets": [
+        "ch022-t03-m01"
+      ],
+      "pre_sha256": "7b933e906c420d5fb8e117dcc534126e7e48ad512005c8d6834f139a0f4871a1",
+      "post_sha256": "d0fba43a978f28e55053ddaa2f5dd8c55ec910c1e4e7d0f23189fc89f38e7c7c",
+      "pre_duration_seconds": 85.44,
+      "post_duration_seconds": 85.032
+    }
+  ],
+  "chapter_results": [
+    {
+      "chapter": 2,
+      "pre": {
+        "sha256": "a5c8c9c8e98d291f18177248ec40a31324eb8bf7dee5e62d2b758d711cfbaddf",
+        "duration_seconds": 841.92
+      },
+      "post": {
+        "sha256": "7ab5061a348f81584a3a37018372e2f607cf4e3e9a655ec41cc3a7b79b2f9344",
+        "duration_seconds": 842.664
+      }
+    },
+    {
+      "chapter": 3,
+      "pre": {
+        "sha256": "be5e398df0048ceeb5e90a7dc674c43e498120c83ee6deb52e2fb860be5f468a",
+        "duration_seconds": 752.544
+      },
+      "post": {
+        "sha256": "490716a14a4e041de297824c7037dbe1a6533955bdb804c66552871c99523317",
+        "duration_seconds": 756.984
+      }
+    },
+    {
+      "chapter": 4,
+      "pre": {
+        "sha256": "0187c9c1ec05bcf57ca6e0dbfb5c53654d9a41dceda602d22d532cfe58567301",
+        "duration_seconds": 728.424
+      },
+      "post": {
+        "sha256": "0705e6eddd599e06bfc6faf558bea9f7eafba6cd9cf902f9d16bb4c56c2d5760",
+        "duration_seconds": 731.712
+      }
+    },
+    {
+      "chapter": 5,
+      "pre": {
+        "sha256": "0c4470a0bee699ed01e6fcea3c32048531d005b9d2504a3ae2b720d9208c1e77",
+        "duration_seconds": 748.944
+      },
+      "post": {
+        "sha256": "16dc4d5e550efecd189eeb627d9dc704a34397787d82f0ef129cf4d7f38b6eb1",
+        "duration_seconds": 750.312
+      }
+    },
+    {
+      "chapter": 6,
+      "pre": {
+        "sha256": "045b533feb201edb92f60402969b547666249c177fdcca6fee81e160d99569c1",
+        "duration_seconds": 873.6
+      },
+      "post": {
+        "sha256": "48e0663da346783e7042311c0871e6056ca51e4ca505353404d90f501590b343",
+        "duration_seconds": 874.056
+      }
+    },
+    {
+      "chapter": 11,
+      "pre": {
+        "sha256": "6f57ce264fb0ec7fa7ee3c0c1cd522c05dd0366712728bd4159cef265279075d",
+        "duration_seconds": 694.2
+      },
+      "post": {
+        "sha256": "70462431acb4d795df7fd77aea71d88b6e24c9a385260d1fcba2153597a1301d",
+        "duration_seconds": 693.048
+      }
+    },
+    {
+      "chapter": 18,
+      "pre": {
+        "sha256": "982c8e3ae7b9750c27bf634dda885770b03b54d4e58364ba1eeb7f8d2e65ed89",
+        "duration_seconds": 790.128
+      },
+      "post": {
+        "sha256": "a58940794daf2f5300ede416623909c2e3eed6d7d9aac432e878576c8b4d0cbf",
+        "duration_seconds": 788.736
+      }
+    },
+    {
+      "chapter": 19,
+      "pre": {
+        "sha256": "b884e637f6d23ac1089989cb78a531ec9ecff84c1664baa41b794b7faeb588c6",
+        "duration_seconds": 867.168
+      },
+      "post": {
+        "sha256": "415e97114543f450896903b7cb38924fe1ceea1898f8f5012e5c6e39e9c0f02e",
+        "duration_seconds": 868.68
+      }
+    },
+    {
+      "chapter": 22,
+      "pre": {
+        "sha256": "8a782cfb65e529a421973a4ff52850143ee24bce380b82b2c9e44eca1d4f21a5",
+        "duration_seconds": 731.616
+      },
+      "post": {
+        "sha256": "fe3d656740f873986f3947037d8f34adc68598b25ade8eb3b78dbac24fcd1361",
+        "duration_seconds": 731.208
+      }
+    }
+  ],
+  "take_metadata_updates": [
+    {
+      "chapter": 18,
+      "changed_takes": [
+        {
+          "take": "13",
+          "durable_file": "greg-again/audio/assets/chunks/018/13.mp3",
+          "old_duration_seconds": 30.648,
+          "new_duration_seconds": 29.208
+        },
+        {
+          "take": "17",
+          "durable_file": "greg-again/audio/assets/chunks/018/17.mp3",
+          "old_duration_seconds": 26.88,
+          "new_duration_seconds": 26.76
+        },
+        {
+          "take": "32",
+          "durable_file": "greg-again/audio/assets/chunks/018/32.mp3",
+          "old_duration_seconds": 25.368,
+          "new_duration_seconds": 25.536
+        }
+      ],
+      "assembled_duration_seconds": 788.736
+    },
+    {
+      "chapter": 22,
+      "changed_takes": [
+        {
+          "take": "04",
+          "durable_file": "greg-again/audio/assets/chunks/022/04.mp3",
+          "old_duration_seconds": 85.44,
+          "new_duration_seconds": 85.032
+        }
+      ],
+      "assembled_duration_seconds": 731.208
+    }
+  ],
+  "manifest_duration_updates": [
+    {
+      "chapter": 2,
+      "chapter_id": "ga-002",
+      "old_duration_seconds": 841.92,
+      "new_duration_seconds": 842.664
+    },
+    {
+      "chapter": 3,
+      "chapter_id": "ga-003",
+      "old_duration_seconds": 752.544,
+      "new_duration_seconds": 756.984
+    },
+    {
+      "chapter": 4,
+      "chapter_id": "ga-004",
+      "old_duration_seconds": 728.424,
+      "new_duration_seconds": 731.712
+    },
+    {
+      "chapter": 5,
+      "chapter_id": "ga-005",
+      "old_duration_seconds": 748.944,
+      "new_duration_seconds": 750.312
+    },
+    {
+      "chapter": 6,
+      "chapter_id": "ga-006",
+      "old_duration_seconds": 873.6,
+      "new_duration_seconds": 874.056
+    },
+    {
+      "chapter": 11,
+      "chapter_id": "ga-011",
+      "old_duration_seconds": 694.2,
+      "new_duration_seconds": 693.048
+    },
+    {
+      "chapter": 18,
+      "chapter_id": "ga-018",
+      "old_duration_seconds": 790.128,
+      "new_duration_seconds": 788.736
+    },
+    {
+      "chapter": 19,
+      "chapter_id": "ga-019",
+      "old_duration_seconds": 867.168,
+      "new_duration_seconds": 868.68
+    },
+    {
+      "chapter": 22,
+      "chapter_id": "ga-022",
+      "old_duration_seconds": 731.616,
+      "new_duration_seconds": 731.208
+    }
+  ],
+  "chapter_11_mode": "direct assembled chapter repair; legacy provider chunks were not persisted",
+  "routing_lessons": [
+    "script take number is not automatically provider chunk number",
+    "provider-safe splits can shift later durable chunk numbering",
+    "repair coordinates belong to verified audio artifacts, not inferred filenames"
+  ]
+}

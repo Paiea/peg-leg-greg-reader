@@ -1,0 +1,265 @@
+{
+  "method": "full historical take text vs neighboring published chunk ASR",
+  "results": [
+    {
+      "target": "ch006-t05-m01",
+      "chapter": 6,
+      "script_take": 5,
+      "status": "routed",
+      "best_chunk": 5,
+      "best_ratio": 0.698,
+      "margin": 0.0871,
+      "candidates": [
+        {
+          "chunk": 5,
+          "ratio": 0.698,
+          "asr_word_count": 90,
+          "source_word_count": 165,
+          "asr_head": "purple black paste filled the ceramic pores along one side not evenly the lower half was packed upper half much less flow problem avina",
+          "asr_tail": "dropped it it hit the wet stone purple light moved across the water not bright a thin crawling line ran toward the copper trough"
+        },
+        {
+          "chunk": 6,
+          "ratio": 0.6109,
+          "asr_word_count": 74,
+          "source_word_count": 165,
+          "asr_head": "every later life instinct i had woke up at once not memories exactly shape failure shape conductive path wet floor metal mana bearing residue",
+          "asr_tail": "pulled the purple line touched the trough copper rang one clean note then the entire wet section of trough flashed violet along the seam"
+        },
+        {
+          "chunk": 4,
+          "ratio": 0.0727,
+          "asr_word_count": 220,
+          "source_word_count": 165,
+          "asr_head": "arlo crouched beside me he touched the dry stone near the stain then stopped before touching the dark center good what is in the",
+          "asr_tail": "me a little the last bolt came loose nothing happened good arlo pulled the housing apart the remaining piece of disc came with it"
+        },
+        {
+          "chunk": 3,
+          "ratio": 0.058,
+          "asr_word_count": 283,
+          "source_word_count": 165,
+          "asr_head": "the disc split concentrated wash went over the side then something in the waste started reacting near the hotline i looked back at the",
+          "asr_tail": "pale mark crawling around the edge not corrosion i crouched the hair on my forearm lifted manna very little enough ivina saw me notice"
+        },
+        {
+          "chunk": 7,
+          "ratio": 0.0566,
+          "asr_word_count": 153,
+          "source_word_count": 165,
+          "asr_head": "a worker at the far vat turned toward us too close off the floor he froze wrong response i pointed at the dry platform",
+          "asr_tail": "not care fine no barrier what did i have people valves dry wood ash bins drain channel a ceramic lid leaning against the wall"
+        }
+      ]
+    },
+    {
+      "target": "ch006-t06-m01",
+      "chapter": 6,
+      "script_take": 6,
+      "status": "routed",
+      "best_chunk": 7,
+      "best_ratio": 1.0,
+      "margin": 0.907,
+      "candidates": [
+        {
+          "chunk": 7,
+          "ratio": 1.0,
+          "asr_word_count": 153,
+          "source_word_count": 153,
+          "asr_head": "a worker at the far vat turned toward us too close off the floor he froze wrong response i pointed at the dry platform",
+          "asr_tail": "not care fine no barrier what did i have people valves dry wood ash bins drain channel a ceramic lid leaning against the wall"
+        },
+        {
+          "chunk": 8,
+          "ratio": 0.093,
+          "asr_word_count": 191,
+          "source_word_count": 153,
+          "asr_head": "ivina heat she was already moving of course she was her shop she shut the burner under the second vat and yelled at the",
+          "asr_tail": "the pipe knocked pressure moved the housing spat a narrow stream of purple black wash shot sideways toward arlo my hand was already up"
+        },
+        {
+          "chunk": 6,
+          "ratio": 0.0793,
+          "asr_word_count": 74,
+          "source_word_count": 153,
+          "asr_head": "every later life instinct i had woke up at once not memories exactly shape failure shape conductive path wet floor metal mana bearing residue",
+          "asr_tail": "pulled the purple line touched the trough copper rang one clean note then the entire wet section of trough flashed violet along the seam"
+        },
+        {
+          "chunk": 5,
+          "ratio": 0.0412,
+          "asr_word_count": 90,
+          "source_word_count": 153,
+          "asr_head": "purple black paste filled the ceramic pores along one side not evenly the lower half was packed upper half much less flow problem avina",
+          "asr_tail": "dropped it it hit the wet stone purple light moved across the water not bright a thin crawling line ran toward the copper trough"
+        },
+        {
+          "chunk": 4,
+          "ratio": 0.0375,
+          "asr_word_count": 220,
+          "source_word_count": 153,
+          "asr_head": "arlo crouched beside me he touched the dry stone near the stain then stopped before touching the dark center good what is in the",
+          "asr_tail": "me a little the last bolt came loose nothing happened good arlo pulled the housing apart the remaining piece of disc came with it"
+        }
+      ]
+    },
+    {
+      "target": "ch006-t10-m01",
+      "chapter": 6,
+      "script_take": 10,
+      "status": "routed",
+      "best_chunk": 11,
+      "best_ratio": 0.9615,
+      "margin": 0.892,
+      "candidates": [
+        {
+          "chunk": 11,
+          "ratio": 0.9615,
+          "asr_word_count": 181,
+          "source_word_count": 183,
+          "asr_head": "flow rate higher for the same reason how long before slowing longer than the first two full tests combined arlo's face changed he was",
+          "asr_tail": "first correct her shop her order we paid her mostly arlo i had just paid val and was once again rich primarily in arguments"
+        },
+        {
+          "chunk": 8,
+          "ratio": 0.0695,
+          "asr_word_count": 191,
+          "source_word_count": 183,
+          "asr_head": "ivina heat she was already moving of course she was her shop she shut the burner under the second vat and yelled at the",
+          "asr_tail": "the pipe knocked pressure moved the housing spat a narrow stream of purple black wash shot sideways toward arlo my hand was already up"
+        },
+        {
+          "chunk": 12,
+          "ratio": 0.0582,
+          "asr_word_count": 264,
+          "source_word_count": 183,
+          "asr_head": "partnership acquired a second meaning shared upside had sounded excellent yesterday shared losses had arrived before lunch good real things did that on the",
+          "asr_tail": "now it looked like liability evidence and a second test plan more honest arlo picked up a fresh ceramic blank warm flow longer run"
+        },
+        {
+          "chunk": 9,
+          "ratio": 0.0401,
+          "asr_word_count": 166,
+          "source_word_count": 183,
+          "asr_head": "stupid instinct mana answered this time not a wall not even a proper barrier a palm wide shimmer snapped into existence in front of",
+          "asr_tail": "the first part of the spray went my arm started shaking i lowered it before anyone could mistake that for drama avaina walked over"
+        },
+        {
+          "chunk": 10,
+          "ratio": 0.0326,
+          "asr_word_count": 246,
+          "source_word_count": 183,
+          "asr_head": "she looked at the ash covering half her floor then at me then at arlo you owe me ash good i liked her arlo",
+          "asr_tail": "mine arlo finally looked up he asked about temperature on the first two runs lower which had been warmer because they were behind schedule"
+        }
+      ]
+    },
+    {
+      "target": "ch018-t18-m01",
+      "chapter": 18,
+      "script_take": 18,
+      "status": "routed",
+      "best_chunk": 18,
+      "best_ratio": 0.7619,
+      "margin": 0.5867,
+      "candidates": [
+        {
+          "chunk": 18,
+          "ratio": 0.7619,
+          "asr_word_count": 65,
+          "source_word_count": 61,
+          "asr_head": "i counted twelve copper onto the counter cela counted them again i had just counted them she worked for the guild different religion she",
+          "asr_tail": "support you make planes i make several things this was technically true if failure counted as variety she held out her hand show me"
+        },
+        {
+          "chunk": 17,
+          "ratio": 0.1752,
+          "asr_word_count": 76,
+          "source_word_count": 61,
+          "asr_head": "selah tapped the ledger do you want the slot that was the actual question not whether six weeks was fair not whether later guilds",
+          "asr_tail": "get assessed pass or fail based on what i could do then current body current mana no historical exemptions for having once been impressive"
+        },
+        {
+          "chunk": 16,
+          "ratio": 0.1037,
+          "asr_word_count": 74,
+          "source_word_count": 61,
+          "asr_head": "two local instructors could conduct basic intake but both were on city support rotation through the north gate works until the restriction order changed",
+          "asr_tail": "just time doing more than one thing six weeks i looked at the purse and he had finally stopped being the only problem rude"
+        },
+        {
+          "chunk": 19,
+          "ratio": 0.0787,
+          "asr_word_count": 66,
+          "source_word_count": 61,
+          "asr_head": "here she looked around the guild hall there were thirty people within range of making this embarrassing apparently yes i placed my palm above",
+          "asr_tail": "the first attempt flat pale enough that the wood grain remained visible beneath it i held it one breath two three released no headache"
+        },
+        {
+          "chunk": 20,
+          "ratio": 0.0734,
+          "asr_word_count": 48,
+          "source_word_count": 61,
+          "asr_head": "selah watched the space where it had been not impressed not unimpressed either clerk face terrifying profession she wrote two more words low reserve",
+          "asr_tail": "i objected she looked at me i reconsidered accurate slander remained accurate then she wrote the examiner's name my attention stopped kezra dane silver"
+        }
+      ]
+    },
+    {
+      "target": "ch022-t03-m01",
+      "chapter": 22,
+      "script_take": 3,
+      "status": "ambiguous",
+      "best_chunk": 4,
+      "best_ratio": 0.6685,
+      "margin": 0.0499,
+      "candidates": [
+        {
+          "chunk": 4,
+          "ratio": 0.6685,
+          "asr_word_count": 248,
+          "source_word_count": 485,
+          "asr_head": "not a wall of flame worse in a different way blackened wood and packed lath glowing around the flue fire crawling upward through material",
+          "asr_tail": "face five inches maybe six the slab hit at an angle the plane did not stop it it changed the angle that was enough"
+        },
+        {
+          "chunk": 3,
+          "ratio": 0.6186,
+          "asr_word_count": 223,
+          "source_word_count": 485,
+          "asr_head": "i set the buckets down flue clay collar split last winter the man said we patched the plaster should have pulled the whole section",
+          "asr_tail": "first that was the plan apparently i had improved it by repeating it he punched through the plaster broke inward orange appeared behind it"
+        },
+        {
+          "chunk": 1,
+          "ratio": 0.0673,
+          "asr_word_count": 199,
+          "source_word_count": 485,
+          "asr_head": "the man next door started pounding on my door before dawn i knew the fist before the name three hard knocks pause two more",
+          "asr_tail": "along the ceiling from the stairwell where is it wall by the bake stove move he shoved one bucket into my chest i moved"
+        },
+        {
+          "chunk": 5,
+          "ratio": 0.0425,
+          "asr_word_count": 221,
+          "source_word_count": 485,
+          "asr_head": "the plaster broke against his shoulder instead of his temple and exploded across the floor the plane vanished pressure punched behind my eyes he",
+          "asr_tail": "the bucket boy sideways he recovered before the trousers did the burning end fell away from the awning someone dumped a bucket on it"
+        },
+        {
+          "chunk": 2,
+          "ratio": 0.0369,
+          "asr_word_count": 220,
+          "source_word_count": 485,
+          "asr_head": "understanding arrived halfway down the rear stairs the building wrapped around a narrow courtyard with a pump in the middle and laundry lines overhead",
+          "asr_tail": "edges smoke pushed from a crack near the ceiling in slow gray threads the stove door was shut the fire was inside the wall"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "target_count": 5,
+    "routed": 4,
+    "ambiguous": 1
+  }
+}
