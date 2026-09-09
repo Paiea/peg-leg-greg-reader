@@ -2,9 +2,15 @@
 
 Status: **ACTIVE EXPERIMENTAL PRESSURES / NOT STYLE LAW**
 
-These pressures come from reading the selected Chapter 1–10 run as a book rather than grading individual experiments.
+These pressures come from reading the selected run as a book rather than grading individual experiments.
 
 They exist to prevent the renderer from becoming too pleased with its own successful mechanisms.
+
+Compact positive story-search guidance also lives in:
+
+`state/experiments/greg-again/written/STORY_ENGINE_GUIDE.md`
+
+Use these guardrails as brakes and counterweights, not as a curriculum or a reason every success must become a failure.
 
 ## 1. DO NOT MANUFACTURE GREG
 
@@ -83,7 +89,9 @@ Do not immediately solve or validate the shadow.
 
 The useful feeling is:
 
-> **I want Chapter 30 because something larger has begun moving.**
+> **I want much later chapters because something larger has begun moving.**
+
+R2 may plausibly span roughly 500 chapters across approximately 5–10 years. Long shadow no longer means `pay this by Chapter 30`.
 
 ## 5. EMOTIONAL PRESSURE THAT RESISTS SYSTEMS
 
@@ -159,7 +167,11 @@ Greg may remember a later fact correctly and still misunderstand the present bec
 
 Avoid making future knowledge wrong merely to nerf him.
 
-Prefer making correct future knowledge **insufficient**.
+Correct future knowledge may be insufficient.
+
+It may also simply be correct and useful.
+
+Do not make `Greg was right, but...` the automatic chapter grammar. The reader needs enough clean wins to believe forty years of remembered life are a real advantage.
 
 ## 9. PAGE-NATIVE PROSE, NOT AUDIO RESIDUE
 
@@ -176,3 +188,123 @@ One dominant causal event is usually enough.
 Do not add a sword purchase, lesson, reward, joke, second customer, and new threat after the chapter already completed its movement.
 
 Move good unused material forward until it causes something.
+
+## 11. LET THE WIN LAND
+
+The earlier run developed strong failure intelligence. Do not let that become clever nerfing.
+
+Greg may sometimes:
+
+- remember the right route
+- know the creature
+- choose the right tool
+- make the right magical cast
+- read the contract correctly
+- predict another person's move
+- buy the valuable object cheaply
+- execute a trained sword action well
+
+and receive the actual benefit.
+
+A clean win does not require another character to be stupid.
+
+A clean win does not require an immediate compensating loss.
+
+A chapter can reveal a new constraint later without stapling one onto the same successful beat.
+
+## 12. MAGIC IS WIDER THAN RESERVE
+
+Low reserve remains true until prose changes it.
+
+Do not use `low reserve` as the universal answer to what Greg can or cannot do magically.
+
+When magic enters, consider whether the meaningful axis is:
+
+- precision
+- formation speed
+- shape complexity
+- duration
+- range
+- recovery
+- movement while casting
+- changing a construct after formation
+- concurrency
+- sensory feedback
+- counter-magic literacy
+- integration with sword, body, terrain, wards, artifacts, or teammates
+- judgment about when not to cast
+
+Do not turn this list into a visible progression sheet.
+
+Preserve the strong Barrier grammar:
+
+> **PLANE. DIRECTION. LOAD.**
+
+Barrier may grow through geometry and coordination, not only wall size.
+
+Greg may also learn or recover non-Barrier magic when current practitioners and current-world evidence earn it.
+
+## 13. SHOW HIGHER COMPETENCE HONESTLY
+
+Current Greg is Bronze. Current prose has established Silver and Gold as real Guild strata, and the long-range working architecture leaves room above Gold before exceptional Rankers.
+
+When higher-rank adventurers naturally enter:
+
+- let them be good
+- let Greg recognize why they are good
+- let teamwork, preparation, magic integration, equipment, discipline, and recovery demonstrate rank
+- do not use them as fake elites Greg can humiliate with one old-life trick
+
+A genuinely excellent Gold party is useful scale evidence precisely because Old Greg's eventual S-class ceiling was much higher still.
+
+Ranker status remains separate from ordinary Guild promotion. Formal Ranker titles are conferred by recognized authority, not self-selected and not merely crowd-sourced nicknames.
+
+Do not exposition-dump the whole hierarchy before the story needs it.
+
+## 14. REPEAT PEOPLE BEFORE DISPOSABLE CREWS
+
+Before inventing another temporary fighter, warder, scout, driver, healer, surveyor, or specialist, ask whether an established person can naturally return for their own reason.
+
+Do not force recurrence against geography or independent character life.
+
+But let repeated work build:
+
+- trust
+- annoyance
+- watch habits
+- shorthand
+- known ranges
+- known failure modes
+- equipment familiarity
+- money expectations
+- requests for specific people
+
+Party structure may emerge from that accumulation.
+
+Do not assemble a fantasy roster by quota.
+
+## 15. DO NOT SHRINK THE FANTASY TO PROVE MATURITY
+
+R2's mundane/social engine is a strength. It should support a larger fantasy life, not replace one.
+
+Over years, when causally earned, allow:
+
+- stronger magic
+- real adventuring
+- underground work
+- ruins
+- monsters
+- magical ecology
+- strange markets
+- artifacts
+- travel
+- higher-rank parties
+- future-famous people before their titles
+
+Keep food, rooms, wages, repairs, letters, clothes, sex, weather, equipment maintenance, neighbors, and ordinary work alive underneath it.
+
+The test is not `is this too fantasy?`
+
+The better test is:
+
+> **Does this fantasy development create durable changes in capability, relationships, economics, geography, history, or ordinary life?**
