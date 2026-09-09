@@ -128,14 +128,6 @@ He shortened Pate's lead.
 
 I moved behind the left pannier without being told.
 
-There.
-
-That was new.
-
-Not the task.
-
-The absence of discussion.
-
 Pate stepped onto the shelf.
 
 One hoof.
@@ -453,12 +445,6 @@ Two men on foot yesterday.
 No one she knew used the Cut for heavy freight unless they wanted to arrive with less freight.
 
 Then she left.
-
-No name.
-
-No prophecy.
-
-No reason to become part of my life.
 
 She had somewhere to be.
 
@@ -917,8 +903,6 @@ The marked cord stayed near the window.
 No new packet waited under the door.
 
 Good.
-
-Five days did not have to pay every account.
 
 I set the sword against the bed.
 
