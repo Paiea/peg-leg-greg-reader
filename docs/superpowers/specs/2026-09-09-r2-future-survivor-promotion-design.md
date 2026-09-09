@@ -18,7 +18,9 @@ Core rule:
 
 As of `main` commit `6524611eeaae6383eeb7ff07ad0c93ee8aae8e93`, PR #252 has already published the Experiment B contiguous written run through Chapter 86.
 
-This design does not retroactively undo that publication. It defines the safer forward policy for future speculative territory.
+This design does not retroactively undo that publication. Chapters 49–86 are now accepted written authority and are no longer treated as backlog material. Survivor rules apply only to unaccepted future territory beyond the current accepted frontier, plus any later experimental forks that have not been selected and published.
+
+The publication of 49–86 is therefore historical evidence for why this protocol is needed, not the forward template for promoting speculative territory.
 
 ## Authority split
 
