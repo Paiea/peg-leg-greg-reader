@@ -73,9 +73,14 @@ jobs:
           ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 greg-again/audio/assets/chapter-010.mp3
 
       - name: Commit durable audio
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git stash push --include-untracked --message chapter-10-audio
+          git pull --rebase origin audio/greg-again-ch10-returner
+          git stash pop
           git add greg-again/audio/assets/chunks/010 greg-again/audio/assets/chapter-010.mp3
           git commit -m 'Capture Greg Again Chapter 10 audio'
           git push origin HEAD:audio/greg-again-ch10-returner
