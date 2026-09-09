@@ -72,6 +72,16 @@ For Manuscript / 01, `MANUSCRIPT_STATE.md` is the normal home for the next execu
 
 That compact prompt is intentionally sufficient. The worker must discover the current endpoint, exact prose edge, constraints, and next trailhead from GitHub.
 
+## Greg, Again audio re-prompt
+
+> Continue Greg, Again audio production from current GitHub authority.
+>
+> Auto-claim the next available audio batch using `r2/AUDIO_PRODUCTION.md`, then produce, verify, publish, and leave the next handshake.
+>
+> Preserve newer authority and do not overlap another worker.
+
+A fresh audio worker derives its actual chapter range from current GitHub state. It must respect published audio, live batch claims, live pre-protocol per-chapter branches/PRs, and the current written frontier before synthesis begins.
+
 ## Reader / UI re-prompt
 
 > Continue Peg-Leg Greg reader work from GitHub. Read project authority plus `state/READER_DESIGN_LAB.md` and visual guidance. Use a branch for broad changes. Preserve manuscript prose and newer art/UI work. Validate, update durable design state, and leave the next handshake.
@@ -87,9 +97,12 @@ The human should increasingly be able to say only:
 - `continue reader`
 - `continue images`
 - `continue story control`
+- `continue Greg, Again audio`
 - or simply `continue the highest-value Peg-Leg Greg work`
 
 Within an already-running Manuscript Engine chat, `Continue` or `Next chapter` is enough after the prior chapter has been durably committed and verified.
+
+Within an already-running Greg, Again audio worker, `Continue` is enough after the worker has a durable claim and the prior chapter has crossed its verification/publication boundary.
 
 The worker is responsible for discovering current state from GitHub.
 

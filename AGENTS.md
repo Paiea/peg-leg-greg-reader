@@ -102,6 +102,11 @@ Read `state/VISUAL_BIBLE.md` and `state/IMAGE_PRODUCTION.md`, then actual manusc
 
 If `state/visual/PRODUCTION_HOLD.json` says an active `structural_edit_hold`, do **not** generate new art or automatically promote approved art into reader prose. Preserve scene-candidate intent, treat chapter/title/paragraph-anchor placement as provisional, and use `state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md` after the structural edit to explicitly remap, retire, or replace drifted candidates before production resumes.
 
+### Greg, Again Audio
+Read `r2/PIPELINE.md` and `r2/AUDIO_PRODUCTION.md`, then resolve current audio publication, written frontier, active audio branches/PRs, and the exact source surfaces needed for the claimed range.
+
+If no chapter range was explicitly assigned, auto-claim the earliest available non-overlapping batch using `r2/AUDIO_PRODUCTION.md` **before voice synthesis**. The claim branch is durable ownership. Preserve live pre-protocol per-chapter branches, never steal apparently idle work, never claim beyond written authority, and reconcile shared manifests/catalogs against newest GitHub state before publication.
+
 ### Reader / UI
 Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and current project authority. Use a branch for broad changes. Never rewrite prose as a presentation side effect. When showcase curation is active, use `publishing/showcase_chapters.json` and generated showcase numbering for public ordering while preserving canonical file paths and art identity.
 
@@ -162,5 +167,6 @@ Minimal fresh-chat starters are intentionally valid:
 - `Continue Peg-Leg Greg as 04 — Heavy Prose Editor from current GitHub authority.`
 - `Continue Peg-Leg Greg as 05 — Visual Production / Image Lab from current GitHub authority.`
 - `Continue Peg-Leg Greg Reader / UI from current GitHub authority.`
+- `Continue Greg, Again audio production from current GitHub authority.`
 
 Do not paste a giant lane prompt into every replacement chat unless a genuinely new requirement is not yet represented in GitHub. When a lane's operating rules are durable in repo state, the short starter is preferred.

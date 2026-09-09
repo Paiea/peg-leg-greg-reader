@@ -27,6 +27,13 @@ The public site may explain the Run 1 → Run 2 lineage and process on the homep
 ```text
 r2/
   PIPELINE.md                 # shared Greg surface / medium finishing contract
+  IMAGE_SYSTEM.md             # R2-specific visual production + authority rules
+  visual-state/
+    R2_VISUAL_CANON.md        # compact current style/identity/location authority
+  image-packets/
+    TEMPLATE.md               # reusable bounded production contract
+    PACKET_001.md             # first Greg/Carrow/Chapter 1 production packet
+
   data/
     project.json             # public project order/current chapter
     rendering-pipeline.json  # machine-readable rendering route
@@ -38,8 +45,10 @@ r2/
   assets/
     css/                     # R2-only presentation
     js/                      # manifest-driven site/chapter rendering
-    images/                  # site/UI mood art only
-      site/                  # preferred deterministic path for homepage/site art
+    images/
+      site/                  # homepage/site mood art
+      continuity/            # approved internal visual anchors
+      chapters/              # approved chapter-specific art
 
   about/                     # public process/lineage explanation
   chapters/                  # public chapter browser
@@ -53,6 +62,8 @@ r2/
 - `data/project.json` answers **what chapters exist publicly and in what order**.
 - `data/rendering-pipeline.json` answers **how one Greg-shaped wording surface forks into Listen and Read**.
 - `PIPELINE.md` is the human worker contract for that same rendering route.
+- `IMAGE_SYSTEM.md` answers **how R2 visual work is planned, generated, reviewed, promoted, handed off, and integrated**.
+- `visual-state/R2_VISUAL_CANON.md` answers **what current R2 image work should not have to rediscover**.
 - `data/chapters/chNNN.json` answers **what the public reader should display for that chapter**.
 - `data/chapter-registry.json` answers **what production work remains**.
 - Audio, written, and image files are assets referenced by manifests. Folder scanning does not define story order.
@@ -102,7 +113,21 @@ Written Finish is a light medium-specific finish from the Shared Greg Surface. C
 
 ### Images
 
-Chapter manifests contain only approved R2 chapter images. Mood/site artwork belongs under `r2/assets/images/site/` and stays separate from chapter visual canon.
+R2 image work must read `IMAGE_SYSTEM.md` and `visual-state/R2_VISUAL_CANON.md` before production.
+
+This is important because the root Run 1 `VISUAL_BIBLE.md` contains later-story visual continuity that **must not leak backward into early R2**. In particular, until R2 story authority establishes a leg loss, early R2 Greg has both legs intact and must not inherit Run 1 peg-leg/prosthetic/crutch state merely from the project title or old artwork.
+
+Chapter manifests contain only approved **and binary-verified** R2 chapter images. Mood/site artwork stays separate from chapter visual canon.
+
+Preferred paths:
+
+```text
+r2/assets/images/site/
+r2/assets/images/continuity/
+r2/assets/images/chapters/chNNN/
+```
+
+Use bounded image packets under `image-packets/`. Image count is not a quota: a chapter may use zero art, one strong anchor, or additional support images only when they add distinct value.
 
 Generated/edited image binaries follow `state/IMAGE_BINARY_HANDOFF.md`.
 
@@ -115,13 +140,7 @@ Do not use the AI/GitHub binary-write path as the default transport for approved
 5. Only then should HTML, chapter manifests, gallery state, or visual continuity state point at the asset.
 6. Highly visible site art should also be checked on the deployed page after merge.
 
-For the current homepage hero, the preferred stable path is:
-
-```text
-r2/assets/images/site/r2-hero.webp
-```
-
-A site hero is `site_mood`, not Greg character canon unless a later explicit visual-authority decision promotes useful evidence from it.
+Site art is `site_mood`, not Greg character canon unless a later explicit visual-authority decision promotes useful evidence from it.
 
 ## Reader principles
 
