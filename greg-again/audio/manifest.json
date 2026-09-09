@@ -83,6 +83,18 @@
       "duration_seconds": 818.136,
       "audio_src": "assets/chapter-007.mp3",
       "note": "Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."
+    },
+    {
+      "chapter_id": "ga-008",
+      "number": 8,
+      "title": "The Defender",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 14,
+      "duration_seconds": 703.08,
+      "audio_src": "assets/chapter-008.mp3",
+      "note": "Chapter 8 preserves evidence before certainty: suspicion, caravan vulnerability, confirming movement, prepared counters, and Greg's updated threat model land in sequence. All fourteen provider-safe takes were captured without a split."
     }
   ]
 }
