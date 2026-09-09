@@ -8,22 +8,25 @@ on:
       - .github/workflows/audio-fetch-test.yml
 
 jobs:
-  fetch-take-01:
+  inspect-provider-page:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch exact provider artifact
+      - name: Fetch provider landing page
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p out
           curl --fail --location --retry 3 --retry-delay 2 \
             'https://www.aidocmaker.com/g0/audio?name=98aef78da55b4520a8acf2c5636c7d56' \
-            -o out/01.mp3
-          test -s out/01.mp3
-          file out/01.mp3
-          ffprobe -v error -show_entries format=duration -of default=nw=1 out/01.mp3
+            -o out/provider.html
+          test -s out/provider.html
+          file out/provider.html
+          echo '--- media-like references ---'
+          grep -Eo 'https?://[^"'"'"'<> ]+|src=["'"'"'][^"'"'"']+|href=["'"'"'][^"'"'"']+' out/provider.html | grep -Ei 'audio|mp3|wav|m4a|media|storage|download|blob|g0' | head -100 || true
+          echo '--- audio tokens ---'
+          grep -Eio '.{0,120}(audio|mp3|wav|m4a|download|storage|blob).{0,220}' out/provider.html | head -100 || true
       - uses: actions/upload-artifact@v4
         with:
-          name: ga012-take01
-          path: out/01.mp3
+          name: ga012-provider-page
+          path: out/provider.html
           if-no-files-found: error
