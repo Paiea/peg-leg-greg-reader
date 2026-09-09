@@ -14,8 +14,7 @@ jobs:
   inspect-player:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Trace provider audio resolver
+      - name: Extract provider audio client module
         shell: bash
         run: |
           set -euo pipefail
@@ -24,27 +23,26 @@ jobs:
           python - <<'PY' > /tmp/scripts.txt
           import re
           s=open('/tmp/player.html',encoding='utf-8',errors='replace').read()
-          for src in re.findall(r'<script[^>]+src="([^"]+)"', s):
-              print(src)
+          for src in re.findall(r'<script[^>]+src="([^"]+)"', s): print(src)
           PY
           : > /tmp/alljs
           while read -r src; do
-            case "$src" in
-              http*) url="$src" ;;
-              *) url="$base$src" ;;
-            esac
+            case "$src" in http*) url="$src" ;; *) url="$base$src" ;; esac
             curl -fsSL "$url" >> /tmp/alljs || true
             printf '\n' >> /tmp/alljs
           done < /tmp/scripts.txt
           python - <<'PY'
-          import re
           s=open('/tmp/alljs',encoding='utf-8',errors='replace').read()
-          print('js-bytes',len(s))
-          pats=[r'.{0,180}mcp-preview.{0,240}',r'.{0,180}g0/audio.{0,240}',r'.{0,180}audio-playback.{0,240}',r'.{0,180}(?:status|poll|context_id|contextId).{0,240}']
-          seen=set()
-          for pat in pats:
-              for m in re.finditer(pat,s,re.I|re.S):
-                  x=' '.join(m.group(0).split())
-                  if x not in seen:
-                      seen.add(x); print(x[:1000])
+          for needle, before, after in [
+              ('create_audio_with_assistant',1800,5000),
+              ('callModalApi',2500,5000),
+              ('user_get_artifact',1800,3000),
+          ]:
+              print('\n===== '+needle+' =====')
+              pos=0; count=0
+              while True:
+                  pos=s.find(needle,pos)
+                  if pos<0 or count>=4: break
+                  print(s[max(0,pos-before):pos+after])
+                  pos += len(needle); count += 1
           PY
