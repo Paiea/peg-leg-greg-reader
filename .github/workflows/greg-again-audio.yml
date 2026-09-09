@@ -1,212 +1,28 @@
-name: Map mana pronunciation repair seams
+name: Validate Greg Again Audio
 
 on:
+  pull_request:
+    paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
+      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - audio/greg-again-mana-pronunciation-repair-v2
+      - main
     paths:
+      - 'greg-again/audio/**'
+      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  diagnose:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
-          ref: audio/greg-again-mana-pronunciation-repair-v2
-          fetch-depth: 0
-      - name: Install media tools
-        shell: bash
-        run: |
-          set -euo pipefail
-          if ! command -v ffprobe >/dev/null 2>&1; then
-            sudo apt-get update -qq
-            sudo apt-get install -y -qq ffmpeg >/dev/null
-          fi
-      - name: Map paragraph seams without changing audio
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          import json, math, re, subprocess
-          from pathlib import Path
-
-          root = Path('.')
-          idx = json.loads((root/'greg-again/audio/production/mana-repair-source/micro-index-original.json').read_text(encoding='utf-8'))
-          ledger = json.loads((root/'greg-again/audio/production/2026-09-08-mana-provider-ledger.json').read_text(encoding='utf-8'))
-          accepted = {x['target']: x for x in ledger['accepted']}
-          work = Path('/tmp/mana-seams')
-          work.mkdir(parents=True, exist_ok=True)
-
-          def duration(path):
-              return float(subprocess.check_output([
-                  'ffprobe','-v','error','-show_entries','format=duration',
-                  '-of','default=noprint_wrappers=1:nokey=1',str(path)
-              ], text=True).strip())
-
-          def silence_intervals(path, tag):
-              log = work/f'{tag}.silence.log'
-              with log.open('w') as f:
-                  subprocess.run([
-                      'ffmpeg','-hide_banner','-loglevel','info','-i',str(path),
-                      '-af','silencedetect=noise=-43dB:d=0.05','-f','null','-'
-                  ], stdout=subprocess.DEVNULL, stderr=f, check=False)
-              text = log.read_text(errors='replace')
-              events=[]
-              for line in text.splitlines():
-                  m=re.search(r'silence_start: ([0-9.]+)',line)
-                  if m: events.append(('start',float(m.group(1))))
-                  m=re.search(r'silence_end: ([0-9.]+)',line)
-                  if m: events.append(('end',float(m.group(1))))
-              events.sort(key=lambda x:x[1])
-              out=[]; cur=None
-              for kind,t in events:
-                  if kind=='start': cur=t
-                  elif cur is not None:
-                      out.append((cur,t)); cur=None
-              d=duration(path)
-              if cur is not None: out.append((cur,d))
-              return [(a,b) for a,b in out if b-a >= 0.05]
-
-          def tokenize_count(p):
-              return max(1, len(re.findall(r"[A-Za-z0-9']+", p)))
-
-          def align_boundaries(paras, audio_d, silences):
-              n=len(paras)
-              if n <= 1: return [], []
-              weights=[tokenize_count(p)+0.9 for p in paras]
-              total=sum(weights)
-              expected=[]; acc=0.0
-              for w in weights[:-1]:
-                  acc += w
-                  expected.append(audio_d*acc/total)
-              # Remove leading/trailing silence as paragraph-boundary candidates.
-              cand=[(a,b,(a+b)/2,b-a) for a,b in silences if a>0.08 and b<audio_d-0.08]
-              if len(cand) < len(expected):
-                  return None, {'reason':'too_few_silences','expected_boundaries':len(expected),'candidate_silences':len(cand)}
-              B=len(expected); M=len(cand)
-              inf=10**18
-              prev=[0.0]*(M+1)
-              parents=[]
-              scale=max(0.8,audio_d*0.035)
-              for i in range(1,B+1):
-                  cur=[inf]*(M+1)
-                  row=[None]*(M+1)
-                  for j in range(1,M+1):
-                      # skip candidate j
-                      if cur[j-1] < cur[j]:
-                          cur[j]=cur[j-1]; row[j]=('skip',j-1)
-                      # match boundary i to candidate j
-                      if prev[j-1] < inf:
-                          a,b,c,sd=cand[j-1]
-                          err=(c-expected[i-1])/scale
-                          cost=err*err - min(sd,0.8)*0.18
-                          v=prev[j-1]+cost
-                          if v < cur[j]:
-                              cur[j]=v; row[j]=('match',j-1)
-                  parents.append(row)
-                  prev=cur
-              j=min(range(M+1), key=lambda x:prev[x])
-              chosen=[None]*B
-              for i in range(B,0,-1):
-                  row=parents[i-1]
-                  while j>0 and row[j] and row[j][0]=='skip':
-                      j=row[j][1]
-                  if j<=0 or not row[j] or row[j][0] != 'match':
-                      return None, {'reason':'alignment_backtrack_failed'}
-                  cj=row[j][1]
-                  chosen[i-1]=cand[cj]
-                  j=cj
-              stats=[]
-              for e,c in zip(expected,chosen):
-                  a,b,mid,sd=c
-                  stats.append({'expected':round(e,3),'silence_start':round(a,3),'silence_end':round(b,3),'center':round(mid,3),'silence_duration':round(sd,3),'error_seconds':round(abs(mid-e),3)})
-              return chosen, stats
-
-          def get_original(ch,take):
-              if ch == 11:
-                  data=json.loads((root/'greg-again/audio/takes/011.json').read_text(encoding='utf-8'))
-                  rec=next(x for x in data['takes'] if int(x['take'])==take)
-                  dest=work/f'ch011-t{take:02d}.mp3'
-                  if not dest.exists():
-                      subprocess.run(['curl','--fail','--location','--retry','4',rec['artifact_url'],'-o',str(dest)],check=True)
-                  return dest
-              p=root/f'greg-again/audio/assets/chunks/{ch:03d}/{take:02d}.mp3'
-              if not p.exists():
-                  raise FileNotFoundError(p)
-              return p
-
-          grouped={}
-          for item in idx['items']:
-              grouped.setdefault((int(item['chapter']),int(item['take'])),[]).append(item)
-
-          report={'method':'paragraph-order + global silence alignment; diagnostic only','targets':[],'summary':{}}
-          high=0; low=0
-          for (ch,take), items in sorted(grouped.items()):
-              source=(root/f'greg-again/audio/production/mana-repair-inputs/ch{ch:03d}-t{take:02d}.txt').read_text(encoding='utf-8').strip()
-              paras=[p.strip() for p in source.split('\n\n') if p.strip()]
-              orig=get_original(ch,take)
-              d=duration(orig)
-              sil=silence_intervals(orig,f'ch{ch:03d}-t{take:02d}')
-              chosen, stats=align_boundaries(paras,d,sil)
-              if chosen is None:
-                  for item in items:
-                      report['targets'].append({'target':f"ch{ch:03d}-t{take:02d}-m{int(item['micro']):02d}",'chapter':ch,'take':take,'status':'low_confidence','diagnostic':stats})
-                      low += 1
-                  continue
-              for item in sorted(items,key=lambda x:int(x['micro'])):
-                  pi=int(item['paragraph_index'])
-                  span_start=pi; span_end=pi
-                  target=f'ch{ch:03d}-t{take:02d}-m{int(item["micro"]):02d}'
-                  if target == 'ch011-t14-m01':
-                      span_start=1; span_end=3
-                  left=0.0 if span_start==0 else chosen[span_start-1][2]
-                  right=d if span_end==len(paras)-1 else chosen[span_end][2]
-                  left_stat=None if span_start==0 else stats[span_start-1]
-                  right_stat=None if span_end==len(paras)-1 else stats[span_end]
-                  errors=[s['error_seconds'] for s in (left_stat,right_stat) if s]
-                  sildurs=[s['silence_duration'] for s in (left_stat,right_stat) if s]
-                  maxerr=max(errors,default=0.0)
-                  minsil=min(sildurs,default=9.0)
-                  region=right-left
-                  # Conservative gate: both paragraph boundaries must land close to text-duration expectation,
-                  # use real detectable silence, and produce a plausible finite replacement region.
-                  threshold=max(2.2,d*0.055)
-                  ok=(right>left and region<35.0 and maxerr<=threshold and minsil>=0.075)
-                  micro=Path(accepted[target]['durable_path'])
-                  md=duration(micro)
-                  rec={
-                      'target':target,'chapter':ch,'take':take,'paragraph_index':pi,
-                      'span_start_paragraph':span_start,'span_end_paragraph':span_end,
-                      'paragraph_count':len(paras),'original_duration':round(d,3),
-                      'detected_silence_count':len(sil),'splice_start':round(left,3),'splice_end':round(right,3),
-                      'original_region_duration':round(region,3),'micro_duration':round(md,3),
-                      'left_boundary':left_stat,'right_boundary':right_stat,
-                      'max_boundary_error':round(maxerr,3),'confidence_threshold':round(threshold,3),
-                      'min_boundary_silence':round(minsil,3),'status':'high_confidence' if ok else 'low_confidence',
-                      'original_text':item['original_text'],'provider_text':accepted[target]['provider_text']
-                  }
-                  report['targets'].append(rec)
-                  if ok: high += 1
-                  else: low += 1
-                  print(target, rec['status'], f"region={region:.3f}", f"micro={md:.3f}", f"err={maxerr:.3f}", f"sil={minsil:.3f}")
-          report['summary']={'target_count':len(report['targets']),'high_confidence':high,'low_confidence':low}
-          out=root/'greg-again/audio/production/2026-09-08-mana-seam-diagnostic.json'
-          out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps(report['summary']))
-          PY
-      - name: Restore validator and commit diagnostic
-        shell: bash
-        run: |
-          set -euo pipefail
-          git fetch origin main --depth=1
-          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add greg-again/audio/production/2026-09-08-mana-seam-diagnostic.json .github/workflows/greg-again-audio.yml
-          git commit -m 'audio: map mana pronunciation repair seams'
-          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
+          python-version: '3.13'
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
