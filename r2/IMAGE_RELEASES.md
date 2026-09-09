@@ -115,11 +115,15 @@ After the manual drop, a repository worker verifies actual files before chapter 
 
 ## Default user starter
 
-A fresh packager chat may be started with:
+A fresh packager chat may be started with only:
 
 ```text
-Continue R2 image release packaging from current GitHub and ChatGPT Library authority. Package the current approved unreleased R2 image assets into the next repo-ready release ZIP, store the release in the R2 Library release shelf, update release membership, and stop. Do not generate new chapter art.
+Continue R2 image release packaging from current GitHub and ChatGPT Library authority.
+Collect the current approved unreleased R2 image assets, package one repo-mirrored release ZIP from the exact Library files, verify the archive, store it in the R2 Library release shelf, move included sources to Released only after the ZIP is safely stored, give me the single release ZIP, then stop.
+Do not generate new chapter art and do not repackage assets already released.
 ```
+
+The release worker must recover release numbering, membership, destination paths, and prior-release state from durable authority rather than asking Keoni to restate them.
 
 ## Stop rule
 
