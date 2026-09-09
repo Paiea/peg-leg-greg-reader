@@ -63,6 +63,7 @@ a { color: inherit; }
 .site-nav a:hover, .site-nav a:focus-visible,
 .site-footer a:hover, .site-footer a:focus-visible,
 .text-link:hover, .text-link:focus-visible { color: var(--link); }
+.site-nav a[aria-current='page'] { color: var(--link-strong); }
 .home-main { padding: 1rem 0 5rem; }
 .cover-section { padding-top: .2rem; }
 .cover-frame {
@@ -89,7 +90,7 @@ a { color: inherit; }
 .shelf-section { padding: 3.2rem 0 0; border-top: 1px solid var(--line-soft); margin-top: 3rem; }
 .section-heading { margin-bottom: 1.3rem; }
 .section-heading.with-link { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; }
-.section-heading h2, .lineage-strip h2 {
+.section-heading h1, .section-heading h2, .lineage-strip h2 {
   margin: .2rem 0 0; font-size: clamp(1.9rem, 3.6vw, 3rem); font-weight: 500; line-height: 1.08; letter-spacing: -.02em;
 }
 .current-card, .chapter-row { border-top: 1px solid var(--line); }
