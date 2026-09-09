@@ -1,28 +1,182 @@
-name: Validate Greg Again Audio
+name: Align mana repairs on authoritative chunks
 
 on:
-  pull_request:
-    paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
-      - '.github/workflows/greg-again-audio.yml'
   push:
     branches:
-      - main
+      - audio/greg-again-mana-pronunciation-repair-v2
     paths:
-      - 'greg-again/audio/**'
-      - 'tests/test_greg_again_audio_catalog.py'
       - '.github/workflows/greg-again-audio.yml'
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  validate:
+  align:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
         with:
-          python-version: '3.13'
-      - name: Run Greg Again audio catalog contract
-        run: python -m unittest tests.test_greg_again_audio_catalog -v
+          ref: audio/greg-again-mana-pronunciation-repair-v2
+          fetch-depth: 0
+      - name: Install media alignment tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          python -m pip install --quiet faster-whisper
+      - name: Align exact historical transcript to authoritative provider chunks
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          from difflib import SequenceMatcher
+          from faster_whisper import WhisperModel
+
+          root=Path('.')
+          index=json.loads((root/'greg-again/audio/production/mana-repair-source/micro-index-original.json').read_text())
+          meta={f"ch{int(x['chapter']):03d}-t{int(x['take']):02d}-m{int(x['micro']):02d}":x for x in index['items']}
+          ledger=json.loads((root/'greg-again/audio/production/2026-09-08-mana-provider-ledger.json').read_text())
+          accepted={x['target']:x for x in ledger['accepted']}
+
+          specs={
+            'ch006-t05-m01': {'chunk':6, 'slice_after':'It hit the wet stone.'},
+            'ch006-t06-m01': {'chunk':7},
+            'ch006-t08-m01': {'chunk':9},
+            'ch006-t10-m01': {'chunk':11},
+            'ch006-t12-m01': {'chunk':13},
+            'ch018-t18-m01': {'chunk':18},
+            'ch022-t03-m01': {'chunk':3},
+          }
+          model=WhisperModel('small.en',device='cpu',compute_type='int8')
+          work=Path('/tmp/mana-authoritative-align'); work.mkdir(parents=True,exist_ok=True)
+
+          def norm(w):
+            w=w.lower().replace('mah-nah','mana').replace('ma-na','mana')
+            return re.sub(r"[^a-z0-9']+",'',w)
+          def tokens(text):
+            text=text.lower().replace('mah-nah','mana').replace('ma-na','mana')
+            return [norm(x) for x in re.findall(r"[A-Za-z0-9']+",text) if norm(x)]
+          def transcribe(path):
+            segs,_=model.transcribe(str(path),beam_size=5,word_timestamps=True,vad_filter=False,language='en')
+            out=[]
+            for seg in segs:
+              for w in seg.words or []:
+                nw=norm(w.word)
+                if nw:
+                  out.append({'word':nw,'raw':w.word.strip(),'start':float(w.start),'end':float(w.end),'prob':float(w.probability or 0)})
+            return out
+          def silences(path):
+            log=work/(path.parent.name+'-'+path.stem+'.sil.log')
+            with log.open('w') as f:
+              subprocess.run(['ffmpeg','-hide_banner','-loglevel','info','-i',str(path),'-af','silencedetect=noise=-46dB:d=0.02','-f','null','-'],stdout=subprocess.DEVNULL,stderr=f,check=False)
+            txt=log.read_text(errors='replace'); ev=[]
+            for ln in txt.splitlines():
+              m=re.search(r'silence_start: ([0-9.]+)',ln)
+              if m: ev.append(('s',float(m.group(1))))
+              m=re.search(r'silence_end: ([0-9.]+)',ln)
+              if m: ev.append(('e',float(m.group(1))))
+            ev.sort(key=lambda x:x[1]); out=[]; cur=None
+            for k,t in ev:
+              if k=='s': cur=t
+              elif cur is not None: out.append((cur,t)); cur=None
+            return out
+          def score(a,b):
+            if a==b: return 2.5
+            r=SequenceMatcher(None,a,b).ratio()
+            return 1.0 if r>=0.82 else (0.25 if r>=0.65 else -1.2)
+          def align(src,asr):
+            n,m=len(src),len(asr); gap=-1.05
+            dp=[[0.0]*(m+1) for _ in range(n+1)]
+            bt=[[None]*(m+1) for _ in range(n+1)]
+            for i in range(1,n+1): dp[i][0]=i*gap; bt[i][0]='u'
+            for j in range(1,m+1): dp[0][j]=j*gap; bt[0][j]='l'
+            for i in range(1,n+1):
+              for j in range(1,m+1):
+                vals=((dp[i-1][j-1]+score(src[i-1],asr[j-1]),'d'),(dp[i-1][j]+gap,'u'),(dp[i][j-1]+gap,'l'))
+                dp[i][j],bt[i][j]=max(vals,key=lambda x:x[0])
+            pairs=[]; i=n; j=m
+            while i or j:
+              op=bt[i][j]
+              if op=='d': pairs.append((i-1,j-1)); i-=1; j-=1
+              elif op=='u': i-=1
+              elif op=='l': j-=1
+              else: break
+            return list(reversed(pairs)), dp[n][m]
+
+          results=[]
+          for target,spec in specs.items():
+            mm=meta[target]; ch=int(mm['chapter']); take=int(mm['take']); chunk=spec['chunk']
+            source=(root/f'greg-again/audio/production/mana-repair-inputs/ch{ch:03d}-t{take:02d}.txt').read_text(encoding='utf-8').strip()
+            if spec.get('slice_after'):
+              marker=spec['slice_after']
+              pos=source.find(marker)
+              if pos<0: raise SystemExit(f'{target}: slice marker absent')
+              source=source[pos:]
+            st=tokens(source); tt=tokens(mm['original_text'])
+            # locate exact target token sequence in historical source
+            starts=[i for i in range(len(st)-len(tt)+1) if st[i:i+len(tt)]==tt]
+            if len(starts)!=1: raise SystemExit(f'{target}: target token sequence count {len(starts)}')
+            ts=starts[0]; te=ts+len(tt)
+            audio=root/f'greg-again/audio/assets/chunks/{ch:03d}/{chunk:02d}.mp3'
+            if not audio.exists(): raise SystemExit(f'{target}: missing {audio}')
+            aw=transcribe(audio); at=[x['word'] for x in aw]
+            pairs,total=align(st,at)
+            amap={si:aj for si,aj in pairs if score(st[si],at[aj])>0}
+            before=[si for si in amap if si<ts]
+            after=[si for si in amap if si>=te]
+            left_si=max(before) if before else None; right_si=min(after) if after else None
+            if left_si is None: left_anchor_end=0.0; left_gap=None
+            else: left_anchor_end=aw[amap[left_si]]['end']; left_gap=ts-left_si
+            if right_si is None:
+              dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(audio)],text=True).strip())
+              right_anchor_start=dur; right_gap=None
+            else: right_anchor_start=aw[amap[right_si]]['start']; right_gap=right_si-te+1
+            sil=silences(audio)
+            between=[(a,b) for a,b in sil if a>=left_anchor_end-0.15 and b<=right_anchor_start+0.15]
+            # include tiny but real phrase pauses; choose outermost silences bracketing target speech.
+            left=None; right=None
+            if len(between)>=2:
+              left=between[0]; right=between[-1]
+            elif len(between)==1:
+              # one edge can be file boundary for target at start/end; otherwise insufficient
+              if ts==0: left=(0.0,0.0); right=between[0]
+              elif te==len(st): left=between[0]; right=(right_anchor_start,right_anchor_start)
+            cut_start=(sum(left)/2 if left else None); cut_end=(sum(right)/2 if right else None)
+            micro=Path(accepted[target]['durable_path'])
+            md=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(micro)],text=True).strip())
+            region=(cut_end-cut_start) if cut_start is not None and cut_end is not None else None
+            exact=sum(1 for si,aj in pairs if st[si]==at[aj])
+            coverage=exact/max(1,len(st))
+            plausible=region is not None and region>0 and region<max(12.0,md*3.0+2.0)
+            close_anchors=(left_gap is None or left_gap<=12) and (right_gap is None or right_gap<=12)
+            status='high_confidence' if plausible and close_anchors and coverage>=0.55 else 'review'
+            rec={
+              'target':target,'chapter':ch,'script_take':take,'provider_chunk':chunk,
+              'source_word_count':len(st),'asr_word_count':len(at),'exact_word_coverage':round(coverage,3),'alignment_score':round(total,3),
+              'target_source_span':[ts,te],'left_anchor_source_index':left_si,'right_anchor_source_index':right_si,
+              'left_anchor_word':st[left_si] if left_si is not None else None,'right_anchor_word':st[right_si] if right_si is not None else None,
+              'left_anchor_gap_words':left_gap,'right_anchor_gap_words':right_gap,'left_anchor_end':round(left_anchor_end,3),'right_anchor_start':round(right_anchor_start,3),
+              'candidate_silences':[[round(a,3),round(b,3)] for a,b in between],
+              'splice_start':round(cut_start,3) if cut_start is not None else None,'splice_end':round(cut_end,3) if cut_end is not None else None,
+              'region_duration':round(region,3) if region is not None else None,'micro_duration':round(md,3),'status':status,
+              'asr_text':' '.join(x['raw'] for x in aw), 'original_text':mm['original_text'],'provider_text':accepted[target]['provider_text']
+            }
+            results.append(rec)
+            print(target,'chunk',chunk,status,'coverage',rec['exact_word_coverage'],'anchors',left_gap,right_gap,'splice',rec['splice_start'],rec['splice_end'],'region',rec['region_duration'])
+          out={'method':'authoritative provider chunk + full historical transcript global word alignment + silence bracket','targets':results,'summary':{'target_count':len(results),'high_confidence':sum(x['status']=='high_confidence' for x in results),'review':sum(x['status']=='review' for x in results)}}
+          (root/'greg-again/audio/production/2026-09-09-mana-authoritative-alignment.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(out['summary']))
+          PY
+      - name: Restore validator and commit alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          git show FETCH_HEAD:.github/workflows/greg-again-audio.yml > .github/workflows/greg-again-audio.yml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/production/2026-09-09-mana-authoritative-alignment.json .github/workflows/greg-again-audio.yml
+          git commit -m 'audio: align mana repairs to authoritative chunks'
+          git push origin HEAD:audio/greg-again-mana-pronunciation-repair-v2
