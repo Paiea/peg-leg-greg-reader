@@ -3,125 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#11100e">
+  <meta name="theme-color" content="#13110f">
   <title>Peg-Leg Greg · R2</title>
-  <meta name="description" content="Peg-Leg Greg R2: a second run of Greg's life, built to listen to, read, and see.">
-  <link rel="stylesheet" href="assets/css/r2.css">
-  <link rel="stylesheet" href="assets/css/r2-home.css">
+  <meta name="description" content="Peg-Leg Greg, R2. An audio-first second run with writing and illustrations built from the same story underneath.">
+  <link rel="stylesheet" href="assets/css/r2-home-clean.css">
 </head>
-<body data-page="home">
-  <a class="skip-link" href="#main">Skip to story</a>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header r2-home-header">
-    <a class="brand r2-story-brand" href="index.html" aria-label="Peg-Leg Greg R2 home">
-      <span>PEG-LEG GREG</span>
-      <small>R2</small>
+  <header class="site-header">
+    <a class="site-brand" href="index.html" aria-label="Peg-Leg Greg R2 home">
+      <span class="brand-title">PEG-LEG GREG</span>
+      <span class="brand-run">R2</span>
     </a>
-    <nav aria-label="Primary">
+    <nav class="site-nav" aria-label="Primary">
       <a href="chapters/">Chapters</a>
       <a href="about/">About</a>
       <a href="../index.html">Run 1</a>
     </nav>
   </header>
 
-  <main id="main" class="r2-home">
-    <section class="r2-home-hero" aria-labelledby="r2-home-title">
-      <div class="r2-home-hero-frame">
-        <picture class="r2-home-hero-media">
-          <source media="(max-width: 760px)" srcset="assets/images/r2-hero-portrait.webp">
-          <img src="assets/images/r2-hero-wide.webp" alt="Young Greg at a lantern-lit harbor at dusk, with ships and a distant city beyond.">
+  <main id="main" class="home-main">
+    <h1 class="sr-only">Peg-Leg Greg, R2</h1>
+
+    <section class="cover-section" aria-label="Peg-Leg Greg cover">
+      <div class="cover-frame">
+        <picture>
+          <source media="(max-width: 760px)" srcset="assets/images/r2-cover-portrait.webp">
+          <img src="assets/images/r2-cover-wide.webp" alt="Peg-Leg Greg R2 cover art showing a young, intense Greg in the gritty streets of Carrow with integrated title typography.">
         </picture>
-        <div class="r2-home-hero-shade" aria-hidden="true"></div>
+      </div>
 
-        <div class="r2-home-edition" aria-label="R2, Run 2">
-          <strong>R2</strong>
-          <span>RUN 2</span>
+      <div class="entry-panel">
+        <p class="entry-kicker">A second life. A second run.</p>
+        <p class="entry-blurb">An audio-first return to Peg-Leg Greg, with writing and images growing from the same story underneath.</p>
+        <div class="entry-actions">
+          <a id="hero-listen" class="button button-primary" href="chapter.html?id=r2-ch001#listen">▶ Start Listening</a>
+          <a id="hero-read" class="button" href="chapter.html?id=r2-ch001#read">Start Reading</a>
         </div>
-
-        <div class="r2-home-hero-copy">
-          <p class="r2-home-kicker">A second life. A second run.</p>
-          <h1 id="r2-home-title"><span>PEG-LEG</span><span>GREG</span></h1>
-          <p class="r2-home-hook">He remembers an entire life. He woke up nineteen.</p>
-          <p class="r2-home-premise">No rank. No fortune. No powerful body. No place in the world he spent decades building. Greg knows what he became. Now he has to live his way there again.</p>
-
-          <div class="r2-home-actions">
-            <a id="r2-start-listen" class="button button-primary" href="chapter.html?id=r2-ch001#listen">▶ Start Listening</a>
-            <a id="r2-start-read" class="button button-secondary" href="chapter.html?id=r2-ch001#read">Start Reading</a>
-          </div>
-
-          <p id="r2-home-availability" class="r2-home-availability">Loading the current run…</p>
-        </div>
+        <p id="availability-summary" class="availability-summary">Loading chapter availability…</p>
       </div>
     </section>
 
-    <section class="r2-home-modes" aria-labelledby="r2-modes-title">
-      <div class="r2-home-section-head">
+    <section class="shelf-section" aria-labelledby="current-title">
+      <div class="section-heading">
         <div>
-          <p class="r2-home-kicker">Available now</p>
-          <h2 id="r2-modes-title">Choose how you enter the story.</h2>
+          <p class="eyebrow">Current frontier</p>
+          <h2 id="current-title">Where R2 stands now</h2>
+        </div>
+      </div>
+      <article id="current-chapter" class="current-card">
+        <p class="loading-note">Loading current chapter…</p>
+      </article>
+    </section>
+
+    <section class="shelf-section" aria-labelledby="chapters-title">
+      <div class="section-heading with-link">
+        <div>
+          <p class="eyebrow">Start here</p>
+          <h2 id="chapters-title">Chapter shelf</h2>
         </div>
         <a class="text-link" href="chapters/">All chapters →</a>
       </div>
-
-      <div class="r2-home-mode-list">
-        <article class="r2-home-mode-row">
-          <p class="r2-home-mode-label">LISTEN</p>
-          <div class="r2-home-mode-copy">
-            <h3 id="r2-listen-title">Audio chapters</h3>
-            <p id="r2-listen-detail">Loading audio availability…</p>
-          </div>
-          <a id="r2-listen-link" class="r2-home-mode-action" href="chapter.html?id=r2-ch001#listen">Start at Chapter 1</a>
-        </article>
-
-        <article class="r2-home-mode-row">
-          <p class="r2-home-mode-label">READ</p>
-          <div class="r2-home-mode-copy">
-            <h3 id="r2-read-title">Written chapters</h3>
-            <p id="r2-read-detail">Loading written availability…</p>
-          </div>
-          <a id="r2-read-link" class="r2-home-mode-action" href="chapter.html?id=r2-ch001#read">Start at Chapter 1</a>
-        </article>
+      <div id="chapter-list" class="chapter-list">
+        <p class="loading-note">Loading chapters…</p>
       </div>
     </section>
 
-    <section class="r2-home-current" aria-labelledby="r2-current-title">
+    <section class="lineage-strip" aria-labelledby="lineage-title">
       <div>
-        <p class="r2-home-kicker">Current chapter</p>
-        <p id="r2-current-number" class="r2-home-current-number">Chapter —</p>
-        <h2 id="r2-current-title">The story is moving.</h2>
-        <p id="r2-current-teaser" class="r2-home-current-teaser">Loading the newest chapter…</p>
+        <p class="eyebrow">Run 1 → R2</p>
+        <h2 id="lineage-title">The story has lived once already. This is the second run.</h2>
+        <p>Peg-Leg Greg was written once already. R2 starts again with what that first run taught us, without forcing the story to stay the same.</p>
       </div>
-      <div class="r2-home-current-actions">
-        <a id="r2-current-read" class="button button-secondary" href="chapters/">Read current chapter</a>
-        <a id="r2-current-listen" class="text-link" href="chapters/" hidden>Listen to current chapter →</a>
-      </div>
-    </section>
-
-    <section class="r2-home-lineage" aria-labelledby="r2-lineage-title">
-      <div>
-        <p class="r2-home-kicker">RUN 1 → R2</p>
-        <h2 id="r2-lineage-title">The story has lived once already. This is the second run.</h2>
-      </div>
-      <div class="r2-home-lineage-copy">
-        <p>Peg-Leg Greg was written once already. R2 starts again with what that first run taught us, without forcing this life to follow the same road.</p>
-        <div class="r2-home-lineage-links">
-          <a class="text-link" href="about/">Why R2 →</a>
-          <a class="text-link" href="../index.html">Explore Run 1 →</a>
-        </div>
+      <div class="lineage-links">
+        <a class="text-link" href="about/">Why R2 →</a>
+        <a class="text-link" href="../index.html">Explore Run 1 →</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>Peg-Leg Greg · R2</p>
-    <div class="footer-links">
-      <a href="gallery/">Illustrations</a>
-      <a href="about/">About R2</a>
-      <a href="../index.html">Run 1</a>
-    </div>
+    <a href="../index.html">Run 1</a>
   </footer>
 
-  <script src="assets/js/site.js" defer></script>
   <script src="assets/js/home.js" defer></script>
 </body>
 </html>
