@@ -1,0 +1,29 @@
+name: Validate R2 Site
+
+on:
+  pull_request:
+    paths:
+      - 'r2/**'
+      - 'tests/test_r2_site.py'
+      - '.github/workflows/r2-site.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'r2/**'
+      - 'tests/test_r2_site.py'
+      - '.github/workflows/r2-site.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run R2 site contract
+        run: python -m unittest tests.test_r2_site -v
