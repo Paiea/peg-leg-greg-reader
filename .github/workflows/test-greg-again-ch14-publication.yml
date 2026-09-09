@@ -1,0 +1,48 @@
+name: Test Greg Again Chapter 14 Publication
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch014-auto
+    paths:
+      - .github/workflows/test-greg-again-ch14-publication.yml
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch014-auto
+      - name: Run Greg Again catalog tests
+        run: python -m unittest tests.test_greg_again_audio_catalog
+      - name: Verify Chapter 14 publication contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('.')
+          manifest=json.loads((root/'greg-again/audio/manifest.json').read_text())
+          by_id={c['chapter_id']:c for c in manifest['chapters']}
+          c=by_id['ga-014']
+          assert c['title']=='The Helper'
+          assert c['take_count']==15
+          assert c['duration_seconds']==678.936
+          assert c['audio_src']=='assets/chapter-014.mp3'
+          assert c['lens']=='shared-greg-surface'
+          assert c['audio_finish']=='processing-space'
+          route=json.loads((root/'r2/data/chapters/ch014.json').read_text())
+          assert route['audio']=={'status':'published','path':'../greg-again/audio/assets/chapter-014.mp3'}
+          chunks=sorted((root/'greg-again/audio/assets/chunks/014').glob('*.mp3'))
+          assert len(chunks)==15
+          assert all(p.stat().st_size>10000 for p in chunks)
+          final=root/'greg-again/audio/assets/chapter-014.mp3'
+          assert final.stat().st_size>1_000_000
+          verify=json.loads((root/'greg-again/audio/production/014/verification.json').read_text())
+          assert verify['audio_probe']=='passed'
+          assert verify['take_count']==15
+          print('Chapter 14 publication contract verified')
+          PY
