@@ -1,0 +1,102 @@
+name: Greg Again Chapter 22 capture
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch022-auto
+    paths:
+      - .github/workflows/greg-again-ch022-capture.yml
+      - greg-again/audio/takes/022.json
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch022-auto
+          fetch-depth: 0
+      - name: Capture provider takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/022
+          python3 - <<'PY' > /tmp/ga022.tsv
+          import json
+          d=json.load(open('greg-again/audio/takes/022.json'))
+          for t in d['takes']:
+              print('\t'.join([t['take'], t['provider_context_id'], t['durable_file']]))
+          PY
+          while IFS=$'\t' read -r take id dest; do
+            tmp="${dest}.tmp"
+            url="https://www.aidocmaker.com/g0/audio?name=${id}"
+            ok=0
+            for attempt in $(seq 1 36); do
+              rm -f "$tmp"
+              http="$(curl -L -sS --connect-timeout 20 --max-time 120 -o "$tmp" -w '%{http_code}' "$url" || true)"
+              size=0
+              [ -f "$tmp" ] && size="$(stat -c%s "$tmp")"
+              if [ "$http" = "200" ] && [ "$size" -gt 10000 ] && ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$tmp" >/dev/null 2>&1; then
+                mv "$tmp" "$dest"
+                echo "captured take ${take}: ${size} bytes"
+                ok=1
+                break
+              fi
+              echo "take ${take} not ready: attempt=${attempt} http=${http} bytes=${size}"
+              sleep 5
+            done
+            if [ "$ok" -ne 1 ]; then
+              echo "FAILED take ${take} id=${id}" >&2
+              exit 1
+            fi
+          done < /tmp/ga022.tsv
+      - name: Stitch chapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/ga022-concat.txt
+          for n in $(seq -w 1 10); do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/chunks/022/$n.mp3" >> /tmp/ga022-concat.txt
+          done
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/ga022-concat.txt -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-022.mp3
+          test "$(stat -c%s greg-again/audio/assets/chapter-022.mp3)" -gt 1000000
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 greg-again/audio/assets/chapter-022.mp3
+      - name: Record verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, subprocess
+          p='greg-again/audio/takes/022.json'
+          d=json.load(open(p))
+          total=0.0
+          for t in d['takes']:
+              f=t['durable_file']
+              dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',f], text=True).strip())
+              t['status']='artifact_captured'
+              t['duration_seconds']=round(dur,3)
+              total += dur
+          chapter='greg-again/audio/assets/chapter-022.mp3'
+          chapter_dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',chapter], text=True).strip())
+          d['status']='verified_playable'
+          d['take_duration_sum_seconds']=round(total,3)
+          d['assembled_duration_seconds']=round(chapter_dur,3)
+          with open(p,'w') as fh:
+              json.dump(d, fh, indent=2)
+              fh.write('\n')
+          PY
+      - name: Commit durable Chapter 22 audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chunks/022 greg-again/audio/assets/chapter-022.mp3 greg-again/audio/takes/022.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audio: capture Greg Again Chapter 22'
+            git push origin HEAD:audio/greg-again-ch022-auto
+          fi
