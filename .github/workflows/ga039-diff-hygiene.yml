@@ -1,0 +1,42 @@
+name: GA039 temporary diff hygiene
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch039-auto
+    paths:
+      - .github/workflows/ga039-diff-hygiene.yml
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch039-auto
+      - name: Restore unrelated manifest byte style and self-clean
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('greg-again/audio/manifest.json')
+          s=p.read_text()
+          old='HEAR → MOVE → UNDERSTAND'
+          assert s.count(old)==1, s.count(old)
+          s=s.replace(old, r'HEAR \u2192 MOVE \u2192 UNDERSTAND')
+          p.write_text(s)
+          json.loads(s)
+          PY
+          rm -f .github/workflows/ga039-diff-hygiene.yml
+          python -m unittest tests.test_greg_again_audio_ch039 tests.test_greg_again_audio_catalog -v
+          git diff --check
+          git add -A
+          git commit -m 'Restore unrelated manifest serialization'
+          git push origin HEAD:audio/greg-again-ch039-auto
