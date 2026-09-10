@@ -1,0 +1,17 @@
+{
+  "chapter_id": "ga-039",
+  "status": "verified",
+  "source_blob": "8e42a1b9036133eb801e09a9f0c066c8425df8c2",
+  "spoken_source_sha256": "3607416a3c1568944500d8c9e0361134a4a94257980ce82f35474cfaabe4876a",
+  "take_count": 32,
+  "all_take_hashes_match": true,
+  "all_takes_ffprobe_readable": true,
+  "exact_source_coverage": true,
+  "final_path": "greg-again/audio/assets/chapter-039.mp3",
+  "final_duration_seconds": 628.104,
+  "final_bytes": 5560533,
+  "final_sha256": "ea2b6761297cc3ddf284dd5ad93e394aca28afcc4c4cbb28c88a28aaa9aa8070",
+  "listener_tail_seconds_target": 2.0,
+  "final_ellipsis_in_source": true,
+  "next_handshake": "Fresh-read current main and r2/AUDIO_PRODUCTION.md; auto-claim the earliest written, unpublished Greg, Again audio chapter not durably owned by another single-chapter worker. Preserve Chapter 39 and all newer authority."
+}

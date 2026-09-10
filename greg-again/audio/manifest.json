@@ -47,7 +47,7 @@
       "take_count": 12,
       "duration_seconds": 731.712,
       "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR \u2192 MOVE \u2192 UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
     },
     {
       "chapter_id": "ga-005",
@@ -372,6 +372,18 @@
       "duration_seconds": 771.528,
       "audio_src": "assets/chapter-038.mp3",
       "note": "Chapter 38 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, the authoritative final ellipsis, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-039",
+      "number": 39,
+      "title": "The East Desk",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 32,
+      "duration_seconds": 628.104,
+      "audio_src": "assets/chapter-039.mp3",
+      "note": "Chapter 39 uses thirty-two complete preview-safe deep-voice takes from the rebuilt public The East Desk source. Exact source coverage, every provider artifact hash, ordered chunk playability, the authoritative ellipsis landing, and the two-second listener tail were verified before publication."
     }
   ]
 }
