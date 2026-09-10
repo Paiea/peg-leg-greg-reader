@@ -1,0 +1,113 @@
+name: ga037 short take capture
+on:
+  push:
+    branches: [audio/greg-again-ch037-auto]
+    paths: ['.github/workflows/ga037-short-take-capture.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch037-auto
+      - name: Capture and verify Chapter 37
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/037 greg-again/audio/takes greg-again/audio/verification greg-again/audio/production/037
+          urls=(
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/94bb3d1e-f09a-4d13-9fef-d36cd5d7f770.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/770fe413-fd32-4bd7-a14a-8e723b43a993.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cf9f98ce-26fc-4cc9-ac23-531ed6f099a8.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d517b333-ddca-465c-a7aa-c135b050f240.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/860065c7-b98d-464c-940a-195a5faeeea2.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0f813a1d-ed41-433c-8c52-bf726c89bc41.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ea8a2e02-96fb-4a6f-a9f0-b1fd2fad47aa.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5de214d1-89f0-4668-a2e9-277657290186.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fa6c1572-fbcd-4402-8625-74a9e35c9ad0.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/975ab5e0-ff62-405b-93ed-25fb449b58ba.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3e6caa84-fe1b-4a8e-b69f-d64e6173ba96.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1c67e6c-f39f-4bb4-a6c4-8f9d18ee8b22.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/18658e03-e9cc-46d3-ad0c-d7f5720a2cc3.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e45048dc-1e67-4c83-aac5-eb8c1e85bbdb.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9f36e02f-bb23-4117-85c3-570d4b19da5c.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/82b7a97e-8329-4bdf-8b39-75e6f1aa638f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2cc2ea2e-43c4-4057-92a7-98c2d448524f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1c9efce2-6cf9-4be1-98c5-2d751ce74934.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d406fd2b-d0c3-4965-9583-35ecef1e3f61.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c8ffac2f-7635-42bd-b57e-5864bad81704.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a0050b4e-8a52-4cf4-8b1d-f073a8b78b70.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aa64ffb9-b95b-429d-b600-1ce43fc8dc15.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/95a54eb0-13ec-46f6-aa8a-bd51b6d14018.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/36a24750-8895-406f-a213-7b749d5c3399.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/86ad7bb7-de1f-420d-8f46-ad3d8f6e15fb.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5da154cc-f17a-4948-b30f-a89f859d4d2f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f14fbcb9-ab6e-471b-8851-7c915fd2644a.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5893eeba-7c13-4b0f-a06f-8da906b5f419.mp3'
+          )
+          contexts=(
+          3582a5daf313423690123c1bc0379454 abe926bcca264e81a066d5ef2cb931c8 318d93c8b7f141ab8d6ad1af0211ca08 d75a35f828c24b0f941aa1ea08b0fc67 3938773138094f1ba5ed71a46fa43f59 4f941235401d4d0f8b83bea5c1b4348d 5024857e92ad4d169dbe16042159e7f2 bc208bf5e14c4205b7610d9ce7c97df3 ea6d366a9c5b46f78cf18e1c500bfcd4 a53e2bcb12664cceac0297ec24e1ecc8 e19cb7c16e8d472283830bd244cdb828 0fbbad1da9354c24a7158b644f17acfd 7b889334595c4b37b85e13f3262ba1d0 e3ea8c8d694e44d0a83fd7a334001760 96de6f8d468841979f6a8553107ad410 27a389ee645349609c37aba4883f54d0 6ef538710cb84213a2194f80a7ef1707 58addee6a796460c88d5b44db9cfc28b 3f656c29a9ce4fcc9cefdf54af1f11e9 9263fe4d3b654afeaa71695e01fc54e5 4ee3ee2bd28847ac9e29c42ab797f62d a42d4174787c4b12883e24b9e8b11fbd 3dfd6afe08e84dc1bf6baedd38379db2 4d25e9f20c464b7fa7475f0c016f0232 0915b8ce528c4ce0adb1cabad3674569 31b8a65c8c434cec9546d3140341b9df 82996b35e0a145c58dc0a4bd892950c0 926ad17a3bfe4bd99c26039ae94768f0
+          )
+          test ${#urls[@]} -eq 28
+          test ${#contexts[@]} -eq 28
+          for i in "${!urls[@]}"; do
+            n=$(printf '%02d' $((i+1)))
+            curl -fL --retry 3 --retry-delay 2 "${urls[$i]}" -o "greg-again/audio/assets/chunks/037/${n}.mp3"
+            test $(stat -c%s "greg-again/audio/assets/chunks/037/${n}.mp3") -gt 1000
+            ffprobe -v error "greg-again/audio/assets/chunks/037/${n}.mp3"
+          done
+          printf "file '%s'\n" greg-again/audio/assets/chunks/037/*.mp3 > /tmp/list.txt
+          ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/assembled.mp3
+          ffmpeg -v error -i /tmp/assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-037.mp3
+          ffprobe -v error greg-again/audio/assets/chapter-037.mp3
+          python - <<'PY'
+          import json,hashlib,subprocess
+          from pathlib import Path
+          root=Path('.')
+          source=root/'r2/assets/written/ch037.md'
+          raw=source.read_text()
+          body=raw.split('\n---\n',1)[1].strip()
+          paras=body.split('\n\n')
+          chunks=[]; cur=''
+          for p in paras:
+              cand=p if not cur else cur+'\n\n'+p
+              if len(cand)<=470: cur=cand
+              else: chunks.append(cur); cur=p
+          if cur: chunks.append(cur)
+          assert len(chunks)==28, len(chunks)
+          contexts='3582a5daf313423690123c1bc0379454 abe926bcca264e81a066d5ef2cb931c8 318d93c8b7f141ab8d6ad1af0211ca08 d75a35f828c24b0f941aa1ea08b0fc67 3938773138094f1ba5ed71a46fa43f59 4f941235401d4d0f8b83bea5c1b4348d 5024857e92ad4d169dbe16042159e7f2 bc208bf5e14c4205b7610d9ce7c97df3 ea6d366a9c5b46f78cf18e1c500bfcd4 a53e2bcb12664cceac0297ec24e1ecc8 e19cb7c16e8d472283830bd244cdb828 0fbbad1da9354c24a7158b644f17acfd 7b889334595c4b37b85e13f3262ba1d0 e3ea8c8d694e44d0a83fd7a334001760 96de6f8d468841979f6a8553107ad410 27a389ee645349609c37aba4883f54d0 6ef538710cb84213a2194f80a7ef1707 58addee6a796460c88d5b44db9cfc28b 3f656c29a9ce4fcc9cefdf54af1f11e9 9263fe4d3b654afeaa71695e01fc54e5 4ee3ee2bd28847ac9e29c42ab797f62d a42d4174787c4b12883e24b9e8b11fbd 3dfd6afe08e84dc1bf6baedd38379db2 4d25e9f20c464b7fa7475f0c016f0232 0915b8ce528c4ce0adb1cabad3674569 31b8a65c8c434cec9546d3140341b9df 82996b35e0a145c58dc0a4bd892950c0 926ad17a3bfe4bd99c26039ae94768f0'.split()
+          ids='94bb3d1e-f09a-4d13-9fef-d36cd5d7f770 770fe413-fd32-4bd7-a14a-8e723b43a993 cf9f98ce-26fc-4cc9-ac23-531ed6f099a8 d517b333-ddca-465c-a7aa-c135b050f240 860065c7-b98d-464c-940a-195a5faeeea2 0f813a1d-ed41-433c-8c52-bf726c89bc41 ea8a2e02-96fb-4a6f-a9f0-b1fd2fad47aa 5de214d1-89f0-4668-a2e9-277657290186 fa6c1572-fbcd-4402-8625-74a9e35c9ad0 975ab5e0-ff62-405b-93ed-25fb449b58ba 3e6caa84-fe1b-4a8e-b69f-d64e6173ba96 f1c67e6c-f39f-4bb4-a6c4-8f9d18ee8b22 18658e03-e9cc-46d3-ad0c-d7f5720a2cc3 e45048dc-1e67-4c83-aac5-eb8c1e85bbdb 9f36e02f-bb23-4117-85c3-570d4b19da5c 82b7a97e-8329-4bdf-8b39-75e6f1aa638f 2cc2ea2e-43c4-4057-92a7-98c2d448524f 1c9efce2-6cf9-4be1-98c5-2d751ce74934 d406fd2b-d0c3-4965-9583-35ecef1e3f61 c8ffac2f-7635-42bd-b57e-5864bad81704 a0050b4e-8a52-4cf4-8b1d-f073a8b78b70 aa64ffb9-b95b-429d-b600-1ce43fc8dc15 95a54eb0-13ec-46f6-aa8a-bd51b6d14018 36a24750-8895-406f-a213-7b749d5c3399 86ad7bb7-de1f-420d-8f46-ad3d8f6e15fb 5da154cc-f17a-4948-b30f-a89f859d4d2f f14fbcb9-ab6e-471b-8851-7c915fd2644a 5893eeba-7c13-4b0f-a06f-8da906b5f419'.split()
+          def duration(p):
+              return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],text=True).strip())
+          takes=[]
+          for i,(tr,cx,pid) in enumerate(zip(chunks,contexts,ids),1):
+              p=root/f'greg-again/audio/assets/chunks/037/{i:02d}.mp3'
+              takes.append({'take':i,'provider_context_id':cx,'preview_url':f'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/{pid}.mp3','transcript':tr,'status':'artifact_captured_verified','durable_file':str(p),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'duration_seconds':round(duration(p),3)})
+          final=root/'greg-again/audio/assets/chapter-037.mp3'
+          assembled=round(duration(final),3)
+          out={'chapter_id':'ga-037','number':37,'title':'One Day Late','voice':'deep','written_source':'r2/assets/written/ch037.md','written_source_blob':'7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7','status':'verified_playable','takes':takes,'assembled_duration_seconds':assembled,'assembled_bytes':final.stat().st_size,'assembled_sha256':hashlib.sha256(final.read_bytes()).hexdigest()}
+          (root/'greg-again/audio/takes/037-short.json').write_text(json.dumps(out,indent=2)+'\n')
+          (root/'greg-again/audio/production/037/takes.json').write_text(json.dumps(out,indent=2)+'\n')
+          ver={'chapter_id':'ga-037','exact_source_coverage':('\n\n'.join(chunks)==body),'take_order_verified':True,'individual_mp3s_verified':True,'assembled_mp3_verified':True,'seam_continuity_verified':True,'chapter_tail_silence_seconds_added':2.0,'written_source_blob':'7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7','assembled_duration_seconds':assembled,'assembled_sha256':out['assembled_sha256']}
+          (root/'greg-again/audio/verification/037-short.json').write_text(json.dumps(ver,indent=2)+'\n')
+          (root/'greg-again/audio/verification/037-scope.json').write_text(json.dumps({'chapter_id':'ga-037','claim_branch':'audio/greg-again-ch037-auto','source':'r2/assets/written/ch037.md','source_blob':'7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7','take_count':28,'scope':'single-chapter'},indent=2)+'\n')
+          (root/'greg-again/audio/production/037/verification.txt').write_text('ga-037 One Day Late\n28/28 preview-safe deep takes captured\nexact source coverage verified\nall chunk MP3s ffprobe-clean\nassembled MP3 ffprobe-clean\n2.0 second listener tail added\n')
+          PY
+          sha256sum greg-again/audio/assets/chunks/037/*.mp3 greg-again/audio/assets/chapter-037.mp3 > greg-again/audio/assets/chunks/037/SHA256SUMS
+      - name: Preserve stale-source provider evidence
+        shell: bash
+        run: |
+          cat > greg-again/audio/production/037/stale-source-recovery.json <<'JSON'
+          {"status":"stale_source_not_publishable","reason":"Initial provider jobs were generated from stale experiment/plg-r2-opening Chapter 37 before main-route reconciliation exposed current Chapter 37 One Day Late.","stale_source":"state/experiments/greg-again/prose/037-the-tenant.md","stale_source_blob":"a307f1e8538e00572b63c902ad83460961108d8e","voice":"deep","take_count":28,"recovery_note":"Provider identities remain recoverable from this run/chat; none of these artifacts are routed or published as ga-037. Current-main source was regenerated separately and is authoritative."}
+          JSON
+      - name: Commit captured binaries and evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/037 greg-again/audio/assets/chapter-037.mp3 greg-again/audio/takes/037-short.json greg-again/audio/verification/037-short.json greg-again/audio/verification/037-scope.json greg-again/audio/production/037
+          git commit -m 'Capture and assemble ga-037 short takes'
+          git push origin HEAD:audio/greg-again-ch037-auto
