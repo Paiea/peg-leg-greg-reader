@@ -18,7 +18,14 @@ jobs:
         with:
           ref: audio/greg-again-ch041-auto
           fetch-depth: 0
-      - name: Capture and assemble
+      - name: Install audio verification tools
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffmpeg -version | head -1
+          ffprobe -version | head -1
+      - name: Verify durable takes and assemble
         shell: bash
         run: |
           set -euo pipefail
@@ -43,28 +50,30 @@ jobs:
           for t in data['takes']:
               n=int(t['take']); p=pmap[n]
               expected=t['transcript']
-              for sub in t.get('provider_substitutions',[]):
-                  expected=expected.replace(sub['written'],sub['provider'])
+              for sub in t.get('provider_substitutions',[]): expected=expected.replace(sub['written'],sub['provider'])
               t['provider_context_id']=p['context_id']; t['context_id']=p['context_id']; t['preview_url']=p['preview_url']; t['provider_transcript']=expected
-              dest=chunk_dir/f'{n:02d}.mp3'; payload=None; error=None
-              for attempt in range(3):
-                  try:
-                      req=urllib.request.Request(p['preview_url'],headers={'User-Agent':'Mozilla/5.0'})
-                      with urllib.request.urlopen(req,timeout=60) as r: payload=r.read()
-                      if len(payload)<10000: raise RuntimeError(f'trivial payload {len(payload)}')
-                      break
-                  except Exception as e:
-                      error=f'{type(e).__name__}: {e}'; payload=None; time.sleep(2*(attempt+1))
+              dest=chunk_dir/f'{n:02d}.mp3'
+              payload=dest.read_bytes() if dest.exists() and dest.stat().st_size>10000 else None
+              error=None
+              if payload is None:
+                  for attempt in range(3):
+                      try:
+                          req=urllib.request.Request(p['preview_url'],headers={'User-Agent':'Mozilla/5.0'})
+                          with urllib.request.urlopen(req,timeout=60) as r: payload=r.read()
+                          if len(payload)<10000: raise RuntimeError(f'trivial payload {len(payload)}')
+                          dest.write_bytes(payload)
+                          break
+                      except Exception as e:
+                          error=f'{type(e).__name__}: {e}'; payload=None; time.sleep(2*(attempt+1))
               if payload is None:
                   t['status']='artifact_capture_failed'; t['capture_error']=error
-                  failures.append({'take':n,'context_id':p['context_id'],'preview_url':p['preview_url'],'error':error})
-                  continue
-              dest.write_bytes(payload)
+                  failures.append({'take':n,'context_id':p['context_id'],'preview_url':p['preview_url'],'error':error}); continue
               try:
                   dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(dest)],text=True).strip())
               except Exception as e:
                   t['status']='artifact_capture_failed'; t['capture_error']=f'ffprobe: {e}'
                   failures.append({'take':n,'error':t['capture_error']}); continue
+              t.pop('capture_error',None)
               t['durable_file']=dest.as_posix(); t['durable_path']=dest.as_posix(); t['bytes']=len(payload); t['sha256']=hashlib.sha256(payload).hexdigest(); t['duration_seconds']=round(dur,3); t['status']='artifact_captured_verified'
               concat.append(f"file '{dest.resolve()}'")
           data['take_count']=len(data['takes'])
@@ -88,7 +97,7 @@ jobs:
               result_path.write_text(json.dumps({'status':'verified_playable','take_count':len(data['takes']),'duration_seconds':dur,'bytes':len(payload),'sha256':sha},indent=2)+'\n',encoding='utf-8')
               concat_file.unlink(missing_ok=True); stitched.unlink(missing_ok=True)
           PY
-      - name: Commit capture result
+      - name: Commit verified audio
         shell: bash
         run: |
           set -euo pipefail
@@ -98,7 +107,7 @@ jobs:
           if [ -f greg-again/audio/assets/chapter-041.mp3 ]; then git add greg-again/audio/assets/chapter-041.mp3; fi
           if [ -f greg-again/audio/takes/041-short.json ]; then git add greg-again/audio/takes/041-short.json; fi
           if [ -f greg-again/audio/verification/041-short.json ]; then git add greg-again/audio/verification/041-short.json; fi
-          git commit -m 'audio: capture and assemble Greg Again Chapter 41'
+          git commit -m 'audio: verify and assemble Greg Again Chapter 41'
           git push origin HEAD:audio/greg-again-ch041-auto
       - name: Require verified completion
         shell: bash
