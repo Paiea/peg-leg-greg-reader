@@ -1,0 +1,12 @@
+ga-041 The Cordon
+takes=30
+voice=deep
+source_coverage=exact
+take_order=verified
+individual_playability=verified
+pronunciation=Mana->Ma-na@take13
+assembled_duration_seconds=785.448
+assembled_bytes=12567597
+assembled_sha256=0d7dc39f03031b0836658d23a442fc3d507e1a059668054c9d23c7c0583f4f62
+chapter_tail_silence_seconds=2.0
+status=verified_playable

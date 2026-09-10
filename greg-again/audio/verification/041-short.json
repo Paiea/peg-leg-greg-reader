@@ -1,0 +1,29 @@
+{
+  "chapter_id": "ga-041",
+  "number": 41,
+  "title": "The Cordon",
+  "voice": "deep",
+  "source_path": "r2/assets/written/ch041.md",
+  "source_blob": "d904371b802be7845d5cff95066a364c0a49a5a7",
+  "exact_source_coverage": true,
+  "source_coverage": "exact_after_nonspoken_markdown_normalization",
+  "take_count": 30,
+  "take_order_verified": true,
+  "individual_mp3s_verified": true,
+  "assembled_mp3_verified": true,
+  "seam_continuity_verified": true,
+  "pronunciation_substitutions": [
+    {
+      "take": 13,
+      "written": "Mana",
+      "provider": "Ma-na"
+    }
+  ],
+  "assembled_path": "greg-again/audio/assets/chapter-041.mp3",
+  "assembled_duration_seconds": 785.448,
+  "assembled_bytes": 12567597,
+  "assembled_sha256": "0d7dc39f03031b0836658d23a442fc3d507e1a059668054c9d23c7c0583f4f62",
+  "chapter_tail_silence_seconds_added": 2.0,
+  "chapter_tail_silence_seconds": 2.0,
+  "status": "verified_playable"
+}
