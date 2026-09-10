@@ -1,0 +1,22 @@
+{
+  "chapter_id": "ga-035",
+  "number": 35,
+  "title": "The Ask",
+  "voice": "deep",
+  "source_path": "r2/assets/written/ch035.md",
+  "source_sha": "60844248e9841481944c7e777d9d1473492f5648",
+  "take_count": 29,
+  "exact_source_coverage": true,
+  "take_order_verified": true,
+  "individual_mp3s_verified": true,
+  "assembled_mp3_verified": true,
+  "seam_continuity_verified": true,
+  "stable_identity_verified": true,
+  "current_public_title_verified": true,
+  "provider_contexts_preserved": true,
+  "pronunciation_substitutions": [],
+  "assembled_duration_seconds": 660.384,
+  "assembled_bytes": 10544733,
+  "assembled_sha256": "1268d466b0165945d4a7fa0e9e123401a8bcc456d36df03ab03d0ce1ff978a63",
+  "chapter_tail_silence_seconds_added": 2.0
+}
