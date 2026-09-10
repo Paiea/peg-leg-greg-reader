@@ -28,46 +28,65 @@
     return `${rootPrefix}chapter.html?id=${encodeURIComponent(id)}${hash}`;
   }
 
+  function audioShelfHref(chapter) {
+    const audioId = `ga-${String(chapter.display_number).padStart(3, '0')}`;
+    return `${rootPrefix}../greg-again/audio/#${audioId}`;
+  }
+
   function formatDuration(seconds) {
-    if (!Number.isFinite(seconds)) return '';
-    const minutes = Math.floor(seconds / 60);
-    const remaining = Math.round(seconds % 60).toString().padStart(2, '0');
+    if (!Number.isFinite(Number(seconds))) return '';
+    const total = Math.round(Number(seconds));
+    const minutes = Math.floor(total / 60);
+    const remaining = String(total % 60).padStart(2, '0');
     return `${minutes}:${remaining}`;
   }
 
-  function makeChapterCard(chapter) {
+  function makeChapterRow(chapter) {
     const article = document.createElement('article');
-    article.className = 'chapter-card';
+    article.className = 'chapter-row';
+
+    const main = document.createElement('div');
+    main.className = 'chapter-row-main';
+
+    const number = document.createElement('p');
+    number.className = 'chapter-number';
+    number.textContent = String(chapter.display_number).padStart(2, '0');
+
+    const body = document.createElement('div');
+    const title = document.createElement('h3');
+    const titleLink = document.createElement('a');
+    titleLink.href = chapterHref(chapter.chapter_id);
+    titleLink.textContent = chapter.title;
+    title.appendChild(titleLink);
 
     const meta = document.createElement('p');
-    meta.className = 'eyebrow';
-    meta.textContent = `Chapter ${chapter.display_number}`;
+    meta.className = 'chapter-meta';
+    const bits = [];
+    if (chapter.written?.status === 'published') bits.push('Written available');
+    if (chapter.audio?.status === 'published') bits.push(`Audio ${formatDuration(chapter.audio.duration_seconds)}`);
+    if (!bits.length) bits.push('Open chapter');
+    meta.textContent = bits.join(' · ');
+    body.append(title, meta);
 
-    const title = document.createElement('h2');
-    const link = document.createElement('a');
-    link.href = chapterHref(chapter.chapter_id);
-    link.textContent = chapter.title;
-    title.appendChild(link);
+    main.append(number, body);
 
-    const teaser = document.createElement('p');
-    teaser.textContent = chapter.teaser || '';
-
-    const availability = document.createElement('div');
-    availability.className = 'chapter-availability';
-
+    const actions = document.createElement('div');
+    actions.className = 'chapter-row-actions';
     if (chapter.audio?.status === 'published') {
       const listen = document.createElement('a');
-      listen.href = chapterHref(chapter.chapter_id, '#listen');
-      listen.textContent = `Listen${chapter.audio.duration_seconds ? ` · ${formatDuration(chapter.audio.duration_seconds)}` : ''}`;
-      availability.appendChild(listen);
+      listen.className = 'text-link';
+      listen.href = audioShelfHref(chapter);
+      listen.textContent = 'Listen';
+      actions.appendChild(listen);
     }
 
     const read = document.createElement('a');
+    read.className = 'text-link';
     read.href = chapterHref(chapter.chapter_id, '#read');
-    read.textContent = chapter.written?.status === 'published' ? 'Read' : 'Open chapter';
-    availability.appendChild(read);
+    read.textContent = chapter.written?.status === 'published' ? 'Read' : 'Open';
+    actions.appendChild(read);
 
-    article.append(meta, title, teaser, availability);
+    article.append(main, actions);
     return article;
   }
 
@@ -98,7 +117,7 @@
     try {
       const project = await loadProject();
       const chapters = await Promise.all(project.chapters.map(loadChapter));
-      target.replaceChildren(...chapters.map(makeChapterCard));
+      target.replaceChildren(...chapters.map(makeChapterRow));
     } catch (error) {
       target.innerHTML = '<p class="error-note">Chapters could not be loaded right now.</p>';
       console.error(error);
@@ -127,5 +146,5 @@
   if (page === 'gallery') bootGallery();
   if (page === 'home') bootGallery('recent-art-grid', true);
 
-  window.R2Site = { loadProject, loadChapter, chapterHref };
+  window.R2Site = { loadProject, loadChapter, chapterHref, audioShelfHref };
 })();

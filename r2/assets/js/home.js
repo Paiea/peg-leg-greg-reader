@@ -15,6 +15,11 @@
     return `chapter.html?id=${encodeURIComponent(id)}${hash}`;
   }
 
+  function audioShelfHref(chapter) {
+    const audioId = `ga-${String(chapter.display_number).padStart(3, '0')}`;
+    return `../greg-again/audio/#${audioId}`;
+  }
+
   function formatDuration(seconds) {
     if (!Number.isFinite(Number(seconds))) return '';
     const total = Math.round(Number(seconds));
@@ -65,7 +70,7 @@
     if (publishedAudio(chapter)) {
       const listen = document.createElement('a');
       listen.className = 'text-link';
-      listen.href = chapterHref(chapter.chapter_id, '#listen');
+      listen.href = audioShelfHref(chapter);
       listen.textContent = 'Listen';
       actions.appendChild(listen);
     }
@@ -108,7 +113,7 @@
     if (publishedAudio(chapter)) {
       const listen = document.createElement('a');
       listen.className = 'button button-primary';
-      listen.href = chapterHref(chapter.chapter_id, '#listen');
+      listen.href = audioShelfHref(chapter);
       listen.textContent = 'Listen here';
       actions.appendChild(listen);
     }

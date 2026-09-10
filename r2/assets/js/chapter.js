@@ -8,6 +8,11 @@
     return id.replace(/^r2-/, '');
   }
 
+  function listeningEditionHref(chapter) {
+    const audioId = `ga-${String(chapter.display_number).padStart(3, '0')}`;
+    return `../greg-again/audio/#${audioId}`;
+  }
+
   async function loadChapter(id) {
     const response = await fetch(`data/chapters/${chapterFile(id)}.json`);
     if (!response.ok) throw new Error(`Could not load chapter ${id}`);
@@ -34,7 +39,14 @@
     audio.preload = 'metadata';
     audio.src = chapter.audio.path;
     audio.setAttribute('aria-label', `${chapter.title} audio rendition`);
-    slot.appendChild(audio);
+
+    const shelfLink = document.createElement('a');
+    shelfLink.className = 'text-link';
+    shelfLink.href = listeningEditionHref(chapter);
+    shelfLink.textContent = 'Open in Listening Edition';
+    shelfLink.setAttribute('aria-label', `Open Chapter ${chapter.display_number}: ${chapter.title} in the Listening Edition`);
+
+    slot.append(audio, shelfLink);
   }
 
   function stripInternalPrelude(markdown) {
