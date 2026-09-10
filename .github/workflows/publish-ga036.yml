@@ -18,25 +18,26 @@ jobs:
         with:
           ref: audio/greg-again-ch036-auto
           fetch-depth: 1
-      - name: Reconcile newest main
+      - name: Confirm newest main authority
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git fetch origin main
-          git merge --no-edit origin/main
+          git fetch --depth=1 origin main
+          CURRENT_MAIN="$(git rev-parse FETCH_HEAD)"
+          EXPECTED_MAIN="f41527ebdb9edb39a96acf5631b480d6be6a2dc9"
+          test "$CURRENT_MAIN" = "$EXPECTED_MAIN"
       - name: Publish only ga-036
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import hashlib, json, pathlib, re
+          import hashlib, json, pathlib
           root=pathlib.Path('.')
           audio=root/'greg-again'/'audio'
           r2=root/'r2'
           verification=json.loads((audio/'verification'/'036-short.json').read_text())
-          takes=json.loads((audio/'production'/'036'/'takes.json').read_text())
           assert verification['chapter_id']=='ga-036'
           assert verification['status']=='verified_playable'
           assert verification['take_count']==33
@@ -88,7 +89,7 @@ jobs:
           python -m unittest tests.test_r2_site -v
           python - <<'PY'
           import json, pathlib, re, subprocess
-          out=subprocess.check_output(['git','diff','--name-only','origin/main'],text=True).splitlines()
+          out=subprocess.check_output(['git','diff','--name-only','FETCH_HEAD'],text=True).splitlines()
           allowed_shared={'greg-again/audio/manifest.json','r2/data/chapter-registry.json','tests/test_greg_again_audio_ch036.py','.github/workflows/publish-ga036.yml'}
           bad=[]
           for p in out:
@@ -96,7 +97,7 @@ jobs:
               nums=re.findall(r'(?:chapter-|chunks/|production/|takes/|verification/|ch)(\d{3})',p)
               if nums and any(n!='036' for n in nums): bad.append(p)
           if bad: raise SystemExit('unrelated chapter-specific surfaces changed: '+repr(bad))
-          guard={'chapter_id':'ga-036','base':'origin/main','unrelated_chapter_surfaces_changed':False,'changed_paths':out}
+          guard={'chapter_id':'ga-036','base_sha':'f41527ebdb9edb39a96acf5631b480d6be6a2dc9','unrelated_chapter_surfaces_changed':False,'changed_paths':out}
           path=pathlib.Path('greg-again/audio/verification/036-scope.json')
           path.write_text(json.dumps(guard,indent=2)+'\n')
           PY
