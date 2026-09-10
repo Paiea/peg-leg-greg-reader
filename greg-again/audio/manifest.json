@@ -348,6 +348,54 @@
       "duration_seconds": 660.384,
       "audio_src": "assets/chapter-035.mp3",
       "note": "Chapter 35 uses twenty-nine complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-036",
+      "number": 36,
+      "title": "Four Nights",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 33,
+      "duration_seconds": 662.496,
+      "audio_src": "assets/chapter-036.mp3",
+      "note": "Chapter 36 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take ordering, individual playability, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-038",
+      "number": 38,
+      "title": "Two Keys",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 33,
+      "duration_seconds": 771.528,
+      "audio_src": "assets/chapter-038.mp3",
+      "note": "Chapter 38 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, the authoritative final ellipsis, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-039",
+      "number": 39,
+      "title": "The East Desk",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 32,
+      "duration_seconds": 628.104,
+      "audio_src": "assets/chapter-039.mp3",
+      "note": "Chapter 39 uses thirty-two complete preview-safe deep-voice takes from the rebuilt public The East Desk source. Exact source coverage, every provider artifact hash, ordered chunk playability, the authoritative ellipsis landing, and the two-second listener tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-041",
+      "number": 41,
+      "title": "The Cordon",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 30,
+      "duration_seconds": 785.448,
+      "audio_src": "assets/chapter-041.mp3",
+      "note": "Chapter 41 uses thirty complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take ordering, individual playability, stitched chapter audio, durable hashes, seam continuity, the Hawaiian-context Mana pronunciation substitution, the authoritative final ellipsis, and a two-second listener tail were verified before publication."
     }
   ]
 }
