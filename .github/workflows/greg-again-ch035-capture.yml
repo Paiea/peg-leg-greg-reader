@@ -33,7 +33,7 @@ jobs:
           assert len(m['takes'])==29
           assert [x['take'] for x in m['takes']]==list(range(1,30))
           src=Path('r2/assets/written/ch035.md').read_text()
-          prose=src.split('\n---\n',1)[1].strip().replace('**','')
+          prose=src.split('\n---\n',1)[1].strip().replace('**','').replace('`','')
           joined='\n\n'.join(x['transcript'] for x in m['takes']).strip()
           norm=lambda s: re.sub(r'\s+',' ',s).strip()
           if norm(prose)!=norm(joined):
