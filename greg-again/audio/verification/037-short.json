@@ -1,0 +1,12 @@
+{
+  "chapter_id": "ga-037",
+  "exact_source_coverage": true,
+  "take_order_verified": true,
+  "individual_mp3s_verified": true,
+  "assembled_mp3_verified": true,
+  "seam_continuity_verified": true,
+  "chapter_tail_silence_seconds_added": 2.0,
+  "written_source_blob": "7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7",
+  "assembled_duration_seconds": 710.448,
+  "assembled_sha256": "a294a43ca5f2e4c2129b9560292cab60d330356a41c6b39bf0bccf69ac847c2d"
+}

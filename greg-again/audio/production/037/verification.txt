@@ -1,0 +1,8 @@
+ga-037 One Day Late
+28/28 preview-safe deep takes captured
+exact source coverage verified
+all chunk MP3s ffprobe-clean
+assembled MP3 ffprobe-clean
+2.0 second listener tail added
+duration_seconds=710.448
+sha256=a294a43ca5f2e4c2129b9560292cab60d330356a41c6b39bf0bccf69ac847c2d
