@@ -1,1 +1,1 @@
-# TEMPORAL_ENGINE.md restoration placeholder
+# TEMPORAL_ENGINE.md
