@@ -12,16 +12,16 @@ All dates are provisional R2 experiment dates. Day-of-year number is the continu
 
 | Year Chapter | Day | Season | Gap | Location Target | Temporal Purpose | Status |
 |---|---:|---|---:|---|---|---|
-| 01 | D001 | Spring | 0 | Carrow / Lower Rook / Guild | Write Black Stair promise; learn real Westreach barriers | queued |
-| 02 | D004 | Spring | 3 | Carrow west freight district | Ugly paid work; load geometry; first field consequence | queued |
-| 03 | D009 | Spring | 5 | Carrow south drains / warehouses | First hostile magical-fauna problem and sword use | queued |
-| 04 | D017 | Spring | 8 | West Spur road | First small road; weather, cart, authority, physical work | queued |
-| 05 | D028 | Spring | 11 | Carrow / Lower Rook | Prove time passed; road desire survives soreness; people changed off-page | queued |
-| 06 | D041 | Spring | 13 | East Warehouse Row | Tavin becomes physically current; freight action and old-memory pressure | queued |
-| 07 | D055 | Spring | 14 | Carrow Guild / north edge | Strong sword showing; better Bronze work; first reputation mismatch | queued |
-| 08 | D069 | Spring | 14 | Old canal salvage site | Blackglass Anchor discovered and legally acquired at cost | queued |
-| 09 | D082 | Spring | 13 | North road / abandoned pumping station | Monster/magic escalation; first real Anchor field use | queued |
-| 10 | D091 | Spring | 9 | Carrow Guild | Spring close; Westreach qualification becomes operationally legible | queued |
+| 01 | D001 | Spring | 0 | Carrow / Lower Rook / Guild | Write Black Stair promise; learn real Westreach barriers | complete |
+| 02 | D004 | Spring | 3 | Carrow west freight district | Ugly paid work; load geometry; first field consequence | complete |
+| 03 | D009 | Spring | 5 | Carrow south drains / warehouses | First hostile magical-fauna problem and sword use | complete |
+| 04 | D017 | Spring | 8 | West Spur road | First small road; weather, cart, authority, physical work | complete |
+| 05 | D028 | Spring | 11 | Carrow / Lower Rook | Prove time passed; road desire survives soreness; people changed off-page | complete |
+| 06 | D041 | Spring | 13 | East Warehouse Row | Tavin becomes physically current; freight action and old-memory pressure | complete |
+| 07 | D055 | Spring | 14 | Carrow Guild / north edge | Strong sword showing; better Bronze work; first reputation mismatch | complete |
+| 08 | D069 | Spring | 14 | Old canal salvage site | Blackglass Anchor discovered and legally acquired at cost | complete |
+| 09 | D082 | Spring | 13 | North road / abandoned pumping station | Monster/magic escalation; first real Anchor field use | complete |
+| 10 | D091 | Spring | 9 | Carrow Guild | Spring close; Westreach qualification becomes operationally legible | complete |
 | 11 | D097 | Summer | 6 | East road | Greg chooses another road after novelty has faded | queued |
 | 12 | D105 | Summer | 8 | White Fork district | Road ecology, rescue, hostile creature pressure | queued |
 | 13 | D116 | Summer | 11 | Kelm | Repeat-road society, freight economics, independent companion lives | queued |
