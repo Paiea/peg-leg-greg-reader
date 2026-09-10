@@ -1,0 +1,133 @@
+name: Capture and stitch Greg Again Chapter 35
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch035-auto
+    paths:
+      - .github/workflows/greg-again-ch035-capture.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: audio/greg-again-ch035-auto
+          fetch-depth: 0
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Verify locked source coverage
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+          m=json.loads(Path('greg-again/audio/production/035/takes.json').read_text())
+          assert m['chapter_id']=='ga-035' and m['number']==35 and m['title']=='The Ask'
+          assert len(m['takes'])==29
+          assert [x['take'] for x in m['takes']]==list(range(1,30))
+          src=Path('r2/assets/written/ch035.md').read_text()
+          prose=src.split('\n---\n',1)[1].strip().replace('**','')
+          joined='\n\n'.join(x['transcript'] for x in m['takes']).strip()
+          norm=lambda s: re.sub(r'\s+',' ',s).strip()
+          if norm(prose)!=norm(joined):
+              import difflib
+              print('\n'.join(difflib.unified_diff(norm(prose).split(), norm(joined).split(), fromfile='source', tofile='takes', lineterm='')))
+              raise SystemExit('locked take transcripts do not exactly cover spoken source')
+          route=json.loads(Path('r2/data/chapters/ch035.json').read_text())
+          assert route['chapter_id']=='r2-ch035' and route['title']=='The Ask'
+          assert route['written']['status']=='published'
+          assert route['audio']['status']=='unavailable'
+          print('coverage exact: 29 takes; title The Ask; ga-035')
+          PY
+
+      - name: Capture and verify provider MP3s
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/chunks/035
+          python - <<'PY' > /tmp/urls.tsv
+          import json
+          from pathlib import Path
+          m=json.loads(Path('greg-again/audio/production/035/takes.json').read_text())
+          for x in m['takes']:
+              print(f"{x['take']:02d}\t{x['preview_url']}")
+          PY
+          while IFS=$'\t' read -r n url; do
+            out="greg-again/audio/assets/chunks/035/${n}.mp3"
+            curl --fail --location --retry 4 --retry-all-errors "$url" -o "$out"
+            test -s "$out"
+            size=$(stat -c%s "$out")
+            test "$size" -gt 10000
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out" >/tmp/duration
+            echo "take $n size=$size duration=$(cat /tmp/duration)"
+          done < /tmp/urls.tsv
+
+      - name: Stitch and add listener tail
+        run: |
+          set -euo pipefail
+          : > /tmp/concat.txt
+          for f in greg-again/audio/assets/chunks/035/*.mp3; do echo "file '$GITHUB_WORKSPACE/$f'" >> /tmp/concat.txt; done
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/concat.txt -c copy /tmp/chapter-035-spoken.mp3
+          ffmpeg -hide_banner -loglevel error -f lavfi -i anullsrc=r=44100:cl=stereo -t 2.0 -q:a 9 -acodec libmp3lame /tmp/tail.mp3
+          printf "file '/tmp/chapter-035-spoken.mp3'\nfile '/tmp/tail.mp3'\n" >/tmp/final.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i /tmp/final.txt -c copy greg-again/audio/assets/chapter-035.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-035.mp3
+
+      - name: Record durable hashes and verification
+        run: |
+          python - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          mpath=Path('greg-again/audio/production/035/takes.json')
+          m=json.loads(mpath.read_text())
+          total=0.0
+          for x in m['takes']:
+              p=Path(f"greg-again/audio/assets/chunks/035/{x['take']:02d}.mp3")
+              raw=p.read_bytes()
+              dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],text=True).strip())
+              x.update(status='verified', durable_path=str(p), bytes=len(raw), sha256=hashlib.sha256(raw).hexdigest(), duration_seconds=dur)
+              total+=dur
+          final=Path('greg-again/audio/assets/chapter-035.mp3')
+          raw=final.read_bytes()
+          final_dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(final)],text=True).strip())
+          m['take_count']=len(m['takes'])
+          m['assembled_audio_path']=str(final)
+          m['assembled_bytes']=len(raw)
+          m['assembled_sha256']=hashlib.sha256(raw).hexdigest()
+          m['duration_seconds']=final_dur
+          m['tail_seconds_target']=2.0
+          m['pronunciation_substitutions']=[]
+          m['status']='verified_capture'
+          mpath.write_text(json.dumps(m,indent=2,ensure_ascii=False)+'\n')
+          Path('greg-again/audio/production/035/verification.txt').write_text(
+            f"ga-035 Chapter 35 — The Ask\n"
+            f"source_blob=60844248e9841481944c7e777d9d1473492f5648\n"
+            f"voice=deep\n"
+            f"takes=29\n"
+            f"coverage=exact\n"
+            f"take_order=01..29\n"
+            f"all_takes_ffprobe=pass\n"
+            f"assembled_ffprobe=pass\n"
+            f"duration_seconds={final_dur:.3f}\n"
+            f"assembled_bytes={len(raw)}\n"
+            f"assembled_sha256={hashlib.sha256(raw).hexdigest()}\n"
+            f"listener_tail_target_seconds=2.0\n"
+            f"provider_contexts_preserved=yes\n"
+            f"pronunciation_substitutions=none\n"
+          )
+          print('final duration',final_dur,'sha256',hashlib.sha256(raw).hexdigest())
+          PY
+
+      - name: Commit durable Chapter 35 capture
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/035 greg-again/audio/assets/chapter-035.mp3 greg-again/audio/production/035/takes.json greg-again/audio/production/035/verification.txt
+          git commit -m "Capture and assemble Chapter 35 audio"
+          git push origin HEAD:audio/greg-again-ch035-auto
