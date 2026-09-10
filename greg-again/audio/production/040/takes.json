@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ga-040",
+  "number": 40,
+  "title": "The Citizen",
+  "voice": "deep",
+  "written_source": "r2/assets/written/ch040.md",
+  "written_source_blob": "838dcb7ed70e59681b6744efd17ba7e821af4327",
+  "spoken_source_rule": "prose after the front-matter separator; markdown emphasis markers are not spoken",
+  "artifact_boundary": "provider generation succeeded; binary capture blocked in current runtime; preserve provider identities and do not regenerate",
+  "takes": [
+    {"take":1,"context_id":"97e4cef396e445f78ed721ec56029966","provider_url":"https://www.aidocmaker.com/g0/audio?name=97e4cef396e445f78ed721ec56029966","status":"generated_recovery_required","first":"The North Gate reopened while I was buying bread.","last":"Then I followed the city."},
+    {"take":2,"context_id":"f734f0b1c4db4639b49f5f28ce85f326","provider_url":"https://www.aidocmaker.com/g0/audio?name=f734f0b1c4db4639b49f5f28ce85f326","status":"generated_recovery_required","first":"North Gate had spent weeks becoming ordinary by being unavailable.","last":"One foot simply failed to take the next step."},
+    {"take":3,"context_id":"9da5ae00d2b2430cb2a7a4408ae9d600","provider_url":"https://www.aidocmaker.com/g0/audio?name=9da5ae00d2b2430cb2a7a4408ae9d600","status":"generated_recovery_required","first":"Later North Gate did not have those straps.","last":"CLOSURE AFTER HEAVY FREEZE, STRUCTURAL SHIFT, OR SUPPORT FAULT."},
+    {"take":4,"context_id":"6750b4c9c6c14764b2efa2c632b85bf0","provider_url":"https://www.aidocmaker.com/g0/audio?name=6750b4c9c6c14764b2efa2c632b85bf0","status":"generated_recovery_required","first":"There.","last":"Progress."},
+    {"take":5,"context_id":"0606ae093a3a415ebe2c2eb57e49165d","provider_url":"https://www.aidocmaker.com/g0/audio?name=0606ae093a3a415ebe2c2eb57e49165d","status":"generated_recovery_required","first":"Outside the gate, north-road traffic had already begun reorganizing itself.","last":"No cause."},
+    {"take":6,"context_id":"449445eca2924a7a9fe19d40708ef33b","provider_url":"https://www.aidocmaker.com/g0/audio?name=449445eca2924a7a9fe19d40708ef33b","status":"generated_recovery_required","first":"I had spent weeks treating that future fact like a shadow over every current decision.","last":"Professional boundary."},
+    {"take":7,"context_id":"77a8a1d4057342db8d44a2544bb13826","provider_url":"https://www.aidocmaker.com/g0/audio?name=77a8a1d4057342db8d44a2544bb13826","status":"generated_recovery_required","first":"Courier notice stays. Premium changes.","last":"Economics remained personal."},
+    {"take":8,"context_id":"b28cab9d656745cda000d98b581297d7","provider_url":"https://www.aidocmaker.com/g0/audio?name=b28cab9d656745cda000d98b581297d7","status":"generated_recovery_required","first":"Sella was behind the desk sorting canceled slips into one pile and active slips into another.","last":"I counted everything twice because the foreman paid for accurate numbers, not personal development."},
+    {"take":9,"context_id":"6908da4ed28f40b481000f5466d2de22","provider_url":"https://www.aidocmaker.com/g0/audio?name=6908da4ed28f40b481000f5466d2de22","status":"generated_recovery_required","first":"By evening, north-road carts were audible from Lower Rook again.","last":"It was starting to feel like citizenship..."}
+  ]
+}
