@@ -130,17 +130,17 @@ Rely on the existing `AGENTS.md` forward-R2 route into `r2/FUTURE_SURVIVOR_PROTO
 - Consumes: all prior tasks.
 - Produces: a resumable, non-contradictory temporal-development workflow.
 
-- [ ] **Step 1: Search for obsolete status language**
+- [x] **Step 1: Search for obsolete status language**
 
-Confirm the active engine no longer says it is active only on `experiment/r2-character-rebuild`.
+Verified the engine no longer says it is active only on `experiment/r2-character-rebuild`.
 
-- [ ] **Step 2: Check required semantics**
+- [x] **Step 2: Check required semantics**
 
-Verify the final doctrine contains: `clock`, `hard constraint`, `soft nudge`, `high-confidence inference`, `Scene Packet`, `continue`, and explicit non-canon authority boundaries.
+Verified the final doctrine contains the clock, hard/soft constraint split, high-confidence inference, Scene Packet firewall, `continue` semantics, and explicit non-canon authority boundaries.
 
-- [ ] **Step 3: Run a paper test against the user's latest nudges**
+- [x] **Step 3: Run a paper test against the user's latest nudges**
 
-Expected contract interpretation:
+Verified interpretation:
 
 ```text
 CLOCK: one year
@@ -150,10 +150,17 @@ CONTINUE: preserve the current contract unless a later nudge changes it
 WORD COUNT: fidelity target only unless explicitly hardened
 ```
 
-- [ ] **Step 4: Review for renderer contamination**
+- [x] **Step 4: Review for renderer contamination**
 
-Confirm the writer-facing packet does not require architecture terms such as horizon, rehearsal, quarry, authority, survivor label, or audit verdict.
+Verified the writer-facing packet excludes architecture terms such as horizon, rehearsal, quarry, authority, survivor label, and audit verdict by default.
 
-- [ ] **Step 5: Review authority boundaries**
+- [x] **Step 5: Review authority boundaries**
 
-Confirm no temporal run can directly overwrite accepted R2 story truth or publish itself merely by completion.
+Verified no temporal run can directly overwrite accepted R2 story truth or publish itself merely by completion.
+
+## Verification receipt
+
+- Branch diff from clean base `50cfea90fe719a0b1b54b38c12507b9bd4a7a755` contains only the six intended documentation/doctrine files.
+- No runtime dependencies or production code changed.
+- No branch CI workflows/status checks were registered for the documentation-only head during verification.
+- File-level reads confirmed the active status, run contract, nudge resolution, renderer firewall, front-door route, and survivor authority boundary.
