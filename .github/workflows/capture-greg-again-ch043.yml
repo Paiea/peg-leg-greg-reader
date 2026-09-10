@@ -1,0 +1,117 @@
+name: Capture Greg Again Chapter 43
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch043-auto
+    paths:
+      - .github/workflows/capture-greg-again-ch043.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: audio/greg-again-ch043-auto
+
+      - name: Install media tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Verify source coverage and capture takes
+        run: |
+          git fetch origin experiment/plg-r2-opening:refs/remotes/origin/experiment/plg-r2-opening
+          python - <<'PY'
+          import hashlib, json, pathlib, re, subprocess, urllib.request
+
+          root = pathlib.Path('.')
+          prod = root / 'greg-again/audio/production/043'
+          takes_dir = prod / 'takes'
+          takes_dir.mkdir(parents=True, exist_ok=True)
+          data = json.loads((prod / 'provider-results.json').read_text())
+
+          raw = subprocess.check_output([
+              'git','show','origin/experiment/plg-r2-opening:state/experiments/greg-again/prose/043-the-support.md'
+          ], text=True)
+          prose = raw.split('\n---\n', 1)[1].strip().replace('**','')
+          spoken = '\n\n'.join(t['transcript'] for t in data['takes']).strip()
+          norm = lambda s: re.sub(r'\s+', ' ', s).strip()
+          if norm(prose) != norm(spoken):
+              import difflib
+              diff = '\n'.join(difflib.unified_diff(norm(prose).split(), norm(spoken).split(), fromfile='source', tofile='takes', n=3))
+              print(diff[:12000])
+              raise SystemExit('spoken take coverage does not exactly match authoritative prose')
+
+          capture = []
+          for item in data['takes']:
+              n = item['take']
+              dest = takes_dir / f'take-{n:03d}.mp3'
+              req = urllib.request.Request(item['preview_url'], headers={'User-Agent':'GregAgainAudioCapture/1.0'})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  body = r.read()
+              if len(body) < 10000:
+                  raise SystemExit(f'take {n} capture too small: {len(body)} bytes')
+              dest.write_bytes(body)
+              duration = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(dest)], text=True).strip())
+              capture.append({
+                  'take': n,
+                  'context_id': item['context_id'],
+                  'file': str(dest.relative_to(root)),
+                  'bytes': len(body),
+                  'sha256': hashlib.sha256(body).hexdigest(),
+                  'duration_seconds': round(duration, 3),
+                  'status': 'captured'
+              })
+
+          (prod / 'capture-manifest.json').write_text(json.dumps({
+              'chapter_id':'ga-043',
+              'source_blob':data['source_blob'],
+              'voice':data['voice'],
+              'take_count':len(capture),
+              'coverage':'exact normalized written prose after Markdown emphasis removal; provider pronunciation aliases recorded separately',
+              'takes':capture
+          }, indent=2) + '\n')
+          PY
+
+      - name: Stitch chapter and add listener tail
+        run: |
+          cd greg-again/audio/production/043/takes
+          : > /tmp/ch043-concat.txt
+          for f in take-*.mp3; do printf "file '%s/%s'\n" "$PWD" "$f" >> /tmp/ch043-concat.txt; done
+          cd -
+          mkdir -p greg-again/audio/assets
+          ffmpeg -y -f concat -safe 0 -i /tmp/ch043-concat.txt -af 'apad=pad_dur=2' -c:a libmp3lame -b:a 128k greg-again/audio/assets/chapter-043.mp3
+          ffprobe -v error -show_entries format=duration,size -of json greg-again/audio/assets/chapter-043.mp3 > /tmp/ch043-probe.json
+          python - <<'PY'
+          import hashlib, json, pathlib
+          p = pathlib.Path('greg-again/audio/assets/chapter-043.mp3')
+          probe = json.loads(pathlib.Path('/tmp/ch043-probe.json').read_text())['format']
+          verify = pathlib.Path('greg-again/audio/production/043/VERIFY.md')
+          verify.write_text(
+              '# Chapter 43 Audio Verification\n\n'
+              '- Source coverage: exact against authoritative written Chapter 43 after removing Markdown emphasis markers.\n'
+              '- Voice: `deep`.\n'
+              '- Provider pronunciation aliases: written `mana` preserved for coverage; provider-facing `ma-na` used in Takes 016 and 018.\n'
+              '- Provider-safe takes: 26/26 captured and individually ffprobe-readable.\n'
+              '- Assembly order: numeric take order 001–026.\n'
+              '- Listener tail: 2 seconds appended during final encode.\n'
+              f"- Final duration: {float(probe['duration']):.3f} seconds.\n"
+              f"- Final bytes: {int(probe['size'])}.\n"
+              f"- Final SHA-256: `{hashlib.sha256(p.read_bytes()).hexdigest()}`.\n"
+          )
+          PY
+
+      - name: Commit durable artifacts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/043 greg-again/audio/assets/chapter-043.mp3
+          git commit -m 'audio: capture and stitch Greg Again Chapter 43'
+          git push origin HEAD:audio/greg-again-ch043-auto
