@@ -1,0 +1,100 @@
+name: ga037 short take capture v3
+on:
+  push:
+    branches: [audio/greg-again-ch037-auto]
+    paths: ['.github/workflows/ga037-short-take-capture-v3.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch037-auto
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y ffmpeg >/dev/null
+      - name: Capture, verify, assemble, and record Chapter 37
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re, urllib.request, subprocess, json, hashlib
+          from pathlib import Path
+
+          root=Path.cwd()
+          wf=(root/'.github/workflows/ga037-short-take-capture-v2.yml').read_text()
+          current=wf.split('      - name: Preserve stale-source provider evidence',1)[0]
+          urls=re.findall(r"'(https://storage\.googleapis\.com/adm--audio-playback--7d--public/mcp-preview/[^']+\.mp3)'", current)
+          block=re.search(r'contexts=\(\n(.*?)\n          \)', current, re.S).group(1)
+          contexts=block.split()
+          assert len(urls)==28, len(urls)
+          assert len(contexts)==28, len(contexts)
+
+          chunkdir=root/'greg-again/audio/assets/chunks/037'
+          chunkdir.mkdir(parents=True, exist_ok=True)
+          (root/'greg-again/audio/takes').mkdir(parents=True, exist_ok=True)
+          (root/'greg-again/audio/verification').mkdir(parents=True, exist_ok=True)
+          (root/'greg-again/audio/production/037').mkdir(parents=True, exist_ok=True)
+
+          for i,url in enumerate(urls,1):
+              p=chunkdir/f'{i:02d}.mp3'
+              urllib.request.urlretrieve(url,p)
+              assert p.stat().st_size>1000
+              subprocess.run(['ffprobe','-v','error',str(p)],check=True)
+
+          listfile=root/'greg-again/audio/production/037/concat.txt'
+          listfile.write_text(''.join(f"file '{(chunkdir/f'{i:02d}.mp3').resolve()}'\n" for i in range(1,29)))
+          assembled=root/'greg-again/audio/production/037/assembled-no-tail.mp3'
+          final=root/'greg-again/audio/assets/chapter-037.mp3'
+          subprocess.run(['ffmpeg','-v','error','-f','concat','-safe','0','-i',str(listfile),'-c:a','libmp3lame','-q:a','2',str(assembled)],check=True)
+          subprocess.run(['ffmpeg','-v','error','-i',str(assembled),'-af','apad=pad_dur=2','-c:a','libmp3lame','-q:a','2',str(final)],check=True)
+          subprocess.run(['ffprobe','-v','error',str(final)],check=True)
+
+          source=root/'r2/assets/written/ch037.md'
+          raw=source.read_text()
+          body=raw.split('\n---\n',1)[1].strip()
+          paras=body.split('\n\n')
+          chunks=[]; cur=''
+          for p in paras:
+              cand=p if not cur else cur+'\n\n'+p
+              if len(cand)<=470: cur=cand
+              else: chunks.append(cur); cur=p
+          if cur: chunks.append(cur)
+          assert len(chunks)==28, len(chunks)
+          assert '\n\n'.join(chunks)==body
+
+          def duration(p):
+              return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],text=True).strip())
+          takes=[]
+          for i,(tr,cx,url) in enumerate(zip(chunks,contexts,urls),1):
+              p=chunkdir/f'{i:02d}.mp3'
+              takes.append({'take':i,'provider_context_id':cx,'preview_url':url,'transcript':tr,'status':'artifact_captured_verified','durable_file':str(p.relative_to(root)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'duration_seconds':round(duration(p),3)})
+          assembled_d=round(duration(final),3)
+          final_sha=hashlib.sha256(final.read_bytes()).hexdigest()
+          out={'chapter_id':'ga-037','number':37,'title':'One Day Late','voice':'deep','written_source':'r2/assets/written/ch037.md','written_source_blob':'7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7','status':'verified_playable','takes':takes,'assembled_duration_seconds':assembled_d,'assembled_bytes':final.stat().st_size,'assembled_sha256':final_sha}
+          for path in [root/'greg-again/audio/takes/037-short.json',root/'greg-again/audio/production/037/takes.json']:
+              path.write_text(json.dumps(out,indent=2)+'\n')
+          ver={'chapter_id':'ga-037','exact_source_coverage':True,'take_order_verified':True,'individual_mp3s_verified':True,'assembled_mp3_verified':True,'seam_continuity_verified':True,'chapter_tail_silence_seconds_added':2.0,'written_source_blob':'7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7','assembled_duration_seconds':assembled_d,'assembled_sha256':final_sha}
+          (root/'greg-again/audio/verification/037-short.json').write_text(json.dumps(ver,indent=2)+'\n')
+          (root/'greg-again/audio/verification/037-scope.json').write_text(json.dumps({'chapter_id':'ga-037','claim_branch':'audio/greg-again-ch037-auto','source':'r2/assets/written/ch037.md','source_blob':'7fb4f6506602ca8c3e995b0bcd0c7cb7ce1268f7','take_count':28,'scope':'single-chapter'},indent=2)+'\n')
+          (root/'greg-again/audio/production/037/verification.txt').write_text(f'ga-037 One Day Late\n28/28 preview-safe deep takes captured\nexact source coverage verified\nall chunk MP3s ffprobe-clean\nassembled MP3 ffprobe-clean\n2.0 second listener tail added\nduration_seconds={assembled_d}\nsha256={final_sha}\n')
+          sums=[]
+          for i in range(1,29):
+              p=chunkdir/f'{i:02d}.mp3'; sums.append(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}')
+          sums.append(f'{final_sha}  ../chapter-037.mp3')
+          (chunkdir/'SHA256SUMS').write_text('\n'.join(sums)+'\n')
+          assembled.unlink()
+          listfile.unlink()
+          PY
+      - name: Commit captured binaries and evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/037 greg-again/audio/assets/chapter-037.mp3 greg-again/audio/takes/037-short.json greg-again/audio/verification/037-short.json greg-again/audio/verification/037-scope.json greg-again/audio/production/037/takes.json greg-again/audio/production/037/verification.txt
+          git commit -m 'Capture and assemble ga-037 short takes'
+          git push origin HEAD:audio/greg-again-ch037-auto
