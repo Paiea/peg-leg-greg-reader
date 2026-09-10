@@ -336,6 +336,18 @@
       "duration_seconds": 523.32,
       "audio_src": "assets/chapter-033.mp3",
       "note": "Chapter 33 uses twenty-four complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, ordered take playback, stitched chapter audio, durable hashes, the authoritative final ellipsis landing, and a two-second listener tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-035",
+      "number": 35,
+      "title": "The Ask",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 29,
+      "duration_seconds": 660.384,
+      "audio_src": "assets/chapter-035.mp3",
+      "note": "Chapter 35 uses twenty-nine complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, and the listener-tail landing were verified before publication."
     }
   ]
 }

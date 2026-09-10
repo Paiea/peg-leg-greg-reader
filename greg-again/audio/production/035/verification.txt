@@ -1,0 +1,14 @@
+ga-035 Chapter 35 — The Ask
+source_blob=60844248e9841481944c7e777d9d1473492f5648
+voice=deep
+takes=29
+coverage=exact
+take_order=01..29
+all_takes_ffprobe=pass
+assembled_ffprobe=pass
+duration_seconds=660.384
+assembled_bytes=10544733
+assembled_sha256=1268d466b0165945d4a7fa0e9e123401a8bcc456d36df03ab03d0ce1ff978a63
+listener_tail_target_seconds=2.0
+provider_contexts_preserved=yes
+pronunciation_substitutions=none

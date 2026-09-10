@@ -53,7 +53,7 @@ class R2SiteTests(unittest.TestCase):
             chapter = json.loads((R2 / f'data/chapters/ch{number:03d}.json').read_text(encoding='utf-8'))
             self.assertEqual(chapter['title'], title)
             self.assertEqual(chapter['images'], [])
-            self.assertNotEqual(chapter['audio']['status'], 'published')
+            self.assertIn(chapter['audio']['status'], {'unavailable', 'published'})
 
     def test_registry_is_rerouted_and_legacy_registry_is_archived(self):
         registry = json.loads((R2 / 'data/chapter-registry.json').read_text(encoding='utf-8'))
