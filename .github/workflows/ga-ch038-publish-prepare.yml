@@ -85,7 +85,7 @@ jobs:
           start=reg.index('"r2-ch038"')
           end=reg.index('"r2-ch039"',start)
           block=reg[start:end]
-          old='"audio": "unavailable"'
+          old='"audio": "not_started"'
           assert old in block
           block=block.replace(old,'"audio": "published"',1)
           reg=reg[:start]+block+reg[end:]
