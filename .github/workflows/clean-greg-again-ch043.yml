@@ -1,0 +1,35 @@
+name: Clean Greg Again Chapter 43
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    if: github.head_ref == 'audio/greg-again-ch043-auto'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch043-auto
+      - name: Remove unrelated manifest escape noise
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('greg-again/audio/manifest.json')
+          s=p.read_text().replace('\\u2192','→')
+          p.write_text(s)
+          PY
+      - name: Verify contracts
+        run: python -m unittest tests.test_greg_again_audio_catalog tests.test_r2_site -v
+      - name: Commit cleanup
+        run: |
+          if git diff --quiet -- greg-again/audio/manifest.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/manifest.json
+          git commit -m 'audio: remove Chapter 43 manifest escape noise'
+          git push origin HEAD:audio/greg-again-ch043-auto
