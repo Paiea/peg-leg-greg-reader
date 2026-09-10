@@ -1,0 +1,34 @@
+Greg, Again Chapter 40 production checkpoint
+
+chapter_id: ga-040
+source: r2/assets/written/ch040.md
+source_blob: 838dcb7ed70e59681b6744efd17ba7e821af4327
+claim: audio/greg-again-ch040-auto
+voice: deep
+take_count: 9
+
+Verified before provider submission:
+- source is current main written Chapter 40, The Citizen
+- spoken material is the prose after the front-matter separator
+- take boundaries are production seams only
+- ordered take anchors cover the chapter continuously from "The North Gate reopened while I was buying bread." through "It was starting to feel like citizenship..."
+- final take preserves the authoritative terminal ellipsis
+- no hard provider pronunciation aliases are present in this chapter
+
+Provider generation checkpoint:
+- all nine take jobs were submitted successfully and returned provider context IDs + recovery URLs
+- take identities and URLs are durably recorded in takes.json
+- current runtime cannot resolve/download the provider host, so binary artifact capture did not cross the durable boundary
+- per r2/AUDIO_PRODUCTION.md, DO NOT regenerate these takes merely to solve downstream plumbing
+
+NOT YET VERIFIED / NOT PUBLISHED:
+- durable take MP3 capture
+- per-take playability and duration
+- ordered MP3 assembly
+- seam QA
+- final chapter MP3 with about 2 seconds trailing silence
+- manifest/catalog/registry reconciliation
+- public route verification
+
+NEXT EXECUTABLE EDGE:
+Recover the nine already-generated provider artifacts by the context IDs/URLs in takes.json without regeneration. Capture durable take MP3s under the established Chapter 40 chunk path, verify each, assemble Chapter 40 in order with the chapter-tail silence rule, reconcile newest main shared files, publish through a PR, merge with fresh-head protection, then verify ga-040 on current main. Keep this branch as the Chapter 40 owner until publication completes.
