@@ -1,0 +1,107 @@
+name: GA039 temporary publish prep
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch039-auto
+    paths:
+      - .github/workflows/ga039-publish-prep.yml
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch039-auto
+          fetch-depth: 0
+      - name: Reconcile, verify, publish surfaces, and self-clean
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git merge --no-edit origin/main
+          python - <<'PY'
+          from pathlib import Path
+          import json, hashlib, subprocess
+
+          root=Path('.')
+          source=root/'r2/assets/written/ch039.md'
+          raw=source.read_text()
+          assert '\n---\n' in raw
+          spoken=raw.split('\n---\n',1)[1].strip().replace('**','').replace('`','')
+          expected_full='3607416a3c1568944500d8c9e0361134a4a94257980ce82f35474cfaabe4876a'
+          actual_full=hashlib.sha256(spoken.encode()).hexdigest()
+          assert actual_full==expected_full, (actual_full, expected_full)
+
+          lengths=[377,369,353,403,386,286,309,361,367,330,336,353,377,337,338,320,337,316,381,351,313,308,326,304,298,332,306,307,307,300,264,229]
+          contexts=['c6fb9dd4b4c24033a02c29f705609e66','2439abb5059b468dac244856f335af36','ab9cbdeedac94c3bb5910af52b942174','14b9ad2eb463425d9aa1b499d2e016ca','1c10147c0e264767abd0f38ba8cdaefd','75bac8ca866743a99ba0075fc174bc2f','fa3bfd5848ed414f88dcd3c47ff20a7b','a1a9b2b3271a4168ac03166277ecef7e','370dcee360ea4e2d8efd4d277f91ce40','ca58e68093024191a78df694fb9667c4','8429af54018d43efa6330be71cbfb9bf','c35b9425c7a542439e8fef78e3b5e460','178d9e6d43844173945eb46a9532a0b0','d407da1482174aa88055ca2105122d12','397da9cef94748138176c1d0903db22c','79815c673f214f0e91cd66f106b822a2','ac33564d220541dfb791730c6dc5f2de','30bd2fa3366643a1a0eee4628a456d91','29401d47907740b0a5f90ad2ee0a80c1','6288e3f82c094015b1b3cda9aaa27fa9','4ec69a0474594e089fdfd06381627dbc','d60bbd0f4f064d95b009578ab9cc899c','282e9403b9de44de9e9cdaea4122ae19','6106107e728448d8ad3e3f6b13f295be','c08c58ff58be4311805117e88134d994','0e370ea0e98b4fde843d5c185b87b04d','26e57ed31fbe4749a296b7627802655a','3779308af79d45ee91f282786a18e55e','1f4972dfbbfb41f9a0f65f85317cef2b','818929e851c443b694793215454bb142','867880f54e3b49339b6c1e06828494e8','9db01c67a95046a6bff5225651fec3e4']
+          urls=['71806b3a-a77e-418f-a3c8-01310861bd5a','c4a7a6ea-88a1-424f-93b1-79bf7e7ab930','f796cac9-4468-4c67-8685-8e96dbe4a1f7','cf322b3e-3638-4db5-8c5a-b22173ce6a3e','fa2530cf-3467-4cb0-aa62-6ea522283718','6c5323df-e239-4c2e-82de-19dffc9947cc','0fc08cad-2a89-45e4-b6b7-e2d1dffe55cd','98195826-fb9e-430a-89f2-a32fd8f4f98e','8b8760f2-2d02-493a-9596-3a7348aa007c','9dc798be-f761-4aa2-8e7d-84f9c6605eb1','49a065c1-9139-46fe-b9b1-42f2c9706fbb','1eba2f50-0b0b-422b-b441-82954738e004','6994bd75-f093-4ecf-9ac6-78549d8e61ff','7125dbe0-a2ec-47a3-b1cd-6885c6ae7cc9','9fae9584-41fd-4f29-a2ea-b6afab75642e','b2c2f237-209b-44b1-8106-a846bc4ce81e','a4b29642-d22e-4663-ba3e-6f7d3da6c7f6','30a15155-521b-405e-bdeb-51c7981252d1','60b9da6f-19a2-454a-85ff-968b0e629dfc','2014b64c-42a9-4720-9dc3-31ab89372380','2290f0d8-916b-405b-9623-ea9c74e1b0d7','9a91e03d-f99f-4ae8-a36c-46a886f67ea8','8ccc1bca-882c-4773-9f45-cc749fb6804c','7ed51b47-b84a-49de-b7e8-28d3ddd2e2a0','9e6a07e6-2d29-40c6-913d-325d7d2e1a84','671383af-f0f1-4e37-9b80-adc7829a07cf','3ee0aa7a-d1c9-4b5d-9e93-36a6d9376baf','aa4a8d73-86fd-4476-96c5-b8abc4f579e9','03d32b11-a0f6-45fe-a2f6-3fa0169aef08','12174cbd-815c-4488-84e4-4ca0fbab139c','9984efb4-5e87-4a45-9862-99fe8ace8d06','12b4bbb9-0fc9-45db-861d-d5c4599e3d5c']
+          assert len(lengths)==len(contexts)==len(urls)==32
+          meta=[]; pos=0
+          for i,(n,ctx,u) in enumerate(zip(lengths,contexts,urls),1):
+              seg=spoken[pos:pos+n]
+              assert len(seg)==n
+              meta.append({'take':i,'char_start':pos,'char_end':pos+n,'transcript_sha256':hashlib.sha256(seg.encode()).hexdigest(),'first_anchor':seg.split('\n\n')[0],'last_anchor':seg.split('\n\n')[-1],'context_id':ctx,'preview_url':f'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/{u}.mp3','durable_path':f'greg-again/audio/assets/chunks/039/{i:02d}.mp3','status':'verified'})
+              pos += n
+              if i<32:
+                  assert spoken[pos:pos+2]=='\n\n'
+                  pos += 2
+          assert pos==len(spoken)
+
+          capture=[]
+          for line in (root/'greg-again/audio/production/039/capture-metadata.tsv').read_text().splitlines():
+              n,d,b,s=line.split('\t'); capture.append((int(n),float(d),int(b),s))
+          assert len(capture)==32
+          for rec,(n,d,b,s) in zip(meta,capture):
+              assert rec['take']==n
+              rec.update(duration_seconds=d,bytes=b,sha256=s)
+              p=root/rec['durable_path']; assert p.exists() and p.stat().st_size==b
+              got=hashlib.sha256(p.read_bytes()).hexdigest(); assert got==s
+              subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(p)],check=True,stdout=subprocess.DEVNULL)
+
+          final=root/'greg-again/audio/assets/chapter-039.mp3'
+          assert final.exists() and final.stat().st_size==5560533
+          assert hashlib.sha256(final.read_bytes()).hexdigest()=='ea2b6761297cc3ddf284dd5ad93e394aca28afcc4c4cbb28c88a28aaa9aa8070'
+          dur=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(final)],text=True).strip())
+          assert abs(dur-628.104)<0.01, dur
+
+          prod=root/'greg-again/audio/production/039'; prod.mkdir(parents=True,exist_ok=True)
+          takes={'chapter_id':'ga-039','number':39,'title':'The East Desk','voice':'deep','written_source':'r2/assets/written/ch039.md','written_source_blob':'8e42a1b9036133eb801e09a9f0c066c8425df8c2','spoken_source_sha256':expected_full,'spoken_source_rule':'prose after front-matter separator; markdown emphasis and inline-code markers are not spoken','superseded_provider_attempts':[{'context_id':'e7a04a510d024d8a92e2aa9e4f49ba35','status':'queued_full_audio_not_used'},{'context_id':'008cbe0f04d041318e7c49e44cbc9c0b','status':'queued_full_audio_not_used'}],'takes':meta}
+          (prod/'takes.json').write_text(json.dumps(takes,indent=2,ensure_ascii=False)+'\n')
+          verification={'chapter_id':'ga-039','status':'verified','source_blob':'8e42a1b9036133eb801e09a9f0c066c8425df8c2','spoken_source_sha256':expected_full,'take_count':32,'all_take_hashes_match':True,'all_takes_ffprobe_readable':True,'exact_source_coverage':True,'final_path':'greg-again/audio/assets/chapter-039.mp3','final_duration_seconds':628.104,'final_bytes':5560533,'final_sha256':'ea2b6761297cc3ddf284dd5ad93e394aca28afcc4c4cbb28c88a28aaa9aa8070','listener_tail_seconds_target':2.0,'final_ellipsis_in_source':spoken.endswith('...'),'next_handshake':'Fresh-read current main and r2/AUDIO_PRODUCTION.md; auto-claim the earliest written, unpublished Greg, Again audio chapter not durably owned by another single-chapter worker. Preserve Chapter 39 and all newer authority.'}
+          (prod/'verification.json').write_text(json.dumps(verification,indent=2)+'\n')
+
+          manifest_path=root/'greg-again/audio/manifest.json'; manifest=json.loads(manifest_path.read_text())
+          assert not any(c.get('chapter_id')=='ga-039' for c in manifest['chapters']), 'ga-039 already published by newer authority; abort'
+          manifest['chapters'].append({'chapter_id':'ga-039','number':39,'title':'The East Desk','status':'experimental','lens':'shared-greg-surface','audio_finish':'processing-space','take_count':32,'duration_seconds':628.104,'audio_src':'assets/chapter-039.mp3','note':'Chapter 39 uses thirty-two complete preview-safe deep-voice takes from the rebuilt public The East Desk source. Exact source coverage, every provider artifact hash, ordered chunk playability, the authoritative ellipsis landing, and the two-second listener tail were verified before publication.'})
+          manifest['chapters'].sort(key=lambda c:c['number'])
+          manifest_path.write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n')
+
+          route_path=root/'r2/data/chapters/ch039.json'; route=json.loads(route_path.read_text())
+          assert route['title']=='The East Desk' and route['written']['status']=='published'
+          assert route['audio']['status']=='unavailable', route['audio']
+          route['audio']={'status':'published','path':'../greg-again/audio/assets/chapter-039.mp3'}
+          route_path.write_text(json.dumps(route,separators=(',',':'),ensure_ascii=False)+'\n')
+
+          reg_path=root/'r2/data/chapter-registry.json'; reg=json.loads(reg_path.read_text())
+          ch=reg['chapters']['r2-ch039']; assert ch['title']=='The East Desk'
+          assert ch['pipeline']['audio']!='published', ch['pipeline']['audio']
+          ch['pipeline']['audio']='published'
+          if ch.get('next_action')=='publish_audio_and_plan_images': ch['next_action']='plan_images'
+          reg_path.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+'\n')
+
+          test=root/'tests/test_greg_again_audio_ch039.py'
+          test.write_text('''import hashlib\nimport json\nfrom pathlib import Path\nimport unittest\n\nROOT=Path(__file__).resolve().parents[1]\n\nclass TestGregAgainAudioCh039(unittest.TestCase):\n    def test_ch039_publication_contract(self):\n        manifest=json.loads((ROOT/"greg-again/audio/manifest.json").read_text())\n        entry=next(c for c in manifest["chapters"] if c["chapter_id"]=="ga-039")\n        self.assertEqual(entry["number"],39)\n        self.assertEqual(entry["title"],"The East Desk")\n        self.assertEqual(entry["take_count"],32)\n        self.assertAlmostEqual(entry["duration_seconds"],628.104,places=3)\n        self.assertEqual(entry["audio_src"],"assets/chapter-039.mp3")\n        route=json.loads((ROOT/"r2/data/chapters/ch039.json").read_text())\n        self.assertEqual(route["audio"],{"status":"published","path":"../greg-again/audio/assets/chapter-039.mp3"})\n        reg=json.loads((ROOT/"r2/data/chapter-registry.json").read_text())\n        self.assertEqual(reg["chapters"]["r2-ch039"]["pipeline"]["audio"],"published")\n        takes=json.loads((ROOT/"greg-again/audio/production/039/takes.json").read_text())\n        self.assertEqual(len(takes["takes"]),32)\n        self.assertEqual([t["take"] for t in takes["takes"]],list(range(1,33)))\n        final=ROOT/"greg-again/audio/assets/chapter-039.mp3"\n        self.assertEqual(final.stat().st_size,5560533)\n        self.assertEqual(hashlib.sha256(final.read_bytes()).hexdigest(),"ea2b6761297cc3ddf284dd5ad93e394aca28afcc4c4cbb28c88a28aaa9aa8070")\n        self.assertTrue(takes["takes"][-1]["last_anchor"].endswith("..."))\n        self.assertFalse((ROOT/".github/workflows/ga039-capture.yml").exists())\n        self.assertFalse((ROOT/".github/workflows/ga039-publish-prep.yml").exists())\n\nif __name__=="__main__": unittest.main()\n''')
+          PY
+          rm -f .github/workflows/ga039-capture.yml .github/workflows/ga039-publish-prep.yml
+          python -m unittest tests.test_greg_again_audio_ch039 tests.test_greg_again_audio_catalog tests.test_r2_site -v
+          git status --short
+          git add -A
+          git commit -m 'Prepare Greg Again Chapter 39 audio publication'
+          git push origin HEAD:audio/greg-again-ch039-auto
