@@ -18,13 +18,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: audio/greg-again-ch036-auto
-          fetch-depth: 0
+          fetch-depth: 1
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
       - name: Capture, verify, and assemble
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import hashlib, json, pathlib, re, subprocess, urllib.request
+          import hashlib, json, pathlib, subprocess, urllib.request
           root = pathlib.Path('.')
           map_path = root / 'greg-again/audio/production/036/takes.json'
           data = json.loads(map_path.read_text(encoding='utf-8'))
