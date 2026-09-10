@@ -372,6 +372,18 @@
       "duration_seconds": 771.528,
       "audio_src": "assets/chapter-038.mp3",
       "note": "Chapter 38 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, the authoritative final ellipsis, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-039",
+      "number": 39,
+      "title": "The East Desk",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 32,
+      "duration_seconds": 628.104,
+      "audio_src": "assets/chapter-039.mp3",
+      "note": "Chapter 39 uses thirty-two complete preview-safe deep-voice takes from the rebuilt public The East Desk source. Exact source coverage, every provider artifact hash, ordered chunk playability, the authoritative ellipsis landing, and the two-second listener tail were verified before publication."
     }
   ]
 }
