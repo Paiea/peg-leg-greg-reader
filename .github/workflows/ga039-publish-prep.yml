@@ -26,6 +26,8 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git fetch origin main
           git merge --no-edit origin/main
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
           python - <<'PY'
           from pathlib import Path
           import json, hashlib, subprocess
