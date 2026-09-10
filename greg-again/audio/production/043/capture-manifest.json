@@ -1,0 +1,243 @@
+{
+  "chapter_id": "ga-043",
+  "source_blob": "5e5d348695fc8a3ad15340878019280276c84d31",
+  "voice": "deep",
+  "take_count": 26,
+  "coverage": "exact normalized written prose after Markdown emphasis removal; provider pronunciation aliases recorded separately",
+  "takes": [
+    {
+      "take": 1,
+      "context_id": "a552aab2a1b94dc2b9d2db51e59de39f",
+      "file": "greg-again/audio/production/043/takes/take-001.mp3",
+      "bytes": 461184,
+      "sha256": "f38e0854d3d8de51c5b62c56b6aaa4e229face4513690ab2acc2d585ca2a8741",
+      "duration_seconds": 28.824,
+      "status": "captured"
+    },
+    {
+      "take": 2,
+      "context_id": "437f3cbcfc074300abe13ab22963b7b8",
+      "file": "greg-again/audio/production/043/takes/take-002.mp3",
+      "bytes": 455808,
+      "sha256": "9bfff3b9b890e6713e0396c1a421a6161a5cf05524c6d98b4c6b36f1251bf39d",
+      "duration_seconds": 28.488,
+      "status": "captured"
+    },
+    {
+      "take": 3,
+      "context_id": "8856162f9fbd4477bc95477515724755",
+      "file": "greg-again/audio/production/043/takes/take-003.mp3",
+      "bytes": 446592,
+      "sha256": "10d8217dafdf14bbf868ea3dd47fbfbb40b99a62ce8112ab4bb71924056010f9",
+      "duration_seconds": 27.912,
+      "status": "captured"
+    },
+    {
+      "take": 4,
+      "context_id": "691fe282a81d4f9da16cf19fe25af3ca",
+      "file": "greg-again/audio/production/043/takes/take-004.mp3",
+      "bytes": 440832,
+      "sha256": "d71208521859128932ecd0e2e9a01ee8f4685afd7c55c533dfbf8dfceaf8f6a2",
+      "duration_seconds": 27.552,
+      "status": "captured"
+    },
+    {
+      "take": 5,
+      "context_id": "85dd80b9e4614e52b96c08f93ff0db15",
+      "file": "greg-again/audio/production/043/takes/take-005.mp3",
+      "bytes": 443136,
+      "sha256": "5f1f67512fc6a64956d1efcc79b303393329e5b170f9aa11e68cf294dff31bfe",
+      "duration_seconds": 27.696,
+      "status": "captured"
+    },
+    {
+      "take": 6,
+      "context_id": "fe7df841f87342888aeee7ff96aa9eb2",
+      "file": "greg-again/audio/production/043/takes/take-006.mp3",
+      "bytes": 436992,
+      "sha256": "d32b4821bddb1e6c3d95916f845e477b1fd0d4165b3a6419b6853cc9b488b9b7",
+      "duration_seconds": 27.312,
+      "status": "captured"
+    },
+    {
+      "take": 7,
+      "context_id": "e7c51a7a16804c9cbc461b93c46ade4e",
+      "file": "greg-again/audio/production/043/takes/take-007.mp3",
+      "bytes": 450048,
+      "sha256": "92e8d529441d49b0f584dbf7138d656bdf648929658f5d547c4d129009ac64ad",
+      "duration_seconds": 28.128,
+      "status": "captured"
+    },
+    {
+      "take": 8,
+      "context_id": "a9c9962b25af45b8a417b2543a10f4b7",
+      "file": "greg-again/audio/production/043/takes/take-008.mp3",
+      "bytes": 415104,
+      "sha256": "b4573580e2b1d624a9fce5f6f4a246ca07bb6e586e4730627fd56cce8bd4fa4e",
+      "duration_seconds": 25.944,
+      "status": "captured"
+    },
+    {
+      "take": 9,
+      "context_id": "9b4b1849a00042849da0e0706c1100a1",
+      "file": "greg-again/audio/production/043/takes/take-009.mp3",
+      "bytes": 450048,
+      "sha256": "50380b9ae1568c6e742a3a78e6588d89069bdca7f13d15d21925a874f3aeae75",
+      "duration_seconds": 28.128,
+      "status": "captured"
+    },
+    {
+      "take": 10,
+      "context_id": "15badc5447ae4d19892148a1cc73eb38",
+      "file": "greg-again/audio/production/043/takes/take-010.mp3",
+      "bytes": 430848,
+      "sha256": "6181f966f815203222fe48bec2568abe2eba6ca9b424ec1ac48bf7d2d700655c",
+      "duration_seconds": 26.928,
+      "status": "captured"
+    },
+    {
+      "take": 11,
+      "context_id": "f516490938d84bbd965da89d1ca2e7f4",
+      "file": "greg-again/audio/production/043/takes/take-011.mp3",
+      "bytes": 423552,
+      "sha256": "8a9d64ff94cd27abdd546be0ee221e73499177f2cde2b715c3ac5428faa5cf5c",
+      "duration_seconds": 26.472,
+      "status": "captured"
+    },
+    {
+      "take": 12,
+      "context_id": "222a1e13a07240c68e3e2115a0f43712",
+      "file": "greg-again/audio/production/043/takes/take-012.mp3",
+      "bytes": 398592,
+      "sha256": "b62b81ca5ebd7f7b8dae29835ee6371db33b857fb96faa6136af5d23305a44c2",
+      "duration_seconds": 24.912,
+      "status": "captured"
+    },
+    {
+      "take": 13,
+      "context_id": "c85ba17a01384d799fee6c5bc5a5ddac",
+      "file": "greg-again/audio/production/043/takes/take-013.mp3",
+      "bytes": 431616,
+      "sha256": "93acc703c883dc9cf59f871c38e1bd1bc8739bdd4033763a4d5bebdcfe6de166",
+      "duration_seconds": 26.976,
+      "status": "captured"
+    },
+    {
+      "take": 14,
+      "context_id": "ba7025610cae47a5831d699ebbaf4fa5",
+      "file": "greg-again/audio/production/043/takes/take-014.mp3",
+      "bytes": 435072,
+      "sha256": "702c468ad85cfbec448a40aacf0bff5b51e4dda9659b27a19541760586c6dbb2",
+      "duration_seconds": 27.192,
+      "status": "captured"
+    },
+    {
+      "take": 15,
+      "context_id": "a4a05a5043434e9ab394a992f987ea65",
+      "file": "greg-again/audio/production/043/takes/take-015.mp3",
+      "bytes": 433536,
+      "sha256": "aadee83a14523a4391f8462658db935722f3f13ddc998b5a87539c9754eca841",
+      "duration_seconds": 27.096,
+      "status": "captured"
+    },
+    {
+      "take": 16,
+      "context_id": "6f7043653a974d9da519681dd2b0464a",
+      "file": "greg-again/audio/production/043/takes/take-016.mp3",
+      "bytes": 418176,
+      "sha256": "1f81b529f6cfc750995d787c12c3b658500fc828780f4e48047c614bf5b97aaa",
+      "duration_seconds": 26.136,
+      "status": "captured"
+    },
+    {
+      "take": 17,
+      "context_id": "b65bdf3e87a94536ae6a32921c7b9b6f",
+      "file": "greg-again/audio/production/043/takes/take-017.mp3",
+      "bytes": 430080,
+      "sha256": "acc7166e714a7a7edcc3b8727925fd06ade8f94b77edc5f1494e840303946bcc",
+      "duration_seconds": 26.88,
+      "status": "captured"
+    },
+    {
+      "take": 18,
+      "context_id": "431f9591b0484be98a95e9990a44f6af",
+      "file": "greg-again/audio/production/043/takes/take-018.mp3",
+      "bytes": 418560,
+      "sha256": "15e6ed7e888d1a217fab5c273d42d6ea617dab679b30fc7924a982a7e998c33b",
+      "duration_seconds": 26.16,
+      "status": "captured"
+    },
+    {
+      "take": 19,
+      "context_id": "6662a9f50d2c444c881cf8f34908e90e",
+      "file": "greg-again/audio/production/043/takes/take-019.mp3",
+      "bytes": 448512,
+      "sha256": "c5201af99f64f7fed1018598ecc7cbb9142e9c65ee2f7216534afa439bb76805",
+      "duration_seconds": 28.032,
+      "status": "captured"
+    },
+    {
+      "take": 20,
+      "context_id": "fde0d0eab3ad4e678eb559480a55c0bc",
+      "file": "greg-again/audio/production/043/takes/take-020.mp3",
+      "bytes": 440448,
+      "sha256": "85f1f08c7910563bcb6408e6e2f43e719b296e5c9655061f41422eae09cabd02",
+      "duration_seconds": 27.528,
+      "status": "captured"
+    },
+    {
+      "take": 21,
+      "context_id": "43daf61cf3104ea1bd592e34bb2b410c",
+      "file": "greg-again/audio/production/043/takes/take-021.mp3",
+      "bytes": 448896,
+      "sha256": "b746e0f148d5ba7d1db017cb073ff5e085efb065f537694a6f626d821b2cbdb6",
+      "duration_seconds": 28.056,
+      "status": "captured"
+    },
+    {
+      "take": 22,
+      "context_id": "0f5c1e2ed59744ec906d8236562cc6be",
+      "file": "greg-again/audio/production/043/takes/take-022.mp3",
+      "bytes": 453504,
+      "sha256": "3c012aca941b504a9d510449061b9ba2f730a5f40fd44e0ce51fd7baee1a51cb",
+      "duration_seconds": 28.344,
+      "status": "captured"
+    },
+    {
+      "take": 23,
+      "context_id": "d60a8649a3ac42439335e8c53e87b631",
+      "file": "greg-again/audio/production/043/takes/take-023.mp3",
+      "bytes": 438144,
+      "sha256": "7864629ec04a681df6671114ea8d094ca7ebdb68017763df2ad7e4ed58263324",
+      "duration_seconds": 27.384,
+      "status": "captured"
+    },
+    {
+      "take": 24,
+      "context_id": "ddf0540bdf924d16b9669f88d44e6b41",
+      "file": "greg-again/audio/production/043/takes/take-024.mp3",
+      "bytes": 449664,
+      "sha256": "500c80a8f6a7d1629a7f1b2e4e1fee50b9811b0fcc16caaf290310b7d44e252b",
+      "duration_seconds": 28.104,
+      "status": "captured"
+    },
+    {
+      "take": 25,
+      "context_id": "18e93ee37ff4486b89a83a835ce5ebe8",
+      "file": "greg-again/audio/production/043/takes/take-025.mp3",
+      "bytes": 433536,
+      "sha256": "aec56e92700778eb7aab1186e4c8125f7867893c36e8ca3c14d424231c6ea114",
+      "duration_seconds": 27.096,
+      "status": "captured"
+    },
+    {
+      "take": 26,
+      "context_id": "2dd8d79a92344e5092a11bada1a6869e",
+      "file": "greg-again/audio/production/043/takes/take-026.mp3",
+      "bytes": 374400,
+      "sha256": "3877dc14b7c5503e3223adba0a7c84bf50b793cdb47425d84bf6497e93a9ffc1",
+      "duration_seconds": 23.4,
+      "status": "captured"
+    }
+  ]
+}
