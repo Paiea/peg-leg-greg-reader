@@ -348,6 +348,18 @@
       "duration_seconds": 660.384,
       "audio_src": "assets/chapter-035.mp3",
       "note": "Chapter 35 uses twenty-nine complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-036",
+      "number": 36,
+      "title": "Four Nights",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 33,
+      "duration_seconds": 662.496,
+      "audio_src": "assets/chapter-036.mp3",
+      "note": "Chapter 36 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take ordering, individual playability, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
     }
   ]
 }
