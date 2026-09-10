@@ -1,0 +1,85 @@
+name: GA039 temporary capture
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch039-auto
+    paths:
+      - .github/workflows/ga039-capture.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch039-auto
+      - name: Capture, verify, and assemble Chapter 39
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          mkdir -p greg-again/audio/assets/chunks/039 greg-again/audio/production/039
+          cat > /tmp/urls.txt <<'EOF'
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/71806b3a-a77e-418f-a3c8-01310861bd5a.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c4a7a6ea-88a1-424f-93b1-79bf7e7ab930.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f796cac9-4468-4c67-8685-8e96dbe4a1f7.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cf322b3e-3638-4db5-8c5a-b22173ce6a3e.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fa2530cf-3467-4cb0-aa62-6ea522283718.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6c5323df-e239-4c2e-82de-19dffc9947cc.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0fc08cad-2a89-45e4-b6b7-e2d1dffe55cd.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/98195826-fb9e-430a-89f2-a32fd8f4f98e.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8b8760f2-2d02-493a-9596-3a7348aa007c.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9dc798be-f761-4aa2-8e7d-84f9c6605eb1.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/49a065c1-9139-46fe-b9b1-42f2c9706fbb.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1eba2f50-0b0b-422b-b441-82954738e004.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6994bd75-f093-4ecf-9ac6-78549d8e61ff.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7125dbe0-a2ec-47a3-b1cd-6885c6ae7cc9.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9fae9584-41fd-4f29-a2ea-b6afab75642e.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b2c2f237-209b-44b1-8106-a846bc4ce81e.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a4b29642-d22e-4663-ba3e-6f7d3da6c7f6.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/30a15155-521b-405e-bdeb-51c7981252d1.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60b9da6f-19a2-454a-85ff-968b0e629dfc.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2014b64c-42a9-4720-9dc3-31ab89372380.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2290f0d8-916b-405b-9623-ea9c74e1b0d7.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9a91e03d-f99f-4ae8-a36c-46a886f67ea8.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8ccc1bca-882c-4773-9f45-cc749fb6804c.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7ed51b47-b84a-49de-b7e8-28d3ddd2e2a0.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9e6a07e6-2d29-40c6-913d-325d7d2e1a84.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/671383af-f0f1-4e37-9b80-adc7829a07cf.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3ee0aa7a-d1c9-4b5d-9e93-36a6d9376baf.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aa4a8d73-86fd-4476-96c5-b8abc4f579e9.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/03d32b11-a0f6-45fe-a2f6-3fa0169aef08.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/12174cbd-815c-4488-84e4-4ca0fbab139c.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9984efb4-5e87-4a45-9862-99fe8ace8d06.mp3
+          https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/12b4bbb9-0fc9-45db-861d-d5c4599e3d5c.mp3
+          EOF
+          : > greg-again/audio/production/039/capture-metadata.tsv
+          i=0
+          while IFS= read -r url; do
+            i=$((i+1))
+            n=$(printf '%02d' "$i")
+            out="greg-again/audio/assets/chunks/039/${n}.mp3"
+            curl -L --fail --retry 3 --retry-delay 2 -o "$out" "$url"
+            duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out")
+            bytes=$(stat -c %s "$out")
+            sha=$(sha256sum "$out" | awk '{print $1}')
+            printf '%s\t%s\t%s\t%s\n' "$n" "$duration" "$bytes" "$sha" >> greg-again/audio/production/039/capture-metadata.tsv
+          done < /tmp/urls.txt
+          test "$i" -eq 32
+          : > /tmp/concat.txt
+          for f in greg-again/audio/assets/chunks/039/*.mp3; do printf "file '%s/%s'\n" "$GITHUB_WORKSPACE" "$f" >> /tmp/concat.txt; done
+          ffmpeg -v error -f concat -safe 0 -i /tmp/concat.txt -c copy /tmp/ga039-no-tail.mp3
+          ffmpeg -v error -y -i /tmp/ga039-no-tail.mp3 -af 'apad=pad_dur=2' -c:a libmp3lame -q:a 2 greg-again/audio/assets/chapter-039.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/chapter-039.mp3 > greg-again/audio/production/039/final-duration.txt
+          sha256sum greg-again/audio/assets/chapter-039.mp3 > greg-again/audio/production/039/final-sha256.txt
+          stat -c %s greg-again/audio/assets/chapter-039.mp3 > greg-again/audio/production/039/final-bytes.txt
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/chunks/039 greg-again/audio/assets/chapter-039.mp3 greg-again/audio/production/039/capture-metadata.tsv greg-again/audio/production/039/final-duration.txt greg-again/audio/production/039/final-sha256.txt greg-again/audio/production/039/final-bytes.txt
+          git commit -m 'Capture and assemble Greg Again Chapter 39 audio'
+          git push origin HEAD:audio/greg-again-ch039-auto
