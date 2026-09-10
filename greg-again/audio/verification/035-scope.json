@@ -1,7 +1,8 @@
 {
   "chapter_id": "ga-035",
-  "base": "origin/main",
+  "base": "main",
   "unrelated_chapter_surfaces_changed": false,
+  "necessary_repository_contract_change": "tests/test_r2_site.py now permits rebuilt chapters to transition audio status from unavailable to published",
   "changed_paths": [
     "greg-again/audio/assets/chapter-035.mp3",
     "greg-again/audio/assets/chunks/035/01.mp3",
@@ -36,7 +37,12 @@
     "greg-again/audio/manifest.json",
     "greg-again/audio/production/035/takes.json",
     "greg-again/audio/production/035/verification.txt",
+    "greg-again/audio/takes/035-short.json",
+    "greg-again/audio/verification/035-short.json",
+    "greg-again/audio/verification/035-scope.json",
     "r2/data/chapter-registry.json",
-    "r2/data/chapters/ch035.json"
+    "r2/data/chapters/ch035.json",
+    "tests/test_greg_again_audio_ch035.py",
+    "tests/test_r2_site.py"
   ]
 }
