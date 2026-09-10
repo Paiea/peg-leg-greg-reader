@@ -4,7 +4,7 @@
 
 **Goal:** Make fictional time and at least one run constraint first-class Temporal Engine inputs, support conversational nudge overrides, and prevent planning/audit language from leaking into R2 prose.
 
-**Architecture:** Keep the Temporal Engine as reusable doctrine, add one compact per-run contract template, and route temporal work through `AGENTS.md`. Temporal experiment state remains branch-local and non-canonical; useful survivors continue through the existing Future Survivor Protocol. Planner/scrubber state stays rich while the prose renderer receives only a reduced scene packet.
+**Architecture:** Keep the deep Temporal Engine as reusable doctrine, add one compact per-run contract template, and add a small `r2/TEMPORAL_ENGINE.md` front door. Root `AGENTS.md` already routes forward-R2 future work through `r2/FUTURE_SURVIVOR_PROTOCOL.md`, so the survivor protocol becomes the integration point rather than risking broad whole-file rewrites of unrelated root/project state. Planner/scrubber state stays rich while the prose renderer receives only a reduced Scene Packet.
 
 **Tech Stack:** Markdown repository doctrine and GitHub branch workflow; no runtime dependency changes.
 
@@ -34,37 +34,37 @@
 - Consumes: current character-first A/B/C/D horizon doctrine and the approved design spec.
 - Produces: active reusable engine method with clock resolution, constraint resolution, nudge semantics, time-residue rules, renderer firewall, and run lifecycle.
 
-- [ ] **Step 1: Preserve the existing character-first and survivor gates**
+- [x] **Step 1: Preserve the existing character-first and survivor gates**
 
-Read the current file and retain its useful horizon, character, friction, repetition, and re-performance rules.
+Retain useful confidence horizons, character, friction, repetition, and re-performance rules.
 
-- [ ] **Step 2: Replace obsolete experimental-only status**
+- [x] **Step 2: Replace obsolete experimental-only status**
 
-Set status to active speculative-development doctrine on `main`; explicitly state that method authority does not make speculative prose canonical.
+Set status to active speculative-development doctrine; explicitly state that method authority does not make speculative prose canonical.
 
-- [ ] **Step 3: Add the Temporal Run Contract**
+- [x] **Step 3: Add the Temporal Run Contract**
 
-Document required fields: authority anchor, clock, at least one hard constraint or soft nudge, optional output/fidelity target, and stop condition.
+Required fields: authority anchor, clock, at least one hard constraint or soft nudge, optional output/fidelity target, and stop condition.
 
-- [ ] **Step 4: Add clock inference behavior**
+- [x] **Step 4: Add clock inference behavior**
 
-Encode resolution order: explicit user instruction → active run contract → high-confidence inference → one concise question only when material ambiguity remains.
+Resolution order: explicit user instruction → active run contract → high-confidence inference → one concise question only when material ambiguity remains.
 
-- [ ] **Step 5: Add elapsed-time residue behavior**
+- [x] **Step 5: Add elapsed-time residue behavior**
 
-Document that meaningful gaps should normally leave at least two concrete consequences before the new action fully settles, while remaining diagnostic rather than quota-driven.
+Meaningful gaps normally leave at least two concrete consequences before the new action fully settles, as a diagnostic rather than a quota.
 
-- [ ] **Step 6: Add constraint and nudge behavior**
+- [x] **Step 6: Add constraint and nudge behavior**
 
-Differentiate hard constraints from soft nudges and include concrete examples such as `one year`, `Gold party`, `more action`, `a little more tropes`, and `do not make Greg Gold yet`.
+Differentiate hard constraints from soft nudges and include `one year`, `Gold party`, `more action`, `a little more tropes`, and `do not make Greg Gold yet` behavior.
 
-- [ ] **Step 7: Add planner / renderer firewall**
+- [x] **Step 7: Add planner / renderer firewall**
 
-Define the reduced Scene Packet and prohibit experiment/audit vocabulary from being fed into or emitted by prose merely because planning uses it.
+Define the reduced Scene Packet and prohibit experiment/audit vocabulary from leaking into prose merely because planning uses it.
 
-- [ ] **Step 8: Verify continuity with existing doctrine**
+- [x] **Step 8: Preserve existing confidence and re-performance doctrine**
 
-Confirm A/B/C/D, character-first survivor gate, independent clocks, repetition gate, re-performance, and survivor labels remain represented.
+Keep A/B/C/D, character-first survivor gate, independent clocks, repetition gate, re-performance, and survivor labels while separating confidence horizons from fictional time.
 
 ### Task 2: Add the reusable per-run template
 
@@ -73,59 +73,57 @@ Confirm A/B/C/D, character-first survivor gate, independent clocks, repetition g
 
 **Interfaces:**
 - Consumes: Temporal Engine contract.
-- Produces: a copyable branch-local `TEMPORAL_RUN.md` structure and reduced `SCENE_PACKET` handoff shape.
+- Produces: a copyable branch-local `TEMPORAL_RUN.md` structure and reduced Scene Packet handoff shape.
 
-- [ ] **Step 1: Define run metadata**
+- [x] **Step 1: Define run metadata**
 
 Include status, authority anchor, experiment question, clock source/confidence, start, horizon/end, checkpoint strategy, stop condition, hard constraints, soft nudges, and explicit non-goals.
 
-- [ ] **Step 2: Define nudge update log**
+- [x] **Step 2: Define nudge update log**
 
 Record only changes that alter the current run contract; do not turn chat history into permanent transcript state.
 
-- [ ] **Step 3: Define current state snapshot**
+- [x] **Step 3: Define current state snapshot**
 
-Track only clocks materially relevant to the active run: people, body, money, work, relationships, gear, geography, magic, reputation, obligations, and similar domains.
+Track only clocks materially relevant to the active run.
 
-- [ ] **Step 4: Define reduced Scene Packet template**
+- [x] **Step 4: Define reduced Scene Packet template**
 
-Include time/gap, location, people/wants, physical situation, current state changes, scene-relevant constraints, non-contradiction facts, and surviving consequences. Explicitly exclude planning/audit vocabulary.
+Include time/gap, location, people/wants, physical situation, current state changes, scene-relevant pressures, non-contradiction facts, and surviving consequences. Exclude planning/audit vocabulary.
 
-- [ ] **Step 5: Define resume behavior**
+- [x] **Step 5: Define resume behavior**
 
-A fresh worker should be able to read the run contract and current authority, then continue after a simple `continue` without asking the user to repeat already-durable inputs.
+A fresh worker can read the run contract and current authority, then continue after a simple `continue` without asking the user to repeat durable inputs.
 
-### Task 3: Route temporal work and survivor handoff
+### Task 3: Add the discoverable route and survivor handoff
 
 **Files:**
-- Modify: `AGENTS.md`
+- Create: `r2/TEMPORAL_ENGINE.md`
 - Modify: `r2/FUTURE_SURVIVOR_PROTOCOL.md`
-- Modify: `state/PROJECT_STATE.md`
 
 **Interfaces:**
 - Consumes: active Temporal Engine and run template.
-- Produces: discoverable routing and clean authority handoff into existing survivor doctrine.
+- Produces: discoverable routing and clean authority handoff into existing survivor doctrine without rewriting unrelated root/project files.
 
-- [ ] **Step 1: Update `AGENTS.md` routing**
+- [x] **Step 1: Add the R2 temporal front door**
 
-Add a Temporal Engine route for temporal/year/season/future-rehearsal requests and natural-language nudges. Require reading the current authority plus engine/run contract; keep speculative prose non-canonical.
+Route year/season/future-rehearsal requests and natural-language nudges to the deep engine and active `TEMPORAL_RUN.md`.
 
-- [ ] **Step 2: Update Future Survivor discovery contract**
+- [x] **Step 2: Update Future Survivor temporal interface**
 
-Require surviving temporal material to carry its time horizon and relevant constraint state as experiment evidence, while preventing stale run constraints from becoming canon.
+Carry time horizon and relevant constraint state as experiment evidence while preventing stale run constraints from becoming canon.
 
-- [ ] **Step 3: Update project engine ownership**
+- [x] **Step 3: Preserve existing root routing**
 
-List the Temporal Engine as a specialist speculative-development method and clarify it does not replace 01/02/03 or publish directly.
+Rely on the existing `AGENTS.md` forward-R2 route into `r2/FUTURE_SURVIVOR_PROTOCOL.md`; avoid unrelated whole-file churn.
 
 ### Task 4: Verify the doctrine as a coherent system
 
 **Files:**
+- Verify: `r2/TEMPORAL_ENGINE.md`
 - Verify: `r2/editorial/character-rebuild/TEMPORAL_ENGINE.md`
 - Verify: `r2/editorial/character-rebuild/TEMPORAL_RUN_TEMPLATE.md`
-- Verify: `AGENTS.md`
 - Verify: `r2/FUTURE_SURVIVOR_PROTOCOL.md`
-- Verify: `state/PROJECT_STATE.md`
 - Verify: design + plan documents
 
 **Interfaces:**
@@ -134,7 +132,7 @@ List the Temporal Engine as a specialist speculative-development method and clar
 
 - [ ] **Step 1: Search for obsolete status language**
 
-Confirm the engine no longer says it is active only on `experiment/r2-character-rebuild`.
+Confirm the active engine no longer says it is active only on `experiment/r2-character-rebuild`.
 
 - [ ] **Step 2: Check required semantics**
 
