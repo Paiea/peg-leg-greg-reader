@@ -1,0 +1,43 @@
+name: Diagnose Greg Again Chapter 41 Coverage
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch041-auto
+    paths:
+      - .github/workflows/diagnose-ga041-coverage.yml
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch041-auto
+          fetch-depth: 0
+      - name: Write exact coverage diagnostic
+        shell: bash
+        run: |
+          python - <<'PY'
+          import difflib, json, pathlib
+          root=pathlib.Path('.')
+          data=json.loads((root/'greg-again/audio/production/041/takes.json').read_text(encoding='utf-8'))
+          source=(root/data['written_source']).read_text(encoding='utf-8')
+          body=source.split('\n---\n',1)[1].strip().replace('`','').replace('**','')
+          joined='\n\n'.join(t['transcript'] for t in data['takes']).strip()
+          diff=''.join(difflib.unified_diff(body.splitlines(True), joined.splitlines(True), fromfile='source', tofile='takes'))
+          out=root/'greg-again/audio/production/041/coverage-diff.txt'
+          out.write_text(('MATCH\n' if body==joined else 'MISMATCH\n')+diff,encoding='utf-8')
+          print('match=', body==joined)
+          PY
+      - name: Commit diagnostic
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/production/041/coverage-diff.txt
+          git commit -m 'audio: diagnose Chapter 41 coverage'
+          git push origin HEAD:audio/greg-again-ch041-auto
