@@ -1,0 +1,128 @@
+name: Capture Greg Again Chapter 41
+
+on:
+  push:
+    branches:
+      - audio/greg-again-ch041-auto
+    paths:
+      - .github/workflows/capture-ga041.yml
+      - greg-again/audio/production/041/takes.json
+      - greg-again/audio/production/041/provider-artifacts.json
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/greg-again-ch041-auto
+          fetch-depth: 0
+      - name: Capture, verify, and assemble
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, pathlib, subprocess, urllib.request
+          root = pathlib.Path('.')
+          map_path = root / 'greg-again/audio/production/041/takes.json'
+          provider_path = root / 'greg-again/audio/production/041/provider-artifacts.json'
+          data = json.loads(map_path.read_text(encoding='utf-8'))
+          providers = json.loads(provider_path.read_text(encoding='utf-8'))
+          provider_by_take = {int(t['take']): t for t in providers['takes']}
+          if sorted(provider_by_take) != list(range(1, len(data['takes']) + 1)):
+              raise SystemExit('provider artifact map is incomplete or non-contiguous')
+
+          source = (root / data['written_source']).read_text(encoding='utf-8')
+          body = source.split('\n---\n', 1)[1].strip().replace('`', '').replace('**', '')
+          joined = '\n\n'.join(t['transcript'] for t in data['takes']).strip()
+          if body != joined:
+              import difflib
+              diff=''.join(difflib.unified_diff(body.splitlines(True), joined.splitlines(True), fromfile='source', tofile='takes'))
+              raise SystemExit('spoken source coverage mismatch\n'+diff[:12000])
+
+          for t in data['takes']:
+              expected = t['transcript']
+              for sub in t.get('provider_substitutions', []):
+                  expected = expected.replace(sub['written'], sub['provider'])
+              p = provider_by_take[int(t['take'])]
+              if p.get('provider_transcript_substitution') and not t.get('provider_substitutions'):
+                  raise SystemExit(f'take {t["take"]} has undeclared provider substitution')
+              t['context_id'] = p['context_id']
+              t['preview_url'] = p['preview_url']
+              t['provider_transcript'] = expected
+              t['status'] = 'generated'
+
+          chunk_dir = root / 'greg-again/audio/assets/chunks/041'
+          chunk_dir.mkdir(parents=True, exist_ok=True)
+          concat_lines=[]
+          for t in data['takes']:
+              n=t['take']; dest=chunk_dir / f'{n:02d}.mp3'
+              req=urllib.request.Request(t['preview_url'], headers={'User-Agent':'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  payload=r.read()
+              if len(payload) < 10000:
+                  raise SystemExit(f'take {n} trivial payload {len(payload)} bytes')
+              dest.write_bytes(payload)
+              probe=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(dest)], text=True).strip()
+              dur=float(probe)
+              if dur < 1.0:
+                  raise SystemExit(f'take {n} invalid duration {dur}')
+              t['durable_path']=dest.as_posix()
+              t['bytes']=len(payload)
+              t['sha256']=hashlib.sha256(payload).hexdigest()
+              t['duration_seconds']=round(dur,3)
+              t['status']='artifact_captured_verified'
+              concat_lines.append(f"file '{dest.resolve()}'")
+
+          work = root / 'greg-again/audio/production/041'
+          concat_file=work/'concat.txt'; concat_file.write_text('\n'.join(concat_lines)+'\n', encoding='utf-8')
+          stitched=work/'stitched-no-tail.mp3'
+          subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',str(concat_file),'-c','copy',str(stitched)], check=True)
+          final=root/'greg-again/audio/assets/chapter-041.mp3'
+          subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',str(stitched),'-f','lavfi','-t','2.0','-i','anullsrc=r=44100:cl=stereo','-filter_complex','[0:a][1:a]concat=n=2:v=0:a=1[a]','-map','[a]','-c:a','libmp3lame','-b:a','128k',str(final)], check=True)
+          final_probe=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(final)], text=True).strip()
+          final_bytes=final.read_bytes(); final_dur=round(float(final_probe),3)
+          final_sha=hashlib.sha256(final_bytes).hexdigest()
+          data['status']='verified_playable'
+          data['take_count']=len(data['takes'])
+          data['assembled_duration_seconds']=final_dur
+          data['assembled_bytes']=len(final_bytes)
+          data['assembled_sha256']=final_sha
+          data['chapter_tail_silence_seconds']=2.0
+          map_path.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          take_out=root/'greg-again/audio/takes/041-short.json'; take_out.parent.mkdir(parents=True, exist_ok=True)
+          take_out.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          verify={
+            'chapter_id':'ga-041','number':41,'title':'The Cordon','voice':'deep',
+            'source_path':data['written_source'],'source_blob':data['written_source_blob'],
+            'source_coverage':'exact_after_nonspoken_markdown_normalization',
+            'pronunciation_substitutions':[{'take':13,'written':'Mana','provider':'Ma-na'}],
+            'take_count':len(data['takes']),'all_takes_playable':True,'take_order_verified':True,
+            'assembled_path':'greg-again/audio/assets/chapter-041.mp3',
+            'assembled_duration_seconds':final_dur,'assembled_bytes':len(final_bytes),'assembled_sha256':final_sha,
+            'chapter_tail_silence_seconds':2.0,'status':'verified_playable'
+          }
+          vpath=root/'greg-again/audio/verification/041-short.json'; vpath.parent.mkdir(parents=True, exist_ok=True)
+          vpath.write_text(json.dumps(verify, indent=2)+'\n', encoding='utf-8')
+          (work/'verification.txt').write_text('\n'.join([
+            'ga-041 The Cordon',f'takes={len(data["takes"])}','voice=deep','source_coverage=exact',
+            'take_order=verified','individual_playability=verified','pronunciation=Mana->Ma-na@take13',
+            f'assembled_duration_seconds={final_dur}',f'assembled_bytes={len(final_bytes)}',
+            f'assembled_sha256={final_sha}','chapter_tail_silence_seconds=2.0','status=verified_playable'
+          ])+'\n', encoding='utf-8')
+          print(json.dumps(verify, indent=2))
+          PY
+          rm -f greg-again/audio/production/041/concat.txt greg-again/audio/production/041/stitched-no-tail.mp3
+      - name: Commit durable audio artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add greg-again/audio/assets/chapter-041.mp3 greg-again/audio/assets/chunks/041 greg-again/audio/production/041/takes.json greg-again/audio/production/041/provider-artifacts.json greg-again/audio/production/041/verification.txt greg-again/audio/takes/041-short.json greg-again/audio/verification/041-short.json
+          git commit -m 'audio: capture and assemble Greg Again Chapter 41'
+          git push origin HEAD:audio/greg-again-ch041-auto
