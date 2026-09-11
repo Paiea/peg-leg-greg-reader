@@ -1,0 +1,116 @@
+name: ga010 v2 reconcile
+on:
+  push:
+    branches: [audio/v2-greg-again-ch010-auto]
+    paths: ['.github/workflows/ga010-v2-reconcile.yml']
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch010-auto
+          fetch-depth: 0
+      - name: Reconcile newest Audio Score authority
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin audio-score/chapters-001-010
+          git merge --no-edit origin/audio-score/chapters-001-010
+      - name: Reconcile v2 and public manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          v2_path = Path('greg-again/audio/v2/manifest.json')
+          public_path = Path('greg-again/audio/manifest.json')
+
+          v2 = json.loads(v2_path.read_text())
+          entry = {
+              'chapter_id': 'ga-010',
+              'number': 10,
+              'title': 'What Moved',
+              'status': 'verified',
+              'voice': 'deep',
+              'source': 'r2/assets/audio-score/ch010.md',
+              'source_sha': 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05',
+              'take_count': 25,
+              'duration_seconds': 591.48,
+              'audio_src': 'assets/v2/chapter-010.mp3',
+              'take_map': 'v2/takes/010/take-map.md',
+              'verification': 'v2/verification/010/'
+          }
+          chapters = [c for c in v2.get('chapters', []) if c.get('number') != 10 and c.get('chapter_id') != 'ga-010']
+          chapters.append(entry)
+          chapters.sort(key=lambda c: c.get('number', 999999))
+          v2['chapters'] = chapters
+          v2_path.write_text(json.dumps(v2, indent=2, ensure_ascii=False) + '\n')
+
+          public = json.loads(public_path.read_text())
+          matches = [c for c in public.get('chapters', []) if c.get('number') == 10 or c.get('chapter_id') == 'ga-010']
+          if len(matches) != 1:
+              raise SystemExit(f'Expected exactly one public Chapter 010 entry, found {len(matches)}')
+          chapter = matches[0]
+          if chapter.get('number') != 10 or chapter.get('chapter_id') != 'ga-010':
+              raise SystemExit(f'Chapter 010 stable identity mismatch: {chapter}')
+          chapter['take_count'] = 25
+          chapter['duration_seconds'] = 591.48
+          chapter['audio_src'] = 'assets/v2/chapter-010.mp3'
+          chapter['audio_finish'] = 'audio-score-v2'
+          chapter['note'] = ('Audio Score v2 Chapter 10: twenty-five preview-safe deep-voice takes preserve the '
+                             'audio-native score cadence and exact ordered story content. Durable preview artifacts '
+                             'were ffprobe-verified, stitched deterministically, and published with the established '
+                             'settling tail; provider-only pronunciation aliases preserve mana and Vale delivery.')
+          public_path.write_text(json.dumps(public, indent=2, ensure_ascii=False) + '\n')
+          PY
+      - name: Mark publication verification complete
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('greg-again/audio/v2/verification/010/STATUS.md')
+          text = p.read_text()
+          text = text.replace('- [ ] `greg-again/audio/v2/manifest.json` reconciled', '- [x] `greg-again/audio/v2/manifest.json` reconciled')
+          text = text.replace('- [ ] `greg-again/audio/manifest.json` Chapter 010 routed to `assets/v2/chapter-010.mp3`', '- [x] `greg-again/audio/manifest.json` Chapter 010 routed to `assets/v2/chapter-010.mp3`')
+          text = text.replace('- [ ] route verified from reconciled authority', '- [x] route verified from reconciled claim after newest authority merge')
+          p.write_text(text)
+          PY
+      - name: Validate manifest routing and asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s greg-again/audio/assets/v2/chapter-010.mp3
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          v2 = json.loads(Path('greg-again/audio/v2/manifest.json').read_text())
+          pub = json.loads(Path('greg-again/audio/manifest.json').read_text())
+          v = [c for c in v2['chapters'] if c.get('number') == 10]
+          p = [c for c in pub['chapters'] if c.get('number') == 10]
+          assert len(v) == 1 and v[0]['audio_src'] == 'assets/v2/chapter-010.mp3'
+          assert v[0]['source_sha'] == 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05'
+          assert v[0]['take_count'] == 25 and abs(v[0]['duration_seconds'] - 591.48) < 0.001
+          assert len(p) == 1 and p[0]['chapter_id'] == 'ga-010'
+          assert p[0]['audio_src'] == 'assets/v2/chapter-010.mp3'
+          assert p[0]['take_count'] == 25 and abs(p[0]['duration_seconds'] - 591.48) < 0.001
+          print('Chapter 010 v2 route verified')
+          PY
+      - name: Commit reconciled publication state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add greg-again/audio/v2/manifest.json greg-again/audio/manifest.json greg-again/audio/v2/verification/010/STATUS.md
+          if git diff --cached --quiet; then
+            echo 'No manifest changes required'
+          else
+            git commit -m 'Publish Audio Score v2 Chapter 010'
+          fi
+          git push origin HEAD:audio/v2-greg-again-ch010-auto
