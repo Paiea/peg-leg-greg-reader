@@ -6,7 +6,7 @@ Score blob SHA: `0326969cce6e3be692eed694f919a45e0dd92732`
 Clean written source recorded by score: `r2/assets/written/ch064.md` @ `a9803aaa09c24e8243cc4823a21b389d022c8c89`
 Voice: `deep`
 Planned take count: 21
-Status: capture active; takes 01-03 have durable playable preview artifacts.
+Status: capture active; takes 01-06 have durable playable preview artifacts.
 Provider-facing substitutions: Markdown emphasis/code delimiters omitted from spoken input; `mana` -> `ma-na` where encountered. No story wording changes.
 
 ## 01
@@ -83,3 +83,122 @@ Fourth, mage Reth. Silver. Younger than Sile, older than me, entire personality 
 "Documented."
 
 He had heard.
+
+## 04
+Context: `aec5edfc7d5c403d86cafb24c0c72896`
+Preview: `https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60cec532-a23f-4bd5-897f-95c6a2979ce5.mp3`
+Transcript:
+
+Eleven days between contracts did more than repair coat.
+
+Three trainings with Callen.
+
+Bell Tile twice.
+
+Two winter undershirts after first cold morning and immediately robbed by wool.
+
+Mara reply D197.
+
+Wish you were here too. Not as a complaint.
+
+Then:
+
+East load likely around D249. Do not write it on wall.
+
+Had not.
+
+Calendar only.
+
+Tavin sent nothing.
+
+Worried enough to write one extra packet. Not enough to invent disaster.
+
+Current friendship included silence sometimes.
+
+## 05
+Context: `cc78842ecfbf4a0485b90695c71395fa`
+Preview: `https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d075e760-d8fa-4ca9-928c-5c6cd5ab1c64.mp3`
+Transcript:
+
+Lower Gray new cut looked like giant bit hill.
+
+Fresh white face, thirty feet high.
+
+Dark opening at base.
+
+Blood trail from mule stopped there.
+
+No tracks outside.
+
+Reth tested air with crystal rod.
+
+Flickered.
+
+Dark.
+
+"Interference."
+
+"Useful."
+
+"I already knew."
+
+"Now we paid for demonstration."
+
+He hated me more.
+
+Sile assigned.
+
+Osa outer high line.
+
+Reth magic survey.
+
+Me second, load support.
+
+Sile front.
+
+Quarry crew out.
+
+We entered.
+
+## 06
+Context: `433b106eb570420da1283e3a554a6262`
+Preview: `https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f88351a2-c777-4443-bdcf-ba374eae0e80.mp3`
+Transcript:
+
+Chamber had been natural cavern once, then modified.
+
+Old cuts on floor.
+
+Stone niches.
+
+Bronze hooks green with age.
+
+Not full ruin yet.
+
+Industrial cavity older than current quarry.
+
+Walls glittered thin black crystal veins.
+
+Not Blackglass.
+
+Different.
+
+Reth touched one with insulated probe.
+
+Crystal rod died entirely.
+
+"Ma-na sink."
+
+That got attention.
+
+"Absorbs?"
+
+"Maybe scatters. My reading collapses."
+
+Opened sense.
+
+Room felt wrong.
+
+Not empty.
+
+Flat.
