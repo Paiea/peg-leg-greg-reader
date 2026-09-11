@@ -1,0 +1,9 @@
+{
+  "series": "Greg, Again",
+  "generation": "audio-score-v2",
+  "status": "experimental",
+  "renderer_adapter": "ai_voice_generator",
+  "voice_style": "deep",
+  "source_layer": "r2/assets/audio-score",
+  "chapters": []
+}
