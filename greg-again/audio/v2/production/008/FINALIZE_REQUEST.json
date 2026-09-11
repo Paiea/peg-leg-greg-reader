@@ -1,0 +1,6 @@
+{
+  "chapter": 8,
+  "source_claim": "audio/v2-greg-again-ch008-integrate",
+  "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
+  "purpose": "Import only durable Chapter 008 artifacts, reconcile newest manifests, validate all audio contracts, and remove temporary finalization plumbing before commit."
+}
