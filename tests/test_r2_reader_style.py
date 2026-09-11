@@ -53,9 +53,9 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn('../../r2/chapters/', html)
         self.assertIn('Written', html)
         self.assertIn('color-scheme: dark', css)
-        self.assertIn('--paper: #171614', css)
-        self.assertIn('--ink: #e8e2d9', css)
-        self.assertIn('--link: #bdc8bd', css)
+        self.assertIn('--paper: #0b1014', css)
+        self.assertIn('--ink: #f2eee8', css)
+        self.assertIn('--cyan: #74dcff', css)
         self.assertIn('background: var(--paper)', css)
         self.assertIn("Georgia, 'Times New Roman', serif", css)
 
