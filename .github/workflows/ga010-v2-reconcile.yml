@@ -1,4 +1,5 @@
 name: ga010 v2 reconcile
+# authority refresh: d4d8af842aa114c35aeb463eb0c6961216fa4ddc
 on:
   push:
     branches: [audio/v2-greg-again-ch010-auto]
@@ -28,21 +29,14 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-
           v2_path = Path('greg-again/audio/v2/manifest.json')
           public_path = Path('greg-again/audio/manifest.json')
-
           v2 = json.loads(v2_path.read_text())
           entry = {
-              'chapter_id': 'ga-010',
-              'number': 10,
-              'title': 'What Moved',
-              'status': 'verified_unlistened',
-              'source': 'r2/assets/audio-score/ch010.md',
+              'chapter_id': 'ga-010', 'number': 10, 'title': 'What Moved',
+              'status': 'verified_unlistened', 'source': 'r2/assets/audio-score/ch010.md',
               'source_blob_sha': 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05',
-              'voice': 'deep',
-              'take_count': 25,
-              'duration_seconds': 591.48,
+              'voice': 'deep', 'take_count': 25, 'duration_seconds': 591.48,
               'audio_src': 'assets/v2/chapter-010.mp3',
               'take_map': 'greg-again/audio/v2/takes/010/take-map.md',
               'verification': 'greg-again/audio/v2/verification/010/'
@@ -52,7 +46,6 @@ jobs:
           chapters.sort(key=lambda c: c.get('number', 999999))
           v2['chapters'] = chapters
           v2_path.write_text(json.dumps(v2, indent=2, ensure_ascii=False) + '\n')
-
           public = json.loads(public_path.read_text())
           matches = [c for c in public.get('chapters', []) if c.get('number') == 10 or c.get('chapter_id') == 'ga-010']
           if len(matches) != 1:
