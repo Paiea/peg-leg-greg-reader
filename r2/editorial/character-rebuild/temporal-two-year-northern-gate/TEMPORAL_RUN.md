@@ -10,7 +10,7 @@ Run A (`experiment/r2-temporal-two-year-halden`) is preserved untouched and is c
 
 - Repository authority: `main` at `1866fb0500425db150866ea68e953b6828260b7a`
 - Current published registry frontier read for this run: Chapter 39, `The East Desk`.
-- Immediate scene edge: Mara leaves Carrow at first bell after the Vey East Desk work. Greg has promised to meet her at the river stairs that morning.
+- Immediate starting edge: Mara leaves Carrow at first bell after the Vey East Desk work.
 - Chapter 1 remains the source of the uncertain Northern Gate memory and Greg's rule: future knowledge is a lead; the present has to prove it.
 
 No prose or state produced here is canon merely because it is complete.
@@ -29,7 +29,7 @@ Secondary question: can permanent disability and death arise from the accumulate
 - HORIZON: 730 elapsed days
 - END FIXED POINT: Halden, morning Mara's two-year Vey term closes. Greg has promised to meet her at the stone steps outside the Vey river office before first bell.
 - CHECKPOINT STRATEGY: irregular lived scenes; season/major-state rebaselines only when useful
-- CURRENT POSITION: D000
+- CURRENT POSITION: D365
 - STOP CONDITION: reach the Halden meeting date with the consequences of the intervening two years still active
 
 The meeting is fixed. The relationship outcome is not.
@@ -63,36 +63,61 @@ The meeting is fixed. The relationship outcome is not.
 - No inspirational-disability montage or magical regrowth shortcut.
 - No copying Run A's Brell bridge path.
 
-## 7. Compact starting state
+## 7. Compact current state at D365
 
 ### Greg
-- Nineteen-year-old body carrying memories of a life that eventually reached one of seven S-class adventurers on the continent.
-- Current execution is far below remembered expertise. His old judgment, pattern recognition, and support instincts can exceed what his body and mana can perform.
-- Current life remains materially constrained. He reads Guild boards, takes ordinary work, watches pay, lives at Lower Rook, and cannot solve rent with reputation he does not yet possess.
+- Silver, earned on D252. Rank has not increased because of Northern Gate.
+- Barrier growth is primarily control, geometry, anchoring, split planes, and reading force through small surfaces. Reserve remains limited.
+- Permanently missing the left leg below the knee after the D331 rescue-frame failure. Knee retained. Healing is ongoing. Crutch use is improving; stump shape is not yet stable enough for final prosthetic fitting.
+- Lives temporarily in Lower Rook's ground-floor old account room because stairs remain a meaningful mobility problem.
+- Has real local recognition from Northern Gate, including a city commendation, public stories, named contract requests, and higher-ranked attention. The stories exaggerate his role.
+- Still has finite money: roughly twenty-three silver and change at D365 after compensation, missed work, ordinary expenses, and recovery costs. Renown is not solvency.
 
 ### Mara
 - Works for Vey and has a real professional life in Halden.
-- Greg and Mara have recently reconnected. Attraction is current, but neither person's life is suspended for the other.
-- The two-year Halden fixed point is a promise to show up, not a promise of romantic outcome.
+- The D730 Halden promise remains active.
+- Emergency leave after the Gate was not immediately available because Vey's east-route desk had its own staffing constraints. Mara has arranged a Carrow route visit for D381 by trading work with Sivi.
+- Greg has answered that Halden is still on, while explicitly leaving room for Mara to reassess after seeing him.
 
-### Current social field
-- Use only people and relationships established by current authority or freshly established in this run.
-- Noll, Jorren, Maud Pell, Mara, and the Carrow Guild/world may recur where authority supports them.
-- Do not import Run A-only versions of workers, friendships, jobs, or outcomes.
+### Iven Marr / North District
+- Iven Marr became a master mason during this run, took North District responsibility, and accumulated a life on the page with wife Vessa, daughter Rell, crew, professional ambition, habits, and history with Greg.
+- Iven died on D331 during the East cellar rescue when a properly checked rescue jack's retaining pin failed and the load shifted.
+- Vessa and Rell survive. Rell had been the runner who fetched Greg that morning and knows Greg did tell Iven she brought him fast enough.
+- Iven's death remains an active relationship and civic consequence, not closed grief.
 
-### Northern Gate memory
-Greg remembers that people in his later life said the Northern Gate collapsed, but Chapter 1 explicitly leaves uncertainty over whether he remembers the event itself or only its later anniversary/history. The memory supplies suspicion, not facts. Present evidence must do the work.
+### Northern Gate
+- Present evidence, not Greg's memory alone, established the structural danger.
+- D109 inspection found no immediate structural concern.
+- D211 unexplained water and uneven settlement revealed an older unmapped channel; city authorities closed the Gate and competently repaired/underpinned it.
+- Gate reopened D289 after monitoring and hard rains showed stability.
+- On D331, four days of rain shifted water into another path and the east load began walking inward. Greg urged a wider North Market clear and identified the danger of leaving the old city ward anchor loaded while the structure moved.
+- Sella isolated the gate ward. Beret ordered the wider evacuation. The Gate still collapsed, but the market was largely empty when it did.
+- Rescue continued for hours. Eleven deaths were counted by the next morning, with dozens injured. Alternate casualty arithmetic is deliberately not turned into a neat hero score.
+
+### Renown
+- Beret credits Greg with the early wider evacuation call.
+- Sella credits Greg with identifying the ward-transfer danger.
+- Nera credits his secondary-collapse judgment during rescue.
+- Gold adventurer Cal Ven publicly stated: `When Greg tells you a wall is moving, move first and ask after.`
+- Carrow stories have started calling him `Gate Greg` and `The Silver at North Gate`; Greg dislikes the names more than he dislikes the opportunities.
+- Several Silver contracts now request him by name, but he currently cannot perform them.
 
 ## 8. Run edge
 
-Current pressure: Mara leaves at first bell. Greg has a life in Carrow that cannot pause for a two-year promise.
+Current pressure: D365. Exactly one year remains until Halden. Greg is home from the infirmary, mobile on crutches, locally known, financially stable only in the short term, unable to return to normal field work yet, and sixteen days from Mara's D381 Carrow visit.
 
-Next useful questions:
-- What does Greg actually promise at the river stairs?
-- What ordinary work gives the next months enough weight that a later city-scale failure affects people we already know?
-- Which present-day details, if any, begin to make the old Northern Gate memory worth investigating?
+Important unresolved pressures:
+- Mara seeing Greg in person after the amputation for the first time.
+- Greg learning what help he accepts and what help makes him furious.
+- First prosthetic consultation and the long gap between receiving a limb and trusting it.
+- Rebuilding a work role around changed movement without turning old S-class memory into an instant workaround.
+- Cal Ven's interest in why Greg's judgment exceeded his Silver execution at Northern Gate.
+- Contract requests and civic recognition Greg cannot yet physically cash in.
+- Iven's family, crew, North District repair work, and the continuing social residue of his death.
+- Northern Gate reconstruction and the fact that Greg may have to pass the site repeatedly.
+- Money pressure as compensation and savings are consumed by ordinary life and recovery.
 
-Next clock move: D000 departure morning, then advance irregularly.
+Next useful move: D381 Mara visit, unless a smaller intervening recovery scene earns priority.
 
 ## 9. Renderer firewall
 
