@@ -1,0 +1,145 @@
+name: ga003 v2 short take capture
+
+on:
+  push:
+    branches: [audio/v2-greg-again-ch003-auto]
+    paths:
+      - '.github/workflows/ga003-v2-short-take-capture.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch003-auto
+          fetch-depth: 0
+
+      - name: Validate preview capture map
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+
+          p = Path('greg-again/audio/v2/takes/003/short-takes.json')
+          data = json.loads(p.read_text())
+          assert data['chapter'] == 3
+          assert data['chapter_id'] == 'ga-003'
+          assert data['voice'] == 'deep'
+          assert data['take_count'] == 30 == len(data['takes'])
+          assert [t['order'] for t in data['takes']] == list(range(1, 31))
+          assert all(0 < len(t['transcript']) <= 500 for t in data['takes'])
+          assert all(t['preview_url'].startswith('https://storage.googleapis.com/') for t in data['takes'])
+          source_sha = subprocess.check_output(['git','hash-object','r2/assets/audio-score/ch003.md'], text=True).strip()
+          assert source_sha == data['source_blob_sha'], (source_sha, data['source_blob_sha'])
+          print('capture map valid; source SHA matches')
+          PY
+
+      - name: Download and ffprobe every preview take
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/assets/v2/chunks/003-short
+          python3 - <<'PY' > /tmp/ga003-urls.tsv
+          import json
+          from pathlib import Path
+          d=json.loads(Path('greg-again/audio/v2/takes/003/short-takes.json').read_text())
+          for t in d['takes']:
+              print(f"{t['order']:02d}\t{t['preview_url']}")
+          PY
+          while IFS=$'\t' read -r n url; do
+            out="greg-again/audio/assets/v2/chunks/003-short/${n}.mp3"
+            curl -fL --retry 4 --retry-delay 2 "$url" -o "$out"
+            test "$(stat -c%s "$out")" -gt 1000
+            ffprobe -v error "$out"
+          done < /tmp/ga003-urls.tsv
+          test "$(find greg-again/audio/assets/v2/chunks/003-short -maxdepth 1 -name '*.mp3' | wc -l)" -eq 30
+
+      - name: Stitch and add settling tail
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > /tmp/ga003-concat.txt
+          for n in $(seq -w 1 30); do
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/greg-again/audio/assets/v2/chunks/003-short/${n}.mp3" >> /tmp/ga003-concat.txt
+          done
+          ffmpeg -v error -f concat -safe 0 -i /tmp/ga003-concat.txt -c:a libmp3lame -q:a 2 /tmp/ga003-assembled.mp3
+          ffmpeg -v error -i /tmp/ga003-assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/v2/chapter-003.mp3
+          test "$(stat -c%s greg-again/audio/assets/v2/chapter-003.mp3)" -gt 100000
+          ffprobe -v error greg-again/audio/assets/v2/chapter-003.mp3
+
+      - name: Record durable hashes and structural verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, subprocess
+          from pathlib import Path
+
+          take_path=Path('greg-again/audio/v2/takes/003/short-takes.json')
+          data=json.loads(take_path.read_text())
+          component=0.0
+          for t in data['takes']:
+              p=Path(f"greg-again/audio/assets/v2/chunks/003-short/{t['order']:02d}.mp3")
+              duration=float(subprocess.check_output([
+                  'ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(p)
+              ], text=True).strip())
+              t['durable_file']=str(p)
+              t['byte_size']=p.stat().st_size
+              t['audio_sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
+              t['duration_seconds']=round(duration,3)
+              component += duration
+          final=Path('greg-again/audio/assets/v2/chapter-003.mp3')
+          final_duration=float(subprocess.check_output([
+              'ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(final)
+          ], text=True).strip())
+          data['status']='durable_takes_verified_and_assembled'
+          data['component_duration_seconds']=round(component,3)
+          data['final_asset']=str(final)
+          data['final_byte_size']=final.stat().st_size
+          data['final_audio_sha256']=hashlib.sha256(final.read_bytes()).hexdigest()
+          data['final_duration_seconds']=round(final_duration,3)
+          data['settling_tail_seconds']=2.0
+          take_path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
+
+          v=Path('greg-again/audio/v2/verification/003/assembly.md')
+          v.parent.mkdir(parents=True,exist_ok=True)
+          v.write_text(f'''# Audio Score v2 Chapter 003 assembly verification
+
+- Chapter: `003` / `The Borrower`
+- Source: `r2/assets/audio-score/ch003.md`
+- Source blob SHA: `{data['source_blob_sha']}`
+- Voice: `deep`
+- Capture factory: preview-safe short takes
+- Take count: `{data['take_count']}`
+- Every take returned a durable Google Storage preview URL before capture.
+- Every captured take is nontrivial and passes `ffprobe`.
+- Final asset: `{data['final_asset']}`
+- Component duration: `{data['component_duration_seconds']}` seconds
+- Final duration: `{data['final_duration_seconds']}` seconds
+- Settling tail added: approximately `2.0` seconds
+- Final SHA-256: `{data['final_audio_sha256']}`
+- Structural assembly: verified
+- Subjective listen-back / pronunciation judgment: still requires an actual human-audible review before claiming full publication verification.
+''')
+          print('recorded durable take and assembly evidence')
+          PY
+          sha256sum greg-again/audio/assets/v2/chunks/003-short/*.mp3 greg-again/audio/assets/v2/chapter-003.mp3 > greg-again/audio/assets/v2/chunks/003-short/SHA256SUMS
+
+      - name: Commit captured binaries and evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/v2/chunks/003-short \
+                  greg-again/audio/assets/v2/chapter-003.mp3 \
+                  greg-again/audio/v2/takes/003/short-takes.json \
+                  greg-again/audio/v2/verification/003/assembly.md
+          git commit -m 'Capture and assemble Audio Score v2 Chapter 003'
+          git push origin HEAD:audio/v2-greg-again-ch003-auto
