@@ -67,7 +67,8 @@ jobs:
             printf '%s\t%s\t%s\n' "$n" "$duration" "$(sha256sum "$out" | cut -d' ' -f1)" >> greg-again/audio/v2/verification/006/chunk-probes.tsv
           done < /tmp/urls.tsv
           test "$(find greg-again/audio/v2/takes/006/audio -name 'chunk-*.mp3' | wc -l)" -eq 30
-          find greg-again/audio/v2/takes/006/audio -name 'chunk-*.mp3' | sort | sed "s#^#file '#; s#$#'#" > /tmp/list.txt
+          printf "file '%s'\n" greg-again/audio/v2/takes/006/audio/chunk-*.mp3 > /tmp/list.txt
+          test "$(wc -l < /tmp/list.txt)" -eq 30
           ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/assembled.mp3
           ffmpeg -v error -i /tmp/assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/v2/chapter-006.mp3
           ffprobe -v error greg-again/audio/assets/v2/chapter-006.mp3
