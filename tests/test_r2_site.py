@@ -122,20 +122,21 @@ class R2SiteTests(unittest.TestCase):
             self.assertEqual(chapter['audio']['status'], 'published')
             self.assertTrue(chapter['audio']['path'])
 
-    def test_homepage_presents_clean_cover_entry_and_links_run_one(self):
+    def test_homepage_presents_listen_first_entry_and_links_run_one(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
         self.assertIn('PEG-LEG GREG', html)
         self.assertIn('A second life. A second run.', html)
         self.assertIn('href="../index.html"', html)
         self.assertIn('Start Listening', html)
-        self.assertIn('Start Reading', html)
+        self.assertIn('Written rendition →', html)
+        self.assertNotIn('Start Reading', html)
 
     def test_homepage_progress_is_manifest_aware(self):
         js = (R2 / 'assets/js/home.js').read_text(encoding='utf-8')
         self.assertIn('project.current_chapter', js)
         self.assertIn('publishedWritten(chapter)', js)
         self.assertIn('publishedAudio(chapter)', js)
-        self.assertIn('Read through Chapter', js)
+        self.assertIn('Written through Chapter', js)
         self.assertIn('Listen through Chapter', js)
 
     def test_public_copy_presents_r2_as_an_intentional_story(self):
@@ -170,10 +171,10 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('@media (max-width: 760px)', css)
         self.assertNotIn('animation:', css)
 
-    def test_cover_asset_is_referenced_without_becoming_chapter_canon(self):
+    def test_home_banner_is_referenced_without_becoming_chapter_canon(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
+        self.assertIn('assets/images/Home.png', html)
         self.assertIn('assets/images/r2-cover-wide.webp', html)
-        self.assertIn('assets/images/r2-cover-portrait.webp', html)
 
 
 if __name__ == '__main__':
