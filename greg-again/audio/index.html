@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171614">
-  <title>Listen · Peg-Leg Greg R2</title>
-  <meta name="description" content="Listen to Peg-Leg Greg R2, the audio-first second run of the story.">
+  <meta name="theme-color" content="#0b1014">
+  <title>Audio Library · Peg-Leg Greg R2</title>
+  <meta name="description" content="The Peg-Leg Greg R2 Audio Library. Listen first, then use the written rendition whenever you want to check a line or detail.">
   <link rel="stylesheet" href="audio.css">
   <link rel="stylesheet" href="audio-front-door.css">
 </head>
@@ -16,10 +16,10 @@
     <a class="brand" href="../../r2/" aria-label="Peg-Leg Greg R2 home">
       <span>PEG-LEG GREG</span><small>R2</small>
     </a>
-    <nav aria-label="Listening edition navigation">
-      <a href="../../r2/">R2 Home</a>
+    <nav aria-label="R2 navigation">
       <a aria-current="page" href="./">Listen</a>
-      <a href="../../r2/chapters/">Read</a>
+      <a href="../../r2/chapters/">Story</a>
+      <a href="../../r2/gallery/">Art</a>
       <a href="../../r2/about/">About</a>
     </nav>
   </header>
@@ -28,24 +28,53 @@
     <section class="listen-hero" aria-labelledby="listen-title">
       <div class="listen-hero-media">
         <picture>
-          <source media="(max-width: 760px)" srcset="../../r2/assets/images/r2-cover-portrait.webp">
-          <img src="../../r2/assets/images/r2-cover-wide.webp" alt="Peg-Leg Greg R2 cover art showing young Greg in Carrow.">
+          <source media="(max-width: 760px)" srcset="../../r2/assets/images/r2-audio-library-portrait.webp">
+          <img
+            src="../../r2/assets/images/r2-audio-library-wide.webp"
+            alt="Peg-Leg Greg R2 Audio Library artwork set in Carrow."
+            onerror="this.onerror=null;this.src='../../r2/assets/images/r2-cover-wide.webp';">
         </picture>
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="listen-hero-copy">
+          <p class="hero-brand">PEG-LEG GREG <span>R2</span></p>
+          <p class="eyebrow">Listening edition</p>
+          <h1 id="listen-title">AUDIO<br>LIBRARY</h1>
+          <div class="listen-warning" role="note" aria-label="Listen first warning">
+            <strong>LISTEN FIRST</strong>
+            <span>Reading available. Listening is the point.</span>
+          </div>
+          <a class="listen-start" href="#chapter-list">Press play ↓</a>
+        </div>
       </div>
-      <div class="listen-hero-copy">
-        <p class="eyebrow">R2 · Listening edition</p>
-        <h1 id="listen-title">Listen to Peg-Leg Greg R2</h1>
-        <p class="lede">This is the main way into R2. Start at Chapter 1, keep moving down the shelf, and use the written chapters whenever you want to check a line, a name, or a detail.</p>
-        <a class="listen-start" href="#chapter-list">Start listening ↓</a>
-      </div>
+    </section>
+
+    <section id="continue-listening" class="continue-listening" aria-live="polite" aria-label="Continue listening">
+      <p class="render-state">Finding your place…</p>
+    </section>
+
+    <section class="library-controls" aria-label="Audio Library controls">
+      <label class="search-control" for="chapter-search">
+        <span class="sr-only">Search chapters</span>
+        <input id="chapter-search" type="search" autocomplete="off" placeholder="Search chapter or title…">
+      </label>
+      <label class="filter-control" for="length-filter">
+        <span class="sr-only">Filter by chapter length</span>
+        <select id="length-filter">
+          <option value="all">Any length</option>
+          <option value="short">Under 12 min</option>
+          <option value="medium">12 to 16 min</option>
+          <option value="long">Over 16 min</option>
+        </select>
+      </label>
+      <p id="chapter-count" class="chapter-count" aria-live="polite"></p>
     </section>
 
     <section class="listen-shelf-heading" aria-labelledby="chapters-title">
       <div>
         <p class="eyebrow">The story</p>
-        <h2 id="chapters-title">Chapters</h2>
+        <h2 id="chapters-title">Press play.</h2>
       </div>
-      <p>One chapter at a time, in order.</p>
+      <p>One chapter at a time. In order if you are behaving.</p>
     </section>
 
     <section id="chapter-list" class="chapter-list" aria-live="polite" aria-label="Playable audio chapters">
@@ -53,12 +82,12 @@
     </section>
 
     <aside class="audio-note" aria-label="About the listening edition">
-      <p>R2 is written for the ear first. The text is still there when you want to check what you heard.</p>
+      <p><strong>R2 is built for the ear.</strong> The written rendition is there when you need to check what you heard, not because you are supposed to start there.</p>
     </aside>
 
     <nav class="return-nav" aria-label="More R2">
       <a href="../../r2/">← R2 Home</a>
-      <a href="../../r2/chapters/">Read the chapters →</a>
+      <a href="../../r2/chapters/">Written rendition →</a>
     </nav>
   </main>
 
