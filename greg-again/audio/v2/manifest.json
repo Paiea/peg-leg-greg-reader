@@ -18,6 +18,20 @@
       "duration_seconds": 519.432,
       "audio_src": "assets/v2/chapter-009.mp3",
       "verification": "greg-again/audio/v2/verification/009/"
+    },
+    {
+      "chapter_id": "ga-010",
+      "number": 10,
+      "title": "What Moved",
+      "status": "verified",
+      "voice": "deep",
+      "source": "r2/assets/audio-score/ch010.md",
+      "source_sha": "bf0e024b5117ad519d24cc2ed3ce629b3afbcf05",
+      "take_count": 25,
+      "duration_seconds": 591.48,
+      "audio_src": "assets/v2/chapter-010.mp3",
+      "take_map": "v2/takes/010/take-map.md",
+      "verification": "v2/verification/010/"
     }
   ]
 }

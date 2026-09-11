@@ -30,9 +30,9 @@
 
 Manifest and public-route reconciliation are the final publication step. These boxes become authoritative only from the reconciled shared authority, not from a stale branch snapshot.
 
-- [ ] `greg-again/audio/v2/manifest.json` reconciled
-- [ ] `greg-again/audio/manifest.json` Chapter 010 routed to `assets/v2/chapter-010.mp3`
-- [ ] route verified from reconciled authority
+- [x] `greg-again/audio/v2/manifest.json` reconciled
+- [x] `greg-again/audio/manifest.json` Chapter 010 routed to `assets/v2/chapter-010.mp3`
+- [x] route verified from reconciled claim after newest authority merge
 
 ## Listen-back boundary
 
