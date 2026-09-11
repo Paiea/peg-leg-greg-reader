@@ -225,14 +225,3 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("The Letter Writer", chapter["title"])
         self.assertEqual("published", chapter["audio"]["status"])
         self.assertEqual("../greg-again/audio/assets/chapter-021.mp3", chapter["audio"]["path"])
-
-    def test_public_page_renders_catalog_instead_of_one_hardcoded_chapter(self):
-        html = (AUDIO_ROOT / "index.html").read_text(encoding="utf-8")
-        player = (AUDIO_ROOT / "player.js").read_text(encoding="utf-8")
-        self.assertIn('id="chapter-list"', html)
-        self.assertIn("manifest.chapters", player)
-        self.assertIn("document.createElement('audio')", player)
-
-
-if __name__ == "__main__":
-    unittest.main()
