@@ -12,6 +12,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: audio/v2-greg-again-ch010-auto
+      - name: Install ffmpeg
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
       - name: Capture preview MP3s and assemble v2 chapter
         shell: bash
         run: |
