@@ -92,18 +92,26 @@ Read `r2/AUDIO_PRONUNCIATION.md` before synthesis.
 
 ## Take production
 
-Keep the proven short-take factory from `r2/AUDIO_PRODUCTION.md`:
+Use the proven **short-take capture factory** whenever the provider exposes a durable preview artifact:
 
-- roughly a dozen provider-safe takes for a normal chapter, adjusted to natural score boundaries
-- one voice request per take
-- same narrator across the chapter
-- deterministic take map
-- preserve every successful provider artifact
-- never regenerate good expensive synthesis because cheap downstream plumbing failed
+1. split the Audio Score at natural performance boundaries into preview-safe chunks, normally no more than about 500 characters
+2. preserve the score wording exactly except approved provider-facing pronunciation/performance substitutions
+3. use `deep`
+4. send **identical text** as `transcript` and `preview_transcript`
+5. require a returned playable `preview_url`; when available, prefer that durable preview artifact over an opaque provider-only audio URL
+6. record the chunk transcript, provider context ID, preview URL, voice, order, and substitutions as production evidence
+7. use GitHub Actions to download every preview URL, reject missing/trivial files, and `ffprobe` every chunk
+8. stitch the verified chunks in deterministic order with ffmpeg
+9. add the established approximately two-second settling tail only after the assembled final spoken word
+10. `ffprobe` the final MP3, record hashes/duration, then proceed to v2 verification and manifest reconciliation
 
-For Audio Score, take boundaries should especially respect cadence changes, thought resets, long-run endings, abrupt interruptions, dialogue turns, and action transitions.
+Chunk count is determined by **natural performance boundaries plus preview safety**, not by a target number of takes. A chapter may need substantially more than a dozen takes when the preview limit is the only reliable durable-artifact boundary.
 
-Do not split so aggressively that every line becomes a separate performance reset. The score intentionally uses both long runs and short beats.
+Do not split so aggressively that every score line becomes a separate performance reset. Prefer coherent thought runs, dialogue turns, cadence changes, abrupt resets, action transitions, or other audible units that fit safely inside the preview ceiling.
+
+One take equals one voice request. Preserve every successful provider artifact. Never regenerate a good captured take merely because downstream download, verification, stitching, or publication plumbing failed.
+
+If a request does not return a durable preview artifact, preserve its provider evidence but do not pretend it crossed the artifact boundary. Prefer a preview-safe retry over an uncapturable long take when the long take cannot be made durable.
 
 ## Durable v2 paths
 
