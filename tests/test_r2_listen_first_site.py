@@ -21,12 +21,12 @@ class R2ListenFirstSiteTests(unittest.TestCase):
         self.assertIn('<details id="read"', html)
         self.assertIn('Read written rendition', html)
         self.assertIn('location.hash === \'#read\'', js)
-        self.assertIn("details.open = true", js)
+        self.assertIn('details.open = true', js)
 
     def test_written_shelf_points_back_to_audio_and_prioritizes_listen_actions(self):
         html = (R2 / 'chapters/index.html').read_text(encoding='utf-8')
         js = (R2 / 'assets/js/site.js').read_text(encoding='utf-8')
-        css = (R2 / 'assets/css/r2.css').read_text(encoding='utf-8')
+        css = (R2 / 'assets/css/r2-listen-first-shared.css').read_text(encoding='utf-8')
         self.assertIn('Prefer listening?', html)
         self.assertIn('Open Audio Library', html)
         self.assertIn('chapter-action-listen', js)
