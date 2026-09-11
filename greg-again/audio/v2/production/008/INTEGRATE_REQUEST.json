@@ -1,0 +1,8 @@
+{
+  "chapter": 8,
+  "source_claim_branch": "audio/v2-greg-again-ch008-auto",
+  "source_claim_head": "c96e0cd35658059054dab12707dfdc2c3ae0fdc9",
+  "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
+  "expected_chunks": 20,
+  "expected_asset": "greg-again/audio/assets/v2/chapter-008.mp3"
+}
