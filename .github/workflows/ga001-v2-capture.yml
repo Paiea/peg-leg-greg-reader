@@ -1,0 +1,90 @@
+name: ga001 v2 audio score capture
+on:
+  push:
+    branches: [audio/v2-greg-again-ch001-auto]
+    paths: ['.github/workflows/ga001-v2-capture.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch001-auto
+      - name: Capture preview-backed Audio Score takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='greg-again/audio/v2/takes/001/audio'
+          final='greg-again/audio/assets/v2/chapter-001.mp3'
+          prod='greg-again/audio/v2/production/001'
+          mkdir -p "$out" "$(dirname "$final")" "$prod"
+          urls=(
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b1ab77e6-d039-4818-9986-8d5042767737.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1a115613-caf8-41ac-8214-bf6b78d8ff02.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/952516ec-8883-48c1-b4b5-fbf7fe29d179.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/46b3c7f8-8c27-4119-8003-488da60bc9cc.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e218bb6f-1bae-4ffb-a8f7-131a96ac3b70.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d53cc9a6-b75d-4d5d-8f33-96c06714440a.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d17c904f-6fc8-4653-84a1-d0652fca9a86.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/49a97f3c-4517-44db-8801-ce82502d5c07.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/27b7e0e4-bd3c-469f-9f3d-3508d070e693.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/49388fd2-648d-4dad-9b21-f865ee8a7e52.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/db9dd236-2719-4d04-9d7a-079bc925d353.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2146f2d4-04a7-4dbb-b262-68fcb3e21fc8.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/28b2ccdd-f456-4ff8-acd8-a6cea7104bfb.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0466b258-2b94-453c-a602-7d8f0d1f41a1.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3bb21a6b-ddee-4165-b460-474ec2699999.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b23ab327-6630-4330-94bb-8a095eaf24e1.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/85afdf12-8c85-44a4-8c51-d3356b6a01ec.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9ae9bd2a-f3f3-41fb-9928-21e15d095792.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5f9065d7-ec5d-4b8f-9ce2-41e45e69b73e.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/86f98cd8-1f02-451b-bc4a-92996d0e0de9.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1b032591-11b1-4c39-a46a-64480d63c4f1.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/acb4a772-6828-47b4-8ae1-0a869810eb1e.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9049465f-0ceb-4fe3-ba05-fa8515c74b01.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/11d0ec0b-8b93-4fb8-b5c1-c216e1c2ed6c.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a73bee5a-401d-44d7-8686-1ea9a6e330e0.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1f567722-df52-4e26-b5d5-b7f772f89a5d.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/32033e80-efa5-4157-81a1-0ac5501a06dd.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bc78df64-fbdf-4b99-a7fc-42843a406428.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/78913013-54d4-4a08-a94a-d43140fee64b.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e5dca7a6-21cc-4a9e-9f33-99722724bc7e.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8197f148-e1f5-4bef-938b-25e936b06f60.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a6e5c8d0-a38a-4098-8ae5-9272ac2397fc.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1dc8447-a1e9-4230-9795-20786ce90871.mp3'
+          )
+          test ${#urls[@]} -eq 33
+          : > "$prod/capture-metadata.tsv"
+          printf 'take\tbytes\tduration_seconds\tsha256\tpreview_url\n' >> "$prod/capture-metadata.tsv"
+          for i in "${!urls[@]}"; do
+            n=$(printf '%02d' $((i+1)))
+            file="$out/$n.mp3"
+            curl -fL --retry 4 --retry-delay 2 "${urls[$i]}" -o "$file"
+            bytes=$(stat -c%s "$file")
+            test "$bytes" -gt 1000
+            ffprobe -v error "$file"
+            dur=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$file")
+            sha=$(sha256sum "$file" | awk '{print $1}')
+            printf '%s\t%s\t%s\t%s\t%s\n' "$n" "$bytes" "$dur" "$sha" "${urls[$i]}" >> "$prod/capture-metadata.tsv"
+          done
+          find "$out" -maxdepth 1 -name '*.mp3' | sort | awk '{print "file \047" $0 "\047"}' > /tmp/ga001-list.txt
+          test $(wc -l < /tmp/ga001-list.txt) -eq 33
+          ffmpeg -v error -f concat -safe 0 -i /tmp/ga001-list.txt -c:a libmp3lame -q:a 2 /tmp/ga001-assembled.mp3
+          ffmpeg -v error -i /tmp/ga001-assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 "$final"
+          ffprobe -v error "$final"
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$final" > "$prod/final-duration.txt"
+          stat -c%s "$final" > "$prod/final-bytes.txt"
+          sha256sum "$final" > "$prod/final-sha256.txt"
+          sha256sum "$out"/*.mp3 > "$out/SHA256SUMS"
+          printf '33\n' > "$prod/final-take-count.txt"
+      - name: Commit captured binaries and assembly evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/v2/takes/001/audio greg-again/audio/assets/v2/chapter-001.mp3 greg-again/audio/v2/production/001/capture-metadata.tsv greg-again/audio/v2/production/001/final-duration.txt greg-again/audio/v2/production/001/final-bytes.txt greg-again/audio/v2/production/001/final-sha256.txt greg-again/audio/v2/production/001/final-take-count.txt
+          git commit -m 'Capture and assemble Audio Score v2 Chapter 001'
+          git push origin HEAD:audio/v2-greg-again-ch001-auto
