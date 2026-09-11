@@ -1,0 +1,5 @@
+{
+  "chapter": 8,
+  "purpose": "Trigger full PR validation after v2-aware routing contract repair.",
+  "fixed_commit": "6aa51310d7b5fddff00a96151798bf0625f7485d"
+}
