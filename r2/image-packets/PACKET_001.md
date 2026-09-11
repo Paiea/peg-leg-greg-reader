@@ -4,7 +4,9 @@
 - `scope`: early Greg continuity + Carrow continuity + Chapter 1 art
 - `authority_checked`: `r2/assets/written/ch001.md` + current R2 manifests
 - `visual_canon_checked`: `yes`
-- `status`: `planned`
+- `status`: `claimed`
+- `claim_scope`: `R2 Chapter 1 images only`
+- `claim_branch`: `image/r2-ch001-bootstrap-mirror`
 - `next_action`: generate jobs 001–003 first; review continuity anchors before generating jobs 004–005
 
 ## Packet strategy
