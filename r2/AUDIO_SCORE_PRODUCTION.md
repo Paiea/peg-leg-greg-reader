@@ -113,6 +113,22 @@ One take equals one voice request. Preserve every successful provider artifact. 
 
 If a request does not return a durable preview artifact, preserve its provider evidence but do not pretend it crossed the artifact boundary. Prefer a preview-safe retry over an uncapturable long take when the long take cannot be made durable.
 
+### Durable-artifact recovery override
+
+For Audio Score v2, a provider submission is **not** a protected completed take merely because synthesis was accepted or because a provider context ID / opaque audio reference exists.
+
+A take becomes protected provider work only when its synthesized audio is durably recoverable, for example through a playable `preview_url`, a captured binary, or another verified artifact that can actually be downloaded and assembled.
+
+Therefore, when resuming an existing claimed chapter:
+
+- preserve all old provider IDs, transcripts, substitutions, and recovery references as historical evidence
+- if an old take has a durable playable artifact, keep it and do not regenerate it
+- if an old take never crossed the durable artifact boundary, it may be rerun through the proven preview-safe short-take factory
+- when the old segmentation itself depended on uncapturable long takes, re-split the exact Audio Score into natural preview-safe chunks rather than waiting indefinitely on opaque provider references
+- this recovery rerun is **not** considered wasteful regeneration under the legacy preservation rule because no durable synthesized take existed to preserve
+
+This override is specifically intended to unblock early 001–010 workers that successfully submitted synthesis but could not retrieve the resulting audio binaries. The durable boundary, not the provider request itself, decides whether a take must be preserved.
+
 ## Durable v2 paths
 
 Listener-facing v2 chapter MP3:
