@@ -12,6 +12,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: audio/v2-greg-again-ch064-auto
+      - name: Install ffmpeg tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -n 1
+          ffprobe -version | head -n 1
       - name: Verify transcript coverage
         shell: bash
         run: |
