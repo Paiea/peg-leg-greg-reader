@@ -75,6 +75,24 @@ The headspace is also changing relationships:
 
 Do not flatten this into a lesson that command thinking is bad. It has repeatedly saved time, improved safety, restored work, and returned capability. The question is what Greg lets it own.
 
+### Delayed artifact pressure
+
+Artifact pressure is now available to the planner, but it is deliberately **dormant**.
+
+- Do not introduce a unique or equation-changing artifact in the immediate next scene or next few checkpoints.
+- Let at least two substantial unrelated work / relationship / progression checkpoints happen first so the run can forget this nudge.
+- Weak artifacts may simply be useful, convenient, protective, efficient, or strange. They do not require a downside.
+- Strong artifacts should usually change the equation in a major way. Their leverage may be balanced by physical cost, magical danger, dependency, activation restrictions, ownership problems, social consequences, price, maintenance, reputation, location, or another meaningful trade.
+- The downside does not need to be symmetric, obvious, or game-like.
+- Artifacts may be expensive, cheap, hidden, misidentified, locked away, inherited, stored, being used incorrectly, or owned by someone who does not know what they possess.
+- Greg's old memory may eventually give him asymmetric information about a future-famous artifact: who had it later, why it mattered, and possibly how that person originally acquired it.
+- That knowledge may create a morally ugly opportunity. Greg may consider theft, deception, interception, manipulation, buying far below true value, or taking the object before its remembered future owner gets it.
+- Do not predetermine the artifact, owner, method, or crime. Let current events create the opportunity.
+- A major artifact should create new decision space, not merely bigger numbers. It may alter combat, work, magic, travel, money, risk, politics, reputation, relationships, or how Greg interprets the world.
+- The first major artifact must not function as a prosthetic cure or erase the leg's continuing costs.
+
+This is a run-local pressure, not project-wide artifact doctrine unless separately promoted later.
+
 ### Soft nudges
 
 - Current phase is transitioning from PIT into SYSTEM / ESCAPE.
@@ -85,6 +103,7 @@ Do not flatten this into a lesson that command thinking is bad. It has repeatedl
 - Preserve Mara, Jorren, Noll, Kessa, Bera, Arlo, Sella, and others as independent people with their own schedules and tolerance limits.
 - Stronger party dynamics arise through repeated work and role ownership.
 - Later overcorrection is allowed if earned. Greg may become professionally more functional before he becomes relationally available.
+- When artifact pressure eventually activates, prefer strange leverage and changed choices over linear stat upgrades.
 
 ### Explicit non-goals
 
@@ -96,6 +115,8 @@ Do not flatten this into a lesson that command thinking is bad. It has repeatedl
 - Do not make every relationship conflict prove that S-class Greg is bad.
 - Do not force Gold rank as the run endpoint.
 - Do not convert the peg into a power-up that erases cost.
+- Do not surface a major artifact merely because the planner now knows artifacts are allowed.
+- Do not make every powerful artifact cursed. Some items can simply be good; the most dramatic equation-changing items are where tradeoffs become especially useful.
 
 ## 5. Output / fidelity target
 
@@ -119,7 +140,7 @@ GEOGRAPHY / ROUTES: Carrow base active; Halden fixed D730; Greg has relearned lo
 MAGIC / CAPABILITY: force/load shaping is increasingly integrated with new body geometry; Greg deliberately trains without hidden magical compensation when fit data matters; in danger he can use planes as redirection/ramp/control rather than only protection
 RANK / REPUTATION: Silver; local workers increasingly view him as specialized prepared-site support rather than injured former field hand
 RELATIONSHIPS: Mara remains close but wary of being optimized; Jorren has felt deprioritized; Kessa trusts his professional judgment while noticing command pleasure; Bera holds authority over fit and refuses cleverness that corrupts body data
-OPEN PRESSURES: expand field usefulness without making another person responsible for his extraction; build prosthetic options around real use cases; decide how much command identity he wants back; preserve actual relationships; reach Halden in 244 days
+OPEN PRESSURES: expand field usefulness without making another person responsible for his extraction; build prosthetic options around real use cases; decide how much command identity he wants back; preserve actual relationships; reach Halden in 244 days; artifact pressure is dormant and must not surface soon
 ```
 
 ## 7. Nudge update log
@@ -130,6 +151,7 @@ OPEN PRESSURES: expand field usefulness without making another person responsibl
 - D000 NUDGE: permanent leg loss must emerge naturally and leave substantial adaptation runway -> HARD: unscheduled causal loss with major post-loss life before D730.
 - D350 RESULT: Brell repair accident produced permanent below-knee left amputation through earned causal chain.
 - D365 NUDGE: "have him be pissed off... start acting in his old S class headspace. calculating. hes in a hole. pit. ideally get out of it" -> ACTIVE YEAR 2 PRESSURE: anger becomes operational; old S-class cognition returns as high-leverage problem-solving method with interpersonal and self-concept costs.
+- D486 NUDGE: "not soon... eventually i'd nudge a artifact his way... unique item that changes how he views things... almost nudge him into stealing something he knows is super valuable" -> DELAYED ARTIFACT PRESSURE: after substantial unrelated development, permit an earned equation-changing artifact opportunity, potentially activated by Greg's asymmetric future memory and morally ugly acquisition choices. Weak artifacts need no downside; stronger leverage may carry meaningful costs. Do not preselect the item or surface it soon.
 ```
 
 ## 8. Temporal residue checkpoint
@@ -155,7 +177,7 @@ WHAT CHANGED LAST: on D486 Greg handled sudden danger from a seated prepared pos
 WHAT REMAINS UNCERTAIN: next expansion of field scope; whether prosthetic design branches into multiple purpose-built tools; first higher-rank team contact in Year 2; whether Greg overcommits because success is addictive; what Halden itself now means to him beyond the promise.
 NEXT USEFUL QUESTION: what opportunity becomes available only because Greg is now a strange, highly competent specialist rather than a recovering generalist?
 NEXT CLOCK MOVE: advance far enough for reputation from prepared-site work to produce a qualitatively different contract.
-RELEVANT PRESSURES: competence may win cleanly; do not erase prosthetic cost; preserve relationship life; continue toward D730.
+RELEVANT PRESSURES: competence may win cleanly; do not erase prosthetic cost; preserve relationship life; continue toward D730; keep artifact pressure dormant through the next substantial unrelated developments.
 ```
 
 ## 10. Renderer firewall
@@ -170,9 +192,10 @@ On `continue`:
 2. read active Temporal Engine;
 3. read this file;
 4. read the latest Year 2 rehearsal edge;
-5. preserve D730 Halden meeting, permanent loss, current physical state, and angry/S-class Year 2 pressure;
+5. preserve D730 Halden meeting, permanent loss, current physical state, angry/S-class Year 2 pressure, and delayed artifact pressure;
 6. let Greg's methods succeed when they genuinely should;
-7. do not ask the user to restate durable inputs.
+7. do not surface the artifact nudge merely because it exists;
+8. do not ask the user to restate durable inputs.
 
 ## Authority status
 
