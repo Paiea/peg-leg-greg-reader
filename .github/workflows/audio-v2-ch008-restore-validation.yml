@@ -1,0 +1,36 @@
+name: Restore and validate Chapter 008 integration
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch008-integrate
+    paths:
+      - greg-again/audio/v2/production/008/RESTORE_VALIDATION_REQUEST.json
+
+permissions:
+  contents: write
+
+jobs:
+  restore-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore complete v2-aware catalog test from known-good commit
+        run: git show 020cc63e35f0af8336fa20bd0f91b42e7a90711d:tests/test_greg_again_audio_catalog.py > tests/test_greg_again_audio_catalog.py
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
+      - name: Run R2 Audio Library interface contract
+        run: python -m unittest tests.test_r2_audio_library -v
+      - name: Run R2 listen-first site contract
+        run: python -m unittest tests.test_r2_listen_first_site -v
+      - name: Commit exact restored test
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tests/test_greg_again_audio_catalog.py
+          git commit -m "Restore complete v2-aware audio catalog test"
+          git push
