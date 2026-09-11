@@ -68,11 +68,11 @@
       "title": "The First Customer",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 13,
-      "duration_seconds": 874.056,
-      "audio_src": "assets/chapter-006.mp3",
-      "note": "Chapter 6 applies processing space to a spatial-action stress test: wet floor, conductive residue, copper, trapped pressure, bypass, spray, and Greg's tiny barrier remain causally legible to the ear. One dense hazard section was split into two provider-safe production takes without changing story state."
+      "audio_finish": "audio-score-v2",
+      "take_count": 30,
+      "duration_seconds": 649.632,
+      "audio_src": "assets/v2/chapter-006.mp3",
+      "note": "Audio Score v2 Chapter 6 from the exact audio-native score. Thirty preview-safe deep-voice takes preserve the dyehouse failure chain, Ivena and Arlo's agency, Greg's tiny barrier, and the customer terms. Exact score coverage, ordered capture, MP3 playability, hashes, and the two-second settling tail were mechanically verified; subjective human listen-back remains separate."
     },
     {
       "chapter_id": "ga-007",

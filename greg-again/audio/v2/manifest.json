@@ -34,6 +34,19 @@
       "audio_src": "assets/v2/chapter-004.mp3"
     },
     {
+      "chapter_id": "ga-006",
+      "number": 6,
+      "title": "The First Customer",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch006.md",
+      "source_blob_sha": "660801faef0a727a50c73c2b4768e12b71780618",
+      "voice": "deep",
+      "take_count": 30,
+      "duration_seconds": 649.632,
+      "audio_src": "assets/v2/chapter-006.mp3",
+      "verification": "greg-again/audio/v2/verification/006/"
+    },
+    {
       "chapter_id": "ga-009",
       "number": 9,
       "title": "The Bridge",
