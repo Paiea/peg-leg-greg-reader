@@ -13,7 +13,7 @@ jobs:
   capture:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,103 +23,63 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Recover queued provider takes
+      - name: Download preview-safe takes
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/v2/takes/007/audio greg-again/audio/v2/verification/007 /tmp/ga007
-
           cat > /tmp/ga007/takes.tsv <<'EOF'
-          01	c2daa4c06e954a488453b64da3c388c7
-          02	27074993609b4c9ba37c12d289cf3d13
-          03	a647e8c87fd64fde814e3f33a6d91f2c
-          04	2a13b0a5ffd7471881b4fd5bab3e081f
-          05	9eea180273404102b438f2e9bfa9e6dc
-          06	03f60559dfd74f7b8def603c8dfb727c
-          07	299a67c8d2914e9bad497b32ee021c6b
-          08	ab7fe440d8854ed98e7957f0309f162c
-          09	6fe02527adcc4cabae6ffe770da109fd
-          10	33d5a19232394af9b7612fbf936de38d
+          01	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aa34da8b-e43e-4a38-b073-a17d3610843f.mp3
+          02	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cbc3b2e7-bbd4-4477-be59-f29eb67bd405.mp3
+          03	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/32dd4839-1ad7-4925-ac0f-fc64af526d5b.mp3
+          04	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b8031829-677a-475b-9e43-1af5f5403002.mp3
+          05	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aff46956-d05a-483e-ad4f-a99fa5583fac.mp3
+          06	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f289ed8e-9805-45e0-8140-07eefbaa9b9d.mp3
+          07	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/48f7da4e-1717-4232-9df9-6d4627444ee6.mp3
+          08	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0965f094-965d-4fe3-b0a1-f55fc1611ea6.mp3
+          09	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2f5111d0-b435-4021-b798-e536085ec8bf.mp3
+          10	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d1df1aeb-246e-45c5-970e-7bba59fc1bb2.mp3
+          11	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f4faaf6a-6f65-4ea9-a055-48ac8d448cd0.mp3
+          12	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f6cb8c0c-76f8-4303-b1fe-ae31468d1f44.mp3
+          13	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9390dcf3-d527-48ad-b8b5-9f0a27c650b8.mp3
+          14	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6e6dc1db-7a9e-46e0-a321-3ab02fdc52ce.mp3
+          15	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c6e6f296-89de-4c28-b388-206b8577d0fb.mp3
+          16	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/285688c1-d7b0-4bdb-84c0-fbef2948dc63.mp3
+          17	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/38de5abe-21e5-4ba3-9630-9b8b451430e3.mp3
+          18	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d37c5ce4-52f9-49c7-aecc-fbc859bfa9bc.mp3
+          19	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/032cb540-46e1-45c0-b52e-ae507a626de5.mp3
+          20	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/690eb763-525b-4be9-86f1-2c57f8fb0d22.mp3
+          21	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8d46bc48-af07-454f-9957-aaf6bd186f52.mp3
+          22	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e9cfdc83-4cad-42f2-8ddf-e561c2006bfc.mp3
+          23	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6e677bd1-0139-493d-8169-55167d50b5aa.mp3
+          24	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aefa70e7-4a7c-469b-8a33-54d413269c72.mp3
+          25	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/44f595fa-4f92-4276-bdd2-f9bcc6788909.mp3
+          26	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2791cb9a-7e84-40a1-bd74-624bea52d33c.mp3
+          27	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1b2ebcb-1b5c-43e0-88e1-e421971f5760.mp3
+          28	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1684240-f3c2-4e22-956d-d41c97b6db8d.mp3
+          29	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c093477a-fdaf-4b8c-b27c-313d788338a1.mp3
+          30	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/126b9531-2259-4357-8b3c-d6f867cd36da.mp3
+          31	https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e7859a0f-8177-4481-b380-65aea9217e53.mp3
           EOF
 
-          recover_take() {
-            local take="$1" id="$2"
-            local provider="https://www.aidocmaker.com/g0/audio?name=${id}"
-            local page="/tmp/ga007/take-${take}.page"
-            local tmp="/tmp/ga007/take-${take}.tmp.mp3"
-            local out="greg-again/audio/v2/takes/007/audio/take-${take}.mp3"
-
-            for attempt in $(seq 1 30); do
-              rm -f "$page" "$tmp"
-              echo "take ${take}: recovery attempt ${attempt}"
-              if ! curl -L --fail -sS --connect-timeout 20 --max-time 120 "$provider" -o "$page"; then
-                sleep 20
-                continue
-              fi
-
-              if ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$page" >/dev/null 2>&1; then
-                mv "$page" "$out"
-                echo "take ${take}: provider endpoint returned audio directly"
-                return 0
-              fi
-
-              direct="$(python3 - "$page" <<'PY'
-          import html, re, sys
-          text = open(sys.argv[1], 'r', encoding='utf-8', errors='ignore').read()
-          text = html.unescape(text).replace('\\u002F','/').replace('\\/','/')
-          patterns = [
-              r'https://storage\.googleapis\.com/[^"\'<>\\ ]+?\.mp3(?:\?[^"\'<>\\ ]*)?',
-              r'https://[^"\'<>\\ ]+?mcp-preview/[^"\'<>\\ ]+?\.mp3(?:\?[^"\'<>\\ ]*)?',
-              r'https://[^"\'<>\\ ]+?\.mp3(?:\?[^"\'<>\\ ]*)?'
-          ]
-          for pat in patterns:
-              m = re.search(pat, text)
-              if m:
-                  print(m.group(0))
-                  raise SystemExit(0)
-          raise SystemExit(1)
-          PY
-              )" || true
-
-              if [ -n "${direct:-}" ]; then
-                echo "take ${take}: unwrapped direct MP3"
-                if curl -L --fail -sS --retry 3 --connect-timeout 20 --max-time 180 "$direct" -o "$tmp" \
-                  && test "$(stat -c%s "$tmp")" -gt 10000 \
-                  && ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$tmp" >/dev/null; then
-                  mv "$tmp" "$out"
-                  return 0
-                fi
-              fi
-
-              echo "take ${take}: not ready yet"
-              grep -Eio '.{0,100}(storage\.googleapis\.com|mcp-preview|\.mp3|audioUrl|audio_url|downloadUrl|playback|queued|processing).{0,160}' "$page" | head -30 || true
-              sleep 20
-            done
-
-            echo "take ${take}: failed to recover after polling" >&2
-            return 1
-          }
-
-          while IFS=$'\t' read -r take id; do
-            recover_take "$take" "$id"
+          while IFS=$'\t' read -r take url; do
+            out="greg-again/audio/v2/takes/007/audio/take-${take}.mp3"
+            curl -L --fail -sS --retry 4 --retry-delay 2 -o "$out" "$url"
+            test "$(stat -c%s "$out")" -gt 10000
+            ffprobe -v error -show_entries format=duration,size -of default=nw=1 "$out"
           done < /tmp/ga007/takes.tsv
 
-          for f in greg-again/audio/v2/takes/007/audio/take-*.mp3; do
-            ffprobe -v error -show_entries format=duration,size -of default=nw=1 "$f"
-          done
-
-      - name: Assemble Chapter 007
+      - name: Assemble and verify Chapter 007
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p greg-again/audio/assets/v2 greg-again/audio/v2/verification/007
           cd greg-again/audio/v2/takes/007/audio
           : > concat.txt
-          for n in $(seq -w 1 10); do printf "file 'take-%s.mp3'\n" "$n" >> concat.txt; done
+          for n in $(seq -w 1 31); do printf "file 'take-%s.mp3'\n" "$n" >> concat.txt; done
           ffmpeg -y -f concat -safe 0 -i concat.txt -c copy /tmp/chapter-007-raw.mp3
           cd ../../../../../..
           ffmpeg -y -i /tmp/chapter-007-raw.mp3 -af "apad=pad_dur=2" -c:a libmp3lame -b:a 128k greg-again/audio/assets/v2/chapter-007.mp3
-
           duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/v2/chapter-007.mp3)
           size=$(stat -c%s greg-again/audio/assets/v2/chapter-007.mp3)
           sha=$(sha256sum greg-again/audio/assets/v2/chapter-007.mp3 | awk '{print $1}')
@@ -128,26 +88,27 @@ jobs:
 
           - chapter: 007
           - title: The Extra Guard
-          - take_count: 10
+          - take_count: 31
           - voice: deep
+          - capture_factory: identical transcript + preview_transcript, preview-safe chunks, direct Google Storage preview URLs
           - audio_score_source: r2/assets/audio-score/ch007.md
           - audio_score_blob: d179b9621a0903c286171b707264b6256600b99f
           - duration_seconds: ${duration}
           - size_bytes: ${size}
           - sha256: ${sha}
-          - ordered provider artifacts: recovered and ffprobe-readable
-          - assembly: takes 01 through 10 in locked order
+          - ordered provider artifacts: downloaded and ffprobe-readable
+          - assembly: takes 01 through 31 in locked order
           - listener tail: approximately 2 seconds added at assembly
-          - provider pronunciation substitution: take 07 used Ma-na for written Mana
+          - pronunciation substitutions: written Vale -> provider Vayle; written Mana -> provider Ma-na
           EOF
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 greg-again/audio/assets/v2/chapter-007.mp3
 
-      - name: Commit recovered and assembled audio
+      - name: Commit durable v2 audio artifacts
         shell: bash
         run: |
           set -euo pipefail
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add greg-again/audio/v2/takes/007/audio/*.mp3 greg-again/audio/v2/verification/007/VERIFY.md greg-again/audio/assets/v2/chapter-007.mp3
-          git commit -m "audio: recover and assemble Audio Score v2 Chapter 007"
+          git commit -m "audio: capture and assemble Audio Score v2 Chapter 007"
           git push origin HEAD:audio/v2-greg-again-ch007-auto
