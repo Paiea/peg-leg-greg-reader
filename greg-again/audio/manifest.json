@@ -11,10 +11,11 @@
       "title": "The Boy",
       "status": "experimental",
       "lens": "greg-subjective",
-      "take_count": 11,
-      "duration_seconds": 959.808,
-      "audio_src": "assets/chapter-001.mp3",
-      "note": "Full Greg-subjective Chapter 1 render, assembled from eleven performance-sized takes."
+      "take_count": 33,
+      "duration_seconds": 886.896,
+      "audio_src": "assets/v2/chapter-001.mp3",
+      "note": "Audio Score v2 Chapter 1 assembled from thirty-three complete preview-safe deep-voice takes. Exact Audio Score order, durable preview capture, per-take MP3 playability, final assembly, and the chapter settling tail were mechanically verified; subjective human listen-back remains separate.",
+      "audio_finish": "audio-score-v2"
     },
     {
       "chapter_id": "ga-002",
@@ -44,10 +45,10 @@
       "title": "Thirty Days",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "take_count": 12,
-      "duration_seconds": 731.712,
-      "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR \u2192 MOVE \u2192 UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "take_count": 26,
+      "duration_seconds": 621.432,
+      "audio_src": "assets/v2/chapter-004.mp3",
+      "note": "Audio Score v2 Chapter 4 assembled from twenty-six complete preview-safe deep-voice takes, ffprobe-verified individually and stitched with a two-second listener tail."
     },
     {
       "chapter_id": "ga-005",
@@ -115,11 +116,11 @@
       "title": "What Moved",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 12,
-      "duration_seconds": 710.544,
-      "audio_src": "assets/chapter-010.mp3",
-      "note": "Chapter 10 preserves time residue across Jorren's departure, Greg's ordinary road changes, and Carrow's offscreen progress. Twelve short deep-voice takes keep production seams locally repairable while Arlo, Ivena, Sella, work, money, body, and mana all continue moving without Greg at the center."
+      "audio_finish": "audio-score-v2",
+      "take_count": 25,
+      "duration_seconds": 591.48,
+      "audio_src": "assets/v2/chapter-010.mp3",
+      "note": "Audio Score v2 Chapter 10: twenty-five preview-safe deep-voice takes preserve the audio-native score cadence and exact ordered story content. Durable preview artifacts were ffprobe-verified, stitched deterministically, and published with the established settling tail; provider-only pronunciation aliases preserve mana and Vale delivery."
     },
     {
       "chapter_id": "ga-011",

@@ -1,0 +1,64 @@
+name: Audio v2 Chapter 009 score coverage verify
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch009-auto
+    paths:
+      - greg-again/audio/v2/takes/009/take-map.json
+
+permissions:
+  contents: write
+
+jobs:
+  verify-score-coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify exact score coverage and take order
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, pathlib
+          source_path = pathlib.Path('r2/assets/audio-score/ch009.md')
+          source = source_path.read_text()
+          marker = '\n---\n\n'
+          if marker not in source:
+              raise SystemExit('Audio Score body delimiter not found')
+          body = source.split(marker, 1)[1].rstrip('\n')
+          m = json.loads(pathlib.Path('greg-again/audio/v2/takes/009/take-map.json').read_text())
+          takes = m['takes']
+          assert [t['take'] for t in takes] == list(range(1,24)), 'take order mismatch'
+          rebuilt = '\n\n'.join(t['transcript'] for t in takes)
+          if rebuilt != body:
+              import difflib
+              diff=''.join(difflib.unified_diff(body.splitlines(True), rebuilt.splitlines(True), fromfile='score', tofile='takes'))
+              print(diff[:20000])
+              raise SystemExit('take transcripts do not exactly cover Audio Score body')
+          report = {
+            'chapter': 9,
+            'source': str(source_path),
+            'source_blob_sha': '021b147c2429844eae35dcba8881552b01bc2716',
+            'source_body_sha256': hashlib.sha256(body.encode()).hexdigest(),
+            'rebuilt_body_sha256': hashlib.sha256(rebuilt.encode()).hexdigest(),
+            'take_count': len(takes),
+            'take_order': [t['take'] for t in takes],
+            'exact_score_coverage': True,
+            'missing_text': False,
+            'duplicated_seam_text': False,
+            'status': 'text_verified'
+          }
+          out = pathlib.Path('greg-again/audio/v2/verification/009/text-coverage.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(report, indent=2) + '\n')
+          PY
+
+      - name: Commit verification evidence
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add greg-again/audio/v2/verification/009/text-coverage.json
+          git commit -m "Verify Audio Score v2 Chapter 009 text coverage" || exit 0
+          git push
