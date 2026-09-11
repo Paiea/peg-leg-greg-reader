@@ -8,7 +8,7 @@ Read both files. Where this file conflicts with the legacy protocol for Audio Sc
 
 ## Scope
 
-Current calibration scope is Chapters 001–010 when their score files exist under:
+Current production scope is Chapters 001–030 when their score files exist under:
 
 `r2/assets/audio-score/chNNN.md`
 
@@ -71,9 +71,9 @@ Creating the branch is the claim. Never force-update an existing claim.
 
 ## v2 availability scan
 
-For the current 001–010 run:
+For the current 001–030 run:
 
-1. inspect actual score files `r2/assets/audio-score/ch001.md` through `ch010.md`
+1. inspect actual score files `r2/assets/audio-score/ch001.md` through `ch030.md`
 2. inspect `greg-again/audio/v2/manifest.json`
 3. inspect live `audio/v2-greg-again-chNNN-auto` branches and v2 PRs
 4. claim the earliest score chapter that is not v2-published and not durably v2-owned
@@ -127,7 +127,7 @@ Therefore, when resuming an existing claimed chapter:
 - when the old segmentation itself depended on uncapturable long takes, re-split the exact Audio Score into natural preview-safe chunks rather than waiting indefinitely on opaque provider references
 - this recovery rerun is **not** considered wasteful regeneration under the legacy preservation rule because no durable synthesized take existed to preserve
 
-This override is specifically intended to unblock early 001–010 workers that successfully submitted synthesis but could not retrieve the resulting audio binaries. The durable boundary, not the provider request itself, decides whether a take must be preserved.
+This override was introduced to unblock early 001–010 workers that successfully submitted synthesis but could not retrieve the resulting audio binaries, and remains valid for later chapters if the same failure mode appears. The durable boundary, not the provider request itself, decides whether a take must be preserved.
 
 ## Durable v2 paths
 
@@ -166,7 +166,7 @@ After a v2 chapter is fully assembled and verified:
 5. update duration / take metadata for the v2 render while preserving chapter ID, number, title, image metadata, and unrelated newer chapter changes
 6. verify the public route resolves to the v2 MP3
 
-This allows Chapters 001–010 to migrate independently. Mixed v1/v2 public playback is valid during the transition.
+This allows Chapters 001–030 to migrate independently. Mixed v1/v2 public playback is valid during the transition.
 
 ## Completion gate
 
