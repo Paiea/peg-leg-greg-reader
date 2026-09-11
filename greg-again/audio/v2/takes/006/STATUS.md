@@ -1,9 +1,16 @@
 # Chapter 006 v2 Take State
 
-Effective synthesis map: **11 takes**.
+Status: **PREVIEW-SAFE CAPTURE IS LISTENER-FACING AUTHORITY**
 
-Use `take-map.md` Takes 01–11 in strict order. The empty Take 12 and Take 13 placeholders in the initial lock file were never submitted and are not part of the chapter. They are a bookkeeping artifact from the first lock commit, not spoken material and not provider work.
+The final Audio Score v2 Chapter 006 artifact uses **30 preview-safe chunks**, not the earlier 11-take full-render transaction.
 
-Provider submissions for Takes 01–11 are recorded in `greg-again/audio/v2/production/006/STATUS.md`.
+Current durable authority:
 
-Do not synthesize Takes 12–13. Do not treat the nominal `Take count: 13` header in the initial take map as authoritative over this correction. The effective Chapter 006 v2 take count is 11.
+- capture map: `greg-again/audio/v2/production/006/capture.json`
+- chunk binaries: `greg-again/audio/v2/takes/006/audio/chunk-01.mp3` through `chunk-30.mp3`
+- final MP3: `greg-again/audio/assets/v2/chapter-006.mp3`
+- final verification: `greg-again/audio/v2/verification/006/`
+
+The original `take-map.md` and its 11 effective full-render ranges remain historical evidence of the first provider transaction. Those opaque AI Doc Maker submissions were not used to build the final listener-facing v2 MP3.
+
+Do not synthesize the empty Take 12–13 placeholders from that historical map. Do not regenerate or delete the 11 historical provider submissions merely to normalize production history.
