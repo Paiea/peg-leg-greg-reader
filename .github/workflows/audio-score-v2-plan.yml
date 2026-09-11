@@ -1,0 +1,58 @@
+name: Audio Score v2 capture plan
+
+on:
+  push:
+    branches:
+      - 'audio/v2-greg-again-ch*-auto'
+    paths:
+      - 'greg-again/audio/v2/production/*/PLAN_REQUEST'
+      - '.github/workflows/audio-score-v2-plan.yml'
+      - 'scripts/audio_score_capture_plan.py'
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Resolve chapter and build capture plan
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='${{ github.ref_name }}'
+          chapter="${branch#audio/v2-greg-again-ch}"
+          chapter="${chapter%-auto}"
+          test "${#chapter}" -eq 3
+          python3 scripts/audio_score_capture_plan.py "$chapter"
+          python3 - <<PY
+          import json
+          p='greg-again/audio/v2/takes/${chapter}/short-takes.json'
+          d=json.load(open(p))
+          assert d['status']=='capture_plan'
+          assert d['voice']=='deep'
+          assert d['take_count']==len(d['takes'])
+          assert all(t['transcript']==t['preview_transcript'] for t in d['takes'])
+          assert all(0 < len(t['transcript']) <= 500 for t in d['takes'])
+          print('${chapter}', d['take_count'], 'preview-safe takes planned')
+          PY
+      - name: Commit capture plan
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='${{ github.ref_name }}'
+          chapter="${branch#audio/v2-greg-again-ch}"
+          chapter="${chapter%-auto}"
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add "greg-again/audio/v2/takes/${chapter}/short-takes.json"
+          if git diff --cached --quiet; then
+            echo 'capture plan already current'
+            exit 0
+          fi
+          git commit -m "Plan Audio Score v2 Chapter ${chapter} short takes"
+          git push origin HEAD:"${{ github.ref_name }}"
