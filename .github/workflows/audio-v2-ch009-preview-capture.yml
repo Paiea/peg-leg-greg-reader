@@ -94,4 +94,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add greg-again/audio/assets/v2/chapter-009.mp3 greg-again/audio/v2/takes/009/captured greg-again/audio/v2/verification/009
           git commit -m "Capture and assemble Audio Score v2 Chapter 009" || exit 0
-          git push
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
