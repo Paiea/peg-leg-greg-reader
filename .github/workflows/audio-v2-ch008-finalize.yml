@@ -1,0 +1,44 @@
+name: Finalize Audio v2 Chapter 008 on current authority
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch008-final
+    paths:
+      - greg-again/audio/v2/production/008/FINALIZE_REQUEST.json
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch source evidence and newest authority
+        run: git fetch origin audio/v2-greg-again-ch008-integrate audio-score/chapters-001-010
+      - name: Import only durable Chapter 008 production artifacts and v2-aware contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          git checkout origin/audio/v2-greg-again-ch008-integrate -- greg-again/audio/assets/v2/chapter-008.mp3 greg-again/audio/v2/production/008/STATUS.md greg-again/audio/v2/takes/008 greg-again/audio/v2/verification/008 tests/test_greg_again_audio_catalog.py
+      - name: Reconcile Chapter 008 against newest manifests
+        run: python .github/scripts/finalize_ch008_v2.py
+      - name: Run Greg Again audio catalog contract
+        run: python -m unittest tests.test_greg_again_audio_catalog -v
+      - name: Run R2 Audio Library interface contract
+        run: python -m unittest tests.test_r2_audio_library -v
+      - name: Run R2 listen-first site contract
+        run: python -m unittest tests.test_r2_listen_first_site -v
+      - name: Remove temporary finalization plumbing and commit durable result
+        shell: bash
+        run: |
+          set -euo pipefail
+          git rm .github/scripts/finalize_ch008_v2.py .github/workflows/audio-v2-ch008-finalize.yml greg-again/audio/v2/production/008/FINALIZE_REQUEST.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add greg-again/audio/assets/v2/chapter-008.mp3 greg-again/audio/manifest.json greg-again/audio/v2/manifest.json greg-again/audio/v2/production/008/STATUS.md greg-again/audio/v2/takes/008 greg-again/audio/v2/verification/008 tests/test_greg_again_audio_catalog.py
+          git commit -m "Publish Audio Score v2 Chapter 008"
+          git push
