@@ -1,0 +1,33 @@
+{
+  "chapter": 8,
+  "title": "Road Work",
+  "source": "r2/assets/audio-score/ch008.md",
+  "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
+  "voice": "deep",
+  "factory": "short-take-preview-capture",
+  "chunk_max_chars": 500,
+  "chunk_count": 20,
+  "rule": "transcript equals preview_transcript for every provider request",
+  "chunks": [
+    {"chunk":1,"char_count":434,"context_id":"18eaa84ccb75424ab8281cb6759ea273","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7860749c-8f39-4565-80ca-a0a189f33e13.mp3","source_note":"exact Audio Score text"},
+    {"chunk":2,"char_count":458,"context_id":"eba3ac5e41ba48aaa18147939596f46a","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3744e2f6-d6a0-423e-be74-2810815859e8.mp3","source_note":"exact Audio Score text"},
+    {"chunk":3,"char_count":477,"context_id":"e433694b6f8440f8a484a6b23e3e9f14","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fcbd44e2-a245-489b-b75e-3782327e91c6.mp3","source_note":"exact Audio Score text"},
+    {"chunk":4,"char_count":476,"context_id":"265b738b3cfd4433bb85f955992b7ba8","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c18bdeef-ba99-427f-a7ad-016566d54112.mp3","source_note":"exact Audio Score text"},
+    {"chunk":5,"char_count":477,"context_id":"179a1938f485430c8b40df7870c471e3","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6017c471-7790-48e5-8364-71015070dbfb.mp3","source_note":"exact Audio Score text; one earlier request timed out before returning any identity"},
+    {"chunk":6,"char_count":453,"context_id":"3f026c71549b4b97b5aed0fdf488f037","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b96fd684-95a5-49d9-a0d1-087ade61b39f.mp3","source_note":"exact Audio Score text"},
+    {"chunk":7,"char_count":478,"context_id":"a23614c4d891429b92606ddcde815528","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ac871696-698d-4fdb-b9e1-2516bc464f90.mp3","source_note":"exact Audio Score text"},
+    {"chunk":8,"char_count":478,"context_id":"7c8e0085f2bb4db9a202ad8cae918e41","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ae672118-0dd9-4f32-b215-c5c1e3906cee.mp3","source_note":"exact Audio Score text"},
+    {"chunk":9,"char_count":465,"context_id":"06fda1383b9e4d85b434c792b4d9f288","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/87e03f4a-9fba-4965-95c8-f1c13de3f286.mp3","source_note":"exact Audio Score text"},
+    {"chunk":10,"char_count":465,"context_id":"df312f6b0c974b0283193f5abca3269f","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3fb8286d-b1c5-41a2-98eb-7c51a7d93533.mp3","source_note":"provider-facing Mana -> Ma-na only"},
+    {"chunk":11,"char_count":448,"context_id":"c38605df987c441bae59227c7b42ae1f","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fa37634f-cde0-49f6-85c1-6d57285bff51.mp3","source_note":"exact Audio Score text"},
+    {"chunk":12,"char_count":475,"context_id":"dadd9fe7ce9f4e1cb72145f0d01a967e","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ed3300ba-b7e9-4275-a0e8-51677da3a6b7.mp3","source_note":"exact Audio Score text"},
+    {"chunk":13,"char_count":467,"context_id":"66c4132fd40a4af7a9817f630494f365","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c4f13019-cbc8-4192-aa9a-c3b18129e951.mp3","source_note":"exact Audio Score text"},
+    {"chunk":14,"char_count":477,"context_id":"00df8743a7bc47279a183772dd9e60d8","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fa584421-c74f-444b-9371-b266843f8dc5.mp3","source_note":"exact Audio Score text"},
+    {"chunk":15,"char_count":467,"context_id":"1281ec895bc94d8196d9b56448bcd0e9","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0cdf5b7f-c16d-4fdb-b1c9-55b0d905a303.mp3","source_note":"exact Audio Score text"},
+    {"chunk":16,"char_count":473,"context_id":"894139d66f2040d1b7069ad8a2b787b8","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/caf9e11e-ec37-4d0e-bd8e-db740ed823ae.mp3","source_note":"exact Audio Score text"},
+    {"chunk":17,"char_count":475,"context_id":"6d133aeec24242cf9c782b47d6cd09e8","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3864362e-cec5-4b45-9f9d-150039fecd5a.mp3","source_note":"provider-facing mana -> ma-na only"},
+    {"chunk":18,"char_count":470,"context_id":"6e3dab7b4f1c437fabb0b36ea0b89ee0","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/69df8996-b52c-4d6c-a7d6-af1961010f25.mp3","source_note":"exact Audio Score text"},
+    {"chunk":19,"char_count":469,"context_id":"0133a30772d2435bbb39e01b805c8ad8","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6a0818db-11b5-4605-b532-abdf66ad5b0b.mp3","source_note":"exact Audio Score text"},
+    {"chunk":20,"char_count":311,"context_id":"2aa721b1752b40e2b6ca85afc0832840","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/460de3db-c0ce-40b4-b22e-bdce5fac1e4d.mp3","source_note":"exact Audio Score text"}
+  ]
+}

@@ -1,0 +1,21 @@
+name: Publish Audio v2 Chapter 008
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch008-auto
+    paths:
+      - greg-again/audio/v2/production/008/PUBLISH_REQUEST.json
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify, reconcile, and publish Chapter 008
+        run: python greg-again/audio/v2/production/008/publish_ch008.py

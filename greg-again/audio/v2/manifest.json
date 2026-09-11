@@ -5,5 +5,21 @@
   "renderer_adapter": "ai_voice_generator",
   "voice_style": "deep",
   "source_layer": "r2/assets/audio-score",
-  "chapters": []
+  "chapters": [
+    {
+      "chapter_id": "ga-008",
+      "number": 8,
+      "title": "Road Work",
+      "status": "verified",
+      "source": "r2/assets/audio-score/ch008.md",
+      "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
+      "voice": "deep",
+      "capture_factory": "preview-safe-identical-transcript",
+      "take_count": 20,
+      "duration_seconds": 535.8,
+      "audio_src": "assets/v2/chapter-008.mp3",
+      "listener_qa": "not_performed",
+      "verification": "greg-again/audio/v2/verification/008/"
+    }
+  ]
 }
