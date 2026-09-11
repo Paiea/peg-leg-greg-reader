@@ -14,10 +14,9 @@ class R2AudioLibraryTests(unittest.TestCase):
         self.assertIn('id="continue-listening"', html)
         self.assertIn('id="chapter-search"', html)
 
-    def test_audio_library_uses_replaceable_art_with_current_cover_fallback(self):
+    def test_audio_library_uses_uploaded_library_art_with_cover_fallback(self):
         html = (AUDIO / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('r2-audio-library-wide.webp', html)
-        self.assertIn('r2-audio-library-portrait.webp', html)
+        self.assertIn('assets/images/Library.png', html)
         self.assertIn('r2-cover-wide.webp', html)
 
     def test_player_supports_resume_search_and_written_renditions(self):
