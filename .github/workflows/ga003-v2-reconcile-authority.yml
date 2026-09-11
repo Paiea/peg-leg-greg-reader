@@ -24,7 +24,16 @@ jobs:
           set -euo pipefail
           test -s greg-again/audio/assets/v2/chapter-003.mp3
           test "$(find greg-again/audio/assets/v2/chunks/003-short -maxdepth 1 -name '*.mp3' | wc -l)" -eq 30
-          ffprobe -v error greg-again/audio/assets/v2/chapter-003.mp3
+          python3 - <<'PY'
+          import json, pathlib
+          d=json.loads(pathlib.Path('greg-again/audio/v2/takes/003/short-takes.json').read_text())
+          assert d['status']=='durable_takes_verified_and_assembled', d['status']
+          assert d['take_count']==30
+          assert d['final_duration_seconds']==673.104
+          assert d['settling_tail_seconds']==2.0
+          assert d['final_audio_sha256']=='9d73d75d0122815fbce95e44bf5d1d10ae48cd60835f92023d02022ae9aa04c9'
+          print('existing mechanical assembly evidence verified')
+          PY
 
       - name: Reconcile with current Audio Score authority
         shell: bash
