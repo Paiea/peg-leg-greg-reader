@@ -32,26 +32,26 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn("Georgia, 'Times New Roman', serif", css)
         self.assertIn('<meta name="theme-color" content="#fbfaf7">', html)
 
-    def test_r2_surfaces_expose_audio_experiments_as_first_class_navigation(self):
+    def test_r2_surfaces_expose_listening_as_first_class_navigation(self):
+        for path in ['index.html', 'chapter.html', 'chapters/index.html', 'gallery/index.html', 'about/index.html']:
+            html = (R2 / path).read_text(encoding='utf-8')
+            self.assertIn('>Listen<', html, path)
         homepage = (R2 / 'index.html').read_text(encoding='utf-8')
         chapter = (R2 / 'chapter.html').read_text(encoding='utf-8')
         self.assertIn('../greg-again/audio/', homepage)
-        self.assertIn('>Audio<', homepage)
         self.assertIn('../greg-again/audio/', chapter)
-        self.assertIn('>Audio<', chapter)
         for path in ['chapters/index.html', 'gallery/index.html', 'about/index.html']:
             html = (R2 / path).read_text(encoding='utf-8')
             self.assertIn('../../greg-again/audio/', html, path)
-            self.assertIn('>Audio<', html, path)
 
-    def test_audio_experiments_links_back_to_r2_and_matches_dark_reader_surface(self):
+    def test_audio_library_links_back_to_r2_and_matches_dark_reader_surface(self):
         html = (AUDIO / 'index.html').read_text(encoding='utf-8')
         css = (AUDIO / 'audio.css').read_text(encoding='utf-8')
         self.assertIn('PEG-LEG GREG', html)
         self.assertIn('../../r2/', html)
         self.assertIn('R2 Home', html)
         self.assertIn('../../r2/chapters/', html)
-        self.assertIn('Chapters', html)
+        self.assertIn('Written', html)
         self.assertIn('color-scheme: dark', css)
         self.assertIn('--paper: #171614', css)
         self.assertIn('--ink: #e8e2d9', css)
@@ -59,7 +59,7 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn('background: var(--paper)', css)
         self.assertIn("Georgia, 'Times New Roman', serif", css)
 
-    def test_chapter_page_prioritizes_reading_over_panels(self):
+    def test_chapter_page_keeps_reading_comfortable_once_opened(self):
         css = (R2 / 'assets/css/r2.css').read_text(encoding='utf-8')
         self.assertIn('.chapter-page', css)
         self.assertIn('.reading-copy', css)
@@ -71,18 +71,20 @@ class R2ReaderStyleTests(unittest.TestCase):
         self.assertIn('max-width: 760px', css)
         self.assertIn('.written-panel', css)
 
-    def test_written_chapter_begins_without_redundant_read_label(self):
+    def test_written_chapter_is_behind_one_clear_disclosure(self):
         html = (R2 / 'chapter.html').read_text(encoding='utf-8')
         self.assertNotIn('<p class="eyebrow">Read</p>', html)
         self.assertNotIn('Chapter text', html)
-        self.assertIn('<section id="read" class="written-panel">', html)
+        self.assertIn('<details id="read" class="written-panel written-disclosure">', html)
+        self.assertIn('Read written rendition', html)
         self.assertIn('<article id="written-slot" class="reading-copy">', html)
 
-    def test_chapter_shell_uses_story_brand_and_quiet_navigation(self):
+    def test_chapter_shell_uses_story_brand_and_listen_first_navigation(self):
         html = (R2 / 'chapter.html').read_text(encoding='utf-8')
         self.assertIn('PEG-LEG GREG', html)
         self.assertIn('R2', html)
-        self.assertIn('Chapters', html)
+        self.assertIn('>Listen<', html)
+        self.assertIn('>Written<', html)
         self.assertIn('About', html)
         self.assertIn('Run 1', html)
         self.assertNotIn('>Look<', html)
@@ -97,8 +99,9 @@ class R2ReaderStyleTests(unittest.TestCase):
             html = (R2 / path).read_text(encoding='utf-8')
             self.assertIn('PEG-LEG GREG', html, path)
             self.assertIn('Run 1', html, path)
+            self.assertIn('>Listen<', html, path)
+            self.assertIn('>Written<', html, path)
             self.assertNotIn('>Look<', html, path)
-            self.assertNotIn('>Listen<', html, path)
             self.assertNotIn('>Read<', html, path)
 
 
