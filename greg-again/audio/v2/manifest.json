@@ -5,5 +5,19 @@
   "renderer_adapter": "ai_voice_generator",
   "voice_style": "deep",
   "source_layer": "r2/assets/audio-score",
-  "chapters": []
+  "chapters": [
+    {
+      "chapter_id": "ga-007",
+      "number": 7,
+      "title": "The Extra Guard",
+      "status": "verified",
+      "source": "r2/assets/audio-score/ch007.md",
+      "source_blob": "d179b9621a0903c286171b707264b6256600b99f",
+      "voice": "deep",
+      "take_count": 31,
+      "duration_seconds": 623.448,
+      "audio_src": "assets/v2/chapter-007.mp3",
+      "sha256": "de12bffa3ed699816837db6b9e41abaad514368ca94e57ecb2fa16f578f8af8f"
+    }
+  ]
 }
