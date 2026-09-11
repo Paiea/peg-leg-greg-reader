@@ -44,10 +44,10 @@
       "title": "Thirty Days",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "take_count": 12,
-      "duration_seconds": 731.712,
-      "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR \u2192 MOVE \u2192 UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "take_count": 26,
+      "duration_seconds": 621.432,
+      "audio_src": "assets/v2/chapter-004.mp3",
+      "note": "Audio Score v2 Chapter 4 assembled from twenty-six complete preview-safe deep-voice takes, ffprobe-verified individually and stitched with a two-second listener tail."
     },
     {
       "chapter_id": "ga-005",
