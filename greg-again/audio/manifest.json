@@ -385,6 +385,18 @@
       "duration_seconds": 628.104,
       "audio_src": "assets/chapter-039.mp3",
       "note": "Chapter 39 uses thirty-two complete preview-safe deep-voice takes from the rebuilt public The East Desk source. Exact source coverage, every provider artifact hash, ordered chunk playability, the authoritative ellipsis landing, and the two-second listener tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-064",
+      "number": 64,
+      "title": "Glassmaw",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "audio-score-v2",
+      "take_count": 21,
+      "duration_seconds": 555.624,
+      "audio_src": "assets/v2/chapter-064.mp3",
+      "note": "Audio Score v2 Chapter 64 uses twenty-one complete preview-safe deep-voice takes. Exact normalized score coverage, durable provider artifacts, individual MP3 playability, deterministic stitching, final hash, and the approximately two-second settling tail were mechanically verified; subjective human listen-back remains separate."
     }
   ]
 }

@@ -72,6 +72,21 @@
       "audio_src": "assets/v2/chapter-010.mp3",
       "take_map": "greg-again/audio/v2/takes/010/take-map.md",
       "verification": "greg-again/audio/v2/verification/010/"
+    },
+    {
+      "chapter_id": "ga-064",
+      "number": 64,
+      "title": "Glassmaw",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch064.md",
+      "source_blob_sha": "0326969cce6e3be692eed694f919a45e0dd92732",
+      "voice": "deep",
+      "take_count": 21,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 555.624,
+      "audio_src": "assets/v2/chapter-064.mp3",
+      "take_map": "greg-again/audio/v2/takes/064/take-map.md",
+      "verification": "greg-again/audio/v2/verification/064/"
     }
   ]
 }
