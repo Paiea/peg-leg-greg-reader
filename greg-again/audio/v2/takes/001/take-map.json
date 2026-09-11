@@ -1,0 +1,161 @@
+{
+  "chapter_id": "ga-001-v2",
+  "number": 1,
+  "title": "The Boy",
+  "generation": "audio-score-v2",
+  "voice": "deep",
+  "score_source": "r2/assets/audio-score/ch001.md",
+  "score_source_blob": "155de484c67836f615e2704896aa37984002d690",
+  "clean_source": "r2/assets/written/ch001.md",
+  "clean_source_blob_recorded_in_score": "725d3ce3603a98174046237422eecca9a773308a",
+  "spoken_source_rule": "Score prose after the front-matter separator. Take boundaries are exact score slices identified by the anchors below. Provider-only pronunciation substitutions are recorded per take and do not alter the score source.",
+  "take_count": 14,
+  "provider": "ai_voice_generator",
+  "provider_capture_state": "synthesis requests accepted; connector returned queued status plus durable context_id/audio_url; binary retrieval is not exposed to this worker",
+  "takes": [
+    {
+      "take": 1,
+      "first_anchor": "I woke because my back didn't hurt, and I didn't move because maybe...",
+      "last_anchor": "No complaint.",
+      "provider_substitutions": [],
+      "context_id": "aafdd845bc51426689d1a3266574652d",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=aafdd845bc51426689d1a3266574652d",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 2,
+      "first_anchor": "My bladder chose that moment to become extremely relevant.",
+      "last_anchor": "I crouched again because apparently once was not enough evidence.",
+      "provider_substitutions": [],
+      "context_id": "fde367cadaaf4968b303d6461a9e964b",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=fde367cadaaf4968b303d6461a9e964b",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 3,
+      "first_anchor": "Then, because the first serious thing I decided to do with a miracle after pissing was test whether I could jump...",
+      "last_anchor": "Two minutes of dignity, gone.",
+      "provider_substitutions": [],
+      "context_id": "ffbd972111af45e48a72e6ee05f5c9d5",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=ffbd972111af45e48a72e6ee05f5c9d5",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 4,
+      "first_anchor": "The sword in the corner pulled me sideways.",
+      "last_anchor": "I lowered the sword.",
+      "provider_substitutions": [],
+      "context_id": "c141eec44112419289de930b223a5c5d",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=c141eec44112419289de930b223a5c5d",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 5,
+      "first_anchor": "Interesting.\n\nNot good.\n\nInteresting.\n\nI had been a warrior first.",
+      "last_anchor": "Sword later.",
+      "provider_substitutions": [],
+      "context_id": "f0e2ef40068d41d6b636efb42e07b508",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=f0e2ef40068d41d6b636efb42e07b508",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 6,
+      "first_anchor": "Magic.",
+      "last_anchor": "Too much of it.",
+      "provider_substitutions": [
+        {"written": "mana", "provider": "ma-na", "occurrences": 2}
+      ],
+      "context_id": "3d38aad7637048d29f662fdcb9d2c48c",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=3d38aad7637048d29f662fdcb9d2c48c",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 7,
+      "first_anchor": "I checked the room because checking things was easier than having a revelation before food.",
+      "last_anchor": "Dates matched.",
+      "provider_substitutions": [],
+      "context_id": "870b2f5af24343ad95568450366b9fbb",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=870b2f5af24343ad95568450366b9fbb",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 8,
+      "first_anchor": "I compared them against East Verrel because everybody remembered East Verrel.",
+      "last_anchor": "This was going to be easy.",
+      "provider_substitutions": [],
+      "context_id": "c4a718359bca430d841d1da17cf3492b",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=c4a718359bca430d841d1da17cf3492b",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 9,
+      "first_anchor": "My mother.",
+      "last_anchor": "If it had been perfect I might have trusted it.",
+      "provider_substitutions": [],
+      "context_id": "142456f0cb5847519ce26e24e8c85798",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=142456f0cb5847519ce26e24e8c85798",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 10,
+      "first_anchor": "Paper.",
+      "last_anchor": "Then stared at the crossed-out word long enough to realize I was avoiding the sword.",
+      "provider_substitutions": [],
+      "context_id": "4896535a119f418f8006f4cb6dbf6e5b",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=4896535a119f418f8006f4cb6dbf6e5b",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 11,
+      "first_anchor": "Right.\n\nSword.",
+      "last_anchor": "There it was again.",
+      "provider_substitutions": [
+        {"written": "mana", "provider": "ma-na", "occurrences": 1}
+      ],
+      "context_id": "09c2a0e463644e42b970d5df2c0bbcfc",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=09c2a0e463644e42b970d5df2c0bbcfc",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 12,
+      "first_anchor": "I grabbed the coat and pressed it to the leak.",
+      "last_anchor": "I opened it.",
+      "provider_substitutions": [],
+      "context_id": "2034304555754ff29fe520da57c26b40",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=2034304555754ff29fe520da57c26b40",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 13,
+      "first_anchor": "Boiled grain. Lamp oil. Damp wood. Somebody else's laundry.",
+      "last_anchor": "Here it was loud and inconvenient and alive.",
+      "provider_substitutions": [],
+      "context_id": "f0bcf65731844f32885ba1e9be021cda",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=f0bcf65731844f32885ba1e9be021cda",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    },
+    {
+      "take": 14,
+      "first_anchor": "A wagon blocked half the street.",
+      "last_anchor": "Seemed polite to begin there...",
+      "provider_substitutions": [],
+      "context_id": "4e66f12e904d4853b0eb4838c0f3dfb6",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=4e66f12e904d4853b0eb4838c0f3dfb6",
+      "provider_status_at_submission": "queued",
+      "status": "provider_artifact_reference_captured"
+    }
+  ]
+}
