@@ -153,3 +153,7 @@ The important lesson is not those exact phrases. It is the movement between cont
 ## File policy
 
 Audio Score chapters live in `r2/assets/audio-score/` and include the clean source path and blob SHA in their headers. They are derived artifacts. Clean written files remain untouched.
+
+## Production routing
+
+For Audio Score revoice production, read `r2/AUDIO_SCORE_PRODUCTION.md` before `r2/AUDIO_PRODUCTION.md` and treat it as the active override for source selection, v2 claiming, v2 asset paths, and publication routing.
