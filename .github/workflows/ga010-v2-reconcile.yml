@@ -1,5 +1,5 @@
 name: ga010 v2 reconcile
-# authority refresh: d4d8af842aa114c35aeb463eb0c6961216fa4ddc
+# authority-first shared-manifest reconciliation
 on:
   push:
     branches: [audio/v2-greg-again-ch010-auto]
@@ -21,7 +21,23 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git fetch origin audio-score/chapters-001-010
-          git merge --no-edit origin/audio-score/chapters-001-010
+          if ! git merge --no-edit origin/audio-score/chapters-001-010; then
+            mapfile -t conflicts < <(git diff --name-only --diff-filter=U)
+            for f in "${conflicts[@]}"; do
+              case "$f" in
+                greg-again/audio/manifest.json|greg-again/audio/v2/manifest.json)
+                  git checkout --theirs -- "$f"
+                  git add "$f"
+                  ;;
+                *)
+                  echo "Unexpected merge conflict: $f" >&2
+                  exit 1
+                  ;;
+              esac
+            done
+            test -z "$(git diff --name-only --diff-filter=U)"
+            git commit --no-edit
+          fi
       - name: Reconcile v2 and public manifests
         shell: bash
         run: |
@@ -46,6 +62,7 @@ jobs:
           chapters.sort(key=lambda c: c.get('number', 999999))
           v2['chapters'] = chapters
           v2_path.write_text(json.dumps(v2, indent=2, ensure_ascii=False) + '\n')
+
           public = json.loads(public_path.read_text())
           matches = [c for c in public.get('chapters', []) if c.get('number') == 10 or c.get('chapter_id') == 'ga-010']
           if len(matches) != 1:
