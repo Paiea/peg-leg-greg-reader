@@ -1,0 +1,119 @@
+name: ga004 v2 short take capture
+on:
+  push:
+    branches: [audio/v2-greg-again-ch004-auto]
+    paths: ['.github/workflows/ga004-v2-short-take-capture.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch004-auto
+          fetch-depth: 0
+      - name: Capture, verify, and assemble preview MP3s
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='greg-again/audio/v2/takes/004/captured'
+          mkdir -p "$out" greg-again/audio/assets/v2
+          urls=(
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/653adf28-e1bf-4984-9325-e8b8142b5529.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b3a6497c-0b2d-458e-97c2-acc7b5190b38.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5bc3ea9e-4233-4159-beb4-6d9c1d2db072.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2521192d-4204-43c8-9253-da620fcacb35.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/232acf2a-7a0a-4bb9-9bfd-fb583faec61f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e13e2b1b-820e-49d2-a6db-dac6fb589be6.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d3d5adfb-59e0-44f3-bc5b-1487cba0451e.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4d609af7-5c73-464c-87aa-001c6d504a7a.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/32e10aca-2f6c-45c3-82f9-4585b97dbe78.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8aae0e5a-ae90-42e2-919c-50373d2a2aab.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a666b9f6-62da-41b5-935d-cce33190f479.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/97cf697e-0ede-4033-b061-085a3d8d119a.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4d5d8d26-a455-4d84-bb3d-2f5931010624.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/383a44e4-cb9e-46a6-9eee-24e7f6b4da14.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d85940f3-2800-4405-a8e7-7c178ac7bed9.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3d4608dc-0dcd-4bfb-802e-003ad4576a6f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cf63767b-0ed0-4661-9a8a-193b3dd1b7d8.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bd7e25a7-686f-416c-82ba-b0a46e9c4fbd.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b011390f-8d61-4df8-871a-688faf506c61.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cbf335cf-c0d0-42ef-8b46-b347b063313a.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cae06bca-b902-475b-a1a7-453de90b486f.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/23bbeec9-fae3-49e1-b9ef-a6c21cdb73c6.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1b5a4199-c4ec-4a93-8742-214538acf76d.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4c6cefbf-5fab-4b11-b1d0-1e7bf0a9dcec.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/01a3e79e-35bb-48cc-b6cb-fa3e4d6fd3f4.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c3cc4ea6-0895-4750-8597-7739ca0c8246.mp3'
+          )
+          for i in "${!urls[@]}"; do
+            n=$(printf '%02d' $((i+1)))
+            f="$out/take-$n.mp3"
+            curl -fL --retry 4 --retry-all-errors --retry-delay 2 "${urls[$i]}" -o "$f"
+            test "$(stat -c%s "$f")" -gt 1000
+            ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of default=nw=1 "$f"
+          done
+          : > /tmp/list.txt
+          for f in "$out"/take-*.mp3; do printf "file '%s'\n" "$GITHUB_WORKSPACE/$f" >> /tmp/list.txt; done
+          ffmpeg -y -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/ga004-assembled.mp3
+          ffmpeg -y -v error -i /tmp/ga004-assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/v2/chapter-004.mp3
+          ffprobe -v error greg-again/audio/assets/v2/chapter-004.mp3
+          sha256sum "$out"/take-*.mp3 greg-again/audio/assets/v2/chapter-004.mp3 > "$out/SHA256SUMS"
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/v2/chapter-004.mp3 > /tmp/duration.txt
+      - name: Reconcile v2 and public manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib
+          duration = round(float(pathlib.Path('/tmp/duration.txt').read_text().strip()), 3)
+          v2p = pathlib.Path('greg-again/audio/v2/manifest.json')
+          v2 = json.loads(v2p.read_text())
+          entry = {
+            'chapter_id': 'ga-004',
+            'number': 4,
+            'title': 'Thirty Days',
+            'status': 'complete',
+            'voice_style': 'deep',
+            'source': 'r2/assets/audio-score/ch004.md',
+            'source_sha': '7c2f4b9cdf40fe8035568fa7e503bff4589780fe',
+            'take_count': 26,
+            'capture_mode': 'preview-safe-short-takes',
+            'duration_seconds': duration,
+            'audio_src': '../assets/v2/chapter-004.mp3'
+          }
+          chapters = v2.setdefault('chapters', [])
+          chapters[:] = [c for c in chapters if c.get('chapter_id') != 'ga-004' and c.get('number') != 4]
+          chapters.append(entry)
+          chapters.sort(key=lambda c: c.get('number', 10**9))
+          v2p.write_text(json.dumps(v2, indent=2) + '\n')
+
+          pp = pathlib.Path('greg-again/audio/manifest.json')
+          pub = json.loads(pp.read_text())
+          found = False
+          for c in pub.get('chapters', []):
+            if c.get('chapter_id') == 'ga-004' or c.get('number') == 4:
+              c['audio_src'] = 'assets/v2/chapter-004.mp3'
+              c['take_count'] = 26
+              c['duration_seconds'] = duration
+              c['note'] = 'Audio Score v2 Chapter 4 assembled from twenty-six complete preview-safe deep-voice takes, ffprobe-verified individually and stitched with a two-second listener tail.'
+              found = True
+              break
+          if not found:
+            raise SystemExit('public manifest missing ga-004')
+          pp.write_text(json.dumps(pub, indent=2) + '\n')
+          print('duration_seconds', duration)
+          PY
+          python -m json.tool greg-again/audio/v2/manifest.json >/dev/null
+          python -m json.tool greg-again/audio/manifest.json >/dev/null
+          grep -q 'assets/v2/chapter-004.mp3' greg-again/audio/manifest.json
+      - name: Commit verified v2 chapter and authority updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/v2/takes/004/captured greg-again/audio/assets/v2/chapter-004.mp3 greg-again/audio/v2/manifest.json greg-again/audio/manifest.json
+          git commit -m 'Assemble and publish Audio Score v2 Chapter 004'
+          git push origin HEAD:audio/v2-greg-again-ch004-auto
