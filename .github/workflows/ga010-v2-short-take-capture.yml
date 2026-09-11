@@ -56,7 +56,10 @@ jobs:
             test $(stat -c%s "$out") -gt 1000
             ffprobe -v error "$out"
           done
-          printf "file '%s'\n" greg-again/audio/v2/takes/010/audio/*.mp3 > /tmp/list.txt
+          : > /tmp/list.txt
+          for f in "$GITHUB_WORKSPACE"/greg-again/audio/v2/takes/010/audio/*.mp3; do
+            printf "file '%s'\n" "$f" >> /tmp/list.txt
+          done
           ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/assembled.mp3
           ffmpeg -v error -i /tmp/assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/v2/chapter-010.mp3
           ffprobe -v error greg-again/audio/assets/v2/chapter-010.mp3
