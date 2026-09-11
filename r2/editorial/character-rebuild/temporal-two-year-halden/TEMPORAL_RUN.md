@@ -25,7 +25,7 @@ CLOCK CONFIDENCE: resolved
 START: first-bell departure immediately after current Chapter 39
 HORIZON / END: 730 elapsed days
 CHECKPOINT STRATEGY: irregular lived checkpoints; year boundary is a true state rebaseline, not reset
-CURRENT CLOCK POSITION: D365 / one elapsed year / Year 2 begins
+CURRENT CLOCK POSITION: D486 / 244 days remain
 STOP CONDITION: Greg and Mara reach the promised Halden meeting on D730 after both have lived the intervening two years independently
 ```
 
@@ -45,46 +45,53 @@ The meeting is fixed. Its romantic or relational outcome is not.
 
 ### Active Year 2 character pressure
 
-Greg is pissed off.
+Greg is pissed off and experiences the post-amputation state as a hole he intends to get out of.
 
-He experiences the post-amputation state as a hole he intends to get out of. Anger becomes operational rather than inspirational.
+His old S-class headspace has returned as a method:
 
-His old S-class headspace increasingly returns as a method:
-
-- decompose large problems into capabilities, limits, resources, routes, timelines, and failure modes;
-- demand concrete criteria instead of vague reassurance;
+- decompose problems into capabilities, limits, resources, routes, timelines, and failure modes;
+- demand concrete criteria rather than vague reassurance;
 - distinguish judgment from body, rank from mobility, and permanent loss from solvable subproblems;
-- use later-life principles when they can be recreated honestly with current-era materials and knowledge;
+- use later-life principles only where current-era materials and knowledge can honestly support them;
 - search for leverage in people, institutions, money, gear, magic, technique, and time;
-- accept conservative healing constraints when violating them would lengthen the campaign;
-- optimize aggressively once the medical boundary is clear.
+- accept conservative healing constraints when breaking them would lengthen the campaign;
+- aggressively redesign roles rather than insisting on old movement patterns.
 
 This headspace is useful and dangerous.
 
-It may make Greg colder, shorter, harder to comfort, more controlling, more willing to turn relationships into logistics, and more likely to solve the wrong problem extremely well.
+It is already producing real wins:
 
-The run should not punish competence merely to prove a moral point. Some of Greg's aggressive optimization should work spectacularly.
+- Greg created a safer/faster seated anchor-test fixture at D379 and returned to paid usefulness before prosthetic maturity.
+- At D402 he accepted a crude training leg, learned current biomechanics rather than forcing future design, and discovered that one prosthetic may not need to solve every use case.
+- At D426 he regained limited prepared-site Silver field scope by redefining the role around actual risks rather than pretending to pass unrestricted two-legged criteria.
+- At D486 he completed a prepared-site field return, handled sudden danger without standing or chasing, and used force shaping as current-body geometry rather than invisible replacement anatomy.
 
-It also must not make S-class cognition equivalent to emotional wisdom.
+The headspace is also changing relationships:
+
+- Jorren has noticed Greg schedules people around work.
+- Mara has directly said Halden is starting to feel like a supply line and caught Greg trying to optimize the relationship itself.
+- Greg admitted that the command-shaped state feels familiar and that he likes that it works.
+- Kessa has noticed Greg likes when other workers stop because he gives a correct command.
+
+Do not flatten this into a lesson that command thinking is bad. It has repeatedly saved time, improved safety, restored work, and returned capability. The question is what Greg lets it own.
 
 ### Soft nudges
 
-- D350-D430: PIT. Pain, dependence, humiliation, anger, early systems thinking.
-- Roughly D390-D500: SYSTEM. Mobility and prosthetic experimentation, income strategy, altered magic and combat assumptions, increasingly visible old-S-class cognition.
-- Roughly D470-D600: ESCAPE. Real paid usefulness and field return when earned. Greg may become frighteningly effective in selected domains.
-- Later Year 2: allow overcorrection if earned. Greg may solve mobility and usefulness faster than he solves being a person around other people.
-- Final stretch: integration does not mean serenity. Keep useful S-class tools, discard or challenge survival damage only when lived experience earns that distinction.
-- Let time produce second-order accumulation. Year 1 materially reshapes Year 2.
-- Permit recognizable fantasy/adventuring pleasure: better equipment, unusual materials, higher-rank workers, dangerous jobs, ruins, monsters, role specialization, technique growth, clean competence wins.
-- Preserve ordinary life, money, food, rooms, letters, attraction, irritation, sex/affection where earned, jokes, work schedules, and mundane prosthetic annoyances.
-- Stronger party dynamics arise from repeated work and role ownership, not instant destiny-team formation.
+- Current phase is transitioning from PIT into SYSTEM / ESCAPE.
+- Let Greg's optimization continue to work often enough that giving it up would be stupid.
+- Increase fantasy/adventuring pleasure as his field role expands: ruins, materials, stronger workers, stranger contracts, tactical support, clean competence wins.
+- Preserve mundane prosthetic reality: skin, fit, sweat, repair, straps, weather, footwear, carrying, sitting, stairs, social reactions.
+- Let Greg become more individually dangerous through role redesign, timing, force shaping, weapon adaptation, and judgment rather than magical replacement of the lost leg.
+- Preserve Mara, Jorren, Noll, Kessa, Bera, Arlo, Sella, and others as independent people with their own schedules and tolerance limits.
+- Stronger party dynamics arise through repeated work and role ownership.
+- Later overcorrection is allowed if earned. Greg may become professionally more functional before he becomes relationally available.
 
 ### Explicit non-goals
 
 - Do not turn anger into one chapter of catharsis followed by healthy acceptance.
 - Do not make Greg immediately wise about disability.
 - Do not make prosthetic development a single genius invention.
-- Do not let future knowledge import mature technology wholesale. Principles may transfer; fabrication, materials, fit, medicine, and iteration remain current-world problems.
+- Do not let future knowledge import mature technology wholesale.
 - Do not make Mara Greg's nurse, reward, conscience, or recovery objective.
 - Do not make every relationship conflict prove that S-class Greg is bad.
 - Do not force Gold rank as the run endpoint.
@@ -99,20 +106,20 @@ WORD COUNT HARD?: no
 STYLE: no em dashes in story prose; planner language must not leak into reader-facing scenes
 ```
 
-## 6. Current compact state at D365
+## 6. Current compact state at D486
 
 ```text
-GREG: angry, calculating, increasingly command-shaped; deliberately treating recovery as a hostile operational problem
-MARA: in Halden with about one year left on Vey term; independently employed; wants to see Greg but cannot simply abandon work; has already supplied Halden warehouse-brace information after Greg asked
-BODY: left below-knee amputation D350; closure currently clean; knee preserved; crutches; phantom pain; right leg and hands taking new load; no socket yet
-MONEY / MATERIAL: Guild injury support and Brell pay cushion immediate fall; reduced work threatens income; ground-floor room costs extra; upstairs room temporarily retained
-WORK / OBLIGATIONS: Silver rank remains; field scope temporarily restricted; seated/static work available; concrete reassessment criteria now known
-GEAR / OBJECTS: good sword currently not in use; crutches; Kessa's notebook has become campaign book; Havel & Son warehouse hinge notes from Halden
-GEOGRAPHY / ROUTES: Lower Rook ground floor is temporary mobility base; Carrow work network active; Halden fixed at D730
-MAGIC / CAPABILITY: load/force shaping remains; new body geometry may create both losses and unexplored uses; magic may support adaptation but not erase biomechanics
-RANK / REPUTATION: Silver retained; physical scope restricted rather than rank revoked
-RELATIONSHIPS: Jorren notices Greg sounds different; Noll resists being turned into logistics while still helping; Kessa remains professionally implicated and useful; Mara recognizes operations-report Greg without surrendering her own life
-OPEN PRESSURES: heal; regain independent movement; return to paid usefulness; prototype prosthetic honestly; regain field scope; determine what S-class methods help versus deform current life; reach Halden D730
+GREG: angry but increasingly effective; old S-class cognition is now visibly back in decision-making, especially under work pressure; he likes tractable problems and command clarity
+MARA: visited Carrow at D447; relationship remains affectionate and physically current, but she objected to being treated as logistics; Greg admitted he knows and likes the old command-shaped state
+BODY: left below-knee amputation D350; healed enough for multi-hour prosthetic wear with ongoing skin limits; simple ash training leg with leather socket; uses walking staff selectively; no restored ankle
+MONEY / MATERIAL: paid bench work and prepared-site field work have resumed; injury support remains part of cushion; prosthetic iteration and dual-room period cost money
+WORK / OBLIGATIONS: Silver rank retained; limited prepared-site field clearance restored; no unrestricted road combat or unknown-terrain rapid withdrawal work yet
+GEAR / OBJECTS: good sword back in use; simple training prosthetic; short staff; Kessa notebook; anchor-test jig; Havel brace notes; evolving prosthetic sketches
+GEOGRAPHY / ROUTES: Carrow base active; Halden fixed D730; Greg has relearned local routes around current mobility and has started returning to controlled field sites
+MAGIC / CAPABILITY: force/load shaping is increasingly integrated with new body geometry; Greg deliberately trains without hidden magical compensation when fit data matters; in danger he can use planes as redirection/ramp/control rather than only protection
+RANK / REPUTATION: Silver; local workers increasingly view him as specialized prepared-site support rather than injured former field hand
+RELATIONSHIPS: Mara remains close but wary of being optimized; Jorren has felt deprioritized; Kessa trusts his professional judgment while noticing command pleasure; Bera holds authority over fit and refuses cleverness that corrupts body data
+OPEN PRESSURES: expand field usefulness without making another person responsible for his extraction; build prosthetic options around real use cases; decide how much command identity he wants back; preserve actual relationships; reach Halden in 244 days
 ```
 
 ## 7. Nudge update log
@@ -128,30 +135,32 @@ OPEN PRESSURES: heal; regain independent movement; return to paid usefulness; pr
 ## 8. Temporal residue checkpoint
 
 ```text
-FROM: D350
-TO: D365
-ELAPSED: 15 days
+FROM: D365
+TO: D486
+ELAPSED: 121 days
 OFF-PAGE / ACCUMULATED CHANGES THAT MATTER:
-- amputation closure remains clean; swelling and phantom sensations continue; Greg has moved from hospital to Lower Rook ground floor
-- Greg has reorganized the room and daily routes, started quantifying mobility, learned concrete Guild reassessment criteria, and begun researching current-world prosthetic/hinge principles with Arlo and Halden contacts
-- Mara attempted to create travel room but Vey constraints remain real; she continues working while contributing information rather than becoming caregiver
-CURRENT CONSEQUENCE: Year 2 begins with 365 days remaining and Greg explicitly treating his situation as a hole with measurable walls and routes out.
+- Greg returned to paid bench work, created a practical testing jig, and rebuilt professional value before full field return.
+- Greg progressed through multiple temporary sockets and a simple ash training leg; Bera repeatedly prevented him from corrupting fit data with magical compensation or premature mechanical complexity.
+- Greg earned limited prepared-site field clearance and has completed his first meaningful field return without recreating old movement.
+- Greg and Mara saw each other in person; affection survives, but Mara identified that Greg has begun treating Halden and correspondence as infrastructure.
+- Jorren and Kessa have independently noticed the old command-shaped Greg emerging.
+CURRENT CONSEQUENCE: the pit is no longer primarily physical incapacity. Greg is climbing out successfully. The new question is what happens because the method works so well.
 ```
 
 ## 9. Planner-only run edge
 
 ```text
-CURRENT PRESSURE: Greg can make the problem legible faster than his body can heal. He has found a headspace that works and may begin preferring it because it converts grief into action.
-WHAT CHANGED LAST: vague recovery became a concrete six-part campaign ending in Halden D730.
-WHAT REMAINS UNCERTAIN: first socket design; first meaningful conflict caused by command-shaped Greg; whether seated/static work satisfies him or intensifies impatience; how his force shaping changes with new balance and missing limb; when Mara next sees him in person.
-NEXT USEFUL QUESTION: what is the first thing Greg optimizes successfully enough to prove this headspace works, and what human cost appears beside that success?
-NEXT CLOCK MOVE: short jump into early Year 2, after stitches / initial closure progress but before a mature prosthetic.
-RELEVANT PRESSURES: anger stays alive; competence can win; body still has veto power; relationships retain independent wants.
+CURRENT PRESSURE: Greg's specialized field role now works. Success is reinforcing the exact headspace that may narrow the rest of his life.
+WHAT CHANGED LAST: on D486 Greg handled sudden danger from a seated prepared position, using current-body geometry rather than old-body imitation. Kessa noticed he enjoyed command compliance.
+WHAT REMAINS UNCERTAIN: next expansion of field scope; whether prosthetic design branches into multiple purpose-built tools; first higher-rank team contact in Year 2; whether Greg overcommits because success is addictive; what Halden itself now means to him beyond the promise.
+NEXT USEFUL QUESTION: what opportunity becomes available only because Greg is now a strange, highly competent specialist rather than a recovering generalist?
+NEXT CLOCK MOVE: advance far enough for reputation from prepared-site work to produce a qualitatively different contract.
+RELEVANT PRESSURES: competence may win cleanly; do not erase prosthetic cost; preserve relationship life; continue toward D730.
 ```
 
 ## 10. Renderer firewall
 
-Reader-facing prose receives only concrete scene state. Do not leak PIT/SYSTEM/ESCAPE labels, run constraints, authority language, or author-side diagnosis into Greg's narration.
+Reader-facing prose receives only concrete scene state. Do not leak phase labels, run constraints, authority language, or author-side diagnosis into Greg's narration.
 
 ## 11. Resume contract
 
@@ -161,7 +170,7 @@ On `continue`:
 2. read active Temporal Engine;
 3. read this file;
 4. read the latest Year 2 rehearsal edge;
-5. preserve D730 Halden meeting, permanent loss, current physical state, and active angry/S-class Year 2 pressure;
+5. preserve D730 Halden meeting, permanent loss, current physical state, and angry/S-class Year 2 pressure;
 6. let Greg's methods succeed when they genuinely should;
 7. do not ask the user to restate durable inputs.
 
