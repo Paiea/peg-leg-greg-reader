@@ -1,44 +1,49 @@
 # Audio Score v2 Chapter 006 — Verification Status
 
-Status: **BLOCKED BEFORE ASSEMBLY / NOT PUBLISHED**
+Status: **VERIFIED_UNLISTENED / READY FOR AUTHORITY PUBLICATION**
 
-## Verified from repository authority
+## Source and capture verification
 
 - Chapter: `006` — **The First Customer**
-- Spoken source: `r2/assets/audio-score/ch006.md`
+- spoken source: `r2/assets/audio-score/ch006.md`
 - Audio Score blob SHA: `660801faef0a727a50c73c2b4768e12b71780618`
-- Clean source recorded in score header: `r2/assets/written/ch006.md`
-- Recorded clean-source SHA: `2fcf88a0688365a4a1a06643d383cdc7ecd7267a`
-- Voice: `deep`
-- Effective take count: **11**
-- Take order: 01 → 11
-- Score body coverage is continuous from `Vale counted the money twice.` through `Apparently...`
-- No intentional overlap or duplicated seam text in the locked source ranges
-- Provider-facing pronunciation authority applied: `Vale` → `Vayle`; `mana` / `Mana` → `ma-na` / `Ma-na`
-- Dialogue ownership, eight-copper refund, shop/process terms, and chapter-ending ellipsis remain preserved in the locked source ranges
-- Audio Score source itself was not repaired or rewritten
+- clean source recorded in score header: `r2/assets/written/ch006.md`
+- recorded clean-source SHA: `2fcf88a0688365a4a1a06643d383cdc7ecd7267a`
+- voice: `deep`
+- preview-safe chunk count: **30**
+- provider-facing substitutions: `Vale` → `Vayle`; `mana` / `Mana` → `ma-na` / `Ma-na`
+- Audio Score repair: **none**
 
-## Provider state
+The capture workflow compared the concatenated provider-facing chunk transcripts against the complete Audio Score body after applying only the approved provider substitutions. Coverage passed exactly: no missing source material and no duplicated source range.
 
-All 11 intended takes were submitted to the `deep` renderer. Provider context IDs and returned AI Doc Maker audio references are recorded in `greg-again/audio/v2/production/006/STATUS.md`.
+## Binary verification
 
-The available voice action does not expose provider completion polling or a binary-download action. The runtime also cannot resolve `www.aidocmaker.com`, so the returned provider audio references could not be transferred into durable MP3 take files here.
+All 30 Google Storage preview MP3s were downloaded by GitHub Actions, size-checked, and parsed with `ffprobe` before assembly.
 
-I did **not** audition the generated takes and do not claim subjective cadence/pronunciation QA.
+Final listener-facing artifact:
 
-## Completion gates not yet satisfied
+`greg-again/audio/assets/v2/chapter-006.mp3`
 
-- provider audio binaries durably captured: **NO**
-- individual take playability verified: **NO**
-- final chapter MP3 assembled: **NO**
-- chapter-tail settling silence verified: **NO**
-- final listener-facing MP3 playable: **NO**
-- `greg-again/audio/v2/manifest.json` updated: **NO**
-- public `greg-again/audio/manifest.json` switched to `assets/v2/chapter-006.mp3`: **NO**
-- public route verified: **NO**
+- duration: **649.632 seconds**
+- SHA-256: `e627ac90138948b225c2d45d7537cd92b4323819bd07262c08c91737b42d9f83`
+- final tail: **2 seconds**
+- final MP3 `ffprobe`: **PASS**
 
-Current public manifest therefore remains on legacy Chapter 006 audio at `assets/chapter-006.mp3`.
+Supporting evidence:
 
-## Recovery instruction
+- `greg-again/audio/v2/verification/006/chunk-probes.tsv`
+- `greg-again/audio/v2/verification/006/SHA256SUMS`
+- `greg-again/audio/v2/verification/006/final.txt`
 
-Recover the existing 11 provider artifacts first. Do not regenerate successful synthesis merely to solve transfer plumbing. After binaries are captured, assemble Takes 01–11 exactly once in order, preserve natural internal seams, add/verify the established roughly two-second final chapter tail, audition and repair only concrete local failures, then reconcile the newest v2/public manifests and switch only Chapter 006 to `assets/v2/chapter-006.mp3`.
+## Manifest verification on claim branch
+
+- v2 manifest records Chapter 006 with `status: verified_unlistened`
+- v2 manifest preserves sibling Chapter 009
+- public manifest preserves stable Chapter 006 identity/title/lens
+- public Chapter 006 `audio_src`: `assets/v2/chapter-006.mp3`
+- public duration: **649.632**
+- public take count: **30**
+
+## Human listen-back boundary
+
+No subjective audition was performed in this worker. I do **not** claim that cadence, pronunciation, seam feel, or performance taste has received human listen-back approval. Mechanical publication verification and subjective listen-back remain separate gates.
