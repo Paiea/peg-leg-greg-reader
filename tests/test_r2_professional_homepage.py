@@ -29,6 +29,16 @@ class R2ProfessionalHomepageTests(unittest.TestCase):
         self.assertIn('assets/css/r2-home-clean.css', html)
         self.assertNotIn('class="r2-home-hero"', html)
 
+    def test_homepage_banner_gets_more_room_on_desktop_without_changing_mobile_crop(self):
+        css = ((R2 / "assets" / "css" / "r2-home-clean.css").read_text(encoding="utf-8") + "\n" +
+               (R2 / "assets" / "css" / "r2-listen-first.css").read_text(encoding="utf-8"))
+        self.assertIn("@media (min-width: 900px)", css)
+        self.assertIn("width: min(1320px, calc(100vw - 40px))", css)
+        self.assertIn(".cover-frame { max-width: none;", css)
+        self.assertIn("@media (max-width: 480px)", css)
+        self.assertIn("aspect-ratio: 4 / 3", css)
+        self.assertIn("object-position: 62% center", css)
+
     def test_homepage_prioritizes_listen_then_written_reference(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
         listen_index = html.index("Start Listening")
