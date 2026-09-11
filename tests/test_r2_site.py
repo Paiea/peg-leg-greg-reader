@@ -13,12 +13,12 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 75)])
-        self.assertEqual(project['current_chapter'], 'r2-ch074')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 119)])
+        self.assertEqual(project['current_chapter'], 'r2-ch118')
 
-    def test_public_frontier_runs_through_chapter_seventy_four(self):
+    def test_public_frontier_runs_through_chapter_one_eighteen(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
-        for number in range(1, 75):
+        for number in range(1, 119):
             chapter_id = f'r2-ch{number:03d}'
             manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
             self.assertTrue(manifest_path.exists(), chapter_id)
@@ -29,8 +29,30 @@ class R2SiteTests(unittest.TestCase):
             self.assertEqual(chapter['written']['path'], f'assets/written/ch{number:03d}.md')
             self.assertTrue((R2 / f'assets/written/ch{number:03d}.md').exists(), chapter_id)
             self.assertEqual(chapter['navigation']['previous'], None if number == 1 else f'r2-ch{number - 1:03d}')
-            self.assertEqual(chapter['navigation']['next'], None if number == 74 else f'r2-ch{number + 1:03d}')
-        self.assertNotIn('r2-ch075', project['chapters'])
+            self.assertEqual(chapter['navigation']['next'], None if number == 118 else f'r2-ch{number + 1:03d}')
+        self.assertNotIn('r2-ch119', project['chapters'])
+
+    def test_three_year_seam_landmarks_are_public(self):
+        expected = {
+            40: 'The Citizen',
+            42: 'The Correspondent',
+            43: 'The Date',
+            50: 'Blackglass',
+            62: 'Silver',
+            75: 'Three Candidates',
+            82: 'The Black Stair',
+            83: 'Home Road',
+            84: 'The Date',
+            92: 'The Third Line',
+            93: 'Brell Again',
+            96: 'Below the Knee',
+            110: 'Faultglass',
+            113: 'Take',
+            118: 'First Bell',
+        }
+        for number, title in expected.items():
+            chapter = json.loads((R2 / f'data/chapters/ch{number:03d}.json').read_text(encoding='utf-8'))
+            self.assertEqual(chapter['title'], title)
 
     def test_rebuild_titles_are_public(self):
         expected = {
@@ -56,11 +78,12 @@ class R2SiteTests(unittest.TestCase):
 
     def test_public_authority_advances_while_legacy_registry_is_archived(self):
         registry = json.loads((R2 / 'data/chapter-registry.json').read_text(encoding='utf-8'))
-        self.assertLessEqual(int(registry['current_chapter'].rsplit('ch', 1)[-1]), 74)
+        self.assertLessEqual(int(registry['current_chapter'].rsplit('ch', 1)[-1]), 118)
         self.assertTrue((R2 / 'editorial/legacy-forward/chapter-registry-pre-character-rebuild.json').exists())
         authority = (R2 / 'PUBLIC_REBUILD_AUTHORITY.md').read_text(encoding='utf-8')
-        self.assertIn('Chapter 74', authority)
+        self.assertIn('Chapter 118', authority)
         self.assertIn('40+', authority)
+        self.assertIn('three-year', authority.lower())
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
