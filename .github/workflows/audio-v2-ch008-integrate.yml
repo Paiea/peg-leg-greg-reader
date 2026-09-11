@@ -1,0 +1,31 @@
+name: Integrate Audio v2 Chapter 008
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch008-integrate
+    paths:
+      - greg-again/audio/v2/production/008/INTEGRATE_REQUEST.json
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Import Chapter 008 durable work
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin audio/v2-greg-again-ch008-auto audio-score/chapters-001-010
+          git checkout origin/audio/v2-greg-again-ch008-auto -- \
+            greg-again/audio/assets/v2/chapter-008.mp3 \
+            greg-again/audio/v2/production/008 \
+            greg-again/audio/v2/takes/008 \
+            greg-again/audio/v2/verification/008
+      - name: Verify against newest authority and reconcile manifests
+        run: python greg-again/audio/v2/production/008/publish_ch008.py
