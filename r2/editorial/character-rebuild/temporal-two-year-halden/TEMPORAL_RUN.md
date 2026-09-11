@@ -1,6 +1,6 @@
 # R2 Temporal Run — Two Years to Halden
 
-Status: **ACTIVE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
+Status: **COMPLETE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
 
 ## 1. Authority anchor
 
@@ -11,11 +11,15 @@ EXPERIMENT BRANCH: experiment/r2-temporal-two-year-halden
 EXPERIMENT FOLDER: r2/editorial/character-rebuild/temporal-two-year-halden/
 ```
 
-Current accepted edge remains Chapter 39 on main. Everything in this temporal run is speculative.
+Accepted R2 main remained authority throughout. Everything in this temporal run is speculative.
 
 ## 2. Experiment question
 
 Can R2 carry Greg and Mara through two independent years of accumulated life, including an earned permanent leg loss, then let Greg use the dangerous competence of his old S-class headspace to claw out of the resulting hole without turning recovery into an inspirational shortcut or simply restoring the man he used to be?
+
+Result: **yes as rehearsal evidence, not canon.**
+
+The run produced a coherent two-year accumulation with a major bodily discontinuity, substantial post-loss life, changed work, changed movement, changed relationships, rank/work consequences, artifact temptation, and a Halden meeting whose meaning changed without becoming a tidy resolution.
 
 ## 3. Clock
 
@@ -24,179 +28,191 @@ CLOCK SOURCE: explicit_user + immediate-conversation resolution
 CLOCK CONFIDENCE: resolved
 START: first-bell departure immediately after current Chapter 39
 HORIZON / END: 730 elapsed days
-CHECKPOINT STRATEGY: irregular lived checkpoints; year boundary is a true state rebaseline, not reset
-CURRENT CLOCK POSITION: D486 / 244 days remain
-STOP CONDITION: Greg and Mara reach the promised Halden meeting on D730 after both have lived the intervening two years independently
+CHECKPOINT STRATEGY: irregular lived checkpoints; year boundary became a true state rebaseline rather than reset
+FINAL CLOCK POSITION: D730
+STOP CONDITION: MET. Greg and Mara met at the promised stone steps outside Vey's Halden east office at first bell on the final morning of her two-year term.
 ```
 
-The meeting is fixed. Its romantic or relational outcome is not.
+The meeting remained fixed. Mara's next job and the relationship's future remained unresolved.
 
-## 4. Run constraints
+## 4. Hard constraint results
 
-### Hard constraints
+- **Halden promise:** MET on D730.
+- **Mara independence:** PRESERVED. She reached term close with three real Vey options and had not selected one merely to serve Greg.
+- **Permanent leg loss:** MET. Greg lost the lower left leg below the knee at D350 after an earned Brell bridge repair failure emerged from accumulated work, Silver rank, winter conditions, hidden scour, and professional role.
+- **No magical cure:** PRESERVED. The limb remained absent through D730. Prosthetic development stayed mechanical, bodily, iterative, and costly.
+- **Substantial post-loss runway:** MET. D350-D730 carried 380 days of recovery, sockets, crutches, two purpose-built lower legs, work redesign, field reassessment, road return, relationship consequences, and ordinary life.
+- **Halden promise not casually removed:** MET. Greg built travel buffer and reached Halden despite changed body and work.
+- **Authority boundary:** PRESERVED. Zero story authority throughout.
 
-- On D000 Greg promised Mara that on the final morning of her two-year Halden Vey term, before she commits to whatever comes next, he will meet her at the stone steps outside Vey's Halden river office.
-- Mara does not have to wait for Greg, remain romantically available, remain in love, or choose a future with him.
-- Greg permanently lost his lower left leg below the knee at D350 after the Brell bridge repair accident emerged from accumulated work, rank, geography, winter conditions, and hidden scour.
-- The loss remains permanent. No magical cure, effortless replacement, or restoration of pre-loss movement.
-- Year 2 must substantially live recovery, adaptation, changed work, changed movement, changed relationships, ordinary life, prosthetic development, and return to danger where earned.
-- The Halden promise cannot be casually abandoned, forgotten, or rescheduled to remove pressure.
-- Accepted R2 story truth remains authority. This run cannot canonize itself.
+## 5. Year 2 character result
 
-### Active Year 2 character pressure
+Greg's anger became operational rather than cathartic.
 
-Greg is pissed off and experiences the post-amputation state as a hole he intends to get out of.
+The old S-class headspace returned as a real method:
 
-His old S-class headspace has returned as a method:
+- capability / limit decomposition;
+- timeline and failure-mode thinking;
+- role redesign instead of old-body imitation;
+- aggressive information gathering;
+- willingness to use institutional and social leverage;
+- command behavior under pressure;
+- acceptance of conservative healing constraints when violating them would slow the campaign.
 
-- decompose problems into capabilities, limits, resources, routes, timelines, and failure modes;
-- demand concrete criteria rather than vague reassurance;
-- distinguish judgment from body, rank from mobility, and permanent loss from solvable subproblems;
-- use later-life principles only where current-era materials and knowledge can honestly support them;
-- search for leverage in people, institutions, money, gear, magic, technique, and time;
-- accept conservative healing constraints when breaking them would lengthen the campaign;
-- aggressively redesign roles rather than insisting on old movement patterns.
+The method repeatedly worked.
 
-This headspace is useful and dangerous.
+It returned paid usefulness before full prosthetic maturity, earned prepared-site Silver scope, created a specialized load-support role, produced known-route road clearance, and eventually made Greg useful to a Gold party as a distinct specialist rather than a weaker generalist.
 
-It is already producing real wins:
+The method also created costs:
 
-- Greg created a safer/faster seated anchor-test fixture at D379 and returned to paid usefulness before prosthetic maturity.
-- At D402 he accepted a crude training leg, learned current biomechanics rather than forcing future design, and discovered that one prosthetic may not need to solve every use case.
-- At D426 he regained limited prepared-site Silver field scope by redefining the role around actual risks rather than pretending to pass unrestricted two-legged criteria.
-- At D486 he completed a prepared-site field return, handled sudden danger without standing or chasing, and used force shaping as current-body geometry rather than invisible replacement anatomy.
+- Jorren was repeatedly scheduled around work and directly challenged Greg for forgetting ordinary commitments.
+- Mara identified that Halden and correspondence were becoming supply lines.
+- Kessa noticed Greg enjoyed command compliance.
+- Artifact temptation converted professional access into theft.
+- Hearthline canceled Greg's retainer.
+- Daro remained angry even after the artifact was returned.
 
-The headspace is also changing relationships:
+The run did not conclude that S-class cognition is bad. It concluded that it is powerful enough to become dangerous when Greg lets it define ownership, people, or every problem.
 
-- Jorren has noticed Greg schedules people around work.
-- Mara has directly said Halden is starting to feel like a supply line and caught Greg trying to optimize the relationship itself.
-- Greg admitted that the command-shaped state feels familiar and that he likes that it works.
-- Kessa has noticed Greg likes when other workers stop because he gives a correct command.
+## 6. Artifact result
 
-Do not flatten this into a lesson that command thinking is bad. It has repeatedly saved time, improved safety, restored work, and returned capability. The question is what Greg lets it own.
+The delayed artifact pressure remained dormant through multiple unrelated checkpoints before activation.
 
-### Delayed artifact pressure
+At D646 Greg encountered **Faultglass** in Orsen Harrow's private collection while working a Hearthline survey.
 
-Artifact pressure is now available to the planner, but it is deliberately **dormant**.
+Greg remembered later A-ranker Iven Marr owning the same artifact and bragging that he had bought it for fourteen copper from Harrow's estate. Greg's recognition changed that future: he disclosed that the object might be important, supervised testing proved major value, and Harrow's expected sale price rose beyond Greg's reach.
 
-- Do not introduce a unique or equation-changing artifact in the immediate next scene or next few checkpoints.
-- Let at least two substantial unrelated work / relationship / progression checkpoints happen first so the run can forget this nudge.
-- Weak artifacts may simply be useful, convenient, protective, efficient, or strange. They do not require a downside.
-- Strong artifacts should usually change the equation in a major way. Their leverage may be balanced by physical cost, magical danger, dependency, activation restrictions, ownership problems, social consequences, price, maintenance, reputation, location, or another meaningful trade.
-- The downside does not need to be symmetric, obvious, or game-like.
-- Artifacts may be expensive, cheap, hidden, misidentified, locked away, inherited, stored, being used incorrectly, or owned by someone who does not know what they possess.
-- Greg's old memory may eventually give him asymmetric information about a future-famous artifact: who had it later, why it mattered, and possibly how that person originally acquired it.
-- That knowledge may create a morally ugly opportunity. Greg may consider theft, deception, interception, manipulation, buying far below true value, or taking the object before its remembered future owner gets it.
-- Do not predetermine the artifact, owner, method, or crime. Let current events create the opportunity.
-- A major artifact should create new decision space, not merely bigger numbers. It may alter combat, work, magic, travel, money, risk, politics, reputation, relationships, or how Greg interprets the world.
-- The first major artifact must not function as a prosthetic cure or erase the leg's continuing costs.
+Faultglass properties discovered in rehearsal:
 
-This is a run-local pressure, not project-wide artifact doctrine unless separately promoted later.
+- smoke-gray viewing glass in blackened copper rim;
+- reveals physical and magical **strain**, not simple weakness;
+- heavily loaded stable structures may appear more intense than weak unloaded ones;
+- shows force pathways through structures, ward tension, active magical reinforcement, and physical load;
+- massively improves the user's ability to interpret where applied force would matter;
+- does not provide automatic understanding. Interpretation remains the real skill;
+- viewing active strain causes cumulative color wash, afterimages, headache, and temporary blind spots with longer exposure;
+- the perceptual mode is psychologically seductive because ordinary sight feels incomplete afterward.
 
-### Soft nudges
+Greg exhausted legal acquisition routes, then stole Faultglass at D695 using professional access. He recorded the act explicitly as theft rather than rescue or recovery.
 
-- Current phase is transitioning from PIT into SYSTEM / ESCAPE.
-- Let Greg's optimization continue to work often enough that giving it up would be stupid.
-- Increase fantasy/adventuring pleasure as his field role expands: ruins, materials, stronger workers, stranger contracts, tactical support, clean competence wins.
-- Preserve mundane prosthetic reality: skin, fit, sweat, repair, straps, weather, footwear, carrying, sitting, stairs, social reactions.
-- Let Greg become more individually dangerous through role redesign, timing, force shaping, weapon adaptation, and judgment rather than magical replacement of the lost leg.
-- Preserve Mara, Jorren, Noll, Kessa, Bera, Arlo, Sella, and others as independent people with their own schedules and tolerance limits.
-- Stronger party dynamics arise through repeated work and role ownership.
-- Later overcorrection is allowed if earned. Greg may become professionally more functional before he becomes relationally available.
-- When artifact pressure eventually activates, prefer strange leverage and changed choices over linear stat upgrades.
+Consequences:
 
-### Explicit non-goals
+- Hearthline canceled his retainer.
+- Daro felt personally betrayed because Hearthline access enabled the theft.
+- Harrow demanded return and compensation.
+- Greg's theft became known within his close professional circle.
 
-- Do not turn anger into one chapter of catharsis followed by healthy acceptance.
-- Do not make Greg immediately wise about disability.
-- Do not make prosthetic development a single genius invention.
-- Do not let future knowledge import mature technology wholesale.
-- Do not make Mara Greg's nurse, reward, conscience, or recovery objective.
-- Do not make every relationship conflict prove that S-class Greg is bad.
-- Do not force Gold rank as the run endpoint.
-- Do not convert the peg into a power-up that erases cost.
-- Do not surface a major artifact merely because the planner now knows artifacts are allowed.
-- Do not make every powerful artifact cursed. Some items can simply be good; the most dramatic equation-changing items are where tradeoffs become especially useful.
+Useful discovery during possession:
 
-## 5. Output / fidelity target
+Faultglass revealed that Greg's apparently flat force planes concentrated too much stress at their edges. He learned to curve and feather plane boundaries so the center carried more load with less wasted mana.
+
+That technique survived after the item left his possession.
+
+Greg returned Faultglass on D709 because the continuing legal, professional, relational, and Halden-travel costs exceeded the value of keeping it. He paid a private settlement. The return did not automatically restore Hearthline trust.
+
+Final answer to `would Greg steal it again?`: **unresolved.**
+
+This artifact therefore changed the equation without becoming a permanent loot reward or prosthetic cure.
+
+## 7. Final compact state at D730
 
 ```text
-CONFIDENCE ZONES: high-fidelity lived Year 2 scenes at meaningful clock positions
-TARGET SHAPE: chapter-sized scenes separated by consequence-bearing gaps
-WORD COUNT HARD?: no
-STYLE: no em dashes in story prose; planner language must not leak into reader-facing scenes
+GREG: materially out of the post-Brell pit but not restored to pre-loss self; angry S-class cognition integrated enough to be useful and visible; still capable of morally ugly leverage decisions
+MARA: completed two-year Halden term; has three Vey offers including Carrow and Northbank; has five days after term close to choose; relationship with Greg remains affectionate, physical, candid, and unresolved in geography
+BODY: permanent left below-knee amputation; stable enough for road travel; current prosthetic system includes a walking leg and a simpler field peg; socket/skin limits remain real
+MONEY / MATERIAL: income recovered through bench, prepared-site, Gold-specialist, and known-route work; private Harrow settlement remains two payments outstanding; artifact not owned
+WORK / OBLIGATIONS: Silver; prepared-site scope and known-route escort regained; Hearthline retainer canceled after theft; future Hearthline work conditional and Daro trust not repaired
+GEAR / OBJECTS: good sword; walking prosthetic; field peg; short staff; Kessa campaign notebook; anchor-test jig; evolving socket/plane notes; no Faultglass
+GEOGRAPHY / ROUTES: reached Halden D727 with buffer; D730 meeting completed
+MAGIC / CAPABILITY: load/force shaping now uses improved feathered-plane geometry learned through Faultglass evidence; role increasingly built around redirection, support geometry, timing, and command judgment
+RANK / REPUTATION: Silver specialist; credible to Gold workers in his niche; professional reputation complicated by artifact theft
+RELATIONSHIPS: Mara close but refuses optimization; Jorren remains friend and pushes ordinary commitments; Kessa trusts work judgment; Nesha has strong boundaries; Daro angry; Noll remains ordinary-life anchor without being turned into counselor
+OPEN PRESSURES: Mara's job choice; Hearthline/Daro repair or permanent fracture; Harrow settlement; future artifact philosophy; whether Greg continues toward Gold, deeper specialization, broader travel, or a different life shape
 ```
 
-## 6. Current compact state at D486
+## 8. Major temporal residue
+
+### D000-D305
+
+- Mara/Carrow distance became ordinary rather than one romantic absence.
+- Greg accumulated work, money, road experience, load-shaping identity, stronger contracts, and Silver eligibility.
+- Silver was earned at D305 before injury.
+
+### D341-D350
+
+- winter damage closed the already-established Brell bridge;
+- repair work followed because Greg was now qualified and well-paid enough to stay;
+- competent conservative procedure still failed when hidden scour extended beyond expected collapse geometry;
+- D350 below-knee amputation.
+
+### D350-D365
+
+- anger, dependence, crutches, ground-floor relocation, phantom sensation, money and Guild restrictions;
+- user nudge shifted Greg into explicit `GET OUT` / S-class campaign headspace.
+
+### D365-D486
+
+- paid bench usefulness;
+- anchor-test fixture;
+- iterative socket and training leg;
+- prepared-site Silver clearance;
+- Mara visit and supply-line conflict;
+- first meaningful prepared-site danger handled without old-body imitation.
+
+### D486-D620
+
+- Gold party Hearthline hired Greg specifically as a load/ward specialist;
+- second field peg established purpose-built prosthetic philosophy;
+- known-route combat clearance returned through no-chase / lane-control adaptation;
+- actual road work returned;
+- Mara received three real post-Halden job offers and Greg stated desire for Carrow without converting it into an optimization proof.
+
+### D646-D709
+
+- Faultglass recognition, valuation, theft, professional fallout, technique discovery, return, settlement.
+
+### D721-D730
+
+- Greg traveled to Halden with nine-day buffer;
+- artifact-derived feathered plane technique proved useful without the artifact during road trouble;
+- Greg reached Halden early enough to absorb delay without panic;
+- D730 promise fulfilled at first bell;
+- Mara's future remained unresolved.
+
+## 9. Useful survivors for later re-performance
+
+These are discoveries worth carrying into Future Survivor evaluation, not canon facts:
+
+1. **Mara / Halden two-year promise** as a strong long clock tied to another person's independent life rather than a quest target.
+2. **Brell causal injury chain**: established bridge + earned load role + winter scour + conservative repair + hidden collapse geometry.
+3. **Below-knee rather than above-knee loss**, preserving knee while creating major adaptation cost.
+4. **Post-loss anger becoming S-class operational cognition** instead of immediate acceptance arc.
+5. **Multiple prosthetics for different jobs** rather than one universal replacement: walking leg + simpler work peg.
+6. **No-chase combat identity**: control lanes, choose movement, redirect rather than recreate old pursuit style.
+7. **Specialist escalation**: one-legged Greg becomes valuable to stronger teams because his niche sharpens rather than despite his body.
+8. **Faultglass concept**: strong artifact that reveals strain, causes perceptual costs, changes magic understanding, and creates ownership/moral pressure.
+9. **Artifact learning surviving artifact possession**: equation change can remain even when loot does not.
+10. **D730 meeting unresolved**: promise completion without job/romance resolution.
+
+## 10. Dead / caution material
+
+- Do not canonize exact D-numbers, Harrow, Hearthline, Faultglass, Iven Marr, Gold-party names, or Mara's exact three offers without fresh re-performance against current authority.
+- Do not automatically preserve theft merely because it produced good rehearsal pressure.
+- Do not turn Faultglass into generic x-ray vision, weak-point vision, or permanent stat boost.
+- Do not flatten S-class Greg into villain mode or therapy lesson.
+- Do not make the prosthetic arc inspirational montage.
+- Do not import the full two-year calendar into canon simply because the rehearsal completed.
+
+## 11. Closeout
 
 ```text
-GREG: angry but increasingly effective; old S-class cognition is now visibly back in decision-making, especially under work pressure; he likes tractable problems and command clarity
-MARA: visited Carrow at D447; relationship remains affectionate and physically current, but she objected to being treated as logistics; Greg admitted he knows and likes the old command-shaped state
-BODY: left below-knee amputation D350; healed enough for multi-hour prosthetic wear with ongoing skin limits; simple ash training leg with leather socket; uses walking staff selectively; no restored ankle
-MONEY / MATERIAL: paid bench work and prepared-site field work have resumed; injury support remains part of cushion; prosthetic iteration and dual-room period cost money
-WORK / OBLIGATIONS: Silver rank retained; limited prepared-site field clearance restored; no unrestricted road combat or unknown-terrain rapid withdrawal work yet
-GEAR / OBJECTS: good sword back in use; simple training prosthetic; short staff; Kessa notebook; anchor-test jig; Havel brace notes; evolving prosthetic sketches
-GEOGRAPHY / ROUTES: Carrow base active; Halden fixed D730; Greg has relearned local routes around current mobility and has started returning to controlled field sites
-MAGIC / CAPABILITY: force/load shaping is increasingly integrated with new body geometry; Greg deliberately trains without hidden magical compensation when fit data matters; in danger he can use planes as redirection/ramp/control rather than only protection
-RANK / REPUTATION: Silver; local workers increasingly view him as specialized prepared-site support rather than injured former field hand
-RELATIONSHIPS: Mara remains close but wary of being optimized; Jorren has felt deprioritized; Kessa trusts his professional judgment while noticing command pleasure; Bera holds authority over fit and refuses cleverness that corrupts body data
-OPEN PRESSURES: expand field usefulness without making another person responsible for his extraction; build prosthetic options around real use cases; decide how much command identity he wants back; preserve actual relationships; reach Halden in 244 days; artifact pressure is dormant and must not surface soon
+FINAL CLOCK POSITION: D730
+STOP CONDITION MET?: yes
+HARD CONSTRAINT RESULTS: met
+USEFUL SURVIVORS: listed above
+FAILED / DEAD MATERIAL: exact speculative chronology remains quarry unless freshly re-performed
+DISCOVERIES WORTH CARRYING FORWARD: causal leg loss, S-class pit response, specialized prosthetics, role redesign, Gold specialist access, Faultglass equation-change model, unresolved Halden fulfillment
+AUTHORITY STATUS: ZERO STORY AUTHORITY / speculative rehearsal only
 ```
 
-## 7. Nudge update log
-
-```text
-- D000 NUDGE: "2 years" -> CLOCK: 730 elapsed days.
-- D000 NUDGE: meet someone in a city in two years -> HARD: Mara / Halden / final morning of Vey term.
-- D000 NUDGE: permanent leg loss must emerge naturally and leave substantial adaptation runway -> HARD: unscheduled causal loss with major post-loss life before D730.
-- D350 RESULT: Brell repair accident produced permanent below-knee left amputation through earned causal chain.
-- D365 NUDGE: "have him be pissed off... start acting in his old S class headspace. calculating. hes in a hole. pit. ideally get out of it" -> ACTIVE YEAR 2 PRESSURE: anger becomes operational; old S-class cognition returns as high-leverage problem-solving method with interpersonal and self-concept costs.
-- D486 NUDGE: "not soon... eventually i'd nudge a artifact his way... unique item that changes how he views things... almost nudge him into stealing something he knows is super valuable" -> DELAYED ARTIFACT PRESSURE: after substantial unrelated development, permit an earned equation-changing artifact opportunity, potentially activated by Greg's asymmetric future memory and morally ugly acquisition choices. Weak artifacts need no downside; stronger leverage may carry meaningful costs. Do not preselect the item or surface it soon.
-```
-
-## 8. Temporal residue checkpoint
-
-```text
-FROM: D365
-TO: D486
-ELAPSED: 121 days
-OFF-PAGE / ACCUMULATED CHANGES THAT MATTER:
-- Greg returned to paid bench work, created a practical testing jig, and rebuilt professional value before full field return.
-- Greg progressed through multiple temporary sockets and a simple ash training leg; Bera repeatedly prevented him from corrupting fit data with magical compensation or premature mechanical complexity.
-- Greg earned limited prepared-site field clearance and has completed his first meaningful field return without recreating old movement.
-- Greg and Mara saw each other in person; affection survives, but Mara identified that Greg has begun treating Halden and correspondence as infrastructure.
-- Jorren and Kessa have independently noticed the old command-shaped Greg emerging.
-CURRENT CONSEQUENCE: the pit is no longer primarily physical incapacity. Greg is climbing out successfully. The new question is what happens because the method works so well.
-```
-
-## 9. Planner-only run edge
-
-```text
-CURRENT PRESSURE: Greg's specialized field role now works. Success is reinforcing the exact headspace that may narrow the rest of his life.
-WHAT CHANGED LAST: on D486 Greg handled sudden danger from a seated prepared position, using current-body geometry rather than old-body imitation. Kessa noticed he enjoyed command compliance.
-WHAT REMAINS UNCERTAIN: next expansion of field scope; whether prosthetic design branches into multiple purpose-built tools; first higher-rank team contact in Year 2; whether Greg overcommits because success is addictive; what Halden itself now means to him beyond the promise.
-NEXT USEFUL QUESTION: what opportunity becomes available only because Greg is now a strange, highly competent specialist rather than a recovering generalist?
-NEXT CLOCK MOVE: advance far enough for reputation from prepared-site work to produce a qualitatively different contract.
-RELEVANT PRESSURES: competence may win cleanly; do not erase prosthetic cost; preserve relationship life; continue toward D730; keep artifact pressure dormant through the next substantial unrelated developments.
-```
-
-## 10. Renderer firewall
-
-Reader-facing prose receives only concrete scene state. Do not leak phase labels, run constraints, authority language, or author-side diagnosis into Greg's narration.
-
-## 11. Resume contract
-
-On `continue`:
-
-1. read newest main authority;
-2. read active Temporal Engine;
-3. read this file;
-4. read the latest Year 2 rehearsal edge;
-5. preserve D730 Halden meeting, permanent loss, current physical state, angry/S-class Year 2 pressure, and delayed artifact pressure;
-6. let Greg's methods succeed when they genuinely should;
-7. do not surface the artifact nudge merely because it exists;
-8. do not ask the user to restate durable inputs.
-
-## Authority status
-
-**ZERO STORY AUTHORITY / REHEARSAL ONLY.**
+Hand useful discoveries to `r2/FUTURE_SURVIVOR_PROTOCOL.md` only through fresh reconciliation and re-performance.
