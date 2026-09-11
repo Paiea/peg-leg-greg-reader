@@ -57,14 +57,16 @@
 
     if (chapter.audio?.status === 'published') {
       const listen = document.createElement('a');
+      listen.className = 'chapter-action-listen';
       listen.href = chapterHref(chapter.chapter_id, '#listen');
       listen.textContent = `Listen${chapter.audio.duration_seconds ? ` · ${formatDuration(chapter.audio.duration_seconds)}` : ''}`;
       availability.appendChild(listen);
     }
 
     const read = document.createElement('a');
+    read.className = 'chapter-action-read';
     read.href = chapterHref(chapter.chapter_id, '#read');
-    read.textContent = chapter.written?.status === 'published' ? 'Read' : 'Open chapter';
+    read.textContent = chapter.written?.status === 'published' ? 'Read written rendition' : 'Open chapter';
     availability.appendChild(read);
 
     article.append(meta, title, teaser, availability);
