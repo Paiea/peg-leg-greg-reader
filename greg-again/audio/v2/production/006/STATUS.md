@@ -1,6 +1,6 @@
 # Audio Score v2 Chapter 006 — Production Status
 
-Status: **PROVIDER SYNTHESIS QUEUED / ARTIFACT TRANSFER NOT YET PROVEN**
+Status: **PREVIEW-SAFE CAPTURE COMPLETE / MECHANICALLY VERIFIED**
 
 Chapter: `006` — **The First Customer**
 Claim branch: `audio/v2-greg-again-ch006-auto`
@@ -10,33 +10,38 @@ Recorded clean-source SHA: `2fcf88a0688365a4a1a06643d383cdc7ecd7267a`
 Voice: `deep`
 Score repair: **none**
 
-Provider-facing substitutions used where applicable:
+Provider-facing substitutions:
 
 - `Vale` → `Vayle`
 - `mana` / `Mana` → `ma-na` / `Ma-na`
 
-## Submitted takes
+## Final capture transaction
 
-| Take | Provider context ID | Provider audio reference | Submission status |
-| --- | --- | --- | --- |
-| 01 | `e8f9fd1163f842ee973823912d7f6711` | `https://www.aidocmaker.com/g0/audio?name=e8f9fd1163f842ee973823912d7f6711` | queued |
-| 02 | `cccc8166262e4dcf99af24536eddf854` | `https://www.aidocmaker.com/g0/audio?name=cccc8166262e4dcf99af24536eddf854` | queued |
-| 03 | `95a46c4f655a4fe7a025fc060dfbb213` | `https://www.aidocmaker.com/g0/audio?name=95a46c4f655a4fe7a025fc060dfbb213` | queued |
-| 04 | `913ac52ad0f941929a3abeb6833cb4ca` | `https://www.aidocmaker.com/g0/audio?name=913ac52ad0f941929a3abeb6833cb4ca` | queued |
-| 05 | `1eae1356d22b48d8a47f9d39957bddd1` | `https://www.aidocmaker.com/g0/audio?name=1eae1356d22b48d8a47f9d39957bddd1` | queued |
-| 06 | `46bb53f7b2e046e4af20db8c635701aa` | `https://www.aidocmaker.com/g0/audio?name=46bb53f7b2e046e4af20db8c635701aa` | queued |
-| 07 | `1aa8855be5c5430d81f21df9de708dfc` | `https://www.aidocmaker.com/g0/audio?name=1aa8855be5c5430d81f21df9de708dfc` | queued |
-| 08 | `a1ac58344a554a30936bbacac1f12d03` | `https://www.aidocmaker.com/g0/audio?name=a1ac58344a554a30936bbacac1f12d03` | queued |
-| 09 | `a328ac1091724177abf876a8e7344ef1` | `https://www.aidocmaker.com/g0/audio?name=a328ac1091724177abf876a8e7344ef1` | queued |
-| 10 | `7e3e67e3a0a94731bd3c16237f53af65` | `https://www.aidocmaker.com/g0/audio?name=7e3e67e3a0a94731bd3c16237f53af65` | queued |
-| 11 | `6a91a6ac03e541ffb13701e32f443769` | `https://www.aidocmaker.com/g0/audio?name=6a91a6ac03e541ffb13701e32f443769` | queued |
+The listener-facing v2 artifact uses the proven preview-safe capture factory:
 
-## Boundary
+**Audio Score → natural chunks ≤500 chars → `deep` → identical `transcript` + `preview_transcript` → Google Storage preview MP3 → GitHub Actions capture / ffprobe → ffmpeg stitch → 2-second settling tail.**
 
-All 11 intended score takes were submitted exactly once in order. The provider action returned context IDs and AI Doc Maker audio references, but did not expose a completion-status or binary-download action. These references must be recovered before assembly if the binaries are not otherwise accessible.
+- preview-safe chunks: **30**
+- exact capture map: `greg-again/audio/v2/production/006/capture.json`
+- durable chunk audio: `greg-again/audio/v2/takes/006/audio/chunk-01.mp3` through `chunk-30.mp3`
+- final MP3: `greg-again/audio/assets/v2/chapter-006.mp3`
+- duration: **649.632 seconds**
+- final SHA-256: `e627ac90138948b225c2d45d7537cd92b4323819bd07262c08c91737b42d9f83`
+- settling tail: **2 seconds**
 
-Do **not** regenerate these takes merely to solve downstream artifact plumbing. Preserve the claim and provider identities.
+GitHub Actions mechanically verified that the provider-facing capture transcript covers the Audio Score body exactly once after only the approved pronunciation substitutions, that all 30 chunk MP3s download and parse with `ffprobe`, and that the assembled final MP3 parses successfully.
 
-## Next action
+## Historical full-render transaction
 
-Recover the already-generated audio binaries for the 11 provider context IDs, capture them durably under the Chapter 006 v2 take path, assemble in order with the established chapter-tail silence, audition/verify, then reconcile the v2 and public manifests. Do not publish until that boundary is crossed.
+Before the preview-safe artifact boundary was identified, 11 larger full-audio requests were submitted. Their provider context IDs and AI Doc Maker references remain preserved in repository history and the original take map as historical recovery evidence.
+
+They are **not** the source of the final listener-facing Chapter 006 v2 MP3. Do not regenerate or delete them merely to normalize history.
+
+## Publication state
+
+The claim branch has reconciled the newest Audio Score authority into both manifests while preserving sibling v2 Chapter 009:
+
+- `greg-again/audio/v2/manifest.json` records Chapter 006 as `verified_unlistened`
+- `greg-again/audio/manifest.json` routes Chapter 006 to `assets/v2/chapter-006.mp3`
+
+Subjective human listen-back has **not** been performed and is intentionally not claimed here.
