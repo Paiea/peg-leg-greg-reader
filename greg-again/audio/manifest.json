@@ -34,10 +34,11 @@
       "title": "The Borrower",
       "status": "experimental",
       "lens": "greg-dominant",
-      "take_count": 12,
-      "duration_seconds": 756.984,
-      "audio_src": "assets/chapter-003.mp3",
-      "note": "Greg-dominant Chapter 3: attention gravity, selective voice breaches, and language-as-action preserve Arlo's technical ownership and Vale's binding loan terms."
+      "take_count": 30,
+      "duration_seconds": 673.104,
+      "audio_src": "assets/v2/chapter-003.mp3",
+      "note": "Audio Score v2 Chapter 3 assembled from thirty complete preview-safe deep-voice takes. Exact Audio Score order, durable preview capture, per-take MP3 playability, hashes, final assembly, and the two-second settling tail were mechanically verified; subjective human listen-back remains separate.",
+      "audio_finish": "audio-score-v2"
     },
     {
       "chapter_id": "ga-004",

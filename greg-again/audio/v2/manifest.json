@@ -21,6 +21,20 @@
       "verification": "greg-again/audio/v2/verification/001/"
     },
     {
+      "chapter_id": "ga-003",
+      "number": 3,
+      "title": "The Borrower",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch003.md",
+      "source_blob_sha": "211ed23b1bfc34f3f37144d31f91eec60fff0ab2",
+      "voice": "deep",
+      "take_count": 30,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 673.104,
+      "audio_src": "assets/v2/chapter-003.mp3",
+      "verification": "greg-again/audio/v2/verification/003/"
+    },
+    {
       "chapter_id": "ga-004",
       "number": 4,
       "title": "Thirty Days",
