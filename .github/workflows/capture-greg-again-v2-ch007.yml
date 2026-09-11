@@ -6,6 +6,10 @@ on:
       - audio/v2-greg-again-ch007-auto
   workflow_dispatch:
 
+concurrency:
+  group: audio-v2-greg-again-ch007-capture
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
