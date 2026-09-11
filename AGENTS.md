@@ -100,6 +100,8 @@ Read current manuscript/state plus `state/PLOT_CONTROL.md` and `state/OPEN_THREA
 ### Visual production
 Read `state/VISUAL_BIBLE.md` and `state/IMAGE_PRODUCTION.md`, then actual manuscript scenes and reader coverage. Coverage first; integrate only accepted art.
 
+For a creator-authorized bounded integration batch, if `state/visual/IMAGE_INTEGRATION_HANDOFF.json` exists, read it before visual discovery. Use its chapter/anchor/target mapping as the execution lookup; search only the named chapter if an anchor fails, and do not rescan the manuscript or regenerate supplied/approved art.
+
 If `state/visual/PRODUCTION_HOLD.json` says an active `structural_edit_hold`, do **not** generate new art or automatically promote approved art into reader prose. Preserve scene-candidate intent, treat chapter/title/paragraph-anchor placement as provisional, and use `state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md` after the structural edit to explicitly remap, retire, or replace drifted candidates before production resumes.
 
 ### Greg, Again Audio

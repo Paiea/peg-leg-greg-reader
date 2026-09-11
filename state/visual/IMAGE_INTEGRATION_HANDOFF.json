@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "batch_id": "definitive-pilot-001",
+  "purpose": "Cheap deterministic handoff for the already-approved five-image Definitive Edition pilot integration batch.",
+  "mapping_authority": "state/visual/GENERATION_QUEUE.json",
+  "approval_authority": "state/visual/BOUNDED_GENERATION_APPROVALS.json",
+  "integration_authorization": "Creator explicitly authorized integration of supplied existing assets for this bounded batch on 2026-09-08. This does not lift state/visual/PRODUCTION_HOLD.json for unrelated generation or promotion.",
+  "routing_rule": "Resolve these five records first. Do not rescan the manuscript, rediscover scenes, regenerate art, or inspect unrelated chapters. If an anchor fails, search only the target chapter with nearby terms.",
+  "completion_rule": "A record is integrated only when the asset exists at target_asset, the intended chapter references it at the mapped moment, required registry/approval state is current, and targeted validation finds no duplicate insertion.",
+  "items": [
+    {
+      "candidate_id": "de-ch005-player-reads-greg",
+      "chapter": 5,
+      "paragraph_anchor": "He knew I was studying him. I did not realize he was studying me.",
+      "target_asset": "visual/chapter_art/005/de-ch005-player-reads-greg-v1.webp",
+      "source_asset": "Candlelit Renaissance Gambling Game.png",
+      "source_status": "resolved_supplied_asset",
+      "source_sha256": "4e2e3dff74c989fd96f33bfd3e414ef7fbe2a31e95296e5fa83acc1feecc439a",
+      "source_dimensions": "1448x1086",
+      "prepared_asset": "de-ch005-player-reads-greg-v1.webp",
+      "prepared_asset_library_path": "/Peg-Leg Greg Image Integration/de-ch005-player-reads-greg-v1.webp",
+      "prepared_asset_sha256": "4750b61505ade88ff52274e1f58856e481b44687f9dfcea69296d6c5db09c4ed",
+      "prepared_asset_dimensions": "720x540",
+      "queue_status": "queued_and_approved",
+      "integration_status": "repo_asset_transfer_pending",
+      "next_action": "Retrieve the prepared asset by exact Library path/name, place it at target_asset, then use the normal registry/approval path and place it immediately after the mapped paragraph. Preserve all existing Chapter 5 art."
+    },
+    {
+      "candidate_id": "de-ch005-jorren-offers-hand",
+      "chapter": 5,
+      "paragraph_anchor": "Jorren offered a hand.",
+      "target_asset": "visual/chapter_art/005/de-ch005-jorren-offers-hand-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not discover or generate replacement art. Once resolved, integrate at this exact Chapter 5 anchor and preserve existing Jorren art."
+    },
+    {
+      "candidate_id": "de-ch007-antonius-reverses-frame",
+      "chapter": 7,
+      "paragraph_anchor": "Antonius stopped. Fuck. He came back and picked up the gray frame himself.",
+      "target_asset": "visual/chapter_art/007/de-ch007-antonius-reverses-frame-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not rediscover the scene. Once resolved, integrate at this exact Chapter 7 anchor and preserve existing chapter art."
+    },
+    {
+      "candidate_id": "de-ch013-arlo-one-page",
+      "chapter": 13,
+      "paragraph_anchor": "He opened the notebook to a page of readings and turned that page toward me without surrendering the rest of the notes.",
+      "target_asset": "visual/chapter_art/013/de-ch013-arlo-one-page-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not rediscover the scene. Once resolved, integrate at this exact Chapter 13 anchor and preserve existing chapter art."
+    },
+    {
+      "candidate_id": "de-ch018-hessa-covers-bowl",
+      "chapter": 18,
+      "paragraph_anchor": "Hessa reached across the table and covered the bowl with the cloth.",
+      "target_asset": "visual/chapter_art/018/de-ch018-hessa-covers-bowl-v1.webp",
+      "source_asset": null,
+      "source_status": "awaiting_source_asset",
+      "queue_status": "queued_and_approved",
+      "integration_status": "waiting_for_supplied_asset",
+      "next_action": "Resolve only the already-supplied mapped source asset. Do not rediscover the scene. Once resolved, integrate at this exact Chapter 18 anchor and preserve existing chapter art."
+    }
+  ]
+}

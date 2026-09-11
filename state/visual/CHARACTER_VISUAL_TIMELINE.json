@@ -1,0 +1,56 @@
+[
+  {
+    "character": "Greg",
+    "state_id": "greg-early-pre-amputation",
+    "chapter_start": 1,
+    "chapter_end": 18,
+    "authority": "derived_editorial_reference",
+    "canon_authority": false,
+    "evidence": [
+      "Current canon chapters 001-018 and the approved Definitive Edition early-scene pilot establish Greg before the later amputation/mobility era.",
+      "Creator visual direction on 2026-09-07: early Greg should carry some beard/fuzz rather than read clean-shaven."
+    ],
+    "appearance": {
+      "age": "nineteen",
+      "facial_hair": "light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard"
+    },
+    "body_state": {
+      "left_leg": "intact",
+      "right_leg": "intact"
+    },
+    "mobility_state": {
+      "default": "unassisted"
+    },
+    "must_not_show": [
+      "crutches",
+      "prosthesis",
+      "post-amputation left-leg state"
+    ]
+  },
+  {
+    "character": "Greg",
+    "state_id": "greg-late-prosthetic-trial",
+    "chapter_start": 496,
+    "chapter_end": 499,
+    "authority": "derived_editorial_reference",
+    "canon_authority": false,
+    "evidence": [
+      "state/editorial/rehearsal/forward/ch496-performance.md: supervised second fitting, task loading can reveal compensation hidden by rail walking, and setting the tray down remains competent behavior.",
+      "state/editorial/rehearsal/forward/ch499-performance.md: adjusted shell extends supervised wear/terrain testing while two crutches remain backup and normal mobility afterward."
+    ],
+    "appearance": {},
+    "body_state": {
+      "left_leg": "below-knee amputation, knee preserved"
+    },
+    "mobility_state": {
+      "default": "two crutches remain normal backup mobility",
+      "prosthesis": "supervised fitting/trial use only when the exact scene supports it"
+    },
+    "must_show": [
+      "crutches available as backup when the scene depicts the fitting/trial context"
+    ],
+    "must_not_show": [
+      "unearned permanent transition to prosthesis-only mobility"
+    ]
+  }
+]

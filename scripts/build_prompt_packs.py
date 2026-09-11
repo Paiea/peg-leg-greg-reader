@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -10,6 +11,8 @@ if str(ROOT) not in sys.path:
 from scripts.illustration_state import load_scene_candidates
 
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
+BOUNDED_APPROVALS_PATH = ROOT / "state" / "visual" / "BOUNDED_GENERATION_APPROVALS.json"
+VISUAL_SCENE_EVIDENCE_PATH = ROOT / "state" / "visual" / "VISUAL_SCENE_EVIDENCE.json"
 OUTPUT_DIR = ROOT / "state" / "visual" / "prompt-packs"
 
 
@@ -17,13 +20,72 @@ def prompt_pack_filename(candidate: dict) -> str:
     return f"{candidate['id']}.md"
 
 
-def _continuity_lines(candidate: dict) -> list[str]:
+def _bounded_candidates(path: Path = BOUNDED_APPROVALS_PATH) -> list[dict]:
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError("bounded generation approvals must be a JSON object")
+    if data.get("generation_approved") is not True:
+        return []
+    items = data.get("items")
+    if not isinstance(items, list):
+        raise ValueError("bounded generation approvals require an items list")
+    result: list[dict] = []
+    seen: set[str] = set()
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError("bounded generation approval items must be JSON objects")
+        candidate_id = item.get("id")
+        if not isinstance(candidate_id, str) or not candidate_id.strip():
+            raise ValueError("bounded generation approval item requires id")
+        if candidate_id in seen:
+            raise ValueError(f"duplicate bounded generation approval: {candidate_id}")
+        seen.add(candidate_id)
+        result.append(dict(item))
+    return result
+
+
+def _visual_scene_evidence(path: Path = VISUAL_SCENE_EVIDENCE_PATH) -> dict[str, dict]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list) or not all(isinstance(record, dict) for record in data):
+        raise ValueError("visual scene evidence must be a JSON list of objects")
+    result: dict[str, dict] = {}
+    for record in data:
+        candidate_id = record.get("candidate_id")
+        if not isinstance(candidate_id, str) or not candidate_id.strip():
+            raise ValueError("visual scene evidence record requires candidate_id")
+        result[candidate_id] = dict(record)
+    return result
+
+
+def _temporal_states(evidence: dict | None) -> dict[str, dict]:
+    if not isinstance(evidence, dict):
+        return {}
+    states = evidence.get("character_states")
+    if not isinstance(states, dict):
+        return {}
+    return {
+        name: state
+        for name, state in states.items()
+        if isinstance(name, str) and isinstance(state, dict)
+    }
+
+
+def _continuity_lines(candidate: dict, visual_scene_evidence: dict | None = None) -> list[str]:
     names = {name.strip().lower() for name in candidate.get("characters", [])}
     lines = ["- Preserve manuscript-established age, body, clothing, props, and setting details."]
-    if "greg" in names:
+    explicit = candidate.get("continuity_notes")
+    if isinstance(explicit, str) and explicit.strip():
+        lines.append(f"- {explicit.strip()}")
+        return lines
+    temporal_names = {name.strip().lower() for name in _temporal_states(visual_scene_evidence)}
+    if "greg" in names and "greg" not in temporal_names:
         lines.append("- Greg is nineteen, with a permanent LEFT BKA, knee preserved, right leg intact, and two crutches.")
         lines.append("- Default to above-waist / chest-up / medium framing unless this exact scene materially requires lower-body visibility.")
-    if "lyssa" in names:
+    if "lyssa" in names and "lyssa" not in temporal_names:
         lines.append("- Lyssa is a Black woman, tall relative to Greg, thin/lithe, with natural Afro-textured hair.")
     return lines
 
@@ -31,7 +93,7 @@ def _continuity_lines(candidate: dict) -> list[str]:
 def _generation_metadata(candidate: dict) -> dict:
     names = {name.strip().lower() for name in candidate.get("characters", [])}
     framing = candidate.get("framing_preference") or ("above_waist" if "greg" in names else "scene_appropriate")
-    view_angle = candidate.get("view_angle") or "choose_non_repetitive_scene_angle"
+    view_angle = candidate.get("view_angle") or candidate.get("camera_angle") or "choose_non_repetitive_scene_angle"
     pose_family = candidate.get("pose_family") or "physical_scene_action"
     scene_tags = [str(tag).strip() for tag in candidate.get("scene_tags", []) if str(tag).strip()]
     return {
@@ -42,7 +104,44 @@ def _generation_metadata(candidate: dict) -> dict:
     }
 
 
-def render_prompt_pack(candidate: dict) -> str:
+def _mapping_lines(label: str, values: dict) -> list[str]:
+    return [f"  - {label} {key}: {value}" for key, value in values.items()]
+
+
+def _temporal_character_state_lines(candidate: dict, evidence: dict | None) -> list[str]:
+    states = _temporal_states(evidence)
+    if not states:
+        return []
+    explicit = candidate.get("continuity_notes")
+    has_explicit = isinstance(explicit, str) and explicit.strip()
+    lines = ["### TEMPORAL CHARACTER STATE"]
+    for character, state in states.items():
+        state_id = state.get("state_id", "temporal-state")
+        lines.append(f"- {character}: `{state_id}`")
+        appearance = state.get("appearance")
+        if isinstance(appearance, dict):
+            lines.extend(_mapping_lines("appearance", appearance))
+        if has_explicit:
+            continue
+        body = state.get("body_state")
+        mobility = state.get("mobility_state")
+        if isinstance(body, dict):
+            lines.extend([f"  - {key}: {value}" for key, value in body.items()])
+        if isinstance(mobility, dict):
+            lines.extend([f"  - {key}: {value}" for key, value in mobility.items()])
+        must_show = state.get("must_show")
+        must_not_show = state.get("must_not_show")
+        if isinstance(must_show, list) and must_show:
+            lines.append(f"  - must show: {', '.join(str(item) for item in must_show)}")
+        if isinstance(must_not_show, list) and must_not_show:
+            lines.append(f"  - must not show: {', '.join(str(item) for item in must_not_show)}")
+    if has_explicit:
+        lines.append("- Scene-local continuity overrides temporal body/mobility fields when they conflict; temporal appearance guidance still applies unless the scene says otherwise.")
+    lines.append("- This state is derived editorial continuity guidance, not canon authority.")
+    return lines
+
+
+def render_prompt_pack(candidate: dict, visual_scene_evidence: dict | None = None) -> str:
     anchor = candidate.get("paragraph_anchor") or "No paragraph anchor recorded yet."
     characters = ", ".join(candidate.get("characters", [])) or "No required named character"
     location = candidate.get("location") or "Use manuscript-supported environment only"
@@ -93,9 +192,13 @@ def render_prompt_pack(candidate: dict) -> str:
         "### MANUSCRIPT DETAILS",
         f"Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: {candidate['visual_hook']}",
         "",
-        "### CONTINUITY",
     ]
-    lines.extend(_continuity_lines(candidate))
+    temporal_lines = _temporal_character_state_lines(candidate, visual_scene_evidence)
+    if temporal_lines:
+        lines.extend(temporal_lines)
+        lines.append("")
+    lines.append("### CONTINUITY")
+    lines.extend(_continuity_lines(candidate, visual_scene_evidence))
     lines.extend(
         [
             "",
@@ -115,10 +218,21 @@ def render_prompt_pack(candidate: dict) -> str:
 
 def main() -> None:
     candidates = load_scene_candidates(CANDIDATES_PATH)
+    merged = {
+        candidate["id"]: dict(candidate)
+        for candidate in candidates
+        if isinstance(candidate, dict) and isinstance(candidate.get("id"), str)
+    }
+    for candidate in _bounded_candidates():
+        merged[candidate["id"]] = candidate
+    scene_evidence = _visual_scene_evidence()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     wanted = {
-        prompt_pack_filename(candidate): render_prompt_pack(candidate)
-        for candidate in candidates
+        prompt_pack_filename(candidate): render_prompt_pack(
+            candidate,
+            visual_scene_evidence=scene_evidence.get(candidate["id"]),
+        )
+        for candidate in merged.values()
         if candidate.get("status") in {"candidate", "prompt_ready"}
     }
 

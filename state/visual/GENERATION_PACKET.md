@@ -1,2 +1,155 @@
 # PEG-LEG GREG — GENERATION PACKET
 
+## Chapter 007 — THE BUYER
+- Candidate: de-ch007-antonius-reverses-frame
+- Coverage before: 1
+- Priority: high
+- Style family: sketch-ink-paint
+- Framing preference: above_waist
+- Visual hook: Catch the reversal in motion: Antonius in rolled sleeves and dirty work clothes has turned back from the discard direction and is taking or lifting the small gray Tere frame himself while Greg watches beside the open wooden box. Keep a broom, cluttered shelves, and visible keep/discard work in the composition so the object's sudden reclassification reads physically.
+- Scene summary: Antonius is physically cleaning and sorting his storeroom when Greg blurts that the gray Tere reference set may be extremely valuable. Antonius has been carrying the object toward discard. Greg's claim makes him stop, come back, and pick up the gray frame himself, changing the object's category through action before the negotiation continues.
+- Characters: Greg, Antonius
+- Location: Antonius storeroom
+- Mood: working, alert, dryly transactional
+- Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/007/Ch007_Storeroom-Crates.jpg"]
+- Selected character references: []
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
+- Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Ch007 art for Antonius/environment continuity only. Do not copy the old composition.
+- Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep Greg above waist because lower-body state is not needed. Antonius is actively doing dirty storeroom labor with sleeves rolled and a broom; do not turn the scene into a static merchant portrait.
+- Prompt pack: state/visual/prompt-packs/de-ch007-antonius-reverses-frame.md
+- Target asset: visual/chapter_art/007/de-ch007-antonius-reverses-frame-v1.webp
+- Evidence condition: prose_temporal_performance
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
+- PERFORMANCE visual reference: fresh derived editorial evidence; use for blocking/action/props only, never as canon authority.
+- PERFORMANCE archive: state/editorial/performance-roundtrip/007
+- PERFORMANCE active task: Antonius is cleaning and sorting the storeroom while Greg evaluates a gray Tere reference set.
+- PERFORMANCE props: gray Tere reference set, wooden box, keep shelf, name scrap, broom
+- PERFORMANCE physical beats:
+  - Antonius initially treats the box as cleanup debris and keeps moving toward discard.
+  - Greg's value claim makes Antonius stop, return, and pick up the frame himself.
+  - Antonius places the frame on the keep shelf and writes Greg's name beneath it.
+  - Antonius ends the negotiation physically by returning to the broom.
+
+## Chapter 013 — THE STUDENT
+- Candidate: de-ch013-arlo-one-page
+- Coverage before: 2
+- Priority: high
+- Style family: sketch-ink-paint
+- Framing preference: above_waist
+- Visual hook: A workbench composition built around controlled access: Arlo keeps most of the notebook under his hand or close to his body while rotating one page toward Greg. A cracked failed regulator sits between them, with the ugly testing fixture visible on the shelf behind. The gesture must read as sharing evidence without giving away ownership.
+- Scene summary: Arlo has spent two days isolating measurement and process variables in the regulator work. He protects ownership of his process by pulling the notebook toward himself, places a ruined regulator between them as evidence of failed iteration, then turns only the relevant page of readings toward Greg without surrendering the rest of the notebook.
+- Characters: Greg, Arlo
+- Location: Arlo workshop
+- Mood: technical, guarded, collaborative
+- Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/013/v28_c13_s01_dont-touch-them.png", "visual/chapter_art/013/v28_c13_s02_the-ugly-fixture.png"]
+- Selected character references: []
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
+- Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Ch013 art for Arlo/workshop/object continuity only. Do not copy the old compositions.
+- Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the composition above waist and hand-focused. Preserve Arlo as the owner of the notebook and process; Greg is receiving a bounded view, not taking the notebook.
+- Prompt pack: state/visual/prompt-packs/de-ch013-arlo-one-page.md
+- Target asset: visual/chapter_art/013/de-ch013-arlo-one-page-v1.webp
+- Evidence condition: prose_temporal_performance
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
+- PERFORMANCE visual reference: fresh derived editorial evidence; use for blocking/action/props only, never as canon authority.
+- PERFORMANCE archive: state/editorial/performance-roundtrip/013
+- PERFORMANCE active task: Arlo is testing regulators and showing only the process evidence needed to explain a two-day result.
+- PERFORMANCE props: six regulators, Tere reference set, wooden testing fixture, notebook, cracked regulator, spool, string, hanging weight
+- PERFORMANCE physical beats:
+  - Arlo shelves the testing fixture to end Greg's demand for another run.
+  - Arlo pulls the notebook closer to protect process ownership.
+  - Arlo puts a cracked failed regulator between them and later reveals only the relevant notebook page.
+  - Arlo points Greg to the crude stick, spool, string, and hanging-weight tension control.
+  - Arlo laughs once at Greg's tensioner joke, then returns to the next regulator instead of extending the bit.
+
+## Chapter 018 — THE EXPERIMENTER
+- Candidate: de-ch018-hessa-covers-bowl
+- Coverage before: 2
+- Priority: high
+- Style family: sketch-ink-paint
+- Framing preference: above_waist
+- Visual hook: A close table-level action frame as Hessa reaches across and pulls or settles the cloth over the bowl of white beans. Greg is leaning toward the work, ready to continue, while Hessa's simple hand movement ends the experiment. Scattered or transferred beans and the second bowl can make the nineteen-cast process feel lived rather than symbolic.
+- Scene summary: Greg becomes absorbed in the Barrier bean exercise and wants another attempt. Hessa has been counting the casts and owns the exercise boundary. At nineteen casts she reaches across the table and covers the bowl with the cloth, physically ending Greg's access even though his interest is accelerating.
+- Characters: Greg, Hessa
+- Location: Hessa's rooms at the teaching table
+- Mood: focused, controlled, quietly comic
+- Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/018/v28_c18_s14_hessa-has-beans.png", "visual/chapter_art/018/v28_c18_s15_the-cup.png"]
+- Selected character references: []
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
+- Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Ch018 art for Hessa/room/prop continuity only. Do not copy the old compositions.
+- Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Center the image on Hessa's active hand, the cloth, bowl, and Greg's forward interest. Hessa controls the exercise and ends access; do not make Greg the physical driver of the frame.
+- Prompt pack: state/visual/prompt-packs/de-ch018-hessa-covers-bowl.md
+- Target asset: visual/chapter_art/018/de-ch018-hessa-covers-bowl-v1.webp
+- Evidence condition: prose_temporal_performance
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
+- PERFORMANCE visual reference: fresh derived editorial evidence; use for blocking/action/props only, never as canon authority.
+- PERFORMANCE archive: state/editorial/performance-roundtrip/018
+- PERFORMANCE active task: Hessa runs a bounded Barrier bean exercise while Greg tries to turn a narrow result into a larger theory.
+- PERFORMANCE props: table, bowl of beans, empty bowl, cloth
+- PERFORMANCE physical beats:
+  - Hessa replaces the first fallen bean with a fresh one before Greg can retrieve it.
+  - Hessa stops supplying new beans when Greg finally pauses on his own.
+  - Hessa taps the bean to redirect Greg from Barrier theory back to the exercise.
+  - Hessa ends access to further attempts by covering the bowl with the cloth.
+  - Hessa states the nineteen-cast count and leaves the bowl covered.
+
+## Chapter 005 — THE WARRIOR
+- Candidate: de-ch005-jorren-offers-hand
+- Coverage before: 3
+- Priority: high
+- Style family: sketch-ink-paint
+- Framing preference: full_body_scene_required
+- Visual hook: A low or three-quarter practice-yard frame with Greg down in the sand, winded rather than defeated, and Jorren standing over him with one hand offered and a blunted practice sword controlled in the other. The visual story is the intact young body failing to keep up with old expertise, not a heroic win pose.
+- Scene summary: Greg sees the correct response but his Bronze-conditioned nineteen-year-old body cannot execute at the speed his old knowledge expects. His foot drags half a beat behind the decision, Jorren drops him into the warm practice-yard sand, and Jorren offers a hand while Greg processes the gap between knowledge and body.
+- Characters: Greg, Jorren
+- Location: guild practice yard with sand training lanes
+- Mood: winded, humbling, physically alive
+- Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp", "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png"]
+- Selected character references: []
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
+- Reference selection rationale: Explicit scene-era references: Book I Warrior for early Greg identity; current Jorren art for Jorren identity only. Do not copy the old composition.
+- Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required because his intact but underconditioned legs, fatigue, and fall are story information. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.
+- Prompt pack: state/visual/prompt-packs/de-ch005-jorren-offers-hand.md
+- Target asset: visual/chapter_art/005/de-ch005-jorren-offers-hand-v1.webp
+- Evidence condition: prose_temporal
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
+
+## Chapter 005 — THE WARRIOR
+- Candidate: de-ch005-player-reads-greg
+- Coverage before: 3
+- Priority: high
+- Style family: sketch-ink-paint
+- Framing preference: above_waist
+- Visual hook: A tight, reciprocal card-table composition: Greg watches the unnamed player's mouth and face for a tell while the other player quietly watches Greg in return. Cards and money establish the table, but the image's real subject is two-way observation and Greg failing to notice that he has become readable.
+- Scene summary: At a higher-stakes gambling table, Greg believes he is close to decoding the unnamed player across from him by a twitch near the man's mouth. The player has already recognized Greg's scrutiny and is studying Greg back, turning Greg's observational confidence into the blind spot that costs him.
+- Characters: Greg
+- Location: higher-stakes private gambling table in Carrow
+- Mood: tense, self-deceiving, quietly predatory
+- Character reference assets: ["assets/book-role-cards/book-i-warrior-005.webp"]
+- Selected character references: []
+- Character appearance notes: {"Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."}
+- Reference selection rationale: Explicit scene-era reference: Book I Warrior for early Greg identity. The opposing player is unnamed and must not receive invented canon identity.
+- Continuity notes: Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the frame above waist because lower-body state is not the point. The image must communicate reciprocal scrutiny and Greg's blind spot, not generic gambling competence.
+- Prompt pack: state/visual/prompt-packs/de-ch005-player-reads-greg.md
+- Target asset: visual/chapter_art/005/de-ch005-player-reads-greg-v1.webp
+- Evidence condition: prose_temporal
+- TEMPORAL Greg: greg-early-pre-amputation
+  - appearance: age: nineteen; facial_hair: light beard/stubble/fuzz; visibly not clean-shaven, but not a full mature beard
+  - body: left_leg: intact; right_leg: intact
+  - mobility: default: unassisted
+  - must not show: crutches, prosthesis, post-amputation left-leg state
