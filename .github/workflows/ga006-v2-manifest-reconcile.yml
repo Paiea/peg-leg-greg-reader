@@ -12,15 +12,38 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: audio/v2-greg-again-ch006-auto
-          fetch-depth: 1
+          fetch-depth: 0
 
-      - name: Reconcile from newest Audio Score authority
+      - name: Merge newest Audio Score authority and reconcile Chapter 006
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin audio-score/chapters-001-010 --depth=1
-          git show FETCH_HEAD:greg-again/audio/v2/manifest.json > /tmp/v2.json
-          git show FETCH_HEAD:greg-again/audio/manifest.json > /tmp/public.json
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin audio-score/chapters-001-010
+          base=origin/audio-score/chapters-001-010
+
+          set +e
+          git merge --no-commit --no-ff "$base"
+          merge_rc=$?
+          set -e
+          if [ "$merge_rc" -ne 0 ]; then
+            mapfile -t conflicts < <(git diff --name-only --diff-filter=U)
+            printf 'conflict=%s\n' "${conflicts[@]}"
+            for path in "${conflicts[@]}"; do
+              case "$path" in
+                greg-again/audio/v2/manifest.json|greg-again/audio/manifest.json)
+                  git checkout --theirs -- "$path"
+                  git add "$path"
+                  ;;
+                *)
+                  echo "Unexpected merge conflict: $path" >&2
+                  exit 1
+                  ;;
+              esac
+            done
+          fi
+
           test -s greg-again/audio/assets/v2/chapter-006.mp3
           test -s greg-again/audio/v2/verification/006/final.txt
 
@@ -37,7 +60,8 @@ jobs:
           assert final['source_blob_sha'] == '660801faef0a727a50c73c2b4768e12b71780618'
           duration = float(final['final_duration_seconds'])
 
-          v2 = json.loads(Path('/tmp/v2.json').read_text())
+          v2_path = Path('greg-again/audio/v2/manifest.json')
+          v2 = json.loads(v2_path.read_text())
           entry = {
               'chapter_id': 'ga-006',
               'number': 6,
@@ -54,9 +78,10 @@ jobs:
           chapters = [c for c in v2.get('chapters', []) if c.get('number') != 6]
           chapters.append(entry)
           v2['chapters'] = sorted(chapters, key=lambda c: c['number'])
-          Path('greg-again/audio/v2/manifest.json').write_text(json.dumps(v2, indent=2) + '\n')
+          v2_path.write_text(json.dumps(v2, indent=2) + '\n')
 
-          public = json.loads(Path('/tmp/public.json').read_text())
+          public_path = Path('greg-again/audio/manifest.json')
+          public = json.loads(public_path.read_text())
           matches = [c for c in public['chapters'] if c.get('number') == 6]
           assert len(matches) == 1
           c = matches[0]
@@ -67,30 +92,26 @@ jobs:
           c['duration_seconds'] = duration
           c['audio_src'] = 'assets/v2/chapter-006.mp3'
           c['note'] = ('Audio Score v2 Chapter 6 from the exact audio-native score. Thirty preview-safe deep-voice takes preserve the dyehouse failure chain, Ivena and Arlo\'s agency, Greg\'s tiny barrier, and the customer terms. Exact score coverage, ordered capture, MP3 playability, hashes, and the two-second settling tail were mechanically verified; subjective human listen-back remains separate.')
-          Path('greg-again/audio/manifest.json').write_text(json.dumps(public, indent=2) + '\n')
+          public_path.write_text(json.dumps(public, indent=2) + '\n')
 
-          # Publication assertions.
-          v2_check = json.loads(Path('greg-again/audio/v2/manifest.json').read_text())
-          pub_check = json.loads(Path('greg-again/audio/manifest.json').read_text())
+          v2_check = json.loads(v2_path.read_text())
+          pub_check = json.loads(public_path.read_text())
           e = next(c for c in v2_check['chapters'] if c['number'] == 6)
           p = next(c for c in pub_check['chapters'] if c['number'] == 6)
-          assert e['audio_src'] == 'assets/v2/chapter-006.mp3'
-          assert p['audio_src'] == 'assets/v2/chapter-006.mp3'
+          assert e['audio_src'] == p['audio_src'] == 'assets/v2/chapter-006.mp3'
           assert e['take_count'] == p['take_count'] == 30
           assert abs(e['duration_seconds'] - duration) < 0.001
           assert abs(p['duration_seconds'] - duration) < 0.001
+          print('v2_numbers=' + ','.join(str(c['number']) for c in v2_check['chapters']))
           print(f'chapter006_route={p["audio_src"]}')
           print(f'duration={duration}')
-          print(f'preserved_v2_siblings={len(v2_check["chapters"])-1}')
           PY
 
-      - name: Commit manifest reconciliation
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add greg-again/audio/v2/manifest.json greg-again/audio/manifest.json
           git diff --cached --check
-          git commit -m 'Publish Audio Score v2 Chapter 006 manifests'
+          if git rev-parse -q --verify MERGE_HEAD >/dev/null; then
+            git commit -m 'Reconcile Chapter 006 with latest Audio Score authority'
+          elif ! git diff --cached --quiet; then
+            git commit -m 'Reconcile Chapter 006 manifests with latest authority'
+          fi
           git push origin HEAD:audio/v2-greg-again-ch006-auto
