@@ -1,6 +1,6 @@
 # Midwinter Approach Temporal Run
 
-Status: **ACTIVE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
+Status: **COMPLETE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
 
 ## Authority anchor
 
@@ -11,8 +11,11 @@ Public R2 authority remains the selected Chapter 118 chronology on `main`; unrel
 ## Clock
 
 START: D329
+END: D406
+ELAPSED: 77 days
 TARGET STOP: first midwinter Far Lantern attachment, approximately D400-D410
 EARLY STOP: genuinely irreversible event that deserves a block boundary
+STOP CONDITION: met at D406 as the midwinter attachment begins
 
 ## Active pressures
 
@@ -58,3 +61,5 @@ The local scene planner should not answer these every chapter.
 ## Stop condition
 
 Stop at the first midwinter Far Lantern attachment or an earlier irreversible boundary, then return control for calibration.
+
+Completed at D406. See `CLOSEOUT.md` for surviving rehearsal shape.
