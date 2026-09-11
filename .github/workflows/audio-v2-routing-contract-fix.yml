@@ -1,0 +1,58 @@
+name: Update audio routing contract for v2 migration
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch008-integrate
+    paths:
+      - greg-again/audio/v2/production/008/ROUTING_CONTRACT_FIX_REQUEST.json
+
+permissions:
+  contents: write
+
+jobs:
+  patch-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make stable identity contract v2-aware
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('tests/test_greg_again_audio_catalog.py')
+          text = path.read_text()
+          old = '''        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
+        chapters = manifest["chapters"]
+        by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
+        for number in range(1, 15):
+            chapter_id = f"ga-{number:03d}"
+            self.assertIn(chapter_id, by_id)
+            self.assertEqual(number, by_id[chapter_id]["number"])
+            self.assertEqual(f"assets/chapter-{number:03d}.mp3", by_id[chapter_id]["audio_src"])
+'''
+          new = '''        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        v2_manifest = json.loads((AUDIO_ROOT / "v2/manifest.json").read_text(encoding="utf-8"))
+        v2_numbers = {chapter["number"] for chapter in v2_manifest.get("chapters", [])}
+        self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
+        chapters = manifest["chapters"]
+        by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
+        for number in range(1, 15):
+            chapter_id = f"ga-{number:03d}"
+            self.assertIn(chapter_id, by_id)
+            self.assertEqual(number, by_id[chapter_id]["number"])
+            generation = "v2/" if number in v2_numbers else ""
+            self.assertEqual(f"assets/{generation}chapter-{number:03d}.mp3", by_id[chapter_id]["audio_src"])
+'''
+          if old not in text:
+              raise SystemExit('Expected stable-identity test block not found; refusing broad edit')
+          path.write_text(text.replace(old, new, 1))
+          PY
+          python -m unittest tests.test_greg_again_audio_catalog.GregAgainAudioCatalogTest.test_catalog_uses_stable_chapter_identity -v
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tests/test_greg_again_audio_catalog.py
+          git commit -m "Make audio catalog identity test v2-aware"
+          git push
