@@ -1,0 +1,4 @@
+{
+  "chapter": 8,
+  "reason": "Audio Score v2 migrates verified chapters independently; stable identity test must derive v1/v2 route from v2 completion registry."
+}
