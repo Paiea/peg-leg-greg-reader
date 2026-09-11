@@ -36,6 +36,15 @@ class R2AudioLibraryTests(unittest.TestCase):
         self.assertIn('.chapter-card', css)
         self.assertIn('.listen-warning', css)
 
+    def test_desktop_hero_separates_copy_from_art_while_mobile_keeps_overlay(self):
+        css = (AUDIO / 'audio-front-door.css').read_text(encoding='utf-8')
+        self.assertIn('@media (min-width: 761px)', css)
+        self.assertIn('inset: 0 0 0 38%', css)
+        self.assertIn('width: 62%', css)
+        self.assertIn('width: 38%', css)
+        self.assertIn('@media (max-width: 760px)', css)
+        self.assertIn('inset: auto 0 0', css)
+
 
 if __name__ == '__main__':
     unittest.main()
