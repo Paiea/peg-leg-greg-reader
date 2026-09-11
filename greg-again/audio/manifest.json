@@ -103,11 +103,11 @@
       "title": "The Bridge",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 12,
-      "duration_seconds": 671.352,
-      "audio_src": "assets/chapter-009.mp3",
-      "note": "Chapter 9 preserves future-memory uncertainty and rescue load direction. Twelve short provider-safe takes keep the remembered stone bridge distinct from the present wooden crossing while preserving action ownership and Greg's under-load angle correction."
+      "audio_finish": "audio-score-v2",
+      "take_count": 23,
+      "duration_seconds": 519.432,
+      "audio_src": "assets/v2/chapter-009.mp3",
+      "note": "Audio Score v2 Chapter 9 from the exact audio-native score. Twenty-three preview-safe deep-voice takes preserve future-memory uncertainty, rescue load direction, and Greg correcting the brace angle under load. Exact score coverage, ordered capture, MP3 playability, and the chapter settling tail were mechanically verified; subjective human listen-back remains separate."
     },
     {
       "chapter_id": "ga-010",
