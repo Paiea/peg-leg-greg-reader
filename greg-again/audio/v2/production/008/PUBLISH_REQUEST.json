@@ -1,5 +1,6 @@
 {
   "chapter": 8,
+  "request_version": 2,
   "requested_from_claim_head": "f322d92c245f53c41cf518a5da04bbbaa854a6ff",
   "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
   "expected_chunks": 20,
