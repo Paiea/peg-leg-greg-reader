@@ -18,8 +18,8 @@
       <span class="brand-run">R2</span>
     </a>
     <nav class="site-nav" aria-label="Primary">
-      <a class="nav-listen" href="../greg-again/audio/">Audio</a>
-      <a href="chapters/">Chapters</a>
+      <a class="nav-listen" href="../greg-again/audio/">Listen</a>
+      <a href="chapters/">Written</a>
       <a href="about/">About</a>
       <a href="../index.html">Run 1</a>
     </nav>
@@ -28,20 +28,24 @@
   <main id="main" class="home-main">
     <h1 class="sr-only">Peg-Leg Greg, R2</h1>
 
-    <section class="cover-section" aria-label="Peg-Leg Greg cover">
+    <section class="cover-section" aria-label="Peg-Leg Greg R2">
       <div class="cover-frame">
-        <picture>
-          <source media="(max-width: 760px)" srcset="assets/images/r2-cover-portrait.webp">
-          <img src="assets/images/r2-cover-wide.webp" alt="Peg-Leg Greg R2 cover art showing a young, intense Greg in the gritty streets of Carrow with integrated title typography.">
-        </picture>
+        <img
+          src="assets/images/Home.png"
+          alt="Peg-Leg Greg R2 artwork overlooking Carrow."
+          onerror="this.onerror=null;this.src='assets/images/r2-cover-wide.webp';">
       </div>
 
       <div class="entry-panel">
         <p class="entry-kicker">A second life. A second run.</p>
-        <p class="entry-blurb">R2 is a story built to be heard first. Start with the audio chapter shelf, then use the written version whenever you want to check a line, a name, or a detail.</p>
+        <p class="entry-blurb">R2 is built to be heard first. Put on headphones, start with the audio shelf, and use the written rendition when you want to check a line, name, or detail.</p>
+        <div class="listen-first-stamp" role="note">
+          <strong>LISTEN FIRST</strong>
+          <span>Reading available. Listening is the point.</span>
+        </div>
         <div class="entry-actions">
           <a class="button button-primary" href="../greg-again/audio/" id="hero-listen">▶ Start Listening</a>
-          <a id="hero-read" class="button" href="chapters/">Start Reading</a>
+          <a id="hero-read" class="text-link entry-read-link" href="chapters/">Written rendition →</a>
         </div>
         <p id="availability-summary" class="availability-summary">Loading chapter availability…</p>
       </div>
@@ -51,9 +55,9 @@
       <div class="listening-feature-copy">
         <p class="eyebrow">Listening edition</p>
         <h2 id="listen-feature-title">The audio shelf is the front door.</h2>
-        <p>Every available chapter lives together on one clean page, in order, ready to play. No setup, no production notes, no extra ceremony.</p>
+        <p>Every available audio chapter lives together on one page, in order, ready to play. Resume where you stopped or start from the beginning.</p>
       </div>
-      <a class="button button-primary listening-feature-action" href="../greg-again/audio/">Open the listening edition →</a>
+      <a class="button button-primary listening-feature-action" href="../greg-again/audio/">Open the Audio Library →</a>
     </section>
 
     <section class="shelf-section" aria-labelledby="current-title">
@@ -68,17 +72,13 @@
       </article>
     </section>
 
-    <section class="shelf-section" aria-labelledby="chapters-title">
-      <div class="section-heading with-link">
-        <div>
-          <p class="eyebrow">Reference shelf</p>
-          <h2 id="chapters-title">Written chapters</h2>
-        </div>
-        <a class="text-link" href="chapters/">All chapters →</a>
+    <section class="written-reference" aria-labelledby="written-reference-title">
+      <div>
+        <p class="eyebrow">Written reference</p>
+        <h2 id="written-reference-title">Want the prose instead?</h2>
+        <p>The written rendition is still here. It is one intentional click away, then it gets out of your way and lets you read normally.</p>
       </div>
-      <div id="chapter-list" class="chapter-list">
-        <p class="loading-note">Loading chapters…</p>
-      </div>
+      <a class="text-link written-reference-link" href="chapters/">Browse written chapters →</a>
     </section>
 
     <section class="lineage-strip" aria-labelledby="lineage-title">
