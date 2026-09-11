@@ -1,0 +1,26 @@
+{
+  "chapter": 8,
+  "source": "r2/assets/audio-score/ch008.md",
+  "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
+  "chunk_count": 20,
+  "source_body_reconstructed_exactly_once": true,
+  "all_provider_chunks_preview_safe": true,
+  "all_preview_urls_google_storage": true,
+  "unique_preview_urls": true,
+  "provider_alias_chunks": [
+    10,
+    17
+  ],
+  "provider_aliases": [
+    "Mana -> Ma-na",
+    "mana -> ma-na"
+  ],
+  "all_chunks_ffprobe_valid": true,
+  "assembly_order_verified": true,
+  "final_asset_exists": true,
+  "final_duration_seconds": 535.8,
+  "settling_tail_seconds_target": 2.0,
+  "human_listen_back_performed": false,
+  "subjective_audio_quality_claimed": false,
+  "status": "objectively_verified_unlistened"
+}
