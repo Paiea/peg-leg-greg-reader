@@ -11,6 +11,8 @@ R2_ROOT = ROOT / "r2"
 class GregAgainAudioCatalogTest(unittest.TestCase):
     def test_catalog_uses_stable_chapter_identity(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        v2_manifest = json.loads((AUDIO_ROOT / "v2/manifest.json").read_text(encoding="utf-8"))
+        v2_numbers = {chapter["number"] for chapter in v2_manifest.get("chapters", [])}
         self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
         chapters = manifest["chapters"]
         by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
@@ -18,7 +20,8 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
             chapter_id = f"ga-{number:03d}"
             self.assertIn(chapter_id, by_id)
             self.assertEqual(number, by_id[chapter_id]["number"])
-            self.assertEqual(f"assets/chapter-{number:03d}.mp3", by_id[chapter_id]["audio_src"])
+            generation = "v2/" if number in v2_numbers else ""
+            self.assertEqual(f"assets/{generation}chapter-{number:03d}.mp3", by_id[chapter_id]["audio_src"])
         self.assertEqual("greg-dominant", by_id["ga-002"]["lens"])
         self.assertEqual("greg-dominant", by_id["ga-003"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-004"]["lens"])
