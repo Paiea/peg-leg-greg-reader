@@ -47,3 +47,5 @@ Supporting evidence:
 ## Human listen-back boundary
 
 No subjective audition was performed in this worker. I do **not** claim that cadence, pronunciation, seam feel, or performance taste has received human listen-back approval. Mechanical publication verification and subjective listen-back remain separate gates.
+
+Exact remaining publication action: merge PR #293 into the current `audio-score/chapters-001-010` authority after confirming the PR is conflict-free against the latest base, then verify the asset and both manifest routes on that authority.
