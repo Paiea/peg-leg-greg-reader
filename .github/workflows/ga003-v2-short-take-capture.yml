@@ -25,7 +25,6 @@ jobs:
           python3 - <<'PY'
           import json, subprocess
           from pathlib import Path
-
           p = Path('greg-again/audio/v2/takes/003/short-takes.json')
           data = json.loads(p.read_text())
           assert data['chapter'] == 3
@@ -80,24 +79,19 @@ jobs:
           python3 - <<'PY'
           import hashlib, json, subprocess
           from pathlib import Path
-
           take_path=Path('greg-again/audio/v2/takes/003/short-takes.json')
           data=json.loads(take_path.read_text())
           component=0.0
           for t in data['takes']:
               p=Path(f"greg-again/audio/assets/v2/chunks/003-short/{t['order']:02d}.mp3")
-              duration=float(subprocess.check_output([
-                  'ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(p)
-              ], text=True).strip())
+              duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(p)], text=True).strip())
               t['durable_file']=str(p)
               t['byte_size']=p.stat().st_size
               t['audio_sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
               t['duration_seconds']=round(duration,3)
               component += duration
           final=Path('greg-again/audio/assets/v2/chapter-003.mp3')
-          final_duration=float(subprocess.check_output([
-              'ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(final)
-          ], text=True).strip())
+          final_duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(final)], text=True).strip())
           data['status']='durable_takes_verified_and_assembled'
           data['component_duration_seconds']=round(component,3)
           data['final_asset']=str(final)
@@ -106,27 +100,29 @@ jobs:
           data['final_duration_seconds']=round(final_duration,3)
           data['settling_tail_seconds']=2.0
           take_path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
-
           v=Path('greg-again/audio/v2/verification/003/assembly.md')
           v.parent.mkdir(parents=True,exist_ok=True)
-          v.write_text(f'''# Audio Score v2 Chapter 003 assembly verification
-
-- Chapter: `003` / `The Borrower`
-- Source: `r2/assets/audio-score/ch003.md`
-- Source blob SHA: `{data['source_blob_sha']}`
-- Voice: `deep`
-- Capture factory: preview-safe short takes
-- Take count: `{data['take_count']}`
-- Every take returned a durable Google Storage preview URL before capture.
-- Every captured take is nontrivial and passes `ffprobe`.
-- Final asset: `{data['final_asset']}`
-- Component duration: `{data['component_duration_seconds']}` seconds
-- Final duration: `{data['final_duration_seconds']}` seconds
-- Settling tail added: approximately `2.0` seconds
-- Final SHA-256: `{data['final_audio_sha256']}`
-- Structural assembly: verified
-- Subjective listen-back / pronunciation judgment: still requires an actual human-audible review before claiming full publication verification.
-''')
+          lines = [
+              '# Audio Score v2 Chapter 003 assembly verification',
+              '',
+              '- Chapter: `003` / `The Borrower`',
+              '- Source: `r2/assets/audio-score/ch003.md`',
+              f"- Source blob SHA: `{data['source_blob_sha']}`",
+              '- Voice: `deep`',
+              '- Capture factory: preview-safe short takes',
+              f"- Take count: `{data['take_count']}`",
+              '- Every take returned a durable Google Storage preview URL before capture.',
+              '- Every captured take is nontrivial and passes `ffprobe`.',
+              f"- Final asset: `{data['final_asset']}`",
+              f"- Component duration: `{data['component_duration_seconds']}` seconds",
+              f"- Final duration: `{data['final_duration_seconds']}` seconds",
+              '- Settling tail added: approximately `2.0` seconds',
+              f"- Final SHA-256: `{data['final_audio_sha256']}`",
+              '- Structural assembly: verified',
+              '- Subjective listen-back / pronunciation judgment: still requires an actual human-audible review before claiming full publication verification.',
+              ''
+          ]
+          v.write_text('\n'.join(lines))
           print('recorded durable take and assembly evidence')
           PY
           sha256sum greg-again/audio/assets/v2/chunks/003-short/*.mp3 greg-again/audio/assets/v2/chapter-003.mp3 > greg-again/audio/assets/v2/chunks/003-short/SHA256SUMS
