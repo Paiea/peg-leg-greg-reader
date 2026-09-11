@@ -37,15 +37,15 @@ jobs:
               'chapter_id': 'ga-010',
               'number': 10,
               'title': 'What Moved',
-              'status': 'verified',
-              'voice': 'deep',
+              'status': 'verified_unlistened',
               'source': 'r2/assets/audio-score/ch010.md',
-              'source_sha': 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05',
+              'source_blob_sha': 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05',
+              'voice': 'deep',
               'take_count': 25,
               'duration_seconds': 591.48,
               'audio_src': 'assets/v2/chapter-010.mp3',
-              'take_map': 'v2/takes/010/take-map.md',
-              'verification': 'v2/verification/010/'
+              'take_map': 'greg-again/audio/v2/takes/010/take-map.md',
+              'verification': 'greg-again/audio/v2/verification/010/'
           }
           chapters = [c for c in v2.get('chapters', []) if c.get('number') != 10 and c.get('chapter_id') != 'ga-010']
           chapters.append(entry)
@@ -96,7 +96,8 @@ jobs:
           v = [c for c in v2['chapters'] if c.get('number') == 10]
           p = [c for c in pub['chapters'] if c.get('number') == 10]
           assert len(v) == 1 and v[0]['audio_src'] == 'assets/v2/chapter-010.mp3'
-          assert v[0]['source_sha'] == 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05'
+          assert v[0]['source_blob_sha'] == 'bf0e024b5117ad519d24cc2ed3ce629b3afbcf05'
+          assert v[0]['status'] == 'verified_unlistened'
           assert v[0]['take_count'] == 25 and abs(v[0]['duration_seconds'] - 591.48) < 0.001
           assert len(p) == 1 and p[0]['chapter_id'] == 'ga-010'
           assert p[0]['audio_src'] == 'assets/v2/chapter-010.mp3'
