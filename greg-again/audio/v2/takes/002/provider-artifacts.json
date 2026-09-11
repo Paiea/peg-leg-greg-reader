@@ -1,0 +1,23 @@
+{
+  "chapter": 2,
+  "chapter_id": "002",
+  "voice": "deep",
+  "provider": "ai_voice_generator / AI Doc Maker",
+  "artifact_boundary": "provider references preserved; binary capture unavailable in current runtime",
+  "artifacts": [
+    {"take": 1, "id": "ga-v2-002-take-01", "context_id": "d6f44b77cff2499db14b963c9580df1d", "audio_url": "https://www.aidocmaker.com/g0/audio?name=d6f44b77cff2499db14b963c9580df1d", "provider_status": "queued", "disposition": "active"},
+    {"take": 2, "id": "ga-v2-002-take-02", "context_id": "7c732cf9b9a64ed1962f1f4d0aae12ac", "audio_url": "https://www.aidocmaker.com/g0/audio?name=7c732cf9b9a64ed1962f1f4d0aae12ac", "provider_status": "queued", "disposition": "active"},
+    {"take": 3, "id": "ga-v2-002-take-03", "context_id": "4346b42de5424b468569ff2a6a29c655", "audio_url": "https://www.aidocmaker.com/g0/audio?name=4346b42de5424b468569ff2a6a29c655", "provider_status": "queued", "disposition": "active"},
+    {"take": 4, "id": "ga-v2-002-take-04", "context_id": "2f75c2c12cf1428f9907c93ee954b90a", "audio_url": "https://www.aidocmaker.com/g0/audio?name=2f75c2c12cf1428f9907c93ee954b90a", "provider_status": "queued", "disposition": "active"},
+    {"take": 5, "id": "ga-v2-002-take-05", "context_id": "b43885313e874b478769230caa3b2b7f", "audio_url": "https://www.aidocmaker.com/g0/audio?name=b43885313e874b478769230caa3b2b7f", "provider_status": "queued", "disposition": "active"},
+    {"take": 6, "id": "ga-v2-002-take-06", "context_id": "177784cddbb04765ab72aab96d97014d", "audio_url": "https://www.aidocmaker.com/g0/audio?name=177784cddbb04765ab72aab96d97014d", "provider_status": "queued", "disposition": "active"},
+    {"take": 7, "id": "ga-v2-002-take-07", "context_id": "ac4d2fa0456c4e368157ab6184928330", "audio_url": "https://www.aidocmaker.com/g0/audio?name=ac4d2fa0456c4e368157ab6184928330", "provider_status": "queued", "disposition": "active"},
+    {"take": 8, "id": "ga-v2-002-take-08", "context_id": "e9964d9ffb104bdf9eb20421ccdd050d", "audio_url": "https://www.aidocmaker.com/g0/audio?name=e9964d9ffb104bdf9eb20421ccdd050d", "provider_status": "queued", "disposition": "active"},
+    {"take": 9, "id": "ga-v2-002-take-09", "context_id": "3e120a8f7178472f9e75668fb3013756", "audio_url": "https://www.aidocmaker.com/g0/audio?name=3e120a8f7178472f9e75668fb3013756", "provider_status": "queued", "disposition": "active"},
+    {"take": 10, "id": "ga-v2-002-take-10-original", "context_id": "4433480e464d42189cb513d919829164", "audio_url": "https://www.aidocmaker.com/g0/audio?name=4433480e464d42189cb513d919829164", "provider_status": "queued", "disposition": "superseded", "note": "Submitted with literal Mana before hard provider alias was applied. Preserve artifact, do not publish this take."},
+    {"take": 10, "id": "ga-v2-002-take-10", "context_id": "8a61fdf0c447429e8f6730208b76ebba", "audio_url": "https://www.aidocmaker.com/g0/audio?name=8a61fdf0c447429e8f6730208b76ebba", "provider_status": "queued", "disposition": "active", "provider_substitution": "Mana -> Ma-na"},
+    {"take": 11, "id": "ga-v2-002-take-11", "context_id": "7b8e5c38c10d47b09e46ce78db74e759", "audio_url": "https://www.aidocmaker.com/g0/audio?name=7b8e5c38c10d47b09e46ce78db74e759", "provider_status": "queued", "disposition": "active"},
+    {"take": 12, "id": "ga-v2-002-take-12", "context_id": "f8131887644c42dd959cfc9817c2a9d1", "audio_url": "https://www.aidocmaker.com/g0/audio?name=f8131887644c42dd959cfc9817c2a9d1", "provider_status": "queued", "disposition": "active"}
+  ],
+  "next_action": "Retrieve/capture the 12 active provider audio binaries from these preserved context IDs/URLs without regenerating them; audition/repair only concrete failures; assemble in take order with ~2s chapter-tail silence; verify; then reconcile v2 and public manifests."
+}
