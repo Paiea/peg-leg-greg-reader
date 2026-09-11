@@ -2,38 +2,40 @@
 
 Chapter: **007 — The Extra Guard**
 Claim branch: `audio/v2-greg-again-ch007-auto`
-Authority base: `audio-score/chapters-001-010` because PR #287 remained open/unmerged at claim time.
+Authority base: `audio-score/chapters-001-010` because PR #287 remains open/unmerged.
 Audio Score source: `r2/assets/audio-score/ch007.md`
 Audio Score blob SHA: `d179b9621a0903c286171b707264b6256600b99f`
 Narrator: `deep`
 
-## Production completed
+## Production complete
 
-- Claim branch created durably before synthesis.
-- Score body split into 10 natural provider-safe takes without rewriting the score.
-- All 10 takes submitted to the established voice provider.
-- Provider context IDs and recovery URLs captured in `greg-again/audio/v2/takes/007/take-map.md`.
-- One provider-facing pronunciation alias used: written `Mana` -> `Ma-na` in Take 07, per pronunciation authority.
+- Recovered the proven short-take capture factory used by earlier Greg, Again audio chapters.
+- Repartitioned the Audio Score into 31 natural preview-safe chunks.
+- Sent identical text as `transcript` and `preview_transcript` with voice `deep`.
+- Captured a playable direct Google Storage `preview_url` for every take.
+- Applied provider-facing pronunciation substitutions only: written `Vale` -> `Vayle`; written `Mana` -> `Ma-na`.
+- GitHub Actions downloaded and `ffprobe`-verified all 31 MP3 chunks.
+- ffmpeg stitched Takes 01–31 in deterministic order.
+- Added the established approximately two-second settling tail after the final spoken word.
 - No Audio Score source repair was made.
+- The earlier ten long queued submissions are superseded production evidence only and are not part of the published v2 render.
 
-## Hard boundary
+## Durable result
 
-The available voice action reports submissions as `queued` and returns provider context/artifact URLs, but exposes no status/download/capture action for the generated binary. Therefore these submissions have not yet crossed the durable audio-binary boundary and cannot honestly be assembled, auditioned, or certified playable from this worker.
-
-Do **not** regenerate successful provider work to solve this plumbing boundary. Recover/capture the existing ten provider artifacts by their recorded identities first.
+Final MP3: `greg-again/audio/assets/v2/chapter-007.mp3`
+Take map: `greg-again/audio/v2/takes/007/take-map.md`
+Verification: `greg-again/audio/v2/verification/007/VERIFY.md`
+Duration: `623.448` seconds
+Size: `9,975,597` bytes
+SHA-256: `de12bffa3ed699816837db6b9e41abaad514368ca94e57ecb2fa16f578f8af8f`
 
 ## Publication state
 
-Final MP3: **NOT ASSEMBLED**
-Expected path when complete: `greg-again/audio/assets/v2/chapter-007.mp3`
-V2 manifest: **NOT UPDATED**
-Public manifest: **NOT UPDATED**
-Public route: **UNCHANGED / v1 preserved**
+V2 manifest: **UPDATED / Chapter 007 verified**
+Public manifest: **UPDATED / Chapter 007 points to `assets/v2/chapter-007.mp3`**
+Legacy v1 Chapter 007 MP3: **PRESERVED**
+Temporary capture/publication workflow: **REMOVED after successful use**
 
-## Verification remaining
+## Factory lesson
 
-After artifact capture: verify each take completed and is playable; audition pronunciation/cadence; repair only rejected local takes; assemble takes 01–10 in order; add ~2 seconds settling tail; verify score coverage once/no seam duplication, dialogue ownership, quantities/names, final landing and MP3 playability; then reconcile newest GitHub authority and update v2 + public manifests for Chapter 007 only.
-
-## Reusable lesson
-
-No new cross-chapter Audio Score doctrine is justified from this run. Existing provider-facing `Mana` -> `Ma-na` authority applied cleanly. Subjective cadence claims are intentionally deferred because this worker could not audition the provider output.
+For Audio Score v2, use the proven preview-first capture path by default: Audio Score -> natural preview-safe chunks (~500 chars max) -> `deep` -> identical `transcript` + `preview_transcript` -> durable returned `preview_url` -> GitHub Actions download/ffprobe -> ffmpeg stitch -> ~2-second settling tail -> verify -> v2 asset -> reconcile v2 and public manifests.
