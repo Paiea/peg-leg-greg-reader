@@ -24,7 +24,7 @@ That got my attention.
 
 Gold parties delayed traffic all the time through ordinary incompetence, large equipment, dead monsters, and people believing four Gold badges improved wagon turning radius.
 
-Rankers were different.
+A titled Ranker was different.
 
 I leaned sideways to see past the canvas.
 
@@ -42,7 +42,7 @@ Recognition without ownership.
 
 Merel Dane.
 
-S-class.
+S-class Ranker.
 
 **Far Lantern.**
 
@@ -208,27 +208,45 @@ He waited for her to finish talking before speaking.
 
 There.
 
-That was the ceiling.
+One kind of ceiling.
 
-Gold was a professional rank.
+Metal still mattered.
 
-Platinum was where contracts started containing governments.
+Bronze. Silver. Gold. Platinum.
 
-Ranker was different.
+It told the Guild what kind of contracts your current body, magic, judgment, and team could be trusted to carry.
 
-Once a person became individually important enough that cities planned around their presence, the Guild stopped pretending a metal color told anyone enough.
+A title was not the next metal.
 
-They received classifications.
+A title meant something you had done had become important enough that people stopped describing only your badge and started using a name.
 
-They received titles.
+No title, no Ranker.
 
-A-class.
+Then the tiny titled registry argued about letters.
 
-S-class.
+C. B. A. S.
 
-Names people remembered after the people died.
+Not a clean power ladder either.
 
-Old Greg had become one of seven S-class adventurers in his later world.
+A Platinum could be stronger in a fight than a C-class Ranker and remain completely untitled.
+
+A lower-metal adventurer could do one impossible, consequential thing and enter the registry at C while still being lower-metal for ordinary contracts.
+
+The letters tracked the weight and repeatability of results attached to the title.
+
+They could climb.
+
+Most people never entered the list at all.
+
+Merel had both kinds of authority.
+
+Platinum by operating class.
+
+S-class among titled Rankers.
+
+Far Lantern because Kestrel Pass had made the name stick.
+
+Old Greg had eventually become S-class too.
 
 Current Greg could barely hold a wagon axle without thinking about socket pressure.
 

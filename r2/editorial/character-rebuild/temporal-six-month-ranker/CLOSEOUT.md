@@ -25,24 +25,29 @@ Over six months:
 - She is flourishing professionally.
 - She continues pressing the identity question without supplying Greg's answer.
 
-### S-class / ranker ceiling
+### Ranker ceiling — corrected model
 
-Merel Dane, title **Far Lantern**, becomes materially present.
+The initial rehearsal briefly described `Ranker` as though it were simply a capability category above Platinum. That was wrong and is superseded here.
 
-Current operational framing discovered in rehearsal:
+Two systems coexist:
 
-- Bronze / Silver / Gold / Platinum are Guild operating/contract classes.
-- `Ranker` becomes the useful category once an individual's capability matters enough that a metal class is no longer sufficient planning language.
-- A-class can change a campaign.
-- S-class can change whether there is a campaign.
-- Ranker titles function as compressed public operational identity and may come from Guild, soldiers, or songs.
+- Bronze / Silver / Gold / Platinum are Guild operating ranks based on practical current capability, power, judgment, contract scope, mobility, survivability, and team role.
+- A **Ranker** is a person who has earned a durable public title from consequential verified results. No title, no Ranker.
+- Titled Rankers are separately classified C -> B -> A -> S.
+- The letter system is a tiny list, roughly 150 active people across the continent, and is not a second straight power ladder.
+- A lower-metal adventurer can still become a C-class Ranker after one extraordinary result while remaining lower-metal for ordinary contracts.
+- A Platinum can remain untitled forever and may be stronger in direct combat than some titled C or B Rankers.
+- Letter advancement reflects accumulated result history, consequence, scale, repeatability, trust, and planning significance attached to the title.
+- S-class is the pinnacle among titled Rankers, not shorthand for `stronger than every Platinum`.
 
-Far Lantern establishes the ceiling through action, not exposition alone:
+Merel Dane, title **Far Lantern**, is both Platinum by operating rank and S-class among titled Rankers.
+
+Her ceiling is established through action, not metal-color replacement:
 
 - casually redistributes a runaway loaded river barge through a multi-plane moving force lattice;
 - operates remote force surfaces hundreds of yards apart;
 - identifies Greg's force-plane edge waste almost immediately;
-- treats a Platinum as a colleague/support, not as the top of the world.
+- works alongside untitled Platinum Orris Hale, whose raw operating rank remains fully meaningful despite having no title.
 
 Old Greg never personally knew Merel. He knows her from history and doctrine. She dies before his own final S-class era.
 
@@ -58,7 +63,7 @@ Greg recognizes the name from future songs:
 > Second broke the guard.
 > Third bell broke Dunbarrow.
 
-Future public memory identifies Renn Calder as **Red Bell**, an eventual S-class / near-pinnacle Ranker associated with the destruction of most of Dunbarrow. Old Greg never personally knew him. Greg's information is songs, public history, and later military teaching, all mutually inconsistent in details.
+Future public memory identifies Renn Calder as **Red Bell**, an eventual S-class titled Ranker associated with the destruction of most of Dunbarrow. Old Greg never personally knew him. Greg's information is songs, public history, and later military teaching, all mutually inconsistent in details.
 
 Current Renn is not the song:
 
