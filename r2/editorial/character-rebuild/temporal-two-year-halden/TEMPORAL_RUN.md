@@ -11,114 +11,160 @@ EXPERIMENT BRANCH: experiment/r2-temporal-two-year-halden
 EXPERIMENT FOLDER: r2/editorial/character-rebuild/temporal-two-year-halden/
 ```
 
-Current accepted edge: Mara leaves Carrow at first bell after a brief return from Halden. Greg has promised to meet her at the river stairs for departure. Their relationship is current, affectionate, imperfect, geographically separated, and not resolved into a permanent arrangement.
+Current accepted edge remains Chapter 39 on main. Everything in this temporal run is speculative.
 
 ## 2. Experiment question
 
-Can R2 carry Greg and Mara through two independent years of accumulated life, including a permanent leg loss that emerges from earned story pressure, and make one old promise mean something materially different when Greg reaches Halden at the end?
+Can R2 carry Greg and Mara through two independent years of accumulated life, including an earned permanent leg loss, then let Greg use the dangerous competence of his old S-class headspace to claw out of the resulting hole without turning recovery into an inspirational shortcut or simply restoring the man he used to be?
 
 ## 3. Clock
 
 ```text
 CLOCK SOURCE: explicit_user + immediate-conversation resolution
 CLOCK CONFIDENCE: resolved
-START: the first-bell departure immediately after current Chapter 39
+START: first-bell departure immediately after current Chapter 39
 HORIZON / END: 730 elapsed days
-CHECKPOINT STRATEGY: irregular lived checkpoints; time gaps must leave residue; year-one and year-two re-baselines should emerge from accumulated state rather than identical seasonal grids
-CURRENT CLOCK POSITION: D000 / departure morning pending
-STOP CONDITION: Greg and Mara reach the promised Halden meeting on D730, after both have lived the intervening two years independently
+CHECKPOINT STRATEGY: irregular lived checkpoints; year boundary is a true state rebaseline, not reset
+CURRENT CLOCK POSITION: D365 / one elapsed year / Year 2 begins
+STOP CONDITION: Greg and Mara reach the promised Halden meeting on D730 after both have lived the intervening two years independently
 ```
 
-The promise is not a requirement that the relationship survive unchanged. The meeting is the fixed point. Its emotional meaning is allowed to change.
+The meeting is fixed. Its romantic or relational outcome is not.
 
 ## 4. Run constraints
 
 ### Hard constraints
 
-- On departure morning, Greg makes a specific two-year promise to Mara: on the final morning of her two-year Halden Vey term, before she commits to whatever comes next, he will meet her at the stone steps outside Vey's Halden river office.
-- Mara does not have to wait for Greg, remain romantically available, remain in love, or choose a future with him. The meeting is constrained; the outcome is not.
-- During the two-year run, Greg permanently loses one leg as an earned consequence of story pressure.
-- The exact event, timing, cause, and circumstances of the leg loss are not predetermined. It must emerge from accumulated work, danger, relationships, geography, capability, and current circumstances rather than from title logic or an author-side origin-story schedule.
-- The leg loss must occur early enough that at least two distinct post-loss seasonal/life phases are substantially lived before D730. Recovery, adaptation, changed relationships, changed work, changed movement, and ordinary life with the missing limb must exist on-page or in high-fidelity rehearsal, not only as summary.
-- The loss cannot exist solely to make Greg heroic, tragic, special, inspirational, or symbolically complete.
-- No magical cure, effortless replacement, or immediate return to pre-loss movement. Magic and equipment may become part of adaptation only through bounded, earned use.
-- The Halden promise cannot be casually abandoned, forgotten, or rescheduled to remove pressure. Genuine inability, changed meaning, conflict, or difficulty may challenge it.
+- On D000 Greg promised Mara that on the final morning of her two-year Halden Vey term, before she commits to whatever comes next, he will meet her at the stone steps outside Vey's Halden river office.
+- Mara does not have to wait for Greg, remain romantically available, remain in love, or choose a future with him.
+- Greg permanently lost his lower left leg below the knee at D350 after the Brell bridge repair accident emerged from accumulated work, rank, geography, winter conditions, and hidden scour.
+- The loss remains permanent. No magical cure, effortless replacement, or restoration of pre-loss movement.
+- Year 2 must substantially live recovery, adaptation, changed work, changed movement, changed relationships, ordinary life, prosthetic development, and return to danger where earned.
+- The Halden promise cannot be casually abandoned, forgotten, or rescheduled to remove pressure.
 - Accepted R2 story truth remains authority. This run cannot canonize itself.
+
+### Active Year 2 character pressure
+
+Greg is pissed off.
+
+He experiences the post-amputation state as a hole he intends to get out of. Anger becomes operational rather than inspirational.
+
+His old S-class headspace increasingly returns as a method:
+
+- decompose large problems into capabilities, limits, resources, routes, timelines, and failure modes;
+- demand concrete criteria instead of vague reassurance;
+- distinguish judgment from body, rank from mobility, and permanent loss from solvable subproblems;
+- use later-life principles when they can be recreated honestly with current-era materials and knowledge;
+- search for leverage in people, institutions, money, gear, magic, technique, and time;
+- accept conservative healing constraints when violating them would lengthen the campaign;
+- optimize aggressively once the medical boundary is clear.
+
+This headspace is useful and dangerous.
+
+It may make Greg colder, shorter, harder to comfort, more controlling, more willing to turn relationships into logistics, and more likely to solve the wrong problem extremely well.
+
+The run should not punish competence merely to prove a moral point. Some of Greg's aggressive optimization should work spectacularly.
+
+It also must not make S-class cognition equivalent to emotional wisdom.
 
 ### Soft nudges
 
-- Let time produce second-order accumulation: Year 1 consequences should materially reshape Year 2 rather than reset.
-- Permit more recognizable fantasy/adventuring pleasure when earned: better contracts, roads, monsters, ruins, equipment, party roles, visible technique growth, competent higher-rank workers, and clean wins.
-- Increase embodied action pressure without turning every chapter into combat.
-- Preserve ordinary life, money, work, food, rooms, clothing, letters, sex/affection where naturally earned, awkwardness, jokes, and people having schedules that do not serve Greg.
-- Let Greg become more individually dangerous without becoming socially or emotionally optimized at the same rate.
-- Stronger party dynamics should arise from repeated work and role ownership rather than instant destiny-team formation.
+- D350-D430: PIT. Pain, dependence, humiliation, anger, early systems thinking.
+- Roughly D390-D500: SYSTEM. Mobility and prosthetic experimentation, income strategy, altered magic and combat assumptions, increasingly visible old-S-class cognition.
+- Roughly D470-D600: ESCAPE. Real paid usefulness and field return when earned. Greg may become frighteningly effective in selected domains.
+- Later Year 2: allow overcorrection if earned. Greg may solve mobility and usefulness faster than he solves being a person around other people.
+- Final stretch: integration does not mean serenity. Keep useful S-class tools, discard or challenge survival damage only when lived experience earns that distinction.
+- Let time produce second-order accumulation. Year 1 materially reshapes Year 2.
+- Permit recognizable fantasy/adventuring pleasure: better equipment, unusual materials, higher-rank workers, dangerous jobs, ruins, monsters, role specialization, technique growth, clean competence wins.
+- Preserve ordinary life, money, food, rooms, letters, attraction, irritation, sex/affection where earned, jokes, work schedules, and mundane prosthetic annoyances.
+- Stronger party dynamics arise from repeated work and role ownership, not instant destiny-team formation.
 
 ### Explicit non-goals
 
-- Do not choose the leg-loss mechanism in advance.
-- Do not foreshadow the leg loss in every scene.
-- Do not make Mara the reward for surviving it.
-- Do not make the two-year promise a prophecy or chosen-one mechanism.
-- Do not force Gold rank as the run's endpoint.
-- Do not import zero-authority Black Stair year events, artifacts, parties, or names merely because they worked in another experiment.
+- Do not turn anger into one chapter of catharsis followed by healthy acceptance.
+- Do not make Greg immediately wise about disability.
+- Do not make prosthetic development a single genius invention.
+- Do not let future knowledge import mature technology wholesale. Principles may transfer; fabrication, materials, fit, medicine, and iteration remain current-world problems.
+- Do not make Mara Greg's nurse, reward, conscience, or recovery objective.
+- Do not make every relationship conflict prove that S-class Greg is bad.
+- Do not force Gold rank as the run endpoint.
+- Do not convert the peg into a power-up that erases cost.
 
-## 5. Optional output / fidelity target
+## 5. Output / fidelity target
 
 ```text
-CONFIDENCE ZONES: opening A/B-quality rehearsal; farther checkpoints may loosen only when useful
-TARGET SHAPE: chapter-sized lived scenes at meaningful clock positions, with compact residue state between them
-WORD-COUNT TARGET: scene-dependent; prefer full lived phases over target padding
+CONFIDENCE ZONES: high-fidelity lived Year 2 scenes at meaningful clock positions
+TARGET SHAPE: chapter-sized scenes separated by consequence-bearing gaps
 WORD COUNT HARD?: no
-OTHER: no em dashes in story prose
+STYLE: no em dashes in story prose; planner language must not leak into reader-facing scenes
 ```
 
-## 6. Current compact state
+## 6. Current compact state at D365
 
 ```text
-GREG: young body with older-life memory discontinuity; increasingly competent; still capable of overthinking, vanity, avoidance, and misplaced reasonableness
-MARA: works for Vey Shipping in Halden; returned briefly to Carrow for ledger work; leaves again at first bell; has an independent professional life and does not orbit Greg
-PEOPLE / RELATIONSHIPS: Noll has recurring Brass Spoon work; Jorren is away on road work; Arlo/Dena and other Carrow work relationships continue independently
-BODY: both legs intact at D000; current body is mobile and capable
-MONEY / MATERIAL: materially constrained but improving through work; good sword and ordinary room possessions matter
-WORK / OBLIGATIONS: Carrow work network and Guild/road possibilities remain active; no obligation may be invented only to cause the future injury
-GEAR / OBJECTS: good sword; two-key ring including Mara's mother's old back-room key; letters; burned seven; ordinary field gear
-GEOGRAPHY / ROUTES: Carrow current home; Halden west of the low ranges and reachable by river/road; Mara is based there
-MAGIC / CAPABILITY: real and developing but bounded; must not function as a universal answer
-RANK / REPUTATION: use only current accepted evidence; progression may occur if earned
-WORLD / WEATHER / ECOLOGY: establish from lived scenes and elapsed time rather than static lore blocks
-OPEN PRESSURES: Mara distance; memory discontinuity; work choices; road competence; money; increasing capability; future Halden promise
+GREG: angry, calculating, increasingly command-shaped; deliberately treating recovery as a hostile operational problem
+MARA: in Halden with about one year left on Vey term; independently employed; wants to see Greg but cannot simply abandon work; has already supplied Halden warehouse-brace information after Greg asked
+BODY: left below-knee amputation D350; closure currently clean; knee preserved; crutches; phantom pain; right leg and hands taking new load; no socket yet
+MONEY / MATERIAL: Guild injury support and Brell pay cushion immediate fall; reduced work threatens income; ground-floor room costs extra; upstairs room temporarily retained
+WORK / OBLIGATIONS: Silver rank remains; field scope temporarily restricted; seated/static work available; concrete reassessment criteria now known
+GEAR / OBJECTS: good sword currently not in use; crutches; Kessa's notebook has become campaign book; Havel & Son warehouse hinge notes from Halden
+GEOGRAPHY / ROUTES: Lower Rook ground floor is temporary mobility base; Carrow work network active; Halden fixed at D730
+MAGIC / CAPABILITY: load/force shaping remains; new body geometry may create both losses and unexplored uses; magic may support adaptation but not erase biomechanics
+RANK / REPUTATION: Silver retained; physical scope restricted rather than rank revoked
+RELATIONSHIPS: Jorren notices Greg sounds different; Noll resists being turned into logistics while still helping; Kessa remains professionally implicated and useful; Mara recognizes operations-report Greg without surrendering her own life
+OPEN PRESSURES: heal; regain independent movement; return to paid usefulness; prototype prosthetic honestly; regain field scope; determine what S-class methods help versus deform current life; reach Halden D730
 ```
 
 ## 7. Nudge update log
 
 ```text
 - D000 NUDGE: "2 years" -> CLOCK: 730 elapsed days.
-- D000 NUDGE: Greg tells someone he will meet them in a city in two years for a specific reason -> HARD: Mara / Halden / final morning of Vey term meeting.
-- D000 NUDGE: permanent leg loss must emerge naturally and leave substantial adaptation runway -> HARD: unscheduled causal loss with at least two distinct post-loss life phases before D730.
+- D000 NUDGE: meet someone in a city in two years -> HARD: Mara / Halden / final morning of Vey term.
+- D000 NUDGE: permanent leg loss must emerge naturally and leave substantial adaptation runway -> HARD: unscheduled causal loss with major post-loss life before D730.
+- D350 RESULT: Brell repair accident produced permanent below-knee left amputation through earned causal chain.
+- D365 NUDGE: "have him be pissed off... start acting in his old S class headspace. calculating. hes in a hole. pit. ideally get out of it" -> ACTIVE YEAR 2 PRESSURE: anger becomes operational; old S-class cognition returns as high-leverage problem-solving method with interpersonal and self-concept costs.
 ```
 
 ## 8. Temporal residue checkpoint
 
-No gap yet. Begin at the immediate Chapter 39 departure morning.
+```text
+FROM: D350
+TO: D365
+ELAPSED: 15 days
+OFF-PAGE / ACCUMULATED CHANGES THAT MATTER:
+- amputation closure remains clean; swelling and phantom sensations continue; Greg has moved from hospital to Lower Rook ground floor
+- Greg has reorganized the room and daily routes, started quantifying mobility, learned concrete Guild reassessment criteria, and begun researching current-world prosthetic/hinge principles with Arlo and Halden contacts
+- Mara attempted to create travel room but Vey constraints remain real; she continues working while contributing information rather than becoming caregiver
+CURRENT CONSEQUENCE: Year 2 begins with 365 days remaining and Greg explicitly treating his situation as a hole with measurable walls and routes out.
+```
 
 ## 9. Planner-only run edge
 
 ```text
-CURRENT PRESSURE: Mara is leaving again; Greg has already made one small promise to be at the river stairs and has a history of failing ordinary temporal continuity with her.
-WHAT CHANGED LAST: their connection became current rather than purely remembered; they chose affection without resolving distance.
-WHAT REMAINS UNCERTAIN: exact Vey term mechanics; whether Greg invents the two-year promise or Mara gives him the fixed date; what future work pressures will produce durable causal paths.
-NEXT USEFUL QUESTION: can the two-year promise arise from Mara's independent work reality rather than Greg manufacturing a romantic deadline?
-NEXT CLOCK MOVE: D000 departure morning.
-RELEVANT PRESSURES: make the promise concrete; preserve Mara's agency; do not foreshadow the leg loss yet.
+CURRENT PRESSURE: Greg can make the problem legible faster than his body can heal. He has found a headspace that works and may begin preferring it because it converts grief into action.
+WHAT CHANGED LAST: vague recovery became a concrete six-part campaign ending in Halden D730.
+WHAT REMAINS UNCERTAIN: first socket design; first meaningful conflict caused by command-shaped Greg; whether seated/static work satisfies him or intensifies impatience; how his force shaping changes with new balance and missing limb; when Mara next sees him in person.
+NEXT USEFUL QUESTION: what is the first thing Greg optimizes successfully enough to prove this headspace works, and what human cost appears beside that success?
+NEXT CLOCK MOVE: short jump into early Year 2, after stitches / initial closure progress but before a mature prosthetic.
+RELEVANT PRESSURES: anger stays alive; competence can win; body still has veto power; relationships retain independent wants.
 ```
 
-## 10. Resume contract
+## 10. Renderer firewall
 
-On `continue`, read current `main`, the active Temporal Engine, this file, and the latest rehearsal checkpoint. Preserve the 730-day clock, Halden meeting constraint, unscheduled permanent leg-loss requirement, and accumulated run state unless newer explicit user direction changes them.
+Reader-facing prose receives only concrete scene state. Do not leak PIT/SYSTEM/ESCAPE labels, run constraints, authority language, or author-side diagnosis into Greg's narration.
 
-Do not ask the user to restate these inputs.
+## 11. Resume contract
+
+On `continue`:
+
+1. read newest main authority;
+2. read active Temporal Engine;
+3. read this file;
+4. read the latest Year 2 rehearsal edge;
+5. preserve D730 Halden meeting, permanent loss, current physical state, and active angry/S-class Year 2 pressure;
+6. let Greg's methods succeed when they genuinely should;
+7. do not ask the user to restate durable inputs.
 
 ## Authority status
 
-**ZERO STORY AUTHORITY / REHEARSAL ONLY.** Completion or emotional success does not make any event canon.
+**ZERO STORY AUTHORITY / REHEARSAL ONLY.**
