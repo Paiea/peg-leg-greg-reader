@@ -1,0 +1,208 @@
+name: ga001 v2 publish to current Audio Score authority
+on:
+  push:
+    branches: [audio/v2-greg-again-ch001-auto]
+    paths: ['.github/workflows/ga001-v2-publish-authority.yml']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch001-auto
+          fetch-depth: 1
+      - name: Stage verified Chapter 001 payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s greg-again/audio/assets/v2/chapter-001.mp3
+          test "$(cat greg-again/audio/v2/production/001/final-take-count.txt)" = 33
+          mkdir -p /tmp/ga001/asset /tmp/ga001/v2
+          cp greg-again/audio/assets/v2/chapter-001.mp3 /tmp/ga001/asset/
+          cp -a greg-again/audio/v2/takes/001 /tmp/ga001/v2/takes-001
+          cp -a greg-again/audio/v2/production/001 /tmp/ga001/v2/production-001
+          if [ -d greg-again/audio/v2/verification/001 ]; then cp -a greg-again/audio/v2/verification/001 /tmp/ga001/v2/verification-001; fi
+      - name: Reconcile onto newest Audio Score authority
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin audio-score/chapters-001-010
+          git checkout -B ga001-authority FETCH_HEAD
+          mkdir -p greg-again/audio/assets/v2 greg-again/audio/v2/takes greg-again/audio/v2/production greg-again/audio/v2/verification/001
+          cp /tmp/ga001/asset/chapter-001.mp3 greg-again/audio/assets/v2/chapter-001.mp3
+          rm -rf greg-again/audio/v2/takes/001
+          cp -a /tmp/ga001/v2/takes-001 greg-again/audio/v2/takes/001
+          rm -rf greg-again/audio/v2/production/001
+          cp -a /tmp/ga001/v2/production-001 greg-again/audio/v2/production/001
+          python - <<'PY'
+          import csv, hashlib, json, pathlib, re
+          root = pathlib.Path('.')
+          source_path = pathlib.Path('r2/assets/audio-score/ch001.md')
+          source = source_path.read_text(encoding='utf-8')
+          body = source.split('\n---\n', 1)[1].strip()
+          starts = [
+            "I woke because my back didn't hurt, and I didn't move because maybe...",
+            "I stayed still another breath anyway.",
+            "That got my attention.",
+            "That's a stupid phrase. Young hands.",
+            "No scar.",
+            "My body had moved before I finished expecting it not to.",
+            "The floorboards complained.",
+            "The mirror above the basin caught movement.",
+            "I checked my teeth.",
+            "Too much weight forward.",
+            "I stopped.\n\nHuh.",
+            "Then Barrier happened.",
+            "How elite fighters made violence look smaller while beginners decorated it.",
+            "I set the blade down, closed my eyes, reached for mana.",
+            "I opened my hand.",
+            "Right.\n\nBreakfast.",
+            "I stopped.\n\nDates.",
+            "So check.",
+            "I sat on the bed.",
+            "Which monsters were worse than the contracts claimed.",
+            "Maybe she was somewhere in Carrow buying bread.",
+            "Grief gets old too.",
+            "Maybe because my mother was dead but Soap Thief was alive six feet away",
+            "Did I know the Northern Gate collapsed when I remembered",
+            "I wrote one sentence under all three headings.",
+            "Not because I was good.",
+            "Forty years of useful information.",
+            "I dressed.",
+            "Or wouldn't.",
+            "No.\n\nNot now.",
+            "Onions won.",
+            "Names moved from doors to plaques, plaques to stories, stories to nothing.",
+            "Fastest way to understand a system was to find where it resisted you.",
+          ]
+          positions=[]
+          cursor=0
+          for s in starts:
+              pos=body.find(s,cursor)
+              if pos < 0:
+                  raise SystemExit(f'missing segment start: {s!r}')
+              positions.append(pos); cursor=pos+len(s)
+          if positions[0] != 0 or positions != sorted(positions) or len(set(positions)) != 33:
+              raise SystemExit('invalid Audio Score partition')
+          raws=[body[positions[i]:(positions[i+1] if i+1<len(positions) else len(body))] for i in range(33)]
+          if ''.join(raws) != body:
+              raise SystemExit('Audio Score partition does not reconstruct source')
+          rows=list(csv.DictReader(open('greg-again/audio/v2/production/001/capture-metadata.tsv', encoding='utf-8'), delimiter='\t'))
+          if len(rows) != 33:
+              raise SystemExit(f'expected 33 captured MP3 rows, got {len(rows)}')
+          segments=[]
+          for i,(raw,row) in enumerate(zip(raws,rows),1):
+              score_text=raw.strip()
+              provider_text=re.sub(r'\bMana\b','Ma-na',re.sub(r'\bmana\b','ma-na',score_text))
+              segments.append({
+                'take': i,
+                'score_transcript': score_text,
+                'provider_transcript': provider_text,
+                'transcript_equals_preview_transcript': True,
+                'preview_url': row['preview_url'],
+                'duration_seconds': float(row['duration_seconds']),
+                'bytes': int(row['bytes']),
+                'sha256': row['sha256'],
+                'provider_substitutions': [] if score_text == provider_text else [{'written':'mana','provider':'ma-na'}],
+              })
+          capture_map={
+            'chapter_id':'ga-001','number':1,'title':'The Boy','generation':'audio-score-v2',
+            'factory':'preview-safe-short-take-capture','voice':'deep',
+            'score_source':str(source_path),'score_source_blob':'155de484c67836f615e2704896aa37984002d690',
+            'score_body_sha256':hashlib.sha256(body.encode()).hexdigest(),
+            'take_count':33,'coverage_check':'ordered raw score slices reconstruct the complete Audio Score body exactly',
+            'takes':segments,
+          }
+          pathlib.Path('greg-again/audio/v2/takes/001/preview-capture-map.json').write_text(json.dumps(capture_map,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+
+          duration=886.896
+          final_sha='4148946c20eb931867547ff1e559a6c90733fcd4fb129d501cd5698bea0624c9'
+          v2p=pathlib.Path('greg-again/audio/v2/manifest.json')
+          v2=json.loads(v2p.read_text())
+          entry={
+            'chapter_id':'ga-001','number':1,'title':'The Boy','status':'verified',
+            'source':'r2/assets/audio-score/ch001.md','source_blob':'155de484c67836f615e2704896aa37984002d690',
+            'voice':'deep','capture_factory':'preview-safe-short-takes','take_count':33,
+            'duration_seconds':duration,'audio_src':'assets/v2/chapter-001.mp3','sha256':final_sha,
+          }
+          chapters=[c for c in v2.get('chapters',[]) if c.get('number') != 1]
+          chapters.append(entry); chapters.sort(key=lambda c:c.get('number',999999))
+          v2['chapters']=chapters
+          v2p.write_text(json.dumps(v2,indent=2,ensure_ascii=False)+'\n')
+
+          pubp=pathlib.Path('greg-again/audio/manifest.json')
+          pub=json.loads(pubp.read_text())
+          found=False
+          for c in pub['chapters']:
+              if c.get('number')==1:
+                  c['take_count']=33
+                  c['duration_seconds']=duration
+                  c['audio_src']='assets/v2/chapter-001.mp3'
+                  c['audio_finish']='audio-score-v2'
+                  c['note']='Audio Score v2 Chapter 1 render assembled from 33 preview-safe deep-voice takes; preview artifacts were captured durably, ffprobe-verified, stitched in score order, and finished with the chapter-tail settling silence.'
+                  found=True
+                  break
+          if not found: raise SystemExit('public manifest Chapter 1 missing')
+          pubp.write_text(json.dumps(pub,indent=2,ensure_ascii=False)+'\n')
+
+          doctrine=pathlib.Path('r2/AUDIO_SCORE_PRODUCTION.md')
+          text=doctrine.read_text()
+          marker='## Preview-safe capture factory'
+          if marker not in text:
+              text += '''\n\n## Preview-safe capture factory\n\nThe proven durable Audio Score production path is:\n\n`Audio Score -> natural preview-safe chunks (~500 chars max) -> deep voice -> identical transcript + preview_transcript -> capture returned Google Storage preview_url -> GitHub Actions download + ffprobe verification -> ffmpeg ordered stitch -> ~2-second settling tail -> verify -> v2 asset -> reconcile v2 + public manifests`\n\nTreat the returned preview artifact as the preferred durable binary boundary when the voice connector exposes a directly retrievable `preview_url`. Keep each preview chunk as an exact contiguous slice of the Audio Score, except documented provider-facing pronunciation aliases such as `mana -> ma-na`. Do not rewrite the score to fit the chunk size.\n\nUse the exact same text for `transcript` and `preview_transcript` so the captured preview MP3 is the intended complete production take rather than a teaser for different hidden full-audio text. Split only at natural cadence, thought-reset, dialogue, scene, or action boundaries, and keep chunks within the provider's reliable preview-safe size.\n\nAfter generation, preserve the returned Google Storage `preview_url`, download each MP3 durably, reject missing/tiny/non-playable artifacts, and record per-take duration, bytes, and SHA-256. Assemble the verified takes in numeric order with no crossfades or decorative effects, then apply the established roughly 2-second chapter-tail settling silence once at final assembly.\n\nA full-audio provider `audio_url` or context ID may remain useful recovery evidence, but it is not the preferred completion boundary when the connector cannot directly recover its bytes. Never regenerate a good captured preview take because later deterministic file plumbing fails.\n'''
+              doctrine.write_text(text)
+          PY
+          cat > greg-again/audio/v2/production/001/STATUS.md <<'EOF'
+          # Greg, Again Audio Score v2 — Chapter 001 Production Status
+
+          Status: **ASSEMBLED / VERIFIED / PUBLISHED TO AUDIO SCORE AUTHORITY**
+
+          - Chapter: 001 — The Boy
+          - Source: `r2/assets/audio-score/ch001.md`
+          - Source blob: `155de484c67836f615e2704896aa37984002d690`
+          - Voice: `deep`
+          - Factory: preview-safe short-take capture
+          - Takes: 33
+          - Final asset: `greg-again/audio/assets/v2/chapter-001.mp3`
+          - Duration: 886.896 seconds
+          - Bytes: 7,918,557
+          - SHA-256: `4148946c20eb931867547ff1e559a6c90733fcd4fb129d501cd5698bea0624c9`
+          - Tail: approximately 2 seconds added at final chapter assembly
+          - Score repair: none
+          - Provider-facing pronunciation: `mana -> ma-na` where present; source text unchanged
+
+          Exact ordered transcripts, preview artifact URLs, per-take hashes, durations, and bytes are in `greg-again/audio/v2/takes/001/preview-capture-map.json` and `capture-metadata.tsv`.
+          EOF
+          cat > greg-again/audio/v2/verification/001/STATUS.md <<'EOF'
+          # Chapter 001 Audio Score v2 Verification
+
+          Status: **VERIFIED**
+
+          Mechanical verification completed before publication:
+
+          - authoritative Audio Score source and blob recorded
+          - 33 ordered source slices reconstruct the complete Audio Score body exactly
+          - provider-facing text differs only by documented pronunciation aliases (`mana -> ma-na`)
+          - all 33 returned preview MP3 artifacts downloaded successfully
+          - every take exceeded the minimum byte gate and passed `ffprobe`
+          - per-take duration, bytes, SHA-256, and preview URL recorded
+          - take order fixed numerically 01 through 33
+          - final chapter assembled once with ffmpeg, no music, SFX, crossfades, or decorative processing
+          - approximately 2 seconds settling silence added at final assembly only
+          - final MP3 passed `ffprobe`
+          - final asset path is `greg-again/audio/assets/v2/chapter-001.mp3`
+          - final duration is 886.896 seconds
+          - final size is 7,918,557 bytes
+          - final SHA-256 is `4148946c20eb931867547ff1e559a6c90733fcd4fb129d501cd5698bea0624c9`
+          - Audio Score source itself was not edited
+
+          Subjective human listen-back remains separate from this mechanical publication verification; no unperformed audition claim is made here.
+          EOF
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/assets/v2/chapter-001.mp3 greg-again/audio/v2/takes/001 greg-again/audio/v2/production/001 greg-again/audio/v2/verification/001 greg-again/audio/v2/manifest.json greg-again/audio/manifest.json r2/AUDIO_SCORE_PRODUCTION.md
+          git diff --cached --stat
+          git commit -m 'audio-v2: publish Chapter 001 from Audio Score'
+          git push origin HEAD:audio-score/chapters-001-010
