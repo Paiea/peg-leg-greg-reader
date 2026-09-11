@@ -134,6 +134,53 @@
 .continue-action:hover,
 .continue-action:focus-visible { background: var(--cyan); color: #071015; }
 
+@media (min-width: 761px) {
+  .listen-hero-media {
+    min-height: clamp(500px, 48vw, 620px);
+  }
+
+  .listen-hero-media > img {
+    inset: 0 0 0 38%;
+    width: 62%;
+    object-position: center;
+  }
+
+  .hero-scrim {
+    background:
+      linear-gradient(90deg,
+        #080d10 0%,
+        #080d10 34%,
+        rgba(8, 13, 16, .98) 38%,
+        rgba(8, 13, 16, .54) 46%,
+        rgba(8, 13, 16, .08) 58%,
+        transparent 68%);
+  }
+
+  .listen-hero-copy {
+    width: 38%;
+    min-height: clamp(500px, 48vw, 620px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.4rem clamp(1.4rem, 3vw, 2.8rem);
+  }
+
+  .hero-brand {
+    margin-bottom: 2rem;
+  }
+
+  .listen-hero-copy h1 {
+    max-width: 100%;
+    font-size: clamp(3.2rem, 5vw, 6rem);
+    line-height: .82;
+  }
+
+  .listen-warning {
+    width: min(20rem, 100%);
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 760px) {
   .listen-hero-media {
     width: calc(100% + 28px);
