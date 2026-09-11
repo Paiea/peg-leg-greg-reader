@@ -1,0 +1,5 @@
+{
+  "chapter": 8,
+  "restore_from": "020cc63e35f0af8336fa20bd0f91b42e7a90711d",
+  "purpose": "Restore the complete v2-aware audio catalog test after a truncated connector rewrite, run all audio validation suites, and commit only the exact restoration."
+}
