@@ -19,10 +19,6 @@
     return `${minutes}:${remainder}`;
   }
 
-  function chapterId(number) {
-    return `r2-ch${String(number).padStart(3, '0')}`;
-  }
-
   function readProgress() {
     try {
       const stored = localStorage.getItem(progressKey);
@@ -59,7 +55,7 @@
   }
 
   function writtenHref(chapter) {
-    return `../../r2/chapter.html?id=${chapterId(chapter.number)}`;
+    return `../../r2/chapter.html?id=r2-ch${String(chapter.number).padStart(3, '0')}`;
   }
 
   function renderContinueListening() {
