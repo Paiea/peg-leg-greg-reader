@@ -1,0 +1,126 @@
+name: ga064 Audio Score v2 capture
+on:
+  push:
+    branches: [audio/v2-greg-again-ch064-auto]
+    paths: ['.github/workflows/ga064-v2-capture.yml']
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch064-auto
+      - name: Verify transcript coverage
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          score = Path('r2/assets/audio-score/ch064.md').read_text()
+          body = score.split('\n---\n', 1)[1].strip()
+          body = body.replace('**', '').replace('`', '')
+          body = re.sub(r'\b[Mm]ana\b', lambda m: 'ma-na' if m.group(0)[0].islower() else 'Ma-na', body)
+          expected = [p.strip() for p in body.split('\n\n') if p.strip()]
+
+          files = [
+              Path('greg-again/audio/v2/takes/064/take-map.md'),
+              Path('greg-again/audio/v2/production/064/capture-007-009.md'),
+              Path('greg-again/audio/v2/production/064/capture-010-012.md'),
+              Path('greg-again/audio/v2/production/064/capture-013-015.md'),
+              Path('greg-again/audio/v2/production/064/capture-016-018.md'),
+              Path('greg-again/audio/v2/production/064/capture-019-021.md'),
+          ]
+          takes = {}
+          rx = re.compile(r'^## (\d{2})\nContext:.*?\nPreview:.*?\nTranscript:\n\n(.*?)(?=\n## \d{2}\n|\Z)', re.M | re.S)
+          for path in files:
+              text = path.read_text()
+              for n, transcript in rx.findall(text):
+                  if n in takes:
+                      raise SystemExit(f'duplicate take {n}')
+                  takes[n] = transcript.strip()
+          wanted = [f'{i:02d}' for i in range(1,22)]
+          if sorted(takes) != wanted:
+              raise SystemExit(f'take inventory mismatch: {sorted(takes)}')
+          actual = []
+          for n in wanted:
+              actual.extend([p.strip() for p in takes[n].split('\n\n') if p.strip()])
+          if actual != expected:
+              for i,(a,e) in enumerate(zip(actual, expected),1):
+                  if a != e:
+                      raise SystemExit(f'coverage mismatch paragraph {i}: actual={a!r} expected={e!r}')
+              raise SystemExit(f'coverage paragraph count mismatch actual={len(actual)} expected={len(expected)}')
+          print(f'Exact normalized score coverage verified: {len(wanted)} takes, {len(expected)} paragraphs')
+          PY
+      - name: Capture durable preview MP3s
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/v2/takes/064/audio greg-again/audio/v2/verification/064 greg-again/audio/assets/v2
+          urls=(
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9e42420a-7b1f-4835-8261-2b5fc2ffcbdb.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6ab127fc-b9c7-453e-97b7-41e6a9248017.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/19f803f8-de1c-4910-bdf1-7c2a4e2f9e73.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60cec532-a23f-4bd5-897f-95c6a2979ce5.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d075e760-d8fa-4ca9-928c-5c6cd5ab1c64.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f88351a2-c777-4443-bdcf-ba374eae0e80.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/db31415f-1637-4c1c-9271-1921b397b716.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/123479bb-61b7-4948-ab7d-4c9324c29c76.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e62d0a17-2741-4df9-885c-8e6c5ac08430.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/72b5c129-0b07-4d70-a076-e4a80ffdc452.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f14cda1f-5ab6-4980-8ca8-721ca3014e19.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e806290a-aa21-49e8-a94c-92fe130ae7f9.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a9343749-6523-43f9-924c-64140a1248b2.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/01f15d53-16d0-4725-ada5-0cdc5780e62e.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/49046b60-2ead-40f9-bac5-6fc589cb8bd3.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1e33becf-eac9-405e-a3d0-28bb004a0b6c.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/55006bbe-f9d8-42cc-861f-e0b132ad9aae.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/73ed304d-e6e6-44f1-9dd4-3b1089320380.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/135690ea-e224-44c3-8c3e-f3dd41fa8a41.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5b02e642-c2a9-4580-b273-f2e21b4619d1.mp3'
+          'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/09afa438-29de-4cf7-a471-4d43f4e59e4c.mp3'
+          )
+          : > greg-again/audio/v2/verification/064/chunk-probe.txt
+          : > /tmp/list.txt
+          for i in "${!urls[@]}"; do
+            n=$(printf '%02d' $((i+1)))
+            out="greg-again/audio/v2/takes/064/audio/${n}.mp3"
+            curl -fL --retry 3 --retry-delay 2 "${urls[$i]}" -o "$out"
+            test "$(stat -c%s "$out")" -gt 1000
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$out" | awk -v n="$n" '{print n, $0}' >> greg-again/audio/v2/verification/064/chunk-probe.txt
+            printf "file '%s'\n" "$GITHUB_WORKSPACE/$out" >> /tmp/list.txt
+          done
+          ffmpeg -v error -f concat -safe 0 -i /tmp/list.txt -c:a libmp3lame -q:a 2 /tmp/ga064-assembled.mp3
+          ffmpeg -v error -i /tmp/ga064-assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 greg-again/audio/assets/v2/chapter-064.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 greg-again/audio/assets/v2/chapter-064.mp3 > greg-again/audio/v2/verification/064/duration.txt
+          sha256sum greg-again/audio/v2/takes/064/audio/*.mp3 greg-again/audio/assets/v2/chapter-064.mp3 > greg-again/audio/v2/verification/064/SHA256SUMS
+          test "$(stat -c%s greg-again/audio/assets/v2/chapter-064.mp3)" -gt 100000
+          tail_duration=$(cat greg-again/audio/v2/verification/064/duration.txt)
+          final_sha=$(sha256sum greg-again/audio/assets/v2/chapter-064.mp3 | awk '{print $1}')
+          cat > greg-again/audio/v2/verification/064/RESULT.md <<EOF
+          # Chapter 064 Audio Score v2 verification
+
+          Score blob SHA: \`0326969cce6e3be692eed694f919a45e0dd92732\`
+          Clean source blob SHA: \`a9803aaa09c24e8243cc4823a21b389d022c8c89\`
+          Voice: \`deep\`
+          Take count: 21
+          Capture mode: \`preview-safe-short-takes\`
+          Exact normalized transcript coverage: PASS
+          Every chunk byte gate + ffprobe: PASS
+          Final ffprobe: PASS
+          Settling tail: approximately 2 seconds via \`apad=pad_dur=2\`
+          Final duration seconds: \`${tail_duration}\`
+          Final SHA-256: \`${final_sha}\`
+          EOF
+      - name: Commit captured binaries and verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/v2/takes/064/audio greg-again/audio/v2/verification/064 greg-again/audio/assets/v2/chapter-064.mp3
+          git commit -m 'Capture and assemble ga-064 Audio Score v2'
+          git push origin HEAD:audio/v2-greg-again-ch064-auto
