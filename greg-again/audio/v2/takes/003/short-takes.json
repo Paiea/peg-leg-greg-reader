@@ -1,0 +1,198 @@
+{
+  "chapter": 3,
+  "chapter_id": "ga-003",
+  "title": "The Borrower",
+  "source": "r2/assets/audio-score/ch003.md",
+  "source_blob_sha": "211ed23b1bfc34f3f37144d31f91eec60fff0ab2",
+  "voice": "deep",
+  "status": "preview_urls_ready",
+  "factory": "preview_safe_short_take_capture_v1",
+  "provider_facing_substitutions": {
+    "mana": "ma-na",
+    "Mana": "Ma-na",
+    "Vale": "Vayle"
+  },
+  "take_count": 30,
+  "takes": [
+    {
+      "order": 1,
+      "transcript": "Future knowledge was much easier to spend before I tried to buy anything with it.\n\nThat thought arrived after the third failure.\n\nMaybe second.\n\nNo, third.\n\nEast market gave me three possibilities in the first hour.\n\nOne wrong.\n\nOne real but useless for another twenty years.\n\nAnd one pile of gray stone chips beside a masonry stall.\n\nKestrin shale.\n\nI stopped in the street.\n\nPorter dumped another basket onto the pile.",
+      "context_id": "c83928313bff412fa1880c3d2c3bcdf2",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/df081a0e-77ba-4803-b569-e8655874ad46.mp3"
+    },
+    {
+      "order": 2,
+      "transcript": "Cheap.\n\nBrittle.\n\nMildly ma-na-reactive.\n\nMostly used where nobody cared if it cracked.\n\nLater it mattered.\n\nI knew that.\n\nProbably.\n\nThere it was again.\n\nProbably.\n\nAnnoying word.\n\nNecessary word.\n\nI remembered pale filtration housings stamped with the Arwick mark.\n\nOld Kestrin waste binding alchemical residue under heat.\n\nFinished filters bought by the crate because they were cheap enough nobody important thought about them.",
+      "context_id": "8b8fda9a1eb641b6afb7f7f742f2ebc0",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/119acbdb-2686-40d5-90a4-efa441a53ffa.mp3"
+    },
+    {
+      "order": 3,
+      "transcript": "That was the memory.\n\nThat was all the memory.\n\nNo formula.\n\nNo inventor.\n\nNo exact year.\n\nNo useful explanation for how stone nobody wanted became something people bought by the crate.\n\nI had the ending of a story.\n\nNone of the middle.\n\nStill more than two copper.\n\nThe stall woman asked why I was staring at her rubble.\n\nFair.\n\nPrice?\n\nHow much?\n\nAll of it, two silver.",
+      "context_id": "4831b781343a498bb181698e9dda6eb5",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/865f2a9b-6a66-4b26-b8d0-9c3e9ccdcc33.mp3"
+    },
+    {
+      "order": 4,
+      "transcript": "I had two copper.\n\nRight.\n\nBucket?\n\nShe smiled.\n\nOne copper.\n\nMuch more sensible.\n\nI bought the bucket.\n\nGrowth.\n\nThe old me would have bought the cart because scale felt like confidence.\n\nCurrent me had been hit in the ribs by Jorren and nearly killed by vegetables while practicing footwork.\n\nA bucket was enough to be wrong with.\n\nI carried it six minutes before the handle started cutting into my fingers.",
+      "context_id": "1c01e044407e40ef9da3e9ad2025dd91",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c3b816fc-d554-4010-8a03-69df56f606d8.mp3"
+    },
+    {
+      "order": 5,
+      "transcript": "Stone was heavy.\n\nI had known this.\n\nIn principle.\n\nPrinciples had excellent posture.\n\nReality made you switch hands.\n\nArwick.\n\nThe name came back slowly.\n\nNot the man.\n\nStamp first.\n\nThree lines inside a square.\n\nArwick filtration.\n\nArwick regulators.\n\nArwick...\n\nSomething else.\n\nDidn't matter.\n\nI had seen the mark on expedition gear decades later.\n\nSo I asked around.\n\nCurrent Arwick Works was not Works.",
+      "context_id": "809b0fd4644848f2b777394a3603d353",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60755e31-7094-4d04-ae9a-317fa9846e74.mp3"
+    },
+    {
+      "order": 6,
+      "transcript": "It was one rented room behind a cooper.\n\nThat was encouraging?\n\nMaybe.\n\nThe man inside was younger than expected.\n\nUseless observation.\n\nEveryone was younger than expected.\n\nDark hair tied back. Burn scar over two fingers. Lamp regulator opened on the bench.\n\nHe looked at the bucket.\n\nThen me.\n\n\"No.\"\n\nI had not asked anything yet.\n\nApparently carrying rocks into a stranger's workshop qualified as enough proposal to reject.",
+      "context_id": "f2f80b3937d14b82a95b831614be0e07",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1dd19ae-db9a-4e28-9924-9e26443bf7df.mp3"
+    },
+    {
+      "order": 7,
+      "transcript": "Shale.\n\nI corrected him.\n\nDidn't help.\n\nKestrin?\n\nThat helped a little.\n\nHis eyes went back to the bucket.\n\nNot recognition.\n\nTechnical interest.\n\nGood.\n\nMa-na-reactive ceramic mixes?\n\nSometimes.\n\nPowdered Kestrin in a porous body?\n\n\"Why would I?\"\n\nThere.\n\nThat question.\n\nThat mattered.\n\nMy memory knew the finished object.\n\nPale housing.\n\nArwick stamp.\n\nCheap filter.\n\nOrdinary.\n\nDecades from now.",
+      "context_id": "f2588936cf9849ad91589028d12e6025",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/669f2c0d-ef99-4c72-a6c9-48d5dff4882c.mp3"
+    },
+    {
+      "order": 8,
+      "transcript": "It did not know how anybody got there.\n\nTrace ma-na.\n\nCheap structure.\n\nHigh surface area if powdered.\n\nHeat changed the binding somehow.\n\nSomehow.\n\n\"Think?\"\n\nYes.\n\nArlo waited.\n\nBased on what?\n\nSomething I'd seen a long time ago.\n\nHe looked at my face.\n\n\"You're nineteen.\"\n\nRight.\n\nVery formative childhood.\n\nNothing.\n\nHe didn't laugh.\n\nI liked him more for that.\n\nThe important part wasn't the joke anyway.\n\nHe didn't let confidence stand in for evidence.",
+      "context_id": "b4b621fbedec4309bef0e7bc96dee42e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/579a4ab6-2993-44eb-b778-d0ef150d8f14.mp3"
+    },
+    {
+      "order": 9,
+      "transcript": "Name?\n\nArlo.\n\nGood.\n\nNot proof.\n\nBut good.\n\nArlo Arwick?\n\nHe went still.\n\nMistake.\n\nImmediate.\n\n\"Who told you my family name?\"\n\nNo sign.\n\nNo maker stamp visible.\n\nExcellent work, Greg.\n\nThe cooper next door?\n\nMell didn't know it.\n\nSomeone else.\n\n\"Who?\"\n\nThe lamp regulator became fascinating.\n\nCould he test the shale?\n\nHis expression said we had not changed subjects.\n\nMine said I had no better answer.",
+      "context_id": "dfd6f78e635b47398b682e0dee8b454c",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bbaa5c55-d9e7-4eb8-9218-37695d3e96a2.mp3"
+    },
+    {
+      "order": 10,
+      "transcript": "Eventually he took one chip.\n\nTurned it over.\n\n\"Six silver.\"\n\nThere.\n\nA price changed the shape of the problem.\n\nI laughed because I had two copper.\n\nArlo put the chip back.\n\n\"Then no.\"\n\nSix silver for time.\n\nMaterials extra.\n\nRobbery.\n\n\"Then go to a cheaper artificer.\"\n\nI did not know one.\n\nWorse, I didn't even know if Arwick mattered because of Arlo. Maybe children. Maybe a buyer kept the name.",
+      "context_id": "f5fea3a98f0b498f87d63cf7fadd3971",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5e9700e1-0947-4b80-8e12-acc69c680f9a.mp3"
+    },
+    {
+      "order": 11,
+      "transcript": "Maybe coincidence had spent forty years waiting to make me look stupid.\n\nFuture knowledge gave me a door.\n\nDoor charged six silver.\n\nI told him I would come back.\n\nWithout rocks, apparently.\n\nRocks were the point.\n\nThat seemed to worry him.\n\nOutside, back step of the cooper's shop.\n\nBucket between feet.\n\nTwo copper.\n\nTraining cost money.\n\nArlo, six silver before materials.\n\nFood.",
+      "context_id": "4bf8253e39c24a528d16bc4e1f68ff83",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a81d983f-f387-4a6b-97cf-dc46e97e7af9.mp3"
+    },
+    {
+      "order": 12,
+      "transcript": "Ma-na teacher eventually.\n\nRent would remember me sooner or later.\n\nSecond life, less than two days old, already needed financing.\n\nThat part felt familiar.\n\nLenders.\n\nThere were several in Carrow.\n\nI knew one.\n\nNot the same as trusting one.\n\nAntonius Vayle.\n\nFuture reputation full of stories.\n\nMerchant houses. Private wars. Guild expansions. Political campaigns. At least one marriage.\n\nPossibly two.",
+      "context_id": "fe214442421b46ac97fdbd1edd4f8e04",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/22d694cc-f623-47bf-9e8e-2ad7b5f36fed.mp3"
+    },
+    {
+      "order": 13,
+      "transcript": "Second story was better, which made it less likely.\n\nI remembered the man.\n\nEnough to be cautious.\n\nNot enough to stop.\n\nHis current office was behind a gambling room near Slaughter Lane.\n\nI went to the wrong building first.\n\nGood.\n\nReality keeping score.\n\nRight place had no polished stone, no matched guards, no quiet room designed to make rich people feel observed.\n\nThere was a ham hanging from the ceiling.",
+      "context_id": "54b891b9bb974cb19f4c1a8e98a8b228",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f582271c-58f2-4bb7-8c83-e4d4d4f39ffb.mp3"
+    },
+    {
+      "order": 14,
+      "transcript": "I stared at it longer than necessary.\n\nAntonius Vayle came through the back curtain.\n\nBlack hair. Cheap coat. Lean.\n\nSame eyes.\n\nI had seen those eyes across negotiating tables when cities were involved.\n\nNow ham.\n\nI smiled.\n\nHe asked if we knew each other.\n\nNot yet.\n\nHis eyes sharpened.\n\nToo much.\n\nLoan.\n\nThat fixed it.\n\nMoney made people ordinary.\n\nNumber?\n\nForty silver.",
+      "context_id": "bbc42853e0dc418980fe8be55c70aad3",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/40851a1e-9eed-4d91-aa00-073dc58c4c67.mp3"
+    },
+    {
+      "order": 15,
+      "transcript": "Man beside him laughed.\n\nVayle did not.\n\nFirst useful thing about him.\n\nThen inventory.\n\nCollateral?\n\nNone.\n\nProperty?\n\nNone.\n\nFamily?\n\nDead.\n\nGuarantor?\n\nNo.\n\nRank?\n\nBronze token on table.\n\nOther man laughed again.\n\nI was starting to dislike him.\n\nVayle looked at the token long enough for forty silver to become funny without joining in.\n\nWhat for?\n\nTraining.\n\nFood.\n\nArtificer test.",
+      "context_id": "58a91e54bd76489fb2e334ef5bb59bec",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/59275146-6a5d-42e3-8468-e06a453c0a14.mp3"
+    },
+    {
+      "order": 16,
+      "transcript": "Of what?\n\nKestrin chip on table.\n\nVayle looked.\n\n\"Rock.\"\n\nShale.\n\n\"That improves things.\"\n\nAnnoying day.\n\nI liked present Antonius too.\n\nI gave him the real version.\n\nCheap material. Mild ma-na reaction. Possible filtration property nobody priced yet. Artificer interested enough to charge six silver to test.\n\n\"That means he is interested in six silver.\"\n\nAlso fair.\n\nThen no.",
+      "context_id": "71b6270d86ea4d4b9d06eafd7e829358",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2e96fcbc-84dc-4480-8938-2c4e376ec24e.mp3"
+    },
+    {
+      "order": 17,
+      "transcript": "Vayle said no.\n\nThat word mattered.\n\nForty-year reputation did not exist.\n\nS-class did not exist.\n\nI was nineteen.\n\nBronze.\n\nNo collateral.\n\nAsking for forty silver to test rocks.\n\nGood.\n\nPresent proof.\n\nTen, then.\n\nTiny shift in Vayle's mouth.\n\n\"You changed quickly.\"\n\nI asked for what I wanted first.\n\nNow what might actually exist.\n\nTerm?\n\nAnd there it was.\n\nWords stopped being conversation and became machinery.",
+      "context_id": "b7e6196f6fc44668a89df94e8e8ad122",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/99acd8b5-d878-4fca-b15d-8a488be26282.mp3"
+    },
+    {
+      "order": 18,
+      "transcript": "Ten days.\n\nTwenty percent.\n\n\"Eight days. Thirty-five.\"\n\nTwenty-five.\n\n\"Thirty-five.\"\n\nThirty and ten days.\n\n\"Thirty-five and eight.\"\n\nWall.\n\nI looked at him.\n\nOld Greg had negotiated with people who wanted borders.\n\nCurrent Greg needed ten silver.\n\nDifferent leverage.\n\nIf I failed?\n\nWork the balance.\n\nRate?\n\nBad.\n\nNot impossible.\n\nWork type?\n\nMan beside him smiled.\n\nLegal.\n\n\"Mostly.\"\n\nNo.",
+      "context_id": "faed7a308b88465fa2bf88f9816056d3",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/845d92e4-3e78-4a82-83c4-251100d0f0eb.mp3"
+    },
+    {
+      "order": 19,
+      "transcript": "That surprised Vayle.\n\nGood.\n\nLegal labor.\n\nCollections.\n\nDelivery.\n\nBookkeeping if he trusted me near numbers.\n\nNo body disposal.\n\nOther man laughed again.\n\nVayle glanced sideways.\n\n\"Rusk, stop encouraging him.\"\n\nRusk.\n\nName clicked somewhere.\n\nFuture?\n\nMaybe.\n\nPresent first.\n\nVayle counted ten silver onto the table.\n\nThen stated the deal cleanly.",
+      "context_id": "943711098f63407eb2bfa6aa65a9e3e2",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/89de0912-322d-467e-abd9-c540b9a52fc5.mp3"
+    },
+    {
+      "order": 20,
+      "transcript": "\"Eight days. Thirty-five percent. Legal labor if you fail. You miss a day, the work rate drops.\"\n\nPredatory.\n\n\"Yes.\"\n\nGood.\n\nHis fingers paused.\n\n\"Good?\"\n\nClear terms.\n\nHe pushed the money across.\n\nDeal existed now.\n\nTen silver in my palm.\n\nMy brain changed immediately.\n\nTwo copper had been survival.\n\nTen silver was possibility.\n\nPossibility had always been expensive for me.",
+      "context_id": "99c22c6015d54c2a840362db96bbb95a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/102ce199-4a65-4381-a745-0c884b4fdff4.mp3"
+    },
+    {
+      "order": 21,
+      "transcript": "Back to Arlo.\n\nSensible.\n\nSix silver his time.\n\nSensible if the test mattered.\n\nBetter clay.\n\nReagents.\n\nStill defensible.\n\nThen masonry stall.\n\nThe woman saw me coming and smiled.\n\nShe remembered the bucket.\n\nSo did I.\n\nBucket was enough to test.\n\nWe had established this.\n\nWhole cart was two silver.\n\nIf test worked, I would need more.\n\nIf test failed, shale remained cheap.",
+      "context_id": "06caea6885aa407a85f61afaec9e9713",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b6fb1bc6-c620-4213-99cd-c1220d42b891.mp3"
+    },
+    {
+      "order": 22,
+      "transcript": "Rational decision obvious.\n\nI bought the cart.\n\nHer smile widened.\n\nForty minutes later the cart blocked Arlo's alley.\n\nHe came outside.\n\nCart.\n\nMe.\n\nCart again.\n\n\"No.\"\n\nWe might need volume.\n\n\"We need a bowl.\"\n\nEventually.\n\n\"Greg.\"\n\nStorage?\n\nNot here.\n\nCarter wanted three copper to wait.\n\nFour to move it somewhere else.\n\nI owned no somewhere else.",
+      "context_id": "6f749d475c504f268fa29ac00b7f9385",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cf170684-0555-4db7-8b9c-bfa535222165.mp3"
+    },
+    {
+      "order": 23,
+      "transcript": "Cooper objected to the alley.\n\nWoman with a basket objected to me personally.\n\nArlo folded his arms.\n\nTen silver had lasted less than an hour.\n\nHow much shale did he need?\n\nHe had told me.\n\nTell me again.\n\n\"A bucket.\"\n\nI looked at the cart.\n\nCart looked larger now.\n\nExcellent.\n\nI paid to move most of it back into storage behind the masonry stall I had just bought it from.",
+      "context_id": "2b00658470cc438e83557a0350835a82",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e97818e1-5d7c-40c3-ac23-9e4a3560a0b3.mp3"
+    },
+    {
+      "order": 24,
+      "transcript": "The stall owner charged storage.\n\nOf course.\n\nBy the time I returned to Arlo, nearly worthless rock had generated transport fees, storage fees, and enough public humiliation to qualify as education.\n\nArlo was grinding one of the original chips.\n\nWas I rich?\n\nTemporarily.\n\nApparently not how rich normally worked.\n\nHe measured powder into ceramic mix.\n\nI watched his hands.",
+      "context_id": "b9acca0dfe2a4725944c7b1ba64e72e6",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6695b63c-2366-47f9-bc68-9ede22997916.mp3"
+    },
+    {
+      "order": 25,
+      "transcript": "He knew what he was doing.\n\nI knew what the finished technology looked like later.\n\nDifferent jobs.\n\nNot competing facts.\n\nThat helped.\n\nFirst sample cracked.\n\nSecond warped.\n\nThird intact.\n\nDid nothing useful.\n\nArlo wrote every result down.\n\nI started suggesting changes.\n\nIgnored first two.\n\nThird made him pause.\n\nLower heat.\n\n\"Why?\"\n\nMemory.\n\nWoman with burned fingertips swearing about old Kestrin mix.",
+      "context_id": "56cece88e42948c9a2c8606f3a4ad718",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b2c9e0fe-b81e-49e3-8376-22a3ca6cb4f6.mp3"
+    },
+    {
+      "order": 26,
+      "transcript": "White filter housing.\n\nSomeone saying heat ruined the binding.\n\nOr activated it.\n\nWait.\n\nWhich one?\n\nI had suggested lower heat.\n\nArlo was waiting.\n\nBecause I remembered heat mattered and no longer trusted the direction.\n\n\"That sentence is useless.\"\n\nMore honest than the useful-sounding version.\n\nHe stared.\n\nSplit next batch.\n\nOne hotter.\n\nOne lower.\n\nBoth failed.\n\nGood.\n\nNot financially.\n\nEpistemically.",
+      "context_id": "4f52bcb1663442a59f8c82cdd9b4088e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f45c3366-d32c-4fbc-ad0e-a7483f014679.mp3"
+    },
+    {
+      "order": 27,
+      "transcript": "The word did not improve my finances.\n\nBy dusk, one result worth repeating.\n\nNothing worth selling.\n\nI had borrowed money, spent most of it, acquired an inconvenient amount of shale, and learned remembering the future did not include remembering how the future got made.\n\nEight days was seven.\n\nI should have gone home.\n\nInstead dirt behind the Guild.\n\nNo charge for trees.",
+      "context_id": "0ba73212624d4e299850d81c893d08e4",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4deeabbb-ae99-44cf-b7e8-7b074117e04d.mp3"
+    },
+    {
+      "order": 28,
+      "transcript": "Shoulder hurt from bucket.\n\nHands hurt from handle.\n\nExcellent conditions for sword practice if the goal was stupidity.\n\nOverhead.\n\nDragged forward.\n\nAgain.\n\nSide step.\n\nToo wide.\n\nAgain.\n\nOverhead.\n\nAgain.\n\nSide step.\n\nFeet crossed once.\n\nStop.\n\nReset.\n\nAgain.\n\nFifteen things I wanted to fix.",
+      "context_id": "ce65c8ab97b34963ba2bbee123b9199c",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d82a230d-b6f0-4168-9f25-e823625950fc.mp3"
+    },
+    {
+      "order": 29,
+      "transcript": "Grip. Recovery. Hip turn. Breath. Weight. Range. Timing. Where sword stopped. Where foot landed. How quickly I could move after both.\n\nToo much.\n\nPick two.\n\nCut straight.\n\nStep small.\n\nEverything else tomorrow.\n\nI practiced until the light went bad.",
+      "context_id": "e66864425dce44328477564741004f95",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b955fdd9-3c9d-40a9-8291-7c94a4617367.mp3"
+    },
+    {
+      "order": 30,
+      "transcript": "On the walk home, I started calculating how much gambling capital I would need to clear Antonius in three nights.\n\nI knew enough to recognize the thought as dangerous.\n\nI also knew enough to make it sound reasonable.\n\nThat was going to be a problem...",
+      "context_id": "4b062ad1ebbc471ca1702b1f5da48e99",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/df87eb3e-e8a8-468a-b4f1-f81fd5826650.mp3"
+    }
+  ]
+}
