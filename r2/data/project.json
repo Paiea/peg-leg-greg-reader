@@ -7,12 +7,16 @@
   "description": "An audio-first second run of Peg-Leg Greg, with writing and images rendered from the same story underneath.",
   "run1_href": "../index.html",
   "rendering_pipeline": "data/rendering-pipeline.json",
-  "current_chapter": "r2-ch039",
-  "authority_note": "Character-first rebuild is current public R2 through Chapter 39. Chapters 40+ from the pre-rebuild conveyor remain repository quarry only.",
+  "current_chapter": "r2-ch074",
+  "authority_note": "Selected R2 written authority now runs through Chapter 74. Chapters 40–74 promote the reviewed two-year Halden temporal run into the live written reader; planner-only temporal files remain development evidence.",
   "chapters": [
     "r2-ch001", "r2-ch002", "r2-ch003", "r2-ch004", "r2-ch005", "r2-ch006", "r2-ch007", "r2-ch008", "r2-ch009", "r2-ch010",
     "r2-ch011", "r2-ch012", "r2-ch013", "r2-ch014", "r2-ch015", "r2-ch016", "r2-ch017", "r2-ch018", "r2-ch019", "r2-ch020",
     "r2-ch021", "r2-ch022", "r2-ch023", "r2-ch024", "r2-ch025", "r2-ch026", "r2-ch027", "r2-ch028", "r2-ch029", "r2-ch030",
-    "r2-ch031", "r2-ch032", "r2-ch033", "r2-ch034", "r2-ch035", "r2-ch036", "r2-ch037", "r2-ch038", "r2-ch039"
+    "r2-ch031", "r2-ch032", "r2-ch033", "r2-ch034", "r2-ch035", "r2-ch036", "r2-ch037", "r2-ch038", "r2-ch039", "r2-ch040",
+    "r2-ch041", "r2-ch042", "r2-ch043", "r2-ch044", "r2-ch045", "r2-ch046", "r2-ch047", "r2-ch048", "r2-ch049", "r2-ch050",
+    "r2-ch051", "r2-ch052", "r2-ch053", "r2-ch054", "r2-ch055", "r2-ch056", "r2-ch057", "r2-ch058", "r2-ch059", "r2-ch060",
+    "r2-ch061", "r2-ch062", "r2-ch063", "r2-ch064", "r2-ch065", "r2-ch066", "r2-ch067", "r2-ch068", "r2-ch069", "r2-ch070",
+    "r2-ch071", "r2-ch072", "r2-ch073", "r2-ch074"
   ]
 }
