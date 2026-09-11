@@ -76,6 +76,13 @@
     }
   }
 
+  function openWrittenFromHash() {
+    if (location.hash === '#read') {
+      const details = document.getElementById('read');
+      if (details) details.open = true;
+    }
+  }
+
   function makeFigure(image, chapter, className = '') {
     const figure = document.createElement('figure');
     figure.className = `chapter-figure ${className}`.trim();
@@ -133,6 +140,7 @@
       await renderWritten(chapter);
       renderImages(chapter);
       renderNavigation(chapter);
+      openWrittenFromHash();
     } catch (error) {
       setText('chapter-title', 'Chapter unavailable');
       setText('chapter-teaser', 'This chapter could not be loaded right now.');
@@ -142,5 +150,6 @@
     }
   }
 
+  window.addEventListener('hashchange', openWrittenFromHash);
   boot();
 })();
