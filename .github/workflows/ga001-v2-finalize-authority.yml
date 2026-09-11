@@ -1,0 +1,91 @@
+name: ga001 v2 finalize current authority
+on:
+  push:
+    branches: [audio/v2-greg-again-ch001-auto]
+    paths: ['.github/workflows/ga001-v2-finalize-authority.yml']
+permissions:
+  contents: write
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch001-auto
+          fetch-depth: 1
+      - name: Reconcile Chapter 001 against newest authority
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          authority='audio-score/chapters-001-010'
+          for attempt in 1 2 3 4 5; do
+            echo "finalize attempt $attempt"
+            git fetch origin "$authority"
+            git checkout -B ga001-finalize FETCH_HEAD
+            test -s greg-again/audio/assets/v2/chapter-001.mp3
+            test "$(cat greg-again/audio/v2/production/001/final-take-count.txt)" = 33
+            test "$(cat greg-again/audio/v2/production/001/final-duration.txt)" = '886.896000'
+            grep -q '4148946c20eb931867547ff1e559a6c90733fcd4fb129d501cd5698bea0624c9' greg-again/audio/v2/production/001/final-sha256.txt
+            test -s greg-again/audio/v2/takes/001/preview-capture-map.json
+            python - <<'PY'
+          import json, pathlib
+
+          v2p = pathlib.Path('greg-again/audio/v2/manifest.json')
+          v2 = json.loads(v2p.read_text(encoding='utf-8'))
+          entry = {
+              'chapter_id': 'ga-001',
+              'number': 1,
+              'title': 'The Boy',
+              'status': 'verified_unlistened',
+              'source': 'r2/assets/audio-score/ch001.md',
+              'source_blob_sha': '155de484c67836f615e2704896aa37984002d690',
+              'voice': 'deep',
+              'take_count': 33,
+              'capture_mode': 'preview-safe-short-takes',
+              'duration_seconds': 886.896,
+              'audio_src': 'assets/v2/chapter-001.mp3',
+              'verification': 'greg-again/audio/v2/verification/001/'
+          }
+          chapters = [c for c in v2.get('chapters', []) if c.get('number') != 1]
+          chapters.append(entry)
+          chapters.sort(key=lambda c: c.get('number', 10**9))
+          v2['chapters'] = chapters
+          v2p.write_text(json.dumps(v2, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          pubp = pathlib.Path('greg-again/audio/manifest.json')
+          pub = json.loads(pubp.read_text(encoding='utf-8'))
+          matches = [c for c in pub.get('chapters', []) if c.get('number') == 1]
+          if len(matches) != 1:
+              raise SystemExit(f'expected exactly one public Chapter 1 entry, got {len(matches)}')
+          c = matches[0]
+          c['take_count'] = 33
+          c['duration_seconds'] = 886.896
+          c['audio_src'] = 'assets/v2/chapter-001.mp3'
+          c['audio_finish'] = 'audio-score-v2'
+          c['note'] = ('Audio Score v2 Chapter 1 assembled from thirty-three complete preview-safe deep-voice takes. '
+                       'Exact Audio Score order, durable preview capture, per-take MP3 playability, final assembly, '
+                       'and the chapter settling tail were mechanically verified; subjective human listen-back remains separate.')
+          pubp.write_text(json.dumps(pub, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          ver = pathlib.Path('greg-again/audio/v2/verification/001/STATUS.md')
+          ver.parent.mkdir(parents=True, exist_ok=True)
+          ver.write_text('''# Chapter 001 Audio Score v2 Verification\n\nStatus: **VERIFIED_UNLISTENED**\n\nMechanical verification completed before publication:\n\n- authoritative source: `r2/assets/audio-score/ch001.md`\n- source blob: `155de484c67836f615e2704896aa37984002d690`\n- 33 ordered preview-safe takes cover the Audio Score in source order\n- `transcript` and `preview_transcript` were identical for each provider request\n- provider-facing text differs from score spelling only for documented `mana -> ma-na` pronunciation aliases\n- all 33 Google Storage preview MP3 artifacts were downloaded durably\n- every take passed minimum-byte gating and `ffprobe`\n- per-take bytes, durations, SHA-256 hashes, and preview URLs are recorded in `greg-again/audio/v2/production/001/capture-metadata.tsv`\n- deterministic take boundaries and provider artifacts are recorded in `greg-again/audio/v2/takes/001/preview-capture-map.json`\n- final chapter was assembled in take order with ffmpeg, with no music, SFX, crossfades, or decorative processing\n- approximately 2 seconds of settling silence were added only at final chapter assembly\n- final MP3 passed `ffprobe`\n- final asset: `greg-again/audio/assets/v2/chapter-001.mp3`\n- final duration: 886.896 seconds\n- final size: 7,918,557 bytes\n- final SHA-256: `4148946c20eb931867547ff1e559a6c90733fcd4fb129d501cd5698bea0624c9`\n- Audio Score source was not edited\n\nSubjective human listen-back has not been claimed or simulated.\n''', encoding='utf-8')
+
+          status = pathlib.Path('greg-again/audio/v2/production/001/STATUS.md')
+          status.write_text('''# Greg, Again Audio Score v2 — Chapter 001 Production Status\n\nStatus: **ASSEMBLED / VERIFIED_UNLISTENED / PUBLISHED**\n\n- Chapter: 001 — The Boy\n- Source: `r2/assets/audio-score/ch001.md`\n- Source blob: `155de484c67836f615e2704896aa37984002d690`\n- Voice: `deep`\n- Factory: preview-safe short-take capture\n- Takes: 33\n- Final asset: `greg-again/audio/assets/v2/chapter-001.mp3`\n- Duration: 886.896 seconds\n- Bytes: 7,918,557\n- SHA-256: `4148946c20eb931867547ff1e559a6c90733fcd4fb129d501cd5698bea0624c9`\n- Tail: approximately 2 seconds added at final chapter assembly\n- Score repair: none\n- Provider-facing pronunciation: `mana -> ma-na` where present; source text unchanged\n- v2 manifest: Chapter 001 registered while preserving sibling entries\n- public manifest: Chapter 001 routes to `assets/v2/chapter-001.mp3`\n- subjective listen-back: not claimed\n\nThe durable short-take factory is documented in `r2/AUDIO_SCORE_PRODUCTION.md`.\n''', encoding='utf-8')
+          PY
+            git add greg-again/audio/v2/manifest.json greg-again/audio/manifest.json greg-again/audio/v2/verification/001/STATUS.md greg-again/audio/v2/production/001/STATUS.md
+            if git diff --cached --quiet; then
+              echo 'already finalized on authority'
+              exit 0
+            fi
+            git commit -m 'audio-v2: finalize Chapter 001 publication'
+            if git push origin HEAD:"$authority"; then
+              exit 0
+            fi
+            echo 'authority moved; retrying from newest authority'
+          done
+          echo 'failed to reconcile after 5 attempts' >&2
+          exit 1
