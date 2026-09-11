@@ -1,0 +1,102 @@
+name: ga064 Audio Score v2 publish
+on:
+  push:
+    branches: [audio/v2-greg-again-ch064-auto]
+    paths: ['.github/workflows/ga064-v2-publish.yml']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch064-auto
+      - name: Verify final asset and reconcile manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          result = Path('greg-again/audio/v2/verification/064/RESULT.md').read_text()
+          required = [
+              'Exact normalized transcript coverage: PASS',
+              'Every chunk byte gate + ffprobe: PASS',
+              'Final ffprobe: PASS',
+              'Take count: 21',
+              'Final duration seconds: `555.624000`',
+              'Final SHA-256: `28052045c9183a93d7592e5f582261aac6f2dc823bcfce26a71991376fb8f22d`',
+          ]
+          missing = [x for x in required if x not in result]
+          if missing:
+              raise SystemExit(f'verification record missing: {missing}')
+
+          asset = Path('greg-again/audio/assets/v2/chapter-064.mp3')
+          if not asset.exists() or asset.stat().st_size != 5023533:
+              raise SystemExit(f'asset gate failed: exists={asset.exists()} size={asset.stat().st_size if asset.exists() else None}')
+
+          v2_path = Path('greg-again/audio/v2/manifest.json')
+          v2 = json.loads(v2_path.read_text())
+          v2_entry = {
+              'chapter_id': 'ga-064',
+              'number': 64,
+              'title': 'Glassmaw',
+              'status': 'verified_unlistened',
+              'source': 'r2/assets/audio-score/ch064.md',
+              'source_blob_sha': '0326969cce6e3be692eed694f919a45e0dd92732',
+              'voice': 'deep',
+              'take_count': 21,
+              'capture_mode': 'preview-safe-short-takes',
+              'duration_seconds': 555.624,
+              'audio_src': 'assets/v2/chapter-064.mp3',
+              'take_map': 'greg-again/audio/v2/takes/064/take-map.md',
+              'verification': 'greg-again/audio/v2/verification/064/'
+          }
+          chapters = [c for c in v2['chapters'] if c.get('number') != 64]
+          chapters.append(v2_entry)
+          v2['chapters'] = sorted(chapters, key=lambda c: c['number'])
+          v2_path.write_text(json.dumps(v2, indent=2) + '\n')
+
+          public_path = Path('greg-again/audio/manifest.json')
+          public = json.loads(public_path.read_text())
+          public_entry = {
+              'chapter_id': 'ga-064',
+              'number': 64,
+              'title': 'Glassmaw',
+              'status': 'experimental',
+              'lens': 'shared-greg-surface',
+              'audio_finish': 'audio-score-v2',
+              'take_count': 21,
+              'duration_seconds': 555.624,
+              'audio_src': 'assets/v2/chapter-064.mp3',
+              'note': 'Audio Score v2 Chapter 64 uses twenty-one complete preview-safe deep-voice takes. Exact normalized score coverage, durable provider artifacts, individual MP3 playability, deterministic stitching, final hash, and the approximately two-second settling tail were mechanically verified; subjective human listen-back remains separate.'
+          }
+          chapters = [c for c in public['chapters'] if c.get('number') != 64]
+          chapters.append(public_entry)
+          public['chapters'] = sorted(chapters, key=lambda c: c['number'])
+          public_path.write_text(json.dumps(public, indent=2) + '\n')
+
+          for path in (v2_path, public_path):
+              parsed = json.loads(path.read_text())
+              matches = [c for c in parsed['chapters'] if c.get('number') == 64]
+              if len(matches) != 1:
+                  raise SystemExit(f'{path}: expected one chapter 64 entry, got {len(matches)}')
+              if matches[0]['audio_src'] != 'assets/v2/chapter-064.mp3':
+                  raise SystemExit(f'{path}: wrong chapter 64 route')
+
+          print('Chapter 64 manifest reconciliation verified')
+          PY
+          test -s greg-again/audio/assets/v2/chapter-064.mp3
+          python3 -m json.tool greg-again/audio/v2/manifest.json >/dev/null
+          python3 -m json.tool greg-again/audio/manifest.json >/dev/null
+      - name: Commit publication manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add greg-again/audio/v2/manifest.json greg-again/audio/manifest.json
+          git commit -m 'Publish ga-064 Audio Score v2'
+          git push origin HEAD:audio/v2-greg-again-ch064-auto
