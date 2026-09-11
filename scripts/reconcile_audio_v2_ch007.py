@@ -63,7 +63,7 @@ new = '''        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(
         verified_v2 = {
             chapter["number"]
             for chapter in v2_manifest.get("chapters", [])
-            if chapter.get("status") in {"verified", "verified_unlistened"}
+            if chapter.get("status") in {"complete", "verified", "verified_unlistened"}
         }
         self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
 '''
