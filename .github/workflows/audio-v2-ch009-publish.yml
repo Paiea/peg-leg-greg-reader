@@ -1,0 +1,108 @@
+name: Audio v2 Chapter 009 publish
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch009-auto
+    paths:
+      - greg-again/audio/v2/production/009/publication-request.json
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconcile newest Audio Score authority
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin audio-score/chapters-001-010
+          git merge --no-edit origin/audio-score/chapters-001-010
+
+      - name: Publish Chapter 009 metadata and verify route
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib
+          chapter = 9
+          duration = 519.432
+          take_count = 23
+          asset = pathlib.Path('greg-again/audio/assets/v2/chapter-009.mp3')
+          if not asset.exists() or asset.stat().st_size <= 0:
+              raise SystemExit('v2 Chapter 009 asset missing or empty')
+
+          v2p = pathlib.Path('greg-again/audio/v2/manifest.json')
+          v2 = json.loads(v2p.read_text())
+          chapters = [c for c in v2.get('chapters', []) if int(c.get('number', -1)) != chapter]
+          chapters.append({
+              'chapter_id': 'ga-009',
+              'number': 9,
+              'title': 'The Bridge',
+              'status': 'verified_unlistened',
+              'source': 'r2/assets/audio-score/ch009.md',
+              'source_blob_sha': '021b147c2429844eae35dcba8881552b01bc2716',
+              'voice': 'deep',
+              'take_count': take_count,
+              'duration_seconds': duration,
+              'audio_src': 'assets/v2/chapter-009.mp3',
+              'verification': 'greg-again/audio/v2/verification/009/'
+          })
+          v2['chapters'] = sorted(chapters, key=lambda c: int(c['number']))
+          v2p.write_text(json.dumps(v2, indent=2) + '\n')
+
+          pubp = pathlib.Path('greg-again/audio/manifest.json')
+          pub = json.loads(pubp.read_text())
+          matches = [c for c in pub['chapters'] if int(c.get('number', -1)) == chapter]
+          if len(matches) != 1:
+              raise SystemExit(f'expected one public Chapter 009 entry, got {len(matches)}')
+          c = matches[0]
+          c['take_count'] = take_count
+          c['duration_seconds'] = duration
+          c['audio_src'] = 'assets/v2/chapter-009.mp3'
+          c['audio_finish'] = 'audio-score-v2'
+          c['note'] = ('Audio Score v2 Chapter 9 from the exact audio-native score. '
+                       'Twenty-three preview-safe deep-voice takes preserve future-memory uncertainty, '
+                       'rescue load direction, and Greg correcting the brace angle under load. '
+                       'Exact score coverage, ordered capture, MP3 playability, and the chapter settling tail '
+                       'were mechanically verified; subjective human listen-back remains separate.')
+          pubp.write_text(json.dumps(pub, indent=2) + '\n')
+
+          if c['audio_src'] != 'assets/v2/chapter-009.mp3':
+              raise SystemExit('public route did not switch to v2')
+
+          prod = pathlib.Path('greg-again/audio/v2/production/009')
+          prod.mkdir(parents=True, exist_ok=True)
+          (prod / 'STATUS.md').write_text('''# Audio Score v2 Chapter 009 handoff\n\n- Chapter: 009 — The Bridge\n- Claim: `audio/v2-greg-again-ch009-auto`\n- Audio Score source: `r2/assets/audio-score/ch009.md`\n- Source blob SHA: `021b147c2429844eae35dcba8881552b01bc2716`\n- Voice: `deep`\n- Takes: 23 generated, provider-ready, captured, ffprobe-verified, and stitched in order\n- Final MP3: `greg-again/audio/assets/v2/chapter-009.mp3`\n- Final duration: 519.432 seconds\n- Tail: 2-second assembly target applied\n- Text coverage: exact score body SHA match; no missing text; no duplicated seam text\n- Score repairs: none\n- Provider substitutions: none\n- Reusable lesson: direct preview URLs remain a viable durable-capture boundary for preview-safe exact-transcript takes; no new Audio Score doctrine promoted\n- v2 manifest: Chapter 009 recorded\n- public manifest: Chapter 009 routed to `assets/v2/chapter-009.mp3`\n- Listen-back: not claimed; deterministic production verification only\n- Next action: human subjective listen-back may request a local take repair; do not regenerate acceptable takes preemptively.\n''')
+          ver = pathlib.Path('greg-again/audio/v2/verification/009/publication.json')
+          ver.parent.mkdir(parents=True, exist_ok=True)
+          ver.write_text(json.dumps({
+              'chapter': 9,
+              'asset_exists': True,
+              'asset_bytes': asset.stat().st_size,
+              'v2_manifest_has_chapter': any(int(x.get('number',-1)) == 9 for x in v2['chapters']),
+              'public_audio_src': c['audio_src'],
+              'public_route_is_v2': c['audio_src'] == 'assets/v2/chapter-009.mp3',
+              'duration_seconds': c['duration_seconds'],
+              'take_count': c['take_count'],
+              'subjective_listen_back': False,
+              'status': 'published_on_claim_branch_verified'
+          }, indent=2) + '\n')
+          PY
+
+      - name: Commit reconciled publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add greg-again/audio/v2/manifest.json greg-again/audio/manifest.json greg-again/audio/v2/production/009/STATUS.md greg-again/audio/v2/verification/009/publication.json
+          git commit -m "Publish Audio Score v2 Chapter 009"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"

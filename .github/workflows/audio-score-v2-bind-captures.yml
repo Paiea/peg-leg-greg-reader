@@ -1,0 +1,51 @@
+name: Audio Score v2 bind captures
+
+on:
+  push:
+    branches:
+      - 'audio/v2-greg-again-ch*-auto'
+    paths:
+      - 'greg-again/audio/v2/takes/*/capture-results.tsv'
+
+permissions:
+  contents: write
+
+jobs:
+  bind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Bind durable preview results to exact planned takes
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='${{ github.ref_name }}'
+          chapter="${branch#audio/v2-greg-again-ch}"
+          chapter="${chapter%-auto}"
+          python3 scripts/audio_score_bind_captures.py "$chapter"
+          python3 - <<PY
+          import json
+          d=json.load(open('greg-again/audio/v2/takes/${chapter}/short-takes.json'))
+          assert d['captured_take_count'] <= d['take_count']
+          assert d['status'] in ('capture_partial','capture_ready','durable_takes_verified_and_assembled')
+          print('${chapter}:', d.get('captured_take_count', d['take_count']), '/', d['take_count'], d['status'])
+          PY
+      - name: Commit bound capture map
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='${{ github.ref_name }}'
+          chapter="${branch#audio/v2-greg-again-ch}"
+          chapter="${chapter%-auto}"
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add "greg-again/audio/v2/takes/${chapter}/short-takes.json"
+          if git diff --cached --quiet; then
+            echo 'capture map already current'
+            exit 0
+          fi
+          git commit -m "Bind Audio Score v2 Chapter ${chapter} preview captures"
+          git push origin HEAD:"${{ github.ref_name }}"
