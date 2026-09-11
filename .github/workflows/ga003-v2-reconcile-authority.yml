@@ -1,0 +1,98 @@
+name: ga003 v2 reconcile authority
+
+on:
+  push:
+    branches: [audio/v2-greg-again-ch003-auto]
+    paths:
+      - '.github/workflows/ga003-v2-reconcile-authority.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audio/v2-greg-again-ch003-auto
+          fetch-depth: 0
+
+      - name: Verify assembled Chapter 003 exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s greg-again/audio/assets/v2/chapter-003.mp3
+          test "$(find greg-again/audio/assets/v2/chunks/003-short -maxdepth 1 -name '*.mp3' | wc -l)" -eq 30
+          ffprobe -v error greg-again/audio/assets/v2/chapter-003.mp3
+
+      - name: Reconcile with current Audio Score authority
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin audio-score/chapters-001-010
+          git merge --no-commit --no-ff -X theirs origin/audio-score/chapters-001-010
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          v2p = Path('greg-again/audio/v2/manifest.json')
+          v2 = json.loads(v2p.read_text())
+          entry = {
+              'chapter_id': 'ga-003',
+              'number': 3,
+              'title': 'The Borrower',
+              'status': 'verified_unlistened',
+              'source': 'r2/assets/audio-score/ch003.md',
+              'source_blob_sha': '211ed23b1bfc34f3f37144d31f91eec60fff0ab2',
+              'voice': 'deep',
+              'take_count': 30,
+              'capture_mode': 'preview-safe-short-takes',
+              'duration_seconds': 673.104,
+              'audio_src': 'assets/v2/chapter-003.mp3',
+              'verification': 'greg-again/audio/v2/verification/003/'
+          }
+          chapters = v2.setdefault('chapters', [])
+          chapters[:] = [c for c in chapters if c.get('chapter_id') != 'ga-003' and c.get('number') != 3]
+          chapters.append(entry)
+          chapters.sort(key=lambda c: c.get('number', 10**9))
+          v2p.write_text(json.dumps(v2, indent=2) + '\n')
+
+          pp = Path('greg-again/audio/manifest.json')
+          pub = json.loads(pp.read_text())
+          matches = [c for c in pub.get('chapters', []) if c.get('chapter_id') == 'ga-003' or c.get('number') == 3]
+          if len(matches) != 1:
+              raise SystemExit(f'expected one public ga-003 entry, found {len(matches)}')
+          c = matches[0]
+          c['audio_src'] = 'assets/v2/chapter-003.mp3'
+          c['take_count'] = 30
+          c['duration_seconds'] = 673.104
+          c['audio_finish'] = 'audio-score-v2'
+          c['note'] = ('Audio Score v2 Chapter 3 assembled from thirty complete preview-safe deep-voice takes. '
+                       'Exact Audio Score order, durable preview capture, per-take MP3 playability, hashes, final assembly, '
+                       'and the two-second settling tail were mechanically verified; subjective human listen-back remains separate.')
+          pp.write_text(json.dumps(pub, indent=2) + '\n')
+          PY
+
+          python -m json.tool greg-again/audio/v2/manifest.json >/dev/null
+          python -m json.tool greg-again/audio/manifest.json >/dev/null
+          python3 - <<'PY'
+          import json
+          v2=json.load(open('greg-again/audio/v2/manifest.json'))
+          nums=[c.get('number') for c in v2['chapters']]
+          for required in (1,3,4,6,9,10):
+              assert required in nums, (required, nums)
+          c=next(c for c in v2['chapters'] if c.get('number')==3)
+          assert c['take_count']==30 and c['duration_seconds']==673.104, c
+          pub=json.load(open('greg-again/audio/manifest.json'))
+          c=next(c for c in pub['chapters'] if c.get('number')==3)
+          assert c['audio_src']=='assets/v2/chapter-003.mp3', c
+          print('v2 chapters preserved:', nums)
+          PY
+
+          git add greg-again/audio/v2/manifest.json greg-again/audio/manifest.json
+          git commit -m 'Reconcile Audio Score v2 Chapter 003 with current authority'
+          git push origin HEAD:audio/v2-greg-again-ch003-auto
