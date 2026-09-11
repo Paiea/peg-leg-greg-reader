@@ -1,0 +1,9 @@
+chapter=006
+chunks=30
+coverage_ok=true
+source_blob_sha=660801faef0a727a50c73c2b4768e12b71780618
+voice=deep
+factory=preview-safe-v2
+final_duration_seconds=649.632000
+final_sha256=e627ac90138948b225c2d45d7537cd92b4323819bd07262c08c91737b42d9f83
+tail_seconds=2
