@@ -8,6 +8,8 @@
   "chunk_max_chars": 500,
   "chunk_count": 23,
   "rule": "transcript equals preview_transcript for every provider request",
+  "capture_retry": 2,
+  "capture_retry_reason": "first capture assembled successfully but its final git push raced a newer take-map commit",
   "chunks": [
     {"chunk":1,"context_id":"9fce5f75107d4c0caf9f2fa533632f7a","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2c21dbd7-72d7-4d27-a96c-d2b7265fc16b.mp3","source_note":"exact Audio Score text"},
     {"chunk":2,"context_id":"ba129801fe564ca68a34e978a4c11c14","preview_url":"https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f1175328-9986-4e2a-a6de-d05e48c0b7b9.mp3","source_note":"exact Audio Score text"},
