@@ -15,7 +15,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         verified_v2 = {
             chapter["number"]
             for chapter in v2_manifest.get("chapters", [])
-            if chapter.get("status") == "verified"
+            if chapter.get("status") in {"complete", "verified", "verified_unlistened"}
         }
         self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
         chapters = manifest["chapters"]
@@ -38,7 +38,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("shared-greg-surface", by_id["ga-007"]["lens"])
         self.assertEqual("processing-space", by_id["ga-005"]["audio_finish"])
         self.assertEqual("processing-space", by_id["ga-006"]["audio_finish"])
-        self.assertEqual("processing-space", by_id["ga-007"]["audio_finish"])
+        self.assertEqual("audio-score-v2", by_id["ga-007"]["audio_finish"])
         self.assertEqual(31, by_id["ga-007"]["take_count"])
         self.assertEqual(623.448, by_id["ga-007"]["duration_seconds"])
 

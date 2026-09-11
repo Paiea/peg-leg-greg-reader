@@ -7,17 +7,43 @@
   "source_layer": "r2/assets/audio-score",
   "chapters": [
     {
+      "chapter_id": "ga-004",
+      "number": 4,
+      "title": "Thirty Days",
+      "status": "complete",
+      "voice_style": "deep",
+      "source": "r2/assets/audio-score/ch004.md",
+      "source_sha": "7c2f4b9cdf40fe8035568fa7e503bff4589780fe",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 621.432,
+      "audio_src": "assets/v2/chapter-004.mp3"
+    },
+    {
       "chapter_id": "ga-007",
       "number": 7,
       "title": "The Extra Guard",
-      "status": "verified",
+      "status": "verified_unlistened",
       "source": "r2/assets/audio-score/ch007.md",
-      "source_blob": "d179b9621a0903c286171b707264b6256600b99f",
+      "source_blob_sha": "d179b9621a0903c286171b707264b6256600b99f",
       "voice": "deep",
       "take_count": 31,
       "duration_seconds": 623.448,
       "audio_src": "assets/v2/chapter-007.mp3",
-      "sha256": "de12bffa3ed699816837db6b9e41abaad514368ca94e57ecb2fa16f578f8af8f"
+      "verification": "greg-again/audio/v2/verification/007/"
+    },
+    {
+      "chapter_id": "ga-009",
+      "number": 9,
+      "title": "The Bridge",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch009.md",
+      "source_blob_sha": "021b147c2429844eae35dcba8881552b01bc2716",
+      "voice": "deep",
+      "take_count": 23,
+      "duration_seconds": 519.432,
+      "audio_src": "assets/v2/chapter-009.mp3",
+      "verification": "greg-again/audio/v2/verification/009/"
     }
   ]
 }
