@@ -7,6 +7,33 @@
   "source_layer": "r2/assets/audio-score",
   "chapters": [
     {
+      "chapter_id": "ga-001",
+      "number": 1,
+      "title": "The Boy",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch001.md",
+      "source_blob_sha": "155de484c67836f615e2704896aa37984002d690",
+      "voice": "deep",
+      "take_count": 33,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 886.896,
+      "audio_src": "assets/v2/chapter-001.mp3",
+      "verification": "greg-again/audio/v2/verification/001/"
+    },
+    {
+      "chapter_id": "ga-004",
+      "number": 4,
+      "title": "Thirty Days",
+      "status": "complete",
+      "voice_style": "deep",
+      "source": "r2/assets/audio-score/ch004.md",
+      "source_sha": "7c2f4b9cdf40fe8035568fa7e503bff4589780fe",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 621.432,
+      "audio_src": "assets/v2/chapter-004.mp3"
+    },
+    {
       "chapter_id": "ga-009",
       "number": 9,
       "title": "The Bridge",

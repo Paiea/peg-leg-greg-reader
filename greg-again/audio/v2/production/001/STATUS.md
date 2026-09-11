@@ -1,6 +1,6 @@
 # Greg, Again Audio Score v2 — Chapter 001 Production Status
 
-Status: **ASSEMBLED / VERIFIED / AUTHORITY INTEGRATION IN PROGRESS**
+Status: **ASSEMBLED / VERIFIED_UNLISTENED / PUBLISHED**
 
 - Chapter: 001 — The Boy
 - Source: `r2/assets/audio-score/ch001.md`
@@ -15,5 +15,8 @@ Status: **ASSEMBLED / VERIFIED / AUTHORITY INTEGRATION IN PROGRESS**
 - Tail: approximately 2 seconds added at final chapter assembly
 - Score repair: none
 - Provider-facing pronunciation: `mana -> ma-na` where present; source text unchanged
+- v2 manifest: Chapter 001 registered while preserving sibling entries
+- public manifest: Chapter 001 routes to `assets/v2/chapter-001.mp3`
+- subjective listen-back: not claimed
 
-All 33 preview artifacts were downloaded, byte-gated, ffprobe-verified, and assembled in numeric order. Shared manifests are updated only after the asset is present on current Audio Score authority.
+The durable short-take factory is documented in `r2/AUDIO_SCORE_PRODUCTION.md`.
