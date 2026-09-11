@@ -1,6 +1,6 @@
 # Trust Contradiction Temporal Run
 
-Status: **ACTIVE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
+Status: **COMPLETE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
 
 ## Authority anchor
 
@@ -11,11 +11,11 @@ Public R2 authority remains Chapter 118 on `main`. Nothing in this run is canon 
 ## Clock
 
 START: D225
-TARGET STOP: approximately D315, roughly three months later
-EARLY STOP: any genuinely irreversible event that deserves a block boundary
-NATURAL STOP: first autumn Far Lantern attachment if no earlier event supersedes it
+END: D315
+ELAPSED: 90 days
+STOP CONDITION: met at first autumn Far Lantern attachment
 
-## Active pressures
+## Active pressures at entry
 
 - Greg remains Silver and untitled.
 - `WHO IS GREG?` remains unanswered.
@@ -81,3 +81,7 @@ C -> B -> A -> S
 No title, no Ranker.
 
 Letter class sorts the tiny titled population by consequential result history, scale, repeatability, trust, and planning significance. It is not a second straight power ladder.
+
+## Result
+
+See `CLOSEOUT.md` for the completed challenger read and surviving pressures.
