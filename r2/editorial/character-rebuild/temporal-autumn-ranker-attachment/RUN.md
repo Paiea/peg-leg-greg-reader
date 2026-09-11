@@ -1,6 +1,6 @@
 # Autumn Ranker Attachment Temporal Run
 
-Status: **ACTIVE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
+Status: **COMPLETE TEMPORAL REHEARSAL / ZERO STORY AUTHORITY**
 
 ## Authority anchor
 
@@ -11,39 +11,39 @@ Public R2 authority remains Chapter 118 on `main`.
 ## Clock
 
 START: D315
-TARGET STOP: D329
-ELAPSED TARGET: fourteen days
-EARLY STOP: genuinely irreversible event only
+END: D329
+ELAPSED: fourteen days
+STOP CONDITION: met
 
-## Active clocks
+## Active clocks carried through the run
 
 - Greg travels with Merel Dane / Far Lantern and Orris Hale on the first of three offered short attachments.
 - Greg remains Silver and untitled.
 - Merel has not accepted a master/apprentice relationship.
 - Greg's strongest current identity statement is `I want to be worth trusting.`
 - Vessa Krail remains fired from standing employment and used selectively per task.
-- Renn is due back in Carrow around D318 after extended Dunbarrow survey work.
+- Renn returns to Carrow around D318 after extended Dunbarrow survey work.
 - Greg explicitly warned Renn that Vessa is useful and unsafe and told him not to give her information he does not want her to have.
 - Mara remains in Northbank.
-- Sera Vell survived the recent Hollow Ford deployment. Whether old-history Hollow Ford death is still ahead remains unknown.
+- Sera Vell survives the recent Hollow Ford deployment. Whether old-history Hollow Ford death is still ahead remains unknown.
 - Hearthline trust remains case-by-case.
 
-## Machine constraints
+## Machine constraints used
 
-World propagate before scene selection.
+World propagated before scene selection.
 
-Keep the local planner blind to the macro identity question except at periodic audit.
+The local planner remained mostly blind to the macro identity question.
 
-Observation events remain valid.
+Observation events were valid.
 
-Penalize the familiar `technical problem -> Greg spots hidden variable -> narrow solution -> professional praise` grammar.
+The familiar `technical problem -> Greg spots hidden variable -> narrow solution -> professional praise` grammar was penalized.
 
-Do not force Vessa betrayal, redemption, or a trust lesson.
+Vessa betrayal/redemption was not forced.
 
-Do not make Renn's return automatically about Red Bell.
+Renn's return was not automatically turned into a Red Bell event.
 
-Do not turn Merel into a conveniently perfect master.
+Merel was not treated as a conveniently perfect master.
 
 ## Stop condition
 
-Stop at the end of the two-week attachment and return control for calibration before another large block.
+The run stops at D329 at the end of the two-week attachment and returns control for calibration before another large block.
