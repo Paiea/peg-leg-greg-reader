@@ -1,0 +1,57 @@
+name: Audio Score Light PR Factory
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'r2/assets/audio-score-light/**'
+      - 'r2/AUDIO_SCORE_LIGHT.md'
+      - 'r2/AUDIO_SCORE_LIGHT_PRODUCTION.md'
+      - 'scripts/audio_score_light_validate.py'
+      - 'scripts/audio_score_capture_plan.py'
+      - 'tests/test_audio_score_light.py'
+      - 'tests/test_audio_score_capture_plan.py'
+      - '.github/workflows/audio-score-light-pr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-plan:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Run Light unit tests
+        run: python -m pytest tests/test_audio_score_light.py tests/test_audio_score_capture_plan.py -v
+      - name: Validate Light 001-030
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in $(seq -w 1 30); do
+            python scripts/audio_score_light_validate.py "$n"
+          done
+      - name: Build Light take plans 001-030
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in $(seq -w 1 30); do
+            python scripts/audio_score_capture_plan.py "$n" --generation light
+          done
+      - name: Commit take plans
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add greg-again/audio/light/takes
+          if git diff --cached --quiet; then
+            echo "No take-plan changes"
+            exit 0
+          fi
+          git commit -m "Plan Audio Score Light takes 1-30"
+          git push origin HEAD:${{ github.head_ref }}
