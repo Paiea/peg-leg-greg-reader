@@ -1,0 +1,94 @@
+name: Compile R2 role-title audit source
+
+on:
+  push:
+    branches:
+      - r2/role-title-authority-118
+    paths:
+      - '.github/workflows/r2-role-title-audit-source.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: r2/role-title-authority-118
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile current selected title evidence
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('.')
+          r2 = root / 'r2'
+          project = json.loads((r2 / 'data/project.json').read_text(encoding='utf-8'))
+          out_dir = r2 / 'editorial' / 'title-role-audit-source'
+          out_dir.mkdir(parents=True, exist_ok=True)
+
+          records = []
+          for chapter_id in project['chapters']:
+              number = int(chapter_id.rsplit('ch', 1)[-1])
+              manifest_path = r2 / 'data' / 'chapters' / f'ch{number:03d}.json'
+              manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+              written_path = r2 / manifest['written']['path']
+              text = written_path.read_text(encoding='utf-8')
+              lines = text.splitlines()
+              heading = lines[0] if lines else ''
+              body = text
+              marker = '\n---\n'
+              if marker in text:
+                  body = text.split(marker, 1)[1]
+              body = body.strip()
+              start = body[:3200]
+              end = body[-2200:] if len(body) > 2200 else body
+              records.append((number, manifest, heading, start, end))
+
+          for batch_start in range(1, len(records) + 1, 10):
+              batch = records[batch_start - 1: batch_start - 1 + 10]
+              first = batch[0][0]
+              last = batch[-1][0]
+              parts = [
+                  f'# R2 role-title audit source: Chapters {first:03d}-{last:03d}',
+                  '',
+                  'Derived audit evidence only. Current public manifest metadata plus selected written heading and bounded opening/closing prose excerpts.',
+                  '',
+              ]
+              for number, manifest, heading, start, end in batch:
+                  parts.extend([
+                      f'## Chapter {number:03d}',
+                      '',
+                      f'PUBLIC TITLE: {manifest.get("title", "")}',
+                      f'WRITTEN HEADING: {heading}',
+                      f'TEASER: {manifest.get("teaser", "")}',
+                      '',
+                      '### Opening excerpt',
+                      '',
+                      start,
+                      '',
+                      '### Closing excerpt',
+                      '',
+                      end,
+                      '',
+                      '---',
+                      '',
+                  ])
+              (out_dir / f'ch{first:03d}-{last:03d}.md').write_text('\n'.join(parts), encoding='utf-8')
+          PY
+      - name: Commit derived audit source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/editorial/title-role-audit-source
+          if git diff --cached --quiet; then
+            echo 'No audit source changes.'
+            exit 0
+          fi
+          git commit -m 'chore(r2): add current role-title audit source'
+          git push origin HEAD:r2/role-title-authority-118
