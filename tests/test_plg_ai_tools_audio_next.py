@@ -62,3 +62,36 @@ def test_audio_next_tool_rejects_non_string_claim_refs(tmp_path):
         assert "claim_refs" in str(exc)
     else:
         raise AssertionError("expected ValueError for invalid claim_refs")
+
+
+def test_audio_claim_tool_is_explicit_write_and_delegates(monkeypatch, tmp_path):
+    scores = make_score_dir(tmp_path, [1, 2])
+    manifest = make_manifest(tmp_path, [1])
+    seen = {}
+
+    def fake_claim_next(score_dir, manifest_path, **kwargs):
+        seen["score_dir"] = score_dir
+        seen["manifest"] = manifest_path
+        seen.update(kwargs)
+        return {"status": "claimed", "chapter": 2, "claim_branch": "audio/v2-greg-again-ch002-auto"}
+
+    monkeypatch.setattr(plg_ai_tools.audio_score_claim, "claim_next", fake_claim_next)
+    result = plg_ai_tools.call_tool(
+        "audio_claim",
+        {
+            "score_dir": str(scores),
+            "manifest": str(manifest),
+            "minimum": 1,
+            "maximum": 2,
+            "remote": "origin",
+            "base_branch": "main",
+        },
+    )
+
+    assert result["status"] == "claimed"
+    assert seen["score_dir"] == scores
+    assert seen["manifest"] == manifest
+    assert seen["minimum"] == 1
+    assert seen["maximum"] == 2
+    assert plg_ai_tools.TOOL_SPECS["audio_claim"]["write"] is True
+    assert plg_ai_tools.TOOL_SPECS["audio_claim"]["read_only"] is False
