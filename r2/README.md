@@ -27,6 +27,8 @@ The public site may explain the Run 1 → Run 2 lineage and process on the homep
 ```text
 r2/
   PIPELINE.md                 # shared Greg surface / medium finishing contract
+  TITLE_POLICY.md             # embodied Greg-role chapter-title contract
+  TITLE_ROLE_AUDIT.md         # approved role-title decisions through current audited frontier
   IMAGE_SYSTEM.md             # R2 visual authority + production architecture
   IMAGE_WORKER.md             # disposable one-chapter image worker engine
   IMAGE_RELEASES.md           # large ChatGPT Library release packaging
@@ -64,16 +66,38 @@ r2/
 - `data/project.json` answers **what chapters exist publicly and in what order**.
 - `data/rendering-pipeline.json` answers **how one Greg-shaped wording surface forks into Listen and Read**.
 - `PIPELINE.md` is the human worker contract for that same rendering route.
+- `TITLE_POLICY.md` answers **what a selected/public chapter title is allowed to mean**. R2 titles name the embodied role Greg inhabits, not merely the object, event, place, deadline, or topic of the chapter.
+- `TITLE_ROLE_AUDIT.md` records **approved editorial title decisions**. Mechanical tooling propagates those decisions but does not invent them.
 - `IMAGE_SYSTEM.md` answers **how R2 visual work is claimed, generated, reviewed, staged, released, verified, and integrated**.
 - `IMAGE_WORKER.md` answers **how a fresh parallel chapter-image worker executes one transaction and stops**.
 - `IMAGE_RELEASES.md` answers **how approved Library binaries become large repo-ready handoff ZIPs**.
 - `visual-state/R2_VISUAL_CANON.md` answers **what current R2 image work should not have to rediscover**.
 - `data/chapters/chNNN.json` answers **what the public reader should display for that chapter**.
-- `data/chapter-registry.json` answers **what production work remains**.
+- `data/chapter-registry.json` answers **what production work remains**. It may trail the public frontier and does not outrank selected/public title authority.
 - ChatGPT Library is a shared binary staging warehouse, not story or visual-canon authority.
 - Audio, written, and image files are assets referenced by manifests. Folder scanning does not define story order.
 - Run 1 prose/art does not automatically become R2 authority.
 - Site hero/mood art does not automatically become character or scene canon.
+
+## Chapter-title rule
+
+Before a selected chapter publishes, ask:
+
+> **Who is Greg in this chapter?**
+
+The public title should answer that question with an occupation, social position, temporary function, relational role, situational identity, or earned metaphorical role Greg actually inhabits.
+
+Repeated roles are allowed. Do not invent a weaker synonym merely to make every title unique.
+
+The selected written heading carries the semantic title. Existing chronology/editorial prefixes such as `Chapter N`, `Year Chapter NN`, or `D730` remain intact; only the title segment after `: ` belongs to the title system.
+
+After an accepted title change, synchronize title metadata with:
+
+```text
+python scripts/sync_r2_role_titles.py --apply
+```
+
+Do not manually create competing titles in chapter manifests, audio metadata, navigation surfaces, or tests. A title-only change must not regenerate audio or alter chapter identity, routes, prose body, or publication state.
 
 ## Stable IDs
 
@@ -94,13 +118,14 @@ When Chapter N audio or another public rendering becomes real:
 1. Confirm the newest GitHub authority first.
 2. Confirm or create the chapter's Shared Greg Surface before medium-specific finishing unless the chapter is an explicitly documented legacy experiment.
 3. Classify listen-back/page-read discoveries before revision: shared Greg Experience, audio-only, or written-only.
-4. Create/update `data/chapters/chNNN.json`.
-5. Add `r2-chNNN` to `data/project.json` in intended reading order and update `current_chapter` if appropriate.
-6. Update previous/next IDs in neighboring chapter manifests.
-7. Update `data/chapter-registry.json` with the actual production state.
-8. Reference existing audio/written/image assets instead of duplicating them when a stable source already exists.
-9. Run `python -m unittest tests.test_r2_site -v`.
-10. Do not claim missing written/image output exists. The reader degrades cleanly when optional renderings are unavailable.
+4. Before public selection, choose/verify the embodied Greg-role title under `TITLE_POLICY.md`.
+5. Create/update `data/chapters/chNNN.json` using that same title. Do not independently invent a manifest title.
+6. Add `r2-chNNN` to `data/project.json` in intended reading order and update `current_chapter` if appropriate.
+7. Update previous/next IDs in neighboring chapter manifests.
+8. Update `data/chapter-registry.json` with the actual production state when that registry covers the chapter.
+9. Reference existing audio/written/image assets instead of duplicating them when a stable source already exists.
+10. Run `python scripts/sync_r2_role_titles.py --check` and `python -m unittest tests.test_r2_site tests.test_r2_role_titles -v` when local tests are available.
+11. Do not claim missing written/image output exists. The reader degrades cleanly when optional renderings are unavailable.
 
 ## Asset rules
 
@@ -109,6 +134,8 @@ When Chapter N audio or another public rendering becomes real:
 Current audio experiments live under `greg-again/audio/assets/` and may be referenced by R2 while that remains the current source. Do not duplicate large MP3 files only to satisfy directory symmetry.
 
 Audio Finish is a light medium-specific finish from the Shared Greg Surface, not an independent rewrite of the chapter.
+
+Chapter-title metadata follows the selected R2 role title by stable chapter number. A title-only update changes metadata, not the audio asset or its production ownership.
 
 ### Written
 
