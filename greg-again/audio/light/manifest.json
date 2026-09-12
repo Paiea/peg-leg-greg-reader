@@ -175,6 +175,34 @@
       "verification": "greg-again/audio/light/verification/012/"
     },
     {
+      "chapter_id": "ga-013",
+      "number": 13,
+      "title": "The Good Sword",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch013.md",
+      "source_blob_sha": "5b8595427810079cf89bcc92d042e0d873799aee",
+      "voice": "deep",
+      "take_count": 25,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 656.184,
+      "audio_src": "assets/light/chapter-013.mp3",
+      "verification": "greg-again/audio/light/verification/013/"
+    },
+    {
+      "chapter_id": "ga-014",
+      "number": 14,
+      "title": "The Back Room",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch014.md",
+      "source_blob_sha": "b840db405dd52a7ced1d2499756a67d34610f150",
+      "voice": "deep",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 682.536,
+      "audio_src": "assets/light/chapter-014.mp3",
+      "verification": "greg-again/audio/light/verification/014/"
+    },
+    {
       "chapter_id": "ga-015",
       "number": 15,
       "title": "The Morning Barge",

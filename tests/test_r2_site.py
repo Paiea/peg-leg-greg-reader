@@ -171,10 +171,11 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('@media (max-width: 760px)', css)
         self.assertNotIn('animation:', css)
 
-    def test_home_banner_is_referenced_without_becoming_chapter_canon(self):
+    def test_home_banner_uses_responsive_verified_site_art(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('assets/images/Home.png', html)
-        self.assertIn('assets/images/r2-cover-wide.webp', html)
+        self.assertIn('assets/images/r2-hero-wide.webp', html)
+        self.assertIn('assets/images/r2-hero-portrait.webp', html)
+        self.assertNotIn('assets/images/Home.png', html)
 
 
 if __name__ == '__main__':

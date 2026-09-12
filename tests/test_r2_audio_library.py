@@ -14,10 +14,12 @@ class R2AudioLibraryTests(unittest.TestCase):
         self.assertIn('id="continue-listening"', html)
         self.assertIn('id="chapter-search"', html)
 
-    def test_audio_library_uses_uploaded_library_art_with_cover_fallback(self):
+    def test_audio_library_uses_responsive_verified_cover_art(self):
         html = (AUDIO / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('assets/images/Library.png', html)
-        self.assertIn('r2-cover-wide.webp', html)
+        self.assertIn('<picture>', html)
+        self.assertIn('../../r2/assets/images/r2-cover-wide.webp', html)
+        self.assertIn('../../r2/assets/images/r2-cover-portrait.webp', html)
+        self.assertNotIn('assets/images/Library.png', html)
 
     def test_player_supports_resume_search_and_written_renditions(self):
         js = (AUDIO / 'player.js').read_text(encoding='utf-8')
@@ -36,14 +38,13 @@ class R2AudioLibraryTests(unittest.TestCase):
         self.assertIn('.chapter-card', css)
         self.assertIn('.listen-warning', css)
 
-    def test_desktop_hero_separates_copy_from_art_while_mobile_keeps_overlay(self):
+    def test_hero_is_image_first_and_mobile_uses_taller_crop(self):
         css = (AUDIO / 'audio-front-door.css').read_text(encoding='utf-8')
-        self.assertIn('@media (min-width: 761px)', css)
-        self.assertIn('inset: 0 0 0 38%', css)
-        self.assertIn('width: 62%', css)
-        self.assertIn('width: 38%', css)
+        self.assertIn('aspect-ratio: 16 / 9', css)
+        self.assertIn('position: absolute', css)
         self.assertIn('@media (max-width: 760px)', css)
-        self.assertIn('inset: auto 0 0', css)
+        self.assertIn('aspect-ratio: 4 / 3', css)
+        self.assertNotIn('@media (min-width: 761px)', css)
 
 
 if __name__ == '__main__':
