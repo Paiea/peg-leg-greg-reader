@@ -21,6 +21,10 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.x'
+      - name: Install ffmpeg tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
       - name: Download and verify captured takes
         run: |
           set -euo pipefail
@@ -64,21 +68,10 @@ jobs:
           size=int(probe['size'])
           public=json.loads((audio/'manifest.json').read_text())
           ch=next(c for c in public['chapters'] if c['chapter_id']=='ga-002')
-          ch.update({
-              'audio_finish':'audio-score-v2',
-              'take_count':32,
-              'duration_seconds':duration,
-              'audio_src':'assets/v2/chapter-002.mp3',
-              'note':'Audio Score v2 Chapter 2 assembled from thirty-two complete preview-safe deep-voice takes. Exact score order was preserved through durable preview capture, per-take ffprobe verification, deterministic assembly, and the established settling tail; subjective human listen-back remains separate.'
-          })
+          ch.update({'audio_finish':'audio-score-v2','take_count':32,'duration_seconds':duration,'audio_src':'assets/v2/chapter-002.mp3','note':'Audio Score v2 Chapter 2 assembled from thirty-two complete preview-safe deep-voice takes. Exact score order was preserved through durable preview capture, per-take ffprobe verification, deterministic assembly, and the established settling tail; subjective human listen-back remains separate.'})
           (audio/'manifest.json').write_text(json.dumps(public, indent=2, ensure_ascii=False)+'\n')
           v2=json.loads((audio/'v2/manifest.json').read_text())
-          entry={
-              'chapter_id':'ga-002','number':2,'title':'Two Things','status':'verified_unlistened',
-              'source':'r2/assets/audio-score/ch002.md','source_blob_sha':'5f7cd653880568baad4fd65ab88ef1eaf327e026',
-              'voice':'deep','take_count':32,'capture_mode':'preview-safe-short-takes','duration_seconds':duration,
-              'audio_src':'assets/v2/chapter-002.mp3','verification':'greg-again/audio/v2/verification/002/'
-          }
+          entry={'chapter_id':'ga-002','number':2,'title':'Two Things','status':'verified_unlistened','source':'r2/assets/audio-score/ch002.md','source_blob_sha':'5f7cd653880568baad4fd65ab88ef1eaf327e026','voice':'deep','take_count':32,'capture_mode':'preview-safe-short-takes','duration_seconds':duration,'audio_src':'assets/v2/chapter-002.mp3','verification':'greg-again/audio/v2/verification/002/'}
           v2['chapters']=[c for c in v2['chapters'] if c['chapter_id']!='ga-002']+[entry]
           v2['chapters'].sort(key=lambda c:c['number'])
           (audio/'v2/manifest.json').write_text(json.dumps(v2, indent=2, ensure_ascii=False)+'\n')
@@ -89,13 +82,7 @@ jobs:
           text=text.replace('audio_score_v2_numbers = {1, 3, 4, 6, 7, 8, 9, 10}', 'audio_score_v2_numbers = {1, 2, 3, 4, 6, 7, 8, 9, 10}')
           text=text.replace('for number in (1, 3, 4, 6, 7, 8, 9, 10):', 'for number in (1, 2, 3, 4, 6, 7, 8, 9, 10):')
           test.write_text(text)
-          verification={
-              'chapter':2,'source':'r2/assets/audio-score/ch002.md','source_blob_sha':'5f7cd653880568baad4fd65ab88ef1eaf327e026',
-              'take_count':32,'voice':'deep','all_preview_urls_google_storage':True,'all_takes_ffprobe_valid':True,
-              'assembly_order_verified':True,'final_asset_exists':True,'final_duration_seconds':duration,
-              'final_size_bytes':size,'settling_tail_seconds_target':2.0,'human_listen_back_performed':False,
-              'status':'objectively_verified_unlistened'
-          }
+          verification={'chapter':2,'source':'r2/assets/audio-score/ch002.md','source_blob_sha':'5f7cd653880568baad4fd65ab88ef1eaf327e026','take_count':32,'voice':'deep','all_preview_urls_google_storage':True,'all_takes_ffprobe_valid':True,'assembly_order_verified':True,'final_asset_exists':True,'final_duration_seconds':duration,'final_size_bytes':size,'settling_tail_seconds_target':2.0,'human_listen_back_performed':False,'status':'objectively_verified_unlistened'}
           (audio/'v2/verification/002/source-publication-verification.json').write_text(json.dumps(verification,indent=2)+'\n')
           PY
       - name: Remove one-shot workflow
