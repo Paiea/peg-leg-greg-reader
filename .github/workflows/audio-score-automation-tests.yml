@@ -12,6 +12,7 @@ on:
       - 'tests/test_audio_score_capture_plan.py'
       - 'tests/test_plg_ai_tools_audio_next.py'
       - '.github/workflows/audio-score-v2-plan.yml'
+      - '.github/workflows/audio-score-light-plan.yml'
       - '.github/workflows/audio-score-automation-tests.yml'
   push:
     branches:
@@ -26,6 +27,7 @@ on:
       - 'tests/test_audio_score_capture_plan.py'
       - 'tests/test_plg_ai_tools_audio_next.py'
       - '.github/workflows/audio-score-v2-plan.yml'
+      - '.github/workflows/audio-score-light-plan.yml'
       - '.github/workflows/audio-score-automation-tests.yml'
 
 permissions:
