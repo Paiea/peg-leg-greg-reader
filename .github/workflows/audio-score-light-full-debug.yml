@@ -1,0 +1,39 @@
+name: Audio Score Light full endpoint diagnostic
+
+on:
+  push:
+    branches:
+      - 'audio/light-greg-again-ch001-auto'
+    paths:
+      - '.github/workflows/audio-score-light-full-debug.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Inspect returned full-audio endpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          url=$(python3 - <<'PY'
+          import csv
+          with open('greg-again/audio/light/production/001/FULL_CAPTURE.tsv', newline='') as f:
+              row=next(csv.DictReader(f, delimiter='\t'))
+          print(row['audio_url'])
+          PY
+          )
+          curl -fsSL "$url" -o /tmp/payload
+          echo '--- file ---'
+          file /tmp/payload
+          echo '--- bytes ---'
+          wc -c /tmp/payload
+          echo '--- content type / title hints ---'
+          strings /tmp/payload | head -80
+          echo '--- candidate media urls ---'
+          strings /tmp/payload | grep -Eo 'https?://[^"'"'"' <>]+' | grep -Ei '(mp3|audio|storage|google|blob)' | head -50 || true
