@@ -6,10 +6,9 @@ R2 = ROOT / "r2"
 
 
 class R2ProfessionalHomepageTests(unittest.TestCase):
-    def test_homepage_uses_verified_responsive_site_art(self):
+    def test_homepage_uses_promoted_site_art(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        self.assertIn("assets/images/r2-hero-wide.webp", html)
-        self.assertIn("assets/images/r2-hero-portrait.webp", html)
+        self.assertIn("assets/images/1.png", html)
         self.assertNotIn("assets/images/Home.png", html)
         self.assertNotIn("r2-harbor-hero.webp", html)
 
@@ -25,7 +24,7 @@ class R2ProfessionalHomepageTests(unittest.TestCase):
     def test_homepage_uses_cover_and_entry_layout(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
         self.assertIn('class="cover-section"', html)
-        self.assertIn('class="cover-frame"', html)
+        self.assertIn('class="cover-frame cover-frame-promoted"', html)
         self.assertIn('class="entry-panel"', html)
         self.assertIn('assets/css/r2-home-clean.css', html)
         self.assertNotIn('class="r2-home-hero"', html)
