@@ -86,7 +86,7 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('three-year', authority.lower())
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
-        project = json.loads((R2 / 'data/rendering-pipeline.json').read_text(encoding='utf-8')) if False else json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
+        project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
         self.assertEqual(project['rendering_pipeline'], 'data/rendering-pipeline.json')
         pipeline = json.loads((R2 / 'data/rendering-pipeline.json').read_text(encoding='utf-8'))
         self.assertEqual(pipeline['schema'], 'r2_rendering_pipeline/v1')
