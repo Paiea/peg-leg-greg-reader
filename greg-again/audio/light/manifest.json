@@ -243,6 +243,20 @@
       "duration_seconds": 937.104,
       "audio_src": "assets/light/chapter-017.mp3",
       "verification": "greg-again/audio/light/verification/017/"
+    },
+    {
+      "chapter_id": "ga-018",
+      "number": 18,
+      "title": "Six Weeks",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch018.md",
+      "source_blob_sha": "ce951843185a6a4c7e1f73c4b96c3dfec74bfcd6",
+      "voice": "deep",
+      "take_count": 31,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 795.528,
+      "audio_src": "assets/light/chapter-018.mp3",
+      "verification": "greg-again/audio/light/verification/018/"
     }
   ]
 }
