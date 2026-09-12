@@ -13,6 +13,8 @@ Status: **ACTIVE EXPERIMENT RESUME NOTE / ZERO AUTHORITY**
 - Kept the future-known-person idea warm for later rather than introducing another major character immediately.
 - Freshly rehearsed candidate Chapters 119–122 through the quarry / Gold-party hook.
 - Ran a connected-read challenger across 119–122.
+- Reconciled accepted party/artifact history: Greg already joined Field Support Three and already has Blackglass/Faultglass experience.
+- Added author-direction routing rule: creative ideas become engine nudges/pressures, not predetermined chapter outcomes.
 
 ## Continuity correction from accepted story
 
@@ -24,13 +26,29 @@ This means Greg’s support identity is already earned story history. The next s
 
 Greg also has prior artifact history beyond Faultglass. The Blackglass Anchor became a real field tool during the Westreach year, with dampener/splitter experimentation and explicit tradeoffs. Faultglass later escalated the pattern into theft, reputation damage, debt, lost work/trust, return of the artifact, and durable technique value. Therefore the setter’s cuff must not play as Greg’s first dangerous-artifact temptation. It is a possible **repeat/escalation** after Greg already has evidence that ugly artifact decisions can leave surviving value.
 
+## New author-flavor nudge
+
+Do **not** interpret Greg’s breadth as the destination.
+
+His old age/experience, sword skill, work history, rigging exposure, ward familiarity, command instincts, and field competence give him a **high floor** across many things. Forward progression should make him **more specialized**, not more generically versatile.
+
+Current best specialization pressure is unusually deep control of force relationships: load, momentum, position, anchoring, redirection, bracing, transfer, controlled failure, and the geometry between people, monsters, gear, terrain, wards, and structures.
+
+This is not a locked spell list or required endpoint. The engine should discover the exact expression through lived problems.
+
+Party play is where this specialization should become interesting. Greg should need people who are genuinely better than him at their own narrow things. Favor asymmetric combinations and sharp strengths over a textbook balanced party. A recurring group should emerge because particular people repeatedly choose each other, not because the planner fills four RPG roles.
+
+Most important process rule: **the user supplies taste, possibilities, and pressure. The engine routes out how those ideas manifest through character, people, setting, plot, time, and consequence. Do not silently convert a nudge into an outline.**
+
 ## Current best trajectory
 
-**Backbone:** ordinary fantasy progression through a competent stronger party, dangerous work, ruins, monsters, salvage, money, travel, gear, and Greg’s structural specialty.
+**Backbone:** ordinary fantasy progression through competent dangerous work, ruins, monsters, salvage, money, travel, gear, and Greg’s increasingly specialized support/control lane.
 
-**People / party pressure:** use the Gold-party/quarry work to remind Greg what he likes and dislikes about strong teams. Do not simply hand him another permanent party. Let him notice roles, personalities, friction, trust, money habits, competence, and who he actually wants around. The longer experiment should test whether Greg starts intentionally assembling or retaining a recurring party built around his preferred support role.
+**People / party pressure:** use the quarry/Gold-party work to expose who Greg likes relying on, who he clashes with, what stronger pure specialists can do that he cannot, and which combinations make his support unusually valuable. Do not simply hand him a permanent party. Let repeated work create or kill that possibility.
 
-**Secondary pressure:** Greg has seen a setter’s cuff he would have dismissed in first life. He has not bought or used it. Future party work should first demonstrate a real problem the cuff might solve. Its relevance is escalation from Blackglass/Faultglass history, not first-contact wonder.
+**Specialization pressure:** Greg’s next gains should increasingly deepen one coherent lane instead of adding unrelated tricks. His breadth remains available as baseline competence, but his ceiling should narrow and deepen.
+
+**Artifact pressure:** Greg has seen a setter’s cuff he would have dismissed in first life. He has not bought or used it. Future work should first demonstrate a real problem it might solve. Its relevance is escalation from Blackglass/Faultglass history, not first-contact wonder.
 
 **Deeper character pressure:** Greg is beginning to price permanent downside differently because he has already adapted to permanent loss and survived costly choices. This remains selection pressure, not a thesis quota.
 
@@ -56,24 +74,27 @@ Do not patch merely for cosmetic completion. Fix during fresh A-side re-performa
 
 ## Next useful sequence
 
-1. **Terms** — Red Quay contract structure, shares, expenses, party rules, Greg’s defined specialist role. Greg should consciously compare this team’s role ownership with Field Support Three without turning the scene into exposition.
-2. **First Descent** — physical ruin crawl, crawler encounter, field-peg terrain, Greg supports rather than leads. Let him discover specific people he enjoys relying on and specific habits that annoy him.
-3. **The Save** — moving collapse / feathered-plane sequence; clean Greg win; allow competence to feel good. The win should require other people doing their jobs, not Greg replacing the party.
-4. **Bell Room** — discover historical setter rig; complicate Greg’s belief that cuffs were simply stupid obsolete shortcuts. Keep Blackglass/Faultglass history in the judgment.
-5. **Material** — monster salvage may become a prosthetic shock insert through Pera, turning loot into ordinary capability.
-6. **People After the Job** — payment split, food, repair, argument, somebody leaves, somebody asks for Greg again. Test whether repeated contracts begin becoming a chosen group.
-7. **Orren** — introduce formal structural rival only after Greg’s weird method has enough public evidence to offend someone technically competent.
+1. **Terms** — contract structure, shares, expenses, party rules, and Greg’s narrow job. Let the role reveal what this team actually needs rather than naming a generic support slot.
+2. **First Descent** — physical ruin crawl and real combat/problem-solving. Identify at least one thing a teammate does far better than Greg and one situation where Greg’s force/control specialization changes that teammate’s usable options.
+3. **The Save** — clean Greg win that only works because other specialists do their jobs. Greg must not replace the party.
+4. **Bell Room** — deepen setting/world mystery and let old infrastructure challenge Greg’s assumptions. If the setter rig appears, it remains evidence, not automatic upgrade.
+5. **Material / Repair** — convert some adventure consequence into ordinary life, gear, prosthetic, money, or work residue.
+6. **People After the Job** — payment split, food, repair, argument, departure, invitation, refusal. Let repetition begin or fail naturally.
+7. **Specialization Test** — create a later problem where Greg could solve it badly with broad competence or solve it brilliantly by leaning harder into his narrow lane and trusting another person to cover what he gives up.
+8. **Orren / rival pressure** — only if the story earns a technically competent person who challenges Greg’s weird method rather than existing to admire it.
 
 ## Independent clocks still active
 
 Mara’s five-day job-choice window continues while the quarry story begins. Her decision should occur according to her own clock and reasons, not when adventure geography becomes convenient.
 
-Greg’s party clock is also independent: a recurring party should emerge from repeated useful/social choices, not because the engine decides he needs four archetypes.
+Greg’s party clock is independent: a recurring party should emerge from repeated useful/social choices, not because the engine decides he needs four archetypes.
+
+Greg’s specialization clock is also independent: do not declare a final class. Repeated problems should reveal what he keeps choosing to get better at and what he increasingly delegates to people who are better suited.
 
 ## Continuation instruction
 
 Read newest accepted `main` first. If public written authority is still Chapter 118, preserve this experiment’s 100-day contract and continue at the quarry edge. If public written authority moved, reconcile before using these scenes as challenger evidence.
 
-Carry forward this nudge: **people, setting, plot, and Greg’s character must all move together. Greg already proved he can function as support inside Field Support Three. Now test whether he wants to deliberately build/retain a recurring party instead of merely accepting temporary teams.**
+Carry forward the newest author nudge as **selection pressure, not outline**: Greg should become much more specialized despite a broad competence floor; party play should amplify that specialization through asymmetric people; people, setting, plot, and Greg must move together; the engine is responsible for discovering how this actually happens.
 
 Do not publish from this folder directly.
