@@ -6,7 +6,7 @@
   "source": "r2/assets/audio-score-light/ch015.md",
   "source_blob_sha": "c6c54fa313c5e3d53c762f3dc791d4f3385a4b4b",
   "voice": "deep",
-  "status": "capture_ready",
+  "status": "durable_takes_verified_and_assembled",
   "factory": "preview_safe_short_take_capture_v1",
   "max_chars": 500,
   "provider_facing_substitutions": {
@@ -23,7 +23,11 @@
       "transcript": "I was early.\n\nThis deserved recognition.\n\nNot celebration. That would be dangerous.\n\nRecognition.\n\nThe river was still gray when I reached Mara's mother's house. Bakers were awake. Teamsters were awake. People with better relationships to morning than mine were rolling barrels toward the docks.\n\nI had eaten first.\n\nAlso worth noting.\n\nThe front door opened before I reached for the key.\n\nMara's mother stood there in her apron.\n\n\"You ate?\"\n\n\"Yes.\"\n\n",
       "preview_transcript": "I was early.\n\nThis deserved recognition.\n\nNot celebration. That would be dangerous.\n\nRecognition.\n\nThe river was still gray when I reached Mara's mother's house. Bakers were awake. Teamsters were awake. People with better relationships to morning than mine were rolling barrels toward the docks.\n\nI had eaten first.\n\nAlso worth noting.\n\nThe front door opened before I reached for the key.\n\nMara's mother stood there in her apron.\n\n\"You ate?\"\n\n\"Yes.\"\n\n",
       "context_id": "a263d329435540ecb1af6c353430b06a",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cc24b8d1-c5d7-4020-bb1b-baf0177abde3.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cc24b8d1-c5d7-4020-bb1b-baf0177abde3.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/01.mp3",
+      "byte_size": 429696,
+      "audio_sha256": "19bfb7d378c9ce2d39322a62c0729278e11110edc9bb5fb8e25b9c926f067301",
+      "duration_seconds": 26.856
     },
     {
       "order": 2,
@@ -31,7 +35,11 @@
       "transcript": "She looked suspicious.\n\n\"What?\"\n\n\"Nothing.\"\n\nShe let me in.\n\nMara was upstairs tying the last crate shut.\n\nHer room had crossed the line overnight.\n\nYesterday it looked like somebody was packing.\n\nToday it looked like somebody had left and forgotten to walk out the door.\n\nBare mattress.\n\nEmpty shelf.\n\nNo blue cup.\n\nThe map gone from the wall.\n\nA pale square where the paper had protected the plaster from years of smoke.\n\n",
       "preview_transcript": "She looked suspicious.\n\n\"What?\"\n\n\"Nothing.\"\n\nShe let me in.\n\nMara was upstairs tying the last crate shut.\n\nHer room had crossed the line overnight.\n\nYesterday it looked like somebody was packing.\n\nToday it looked like somebody had left and forgotten to walk out the door.\n\nBare mattress.\n\nEmpty shelf.\n\nNo blue cup.\n\nThe map gone from the wall.\n\nA pale square where the paper had protected the plaster from years of smoke.\n\n",
       "context_id": "1d68a93eb83e4527a10c542f97a52cd6",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b6a1029c-bb77-4e58-9b83-8b108aa29a96.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b6a1029c-bb77-4e58-9b83-8b108aa29a96.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/02.mp3",
+      "byte_size": 405120,
+      "audio_sha256": "13b4f5268fcc56154fff88d753612cb9b080759c8f1c30ae81ab3e25c50b23c4",
+      "duration_seconds": 25.32
     },
     {
       "order": 3,
@@ -39,7 +47,11 @@
       "transcript": "Mara knelt beside the final crate pulling rope tight.\n\n\"You're early.\"\n\n\"Apparently.\"\n\n\"Should I be worried?\"\n\n\"Probably.\"\n\nShe snorted and handed me the rope.\n\nI finished the knot.\n\nShe checked it.\n\nThen retied it.\n\nI chose not to take this personally.\n\nWe carried the crates down one at a time.\n\nThe boatman came through the kitchen exactly as promised and complained that books were a malicious form of cargo.\n\nMara had three crates of them.\n\n",
       "preview_transcript": "Mara knelt beside the final crate pulling rope tight.\n\n\"You're early.\"\n\n\"Apparently.\"\n\n\"Should I be worried?\"\n\n\"Probably.\"\n\nShe snorted and handed me the rope.\n\nI finished the knot.\n\nShe checked it.\n\nThen retied it.\n\nI chose not to take this personally.\n\nWe carried the crates down one at a time.\n\nThe boatman came through the kitchen exactly as promised and complained that books were a malicious form of cargo.\n\nMara had three crates of them.\n\n",
       "context_id": "b53f2e8456f342a18823f564cf5b3967",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/92f92537-c171-4163-ae85-738ca6b45f8a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/92f92537-c171-4163-ae85-738ca6b45f8a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/03.mp3",
+      "byte_size": 427776,
+      "audio_sha256": "d24d93eeb8d60048dad8386a7a7cd18d8b2ab848ede7a3140b281f4eea3ba2ac",
+      "duration_seconds": 26.736
     },
     {
       "order": 4,
@@ -47,7 +59,11 @@
       "transcript": "He charged her extra for the third.\n\nShe argued.\n\nHe reduced the extra charge by one copper.\n\nI stayed out of it.\n\nGrowth continued in strange directions.\n\nHer mother packed food into a cloth bag large enough to survive a siege.\n\nMara protested.\n\nHer mother added two apples.\n\nArgument concluded.\n\nThe packet barge left from the western river quay.\n\nNot a grand passenger dock.\n\nWorking dock.\n\nCargo first. People fit around it.\n\n",
       "preview_transcript": "He charged her extra for the third.\n\nShe argued.\n\nHe reduced the extra charge by one copper.\n\nI stayed out of it.\n\nGrowth continued in strange directions.\n\nHer mother packed food into a cloth bag large enough to survive a siege.\n\nMara protested.\n\nHer mother added two apples.\n\nArgument concluded.\n\nThe packet barge left from the western river quay.\n\nNot a grand passenger dock.\n\nWorking dock.\n\nCargo first. People fit around it.\n\n",
       "context_id": "91d3b7a02f484772b68bfd5f6e075231",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6dfcb5a3-4c15-4e02-b762-17efe46917b0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6dfcb5a3-4c15-4e02-b762-17efe46917b0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/04.mp3",
+      "byte_size": 406656,
+      "audio_sha256": "a3a25511d816476bc3ca8ad586bcd0acf101b609274daf7ef1161ae6e1b06aa8",
+      "duration_seconds": 25.416
     },
     {
       "order": 5,
@@ -55,7 +71,11 @@
       "transcript": "Mara's crates went beneath a canvas cover beside two barrels of lamp oil, a cage containing six offended chickens, and a locked metal box whose owner watched everybody else too carefully.\n\nVey Shipping had painted its mark on the barge's side in yellow.\n\nI knew the company.\n\nLater version.\n\nBigger offices. Faster hulls. Warehouses in six river cities.\n\n",
       "preview_transcript": "Mara's crates went beneath a canvas cover beside two barrels of lamp oil, a cage containing six offended chickens, and a locked metal box whose owner watched everybody else too carefully.\n\nVey Shipping had painted its mark on the barge's side in yellow.\n\nI knew the company.\n\nLater version.\n\nBigger offices. Faster hulls. Warehouses in six river cities.\n\n",
       "context_id": "c774842bed1049efb7856de590dad059",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/acec85bf-ba3e-4c10-9d4b-353f973eaefd.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/acec85bf-ba3e-4c10-9d4b-353f973eaefd.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/05.mp3",
+      "byte_size": 348672,
+      "audio_sha256": "1169032444cf48e40f3d11e721ba0a44e4a2764f5033cc5f7ec4427ee4ca54d6",
+      "duration_seconds": 21.792
     },
     {
       "order": 6,
@@ -63,7 +83,11 @@
       "transcript": "This barge had one patched sail and a deck hand bailing rainwater from yesterday out of the stern with a cooking pot.\n\nThe future remained committed to embarrassing itself in advance.\n\nMara handed over her travel paper.\n\nThe clerk checked the name.\n\nChecked the crates.\n\nChecked the ledger position noted beside her destination.\n\nHalden.\n\nReal now.\n\nNot a circle on her wall.\n\nShe turned back to us.\n\nHer mother hugged her immediately.\n\nNo restraint.\n\n",
       "preview_transcript": "This barge had one patched sail and a deck hand bailing rainwater from yesterday out of the stern with a cooking pot.\n\nThe future remained committed to embarrassing itself in advance.\n\nMara handed over her travel paper.\n\nThe clerk checked the name.\n\nChecked the crates.\n\nChecked the ledger position noted beside her destination.\n\nHalden.\n\nReal now.\n\nNot a circle on her wall.\n\nShe turned back to us.\n\nHer mother hugged her immediately.\n\nNo restraint.\n\n",
       "context_id": "09723f6a84d34e478a3a1d8aec5506e3",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b5c7efb1-e3f4-49f6-b0b5-d53a8c2f9041.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b5c7efb1-e3f4-49f6-b0b5-d53a8c2f9041.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/06.mp3",
+      "byte_size": 437376,
+      "audio_sha256": "c4e6739f2b3049b5b94ecd1ae35f37447ec4b5e848ced5dd82dee262a251149c",
+      "duration_seconds": 27.336
     },
     {
       "order": 7,
@@ -71,7 +95,11 @@
       "transcript": "Mara endured it for perhaps one second before giving up and hugging back.\n\nI looked toward the river.\n\nNot because I was uncomfortable.\n\nBecause some moments belonged to the people actually having them.\n\nWhen I looked back, her mother was crying and pretending the wind had become unusually targeted.\n\nMara came to me last.\n\nThat seemed correct.\n\nNeither of us moved for a second.\n\n\"You came,\" she said.\n\n\"Twice.\"\n\n\"Don't get ambitious.\"\n\nI smiled.\n\n",
       "preview_transcript": "Mara endured it for perhaps one second before giving up and hugging back.\n\nI looked toward the river.\n\nNot because I was uncomfortable.\n\nBecause some moments belonged to the people actually having them.\n\nWhen I looked back, her mother was crying and pretending the wind had become unusually targeted.\n\nMara came to me last.\n\nThat seemed correct.\n\nNeither of us moved for a second.\n\n\"You came,\" she said.\n\n\"Twice.\"\n\n\"Don't get ambitious.\"\n\nI smiled.\n\n",
       "context_id": "a7f2469096fc49b4bfaaee1bc80401ec",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7ef65011-b343-406d-998e-2b5d6ae95b8c.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7ef65011-b343-406d-998e-2b5d6ae95b8c.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/07.mp3",
+      "byte_size": 429312,
+      "audio_sha256": "c45b879f9827fd9c4d17191535e79d692af4de7e7c58f10dc7a99ed89eb3fe02",
+      "duration_seconds": 26.832
     },
     {
       "order": 8,
@@ -79,7 +107,11 @@
       "transcript": "Then it went away on its own.\n\nMara looked at me carefully.\n\n\"I meant what I said yesterday.\"\n\nLetters.\n\nNot making her stupid.\n\nNot inventing certainty.\n\n\"I know.\"\n\n\"Do you?\"\n\nThere she was.\n\n\"Enough to be nervous.\"\n\nThat almost pleased her.\n\n\"Good.\"\n\nThe deck hand called for passengers.\n\nMara glanced toward the barge.\n\nThen back at me.\n\n\"I don't know what happened to you.\"\n\nNo useful response.\n\nShe continued.\n\n\"I don't know if you're going to remember more. ",
       "preview_transcript": "Then it went away on its own.\n\nMara looked at me carefully.\n\n\"I meant what I said yesterday.\"\n\nLetters.\n\nNot making her stupid.\n\nNot inventing certainty.\n\n\"I know.\"\n\n\"Do you?\"\n\nThere she was.\n\n\"Enough to be nervous.\"\n\nThat almost pleased her.\n\n\"Good.\"\n\nThe deck hand called for passengers.\n\nMara glanced toward the barge.\n\nThen back at me.\n\n\"I don't know what happened to you.\"\n\nNo useful response.\n\nShe continued.\n\n\"I don't know if you're going to remember more. ",
       "context_id": "5b6b723c79334b3a8f7b62234ad5d263",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4df4a2ae-c9d9-417c-af8b-e8752fea0323.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4df4a2ae-c9d9-417c-af8b-e8752fea0323.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/08.mp3",
+      "byte_size": 432768,
+      "audio_sha256": "e149bfeea946438269750df26b90c091131a3723be627c12d62e0437304a32b9",
+      "duration_seconds": 27.048
     },
     {
       "order": 9,
@@ -87,7 +119,11 @@
       "transcript": "I don't know if you're going to become somebody I recognize again.\"\n\nI could feel myself preparing an answer.\n\nShe saw it.\n\n\"Don't.\"\n\nI stopped.\n\n\"I also don't know if that's what I want.\"\n\nThat landed somewhere deeper.\n\nNot cruel.\n\nBetter than cruel.\n\nTrue.\n\nYoung Greg had belonged to her in some unfinished way.\n\nI was not young Greg preserved.\n\nNot exactly.\n\nShe should not have to wait for me to reconstruct him so she could resume whatever they had almost become.\n",
       "preview_transcript": "I don't know if you're going to become somebody I recognize again.\"\n\nI could feel myself preparing an answer.\n\nShe saw it.\n\n\"Don't.\"\n\nI stopped.\n\n\"I also don't know if that's what I want.\"\n\nThat landed somewhere deeper.\n\nNot cruel.\n\nBetter than cruel.\n\nTrue.\n\nYoung Greg had belonged to her in some unfinished way.\n\nI was not young Greg preserved.\n\nNot exactly.\n\nShe should not have to wait for me to reconstruct him so she could resume whatever they had almost become.\n",
       "context_id": "ab09d6c3df5a49c997a9f530f85dda40",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/232df9ef-8a85-41dc-859d-6aa900f94c80.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/232df9ef-8a85-41dc-859d-6aa900f94c80.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/09.mp3",
+      "byte_size": 450816,
+      "audio_sha256": "116a6031aa3526b1136a69ac7aaa2458e64a9db5c60357213fa9b2161678131f",
+      "duration_seconds": 28.176
     },
     {
       "order": 10,
@@ -95,7 +131,11 @@
       "transcript": "\nMara looked toward the river again.\n\n\"Maybe I like parts of this version better.\"\n\nI blinked.\n\n\"That seems irresponsible.\"\n\n\"There he is.\"\n\nI laughed.\n\nShe did too.\n\nThen neither of us did.\n\nThe barge master shouted that anyone not aboard in one minute could practice swimming to Halden.\n\nMara stepped closer.\n\nFor one irrational second I expected a kiss.\n\nMemory supplied none.\n\nExpectation supplied too much.\n\nShe hugged me instead.\n\nQuickly.\n\n",
       "preview_transcript": "\nMara looked toward the river again.\n\n\"Maybe I like parts of this version better.\"\n\nI blinked.\n\n\"That seems irresponsible.\"\n\n\"There he is.\"\n\nI laughed.\n\nShe did too.\n\nThen neither of us did.\n\nThe barge master shouted that anyone not aboard in one minute could practice swimming to Halden.\n\nMara stepped closer.\n\nFor one irrational second I expected a kiss.\n\nMemory supplied none.\n\nExpectation supplied too much.\n\nShe hugged me instead.\n\nQuickly.\n\n",
       "context_id": "28a52bdebc584bc29f5c5ec3dad8fc44",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ef173c40-a5b1-4e2d-b582-ae78e0d29b68.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ef173c40-a5b1-4e2d-b582-ae78e0d29b68.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/10.mp3",
+      "byte_size": 421632,
+      "audio_sha256": "2db6979ec20719758ac875dc639af6e2d07e2524e7048467b4a0600097225217",
+      "duration_seconds": 26.352
     },
     {
       "order": 11,
@@ -103,7 +143,11 @@
       "transcript": "Harder than I expected.\n\nMy arms came around her a heartbeat late.\n\nThat bothered me.\n\nThen it didn't.\n\nShe let go.\n\n\"Write something true.\"\n\nNot often.\n\nNot every week.\n\nNot promise.\n\nTrue.\n\n\"I can try that.\"\n\n\"Terrifying.\"\n\nShe climbed aboard.\n\nHer mother called three instructions after her before the deck hand pushed the loading plank away.\n\nMara answered none of them.\n\nThe barge poles went down.\n\nWood creaked.\n\nWater moved along the hull.\n\nFor several yards, ",
       "preview_transcript": "Harder than I expected.\n\nMy arms came around her a heartbeat late.\n\nThat bothered me.\n\nThen it didn't.\n\nShe let go.\n\n\"Write something true.\"\n\nNot often.\n\nNot every week.\n\nNot promise.\n\nTrue.\n\n\"I can try that.\"\n\n\"Terrifying.\"\n\nShe climbed aboard.\n\nHer mother called three instructions after her before the deck hand pushed the loading plank away.\n\nMara answered none of them.\n\nThe barge poles went down.\n\nWood creaked.\n\nWater moved along the hull.\n\nFor several yards, ",
       "context_id": "1af95ce192ce45f385ccbc193b900a86",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5480a23b-f54e-47f2-9e13-e3c53565ec23.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5480a23b-f54e-47f2-9e13-e3c53565ec23.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/11.mp3",
+      "byte_size": 437376,
+      "audio_sha256": "154323739ee6978aea77e209f24957845146c66880629ddfe4e00f538a2222cb",
+      "duration_seconds": 27.336
     },
     {
       "order": 12,
@@ -111,7 +155,11 @@
       "transcript": "departure looked unimpressive.\n\nThen the current caught.\n\nThe barge turned toward midriver.\n\nMara stood near the stern rail with one hand on the canvas covering her books.\n\nShe lifted the other.\n\nI did too.\n\nNo dramatic last words.\n\nToo much water between us almost immediately.\n\nThe boat passed beneath the lower bridge.\n\nYellow company mark.\n\nPatched sail.\n\nSix furious chickens.\n\nThen smaller.\n\nThen part of river traffic.\n\nThen gone around the bend.\n\n",
       "preview_transcript": "departure looked unimpressive.\n\nThen the current caught.\n\nThe barge turned toward midriver.\n\nMara stood near the stern rail with one hand on the canvas covering her books.\n\nShe lifted the other.\n\nI did too.\n\nNo dramatic last words.\n\nToo much water between us almost immediately.\n\nThe boat passed beneath the lower bridge.\n\nYellow company mark.\n\nPatched sail.\n\nSix furious chickens.\n\nThen smaller.\n\nThen part of river traffic.\n\nThen gone around the bend.\n\n",
       "context_id": "9c093ab9b4034e3e99c9cb8c9debbd5f",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/812c7034-4f03-4536-a749-7ce5f8525bd2.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/812c7034-4f03-4536-a749-7ce5f8525bd2.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/12.mp3",
+      "byte_size": 433152,
+      "audio_sha256": "b01137dec7f69df765bfaee4eb15853f782be8f4f3efb0fadd8a6efc2df269e6",
+      "duration_seconds": 27.072
     },
     {
       "order": 13,
@@ -119,7 +167,11 @@
       "transcript": "Her mother stayed beside me until she could no longer pretend there was anything left to see.\n\n\"She'll be fine,\" I said.\n\nShe looked at me.\n\n\"I know.\"\n\nRight.\n\nNot reassurance she needed.\n\nWe walked back together.\n\nAt the house, she stopped me in the kitchen and put a small bundle on the table.\n\nCards.\n\nOld deck.\n\nEdges soft with use.\n\nOne corner burned on the seven of cups.\n\nI knew the deck before I knew why.\n\nMy hand rested on the top card.\n\nTavin.\n\n",
       "preview_transcript": "Her mother stayed beside me until she could no longer pretend there was anything left to see.\n\n\"She'll be fine,\" I said.\n\nShe looked at me.\n\n\"I know.\"\n\nRight.\n\nNot reassurance she needed.\n\nWe walked back together.\n\nAt the house, she stopped me in the kitchen and put a small bundle on the table.\n\nCards.\n\nOld deck.\n\nEdges soft with use.\n\nOne corner burned on the seven of cups.\n\nI knew the deck before I knew why.\n\nMy hand rested on the top card.\n\nTavin.\n\n",
       "context_id": "225cd3cb2fde481d9a22a6657a725df6",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/08b90303-920d-44dc-b66c-1c7ea1926458.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/08b90303-920d-44dc-b66c-1c7ea1926458.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/13.mp3",
+      "byte_size": 431616,
+      "audio_sha256": "83b4894241e0cf1e1b6f089041185640216ca222e67ca24878538527eb442e54",
+      "duration_seconds": 26.976
     },
     {
       "order": 14,
@@ -127,7 +179,11 @@
       "transcript": "Not a complete memory.\n\nA table in the back room.\n\nRain.\n\nMara complaining because we were using dried beans as stakes and Greg had eaten one of the red ones to prove some point that had not survived history.\n\nA man's hand slapping mine away from the pot.\n\nLaughter.\n\nGone.\n\nI opened my eyes.\n\nMara's mother had seen enough.\n\n\"Those were yours.\"\n\n\"Tavin's.\"\n\nShe tilted her head.\n\n\"His first. Yours after he bought a better deck.\"\n\nOf course he did.\n\n",
       "preview_transcript": "Not a complete memory.\n\nA table in the back room.\n\nRain.\n\nMara complaining because we were using dried beans as stakes and Greg had eaten one of the red ones to prove some point that had not survived history.\n\nA man's hand slapping mine away from the pot.\n\nLaughter.\n\nGone.\n\nI opened my eyes.\n\nMara's mother had seen enough.\n\n\"Those were yours.\"\n\n\"Tavin's.\"\n\nShe tilted her head.\n\n\"His first. Yours after he bought a better deck.\"\n\nOf course he did.\n\n",
       "context_id": "1f6985ddb89f484fa9e9d0c1eac60845",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fc75c714-57a3-4f41-b3ab-3b9dd6b9015a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fc75c714-57a3-4f41-b3ab-3b9dd6b9015a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/14.mp3",
+      "byte_size": 428928,
+      "audio_sha256": "48c994d8365f00f894aa8b303b129499c0f4812499e3e12f6a2896dc849d4496",
+      "duration_seconds": 26.808
     },
     {
       "order": 15,
@@ -135,7 +191,11 @@
       "transcript": "People improved equipment in every timeline.\n\nI picked up the seven of cups.\n\nBurned corner.\n\n\"What happened?\"\n\n\"You tried to cheat at candle tricks.\"\n\n\"Did it work?\"\n\n\"You set the card on fire.\"\n\nThat sounded more likely.\n\nShe pushed the deck toward me.\n\n\"Take them.\"\n\nI did.\n\nNo argument.\n\nOutside, morning had become day.\n\nThe Guild board would have new work.\n\nArlo would be awake.\n\nIvena probably already was.\n\nThe North Gate still stood.\n\n",
       "preview_transcript": "People improved equipment in every timeline.\n\nI picked up the seven of cups.\n\nBurned corner.\n\n\"What happened?\"\n\n\"You tried to cheat at candle tricks.\"\n\n\"Did it work?\"\n\n\"You set the card on fire.\"\n\nThat sounded more likely.\n\nShe pushed the deck toward me.\n\n\"Take them.\"\n\nI did.\n\nNo argument.\n\nOutside, morning had become day.\n\nThe Guild board would have new work.\n\nArlo would be awake.\n\nIvena probably already was.\n\nThe North Gate still stood.\n\n",
       "context_id": "908f7c3fb83a444fa4e0de346e983ce0",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/21ef52fa-1013-4f3a-a4b9-8491c79086aa.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/21ef52fa-1013-4f3a-a4b9-8491c79086aa.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/15.mp3",
+      "byte_size": 414720,
+      "audio_sha256": "4b8079112a361d51f45ae454b2664e3516edd8da0c2e9e0b22d8eba7e487d5eb",
+      "duration_seconds": 25.92
     },
     {
       "order": 16,
@@ -143,8 +203,18 @@
       "transcript": "My purse still needed help.\n\nAll true.\n\nI went back to my room first.\n\nThe marked support cord was beside the window.\n\nThe brass key beside it.\n\nI placed the old deck on the table.\n\nThree objects from three versions of me.\n\nI did not arrange them into a theory.\n\nI ate one of the apples Mara's mother had forced into my pocket instead...",
       "preview_transcript": "My purse still needed help.\n\nAll true.\n\nI went back to my room first.\n\nThe marked support cord was beside the window.\n\nThe brass key beside it.\n\nI placed the old deck on the table.\n\nThree objects from three versions of me.\n\nI did not arrange them into a theory.\n\nI ate one of the apples Mara's mother had forced into my pocket instead...",
       "context_id": "5863acd769de42019b6e2b9ebc5207b0",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/56f1f3f7-05b7-4d5f-b194-56098e46bfe0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/56f1f3f7-05b7-4d5f-b194-56098e46bfe0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/015-short/16.mp3",
+      "byte_size": 327168,
+      "audio_sha256": "ded23a34e303bb63c4cbf16b14820bdf605f1019aa08b19814757b33bcd0f13b",
+      "duration_seconds": 20.448
     }
   ],
-  "captured_take_count": 16
+  "captured_take_count": 16,
+  "component_duration_seconds": 416.424,
+  "final_asset": "greg-again/audio/assets/light/chapter-015.mp3",
+  "final_byte_size": 3708237,
+  "final_audio_sha256": "a15dba8c720de82eef706c2d92f1e58933ed0f163a275a7f1d973eca938da07c",
+  "final_duration_seconds": 418.488,
+  "settling_tail_seconds": 2.0
 }
