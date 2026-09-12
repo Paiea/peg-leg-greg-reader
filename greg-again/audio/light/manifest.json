@@ -5,5 +5,62 @@
   "renderer_adapter": "ai_voice_generator",
   "voice_style": "deep",
   "source_layer": "r2/assets/audio-score-light",
-  "chapters": []
+  "chapters": [
+    {
+      "chapter_id": "ga-001",
+      "number": 1,
+      "title": "The Boy",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch001.md",
+      "source_blob_sha": "725d3ce3603a98174046237422eecca9a773308a",
+      "voice": "deep",
+      "take_count": 36,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 952.704,
+      "audio_src": "assets/light/chapter-001.mp3",
+      "verification": "greg-again/audio/light/verification/001/"
+    },
+    {
+      "chapter_id": "ga-002",
+      "number": 2,
+      "title": "Two Things",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch002.md",
+      "source_blob_sha": "5304f99a6192d9ee73d5eb254990c5e63d0f284c",
+      "voice": "deep",
+      "take_count": 29,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 759.648,
+      "audio_src": "assets/light/chapter-002.mp3",
+      "verification": "greg-again/audio/light/verification/002/"
+    },
+    {
+      "chapter_id": "ga-003",
+      "number": 3,
+      "title": "The Borrower",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch003.md",
+      "source_blob_sha": "f572b2da29583b342215f7c903b2134d61c5c05f",
+      "voice": "deep",
+      "take_count": 29,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 786.912,
+      "audio_src": "assets/light/chapter-003.mp3",
+      "verification": "greg-again/audio/light/verification/003/"
+    },
+    {
+      "chapter_id": "ga-004",
+      "number": 4,
+      "title": "Thirty Days",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch004.md",
+      "source_blob_sha": "57a45ba37521bd7b6abb4f3941bd55bbdc7c25fc",
+      "voice": "deep",
+      "take_count": 28,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 733.704,
+      "audio_src": "assets/light/chapter-004.mp3",
+      "verification": "greg-again/audio/light/verification/004/"
+    }
+  ]
 }
