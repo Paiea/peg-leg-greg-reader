@@ -7,18 +7,18 @@ AUDIO = ROOT / 'greg-again' / 'audio'
 
 
 class R2MobileRefreshTests(unittest.TestCase):
-    def test_home_uses_responsive_webp_banner(self):
+    def test_home_uses_responsive_verified_webp_banner(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
         self.assertIn('<picture>', html)
-        self.assertIn('assets/images/site/r2-home-hero-wide.webp', html)
-        self.assertIn('assets/images/site/r2-home-hero-mobile.webp', html)
+        self.assertIn('assets/images/r2-hero-wide.webp', html)
+        self.assertIn('assets/images/r2-hero-portrait.webp', html)
         self.assertNotIn('assets/images/Home.png', html)
 
-    def test_audio_hero_uses_responsive_webp_banner_without_duplicate_visible_title(self):
+    def test_audio_hero_uses_responsive_verified_webp_banner_without_duplicate_visible_title(self):
         html = (AUDIO / 'index.html').read_text(encoding='utf-8')
         self.assertIn('<picture>', html)
-        self.assertIn('../../r2/assets/images/site/r2-audio-hero-wide.webp', html)
-        self.assertIn('../../r2/assets/images/site/r2-audio-hero-mobile.webp', html)
+        self.assertIn('../../r2/assets/images/r2-cover-wide.webp', html)
+        self.assertIn('../../r2/assets/images/r2-cover-portrait.webp', html)
         self.assertIn('<h1 id="listen-title" class="sr-only">Audio Library</h1>', html)
         self.assertNotIn('<p class="hero-brand">', html)
         self.assertNotIn('../../r2/assets/images/Library.png', html)
