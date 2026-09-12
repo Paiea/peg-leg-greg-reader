@@ -1,0 +1,30 @@
+name: Audio Light Full URL Probe
+
+on:
+  push:
+    branches:
+      - audio-score-light-001-030
+    paths:
+      - .github/workflows/audio-light-full-url-probe.yml
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Fetch provider full audio endpoint
+        shell: bash
+        run: |
+          set -euxo pipefail
+          url='https://www.aidocmaker.com/g0/audio?name=7b60b14fd34640e7b7e26184b661650e'
+          curl -fL --retry 2 --connect-timeout 20 "$url" -o /tmp/full-audio.bin
+          ls -lh /tmp/full-audio.bin
+          file /tmp/full-audio.bin
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('/tmp/full-audio.bin')
+          print('size', p.stat().st_size)
+          print('head', p.read_bytes()[:64].hex())
+          PY
+          ffprobe -v error -show_entries format=format_name,duration,size -of json /tmp/full-audio.bin
