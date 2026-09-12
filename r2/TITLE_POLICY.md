@@ -52,11 +52,17 @@ A title-only change must not imply that existing audio is missing, stale, unowne
 
 Working story-search, rehearsal, or development titles may remain provisional.
 
-Once a chapter is selected for public R2, the first-line selected written heading is the semantic title authority:
+Once a chapter is selected for public R2, the first-line selected written heading is the semantic title authority. The authority owns only the title segment after the first `: `.
+
+These are all valid heading shapes:
 
 ```text
 # Chapter N: <role title>
+# Year Chapter NN: <role title>
+# D730: <role title>
 ```
+
+Timeline/editorial prefixes such as `Chapter N`, `Year Chapter NN`, or `D730` belong to their own chronology/navigation layer. A role-title migration must preserve that prefix and replace only the title segment.
 
 That selected role title propagates by stable chapter number to:
 
@@ -75,18 +81,19 @@ Choosing the role title is editorial judgment. Read the actual selected chapter 
 
 Mechanical tooling only enforces parity after that judgment exists. It must not invent role nouns from chapter text.
 
-Use `r2/TITLE_ROLE_AUDIT.md` for approved decisions and the R2 role-title synchronizer for title parity.
+Use `r2/TITLE_ROLE_AUDIT.md` for approved decisions and `python scripts/sync_r2_role_titles.py --apply` for title parity after an accepted heading-title change. Use `--promote-audit` only when intentionally applying an explicit approved audit map.
 
 ## Change boundary
 
 A role-title migration may change:
 
-- the selected chapter heading
+- the title segment of the selected chapter heading
 - title metadata on manifests/registries
 
 It may not change merely because of a title update:
 
 - story prose below the heading
+- chronology/editorial heading prefixes
 - chapter IDs
 - numeric chapter numbers
 - route paths
