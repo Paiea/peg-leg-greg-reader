@@ -56,13 +56,23 @@ jobs:
           chapter='${{ steps.state.outputs.chapter }}'
           python3 scripts/audio_score_light_validate.py "$chapter"
           python3 - <<'PY'
-          import csv, hashlib, json
+          import csv, hashlib, json, re
           from pathlib import Path
 
           chapter='${{ steps.state.outputs.chapter }}'
           source=Path(f'r2/assets/audio-score-light/ch{chapter}.md')
           body=source.read_text(encoding='utf-8').split('\n---\n',1)[1].strip()
-          expected=hashlib.sha256(body.encode('utf-8')).hexdigest()
+          provider=body
+          for pattern, replacement in (
+              (r'\bMana\b', 'Ma-na'),
+              (r'\bmana\b', 'ma-na'),
+              (r'\bVale\b', 'Vayle'),
+              (r'\bSparring\b', 'Spar-ring'),
+              (r'\bsparring\b', 'spar-ring'),
+          ):
+              provider=re.sub(pattern, replacement, provider)
+          source_sha=hashlib.sha256(body.encode('utf-8')).hexdigest()
+          expected=hashlib.sha256(provider.encode('utf-8')).hexdigest()
           capture=Path(f'greg-again/audio/light/production/{chapter}/FULL_CAPTURE.tsv')
           with capture.open(newline='', encoding='utf-8') as f:
               rows=list(csv.DictReader(f, delimiter='\t'))
@@ -75,7 +85,7 @@ jobs:
           if not url.startswith('https://www.aidocmaker.com/'):
               raise SystemExit(f'unexpected audio_url: {url}')
           if row.get('transcript_sha256','').strip() != expected:
-              raise SystemExit('full capture transcript SHA does not match exact Light source body')
+              raise SystemExit('full capture transcript SHA does not match provider-facing Light transcript')
           meta={
               'chapter': int(chapter),
               'chapter_id': f'ga-{chapter}',
@@ -84,7 +94,12 @@ jobs:
               'context_id': row['context_id'].strip(),
               'audio_url': url,
               'preview_url': row.get('preview_url','').strip() or None,
+              'source_transcript_sha256': source_sha,
               'transcript_sha256': expected,
+              'provider_facing_substitutions': {
+                  'mana':'ma-na', 'Mana':'Ma-na', 'Vale':'Vayle',
+                  'sparring':'spar-ring', 'Sparring':'Spar-ring'
+              },
               'source': str(source),
           }
           Path('/tmp/full-capture.json').write_text(json.dumps(meta, indent=2)+'\n')
@@ -143,7 +158,9 @@ jobs:
               '- Voice: `deep`',
               '- Capture mode: provider full chapter',
               f"- Provider context: `{meta['context_id']}`",
-              f"- Transcript SHA-256: `{meta['transcript_sha256']}`",
+              f"- Source transcript SHA-256: `{meta['source_transcript_sha256']}`",
+              f"- Provider transcript SHA-256: `{meta['transcript_sha256']}`",
+              '- Provider transcript differs from source only by established pronunciation aliases.',
               f"- Provider duration: `{meta['provider_duration_seconds']}` seconds",
               f"- Final asset: `{meta['final_asset']}`",
               f"- Final duration: `{meta['final_duration_seconds']}` seconds",
@@ -193,8 +210,8 @@ jobs:
           c['take_count']=1
           c['duration_seconds']=duration
           c['audio_finish']='audio-score-light'
-          c['note']=(f"Audio Score Light Chapter {d['chapter']} rendered as one full deep-voice provider job from the exact Light source. "
-                     'Transcript identity, downloadable provider audio, playability, final encoding, and settling tail were mechanically verified.')
+          c['note']=(f"Audio Score Light Chapter {d['chapter']} rendered as one full deep-voice provider job from the Light source. "
+                     'Source identity, provider-facing pronunciation aliases, downloadable provider audio, playability, final encoding, and settling tail were mechanically verified.')
           pp.write_text(json.dumps(pub,indent=2)+'\n')
           PY
           python -m json.tool greg-again/audio/light/manifest.json >/dev/null
