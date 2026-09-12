@@ -22,6 +22,8 @@ SUBSTITUTIONS = (
     (re.compile(r"\bSparring\b"), "Spar-ring"),
     (re.compile(r"\bsparring\b"), "spar-ring"),
 )
+NATURAL_BOUNDARY_RE = re.compile(r"(?:\n\n|(?<=[.!?])\s+|(?<=[,;:])\s+)")
+WHITESPACE_RE = re.compile(r"\s+")
 
 
 def provider_text(source: str) -> str:
@@ -46,54 +48,88 @@ def title_from_score(text: str) -> str:
     return m.group(1).strip()
 
 
+def generation_paths(generation: str, chapter: str) -> tuple[Path, Path]:
+    if generation == "v2":
+        return (
+            Path(f"r2/assets/audio-score/ch{chapter}.md"),
+            Path(f"greg-again/audio/v2/takes/{chapter}/short-takes.json"),
+        )
+    if generation == "light":
+        return (
+            Path(f"r2/assets/audio-score-light/ch{chapter}.md"),
+            Path(f"greg-again/audio/light/takes/{chapter}/short-takes.json"),
+        )
+    raise SystemExit(f"Unsupported generation: {generation}")
+
+
+def _candidate_cuts(
+    body: str, start: int, end: int, pattern: re.Pattern[str]
+) -> list[int]:
+    return [start + match.end() for match in pattern.finditer(body[start:end])]
+
+
 def make_chunks(body: str) -> list[str]:
-    paragraphs = body.split("\n\n")
-    if any(len(p) > MAX_CHARS for p in paragraphs):
-        too_long = max(len(p) for p in paragraphs)
-        raise SystemExit(f"A single score paragraph exceeds {MAX_CHARS} chars ({too_long}); repair score boundary manually")
-
     chunks: list[str] = []
-    current: list[str] = []
-    for paragraph in paragraphs:
-        candidate = "\n\n".join(current + [paragraph])
-        if current and len(candidate) > TARGET_CHARS:
-            chunks.append("\n\n".join(current))
-            current = [paragraph]
-        else:
-            current.append(paragraph)
-    if current:
-        chunks.append("\n\n".join(current))
+    start = 0
+    total = len(body)
 
-    # Avoid a tiny orphan ending when the final two chunks can be rebalanced by paragraph.
-    if len(chunks) >= 2 and len(chunks[-1]) < 140:
-        combined_paras = (chunks[-2] + "\n\n" + chunks[-1]).split("\n\n")
-        best = None
-        for cut in range(1, len(combined_paras)):
-            a = "\n\n".join(combined_paras[:cut])
-            b = "\n\n".join(combined_paras[cut:])
-            if len(a) <= MAX_CHARS and len(b) <= MAX_CHARS:
-                score = min(len(a), len(b))
-                if best is None or score > best[0]:
-                    best = (score, a, b)
-        if best:
-            chunks[-2], chunks[-1] = best[1], best[2]
+    while start < total:
+        remaining = body[start:]
+        if len(provider_text(remaining)) <= MAX_CHARS:
+            chunks.append(remaining)
+            break
 
-    if any(not c or len(provider_text(c)) > MAX_CHARS for c in chunks):
-        raise SystemExit("Planner produced an empty or oversized provider take")
-    if "\n\n".join(chunks) != body:
+        target_end = min(total, start + TARGET_CHARS)
+        hard_end = min(total, start + MAX_CHARS)
+
+        cuts = _candidate_cuts(body, start, target_end, NATURAL_BOUNDARY_RE)
+        if not cuts:
+            cuts = _candidate_cuts(body, start, hard_end, NATURAL_BOUNDARY_RE)
+        if not cuts:
+            cuts = _candidate_cuts(body, start, hard_end, WHITESPACE_RE)
+        if not cuts:
+            cuts = [hard_end]
+
+        cut = cuts[-1]
+
+        all_cuts = list(
+            dict.fromkeys(
+                _candidate_cuts(body, start, hard_end, NATURAL_BOUNDARY_RE)
+                + _candidate_cuts(body, start, hard_end, WHITESPACE_RE)
+                + [hard_end]
+            )
+        )
+        valid = [
+            candidate
+            for candidate in all_cuts
+            if candidate > start
+            and len(provider_text(body[start:candidate])) <= MAX_CHARS
+        ]
+        if cut <= start or len(provider_text(body[start:cut])) > MAX_CHARS:
+            if not valid:
+                raise SystemExit("Could not find a preview-safe chunk boundary")
+            cut = max(valid)
+
+        chunks.append(body[start:cut])
+        start = cut
+
+    if "".join(chunks) != body:
         raise SystemExit("Planner failed exact source coverage reconstruction")
+    if any(not chunk or len(provider_text(chunk)) > MAX_CHARS for chunk in chunks):
+        raise SystemExit("Planner produced an empty or oversized provider take")
     return chunks
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("chapter", help="chapter number, e.g. 013")
+    ap.add_argument("--generation", choices=("v2", "light"), default="v2")
     ap.add_argument("--output")
     args = ap.parse_args()
 
     n = int(args.chapter)
     chapter = f"{n:03d}"
-    source = Path(f"r2/assets/audio-score/ch{chapter}.md")
+    source, default_output = generation_paths(args.generation, chapter)
     if not source.exists():
         raise SystemExit(f"Missing {source}")
 
@@ -101,12 +137,13 @@ def main() -> None:
     body = score_body(raw)
     chunks = make_chunks(body)
     blob_sha = subprocess.check_output(["git", "hash-object", str(source)], text=True).strip()
-    output = Path(args.output or f"greg-again/audio/v2/takes/{chapter}/short-takes.json")
+    output = Path(args.output) if args.output else default_output
     output.parent.mkdir(parents=True, exist_ok=True)
 
     data = {
         "chapter": n,
         "chapter_id": f"ga-{chapter}",
+        "generation": args.generation,
         "title": title_from_score(raw),
         "source": str(source),
         "source_blob_sha": blob_sha,

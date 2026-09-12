@@ -8,13 +8,23 @@ import json
 from pathlib import Path
 
 
+def generation_paths(generation: str, chapter: str) -> tuple[Path, Path]:
+    if generation == "v2":
+        base = Path(f"greg-again/audio/v2/takes/{chapter}")
+    elif generation == "light":
+        base = Path(f"greg-again/audio/light/takes/{chapter}")
+    else:
+        raise SystemExit(f"Unsupported generation: {generation}")
+    return base / "short-takes.json", base / "capture-results.tsv"
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("chapter")
+    ap.add_argument("--generation", choices=("v2", "light"), default="v2")
     args = ap.parse_args()
     chapter = f"{int(args.chapter):03d}"
-    plan_path = Path(f"greg-again/audio/v2/takes/{chapter}/short-takes.json")
-    results_path = Path(f"greg-again/audio/v2/takes/{chapter}/capture-results.tsv")
+    plan_path, results_path = generation_paths(args.generation, chapter)
     data = json.loads(plan_path.read_text())
     if data.get("status") == "durable_takes_verified_and_assembled":
         print(f"{chapter}: already assembled; capture binder is a no-op")
