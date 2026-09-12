@@ -9,6 +9,7 @@
   const progressKey = 'r2-audio-library-progress:v1';
 
   let chapters = [];
+  let chapterArt = {};
   let activeAudio = null;
   let saveTimer = null;
 
@@ -56,6 +57,14 @@
 
   function writtenHref(chapter) {
     return `../../r2/chapter.html?id=r2-ch${String(chapter.number).padStart(3, '0')}`;
+  }
+
+  function routedImageSrc(chapter) {
+    if (chapter.image_src) return chapter.image_src;
+    const chapterId = `r2-ch${String(chapter.number).padStart(3, '0')}`;
+    const images = chapterArt[chapterId] || [];
+    const anchor = images.find(image => image.role === 'anchor') || images[0];
+    return anchor?.path ? `../../r2/${anchor.path}` : '';
   }
 
   function renderContinueListening() {
@@ -119,10 +128,11 @@
 
     const visual = document.createElement('div');
     visual.className = 'chapter-visual';
-    if (chapter.image_src) {
+    const imageSrc = routedImageSrc(chapter);
+    if (imageSrc) {
       visual.classList.add('has-image');
       const image = document.createElement('img');
-      image.src = chapter.image_src;
+      image.src = imageSrc;
       image.alt = '';
       image.loading = 'lazy';
       image.decoding = 'async';
@@ -213,9 +223,13 @@
   }
 
   try {
-    const response = await fetch('manifest.json', { cache: 'no-store' });
+    const [response, artResponse] = await Promise.all([
+      fetch('manifest.json', { cache: 'no-store' }),
+      fetch('../../r2/data/chapter-art.json', { cache: 'no-store' }).catch(() => null),
+    ]);
     if (!response.ok) throw new Error(`manifest ${response.status}`);
     const manifest = await response.json();
+    chapterArt = artResponse?.ok ? await artResponse.json() : {};
     chapters = Array.isArray(manifest.chapters)
       ? manifest.chapters.filter((chapter) => chapter && chapter.audio_src)
       : [];

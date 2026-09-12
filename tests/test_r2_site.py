@@ -125,7 +125,8 @@ class R2SiteTests(unittest.TestCase):
     def test_homepage_presents_listen_first_entry_and_links_run_one(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
         self.assertIn('PEG-LEG GREG', html)
-        self.assertIn('A second life. A second run.', html)
+        self.assertIn('A second life.', html)
+        self.assertIn('A second run.', html)
         self.assertIn('href="../index.html"', html)
         self.assertIn('Start Listening', html)
         self.assertIn('Written rendition →', html)
@@ -171,11 +172,23 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('@media (max-width: 760px)', css)
         self.assertNotIn('animation:', css)
 
-    def test_home_banner_uses_responsive_verified_site_art(self):
+    def test_home_banner_uses_approved_high_res_site_art(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('assets/images/r2-hero-wide.webp', html)
-        self.assertIn('assets/images/r2-hero-portrait.webp', html)
+        self.assertIn('assets/images/1.png', html)
+        self.assertIn('width="1672"', html)
+        self.assertIn('height="941"', html)
         self.assertNotIn('assets/images/Home.png', html)
+
+    def test_chapter_art_batch_one_routes_real_assets(self):
+        art = json.loads((R2 / 'data/chapter-art.json').read_text(encoding='utf-8'))
+        self.assertEqual(set(art), {f'r2-ch{i:03d}' for i in range(1, 11)})
+        for number in range(1, 11):
+            chapter_id = f'r2-ch{number:03d}'
+            images = art[chapter_id]
+            self.assertEqual(len(images), 1)
+            self.assertEqual(images[0]['role'], 'anchor')
+            self.assertEqual(images[0]['path'], f'assets/images/chapters/ch{number:03d}.png')
+            self.assertTrue((R2 / images[0]['path']).exists(), chapter_id)
 
 
 if __name__ == '__main__':
