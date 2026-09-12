@@ -97,6 +97,8 @@ Read:
 - `r2/AUDIO_PRODUCTION.md`
 - the exact current source surface for the target chapter/work
 
+When Codex is the worker, also read `r2/CODEX_AUDIO_EFFICIENCY.md`.
+
 For Audio Score v2 work, additionally read the relevant current audio-score production docs, including `r2/AUDIO_SCORE.md`, `r2/AUDIO_SCORE_PRODUCTION.md`, and `r2/AUDIO_PRONUNCIATION.md` when synthesis/pronunciation is involved.
 
 Do not read unrelated manuscript/editorial brains merely because the repository contains them.
