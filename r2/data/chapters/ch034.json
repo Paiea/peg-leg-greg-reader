@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch034","display_number":34,"title":"The Packet","status":"published","book":1,"act":1,"teaser":"Mara's next packet carries work, memory, desire, and a concrete dinner request, and Greg says yes before he knows what the promise will cost.","audio":{"status":"unavailable","path":null},"written":{"status":"published","path":"assets/written/ch034.md"},"images":[],"navigation":{"previous":"r2-ch033","next":"r2-ch035"}}
+{
+  "chapter_id": "r2-ch034",
+  "display_number": 34,
+  "title": "The Correspondent",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "Mara's next packet carries work, memory, desire, and a concrete dinner request, and Greg says yes before he knows what the promise will cost.",
+  "audio": {
+    "status": "unavailable",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch034.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch033",
+    "next": "r2-ch035"
+  }
+}

@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch106","display_number":106,"title":"Two Legs","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch106.md"},"images":[],"navigation":{"previous":"r2-ch105","next":"r2-ch107"}}
+{
+  "chapter_id": "r2-ch106",
+  "display_number": 106,
+  "title": "The Adapter",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch106.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch105",
+    "next": "r2-ch107"
+  }
+}

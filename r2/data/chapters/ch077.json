@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch077","display_number":77,"title":"West Gate","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch077.md"},"images":[],"navigation":{"previous":"r2-ch076","next":"r2-ch078"}}
+{
+  "chapter_id": "r2-ch077",
+  "display_number": 77,
+  "title": "The Crewman",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch077.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch076",
+    "next": "r2-ch078"
+  }
+}

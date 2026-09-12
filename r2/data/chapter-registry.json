@@ -30,7 +30,7 @@
     },
     "r2-ch002": {
       "display_number": 2,
-      "title": "Two Things",
+      "title": "The Novice",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -78,7 +78,7 @@
     },
     "r2-ch004": {
       "display_number": 4,
-      "title": "Thirty Days",
+      "title": "The Contractor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -126,7 +126,7 @@
     },
     "r2-ch006": {
       "display_number": 6,
-      "title": "The First Customer",
+      "title": "The Troubleshooter",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -174,7 +174,7 @@
     },
     "r2-ch008": {
       "display_number": 8,
-      "title": "Road Work",
+      "title": "The Defender",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -198,7 +198,7 @@
     },
     "r2-ch009": {
       "display_number": 9,
-      "title": "The Bridge",
+      "title": "The Backstop",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -222,7 +222,7 @@
     },
     "r2-ch010": {
       "display_number": 10,
-      "title": "What Moved",
+      "title": "The Returner",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -246,7 +246,7 @@
     },
     "r2-ch011": {
       "display_number": 11,
-      "title": "The North Gate",
+      "title": "The Gate Hand",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -270,7 +270,7 @@
     },
     "r2-ch012": {
       "display_number": 12,
-      "title": "Mara",
+      "title": "The Stranger",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -294,7 +294,7 @@
     },
     "r2-ch013": {
       "display_number": 13,
-      "title": "The Good Sword",
+      "title": "The Fighter",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -318,7 +318,7 @@
     },
     "r2-ch014": {
       "display_number": 14,
-      "title": "The Back Room",
+      "title": "The Helper",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -366,7 +366,7 @@
     },
     "r2-ch016": {
       "display_number": 16,
-      "title": "Three Names",
+      "title": "The Investor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -414,7 +414,7 @@
     },
     "r2-ch018": {
       "display_number": 18,
-      "title": "Six Weeks",
+      "title": "The Applicant",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -438,7 +438,7 @@
     },
     "r2-ch019": {
       "display_number": 19,
-      "title": "Who Cleans It",
+      "title": "The Maintainer",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -606,7 +606,7 @@
     },
     "r2-ch026": {
       "display_number": 26,
-      "title": "The Day Off",
+      "title": "The Adventurer",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -630,7 +630,7 @@
     },
     "r2-ch027": {
       "display_number": 27,
-      "title": "The Late Letter",
+      "title": "The Correspondent",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -654,7 +654,7 @@
     },
     "r2-ch028": {
       "display_number": 28,
-      "title": "Eventually",
+      "title": "The Friend",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -678,7 +678,7 @@
     },
     "r2-ch029": {
       "display_number": 29,
-      "title": "The Seven",
+      "title": "The Card Player",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -702,7 +702,7 @@
     },
     "r2-ch030": {
       "display_number": 30,
-      "title": "The Workshop",
+      "title": "The Partner",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -726,7 +726,7 @@
     },
     "r2-ch031": {
       "display_number": 31,
-      "title": "The Next Road",
+      "title": "The Friend",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -750,7 +750,7 @@
     },
     "r2-ch032": {
       "display_number": 32,
-      "title": "Two Copper",
+      "title": "The Neighbor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -774,7 +774,7 @@
     },
     "r2-ch033": {
       "display_number": 33,
-      "title": "Route Day",
+      "title": "The Passenger",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -798,7 +798,7 @@
     },
     "r2-ch034": {
       "display_number": 34,
-      "title": "The Packet",
+      "title": "The Correspondent",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -822,7 +822,7 @@
     },
     "r2-ch035": {
       "display_number": 35,
-      "title": "The Ask",
+      "title": "The Promise-Keeper",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -846,7 +846,7 @@
     },
     "r2-ch036": {
       "display_number": 36,
-      "title": "Four Nights",
+      "title": "The Neighbor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -870,7 +870,7 @@
     },
     "r2-ch037": {
       "display_number": 37,
-      "title": "One Day Late",
+      "title": "The Companion",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -894,7 +894,7 @@
     },
     "r2-ch038": {
       "display_number": 38,
-      "title": "Two Keys",
+      "title": "The Host",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
@@ -918,7 +918,7 @@
     },
     "r2-ch039": {
       "display_number": 39,
-      "title": "The East Desk",
+      "title": "The Visitor",
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",

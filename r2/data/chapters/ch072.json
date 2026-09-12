@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch072","display_number":72,"title":"Candidacy","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch072.md"},"images":[],"navigation":{"previous":"r2-ch071","next":"r2-ch073"}}
+{
+  "chapter_id": "r2-ch072",
+  "display_number": 72,
+  "title": "The Candidate",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch072.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch071",
+    "next": "r2-ch073"
+  }
+}

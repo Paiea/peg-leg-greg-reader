@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch086","display_number":86,"title":"Six Inches","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch086.md"},"images":[],"navigation":{"previous":"r2-ch085","next":"r2-ch087"}}
+{
+  "chapter_id": "r2-ch086",
+  "display_number": 86,
+  "title": "The Trainee",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch086.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch085",
+    "next": "r2-ch087"
+  }
+}

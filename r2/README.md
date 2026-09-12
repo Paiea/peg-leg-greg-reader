@@ -68,6 +68,7 @@ r2/
 - `IMAGE_WORKER.md` answers **how a fresh parallel chapter-image worker executes one transaction and stops**.
 - `IMAGE_RELEASES.md` answers **how approved Library binaries become large repo-ready handoff ZIPs**.
 - `visual-state/R2_VISUAL_CANON.md` answers **what current R2 image work should not have to rediscover**.
+- `TITLE_POLICY.md` answers **how selected/public chapter titles are chosen**: each title names an embodied Greg role.
 - `data/chapters/chNNN.json` answers **what the public reader should display for that chapter**.
 - `data/chapter-registry.json` answers **what production work remains**.
 - ChatGPT Library is a shared binary staging warehouse, not story or visual-canon authority.
@@ -94,7 +95,7 @@ When Chapter N audio or another public rendering becomes real:
 1. Confirm the newest GitHub authority first.
 2. Confirm or create the chapter's Shared Greg Surface before medium-specific finishing unless the chapter is an explicitly documented legacy experiment.
 3. Classify listen-back/page-read discoveries before revision: shared Greg Experience, audio-only, or written-only.
-4. Create/update `data/chapters/chNNN.json`.
+4. Verify the chapter title against `TITLE_POLICY.md` by asking **Who is Greg in this chapter?**; use the embodied role, then create/update `data/chapters/chNNN.json`.
 5. Add `r2-chNNN` to `data/project.json` in intended reading order and update `current_chapter` if appropriate.
 6. Update previous/next IDs in neighboring chapter manifests.
 7. Update `data/chapter-registry.json` with the actual production state.

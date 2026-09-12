@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch103","display_number":103,"title":"Mara","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch103.md"},"images":[],"navigation":{"previous":"r2-ch102","next":"r2-ch104"}}
+{
+  "chapter_id": "r2-ch103",
+  "display_number": 103,
+  "title": "The Partner",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch103.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch102",
+    "next": "r2-ch104"
+  }
+}

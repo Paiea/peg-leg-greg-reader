@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch051","display_number":51,"title":"Glasshorn","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch051.md"},"images":[],"navigation":{"previous":"r2-ch050","next":"r2-ch052"}}
+{
+  "chapter_id": "r2-ch051",
+  "display_number": 51,
+  "title": "The Field Guard",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch051.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch050",
+    "next": "r2-ch052"
+  }
+}

@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch098","display_number":98,"title":"Ground Floor","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch098.md"},"images":[],"navigation":{"previous":"r2-ch097","next":"r2-ch099"}}
+{
+  "chapter_id": "r2-ch098",
+  "display_number": 98,
+  "title": "The Tenant",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch098.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch097",
+    "next": "r2-ch099"
+  }
+}

@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch092","display_number":92,"title":"The Third Line","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch092.md"},"images":[],"navigation":{"previous":"r2-ch091","next":"r2-ch093"}}
+{
+  "chapter_id": "r2-ch092",
+  "display_number": 92,
+  "title": "The Candidate",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch092.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch091",
+    "next": "r2-ch093"
+  }
+}
