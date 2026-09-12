@@ -61,6 +61,20 @@
       "duration_seconds": 733.704,
       "audio_src": "assets/light/chapter-004.mp3",
       "verification": "greg-again/audio/light/verification/004/"
+    },
+    {
+      "chapter_id": "ga-005",
+      "number": 5,
+      "title": "The Partner",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch005.md",
+      "source_blob_sha": "a1b653c75e962f23e09454d8792f5ec17e6d32be",
+      "voice": "deep",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 697.128,
+      "audio_src": "assets/light/chapter-005.mp3",
+      "verification": "greg-again/audio/light/verification/005/"
     }
   ]
 }

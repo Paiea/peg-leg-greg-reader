@@ -59,11 +59,11 @@
       "title": "The Partner",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 750.312,
-      "audio_src": "assets/chapter-005.mp3",
-      "note": "Chapter 5 applies the processing-space Audio Finish: repetition, resets, connective thought, tiny reactions, and pauses are used selectively so the listener can construct Greg's changing model without optimizing away useful processing time."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 697.128,
+      "audio_src": "assets/light/chapter-005.mp3",
+      "note": "Audio Score Light Chapter 5 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-006",
