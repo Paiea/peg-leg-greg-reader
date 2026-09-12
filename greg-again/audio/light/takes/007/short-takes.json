@@ -6,7 +6,7 @@
   "source": "r2/assets/audio-score-light/ch007.md",
   "source_blob_sha": "b8339d629a0707182e65d338585e5af3cffe7339",
   "voice": "deep",
-  "status": "capture_ready",
+  "status": "durable_takes_verified_and_assembled",
   "factory": "preview_safe_short_take_capture_v1",
   "max_chars": 500,
   "provider_facing_substitutions": {
@@ -23,7 +23,11 @@
       "transcript": "Jorren left north in two days.\n\nI knew because his new boots had stopped squeaking.\n\nThat and Sella had put his caravan contract beneath the counter instead of back on the board.\n\nApparently paperwork also understood inevitability.\n\nI was at the Guild because I needed money again.\n\nNot much.\n\nEnough for food, yard time, replacement ash, and whatever Arlo discovered next that would somehow cost silver before it became worth copper.\n\nThis was different from debt.\n\n",
       "preview_transcript": "Jorren left north in two days.\n\nI knew because his new boots had stopped squeaking.\n\nThat and Sella had put his caravan contract beneath the counter instead of back on the board.\n\nApparently paperwork also understood inevitability.\n\nI was at the Guild because I needed money again.\n\nNot much.\n\nEnough for food, yard time, replacement ash, and whatever Arlo discovered next that would somehow cost silver before it became worth copper.\n\nThis was different from debt.\n\n",
       "context_id": "9a614d46548d439093c564ddcc7570b0",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b723cf03-5b78-45ed-bfe2-ac75ab937b63.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b723cf03-5b78-45ed-bfe2-ac75ab937b63.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/01.mp3",
+      "byte_size": 454272,
+      "audio_sha256": "ee1626960ece35201a44ba5589537ced159929771ccef37ccd903c1b9d79632b",
+      "duration_seconds": 28.392
     },
     {
       "order": 2,
@@ -31,7 +35,11 @@
       "transcript": "Mostly because Antonius Vayle no longer owned part of my week.\n\nI intended to enjoy that distinction for as long as possible.\n\nSella watched me read the board.\n\nNot openly.\n\nShe had forms.\n\nForms allowed observation without admitting interest.\n\nRoad escort.\n\nCellar clearing.\n\nNight watch at a tannery.\n\nLost dog.\n\nThe dog paid more than the cellar.\n\nCorrect market signal.\n\nI kept reading.\n\nA second paper had been pinned over one of the road contracts.\n\n",
       "preview_transcript": "Mostly because Antonius Vayle no longer owned part of my week.\n\nI intended to enjoy that distinction for as long as possible.\n\nSella watched me read the board.\n\nNot openly.\n\nShe had forms.\n\nForms allowed observation without admitting interest.\n\nRoad escort.\n\nCellar clearing.\n\nNight watch at a tannery.\n\nLost dog.\n\nThe dog paid more than the cellar.\n\nCorrect market signal.\n\nI kept reading.\n\nA second paper had been pinned over one of the road contracts.\n\n",
       "context_id": "d2c695b95ca54c7292807535eb3f9776",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/97804988-5391-48b2-bc8f-afedc1abac6a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/97804988-5391-48b2-bc8f-afedc1abac6a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/02.mp3",
+      "byte_size": 436608,
+      "audio_sha256": "9b1cc77a3c75d2838727ab460884ae7c2f86cce82a647258c4de01e92547f615",
+      "duration_seconds": 27.288
     },
     {
       "order": 3,
@@ -39,7 +47,11 @@
       "transcript": "**ONE BRONZE ESCORT NEEDED. FIRST LEG ONLY. DEPARTURE TODAY.**\n\nI read the destination.\n\nNorth road.\n\nSame caravan as Jorren.\n\nInteresting.\n\n\"No,\" Sella said.\n\nI had not turned around.\n\n\"You don't know what I'm thinking.\"\n\n\"Road contract.\"\n\n\"Could be the dog.\"\n\n\"You don't like dogs.\"\n\nI looked at her.\n\nShe had learned too much.\n\n\"Why is there an opening?\"\n\n",
       "preview_transcript": "**ONE BRONZE ESCORT NEEDED. FIRST LEG ONLY. DEPARTURE TODAY.**\n\nI read the destination.\n\nNorth road.\n\nSame caravan as Jorren.\n\nInteresting.\n\n\"No,\" Sella said.\n\nI had not turned around.\n\n\"You don't know what I'm thinking.\"\n\n\"Road contract.\"\n\n\"Could be the dog.\"\n\n\"You don't like dogs.\"\n\nI looked at her.\n\nShe had learned too much.\n\n\"Why is there an opening?\"\n\n",
       "context_id": "5335e8fba04d4ef98beef0e36e901633",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/783a2271-9069-4636-8f35-244b5528d628.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/783a2271-9069-4636-8f35-244b5528d628.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/03.mp3",
+      "byte_size": 332544,
+      "audio_sha256": "17298495789839fd54046645d347e91215af926668d4bbaddb1da3516843a593",
+      "duration_seconds": 20.784
     },
     {
       "order": 4,
@@ -47,7 +59,11 @@
       "transcript": "The original guard had stepped into a drainage ditch while carrying a crate and twisted an ankle badly enough to miss departure.\n\nNot heroic.\n\nStill unemployed him.\n\nThe caravan needed another Bronze body for the first leg to Brell Crossing, six days north if the weather behaved.\n\nThere was a southbound return caravan two days after arrival.\n\nTwo weeks away, roughly.\n\nLonger if roads were bad.\n\nArlo would survive.\n\nProbably more efficiently.\n\n",
       "preview_transcript": "The original guard had stepped into a drainage ditch while carrying a crate and twisted an ankle badly enough to miss departure.\n\nNot heroic.\n\nStill unemployed him.\n\nThe caravan needed another Bronze body for the first leg to Brell Crossing, six days north if the weather behaved.\n\nThere was a southbound return caravan two days after arrival.\n\nTwo weeks away, roughly.\n\nLonger if roads were bad.\n\nArlo would survive.\n\nProbably more efficiently.\n\n",
       "context_id": "e15d1bc1bae14b93b56befef5923b46c",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2b861d56-308b-44fe-afe0-9e84220ffc49.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2b861d56-308b-44fe-afe0-9e84220ffc49.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/04.mp3",
+      "byte_size": 432768,
+      "audio_sha256": "4513d7f84f6b780c8c3fc445ce0867b658e8c624116fa908b76024c9358c00ca",
+      "duration_seconds": 27.048
     },
     {
       "order": 5,
@@ -55,7 +71,11 @@
       "transcript": "That thought was becoming less insulting.\n\nI looked at the listed pay.\n\nThen at the roster.\n\nJorren.\n\nFour other escorts.\n\nQuartermaster.\n\nDriver count.\n\nMeral, warder.\n\nI read the last name twice.\n\nSella noticed.\n\nOf course she did.\n\n\"You know Meral?\"\n\nNo.\n\nNot personally.\n\nNot in the future either.\n\nBut warder meant working support magic attached to a moving system full of fragile people, animals, wheels, axles, food, money, and bad decisions.\n\n",
       "preview_transcript": "That thought was becoming less insulting.\n\nI looked at the listed pay.\n\nThen at the roster.\n\nJorren.\n\nFour other escorts.\n\nQuartermaster.\n\nDriver count.\n\nMeral, warder.\n\nI read the last name twice.\n\nSella noticed.\n\nOf course she did.\n\n\"You know Meral?\"\n\nNo.\n\nNot personally.\n\nNot in the future either.\n\nBut warder meant working support magic attached to a moving system full of fragile people, animals, wheels, axles, food, money, and bad decisions.\n\n",
       "context_id": "582d89ebd9ea416f8beefae7e33ce123",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8a572632-5ed3-4069-9609-ac937f10d027.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8a572632-5ed3-4069-9609-ac937f10d027.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/05.mp3",
+      "byte_size": 418944,
+      "audio_sha256": "eee7d6ece57a8070fd55b68f380154ba590f323f77d7788e01499acf8eb6302b",
+      "duration_seconds": 26.184
     },
     {
       "order": 6,
@@ -63,7 +83,11 @@
       "transcript": "Which was close enough to religion at the moment.\n\n\"I know what a warder does.\"\n\nSella's face suggested this was not the same thing.\n\nFair.\n\nJorren came in from the yard carrying his practice sword over one shoulder.\n\nHe saw the paper in my hand.\n\n\"No.\"\n\nApparently everyone had coordinated.\n\n\"Excellent sales culture here.\"\n\nHe took the paper and read it.\n\nThen looked at me.\n\n\"You hate walking.\"\n\n\"I hate unnecessary walking.\"\n\n\"It's a road.\"\n\n\"Roads go places.\"\n\n",
       "preview_transcript": "Which was close enough to religion at the moment.\n\n\"I know what a warder does.\"\n\nSella's face suggested this was not the same thing.\n\nFair.\n\nJorren came in from the yard carrying his practice sword over one shoulder.\n\nHe saw the paper in my hand.\n\n\"No.\"\n\nApparently everyone had coordinated.\n\n\"Excellent sales culture here.\"\n\nHe took the paper and read it.\n\nThen looked at me.\n\n\"You hate walking.\"\n\n\"I hate unnecessary walking.\"\n\n\"It's a road.\"\n\n\"Roads go places.\"\n\n",
       "context_id": "5ac984e5c315405080aef3f1e27a509f",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a8f0b5af-3eb9-4a98-ad87-5ba6bf75efab.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a8f0b5af-3eb9-4a98-ad87-5ba6bf75efab.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/06.mp3",
+      "byte_size": 438912,
+      "audio_sha256": "6d3f03ab01b1470958843671b094d03c1d8f7444b09d61734169d25f29ca7261",
+      "duration_seconds": 27.432
     },
     {
       "order": 7,
@@ -71,7 +95,11 @@
       "transcript": "He considered that.\n\n\"You know caravans sleep outside?\"\n\n\"I have camped before.\"\n\n\"Recently?\"\n\nNo.\n\n\"Still counts.\"\n\nSella held out a hand.\n\nNot for the contract.\n\nFor my token.\n\nI gave it to her.\n\nShe checked my recent contract marks, then the yard register, then me.\n\nA month ago I would have been offended by the inspection.\n\nCurrent me had been introduced to customer failures, debt agreements, acid kits, and ceilings.\n\n",
       "preview_transcript": "He considered that.\n\n\"You know caravans sleep outside?\"\n\n\"I have camped before.\"\n\n\"Recently?\"\n\nNo.\n\n\"Still counts.\"\n\nSella held out a hand.\n\nNot for the contract.\n\nFor my token.\n\nI gave it to her.\n\nShe checked my recent contract marks, then the yard register, then me.\n\nA month ago I would have been offended by the inspection.\n\nCurrent me had been introduced to customer failures, debt agreements, acid kits, and ceilings.\n\n",
       "context_id": "a6687d770f5e4d9f9830e698b4fd46a2",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f2486b4d-8836-4254-ae5e-bbf87e6af168.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f2486b4d-8836-4254-ae5e-bbf87e6af168.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/07.mp3",
+      "byte_size": 398592,
+      "audio_sha256": "4e0b414fc0245798623abddc5927d221b8323e4fa039b19ec2197a04e22405f4",
+      "duration_seconds": 24.912
     },
     {
       "order": 8,
@@ -79,7 +107,11 @@
       "transcript": "Systems checking things had moved up my list of comforts.\n\nShe stamped the paper.\n\n\"First leg only.\"\n\n\"I can read.\"\n\n\"Return caravan leaves Brell two mornings after arrival. If you miss it, you're finding your own way back.\"\n\n\"Also readable.\"\n\n\"Do not make me regret this.\"\n\nThere.\n\nThat line got through.\n\nNot because of the words.\n\nBecause Sella had stopped speaking to me like an unknown Bronze fighter asking dumb questions at the desk.\n\nA month had done that too.\n\n",
       "preview_transcript": "Systems checking things had moved up my list of comforts.\n\nShe stamped the paper.\n\n\"First leg only.\"\n\n\"I can read.\"\n\n\"Return caravan leaves Brell two mornings after arrival. If you miss it, you're finding your own way back.\"\n\n\"Also readable.\"\n\n\"Do not make me regret this.\"\n\nThere.\n\nThat line got through.\n\nNot because of the words.\n\nBecause Sella had stopped speaking to me like an unknown Bronze fighter asking dumb questions at the desk.\n\nA month had done that too.\n\n",
       "context_id": "0e32d42a7ca74117a8367ca1d2c7ce1b",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/42110ac7-6556-4a3f-aa40-b3eec86bdeb5.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/42110ac7-6556-4a3f-aa40-b3eec86bdeb5.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/08.mp3",
+      "byte_size": 450048,
+      "audio_sha256": "716d624169d2f1fe936b4b80ac3d493b8cd6d7d0a74fac62c14c4be429759858",
+      "duration_seconds": 28.128
     },
     {
       "order": 9,
@@ -87,7 +119,11 @@
       "transcript": "I folded the contract.\n\n\"I'll regret it enough for both of us.\"\n\nShe had already reached for another form.\n\nGood.\n\nI told Arlo I was leaving while he was rebuilding Ivena's filter housing out of pieces spread across his bench.\n\nHe did not look up.\n\n\"How long?\"\n\nTwo weeks, roughly.\n\nThat got his attention.\n\nI explained the contract.\n\nThen the warder.\n\nHis expression changed in exactly the wrong direction.\n\n\"You're paying someone to teach you magic now?\"\n\n",
       "preview_transcript": "I folded the contract.\n\n\"I'll regret it enough for both of us.\"\n\nShe had already reached for another form.\n\nGood.\n\nI told Arlo I was leaving while he was rebuilding Ivena's filter housing out of pieces spread across his bench.\n\nHe did not look up.\n\n\"How long?\"\n\nTwo weeks, roughly.\n\nThat got his attention.\n\nI explained the contract.\n\nThen the warder.\n\nHis expression changed in exactly the wrong direction.\n\n\"You're paying someone to teach you magic now?\"\n\n",
       "context_id": "0858b5036d9146ba9c6d72ab7333121f",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cada25ed-9a9f-4fc2-bfd6-037dff7a914a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cada25ed-9a9f-4fc2-bfd6-037dff7a914a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/09.mp3",
+      "byte_size": 438144,
+      "audio_sha256": "ce01630c281e0a3f736c7836373e07d2af8668a0d882b2a6a731d7eb71562c63",
+      "duration_seconds": 27.384
     },
     {
       "order": 10,
@@ -95,7 +131,11 @@
       "transcript": "\"They're paying me.\"\n\nHe stared.\n\nI enjoyed that for three full seconds.\n\n\"Road escort.\"\n\n\"Yes.\"\n\n\"You.\"\n\n\"I've been hit by professionals.\"\n\n\"Jorren is not a professional.\"\n\n\"Tell him that.\"\n\nArlo returned to the housing.\n\nWarm-flow test tomorrow.\n\nLong run after that if the new bypass behaved.\n\nI told him not to change the ceramic mix and the housing geometry on the same test.\n\nHe told me he knew.\n\n",
       "preview_transcript": "\"They're paying me.\"\n\nHe stared.\n\nI enjoyed that for three full seconds.\n\n\"Road escort.\"\n\n\"Yes.\"\n\n\"You.\"\n\n\"I've been hit by professionals.\"\n\n\"Jorren is not a professional.\"\n\n\"Tell him that.\"\n\nArlo returned to the housing.\n\nWarm-flow test tomorrow.\n\nLong run after that if the new bypass behaved.\n\nI told him not to change the ceramic mix and the housing geometry on the same test.\n\nHe told me he knew.\n\n",
       "context_id": "56e7e7196ec94e77b63a1e780863404b",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aad866e8-6778-425c-a48c-1ef82d29341e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/aad866e8-6778-425c-a48c-1ef82d29341e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/10.mp3",
+      "byte_size": 380160,
+      "audio_sha256": "29f7425bcb3cd2dbe8c1679c575f525391b656b722e98cc4b2d3640e608ecbd5",
+      "duration_seconds": 23.76
     },
     {
       "order": 11,
@@ -103,7 +143,11 @@
       "transcript": "I told him because people knowing things had not stopped people before.\n\nHe told me to leave.\n\nPartnership.\n\nHealthy.\n\nThe caravan was already loading when I reached the north gate.\n\nNine wagons.\n\nTwo passenger carts.\n\nSixteen draft animals.\n\nEnough people that nobody knew everyone and few enough that mistakes still belonged to specific names.\n\nJorren was tightening a strap on the third wagon.\n\nHe looked at my pack.\n\nThen at me.\n\n\"That's all?\"\n\nI had clothes.\n\n",
       "preview_transcript": "I told him because people knowing things had not stopped people before.\n\nHe told me to leave.\n\nPartnership.\n\nHealthy.\n\nThe caravan was already loading when I reached the north gate.\n\nNine wagons.\n\nTwo passenger carts.\n\nSixteen draft animals.\n\nEnough people that nobody knew everyone and few enough that mistakes still belonged to specific names.\n\nJorren was tightening a strap on the third wagon.\n\nHe looked at my pack.\n\nThen at me.\n\n\"That's all?\"\n\nI had clothes.\n\n",
       "context_id": "5fb2465f74f749f7979532226add90e4",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c892591c-65ca-4635-a09c-e3b4bfd3803b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c892591c-65ca-4635-a09c-e3b4bfd3803b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/11.mp3",
+      "byte_size": 446208,
+      "audio_sha256": "18080d47171ee33cc25d90ddcdc0cc6fd8b9b11b38d62652fcd9394beda16738",
+      "duration_seconds": 27.888
     },
     {
       "order": 12,
@@ -111,7 +155,11 @@
       "transcript": "Food for two days.\n\nBedroll.\n\nSword.\n\nWater.\n\nA small pouch of coin I disliked discussing.\n\nWhat else did civilization require?\n\nJorren opened his mouth.\n\nA woman behind him said, \"If he forgot something, he'll remember it after the gate.\"\n\nI turned.\n\nMeral.\n\nThirty-five, maybe forty.\n\nShort dark hair cut with no concern for whether it framed anything. Heavy travel coat despite the heat. Chalk dust on one sleeve. Three narrow cords looped around her belt, ",
       "preview_transcript": "Food for two days.\n\nBedroll.\n\nSword.\n\nWater.\n\nA small pouch of coin I disliked discussing.\n\nWhat else did civilization require?\n\nJorren opened his mouth.\n\nA woman behind him said, \"If he forgot something, he'll remember it after the gate.\"\n\nI turned.\n\nMeral.\n\nThirty-five, maybe forty.\n\nShort dark hair cut with no concern for whether it framed anything. Heavy travel coat despite the heat. Chalk dust on one sleeve. Three narrow cords looped around her belt, ",
       "context_id": "4b765b974e9b4224872183117fbd6084",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/64d9877b-44f3-4aee-abe6-05ecce90fab3.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/64d9877b-44f3-4aee-abe6-05ecce90fab3.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/12.mp3",
+      "byte_size": 438912,
+      "audio_sha256": "d662ccb1e9d00ef98f7db5b369d26e0b50d5a1b8aaaf3955e687076f1569fcec",
+      "duration_seconds": 27.432
     },
     {
       "order": 13,
@@ -119,7 +167,11 @@
       "transcript": "each marked at intervals with black thread.\n\nNo staff.\n\nNo dramatic focus crystal.\n\nA small hammer.\n\nI liked her immediately.\n\nThat was usually dangerous.\n\nShe looked at the sword.\n\nThen my boots.\n\nThen my hands.\n\nHer eyes paused on the new callus.\n\n\"Extra guard?\"\n\nYes.\n\n\"Can you walk six days?\"\n\nProbably.\n\n\"Wrong answer.\"\n\n\"Yes.\"\n\n\"Better.\"\n\nShe moved on.\n\nI watched the cords at her belt.\n\nJorren saw me.\n\n\"Don't.\"\n\n\"Don't what?\"\n\n",
       "preview_transcript": "each marked at intervals with black thread.\n\nNo staff.\n\nNo dramatic focus crystal.\n\nA small hammer.\n\nI liked her immediately.\n\nThat was usually dangerous.\n\nShe looked at the sword.\n\nThen my boots.\n\nThen my hands.\n\nHer eyes paused on the new callus.\n\n\"Extra guard?\"\n\nYes.\n\n\"Can you walk six days?\"\n\nProbably.\n\n\"Wrong answer.\"\n\n\"Yes.\"\n\n\"Better.\"\n\nShe moved on.\n\nI watched the cords at her belt.\n\nJorren saw me.\n\n\"Don't.\"\n\n\"Don't what?\"\n\n",
       "context_id": "ee152483265e46e6958875560f51123d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a2ed1739-ed73-4158-b327-d29895fc61e7.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a2ed1739-ed73-4158-b327-d29895fc61e7.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/13.mp3",
+      "byte_size": 395520,
+      "audio_sha256": "01faea8f40c79e8dffd72c804f0b6bcc6f26dcdf60ba380adb98fc9475d5e2d8",
+      "duration_seconds": 24.72
     },
     {
       "order": 14,
@@ -127,7 +179,11 @@
       "transcript": "\"Whatever you're doing with your face.\"\n\nSella had infected him.\n\nWe left before noon.\n\nCarrow did not disappear dramatically.\n\nNo hilltop view.\n\nNo last look at the walls beneath a heroic sky.\n\nThe road bent around an orchard.\n\nWhen it straightened again, the city was mostly gone behind trees.\n\nThat was it.\n\nSix chapters of my second life and Carrow vanished because the road turned left.\n\nGood.\n\nI kept walking.\n\nThe first hour was easy.\n\n",
       "preview_transcript": "\"Whatever you're doing with your face.\"\n\nSella had infected him.\n\nWe left before noon.\n\nCarrow did not disappear dramatically.\n\nNo hilltop view.\n\nNo last look at the walls beneath a heroic sky.\n\nThe road bent around an orchard.\n\nWhen it straightened again, the city was mostly gone behind trees.\n\nThat was it.\n\nSix chapters of my second life and Carrow vanished because the road turned left.\n\nGood.\n\nI kept walking.\n\nThe first hour was easy.\n\n",
       "context_id": "b48343e02592408c92f611cbe58032c7",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/10abd1ed-36ba-4277-ba0b-70dbe1ae7a23.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/10abd1ed-36ba-4277-ba0b-70dbe1ae7a23.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/14.mp3",
+      "byte_size": 422016,
+      "audio_sha256": "b06e88b036b0108d91b7d891401bb698576dba7682351641d6ee92f787b24a90",
+      "duration_seconds": 26.376
     },
     {
       "order": 15,
@@ -135,7 +191,11 @@
       "transcript": "The second introduced the pack straps to my shoulders.\n\nThe third introduced dust to everything else.\n\nBy late afternoon I had learned three useful things about caravans.\n\nFirst, wagons produced sound constantly and none of it meant the same thing.\n\nWheel creak.\n\nHarness knock.\n\nLoose chain.\n\nAxle complaint.\n\nDriver swearing because another driver had stopped too quickly.\n\nSecond, professional road travel was mostly preventing small errors from becoming large ones.\n",
       "preview_transcript": "The second introduced the pack straps to my shoulders.\n\nThe third introduced dust to everything else.\n\nBy late afternoon I had learned three useful things about caravans.\n\nFirst, wagons produced sound constantly and none of it meant the same thing.\n\nWheel creak.\n\nHarness knock.\n\nLoose chain.\n\nAxle complaint.\n\nDriver swearing because another driver had stopped too quickly.\n\nSecond, professional road travel was mostly preventing small errors from becoming large ones.\n",
       "context_id": "c0652d74453845498acce1b8386cc72d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8149b2a1-8731-4358-984d-ac75b2cb29ff.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8149b2a1-8731-4358-984d-ac75b2cb29ff.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/15.mp3",
+      "byte_size": 456960,
+      "audio_sha256": "e0394d92148a26abb3ce9e1774b8412ddd6039a558cbea9f010bcf1670e414ba",
+      "duration_seconds": 28.56
     },
     {
       "order": 16,
@@ -143,7 +203,11 @@
       "transcript": "\nThird, Meral listened to the wagons more than she looked at them.\n\nThat interested me.\n\nWe were descending a long grade between two low ridges when one sound changed.\n\nMetal snapped.\n\nSmall sound.\n\nBad consequence.\n\nThe rear wagon lurched.\n\nA driver shouted.\n\nOne of the left traces went slack.\n\nThe wagon's tongue jumped sideways against the team.\n\nThe horses surged.\n\nThe wheel brake screamed.\n\nThen the loaded wagon started gaining on the wagon ahead of it.\n\n",
       "preview_transcript": "\nThird, Meral listened to the wagons more than she looked at them.\n\nThat interested me.\n\nWe were descending a long grade between two low ridges when one sound changed.\n\nMetal snapped.\n\nSmall sound.\n\nBad consequence.\n\nThe rear wagon lurched.\n\nA driver shouted.\n\nOne of the left traces went slack.\n\nThe wagon's tongue jumped sideways against the team.\n\nThe horses surged.\n\nThe wheel brake screamed.\n\nThen the loaded wagon started gaining on the wagon ahead of it.\n\n",
       "context_id": "bcac0550d2064b30a21aac353aed58aa",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ffe68d46-fd9b-4405-8d9b-27663b6e0e50.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ffe68d46-fd9b-4405-8d9b-27663b6e0e50.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/16.mp3",
+      "byte_size": 443904,
+      "audio_sha256": "7da5280526509fc54034e0582752ee286c98487efa7f08ec5769e7b273c330c3",
+      "duration_seconds": 27.744
     },
     {
       "order": 17,
@@ -151,7 +215,11 @@
       "transcript": "Everyone moved at once.\n\nMy old mind supplied a barrier.\n\nAcross the road.\n\nWide enough to catch the wagon.\n\nAngle it slightly.\n\nSpread the load.\n\nEasy.\n\nMy hand came up.\n\nMeral hit my wrist with one of her cords.\n\nNot hard.\n\nEnough.\n\n\"Don't stop it.\"\n\nThe wagon gained another yard.\n\n\"It'll crush the team.\"\n\nRight.\n\nA wall solved the wagon.\n\nIt did not solve the horses attached to it.\n\nSupport.\n\nAnnoying profession.\n\nMeral pointed downhill.\n\n\"Turn it.\"\n\n",
       "preview_transcript": "Everyone moved at once.\n\nMy old mind supplied a barrier.\n\nAcross the road.\n\nWide enough to catch the wagon.\n\nAngle it slightly.\n\nSpread the load.\n\nEasy.\n\nMy hand came up.\n\nMeral hit my wrist with one of her cords.\n\nNot hard.\n\nEnough.\n\n\"Don't stop it.\"\n\nThe wagon gained another yard.\n\n\"It'll crush the team.\"\n\nRight.\n\nA wall solved the wagon.\n\nIt did not solve the horses attached to it.\n\nSupport.\n\nAnnoying profession.\n\nMeral pointed downhill.\n\n\"Turn it.\"\n\n",
       "context_id": "c9fd9350d4584756b16bb5a39d266882",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c0753c76-dc57-419f-b2c3-30e9a46164bd.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c0753c76-dc57-419f-b2c3-30e9a46164bd.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/17.mp3",
+      "byte_size": 422400,
+      "audio_sha256": "65b0aaecc92334e7ca76c17792020231e41e668ece02c04341591001156c4f8d",
+      "duration_seconds": 26.4
     },
     {
       "order": 18,
@@ -159,7 +227,11 @@
       "transcript": "There was a drainage bank on the right side of the road.\n\nShallow at first.\n\nDeeper twenty yards ahead.\n\nThe wagon needed to enter before the ditch became a drop.\n\nThe driver was pulling uselessly on the reins while trying to work a brake lever that had already become a decorative suggestion.\n\nJorren ran for the wagon.\n\nI ran for the side.\n\nThe rear carried two coils of drag rope.\n\nOne was tied down.\n\nThe other wasn't.\n\n",
       "preview_transcript": "There was a drainage bank on the right side of the road.\n\nShallow at first.\n\nDeeper twenty yards ahead.\n\nThe wagon needed to enter before the ditch became a drop.\n\nThe driver was pulling uselessly on the reins while trying to work a brake lever that had already become a decorative suggestion.\n\nJorren ran for the wagon.\n\nI ran for the side.\n\nThe rear carried two coils of drag rope.\n\nOne was tied down.\n\nThe other wasn't.\n\n",
       "context_id": "7be972fef7ee488187cb4a6297caef0b",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/54bd9da2-d9c7-46df-b976-b86ac4b6b46b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/54bd9da2-d9c7-46df-b976-b86ac4b6b46b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/18.mp3",
+      "byte_size": 411264,
+      "audio_sha256": "d8f61b193eb9d318e1c21738f6b0094e43fd761e00d3fe246344cbed196cabb6",
+      "duration_seconds": 25.704
     },
     {
       "order": 19,
@@ -167,7 +239,11 @@
       "transcript": "Current experience rewarded laziness occasionally.\n\nI pulled it free.\n\n\"Post!\" Meral shouted.\n\nA road marker stood ahead on the right.\n\nWood.\n\nThick enough.\n\nMaybe.\n\nI threw the coil to Jorren.\n\nHe missed it.\n\nNot his fault.\n\nRunning beside a moving wagon while somebody throws thirty feet of rope at you turned out to be a specialized skill.\n\nThe rope hit the dirt.\n\nJorren grabbed the end.\n\nI took the coil and ran ahead.\n\nThe wagon was faster.\n\nExcellent.\n\n",
       "preview_transcript": "Current experience rewarded laziness occasionally.\n\nI pulled it free.\n\n\"Post!\" Meral shouted.\n\nA road marker stood ahead on the right.\n\nWood.\n\nThick enough.\n\nMaybe.\n\nI threw the coil to Jorren.\n\nHe missed it.\n\nNot his fault.\n\nRunning beside a moving wagon while somebody throws thirty feet of rope at you turned out to be a specialized skill.\n\nThe rope hit the dirt.\n\nJorren grabbed the end.\n\nI took the coil and ran ahead.\n\nThe wagon was faster.\n\nExcellent.\n\n",
       "context_id": "047439292bbd41c9aba0a1332f5e56b9",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5c9ca375-f322-4b4b-8eea-e5dc43a7369a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5c9ca375-f322-4b4b-8eea-e5dc43a7369a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/19.mp3",
+      "byte_size": 431232,
+      "audio_sha256": "bee2e259afcccccdb5c558a4947ee705de6cfe0aab37357cf69f9eb34bd6608f",
+      "duration_seconds": 26.952
     },
     {
       "order": 20,
@@ -175,7 +251,11 @@
       "transcript": "I reached the marker with perhaps two seconds of dignity remaining.\n\nNo time for a proper wrap.\n\nOne turn.\n\nHalf hitch.\n\nBad knot.\n\nGood enough if the goal was not stopping the wagon.\n\nI looked at the drainage bank.\n\nWe needed the rope to drag the rear right, not arrest the whole load.\n\n\"Right rear!\"\n\nJorren understood.\n\nHe climbed onto the wagon's back step, got the rope around the corner post, then jumped off before the line tightened.\n\nSmart.\n\n",
       "preview_transcript": "I reached the marker with perhaps two seconds of dignity remaining.\n\nNo time for a proper wrap.\n\nOne turn.\n\nHalf hitch.\n\nBad knot.\n\nGood enough if the goal was not stopping the wagon.\n\nI looked at the drainage bank.\n\nWe needed the rope to drag the rear right, not arrest the whole load.\n\n\"Right rear!\"\n\nJorren understood.\n\nHe climbed onto the wagon's back step, got the rope around the corner post, then jumped off before the line tightened.\n\nSmart.\n\n",
       "context_id": "802cdc50b3f940e9bfb079c1498a8eba",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/57ccc469-e6fc-48be-aae9-c95ecd2dce7b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/57ccc469-e6fc-48be-aae9-c95ecd2dce7b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/20.mp3",
+      "byte_size": 430848,
+      "audio_sha256": "84f10948e2a7c8861d865c05cc8b271fb7f86ca8f597266d58104376c340d59d",
+      "duration_seconds": 26.928
     },
     {
       "order": 21,
@@ -183,7 +263,11 @@
       "transcript": "The rope came alive.\n\nNo other word for it.\n\nSlack vanished.\n\nFiber snapped against wood.\n\nThe road marker bent.\n\nThe wagon's rear shifted right.\n\nToo little.\n\nThe rope started climbing the marker.\n\nIf it slipped over the top, we got nothing.\n\nIf it held too well, the post broke.\n\nMeral was already moving her hands.\n\nNot a wall.\n\nTwo flat planes of pale light appeared beside the wagon's front wheel, angled toward the ditch.\n\nGuides.\n\nNot stops.\n\nThe wheel hit one.\n\n",
       "preview_transcript": "The rope came alive.\n\nNo other word for it.\n\nSlack vanished.\n\nFiber snapped against wood.\n\nThe road marker bent.\n\nThe wagon's rear shifted right.\n\nToo little.\n\nThe rope started climbing the marker.\n\nIf it slipped over the top, we got nothing.\n\nIf it held too well, the post broke.\n\nMeral was already moving her hands.\n\nNot a wall.\n\nTwo flat planes of pale light appeared beside the wagon's front wheel, angled toward the ditch.\n\nGuides.\n\nNot stops.\n\nThe wheel hit one.\n\n",
       "context_id": "971c0f8eab6c42d28136e572f5ffe2c4",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f210115b-bc88-47db-9067-04c771b773b8.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f210115b-bc88-47db-9067-04c771b773b8.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/21.mp3",
+      "byte_size": 441984,
+      "audio_sha256": "006c7fcfbf6cfd34926dbb114628a5711b05dc3f3e822621f68e23ceea31024f",
+      "duration_seconds": 27.624
     },
     {
       "order": 22,
@@ -191,7 +275,11 @@
       "transcript": "The ward flexed.\n\nThe wagon turned half a foot.\n\nThe rope climbed higher.\n\nGreg, fifty-nine, could have pinned the line.\n\nGreg, nineteen, had one badly shaped breath.\n\nFine.\n\nOne breath.\n\nI put my palm against the side of the road marker without touching the rope.\n\nSmall.\n\nNot a barrier.\n\nA plane.\n\nThumb to knuckle.\n\nI had never done it that way.\n\nMy ma-na did not care about tradition.\n\nIt cared about whether I could make the shape.\n\nPressure behind the eyes.\n\n",
       "preview_transcript": "The ward flexed.\n\nThe wagon turned half a foot.\n\nThe rope climbed higher.\n\nGreg, fifty-nine, could have pinned the line.\n\nGreg, nineteen, had one badly shaped breath.\n\nFine.\n\nOne breath.\n\nI put my palm against the side of the road marker without touching the rope.\n\nSmall.\n\nNot a barrier.\n\nA plane.\n\nThumb to knuckle.\n\nI had never done it that way.\n\nMy ma-na did not care about tradition.\n\nIt cared about whether I could make the shape.\n\nPressure behind the eyes.\n\n",
       "context_id": "2da302a33b344877a5b1372238a3bf50",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/80799955-4335-4318-baa5-3f213ffe33b3.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/80799955-4335-4318-baa5-3f213ffe33b3.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/22.mp3",
+      "byte_size": 435456,
+      "audio_sha256": "0471f66cbf2e8b2ecd08d58e1e0dc33d0377ecf5738642b9b298796f44e74dc5",
+      "duration_seconds": 27.216
     },
     {
       "order": 23,
@@ -199,7 +287,11 @@
       "transcript": "Pulse down the forearm.\n\nA translucent sliver appeared above the rope.\n\nWrong angle.\n\nThe rope hit it and started to slide around.\n\nI twisted my wrist.\n\nThe plane twisted too.\n\nUgly.\n\nEnough.\n\nThe rope stayed below the top of the post for one more second.\n\nOne second was a great deal of time when several thousand pounds of wagon were moving downhill.\n\nThe rear swung.\n\nThe front wheel struck Meral's second guide.\n\nThe wagon entered the shallow ditch sideways.\n\n",
       "preview_transcript": "Pulse down the forearm.\n\nA translucent sliver appeared above the rope.\n\nWrong angle.\n\nThe rope hit it and started to slide around.\n\nI twisted my wrist.\n\nThe plane twisted too.\n\nUgly.\n\nEnough.\n\nThe rope stayed below the top of the post for one more second.\n\nOne second was a great deal of time when several thousand pounds of wagon were moving downhill.\n\nThe rear swung.\n\nThe front wheel struck Meral's second guide.\n\nThe wagon entered the shallow ditch sideways.\n\n",
       "context_id": "57cc1c264a3944a2804740651c511fb0",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c3145b2a-6590-425c-aa15-2b8c877cd03f.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c3145b2a-6590-425c-aa15-2b8c877cd03f.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/23.mp3",
+      "byte_size": 446976,
+      "audio_sha256": "b2a50945e9dbc7f8ffdf14a21cee83f3e6c5bbb787d5fef02863868ed2254146",
+      "duration_seconds": 27.936
     },
     {
       "order": 24,
@@ -207,7 +299,11 @@
       "transcript": "Mud exploded.\n\nThe wheel dug in.\n\nThe whole frame leaned.\n\nJorren yelled.\n\nDriver jumped.\n\nThe team stumbled forward free of the worst angle.\n\nThe wagon traveled another ten feet through the ditch and stopped against the bank with a sound that suggested at least one crate had become a different shape.\n\nSilence lasted half a heartbeat.\n\nThen everyone started shouting.\n\nGood.\n\nPeople who could complain were usually alive.\n\nI looked at the road marker.\n\n",
       "preview_transcript": "Mud exploded.\n\nThe wheel dug in.\n\nThe whole frame leaned.\n\nJorren yelled.\n\nDriver jumped.\n\nThe team stumbled forward free of the worst angle.\n\nThe wagon traveled another ten feet through the ditch and stopped against the bank with a sound that suggested at least one crate had become a different shape.\n\nSilence lasted half a heartbeat.\n\nThen everyone started shouting.\n\nGood.\n\nPeople who could complain were usually alive.\n\nI looked at the road marker.\n\n",
       "context_id": "714af4cc006d40ceac5d7e7d7d02bf3d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4bd7d20b-c5d6-419e-8de6-2a73991d32a8.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4bd7d20b-c5d6-419e-8de6-2a73991d32a8.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/24.mp3",
+      "byte_size": 438528,
+      "audio_sha256": "c2fdb9b9c4478758c326484fd7c877389f5c0db3cfaa165563b6280b110c5f94",
+      "duration_seconds": 27.408
     },
     {
       "order": 25,
@@ -215,7 +311,11 @@
       "transcript": "The top six inches had split.\n\nThe rope smoked where it had dragged.\n\nMy tiny plane was gone.\n\nMy forearm shook.\n\nAgain.\n\nLess than at Ivena's.\n\nStill there.\n\nMeral walked past me toward the wagon.\n\n\"Horses first.\"\n\nRight.\n\nWe spent the next fifteen minutes turning excitement back into logistics.\n\nOne horse had a scraped flank.\n\nNo broken leg.\n\nDriver had bruised one knee.\n\nTwo crates of pottery had become archaeological evidence.\n\nOne axle bracket bent.\n\n",
       "preview_transcript": "The top six inches had split.\n\nThe rope smoked where it had dragged.\n\nMy tiny plane was gone.\n\nMy forearm shook.\n\nAgain.\n\nLess than at Ivena's.\n\nStill there.\n\nMeral walked past me toward the wagon.\n\n\"Horses first.\"\n\nRight.\n\nWe spent the next fifteen minutes turning excitement back into logistics.\n\nOne horse had a scraped flank.\n\nNo broken leg.\n\nDriver had bruised one knee.\n\nTwo crates of pottery had become archaeological evidence.\n\nOne axle bracket bent.\n\n",
       "context_id": "037d7a1af2e241ffbb0d126dfcb5bd32",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b715f8b3-abc3-4de9-bb4d-069bcba81770.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b715f8b3-abc3-4de9-bb4d-069bcba81770.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/25.mp3",
+      "byte_size": 433920,
+      "audio_sha256": "5ed967bc4e193f56e3a8bed62a0d202eb9d27d075ff3d1e05b3e071edb40b7ad",
+      "duration_seconds": 27.12
     },
     {
       "order": 26,
@@ -223,7 +323,11 @@
       "transcript": "The wagon itself could move after we reset the tongue and redistributed weight.\n\nNobody died.\n\nNobody even bled impressively.\n\nBest kind of emergency.\n\nThe quartermaster stood over the broken harness pin with the expression of a man discovering that metal had opinions about schedules.\n\nMeral picked up the pin.\n\nOld crack through half the section.\n\nFresh break through the rest.\n\nShe handed it to him without commentary.\n\nThat was crueler.\n\nThen she came to me.\n\n",
       "preview_transcript": "The wagon itself could move after we reset the tongue and redistributed weight.\n\nNobody died.\n\nNobody even bled impressively.\n\nBest kind of emergency.\n\nThe quartermaster stood over the broken harness pin with the expression of a man discovering that metal had opinions about schedules.\n\nMeral picked up the pin.\n\nOld crack through half the section.\n\nFresh break through the rest.\n\nShe handed it to him without commentary.\n\nThat was crueler.\n\nThen she came to me.\n\n",
       "context_id": "48b93446b86f42859c97227cf2311f1e",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5a8a7d1c-93b4-4277-98e8-82ea4fa94e53.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5a8a7d1c-93b4-4277-98e8-82ea4fa94e53.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/26.mp3",
+      "byte_size": 451968,
+      "audio_sha256": "32ea0494b5dd15b6eddc36fc368b184e28fa9acf6704e8534f50a752cbfd4522",
+      "duration_seconds": 28.248
     },
     {
       "order": 27,
@@ -231,7 +335,11 @@
       "transcript": "\"Who taught you to brace?\"\n\nNobody.\n\nNot like that.\n\n\"I've done barriers.\"\n\nHer eyes went to my hand.\n\n\"No, you haven't.\"\n\nFair.\n\n\"Not recently.\"\n\nThat got a look.\n\nI was collecting those.\n\nShe pointed at the split road marker.\n\n\"Your first thought was to stop the wagon.\"\n\nYes.\n\n\"Would've killed a horse. Maybe the driver.\"\n\nAlso yes.\n\n\"Then you used a brace the size of a dinner plate in the only place it mattered.\"\n\nI waited.\n\n",
       "preview_transcript": "\"Who taught you to brace?\"\n\nNobody.\n\nNot like that.\n\n\"I've done barriers.\"\n\nHer eyes went to my hand.\n\n\"No, you haven't.\"\n\nFair.\n\n\"Not recently.\"\n\nThat got a look.\n\nI was collecting those.\n\nShe pointed at the split road marker.\n\n\"Your first thought was to stop the wagon.\"\n\nYes.\n\n\"Would've killed a horse. Maybe the driver.\"\n\nAlso yes.\n\n\"Then you used a brace the size of a dinner plate in the only place it mattered.\"\n\nI waited.\n\n",
       "context_id": "e8fdb3159b7446d6b67ed0364d430716",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/be5b0525-85df-41de-8ef3-80e4c58ce67e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/be5b0525-85df-41de-8ef3-80e4c58ce67e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/27.mp3",
+      "byte_size": 397056,
+      "audio_sha256": "48f961a62d1d372099eb52f32c8b7fe343df940b17ba09f058fefa88e2d35de2",
+      "duration_seconds": 24.816
     },
     {
       "order": 28,
@@ -239,7 +347,11 @@
       "transcript": "\"Which part do you think I care about?\"\n\nThe second.\n\nShe nodded.\n\nThen took one of the marked cords from her belt and held it between both hands.\n\n\"Make a plane between these knots.\"\n\nThe distance was maybe four inches.\n\nI stared.\n\n\"Now?\"\n\n\"You want a lesson or a story about one?\"\n\nThere.\n\nI put my hand beneath the cord.\n\nReached.\n\nNothing.\n\nAgain.\n\nA pulse.\n\nNo shape.\n\nAgain.\n\nMy head started to hurt.\n\nMeral lowered the cord.\n\n\"Stop.\"\n\nI almost tried again.\n\n",
       "preview_transcript": "\"Which part do you think I care about?\"\n\nThe second.\n\nShe nodded.\n\nThen took one of the marked cords from her belt and held it between both hands.\n\n\"Make a plane between these knots.\"\n\nThe distance was maybe four inches.\n\nI stared.\n\n\"Now?\"\n\n\"You want a lesson or a story about one?\"\n\nThere.\n\nI put my hand beneath the cord.\n\nReached.\n\nNothing.\n\nAgain.\n\nA pulse.\n\nNo shape.\n\nAgain.\n\nMy head started to hurt.\n\nMeral lowered the cord.\n\n\"Stop.\"\n\nI almost tried again.\n\n",
       "context_id": "21062469d4cf4a0e8bead8a0f1890360",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/819181c3-5279-4cef-a5b6-03d692b9d85a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/819181c3-5279-4cef-a5b6-03d692b9d85a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/28.mp3",
+      "byte_size": 428544,
+      "audio_sha256": "bba6b55fdc575bb785d718605792c3fe197358a0469308b6c54a474def607247",
+      "duration_seconds": 26.784
     },
     {
       "order": 29,
@@ -247,7 +359,11 @@
       "transcript": "She saw that too.\n\n\"That's also part of it.\"\n\nAnnoying woman.\n\nGood.\n\nBy sunset the damaged wagon was moving again.\n\nSlower.\n\nThe caravan made camp beside a stand of low pines because the schedule had lost the argument.\n\nJorren dropped his bedroll near mine.\n\n\"First day.\"\n\nI lay back on the ground.\n\nEvery part of me had opinions.\n\n\"Useful benchmark.\"\n\n\"You almost got run over.\"\n\n\"I did not.\"\n\n\"You ran downhill in front of a wagon.\"\n\nDifferent thing.\n\nHe laughed.\n\n",
       "preview_transcript": "She saw that too.\n\n\"That's also part of it.\"\n\nAnnoying woman.\n\nGood.\n\nBy sunset the damaged wagon was moving again.\n\nSlower.\n\nThe caravan made camp beside a stand of low pines because the schedule had lost the argument.\n\nJorren dropped his bedroll near mine.\n\n\"First day.\"\n\nI lay back on the ground.\n\nEvery part of me had opinions.\n\n\"Useful benchmark.\"\n\n\"You almost got run over.\"\n\n\"I did not.\"\n\n\"You ran downhill in front of a wagon.\"\n\nDifferent thing.\n\nHe laughed.\n\n",
       "context_id": "6d4ac912e63f41d2aa5d80d1a51774f3",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2d71a9b9-8cad-4c86-bc20-173b7ede0eb4.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2d71a9b9-8cad-4c86-bc20-173b7ede0eb4.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/29.mp3",
+      "byte_size": 433536,
+      "audio_sha256": "5294548a903c74a3409f07b335bc9b4984274347bcfb8e28a804714be17c3b72",
+      "duration_seconds": 27.096
     },
     {
       "order": 30,
@@ -255,7 +371,11 @@
       "transcript": "Across camp, Meral was checking the repaired harness herself.\n\nNot teaching.\n\nWorking.\n\nThat mattered.\n\nThe road had not handed me a mentor.\n\nIt had handed me a woman whose job created problems close enough to the ones I wanted to understand.\n\nMuch better.\n\nI looked south.\n\nNo Carrow.\n\nJust road disappearing into dark.\n\nArlo would run the warm-flow test tomorrow without me.\n\nSella would process contracts without me.\n\nVayle would lend money to somebody else.\n\n",
       "preview_transcript": "Across camp, Meral was checking the repaired harness herself.\n\nNot teaching.\n\nWorking.\n\nThat mattered.\n\nThe road had not handed me a mentor.\n\nIt had handed me a woman whose job created problems close enough to the ones I wanted to understand.\n\nMuch better.\n\nI looked south.\n\nNo Carrow.\n\nJust road disappearing into dark.\n\nArlo would run the warm-flow test tomorrow without me.\n\nSella would process contracts without me.\n\nVayle would lend money to somebody else.\n\n",
       "context_id": "07d92b1818df41339ddcf226c3aba06d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8a22a7c9-b9f5-4f68-8a77-b94b0d83c7ad.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8a22a7c9-b9f5-4f68-8a77-b94b0d83c7ad.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/30.mp3",
+      "byte_size": 441600,
+      "audio_sha256": "b2c22080e1f3eb1c1d7e17c4c8bb6e4d7365ac807fb76a8ada1efce20ef0c212",
+      "duration_seconds": 27.6
     },
     {
       "order": 31,
@@ -263,8 +383,18 @@
       "transcript": "Jorren would keep going north when my leg ended.\n\nThe world had not paused because I left the city.\n\nGood.\n\nMy forearm still trembled slightly.\n\nI held one hand above the other.\n\nThumb to knuckle.\n\nFour inches.\n\nNothing appeared.\n\nI stopped before the headache returned.\n\nAlso progress...",
       "preview_transcript": "Jorren would keep going north when my leg ended.\n\nThe world had not paused because I left the city.\n\nGood.\n\nMy forearm still trembled slightly.\n\nI held one hand above the other.\n\nThumb to knuckle.\n\nFour inches.\n\nNothing appeared.\n\nI stopped before the headache returned.\n\nAlso progress...",
       "context_id": "744dab93846349a79aeb1a1752b5ec82",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/68cbad79-fd37-42e3-bc53-2041d046cd1d.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/68cbad79-fd37-42e3-bc53-2041d046cd1d.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/007-short/31.mp3",
+      "byte_size": 275712,
+      "audio_sha256": "abddc9577185c2f6205ba99a08d6504082f80e327a06752aaed00bc9e3f778f5",
+      "duration_seconds": 17.232
     }
   ],
-  "captured_take_count": 31
+  "captured_take_count": 31,
+  "component_duration_seconds": 819.096,
+  "final_asset": "greg-again/audio/assets/light/chapter-007.mp3",
+  "final_byte_size": 7328133,
+  "final_audio_sha256": "f3e280d846b50fe4a4c294de43aac4786eee64919c5b39f5746615125a30c773",
+  "final_duration_seconds": 821.16,
+  "settling_tail_seconds": 2.0
 }
