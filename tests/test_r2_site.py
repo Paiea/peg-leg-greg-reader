@@ -6,6 +6,20 @@ ROOT = Path(__file__).parents[1]
 R2 = ROOT / 'r2'
 
 
+def approved_role_titles():
+    text = (R2 / 'TITLE_ROLE_AUDIT.md').read_text(encoding='utf-8')
+    section = text.split('## Approved title map', 1)[1]
+    block = section.split('```text', 1)[1].split('```', 1)[0]
+    titles = {}
+    for line in block.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        number, title = line.split(' ', 1)
+        titles[int(number)] = title
+    return titles
+
+
 class R2SiteTests(unittest.TestCase):
     def test_project_manifest_names_run_two_and_preserves_run_one(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
@@ -32,47 +46,17 @@ class R2SiteTests(unittest.TestCase):
             self.assertEqual(chapter['navigation']['next'], None if number == 118 else f'r2-ch{number + 1:03d}')
         self.assertNotIn('r2-ch119', project['chapters'])
 
-    def test_three_year_seam_landmarks_are_public(self):
-        expected = {
-            40: 'The Citizen',
-            42: 'The Correspondent',
-            43: 'The Date',
-            50: 'Blackglass',
-            62: 'Silver',
-            75: 'Three Candidates',
-            82: 'The Black Stair',
-            83: 'Home Road',
-            84: 'The Date',
-            92: 'The Third Line',
-            93: 'Brell Again',
-            96: 'Below the Knee',
-            110: 'Faultglass',
-            113: 'Take',
-            118: 'First Bell',
-        }
-        for number, title in expected.items():
+    def test_three_year_seam_landmarks_follow_role_title_authority(self):
+        titles = approved_role_titles()
+        for number in (40, 42, 43, 50, 62, 75, 82, 83, 84, 92, 93, 96, 110, 113, 118):
             chapter = json.loads((R2 / f'data/chapters/ch{number:03d}.json').read_text(encoding='utf-8'))
-            self.assertEqual(chapter['title'], title)
+            self.assertEqual(chapter['title'], titles[number])
 
-    def test_rebuild_titles_are_public(self):
-        expected = {
-            27: 'The Late Letter',
-            28: 'Eventually',
-            29: 'The Seven',
-            30: 'The Workshop',
-            31: 'The Next Road',
-            32: 'Two Copper',
-            33: 'Route Day',
-            34: 'The Packet',
-            35: 'The Ask',
-            36: 'Four Nights',
-            37: 'One Day Late',
-            38: 'Two Keys',
-            39: 'The East Desk',
-        }
-        for number, title in expected.items():
+    def test_rebuild_chapters_follow_role_title_authority(self):
+        titles = approved_role_titles()
+        for number in range(27, 40):
             chapter = json.loads((R2 / f'data/chapters/ch{number:03d}.json').read_text(encoding='utf-8'))
-            self.assertEqual(chapter['title'], title)
+            self.assertEqual(chapter['title'], titles[number])
             self.assertEqual(chapter['images'], [])
             self.assertIn(chapter['audio']['status'], {'unavailable', 'published'})
 
