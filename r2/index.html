@@ -30,10 +30,16 @@
 
     <section class="cover-section" aria-label="Peg-Leg Greg R2">
       <div class="cover-frame">
-        <img
-          src="assets/images/Home.png"
-          alt="Peg-Leg Greg R2 artwork overlooking Carrow."
-          onerror="this.onerror=null;this.src='assets/images/r2-cover-wide.webp';">
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/images/site/r2-home-hero-mobile.webp">
+          <img
+            src="assets/images/site/r2-home-hero-wide.webp"
+            width="1600"
+            height="900"
+            fetchpriority="high"
+            decoding="async"
+            alt="Peg-Leg Greg R2 artwork overlooking Carrow.">
+        </picture>
       </div>
 
       <div class="entry-panel">
