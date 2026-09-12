@@ -1,0 +1,166 @@
+name: Apply R2 embodied role titles
+
+on:
+  push:
+    branches:
+      - r2/embodied-role-titles-118
+    paths:
+      - '.github/workflows/r2-role-title-migration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply approved role titles
+        run: python scripts/sync_r2_role_titles.py --promote-audit
+
+      - name: Update site assertions and production docs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              if old not in text:
+                  raise SystemExit(f'missing expected text in {path}: {old!r}')
+              p.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          site = Path('tests/test_r2_site.py')
+          text = site.read_text(encoding='utf-8')
+          replacements = {
+              "43: 'The Date'": "43: 'The Aspirant'",
+              "50: 'Blackglass'": "50: 'The Tinkerer'",
+              "62: 'Silver'": "62: 'The Silver Adventurer'",
+              "75: 'Three Candidates'": "75: 'The Specialist'",
+              "82: 'The Black Stair'": "82: 'The Crewman'",
+              "83: 'Home Road'": "83: 'The Returner'",
+              "84: 'The Date'": "84: 'The Partner'",
+              "92: 'The Third Line'": "92: 'The Candidate'",
+              "93: 'Brell Again'": "93: 'The Structural Support'",
+              "96: 'Below the Knee'": "96: 'The Amputee'",
+              "110: 'Faultglass'": "110: 'The Seeker'",
+              "113: 'Take'": "113: 'The Thief'",
+              "118: 'First Bell'": "118: 'The Partner'",
+              "27: 'The Late Letter'": "27: 'The Correspondent'",
+              "28: 'Eventually'": "28: 'The Friend'",
+              "29: 'The Seven'": "29: 'The Card Player'",
+              "30: 'The Workshop'": "30: 'The Partner'",
+              "31: 'The Next Road'": "31: 'The Friend'",
+              "32: 'Two Copper'": "32: 'The Neighbor'",
+              "33: 'Route Day'": "33: 'The Passenger'",
+              "34: 'The Packet'": "34: 'The Correspondent'",
+              "35: 'The Ask'": "35: 'The Promise-Keeper'",
+              "36: 'Four Nights'": "36: 'The Neighbor'",
+              "37: 'One Day Late'": "37: 'The Companion'",
+              "38: 'Two Keys'": "38: 'The Host'",
+              "39: 'The East Desk'": "39: 'The Visitor'",
+          }
+          for old, new in replacements.items():
+              if old not in text:
+                  raise SystemExit(f'missing site assertion: {old}')
+              text = text.replace(old, new, 1)
+          site.write_text(text, encoding='utf-8')
+
+          replace_once(
+              'r2/WRITTEN_PRODUCTION.md',
+              'Chapter number / stable ID owns identity. Title is mutable metadata and must follow newest written authority.',
+              'Chapter number / stable ID owns identity. Title is mutable metadata, but selected/public titles must obey `TITLE_POLICY.md`: ask **Who is Greg in this chapter?** and use an embodied Greg-role title. Downstream site/audio metadata follows that selected title by stable chapter number.'
+          )
+          replace_once(
+              'r2/WRITTEN_PRODUCTION.md',
+              '3. Create/update `r2/data/chapters/chNNN.json`.',
+              '3. Before publication, verify the selected title against `TITLE_POLICY.md`: it must name who Greg is being, not merely the object/event/place/topic of the chapter. Then create/update `r2/data/chapters/chNNN.json`.'
+          )
+          replace_once(
+              'r2/README.md',
+              '- `data/chapters/chNNN.json` answers **what the public reader should display for that chapter**.',
+              '- `TITLE_POLICY.md` answers **how selected/public chapter titles are chosen**: each title names an embodied Greg role.\n- `data/chapters/chNNN.json` answers **what the public reader should display for that chapter**.'
+          )
+          replace_once(
+              'r2/README.md',
+              '4. Create/update `data/chapters/chNNN.json`.',
+              '4. Verify the chapter title against `TITLE_POLICY.md` by asking **Who is Greg in this chapter?**; use the embodied role, then create/update `data/chapters/chNNN.json`.'
+          )
+          PY
+
+      - name: Verify role title authority and reader
+        run: |
+          python -m unittest tests.test_sync_r2_role_titles tests.test_r2_role_titles tests.test_r2_site -v
+          python scripts/sync_r2_role_titles.py --check
+
+      - name: Prove title-only story and metadata migration
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          def old_text(path):
+              return subprocess.check_output(['git', 'show', f'HEAD:{path}'], text=True)
+
+          changed = subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines()
+
+          for path in changed:
+              if path.startswith('r2/assets/written/ch') and path.endswith('.md'):
+                  before = old_text(path)
+                  after = Path(path).read_text(encoding='utf-8')
+                  bfirst, _, brest = before.partition('\n')
+                  afirst, _, arest = after.partition('\n')
+                  if brest != arest:
+                      raise SystemExit(f'prose body changed: {path}')
+                  if bfirst.split(': ', 1)[0] != afirst.split(': ', 1)[0]:
+                      raise SystemExit(f'heading prefix changed: {path}')
+
+              if path.startswith('r2/data/chapters/ch') and path.endswith('.json'):
+                  before = json.loads(old_text(path))
+                  after = json.loads(Path(path).read_text(encoding='utf-8'))
+                  before.pop('title', None)
+                  after.pop('title', None)
+                  if before != after:
+                      raise SystemExit(f'non-title public manifest change: {path}')
+
+          if 'r2/data/chapter-registry.json' in changed:
+              before = json.loads(old_text('r2/data/chapter-registry.json'))
+              after = json.loads(Path('r2/data/chapter-registry.json').read_text())
+              for doc in (before, after):
+                  for chapter in doc.get('chapters', {}).values():
+                      chapter.pop('title', None)
+              if before != after:
+                  raise SystemExit('non-title registry change')
+
+          if 'greg-again/audio/manifest.json' in changed:
+              before = json.loads(old_text('greg-again/audio/manifest.json'))
+              after = json.loads(Path('greg-again/audio/manifest.json').read_text())
+              for doc in (before, after):
+                  for chapter in doc.get('chapters', []):
+                      chapter.pop('title', None)
+              if before != after:
+                  raise SystemExit('non-title audio manifest change')
+
+          print('Verified: prose bodies, IDs, routes, media state, registry state, and audio metadata are unchanged except titles.')
+          PY
+          git diff --check
+
+      - name: Commit migration
+        run: |
+          if git diff --quiet; then
+            echo 'No migration changes needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add r2/assets/written r2/data/chapters r2/data/chapter-registry.json greg-again/audio/manifest.json tests/test_r2_site.py r2/WRITTEN_PRODUCTION.md r2/README.md
+          git commit -m 'feat(r2): apply embodied role titles through 118'
+          git push
