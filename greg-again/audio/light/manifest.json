@@ -257,6 +257,20 @@
       "duration_seconds": 795.528,
       "audio_src": "assets/light/chapter-018.mp3",
       "verification": "greg-again/audio/light/verification/018/"
+    },
+    {
+      "chapter_id": "ga-019",
+      "number": 19,
+      "title": "Who Cleans It",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch019.md",
+      "source_blob_sha": "d09fc4fe4ee5eabc100e3b543b855ee15903c10e",
+      "voice": "deep",
+      "take_count": 33,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 871.272,
+      "audio_src": "assets/light/chapter-019.mp3",
+      "verification": "greg-again/audio/light/verification/019/"
     }
   ]
 }
