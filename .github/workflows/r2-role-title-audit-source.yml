@@ -99,4 +99,6 @@ jobs:
             exit 0
           fi
           git commit -m 'chore(r2): add current role-title audit source'
+          git fetch origin r2/role-title-authority-118
+          git rebase origin/r2/role-title-authority-118
           git push origin HEAD:r2/role-title-authority-118
