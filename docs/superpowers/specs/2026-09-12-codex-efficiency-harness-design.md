@@ -4,7 +4,7 @@
 
 Reduce Codex allowance burn without reducing the quality or autonomy of the primary coding agent.
 
-The system should spend broad reasoning in Chat/Mana, compile that reasoning into one bounded implementation target, let one strong Codex agent own that target, verify the result, then return control to Chat before expanding scope.
+The system should spend broad reasoning in Chat/Mana, compile that reasoning into one bounded implementation or audit target, let one strong Codex agent own that target, verify the result, preserve compact reusable method when the work taught us something transferable, then return control to Chat before expanding scope.
 
 ## Problem
 
@@ -22,8 +22,9 @@ A Codex task should normally compose only these layers:
 
 1. **Root router** - universal authority and where to look next.
 2. **Lane layer** - only the docs for the current subsystem.
-3. **Task packet** - one bounded target, boundaries, reuse requirements, and verification.
-4. **Verification layer** - tests/build/checks proving the target works.
+3. **Task packet** - one bounded target, boundaries, reuse requirements, verification, parallelism posture, and residue posture.
+4. **Verification layer** - tests/build/checks proving the target works or exact repository evidence grounding an audit.
+5. **Expert residue** - only when earned: a compact reusable recipe or a small update to the lane's existing playbook.
 
 This is intentionally compositional. Do not load every durable project fact merely because it exists.
 
@@ -58,14 +59,14 @@ The primary agent is not micromanaged. Inside the approved boundary it may inspe
 
 ## Project Codex configuration
 
-Add `.codex/config.toml` with a conservative subagent concurrency cap:
+Add `.codex/config.toml` with a conservative spawned-agent concurrency cap:
 
 ```toml
 [agents]
 max_concurrent_threads_per_session = 1
 ```
 
-This is a guardrail, not the main policy. The instruction layer still says not to spawn a subagent unless explicitly authorized. The cap merely prevents a single project session from fanning out into several concurrent child threads by accident.
+This is a guardrail, not the main policy. The instruction layer still says not to spawn a subagent unless explicitly authorized. Under the current public config schema, this key caps concurrently open spawned-agent threads, excluding the primary thread.
 
 Do not add model routing, custom roles, Best-of-N, or a new orchestration framework in this pilot.
 
@@ -82,21 +83,46 @@ Required fields:
 - BOUNDARY
 - IMPLEMENT
 - VERIFY
+- PARALLELISM
+- RESIDUE
 - STOP
 
-Optional field:
+Defaults:
 
-- PARALLELISM, default `NO`
+- `PARALLELISM: NO`
+- `RESIDUE: COMPACT`
 
 The packet should explicitly permit the primary agent to do whatever is technically necessary inside the boundary while preventing adjacent redesign.
 
-## R2 audio clarification
+### Expert residue
 
-R2 audio's one-chapter-per-worker model remains valid for externally coordinated production.
+Codex should leave behind reusable method when a hard task reveals a transferable pattern.
 
-Clarify that "many parallel workers" does not mean one Codex task should spawn many subagents. A Codex session handling one chapter or one pipeline improvement should remain single-agent unless the task packet explicitly authorizes independent sidecars.
+Do not preserve chain-of-thought or a work diary. Preserve only compact operational residue:
 
-Provider-side take concurrency remains separate from Codex-agent concurrency. Independent voice-generation requests may still be queued aggressively when the provider permits it.
+- problem class
+- reusable pattern
+- exact files / commands / sequence worth copying
+- why the mechanism worked
+- where it stops applying
+
+`RESIDUE: DURABLE` means the proven method should be folded into the smallest existing authoritative lane/playbook after verification, rather than creating another free-floating brain file.
+
+## R2 audio overlay
+
+Do not add more Codex-only doctrine to the already-large `r2/AUDIO_PRODUCTION.md`.
+
+Instead add `r2/CODEX_AUDIO_EFFICIENCY.md` as a small overlay loaded only when Codex is the R2 audio worker.
+
+The overlay clarifies three different kinds of parallelism:
+
+1. external/project-level chapter workers
+2. provider-side independent voice-take concurrency
+3. Codex subagent concurrency
+
+Only the third is off by default.
+
+R2 audio's one-chapter-per-worker model remains valid for externally coordinated production, and provider-side take queuing remains unchanged.
 
 ## Verification
 
@@ -106,10 +132,11 @@ Verify by:
 
 - re-reading the branch versions of all changed files
 - confirming root `AGENTS.md` is materially smaller and routes rather than duplicates
-- confirming `.codex/config.toml` is valid TOML and uses the documented `[agents].max_concurrent_threads_per_session` key
-- confirming the Codex policy says single-agent by default and explicit parallel authorization only
-- confirming R2 audio distinguishes provider/task parallelism from Codex subagent fan-out
+- confirming `.codex/config.toml` uses the current documented `[agents].max_concurrent_threads_per_session` key
+- confirming the Codex policy says single-primary-agent by default and explicit parallel authorization only
+- confirming the R2 Codex overlay distinguishes project/provider parallelism from Codex subagent fan-out
 - confirming the task packet has a hard STOP condition
+- confirming reusable residue is compact and conditional rather than mandatory documentation spam
 
 ## Out of scope
 
@@ -118,7 +145,7 @@ Verify by:
 - changing current audio manifests or assets
 - custom model-selection infrastructure
 - disabling Codex autonomy inside a bounded target
-- optimizing Chat/Mana context storage in this repository
-- applying the pattern automatically to every other repository
+- optimizing Chat/Mana memory storage through repository files
+- automatically applying the pattern to every other repository before the pilot is observed
 
 The R2 pilot should prove the pattern first.
