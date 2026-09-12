@@ -103,6 +103,20 @@
       "duration_seconds": 821.16,
       "audio_src": "assets/light/chapter-007.mp3",
       "verification": "greg-again/audio/light/verification/007/"
+    },
+    {
+      "chapter_id": "ga-008",
+      "number": 8,
+      "title": "Road Work",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch008.md",
+      "source_blob_sha": "e7d5b96042c05407976a0e3204000fcccf614168",
+      "voice": "deep",
+      "take_count": 27,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 705.984,
+      "audio_src": "assets/light/chapter-008.mp3",
+      "verification": "greg-again/audio/light/verification/008/"
     }
   ]
 }

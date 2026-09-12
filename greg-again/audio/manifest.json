@@ -95,11 +95,11 @@
       "title": "Road Work",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
-      "take_count": 20,
-      "duration_seconds": 535.8,
-      "audio_src": "assets/v2/chapter-008.mp3",
-      "note": "Audio Score v2 Chapter 8: twenty preview-safe deep-voice chunks captured from the Audio Score, objectively verified for exact ordered source coverage, durable Google Storage artifact capture, ffprobe playability, ordered assembly, and a two-second settling tail. Subjective human listen-back remains separate QA."
+      "audio_finish": "audio-score-light",
+      "take_count": 27,
+      "duration_seconds": 705.984,
+      "audio_src": "assets/light/chapter-008.mp3",
+      "note": "Audio Score Light Chapter 8 assembled from 27 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-009",
