@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import difflib
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -38,14 +39,26 @@ def body_after_separator(text: str) -> str:
     return text.split(marker, 1)[1].strip()
 
 
-def parse_source_header(text: str) -> tuple[Path, str]:
-    source_match = SOURCE_RE.search(text)
-    sha_match = SHA_RE.search(text)
-    if not source_match:
-        raise SystemExit("Light Score is missing Source header")
-    if not sha_match:
-        raise SystemExit("Light Score is missing Source SHA header")
-    return Path(source_match.group(1)), sha_match.group(1)
+def resolve_source_identity(
+    *, raw: str, chapter_id: str, sources: dict[str, dict[str, str]]
+) -> tuple[Path, str]:
+    source_match = SOURCE_RE.search(raw)
+    sha_match = SHA_RE.search(raw)
+    if source_match and sha_match:
+        return Path(source_match.group(1)), sha_match.group(1)
+    record = sources.get(chapter_id)
+    if not record:
+        raise SystemExit(f"No source identity recorded for {chapter_id}")
+    return Path(record["source"]), record["source_blob_sha"]
+
+
+def load_sources(
+    path: Path = Path("r2/assets/audio-score-light/SOURCES.json"),
+) -> dict[str, dict[str, str]]:
+    if not path.exists():
+        raise SystemExit(f"Missing {path}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return data["chapters"]
 
 
 def git_blob_sha(path: Path) -> str:
@@ -60,7 +73,9 @@ def validate(chapter: str) -> float:
         raise SystemExit(f"Missing {light_path}")
 
     raw = light_path.read_text(encoding="utf-8")
-    source_path, recorded_sha = parse_source_header(raw)
+    source_path, recorded_sha = resolve_source_identity(
+        raw=raw, chapter_id=chapter_id, sources=load_sources()
+    )
     if source_path.as_posix() != f"r2/assets/written/ch{chapter_id}.md":
         raise SystemExit(f"Unexpected source path: {source_path}")
     if not source_path.exists():
