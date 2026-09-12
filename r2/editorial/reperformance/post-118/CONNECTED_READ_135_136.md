@@ -15,7 +15,7 @@ Strong survivor.
 What works:
 
 - The marsh refuses Greg's favorite tools without humiliating him.
-- Suri Pell owns hunting. Her expertise is sensory, seasonal, and local rather than Guild-ranked.
+- Suri Vale owns hunting. Her expertise is sensory, seasonal, and local rather than Guild-ranked.
 - Cerin is a better mud fighter than Greg.
 - Bo's hide/proof expertise materially matters to getting paid.
 - Greg's force magic contributes only in small moments: turning one charge and breaking a quick plane over Bo.
