@@ -6,7 +6,7 @@
   "source": "r2/assets/audio-score-light/ch006.md",
   "source_blob_sha": "2fcf88a0688365a4a1a06643d383cdc7ecd7267a",
   "voice": "deep",
-  "status": "capture_ready",
+  "status": "durable_takes_verified_and_assembled",
   "factory": "preview_safe_short_take_capture_v1",
   "max_chars": 500,
   "provider_facing_substitutions": {
@@ -23,7 +23,11 @@
       "transcript": "Vayle counted the money twice.\n\nNot because I was short.\n\nThat would have been easier.\n\nHe counted it once because that was what lenders did and a second time because apparently I had become interesting enough to verify.\n\n\"On time.\"\n\nI had spent most of the walk rehearsing several good responses to that.\n\nNone improved my financial condition.\n\nSo I nodded.\n\nVayle looked up.\n\nThat almost disappointed him.\n\nGood.\n\nLet him wonder.\n\n",
       "preview_transcript": "Vayle counted the money twice.\n\nNot because I was short.\n\nThat would have been easier.\n\nHe counted it once because that was what lenders did and a second time because apparently I had become interesting enough to verify.\n\n\"On time.\"\n\nI had spent most of the walk rehearsing several good responses to that.\n\nNone improved my financial condition.\n\nSo I nodded.\n\nVayle looked up.\n\nThat almost disappointed him.\n\nGood.\n\nLet him wonder.\n\n",
       "context_id": "dde86ee0542747d9ac320f5dc14f5300",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bfc55d22-3d2b-4939-9fce-f8bb200f01ef.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bfc55d22-3d2b-4939-9fce-f8bb200f01ef.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/01.mp3",
+      "byte_size": 417792,
+      "audio_sha256": "3e439f8d59eb6d7b4874d0cc24123b1b09281efb30c756db6ae7a72d21b613ac",
+      "duration_seconds": 26.112
     },
     {
       "order": 2,
@@ -31,7 +35,11 @@
       "transcript": "He pushed my note across the desk with one finger.\n\nPaid.\n\nClean.\n\nNo balance.\n\nNo part of my week belonging to another man.\n\nFor the first time in over a month, I owed Antonius Vayle nothing.\n\nI had also just reduced my available cash to an amount that made breakfast relevant again.\n\nFreedom had excellent branding.\n\nExpensive product.\n\nI folded the note and put it in my pocket.\n\nVayle did not offer another loan.\n\nHe did not offer work.\n\nHe did not congratulate me.\n\n",
       "preview_transcript": "He pushed my note across the desk with one finger.\n\nPaid.\n\nClean.\n\nNo balance.\n\nNo part of my week belonging to another man.\n\nFor the first time in over a month, I owed Antonius Vayle nothing.\n\nI had also just reduced my available cash to an amount that made breakfast relevant again.\n\nFreedom had excellent branding.\n\nExpensive product.\n\nI folded the note and put it in my pocket.\n\nVayle did not offer another loan.\n\nHe did not offer work.\n\nHe did not congratulate me.\n\n",
       "context_id": "e1067d0070f94622a1b1183879ba9600",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fd4dc959-7c71-4444-9758-526cafc5361d.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fd4dc959-7c71-4444-9758-526cafc5361d.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/02.mp3",
+      "byte_size": 452736,
+      "audio_sha256": "20019c723dedd6a749bb4b5ac0a0afdca0ab9cdc626a4f7dc476ca9d52d3280e",
+      "duration_seconds": 28.296
     },
     {
       "order": 3,
@@ -39,7 +47,11 @@
       "transcript": "He just watched me leave with the expression of a man who had discovered a number did something unexpected and intended to keep the number in the ledger.\n\nFine.\n\nI had enough systems watching me already.\n\nArlo's workshop was supposed to be the pleasant problem.\n\nEight copper.\n\nOne customer.\n\nOne ugly disk that had actually done something useful outside his bench.\n\nThe future, beginning badly and at retail.\n\n",
       "preview_transcript": "He just watched me leave with the expression of a man who had discovered a number did something unexpected and intended to keep the number in the ledger.\n\nFine.\n\nI had enough systems watching me already.\n\nArlo's workshop was supposed to be the pleasant problem.\n\nEight copper.\n\nOne customer.\n\nOne ugly disk that had actually done something useful outside his bench.\n\nThe future, beginning badly and at retail.\n\n",
       "context_id": "a5d324e44c1a455882e1cc3b806ec9c8",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/43c6c796-271a-4a5e-8a49-ed4b659a7da3.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/43c6c796-271a-4a5e-8a49-ed4b659a7da3.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/03.mp3",
+      "byte_size": 400512,
+      "audio_sha256": "df65daf14cd99974178725aaa76ab3eee8d0baa6c7f696f034b27bcfcdffb6bc",
+      "duration_seconds": 25.032
     },
     {
       "order": 4,
@@ -47,7 +59,11 @@
       "transcript": "I reached the cooper's alley and found Arlo standing outside with a woman whose hands were purple to the wrists.\n\nNot stained lightly.\n\nPurple.\n\nThe color lived in the cracks around her nails and disappeared beneath both sleeves.\n\nShe held a cloth bundle in one hand.\n\nArlo had his coat on.\n\nThat was wrong.\n\nHe almost never left the workshop during working hours unless the building was burning or somebody offered to pay him for leaving it.\n\nThe woman looked at me.\n\n",
       "preview_transcript": "I reached the cooper's alley and found Arlo standing outside with a woman whose hands were purple to the wrists.\n\nNot stained lightly.\n\nPurple.\n\nThe color lived in the cracks around her nails and disappeared beneath both sleeves.\n\nShe held a cloth bundle in one hand.\n\nArlo had his coat on.\n\nThat was wrong.\n\nHe almost never left the workshop during working hours unless the building was burning or somebody offered to pay him for leaving it.\n\nThe woman looked at me.\n\n",
       "context_id": "63b8c4fdc4974a2b9bd0958c5c024237",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cc0d6031-dcfa-4f67-bf2b-d18b9decc73c.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cc0d6031-dcfa-4f67-bf2b-d18b9decc73c.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/04.mp3",
+      "byte_size": 441984,
+      "audio_sha256": "23a7ca1e2bb20c194706577d0dd4c696611777d52fee6581a17d4830e027fd77",
+      "duration_seconds": 27.624
     },
     {
       "order": 5,
@@ -55,7 +71,11 @@
       "transcript": "\"Greg?\"\n\nYes.\n\nShe shoved the bundle into my hands.\n\nCeramic clicked inside.\n\nSeveral pieces.\n\nAh.\n\nFirst customer.\n\nArlo introduced her as Ivena, the dyer from Mill Street.\n\nIvena corrected him.\n\n\"The dyer whose floor is purple because your filter split.\"\n\nSpecific.\n\nGood start.\n\nI unwrapped the cloth.\n\nThe disk had cracked through the center and broken along one edge. Purple residue had dried inside the fracture darker than the rest, almost black.\n\n",
       "preview_transcript": "\"Greg?\"\n\nYes.\n\nShe shoved the bundle into my hands.\n\nCeramic clicked inside.\n\nSeveral pieces.\n\nAh.\n\nFirst customer.\n\nArlo introduced her as Ivena, the dyer from Mill Street.\n\nIvena corrected him.\n\n\"The dyer whose floor is purple because your filter split.\"\n\nSpecific.\n\nGood start.\n\nI unwrapped the cloth.\n\nThe disk had cracked through the center and broken along one edge. Purple residue had dried inside the fracture darker than the rest, almost black.\n\n",
       "context_id": "b3a685113e8d4401a37679cf91db391c",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/67b5a61b-7eb7-4ce7-875a-70c2639cd0d1.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/67b5a61b-7eb7-4ce7-875a-70c2639cd0d1.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/05.mp3",
+      "byte_size": 430848,
+      "audio_sha256": "66dfe71b0efc32764ab59bd742e13ba4c7335f63e6980da4a03f73f0ac26c17c",
+      "duration_seconds": 26.928
     },
     {
       "order": 6,
@@ -63,7 +83,11 @@
       "transcript": "I looked at Arlo.\n\nHe was already looking at the break.\n\nNot defensive.\n\nAngry in the useful direction.\n\nAt the object.\n\n\"It worked,\" Ivena said.\n\nThat was not the sentence I expected.\n\nI looked at her.\n\nTwo batches, apparently.\n\nBetter color. Less sludge left in the cloth later. Easier rinse.\n\nThen the third slowed.\n\nThe trough backed up.\n\nHer assistant increased the feed because people are extremely consistent across professions.\n\nThe disk split.\n\n",
       "preview_transcript": "I looked at Arlo.\n\nHe was already looking at the break.\n\nNot defensive.\n\nAngry in the useful direction.\n\nAt the object.\n\n\"It worked,\" Ivena said.\n\nThat was not the sentence I expected.\n\nI looked at her.\n\nTwo batches, apparently.\n\nBetter color. Less sludge left in the cloth later. Easier rinse.\n\nThen the third slowed.\n\nThe trough backed up.\n\nHer assistant increased the feed because people are extremely consistent across professions.\n\nThe disk split.\n\n",
       "context_id": "cea0611264f34e59a9a5bb5a83e5a3ba",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e01d2afc-0324-4aad-baa6-5d603a0dcfe6.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e01d2afc-0324-4aad-baa6-5d603a0dcfe6.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/06.mp3",
+      "byte_size": 427776,
+      "audio_sha256": "32de6190680ee5d2cfd1d0b7ef3653b2385d450533830a3c6fb014b11484b34d",
+      "duration_seconds": 26.736
     },
     {
       "order": 7,
@@ -71,7 +95,11 @@
       "transcript": "Concentrated wash went over the side.\n\nThen something in the waste started reacting near the hot line.\n\nI looked back at the crack.\n\n\"Reacting how?\"\n\nIvena's eyes narrowed.\n\n\"Come look.\"\n\nGood answer.\n\nWe went.\n\nMill Street smelled better from a distance.\n\nUp close it was wet wool, hot metal, ash, mordant, soap, old water, and enough competing dye to make the air feel colored.\n\n",
       "preview_transcript": "Concentrated wash went over the side.\n\nThen something in the waste started reacting near the hot line.\n\nI looked back at the crack.\n\n\"Reacting how?\"\n\nIvena's eyes narrowed.\n\n\"Come look.\"\n\nGood answer.\n\nWe went.\n\nMill Street smelled better from a distance.\n\nUp close it was wet wool, hot metal, ash, mordant, soap, old water, and enough competing dye to make the air feel colored.\n\n",
       "context_id": "7eb44837af1f4832983627cf0d00e654",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fc2f8350-09c7-40f7-b8ba-eef46ec202bd.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fc2f8350-09c7-40f7-b8ba-eef46ec202bd.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/07.mp3",
+      "byte_size": 360960,
+      "audio_sha256": "62b025d7f11fbb64540a818ae18924b1b268c6a98b9118073680125b672d0ab0",
+      "duration_seconds": 22.56
     },
     {
       "order": 8,
@@ -79,7 +107,11 @@
       "transcript": "Ivena's shop occupied the ground floor of a long narrow building with vents cut high into the walls. Three large vats sat along one side. Copper troughs carried wash toward a stone drain channel in the floor. Racks of cloth hung overhead in strips of red, green, yellow, and several shades of purple I would previously have described as purple.\n\nApparently this was wrong.\n\nIvena had names for all of them.\n\n",
       "preview_transcript": "Ivena's shop occupied the ground floor of a long narrow building with vents cut high into the walls. Three large vats sat along one side. Copper troughs carried wash toward a stone drain channel in the floor. Racks of cloth hung overhead in strips of red, green, yellow, and several shades of purple I would previously have described as purple.\n\nApparently this was wrong.\n\nIvena had names for all of them.\n\n",
       "context_id": "f77050cd9b144b5995dd3c84ed80972d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fe2f88b7-85ad-45c7-b513-25a51ff4d3c7.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fe2f88b7-85ad-45c7-b513-25a51ff4d3c7.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/08.mp3",
+      "byte_size": 401280,
+      "audio_sha256": "15ae81df446a21b01d5ab562cdf3ce5bd4d2487accafe4e41f2ad774bde0ef13",
+      "duration_seconds": 25.08
     },
     {
       "order": 9,
@@ -87,7 +119,11 @@
       "transcript": "She used three while pointing out exactly what our disk had ruined.\n\nI remembered none.\n\nThe important part was the equipment.\n\nArlo's workshop tests had used bowls.\n\nSmall pour.\n\nCool enough to hold.\n\nOne pass at a time.\n\nIvena's line used a raised copper reservoir feeding a narrow housing beside the second vat. Warm wash ran through it for long stretches. Not boiling. Hot enough that the copper stayed warm after the flow stopped.\n\nDifferent volume.\n\n",
       "preview_transcript": "She used three while pointing out exactly what our disk had ruined.\n\nI remembered none.\n\nThe important part was the equipment.\n\nArlo's workshop tests had used bowls.\n\nSmall pour.\n\nCool enough to hold.\n\nOne pass at a time.\n\nIvena's line used a raised copper reservoir feeding a narrow housing beside the second vat. Warm wash ran through it for long stretches. Not boiling. Hot enough that the copper stayed warm after the flow stopped.\n\nDifferent volume.\n\n",
       "context_id": "aae9bae7f73b4be9b1cd7b7e72f6cd5a",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/778c3956-83f6-422c-b7f6-dc37cfc35f13.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/778c3956-83f6-422c-b7f6-dc37cfc35f13.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/09.mp3",
+      "byte_size": 442752,
+      "audio_sha256": "89970ace129f8a3a5bdd3c5026545c5b6e47d85133ad2e7be5f294a370c89e6d",
+      "duration_seconds": 27.672
     },
     {
       "order": 10,
@@ -95,7 +131,11 @@
       "transcript": "Different duration.\n\nDifferent temperature.\n\nDifferent problem.\n\nThe housing itself had been wiped clean, but the floor beneath it had not.\n\nPurple stain ran toward the drain in a wide fan.\n\nAt the center, the color was nearly black.\n\nOne copper fitting above it had a strange pale mark crawling around the edge.\n\nNot corrosion.\n\nI crouched.\n\nThe hair on my forearm lifted.\n\nMa-na.\n\nVery little.\n\nEnough.\n\nIvena saw me notice.\n\n\"That.\"\n\nArlo crouched beside me.\n\n",
       "preview_transcript": "Different duration.\n\nDifferent temperature.\n\nDifferent problem.\n\nThe housing itself had been wiped clean, but the floor beneath it had not.\n\nPurple stain ran toward the drain in a wide fan.\n\nAt the center, the color was nearly black.\n\nOne copper fitting above it had a strange pale mark crawling around the edge.\n\nNot corrosion.\n\nI crouched.\n\nThe hair on my forearm lifted.\n\nMa-na.\n\nVery little.\n\nEnough.\n\nIvena saw me notice.\n\n\"That.\"\n\nArlo crouched beside me.\n\n",
       "context_id": "df60ecb08afc4321855c5deb345f3fb5",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7472d887-9fd6-4160-877e-94bb5076704e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7472d887-9fd6-4160-877e-94bb5076704e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/10.mp3",
+      "byte_size": 436224,
+      "audio_sha256": "eba9e6b78e4515e9dfe6677dc02c11b57b7630be36fb9156d3dcff243ed4afcb",
+      "duration_seconds": 27.264
     },
     {
       "order": 11,
@@ -103,7 +143,11 @@
       "transcript": "He touched the dry stone near the stain, then stopped before touching the dark center.\n\nGood.\n\n\"What is in the wash?\"\n\nIvena listed things I mostly understood.\n\nPigment. Binding salt. Ash treatment. A cheap ma-na-set additive used to keep the darker purple from washing gray.\n\nThere.\n\nMa-na-set additive.\n\nHow much?\n\nNot much.\n\nUsually.\n\nI looked at the stain again.\n\nUsually did not matter if the filter was concentrating it.\n\n",
       "preview_transcript": "He touched the dry stone near the stain, then stopped before touching the dark center.\n\nGood.\n\n\"What is in the wash?\"\n\nIvena listed things I mostly understood.\n\nPigment. Binding salt. Ash treatment. A cheap ma-na-set additive used to keep the darker purple from washing gray.\n\nThere.\n\nMa-na-set additive.\n\nHow much?\n\nNot much.\n\nUsually.\n\nI looked at the stain again.\n\nUsually did not matter if the filter was concentrating it.\n\n",
       "context_id": "f2a6030033014b8ea9d453e36dbb04d2",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/29d6b010-74e9-4b4e-bcb8-470f91ec4d97.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/29d6b010-74e9-4b4e-bcb8-470f91ec4d97.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/11.mp3",
+      "byte_size": 403968,
+      "audio_sha256": "a11a136ad41b5a98173d4115990cc772149ae7c37edaef27a95b78ecfa6f38b6",
+      "duration_seconds": 25.248
     },
     {
       "order": 12,
@@ -111,7 +155,11 @@
       "transcript": "Arlo heard the same thought in a different language.\n\n\"The disk was catching more than the sludge.\"\n\nMaybe.\n\nIvena folded her arms.\n\n\"Is that bad?\"\n\nWe did not know yet.\n\nHer expression explained that this answer had limited commercial value.\n\nFair.\n\nArlo wanted to see the housing.\n\nIvena wanted to know whether opening it would make the floor do that again.\n\nAlso fair.\n\nWe compromised by being careful, ",
       "preview_transcript": "Arlo heard the same thought in a different language.\n\n\"The disk was catching more than the sludge.\"\n\nMaybe.\n\nIvena folded her arms.\n\n\"Is that bad?\"\n\nWe did not know yet.\n\nHer expression explained that this answer had limited commercial value.\n\nFair.\n\nArlo wanted to see the housing.\n\nIvena wanted to know whether opening it would make the floor do that again.\n\nAlso fair.\n\nWe compromised by being careful, ",
       "context_id": "4369eee2318746a88db8fa6e4e8043d8",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/38657f4d-d79c-4484-8d0e-3e5892644b56.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/38657f4d-d79c-4484-8d0e-3e5892644b56.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/12.mp3",
+      "byte_size": 390912,
+      "audio_sha256": "1d69ceeb03e1b21a2713b7539f80455f731849ddfe91c21a650113353f006592",
+      "duration_seconds": 24.432
     },
     {
       "order": 13,
@@ -119,7 +167,11 @@
       "transcript": "which is the traditional stage before discovering how careful was insufficient.\n\nThe feed valve was closed.\n\nThe reservoir was mostly empty.\n\nThe line had cooled.\n\nArlo loosened the housing bolts one at a time.\n\nI stood to the side instead of directly in front of it.\n\nCurrent life had improved me.\n\nA little.\n\nThe last bolt came loose.\n\nNothing happened.\n\nGood.\n\nArlo pulled the housing apart.\n\nThe remaining piece of disk came with it.\n\n",
       "preview_transcript": "which is the traditional stage before discovering how careful was insufficient.\n\nThe feed valve was closed.\n\nThe reservoir was mostly empty.\n\nThe line had cooled.\n\nArlo loosened the housing bolts one at a time.\n\nI stood to the side instead of directly in front of it.\n\nCurrent life had improved me.\n\nA little.\n\nThe last bolt came loose.\n\nNothing happened.\n\nGood.\n\nArlo pulled the housing apart.\n\nThe remaining piece of disk came with it.\n\n",
       "context_id": "0ac90440694d4466af39acc538ad5b07",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ab6466e2-95e3-4b24-854f-9e163f5c7aa0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ab6466e2-95e3-4b24-854f-9e163f5c7aa0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/13.mp3",
+      "byte_size": 421632,
+      "audio_sha256": "9372820d29ec56bfd3d2ee2ad26610ec67c1b7708c5523fd5e9d3d58378ba798",
+      "duration_seconds": 26.352
     },
     {
       "order": 14,
@@ -127,7 +179,11 @@
       "transcript": "Purple-black paste filled the ceramic pores along one side.\n\nNot evenly.\n\nThe lower half was packed.\n\nUpper half much less.\n\nFlow problem.\n\nIvena pointed.\n\n\"That's where it slowed.\"\n\nArlo did not answer.\n\nHe had gone very still.\n\nI knew that stillness now.\n\nHis version of shouting.\n\nHe scraped a tiny amount of the paste onto a metal pick.\n\nThe pick warmed in his fingers.\n\nHe dropped it.\n\nIt hit the wet stone.\n\nPurple light moved across the water.\n\nNot bright.\n\n",
       "preview_transcript": "Purple-black paste filled the ceramic pores along one side.\n\nNot evenly.\n\nThe lower half was packed.\n\nUpper half much less.\n\nFlow problem.\n\nIvena pointed.\n\n\"That's where it slowed.\"\n\nArlo did not answer.\n\nHe had gone very still.\n\nI knew that stillness now.\n\nHis version of shouting.\n\nHe scraped a tiny amount of the paste onto a metal pick.\n\nThe pick warmed in his fingers.\n\nHe dropped it.\n\nIt hit the wet stone.\n\nPurple light moved across the water.\n\nNot bright.\n\n",
       "context_id": "b7179b41fc694328ba82b34ccb4967c0",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/85d018da-490a-4f23-8436-e0747a57493e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/85d018da-490a-4f23-8436-e0747a57493e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/14.mp3",
+      "byte_size": 437760,
+      "audio_sha256": "cce4c1b9f2c2a08695644690600143d25d7ddee60857f3e8432d498d5f0d5022",
+      "duration_seconds": 27.36
     },
     {
       "order": 15,
@@ -135,7 +191,11 @@
       "transcript": "Fast.\n\nA thin crawling line ran toward the copper trough.\n\nEvery later-life instinct I had woke up at once.\n\nNot memories exactly.\n\nShape.\n\nFailure shape.\n\nConductive path.\n\nWet floor.\n\nMetal.\n\nMa-na-bearing residue.\n\nPeople standing inside it.\n\n\"Back.\"\n\nIvena moved immediately.\n\nGood.\n\nArlo did not.\n\nHe was staring at the pick.\n\nI grabbed the back of his coat and pulled.\n\nThe purple line touched the trough.\n\nCopper rang.\n\nOne clean note.\n\n",
       "preview_transcript": "Fast.\n\nA thin crawling line ran toward the copper trough.\n\nEvery later-life instinct I had woke up at once.\n\nNot memories exactly.\n\nShape.\n\nFailure shape.\n\nConductive path.\n\nWet floor.\n\nMetal.\n\nMa-na-bearing residue.\n\nPeople standing inside it.\n\n\"Back.\"\n\nIvena moved immediately.\n\nGood.\n\nArlo did not.\n\nHe was staring at the pick.\n\nI grabbed the back of his coat and pulled.\n\nThe purple line touched the trough.\n\nCopper rang.\n\nOne clean note.\n\n",
       "context_id": "b5e34f69fd7b4911b4fd1c2c201120fd",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4cef9b9c-0513-4b09-b5c1-4bb7f381a6b8.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4cef9b9c-0513-4b09-b5c1-4bb7f381a6b8.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/15.mp3",
+      "byte_size": 410496,
+      "audio_sha256": "38bf7e4ba317b62d74f27c62a1869ec93eb6273d85bbff4ffed31623cf357d46",
+      "duration_seconds": 25.656
     },
     {
       "order": 16,
@@ -143,7 +203,11 @@
       "transcript": "Then the entire wet section of trough flashed violet along the seam.\n\nA worker at the far vat turned toward us.\n\nToo close.\n\n\"Off the floor.\"\n\nHe froze.\n\nWrong response.\n\nI pointed at the dry platform beside him.\n\n\"Up. Now.\"\n\nThat worked.\n\nHe climbed.\n\nThe line of light continued along the copper toward the raised reservoir.\n\nI knew what I would have done forty years later.\n\nBarrier under the seam.\n\nCut the conductive path.\n\nContain the spill.\n\n",
       "preview_transcript": "Then the entire wet section of trough flashed violet along the seam.\n\nA worker at the far vat turned toward us.\n\nToo close.\n\n\"Off the floor.\"\n\nHe froze.\n\nWrong response.\n\nI pointed at the dry platform beside him.\n\n\"Up. Now.\"\n\nThat worked.\n\nHe climbed.\n\nThe line of light continued along the copper toward the raised reservoir.\n\nI knew what I would have done forty years later.\n\nBarrier under the seam.\n\nCut the conductive path.\n\nContain the spill.\n\n",
       "context_id": "5304af213e0344c7a75841c0d27e793c",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4786e8f1-6beb-4eac-ad16-eeca4cf2464d.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4786e8f1-6beb-4eac-ad16-eeca4cf2464d.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/16.mp3",
+      "byte_size": 425856,
+      "audio_sha256": "417699e3b984aba70e596a39a39d460512e21fab5ea03ab9a7ebc1f4d778fc5d",
+      "duration_seconds": 26.616
     },
     {
       "order": 17,
@@ -151,7 +215,11 @@
       "transcript": "Buy everyone ten seconds.\n\nSimple.\n\nI put out my hand.\n\nReached for ma-na.\n\nThe remembered motion was enormous.\n\nThe answer was not.\n\nPressure behind my eyes.\n\nA weak pulse down my arm.\n\nThen pain.\n\nNo barrier.\n\nNot even close.\n\nFor one ugly second I was fifty-nine again in my head and nineteen everywhere that mattered.\n\nThe copper rang a second time.\n\nReality did not care.\n\nFine.\n\nNo barrier.\n\nWhat did I have?\n\nPeople.\n\nValves.\n\nDry wood.\n\nAsh bins.\n\nDrain channel.\n",
       "preview_transcript": "Buy everyone ten seconds.\n\nSimple.\n\nI put out my hand.\n\nReached for ma-na.\n\nThe remembered motion was enormous.\n\nThe answer was not.\n\nPressure behind my eyes.\n\nA weak pulse down my arm.\n\nThen pain.\n\nNo barrier.\n\nNot even close.\n\nFor one ugly second I was fifty-nine again in my head and nineteen everywhere that mattered.\n\nThe copper rang a second time.\n\nReality did not care.\n\nFine.\n\nNo barrier.\n\nWhat did I have?\n\nPeople.\n\nValves.\n\nDry wood.\n\nAsh bins.\n\nDrain channel.\n",
       "context_id": "cc2cc843715c4b819d1d7e6acad271fd",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5505725e-3d2d-496c-9de5-06aca07aa532.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5505725e-3d2d-496c-9de5-06aca07aa532.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/17.mp3",
+      "byte_size": 435456,
+      "audio_sha256": "2c4a421d805eb65d022def19daa3a98060548d5df1e30a224d7f5b6fd8d7e146",
+      "duration_seconds": 27.216
     },
     {
       "order": 18,
@@ -159,7 +227,11 @@
       "transcript": "\nA ceramic lid leaning against the wall.\n\n\"Ivena, heat.\"\n\nShe was already moving.\n\nOf course she was.\n\nHer shop.\n\nShe shut the burner under the second vat and yelled at the worker near the rear line to kill the main feed.\n\nArlo pointed at the reservoir.\n\n\"Pressure's trapped above the housing.\"\n\nThere.\n\nThat mattered.\n\nIf the line warmed or expanded with the valve closed, the housing could spit the remaining concentrate somewhere new.\n\nIvena knew the bypass.\n\n",
       "preview_transcript": "\nA ceramic lid leaning against the wall.\n\n\"Ivena, heat.\"\n\nShe was already moving.\n\nOf course she was.\n\nHer shop.\n\nShe shut the burner under the second vat and yelled at the worker near the rear line to kill the main feed.\n\nArlo pointed at the reservoir.\n\n\"Pressure's trapped above the housing.\"\n\nThere.\n\nThat mattered.\n\nIf the line warmed or expanded with the valve closed, the housing could spit the remaining concentrate somewhere new.\n\nIvena knew the bypass.\n\n",
       "context_id": "77a616d20c824d67910dbb1a98d579b1",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/73ae6472-2b2e-4230-a4d2-0ea4af0947d4.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/73ae6472-2b2e-4230-a4d2-0ea4af0947d4.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/18.mp3",
+      "byte_size": 444288,
+      "audio_sha256": "9f570911eded1df62cb0f12399fbcaa432adc326daeb1d2ae0deb4a8055f958a",
+      "duration_seconds": 27.768
     },
     {
       "order": 19,
@@ -167,7 +239,11 @@
       "transcript": "\"Left wheel. Half turn only.\"\n\nThe worker on the platform reached for it.\n\nPurple light crawled closer beneath him.\n\nToo slow.\n\nI grabbed the ceramic lid.\n\nHeavy.\n\nGood.\n\nI set its edge into the wet channel between the stain and the trough.\n\nNot enough.\n\nWater moved around both sides.\n\nAsh.\n\nI kicked the nearest bin over.\n\nGray powder dumped across the floor.\n\nIvena made a sound of personal injury.\n\nLater.\n\n",
       "preview_transcript": "\"Left wheel. Half turn only.\"\n\nThe worker on the platform reached for it.\n\nPurple light crawled closer beneath him.\n\nToo slow.\n\nI grabbed the ceramic lid.\n\nHeavy.\n\nGood.\n\nI set its edge into the wet channel between the stain and the trough.\n\nNot enough.\n\nWater moved around both sides.\n\nAsh.\n\nI kicked the nearest bin over.\n\nGray powder dumped across the floor.\n\nIvena made a sound of personal injury.\n\nLater.\n\n",
       "context_id": "7efc7a23b80e416aa2ca03a938057616",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/09113a3c-d32e-4d8c-9f94-103e362cb0dd.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/09113a3c-d32e-4d8c-9f94-103e362cb0dd.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/19.mp3",
+      "byte_size": 384384,
+      "audio_sha256": "19d78ceba96726623119c36f79ea5eeaf45a067a8e7e87ab87b16c82e5369888",
+      "duration_seconds": 24.024
     },
     {
       "order": 20,
@@ -175,7 +251,11 @@
       "transcript": "The ash soaked the thin water path and broke it into dark islands.\n\nThe crawling light weakened.\n\nNot stopped.\n\nWeakened.\n\nThe worker turned the bypass.\n\nHalf turn.\n\nThe pipe knocked.\n\nPressure moved.\n\nThe housing spat.\n\nA narrow stream of purple-black wash shot sideways.\n\nToward Arlo.\n\nMy hand was already up.\n\nStupid.\n\nInstinct.\n\nMa-na answered this time.\n\nNot a wall.\n\nNot even a proper barrier.\n\nA palm-wide shimmer snapped into existence in front of my hand.\n\n",
       "preview_transcript": "The ash soaked the thin water path and broke it into dark islands.\n\nThe crawling light weakened.\n\nNot stopped.\n\nWeakened.\n\nThe worker turned the bypass.\n\nHalf turn.\n\nThe pipe knocked.\n\nPressure moved.\n\nThe housing spat.\n\nA narrow stream of purple-black wash shot sideways.\n\nToward Arlo.\n\nMy hand was already up.\n\nStupid.\n\nInstinct.\n\nMa-na answered this time.\n\nNot a wall.\n\nNot even a proper barrier.\n\nA palm-wide shimmer snapped into existence in front of my hand.\n\n",
       "context_id": "7e9f6cb38a8445b7a0bbb9de927a9f6f",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3c97b9df-6549-48a1-9149-9f8c0a8f6aef.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3c97b9df-6549-48a1-9149-9f8c0a8f6aef.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/20.mp3",
+      "byte_size": 437376,
+      "audio_sha256": "7bd4898a2514b156c9657a944d25a45894a11e3dcea2e62d92ac1d12c3ede741",
+      "duration_seconds": 27.336
     },
     {
       "order": 21,
@@ -183,7 +263,11 @@
       "transcript": "Thin.\n\nCrooked.\n\nBeautiful.\n\nThe stream hit it.\n\nFor less than a second, the liquid split around my palm instead of through it.\n\nThen the shimmer vanished.\n\nThe rest struck the ceramic lid.\n\nI turned my face away.\n\nHot droplets hit my sleeve.\n\nNot acid.\n\nStill unpleasant.\n\nArlo stumbled back onto dry stone.\n\nThe pipe stopped knocking.\n\nThe violet line faded along the trough.\n\nSilence.\n\nNot complete silence.\n\nDyehouse silence.\n\nWater dripping.\n\n",
       "preview_transcript": "Thin.\n\nCrooked.\n\nBeautiful.\n\nThe stream hit it.\n\nFor less than a second, the liquid split around my palm instead of through it.\n\nThen the shimmer vanished.\n\nThe rest struck the ceramic lid.\n\nI turned my face away.\n\nHot droplets hit my sleeve.\n\nNot acid.\n\nStill unpleasant.\n\nArlo stumbled back onto dry stone.\n\nThe pipe stopped knocking.\n\nThe violet line faded along the trough.\n\nSilence.\n\nNot complete silence.\n\nDyehouse silence.\n\nWater dripping.\n\n",
       "context_id": "1586c3039d4c40c9901f8ac84fcc7688",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3a8289b6-19e1-4e55-afdc-5d788013b141.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3a8289b6-19e1-4e55-afdc-5d788013b141.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/21.mp3",
+      "byte_size": 417792,
+      "audio_sha256": "04bd4df669a210739d2db682d7cd45453cd633b7bb5db019366c17fb47528da0",
+      "duration_seconds": 26.112
     },
     {
       "order": 22,
@@ -191,7 +275,11 @@
       "transcript": "Somebody breathing too loudly.\n\nA vat bubbling because nobody had told the other two vats that the scene was over.\n\nI looked at my hand.\n\nNothing there.\n\nNo barrier.\n\nOf course not.\n\nBut it had been there.\n\nOne breath.\n\nLess.\n\nEnough to change where the first part of the spray went.\n\nMy arm started shaking.\n\nI lowered it before anyone could mistake that for drama.\n\nIvena walked over.\n\nShe looked at the ash covering half her floor.\n\nThen at me.\n\nThen at Arlo.\n\n",
       "preview_transcript": "Somebody breathing too loudly.\n\nA vat bubbling because nobody had told the other two vats that the scene was over.\n\nI looked at my hand.\n\nNothing there.\n\nNo barrier.\n\nOf course not.\n\nBut it had been there.\n\nOne breath.\n\nLess.\n\nEnough to change where the first part of the spray went.\n\nMy arm started shaking.\n\nI lowered it before anyone could mistake that for drama.\n\nIvena walked over.\n\nShe looked at the ash covering half her floor.\n\nThen at me.\n\nThen at Arlo.\n\n",
       "context_id": "e8221e78aab94fcfa0d04d443cf142e7",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/75b4a904-af8a-4b0d-b744-796f33bbc78e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/75b4a904-af8a-4b0d-b744-796f33bbc78e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/22.mp3",
+      "byte_size": 440832,
+      "audio_sha256": "963fd6ba13bf6eb9d7fd85da77739bfe1ae0e814b7ef7f39a27325311cf7be87",
+      "duration_seconds": 27.552
     },
     {
       "order": 23,
@@ -199,7 +287,11 @@
       "transcript": "\"You owe me ash.\"\n\nGood.\n\nI liked her.\n\nArlo sat on an overturned bucket and examined the ceramic fragments with the expression of a man trying to solve a murder where he had made the victim.\n\nIvena did not let him retreat into it.\n\nOne ruined portion of wash.\n\nOne interrupted work cycle.\n\nA stained floor that had, admittedly, already been a stained floor.\n\nA cracked fitting she wanted checked before restarting the line.\n\n",
       "preview_transcript": "\"You owe me ash.\"\n\nGood.\n\nI liked her.\n\nArlo sat on an overturned bucket and examined the ceramic fragments with the expression of a man trying to solve a murder where he had made the victim.\n\nIvena did not let him retreat into it.\n\nOne ruined portion of wash.\n\nOne interrupted work cycle.\n\nA stained floor that had, admittedly, already been a stained floor.\n\nA cracked fitting she wanted checked before restarting the line.\n\n",
       "context_id": "08ca24871c3c46d48f13aa3b77896ec2",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6475b43b-a23e-4573-afe6-32cf6a7ee9eb.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6475b43b-a23e-4573-afe6-32cf6a7ee9eb.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/23.mp3",
+      "byte_size": 412416,
+      "audio_sha256": "af5cc8e7ba5534b205f149271474b07b37706a3e0d8ab28b4b423f401db7e6b5",
+      "duration_seconds": 25.776
     },
     {
       "order": 24,
@@ -207,7 +299,11 @@
       "transcript": "And one filter she had paid for that had worked well enough to make the failure more irritating.\n\nThat last part mattered.\n\nIf the disk had simply been useless, we would refund eight copper and go home embarrassed.\n\nIt had improved two batches.\n\nThen scale had changed the problem.\n\nI asked what she wanted.\n\nNot philosophically.\n\nToday.\n\nIvena wanted the eight copper back.\n\nReasonable.\n\nShe also wanted compensation for the ruined wash.\n\nLess pleasant.\n\n",
       "preview_transcript": "And one filter she had paid for that had worked well enough to make the failure more irritating.\n\nThat last part mattered.\n\nIf the disk had simply been useless, we would refund eight copper and go home embarrassed.\n\nIt had improved two batches.\n\nThen scale had changed the problem.\n\nI asked what she wanted.\n\nNot philosophically.\n\nToday.\n\nIvena wanted the eight copper back.\n\nReasonable.\n\nShe also wanted compensation for the ruined wash.\n\nLess pleasant.\n\n",
       "context_id": "e5d6bb47170a4d22a65df2bdf0e469ad",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4754a487-97be-4c42-acbe-82e286dd4b50.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4754a487-97be-4c42-acbe-82e286dd4b50.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/24.mp3",
+      "byte_size": 436992,
+      "audio_sha256": "1966d39119aff157c46fb0b41922983cecace85bf7ec77e53dca8553796ce94f",
+      "duration_seconds": 27.312
     },
     {
       "order": 25,
@@ -215,7 +311,11 @@
       "transcript": "Still reasonable.\n\nAnd she wanted us to look at the line before she put another one of our disks anywhere near it.\n\nThat surprised me.\n\n\"Another?\"\n\nShe looked at the pale second bowl sitting on the work table.\n\nThe result from the first batch.\n\n\"It worked. Then it broke. Those are two facts.\"\n\nThere.\n\nOutside mind.\n\nBetter sentence than mine.\n\nArlo finally looked up.\n\nHe asked about temperature on the first two runs.\n\nLower.\n\n",
       "preview_transcript": "Still reasonable.\n\nAnd she wanted us to look at the line before she put another one of our disks anywhere near it.\n\nThat surprised me.\n\n\"Another?\"\n\nShe looked at the pale second bowl sitting on the work table.\n\nThe result from the first batch.\n\n\"It worked. Then it broke. Those are two facts.\"\n\nThere.\n\nOutside mind.\n\nBetter sentence than mine.\n\nArlo finally looked up.\n\nHe asked about temperature on the first two runs.\n\nLower.\n\n",
       "context_id": "f883716c329a441aa3bd21202bcc6c51",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ed073d9a-83db-4401-8b03-078952cd2938.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ed073d9a-83db-4401-8b03-078952cd2938.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/25.mp3",
+      "byte_size": 409344,
+      "audio_sha256": "43d3f6f46ec835ff08574d858abc489d3acc38e063f6830dba0ad4ed073403e3",
+      "duration_seconds": 25.584
     },
     {
       "order": 26,
@@ -223,7 +323,11 @@
       "transcript": "Third batch had been warmer because they were behind schedule.\n\nFlow rate?\n\nHigher for the same reason.\n\nHow long before slowing?\n\nLonger than the first two full tests combined.\n\nArlo's face changed.\n\nHe was no longer defending the disk.\n\nHe was collecting the failure.\n\nGood.\n\nIvena knew her process.\n\nArlo knew the material.\n\nI knew enough about later systems to recognize that neither of those jobs belonged to me.\n\nMy job was somewhere else.\n\nConnections.\n\n",
       "preview_transcript": "Third batch had been warmer because they were behind schedule.\n\nFlow rate?\n\nHigher for the same reason.\n\nHow long before slowing?\n\nLonger than the first two full tests combined.\n\nArlo's face changed.\n\nHe was no longer defending the disk.\n\nHe was collecting the failure.\n\nGood.\n\nIvena knew her process.\n\nArlo knew the material.\n\nI knew enough about later systems to recognize that neither of those jobs belonged to me.\n\nMy job was somewhere else.\n\nConnections.\n\n",
       "context_id": "2352eaca91c3459989ce0585878f91f9",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/55e25014-377f-4976-b2db-f541131a7363.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/55e25014-377f-4976-b2db-f541131a7363.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/26.mp3",
+      "byte_size": 442368,
+      "audio_sha256": "7be1a9ccb23328dfe658e4961729636e5f41de1dd71e4020fa4b9de043cbbbcf",
+      "duration_seconds": 27.648
     },
     {
       "order": 27,
@@ -231,7 +335,11 @@
       "transcript": "What changed?\n\nWhat became dangerous?\n\nWhat mattered next?\n\nHeat.\n\nFlow.\n\nTime under load.\n\nConcentration.\n\nMaybe ma-na salt.\n\nMaybe all of them.\n\nA month ago I would have tried to solve all five before leaving the building.\n\nCurrent me had recently been introduced to ceilings.\n\nI picked two.\n\nArlo needed to reproduce the clog under warm continuous flow.\n\nIvena needed a way to bypass the disk before pressure built if the flow slowed again.\n\n",
       "preview_transcript": "What changed?\n\nWhat became dangerous?\n\nWhat mattered next?\n\nHeat.\n\nFlow.\n\nTime under load.\n\nConcentration.\n\nMaybe ma-na salt.\n\nMaybe all of them.\n\nA month ago I would have tried to solve all five before leaving the building.\n\nCurrent me had recently been introduced to ceilings.\n\nI picked two.\n\nArlo needed to reproduce the clog under warm continuous flow.\n\nIvena needed a way to bypass the disk before pressure built if the flow slowed again.\n\n",
       "context_id": "9fc7ae9c9c9642a0abbe1dd94ccec9a3",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1482a504-2440-4b74-b7db-f3d0f879c19f.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1482a504-2440-4b74-b7db-f3d0f879c19f.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/27.mp3",
+      "byte_size": 424704,
+      "audio_sha256": "ab44c187d65873834af36c213550d12693ed07886e53ddd6aa04f5d4c2760b73",
+      "duration_seconds": 26.544
     },
     {
       "order": 28,
@@ -239,7 +347,11 @@
       "transcript": "Everything else could wait until those answers existed.\n\nArlo looked at me.\n\nThat was almost approval.\n\nIvena wanted the fitting checked first.\n\nCorrect.\n\nHer shop.\n\nHer order.\n\nWe paid her.\n\nMostly Arlo.\n\nI had just paid Vayle and was once again rich primarily in arguments.\n\nPartnership acquired a second meaning.\n\nShared upside had sounded excellent yesterday.\n\nShared losses had arrived before lunch.\n\nGood.\n\nReal things did that.\n\n",
       "preview_transcript": "Everything else could wait until those answers existed.\n\nArlo looked at me.\n\nThat was almost approval.\n\nIvena wanted the fitting checked first.\n\nCorrect.\n\nHer shop.\n\nHer order.\n\nWe paid her.\n\nMostly Arlo.\n\nI had just paid Vayle and was once again rich primarily in arguments.\n\nPartnership acquired a second meaning.\n\nShared upside had sounded excellent yesterday.\n\nShared losses had arrived before lunch.\n\nGood.\n\nReal things did that.\n\n",
       "context_id": "83e960e14c704f189cb07d626b2e6fc2",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ebf38be8-9afc-450e-a88c-c24c9ef15eab.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ebf38be8-9afc-450e-a88c-c24c9ef15eab.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/28.mp3",
+      "byte_size": 412800,
+      "audio_sha256": "7605a456f6f15414a029dbd868fa2f45b829456e4caa2c07c7929704949fdb40",
+      "duration_seconds": 25.8
     },
     {
       "order": 29,
@@ -247,7 +359,11 @@
       "transcript": "On the walk back to Arlo's workshop, neither of us spoke for half a street.\n\nThen he said, \"What did you do with your hand?\"\n\nI knew what he meant.\n\nNothing impressive.\n\nA fraction of a barrier.\n\nCalling it a barrier felt generous.\n\nThe old version of me could have covered the entire trough without thinking about it.\n\nThe old version of me could have isolated the spill, shielded three people, and probably complained about the pipe layout while doing it.\n\n",
       "preview_transcript": "On the walk back to Arlo's workshop, neither of us spoke for half a street.\n\nThen he said, \"What did you do with your hand?\"\n\nI knew what he meant.\n\nNothing impressive.\n\nA fraction of a barrier.\n\nCalling it a barrier felt generous.\n\nThe old version of me could have covered the entire trough without thinking about it.\n\nThe old version of me could have isolated the spill, shielded three people, and probably complained about the pipe layout while doing it.\n\n",
       "context_id": "db9c4a38dec84268b9bfecf39d0aba30",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3b0c8ed5-b53e-4854-866a-0e3be6bc98c0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3b0c8ed5-b53e-4854-866a-0e3be6bc98c0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/29.mp3",
+      "byte_size": 445056,
+      "audio_sha256": "5af97cdbd1ead126e84a870679c7f3a15cdba8f840a72d85811eef30f66b2ddf",
+      "duration_seconds": 27.816
     },
     {
       "order": 30,
@@ -255,7 +371,11 @@
       "transcript": "Current me had made something the size of a plate for less than a heartbeat and nearly given myself a headache doing it.\n\nArlo had seen the liquid split.\n\nSo had I.\n\nThat was the problem.\n\nIt had worked.\n\nA little.\n\nWhich meant I wanted it again immediately.\n\nDangerous pattern.\n\nI flexed my hand.\n\nNo pain.\n\nJust the fading tremor in the forearm.\n\n\"Support magic.\"\n\nArlo waited.\n\nI had no better explanation that did not require forty years I could not prove.\n\n",
       "preview_transcript": "Current me had made something the size of a plate for less than a heartbeat and nearly given myself a headache doing it.\n\nArlo had seen the liquid split.\n\nSo had I.\n\nThat was the problem.\n\nIt had worked.\n\nA little.\n\nWhich meant I wanted it again immediately.\n\nDangerous pattern.\n\nI flexed my hand.\n\nNo pain.\n\nJust the fading tremor in the forearm.\n\n\"Support magic.\"\n\nArlo waited.\n\nI had no better explanation that did not require forty years I could not prove.\n\n",
       "context_id": "8d7c834ba76741b2be1a75751127ae3b",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/459de0f6-6de6-4245-b854-e29186ddf14b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/459de0f6-6de6-4245-b854-e29186ddf14b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/30.mp3",
+      "byte_size": 441984,
+      "audio_sha256": "edf67e2e760431fbbfdee41ab3da507e2fc27a2e840518bad6875c93ffa85b07",
+      "duration_seconds": 27.624
     },
     {
       "order": 31,
@@ -263,7 +383,11 @@
       "transcript": "\"Bad support magic.\"\n\nHe accepted that more easily.\n\nWe reached the alley.\n\nThe workshop door was still open from when we had left in a hurry.\n\nOn the bench sat Arlo's notes, the remaining test pieces, and the empty space where the first sold disk had been.\n\nYesterday, that empty space had looked like success.\n\nNow it looked like liability, evidence, and a second test plan.\n\nBetter.\n\nMore honest.\n\nArlo picked up a fresh ceramic blank.\n\n\"Warm flow. Longer run.\"\n\n",
       "preview_transcript": "\"Bad support magic.\"\n\nHe accepted that more easily.\n\nWe reached the alley.\n\nThe workshop door was still open from when we had left in a hurry.\n\nOn the bench sat Arlo's notes, the remaining test pieces, and the empty space where the first sold disk had been.\n\nYesterday, that empty space had looked like success.\n\nNow it looked like liability, evidence, and a second test plan.\n\nBetter.\n\nMore honest.\n\nArlo picked up a fresh ceramic blank.\n\n\"Warm flow. Longer run.\"\n\n",
       "context_id": "39cf5140c1b5415dbaae032d4b383633",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/57605406-96a7-48df-9acc-b658e9186ff9.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/57605406-96a7-48df-9acc-b658e9186ff9.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/31.mp3",
+      "byte_size": 445824,
+      "audio_sha256": "2cb59a2720ce57111adc274372717de66ea9f58a3a7cbb6510aba54306d8ad79",
+      "duration_seconds": 27.864
     },
     {
       "order": 32,
@@ -271,7 +395,11 @@
       "transcript": "And a bypass.\n\nHe nodded.\n\nThe dyer had become part of the experiment whether either of us liked it or not.\n\nAlso good.\n\nI sat on the repaired stool and looked at my hand again.\n\nOne pulse.\n\nOne crooked shimmer.\n\nEnough to move liquid for less than a second.\n\nMy sword had taken a month to become mine.\n\nMaybe ma-na would take longer.\n\nMaybe much longer.\n\nThat hurt more than the sword had.\n\nSwordsmanship was something I had respected.\n\nSupport was what I had become.\n\n",
       "preview_transcript": "And a bypass.\n\nHe nodded.\n\nThe dyer had become part of the experiment whether either of us liked it or not.\n\nAlso good.\n\nI sat on the repaired stool and looked at my hand again.\n\nOne pulse.\n\nOne crooked shimmer.\n\nEnough to move liquid for less than a second.\n\nMy sword had taken a month to become mine.\n\nMaybe ma-na would take longer.\n\nMaybe much longer.\n\nThat hurt more than the sword had.\n\nSwordsmanship was something I had respected.\n\nSupport was what I had become.\n\n",
       "context_id": "38ef96a831344a239141dc939026c020",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9dabd07c-2a9f-45c8-aa0f-f73e98bafaea.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9dabd07c-2a9f-45c8-aa0f-f73e98bafaea.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/32.mp3",
+      "byte_size": 446592,
+      "audio_sha256": "05ec2f52ba8073a08287bb69cf4f31a35c71e746ac77982e0cd0c1c7211f8685",
+      "duration_seconds": 27.912
     },
     {
       "order": 33,
@@ -279,8 +407,18 @@
       "transcript": "There are failures that tell you what you cannot do.\n\nThis one had done something worse.\n\nIt reminded me what I wanted back.\n\nOutside, someone rolled a cart through the alley.\n\nThe wheel hit a stone and rattled.\n\nArlo started measuring clay.\n\nI had almost no money.\n\nJorren left north soon.\n\nOur first customer wanted a refund, a repair, and possibly another filter.\n\nMy old magic existed in my body as approximately one badly shaped breath.\n\nProgress.\n\nApparently...",
       "preview_transcript": "There are failures that tell you what you cannot do.\n\nThis one had done something worse.\n\nIt reminded me what I wanted back.\n\nOutside, someone rolled a cart through the alley.\n\nThe wheel hit a stone and rattled.\n\nArlo started measuring clay.\n\nI had almost no money.\n\nJorren left north soon.\n\nOur first customer wanted a refund, a repair, and possibly another filter.\n\nMy old magic existed in my body as approximately one badly shaped breath.\n\nProgress.\n\nApparently...",
       "context_id": "9c73c363b2ad49ca92585bb9d1f6c48a",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6af5879c-d5e3-485d-a6bb-5a3af7599fc0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6af5879c-d5e3-485d-a6bb-5a3af7599fc0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/006-short/33.mp3",
+      "byte_size": 446976,
+      "audio_sha256": "46787aba42057429a3476b2988d40ebbd2496f425bf2b64d29e8958aeecd62cf",
+      "duration_seconds": 27.936
     }
   ],
-  "captured_take_count": 33
+  "captured_take_count": 33,
+  "component_duration_seconds": 876.792,
+  "final_asset": "greg-again/audio/assets/light/chapter-006.mp3",
+  "final_byte_size": 7824957,
+  "final_audio_sha256": "9e546785b8f962d548c031b5ebcd8253754d0d4cfa848cb729aeb61157095309",
+  "final_duration_seconds": 878.856,
+  "settling_tail_seconds": 2.0
 }
