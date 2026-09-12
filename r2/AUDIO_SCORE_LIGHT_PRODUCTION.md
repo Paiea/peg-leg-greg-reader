@@ -27,6 +27,7 @@ passes.
 - final asset: `greg-again/audio/assets/light/chapter-NNN.mp3`
 - completion registry: `greg-again/audio/light/manifest.json`
 - take evidence: `greg-again/audio/light/takes/NNN/`
+- full-capture evidence: `greg-again/audio/light/full/NNN/`
 - production evidence: `greg-again/audio/light/production/NNN/`
 - verification evidence: `greg-again/audio/light/verification/NNN/`
 
@@ -44,7 +45,27 @@ A legacy or v2 publication does not make a chapter unavailable for Light. Only a
 
 ## Voice factory
 
-Use the proven preview-safe short-take factory:
+Prefer the cheapest mechanically safe capture mode.
+
+### Fast path: provider full chapter
+
+When the current voice provider accepts the entire exact Light transcript and returns a downloadable full-audio URL:
+
+1. send the complete Light chapter as one `deep` voice job
+2. generate a short inline preview only as a convenience; the preview is not the chapter artifact
+3. record the provider context ID, full `audio_url`, optional `preview_url`, and SHA-256 of the exact full transcript sent
+4. write that evidence to `greg-again/audio/light/production/NNN/FULL_CAPTURE.tsv`
+5. GitHub Actions must recompute the exact Light transcript SHA and reject any mismatch
+6. download the full provider audio and require a nontrivial playable audio stream via `ffprobe`
+7. add approximately two seconds of silence only after the final spoken word
+8. verify/hash the final MP3 and record full-capture evidence
+9. reconcile Light and public manifests only after mechanical verification succeeds
+
+A provider player page, gated response, tiny file, or non-audio response is a failed fast-path capture. Do not publish it.
+
+### Fallback: preview-safe short takes
+
+If the provider full-audio artifact cannot be downloaded or verified, use the proven preview-safe short-take factory:
 
 1. split at natural performance boundaries, normally <=500 provider characters
 2. use `deep`
@@ -56,7 +77,7 @@ Use the proven preview-safe short-take factory:
 8. add approximately two seconds of silence only after the final spoken word
 9. `ffprobe` the final MP3 and record duration/hash
 
-Never regenerate a durable good take merely because downstream plumbing failed.
+Never regenerate a durable good artifact merely because downstream plumbing failed.
 
 ## Provider-facing pronunciation
 
@@ -70,7 +91,7 @@ Existing durable audio may be reused only when exact transcript identity can be 
 
 Do not infer transcript identity from chapter number, an old note, similar prose, or the existence of an MP3.
 
-When transcript identity is not durably provable, synthesize the Light take normally.
+When transcript identity is not durably provable, synthesize the Light source normally.
 
 ## Publication
 
@@ -93,9 +114,9 @@ A Light chapter is complete only when:
 
 - written source identity is recorded
 - Light validator passes <=15%
-- every intended Light segment is spoken exactly once
-- durable take artifacts exist
-- final MP3 is assembled and playable
+- every intended Light word is represented exactly once in the submitted transcript
+- durable provider audio exists
+- final MP3 is playable
 - listener tail is present
 - Light manifest is reconciled
 - public manifest points that chapter to the Light asset
