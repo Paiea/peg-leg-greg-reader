@@ -1,0 +1,49 @@
+name: Fix Audio Score Light catalog frontier
+
+on:
+  push:
+    branches:
+      - 'fix/audio-light-catalog-frontier-016'
+    paths:
+      - '.github/workflows/fix-audio-light-catalog-frontier.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Advance accepted Light test frontier to Chapter 016
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('tests/test_greg_again_audio_catalog.py')
+          s = p.read_text()
+          replacements = [
+              ('audio_score_light_numbers = set(range(1, 14))', 'audio_score_light_numbers = set(range(1, 17))'),
+              ('for number in range(1, 15):\n            chapter_id = f"ga-{number:03d}"', 'for number in range(1, 17):\n            chapter_id = f"ga-{number:03d}"'),
+              ('for number in range(1, 14):\n            self.assertEqual("audio-score-light", by_id[f"ga-{number:03d}"]["audio_finish"])', 'for number in range(1, 17):\n            self.assertEqual("audio-score-light", by_id[f"ga-{number:03d}"]["audio_finish"])'),
+              ('for number in range(1, 14):\n            chapter_id = f"ga-{number:03d}"\n            expected_src = f"assets/light/chapter-{number:03d}.mp3"', 'for number in range(1, 17):\n            chapter_id = f"ga-{number:03d}"\n            expected_src = f"assets/light/chapter-{number:03d}.mp3"'),
+          ]
+          for old, new in replacements:
+              if s.count(old) != 1:
+                  raise SystemExit(f'expected exactly one match for: {old!r}, found {s.count(old)}')
+              s = s.replace(old, new, 1)
+          p.write_text(s)
+          PY
+          python -m unittest tests.test_greg_again_audio_catalog -v
+      - name: Commit test frontier correction
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add tests/test_greg_again_audio_catalog.py
+          git commit -m 'Fix Audio Score Light catalog test frontier through Chapter 016'
+          git push origin HEAD:${{ github.ref_name }}
