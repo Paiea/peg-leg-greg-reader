@@ -155,11 +155,11 @@
       "title": "The Good Sword",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 13,
-      "duration_seconds": 621.456,
-      "audio_src": "assets/chapter-013.mp3",
-      "note": "Chapter 13 keeps the better sword useful without confusing the right tool for the right answer. Thirteen durable deep-voice takes preserve Greg's judgment under the hooktail fight; one oversized provider attempt was repaired locally as 03a/03b while all successful original takes were preserved."
+      "audio_finish": "audio-score-light",
+      "take_count": 25,
+      "duration_seconds": 656.184,
+      "audio_src": "assets/light/chapter-013.mp3",
+      "note": "Audio Score Light Chapter 13 assembled from 25 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-014",
