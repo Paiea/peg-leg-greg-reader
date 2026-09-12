@@ -19,7 +19,7 @@ class R2MobileRefreshTests(unittest.TestCase):
         self.assertIn('<picture>', html)
         self.assertIn('../../r2/assets/images/r2-cover-wide.webp', html)
         self.assertIn('../../r2/assets/images/r2-cover-portrait.webp', html)
-        self.assertIn('<h1 id="listen-title" class="sr-only">Audio Library</h1>', html)
+        self.assertIn('<h1 id="listen-title" class="sr-only">AUDIO LIBRARY</h1>', html)
         self.assertNotIn('<p class="hero-brand">', html)
         self.assertNotIn('../../r2/assets/images/Library.png', html)
 
