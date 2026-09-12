@@ -1,6 +1,7 @@
 name: Audio Score Light capture plan
 
 on:
+  create:
   push:
     branches:
       - 'audio/light-greg-again-ch*-auto'
@@ -15,6 +16,12 @@ permissions:
 
 jobs:
   plan:
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'create' &&
+       github.ref_type == 'branch' &&
+       startsWith(github.ref_name, 'audio/light-greg-again-ch') &&
+       endsWith(github.ref_name, '-auto'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,9 +33,12 @@ jobs:
         run: |
           set -euo pipefail
           branch='${{ github.ref_name }}'
+          if [[ ! "$branch" =~ ^audio/light-greg-again-ch[0-9]{3}-auto$ ]]; then
+            echo "not a protocol-native Light claim branch: $branch" >&2
+            exit 1
+          fi
           chapter="${branch#audio/light-greg-again-ch}"
           chapter="${chapter%-auto}"
-          test "${#chapter}" -eq 3
           python3 scripts/audio_score_light_validate.py "$chapter"
           python3 scripts/audio_score_capture_plan.py "$chapter" --generation light
           python3 - <<PY

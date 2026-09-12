@@ -43,6 +43,22 @@ Do not pre-claim all 30 chapters.
 
 A legacy or v2 publication does not make a chapter unavailable for Light. Only active Light ownership or completed Light publication does.
 
+Resolve the next eligible Light chapter through the deterministic read-only tool instead of manually reconstructing source, manifest, and branch state:
+
+```bash
+python scripts/plg_ai_tools.py call audio_next --json '{"generation":"light"}'
+```
+
+When a worker is ready to take ownership, use the explicit write tool:
+
+```bash
+python scripts/plg_ai_tools.py call audio_claim --json '{"generation":"light"}'
+```
+
+`audio_next` never mutates production state. `audio_claim` owns a chapter only when its create-only remote branch push proves this worker created `audio/light-greg-again-chNNN-auto`. If another worker wins the same chapter between resolution and claim, the helper re-resolves rather than stealing or sharing the claim.
+
+Creating a protocol-native Light claim branch automatically triggers the existing deterministic Light validator and short-take planner. No model or Codex call is required to create the initial capture plan.
+
 ## Voice factory
 
 Prefer the cheapest mechanically safe capture mode.
