@@ -239,11 +239,11 @@
       "title": "Ward Hand",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 41,
-      "duration_seconds": 985.248,
-      "audio_src": "assets/chapter-020.mp3",
-      "note": "Chapter 20 closes a zombie publication gap with forty-one complete preview-safe deep-voice takes captured directly as durable MP3 artifacts from the current written source. Exact ordered take artifacts, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
+      "audio_finish": "audio-score-light",
+      "take_count": 38,
+      "duration_seconds": 995.376,
+      "audio_src": "assets/light/chapter-020.mp3",
+      "note": "Audio Score Light Chapter 20 assembled from 38 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-021",
