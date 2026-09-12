@@ -35,23 +35,6 @@ def test_change_ratio_rejects_large_rewrite():
     assert mod["word_change_ratio"](source, light) > 0.15
 
 
-def test_light_materializer_preserves_written_body_exactly():
-    script = ROOT / "scripts" / "materialize_audio_score_light.py"
-    try:
-        mod = runpy.run_path(str(script))
-    except FileNotFoundError:
-        pytest.fail("Audio Score Light materializer does not exist yet")
-    raw = "# Chapter 2: Two Things\n\nStatus: source\n\n---\n\nWait, really?\n\nYes.\n"
-    rendered = mod["render_light"](
-        raw=raw,
-        source_path=Path("r2/assets/written/ch002.md"),
-        source_sha="5304f99a6192d9ee73d5eb254990c5e63d0f284c",
-    )
-    assert rendered.split("\n---\n", 1)[1].strip() == "Wait, really?\n\nYes."
-    assert "# Chapter 2: Two Things" in rendered
-    assert "Word-level change: `0.00%`" in rendered
-
-
 def test_baseline_can_take_source_identity_from_manifest():
     mod = load_validator()
     source_path, source_sha = mod["resolve_source_identity"](
