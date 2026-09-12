@@ -137,18 +137,18 @@ TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
 }
 
 TOOL_SPECS = {
-    "brain_for": {"write": False, "read_only": True, "description": "Compile a compact task-specific PLG brain routing packet from durable repository metadata."},
-    "brain_doctor": {"write": False, "read_only": True, "description": "Check PLG brain routing health and drift without modifying repository state."},
-    "audio_next": {"write": False, "read_only": True, "description": "Resolve the earliest free Audio Score v2 chapter from current score, manifest, and claim authority without claiming it."},
-    "audio_claim": {"write": True, "read_only": False, "description": "Atomically claim the earliest free Audio Score v2 chapter by creating its single-chapter remote branch; collisions re-resolve instead of stealing work."},
-    "compile_range": {"write": False, "read_only": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
-    "get_scene_view": {"write": False, "read_only": True, "description": "Return one narrow compiler view for an exact stable scene ID."},
-    "query_scenes": {"write": False, "read_only": True, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
-    "plan_campaign": {"write": False, "read_only": False, "description": "Plan a bounded campaign, compile scope, and suppress cache-valid work."},
-    "run_campaign": {"write": False, "read_only": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
-    "get_campaign_result": {"write": False, "read_only": True, "description": "Return the compact reduced result for a campaign."},
-    "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
-    "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
+    "brain_for": {"write": False, "read_only": True, "canon_write": False, "description": "Compile a compact task-specific PLG brain routing packet from durable repository metadata."},
+    "brain_doctor": {"write": False, "read_only": True, "canon_write": False, "description": "Check PLG brain routing health and drift without modifying repository state."},
+    "audio_next": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve the earliest free Audio Score v2 chapter from current score, manifest, and claim authority without claiming it."},
+    "audio_claim": {"write": True, "read_only": False, "canon_write": False, "description": "Atomically claim the earliest free Audio Score v2 chapter by creating its single-chapter remote branch; collisions re-resolve instead of stealing work."},
+    "compile_range": {"write": False, "read_only": False, "canon_write": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
+    "get_scene_view": {"write": False, "read_only": True, "canon_write": False, "description": "Return one narrow compiler view for an exact stable scene ID."},
+    "query_scenes": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
+    "plan_campaign": {"write": False, "read_only": False, "canon_write": False, "description": "Plan a bounded campaign, compile scope, and suppress cache-valid work."},
+    "run_campaign": {"write": False, "read_only": False, "canon_write": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
+    "get_campaign_result": {"write": False, "read_only": True, "canon_write": False, "description": "Return the compact reduced result for a campaign."},
+    "reduce_campaign": {"write": False, "read_only": False, "canon_write": False, "description": "Recompute deterministic campaign reduction without model work."},
+    "apply_survivors": {"write": True, "read_only": False, "canon_write": True, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
 
