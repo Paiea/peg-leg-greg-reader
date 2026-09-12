@@ -1,0 +1,38 @@
+name: Fix Light audio test frontier
+
+on:
+  push:
+    branches:
+      - audio/light-greg-again-ch012-auto
+    paths:
+      - '.github/workflows/fix-light-audio-test-frontier.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Align test frontier with published Light 1-12
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('tests/test_greg_again_audio_catalog.py')
+          s = p.read_text()
+          s = s.replace('audio_score_light_numbers = set(range(1, 11))', 'audio_score_light_numbers = set(range(1, 13))')
+          s = s.replace('for number in range(1, 11):', 'for number in range(1, 13):')
+          s = s.replace('self.assertEqual("processing-space", by_id["ga-011"]["audio_finish"])', 'self.assertEqual("audio-score-light", by_id["ga-011"]["audio_finish"])')
+          s = s.replace('self.assertEqual("assets/chapter-011.mp3", by_id["ga-011"]["audio_src"])', 'self.assertEqual("assets/light/chapter-011.mp3", by_id["ga-011"]["audio_src"])')
+          s = s.replace('audio = AUDIO_ROOT / "assets" / "chapter-011.mp3"', 'audio = AUDIO_ROOT / "assets" / "light" / "chapter-011.mp3"')
+          p.write_text(s)
+          PY
+          rm .github/workflows/fix-light-audio-test-frontier.yml
+      - name: Commit test contract repair
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Align audio catalog tests with Light Chapters 11-12'
+          git push
