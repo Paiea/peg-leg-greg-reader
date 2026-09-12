@@ -118,3 +118,40 @@ def test_audio_claim_tool_is_explicit_write_and_delegates(monkeypatch, tmp_path)
     assert seen["maximum"] == 2
     assert plg_ai_tools.TOOL_SPECS["audio_claim"]["write"] is True
     assert plg_ai_tools.TOOL_SPECS["audio_claim"]["read_only"] is False
+
+
+def test_audio_resume_tool_is_read_only_and_returns_small_packet(monkeypatch, tmp_path):
+    seen = {}
+
+    def fake_path(repo_root, generation, chapter):
+        seen["repo_root"] = repo_root
+        seen["generation"] = generation
+        seen["chapter"] = chapter
+        return tmp_path / "short-takes.json"
+
+    def fake_packet(path, *, batch_size):
+        seen["path"] = path
+        seen["batch_size"] = batch_size
+        return {
+            "schema": "audio_score_resume/v1",
+            "generation": "light",
+            "chapter": 11,
+            "missing_count": 17,
+            "next_takes": [{"order": 11, "transcript": "x", "preview_transcript": "x"}],
+        }
+
+    monkeypatch.setattr(plg_ai_tools.audio_score_resume, "take_map_path", fake_path)
+    monkeypatch.setattr(plg_ai_tools.audio_score_resume, "build_resume_packet", fake_packet)
+
+    result = plg_ai_tools.call_tool(
+        "audio_resume",
+        {"generation": "light", "chapter": 11, "batch_size": 3, "repo_root": str(tmp_path)},
+    )
+
+    assert result["schema"] == "audio_score_resume/v1"
+    assert seen["generation"] == "light"
+    assert seen["chapter"] == 11
+    assert seen["batch_size"] == 3
+    assert plg_ai_tools.TOOL_SPECS["audio_resume"]["read_only"] is True
+    assert plg_ai_tools.TOOL_SPECS["audio_resume"]["write"] is False
+    assert plg_ai_tools.TOOL_SPECS["audio_resume"]["canon_write"] is False
