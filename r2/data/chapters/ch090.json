@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch090","display_number":90,"title":"Thirty-Six Hours","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch090.md"},"images":[],"navigation":{"previous":"r2-ch089","next":"r2-ch091"}}
+{
+  "chapter_id": "r2-ch090",
+  "display_number": 90,
+  "title": "The Correspondent",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch090.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch089",
+    "next": "r2-ch091"
+  }
+}

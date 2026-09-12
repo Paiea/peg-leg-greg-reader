@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch066","display_number":66,"title":"Old Watchfort","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch066.md"},"images":[],"navigation":{"previous":"r2-ch065","next":"r2-ch067"}}
+{
+  "chapter_id": "r2-ch066",
+  "display_number": 66,
+  "title": "The Delver",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch066.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch065",
+    "next": "r2-ch067"
+  }
+}

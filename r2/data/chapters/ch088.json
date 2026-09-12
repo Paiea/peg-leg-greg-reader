@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch088","display_number":88,"title":"The Good Chair","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch088.md"},"images":[],"navigation":{"previous":"r2-ch087","next":"r2-ch089"}}
+{
+  "chapter_id": "r2-ch088",
+  "display_number": 88,
+  "title": "The Friend",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch088.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch087",
+    "next": "r2-ch089"
+  }
+}

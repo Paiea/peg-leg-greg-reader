@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch037","display_number":37,"title":"One Day Late","status":"published","book":1,"act":1,"teaser":"Mara arrives in Carrow a day late on Vey work, and dinner forces Greg to admit what the road he declined still costs him.","audio":{"status":"unavailable","path":null},"written":{"status":"published","path":"assets/written/ch037.md"},"images":[],"navigation":{"previous":"r2-ch036","next":"r2-ch038"}}
+{
+  "chapter_id": "r2-ch037",
+  "display_number": 37,
+  "title": "The Companion",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "Mara arrives in Carrow a day late on Vey work, and dinner forces Greg to admit what the road he declined still costs him.",
+  "audio": {
+    "status": "unavailable",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch037.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch036",
+    "next": "r2-ch038"
+  }
+}

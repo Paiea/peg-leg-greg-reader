@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch087","display_number":87,"title":"The Second One","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch087.md"},"images":[],"navigation":{"previous":"r2-ch086","next":"r2-ch088"}}
+{
+  "chapter_id": "r2-ch087",
+  "display_number": 87,
+  "title": "The Hunter",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch087.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch086",
+    "next": "r2-ch088"
+  }
+}

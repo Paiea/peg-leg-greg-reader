@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch078","display_number":78,"title":"Snow Line","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch078.md"},"images":[],"navigation":{"previous":"r2-ch077","next":"r2-ch079"}}
+{
+  "chapter_id": "r2-ch078",
+  "display_number": 78,
+  "title": "The Support Specialist",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch078.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch077",
+    "next": "r2-ch079"
+  }
+}

@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch117","display_number":117,"title":"Nine Days","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch117.md"},"images":[],"navigation":{"previous":"r2-ch116","next":"r2-ch118"}}
+{
+  "chapter_id": "r2-ch117",
+  "display_number": 117,
+  "title": "The Traveler",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch117.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch116",
+    "next": "r2-ch118"
+  }
+}

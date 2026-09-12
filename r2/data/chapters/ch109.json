@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch109","display_number":109,"title":"Three Offers","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch109.md"},"images":[],"navigation":{"previous":"r2-ch108","next":"r2-ch110"}}
+{
+  "chapter_id": "r2-ch109",
+  "display_number": 109,
+  "title": "The Partner",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch109.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch108",
+    "next": "r2-ch110"
+  }
+}

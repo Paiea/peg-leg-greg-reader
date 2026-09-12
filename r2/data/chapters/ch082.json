@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch082","display_number":82,"title":"The Black Stair","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch082.md"},"images":[],"navigation":{"previous":"r2-ch081","next":"r2-ch083"}}
+{
+  "chapter_id": "r2-ch082",
+  "display_number": 82,
+  "title": "The Crewman",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch082.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch081",
+    "next": "r2-ch083"
+  }
+}

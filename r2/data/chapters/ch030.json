@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch030","display_number":30,"title":"The Workshop","status":"published","book":1,"act":1,"teaser":"Greg brings Jorren to Mill Street hoping to impress him and instead watches Arlo, Ivena, Dena, and the workshop refuse to arrange themselves around his ego.","audio":{"status":"unavailable","path":null},"written":{"status":"published","path":"assets/written/ch030.md"},"images":[],"navigation":{"previous":"r2-ch029","next":"r2-ch031"}}
+{
+  "chapter_id": "r2-ch030",
+  "display_number": 30,
+  "title": "The Partner",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "Greg brings Jorren to Mill Street hoping to impress him and instead watches Arlo, Ivena, Dena, and the workshop refuse to arrange themselves around his ego.",
+  "audio": {
+    "status": "unavailable",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch030.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch029",
+    "next": "r2-ch031"
+  }
+}
