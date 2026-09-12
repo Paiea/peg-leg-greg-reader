@@ -6,7 +6,7 @@
   "source": "r2/assets/audio-score-light/ch002.md",
   "source_blob_sha": "5304f99a6192d9ee73d5eb254990c5e63d0f284c",
   "voice": "deep",
-  "status": "capture_ready",
+  "status": "durable_takes_verified_and_assembled",
   "factory": "preview_safe_short_take_capture_v1",
   "max_chars": 500,
   "provider_facing_substitutions": {
@@ -23,7 +23,11 @@
       "transcript": "The Guild had not gotten smaller.\n\nI had gotten used to larger rooms.\n\nThat distinction took almost the length of the entrance hall to arrive.\n\nWet leather. Cheap lamp oil. Metal polish. Too many people who believed coming back alive qualified them to shout indoors.\n\nYes. The old Carrow Guild.\n\nContract boards on the far wall. Bronze left. Silver farther in. Gold behind a waist-high rail I remembered not existing later.\n\nGold.\n\n",
       "preview_transcript": "The Guild had not gotten smaller.\n\nI had gotten used to larger rooms.\n\nThat distinction took almost the length of the entrance hall to arrive.\n\nWet leather. Cheap lamp oil. Metal polish. Too many people who believed coming back alive qualified them to shout indoors.\n\nYes. The old Carrow Guild.\n\nContract boards on the far wall. Bronze left. Silver farther in. Gold behind a waist-high rail I remembered not existing later.\n\nGold.\n\n",
       "context_id": "8582eea317574c10a6cc977a0cc54483",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60922234-c98d-4b0a-9c0b-ec52e6719aa3.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/60922234-c98d-4b0a-9c0b-ec52e6719aa3.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/01.mp3",
+      "byte_size": 418944,
+      "audio_sha256": "466320c15b30171d5e92062f5e456fe14f16f7119e087628cc91682a47c1804d",
+      "duration_seconds": 26.184
     },
     {
       "order": 2,
@@ -31,7 +35,11 @@
       "transcript": "There had been a time when that rail mattered to me. Later, people moved when I walked through rooms like this.\n\nNow a courier nearly hit me with a bundle of forms and made it very clear I was standing in his way.\n\nI moved.\n\nGood start.\n\nThe clerk behind the front desk had ink on two fingers and the expression of someone who had already explained the same rule six times that morning.\n\nYoung. Not that young. Twenty-two, maybe.\n\nI knew her.\n\n",
       "preview_transcript": "There had been a time when that rail mattered to me. Later, people moved when I walked through rooms like this.\n\nNow a courier nearly hit me with a bundle of forms and made it very clear I was standing in his way.\n\nI moved.\n\nGood start.\n\nThe clerk behind the front desk had ink on two fingers and the expression of someone who had already explained the same rule six times that morning.\n\nYoung. Not that young. Twenty-two, maybe.\n\nI knew her.\n\n",
       "context_id": "7f258737c917482cbd6e4d1da930ed18",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/641470d4-9068-464d-8465-b87f57148ac2.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/641470d4-9068-464d-8465-b87f57148ac2.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/02.mp3",
+      "byte_size": 433536,
+      "audio_sha256": "e58e40829b754916d8239a1c0ab853457f302fe0aaa403fbaa489d9211f0d12a",
+      "duration_seconds": 27.096
     },
     {
       "order": 3,
@@ -39,7 +47,11 @@
       "transcript": "That was becoming an unpleasant sentence.\n\nNot personally. Not yet.\n\nFuture Sella had run half this building through a combination of memory, threat, filing systems, and the ability to make adventurers feel ashamed of wasting her paper.\n\nPresent Sella had one loose strand of hair stuck to her cheek and a Bronze fighter discovering, under her supervision, that forms had backs.\n\nHe had signed the front. The declaration was on the back. ",
       "preview_transcript": "That was becoming an unpleasant sentence.\n\nNot personally. Not yet.\n\nFuture Sella had run half this building through a combination of memory, threat, filing systems, and the ability to make adventurers feel ashamed of wasting her paper.\n\nPresent Sella had one loose strand of hair stuck to her cheek and a Bronze fighter discovering, under her supervision, that forms had backs.\n\nHe had signed the front. The declaration was on the back. ",
       "context_id": "c97a7678eccb4bd3808275b2295f0107",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/125adc07-171d-418d-b06c-a35e6124ec35.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/125adc07-171d-418d-b06c-a35e6124ec35.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/03.mp3",
+      "byte_size": 430848,
+      "audio_sha256": "4c07d0c0d440fcd9da7709a4c1a1bfeb6dd156c674ca17e83a68315eadc5d806",
+      "duration_seconds": 26.928
     },
     {
       "order": 4,
@@ -47,7 +59,11 @@
       "transcript": "He objected to this arrangement as though Sella had invented two-sided paper specifically to hurt him.\n\nSella indicated the arrow telling him to turn the page over.\n\nHe considered the arrow too small.\n\nI laughed.\n\nDamn it.\n\nBoth of them looked at me.\n\nI apologized.\n\nSella wanted to know what I needed.\n\nSeveral answers arrived at once. Proof that time had moved backward. An explanation for why my ma-na barely answered. A list of future dead people. Training. Money. ",
       "preview_transcript": "He objected to this arrangement as though Sella had invented two-sided paper specifically to hurt him.\n\nSella indicated the arrow telling him to turn the page over.\n\nHe considered the arrow too small.\n\nI laughed.\n\nDamn it.\n\nBoth of them looked at me.\n\nI apologized.\n\nSella wanted to know what I needed.\n\nSeveral answers arrived at once. Proof that time had moved backward. An explanation for why my ma-na barely answered. A list of future dead people. Training. Money. ",
       "context_id": "9d5395a183ed45f3895bd18403116dc1",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/efb0ca16-2a33-471f-ac36-49f92adf076b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/efb0ca16-2a33-471f-ac36-49f92adf076b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/04.mp3",
+      "byte_size": 455040,
+      "audio_sha256": "8145b847d0655ffa8877480816584e9b8c5c67f8bf28780bec6d8d9c74738044",
+      "duration_seconds": 28.44
     },
     {
       "order": 5,
@@ -55,7 +71,11 @@
       "transcript": "A better sword. Someone to tell me I was not losing my mind.\n\nToo much.\n\nI put the Bronze token on the counter and asked what it currently got me.\n\nThat word caught her.\n\nCurrently.\n\nShe turned the token over and gave me the list. Basic yard access. Contract board. Guild beds if available. Discounted healer. One assessment each quarter.\n\nApparently I had missed my last one.\n\nProbably.\n\nTraining yard included. Instructors not included. ",
       "preview_transcript": "A better sword. Someone to tell me I was not losing my mind.\n\nToo much.\n\nI put the Bronze token on the counter and asked what it currently got me.\n\nThat word caught her.\n\nCurrently.\n\nShe turned the token over and gave me the list. Basic yard access. Contract board. Guild beds if available. Discounted healer. One assessment each quarter.\n\nApparently I had missed my last one.\n\nProbably.\n\nTraining yard included. Instructors not included. ",
       "context_id": "81d1aee30a6d4a99a8dd574a9a5b3ac7",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/33eed708-b687-4fb9-a995-024d88fb490b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/33eed708-b687-4fb9-a995-024d88fb490b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/05.mp3",
+      "byte_size": 423168,
+      "audio_sha256": "40bb095886eca247212744b00c0efed7188224037dd4e74f0681205aeeda47db",
+      "duration_seconds": 26.448
     },
     {
       "order": 6,
@@ -63,7 +83,11 @@
       "transcript": "Rates posted on the board three feet to my right.\n\nI had walked past it.\n\nOf course I had.\n\nI read the prices.\n\nThen read them again.\n\nObscene.\n\nOne silver for instruction.\n\nSella looked at my coat. Then my sword. Then me.\n\nSomething happened behind her eyes.\n\nThree copper.\n\nShe had somehow landed on three copper.\n\nI stared at her.\n\nWhy three?\n\n\"You have the face.\"\n\nThere.\n\n",
       "preview_transcript": "Rates posted on the board three feet to my right.\n\nI had walked past it.\n\nOf course I had.\n\nI read the prices.\n\nThen read them again.\n\nObscene.\n\nOne silver for instruction.\n\nSella looked at my coat. Then my sword. Then me.\n\nSomething happened behind her eyes.\n\nThree copper.\n\nShe had somehow landed on three copper.\n\nI stared at her.\n\nWhy three?\n\n\"You have the face.\"\n\nThere.\n\n",
       "context_id": "160d9bf2288f446ea8dd081134f213fc",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/64594b08-7700-4695-adfd-cb1c05398c09.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/64594b08-7700-4695-adfd-cb1c05398c09.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/06.mp3",
+      "byte_size": 350976,
+      "audio_sha256": "61c82464bd6fa24e28f4c6e43b38056b592e520b513061ae7f581687ab052892",
+      "duration_seconds": 21.936
     },
     {
       "order": 7,
@@ -71,7 +95,11 @@
       "transcript": "Apparently I had spent fifty-nine years acquiring expertise and several expressions everybody else had been cataloguing without permission.\n\nI informed her I had enough.\n\nThree copper.\n\nEnough for the yard.\n\nWhich was free.\n\nExactly.\n\nShe gave the token back and ended the conversation by looking past me.\n\nNext.\n\nI stayed.\n\nOne more thing. The date. Full date.\n\nThat finally got a longer look.\n\nThen she gave it to me.\n\nSame year as the notices. ",
       "preview_transcript": "Apparently I had spent fifty-nine years acquiring expertise and several expressions everybody else had been cataloguing without permission.\n\nI informed her I had enough.\n\nThree copper.\n\nEnough for the yard.\n\nWhich was free.\n\nExactly.\n\nShe gave the token back and ended the conversation by looking past me.\n\nNext.\n\nI stayed.\n\nOne more thing. The date. Full date.\n\nThat finally got a longer look.\n\nThen she gave it to me.\n\nSame year as the notices. ",
       "context_id": "ff84c90b81d7425095beb733cdbef808",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a63297ef-2288-4371-90a5-8e0df2707491.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a63297ef-2288-4371-90a5-8e0df2707491.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/07.mp3",
+      "byte_size": 427776,
+      "audio_sha256": "9dcf9522fdc44a5a03bac3e90c7ca65c98068db0ff1bec0100e51c5554454500",
+      "duration_seconds": 26.736
     },
     {
       "order": 8,
@@ -79,7 +107,11 @@
       "transcript": "Same year as Mara's letter. Same year as the face I had been trying not to touch every ten minutes.\n\nMy stomach turned over once.\n\nSella had already looked down at the next form.\n\nFor her it was Tuesday.\n\nThat helped.\n\nI stepped away from the counter.\n\nThe Bronze board was full. Rat-cellar clearances. Road escorts. Two crop-guard jobs outside the south wall. Missing pack lizard. Saltback infestation.\n\n",
       "preview_transcript": "Same year as Mara's letter. Same year as the face I had been trying not to touch every ten minutes.\n\nMy stomach turned over once.\n\nSella had already looked down at the next form.\n\nFor her it was Tuesday.\n\nThat helped.\n\nI stepped away from the counter.\n\nThe Bronze board was full. Rat-cellar clearances. Road escorts. Two crop-guard jobs outside the south wall. Missing pack lizard. Saltback infestation.\n\n",
       "context_id": "1bbcd6b065eb4e64a5aa42da820d14e2",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a03d3516-5408-4e9f-9141-15068eeeac08.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a03d3516-5408-4e9f-9141-15068eeeac08.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/08.mp3",
+      "byte_size": 392448,
+      "audio_sha256": "780f29ccafd4cf7c87c5543d227fc3a0909e10abfc9efc0dace7ff98f0ebe3fb",
+      "duration_seconds": 24.528
     },
     {
       "order": 9,
@@ -87,7 +119,11 @@
       "transcript": "That one paid embarrassingly well until I remembered saltbacks reproduced in walls and excreted acid when frightened.\n\nNo.\n\nI had died enough times near acid without making it permanent.\n\nThe yard was behind the main hall.\n\nI heard it before I reached the doors. Wood striking wood. Boots in sand. Someone swearing. An instructor counting repetitions without any sympathy for whether the person performing them had stopped enjoying numbers.\n\n",
       "preview_transcript": "That one paid embarrassingly well until I remembered saltbacks reproduced in walls and excreted acid when frightened.\n\nNo.\n\nI had died enough times near acid without making it permanent.\n\nThe yard was behind the main hall.\n\nI heard it before I reached the doors. Wood striking wood. Boots in sand. Someone swearing. An instructor counting repetitions without any sympathy for whether the person performing them had stopped enjoying numbers.\n\n",
       "context_id": "f7734379c762409b8f71f72fff8ac59d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ddfb719a-d993-469e-b886-f89ce956f055.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ddfb719a-d993-469e-b886-f89ce956f055.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/09.mp3",
+      "byte_size": 434688,
+      "audio_sha256": "0717dfc691077bbb2276a3855de335c62a3a8bc14e5ad0a4b707cc4da93a98aa",
+      "duration_seconds": 27.168
     },
     {
       "order": 10,
@@ -95,7 +131,11 @@
       "transcript": "The sound hit harder than I expected.\n\nNot nostalgia.\n\nSomething closer to hunger.\n\nI pushed through the doors.\n\nThree practice lanes. Two spar-ring circles. Row of posts. Weapon racks. Sand dark where people had poured water over their heads.\n\nBronze fighters everywhere.\n\nBad guards. Big swings. Too much shoulder. Feet planted too wide. One boy turned his hips before every cut, announcing the attack to anyone with eyes.\n\nI saw all of it at once.\n\n",
       "preview_transcript": "The sound hit harder than I expected.\n\nNot nostalgia.\n\nSomething closer to hunger.\n\nI pushed through the doors.\n\nThree practice lanes. Two spar-ring circles. Row of posts. Weapon racks. Sand dark where people had poured water over their heads.\n\nBronze fighters everywhere.\n\nBad guards. Big swings. Too much shoulder. Feet planted too wide. One boy turned his hips before every cut, announcing the attack to anyone with eyes.\n\nI saw all of it at once.\n\n",
       "context_id": "47f459dc773949e5ae780fd8fd1e29f3",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d5329a0d-6d1a-4286-9a9c-9a474458b612.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d5329a0d-6d1a-4286-9a9c-9a474458b612.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/10.mp3",
+      "byte_size": 435456,
+      "audio_sha256": "2e3d3cbc6d8a77e3aae3c1cc64e890ab35d3abd6fbdee2b9cebaf9bacc1123de",
+      "duration_seconds": 27.216
     },
     {
       "order": 11,
@@ -103,7 +143,11 @@
       "transcript": "That was intoxicating.\n\nFor five minutes I became insufferable in complete silence.\n\nI knew so much.\n\nThe man on the nearest lane was wasting force. The woman with the shield stepped too deep. Two fighters in the back watched the weapon instead of the chest. A boy with a spear recovered his rear hand to exactly the same place every time.\n\nI could fix half this yard.\n\nProbably.\n\nMaybe.\n\nI picked up a wooden sword.\n\nThe first overhead cut pulled me forward. ",
       "preview_transcript": "That was intoxicating.\n\nFor five minutes I became insufferable in complete silence.\n\nI knew so much.\n\nThe man on the nearest lane was wasting force. The woman with the shield stepped too deep. Two fighters in the back watched the weapon instead of the chest. A boy with a spear recovered his rear hand to exactly the same place every time.\n\nI could fix half this yard.\n\nProbably.\n\nMaybe.\n\nI picked up a wooden sword.\n\nThe first overhead cut pulled me forward. ",
       "context_id": "ad2eb8ea39004c8283846635684bc919",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/267dbb84-c397-4bb1-8393-67b356f2fcb0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/267dbb84-c397-4bb1-8393-67b356f2fcb0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/11.mp3",
+      "byte_size": 446976,
+      "audio_sha256": "a3a44a9d9c61427047d9968f946e4e91a5a06b6412fc5003ef2445003e927c5f",
+      "duration_seconds": 27.936
     },
     {
       "order": 12,
@@ -111,7 +155,11 @@
       "transcript": "Less than this morning. Still enough.\n\nReset.\n\nAgain.\n\nRear foot late.\n\nAgain.\n\nThink shoulder. Hips get worse. Think hips. Grip tightens. Loosen grip. Left foot apparently resigns from the project.\n\nBy the tenth repetition I had successfully improved four separate pieces of the movement and made the movement itself worse.\n\nA voice behind me cut across the committee meeting in my head.\n\n\"You trying to fight or assemble furniture?\"\n\nI turned.\n\nFaded Silver leathers. ",
       "preview_transcript": "Less than this morning. Still enough.\n\nReset.\n\nAgain.\n\nRear foot late.\n\nAgain.\n\nThink shoulder. Hips get worse. Think hips. Grip tightens. Loosen grip. Left foot apparently resigns from the project.\n\nBy the tenth repetition I had successfully improved four separate pieces of the movement and made the movement itself worse.\n\nA voice behind me cut across the committee meeting in my head.\n\n\"You trying to fight or assemble furniture?\"\n\nI turned.\n\nFaded Silver leathers. ",
       "context_id": "5dc308fb649b434a86cfdc0e846439e6",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e741e6b7-334e-4ad1-a341-f23f1ca2385b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e741e6b7-334e-4ad1-a341-f23f1ca2385b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/12.mp3",
+      "byte_size": 451200,
+      "audio_sha256": "778b06770ff258a00d58e05eacca1968e247a88c1210b526c5aa85da870bcd10",
+      "duration_seconds": 28.2
     },
     {
       "order": 13,
@@ -119,7 +167,11 @@
       "transcript": "One side of her head shaved close, the other tied back.\n\nI did not recognize her.\n\nGood.\n\nShe pointed at my feet with a stick and wanted another cut.\n\nI gave her one.\n\nToo much.\n\nWhich part?\n\nAll of me, apparently.\n\nI wanted specificity.\n\n\"You want specific, pay me.\"\n\nFair.\n\nShe moved on.\n\nThree words for the next fighter. Heel down. Again.\n\nBetter.\n\nThree for another. Stop reaching. Again.\n\nBetter.\n\nI looked at my sword.\n\n",
       "preview_transcript": "One side of her head shaved close, the other tied back.\n\nI did not recognize her.\n\nGood.\n\nShe pointed at my feet with a stick and wanted another cut.\n\nI gave her one.\n\nToo much.\n\nWhich part?\n\nAll of me, apparently.\n\nI wanted specificity.\n\n\"You want specific, pay me.\"\n\nFair.\n\nShe moved on.\n\nThree words for the next fighter. Heel down. Again.\n\nBetter.\n\nThree for another. Stop reaching. Again.\n\nBetter.\n\nI looked at my sword.\n\n",
       "context_id": "8fa5f7a0e1ba4af3959f59be0bbfda3d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/938af46f-d7c1-4f69-9415-ac3a3c62372c.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/938af46f-d7c1-4f69-9415-ac3a3c62372c.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/13.mp3",
+      "byte_size": 391680,
+      "audio_sha256": "9264ce6cd31bc0082e0bcdb079773524fc0474709779459d2a58ced692098fce",
+      "duration_seconds": 24.48
     },
     {
       "order": 14,
@@ -127,7 +179,11 @@
       "transcript": "There were too many things I could work on.\n\nThat was the problem.\n\nI waited until she passed again and bought one question with the dignity I still had left.\n\nIf she had a beginner for a month and could give him one attack and one way not to get hit, what would she choose?\n\nThat stopped her.\n\nWhy only two?\n\nBecause I was currently bad at twenty.\n\nShe looked me over.\n\nOverhead cut. Side step.\n\nI almost objected.\n\nOverhead cut was obvious. ",
       "preview_transcript": "There were too many things I could work on.\n\nThat was the problem.\n\nI waited until she passed again and bought one question with the dignity I still had left.\n\nIf she had a beginner for a month and could give him one attack and one way not to get hit, what would she choose?\n\nThat stopped her.\n\nWhy only two?\n\nBecause I was currently bad at twenty.\n\nShe looked me over.\n\nOverhead cut. Side step.\n\nI almost objected.\n\nOverhead cut was obvious. ",
       "context_id": "0a7f8f7886d744b880e9c343d86c5501",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/af70aeef-0506-4f41-92b5-b8ccb4541fe1.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/af70aeef-0506-4f41-92b5-b8ccb4541fe1.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/14.mp3",
+      "byte_size": 415872,
+      "audio_sha256": "34277fe0b5ee9ae1b89e2054584fcf497e2e9b1004752e73f6164a26bc15e468",
+      "duration_seconds": 25.992
     },
     {
       "order": 15,
@@ -135,7 +191,11 @@
       "transcript": "Side step was barely a technique.\n\nWhich was probably why the answer irritated me.\n\nWhich side?\n\nBoth.\n\nThat was three things.\n\nShe stared at me until arithmetic became my problem.\n\nFine.\n\nOverhead.\n\nNo flourish. No transition. No clever change of angle.\n\nRaise. Cut. Recover.\n\nAgain.\n\nAgain.\n\nAgain.\n\nMy shoulder started burning before I learned anything profound.\n\nGood.\n\nI put the sword down and practiced stepping.\n\nSmall movement. Enough to leave the line.\n\n",
       "preview_transcript": "Side step was barely a technique.\n\nWhich was probably why the answer irritated me.\n\nWhich side?\n\nBoth.\n\nThat was three things.\n\nShe stared at me until arithmetic became my problem.\n\nFine.\n\nOverhead.\n\nNo flourish. No transition. No clever change of angle.\n\nRaise. Cut. Recover.\n\nAgain.\n\nAgain.\n\nAgain.\n\nMy shoulder started burning before I learned anything profound.\n\nGood.\n\nI put the sword down and practiced stepping.\n\nSmall movement. Enough to leave the line.\n\n",
       "context_id": "feb6d311e07d469db09854de8b8c2bca",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/19949b03-bfa5-47b6-b7b9-68af6d6674f3.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/19949b03-bfa5-47b6-b7b9-68af6d6674f3.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/15.mp3",
+      "byte_size": 430080,
+      "audio_sha256": "827a44e8f5ac4bc472bccce673a5fab6538a936d456b2905680bbc65e82088e8",
+      "duration_seconds": 26.88
     },
     {
       "order": 16,
@@ -143,7 +203,11 @@
       "transcript": "Elite fighters made it look like almost nothing. A shift of weight and suddenly the attack had missed by the width of a hand.\n\nMine looked like I had remembered an appointment somewhere else.\n\nToo far.\n\nAgain.\n\nFeet crossed.\n\nAgain.\n\nToo slow.\n\nAgain.\n\nBetter.\n\nA training sword touched my ribs.\n\nI flinched and turned.\n\nBroad through the chest. Maybe twenty. Practice blade in one hand. Expression of someone who had been waiting to see whether I noticed him.\n\n",
       "preview_transcript": "Elite fighters made it look like almost nothing. A shift of weight and suddenly the attack had missed by the width of a hand.\n\nMine looked like I had remembered an appointment somewhere else.\n\nToo far.\n\nAgain.\n\nFeet crossed.\n\nAgain.\n\nToo slow.\n\nAgain.\n\nBetter.\n\nA training sword touched my ribs.\n\nI flinched and turned.\n\nBroad through the chest. Maybe twenty. Practice blade in one hand. Expression of someone who had been waiting to see whether I noticed him.\n\n",
       "context_id": "ffa1f0793b044522a181d2aa698090e1",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c2dc6ce0-77b3-48be-86dd-f9a087d23550.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c2dc6ce0-77b3-48be-86dd-f9a087d23550.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/16.mp3",
+      "byte_size": 443136,
+      "audio_sha256": "dda322cbbf8b162b47dddc70b6327c3cabe9987cfcc2a6a368912dd471c4cd3e",
+      "duration_seconds": 27.696
     },
     {
       "order": 17,
@@ -151,7 +215,11 @@
       "transcript": "I had been stepping without anybody attacking me.\n\nHe had noticed the flaw in that arrangement.\n\nI disliked him immediately because he was correct.\n\nI told him to hit me again.\n\nThat surprised him.\n\nSame line.\n\nHe shrugged, then swung.\n\nI saw the shoulder load. Saw his weight shift. Saw exactly where the blade would pass.\n\nMy brain supplied the answer before the sword moved.\n\nSide step.\n\nMy body supplied it afterward.\n\n",
       "preview_transcript": "I had been stepping without anybody attacking me.\n\nHe had noticed the flaw in that arrangement.\n\nI disliked him immediately because he was correct.\n\nI told him to hit me again.\n\nThat surprised him.\n\nSame line.\n\nHe shrugged, then swung.\n\nI saw the shoulder load. Saw his weight shift. Saw exactly where the blade would pass.\n\nMy brain supplied the answer before the sword moved.\n\nSide step.\n\nMy body supplied it afterward.\n\n",
       "context_id": "e8a0eece819c4cdeb04837675beb55cf",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6f176691-59b1-4ab9-88ae-b0b9a1bd44e8.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6f176691-59b1-4ab9-88ae-b0b9a1bd44e8.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/17.mp3",
+      "byte_size": 405504,
+      "audio_sha256": "bfa28b4bf02ce114856ac9961e1721c2f0d78fa7380092649c104bd0de4232de",
+      "duration_seconds": 25.344
     },
     {
       "order": 18,
@@ -159,7 +227,11 @@
       "transcript": "The wooden blade hit my ribs hard enough to sting.\n\nHe laughed.\n\nAgain. Same line.\n\nHe hit me again.\n\nThis time I moved early.\n\nToo early.\n\nHe changed the cut and hit my shoulder.\n\nI looked at him.\n\nHe grinned.\n\n\"You said same line.\"\n\nI accused him of lying.\n\n\"We're practicing fighting.\"\n\nFair again.\n\nHis name was Jorren.\n\nDistinct enough.\n\nI gave him mine.\n\nHe already knew. Sella had not exactly been whispering.\n\nOf course.\n\nHe lifted the sword.\n\nAgain?\n\n",
       "preview_transcript": "The wooden blade hit my ribs hard enough to sting.\n\nHe laughed.\n\nAgain. Same line.\n\nHe hit me again.\n\nThis time I moved early.\n\nToo early.\n\nHe changed the cut and hit my shoulder.\n\nI looked at him.\n\nHe grinned.\n\n\"You said same line.\"\n\nI accused him of lying.\n\n\"We're practicing fighting.\"\n\nFair again.\n\nHis name was Jorren.\n\nDistinct enough.\n\nI gave him mine.\n\nHe already knew. Sella had not exactly been whispering.\n\nOf course.\n\nHe lifted the sword.\n\nAgain?\n\n",
       "context_id": "d5976d1d059544daafd972f390c8efdb",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5e528ba0-a542-4394-be05-2454f89811d4.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5e528ba0-a542-4394-be05-2454f89811d4.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/18.mp3",
+      "byte_size": 419328,
+      "audio_sha256": "4eeca7cbf63b3978857c18cb49fe9d13c7d9368bffdf68acb68015edeccaa1fb",
+      "duration_seconds": 26.208
     },
     {
       "order": 19,
@@ -167,7 +239,11 @@
       "transcript": "I should have said no.\n\nI had already decided on deliberate practice. Narrow scope. One attack. One evasion. Repetition before complexity.\n\nExcellent plan.\n\nThen Jorren smiled like he thought he was better than me.\n\nAgain.\n\nWe went for perhaps four minutes.\n\nI learned several useful things.\n\nFirst, Jorren was better than me.\n\nNot dramatically. Bronze. Same broad collection of beginner tools I remembered having at that age.\n\nDifference was his body knew them now.\n\n",
       "preview_transcript": "I should have said no.\n\nI had already decided on deliberate practice. Narrow scope. One attack. One evasion. Repetition before complexity.\n\nExcellent plan.\n\nThen Jorren smiled like he thought he was better than me.\n\nAgain.\n\nWe went for perhaps four minutes.\n\nI learned several useful things.\n\nFirst, Jorren was better than me.\n\nNot dramatically. Bronze. Same broad collection of beginner tools I remembered having at that age.\n\nDifference was his body knew them now.\n\n",
       "context_id": "51708bd37db24e928c7004ad6a1e0729",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7eb09627-c6f0-4811-a37a-e318fc6cfcad.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7eb09627-c6f0-4811-a37a-e318fc6cfcad.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/19.mp3",
+      "byte_size": 448128,
+      "audio_sha256": "6e87eb2942c79e94c7e9f0023627568912eed5170a4b445e59d9d59ebb7321c5",
+      "duration_seconds": 28.008
     },
     {
       "order": 20,
@@ -175,7 +251,11 @@
       "transcript": "Guard. Step. Cut. Recover.\n\nNo committee meetings with his ankles.\n\nSecond, I could read him. Right shoulder tightened before a committed cut. Breath in before changing direction. Pressure his sword side and his first answer was usually backward.\n\nThird, knowing those things was not the same as having an answer to them.\n\nI made him miss twice. Once because I stepped correctly. Once because he slipped.\n\nI preferred the first.\n\nHe hit me six times.\n\n",
       "preview_transcript": "Guard. Step. Cut. Recover.\n\nNo committee meetings with his ankles.\n\nSecond, I could read him. Right shoulder tightened before a committed cut. Breath in before changing direction. Pressure his sword side and his first answer was usually backward.\n\nThird, knowing those things was not the same as having an answer to them.\n\nI made him miss twice. Once because I stepped correctly. Once because he slipped.\n\nI preferred the first.\n\nHe hit me six times.\n\n",
       "context_id": "a016bf9082f94197a209c0e4555f78b5",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/78671803-09bf-4aa1-ba2b-ad618322baf8.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/78671803-09bf-4aa1-ba2b-ad618322baf8.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/20.mp3",
+      "byte_size": 436224,
+      "audio_sha256": "b6b24d8523c720acb8c708059c52ddffd8a86bfb50e9df38400bb1dc8416d5e6",
+      "duration_seconds": 27.264
     },
     {
       "order": 21,
@@ -183,7 +263,11 @@
       "transcript": "One of them I saw so early that I became offended before it landed.\n\nThat was new.\n\nLast exchange.\n\nShoulder tightened. Heavy cut.\n\nI stepped outside.\n\nCorrectly.\n\nFor once, beautifully.\n\nHis blade missed.\n\nOpening.\n\nI knew exactly what a good swordsman would do with it.\n\nSo naturally I attempted something that was not an overhead cut.\n\nMy sword wandered sideways through an ugly little counter I had not practiced once.\n\n",
       "preview_transcript": "One of them I saw so early that I became offended before it landed.\n\nThat was new.\n\nLast exchange.\n\nShoulder tightened. Heavy cut.\n\nI stepped outside.\n\nCorrectly.\n\nFor once, beautifully.\n\nHis blade missed.\n\nOpening.\n\nI knew exactly what a good swordsman would do with it.\n\nSo naturally I attempted something that was not an overhead cut.\n\nMy sword wandered sideways through an ugly little counter I had not practiced once.\n\n",
       "context_id": "3d2b4abd31654e6ea3bc4966b99af191",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/67e53113-b949-466a-8d86-cfa799007e01.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/67e53113-b949-466a-8d86-cfa799007e01.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/21.mp3",
+      "byte_size": 402048,
+      "audio_sha256": "76f42120e722a7b6435412bbe166bef7060b503c7c34d7fe48526c91bda1ab3c",
+      "duration_seconds": 25.128
     },
     {
       "order": 22,
@@ -191,7 +275,11 @@
       "transcript": "Jorren recovered before I did and tapped my forehead.\n\n\"Dead.\"\n\nI stood there.\n\nHe wanted to know what that had been.\n\nAmbition.\n\nThat got him.\n\nMe too.\n\nThen my ribs started hurting where he had hit me the first time.\n\nThat ended the lesson better than wisdom would have.\n\nI returned the practice sword.\n\nAcross the yard, Sella was holding a short baton.\n\nThat made me stop.\n\nThree guild clerks. A porter. A woman from the healer desk. ",
       "preview_transcript": "Jorren recovered before I did and tapped my forehead.\n\n\"Dead.\"\n\nI stood there.\n\nHe wanted to know what that had been.\n\nAmbition.\n\nThat got him.\n\nMe too.\n\nThen my ribs started hurting where he had hit me the first time.\n\nThat ended the lesson better than wisdom would have.\n\nI returned the practice sword.\n\nAcross the yard, Sella was holding a short baton.\n\nThat made me stop.\n\nThree guild clerks. A porter. A woman from the healer desk. ",
       "context_id": "c692235344f5443ca1882ab1fe8bf582",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e9539c60-8280-4a2f-8793-4b17b7e98aa0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e9539c60-8280-4a2f-8793-4b17b7e98aa0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/22.mp3",
+      "byte_size": 417024,
+      "audio_sha256": "058d3384d075c5f5948a0afcf9be13444156a0157aa9490c16b1c1073fc81f85",
+      "duration_seconds": 26.064
     },
     {
       "order": 23,
@@ -199,7 +287,11 @@
       "transcript": "Sella in line with them while the Silver instructor moved down the row.\n\nGuild staff drill.\n\nJorren supplied that much without being asked.\n\nI had forgotten those existed.\n\nSince when?\n\nHis face answered before he did.\n\nSince always, apparently.\n\nRight.\n\nPresent knowledge.\n\nThe instructor swung a padded stick at Sella's shoulder.\n\nSella stepped aside.\n\nSmall. Clean. No wasted distance.\n\nThe stick missed by inches.\n\nShe returned to position.\n\n",
       "preview_transcript": "Sella in line with them while the Silver instructor moved down the row.\n\nGuild staff drill.\n\nJorren supplied that much without being asked.\n\nI had forgotten those existed.\n\nSince when?\n\nHis face answered before he did.\n\nSince always, apparently.\n\nRight.\n\nPresent knowledge.\n\nThe instructor swung a padded stick at Sella's shoulder.\n\nSella stepped aside.\n\nSmall. Clean. No wasted distance.\n\nThe stick missed by inches.\n\nShe returned to position.\n\n",
       "context_id": "cf80acbd36564950ab2c905f3c5de1e8",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/78da06e7-fa42-417b-b049-f8bf0b4ef796.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/78da06e7-fa42-417b-b049-f8bf0b4ef796.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/23.mp3",
+      "byte_size": 422784,
+      "audio_sha256": "d9444d80a8a38ff7c4b813ee874fd5538f125a6ac6ed1fe1b8be830709f7ecba",
+      "duration_seconds": 26.424
     },
     {
       "order": 24,
@@ -207,7 +299,11 @@
       "transcript": "One nod from the instructor.\n\nI stared.\n\nJorren followed my eyes.\n\nDid I know her?\n\nEventually.\n\nNo.\n\nWrong answer.\n\nSella stepped again.\n\nClean again.\n\nNo theory. No visible existential crisis about foot placement.\n\nJust a woman following a basic instruction because the Guild required her to do it twice a month.\n\nI felt something petty wake up in me.\n\nUseful information.\n\nHow long had she been doing that?\n\nMonths.\n\nNo reason.\n\nSella caught me looking.\n\n",
       "preview_transcript": "One nod from the instructor.\n\nI stared.\n\nJorren followed my eyes.\n\nDid I know her?\n\nEventually.\n\nNo.\n\nWrong answer.\n\nSella stepped again.\n\nClean again.\n\nNo theory. No visible existential crisis about foot placement.\n\nJust a woman following a basic instruction because the Guild required her to do it twice a month.\n\nI felt something petty wake up in me.\n\nUseful information.\n\nHow long had she been doing that?\n\nMonths.\n\nNo reason.\n\nSella caught me looking.\n\n",
       "context_id": "dd73164544c2401bb018c8ecc1dca0bc",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3a38e549-8e2a-4d67-ad38-666b1b644209.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3a38e549-8e2a-4d67-ad38-666b1b644209.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/24.mp3",
+      "byte_size": 428544,
+      "audio_sha256": "1206775acbf8497766058d8433054c262a6a1e090437ceb65af647faab6d27ce",
+      "duration_seconds": 26.784
     },
     {
       "order": 25,
@@ -215,7 +311,11 @@
       "transcript": "Her face said she already had enough work.\n\nI looked away first.\n\nInteresting.\n\nThe yard bell rang.\n\nMy free hour was over.\n\nI had accomplished less than I expected and learned more than I wanted.\n\nAt the desk, Sella held out her hand.\n\nToken.\n\nI gave it to her.\n\nShe stamped the register and informed me the next free yard block was in six days.\n\nSix.\n\nBronze basic access.\n\nI needed daily.\n\n\"Then pay.\"\n\nThere it was.\n\nOne silver for instruction. ",
       "preview_transcript": "Her face said she already had enough work.\n\nI looked away first.\n\nInteresting.\n\nThe yard bell rang.\n\nMy free hour was over.\n\nI had accomplished less than I expected and learned more than I wanted.\n\nAt the desk, Sella held out her hand.\n\nToken.\n\nI gave it to her.\n\nShe stamped the register and informed me the next free yard block was in six days.\n\nSix.\n\nBronze basic access.\n\nI needed daily.\n\n\"Then pay.\"\n\nThere it was.\n\nOne silver for instruction. ",
       "context_id": "f14d196983ed43d1b806ff5da6c80af4",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4eeb05cf-1ffb-45ce-947a-1305ee379e91.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4eeb05cf-1ffb-45ce-947a-1305ee379e91.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/25.mp3",
+      "byte_size": 425088,
+      "audio_sha256": "c97274fa97945e7250480e5f83f88fa6543d073b89a8de733fcd22e264d2eca7",
+      "duration_seconds": 26.568
     },
     {
       "order": 26,
@@ -223,7 +323,11 @@
       "transcript": "Copper for additional yard blocks. More for practice gear if I broke anything. More for healer access. More for food if I wanted the body to recover properly.\n\nMa-na conditioning would cost too, once I found someone willing to teach a nineteen-year-old whose ma-na currently answered like a sleepy cat.\n\nI had three copper this morning.\n\nTwo now, after breakfast.\n\nCheaper yard?\n\nOutside.\n\nPosts?\n\nTrees.\n\nLevel ground?\n\nMostly.\n\nWould anyone complain if I hit them?\n\n",
       "preview_transcript": "Copper for additional yard blocks. More for practice gear if I broke anything. More for healer access. More for food if I wanted the body to recover properly.\n\nMa-na conditioning would cost too, once I found someone willing to teach a nineteen-year-old whose ma-na currently answered like a sleepy cat.\n\nI had three copper this morning.\n\nTwo now, after breakfast.\n\nCheaper yard?\n\nOutside.\n\nPosts?\n\nTrees.\n\nLevel ground?\n\nMostly.\n\nWould anyone complain if I hit them?\n\n",
       "context_id": "81fefe3602c74e42b4aace203e9936fa",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/137076b7-62a9-479b-b5fb-d7400a02e21e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/137076b7-62a9-479b-b5fb-d7400a02e21e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/26.mp3",
+      "byte_size": 450048,
+      "audio_sha256": "58e52054f2db496e8d4644245f9f0e8e9ec3b7b8c2a7bb9031333368d34d4ec3",
+      "duration_seconds": 28.128
     },
     {
       "order": 27,
@@ -231,7 +335,11 @@
       "transcript": "Sella looked at me.\n\nThe trees, probably not.\n\nPeople depended on my accuracy.\n\nThat was almost a joke.\n\nFuture Sella existed in there somewhere.\n\nPresent Sella had already reached for the next form.\n\nI left.\n\nOutside the Guild, under the red-tiled roof, I inventoried the problem.\n\nTraining cost money. Magic would cost money. Food cost money.\n\nApparently being young again had not removed the world's commitment to invoices.\n\nFine.\n\nI had future knowledge.\n\n",
       "preview_transcript": "Sella looked at me.\n\nThe trees, probably not.\n\nPeople depended on my accuracy.\n\nThat was almost a joke.\n\nFuture Sella existed in there somewhere.\n\nPresent Sella had already reached for the next form.\n\nI left.\n\nOutside the Guild, under the red-tiled roof, I inventoried the problem.\n\nTraining cost money. Magic would cost money. Food cost money.\n\nApparently being young again had not removed the world's commitment to invoices.\n\nFine.\n\nI had future knowledge.\n\n",
       "context_id": "fbab347a37d9450abcced293c00332df",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f8f12162-0ebe-408d-abf5-5ccdd772e1f0.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f8f12162-0ebe-408d-abf5-5ccdd772e1f0.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/27.mp3",
+      "byte_size": 439680,
+      "audio_sha256": "92517f8beeba0755aad41ebe7262308e909fda172857dd636edf05cb2a8f1114",
+      "duration_seconds": 27.48
     },
     {
       "order": 28,
@@ -239,7 +347,11 @@
       "transcript": "Not answers.\n\nLeads.\n\nSomewhere in Carrow was something cheap now that became expensive later. Something useful nobody understood yet. A person before they became important. A process before anyone bothered to fix it.\n\nI could find one.\n\nI had done harder things.\n\nThat confidence returned easily.\n\nToo easily.\n\nI noticed that.\n\nThen ignored it.\n\nOn the walk toward the east market, I practiced the side step every time nobody was close enough to see.\n\n",
       "preview_transcript": "Not answers.\n\nLeads.\n\nSomewhere in Carrow was something cheap now that became expensive later. Something useful nobody understood yet. A person before they became important. A process before anyone bothered to fix it.\n\nI could find one.\n\nI had done harder things.\n\nThat confidence returned easily.\n\nToo easily.\n\nI noticed that.\n\nThen ignored it.\n\nOn the walk toward the east market, I practiced the side step every time nobody was close enough to see.\n\n",
       "context_id": "d4ff055301364e5e819a21c1f16297ba",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6ff36cb0-7405-40b4-874a-edc533b654e2.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6ff36cb0-7405-40b4-874a-edc533b654e2.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/28.mp3",
+      "byte_size": 435840,
+      "audio_sha256": "24addd0fbd353c8b823927877b2a1f3df4c526b129e1f8da15898b226b57753a",
+      "duration_seconds": 27.24
     },
     {
       "order": 29,
@@ -247,8 +359,18 @@
       "transcript": "By the third street I nearly walked into a vegetable cart.\n\nThe merchant made his opinion of me available to the entire block.\n\nI kept going.\n\nTwo things.\n\nOverhead cut.\n\nSide step.\n\nMoney first.\n\nThen everything else...",
       "preview_transcript": "By the third street I nearly walked into a vegetable cart.\n\nThe merchant made his opinion of me available to the entire block.\n\nI kept going.\n\nTwo things.\n\nOverhead cut.\n\nSide step.\n\nMoney first.\n\nThen everything else...",
       "context_id": "f8c0fe1fcee640b4b78162db19626743",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4f2418b4-1ca1-4e8c-a1a8-b94322e83c30.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4f2418b4-1ca1-4e8c-a1a8-b94322e83c30.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/002-short/29.mp3",
+      "byte_size": 209280,
+      "audio_sha256": "c3dd6acb06a668884f94926024d869c049e7604fbb70bbf27e33c82b0d3194f5",
+      "duration_seconds": 13.08
     }
   ],
-  "captured_take_count": 29
+  "captured_take_count": 29,
+  "component_duration_seconds": 757.584,
+  "final_asset": "greg-again/audio/assets/light/chapter-002.mp3",
+  "final_byte_size": 6788301,
+  "final_audio_sha256": "b4125d5e75bbaf49784603b036beaeffde1751c15fb8bf18e9107472d5022553",
+  "final_duration_seconds": 759.648,
+  "settling_tail_seconds": 2.0
 }

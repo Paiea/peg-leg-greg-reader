@@ -23,10 +23,11 @@
       "title": "Two Things",
       "status": "experimental",
       "lens": "greg-dominant",
-      "take_count": 12,
-      "duration_seconds": 842.664,
-      "audio_src": "assets/chapter-002.mp3",
-      "note": "Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."
+      "take_count": 29,
+      "duration_seconds": 759.648,
+      "audio_src": "assets/light/chapter-002.mp3",
+      "note": "Audio Score Light Chapter 2 assembled from 29 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-003",
