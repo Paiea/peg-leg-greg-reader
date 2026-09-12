@@ -50,3 +50,19 @@ def test_light_materializer_preserves_written_body_exactly():
     assert rendered.split("\n---\n", 1)[1].strip() == "Wait, really?\n\nYes."
     assert "# Chapter 2: Two Things" in rendered
     assert "Word-level change: `0.00%`" in rendered
+
+
+def test_baseline_can_take_source_identity_from_manifest():
+    mod = load_validator()
+    source_path, source_sha = mod["resolve_source_identity"](
+        raw="# Chapter 2: Two Things\n\nStatus: source\n\n---\n\nBody\n",
+        chapter_id="002",
+        sources={
+            "002": {
+                "source": "r2/assets/written/ch002.md",
+                "source_blob_sha": "5304f99a6192d9ee73d5eb254990c5e63d0f284c",
+            }
+        },
+    )
+    assert source_path.as_posix() == "r2/assets/written/ch002.md"
+    assert source_sha == "5304f99a6192d9ee73d5eb254990c5e63d0f284c"
