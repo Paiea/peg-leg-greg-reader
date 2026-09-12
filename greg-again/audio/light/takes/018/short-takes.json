@@ -6,7 +6,7 @@
   "source": "r2/assets/audio-score-light/ch018.md",
   "source_blob_sha": "ce951843185a6a4c7e1f73c4b96c3dfec74bfcd6",
   "voice": "deep",
-  "status": "capture_ready",
+  "status": "durable_takes_verified_and_assembled",
   "factory": "preview_safe_short_take_capture_v1",
   "max_chars": 500,
   "provider_facing_substitutions": {
@@ -23,7 +23,11 @@
       "transcript": "The packet office opened before breakfast.\n\nI arrived before the packet office.\n\nThat was irritating.\n\nThe door was still barred from inside. A painted board beside it listed destinations, departure days, weight limits, and enough small exceptions to prove that written communication had developed bureaucracy before civilization had developed good coffee.\n\nHalden.\n\nSeventh-day packet.\n\nVey Shipping carried the river leg.\n\n",
       "preview_transcript": "The packet office opened before breakfast.\n\nI arrived before the packet office.\n\nThat was irritating.\n\nThe door was still barred from inside. A painted board beside it listed destinations, departure days, weight limits, and enough small exceptions to prove that written communication had developed bureaucracy before civilization had developed good coffee.\n\nHalden.\n\nSeventh-day packet.\n\nVey Shipping carried the river leg.\n\n",
       "context_id": "8c6063901c284d01a741901cf780a051",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/041dc40c-0e7a-49dc-abe3-3113328f9137.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/041dc40c-0e7a-49dc-abe3-3113328f9137.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/01.mp3",
+      "byte_size": 402048,
+      "audio_sha256": "3542bc66cf3e5f2d866f7cac186c89c00a8ee4a339c61700c6e1ff97a6af5aba",
+      "duration_seconds": 25.128
     },
     {
       "order": 2,
@@ -31,7 +35,11 @@
       "transcript": "Personal letters under one ounce went at the ordinary rate unless sealed for guaranteed delivery, insured for value, oversized, rerouted, held for signature, or addressed to someone important enough that ordinary rules became a personal insult.\n\nMara was not important enough for special postage.\n\nThat sounded worse than intended.\n\nGood.\n\nNormal postage.\n\nThe letter sat inside my coat.\n\nI checked once.\n\nStill there.\n\n",
       "preview_transcript": "Personal letters under one ounce went at the ordinary rate unless sealed for guaranteed delivery, insured for value, oversized, rerouted, held for signature, or addressed to someone important enough that ordinary rules became a personal insult.\n\nMara was not important enough for special postage.\n\nThat sounded worse than intended.\n\nGood.\n\nNormal postage.\n\nThe letter sat inside my coat.\n\nI checked once.\n\nStill there.\n\n",
       "context_id": "6868756949bb4138bf20365c5d522b38",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d9f268a3-4c2b-4abe-a7fa-42c225619067.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d9f268a3-4c2b-4abe-a7fa-42c225619067.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/02.mp3",
+      "byte_size": 406272,
+      "audio_sha256": "4ad2baba535ae975565dbd0f57eb768ba8e8950e2d8a979a3b1c1a4aa02d575e",
+      "duration_seconds": 25.392
     },
     {
       "order": 3,
@@ -39,7 +47,11 @@
       "transcript": "The packet clerk arrived carrying a ring of keys and bread folded inside paper.\n\nShe looked at me.\n\nThen at the door.\n\nThen back at me.\n\n\"We're closed.\"\n\n\"I noticed.\"\n\nShe considered this.\n\n\"You still standing here.\"\n\nAlso accurate.\n\nShe unlocked the door.\n\nI followed after her because apparently this counted as permission.\n\nThe office was smaller than the later Vey packet halls I remembered. One counter. Two wall maps. Canvas mail sacks hanging from hooks. ",
       "preview_transcript": "The packet clerk arrived carrying a ring of keys and bread folded inside paper.\n\nShe looked at me.\n\nThen at the door.\n\nThen back at me.\n\n\"We're closed.\"\n\n\"I noticed.\"\n\nShe considered this.\n\n\"You still standing here.\"\n\nAlso accurate.\n\nShe unlocked the door.\n\nI followed after her because apparently this counted as permission.\n\nThe office was smaller than the later Vey packet halls I remembered. One counter. Two wall maps. Canvas mail sacks hanging from hooks. ",
       "context_id": "c6e55dc690d44f2d97151d43d997b186",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/73a32df3-aa90-47c5-b8d6-867eb52ddc96.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/73a32df3-aa90-47c5-b8d6-867eb52ddc96.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/03.mp3",
+      "byte_size": 444288,
+      "audio_sha256": "d74c582db10e453a311cbc2bd2b5b465cd7eda038d15116b74eb681e31e829e5",
+      "duration_seconds": 27.768
     },
     {
       "order": 4,
@@ -47,7 +59,11 @@
       "transcript": "A brass scale with one foot shorter than the others and folded paper under it to compensate.\n\nPresent infrastructure.\n\nVery glamorous.\n\nThe clerk put her bread beside the ledger.\n\n\"Destination?\"\n\n\"Halden.\"\n\nI gave her the letter.\n\nThat was the first difficult part.\n\nNot writing it.\n\nThat had been worse.\n\nLetting someone else take it.\n\nThe page stopped belonging to my room the moment her fingers closed on the fold.\n\nShe weighed it.\n\nOne copper.\n\nI paid.\n\n",
       "preview_transcript": "A brass scale with one foot shorter than the others and folded paper under it to compensate.\n\nPresent infrastructure.\n\nVery glamorous.\n\nThe clerk put her bread beside the ledger.\n\n\"Destination?\"\n\n\"Halden.\"\n\nI gave her the letter.\n\nThat was the first difficult part.\n\nNot writing it.\n\nThat had been worse.\n\nLetting someone else take it.\n\nThe page stopped belonging to my room the moment her fingers closed on the fold.\n\nShe weighed it.\n\nOne copper.\n\nI paid.\n\n",
       "context_id": "55dcf089caf74b6d861b812845f256e3",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/00e9dc80-4f45-4621-9cd4-4f00c6a90676.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/00e9dc80-4f45-4621-9cd4-4f00c6a90676.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/04.mp3",
+      "byte_size": 434688,
+      "audio_sha256": "4ee0815da9776372450655323a373f6a880671cb55d3c1fd1c0f987617c82352",
+      "duration_seconds": 27.168
     },
     {
       "order": 5,
@@ -55,7 +71,11 @@
       "transcript": "She stamped the front.\n\nCurrent date.\n\nCarrow mark.\n\nVey route mark beneath it.\n\nThen she dropped the letter into a canvas sack with perhaps forty others.\n\nNo music.\n\nNo confirmation from the universe that I had done something emotionally responsible.\n\nIt landed against paper.\n\nThat was all.\n\n\"When does it leave?\"\n\nShe pointed at the board without looking up.\n\nNoon, assuming the lower quay remained usable.\n\nApparently yesterday had generated opinions.\n\n",
       "preview_transcript": "She stamped the front.\n\nCurrent date.\n\nCarrow mark.\n\nVey route mark beneath it.\n\nThen she dropped the letter into a canvas sack with perhaps forty others.\n\nNo music.\n\nNo confirmation from the universe that I had done something emotionally responsible.\n\nIt landed against paper.\n\nThat was all.\n\n\"When does it leave?\"\n\nShe pointed at the board without looking up.\n\nNoon, assuming the lower quay remained usable.\n\nApparently yesterday had generated opinions.\n\n",
       "context_id": "32b31490899e4626aae3b534b1a49b42",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ed19a852-96e8-4e8a-83b4-9c7646d26bb6.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ed19a852-96e8-4e8a-83b4-9c7646d26bb6.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/05.mp3",
+      "byte_size": 438528,
+      "audio_sha256": "1da0492a3ba47981eb85baf9df8fd253b997b6e6c679b07588d56eaf19fda919",
+      "duration_seconds": 27.408
     },
     {
       "order": 6,
@@ -63,7 +83,11 @@
       "transcript": "\"You hear about the barge?\"\n\nNow she looked up.\n\n\"Which one?\"\n\nFair.\n\nThe lower quay had produced several bad stories recently.\n\nI chose not to improve mine through repetition.\n\n\"Never mind.\"\n\nShe tied the sack once it was full enough, moved it beneath the Vey hook, and reached for her bread.\n\nMy letter had left my hands.\n\nNot Carrow yet.\n\nEnough.\n\nBreakfast became possible again.\n\n",
       "preview_transcript": "\"You hear about the barge?\"\n\nNow she looked up.\n\n\"Which one?\"\n\nFair.\n\nThe lower quay had produced several bad stories recently.\n\nI chose not to improve mine through repetition.\n\n\"Never mind.\"\n\nShe tied the sack once it was full enough, moved it beneath the Vey hook, and reached for her bread.\n\nMy letter had left my hands.\n\nNot Carrow yet.\n\nEnough.\n\nBreakfast became possible again.\n\n",
       "context_id": "c0f84cdf90894112a5e924a465f3fd50",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8d51cd4a-bf81-4252-bc7e-f8c319c662ae.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8d51cd4a-bf81-4252-bc7e-f8c319c662ae.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/06.mp3",
+      "byte_size": 365568,
+      "audio_sha256": "098564baba23d845bf0b15102a1e9aac1b080a476a1c197b74d6d306733cf4ba",
+      "duration_seconds": 22.848
     },
     {
       "order": 7,
@@ -71,7 +95,11 @@
       "transcript": "I ate standing beside a cookstall because sitting would have required finding another excuse not to do the second thing I had planned.\n\nMoney remained in my purse.\n\nNot much by later-life standards.\n\nEnough by current standards to become directional.\n\nFor most of the last month, every useful choice had failed at price.\n\nSword.\n\nFood.\n\nRent.\n\nArlo.\n\nSupport instruction.\n\nThe better sword had already taken its turn.\n\n",
       "preview_transcript": "I ate standing beside a cookstall because sitting would have required finding another excuse not to do the second thing I had planned.\n\nMoney remained in my purse.\n\nNot much by later-life standards.\n\nEnough by current standards to become directional.\n\nFor most of the last month, every useful choice had failed at price.\n\nSword.\n\nFood.\n\nRent.\n\nArlo.\n\nSupport instruction.\n\nThe better sword had already taken its turn.\n\n",
       "context_id": "503b55d05d034f49b6071b76710e13e7",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6e9f68e8-e1aa-45d3-b1fe-1efc00464c54.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6e9f68e8-e1aa-45d3-b1fe-1efc00464c54.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/07.mp3",
+      "byte_size": 402816,
+      "audio_sha256": "c3f9e0d77c1a037b3b3eeebe193bb2134e211bcabf44be43a5209daaca708fe1",
+      "duration_seconds": 25.176
     },
     {
       "order": 8,
@@ -79,7 +107,11 @@
       "transcript": "The filtration venture had six units in production and three owners capable of having arguments without my supervision.\n\nI had paid rent.\n\nI had food.\n\nThe lower quay had paid me enough to stop pretending the fourth item on that list could wait indefinitely.\n\nSo I went to the Guild.\n\nThe red roof was still red.\n\nI noticed that before I noticed the line at the front desk.\n\nBad habit.\n\nFuture objects kept trying to arrive before present people.\n\n",
       "preview_transcript": "The filtration venture had six units in production and three owners capable of having arguments without my supervision.\n\nI had paid rent.\n\nI had food.\n\nThe lower quay had paid me enough to stop pretending the fourth item on that list could wait indefinitely.\n\nSo I went to the Guild.\n\nThe red roof was still red.\n\nI noticed that before I noticed the line at the front desk.\n\nBad habit.\n\nFuture objects kept trying to arrive before present people.\n\n",
       "context_id": "87f7f5406d7648f5a303d51c4d68b981",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a0f21d96-49bb-4adf-89fb-3b65ad374a66.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a0f21d96-49bb-4adf-89fb-3b65ad374a66.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/08.mp3",
+      "byte_size": 435840,
+      "audio_sha256": "dd1b94456fbbbe5b1a969fe7c7069a8a5650ac5f1a6d77b76c283fe718e0663d",
+      "duration_seconds": 27.24
     },
     {
       "order": 9,
@@ -87,7 +119,11 @@
       "transcript": "Sella had seven people waiting for her and the expression of someone personally betrayed by all seven.\n\nI took a place along the wall.\n\nA courier closed a road contract.\n\nA woman with a bandaged wrist argued about whether a broken finger counted as contract injury when she had broken it after the contract technically ended but before leaving the client's property.\n\nSella said no.\n\nThe woman said the client's dog had caused it.\n\n",
       "preview_transcript": "Sella had seven people waiting for her and the expression of someone personally betrayed by all seven.\n\nI took a place along the wall.\n\nA courier closed a road contract.\n\nA woman with a bandaged wrist argued about whether a broken finger counted as contract injury when she had broken it after the contract technically ended but before leaving the client's property.\n\nSella said no.\n\nThe woman said the client's dog had caused it.\n\n",
       "context_id": "76caf63d528743d8a5975758774b48ec",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a974e716-f8df-4701-9e0d-c36d3d3a0cbf.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a974e716-f8df-4701-9e0d-c36d3d3a0cbf.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/09.mp3",
+      "byte_size": 429696,
+      "audio_sha256": "c2b2ae07e42fd11efaaca894d27ca75f85fa762b7acf2244d412042c4ceaa37e",
+      "duration_seconds": 26.856
     },
     {
       "order": 10,
@@ -95,7 +131,11 @@
       "transcript": "Sella asked whether the dog had been part of the contract.\n\nThe woman stopped.\n\nSella waited.\n\nThe woman swore.\n\nSella moved to the next person.\n\nInstitutions had violence too.\n\nMine arrived after twenty minutes.\n\nSella looked at me.\n\nHer eyes went to the sword.\n\nThen my face.\n\nThen the purse when I put it on the counter.\n\nNot literally.\n\nStill irritating.\n\n\"Work?\"\n\n\"Not today.\"\n\nThat got her attention.\n\nI asked about the support instructor.\n\n",
       "preview_transcript": "Sella asked whether the dog had been part of the contract.\n\nThe woman stopped.\n\nSella waited.\n\nThe woman swore.\n\nSella moved to the next person.\n\nInstitutions had violence too.\n\nMine arrived after twenty minutes.\n\nSella looked at me.\n\nHer eyes went to the sword.\n\nThen my face.\n\nThen the purse when I put it on the counter.\n\nNot literally.\n\nStill irritating.\n\n\"Work?\"\n\n\"Not today.\"\n\nThat got her attention.\n\nI asked about the support instructor.\n\n",
       "context_id": "514e71a0346640668f3c4e9bac451ed5",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/10f9a238-25a0-4771-abd8-d1068ee72d37.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/10f9a238-25a0-4771-abd8-d1068ee72d37.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/10.mp3",
+      "byte_size": 419328,
+      "audio_sha256": "6c95733dd6f2934d6a1d25d8c8a9dde1c7477d7bc5367df6b8ab869bf0857ee5",
+      "duration_seconds": 26.208
     },
     {
       "order": 11,
@@ -103,7 +143,11 @@
       "transcript": "The one I had asked about before the road trip.\n\nThe one I had not been able to afford after buying the sword.\n\nSella reached under the counter and pulled out a different ledger.\n\nNot the contract ledger.\n\nThinner.\n\nBlue binding.\n\n\"Assessment first.\"\n\nI looked at her.\n\n\"You didn't say assessment.\"\n\n\"I did.\"\n\nNo.\n\n\"You stopped listening when I told you the price.\"\n\nPossible.\n\nAnnoyingly possible.\n\nShe opened the ledger.\n\n",
       "preview_transcript": "The one I had asked about before the road trip.\n\nThe one I had not been able to afford after buying the sword.\n\nSella reached under the counter and pulled out a different ledger.\n\nNot the contract ledger.\n\nThinner.\n\nBlue binding.\n\n\"Assessment first.\"\n\nI looked at her.\n\n\"You didn't say assessment.\"\n\n\"I did.\"\n\nNo.\n\n\"You stopped listening when I told you the price.\"\n\nPossible.\n\nAnnoyingly possible.\n\nShe opened the ledger.\n\n",
       "context_id": "d7c6d3c24fc04ef097193c8ec10edfa3",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/11bf6121-c16c-4d25-81d8-704fb14522ad.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/11bf6121-c16c-4d25-81d8-704fb14522ad.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/11.mp3",
+      "byte_size": 399744,
+      "audio_sha256": "c4b13a46f7052dbe64dced112e3fcfa39bc64b6ae5d6604e4ce36f7473ff1fba",
+      "duration_seconds": 24.984
     },
     {
       "order": 12,
@@ -111,7 +155,11 @@
       "transcript": "Specialist instruction was not sold the way yard time was sold.\n\nThe Guild would happily rent me a patch of dirt and let me become worse at swordsmanship alone.\n\nSupport work involved other people's bodies, ma-na loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment.\n\n",
       "preview_transcript": "Specialist instruction was not sold the way yard time was sold.\n\nThe Guild would happily rent me a patch of dirt and let me become worse at swordsmanship alone.\n\nSupport work involved other people's bodies, ma-na loads, ward interactions, healing delays, movement assumptions, and the general problem that a bad support mage could make competent people wrong at exactly the dangerous moment.\n\n",
       "context_id": "bdd308027ebd4525a6464a80ca52e746",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0a1e1895-4f4b-4fde-ada8-cce930658c7e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0a1e1895-4f4b-4fde-ada8-cce930658c7e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/12.mp3",
+      "byte_size": 390528,
+      "audio_sha256": "9e125655807e7e7b1991b7a359ef5c87803ab19d2fb4f7a839df479d4c52cc70",
+      "duration_seconds": 24.408
     },
     {
       "order": 13,
@@ -119,7 +167,11 @@
       "transcript": "So the current Carrow Guild required an intake assessment before formal instruction.\n\nLater it did not.\n\nOr rather, later the process had been different enough that I had forgotten this version completely.\n\nFuture institution.\n\nPresent institution.\n\nDifferent jobs again.\n\n\"Cost?\"\n\nSella named the deposit.\n\nTwelve copper.\n\nManageable.\n\nThen the assessment balance.\n\nLess pleasant.\n\nThen the instructional block if I passed.\n\nThere was the familiar pain.\n\n",
       "preview_transcript": "So the current Carrow Guild required an intake assessment before formal instruction.\n\nLater it did not.\n\nOr rather, later the process had been different enough that I had forgotten this version completely.\n\nFuture institution.\n\nPresent institution.\n\nDifferent jobs again.\n\n\"Cost?\"\n\nSella named the deposit.\n\nTwelve copper.\n\nManageable.\n\nThen the assessment balance.\n\nLess pleasant.\n\nThen the instructional block if I passed.\n\nThere was the familiar pain.\n\n",
       "context_id": "3738512ca0564ed38fc03b60ead1d79d",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c77eab17-8ab7-41d8-8169-d15b860d0442.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c77eab17-8ab7-41d8-8169-d15b860d0442.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/13.mp3",
+      "byte_size": 435456,
+      "audio_sha256": "750eae5da5f51728fa8c97ca5bac795a3ecdbd3b8a69e1dcab838bcc4af15f1c",
+      "duration_seconds": 27.216
     },
     {
       "order": 14,
@@ -127,7 +179,11 @@
       "transcript": "I could not afford the whole sequence today.\n\nI could afford the door.\n\nThat was new.\n\n\"When?\"\n\nSella turned the ledger toward herself and ran one finger down the page.\n\nThen farther.\n\nThen to the next page.\n\nI disliked the motion more with every inch.\n\n\"Six weeks.\"\n\nI laughed once.\n\nShe did not.\n\nOf course she did not.\n\n\"Nothing sooner?\"\n\nTwo local instructors could conduct basic intake, ",
       "preview_transcript": "I could not afford the whole sequence today.\n\nI could afford the door.\n\nThat was new.\n\n\"When?\"\n\nSella turned the ledger toward herself and ran one finger down the page.\n\nThen farther.\n\nThen to the next page.\n\nI disliked the motion more with every inch.\n\n\"Six weeks.\"\n\nI laughed once.\n\nShe did not.\n\nOf course she did not.\n\n\"Nothing sooner?\"\n\nTwo local instructors could conduct basic intake, ",
       "context_id": "f56ed2bb1d8445f7b27115e9a60be370",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/153480a7-26c1-4fc8-9b39-8266ed72466f.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/153480a7-26c1-4fc8-9b39-8266ed72466f.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/14.mp3",
+      "byte_size": 368640,
+      "audio_sha256": "30116893c43f891137d3f15489e0da135e8ca77e475d5b36fd847e484d46c3f1",
+      "duration_seconds": 23.04
     },
     {
       "order": 15,
@@ -135,7 +191,11 @@
       "transcript": "but both were on city support rotation through the North Gate works until the restriction order changed.\n\nThe specialist examiner came through Carrow on circuit.\n\nThe last circuit had been the week Mara left.\n\nI had been elsewhere.\n\nInteresting collision.\n\nNot a tragedy.\n\nJust time doing more than one thing.\n\nSix weeks.\n\nI looked at the purse.\n\nMoney had finally stopped being the only problem.\n\nRude.\n\nSella tapped the ledger.\n\n\"Do you want the slot?\"\n\n",
       "preview_transcript": "but both were on city support rotation through the North Gate works until the restriction order changed.\n\nThe specialist examiner came through Carrow on circuit.\n\nThe last circuit had been the week Mara left.\n\nI had been elsewhere.\n\nInteresting collision.\n\nNot a tragedy.\n\nJust time doing more than one thing.\n\nSix weeks.\n\nI looked at the purse.\n\nMoney had finally stopped being the only problem.\n\nRude.\n\nSella tapped the ledger.\n\n\"Do you want the slot?\"\n\n",
       "context_id": "de5c7307c18c445b8fa82989daecd2a4",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/25233700-ba26-4395-8ac9-67f69db5dbcd.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/25233700-ba26-4395-8ac9-67f69db5dbcd.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/15.mp3",
+      "byte_size": 438912,
+      "audio_sha256": "268559ea5cf1c8a25e64597a41fa5700420b3eaf5801fa6a8dc941266a11491b",
+      "duration_seconds": 27.432
     },
     {
       "order": 16,
@@ -143,7 +203,11 @@
       "transcript": "That was the actual question.\n\nNot whether six weeks was fair.\n\nNot whether later Guilds had improved the system.\n\nNot whether my first life had contained better access.\n\nA slot existed in six weeks.\n\nDeposit now.\n\nMiss it, lose the deposit.\n\nShow up, get assessed.\n\nPass or fail based on what I could do then.\n\nCurrent body.\n\nCurrent ma-na.\n\nNo historical exemptions for having once been impressive.\n\nI counted twelve copper onto the counter.\n\nSella counted them again.\n",
       "preview_transcript": "That was the actual question.\n\nNot whether six weeks was fair.\n\nNot whether later Guilds had improved the system.\n\nNot whether my first life had contained better access.\n\nA slot existed in six weeks.\n\nDeposit now.\n\nMiss it, lose the deposit.\n\nShow up, get assessed.\n\nPass or fail based on what I could do then.\n\nCurrent body.\n\nCurrent ma-na.\n\nNo historical exemptions for having once been impressive.\n\nI counted twelve copper onto the counter.\n\nSella counted them again.\n",
       "context_id": "1d7e000a8d3843228fab6f09296759c5",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/33dce90d-0471-4f0d-9174-9440b34670ac.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/33dce90d-0471-4f0d-9174-9440b34670ac.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/16.mp3",
+      "byte_size": 448128,
+      "audio_sha256": "88741dbee5e4bfbd53b22001536bb849841a2d76a9a3b882811fce2cbd3f34c1",
+      "duration_seconds": 28.008
     },
     {
       "order": 17,
@@ -151,7 +215,11 @@
       "transcript": "\nI had just counted them.\n\nShe worked for the Guild.\n\nDifferent religion.\n\nShe wrote my name into the ledger.\n\n**Greg. Bronze. Ward-support intake.**\n\nI read it upside down.\n\n\"Ward support?\"\n\n\"You make planes.\"\n\n\"I make several things.\"\n\nThis was technically true if failure counted as variety.\n\nShe held out her hand.\n\n\"Show me.\"\n\nHere?\n\nShe looked around the Guild hall.\n\nThere were thirty people within range of making this embarrassing.\n\nApparently yes.\n\n",
       "preview_transcript": "\nI had just counted them.\n\nShe worked for the Guild.\n\nDifferent religion.\n\nShe wrote my name into the ledger.\n\n**Greg. Bronze. Ward-support intake.**\n\nI read it upside down.\n\n\"Ward support?\"\n\n\"You make planes.\"\n\n\"I make several things.\"\n\nThis was technically true if failure counted as variety.\n\nShe held out her hand.\n\n\"Show me.\"\n\nHere?\n\nShe looked around the Guild hall.\n\nThere were thirty people within range of making this embarrassing.\n\nApparently yes.\n\n",
       "context_id": "a38d1d4a41f84497b8f422ca49e79b51",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/75e9dc71-3455-4ce3-be0a-c9cf548af02b.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/75e9dc71-3455-4ce3-be0a-c9cf548af02b.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/17.mp3",
+      "byte_size": 428160,
+      "audio_sha256": "d5e42e3395d4839cc111cc9fb04b88768876d16aacf5945d2d77b6b2e317d6f2",
+      "duration_seconds": 26.76
     },
     {
       "order": 18,
@@ -159,7 +227,11 @@
       "transcript": "I placed my palm above the counter.\n\nSmall pulse.\n\nDo not push.\n\nPlane.\n\nThe construct appeared perhaps five inches wide on the first attempt.\n\nFlat.\n\nPale enough that the wood grain remained visible beneath it.\n\nI held it.\n\nOne breath.\n\nTwo.\n\nThree.\n\nReleased.\n\nNo headache.\n\nSella watched the space where it had been.\n\nNot impressed.\n\nNot unimpressed either.\n\nClerk face.\n\nTerrifying profession.\n\nShe wrote two more words.\n\n**Low reserve.**\n\nI objected.\n\n",
       "preview_transcript": "I placed my palm above the counter.\n\nSmall pulse.\n\nDo not push.\n\nPlane.\n\nThe construct appeared perhaps five inches wide on the first attempt.\n\nFlat.\n\nPale enough that the wood grain remained visible beneath it.\n\nI held it.\n\nOne breath.\n\nTwo.\n\nThree.\n\nReleased.\n\nNo headache.\n\nSella watched the space where it had been.\n\nNot impressed.\n\nNot unimpressed either.\n\nClerk face.\n\nTerrifying profession.\n\nShe wrote two more words.\n\n**Low reserve.**\n\nI objected.\n\n",
       "context_id": "9e0c1fdd39f24df6bc3ca823c58ed262",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f114b854-7361-4c08-821a-9cb1342592b5.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f114b854-7361-4c08-821a-9cb1342592b5.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/18.mp3",
+      "byte_size": 422784,
+      "audio_sha256": "08614b1cbce83a80778bb40bed0da9c869d454ab1063300d9e5b507a60130f13",
+      "duration_seconds": 26.424
     },
     {
       "order": 19,
@@ -167,7 +239,11 @@
       "transcript": "She looked at me.\n\nI reconsidered.\n\nAccurate slander remained accurate.\n\nThen she wrote the examiner's name.\n\nMy attention stopped.\n\n**Kesra Dain. Silver.**\n\nThe Guild hall continued around me.\n\nCoins.\n\nPaper.\n\nSomeone laughing near the contract board.\n\nA door opening behind Sella.\n\nAll of it became background.\n\nKesra Dain.\n\nNo title.\n\nNo later rank.\n\nNo black-and-gold expedition cord.\n\n",
       "preview_transcript": "She looked at me.\n\nI reconsidered.\n\nAccurate slander remained accurate.\n\nThen she wrote the examiner's name.\n\nMy attention stopped.\n\n**Kesra Dain. Silver.**\n\nThe Guild hall continued around me.\n\nCoins.\n\nPaper.\n\nSomeone laughing near the contract board.\n\nA door opening behind Sella.\n\nAll of it became background.\n\nKesra Dain.\n\nNo title.\n\nNo later rank.\n\nNo black-and-gold expedition cord.\n\n",
       "context_id": "e33ebf4d38fe4cd18d59030c6bddaaee",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c32e000a-c82d-402b-b5fc-b5ca7be968cb.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c32e000a-c82d-402b-b5fc-b5ca7be968cb.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/19.mp3",
+      "byte_size": 363264,
+      "audio_sha256": "c0b722da74d22379ca851ef9df72063ca71dc6be1248ab5402cbc1a52116cf3b",
+      "duration_seconds": 22.704
     },
     {
       "order": 20,
@@ -175,7 +251,11 @@
       "transcript": "No six-page Guild history entry that somehow omitted every interesting thing about her.\n\nSilver.\n\nThat was all the present had written beside her name.\n\nForty years later, Kesra would be one of the other six S-class adventurers on the continent.\n\nOne of seven.\n\nMy peer.\n\nEventually.\n\nThe word felt absurd from this side of time.\n\nI remembered Kesra stealing dried pears from my pack during a three-week ruin survey and denying it while chewing.\n\n",
       "preview_transcript": "No six-page Guild history entry that somehow omitted every interesting thing about her.\n\nSilver.\n\nThat was all the present had written beside her name.\n\nForty years later, Kesra would be one of the other six S-class adventurers on the continent.\n\nOne of seven.\n\nMy peer.\n\nEventually.\n\nThe word felt absurd from this side of time.\n\nI remembered Kesra stealing dried pears from my pack during a three-week ruin survey and denying it while chewing.\n\n",
       "context_id": "49dd0af13b8d4094b138d15c8c9d95ef",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c0cd333c-ad52-415c-af8c-899c23df552a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c0cd333c-ad52-415c-af8c-899c23df552a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/20.mp3",
+      "byte_size": 437376,
+      "audio_sha256": "9c06700cd40753a335990124e5732826c0842d7ecb42d20b9bd3d3ac5c7de8ce",
+      "duration_seconds": 27.336
     },
     {
       "order": 21,
@@ -183,7 +263,11 @@
       "transcript": "I remembered her refusing every chair with a back because she claimed chairs were traps invented by people who wanted meetings to last longer.\n\nI remembered a barrier line turning white under pressure while she laughed about something I could not hear.\n\nI did not remember her as Silver.\n\nOf course I didn't.\n\nHistory had sanded that part away too.\n\nSella noticed me staring.\n\n\"Problem?\"\n\n\"No.\"\n\nShe looked at the page.\n\n\"You know Dain?\"\n\nNot yet.\n\n",
       "preview_transcript": "I remembered her refusing every chair with a back because she claimed chairs were traps invented by people who wanted meetings to last longer.\n\nI remembered a barrier line turning white under pressure while she laughed about something I could not hear.\n\nI did not remember her as Silver.\n\nOf course I didn't.\n\nHistory had sanded that part away too.\n\nSella noticed me staring.\n\n\"Problem?\"\n\n\"No.\"\n\nShe looked at the page.\n\n\"You know Dain?\"\n\nNot yet.\n\n",
       "context_id": "300bcdc3e1054fddb5dd9ca585a45673",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7dae901c-5b6e-4ce6-9b59-bcb43c1deb66.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7dae901c-5b6e-4ce6-9b59-bcb43c1deb66.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/21.mp3",
+      "byte_size": 433920,
+      "audio_sha256": "0dbcb64c9bc2ed31f3c1fcb4b6f3c9a3adab14dfe015fa62aa837f26ace9f227",
+      "duration_seconds": 27.12
     },
     {
       "order": 22,
@@ -191,7 +275,11 @@
       "transcript": "That answer almost came out.\n\nI stopped it.\n\n\"I've heard the name.\"\n\nSella accepted this because people heard names.\n\nUseful feature of civilization.\n\n\"She's good?\"\n\nSella looked offended on Kesra's behalf.\n\n\"She's the examiner.\"\n\nNot the question.\n\nAlso apparently the answer.\n\nI looked at the date beside Kesra's name.\n\nSix weeks.\n\nFirst Deepwinter.\n\nThe seasonal word caught against something older.\n\nNot Kesra.\n\nFire.\n\nRed tile above us.\n\n",
       "preview_transcript": "That answer almost came out.\n\nI stopped it.\n\n\"I've heard the name.\"\n\nSella accepted this because people heard names.\n\nUseful feature of civilization.\n\n\"She's good?\"\n\nSella looked offended on Kesra's behalf.\n\n\"She's the examiner.\"\n\nNot the question.\n\nAlso apparently the answer.\n\nI looked at the date beside Kesra's name.\n\nSix weeks.\n\nFirst Deepwinter.\n\nThe seasonal word caught against something older.\n\nNot Kesra.\n\nFire.\n\nRed tile above us.\n\n",
       "context_id": "6afed15ffdfd4c0894afa23d7f0d6075",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9ba54754-b7c1-4cab-8516-6507e423b7ec.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9ba54754-b7c1-4cab-8516-6507e423b7ec.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/22.mp3",
+      "byte_size": 414336,
+      "audio_sha256": "b2e2233dd5608132f2323988b62922a22fc7f7e5c7d23d7a8a6c11262cf97c6e",
+      "duration_seconds": 25.896
     },
     {
       "order": 23,
@@ -199,7 +287,11 @@
       "transcript": "I looked toward the ceiling.\n\nNothing burned.\n\nNo smoke.\n\nJust beams, plaster, and the faint water stain near the western wall that had probably existed for years and would someday acquire historical significance if enough important people complained about it afterward.\n\nThe Guild fire I remembered belonged to Deepwinter.\n\nI was fairly sure of that.\n\nNot a year.\n\nNot a day.\n\nA season attached to red tile becoming dark slate afterward.\n\n",
       "preview_transcript": "I looked toward the ceiling.\n\nNothing burned.\n\nNo smoke.\n\nJust beams, plaster, and the faint water stain near the western wall that had probably existed for years and would someday acquire historical significance if enough important people complained about it afterward.\n\nThe Guild fire I remembered belonged to Deepwinter.\n\nI was fairly sure of that.\n\nNot a year.\n\nNot a day.\n\nA season attached to red tile becoming dark slate afterward.\n\n",
       "context_id": "8e966e39d9df41d78a0b0259190878ac",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/521a04e1-28c1-4655-976a-7ffaa366cc51.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/521a04e1-28c1-4655-976a-7ffaa366cc51.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/23.mp3",
+      "byte_size": 428160,
+      "audio_sha256": "7f1f01f758f2bc1cfbd9f52ccb51826b68079d232ba1d9a153d3ea43b3294924",
+      "duration_seconds": 26.76
     },
     {
       "order": 24,
@@ -207,7 +299,11 @@
       "transcript": "If that memory belonged to this fire and this roof, then the fire sat inside the winter coming.\n\nMonths.\n\nNot decades.\n\nThat was closer than I liked.\n\nStill not proof.\n\nA later roof and a remembered fire were not causation merely because future Greg had arranged them in that order.\n\nI did not warn Sella that her roof might burn.\n\nThat would have been a remarkable way to lose access to specialist instruction.\n\nThe other winter memory took longer.\n\nRed Winter.\n\n",
       "preview_transcript": "If that memory belonged to this fire and this roof, then the fire sat inside the winter coming.\n\nMonths.\n\nNot decades.\n\nThat was closer than I liked.\n\nStill not proof.\n\nA later roof and a remembered fire were not causation merely because future Greg had arranged them in that order.\n\nI did not warn Sella that her roof might burn.\n\nThat would have been a remarkable way to lose access to specialist instruction.\n\nThe other winter memory took longer.\n\nRed Winter.\n\n",
       "context_id": "2e59f07e763042598490e61ff322ccd6",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c34a90e5-cd13-4ad5-8983-49e32c0eb3b2.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c34a90e5-cd13-4ad5-8983-49e32c0eb3b2.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/24.mp3",
+      "byte_size": 452736,
+      "audio_sha256": "f0d031b34ebcf607c4c6f4d6a2ae2e895f1749c6ef7fb7748dc8a14c430ac650",
+      "duration_seconds": 28.296
     },
     {
       "order": 25,
@@ -215,7 +311,11 @@
       "transcript": "East Verrel had been my original dating anchor because later everybody remembered East Verrel.\n\nI had checked the current date against it on my first morning.\n\nFour winters since.\n\nThe Red Winter I remembered sat six winters after East Verrel.\n\nI counted again because I had learned something about confidence.\n\nFour.\n\nFive.\n\nSix.\n\nNot the winter coming.\n\nThe one after.\n\nOutside the next year, ",
       "preview_transcript": "East Verrel had been my original dating anchor because later everybody remembered East Verrel.\n\nI had checked the current date against it on my first morning.\n\nFour winters since.\n\nThe Red Winter I remembered sat six winters after East Verrel.\n\nI counted again because I had learned something about confidence.\n\nFour.\n\nFive.\n\nSix.\n\nNot the winter coming.\n\nThe one after.\n\nOutside the next year, ",
       "context_id": "82b8ec44008949aca03667a95a0604ba",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dc6bcc07-ca27-4f29-b8e2-35da6ef6d633.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dc6bcc07-ca27-4f29-b8e2-35da6ef6d633.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/25.mp3",
+      "byte_size": 382464,
+      "audio_sha256": "752bf3960d0d198e54a700a49a77eb2252dae7c60a054f81ac7377499d0a7cd6",
+      "duration_seconds": 23.904
     },
     {
       "order": 26,
@@ -223,7 +323,11 @@
       "transcript": "unless one of the dates I thought was public history had shifted under me too.\n\nSoren could remain wherever Soren currently was.\n\nI did not need to hunt a man because a future scar had become impatient.\n\nGood.\n\nThat thought actually deserved the word.\n\nSella had moved on from me mentally.\n\nI could tell because she was already reaching for the next stack of contract slips.\n\n\"Anything else?\"\n\nI looked at the twelve copper now belonging to the Guild.\n\nAt the date.\n\n",
       "preview_transcript": "unless one of the dates I thought was public history had shifted under me too.\n\nSoren could remain wherever Soren currently was.\n\nI did not need to hunt a man because a future scar had become impatient.\n\nGood.\n\nThat thought actually deserved the word.\n\nSella had moved on from me mentally.\n\nI could tell because she was already reaching for the next stack of contract slips.\n\n\"Anything else?\"\n\nI looked at the twelve copper now belonging to the Guild.\n\nAt the date.\n\n",
       "context_id": "9eac9beb79844d3090a71eb024f74bfa",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ae0ee7e4-69e5-4517-b3fb-1e7f9d929939.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ae0ee7e4-69e5-4517-b3fb-1e7f9d929939.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/26.mp3",
+      "byte_size": 452352,
+      "audio_sha256": "36ed0bc9f65c4e4b68ada2664f80497c76ccb9040f9741e8d1b6979daefba63a",
+      "duration_seconds": 28.272
     },
     {
       "order": 27,
@@ -231,7 +335,11 @@
       "transcript": "At Kesra's name.\n\nAt my classification.\n\nLow reserve.\n\nWard support.\n\nSix weeks.\n\n\"No.\"\n\nShe tore off a narrow receipt.\n\nNot instruction.\n\nNot power.\n\nA place on a list.\n\nI put it in my coat beside the pocket where Mara's letter had been.\n\nEmpty pocket.\n\nFull receipt.\n\nTwo different future things now moved without me.\n\nOne downriver.\n\nOne toward a date.\n\nOutside the Guild, I almost turned toward Arlo's workshop.\n\nHabit.\n\nHe and Ivena had work.\n\nSo did I, ",
       "preview_transcript": "At Kesra's name.\n\nAt my classification.\n\nLow reserve.\n\nWard support.\n\nSix weeks.\n\n\"No.\"\n\nShe tore off a narrow receipt.\n\nNot instruction.\n\nNot power.\n\nA place on a list.\n\nI put it in my coat beside the pocket where Mara's letter had been.\n\nEmpty pocket.\n\nFull receipt.\n\nTwo different future things now moved without me.\n\nOne downriver.\n\nOne toward a date.\n\nOutside the Guild, I almost turned toward Arlo's workshop.\n\nHabit.\n\nHe and Ivena had work.\n\nSo did I, ",
       "context_id": "ee1599b49277429ba0d5f4ed298969f7",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/95eb40f5-0b41-45eb-96d9-3d91c9cff774.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/95eb40f5-0b41-45eb-96d9-3d91c9cff774.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/27.mp3",
+      "byte_size": 425856,
+      "audio_sha256": "7b074bb2449b967ffbaf0f5d294506531b4c13825ab8bac25e7bc8ea31415c5f",
+      "duration_seconds": 26.616
     },
     {
       "order": 28,
@@ -239,7 +347,11 @@
       "transcript": "eventually.\n\nThe tannery wanted to see a unit run. Brass fittings remained irritating. Six orders still required hands, kiln time, clay, washing, drying, and all the ordinary labor that made remembered industries look cleaner from forty years away.\n\nNone of that required me this morning.\n\nThat was still strange enough to feel like forgetting something.\n\nI checked the receipt again.\n\nSix weeks.\n\nThere were several ways to waste six weeks.\n\n",
       "preview_transcript": "eventually.\n\nThe tannery wanted to see a unit run. Brass fittings remained irritating. Six orders still required hands, kiln time, clay, washing, drying, and all the ordinary labor that made remembered industries look cleaner from forty years away.\n\nNone of that required me this morning.\n\nThat was still strange enough to feel like forgetting something.\n\nI checked the receipt again.\n\nSix weeks.\n\nThere were several ways to waste six weeks.\n\n",
       "context_id": "0156aebe0f814a5dbd72dff7ff43f268",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/00b39135-987d-4c27-b95e-9ea40aef0102.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/00b39135-987d-4c27-b95e-9ea40aef0102.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/28.mp3",
+      "byte_size": 430848,
+      "audio_sha256": "e99edcf81841013a7c02f4670128fc575472e7af0eb609338740a6468c854cf7",
+      "duration_seconds": 26.928
     },
     {
       "order": 29,
@@ -247,7 +359,11 @@
       "transcript": "I was experienced in most of them.\n\nTraining harder than my ma-na could support was one.\n\nBuying things because waiting felt passive was another.\n\nInventing emergency roles for myself in a business that had stopped asking for them was probably a third.\n\nI folded the receipt once and put it away.\n\nThen I went to the yard.\n\nNot for six weeks of preparation.\n\nFor today.\n\nThe tree behind the Guild still had the narrow strip of missing bark from my old sword.\n\n",
       "preview_transcript": "I was experienced in most of them.\n\nTraining harder than my ma-na could support was one.\n\nBuying things because waiting felt passive was another.\n\nInventing emergency roles for myself in a business that had stopped asking for them was probably a third.\n\nI folded the receipt once and put it away.\n\nThen I went to the yard.\n\nNot for six weeks of preparation.\n\nFor today.\n\nThe tree behind the Guild still had the narrow strip of missing bark from my old sword.\n\n",
       "context_id": "e15fa01e385a47c29c605e41f775b41f",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d9efe40d-238f-4d63-9eda-7fcf0579cbe9.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d9efe40d-238f-4d63-9eda-7fcf0579cbe9.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/29.mp3",
+      "byte_size": 450048,
+      "audio_sha256": "d1bcbc2673f93350cd4d814bee47a7b718399ee1aa1c69d2221288c6b2e1ab7f",
+      "duration_seconds": 28.128
     },
     {
       "order": 30,
@@ -255,7 +371,11 @@
       "transcript": "The grooves in the dirt had softened under feet other than mine.\n\nSomeone else had been using the space.\n\nOf course they had.\n\nI drew the good sword.\n\nOne cut.\n\nRecovered.\n\nOne small step.\n\nRecovered again.\n\nThen I put the sword away.\n\nEnough.\n\nThere would be another day tomorrow whether I improved correctly or not.\n\nThe letter was moving toward Halden.\n\nThe receipt in my coat was six weeks from becoming useful.\n\nFor the first time since waking nineteen, ",
       "preview_transcript": "The grooves in the dirt had softened under feet other than mine.\n\nSomeone else had been using the space.\n\nOf course they had.\n\nI drew the good sword.\n\nOne cut.\n\nRecovered.\n\nOne small step.\n\nRecovered again.\n\nThen I put the sword away.\n\nEnough.\n\nThere would be another day tomorrow whether I improved correctly or not.\n\nThe letter was moving toward Halden.\n\nThe receipt in my coat was six weeks from becoming useful.\n\nFor the first time since waking nineteen, ",
       "context_id": "bcf48a06bb2a426483863c3bfbbef407",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/36285fb3-21bc-4021-be3f-a6c9d7bb1349.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/36285fb3-21bc-4021-be3f-a6c9d7bb1349.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/30.mp3",
+      "byte_size": 440064,
+      "audio_sha256": "0a548fba4d354f38c92565ed35d9e06e33f39a42738ac6bb17566e0c28e962dd",
+      "duration_seconds": 27.504
     },
     {
       "order": 31,
@@ -263,8 +383,18 @@
       "transcript": "the correct next action might actually be waiting.\n\nI hated it immediately...",
       "preview_transcript": "the correct next action might actually be waiting.\n\nI hated it immediately...",
       "context_id": "de07253105984b71999814bf1603ce06",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9fdfd031-e599-459c-a64b-2207c85676f1.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9fdfd031-e599-459c-a64b-2207c85676f1.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/018-short/31.mp3",
+      "byte_size": 72576,
+      "audio_sha256": "4e6ba7dad100d339b6cd48616f03aabeb1850dfaf9a9fce65d49b8ba8f3137f4",
+      "duration_seconds": 4.536
     }
   ],
-  "captured_take_count": 31
+  "captured_take_count": 31,
+  "component_duration_seconds": 793.464,
+  "final_asset": "greg-again/audio/assets/light/chapter-018.mp3",
+  "final_byte_size": 7108413,
+  "final_audio_sha256": "d2fd7d7c6c2d313c7ced04eb7ea3d7ba26817b2546ab3690e2a72c8ceb63a376",
+  "final_duration_seconds": 795.528,
+  "settling_tail_seconds": 2.0
 }

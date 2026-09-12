@@ -215,11 +215,11 @@
       "title": "Six Weeks",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 34,
-      "duration_seconds": 788.736,
-      "audio_src": "assets/chapter-018.mp3",
-      "note": "Recovered from completed Chapter 18 production without regenerating provider work. Thirty-four captured deep-voice takes and the existing stitched chapter audio are preserved by stable chapter identity."
+      "audio_finish": "audio-score-light",
+      "take_count": 31,
+      "duration_seconds": 795.528,
+      "audio_src": "assets/light/chapter-018.mp3",
+      "note": "Audio Score Light Chapter 18 assembled from 31 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-019",
