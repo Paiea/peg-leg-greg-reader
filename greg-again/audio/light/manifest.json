@@ -117,6 +117,20 @@
       "duration_seconds": 705.984,
       "audio_src": "assets/light/chapter-008.mp3",
       "verification": "greg-again/audio/light/verification/008/"
+    },
+    {
+      "chapter_id": "ga-009",
+      "number": 9,
+      "title": "The Bridge",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch009.md",
+      "source_blob_sha": "7a0b3d37c42174f5bbedd2f4c08de24e09d8bb8c",
+      "voice": "deep",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 676.824,
+      "audio_src": "assets/light/chapter-009.mp3",
+      "verification": "greg-again/audio/light/verification/009/"
     }
   ]
 }

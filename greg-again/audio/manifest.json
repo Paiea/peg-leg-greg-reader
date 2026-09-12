@@ -107,11 +107,11 @@
       "title": "The Bridge",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
-      "take_count": 23,
-      "duration_seconds": 519.432,
-      "audio_src": "assets/v2/chapter-009.mp3",
-      "note": "Audio Score v2 Chapter 9 from the exact audio-native score. Twenty-three preview-safe deep-voice takes preserve future-memory uncertainty, rescue load direction, and Greg correcting the brace angle under load. Exact score coverage, ordered capture, MP3 playability, and the chapter settling tail were mechanically verified; subjective human listen-back remains separate."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 676.824,
+      "audio_src": "assets/light/chapter-009.mp3",
+      "note": "Audio Score Light Chapter 9 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-010",
