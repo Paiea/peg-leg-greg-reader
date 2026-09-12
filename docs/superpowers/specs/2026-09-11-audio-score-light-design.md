@@ -52,13 +52,11 @@ Light score source:
 
 `r2/assets/audio-score-light/chNNN.md`
 
-Each file records:
+The Chapters 001-030 baseline is intentionally byte-for-byte identical to the written source. Provenance is stored separately in:
 
-- clean written source path
-- clean written source blob SHA
-- protocol / doctrine identity
-- voice target (`deep`)
-- measured word-level change percentage
+`r2/assets/audio-score-light/SOURCES.json`
+
+That manifest records the clean written source path and source blob SHA for every Light chapter. Once a chapter receives a real speech-generation edit, its Light file becomes a visible derived diff from that exact written baseline while the provenance manifest continues to anchor the source identity.
 
 Light audio asset:
 
