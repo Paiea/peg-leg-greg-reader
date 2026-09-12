@@ -167,11 +167,11 @@
       "title": "The Back Room",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 15,
-      "duration_seconds": 678.936,
-      "audio_src": "assets/chapter-014.mp3",
-      "note": "Chapter 14 preserves belonging without false certainty across Mara's departure, the old back room, bodily familiarity, and Greg's attempt to make promises he can honestly keep. Fifteen provider-safe deep-voice takes preserve eleven successful original artifacts while replacing only one overlong gated source range with four smaller exact-wording takes."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 682.536,
+      "audio_src": "assets/light/chapter-014.mp3",
+      "note": "Audio Score Light Chapter 14 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-015",
