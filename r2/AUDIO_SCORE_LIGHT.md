@@ -26,7 +26,7 @@ Use the smallest intervention that gives the renderer useful spoken nuance.
 
 ## Normal edit scale
 
-Expected wording difference for a normal chapter is roughly **2-8% or less**.
+A normal chapter may remain at **0% wording change**. When wording changes help, roughly **2-8% or less** is the expected range.
 
 **15% word-level change is a hard ceiling, not a target.**
 
@@ -115,7 +115,13 @@ Light score chapters live in:
 
 `r2/assets/audio-score-light/chNNN.md`
 
-Each file records its written source path and source blob SHA.
+The baseline for a chapter is an **exact Git blob copy** of its written source. This makes zero-change chapters truly identical rather than reconstructed copies.
+
+Source identity is pinned centrally in:
+
+`r2/assets/audio-score-light/SOURCES.json`
+
+Later Light micro-edits modify only the Light copy. The source manifest continues to point at the written blob the Light chapter was derived from.
 
 Validate with:
 
