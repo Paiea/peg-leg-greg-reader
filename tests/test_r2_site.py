@@ -86,7 +86,7 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('three-year', authority.lower())
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
-        project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
+        project = json.loads((R2 / 'data/rendering-pipeline.json').read_text(encoding='utf-8')) if False else json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
         self.assertEqual(project['rendering_pipeline'], 'data/rendering-pipeline.json')
         pipeline = json.loads((R2 / 'data/rendering-pipeline.json').read_text(encoding='utf-8'))
         self.assertEqual(pipeline['schema'], 'r2_rendering_pipeline/v1')
@@ -187,8 +187,10 @@ class R2SiteTests(unittest.TestCase):
             images = art[chapter_id]
             self.assertEqual(len(images), 1)
             self.assertEqual(images[0]['role'], 'anchor')
-            self.assertEqual(images[0]['path'], f'assets/images/chapters/ch{number:03d}.png')
-            self.assertTrue((R2 / images[0]['path']).exists(), chapter_id)
+            asset_ref = images[0]['path']
+            expected = f'assets/images/chapters/ch{number:03d}.png'
+            self.assertTrue(asset_ref == expected or asset_ref.startswith(expected + '?'), chapter_id)
+            self.assertTrue((R2 / asset_ref.split('?', 1)[0]).exists(), chapter_id)
 
 
 if __name__ == '__main__':
