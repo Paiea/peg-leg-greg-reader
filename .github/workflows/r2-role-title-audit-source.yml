@@ -89,6 +89,26 @@ jobs:
                       '',
                   ])
               (out_dir / f'ch{first:03d}-{last:03d}.md').write_text('\n'.join(parts), encoding='utf-8')
+
+          for first_index, last_index, filename in [
+              (1, 59, 'index-001-059.md'),
+              (60, 118, 'index-060-118.md'),
+          ]:
+              selected = [r for r in records if first_index <= r[0] <= last_index]
+              parts = [
+                  f'# R2 role-title compact index: Chapters {first_index:03d}-{last_index:03d}',
+                  '',
+                  'Semantic triage source. Use fuller chapter evidence when a role decision is ambiguous.',
+                  '',
+              ]
+              for number, manifest, heading, _start, _end in selected:
+                  parts.extend([
+                      f'## {number:03d} | {manifest.get("title", "")}',
+                      f'Heading: {heading}',
+                      f'Teaser: {manifest.get("teaser", "")}',
+                      '',
+                  ])
+              (out_dir / filename).write_text('\n'.join(parts), encoding='utf-8')
           PY
       - name: Commit derived audit source
         run: |
@@ -99,7 +119,7 @@ jobs:
             echo 'No audit source changes.'
             exit 0
           fi
-          git commit -m 'chore(r2): compact current role-title audit source'
+          git commit -m 'chore(r2): add current role-title audit index'
           git fetch origin r2/role-title-authority-118
           git rebase origin/r2/role-title-authority-118
           git push origin HEAD:r2/role-title-authority-118
