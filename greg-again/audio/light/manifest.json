@@ -5,5 +5,34 @@
   "renderer_adapter": "ai_voice_generator",
   "voice_style": "deep",
   "source_layer": "r2/assets/audio-score-light",
-  "chapters": []
+  "chapters": [
+    {
+      "chapter_id": "ga-001",
+      "number": 1,
+      "title": "The Boy",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch001.md",
+      "source_blob_sha": "725d3ce3603a98174046237422eecca9a773308a",
+      "voice": "deep",
+      "take_count": 36,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 952.704,
+      "audio_src": "assets/light/chapter-001.mp3",
+      "verification": "greg-again/audio/light/verification/001/"
+    },
+    {
+      "chapter_id": "ga-002",
+      "number": 2,
+      "title": "Two Things",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch002.md",
+      "source_blob_sha": "5304f99a6192d9ee73d5eb254990c5e63d0f284c",
+      "voice": "deep",
+      "take_count": 29,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 759.648,
+      "audio_src": "assets/light/chapter-002.mp3",
+      "verification": "greg-again/audio/light/verification/002/"
+    }
+  ]
 }
