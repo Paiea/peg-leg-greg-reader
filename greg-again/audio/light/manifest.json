@@ -229,6 +229,20 @@
       "duration_seconds": 675.72,
       "audio_src": "assets/light/chapter-016.mp3",
       "verification": "greg-again/audio/light/verification/016/"
+    },
+    {
+      "chapter_id": "ga-017",
+      "number": 17,
+      "title": "The Wrong Rope",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch017.md",
+      "source_blob_sha": "9b06e5b1b0f824cce4175f0af823f4fd2fa1eb5e",
+      "voice": "deep",
+      "take_count": 35,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 937.104,
+      "audio_src": "assets/light/chapter-017.mp3",
+      "verification": "greg-again/audio/light/verification/017/"
     }
   ]
 }
