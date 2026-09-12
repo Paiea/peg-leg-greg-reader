@@ -119,11 +119,11 @@
       "title": "What Moved",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
-      "take_count": 25,
-      "duration_seconds": 591.48,
-      "audio_src": "assets/v2/chapter-010.mp3",
-      "note": "Audio Score v2 Chapter 10: twenty-five preview-safe deep-voice takes preserve the audio-native score cadence and exact ordered story content. Durable preview artifacts were ffprobe-verified, stitched deterministically, and published with the established settling tail; provider-only pronunciation aliases preserve mana and Vale delivery."
+      "audio_finish": "audio-score-light",
+      "take_count": 28,
+      "duration_seconds": 714.624,
+      "audio_src": "assets/light/chapter-010.mp3",
+      "note": "Audio Score Light Chapter 10 assembled from 28 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-011",
@@ -131,11 +131,11 @@
       "title": "The North Gate",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 29,
-      "duration_seconds": 693.048,
-      "audio_src": "assets/chapter-011.mp3",
-      "note": "Chapter 11 preserves remembered future fact as distinct from present causal proof. Twenty-nine short provider-safe takes preserve exact Shared Greg Surface wording and processing space while keeping every seam locally repairable."
+      "audio_finish": "audio-score-light",
+      "take_count": 27,
+      "duration_seconds": 696.312,
+      "audio_src": "assets/light/chapter-011.mp3",
+      "note": "Audio Score Light Chapter 11 assembled from 27 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-012",
@@ -179,11 +179,11 @@
       "title": "The Friend",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 27,
-      "duration_seconds": 415.32,
-      "audio_src": "assets/chapter-015.mp3",
-      "note": "Chapter 15 returns to the original short-take factory: twenty-seven complete preview-safe deep-voice takes were captured directly as durable MP3 artifacts, avoiding the provider full-audio player page."
+      "audio_finish": "audio-score-light",
+      "take_count": 16,
+      "duration_seconds": 418.488,
+      "audio_src": "assets/light/chapter-015.mp3",
+      "note": "Audio Score Light Chapter 15 assembled from 16 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-016",
