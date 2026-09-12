@@ -47,6 +47,20 @@
       "duration_seconds": 786.912,
       "audio_src": "assets/light/chapter-003.mp3",
       "verification": "greg-again/audio/light/verification/003/"
+    },
+    {
+      "chapter_id": "ga-004",
+      "number": 4,
+      "title": "Thirty Days",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch004.md",
+      "source_blob_sha": "57a45ba37521bd7b6abb4f3941bd55bbdc7c25fc",
+      "voice": "deep",
+      "take_count": 28,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 733.704,
+      "audio_src": "assets/light/chapter-004.mp3",
+      "verification": "greg-again/audio/light/verification/004/"
     }
   ]
 }
