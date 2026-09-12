@@ -119,11 +119,11 @@
       "title": "What Moved",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
-      "take_count": 25,
-      "duration_seconds": 591.48,
-      "audio_src": "assets/v2/chapter-010.mp3",
-      "note": "Audio Score v2 Chapter 10: twenty-five preview-safe deep-voice takes preserve the audio-native score cadence and exact ordered story content. Durable preview artifacts were ffprobe-verified, stitched deterministically, and published with the established settling tail; provider-only pronunciation aliases preserve mana and Vale delivery."
+      "audio_finish": "audio-score-light",
+      "take_count": 28,
+      "duration_seconds": 714.624,
+      "audio_src": "assets/light/chapter-010.mp3",
+      "note": "Audio Score Light Chapter 10 assembled from 28 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-011",
