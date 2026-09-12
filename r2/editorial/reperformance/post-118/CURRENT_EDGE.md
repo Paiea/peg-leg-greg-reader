@@ -25,7 +25,7 @@ Status: **ACTIVE BOOK CANDIDATE / NOT SELECTED AUTHORITY**
 
 ## Current candidate frontier
 
-Fresh book re-performance now runs contiguously through Candidate Chapter **159**.
+Fresh book re-performance now runs contiguously through Candidate Chapter **164**.
 
 119 `Five Days`
 120 `Dead Inventory`
@@ -68,6 +68,11 @@ Fresh book re-performance now runs contiguously through Candidate Chapter **159*
 157 `The Surveyor`
 158 `The Caller`
 159 `The Salvager`
+160 `The Cook`
+161 `The Applicant`
+162 `The Climber`
+163 `The Sponsor`
+164 `The Route Reader`
 
 Titles remain candidate metadata. The authority-layer preference is embodied-role chapter naming. Chapters 133 onward follow this strongly. Earlier titles need a title audit before promotion rather than interrupting prose production now.
 
@@ -103,6 +108,9 @@ Keep all three. Lysa owns her moving-ward experiment; Mara becomes real in North
 ### 149–159
 Strong survivor movement. Keep adventure shape and most chapter boundaries. Greg intentionally tries to build a crew, fails through ordinary schedules, receives a different roster, explores West Bramble river-garden, gets real fantasy/monster/loot/magic material, and the crew disperses after one successful contract without declaring a party.
 
+### 160–164
+Keep all five. This is the first strong people-side regression movement. Greg recognizes a future-known person, tests one current capability through reality, then sponsors exactly one bounded contract. The intervention genuinely improves Merek's current options, which positively reinforces Greg's belief that people can be rerouted.
+
 ## Current story state
 
 ### Greg
@@ -113,13 +121,14 @@ Strong survivor movement. Keep adventure shape and most chapter boundaries. Greg
 - Field peg carries Pera's removable crawler-tendon vibration washer.
 - Carries one Veya copper rod under joking disputed ownership.
 - Owns the stupid blue/green-wing Halden tourist bird.
-- Now also legally owns one common blue-green ceramic snail token from West Bramble.
+- Legally owns one common blue-green ceramic snail token from West Bramble; Noll currently has temporary kitchen display rights.
 - Broad competence remains real: sword, field work, logistics, structural magic, old command experience.
 - Broad sustained barrier is merely respectable.
 - Stronger current lane is small, precise manipulation of usable conditions: relative position, local movement, timing, redirection, anchoring, controlled failure, and where force may resolve.
-- Stop explaining `small is better`; the reader/listener has enough evidence now.
+- Stop explaining `small is better`; the listener has enough evidence now.
 - Sera has exposed Greg's habit of solving a second move before the first is chosen.
 - Greg is learning to work under other people's calls without needing to seize command.
+- Greg has now made one deliberate people intervention based partly on future knowledge, and it worked.
 
 ### People-development pressure
 
@@ -129,20 +138,55 @@ Strong survivor movement. Keep adventure shape and most chapter boundaries. Greg
 - Tomel is capable of route leadership but has not asked Greg for a new identity.
 - Sera improved Greg's one-beat fighting without becoming his mentor or project.
 - Pell, Jorren, Nemi, Orra, Fen, Sera, Lysa, Tomel all demonstrate that other people can change Greg or one another.
+- Merek introduces the dangerous regression version: Greg has a hidden future model of who someone becomes.
 - Do not make every competent person a hidden growth project.
+
+### Merek Sol / future-person pressure
+
+Current Merek:
+- about twenty-two;
+- highly capable route reader with strong terrain memory;
+- sharp-mouthed, suspicious, not instantly grateful;
+- poor institutional trust / paperwork habits;
+- one prior crew appears to have missed wages and used unregistered routes;
+- one later closeout was missed while his brother was in fever clinic;
+- brother remains a real financial/personal obligation;
+- initially optimizes routes for strong mobile travelers and underweights carts / limited mobility / ordinary users;
+- responds well to physical evidence and changed his route recommendation after carrying a heavy marker post over his preferred line;
+- completed one sponsored city route-verification contract cleanly;
+- filed accurate closeout notes;
+- provisional reliability block removed, old notes remain;
+- offered to take future route work with Greg if asked.
+
+Greg's first-life memory:
+- Merek later becomes known as **Ash Road Sol**;
+- later captain / route commander;
+- at Narrows Gate he left fourteen wounded behind during retreat;
+- three survived capture, eleven did not return;
+- 231 people reached the south ridge;
+- future Merek framed the decision in terms of distance / road length;
+- Greg knew the older man after this reputation was already formed, not the full earlier life.
+
+Current lesson for Greg:
+- his capability estimate was right;
+- one bounded intervention worked;
+- one clean contract materially improved Merek's current options;
+- this is dangerous positive reinforcement, not proof Greg understands the whole trajectory.
+
+Do not punish immediately. Let Merek take some work without Greg and let the apparent success compound before the trust/ownership cost emerges.
 
 ### Mara / Northbank
 
 - Mara chose Northbank for route-desk authority and staff.
 - She left Halden in Chapter 134.
-- First full Northbank letter arrives in Chapter 147.
-- Staff currently named: Elen, Bato, Sena, Orris.
+- Staff: Elen, Bato, Sena, Orris.
 - Temporary housing is third floor; neighbor Lina plays flute badly.
-- Mara changed a western ferry cutoff by eight minutes and branch operations allowed a one-week trial.
-- She explicitly told Greg not to visit yet; she wants to learn her own route to work before Greg learns Northbank faster than she does.
-- Greg complied in writing.
+- Mara changed a western ferry cutoff by eight minutes; one-week trial succeeded and remained in force.
+- She explicitly told Greg not to visit yet.
+- Chapter 160 carries a shorter note: she wants one full branch-report cycle before visits, then Greg may send exactly two possible dates and she will choose one.
+- Greg complied without building a six-option route matrix.
 - Their long-term geography remains unresolved.
-- Vary future letters; do not make every Mara beat a long epistolary mini-chapter.
+- Vary future letters and communication forms.
 
 ### Hearthline / Faultglass residue
 
@@ -150,68 +194,60 @@ Strong survivor movement. Keep adventure shape and most chapter boundaries. Greg
 - Hearthline retainer remains canceled.
 - Daro remains hurt.
 - Chapter 148 gives Greg one restricted case-by-case consult at a counting-house archive ward.
-- Restrictions include marked rooms, no unsupervised access, no removal of property, Daro/Nesha present for tests, structural/load scope only.
-- Greg contributes a controlled mount-slip idea where ward anchors were forcing old masonry to become the flexible element.
-- Mira owns masonry; Daro/Tal own ward thresholds; Greg owns load relation.
-- Daro requests Greg for one future install read under the same restrictions.
-- Daro explicitly says this is not forgiveness.
-- Do not immediately write the install as the next arc.
-
-### Field exchange / old specialists
-
-- Greg entered Carrow field exchange.
-- Broad barrier result: middle-of-board.
-- Sera Nin, Bronze duelist, beat Greg cleanly and later lost to another fighter.
-- Lysa Kerr and Tomel Rusk re-entered through the exchange because of prior Field Support Three history.
-- Kerr/Rusk/Greg placed fourth of eleven in team course.
-- They are not a party.
-- Lysa continues one self-chosen mobile-ward prototype.
-- Tomel returned to paid recovery work.
+- Greg contributes a controlled mount-slip idea; Mira owns masonry; Daro/Tal own ward thresholds.
+- Daro requests Greg for one future install read under the same restrictions and explicitly says this is not forgiveness.
+- Do not immediately turn that install into a new arc.
 
 ### West Bramble first survey
 
-Greg's first intentional team-building attempt begins with the mixed-field contract.
-
-He asks:
-- Tomel, who refuses because Whitebank recovery is already signed and pays better.
-- Lysa, who refuses because her existing south-road ward job has setup obligations.
+First intentional team-building attempt:
+- Greg asks Tomel; Tomel keeps Whitebank recovery because it is already signed and pays better.
+- Greg asks Lysa; Lysa keeps existing south-road ward setup obligations.
 
 Actual field roster:
-- **Fen Orl** — Silver field lead / guide. Owns route, site boundary, retreat, contract.
-- **Sera Nin** — Bronze blade / escort. Applied before Greg because she wanted the pay.
+- **Fen Orl** — Silver field lead / guide.
+- **Sera Nin** — Bronze blade / escort.
 - **Greg** — Silver field / structural support.
-- **Nemi Voss** — Bronze resonance survey. Uses known pulses / passive listening to report repeating signals and uncertainty.
+- **Nemi Voss** — Bronze resonance survey.
 - **Orra Tel** — Silver ward / basic field medical.
-- **Dessa Kelm** — city antiquary observer, not field staff.
+- **Dessa Kelm** — city antiquary observer.
 
 Site identity:
 - flood-cut open-air civic garden/water complex west of Carrow;
 - blue-green glazed channel network;
-- leaf-bodied statues carrying stone bowls;
-- central basin stays dry while water disappears beneath its rim;
+- leaf-bodied statues with stone bowls;
+- central basin stays dry while water transfers below;
 - dormant pale plants awaken during active cycle and release volatile pollen/resin;
 - bank drakes use at least one channel opening;
-- service shutter reveals caretaker gallery;
-- rail-mounted gardener construct still performs maintenance;
-- common work/planting tokens and labor coins survive;
-- descending stair reaches lower reservoir layer;
-- lower chamber contains three large vertical sheets of standing water held between bronze frames;
+- service shutter and caretaker gallery;
+- functioning rail gardener construct;
+- common work/planting tokens and labor coins;
+- lower reservoir level with three huge vertical sheets of standing water held between bronze frames;
 - deeper repeating source remains unexplained;
-- intact palm-sized regulator remains city-held in its recess; Dessa's provisional translation is `rain tooth`.
+- intact palm-sized regulator remains city-held; provisional translation `rain tooth`.
 
 First-survey result:
-- two bank drakes killed; one injured escaped;
-- mild pollen eye exposure on Sera forced one retreat;
-- service rail switch partly failed and Greg helped park gardener construct;
-- crew reached second lower water frame, then active cycle forced extraction;
-- rain tooth stayed attached and city-held;
+- two bank drakes killed, one injured escaped;
+- one mild pollen exposure on Sera;
+- caretaker switch partly failed but machine was parked;
+- lower cycle forced extraction before deeper survey;
 - Greg legally received one common snail token;
-- Sera received two labor coins and a fish token;
-- second-survey roster lists current crew **preferred if available**, not required.
-- Sera requested higher lower-level rate; Nemi requested access to regulator testing; Orra requested better air/eye-wash kit; Greg requested lower-frame load testing before active-cycle crossing.
-- Everyone returned to separate work immediately.
+- Sera received two labor coins and fish token;
+- rain tooth remained attached and city-held;
+- current crew listed as preferred if available for second survey, not required;
+- everyone returned to unrelated work immediately.
 
-Protect this as party-search evidence, not permanent-party declaration.
+Do not immediately return to West Bramble.
+
+### Field exchange / old specialists
+
+- Greg is middle-of-board at broad barriers.
+- Sera beat Greg cleanly and then lost to another fighter.
+- Lysa Kerr and Tomel Rusk re-entered through the exchange.
+- Kerr/Rusk/Greg placed fourth of eleven in team course.
+- They are not a party.
+- Lysa continues one self-chosen mobile-ward prototype.
+- Tomel returned to paid recovery work.
 
 ### Halden residue
 
@@ -225,47 +261,48 @@ Protect this as party-search evidence, not permanent-party declaration.
 
 ### Carrow / home
 
-- Lower Rook includes Noll and new boarder Mesi, who does tax copying.
+- Lower Rook includes Noll and boarder Mesi, who does tax copying.
 - Greg's room survived roof repair imperfectly.
 - Noll's `stole?` reflex around new objects is domestic Faultglass residue.
-- Jorren is route deputy with real independent authority/work.
+- Jorren is route deputy with independent authority/work.
 - Pell works with Kesta and other materials without Greg.
 - Carrow is home but not frozen around Greg.
 
 ## Prose / listening watchlist
 
 - Keep explicit speaker ownership when 3+ people stay active after action beats.
-- `Good`, `Fine`, `Fair`, `Excellent`, `Useful`, `Probably`, `Maybe` are all near saturation.
-- Nemi's uncertainty language is core but should vary rather than become a bit.
-- Rest `your face` jokes for a while.
+- `Good`, `Fine`, `Fair`, `Excellent`, `Useful`, `Probably`, `Maybe` remain near saturation.
+- Rest `your face` jokes again. It spread into Merek and has enough life already.
 - Challenge automatic `Not X / Y` reversals.
 - Stop explaining Greg's small-plane specialization. Demonstrate it.
-- Do not make every chapter end in restraint/withdrawal. West Bramble correctly does, but future arcs need clean victories and completions too.
+- Do not make every chapter end in restraint/withdrawal.
 - Some people should be average, wrong, forgettable, selfish, lazy, or merely fine.
 - Preserve conventional fantasy pleasure alongside work texture.
+- Do not make every future-known person's current context sympathetic or exonerating.
+- Merek can have real flaws now and still be more complicated than the future reputation.
 - Titles before 133 still need embodied-role audit.
 
 ## Strong current discoveries
 
-- Greg's first intentional party-building instinct is rational and still wrong in practical terms because people have schedules, rates, and prior obligations.
+- Greg's first intentional party-building instinct was rational and still wrong in practical terms because people have schedules, rates, and prior obligations.
 - A Greg-compatible asymmetric group can emerge without Greg recruiting everyone.
-- Greg is useful inside a crew where field lead, blade, resonance, ward/medical, antiquary, and structural roles remain sharply separated.
-- `The party itself becomes a build` remains a strong long-term hypothesis, but the build must emerge from repeated work and mutual adaptation rather than Greg filling slots.
 - Greg's people-development half works best when he asks for a bounded experiment and allows the other person to own adoption/meaning.
-- West Bramble is strong evidence that the book should keep alternating ordinary life / professional work / overt fantasy rather than allowing one texture to dominate.
+- Regression knowledge makes this much more dangerous when Greg believes he knows someone's future failure.
+- One successful Merek intervention is exactly the kind of evidence that could make Greg increasingly willing to spend other people's trust later.
+- The book should keep alternating ordinary life / professional work / overt fantasy / social pressure rather than allowing one texture to dominate.
 
 ## Next immediate edge
 
-Do **not** return immediately to West Bramble second survey.
+Do not make Merek Greg's permanent project immediately.
 
-Rescout from Chapter 159 with these live pressures:
+Strong next pressures:
 
-1. Carrow/home decompression after a real adventure.
-2. Mara/Northbank continues independently and may send shorter or stranger correspondence.
-3. One future Hearthline install read exists but should remain brief if taken.
-4. Person-side regression pressure is now underused: Greg may encounter someone he thinks he knows from Life One and be tempted to reroute them.
-5. Greg may deliberately select another contract/team later using West Bramble evidence.
-6. A second-survey notice should eventually compete with another opportunity rather than automatically win.
+1. Let Merek take one or two jobs without Greg and hear about results later.
+2. Give Greg unrelated work/home/Mara pressure while the intervention quietly compounds.
+3. Keep one brief Hearthline install-read possibility alive.
+4. West Bramble second-survey notice can arrive later and compete with another opportunity rather than automatically win.
+5. Later, Merek may make a smaller questionable choice where Greg can conceal/restructure it because he believes the future trajectory is improving.
+6. Only after positive reinforcement accumulates should another stakeholder expose the trust/ownership cost.
 7. Setter cuff still has no earned present need.
 
 ## Resume
@@ -274,7 +311,7 @@ On continuation:
 
 1. Verify newest `main` still selects R2 through Chapter 118.
 2. Re-open this branch and current edge.
-3. Fresh-read Chapters 157–159 plus `CONNECTED_READ_149_159.md`.
-4. Run a cheap post-adventure scout before writing Chapter 160.
-5. Prefer a texture change after 11 chapters of one expedition.
-6. Keep West Bramble alive offscreen, but do not immediately return.
+3. Fresh-read Chapters 160–164 plus `CONNECTED_READ_160_164.md`.
+4. Run a cheap scout before Chapter 165.
+5. Prefer a texture shift away from immediately following Merek around.
+6. Let Merek's clean sponsored success exist offscreen for a while.
