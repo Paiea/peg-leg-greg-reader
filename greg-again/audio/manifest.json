@@ -200,14 +200,14 @@
     {
       "chapter_id": "ga-017",
       "number": 17,
-      "title": "The Extra Hand",
+      "title": "The Wrong Rope",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 42,
-      "duration_seconds": 916.488,
-      "audio_src": "assets/chapter-017.mp3",
-      "note": "Chapter 17 uses forty-two complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage and take order are verified before stitching; the legacy eleven-take player-page transaction remains historical recovery evidence only."
+      "audio_finish": "audio-score-light",
+      "take_count": 35,
+      "duration_seconds": 937.104,
+      "audio_src": "assets/light/chapter-017.mp3",
+      "note": "Audio Score Light Chapter 17 assembled from 35 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-018",
