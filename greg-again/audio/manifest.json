@@ -71,11 +71,11 @@
       "title": "The First Customer",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
-      "take_count": 30,
-      "duration_seconds": 649.632,
-      "audio_src": "assets/v2/chapter-006.mp3",
-      "note": "Audio Score v2 Chapter 6 from the exact audio-native score. Thirty preview-safe deep-voice takes preserve the dyehouse failure chain, Ivena and Arlo's agency, Greg's tiny barrier, and the customer terms. Exact score coverage, ordered capture, MP3 playability, hashes, and the two-second settling tail were mechanically verified; subjective human listen-back remains separate."
+      "audio_finish": "audio-score-light",
+      "take_count": 33,
+      "duration_seconds": 878.856,
+      "audio_src": "assets/light/chapter-006.mp3",
+      "note": "Audio Score Light Chapter 6 assembled from 33 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-007",
