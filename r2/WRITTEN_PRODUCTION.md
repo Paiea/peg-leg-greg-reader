@@ -75,20 +75,45 @@ This reduces drift between the selected prose and the public reader.
 
 Do not publish an unselected draft, candidate, theorycraft, story-search file, or rehearsal as chapter prose.
 
+## Chapter-title gate
+
+A selected/public R2 title is not a scene label. It is an embodied Greg-role label.
+
+Before publication, read `r2/TITLE_POLICY.md` and ask:
+
+> **Who is Greg in this chapter?**
+
+The title should answer with the occupation, social position, temporary function, relational role, situational identity, or earned metaphorical role Greg actually inhabits. Objects, monsters, places, deadlines, events, anatomical details, and chapter topics do not satisfy the rule merely because they are prominent.
+
+Repeated roles are allowed when Greg genuinely inhabits the same role again. Do not manufacture novelty for the title list.
+
+The selected written first line carries the semantic title in the segment after the first `: `. Preserve any existing chronology/editorial prefix such as `Chapter N`, `Year Chapter NN`, or `D730`.
+
+After accepting a title change, run:
+
+```text
+python scripts/sync_r2_role_titles.py --apply
+```
+
+This keeps the public chapter manifest, any existing production-registry entry, and any existing Greg, Again audio title metadata aligned by stable chapter number. A title-only change does not regenerate audio or alter prose body, stable IDs, routes, navigation identity, or publication state.
+
+`r2/TITLE_ROLE_AUDIT.md` records the approved bulk-audit decisions. Mechanical tooling propagates editorial decisions; it does not invent role names.
+
 ## Publication transaction
 
 After a chapter is selected and verified:
 
 1. Fresh-read newest `main` and preserve newer authority.
-2. Publish the exact selected written rendition to `r2/assets/written/chNNN.md`.
-3. Create/update `r2/data/chapters/chNNN.json`.
-4. Update neighboring previous/next navigation.
-5. Append the stable chapter ID to `r2/data/project.json` and move `current_chapter` when appropriate.
-6. Update `r2/data/chapter-registry.json` so written authority, title, and production gaps are accurate.
-7. Leave unavailable audio/images unavailable. Missing sibling media must not block Read publication.
-8. Run/inspect the R2 reader verification surface available to the worker. When local tests are available, use `python -m unittest tests.test_r2_site -v`.
-9. Re-read newest `main` before integration and reconcile if it moved.
-10. Merge the small publication transaction and verify the live reader manifests afterward.
+2. Verify/choose the embodied Greg-role title under `r2/TITLE_POLICY.md`.
+3. Publish the exact selected written rendition to `r2/assets/written/chNNN.md`.
+4. Create/update `r2/data/chapters/chNNN.json` using the same selected title.
+5. Update neighboring previous/next navigation.
+6. Append the stable chapter ID to `r2/data/project.json` and move `current_chapter` when appropriate.
+7. Update `r2/data/chapter-registry.json` when that production registry covers the chapter. Do not invent a registry entry merely to make the title system complete.
+8. Leave unavailable audio/images unavailable. Missing sibling media must not block Read publication.
+9. Run `python scripts/sync_r2_role_titles.py --check` and inspect the R2 reader verification surface available to the worker. When local tests are available, use `python -m unittest tests.test_r2_site tests.test_r2_role_titles -v`.
+10. Re-read newest `main` before integration and reconcile if it moved.
+11. Merge the small publication transaction and verify the live reader manifests afterward.
 
 ## Concurrency
 
@@ -98,7 +123,7 @@ Never restore stale shared manifests over newer work.
 
 If `main` moves while publishing, rebuild/reconcile the publication transaction on the newer head before merge.
 
-Chapter number / stable ID owns identity. Title is mutable metadata and must follow newest written authority.
+Chapter number / stable ID owns identity. The selected heading's embodied role owns title semantics. Downstream metadata follows it and may not independently rename the chapter.
 
 ## Local story freedom
 
