@@ -271,6 +271,20 @@
       "duration_seconds": 871.272,
       "audio_src": "assets/light/chapter-019.mp3",
       "verification": "greg-again/audio/light/verification/019/"
+    },
+    {
+      "chapter_id": "ga-020",
+      "number": 20,
+      "title": "Ward Hand",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch020.md",
+      "source_blob_sha": "a39e994cfe329731355ab84e802235aa56f31cc3",
+      "voice": "deep",
+      "take_count": 38,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 995.376,
+      "audio_src": "assets/light/chapter-020.mp3",
+      "verification": "greg-again/audio/light/verification/020/"
     }
   ]
 }
