@@ -137,7 +137,7 @@ jobs:
           test "$(stat -c%s "$final")" -gt 100000
           ffprobe -v error "$final"
 
-          python3 - <<PY
+          python3 - <<'PY'
           import hashlib, json, subprocess
           from pathlib import Path
           chapter='${{ steps.state.outputs.chapter }}'
