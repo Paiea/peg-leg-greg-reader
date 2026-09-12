@@ -47,10 +47,11 @@
       "title": "Thirty Days",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "take_count": 26,
-      "duration_seconds": 621.432,
-      "audio_src": "assets/v2/chapter-004.mp3",
-      "note": "Audio Score v2 Chapter 4 assembled from twenty-six complete preview-safe deep-voice takes, ffprobe-verified individually and stitched with a two-second listener tail."
+      "take_count": 28,
+      "duration_seconds": 733.704,
+      "audio_src": "assets/light/chapter-004.mp3",
+      "note": "Audio Score Light Chapter 4 assembled from 28 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-005",
