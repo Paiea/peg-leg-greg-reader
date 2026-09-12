@@ -46,6 +46,20 @@ def title_from_score(text: str) -> str:
     return m.group(1).strip()
 
 
+def generation_paths(generation: str, chapter: str) -> tuple[Path, Path]:
+    if generation == "v2":
+        return (
+            Path(f"r2/assets/audio-score/ch{chapter}.md"),
+            Path(f"greg-again/audio/v2/takes/{chapter}/short-takes.json"),
+        )
+    if generation == "light":
+        return (
+            Path(f"r2/assets/audio-score-light/ch{chapter}.md"),
+            Path(f"greg-again/audio/light/takes/{chapter}/short-takes.json"),
+        )
+    raise SystemExit(f"Unsupported generation: {generation}")
+
+
 def make_chunks(body: str) -> list[str]:
     paragraphs = body.split("\n\n")
     if any(len(p) > MAX_CHARS for p in paragraphs):
@@ -64,7 +78,6 @@ def make_chunks(body: str) -> list[str]:
     if current:
         chunks.append("\n\n".join(current))
 
-    # Avoid a tiny orphan ending when the final two chunks can be rebalanced by paragraph.
     if len(chunks) >= 2 and len(chunks[-1]) < 140:
         combined_paras = (chunks[-2] + "\n\n" + chunks[-1]).split("\n\n")
         best = None
@@ -88,12 +101,13 @@ def make_chunks(body: str) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("chapter", help="chapter number, e.g. 013")
+    ap.add_argument("--generation", choices=("v2", "light"), default="v2")
     ap.add_argument("--output")
     args = ap.parse_args()
 
     n = int(args.chapter)
     chapter = f"{n:03d}"
-    source = Path(f"r2/assets/audio-score/ch{chapter}.md")
+    source, default_output = generation_paths(args.generation, chapter)
     if not source.exists():
         raise SystemExit(f"Missing {source}")
 
@@ -101,12 +115,13 @@ def main() -> None:
     body = score_body(raw)
     chunks = make_chunks(body)
     blob_sha = subprocess.check_output(["git", "hash-object", str(source)], text=True).strip()
-    output = Path(args.output or f"greg-again/audio/v2/takes/{chapter}/short-takes.json")
+    output = Path(args.output) if args.output else default_output
     output.parent.mkdir(parents=True, exist_ok=True)
 
     data = {
         "chapter": n,
         "chapter_id": f"ga-{chapter}",
+        "generation": args.generation,
         "title": title_from_score(raw),
         "source": str(source),
         "source_blob_sha": blob_sha,
