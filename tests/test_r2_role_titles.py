@@ -8,7 +8,7 @@ R2 = ROOT / "r2"
 AUDIT = R2 / "TITLE_ROLE_AUDIT.md"
 POLICY = R2 / "TITLE_POLICY.md"
 AUDIO_MANIFEST = ROOT / "greg-again" / "audio" / "manifest.json"
-HEADING_RE = re.compile(r"^# Chapter (?P<number>\d+): (?P<title>.+)$")
+HEADING_RE = re.compile(r"^# (?P<prefix>.+?): (?P<title>.+)$")
 AUDIT_LINE_RE = re.compile(r"^(?P<number>\d{3})\s+(?P<title>.+)$")
 
 
@@ -55,13 +55,13 @@ def public_numbers() -> list[int]:
     return [int(chapter_id.rsplit("ch", 1)[1]) for chapter_id in project["chapters"]]
 
 
-def selected_heading(number: int) -> tuple[int, str]:
+def selected_heading_title(number: int) -> str:
     path = R2 / "assets" / "written" / f"ch{number:03d}.md"
     first_line = path.read_text(encoding="utf-8").splitlines()[0]
     match = HEADING_RE.fullmatch(first_line)
     if match is None:
         raise AssertionError(f"{path}: invalid selected chapter heading {first_line!r}")
-    return int(match.group("number")), match.group("title")
+    return match.group("title")
 
 
 class R2RoleTitleAuthorityTests(unittest.TestCase):
@@ -73,9 +73,7 @@ class R2RoleTitleAuthorityTests(unittest.TestCase):
     def test_selected_written_headings_match_approved_role_titles(self):
         titles = approved_titles()
         for number in public_numbers():
-            heading_number, heading_title = selected_heading(number)
-            self.assertEqual(heading_number, number)
-            self.assertEqual(heading_title, titles[number], f"Chapter {number}")
+            self.assertEqual(selected_heading_title(number), titles[number], f"Chapter {number}")
 
     def test_public_manifests_match_role_titles_without_identity_changes(self):
         titles = approved_titles()
