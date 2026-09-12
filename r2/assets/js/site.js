@@ -16,6 +16,14 @@
     return fetchJson('data/project.json');
   }
 
+  async function loadChapterArt() {
+    try {
+      return await fetchJson('data/chapter-art.json');
+    } catch {
+      return {};
+    }
+  }
+
   function chapterFile(id) {
     return id.replace(/^r2-/, '');
   }
@@ -33,6 +41,11 @@
     const minutes = Math.floor(seconds / 60);
     const remaining = Math.round(seconds % 60).toString().padStart(2, '0');
     return `${minutes}:${remaining}`;
+  }
+
+  function imagesForChapter(chapter, chapterArt) {
+    if (Array.isArray(chapter.images) && chapter.images.length) return chapter.images;
+    return chapterArt[chapter.chapter_id] || [];
   }
 
   function makeChapterCard(chapter) {
@@ -112,9 +125,9 @@
     if (!target) return;
 
     try {
-      const project = await loadProject();
+      const [project, chapterArt] = await Promise.all([loadProject(), loadChapterArt()]);
       const chapters = await Promise.all(project.chapters.map(loadChapter));
-      const entries = chapters.flatMap(chapter => (chapter.images || []).map(image => ({ image, chapter })));
+      const entries = chapters.flatMap(chapter => imagesForChapter(chapter, chapterArt).map(image => ({ image, chapter })));
       const selected = recentOnly ? entries.slice(-6).reverse() : entries;
 
       if (!selected.length) return;
@@ -129,5 +142,5 @@
   if (page === 'gallery') bootGallery();
   if (page === 'home') bootGallery('recent-art-grid', true);
 
-  window.R2Site = { loadProject, loadChapter, chapterHref };
+  window.R2Site = { loadProject, loadChapter, loadChapterArt, chapterHref };
 })();
