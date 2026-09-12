@@ -12,6 +12,7 @@ EXPECTED = {
     "brain_doctor",
     "audio_next",
     "audio_claim",
+    "audio_resume",
     "compile_range",
     "get_scene_view",
     "query_scenes",
@@ -71,7 +72,7 @@ class PLGAIToolTests(unittest.TestCase):
         self.assertEqual({"changed": []}, result); integrate.assert_called_once()
 
     def test_tool_metadata_distinguishes_read_only_from_disposable_and_operational_writes(self):
-        for name in ("brain_for","brain_doctor","audio_next","get_scene_view","query_scenes","get_campaign_result"):
+        for name in ("brain_for","brain_doctor","audio_next","audio_resume","get_scene_view","query_scenes","get_campaign_result"):
             self.assertTrue(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
         for name in ("audio_claim", "compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "apply_survivors"):
             self.assertFalse(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
