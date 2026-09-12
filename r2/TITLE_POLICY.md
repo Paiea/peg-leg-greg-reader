@@ -2,6 +2,8 @@
 
 Status: **ACTIVE AUTHORITY ON ACCEPTANCE**
 
+Current approved audit frontier: **Chapters 001–118**.
+
 R2 chapter titles are embodied Greg-role titles.
 
 ## Core question
