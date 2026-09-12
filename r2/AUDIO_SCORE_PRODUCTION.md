@@ -46,6 +46,31 @@ Prefer the smallest repair that fixes the heard problem. Preserve successful sur
 
 Do not redesign the whole Audio Score system inside a routine chapter worker. Durable cross-chapter lessons belong back in `r2/AUDIO_SCORE.md` after repeated evidence.
 
+## Codex boundary
+
+Routine Audio Score production is **Codex-free by default**.
+
+Normal chapter production should use the cheapest established owner for each stage:
+
+1. deterministic Python / GitHub Actions for target resolution, chunk planning, validation, capture binding, downloading, `ffprobe`, stitching, settling tail, hashing, manifest reconciliation, and durable commits
+2. normal Chat/Mana plus the available voice tool for the nondeterministic voice requests and compact provider-result capture
+3. normal Chat/Mana or human listen-back for chapter-local performance judgment
+4. direct GitHub tooling for branch / PR / merge operations when no engineering repair is required
+
+Do not invoke Codex merely to:
+
+- find the next chapter
+- split a score into preview-safe takes
+- submit established voice requests
+- copy context IDs or preview URLs into capture results
+- bind completed captures
+- assemble audio
+- reconcile manifests
+- open or merge an otherwise routine production PR
+- continue the same proven production recipe on another chapter
+
+Codex is reserved for a bounded engineering intervention when the established factory itself is broken, missing a needed deterministic capability, or requires a cross-file implementation that normal Chat/tools cannot safely complete. Any such call inherits `state/editorial/CODEX_EXECUTION_POLICY.md` and should preferably remove Codex from future repetitions of the same work.
+
 ## v2 ownership
 
 Legacy audio publication does **not** make a chapter unavailable for v2.
@@ -71,12 +96,20 @@ Creating the branch is the claim. Never force-update an existing claim.
 
 ## v2 availability scan
 
-For the current 001–030 run:
+Use the deterministic read-only resolver instead of manually rediscovering score, manifest, and single-chapter claim state:
 
-1. inspect actual score files `r2/assets/audio-score/ch001.md` through `ch030.md`
-2. inspect `greg-again/audio/v2/manifest.json`
-3. inspect live `audio/v2-greg-again-chNNN-auto` branches and v2 PRs
-4. claim the earliest score chapter that is not v2-published and not durably v2-owned
+```bash
+python scripts/plg_ai_tools.py call audio_next --json '{}'
+```
+
+The underlying resolver is `scripts/audio_score_next.py`. It:
+
+1. enumerates actual `r2/assets/audio-score/chNNN.md` files in scope
+2. reads published numbers from `greg-again/audio/v2/manifest.json`
+3. reads current v2 single-chapter claim refs
+4. returns the earliest score chapter that is neither v2-published nor claimed
+
+Resolution does **not** create a branch or mutate production state. Treat the returned `claim_branch` only as the branch name to attempt. The worker owns the chapter only after a create-only claim operation proves that this worker created that branch. If another worker wins the branch race, refresh authority and resolve again.
 
 Do not treat the legacy `greg-again/audio/manifest.json` as proof that a v2 chapter is complete.
 
