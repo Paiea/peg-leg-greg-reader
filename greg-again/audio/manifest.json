@@ -81,11 +81,11 @@
       "title": "The Extra Guard",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 818.136,
-      "audio_src": "assets/chapter-007.mp3",
-      "note": "Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."
+      "audio_finish": "audio-score-v2",
+      "take_count": 31,
+      "duration_seconds": 623.448,
+      "audio_src": "assets/v2/chapter-007.mp3",
+      "note": "Audio Score v2 Chapter 7 from the exact audio-native score. Thirty-one preview-safe deep-voice takes preserve moving-action causality, Meral's redirection from stopping to turning the wagon, and Greg's tiny brace under load. Exact score coverage, ordered capture, MP3 playability, and the chapter settling tail were mechanically verified; subjective human listen-back remains separate."
     },
     {
       "chapter_id": "ga-008",
@@ -93,11 +93,11 @@
       "title": "Road Work",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 703.08,
-      "audio_src": "assets/chapter-008.mp3",
-      "note": "Chapter 8 preserves evidence before certainty: suspicion, caravan vulnerability, confirming movement, prepared counters, and Greg's updated threat model land in sequence. All fourteen provider-safe takes were captured without a split."
+      "audio_finish": "audio-score-v2",
+      "take_count": 20,
+      "duration_seconds": 535.8,
+      "audio_src": "assets/v2/chapter-008.mp3",
+      "note": "Audio Score v2 Chapter 8: twenty preview-safe deep-voice chunks captured from the Audio Score, objectively verified for exact ordered source coverage, durable Google Storage artifact capture, ffprobe playability, ordered assembly, and a two-second settling tail. Subjective human listen-back remains separate QA."
     },
     {
       "chapter_id": "ga-009",

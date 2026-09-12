@@ -61,6 +61,35 @@
       "verification": "greg-again/audio/v2/verification/006/"
     },
     {
+      "chapter_id": "ga-007",
+      "number": 7,
+      "title": "The Extra Guard",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch007.md",
+      "source_blob_sha": "d179b9621a0903c286171b707264b6256600b99f",
+      "voice": "deep",
+      "take_count": 31,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 623.448,
+      "audio_src": "assets/v2/chapter-007.mp3",
+      "verification": "greg-again/audio/v2/verification/007/"
+    },
+    {
+      "chapter_id": "ga-008",
+      "number": 8,
+      "title": "Road Work",
+      "status": "verified",
+      "source": "r2/assets/audio-score/ch008.md",
+      "source_blob_sha": "70fb72370291aa2a47b76d383cae9434254305e8",
+      "voice": "deep",
+      "capture_factory": "preview-safe-identical-transcript",
+      "take_count": 20,
+      "duration_seconds": 535.8,
+      "audio_src": "assets/v2/chapter-008.mp3",
+      "listener_qa": "not_performed",
+      "verification": "greg-again/audio/v2/verification/008/"
+    },
+    {
       "chapter_id": "ga-009",
       "number": 9,
       "title": "The Bridge",
