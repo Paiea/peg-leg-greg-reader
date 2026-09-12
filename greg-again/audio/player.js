@@ -120,13 +120,22 @@
     const visual = document.createElement('div');
     visual.className = 'chapter-visual';
     if (chapter.image_src) {
+      visual.classList.add('has-image');
       const image = document.createElement('img');
       image.src = chapter.image_src;
       image.alt = '';
       image.loading = 'lazy';
-      image.addEventListener('error', () => image.remove());
+      image.decoding = 'async';
+      image.addEventListener('error', () => {
+        image.remove();
+        visual.classList.remove('has-image');
+        visual.classList.add('no-image');
+      });
       visual.append(image);
+    } else {
+      visual.classList.add('no-image');
     }
+
     const visualNumber = document.createElement('span');
     visualNumber.className = 'chapter-visual-number';
     visualNumber.textContent = String(chapter.number).padStart(3, '0');
@@ -135,17 +144,13 @@
     const body = document.createElement('div');
     body.className = 'chapter-card-body';
 
-    const kicker = document.createElement('p');
-    kicker.className = 'chapter-kicker';
-    kicker.textContent = `Chapter ${String(chapter.number).padStart(3, '0')}`;
-
     const heading = document.createElement('h3');
     heading.className = 'chapter';
     heading.textContent = chapter.title;
 
     const meta = document.createElement('p');
     meta.className = 'chapter-meta';
-    meta.textContent = formatDuration(chapter.duration_seconds);
+    meta.textContent = `Chapter ${String(chapter.number).padStart(3, '0')} · ${formatDuration(chapter.duration_seconds)}`;
 
     const audio = document.createElement('audio');
     audio.controls = true;
@@ -172,7 +177,7 @@
     written.textContent = 'Written rendition →';
     actions.append(written);
 
-    body.append(kicker, heading, meta, audio, actions);
+    body.append(heading, meta, audio, actions);
     card.append(visual, body);
     return card;
   }

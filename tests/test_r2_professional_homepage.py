@@ -6,10 +6,11 @@ R2 = ROOT / "r2"
 
 
 class R2ProfessionalHomepageTests(unittest.TestCase):
-    def test_homepage_uses_uploaded_banner_with_existing_cover_fallback(self):
+    def test_homepage_uses_verified_responsive_site_art(self):
         html = (R2 / "index.html").read_text(encoding="utf-8")
-        self.assertIn("assets/images/Home.png", html)
-        self.assertIn("assets/images/r2-cover-wide.webp", html)
+        self.assertIn("assets/images/r2-hero-wide.webp", html)
+        self.assertIn("assets/images/r2-hero-portrait.webp", html)
+        self.assertNotIn("assets/images/Home.png", html)
         self.assertNotIn("r2-harbor-hero.webp", html)
 
     def test_homepage_navigation_is_quiet_and_audio_first(self):

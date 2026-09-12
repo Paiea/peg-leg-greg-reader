@@ -131,6 +131,62 @@
       "duration_seconds": 676.824,
       "audio_src": "assets/light/chapter-009.mp3",
       "verification": "greg-again/audio/light/verification/009/"
+    },
+    {
+      "chapter_id": "ga-010",
+      "number": 10,
+      "title": "What Moved",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch010.md",
+      "source_blob_sha": "dac4163caf088000ae6a44ba880e604168ec9050",
+      "voice": "deep",
+      "take_count": 28,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 714.624,
+      "audio_src": "assets/light/chapter-010.mp3",
+      "verification": "greg-again/audio/light/verification/010/"
+    },
+    {
+      "chapter_id": "ga-011",
+      "number": 11,
+      "title": "The North Gate",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch011.md",
+      "source_blob_sha": "40ff13669f917f82b374bf4e634a205698c83469",
+      "voice": "deep",
+      "take_count": 27,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 696.312,
+      "audio_src": "assets/light/chapter-011.mp3",
+      "verification": "greg-again/audio/light/verification/011/"
+    },
+    {
+      "chapter_id": "ga-012",
+      "number": 12,
+      "title": "Mara",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch012.md",
+      "source_blob_sha": "2d5a7be1f419a530c836e22f0148e7691b28c948",
+      "voice": "deep",
+      "take_count": 23,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 608.328,
+      "audio_src": "assets/light/chapter-012.mp3",
+      "verification": "greg-again/audio/light/verification/012/"
+    },
+    {
+      "chapter_id": "ga-015",
+      "number": 15,
+      "title": "The Morning Barge",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch015.md",
+      "source_blob_sha": "c6c54fa313c5e3d53c762f3dc791d4f3385a4b4b",
+      "voice": "deep",
+      "take_count": 16,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 418.488,
+      "audio_src": "assets/light/chapter-015.mp3",
+      "verification": "greg-again/audio/light/verification/015/"
     }
   ]
 }

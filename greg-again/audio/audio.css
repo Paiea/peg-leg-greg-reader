@@ -23,7 +23,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 12% 0%, rgba(23, 89, 111, .18), transparent 29rem),
+    radial-gradient(circle at 12% 0%, rgba(23, 89, 111, .13), transparent 29rem),
     linear-gradient(180deg, #080c0f 0%, var(--paper) 60%);
   color: var(--ink);
   font-family: var(--serif);
@@ -162,40 +162,42 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 
 .chapter-visual {
   position: relative;
-  min-height: 155px;
+  min-height: 96px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
-  background:
-    linear-gradient(145deg, rgba(116, 220, 255, .15), transparent 48%),
-    linear-gradient(25deg, rgba(240, 183, 47, .12), transparent 44%),
-    repeating-linear-gradient(135deg, rgba(255,255,255,.018) 0 2px, transparent 2px 8px),
-    #111a20;
+  background: #10161b;
 }
-.chapter-visual::after {
-  content: '';
+.chapter-visual.has-image { min-height: 155px; }
+.chapter-visual.no-image {
+  min-height: 96px;
+  background: linear-gradient(180deg, #12191f, #0e1419);
+}
+.chapter-visual img {
   position: absolute;
-  inset: auto -15% 18% 12%;
-  height: 3px;
-  background: var(--cyan);
-  opacity: .55;
-  transform: rotate(-4deg);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.chapter-visual img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .chapter-visual-number {
   position: absolute;
-  left: 16px;
+  left: 14px;
   bottom: 10px;
-  color: rgba(242, 238, 232, .2);
-  font: 950 clamp(3.5rem, 8vw, 6.2rem)/.8 var(--ui);
+  color: rgba(242, 238, 232, .22);
+  font: 950 clamp(3rem, 7vw, 5.2rem)/.8 var(--ui);
   letter-spacing: -.08em;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, .3);
+}
+.chapter-visual.has-image .chapter-visual-number {
+  color: rgba(242, 238, 232, .82);
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .75);
 }
 
 .chapter-card-body { padding: 18px 18px 16px; }
-.chapter-kicker { margin: 0; color: var(--cyan); font: 900 .66rem/1.2 var(--ui); letter-spacing: .12em; text-transform: uppercase; }
-.chapter { min-height: 2.15em; margin: .45rem 0 .4rem; font-size: clamp(1.45rem, 2.7vw, 2.05rem); font-weight: 500; line-height: 1.02; letter-spacing: -.025em; }
+.chapter { min-height: 2.05em; margin: 0 0 .45rem; font-size: clamp(1.4rem, 2.5vw, 1.95rem); font-weight: 500; line-height: 1.04; letter-spacing: -.025em; }
 .chapter-meta { margin: 0 0 .85rem; color: var(--faint); font: 800 .72rem/1.45 var(--ui); }
 audio { width: 100%; display: block; margin: 0; accent-color: var(--cyan); }
-.chapter-actions { display: flex; justify-content: flex-end; margin-top: .85rem; }
+.chapter-actions { display: flex; justify-content: flex-end; margin-top: .75rem; }
 .written-link { color: var(--faint); font: 800 .72rem/1.4 var(--ui); text-decoration: none; }
 .written-link:hover, .written-link:focus-visible { color: var(--cyan); }
 
@@ -254,6 +256,11 @@ audio { width: 100%; display: block; margin: 0; accent-color: var(--cyan); }
 }
 
 @media (max-width: 620px) {
-  .chapter-list { grid-template-columns: 1fr; }
-  .chapter-visual { min-height: 180px; }
+  .chapter-list { grid-template-columns: 1fr; gap: 10px; }
+  .chapter-visual.has-image { min-height: 124px; }
+  .chapter-visual.no-image { min-height: 64px; }
+  .chapter-card-body { padding: 14px 14px 13px; }
+  .chapter { min-height: 0; margin-bottom: .35rem; font-size: 1.34rem; }
+  .chapter-meta { margin-bottom: .65rem; }
+  .chapter-actions { margin-top: .55rem; }
 }
