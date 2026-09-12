@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 from typing import Any, Callable
 
+from scripts import audio_score_next
 from scripts import brain_compiler
 from scripts import brain_doctor as brain_doctor_module
 from scripts import performance_campaign
@@ -50,6 +51,23 @@ def brain_doctor(payload: dict[str, Any]) -> dict[str, Any]:
         registry_path=_path(payload, "registry_path", "state/brain/ROUTING_REGISTRY.json"),
         github_snapshot=snapshot,
     )
+
+
+def audio_next(payload: dict[str, Any]) -> dict[str, Any]:
+    claim_refs = payload.get("claim_refs")
+    if claim_refs is None:
+        claim_refs = audio_score_next.git_claim_refs()
+    elif not isinstance(claim_refs, list) or not all(isinstance(ref, str) for ref in claim_refs):
+        raise ValueError("claim_refs must be an array of ref-name strings")
+
+    result = audio_score_next.resolve_next_candidate(
+        _path(payload, "score_dir", "r2/assets/audio-score"),
+        _path(payload, "manifest", "greg-again/audio/v2/manifest.json"),
+        claim_refs,
+        minimum=int(payload.get("minimum", 1)),
+        maximum=int(payload.get("maximum", 30)),
+    )
+    return {"status": "available", **result} if result else {"status": "none"}
 
 
 def compile_range(payload: dict[str, Any]) -> dict[str, Any]:
@@ -99,7 +117,7 @@ def reduce_campaign(payload: dict[str, Any]) -> dict[str, Any]: return performan
 def apply_survivors(payload: dict[str, Any]) -> dict[str, Any]: return performance_campaign.integrate_campaign(_path(payload, "campaign_root", ".cache/plg/campaigns"), _path(payload, "chapter_root", "chapters"), current_authority=str(payload["current_authority"]))
 
 TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
-    "brain_for": brain_for, "brain_doctor": brain_doctor,
+    "brain_for": brain_for, "brain_doctor": brain_doctor, "audio_next": audio_next,
     "compile_range": compile_range, "get_scene_view": get_scene_view, "query_scenes": query_scenes,
     "plan_campaign": plan_campaign, "run_campaign": run_campaign, "get_campaign_result": get_campaign_result,
     "reduce_campaign": reduce_campaign, "apply_survivors": apply_survivors,
@@ -108,6 +126,7 @@ TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
 TOOL_SPECS = {
     "brain_for": {"write": False, "read_only": True, "description": "Compile a compact task-specific PLG brain routing packet from durable repository metadata."},
     "brain_doctor": {"write": False, "read_only": True, "description": "Check PLG brain routing health and drift without modifying repository state."},
+    "audio_next": {"write": False, "read_only": True, "description": "Resolve the earliest free Audio Score v2 chapter from current score, manifest, and claim authority without claiming it."},
     "compile_range": {"write": False, "read_only": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
     "get_scene_view": {"write": False, "read_only": True, "description": "Return one narrow compiler view for an exact stable scene ID."},
     "query_scenes": {"write": False, "read_only": True, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
