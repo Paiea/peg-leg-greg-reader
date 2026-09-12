@@ -19,6 +19,11 @@ def _path(payload: dict[str, Any], key: str, default: str) -> Path:
     return Path(str(payload.get(key, default)))
 
 
+def _audio_generation(payload: dict[str, Any]) -> tuple[str, dict[str, str]]:
+    generation = str(payload.get("generation", "v2"))
+    return generation, audio_score_next.generation_config(generation)
+
+
 def _optional_json_input(payload: dict[str, Any], value_key: str, path_key: str) -> dict[str, Any] | None:
     if value_key in payload and payload[value_key] is not None:
         value = payload[value_key]
@@ -55,26 +60,30 @@ def brain_doctor(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 def audio_next(payload: dict[str, Any]) -> dict[str, Any]:
+    generation, config = _audio_generation(payload)
     claim_refs = payload.get("claim_refs")
     if claim_refs is None:
-        claim_refs = audio_score_next.git_claim_refs()
+        claim_refs = audio_score_next.git_claim_refs(generation, str(payload.get("remote", "origin")))
     elif not isinstance(claim_refs, list) or not all(isinstance(ref, str) for ref in claim_refs):
         raise ValueError("claim_refs must be an array of ref-name strings")
 
     result = audio_score_next.resolve_next_candidate(
-        _path(payload, "score_dir", "r2/assets/audio-score"),
-        _path(payload, "manifest", "greg-again/audio/v2/manifest.json"),
+        _path(payload, "score_dir", config["score_dir"]),
+        _path(payload, "manifest", config["manifest"]),
         claim_refs,
+        generation=generation,
         minimum=int(payload.get("minimum", 1)),
         maximum=int(payload.get("maximum", 30)),
     )
-    return {"status": "available", **result} if result else {"status": "none"}
+    return {"status": "available", **result} if result else {"status": "none", "generation": generation}
 
 
 def audio_claim(payload: dict[str, Any]) -> dict[str, Any]:
+    generation, config = _audio_generation(payload)
     return audio_score_claim.claim_next(
-        _path(payload, "score_dir", "r2/assets/audio-score"),
-        _path(payload, "manifest", "greg-again/audio/v2/manifest.json"),
+        _path(payload, "score_dir", config["score_dir"]),
+        _path(payload, "manifest", config["manifest"]),
+        generation=generation,
         minimum=int(payload.get("minimum", 1)),
         maximum=int(payload.get("maximum", 30)),
         remote=str(payload.get("remote", "origin")),
@@ -139,8 +148,8 @@ TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
 TOOL_SPECS = {
     "brain_for": {"write": False, "read_only": True, "canon_write": False, "description": "Compile a compact task-specific PLG brain routing packet from durable repository metadata."},
     "brain_doctor": {"write": False, "read_only": True, "canon_write": False, "description": "Check PLG brain routing health and drift without modifying repository state."},
-    "audio_next": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve the earliest free Audio Score v2 chapter from current score, manifest, and claim authority without claiming it."},
-    "audio_claim": {"write": True, "read_only": False, "canon_write": False, "description": "Atomically claim the earliest free Audio Score v2 chapter by creating its single-chapter remote branch; collisions re-resolve instead of stealing work."},
+    "audio_next": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve the earliest free Audio Score chapter for the selected generation without claiming it."},
+    "audio_claim": {"write": True, "read_only": False, "canon_write": False, "description": "Atomically claim the earliest free Audio Score chapter for the selected generation by creating its remote branch; collisions re-resolve instead of stealing work."},
     "compile_range": {"write": False, "read_only": False, "canon_write": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
     "get_scene_view": {"write": False, "read_only": True, "canon_write": False, "description": "Return one narrow compiler view for an exact stable scene ID."},
     "query_scenes": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
