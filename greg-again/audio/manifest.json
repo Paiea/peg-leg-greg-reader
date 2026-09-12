@@ -131,11 +131,11 @@
       "title": "The North Gate",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 29,
-      "duration_seconds": 693.048,
-      "audio_src": "assets/chapter-011.mp3",
-      "note": "Chapter 11 preserves remembered future fact as distinct from present causal proof. Twenty-nine short provider-safe takes preserve exact Shared Greg Surface wording and processing space while keeping every seam locally repairable."
+      "audio_finish": "audio-score-light",
+      "take_count": 27,
+      "duration_seconds": 696.312,
+      "audio_src": "assets/light/chapter-011.mp3",
+      "note": "Audio Score Light Chapter 11 assembled from 27 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-012",
