@@ -4,147 +4,238 @@ Status: **ACTIVE EXPERIMENT RESUME NOTE / ZERO AUTHORITY**
 
 ## Authority and process
 
-- Accepted public story remains anchored at Chapter 118 `First Bell` unless newer `main` says otherwise.
-- Everything in this folder remains speculative and must not be published directly.
-- The user supplies taste, possibilities, and pressure. The engine routes those through people, setting, plot, time, character, and consequence. **Do not silently convert a nudge into a fixed outline.**
+- Selected R2 written authority remains Chapter 118 `First Bell` unless newer `main` says otherwise.
+- Numbered legacy-forward prose beyond 118 is quarry/development evidence unless explicitly selected by current R2 authority.
+- Everything in this folder is speculative and must not be published directly.
+- The user supplies taste, possibilities, and pressure. The engine routes them through people, setting, plot, time, character, and consequence. Do not silently convert a nudge into a fixed outline.
 - Greg has no assumed third life or plot-armor reversal. Death is permitted if causally earned, not targeted.
-- Recycle good fantasy instruments freely. Novelty is not a quota.
+- Recycle good ideas freely. Re-perform them against current selected authority.
 
-## Author flavor currently applied
+## Current author flavor
 
-Greg’s broad competence is his **floor**, not his destination.
+Greg's broad competence is his **floor**, not his destination.
 
-Forward progression should make him increasingly specialized even though age/experience lets him remain competent at sword work, field craft, rigging, wards, logistics, command, and ordinary jobs.
+His ceiling should narrow and deepen despite broad experience in sword work, field craft, wards, rigging, logistics, command, and ordinary work.
 
-Strongest current specialization hypothesis: unusually deep control over force relationships and usable conditions, including load, momentum, position, anchoring, redirection, bracing, selective movement, controlled failure, and temporary geometry between people, gear, terrain, monsters, wards, and structures.
+Current strongest specialization hypothesis has two co-equal halves:
 
-This is still a hypothesis, not a named class or locked spell list. Repeated lived problems decide what survives.
+1. **Physical conditions** — load, momentum, position, anchoring, redirection, selective movement, controlled failure, temporary geometry, and deciding where force may safely resolve.
+2. **Developmental conditions** — Greg sometimes sees one useful step sideways from how a specialist currently defines themselves and can create a bounded condition that helps them discover it.
 
-Party flavor should be asymmetric. Greg should need people who are sharply better than him at narrow things. Do not assemble tank/healer/mage/rogue slots. Let recurring people emerge because repeated shared work becomes cheaper, safer, stranger, or more effective.
+The second half is not mind-reading, generic mentorship, or Greg deciding another person's future. Capability is not aspiration. A person may refuse, modify the experiment, discover a different edge, or correctly prefer remaining narrow.
+
+Greg's useful progression is increasingly about **changing conditions rather than owning outcomes**.
+
+Party flavor remains asymmetric. Greg should need people sharply better than him at narrow things. A recurring group should emerge because people repeatedly choose one another, make one another better, and fit specific work, not because the planner fills RPG roles.
 
 ## Continuity reminders
 
-Greg already joined **Field Support Three** during the accepted Westreach/Black Stair year. His support identity is not new. That crew selected him because he could cover gaps between better pure specialists.
+Greg already earned a slot in Field Support Three during the accepted Westreach/Black Stair run. Team support is not new.
 
-Greg also already has artifact history:
+Artifact history already includes:
 
-- Blackglass Anchor became real field equipment with explicit tradeoffs and modification history.
-- Faultglass escalated into theft, reputation damage, lost trust/work, debt, return of the artifact, and durable technique value.
+- Blackglass Anchor as real field equipment with modification/tradeoff history.
+- Faultglass as theft, reputation damage, lost trust/work, debt, return, and durable technique value.
 
-Therefore future artifact pressure is repeat/escalation, not first temptation. The setter’s cuff remains optional and should only return when a concrete limitation makes its acceleration/tradeoff genuinely attractive.
+Future artifact pressure is repeat/escalation, not first temptation. The setter's cuff remains optional until a concrete limitation makes its acceleration/tradeoff genuinely attractive.
 
-## Rehearsed speculative run so far
+## Speculative run through 142
 
-### 119–122 — Halden reset / quarry hook
+### 119–126
 
-- `Five Days`: Mara has three job offers and retains her decision.
-- `Dead Inventory`: Greg sees a setter’s cuff, negotiates, does not buy it, buys socks instead.
-- `Six Millimeters`: clean paid structural job; Harrow payment pressure becomes manageable.
-- `Quarry Bell`: buried pre-city structure, missing workers, deep bell, competent Red Quay Gold-caliber team arrives.
+- Halden reset after `First Bell`.
+- Mara has three job offers.
+- Greg sees a setter's cuff, does not buy it, buys socks.
+- Quarry emergency introduces competent Red Quay specialists.
+- Greg's useful role narrows toward changing conditions for specialists rather than generic support.
+- Bell-room/setter-rig material remains evidence, not mandatory artifact plot.
 
-Known issue in 121: line implying pride caused Greg’s leg loss must not survive promotion.
+### 127–134
 
-### 123–126 — first specialization rehearsal
+- Crawler tendon becomes a mundane replaceable vibration washer in the field peg.
+- Greg/Veya fixed-point synergy emerges.
+- Mara independently chooses Northbank because she gets her own route desk and staff.
+- Repeated Red Quay work creates coordination value.
+- Greg's command instincts create friction when he compresses people into tasks. Veya's behavioral boundary: tell her what is needed, not what she is.
+- Greg turns down an attractive Veya job to spend Mara's last ordinary days with her.
 
-Red Quay team:
+### 135–142
 
-- Renn Saye — Gold lead / shield / decision ownership.
-- Veya — extremely narrow straight-line cutter using copper fixed points.
-- Korr — burst-impact specialist with real recovery cost.
-- Mett — stone/listening specialist whose expertise Greg cannot simply imitate.
-- Asha — medical specialist who remains useful independent of combat.
+- Mara leaves for Northbank.
+- Korr pulls Greg into a marsh bounty where Greg's structural specialty is not the main answer.
+- Veya drills Greg on moving fixed points.
+- Daro/Hearthline reopen one supervised professional door without erasing Faultglass theft.
+- Greg returns Carrow. Home and old relationships have changed without waiting for him.
+- Red Quay succeeds fine on a job Greg declined.
+- Daro sees Greg's narrower technique and remains much better at wardcraft.
+- Carrow posts a three-day open field exchange.
 
-Greg’s useful role narrows toward **moving structure / changing conditions**, not generic support. Strong scenes show Greg making other specialists’ narrow strengths usable rather than replacing them.
+## 143–146 — field exchange / first people-development discovery
 
-The Bell Room / setter-rig material is useful world evidence but should not become thesis exposition or force an artifact choice.
+Greg reunites with **Lysa Kerr** and **Tomel Rusk**, the two better pure specialists from the old Field Support Three trial.
 
-### 127–130 — repeated work / Mara chooses
+Important discoveries:
 
-- Monster crawler tendon becomes a small, replaceable vibration washer in the field peg. Partial mundane loot, not cure.
-- Veya and Greg discover unusually good fixed-point synergy.
-- Mara independently chooses **Northbank** because the route desk gives her actual ownership and staff, not because the adventure needs geography.
-- Repeated Red Quay work begins creating coordination value without formal party declaration.
+- Greg enters sustained barrier and is merely respectable. Another caster is simply better at broad holding.
+- Bronze duelist **Sera Nin** beats Greg cleanly because she is better at the immediate duel.
+- Tomel proves capable of route/sequence ownership without becoming a generic leader.
+- Greg nudges Lysa away from assuming full stationary frame is the only valid expression of her wardcraft.
+- Greg's first implementation idea is wrong. Lysa independently discovers the better adjacent tool: a smaller wrist frame.
+- Tomel then pushes Greg sideways in return.
+- Greg cannot become the only person who sees unused capability in others.
 
-### 131–134 — recurrence and command pressure
+Core rule discovered:
 
-- Renn asks Greg back because retraining another structural specialist around Veya costs time.
-- Canal failure reveals Greg’s emerging specialty as routing movement/failure rather than holding harder.
-- Under pressure Greg tells Veya `do nothing`; afterward she pushes back: tell her what is needed, not what she is. Preserve this behavioral fault line even if exact dialogue changes.
-- Greg helps Mara pack for Northbank instead of accepting every attractive opportunity.
-- Veya independently offers Greg a small private two-day mill job. Greg says no because Mara leaves in four days. Veya says she will ask again.
+**Greg can create sideways pressure. He does not author other people's growth.**
 
-Strong discovery: recurring party structure can emerge through **specific specialists independently choosing each other**.
+## 147–154 — capability vs aspiration
 
-### 135–138 — departure / non-structural fantasy test
+This block supplies the required earned miss.
 
-- Mara actually leaves for Northbank. No fixed reunion promise; relationship becomes geographically inconvenient rather than solved or doomed.
-- Korr independently invites Greg on a classic marsh monster bounty.
-- Local hunter `Suri Pell` (surname placeholder; rename on promotion) owns the hunt. Tanner Bo owns bounty-material knowledge. Greg’s structural magic is only modestly useful; he mostly follows, swordfights, redirects one or two charges, and is not the star.
-- This is important challenger evidence: specialization cannot become universal protagonist magic.
-- Veya later trains Greg with moving fixed points. Progress comes through repetition and another specialist, not loot.
-- Greg begins experimenting with allowing selected motion while resisting other motion. Show before naming.
-- Mara’s first travel letter arrives.
-- Hearthline/Venn sends a one-job supervised Carrow consult because **Daro asked for Greg**.
-- Red Quay simultaneously offers Greg another job. Greg chooses Carrow because the relationship meaning matters, not because it is obviously optimal.
+### Lysa
 
-### 139–142 — Carrow return / Hearthline boundary
+Greg correctly recognizes that Lysa has useful mobile ward range, then oversteps by telling an evaluator what her full frame `hides` before Lysa answers whether she wants the opportunity.
 
-- Greg takes four real travel days back to Carrow. Home does not pause while he is away.
-- Noll remains home anchor. Jorren has progressed professionally. Pell/workshop remains active.
-- Red Quay completes the job Greg declined **perfectly fine without him**. Preserve this. A good group is not valuable because Greg becomes indispensable.
-- Hearthline lets Greg onto one prepared site only under explicit direct-supervision/access restrictions. The Faultglass theft is not erased.
-- Daro remains far better at ward work. Greg contributes a newer, narrower technique: small planes that permit one motion while resisting another during ward formation.
-- Daro recognizes the technique’s value and the surviving Faultglass influence without pretending the theft was worth it.
-- Pell sees the new direction cleanly: Greg is becoming `better for one thing, worse big hold.` Preserve the underlying truth, not necessarily the exact phrase.
-- Daro later asks Greg for design thought without site access. Trust moves incrementally.
-- Mara reaches Northbank and begins loving the actual job. Her life progresses off Greg’s page.
-- Carrow Guild posts a **three-day open field exchange** for Silver/Bronze contractors: sparring, technique demonstrations, and a team problem course. Greg takes an entry form but has not entered yet.
+Lysa's correction is essential:
+
+- yes, the capability is real;
+- no, capability does not answer direction;
+- she likes full-frame ward work;
+- the wrist frame is an adjacent tool she chose, not a new identity Greg assigned.
+
+Later, on a real roadside ward job, Lysa uses the wrist frame to redirect a ridge hound and save a child while her full frame remains the primary protection for everyone else.
+
+That success **does not retroactively make Greg's earlier overstep correct**.
+
+She chooses to repair and continue the wrist-frame experiment herself.
+
+### Tomel
+
+Tomel explicitly says he is good at route/sequence leadership and still does not want general crew leadership. He prefers recovery/rigging work.
+
+Competence does not create obligation.
+
+After the hound fight, a bruised hip costs Tomel his next bridge-recovery job. The job proceeds with someone else. Recurring people remain non-indispensable.
+
+### Greg
+
+Evaluator pressure identifies his social/mechanical fault line:
+
+- he intervenes well once failure begins;
+- he sometimes intervenes before ownership is clear;
+- his anticipatory team awareness may be useful, but is not yet a formal technique.
+
+Greg begins separating `could` from `should` and sometimes asks whether someone wants an idea before offering one.
+
+Important: `ask first` is a boundary, not a dialogue formula or cure.
+
+A deliberately bad staff-reference idea dies cleanly. Invited experiments can simply be wrong.
+
+## 155–158 — festival caravan / reciprocal growth
+
+The engine deliberately leaves the repair-work loop.
+
+Lysa and Tomel are unavailable for the obvious next contract. Greg signs onto a four-day **Glasswake Fair caravan escort**.
+
+### Sera Nin
+
+Sera is the strongest no-growth counterexample so far.
+
+When Greg asks what she wants to improve, she says essentially:
+
+**Nothing. I want four days of pay.**
+
+That is valid.
+
+She likes fencing/guard work, money, sleep, and does not require a secret second class to justify recurring.
+
+Despite refusing Greg's developmental framing, Sera independently creates a tiny drill for Greg: answer exactly **one beat** in combat instead of pre-authoring the opponent's second move.
+
+This becomes reciprocal development without hierarchy.
+
+### Dema Orr / caravan
+
+Caravan master Dema owns route, livestock, stops, and wagon decisions. Greg does not absorb her expertise.
+
+The caravan acts like an asymmetric temporary party before danger arrives: drivers, animal handlers, merchants, cargo specialists, guards, and route owner all matter.
+
+### Road ambush
+
+A four-person road ambush gives Greg recognizable fantasy action without spectacle.
+
+Sera's one-beat drill helps Greg stop requiring enemies to cooperate with plans he has already imagined.
+
+His best force work remains small:
+
+- alter a footfall;
+- redirect a bolt;
+- block a wrist line;
+- shape one current movement.
+
+Dema contributes materially by doing her own job and, at one point, throwing a horse brush into the fight.
+
+Sera and Greg also show a possible pre-verbal coordination signal through body orientation, but this remains pressure, not doctrine.
+
+### Glasswake
+
+The fair provides needed genre pleasure and release: charm glass, colored lamp cloth, food, spar rings, market energy, money, and ordinary celebration.
+
+Sera declines a prize spar because her wrist is tired and the expected value is bad. She does not need to prove herself because the story offers a ring.
+
+Mara's first Northbank letter shows her actual independent job beginning to accumulate people, desk ownership, office annoyances, and local life.
 
 ## Strongest discoveries to protect
 
-1. **High floor, narrow ceiling.** Greg can function broadly, but future growth should deepen one coherent lane rather than grant unrelated abilities.
-2. **Greg changes conditions.** His best value often comes from making another specialist’s impossible/narrow action usable, not from doing their job.
-3. **Selective movement beats raw holding.** His new work is trending smaller, thinner, faster, more positional, and more about where force/failure may resolve.
-4. **People are not load diagrams.** Greg’s old command brain can compress people into positions/tasks. Keep decisiveness, but let consent, role ownership, and independent judgment push back.
-5. **Party formation through recurrence.** Track who asks Greg, who Greg asks, who refuses, who is unavailable, and which combinations become cheaper/better through history. Do not announce a party early.
-6. **Not everyone needs Greg.** Jobs continue successfully without him. People have independent careers and alternatives.
-7. **Mundane fantasy remains load-bearing.** Packing, route days, money, food, prosthetic maintenance, letters, work boundaries, training, receipts, and home life must coexist with monsters/ruins/action.
-8. **Artifact remains optional.** The cuff is more interesting now that Greg can narrow himself organically. Only reintroduce it if it offers acceleration with a real cost that practice alone does not cheaply solve.
+1. **High floor, narrow ceiling.** Greg remains broadly competent but future growth should deepen one coherent lane.
+2. **Greg changes conditions.** Physical and developmental.
+3. **Selective movement beats raw holding.** Smaller, faster, positional intervention currently wins more often than brute force.
+4. **Capability is not aspiration.** `You could` does not imply `you should` or `you want to`.
+5. **People own interpretation.** Greg may set a drill or condition. The person owns what it means.
+6. **Mutual improvement beats central coaching.** Lysa, Tomel, Sera, Veya and others can all see Greg sideways too.
+7. **Some people correctly want no growth project.** Money, mastery, stability, relationships, or satisfaction are valid goals.
+8. **Party formation through recurrence.** Track asks, refusals, schedules, injuries, geography, money, and independent preference.
+9. **Not everyone needs Greg.** Jobs continue without him. People choose others.
+10. **Mundane fantasy remains load-bearing.** Letters, food, routes, fair stalls, receipts, body maintenance, packing, pay, and ordinary work coexist with fights/monsters/ruins.
+11. **Artifact remains optional.** Do not force the cuff back because the current lane already has organic progression.
 
 ## Active people / independent clocks
 
-- **Mara:** now in Northbank beginning her own route-desk lead job. Do not reduce her to letters forever, but do not teleport Greg there for convenience.
-- **Daro:** professional curiosity has reopened before personal trust. He asked for Greg once and later sought design input. Theft still matters.
-- **Venn:** case-by-case professional boundary, no retainer restored.
-- **Nesha:** remains capable of challenging Greg without owning his choices.
-- **Veya:** strongest repeat-choice signal so far; training and work synergy, not declared permanent teammate.
-- **Korr:** independently seeks Greg for ordinary jobs because he likes/trusts him; his own technique remains sharply limited by recovery and terrain.
-- **Renn/Asha/Mett:** Red Quay professionals with their own schedules; do not migrate the entire team into Greg’s orbit.
-- **Suri (placeholder surname):** proof that high-value specialist expertise exists outside Guild rank. No obligation to recur.
-- **Noll/Jorren/Pell:** Carrow home/work circle continues progressing independently.
+- **Mara:** Northbank route-desk lead. Her office/staff/local problems should continue to grow independently.
+- **Lysa Kerr:** full-frame wardwright first; wrist frame is an adjacent tool she chose to develop. Possible future repeat work, not locked teammate.
+- **Tomel Rusk:** recovery/rigger first; situational route leader; does not want generic leadership career.
+- **Sera Nin:** Bronze duelist/guard; currently wants pay and her existing craft, not a growth project. Strong reciprocal pressure on Greg.
+- **Dema Orr:** capable caravan master/world person. No obligation to recur.
+- **Daro/Venn/Nesha:** Hearthline trust moves incrementally under real boundaries.
+- **Veya/Korr/Renn/Asha/Mett:** Halden/Red Quay network remains alive but unavailable by default unless schedules naturally reconnect.
+- **Noll/Jorren/Pell:** Carrow home/work circle continues independently.
 
 ## Immediate search edge
 
-The next strong toy is the Carrow **open field exchange**, but it is not mandatory. Use it only if it survives comparison with other live pulls.
+The next social threshold is not `party formed`.
 
-Search the next 10–20 lived days for:
+It is:
 
-- field exchange / tournament-adjacent fantasy pleasure, especially the team problem course;
-- Greg being paired with people he would not have chosen;
-- a technically competent rival or critic only if their own specialty earns it;
-- a situation where Greg’s narrow technique looks unimpressive in isolation but changes another person’s ceiling;
-- ordinary Carrow life and Hearthline trust moving slowly;
-- Mara’s Northbank work becoming concrete through her own problems/wins;
-- one fresh contract or monster/adventure lane not generated by structural magic;
-- one meaningful refusal or scheduling conflict so recurrence never becomes protagonist gravity;
-- only bring the setter’s cuff back if this stretch exposes a specific speed/repetition limitation Greg cannot solve cheaply through practice.
+**Greg making his first intentional ask for a specific combination of people after first asking what they actually want, then discovering whether those people agree.**
+
+Search another 10–20 lived days for:
+
+- one recurring person choosing someone other than Greg for a job/training problem;
+- one person unavailable or refusing, forcing a less obvious combination;
+- Greg intentionally selecting 2–4 people for a specific job based on sharp capabilities and stated desire rather than generic balance;
+- one non-Greg person designing a useful sideways experiment for someone else;
+- Mara/Northbank advancing independently;
+- stronger fantasy engine if organically pulled: ruin salvage, monster nest, named bounty, expedition, magical market, dangerous patron, duel contract, or longer caravan;
+- at least one scene where ordinary life matters more than optimization;
+- only reintroduce the setter's cuff if a concrete speed/repetition limitation appears that practice alone does not cheaply solve.
+
+Do not preserve any speculative event from sunk cost. Re-perform or kill freely.
 
 ## Resume instruction
 
 On `continue`:
 
-1. Fresh-read newest accepted `main` and verify public written authority has not advanced past 118. If it has, reconcile first.
-2. Read this edge plus only the connected-read/rehearsal files necessary for the live question.
-3. Treat the field exchange as a candidate pressure, not a locked next arc.
-4. Let the engine write/search forward and kill weak branches freely.
-5. Do not publish speculative chapters, audio, images, manifests, or reader state from this branch directly.
+1. Fresh-read newest selected R2 authority on `main`. Do not infer authority from stray numbered files.
+2. Read this edge and the connected-read file nearest the live question.
+3. Preserve author nudges as selection pressure, not outline.
+4. Continue the temporal run with cheap search before expensive prose if the next direction is unclear.
+5. Do not publish speculative chapters, audio, images, manifests, or reader state directly from this branch.
