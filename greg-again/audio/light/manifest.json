@@ -147,6 +147,20 @@
       "verification": "greg-again/audio/light/verification/010/"
     },
     {
+      "chapter_id": "ga-011",
+      "number": 11,
+      "title": "The North Gate",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch011.md",
+      "source_blob_sha": "40ff13669f917f82b374bf4e634a205698c83469",
+      "voice": "deep",
+      "take_count": 27,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 696.312,
+      "audio_src": "assets/light/chapter-011.mp3",
+      "verification": "greg-again/audio/light/verification/011/"
+    },
+    {
       "chapter_id": "ga-015",
       "number": 15,
       "title": "The Morning Barge",
