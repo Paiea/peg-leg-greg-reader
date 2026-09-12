@@ -12,4 +12,5 @@
 - Final duration: `608.328` seconds
 - Settling tail added: approximately `2.0` seconds
 - Final SHA-256: `9483094ff901319fb0e2310bc7ae480b3108da4a4f16f2358a36dfdeff7ca081`
+- Verification metadata was repaired after assembly; the final asset and hashes were unchanged.
 - Subjective human listen-back remains separate from mechanical verification.
