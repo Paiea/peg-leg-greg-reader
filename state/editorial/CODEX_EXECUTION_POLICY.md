@@ -15,6 +15,20 @@ Before invoking Codex, prefer in this order:
 3. existing scripts, recipes, and verified workflows
 4. one bounded Codex intervention only when the remaining problem genuinely needs repo-native engineering judgment or implementation
 
+### Mana approval gate
+
+A Codex task is approved only when **all** of these are true:
+
+1. **Technical need** — Mana can name the specific repo-native engineering problem Codex is being asked to solve.
+2. **Cheaper paths exhausted** — deterministic code, direct Chat/Mana tools, plugins/connectors, and existing recipes cannot safely solve it more cheaply.
+3. **Bounded shot** — target, authority, boundary, verification evidence, and stop condition are explicit before launch.
+4. **Value justifies spend** — the expected result is worth one Codex task, preferably because it removes future Codex work or unblocks a high-value one-off technical result.
+5. **Not factory labor** — the task is not merely another chapter, asset, record, page, or other repeated unit of an already-proven production recipe.
+
+If any gate fails, do not invoke Codex. Route the work back to deterministic infrastructure, normal Chat/Mana, a plugin/connector, or human judgment as appropriate.
+
+Parallelism has a separate approval gate. Even when a Codex task passes the five checks above, subagents remain disabled unless the work decomposes into genuinely independent scopes, parallel execution materially helps, and the extra allowance spend is explicitly justified.
+
 When Codex is justified:
 
 - use one primary agent
