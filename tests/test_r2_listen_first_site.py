@@ -6,9 +6,11 @@ R2 = ROOT / 'r2'
 
 
 class R2ListenFirstSiteTests(unittest.TestCase):
-    def test_home_prefers_listening_and_uses_new_banner(self):
+    def test_home_prefers_listening_and_uses_responsive_banner(self):
         html = (R2 / 'index.html').read_text(encoding='utf-8')
-        self.assertIn('assets/images/Home.png', html)
+        self.assertIn('assets/images/r2-hero-wide.webp', html)
+        self.assertIn('assets/images/r2-hero-portrait.webp', html)
+        self.assertNotIn('assets/images/Home.png', html)
         self.assertIn('▶ Start Listening', html)
         self.assertIn('Written rendition →', html)
         self.assertNotIn('Start Reading</a>', html)
