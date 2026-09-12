@@ -145,6 +145,20 @@
       "duration_seconds": 714.624,
       "audio_src": "assets/light/chapter-010.mp3",
       "verification": "greg-again/audio/light/verification/010/"
+    },
+    {
+      "chapter_id": "ga-015",
+      "number": 15,
+      "title": "The Morning Barge",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch015.md",
+      "source_blob_sha": "c6c54fa313c5e3d53c762f3dc791d4f3385a4b4b",
+      "voice": "deep",
+      "take_count": 16,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 418.488,
+      "audio_src": "assets/light/chapter-015.mp3",
+      "verification": "greg-again/audio/light/verification/015/"
     }
   ]
 }
