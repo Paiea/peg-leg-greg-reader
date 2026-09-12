@@ -6,6 +6,7 @@ on:
       - 'audio/light-greg-again-ch*-auto'
     paths:
       - 'greg-again/audio/light/takes/*/short-takes.json'
+      - 'greg-again/audio/light/production/*/ASSEMBLE_REQUEST'
 
 permissions:
   contents: write
