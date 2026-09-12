@@ -14,7 +14,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
         chapters = manifest["chapters"]
         by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
-        audio_score_v2_numbers = {1, 3, 4, 6, 7, 8, 9, 10}
+        audio_score_v2_numbers = {1, 2, 3, 4, 6, 7, 8, 9, 10}
         for number in range(1, 15):
             chapter_id = f"ga-{number:03d}"
             self.assertIn(chapter_id, by_id)
@@ -42,7 +42,7 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
     def test_audio_score_v2_public_routes_are_durable_and_nontrivial(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
-        for number in (1, 3, 4, 6, 7, 8, 9, 10):
+        for number in (1, 2, 3, 4, 6, 7, 8, 9, 10):
             chapter_id = f"ga-{number:03d}"
             expected_src = f"assets/v2/chapter-{number:03d}.mp3"
             self.assertEqual(expected_src, by_id[chapter_id]["audio_src"])

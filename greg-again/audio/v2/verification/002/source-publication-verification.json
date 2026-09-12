@@ -1,0 +1,16 @@
+{
+  "chapter": 2,
+  "source": "r2/assets/audio-score/ch002.md",
+  "source_blob_sha": "5f7cd653880568baad4fd65ab88ef1eaf327e026",
+  "take_count": 32,
+  "voice": "deep",
+  "all_preview_urls_google_storage": true,
+  "all_takes_ffprobe_valid": true,
+  "assembly_order_verified": true,
+  "final_asset_exists": true,
+  "final_duration_seconds": 664.176,
+  "final_size_bytes": 5948709,
+  "settling_tail_seconds_target": 2.0,
+  "human_listen_back_performed": false,
+  "status": "objectively_verified_unlistened"
+}

@@ -21,6 +21,20 @@
       "verification": "greg-again/audio/v2/verification/001/"
     },
     {
+      "chapter_id": "ga-002",
+      "number": 2,
+      "title": "Two Things",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score/ch002.md",
+      "source_blob_sha": "5f7cd653880568baad4fd65ab88ef1eaf327e026",
+      "voice": "deep",
+      "take_count": 32,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 664.176,
+      "audio_src": "assets/v2/chapter-002.mp3",
+      "verification": "greg-again/audio/v2/verification/002/"
+    },
+    {
       "chapter_id": "ga-003",
       "number": 3,
       "title": "The Borrower",

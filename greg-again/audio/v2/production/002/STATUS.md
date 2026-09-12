@@ -11,3 +11,11 @@ Factory: Audio Score -> natural preview-safe chunks (~500 chars max) -> identica
 ## Current state
 
 Gap-fill started from current authority. Legacy opaque synthesis evidence is historical only and does not block fresh preview-safe capture.
+
+## Durable result
+
+- 32 preview-safe takes downloaded and ffprobe-verified.
+- Final MP3: `greg-again/audio/assets/v2/chapter-002.mp3`
+- Duration: `664.176` seconds
+- Size: `5948709` bytes
+- Public and v2 manifests reconciled.
