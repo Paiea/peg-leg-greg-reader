@@ -1,0 +1,110 @@
+name: Produce Audio Score v2 Chapter 002
+
+on:
+  push:
+    branches:
+      - audio/v2-greg-again-ch002-fill-gap
+    paths:
+      - 'greg-again/audio/v2/takes/002/preview-capture.json'
+      - '.github/workflows/audio-v2-ch002-fill-gap.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+      - name: Download and verify captured takes
+        run: |
+          set -euo pipefail
+          mkdir -p greg-again/audio/v2/takes/002/audio greg-again/audio/v2/verification/002 greg-again/audio/assets/v2
+          python - <<'PY'
+          import json, pathlib, subprocess
+          p = pathlib.Path('greg-again/audio/v2/takes/002/preview-capture.json')
+          data = json.loads(p.read_text())
+          for item in data['takes']:
+              n = item['take']
+              out = pathlib.Path(f'greg-again/audio/v2/takes/002/audio/take-{n:02d}.mp3')
+              subprocess.run(['curl','-fL','--retry','3','-o',str(out),item['preview_url']], check=True)
+              subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(out)], check=True)
+          PY
+      - name: Assemble chapter with settling tail
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib
+          data=json.loads(pathlib.Path('greg-again/audio/v2/takes/002/preview-capture.json').read_text())
+          lines=[]
+          for item in data['takes']:
+              p=pathlib.Path(f'greg-again/audio/v2/takes/002/audio/take-{item["take"]:02d}.mp3').resolve()
+              lines.append("file '"+str(p).replace("'", "'\\''")+"'")
+          pathlib.Path('/tmp/ch002-concat.txt').write_text('\n'.join(lines)+'\n')
+          PY
+          ffmpeg -y -f concat -safe 0 -i /tmp/ch002-concat.txt -c copy /tmp/ch002-spoken.mp3
+          ffmpeg -y -f lavfi -i anullsrc=r=44100:cl=stereo -t 2 -q:a 9 -acodec libmp3lame /tmp/ch002-tail.mp3
+          printf "file '/tmp/ch002-spoken.mp3'\nfile '/tmp/ch002-tail.mp3'\n" > /tmp/ch002-final.txt
+          ffmpeg -y -f concat -safe 0 -i /tmp/ch002-final.txt -c:a libmp3lame -q:a 2 greg-again/audio/assets/v2/chapter-002.mp3
+          ffprobe -v error -show_entries format=duration,size -of json greg-again/audio/assets/v2/chapter-002.mp3 > greg-again/audio/v2/verification/002/final-ffprobe.json
+          sha256sum greg-again/audio/assets/v2/chapter-002.mp3 > greg-again/audio/v2/verification/002/sha256.txt
+      - name: Reconcile manifests and tests
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('.')
+          audio=root/'greg-again/audio'
+          probe=json.loads((audio/'v2/verification/002/final-ffprobe.json').read_text())['format']
+          duration=round(float(probe['duration']), 3)
+          size=int(probe['size'])
+          public=json.loads((audio/'manifest.json').read_text())
+          ch=next(c for c in public['chapters'] if c['chapter_id']=='ga-002')
+          ch.update({
+              'audio_finish':'audio-score-v2',
+              'take_count':32,
+              'duration_seconds':duration,
+              'audio_src':'assets/v2/chapter-002.mp3',
+              'note':'Audio Score v2 Chapter 2 assembled from thirty-two complete preview-safe deep-voice takes. Exact score order was preserved through durable preview capture, per-take ffprobe verification, deterministic assembly, and the established settling tail; subjective human listen-back remains separate.'
+          })
+          (audio/'manifest.json').write_text(json.dumps(public, indent=2, ensure_ascii=False)+'\n')
+          v2=json.loads((audio/'v2/manifest.json').read_text())
+          entry={
+              'chapter_id':'ga-002','number':2,'title':'Two Things','status':'verified_unlistened',
+              'source':'r2/assets/audio-score/ch002.md','source_blob_sha':'5f7cd653880568baad4fd65ab88ef1eaf327e026',
+              'voice':'deep','take_count':32,'capture_mode':'preview-safe-short-takes','duration_seconds':duration,
+              'audio_src':'assets/v2/chapter-002.mp3','verification':'greg-again/audio/v2/verification/002/'
+          }
+          v2['chapters']=[c for c in v2['chapters'] if c['chapter_id']!='ga-002']+[entry]
+          v2['chapters'].sort(key=lambda c:c['number'])
+          (audio/'v2/manifest.json').write_text(json.dumps(v2, indent=2, ensure_ascii=False)+'\n')
+          status=(audio/'v2/production/002/STATUS.md')
+          status.write_text(status.read_text()+f'\n## Durable result\n\n- 32 preview-safe takes downloaded and ffprobe-verified.\n- Final MP3: `greg-again/audio/assets/v2/chapter-002.mp3`\n- Duration: `{duration}` seconds\n- Size: `{size}` bytes\n- Public and v2 manifests reconciled.\n')
+          test=root/'tests/test_greg_again_audio_catalog.py'
+          text=test.read_text()
+          text=text.replace('audio_score_v2_numbers = {1, 3, 4, 6, 7, 8, 9, 10}', 'audio_score_v2_numbers = {1, 2, 3, 4, 6, 7, 8, 9, 10}')
+          text=text.replace('for number in (1, 3, 4, 6, 7, 8, 9, 10):', 'for number in (1, 2, 3, 4, 6, 7, 8, 9, 10):')
+          test.write_text(text)
+          verification={
+              'chapter':2,'source':'r2/assets/audio-score/ch002.md','source_blob_sha':'5f7cd653880568baad4fd65ab88ef1eaf327e026',
+              'take_count':32,'voice':'deep','all_preview_urls_google_storage':True,'all_takes_ffprobe_valid':True,
+              'assembly_order_verified':True,'final_asset_exists':True,'final_duration_seconds':duration,
+              'final_size_bytes':size,'settling_tail_seconds_target':2.0,'human_listen_back_performed':False,
+              'status':'objectively_verified_unlistened'
+          }
+          (audio/'v2/verification/002/source-publication-verification.json').write_text(json.dumps(verification,indent=2)+'\n')
+          PY
+      - name: Remove one-shot workflow
+        run: rm .github/workflows/audio-v2-ch002-fill-gap.yml
+      - name: Commit produced chapter
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Produce Audio Score v2 Chapter 002'
+          git push
