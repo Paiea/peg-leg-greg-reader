@@ -14,11 +14,12 @@ class R2AudioLibraryTests(unittest.TestCase):
         self.assertIn('id="continue-listening"', html)
         self.assertIn('id="chapter-search"', html)
 
-    def test_audio_library_uses_responsive_verified_cover_art(self):
+    def test_audio_library_uses_current_verified_hero_art(self):
         html = (AUDIO / 'index.html').read_text(encoding='utf-8')
         self.assertIn('<picture>', html)
-        self.assertIn('../../r2/assets/images/r2-cover-wide.webp', html)
-        self.assertIn('../../r2/assets/images/r2-cover-portrait.webp', html)
+        self.assertIn('../../r2/assets/images/2.png', html)
+        self.assertNotIn('../../r2/assets/images/r2-cover-wide.webp', html)
+        self.assertNotIn('../../r2/assets/images/r2-cover-portrait.webp', html)
         self.assertNotIn('assets/images/Library.png', html)
 
     def test_player_supports_resume_search_and_written_renditions(self):
