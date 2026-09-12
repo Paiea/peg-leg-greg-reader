@@ -10,7 +10,7 @@ class TestGregAgainAudioCh039(unittest.TestCase):
         manifest=json.loads((ROOT/"greg-again/audio/manifest.json").read_text())
         entry=next(c for c in manifest["chapters"] if c["chapter_id"]=="ga-039")
         self.assertEqual(entry["number"],39)
-        self.assertEqual(entry["title"],"The East Desk")
+        self.assertEqual(entry["title"],"The Visitor")
         self.assertEqual(entry["take_count"],32)
         self.assertAlmostEqual(entry["duration_seconds"],628.104,places=3)
         self.assertEqual(entry["audio_src"],"assets/chapter-039.mp3")
