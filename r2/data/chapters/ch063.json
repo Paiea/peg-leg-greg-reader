@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch063","display_number":63,"title":"Second","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch063.md"},"images":[],"navigation":{"previous":"r2-ch062","next":"r2-ch064"}}
+{
+  "chapter_id": "r2-ch063",
+  "display_number": 63,
+  "title": "The Second",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch063.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch062",
+    "next": "r2-ch064"
+  }
+}

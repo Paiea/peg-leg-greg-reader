@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch084","display_number":84,"title":"The Date","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch084.md"},"images":[],"navigation":{"previous":"r2-ch083","next":"r2-ch085"}}
+{
+  "chapter_id": "r2-ch084",
+  "display_number": 84,
+  "title": "The Partner",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch084.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch083",
+    "next": "r2-ch085"
+  }
+}

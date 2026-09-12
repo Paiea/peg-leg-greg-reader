@@ -81,7 +81,7 @@ After a chapter is selected and verified:
 
 1. Fresh-read newest `main` and preserve newer authority.
 2. Publish the exact selected written rendition to `r2/assets/written/chNNN.md`.
-3. Create/update `r2/data/chapters/chNNN.json`.
+3. Before publication, verify the selected title against `TITLE_POLICY.md`: it must name who Greg is being, not merely the object/event/place/topic of the chapter. Then create/update `r2/data/chapters/chNNN.json`.
 4. Update neighboring previous/next navigation.
 5. Append the stable chapter ID to `r2/data/project.json` and move `current_chapter` when appropriate.
 6. Update `r2/data/chapter-registry.json` so written authority, title, and production gaps are accurate.
@@ -98,7 +98,7 @@ Never restore stale shared manifests over newer work.
 
 If `main` moves while publishing, rebuild/reconcile the publication transaction on the newer head before merge.
 
-Chapter number / stable ID owns identity. Title is mutable metadata and must follow newest written authority.
+Chapter number / stable ID owns identity. Title is mutable metadata, but selected/public titles must obey `TITLE_POLICY.md`: ask **Who is Greg in this chapter?** and use an embodied Greg-role title. Downstream site/audio metadata follows that selected title by stable chapter number.
 
 ## Local story freedom
 

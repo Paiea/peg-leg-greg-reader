@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch067","display_number":67,"title":"Lower Works","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch067.md"},"images":[],"navigation":{"previous":"r2-ch066","next":"r2-ch068"}}
+{
+  "chapter_id": "r2-ch067",
+  "display_number": 67,
+  "title": "The Load Specialist",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch067.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch066",
+    "next": "r2-ch068"
+  }
+}

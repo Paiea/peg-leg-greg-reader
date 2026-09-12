@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch100","display_number":100,"title":"Eight Anchors","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch100.md"},"images":[],"navigation":{"previous":"r2-ch099","next":"r2-ch101"}}
+{
+  "chapter_id": "r2-ch100",
+  "display_number": 100,
+  "title": "The Tester",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch100.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch099",
+    "next": "r2-ch101"
+  }
+}

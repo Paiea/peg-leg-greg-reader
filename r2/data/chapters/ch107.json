@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch107","display_number":107,"title":"No Chase","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch107.md"},"images":[],"navigation":{"previous":"r2-ch106","next":"r2-ch108"}}
+{
+  "chapter_id": "r2-ch107",
+  "display_number": 107,
+  "title": "The Fighter",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch107.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch106",
+    "next": "r2-ch108"
+  }
+}

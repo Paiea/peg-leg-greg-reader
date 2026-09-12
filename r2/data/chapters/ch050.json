@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch050","display_number":50,"title":"Blackglass","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch050.md"},"images":[],"navigation":{"previous":"r2-ch049","next":"r2-ch051"}}
+{
+  "chapter_id": "r2-ch050",
+  "display_number": 50,
+  "title": "The Tinkerer",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch050.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch049",
+    "next": "r2-ch051"
+  }
+}

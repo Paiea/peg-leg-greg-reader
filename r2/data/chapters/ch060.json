@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch060","display_number":60,"title":"Silver Work","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch060.md"},"images":[],"navigation":{"previous":"r2-ch059","next":"r2-ch061"}}
+{
+  "chapter_id": "r2-ch060",
+  "display_number": 60,
+  "title": "The Candidate",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch060.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch059",
+    "next": "r2-ch061"
+  }
+}

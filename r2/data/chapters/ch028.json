@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch028","display_number":28,"title":"Eventually","status":"published","book":1,"act":1,"teaser":"Jorren returns from the road changed in small ways, collides with Noll at Lower Rook, and gives Greg more relief than Greg wants to admit.","audio":{"status":"unavailable","path":null},"written":{"status":"published","path":"assets/written/ch028.md"},"images":[],"navigation":{"previous":"r2-ch027","next":"r2-ch029"}}
+{
+  "chapter_id": "r2-ch028",
+  "display_number": 28,
+  "title": "The Friend",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "Jorren returns from the road changed in small ways, collides with Noll at Lower Rook, and gives Greg more relief than Greg wants to admit.",
+  "audio": {
+    "status": "unavailable",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch028.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch027",
+    "next": "r2-ch029"
+  }
+}

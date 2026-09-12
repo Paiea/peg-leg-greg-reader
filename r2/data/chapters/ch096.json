@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch096","display_number":96,"title":"Below the Knee","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch096.md"},"images":[],"navigation":{"previous":"r2-ch095","next":"r2-ch097"}}
+{
+  "chapter_id": "r2-ch096",
+  "display_number": 96,
+  "title": "The Amputee",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch096.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch095",
+    "next": "r2-ch097"
+  }
+}

@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch062","display_number":62,"title":"Silver","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch062.md"},"images":[],"navigation":{"previous":"r2-ch061","next":"r2-ch063"}}
+{
+  "chapter_id": "r2-ch062",
+  "display_number": 62,
+  "title": "The Silver Adventurer",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch062.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch061",
+    "next": "r2-ch063"
+  }
+}

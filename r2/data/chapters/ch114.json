@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch114","display_number":114,"title":"Retainer","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch114.md"},"images":[],"navigation":{"previous":"r2-ch113","next":"r2-ch115"}}
+{
+  "chapter_id": "r2-ch114",
+  "display_number": 114,
+  "title": "The Betrayer",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch114.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch113",
+    "next": "r2-ch115"
+  }
+}
