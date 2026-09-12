@@ -215,6 +215,20 @@
       "duration_seconds": 418.488,
       "audio_src": "assets/light/chapter-015.mp3",
       "verification": "greg-again/audio/light/verification/015/"
+    },
+    {
+      "chapter_id": "ga-016",
+      "number": 16,
+      "title": "Three Names",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch016.md",
+      "source_blob_sha": "f0e4b63352317e58f2fd533205457a632f05c741",
+      "voice": "deep",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 675.72,
+      "audio_src": "assets/light/chapter-016.mp3",
+      "verification": "greg-again/audio/light/verification/016/"
     }
   ]
 }

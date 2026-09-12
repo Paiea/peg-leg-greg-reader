@@ -191,11 +191,11 @@
       "title": "The Investor",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 36,
-      "duration_seconds": 672.216,
-      "audio_src": "assets/chapter-016.mp3",
-      "note": "Chapter 16 uses thirty-six complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact spoken-source coverage and take order were verified before stitching; legacy player-page contexts remain preserved as historical recovery evidence."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 675.72,
+      "audio_src": "assets/light/chapter-016.mp3",
+      "note": "Audio Score Light Chapter 16 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-017",
