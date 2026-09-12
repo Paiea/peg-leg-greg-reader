@@ -161,6 +161,20 @@
       "verification": "greg-again/audio/light/verification/011/"
     },
     {
+      "chapter_id": "ga-012",
+      "number": 12,
+      "title": "Mara",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch012.md",
+      "source_blob_sha": "2d5a7be1f419a530c836e22f0148e7691b28c948",
+      "voice": "deep",
+      "take_count": 23,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 608.328,
+      "audio_src": "assets/light/chapter-012.mp3",
+      "verification": "greg-again/audio/light/verification/012/"
+    },
+    {
       "chapter_id": "ga-015",
       "number": 15,
       "title": "The Morning Barge",

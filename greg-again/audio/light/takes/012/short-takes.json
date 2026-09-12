@@ -6,7 +6,7 @@
   "source": "r2/assets/audio-score-light/ch012.md",
   "source_blob_sha": "2d5a7be1f419a530c836e22f0148e7691b28c948",
   "voice": "deep",
-  "status": "capture_ready",
+  "status": "durable_takes_verified_and_assembled",
   "factory": "preview_safe_short_take_capture_v1",
   "max_chars": 500,
   "provider_facing_substitutions": {
@@ -23,7 +23,11 @@
       "transcript": "Mara was sitting on the floor outside my room.\n\nThat was how I learned I had been avoiding her.\n\nNot consciously.\n\nConscious avoidance had planning in it.\n\nThis was worse.\n\nI reached the top of the stairs and stopped.\n\nShe looked up.\n\nDark hair tied badly behind her head. Gray work dress. Ink on two fingers. One boot unlaced because apparently she had been waiting long enough to stop respecting presentation.\n\nI knew her face.\n\nImmediately.\n\nRelief came first.\n\n",
       "preview_transcript": "Mara was sitting on the floor outside my room.\n\nThat was how I learned I had been avoiding her.\n\nNot consciously.\n\nConscious avoidance had planning in it.\n\nThis was worse.\n\nI reached the top of the stairs and stopped.\n\nShe looked up.\n\nDark hair tied badly behind her head. Gray work dress. Ink on two fingers. One boot unlaced because apparently she had been waiting long enough to stop respecting presentation.\n\nI knew her face.\n\nImmediately.\n\nRelief came first.\n\n",
       "context_id": "d647feb1eb8242e78e4f9aff06ff1cb5",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4de1e709-1812-4eed-9f61-429fcb55d045.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4de1e709-1812-4eed-9f61-429fcb55d045.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/01.mp3",
+      "byte_size": 447744,
+      "audio_sha256": "d11167846bf52bdcb564c0a6454bd72af4baa45cf4af14b22513991d24497fc7",
+      "duration_seconds": 27.984
     },
     {
       "order": 2,
@@ -31,7 +35,11 @@
       "transcript": "Then shame, because relief was not the correct emotion when someone had been sitting outside your room long enough to become furniture.\n\n\"There you are.\"\n\nHer voice landed somewhere old.\n\nNot forty-years-old.\n\nEarlier.\n\nSummer heat. River steps. Somebody throwing plum pits from a roof.\n\nGone before I could catch it.\n\n\"Mara.\"\n\nShe stood.\n\nThe fact that I knew her name seemed to annoy her.\n\n\"Congratulations.\"\n\nFair.\n\nNo.\n\nI was not doing that.\n\nI unlocked the door.\n\n",
       "preview_transcript": "Then shame, because relief was not the correct emotion when someone had been sitting outside your room long enough to become furniture.\n\n\"There you are.\"\n\nHer voice landed somewhere old.\n\nNot forty-years-old.\n\nEarlier.\n\nSummer heat. River steps. Somebody throwing plum pits from a roof.\n\nGone before I could catch it.\n\n\"Mara.\"\n\nShe stood.\n\nThe fact that I knew her name seemed to annoy her.\n\n\"Congratulations.\"\n\nFair.\n\nNo.\n\nI was not doing that.\n\nI unlocked the door.\n\n",
       "context_id": "797c37edd7164988ba6d09d7f870ac51",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/18439e88-90a0-4a67-af23-0eb21236365c.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/18439e88-90a0-4a67-af23-0eb21236365c.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/02.mp3",
+      "byte_size": 440448,
+      "audio_sha256": "f228484a47ecfe2f9216318c2ede8e5f7ac650af429abe41af13a229994e350f",
+      "duration_seconds": 27.528
     },
     {
       "order": 3,
@@ -39,7 +47,11 @@
       "transcript": "She did not move.\n\n\"You got my letter?\"\n\nThere it was.\n\nThe letter was still in the drawer beside my bed.\n\nI had recognized her handwriting on the first morning.\n\nThen spent six weeks building systems around everything except opening it properly.\n\nI had looked at the date.\n\nRead the first line.\n\nStopped when the first line referred to a conversation I could not remember.\n\nThen I had told myself I would come back when the world made more sense.\n\n",
       "preview_transcript": "She did not move.\n\n\"You got my letter?\"\n\nThere it was.\n\nThe letter was still in the drawer beside my bed.\n\nI had recognized her handwriting on the first morning.\n\nThen spent six weeks building systems around everything except opening it properly.\n\nI had looked at the date.\n\nRead the first line.\n\nStopped when the first line referred to a conversation I could not remember.\n\nThen I had told myself I would come back when the world made more sense.\n\n",
       "context_id": "b21bc22f56d74d6a928b616fdbff482a",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a0322e0b-3824-4c5a-a9cd-0f097ff2f608.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a0322e0b-3824-4c5a-a9cd-0f097ff2f608.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/03.mp3",
+      "byte_size": 435456,
+      "audio_sha256": "158b082847506c9c8e2b7e25c155b9035f6265dcdfc4931b16648ad96ea7088e",
+      "duration_seconds": 27.216
     },
     {
       "order": 4,
@@ -47,7 +59,11 @@
       "transcript": "The world had declined.\n\n\"Yes.\"\n\n\"And?\"\n\nI looked at her.\n\nShe looked back.\n\nNo exit appeared.\n\n\"I didn't answer.\"\n\n\"I noticed.\"\n\n\"I should have.\"\n\n\"Also noticed.\"\n\nShe crossed her arms.\n\nI had negotiated with Antonius Vayle while owing him money.\n\nThis was worse.\n\n\"Do you want to come in?\"\n\n\"Do you?\"\n\nThat question should not have been difficult.\n\nIt was.\n\n\"Yes.\"\n\nMara stepped inside.\n\nShe looked around once.\n\nThe room had changed since my first morning.\n\n",
       "preview_transcript": "The world had declined.\n\n\"Yes.\"\n\n\"And?\"\n\nI looked at her.\n\nShe looked back.\n\nNo exit appeared.\n\n\"I didn't answer.\"\n\n\"I noticed.\"\n\n\"I should have.\"\n\n\"Also noticed.\"\n\nShe crossed her arms.\n\nI had negotiated with Antonius Vayle while owing him money.\n\nThis was worse.\n\n\"Do you want to come in?\"\n\n\"Do you?\"\n\nThat question should not have been difficult.\n\nIt was.\n\n\"Yes.\"\n\nMara stepped inside.\n\nShe looked around once.\n\nThe room had changed since my first morning.\n\n",
       "context_id": "c2176337bead49bb95417b0b29d96fce",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3292916f-6fef-4497-9fdb-6ae7c0957edc.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3292916f-6fef-4497-9fdb-6ae7c0957edc.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/04.mp3",
+      "byte_size": 422400,
+      "audio_sha256": "a53c93b4a6bebd546e48e723b18f49bb6f24b2796bc032b8a6ed7ebec2e203db",
+      "duration_seconds": 26.4
     },
     {
       "order": 5,
@@ -55,7 +71,11 @@
       "transcript": "New basin.\n\nBetter rag.\n\nTraining clothes folded instead of dropped on the chair.\n\nThree pages of Arlo numbers beneath a cup.\n\nA length of marked cord from Meral coiled near the window.\n\nMy old cheap sword against the wall.\n\nMara picked up the cord.\n\n\"What's this?\"\n\n\"Magic practice.\"\n\nShe looked at me.\n\n\"You hate magic practice.\"\n\nI said nothing.\n\nHer face changed.\n\nNot much.\n\nEnough.\n\n\"You do.\"\n\nApparently young me had opinions I no longer remembered having.\n\n",
       "preview_transcript": "New basin.\n\nBetter rag.\n\nTraining clothes folded instead of dropped on the chair.\n\nThree pages of Arlo numbers beneath a cup.\n\nA length of marked cord from Meral coiled near the window.\n\nMy old cheap sword against the wall.\n\nMara picked up the cord.\n\n\"What's this?\"\n\n\"Magic practice.\"\n\nShe looked at me.\n\n\"You hate magic practice.\"\n\nI said nothing.\n\nHer face changed.\n\nNot much.\n\nEnough.\n\n\"You do.\"\n\nApparently young me had opinions I no longer remembered having.\n\n",
       "context_id": "0d189d7a39f14d4e8e15f07e1cc62508",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3849007b-e860-4c3e-b77e-9be892ecb983.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3849007b-e860-4c3e-b77e-9be892ecb983.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/05.mp3",
+      "byte_size": 438912,
+      "audio_sha256": "e9e0c87cbcf71ea4e3296b6e083acd8f748f9629de6c05621b43280781915396",
+      "duration_seconds": 27.432
     },
     {
       "order": 6,
@@ -63,7 +83,11 @@
       "transcript": "\"Did.\"\n\n\"Six weeks ago.\"\n\nRight.\n\nShe put the cord down.\n\n\"You missed Tavin's send-off.\"\n\nThe name meant nothing.\n\nMy stomach tightened before my face did.\n\nMara saw both.\n\n\"You missed it,\" she repeated.\n\n\"I don't remember Tavin.\"\n\nSilence.\n\nThat was the wrong answer.\n\nAlso the only honest one I had.\n\nMara stared at me.\n\n\"What?\"\n\n\"I know the name should mean something.\"\n\n\"He lived across from us for twelve years.\"\n\nUs.\n\nAnother word with architecture inside it.\n\n",
       "preview_transcript": "\"Did.\"\n\n\"Six weeks ago.\"\n\nRight.\n\nShe put the cord down.\n\n\"You missed Tavin's send-off.\"\n\nThe name meant nothing.\n\nMy stomach tightened before my face did.\n\nMara saw both.\n\n\"You missed it,\" she repeated.\n\n\"I don't remember Tavin.\"\n\nSilence.\n\nThat was the wrong answer.\n\nAlso the only honest one I had.\n\nMara stared at me.\n\n\"What?\"\n\n\"I know the name should mean something.\"\n\n\"He lived across from us for twelve years.\"\n\nUs.\n\nAnother word with architecture inside it.\n\n",
       "context_id": "aa908df308ff4850ac2e3807e71ae697",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3122e580-df12-43dd-917b-e0c3078a62f6.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3122e580-df12-43dd-917b-e0c3078a62f6.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/06.mp3",
+      "byte_size": 432768,
+      "audio_sha256": "689151236c83d0618a11cf09e4ffc751a898bd1f6c6efa4a491e1428344df7d2",
+      "duration_seconds": 27.048
     },
     {
       "order": 7,
@@ -71,7 +95,11 @@
       "transcript": "\"He taught you cards.\"\n\nThat one hurt differently.\n\nCards.\n\nWhite Dog.\n\nDockworker protecting winnings.\n\nMan selling the story of tilt.\n\nForty years of gambling instincts.\n\nThe person who taught nineteen-year-old Greg enough to begin had vanished completely.\n\nI sat on the edge of the bed.\n\nMara stayed standing.\n\n\"Where did he go?\"\n\n\"River company. South branch.\"\n\nAlive.\n\nGood.\n\nThe relief must have shown.\n\nMara's anger sharpened.\n\n\"Why are you looking relieved?\"\n\n",
       "preview_transcript": "\"He taught you cards.\"\n\nThat one hurt differently.\n\nCards.\n\nWhite Dog.\n\nDockworker protecting winnings.\n\nMan selling the story of tilt.\n\nForty years of gambling instincts.\n\nThe person who taught nineteen-year-old Greg enough to begin had vanished completely.\n\nI sat on the edge of the bed.\n\nMara stayed standing.\n\n\"Where did he go?\"\n\n\"River company. South branch.\"\n\nAlive.\n\nGood.\n\nThe relief must have shown.\n\nMara's anger sharpened.\n\n\"Why are you looking relieved?\"\n\n",
       "context_id": "d69360cd6951446397421ddfad3e5313",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a8fa787e-6d6f-40a9-9836-e68461dc6c9f.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a8fa787e-6d6f-40a9-9836-e68461dc6c9f.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/07.mp3",
+      "byte_size": 437376,
+      "audio_sha256": "8f683f5eba5930a073592f2201b0ee393b53a6149b24c44e41787b7a4dc94fd9",
+      "duration_seconds": 27.336
     },
     {
       "order": 8,
@@ -79,7 +107,11 @@
       "transcript": "I could not answer that without becoming insane.\n\nBecause for a second I thought you were telling me I had missed a funeral.\n\nBecause too many people in my memory were dead and apparently I had begun assuming absence meant the same thing.\n\nBecause Tavin being alive felt like getting someone back even though I had no memory of losing him.\n\n\"I thought something worse happened.\"\n\n\"Worse than you forgetting him?\"\n\nThere was no useful response.\n\nMara sat on the chair.\n\n",
       "preview_transcript": "I could not answer that without becoming insane.\n\nBecause for a second I thought you were telling me I had missed a funeral.\n\nBecause too many people in my memory were dead and apparently I had begun assuming absence meant the same thing.\n\nBecause Tavin being alive felt like getting someone back even though I had no memory of losing him.\n\n\"I thought something worse happened.\"\n\n\"Worse than you forgetting him?\"\n\nThere was no useful response.\n\nMara sat on the chair.\n\n",
       "context_id": "ac2bbe03f63b4dcf964c4bfff263c81e",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/da82e440-0902-4daf-96ce-bc547b1b2c01.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/da82e440-0902-4daf-96ce-bc547b1b2c01.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/08.mp3",
+      "byte_size": 458496,
+      "audio_sha256": "3152d4a8ccaa6465f2c6dd12073ec222124e9b87bded6ff55a440b7b45aa8c85",
+      "duration_seconds": 28.656
     },
     {
       "order": 9,
@@ -87,7 +119,11 @@
       "transcript": "Not because the conversation improved.\n\nBecause anger apparently had knees.\n\n\"Did you get hit in the head?\"\n\nMaybe.\n\nNot recently.\n\n\"No.\"\n\n\"Fever?\"\n\n\"No.\"\n\n\"Spell accident?\"\n\n\"Not that I know of.\"\n\n\"Then what is this?\"\n\nShe gestured at me.\n\nNot the room.\n\nMe.\n\nI wanted a model.\n\nMemory damage.\n\nTemporal displacement.\n\nIdentity discontinuity.\n\nForty years compressed into a nineteen-year-old nervous system.\n\nNone of those belonged in this room.\n\nMara waited.\n\n",
       "preview_transcript": "Not because the conversation improved.\n\nBecause anger apparently had knees.\n\n\"Did you get hit in the head?\"\n\nMaybe.\n\nNot recently.\n\n\"No.\"\n\n\"Fever?\"\n\n\"No.\"\n\n\"Spell accident?\"\n\n\"Not that I know of.\"\n\n\"Then what is this?\"\n\nShe gestured at me.\n\nNot the room.\n\nMe.\n\nI wanted a model.\n\nMemory damage.\n\nTemporal displacement.\n\nIdentity discontinuity.\n\nForty years compressed into a nineteen-year-old nervous system.\n\nNone of those belonged in this room.\n\nMara waited.\n\n",
       "context_id": "a751fce0021b4e6aaa1661aa59dba471",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4df4616a-49d0-44b4-9aab-81ee6fdf663c.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4df4616a-49d0-44b4-9aab-81ee6fdf663c.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/09.mp3",
+      "byte_size": 425472,
+      "audio_sha256": "a6c0900c31d820c73e3dd46c1056b4e1a5a5accb62b877629405e735cb76708c",
+      "duration_seconds": 26.592
     },
     {
       "order": 10,
@@ -95,7 +131,11 @@
       "transcript": "I could lie.\n\nHead injury.\n\nTrauma.\n\nBad dreams.\n\nAnything ordinary enough to fit inside her understanding.\n\nThe problem was that she already knew me.\n\nNot the person I had become.\n\nThe person I was supposed to be.\n\nA lie would have to survive contact with someone who knew the original version better than I did.\n\n\"Something happened to my memory.\"\n\nHer anger moved.\n\nNot gone.\n\nMoved.\n\n\"What kind of something?\"\n\n\"I don't know how to explain it.\"\n\n\"Try.\"\n\n",
       "preview_transcript": "I could lie.\n\nHead injury.\n\nTrauma.\n\nBad dreams.\n\nAnything ordinary enough to fit inside her understanding.\n\nThe problem was that she already knew me.\n\nNot the person I had become.\n\nThe person I was supposed to be.\n\nA lie would have to survive contact with someone who knew the original version better than I did.\n\n\"Something happened to my memory.\"\n\nHer anger moved.\n\nNot gone.\n\nMoved.\n\n\"What kind of something?\"\n\n\"I don't know how to explain it.\"\n\n\"Try.\"\n\n",
       "context_id": "38cd304fbbcd4fdd88847a04133ebfda",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1288d27e-402c-4073-b4fa-ccb3916ab8d6.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1288d27e-402c-4073-b4fa-ccb3916ab8d6.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/10.mp3",
+      "byte_size": 432768,
+      "audio_sha256": "fe3c8082c7becfc0d7e1b80186f769d49f8fd10b5f1295a64afd5e7f9af32046",
+      "duration_seconds": 27.048
     },
     {
       "order": 11,
@@ -103,7 +143,11 @@
       "transcript": "I looked at my hands.\n\nYoung hands.\n\nStill strange when I remembered to notice.\n\n\"I remember things that happened a long time ago better than things that happened recently.\"\n\nTrue.\n\nWrong direction.\n\n\"How long ago?\"\n\nI almost laughed.\n\nDid not.\n\n\"Long.\"\n\nShe hated that answer.\n\n\"Greg.\"\n\nThere were versions of my name.\n\nSella used it when I became administratively irritating.\n\nJorren used it when I was about to do something funny or stupid.\n\n",
       "preview_transcript": "I looked at my hands.\n\nYoung hands.\n\nStill strange when I remembered to notice.\n\n\"I remember things that happened a long time ago better than things that happened recently.\"\n\nTrue.\n\nWrong direction.\n\n\"How long ago?\"\n\nI almost laughed.\n\nDid not.\n\n\"Long.\"\n\nShe hated that answer.\n\n\"Greg.\"\n\nThere were versions of my name.\n\nSella used it when I became administratively irritating.\n\nJorren used it when I was about to do something funny or stupid.\n\n",
       "context_id": "413fb7e9896c4b139fa1cba7b7920a84",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5340890e-4465-43b3-8a0f-525f2a07b5e9.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5340890e-4465-43b3-8a0f-525f2a07b5e9.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/11.mp3",
+      "byte_size": 421632,
+      "audio_sha256": "4b58543d7b12fe24d7bda53777f52dec8c7a3e17a5808fc7f80b81d2ff0dd086",
+      "duration_seconds": 26.352
     },
     {
       "order": 12,
@@ -111,7 +155,11 @@
       "transcript": "Arlo used it like a warning label.\n\nMara used it as if I had left something unfinished.\n\nI remembered that.\n\nNot a scene.\n\nA pattern.\n\n\"I remember you,\" I said.\n\nShe said nothing.\n\n\"Not enough.\"\n\nStill nothing.\n\nThe sentence I had rehearsed in no version of this conversation arrived anyway.\n\n\"I remember you. Not in the order you deserve.\"\n\nMara looked away.\n\nThat was worse than anger.\n\nI let it stay quiet.\n\nFor once.\n\n",
       "preview_transcript": "Arlo used it like a warning label.\n\nMara used it as if I had left something unfinished.\n\nI remembered that.\n\nNot a scene.\n\nA pattern.\n\n\"I remember you,\" I said.\n\nShe said nothing.\n\n\"Not enough.\"\n\nStill nothing.\n\nThe sentence I had rehearsed in no version of this conversation arrived anyway.\n\n\"I remember you. Not in the order you deserve.\"\n\nMara looked away.\n\nThat was worse than anger.\n\nI let it stay quiet.\n\nFor once.\n\n",
       "context_id": "f81ac8d37e4b4748a5c58909e8c58f6e",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fb4f84dd-028f-420f-b9bf-9e31879c6928.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fb4f84dd-028f-420f-b9bf-9e31879c6928.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/12.mp3",
+      "byte_size": 396672,
+      "audio_sha256": "9f7f888d8742e79a850e4b06fe3571bb1fedfcb65705e68d4c15a8059efe6a85",
+      "duration_seconds": 24.792
     },
     {
       "order": 13,
@@ -119,7 +167,11 @@
       "transcript": "After a while she reached into her pocket and put a small brass key on the table.\n\nI knew the key.\n\nNo idea what it opened.\n\nShe watched me fail.\n\n\"Your old room.\"\n\nI looked around.\n\n\"This is my old room.\"\n\n\"Before this one.\"\n\nAh.\n\nShe almost smiled.\n\nAlmost.\n\n\"My mother's back room. You stayed there after your parents died.\"\n\nThe room changed around me without moving.\n\nAfter my parents died.\n\nMara's mother.\n\nBack room.\n\n",
       "preview_transcript": "After a while she reached into her pocket and put a small brass key on the table.\n\nI knew the key.\n\nNo idea what it opened.\n\nShe watched me fail.\n\n\"Your old room.\"\n\nI looked around.\n\n\"This is my old room.\"\n\n\"Before this one.\"\n\nAh.\n\nShe almost smiled.\n\nAlmost.\n\n\"My mother's back room. You stayed there after your parents died.\"\n\nThe room changed around me without moving.\n\nAfter my parents died.\n\nMara's mother.\n\nBack room.\n\n",
       "context_id": "5e2968523b0c4bb8946c1a684dcbf3d1",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7fcd0790-c95e-4be3-af93-629eea81d5a8.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7fcd0790-c95e-4be3-af93-629eea81d5a8.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/13.mp3",
+      "byte_size": 397440,
+      "audio_sha256": "bd2dc9a3444257179ac1800744e16fd48742c511189d1fb948d173029ca848f3",
+      "duration_seconds": 24.84
     },
     {
       "order": 14,
@@ -127,7 +179,11 @@
       "transcript": "I reached for memory and got rain against shutters. Bread cut too thick. A woman with flour on one wrist telling someone to stop bleeding on the good cloth.\n\nNo face.\n\nThen Mara at fifteen, maybe sixteen, sitting on a windowsill with her knees pulled up.\n\nGone.\n\nI closed my hand around the key.\n\n\"Your mother let me stay there.\"\n\n\"For eight months.\"\n\nI had remembered princes more clearly.\n\nThat was obscene.\n\n",
       "preview_transcript": "I reached for memory and got rain against shutters. Bread cut too thick. A woman with flour on one wrist telling someone to stop bleeding on the good cloth.\n\nNo face.\n\nThen Mara at fifteen, maybe sixteen, sitting on a windowsill with her knees pulled up.\n\nGone.\n\nI closed my hand around the key.\n\n\"Your mother let me stay there.\"\n\n\"For eight months.\"\n\nI had remembered princes more clearly.\n\nThat was obscene.\n\n",
       "context_id": "500450cc8ad84547865b689b7eee5f35",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7d657bae-5a39-41e6-a239-dafcbc00f856.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7d657bae-5a39-41e6-a239-dafcbc00f856.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/14.mp3",
+      "byte_size": 391680,
+      "audio_sha256": "15e42822814846819cfd9cd62d57159b8932dd5f1fea391fccaea30266336a82",
+      "duration_seconds": 24.48
     },
     {
       "order": 15,
@@ -135,7 +191,11 @@
       "transcript": "Mara saw something in my face and softened despite herself.\n\nI wished she hadn't.\n\nAnger I could survive.\n\nKindness made the missing pieces heavier.\n\n\"She's alive,\" Mara said.\n\nI looked up too quickly.\n\nShe noticed that too.\n\nOf course.\n\n\"Why wouldn't she be?\"\n\nNo reason.\n\nNo present reason.\n\n\"I don't know.\"\n\nMara leaned back in the chair.\n\n\"You're frightening me.\"\n\nThere.\n\nNo joke.\n\nNo useful reframing.\n\nI had done that.\n\n\"I'm sorry.\"\n\n",
       "preview_transcript": "Mara saw something in my face and softened despite herself.\n\nI wished she hadn't.\n\nAnger I could survive.\n\nKindness made the missing pieces heavier.\n\n\"She's alive,\" Mara said.\n\nI looked up too quickly.\n\nShe noticed that too.\n\nOf course.\n\n\"Why wouldn't she be?\"\n\nNo reason.\n\nNo present reason.\n\n\"I don't know.\"\n\nMara leaned back in the chair.\n\n\"You're frightening me.\"\n\nThere.\n\nNo joke.\n\nNo useful reframing.\n\nI had done that.\n\n\"I'm sorry.\"\n\n",
       "context_id": "544a7771c7324833b82f4bd64f474cba",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1411dfb3-be0f-4c52-b565-4d60eb524573.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/1411dfb3-be0f-4c52-b565-4d60eb524573.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/15.mp3",
+      "byte_size": 407040,
+      "audio_sha256": "5d030050cd634e40bfec915e63746baee635d971091f3176d959764df6cd7a39",
+      "duration_seconds": 25.44
     },
     {
       "order": 16,
@@ -143,7 +203,11 @@
       "transcript": "\"Stop saying things like someone twice your age.\"\n\nThat almost got me.\n\nI looked down before the smile could make the apology worse.\n\nMara exhaled.\n\n\"I leave in four days.\"\n\nThe room tightened again.\n\n\"Where?\"\n\n\"Halden.\"\n\nI knew Halden.\n\nSmall river city west of the low ranges. Textile warehouses. Later known for glasswork. Not destroyed in any war I immediately remembered.\n\nThe absence of catastrophe felt like a gift.\n\n\"Ledger position with Vey Shipping.\"\n\n",
       "preview_transcript": "\"Stop saying things like someone twice your age.\"\n\nThat almost got me.\n\nI looked down before the smile could make the apology worse.\n\nMara exhaled.\n\n\"I leave in four days.\"\n\nThe room tightened again.\n\n\"Where?\"\n\n\"Halden.\"\n\nI knew Halden.\n\nSmall river city west of the low ranges. Textile warehouses. Later known for glasswork. Not destroyed in any war I immediately remembered.\n\nThe absence of catastrophe felt like a gift.\n\n\"Ledger position with Vey Shipping.\"\n\n",
       "context_id": "4a53e0160d99415f821f822c4387ec6e",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/38179743-bf7c-43a5-b4ce-b88fdd4e96f6.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/38179743-bf7c-43a5-b4ce-b88fdd4e96f6.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/16.mp3",
+      "byte_size": 441600,
+      "audio_sha256": "1b7d9a6b2e34500800fe77381372ff63da474b5e78ffe00a960988fba1a09a3d",
+      "duration_seconds": 27.6
     },
     {
       "order": 17,
@@ -151,7 +215,11 @@
       "transcript": "She studied me.\n\n\"This is the part where you say I hate boats.\"\n\nI waited.\n\n\"I hate boats.\"\n\n\"Do you?\"\n\n\"Very much.\"\n\nGood to know.\n\nShe laughed once.\n\nSmall.\n\nUnwilling.\n\nThe first thing in the room that felt like a door opening instead of closing.\n\n\"I told you about it before Tavin left.\"\n\n\"I don't remember.\"\n\n\"I know.\"\n\nLess sharp this time.\n\nShe looked at the cord again.\n\nThen the sword.\n\nThen me.\n\n\"You said you'd come.\"\n\nI went still.\n\n\"To Halden?\"\n\n",
       "preview_transcript": "She studied me.\n\n\"This is the part where you say I hate boats.\"\n\nI waited.\n\n\"I hate boats.\"\n\n\"Do you?\"\n\n\"Very much.\"\n\nGood to know.\n\nShe laughed once.\n\nSmall.\n\nUnwilling.\n\nThe first thing in the room that felt like a door opening instead of closing.\n\n\"I told you about it before Tavin left.\"\n\n\"I don't remember.\"\n\n\"I know.\"\n\nLess sharp this time.\n\nShe looked at the cord again.\n\nThen the sword.\n\nThen me.\n\n\"You said you'd come.\"\n\nI went still.\n\n\"To Halden?\"\n\n",
       "context_id": "77382547d57d446abd8383311c848b99",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4777de87-76b8-4d6b-960c-9e15a846e172.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4777de87-76b8-4d6b-960c-9e15a846e172.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/17.mp3",
+      "byte_size": 421632,
+      "audio_sha256": "d68e37883eb812aded0d5b4fa6820149e4d4331f83fc8925784577c7bd1ff057",
+      "duration_seconds": 26.352
     },
     {
       "order": 18,
@@ -159,7 +227,11 @@
       "transcript": "\"Eventually. Not forever. You said Carrow was getting small.\"\n\nYoung Greg wanted out.\n\nThat made sense.\n\nI had forgotten wanting it.\n\nSix weeks ago I had left Carrow for the first time in this life and thought the road widened the world.\n\nApparently the boy had known that before me.\n\n\"Were we...\"\n\nI stopped.\n\nCoward.\n\nMara's eyes narrowed.\n\n\"Were we what?\"\n\nSeveral terrible nouns presented themselves.\n\nTogether.\n\nDating.\n\nSleeping together.\n\nIn love.\n\n",
       "preview_transcript": "\"Eventually. Not forever. You said Carrow was getting small.\"\n\nYoung Greg wanted out.\n\nThat made sense.\n\nI had forgotten wanting it.\n\nSix weeks ago I had left Carrow for the first time in this life and thought the road widened the world.\n\nApparently the boy had known that before me.\n\n\"Were we...\"\n\nI stopped.\n\nCoward.\n\nMara's eyes narrowed.\n\n\"Were we what?\"\n\nSeveral terrible nouns presented themselves.\n\nTogether.\n\nDating.\n\nSleeping together.\n\nIn love.\n\n",
       "context_id": "1c7ef1d4f78b4eb780cf3db24cf12c33",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c7bdc971-474b-41ed-8b51-c29410469887.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c7bdc971-474b-41ed-8b51-c29410469887.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/18.mp3",
+      "byte_size": 417408,
+      "audio_sha256": "42141707313c209a920d004a3f9ff90609a3ebf86821b02ec49e5c0347958f42",
+      "duration_seconds": 26.088
     },
     {
       "order": 19,
@@ -167,7 +239,11 @@
       "transcript": "None arrived with enough memory to trust.\n\n\"Close.\"\n\nHer expression did something complicated.\n\n\"Yes.\"\n\nNot enough information.\n\nShe knew that.\n\n\"Greg.\"\n\n\"I'm trying not to invent the part I don't remember.\"\n\nThat changed her face again.\n\nShe looked at the floor.\n\n\"We kissed twice.\"\n\nAh.\n\n\"Twice?\"\n\n\"You counted too.\"\n\nThat sounded like me.\n\n\"Did it go badly?\"\n\n\"The first one was terrible.\"\n\n\"Good.\"\n\n\"Why is that good?\"\n\n\"Seems credible.\"\n\n",
       "preview_transcript": "None arrived with enough memory to trust.\n\n\"Close.\"\n\nHer expression did something complicated.\n\n\"Yes.\"\n\nNot enough information.\n\nShe knew that.\n\n\"Greg.\"\n\n\"I'm trying not to invent the part I don't remember.\"\n\nThat changed her face again.\n\nShe looked at the floor.\n\n\"We kissed twice.\"\n\nAh.\n\n\"Twice?\"\n\n\"You counted too.\"\n\nThat sounded like me.\n\n\"Did it go badly?\"\n\n\"The first one was terrible.\"\n\n\"Good.\"\n\n\"Why is that good?\"\n\n\"Seems credible.\"\n\n",
       "context_id": "00bb9875e35345f79e0c7335b1edb9d1",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/123196a2-32af-4268-8e22-3da70dbdcf0a.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/123196a2-32af-4268-8e22-3da70dbdcf0a.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/19.mp3",
+      "byte_size": 433152,
+      "audio_sha256": "430a9e82eadc3a254daf33883f297ffdd5eb40089aa2bff17da867ac829f73b5",
+      "duration_seconds": 27.072
     },
     {
       "order": 20,
@@ -175,7 +251,11 @@
       "transcript": "She laughed despite herself.\n\nThen covered her mouth because apparently she resented giving me progress.\n\n\"Second was better.\"\n\nI had no memory of either.\n\nThe grief of that was small enough to be embarrassing and sharp enough to matter.\n\nNot losing a wife.\n\nNot losing a great love.\n\nLosing two kisses.\n\nA room.\n\nA neighbor who taught me cards.\n\nA woman who fed me after my parents died.\n\nOrdinary things.\n\nHistory had not bothered to preserve them.\n\nNeither had I.\n\n",
       "preview_transcript": "She laughed despite herself.\n\nThen covered her mouth because apparently she resented giving me progress.\n\n\"Second was better.\"\n\nI had no memory of either.\n\nThe grief of that was small enough to be embarrassing and sharp enough to matter.\n\nNot losing a wife.\n\nNot losing a great love.\n\nLosing two kisses.\n\nA room.\n\nA neighbor who taught me cards.\n\nA woman who fed me after my parents died.\n\nOrdinary things.\n\nHistory had not bothered to preserve them.\n\nNeither had I.\n\n",
       "context_id": "3d99ae7ec7b24d6a9019346312363f78",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bcc38f26-d3d0-462b-b159-3061b8e657b7.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bcc38f26-d3d0-462b-b159-3061b8e657b7.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/20.mp3",
+      "byte_size": 470784,
+      "audio_sha256": "65bc1f34a6d9d67a79f4b28854be9edb172c811d21eb5eae0f443771a7465854",
+      "duration_seconds": 29.424
     },
     {
       "order": 21,
@@ -183,7 +263,11 @@
       "transcript": "Mara stood.\n\n\"I'm not asking you to come to Halden.\"\n\nI nodded.\n\n\"I was. Before. I'm not now.\"\n\nThat hurt because it was fair.\n\n\"I understand.\"\n\n\"Do you?\"\n\n\"Enough.\"\n\nShe picked up the brass key, then stopped.\n\nPut it back on the table.\n\n\"Keep that.\"\n\n\"Why?\"\n\n\"Because my mother will hit you with a spoon if you make her explain you to yourself.\"\n\nSomething warm moved behind my ribs.\n\nNo system for it.\n\nGood.\n\nMara went to the door.\n\nI stood too.\n\n\"Four days?\"\n\n",
       "preview_transcript": "Mara stood.\n\n\"I'm not asking you to come to Halden.\"\n\nI nodded.\n\n\"I was. Before. I'm not now.\"\n\nThat hurt because it was fair.\n\n\"I understand.\"\n\n\"Do you?\"\n\n\"Enough.\"\n\nShe picked up the brass key, then stopped.\n\nPut it back on the table.\n\n\"Keep that.\"\n\n\"Why?\"\n\n\"Because my mother will hit you with a spoon if you make her explain you to yourself.\"\n\nSomething warm moved behind my ribs.\n\nNo system for it.\n\nGood.\n\nMara went to the door.\n\nI stood too.\n\n\"Four days?\"\n\n",
       "context_id": "deeb9e704b3a4a06a380d57e3efb2352",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/88c28aeb-4a58-41e4-8e65-1c1274ccd64e.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/88c28aeb-4a58-41e4-8e65-1c1274ccd64e.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/21.mp3",
+      "byte_size": 426240,
+      "audio_sha256": "48e84503c0c020d28bf0af24c80ef9038673db6c106fc4bb0e2a7f5598f93270",
+      "duration_seconds": 26.64
     },
     {
       "order": 22,
@@ -191,7 +275,11 @@
       "transcript": "\"Morning barge.\"\n\n\"I want to see you before you go.\"\n\nShe looked at me for a long moment.\n\n\"Then do.\"\n\nNo promise.\n\nNo appointment.\n\nNo protection against me getting distracted by a contract, a sword, a filter, a future catastrophe, or my own thoughts.\n\nJust a deadline.\n\nShe left.\n\nI stayed in the doorway until her steps disappeared down the stairs.\n\nThen I looked at the brass key in my hand.\n\nI could remember the siege of East Verrel.\n\n",
       "preview_transcript": "\"Morning barge.\"\n\n\"I want to see you before you go.\"\n\nShe looked at me for a long moment.\n\n\"Then do.\"\n\nNo promise.\n\nNo appointment.\n\nNo protection against me getting distracted by a contract, a sword, a filter, a future catastrophe, or my own thoughts.\n\nJust a deadline.\n\nShe left.\n\nI stayed in the doorway until her steps disappeared down the stairs.\n\nThen I looked at the brass key in my hand.\n\nI could remember the siege of East Verrel.\n\n",
       "context_id": "1b4e0e1a5ae94681bfa621f03306e677",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8489d878-6655-4e58-9efc-138dee404732.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/8489d878-6655-4e58-9efc-138dee404732.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/22.mp3",
+      "byte_size": 436608,
+      "audio_sha256": "324260879a1de00df4fb5836396f903f111c4c36235ab33528f1daa650b26cd7",
+      "duration_seconds": 27.288
     },
     {
       "order": 23,
@@ -199,8 +287,18 @@
       "transcript": "I could remember the shape of an S-class barrier under dragonfire.\n\nI could remember market prices from cities that no longer existed in my first life.\n\nI could not remember being kissed behind whatever building Mara had chosen twice.\n\nThat was not a problem I could solve by remembering harder.\n\nFour days.\n\nThis time, I wrote it down...",
       "preview_transcript": "I could remember the shape of an S-class barrier under dragonfire.\n\nI could remember market prices from cities that no longer existed in my first life.\n\nI could not remember being kissed behind whatever building Mara had chosen twice.\n\nThat was not a problem I could solve by remembering harder.\n\nFour days.\n\nThis time, I wrote it down...",
       "context_id": "720bb3390d6f4d66b8ae4fc794afdc75",
-      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5cdb401d-884e-4c88-898b-c27d184368e4.mp3"
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5cdb401d-884e-4c88-898b-c27d184368e4.mp3",
+      "durable_file": "greg-again/audio/assets/light/chunks/012-short/23.mp3",
+      "byte_size": 266496,
+      "audio_sha256": "a36b95ef2c4e746d24f5cdafc4d7ef198e6fd458991cf98789fee0da071278a5",
+      "duration_seconds": 16.656
     }
   ],
-  "captured_take_count": 23
+  "captured_take_count": 23,
+  "component_duration_seconds": 606.264,
+  "final_asset": "greg-again/audio/assets/light/chapter-012.mp3",
+  "final_byte_size": 5401773,
+  "final_audio_sha256": "9483094ff901319fb0e2310bc7ae480b3108da4a4f16f2358a36dfdeff7ca081",
+  "final_duration_seconds": 608.328,
+  "settling_tail_seconds": 2.0
 }
