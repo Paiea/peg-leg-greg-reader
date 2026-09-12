@@ -4,14 +4,27 @@ Status: **ACTIVE BOOK CANDIDATE / NOT SELECTED AUTHORITY**
 
 ## Authority
 
-- Selected public R2 authority remains Chapter 118 `First Bell` unless newer `main` explicitly changes it.
+- Selected public R2 written authority remains Chapter 118 `First Bell` unless newer `main` explicitly changes it.
 - This branch fresh-writes candidate post-118 book prose.
-- Temporal third-year material through speculative 158 remains quarry/challenger evidence only.
+- Temporal third-year material through speculative 158 is quarry/challenger evidence only.
 - Do not publish or promote these chapters without an explicit selection pass.
+- Before any promotion, reconcile this branch against fresh `main`; site/audio/image work has continued independently.
+
+## Production contract
+
+- Listening first, mostly Greg POV.
+- Default chapter target roughly 2,000–2,500 words when earned, not a quota.
+- Clear speaker ownership and physical referents by ear.
+- No em dashes in manuscript prose.
+- Fresh-perform from current book state. Never mechanically expand old temporal chapters.
+- User supplies flavor/pressure; engine routes people, setting, plot, time, character, and consequence.
+- Scout cheaply after meaningful state changes instead of protecting an old outline.
+- Broad competence is Greg's floor. His ceiling should narrow.
+- Party/recurring people emerge through repeated choice, not RPG slots or declaration.
 
 ## Current candidate frontier
 
-Fresh re-performance now runs contiguously through:
+Fresh book re-performance runs contiguously through Candidate Chapter 143:
 
 - 119 `Five Days`
 - 120 `Dead Inventory`
@@ -25,113 +38,154 @@ Fresh re-performance now runs contiguously through:
 - 128 `Fixed Points`
 - 129 `Northbank`
 - 130 `Again`
+- 131 `Six Days`
+- 132 `Shape`
+- 133 `The Tourist`
+- 134 `The Traveler`
+- 135 `The Hunter`
+- 136 `The Tenant`
+- 137 `The Freight`
+- 138 `The Landlord`
+- 139 `The Maker`
+- 140 `The Deputy`
+- 141 `The Entrant`
+- 142 `The Duelist`
+- 143 `The Candidates`
 
-The target remains listening-first, mostly Greg POV, approximately 2,000–2,500 words when the scene earns it, with clear speaker ownership and no em dashes.
+Titles remain candidate metadata. The authority-layer preference is embodied-role chapter naming. Chapters 133 onward are moving strongly in that direction; earlier candidate titles need a title pass before promotion rather than interrupting prose production now.
 
 ## Connected-read rulings
 
 ### 119–124
-
-Keep all six. The transition from relationship residue to mundane fantasy to paid work to quarry adventure reads as a real book movement. Do not merge 121/122 or split 124 merely to normalize chapter sizes.
+Keep all six. Relationship residue -> mundane fantasy -> paid competence -> quarry adventure reads as one real book movement.
 
 ### 125–128
+Keep all four. Quarry pays off through Haro/Lis, Bell Room, mundane recovery, and fixed-point work. Stop escalating the quarry.
 
-Keep all four. The quarry movement has paid enough value and should not continue escalating immediately. 127 is intentionally shorter decompression and should not be inflated just to hit a number.
+### 131–134
+Keep the shape: packing -> urgent fire -> deliberately unproductive tourist day -> Mara's departure. The departure clock owns real lived time instead of becoming montage.
 
-## Current story state in this candidate book
+### 135–136
+Keep both. The marsh hunt proves Greg can be worth a share when his favorite specialization is mostly irrelevant. Mail afterward gives him a free home choice rather than a summons.
 
-### Mara
+### 137–138
+Keep both. Freight travel remains travel, not mandatory adventure. Carrow feels familiar and displaced rather than reset.
 
-- Mara has chosen **Northbank** for her own professional reasons.
-- She will lead a route desk with real bounded authority and staff.
-- She leaves Halden in twelve days from Chapter 129.
-- Greg wants her in Carrow, dislikes Northbank, and still accepts that Northbank is the better job for what she wants.
-- Neither expects Greg to automatically follow.
-- They explicitly do not want another two-year letters-only relationship or every visit converted into expedition logistics.
-- Greg has not yet solved travel cadence, living arrangement, or long-term geography.
+### 139–140
+Keep both. Pell and Jorren have grown independently. Pell pushes Greg's fixed-point mechanics sideways; Jorren demonstrates condition-setting in people/work without becoming a miniature Greg.
 
-### Greg / specialization
+### 141–143
+Keep all three and stop before the team course. Greg is middle-of-board at broad holding, loses cleanly to Sera Nin, watches Sera lose to somebody else, and only then reconnects with Lysa Kerr and Tomel Rusk. Guild assigns Kerr / Rusk / Greg to the third-morning team course because old paperwork records prior shared work. They explicitly choose not to pre-practice.
 
-- Broad competence remains a high floor.
-- His useful ceiling is narrowing toward changing conditions: where load moves, which motion remains possible, what point must remain fixed, and where failure may safely resolve.
-- He is increasingly effective beside people dramatically better than him at narrow things.
-- He has one clean high-stakes support win in the Haro rescue.
-- Veya has already corrected a social ownership failure: Greg gave her a cut instruction without telling her the larger consequence. Her line remains hers even when his plan is correct.
-- Greg/Veya fixed-point synergy is emerging behaviorally, not as a named technique.
+## Current story state
 
-### Red Quay
+### Greg
 
-- Renn Saye: Gold lead / shield / decision ownership.
-- Veya: straight-line cuts between fixed copper points.
-- Korr: high-impact specialist with real recovery cost.
-- Mett: stone/listening specialist Greg cannot imitate cheaply.
-- Asha: medical specialist with independent authority.
-- Red Quay does not need Greg to function.
-- They have completed the quarry sequence and left for an Esven tollhouse/vault job.
-- Renn invited Greg to that job. Greg declined because Mara leaves in twelve days and the travel/work window would consume the meaningful buffer.
-- No future Red Quay job is guaranteed.
-- Greg still has one Veya copper rod under joking `temporary custody` / `collateral` language. Treat it as practical recurrence residue, not a party token.
+- Back in Carrow by free choice, not emergency, money, Mara, or prophecy.
+- Has some non-emergency choice money and Harrow is current.
+- Walking leg fit remains improved.
+- Field peg carries Pera's removable crawler-tendon vibration washer. Grazer tendon is now comparison material with Pell/Pera, not magical loot.
+- Carries one Veya copper rod under joking disputed ownership. It is practical recurrence residue, not a party token.
+- Carries the stupid blue/green-wing tourist bird from Halden.
+- Broad competence remains real: sword, field work, logistics, structural magic, old command experience.
+- Sustained broad barrier testing at the Carrow exchange proves he is merely respectable there. Another Silver is simply better.
+- His stronger current lane is small, precise manipulation of usable conditions: relative position, local movement, timing, redirection, anchoring, controlled failure, and where force may resolve.
+- Pell has sharpened this mechanically: Greg initially tried to hold Veya's point relative to the room; the more useful problem is preserving the point relative to the moving surface.
+- Sera exposes a related combat habit: Greg sometimes solves a second move before the other person has actually chosen it.
+- Do not turn either observation into a slogan.
 
-### Quarry / Bell Room
+### People-development pressure
 
-- Fenn rescued with broken arm.
-- Haro rescued with crushed/broken lower leg/ankle; circulation preserved, likely keeps foot if care goes well.
-- Lis was dead when found and was recovered.
-- Buried structure contains a load-responsive bronze bell/tongue system and eight setter-cuff work stations tied to separate structural ribs.
-- Evidence suggests highly specialized workers repeated narrow brace patterns in response to different network states.
-- This complicates Greg's old blanket rejection of setter cuffs but does not make the tradeoff safe or correct.
-- Greg touched/removed no old cuff.
-- Quarry remains with Halden engineering/history/hazard systems. Do not force an immediate return.
+- Greg may sometimes see one useful step sideways from a specialist's current self-concept.
+- Capability does not equal aspiration.
+- Greg can create a bounded condition; he does not author another person's future.
+- Other people must improve Greg and one another.
+- Recent evidence reinforces reciprocity:
+  - Pell improves Greg's fixed-point interpretation.
+  - Jorren independently uses condition-setting in route authority.
+  - Sera corrects Greg in sparring without becoming his mentor.
+  - Lysa and Tomel have changed through their own work since Westreach.
+- Do not make every competent person an abrasive-but-lovable specialist or a perfect lesson source.
 
-### Setter cuff
+### Mara / Northbank
 
-- One obsolete inspected setter's cuff remains for sale in Halden's Lantern Rows.
-- Greg bargained but did not buy it.
-- The Bell Room made him more curious.
-- He currently says he does not know whether he needs one.
-- Keep it offstage until a concrete current limitation makes the acceleration/tradeoff attractive.
+- Mara chose Northbank for her own route-desk authority and staff.
+- She physically left Halden in Chapter 134.
+- Greg does not follow immediately.
+- Mara's transit note explicitly says she misses him and that this is not an invitation.
+- Northbank has already sent contradictory procedure packets; temporary housing is third floor.
+- Mara should generate staff names, petty office problems, local relationships, jokes, mistakes, choices, and boring days that are hers.
+- Greg waits for her invitation/timing before visiting.
+- Their long-term geography remains unresolved.
 
-### Body / equipment
+### Halden residue
 
-- Pera widened Greg's walking-leg lateral cup; fit is improved.
-- He bought two pairs of good socks.
-- Crawler tendon from quarry salvage has become a **removable, replaceable vibration washer** above the field-peg ferrule, never against skin/socket.
-- First washer compressed unevenly; Pera built a second crossed-layer version and wants walking data.
-- Greg retains the old ferrule/washer setup as fallback.
-- This is mundane iterative equipment, not a cure or magical transformation.
+- Quarry/Bell Room now belongs to Halden engineering/history/hazard systems.
+- One inspected obsolete setter cuff remains at Lantern Rows if unsold.
+- Greg did not buy it.
+- Bell Room made the old tradeoff intellectually harder to dismiss, not safer.
+- Keep the cuff offstage until an actual present limitation makes the trade worth reconsidering.
+- Hunter formerly sharing the surname `Pell` has been renamed **Suri Vale** to avoid audio confusion with Carrow workshop Pell.
+- Red Quay left for Esven and has continued without Greg. No future recurrence is guaranteed.
 
-### Money / obligations
+### Carrow / home
 
-- Warehouse job covered Pera/socks and made Harrow's next payment possible.
-- Quarry rescue/survey paid meaningful specialist shares.
-- Greg sent the next Harrow payment before reallocating the money elsewhere.
-- He now has some non-emergency choice money, exact amount intentionally not hardened here.
+- Lower Rook has changed. Noll has new routines and a new boarder, Mesi, who does tax copying.
+- Greg's room survived a roof leak and was repaired imperfectly.
+- Noll's immediate `stole?` reaction to Veya's rod is a small domestic consequence of Faultglass.
+- Jorren is now a route deputy. His authority is practical and paperwork-backed, not Greg-derived.
+- Pell has continued workshop development with Kesta and other material ideas without Greg.
+- Hearthline/Daro remains damaged and unresolved. No automatic forgiveness and no immediate summons.
+
+### Field exchange
+
+- Three-day Carrow open exchange includes technique lanes, sparring, equipment tables, demonstrations, and a team problem course.
+- Greg entered technique, spar, and team course.
+- Broad sustained barrier: middle-of-board / respectable, not elite.
+- Small precision/utility control fits current training better.
+- Sera Nin, Bronze duelist, beat Greg cleanly. She remains Bronze by preference because Silver paperwork/supervision is not what she wants.
+- Sera then lost her next match to a staff fighter. Do not turn her into a ranking proxy or mandatory recurring mentor.
+- Lysa Kerr's current ward strength includes preserving partial protection after support loss.
+- Tomel Rusk's current rigging/recovery strength includes clear ownership and controlled runout when failure already begins.
+- Guild assigned `KERR / RUSK / GREG` to the third-morning team course because of prior shared-work records.
+- They were once competitors for Field Support Three. They are not a party now.
+- Tomel refused Greg's suggestion to practice ahead because Greg would start planning around what he thinks they are good at.
 
 ## Prose / listening watchlist
 
-- Keep dialogue speaker ownership explicit when 3+ people are active.
-- Monitor repeated Greg evaluators: `Fair`, `Excellent`, `Promising`, `Useful`.
-- Monitor `Probably`; still character-owned but frequent.
-- Avoid repeating a neat thesis at the end of every chapter.
-- Do not re-explain setter-cuff mechanics on next appearance.
-- Avoid making every competent person produce a lesson for Greg.
-- Preserve pauses and physical action during multi-person problem solving so audio listeners can build the geometry once.
+- Keep explicit speaker ownership when 3+ people remain active after action beats.
+- `Good`, `Fair`, `Excellent`, `Useful`, `Probably` remain available but close to saturation.
+- Rest the `everyone has become...` joke pattern.
+- Challenge automatic `Not X / Y` reversals.
+- Do not end every chapter with one ordinary choice functioning as a neat anti-thesis.
+- Avoid making every stranger unusually competent. Average, irrelevant, wrong, annoying, and forgettable people must exist too.
+- Do not re-explain Faultglass, Bell Room, setter cuff, or the specialization thesis unless current action requires it.
+- Chapter titles need embodied-role audit before promotion.
 
-## Next search edge
+## Next immediate edge
 
-Do not blindly copy temporal 131+.
+Fresh-perform the **team course** from current Chapter 143 state. Do not copy the old temporal course mechanically.
 
-Fresh search after Chapter 130 should prioritize:
+Course pressure:
 
-1. Mara's remaining twelve Halden days as ordinary lived time, packing/work/farewell rather than a countdown montage.
-2. Greg still needs work, but Red Quay is unavailable. Let him interact with other people and other kinds of fantasy problems.
-3. A recurring-person network may grow, but somebody should choose another worker, be unavailable, refuse, or simply have a better offer.
-4. A future Red Quay recurrence should happen because schedules/work align again, not because the story freezes them around Greg.
-5. Greg's people-development half is still pressure, not yet mature behavior. Give him chances to notice adjacent capability without turning every person into a project.
-6. Keep conventional fantasy pleasure active: hunt, escort, duel, strange market, local danger, travel, festival, salvage, or another non-infrastructure toy.
-7. Keep the setter cuff offstage unless practice exposes a specific limitation that ordinary training cannot cheaply solve.
-8. Carrow remains Greg's home pull. Do not let Halden become permanent simply because the current book movement works there.
+1. Make the physical problem simple enough to understand by ear and messy enough that pre-assigned roles would be wrong.
+2. Greg does not automatically lead.
+3. Lysa or Tomel should own at least one decision Greg would normally seize.
+4. Their first assumptions about one another should be partly stale.
+5. Allow one sideways capability to appear, but Greg's first interpretation does not need to be correct.
+6. Success may be partial; they do not need to win the exchange.
+7. Keep exchange life around the course: spectators, food, other teams, rankings, jokes, equipment, work obligations.
+8. Stop after the course result and immediate social aftermath.
+
+After that, rescout. Do not automatically declare a recurring party and do not automatically jump to Hearthline.
 
 ## Resume
 
-Continue from newest `main`, verify selected R2 authority, then re-open this branch/current edge and write the next candidate chapter from Chapter 130 forward. Use temporal 131+ only as challenger evidence. Fresh-write, do not mechanically expand.
+On continuation:
+
+1. Verify newest `main` still selects R2 through Chapter 118.
+2. Re-open this branch and current edge.
+3. Fresh-read 141–143 plus `CONNECTED_READ_141_143.md`.
+4. Design and write the team-course chapter(s) at listening-first book fidelity.
+5. Connected-read the result.
+6. Rescout before choosing Hearthline, a new Guild/adventure engine, more exchange, or another route.
