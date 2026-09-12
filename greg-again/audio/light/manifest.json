@@ -75,6 +75,34 @@
       "duration_seconds": 697.128,
       "audio_src": "assets/light/chapter-005.mp3",
       "verification": "greg-again/audio/light/verification/005/"
+    },
+    {
+      "chapter_id": "ga-006",
+      "number": 6,
+      "title": "The First Customer",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch006.md",
+      "source_blob_sha": "2fcf88a0688365a4a1a06643d383cdc7ecd7267a",
+      "voice": "deep",
+      "take_count": 33,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 878.856,
+      "audio_src": "assets/light/chapter-006.mp3",
+      "verification": "greg-again/audio/light/verification/006/"
+    },
+    {
+      "chapter_id": "ga-007",
+      "number": 7,
+      "title": "The Extra Guard",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch007.md",
+      "source_blob_sha": "b8339d629a0707182e65d338585e5af3cffe7339",
+      "voice": "deep",
+      "take_count": 31,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 821.16,
+      "audio_src": "assets/light/chapter-007.mp3",
+      "verification": "greg-again/audio/light/verification/007/"
     }
   ]
 }

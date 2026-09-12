@@ -71,11 +71,11 @@
       "title": "The First Customer",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
-      "take_count": 30,
-      "duration_seconds": 649.632,
-      "audio_src": "assets/v2/chapter-006.mp3",
-      "note": "Audio Score v2 Chapter 6 from the exact audio-native score. Thirty preview-safe deep-voice takes preserve the dyehouse failure chain, Ivena and Arlo's agency, Greg's tiny barrier, and the customer terms. Exact score coverage, ordered capture, MP3 playability, hashes, and the two-second settling tail were mechanically verified; subjective human listen-back remains separate."
+      "audio_finish": "audio-score-light",
+      "take_count": 33,
+      "duration_seconds": 878.856,
+      "audio_src": "assets/light/chapter-006.mp3",
+      "note": "Audio Score Light Chapter 6 assembled from 33 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-007",
@@ -83,11 +83,11 @@
       "title": "The Extra Guard",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "audio-score-v2",
+      "audio_finish": "audio-score-light",
       "take_count": 31,
-      "duration_seconds": 623.448,
-      "audio_src": "assets/v2/chapter-007.mp3",
-      "note": "Audio Score v2 Chapter 7 from the exact audio-native score. Thirty-one preview-safe deep-voice takes preserve moving-action causality, Meral's redirection from stopping to turning the wagon, and Greg's tiny brace under load. Exact score coverage, ordered capture, MP3 playability, and the chapter settling tail were mechanically verified; subjective human listen-back remains separate."
+      "duration_seconds": 821.16,
+      "audio_src": "assets/light/chapter-007.mp3",
+      "note": "Audio Score Light Chapter 7 assembled from 31 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-008",
