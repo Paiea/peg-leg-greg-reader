@@ -1,0 +1,29 @@
+name: Audio full endpoint no-checkout diagnostic
+
+on:
+  push:
+    branches:
+      - 'audio/light-greg-again-ch001-auto'
+    paths:
+      - '.github/workflows/audio-full-endpoint-no-checkout.yml'
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect endpoint payload without checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          url='https://www.aidocmaker.com/g0/audio?name=8229d52d84cc4a2dbd78cb2f27cf8afa'
+          curl -fsSL -D /tmp/headers "$url" -o /tmp/payload
+          echo '--- headers ---'
+          cat /tmp/headers
+          echo '--- file ---'
+          file /tmp/payload
+          echo '--- bytes ---'
+          wc -c /tmp/payload
+          echo '--- first strings ---'
+          strings /tmp/payload | head -120
+          echo '--- candidate URLs ---'
+          strings /tmp/payload | grep -Eo 'https?://[^"'"'"' <>]+' | head -100 || true
