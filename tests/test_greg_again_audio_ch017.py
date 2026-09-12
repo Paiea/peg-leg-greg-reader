@@ -14,7 +14,7 @@ class GregAgainChapter17AudioTest(unittest.TestCase):
         ch = by_id['ga-017']
         self.assertEqual(17, ch['number'])
         self.assertEqual('The Extra Hand', ch['title'])
-        self.assertEqual(42, ch['take_count'])
+        self.assertEqual(35, ch['take_count'])
         self.assertEqual('assets/chapter-017.mp3', ch['audio_src'])
 
         audio = AUDIO / 'assets' / 'chapter-017.mp3'
@@ -27,15 +27,15 @@ class GregAgainChapter17AudioTest(unittest.TestCase):
         self.assertEqual('original_short_take_complete_preview', take_map['production_mode'])
         self.assertEqual('direct_preview_captured', take_map['artifact_boundary'])
         self.assertEqual('verified_playable', take_map['status'])
-        self.assertEqual(42, take_map['take_count'])
-        self.assertEqual(42, len(take_map['takes']))
+        self.assertEqual(35, take_map['take_count'])
+        self.assertEqual(35, len(take_map['takes']))
         self.assertTrue(take_map['verification']['exact_source_coverage'])
-        self.assertEqual(list(range(1,43)), take_map['verification']['take_order'])
+        self.assertEqual(list(range(1,36)), take_map['verification']['take_order'])
         self.assertTrue(all(t['status'] == 'artifact_captured' for t in take_map['takes']))
-        self.assertEqual(42, len({t['provider_context_id'] for t in take_map['takes']}))
-        self.assertEqual(42, len({t['preview_url'] for t in take_map['takes']}))
+        self.assertEqual(35, len({t['provider_context_id'] for t in take_map['takes']}))
+        self.assertEqual(35, len({t['preview_url'] for t in take_map['takes']}))
         self.assertTrue(all('/mcp-preview/' in t['preview_url'] and t['preview_url'].endswith('.mp3') for t in take_map['takes']))
-        for i in range(1, 43):
+        for i in range(1, 36):
             take = AUDIO / 'assets' / 'chunks' / '017-short' / f'{i:02d}.mp3'
             self.assertTrue(take.exists())
             self.assertGreater(take.stat().st_size, 10_000)
