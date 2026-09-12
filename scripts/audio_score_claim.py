@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Atomically claim the next free Greg, Again Audio Score v2 chapter.
+"""Atomically claim the next free Greg, Again Audio Score chapter.
 
 Resolution is read-only. Claiming is successful only when this process creates the
 remote single-chapter branch. An existing/up-to-date branch never counts as a win.
@@ -60,11 +60,13 @@ def claim_next(
     score_dir: Path,
     manifest_path: Path,
     *,
+    generation: str = "v2",
     minimum: int = 1,
     maximum: int = 30,
     remote: str = "origin",
     base_branch: str = "main",
 ) -> dict[str, object]:
+    audio_score_next.generation_config(generation)
     fetch = subprocess.run(
         ["git", "fetch", remote, base_branch],
         check=False,
@@ -79,12 +81,13 @@ def claim_next(
         candidate = audio_score_next.resolve_next_candidate(
             score_dir,
             manifest_path,
-            audio_score_next.git_claim_refs(),
+            audio_score_next.git_claim_refs(generation, remote),
+            generation=generation,
             minimum=minimum,
             maximum=maximum,
         )
         if candidate is None:
-            return {"status": "none"}
+            return {"status": "none", "generation": generation}
         claim = create_only_branch(remote, str(candidate["claim_branch"]), base_ref=base_ref)
         if claim.get("created"):
             return {"status": "claimed", **candidate, **claim}
@@ -94,16 +97,19 @@ def claim_next(
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--score-dir", default="r2/assets/audio-score")
-    parser.add_argument("--manifest", default="greg-again/audio/v2/manifest.json")
+    parser.add_argument("--generation", choices=sorted(audio_score_next.GENERATION_CONFIG), default="v2")
+    parser.add_argument("--score-dir")
+    parser.add_argument("--manifest")
     parser.add_argument("--minimum", type=int, default=1)
     parser.add_argument("--maximum", type=int, default=30)
     parser.add_argument("--remote", default="origin")
     parser.add_argument("--base-branch", default="main")
     args = parser.parse_args()
+    config = audio_score_next.generation_config(args.generation)
     result = claim_next(
-        Path(args.score_dir),
-        Path(args.manifest),
+        Path(args.score_dir or config["score_dir"]),
+        Path(args.manifest or config["manifest"]),
+        generation=args.generation,
         minimum=args.minimum,
         maximum=args.maximum,
         remote=args.remote,
