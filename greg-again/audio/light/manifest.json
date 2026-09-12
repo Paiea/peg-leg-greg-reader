@@ -75,6 +75,62 @@
       "duration_seconds": 697.128,
       "audio_src": "assets/light/chapter-005.mp3",
       "verification": "greg-again/audio/light/verification/005/"
+    },
+    {
+      "chapter_id": "ga-006",
+      "number": 6,
+      "title": "The First Customer",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch006.md",
+      "source_blob_sha": "2fcf88a0688365a4a1a06643d383cdc7ecd7267a",
+      "voice": "deep",
+      "take_count": 33,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 878.856,
+      "audio_src": "assets/light/chapter-006.mp3",
+      "verification": "greg-again/audio/light/verification/006/"
+    },
+    {
+      "chapter_id": "ga-007",
+      "number": 7,
+      "title": "The Extra Guard",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch007.md",
+      "source_blob_sha": "b8339d629a0707182e65d338585e5af3cffe7339",
+      "voice": "deep",
+      "take_count": 31,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 821.16,
+      "audio_src": "assets/light/chapter-007.mp3",
+      "verification": "greg-again/audio/light/verification/007/"
+    },
+    {
+      "chapter_id": "ga-008",
+      "number": 8,
+      "title": "Road Work",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch008.md",
+      "source_blob_sha": "e7d5b96042c05407976a0e3204000fcccf614168",
+      "voice": "deep",
+      "take_count": 27,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 705.984,
+      "audio_src": "assets/light/chapter-008.mp3",
+      "verification": "greg-again/audio/light/verification/008/"
+    },
+    {
+      "chapter_id": "ga-009",
+      "number": 9,
+      "title": "The Bridge",
+      "status": "verified_unlistened",
+      "source": "r2/assets/audio-score-light/ch009.md",
+      "source_blob_sha": "7a0b3d37c42174f5bbedd2f4c08de24e09d8bb8c",
+      "voice": "deep",
+      "take_count": 26,
+      "capture_mode": "preview-safe-short-takes",
+      "duration_seconds": 676.824,
+      "audio_src": "assets/light/chapter-009.mp3",
+      "verification": "greg-again/audio/light/verification/009/"
     }
   ]
 }
