@@ -35,11 +35,11 @@
       "title": "The Borrower",
       "status": "experimental",
       "lens": "greg-dominant",
-      "take_count": 30,
-      "duration_seconds": 673.104,
-      "audio_src": "assets/v2/chapter-003.mp3",
-      "note": "Audio Score v2 Chapter 3 assembled from thirty complete preview-safe deep-voice takes. Exact Audio Score order, durable preview capture, per-take MP3 playability, hashes, final assembly, and the two-second settling tail were mechanically verified; subjective human listen-back remains separate.",
-      "audio_finish": "audio-score-v2"
+      "take_count": 29,
+      "duration_seconds": 786.912,
+      "audio_src": "assets/light/chapter-003.mp3",
+      "note": "Audio Score Light Chapter 3 assembled from 29 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-004",
