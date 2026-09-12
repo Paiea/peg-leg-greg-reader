@@ -109,6 +109,37 @@ jobs:
                       '',
                   ])
               (out_dir / filename).write_text('\n'.join(parts), encoding='utf-8')
+
+          five_dir = out_dir / 'five'
+          five_dir.mkdir(parents=True, exist_ok=True)
+          for old in five_dir.glob('ch*.md'):
+              old.unlink()
+          audit_records = [r for r in records if r[0] >= 26]
+          for offset in range(0, len(audit_records), 5):
+              batch = audit_records[offset:offset + 5]
+              first = batch[0][0]
+              last = batch[-1][0]
+              parts = [
+                  f'# R2 role-title focused audit: Chapters {first:03d}-{last:03d}',
+                  '',
+              ]
+              for number, manifest, heading, start, end in batch:
+                  parts.extend([
+                      f'## Chapter {number:03d}',
+                      f'PUBLIC TITLE: {manifest.get("title", "")}',
+                      f'WRITTEN HEADING: {heading}',
+                      f'TEASER: {manifest.get("teaser", "")}',
+                      '',
+                      '### Opening',
+                      start,
+                      '',
+                      '### Closing',
+                      end,
+                      '',
+                      '---',
+                      '',
+                  ])
+              (five_dir / f'ch{first:03d}-{last:03d}.md').write_text('\n'.join(parts), encoding='utf-8')
           PY
       - name: Commit derived audit source
         run: |
@@ -119,7 +150,7 @@ jobs:
             echo 'No audit source changes.'
             exit 0
           fi
-          git commit -m 'chore(r2): add current role-title audit index'
+          git commit -m 'chore(r2): add five chapter role-title audit packets'
           git fetch origin r2/role-title-authority-118
           git rebase origin/r2/role-title-authority-118
           git push origin HEAD:r2/role-title-authority-118
