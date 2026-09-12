@@ -1,0 +1,56 @@
+name: Apply R2 role title migration
+
+on:
+  push:
+    branches:
+      - r2/role-title-authority-118
+    paths:
+      - '.github/workflows/r2-role-title-migration.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r2-role-title-migration
+  cancel-in-progress: true
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: r2/role-title-authority-118
+          sparse-checkout: |
+            r2/TITLE_POLICY.md
+            r2/TITLE_ROLE_AUDIT.md
+            r2/data
+            r2/assets/written
+            greg-again/audio/manifest.json
+            scripts/sync_r2_role_titles.py
+            tests/test_r2_role_titles.py
+            tests/test_sync_r2_role_titles.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply approved embodied-role titles
+        run: python scripts/sync_r2_role_titles.py --promote-audit
+      - name: Verify migration in working tree
+        run: |
+          python -m unittest tests.test_sync_r2_role_titles tests.test_r2_role_titles -v
+          python scripts/sync_r2_role_titles.py --check
+          git diff --check
+      - name: Commit title-only migration
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse r2/assets/written r2/data greg-again/audio/manifest.json
+          if git diff --cached --quiet; then
+            echo 'No title migration changes.'
+            exit 0
+          fi
+          git commit -m 'feat(r2): apply embodied role titles through 118'
+          git fetch origin r2/role-title-authority-118
+          git rebase origin/r2/role-title-authority-118
+          git push origin HEAD:r2/role-title-authority-118
