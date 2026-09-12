@@ -1,17 +1,18 @@
 # Codex Execution Policy
 
-Codex is a precision implementation worker over existing PLG/R2 systems. It is not the default product architect, creative director, or project-wide brain.
+Codex is a precision implementation/audit worker over existing PLG/R2 systems. It is not the default product architect, creative director, or project-wide brain.
 
 Chat/Mana normally owns broad reasoning, prioritization, architecture choices, taste, rough prototyping, and deciding which implementation target is worth spending Codex allowance on.
 
 ## Default operating mode
 
 1. Use one strong primary Codex agent.
-2. Execute one approved bounded target.
+2. Execute one approved bounded target or audit question.
 3. Reuse existing architecture and deterministic tools before inventing new systems.
 4. Let the primary agent work autonomously inside the approved boundary: inspect, edit multiple files, debug, test, and iterate as needed.
-5. Verify the target.
-6. Stop and return evidence to Chat/Mana before expanding scope.
+5. Verify the target or ground the audit in exact repository evidence.
+6. Preserve compact reusable method when the work taught us something transferable.
+7. Stop and return evidence to Chat/Mana before expanding scope.
 
 A task is bounded by outcome and authority, not by line count. A valid target may span multiple files when that is required to solve one coherent problem.
 
@@ -61,6 +62,22 @@ Treat context as scarce.
 7. Retry an ordinary worker/tool failure at most once unless the task explicitly authorizes more.
 8. Do not use duplicate attempts or Best-of-N by default.
 9. Preserve expensive nondeterministic work when a cheap deterministic downstream step fails.
+
+## Expert residue
+
+Codex should not merely finish a hard piece and disappear when the solution contains a transferable method.
+
+Follow the task packet `RESIDUE` setting:
+
+- `NONE` - return only implementation/audit evidence.
+- `COMPACT` - if the task reveals a reusable method, return the compact `REUSABLE RECIPE` from `state/CODEX_TASK_PACKET.md`.
+- `DURABLE` - after verification, add the proven method to the smallest existing authoritative lane/playbook that future workers will naturally read.
+
+Do not preserve chain-of-thought, a blow-by-blow work log, or generic lessons. Preserve only operational residue that reduces future rediscovery: the problem class, pattern, exact reusable mechanism, important commands/files, and boundary where it stops applying.
+
+This is the intended learning loop:
+
+`Mana selects hard piece -> Codex solves/audits -> Codex verifies -> Codex leaves reusable recipe -> Mana reuses or adapts the method later`
 
 ## Verification discipline
 
