@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch104","display_number":104,"title":"Prepared Site","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch104.md"},"images":[],"navigation":{"previous":"r2-ch103","next":"r2-ch105"}}
+{
+  "chapter_id": "r2-ch104",
+  "display_number": 104,
+  "title": "The Specialist",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch104.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch103",
+    "next": "r2-ch105"
+  }
+}

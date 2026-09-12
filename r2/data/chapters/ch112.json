@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch112","display_number":112,"title":"The Price","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch112.md"},"images":[],"navigation":{"previous":"r2-ch111","next":"r2-ch113"}}
+{
+  "chapter_id": "r2-ch112",
+  "display_number": 112,
+  "title": "The Buyer",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch112.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch111",
+    "next": "r2-ch113"
+  }
+}

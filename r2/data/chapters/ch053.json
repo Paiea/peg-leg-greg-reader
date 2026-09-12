@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch053","display_number":53,"title":"Second Road","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch053.md"},"images":[],"navigation":{"previous":"r2-ch052","next":"r2-ch054"}}
+{
+  "chapter_id": "r2-ch053",
+  "display_number": 53,
+  "title": "The Second Guard",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch053.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch052",
+    "next": "r2-ch054"
+  }
+}

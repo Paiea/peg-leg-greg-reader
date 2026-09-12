@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch032","display_number":32,"title":"Two Copper","status":"published","book":1,"act":1,"teaser":"Two disputed copper become dumpling ingredients, and Noll's possible kitchen job makes Greg notice how much ordinary noise one neighbor contributes to home.","audio":{"status":"unavailable","path":null},"written":{"status":"published","path":"assets/written/ch032.md"},"images":[],"navigation":{"previous":"r2-ch031","next":"r2-ch033"}}
+{
+  "chapter_id": "r2-ch032",
+  "display_number": 32,
+  "title": "The Neighbor",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "Two disputed copper become dumpling ingredients, and Noll's possible kitchen job makes Greg notice how much ordinary noise one neighbor contributes to home.",
+  "audio": {
+    "status": "unavailable",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch032.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch031",
+    "next": "r2-ch033"
+  }
+}

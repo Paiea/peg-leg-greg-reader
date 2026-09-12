@@ -8,7 +8,7 @@ class GregAgainChapter26AudioTest(unittest.TestCase):
     def test_chapter_26_is_durable_and_routed(self):
         m=json.loads((A/'manifest.json').read_text())
         c={x['chapter_id']:x for x in m['chapters']}['ga-026']
-        self.assertEqual('The Day Off',c['title'])
+        self.assertEqual('The Adventurer',c['title'])
         self.assertEqual(38,c['take_count'])
         self.assertEqual('assets/chapter-026.mp3',c['audio_src'])
         self.assertTrue((A/'assets/chapter-026.mp3').stat().st_size>1_000_000)

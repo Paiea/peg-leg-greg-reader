@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch048","display_number":48,"title":"South Latch","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch048.md"},"images":[],"navigation":{"previous":"r2-ch047","next":"r2-ch049"}}
+{
+  "chapter_id": "r2-ch048",
+  "display_number": 48,
+  "title": "The Host",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch048.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch047",
+    "next": "r2-ch049"
+  }
+}

@@ -1,0 +1,52 @@
+name: R2 role title authority
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'r2/TITLE_POLICY.md'
+      - 'r2/TITLE_ROLE_AUDIT.md'
+      - 'r2/assets/written/**'
+      - 'r2/data/**'
+      - 'greg-again/audio/manifest.json'
+      - 'scripts/sync_r2_role_titles.py'
+      - 'tests/test_r2_role_titles.py'
+      - 'tests/test_sync_r2_role_titles.py'
+      - '.github/workflows/r2-role-title-authority.yml'
+  pull_request:
+    paths:
+      - 'r2/TITLE_POLICY.md'
+      - 'r2/TITLE_ROLE_AUDIT.md'
+      - 'r2/assets/written/**'
+      - 'r2/data/**'
+      - 'greg-again/audio/manifest.json'
+      - 'scripts/sync_r2_role_titles.py'
+      - 'tests/test_r2_role_titles.py'
+      - 'tests/test_sync_r2_role_titles.py'
+      - '.github/workflows/r2-role-title-authority.yml'
+
+jobs:
+  role-title-authority:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/workflows/r2-role-title-authority.yml
+            tests/test_r2_role_titles.py
+            tests/test_sync_r2_role_titles.py
+            r2/TITLE_POLICY.md
+            r2/TITLE_ROLE_AUDIT.md
+            r2/data
+            r2/assets/written
+            greg-again/audio/manifest.json
+            scripts/sync_r2_role_titles.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify synchronizer behavior and embodied role authority
+        run: python -m unittest tests.test_sync_r2_role_titles tests.test_r2_role_titles -v
+      - name: Verify title surfaces are synchronized
+        run: python scripts/sync_r2_role_titles.py --check

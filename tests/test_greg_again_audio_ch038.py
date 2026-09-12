@@ -8,7 +8,7 @@ class GregAgainChapter38AudioTest(unittest.TestCase):
         manifest=json.loads((AUDIO/'manifest.json').read_text())
         by_id={c['chapter_id']:c for c in manifest['chapters']}
         c=by_id['ga-038']
-        self.assertEqual(38,c['number']); self.assertEqual('Two Keys',c['title'])
+        self.assertEqual(38,c['number']); self.assertEqual('The Host',c['title'])
         self.assertEqual('shared-greg-surface',c['lens']); self.assertEqual('processing-space',c['audio_finish'])
         self.assertEqual(33,c['take_count']); self.assertEqual(771.528,c['duration_seconds'])
         self.assertEqual('assets/chapter-038.mp3',c['audio_src'])
@@ -30,7 +30,7 @@ class GregAgainChapter38AudioTest(unittest.TestCase):
         self.assertTrue(v['individual_mp3s_verified']); self.assertTrue(v['assembled_mp3_verified'])
         self.assertTrue(v['seam_continuity_verified']); self.assertEqual(2.0,v['chapter_tail_silence_seconds_added'])
         route=json.loads((R2/'data'/'chapters'/'ch038.json').read_text())
-        self.assertEqual('Two Keys',route['title']); self.assertEqual('published',route['audio']['status'])
+        self.assertEqual('The Host',route['title']); self.assertEqual('published',route['audio']['status'])
         self.assertEqual('../greg-again/audio/assets/chapter-038.mp3',route['audio']['path'])
         registry=json.loads((R2/'data'/'chapter-registry.json').read_text())
         self.assertEqual('published',registry['chapters']['r2-ch038']['pipeline']['audio'])

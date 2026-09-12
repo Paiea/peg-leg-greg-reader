@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch039","display_number":39,"title":"The East Desk","status":"published","book":1,"act":1,"teaser":"A canceled dinner puts Greg beside Mara’s real work, where closeness means boredom, limits, a short kiss, and an earlier departure than he wanted.","audio":{"status":"published","path":"../greg-again/audio/assets/chapter-039.mp3"},"written":{"status":"published","path":"assets/written/ch039.md"},"images":[],"navigation":{"previous":"r2-ch038","next":"r2-ch040"}}
+{
+  "chapter_id": "r2-ch039",
+  "display_number": 39,
+  "title": "The Visitor",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "A canceled dinner puts Greg beside Mara’s real work, where closeness means boredom, limits, a short kiss, and an earlier departure than he wanted.",
+  "audio": {
+    "status": "published",
+    "path": "../greg-again/audio/assets/chapter-039.mp3"
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch039.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch038",
+    "next": "r2-ch040"
+  }
+}

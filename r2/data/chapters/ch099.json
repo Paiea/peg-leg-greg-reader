@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch099","display_number":99,"title":"One Year","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch099.md"},"images":[],"navigation":{"previous":"r2-ch098","next":"r2-ch100"}}
+{
+  "chapter_id": "r2-ch099",
+  "display_number": 99,
+  "title": "The Planner",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch099.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch098",
+    "next": "r2-ch100"
+  }
+}

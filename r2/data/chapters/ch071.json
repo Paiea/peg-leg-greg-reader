@@ -1,1 +1,22 @@
-{"chapter_id":"r2-ch071","display_number":71,"title":"Six Eyes","status":"published","book":1,"act":1,"teaser":"","audio":{"status":"not_started","path":null},"written":{"status":"published","path":"assets/written/ch071.md"},"images":[],"navigation":{"previous":"r2-ch070","next":"r2-ch072"}}
+{
+  "chapter_id": "r2-ch071",
+  "display_number": 71,
+  "title": "The Field Load Specialist",
+  "status": "published",
+  "book": 1,
+  "act": 1,
+  "teaser": "",
+  "audio": {
+    "status": "not_started",
+    "path": null
+  },
+  "written": {
+    "status": "published",
+    "path": "assets/written/ch071.md"
+  },
+  "images": [],
+  "navigation": {
+    "previous": "r2-ch070",
+    "next": "r2-ch072"
+  }
+}
