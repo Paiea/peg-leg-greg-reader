@@ -227,11 +227,11 @@
       "title": "Who Cleans It",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 36,
-      "duration_seconds": 868.68,
-      "audio_src": "assets/chapter-019.mp3",
-      "note": "Recovered from completed Chapter 19 production without regenerating provider work. Thirty-six provider-safe deep-voice takes preserve maintenance, route time, matched spares, cleaning capacity, and service labor."
+      "audio_finish": "audio-score-light",
+      "take_count": 33,
+      "duration_seconds": 871.272,
+      "audio_src": "assets/light/chapter-019.mp3",
+      "note": "Audio Score Light Chapter 19 assembled from 33 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-020",

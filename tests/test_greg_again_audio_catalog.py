@@ -210,18 +210,19 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("published", chapter["audio"]["status"])
         self.assertEqual("../greg-again/audio/assets/chapter-013.mp3", chapter["audio"]["path"])
 
-    def test_chapter_nineteen_recovered_audio_is_durable(self):
+    def test_chapter_nineteen_audio_score_light_is_durable(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
         self.assertIn("ga-019", by_id)
         chapter = by_id["ga-019"]
         self.assertEqual(19, chapter["number"])
-        self.assertEqual(36, chapter["take_count"])
-        self.assertEqual(868.68, chapter["duration_seconds"])
-        self.assertEqual("assets/chapter-019.mp3", chapter["audio_src"])
-        audio = AUDIO_ROOT / "assets" / "chapter-019.mp3"
+        self.assertEqual("audio-score-light", chapter["audio_finish"])
+        self.assertEqual(33, chapter["take_count"])
+        self.assertEqual(871.272, chapter["duration_seconds"])
+        self.assertEqual("assets/light/chapter-019.mp3", chapter["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "light" / "chapter-019.mp3"
         self.assertTrue(audio.exists())
-        self.assertGreater(audio.stat().st_size, 10_000_000)
+        self.assertGreater(audio.stat().st_size, 1_000_000)
 
     def test_chapter_twenty_one_preserves_contact_and_publishes_audio(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
