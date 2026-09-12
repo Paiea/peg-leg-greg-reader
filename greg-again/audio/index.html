@@ -27,15 +27,19 @@
   <main id="main" class="audio-shell">
     <section class="listen-hero" aria-labelledby="listen-title">
       <div class="listen-hero-media">
-        <img
-          src="../../r2/assets/images/Library.png"
-          alt="Peg-Leg Greg R2 Audio Library artwork set in Carrow."
-          onerror="this.onerror=null;this.src='../../r2/assets/images/r2-cover-wide.webp';">
+        <picture>
+          <source media="(max-width: 600px)" srcset="../../r2/assets/images/r2-cover-portrait.webp">
+          <img
+            src="../../r2/assets/images/r2-cover-wide.webp"
+            width="1600"
+            height="900"
+            fetchpriority="high"
+            decoding="async"
+            alt="Peg-Leg Greg R2 Audio Library artwork set in Carrow.">
+        </picture>
         <div class="hero-scrim" aria-hidden="true"></div>
         <div class="listen-hero-copy">
-          <p class="hero-brand">PEG-LEG GREG <span>R2</span></p>
-          <p class="eyebrow">Listening edition</p>
-          <h1 id="listen-title">AUDIO LIBRARY</h1>
+          <h1 id="listen-title" class="sr-only">Audio Library</h1>
           <div class="listen-warning" role="note" aria-label="Listen first warning">
             <strong>LISTEN FIRST</strong>
             <span>Reading available. Listening is the point.</span>
