@@ -605,42 +605,49 @@ but they remain recognizably the same man.
 
 ## 18. DRAGON AUDIO PROFILE
 
-The Dragon may initially use the same underlying synthetic voice as Greg.
+Record 001 full-chapter listening establishes the current default Dragon production authority.
 
-That is acceptable.
+The Dragon remains a semantic speaker identity, but the audio implementation should be **clean and untreated by default**.
 
-Different character identity should first come from:
+Current default:
 
-1. different prose
-2. different performance grammar
-3. configurable audio treatment
+- native / normal generated voice for the selected Dragon role
+- tempo = **1.0**
+- pitch shift = **0 semitones**
+- no formant shifting
+- no post-hoc monster or “dragon” processing
+- preserve normal source timing except for intentional assembly pauses and clean technical seams
 
-Possible Dragon treatment:
+This supersedes earlier Dragon audition experiments involving slowed playback, tempo-only treatment, or lowered-pitch variants such as -2, -3.25, or -4 semitones.
 
-- slower delivery
-- longer pauses
-- lower conversational urgency
-- reduced reactive inflection
-- different pause profile
-- restrained audio processing if useful
+Those experiments remain useful history, but they are **not current production authority**.
 
-Do not hard-code the Dragon identity to an exact number such as “80% speed.”
+The reason is practical and artistic.
 
-Instead define a semantic profile:
+When heard across the full chapter, the untreated version sounded better and made technical take boundaries easier to seam without audible timbral or timing mismatch.
 
-**VOICE_PROFILE = DRAGON**
+The clean seam is not a compromise.
 
-The actual implementation can then be adjusted centrally.
+It is part of the preferred sound.
 
-For example, Dragon might begin near 0.85–0.90 playback rate rather than exactly 0.80 if 0.80 sounds artificially sedated.
+Dragon identity should come primarily from:
 
-The target is not:
+1. different prose grammar
+2. Greg-compresses / Dragon-expands turn structure
+3. interest-dependent verbosity
+4. cadence and patience already present in the source performance
+5. semantic speaker ownership
+6. deliberate pause placement at actual dramatic boundaries
 
-**deeper**
+Do not manufacture Dragon identity through DSP when the writing and performance already provide it.
 
-The target is:
+A useful principle:
 
-**older than urgency**
+**THE DRAGON SHOULD SOUND DIFFERENT BECAUSE HE SPEAKS DIFFERENTLY, NOT BECAUSE WE BENT THE WAVEFORM.**
+
+Do not reintroduce pitch or tempo processing by default.
+
+Any future treatment change should have to beat the untreated profile in **full-chapter listening**, not merely in isolated audition clips.
 
 ---
 
@@ -662,6 +669,8 @@ Then allow the Dragon profile to decide:
 - pause timing
 - processing
 - generation settings
+
+The current default profile happens to use normal tempo and no pitch/formant treatment, but the semantic role must remain independent from implementation.
 
 This means the Dragon could later switch to an entirely different voice model without rewriting chapters or performance scripts.
 
@@ -1051,3 +1060,4 @@ Final production principle:
 **PERFORM AS SCRIPT.**
 **TAG SPEAKERS SEMANTICALLY.**
 **KEEP VOICE IMPLEMENTATION CONFIGURABLE.**
+**DEFAULT TO CLEAN AUDIO. LET THE WRITING CARRY CHARACTER.**
