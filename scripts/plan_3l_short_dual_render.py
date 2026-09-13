@@ -106,13 +106,7 @@ def _collapse_segments(segments: list[dict]) -> list[dict]:
 
 
 def _sustained_quote_segments(paragraph: str, role: str) -> tuple[list[dict], bool]:
-    """Route one paragraph inside an already-open multi-paragraph quotation.
-
-    Standard prose opens each continued paragraph with a new left smart quote and
-    supplies a right smart quote only on the final paragraph. Everything through
-    that final closing mark belongs to the same speaker. Any text after it returns
-    to Greg narration.
-    """
+    """Route one paragraph inside an already-open multi-paragraph quotation."""
     close_at = paragraph.find("”")
     if close_at < 0:
         return [{"role": role, "text": paragraph}], True
@@ -204,8 +198,6 @@ def apply_quote_role_overrides(rows: list[dict], overrides: dict[int, str]) -> l
         paragraph = row["text"]
         matches = list(QUOTE_RE.finditer(paragraph))
         if not matches:
-            # Multi-paragraph quote rows are already semantically classified and
-            # must not be reset to Greg merely because they have no local closing mark.
             if paragraph.startswith("“") and row.get("role") in {"greg", "dragon"}:
                 continue
             row["role"] = "greg"
@@ -273,27 +265,62 @@ def _chunk_from_items(items: list[dict], index: int) -> dict:
     }
 
 
+def _slice_segments(item: dict, start: int, end: int) -> list[dict]:
+    """Slice resolved semantic spans without re-inferring speaker ownership."""
+    sliced: list[dict] = []
+    cursor = 0
+    for segment in item.get("segments", [{"role": item["role"], "text": item["text"]}]):
+        seg_start = cursor
+        seg_end = cursor + len(segment["text"])
+        overlap_start = max(start, seg_start)
+        overlap_end = min(end, seg_end)
+        if overlap_start < overlap_end:
+            local_start = overlap_start - seg_start
+            local_end = overlap_end - seg_start
+            sliced.append({"role": segment["role"], "text": segment["text"][local_start:local_end]})
+        cursor = seg_end
+    return _collapse_segments(sliced)
+
+
 def _split_oversize(item: dict, max_chars: int) -> list[dict]:
     text = item["text"]
     if len(text) <= max_chars:
         return [item]
+
     pieces: list[dict] = []
-    remaining = text
-    while len(remaining) > max_chars:
-        window = remaining[: max_chars + 1]
+    start = 0
+    while len(text) - start > max_chars:
+        window = text[start : start + max_chars + 1]
         candidates = [m.end() for m in re.finditer(r"[.!?][”']?(?:\s+|$)", window)]
-        cut = max(candidates) if candidates else window.rfind(" ") + 1
-        if cut <= 0 or cut > max_chars:
-            cut = max_chars
-        piece = remaining[:cut]
-        remaining = remaining[cut:]
-        # Oversize pieces inherit the already-resolved semantic owner. Re-running
-        # quote alternation here can corrupt sustained Dragon territories.
-        role = item["role"] if item["role"] in {"greg", "dragon"} else "greg"
-        pieces.append({"role": role, "text": piece, "segments": [{"role": role, "text": piece}], "explicit": item.get("explicit")})
-    if remaining:
-        role = item["role"] if item["role"] in {"greg", "dragon"} else "greg"
-        pieces.append({"role": role, "text": remaining, "segments": [{"role": role, "text": remaining}], "explicit": item.get("explicit")})
+        relative_cut = max(candidates) if candidates else window.rfind(" ") + 1
+        if relative_cut <= 0 or relative_cut > max_chars:
+            relative_cut = max_chars
+        end = start + relative_cut
+        piece_text = text[start:end]
+        piece_segments = _slice_segments(item, start, end)
+        piece_role = piece_segments[0]["role"] if piece_segments else item["role"]
+        pieces.append(
+            {
+                "role": piece_role,
+                "text": piece_text,
+                "segments": piece_segments or [{"role": piece_role, "text": piece_text}],
+                "explicit": item.get("explicit"),
+            }
+        )
+        start = end
+
+    if start < len(text):
+        piece_text = text[start:]
+        piece_segments = _slice_segments(item, start, len(text))
+        piece_role = piece_segments[0]["role"] if piece_segments else item["role"]
+        pieces.append(
+            {
+                "role": piece_role,
+                "text": piece_text,
+                "segments": piece_segments or [{"role": piece_role, "text": piece_text}],
+                "explicit": item.get("explicit"),
+            }
+        )
     return pieces
 
 
