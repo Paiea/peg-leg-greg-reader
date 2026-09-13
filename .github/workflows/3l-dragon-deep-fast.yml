@@ -1,0 +1,37 @@
+name: 3L Dragon Deep Fast Audition
+
+on:
+  push:
+    branches:
+      - 3l/dragon-speed-spike
+    paths:
+      - 3l/audio-spike/deep-fast-trigger.txt
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure ffmpeg
+        shell: bash
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+
+      - name: Render deep option 2
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/out
+          URL='https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ef36a808-417a-4bf5-b653-109af4c1de63.mp3'
+          curl -fL --retry 4 --retry-delay 2 -o /tmp/base.mp3 "$URL"
+          SR=$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=noprint_wrappers=1:nokey=1 /tmp/base.mp3)
+          ffmpeg -y -i /tmp/base.mp3 -af "asetrate=${SR}*0.80,aresample=${SR}" -vn -c:a libmp3lame -b:a 192k /tmp/out/deep-option-2.mp3
+
+      - name: Upload audition
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-deep-fast
+          path: /tmp/out/deep-option-2.mp3
+          if-no-files-found: error
