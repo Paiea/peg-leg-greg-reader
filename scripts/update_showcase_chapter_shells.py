@@ -11,6 +11,7 @@ CHAPTERS_DIR = Path('chapters')
 SHOWCASE_MANIFEST = Path('publishing/showcase_chapters.json')
 TERMINAL_CANON = 503
 TERMINAL_CARD_MARKER = 'plg-terminal-end-card'
+TERMINAL_STYLESHEET = '<link href="../assets/plg-terminal.css" rel="stylesheet"/>'
 TERMINAL_CARD = '''
 <section class="plg-terminal-end-card" aria-labelledby="plg-terminal-title">
   <p class="plg-terminal-kicker">THE END</p>
@@ -45,13 +46,20 @@ def _nav_html(canon: int, showcase: ShowcaseMap, *, top: bool) -> str:
 
 
 def _inject_terminal_card(text: str, canon: int) -> str:
-    if canon != TERMINAL_CANON or TERMINAL_CARD_MARKER in text:
+    if canon != TERMINAL_CANON:
         return text
-    close_article = text.find('</article>')
+    updated = text
+    if 'plg-terminal.css' not in updated:
+        if '</head>' not in updated:
+            raise ValueError(f'Chapter {canon}: closing head not found for terminal stylesheet')
+        updated = updated.replace('</head>', TERMINAL_STYLESHEET + '</head>', 1)
+    if TERMINAL_CARD_MARKER in updated:
+        return updated
+    close_article = updated.find('</article>')
     if close_article < 0:
         raise ValueError(f'Chapter {canon}: closing article not found for terminal card')
     insert_at = close_article + len('</article>')
-    return text[:insert_at] + TERMINAL_CARD + text[insert_at:]
+    return updated[:insert_at] + TERMINAL_CARD + updated[insert_at:]
 
 
 def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
