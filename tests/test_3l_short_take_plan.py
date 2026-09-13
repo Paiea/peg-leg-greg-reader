@@ -1,6 +1,11 @@
 import unittest
 
-from scripts.plan_3l_short_dual_render import classify_paragraphs, make_chunks
+from scripts.plan_3l_short_dual_render import (
+    apply_quote_role_overrides,
+    classify_paragraphs,
+    extract_quote_inventory,
+    make_chunks,
+)
 
 
 class ShortTakePlanTests(unittest.TestCase):
@@ -33,6 +38,21 @@ class ShortTakePlanTests(unittest.TestCase):
         ]
         chunks = make_chunks(paragraphs, max_chars=500)
         self.assertEqual(chunks[0]["roles"], ["greg", "dragon", "greg"])
+
+    def test_quote_inventory_uses_occurrence_ids(self):
+        text = '“Yes.”\n\n“No.”\n\n“Yes.”'
+        inventory = extract_quote_inventory(text)
+        self.assertEqual([item["id"] for item in inventory], [1, 2, 3])
+        self.assertEqual([item["text"] for item in inventory], ['“Yes.”', '“No.”', '“Yes.”'])
+
+    def test_occurrence_override_changes_only_selected_quote(self):
+        text = '“Yes.”\n\n“No.”\n\n“Yes.”'
+        rows = classify_paragraphs(text)
+        adjusted = apply_quote_role_overrides(rows, {1: "greg", 2: "dragon", 3: "dragon"})
+        quote_roles = []
+        for row in adjusted:
+            quote_roles.extend(segment["role"] for segment in row["segments"] if segment["text"].startswith('“'))
+        self.assertEqual(quote_roles, ["greg", "dragon", "dragon"])
 
 
 if __name__ == "__main__":
