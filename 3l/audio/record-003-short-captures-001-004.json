@@ -1,0 +1,71 @@
+{
+  "record": "003",
+  "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
+  "plan": "3l/audio/record-003-short-dual-plan.json",
+  "captures": [
+    {
+      "chunk": 1,
+      "voice": "deep",
+      "transcript": "“What made it true.”\n\nI repeated the sentence because sometimes hearing somebody else's bad idea in your own voice helps.\n\nIt did not.\n\nIthar waited.\n\nHe had become very good at waiting since I entered the cave.\n\nProbably before that too.\n\n“You want the whole story.”\n\n“Yes.”\n\n“No.”\n\nThe dragon's eye narrowed.\n\nI felt an unreasonable amount of satisfaction.\n\n“See? Useful word.”\n\n“It is.”\n\n“Glad we agree.”\n\n“We do not.”\n\n“Close enough.”\n\n“No.”\n\nThat took some of the satisfaction back.",
+      "context_id": "a9a97bdf5ae242a1a30033fe26a6ed98",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/48897e4b-3285-47ef-a894-7a24e98348d0.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 1,
+      "voice": "normal",
+      "transcript": "“What made it true.”\n\nI repeated the sentence because sometimes hearing somebody else's bad idea in your own voice helps.\n\nIt did not.\n\nIthar waited.\n\nHe had become very good at waiting since I entered the cave.\n\nProbably before that too.\n\n“You want the whole story.”\n\n“Yes.”\n\n“No.”\n\nThe dragon's eye narrowed.\n\nI felt an unreasonable amount of satisfaction.\n\n“See? Useful word.”\n\n“It is.”\n\n“Glad we agree.”\n\n“We do not.”\n\n“Close enough.”\n\n“No.”\n\nThat took some of the satisfaction back.",
+      "context_id": "785a47e7bc4c44e6b5a14a3ab21b0fe0",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/85843f7b-5198-49c0-8037-b96a27203f27.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 2,
+      "voice": "deep",
+      "transcript": "I shifted on the stone ledge beside my pack.\n\nIt was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n“The Line is failing now,” I said. “That part has a clock.”\n\n“You have said this.”\n\n“And you still haven't agreed to help.”\n\n“Yes.”",
+      "context_id": "95897be47c18475db5aa7b202fbbdd15",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c14662a6-a1e4-4a95-aa4e-fda48f9dd4fa.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 2,
+      "voice": "normal",
+      "transcript": "I shifted on the stone ledge beside my pack.\n\nIt was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n“The Line is failing now,” I said. “That part has a clock.”\n\n“You have said this.”\n\n“And you still haven't agreed to help.”\n\n“Yes.”",
+      "context_id": "54fb68f04cc14cb48156b67a2192d88e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4bf8b993-6f24-48db-9881-3df58c077b47.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 3,
+      "voice": "deep",
+      "transcript": "“Which means I should probably keep saying it.”\n\n“No.”\n\nI rubbed the side of my knee.\n\n“Do you know how negotiations work?”\n\n“Yes.”\n\n“Have you ever been in one?”\n\n“Many.”\n\n“Did the other side enjoy them?”\n\n“No.”\n\n“Right.”\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise.\n\nThat worried me.\n\nA person should not become accustomed to sitting beside enough money to destabilize a kingdom.",
+      "context_id": "e4a2739221874ab3a35062eb9bd41a2d",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/96598223-2451-4cd4-9ea1-9c906edab917.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 3,
+      "voice": "normal",
+      "transcript": "“Which means I should probably keep saying it.”\n\n“No.”\n\nI rubbed the side of my knee.\n\n“Do you know how negotiations work?”\n\n“Yes.”\n\n“Have you ever been in one?”\n\n“Many.”\n\n“Did the other side enjoy them?”\n\n“No.”\n\n“Right.”\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise.\n\nThat worried me.\n\nA person should not become accustomed to sitting beside enough money to destabilize a kingdom.",
+      "context_id": "b10885915f4e42e8af87d22539e6f438",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e8a775ee-28f5-42e2-82d8-62ada0b7a404.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 4,
+      "voice": "deep",
+      "transcript": "Then again, people become accustomed to most things if they happen around breakfast often enough.\n\nI had learned that twice.\n\n“You came here for the Line,” Ithar said.\n\n“Yes.”\n\n“No.”\n\nI looked up.\n\nHe had used the word differently.\n\n“That is irritating.”\n\n“You came here because of the Line.”\n\n“Same thing.”\n\n“No.”\n\n“Explain.”\n\n“You knew my name before the western stations began failing.”\n\nI said nothing.\n\n“You knew the mountain before the ninth station bled pressure into the eastern sink.”",
+      "context_id": "505e9799f6a34974a8ff6d5d3123a825",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cc2b2b8b-bf45-4adc-90cd-16bd2037a617.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 4,
+      "voice": "normal",
+      "transcript": "Then again, people become accustomed to most things if they happen around breakfast often enough.\n\nI had learned that twice.\n\n“You came here for the Line,” Ithar said.\n\n“Yes.”\n\n“No.”\n\nI looked up.\n\nHe had used the word differently.\n\n“That is irritating.”\n\n“You came here because of the Line.”\n\n“Same thing.”\n\n“No.”\n\n“Explain.”\n\n“You knew my name before the western stations began failing.”\n\nI said nothing.\n\n“You knew the mountain before the ninth station bled pressure into the eastern sink.”",
+      "context_id": "50ff16b29bda456987e96733e6be60d4",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b9a0be0b-57c2-46a7-9084-6261e4bff727.mp3",
+      "status": "ready"
+    }
+  ]
+}
