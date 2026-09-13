@@ -1,0 +1,29 @@
+[
+  {
+    "id": "001",
+    "dramatic_run": 1,
+    "part_in_run": 1,
+    "voice": "deep",
+    "text": "The dragon yawned while I was explaining how many people were going to die.\n\nIt was not a small yawn.\n\nIts head lifted from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.\n\nI stopped talking.\n\nNot because I was afraid.\n\nI was afraid, obviously.\n\nI was just also offended.\n\n“Am I boring you?”",
+    "chars": 418,
+    "pause_after_ms": 80
+  },
+  {
+    "id": "002",
+    "dramatic_run": 1,
+    "part_in_run": 2,
+    "voice": "deep",
+    "text": "One eye opened halfway.\n\nThe eye studied me.\n\nThen one nostril moved.",
+    "chars": 69,
+    "pause_after_ms": 280
+  },
+  {
+    "id": "004",
+    "dramatic_run": 3,
+    "part_in_run": 1,
+    "voice": "deep",
+    "text": "His eye stayed on me.",
+    "chars": 21,
+    "pause_after_ms": 280
+  }
+]

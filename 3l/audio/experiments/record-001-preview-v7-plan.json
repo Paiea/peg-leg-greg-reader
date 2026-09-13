@@ -1,0 +1,1179 @@
+{
+  "schema_version": 1,
+  "record": "001",
+  "title": "THE PETITIONER",
+  "source_path": "3l/manuscript/record-001.md",
+  "source_sha256": "4f97eaa8d42a29a92a60342256243f4cdb7cd4b0aa92c6990d8a0c46e1f0fa05",
+  "greg_voice": "deep",
+  "dragon_voice": "normal",
+  "dragon_dsp": "none",
+  "max_preview_chars": 430,
+  "final_tail_ms": 2000,
+  "paragraphs": 692,
+  "dramatic_runs": 77,
+  "dragon_dramatic_runs": 38,
+  "technical_chunks": 129,
+  "chunks": [
+    {
+      "id": "001",
+      "dramatic_run": 1,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "The dragon yawned while I was explaining how many people were going to die.\n\nIt was not a small yawn.\n\nIts head lifted from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.\n\nI stopped talking.\n\nNot because I was afraid.\n\nI was afraid, obviously.\n\nI was just also offended.\n\n“Am I boring you?”",
+      "chars": 418,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "002",
+      "dramatic_run": 1,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "One eye opened halfway.\n\nThe eye studied me.\n\nThen one nostril moved.",
+      "chars": 69,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "003",
+      "dramatic_run": 2,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Mm.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "004",
+      "dramatic_run": 3,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "His eye stayed on me.",
+      "chars": 21,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "005",
+      "dramatic_run": 4,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Food has arrived.”",
+      "chars": 19,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "006",
+      "dramatic_run": 5,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I had spent six days getting there.\n\nSix days up a mountain nobody used unless they were lost, stupid, or being paid enough to temporarily become both. My left knee had stopped pretending it was fine somewhere around the second ridge. One boot had split at the heel. I had slept badly, eaten worse, and lost a horse.\n\nNot metaphorically.\n\nThe horse was gone.\n\nThe other eye opened.",
+      "chars": 381,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "007",
+      "dramatic_run": 6,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Is your name Dinner?”",
+      "chars": 22,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "008",
+      "dramatic_run": 7,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“Greg.”\n\nHe considered that.\n\nAt least I thought he did.\n\nIt was difficult to tell where a dragon thinking ended and a dragon simply staring at you began.",
+      "chars": 154,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "009",
+      "dramatic_run": 8,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Unfortunate.”",
+      "chars": 14,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "010",
+      "dramatic_run": 9,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "That was the most he had said since I entered the cave.\n\nIt was also enough.\n\nThe stories had gotten the size wrong.\n\nThey always did.\n\nPeople said things like as large as a house because people understood houses. They said wings like sails because they had seen sails. They said teeth like swords because apparently everyone who survived meeting a dragon had a limited vocabulary and a military upbringing.",
+      "chars": 407,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "011",
+      "dramatic_run": 9,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "The head in front of me was bigger than the room I had grown up in.\n\nIts scales were black, mostly.\n\nNot dull black.\n\nGlass black.\n\nThe kind that caught pieces of light and seemed to keep them somewhere under the surface.\n\nI had left my shield outside.\n\nThat had seemed sensible at the time.\n\nCarrying a shield into a dragon’s den felt optimistic to the point of disrespect.\n\nThe dragon inhaled.\n\nHot air moved across my coat.",
+      "chars": 426,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "012",
+      "dramatic_run": 9,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "I waited for him to say something else.\n\nHe didn’t.\n\nOne eye began to close.\n\nThat was when I understood the conversation had not paused.\n\nIt had ended.\n\nI had mistaken not being eaten immediately for being granted an audience.\n\nFair mistake.\n\nStill a mistake.\n\nI gave myself another second in case the eye opened again.\n\nIt didn’t.",
+      "chars": 332,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "013",
+      "dramatic_run": 9,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "So I used the thing I had carried farther than the food, farther than the maps, and considerably farther than the last good decision I had made.\n\n“Ithar.”\n\nThe eye stopped closing.\n\nNot opened.\n\nStopped.\n\nI had spent years imagining what might happen when I said that name.\n\nI had never imagined an eyelid stopping halfway.\n\nIt was somehow worse.\n\nThe dragon remained still for several breaths.\n\nI waited through all of them.",
+      "chars": 425,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "014",
+      "dramatic_run": 9,
+      "part_in_run": 5,
+      "voice": "deep",
+      "text": "Then his head rose from the shelf.\n\nStone ground beneath his jaw. Coins shifted somewhere in the dark behind him, and a slow spill of gold slid down a slope I had mistaken for part of the cave.\n\nThat was when I realized how much of the floor was not floor.\n\nIthar lowered his head toward me.\n\nCarefully.\n\nAlmost respectfully.",
+      "chars": 325,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "015",
+      "dramatic_run": 10,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Oh.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "016",
+      "dramatic_run": 11,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "His voice softened.",
+      "chars": 19,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "017",
+      "dramatic_run": 12,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“I see.”",
+      "chars": 8,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "018",
+      "dramatic_run": 13,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "One foreleg folded beneath him.\n\nHis head lowered until his snout nearly touched the stone in front of my boots.",
+      "chars": 112,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "019",
+      "dramatic_run": 14,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Then I am undone.”",
+      "chars": 19,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "020",
+      "dramatic_run": 15,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I stared at him.",
+      "chars": 16,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "021",
+      "dramatic_run": 16,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Speak, master.”",
+      "chars": 16,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "022",
+      "dramatic_run": 17,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I kept staring.\n\nOne eye cracked open.",
+      "chars": 38,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "023",
+      "dramatic_run": 18,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Command me.”",
+      "chars": 13,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "024",
+      "dramatic_run": 19,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“That isn’t how names work.”\n\nHe stayed bowed for another second.\n\nI had just enough time to wonder whether I had misunderstood something fundamental about dragons.\n\nThen the cave shook.\n\nGold whispered down the mound behind him. Dust dropped from the ceiling. A stone the size of my fist bounced once near my boot.\n\nIt took me longer than I would like to admit to realize he was laughing.\n\nI did not move.",
+      "chars": 406,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "025",
+      "dramatic_run": 19,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "Partly because there was nowhere useful to go.\n\nMostly because my knee had locked.\n\nEventually Ithar lifted his head.",
+      "chars": 117,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "026",
+      "dramatic_run": 20,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Good.”",
+      "chars": 7,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "027",
+      "dramatic_run": 21,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“For what?”",
+      "chars": 11,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "028",
+      "dramatic_run": 22,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“For a moment I was concerned you were stupid.”",
+      "chars": 47,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "029",
+      "dramatic_run": 23,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“I walked into a dragon’s cave.”",
+      "chars": 32,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "030",
+      "dramatic_run": 24,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Yes. The concern remains.”",
+      "chars": 27,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "031",
+      "dramatic_run": 25,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "That was reassuring in a strange way.\n\nI had not expected a sense of humor.\n\nI had definitely not expected to be the joke.\n\nA claw slid through the gold beside him.\n\nNot digging.\n\nPlaying.\n\nCoins climbed over one another between the black points of his talons.\n\nHe hooked one free and held it near his eye.\n\nTiny thing.\n\nCopper, maybe.\n\nGreen with age.\n\nHe looked at the coin longer than he had looked at me.\n\nThen he flicked it.",
+      "chars": 429,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "032",
+      "dramatic_run": 25,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "The coin crossed the cave too fast for me to track and buried itself in the wall behind my left shoulder.\n\nI flinched.\n\nIthar noticed.\n\nOf course he did.\n\nI looked at the coin.\n\nThen at him.\n\nHis claw was already moving through the gold again.\n\nI could not tell whether the throw had been a threat, a joke, or simply what happened when a creature that large became bored with a coin.",
+      "chars": 383,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "033",
+      "dramatic_run": 25,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "I decided the distinction probably did not matter.",
+      "chars": 50,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "034",
+      "dramatic_run": 26,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“What did you think my name would buy you?”",
+      "chars": 43,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "035",
+      "dramatic_run": 27,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“Thirty seconds.”\n\nThe claw stopped.\n\nHis eye settled on me again.",
+      "chars": 66,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "036",
+      "dramatic_run": 28,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Thirty.”",
+      "chars": 9,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "037",
+      "dramatic_run": 29,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“Enough to explain why eating me would be inconvenient.”\n\nIthar went back to moving coins.",
+      "chars": 90,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "038",
+      "dramatic_run": 30,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“You traveled six days to negotiate thirty seconds.”",
+      "chars": 52,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "039",
+      "dramatic_run": 31,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“I was hoping you’d be reasonable.”\n\nOne warm breath left his nose.",
+      "chars": 67,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "040",
+      "dramatic_run": 32,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Twenty-eight.”",
+      "chars": 15,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "041",
+      "dramatic_run": 33,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "Right.\n\nApparently we were counting.\n\nI straightened as much as my back allowed.\n\n“The western Line is going to fail.”\n\nIthar did not answer.\n\nI gave him a second.\n\nHis claw turned another coin over.\n\nThat was all.\n\nI had no idea whether he was considering what I had said or had already returned to whatever occupied a dragon before food walked into his cave.\n\nEither way, my time was apparently still running.",
+      "chars": 411,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "042",
+      "dramatic_run": 33,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "“The lower channels are full. The ninth station is already bleeding pressure into the eastern sink. Surface crews keep rebuilding anchors because they think the anchors are the problem.”\n\nHis claw continued moving.\n\nThe coin rolled beneath one talon and disappeared into the mound.\n\nNo interruption.\n\nI took that as permission to continue.\n\n“They aren’t.”\n\nA quiet sound came from somewhere behind his teeth.\n\nNot a word.",
+      "chars": 421,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "043",
+      "dramatic_run": 33,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "Barely even a sound.",
+      "chars": 20,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "044",
+      "dramatic_run": 34,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Mm.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "045",
+      "dramatic_run": 35,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "That helped less than I wanted it to.\n\nI waited for the rest.\n\nThere was no rest.\n\n“The anchors move pressure. They don’t stop it. West to east at first. Then down. The lower channels haven’t been maintained because nobody knows they exist.”\n\nThe claw stopped.\n\nI noticed immediately.\n\nThat was the first useful thing his body had done since I started talking.",
+      "chars": 360,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "046",
+      "dramatic_run": 35,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "At least, the first useful thing that had not involved throwing metal at my head.\n\nI watched the claw.\n\nIt stayed still.\n\nThere.\n\nSomething.\n\n“Keep rebuilding the surface and you make it worse. The ninth station fails first. Then the coast. Then the lower farms. Once the eastern sink goes, you lose the whole Line.”\n\nIthar reached down and picked up a small black stone.\n\nNot a gem.\n\nJust a rock.",
+      "chars": 397,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "047",
+      "dramatic_run": 35,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "He rolled it once between two claws.\n\nI stopped.\n\nThe way he was looking at it made me wonder whether I was supposed to understand something.\n\nThen I remembered I was standing inside a mountain trying to interpret a dragon playing with gravel.\n\nI kept going.\n\n“Millions die.”\n\nThe stone left his hand.\n\nIt struck the wall on my right hard enough to explode.\n\nI ducked.\n\nFragments scattered across the floor.",
+      "chars": 407,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "048",
+      "dramatic_run": 35,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "When I looked back, Ithar had closed his eye.\n\nI waited for some indication that the rock had meant something.\n\nA warning.\n\nA disagreement.\n\nA request to stop talking.\n\nNothing obvious came.\n\nThen Ithar spoke.",
+      "chars": 209,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "049",
+      "dramatic_run": 36,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Zero.”",
+      "chars": 7,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "050",
+      "dramatic_run": 37,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "My thirty seconds.\n\nRight.\n\nI looked at the crater in the wall.\n\nThen at him.\n\n“That was unnecessary.”\n\nHe offered no defense.\n\n“Ithar.”\n\nThe eye opened.",
+      "chars": 153,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "051",
+      "dramatic_run": 38,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“You have already used the name.”",
+      "chars": 33,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "052",
+      "dramatic_run": 39,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“Are you going to help?”",
+      "chars": 24,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "053",
+      "dramatic_run": 40,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“No.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "054",
+      "dramatic_run": 41,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "There it was.\n\nSix days of walking.\n\nOne horse.\n\nOne knee.\n\nMost of a boot.\n\nThirty seconds.\n\nI had prepared for greed.\n\nI had prepared for threats.\n\nI had prepared for some ancient creature demanding a crown, a relic, a mountain of gold, my firstborn child, somebody else’s firstborn child.\n\nI had not prepared for no.\n\nEspecially not a bored no.\n\n“Millions of people.”\n\nHe heard me.",
+      "chars": 384,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "055",
+      "dramatic_run": 41,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "I knew he heard me because one nostril moved.\n\nThat was not much, but I was beginning to work with limited information.\n\n“Cities disappear.”\n\nHis claw dragged slowly across the stone.\n\nFour pale lines appeared beneath it.\n\nI watched the marks deepen.\n\nNo words.\n\n“Farms go with them. Trade stops. People starve.”\n\nThe claw reached the end of its path and stopped.\n\nI waited.\n\nHe had heard that too.\n\nAt least I thought he had.",
+      "chars": 426,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "056",
+      "dramatic_run": 41,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "I was learning that silence from Ithar did not necessarily mean the conversation had stopped. Sometimes it seemed to mean I had not yet said anything worth interrupting.\n\nThat was not especially encouraging.\n\n“Do you care?”\n\nIthar pushed his claw into the mound beside him.\n\nGold slid away.\n\nFor a moment I thought he was ignoring me again.\n\nThen something larger emerged beneath the coins.\n\nA piece of carved stone.\n\nGray.",
+      "chars": 423,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "057",
+      "dramatic_run": 41,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "Weathered.\n\nOne edge still carried the remains of a face.\n\nA crown.\n\nA nose.\n\nHalf a mouth.\n\nI watched him turn it between two claws.\n\nHe had not answered yet.\n\nI started to wonder whether the object was the answer.\n\nThen he spoke.",
+      "chars": 231,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "058",
+      "dramatic_run": 42,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“No. And before you repeat the number, understand that you are making a very young mistake.\n\n“You believe scale creates meaning by itself. One death troubles you. A thousand troubles you more. A million troubles you more still. So you assume there must be some number large enough that any thinking creature, regardless of what it values, becomes obligated to arrive at the same conclusion you have.\n\n“There is not.",
+      "chars": 415,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "059",
+      "dramatic_run": 42,
+      "part_in_run": 2,
+      "voice": "normal",
+      "text": "“The kingdom you are attempting to save is six hundred and eleven years old. Do not correct me. Your historians misplaced three years because they count the coronation and not the winter in which the previous court ceased to function.",
+      "chars": 234,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "060",
+      "dramatic_run": 42,
+      "part_in_run": 3,
+      "voice": "normal",
+      "text": "“Before that kingdom, there were three others in the valley you call its heart. One survived eighty-one years. One survived four hundred and twelve. The oldest survived somewhat longer than yours has so far. It was larger. Wealthier. Its people considered these facts evidence of permanence.\n\n“They redirected a river. They cut roads into mountains. They raised seven towers where your palace district now stands.”",
+      "chars": 414,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "061",
+      "dramatic_run": 43,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "He lifted the piece of stone slightly.",
+      "chars": 38,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "062",
+      "dramatic_run": 44,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“This was part of the fourth.\n\n“The kingdom after them used two towers for grain. One became a prison. Four were abandoned. Their grandchildren pulled those down because cut stone was more useful in walls than dead rulers were in memory.\n\n“You speak of your kingdom as though it is a mountain. It is not.",
+      "chars": 304,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "063",
+      "dramatic_run": 44,
+      "part_in_run": 2,
+      "voice": "normal",
+      "text": "“You speak of millions as though they are one creature. They are not. They are millions of separate creatures living inside a temporary arrangement of roads, laws, boundaries, debts, habits, and stories.\n\n“You wish me to preserve the arrangement because the arrangement matters to you.\n\n“That is different from believing the size of the arrangement should matter to me.”",
+      "chars": 370,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "064",
+      "dramatic_run": 45,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "Then he stopped.\n\nJust stopped.\n\nI had spent most of the last minute waiting for some opening to interrupt.\n\nWhen one finally arrived, it took me a second to notice.\n\nIthar set the piece of tower back onto the gold.\n\nNot tossed.\n\nSet.\n\nCarefully.\n\nI looked at the broken face.\n\nI had asked a simple question.\n\nApparently I had requested six hundred years of context.\n\n“So no, then?”\n\nHis eye narrowed.\n\nI rubbed my face.",
+      "chars": 420,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "065",
+      "dramatic_run": 45,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "“Fine. Forget the kingdom.”\n\nHe did not respond.\n\nThis time I understood the silence a little better.\n\nI had asked the wrong question and then summarized his answer badly.\n\nHe was allowing me to discover that for myself.\n\n“The people.”\n\nThe claw moved again.\n\nSlowly.\n\n“I care about the people.”\n\nStill no words.\n\nI watched the claw disappear beneath a layer of coins.\n\nThat annoyed me more than an argument would have.",
+      "chars": 419,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "066",
+      "dramatic_run": 45,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "At least an argument meant I knew where I stood.\n\n“I crossed the mountain for them.”\n\nThe claw stopped under the gold.\n\nI waited.\n\nA few seconds passed.\n\nThen Ithar lifted something from the hoard.\n\nA helmet.\n\nHuman.\n\nOld enough that the leather inside had become black dust.\n\nHe studied the dent in one side.\n\nThen his eye moved to my left knee.\n\nI did not like that connection.",
+      "chars": 379,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "067",
+      "dramatic_run": 45,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "I could not tell whether he was comparing injuries, thinking about dead soldiers, or simply looking at two damaged things in sequence.\n\n“You want to know why I thought you’d listen?”\n\nThe helmet disappeared beneath his claw again.\n\nHe did not answer.\n\nI gave him another second.\n\nStill nothing.\n\nI had the floor again.\n\nI was starting to recognize the feeling.\n\n“Because you can stop it.”\n\nOne eye opened slightly wider.",
+      "chars": 420,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "068",
+      "dramatic_run": 45,
+      "part_in_run": 5,
+      "voice": "deep",
+      "text": "“I think.”\n\nThe eye narrowed again.\n\nI nodded to myself.\n\n“Right. Bad wording.”\n\nMy weight shifted.\n\nMy left knee objected immediately.\n\nFifty-nine was not old enough to make every movement a negotiation.\n\nI had received help.\n\nThe left knee.\n\nThree ribs that had set badly.\n\nA shoulder that clicked before rain.\n\nTwo fingers on my right hand that had never closed correctly after a gate crushed them.\n\nLow B-class.\n\nRanker.",
+      "chars": 424,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "069",
+      "dramatic_run": 45,
+      "part_in_run": 6,
+      "voice": "deep",
+      "text": "King’s commendation.\n\nFive named contracts.\n\nThree cities where I could still drink for free if the right bartender was working.\n\nIt sounded impressive when somebody else said it.\n\nIt was impressive.\n\nJust not to me.\n\nI knew what impressive felt like.\n\nI used to be better.\n\nNot a little better.",
+      "chars": 295,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "070",
+      "dramatic_run": 45,
+      "part_in_run": 7,
+      "voice": "deep",
+      "text": "Enough better that sometimes I woke from dreams with the old body’s instincts and spent half a second confused by how slowly this hand moved.\n\nIthar was watching my hand.\n\nI put it down.\n\n“You know the western Line wasn’t built as a wall.”\n\nHis nostril moved again.\n\nMaybe acknowledgment.\n\nMaybe breathing.\n\nI kept going.\n\n“The anchors don’t keep pressure out.”\n\nThe dragon’s claw went still.",
+      "chars": 392,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "071",
+      "dramatic_run": 45,
+      "part_in_run": 8,
+      "voice": "deep",
+      "text": "That time I noticed before I finished the sentence.\n\n“They move it. West to east at first. Then down.”\n\nHis head rose perhaps an inch.\n\nAt this scale, an inch was an opinion.\n\nI was learning.\n\nSlowly.\n\n“The lower channels haven’t been maintained because nobody knows they exist anymore. The ninth station is failing because the eastern sink is full. Rebuild every surface anchor from here to the coast and it still breaks.”",
+      "chars": 423,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "072",
+      "dramatic_run": 45,
+      "part_in_run": 9,
+      "voice": "deep",
+      "text": "I stopped talking.\n\nPartly because I had reached the end of the explanation.\n\nMostly because I expected him to ask a question.\n\nHe didn’t.\n\nI gave him a second.\n\nThen another.\n\nIthar reached into the gold instead.\n\nHis claw disappeared almost to the wrist.\n\nI watched it move through the hoard and tried to decide whether I was being dismissed again.\n\nThen something came back with it.\n\nA chain.",
+      "chars": 395,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "073",
+      "dramatic_run": 45,
+      "part_in_run": 10,
+      "voice": "deep",
+      "text": "Bronze links thicker than my fingers.\n\nAt the end hung a warped disk covered in markings.\n\nMy heartbeat changed.\n\nIthar’s eye moved to me before the disk even touched the floor.\n\nOf course it did.\n\nHe laid it on the stone between us.\n\nOld Line work.\n\nVery old.\n\nOlder than anything still mounted in the western stations.\n\nI did not touch it.",
+      "chars": 341,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "074",
+      "dramatic_run": 46,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“You know what that is.”",
+      "chars": 24,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "075",
+      "dramatic_run": 47,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "It was not a question.\n\n“Yeah.”\n\nIthar waited.\n\nI had started to understand that this was one of his preferred methods of conversation.\n\nHe did not ask for information if he could make the other person uncomfortable enough to volunteer it.\n\n“The early load mark.”\n\nHe made a low sound in his throat.\n\nNot approval exactly.\n\nAt least it gave me something to work with.\n\n“Before they changed the station notation.”",
+      "chars": 412,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "076",
+      "dramatic_run": 47,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "The sound stopped.\n\nI waited.\n\nHe waited longer.\n\nI exhaled.\n\n“Your turn.”\n\nIthar nudged the disk with one claw.\n\nIt spun once on the stone, slow and heavy, then settled with the old mark facing me.\n\nHe looked from the disk to my face.\n\nThen he finally spoke.",
+      "chars": 259,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "077",
+      "dramatic_run": 48,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“You crossed half a kingdom on a leg that should have convinced you to stop. You ruined your boots. You lost an animal. You entered my home without armor because some part of you correctly understood that armor would not alter the result.\n\n“You knew where I was.\n\n“You knew my name.",
+      "chars": 282,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "078",
+      "dramatic_run": 48,
+      "part_in_run": 2,
+      "voice": "normal",
+      "text": "“You knew the northern shelf would kill you before it killed a dragon. You crossed above the sulfur vents instead of through them. There is residue on your coat and none on your boots. You knew which route to take before the mountain taught you.\n\n“Now you identify a Line mark removed from human use before the oldest living keeper’s grandmother was born.",
+      "chars": 355,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "079",
+      "dramatic_run": 48,
+      "part_in_run": 3,
+      "voice": "normal",
+      "text": "“You keep telling me about the kingdom because the kingdom is what you want me to act upon.\n\n“It is not what makes you interesting.\n\n“What makes you interesting is that you arrived here carrying answers to questions you should not know exist.”",
+      "chars": 243,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "080",
+      "dramatic_run": 49,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "Then silence again.\n\nDifferent this time.\n\nI could feel the difference even before I knew what it meant.\n\nBefore, Ithar’s silence had felt like dismissal.\n\nNow he was watching me through it.\n\nThe disk stopped spinning completely.\n\n“So we’re making progress.”\n\nHe did not answer.\n\nI waited long enough to confirm that was intentional.\n\n“Terrible progress.”\n\nHis nostril moved.\n\nI was beginning to suspect that might be laughter.",
+      "chars": 427,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "081",
+      "dramatic_run": 49,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "“I’ll take it.”\n\nThe old disk vanished beneath his claw.\n\nThen Ithar’s attention shifted away from me.\n\nNot lost.\n\nFocused somewhere else.\n\nI watched him think.\n\nThat was new too.\n\nHe pushed aside a mound of coins without looking. A jeweled cup rolled downhill. He caught it with one claw before it struck the floor, stared at it as if surprised to find it there, then placed it behind him.\n\nAnother object came free.",
+      "chars": 417,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "082",
+      "dramatic_run": 49,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "A white stone carved into the shape of a bird.\n\nHe ignored that one.\n\nThen a length of rusted chain.\n\nThen a blackened ring large enough to fit over my wrist.\n\nAt first I thought he was searching for something.\n\nAfter the third object, I changed my mind.\n\nHe was sorting.\n\nNot the hoard.\n\nPossibilities.\n\nI could almost watch them pass through him.\n\nOne discarded.\n\nAnother considered.\n\nAnother dismissed.",
+      "chars": 405,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "083",
+      "dramatic_run": 49,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "I had expected an ancient creature to be mysterious.\n\nI had not expected mystery to involve watching him reorganize garbage.\n\nEventually the claw stopped moving.\n\nIthar spoke.",
+      "chars": 175,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "084",
+      "dramatic_run": 50,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Nine living things have known that name in the form you used.\n\n“One is dead now. She would object to my counting her that way, but objections require enough continuity to become conversation.\n\n“One has not left the western deep in three hundred years. He dislikes land.\n\n“One would eat you before answering a question.\n\n“Another would eat you after answering it, which is a distinction he considers important.",
+      "chars": 410,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "085",
+      "dramatic_run": 50,
+      "part_in_run": 2,
+      "voice": "normal",
+      "text": "“One does not possess a mouth.\n\n“Two know an older pronunciation and would not use yours.\n\n“One has not spoken to a human since before the first stones of your capital were laid.\n\n“And one is me.\n\n“I can account for each path.\n\n“I can account for every exchange by which that name moved from one mind to another. A favor. A threat. A witness. A debt. Once, very briefly, affection.",
+      "chars": 381,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "086",
+      "dramatic_run": 50,
+      "part_in_run": 3,
+      "voice": "normal",
+      "text": "“Secrets are not magic merely because people whisper around them. They still travel.\n\n“You did not travel along any of those paths.”",
+      "chars": 132,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "087",
+      "dramatic_run": 51,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "His claw settled among the coins.",
+      "chars": 33,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "088",
+      "dramatic_run": 52,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“That does not frighten me, Greg.\n\n“It interests me.”",
+      "chars": 53,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "089",
+      "dramatic_run": 53,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "There it was.\n\nMy name.\n\nFor half a second I wondered how he had learned it.\n\nThen I remembered the rank pin on my chest.\n\nRight.\n\nLess magical.\n\nStill irritating.\n\nI looked at the nine feet of claw nearest me.\n\n“What does interest buy me?”\n\nIthar studied me.\n\nHe did not answer immediately.\n\nThis time I knew he was thinking.\n\nOr at least I was confident enough to pretend I knew.\n\n“I got thirty seconds for the name.”",
+      "chars": 419,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "090",
+      "dramatic_run": 53,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "The tail moved somewhere in the dark.\n\nA wave of coins shifted behind him.\n\n“I’d like to know the exchange rate.”\n\nIthar reached down and picked up another stone.\n\nI stopped talking.\n\nI knew what stones meant now.\n\nOr I thought I did.\n\nHe rolled it between two claws.\n\nI watched the stone.\n\nHe watched me watch it.\n\nThat should have been enough warning.\n\nIt wasn’t.\n\nThe stone left his claw.\n\nI moved before I thought.",
+      "chars": 418,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "091",
+      "dramatic_run": 53,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "Right foot back.\n\nBad leg behind.\n\nShoulder turned.\n\nThe stone passed through the space where my head had been and cracked against the wall.\n\nI stayed there.\n\nHalf crouched.\n\nMy knee screaming.\n\nIthar had gone completely still.\n\nThat was the first time his stillness frightened me more than his movement.\n\nI slowly straightened.\n\n“That,” I said, “was even more unnecessary.”\n\nHe did not react to the complaint.",
+      "chars": 410,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "092",
+      "dramatic_run": 53,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "His gaze dropped to my feet.\n\nThen my shoulders.\n\nThen my hands.\n\nI knew what he had seen.\n\nWorse, I knew why it mattered.\n\nForty years ago, that movement would have been cleaner.\n\nFaster.\n\nThe body would not have complained afterward.\n\nThis body had never learned it properly.\n\nThis body had only inherited the expectation.\n\nMemory was funny when you got old enough.\n\nPeople imagined important things stayed sharp.\n\nThey didn’t.",
+      "chars": 429,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "093",
+      "dramatic_run": 53,
+      "part_in_run": 5,
+      "voice": "deep",
+      "text": "Sometimes I could remember the pattern on a woman’s cup but not what she said when she left.\n\nI could remember the smell of a room I had slept in twice and lose an entire winter.\n\nSome techniques stayed because my wrists remembered them even when the rest of me didn’t.\n\nNames went first.\n\nDates got slippery.\n\nPain stayed.\n\nFaces stayed longer than they should have.",
+      "chars": 367,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "094",
+      "dramatic_run": 53,
+      "part_in_run": 6,
+      "voice": "deep",
+      "text": "And some things simply sat there forever for no reason I could explain.\n\nThe number of steps between the third and fourth gates of a city.\n\nThe way rain collected beneath a tavern window.\n\nWhere not to stand when Ithar woke.\n\nThe name of a dragon almost nobody knew.\n\nThe problem was that some of those things belonged to places that did not exist yet.\n\nOr people I had not met.\n\nOr events that had never happened.\n\nNot here.",
+      "chars": 425,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "095",
+      "dramatic_run": 53,
+      "part_in_run": 7,
+      "voice": "deep",
+      "text": "Ithar continued studying me.\n\nI let him.\n\nThere was no useful way to hide what he had already seen.\n\nHis claw touched the stone where my right foot had been.\n\nThen the place where my left had moved.\n\nHe traced the distance between them once.\n\nNot drawing.\n\nMeasuring.\n\nThat bothered me.\n\n“What?”\n\nHe did not answer.\n\nHis eye moved to my knee.\n\nThen to my hands again.\n\nI could almost feel him assembling the question.",
+      "chars": 417,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "096",
+      "dramatic_run": 53,
+      "part_in_run": 8,
+      "voice": "deep",
+      "text": "I would have preferred he just asked it.\n\nInstead he looked at the blood dried along the bottom of my coat.\n\nThen toward the cave entrance.",
+      "chars": 139,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "097",
+      "dramatic_run": 54,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Your horse?”",
+      "chars": 13,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "098",
+      "dramatic_run": 55,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "The question caught me off guard.\n\n“Made it pretty far.”\n\nIthar waited.\n\nI knew that wait now.\n\n“Cliff.”\n\nA beat.",
+      "chars": 113,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "099",
+      "dramatic_run": 56,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Ah.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "100",
+      "dramatic_run": 57,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I had no idea whether that was sympathy.\n\nIt was the closest thing I had gotten.\n\nThe dragon shifted his weight.\n\nThe cave answered.\n\nStone pressed against stone somewhere deeper inside the mountain. Coins slid. Something metallic fell for several seconds before finally hitting the floor.\n\nThen Ithar settled again.\n\nWhen he spoke, the humor was gone.",
+      "chars": 352,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "101",
+      "dramatic_run": 58,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“You believe I am examining what you know.\n\n“I am not.\n\n“Knowledge moves. It is stolen, taught, inherited, guessed, rediscovered, recorded badly, remembered worse. A human knowing one old name is unlikely. A human recognizing one dead system is unusual. A human choosing one forgotten route can be explained.\n\n“Individually, each fact is merely inconvenient.\n\n“Together they become a shape.",
+      "chars": 390,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "102",
+      "dramatic_run": 58,
+      "part_in_run": 2,
+      "voice": "normal",
+      "text": "“You knew the mountain before traveling it. Your body attempts movements it has not been trained to perform. You recognize systems removed from use before you were born. You possess a name for which I can find no path to you.\n\n“And you speak about the failure of the western Line with the irritation of someone remembering a mistake rather than the fear of someone predicting one.\n\n“That difference matters.",
+      "chars": 407,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "103",
+      "dramatic_run": 58,
+      "part_in_run": 3,
+      "voice": "normal",
+      "text": "“A prophet watches the future.\n\n“You keep looking backward.”",
+      "chars": 60,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "104",
+      "dramatic_run": 59,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I did not move.\n\nIthar lowered his head closer.",
+      "chars": 47,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "105",
+      "dramatic_run": 60,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“I am not trying to collect facts, Greg.\n\n“I am trying to determine what kind of cause produces you.”",
+      "chars": 101,
+      "pause_after_ms": 700
+    },
+    {
+      "id": "106",
+      "dramatic_run": 61,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "That was worse than being interesting.\n\nSignificantly worse.\n\nI looked at the passage behind me.\n\nSix days in.\n\nProbably eight out.\n\nAssuming I got an out.\n\n“The Line,” I said.\n\nOne nostril moved.\n\nI was almost certain that one was amusement.\n\n“I really need you to care about the Line.”\n\nIthar said nothing.\n\nI waited.\n\nHis claw moved once through the gold.\n\nThat was all.",
+      "chars": 373,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "107",
+      "dramatic_run": 61,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "I was beginning to understand the structure of the conversation.\n\nI got to talk until I gave him something worth stopping me for.\n\nUnfortunately, he seemed to have raised the standard.\n\n“Help me with the Line and I’ll explain.”\n\nHis eye remained on me.",
+      "chars": 252,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "108",
+      "dramatic_run": 62,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“No.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "109",
+      "dramatic_run": 63,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "“You didn’t even think about it.”\n\nA low hum came from behind his teeth.\n\nI stopped.\n\nApparently he had.\n\n“I meant visibly.”\n\nThat earned me nothing.\n\n“Fine.”\n\nI looked around for somewhere to sit.\n\nThere was a stone near the wall that looked almost flat.\n\nI considered it.\n\nThen considered how much dignity I had left.\n\nMy knee settled the argument.\n\nI sat.\n\nIthar watched me do it.\n\n“Happy?”\n\nNo response.\n\n“Of course not.”",
+      "chars": 425,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "110",
+      "dramatic_run": 63,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "I rubbed the joint through my trousers.\n\nThe cave was hot enough that sweat had dried under my collar.\n\nThe trip back was going to be miserable.\n\nAssuming there was a trip back.\n\nI looked up.\n\n“You want everything?”\n\nOne eye opened a little wider.\n\nThat was answer enough.\n\n“Not happening.”\n\nThe eye narrowed again.\n\n“I have forty years of mistakes in here. You don’t get all of them because I know your name.”",
+      "chars": 410,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "111",
+      "dramatic_run": 63,
+      "part_in_run": 3,
+      "voice": "deep",
+      "text": "Ithar remained silent.\n\nI waited.\n\nThe silence stretched long enough that I started wondering whether I had misread him.\n\nThen his claw touched the old Line disk beneath the gold.\n\nOne tap.\n\nI understood.\n\nNot the name.\n\nThe Line.\n\nThe routes.\n\nThe movement.\n\nAll of it.\n\n“You think it’s connected.”\n\nStill silence.\n\nI had begun to resent how much work he made me do in my own interrogation.\n\n“The name. The mountain. The Line.”",
+      "chars": 428,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "112",
+      "dramatic_run": 63,
+      "part_in_run": 4,
+      "voice": "deep",
+      "text": "His claw tapped the stone again.\n\n“And the way I moved.”\n\nThe claw stopped.\n\nThere.\n\nThat one.\n\nI looked at my hands.\n\n“They are.”\n\nIthar did not speak.\n\nI had expected triumph from him.\n\nInstead he waited.\n\nThat was somehow worse.\n\n“They’re all connected.”\n\nThe cave felt quieter after I said it.\n\nMaybe because Ithar stopped moving.\n\nMaybe because I did.",
+      "chars": 356,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "113",
+      "dramatic_run": 63,
+      "part_in_run": 5,
+      "voice": "deep",
+      "text": "He let the silence sit between us until I could feel the shape of what I had admitted.\n\nThen he finally asked the question.",
+      "chars": 123,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "114",
+      "dramatic_run": 64,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“How do you know the Line will fail?”",
+      "chars": 37,
+      "pause_after_ms": 700
+    },
+    {
+      "id": "115",
+      "dramatic_run": 65,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I looked at him.\n\nThere were answers to that question.\n\nMost were lies.\n\nA few were technically true.\n\nOne was the truth.\n\nI had come six days to ask a dragon for help.\n\nApparently honesty had survived longer than the horse.\n\n“I’ve seen it fail.”\n\nIthar did not move.\n\nI waited for the claw.\n\nThe nostril.\n\nThe eye.\n\nAnything.\n\nNothing changed.\n\nThat stillness had become its own answer.\n\n“Fail,” I added.",
+      "chars": 405,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "116",
+      "dramatic_run": 65,
+      "part_in_run": 2,
+      "voice": "deep",
+      "text": "The dragon remained motionless for several seconds.\n\nThen his head lowered until one eye filled most of my view.",
+      "chars": 112,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "117",
+      "dramatic_run": 66,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“The western Line has not failed during your lifetime. The ninth station remains intact. The eastern sink has not filled. The lower channels remain inaccessible from the routes you described.\n\n“So you did not witness the event you are describing.\n\n“You did not read it. If you had, you would speak with the certainty of text, and text is full of edges. You do not have edges.\n\n“You are missing pieces.",
+      "chars": 401,
+      "pause_after_ms": 80
+    },
+    {
+      "id": "118",
+      "dramatic_run": 66,
+      "part_in_run": 2,
+      "voice": "normal",
+      "text": "“You remember some details too clearly and others not at all.\n\n“You do not sound like a man reciting a prophecy.\n\n“You sound like a man trying to remember where he left something.”",
+      "chars": 180,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "119",
+      "dramatic_run": 67,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "His pupil tightened.",
+      "chars": 20,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "120",
+      "dramatic_run": 68,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“When?”",
+      "chars": 7,
+      "pause_after_ms": 900
+    },
+    {
+      "id": "121",
+      "dramatic_run": 69,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "That one word landed harder than the monologue.\n\nI looked at the stone between my boots.\n\n“Forty years from now.”\n\nIthar went still again.\n\nCompletely.\n\nNo claw.\n\nNo tail.\n\nNo breath I could hear.\n\nI had learned enough by then to understand that this silence was not dismissal.\n\nFor the first time since entering the cave, I had managed to take the floor away from him.\n\nI waited.\n\nEventually Ithar spoke.",
+      "chars": 405,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "122",
+      "dramatic_run": 70,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“No.\n\n“You are fifty-nine years old. Forty years from now, you would be ninety-nine. Your body does not carry ninety-nine years. Your injuries do not. Your rank does not. Your habits do not.\n\n“And yet you did not calculate that date.\n\n“You retrieved it.\n\n“The answer existed before I asked the question.”",
+      "chars": 304,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "123",
+      "dramatic_run": 71,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "His eye narrowed.",
+      "chars": 17,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "124",
+      "dramatic_run": 72,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“Where?”",
+      "chars": 8,
+      "pause_after_ms": 900
+    },
+    {
+      "id": "125",
+      "dramatic_run": 73,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I looked up at him.\n\n“I was there.”\n\nThe dragon stared at me.\n\nThen something changed.\n\nNot fear.\n\nNot disbelief exactly.\n\nRecognition without understanding.\n\nThe expression of a creature that had finally found the edge of a problem and discovered the edge was not where it belonged.",
+      "chars": 283,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "126",
+      "dramatic_run": 74,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“No.”",
+      "chars": 5,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "127",
+      "dramatic_run": 75,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "His voice was almost gentle.",
+      "chars": 28,
+      "pause_after_ms": 280
+    },
+    {
+      "id": "128",
+      "dramatic_run": 76,
+      "part_in_run": 1,
+      "voice": "normal",
+      "text": "“You were not.”",
+      "chars": 15,
+      "pause_after_ms": 1000
+    },
+    {
+      "id": "129",
+      "dramatic_run": 77,
+      "part_in_run": 1,
+      "voice": "deep",
+      "text": "I looked up at him.\n\n“Not this time.”",
+      "chars": 37,
+      "pause_after_ms": 280
+    }
+  ]
+}

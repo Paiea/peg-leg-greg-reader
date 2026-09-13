@@ -2,13 +2,31 @@
 
 ## THE PETITIONER
 
-The dragon looked at me for a long time.
+The dragon yawned while I was explaining how many people were going to die.
+
+It was not a small yawn.
+
+Its head lifted from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.
+
+I stopped talking.
+
+Not because I was afraid.
+
+I was afraid, obviously.
+
+I was just also offended.
+
+“Am I boring you?”
+
+One eye opened halfway.
+
+The eye studied me.
 
 Then one nostril moved.
 
 “Mm.”
 
-Its head rested on a shelf of black stone large enough to build a house on. One eye opened halfway.
+His eye stayed on me.
 
 “Food has arrived.”
 
