@@ -1,32 +1,212 @@
 {
   "r2-ch001": [
-    {"role":"anchor","path":"assets/images/chapters/ch001.png?v=20260912b","alt":"A worn boot on a cobbler's workbench before dawn, with Carrow beyond the window."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch001.png?v=20260912b",
+      "alt": "A worn boot on a cobbler's workbench before dawn, with Carrow beyond the window."
+    }
   ],
   "r2-ch002": [
-    {"role":"anchor","path":"assets/images/chapters/ch002.png?v=20260912b","alt":"A steaming food stall in a rain-darkened Carrow street beneath the citadel."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch002.png?v=20260912b",
+      "alt": "A steaming food stall in a rain-darkened Carrow street beneath the citadel."
+    }
   ],
   "r2-ch003": [
-    {"role":"anchor","path":"assets/images/chapters/ch003.png?v=20260912b","alt":"A wet city gate and watch post at dawn beneath the looming towers of Carrow."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch003.png?v=20260912b",
+      "alt": "A wet city gate and watch post at dawn beneath the looming towers of Carrow."
+    }
   ],
   "r2-ch004": [
-    {"role":"anchor","path":"assets/images/chapters/ch004.png?v=20260912b","alt":"A ruined stone chapel lit by cold blue window light and warm candles."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch004.png?v=20260912b",
+      "alt": "A ruined stone chapel lit by cold blue window light and warm candles."
+    }
   ],
   "r2-ch005": [
-    {"role":"anchor","path":"assets/images/chapters/ch005.png?v=20260912b","alt":"Rain-slick rooftops at sunset, with a yellow cloth and black birds above Carrow."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch005.png?v=20260912b",
+      "alt": "Rain-slick rooftops at sunset, with a yellow cloth and black birds above Carrow."
+    }
   ],
   "r2-ch006": [
-    {"role":"anchor","path":"assets/images/chapters/ch006.png?v=20260912b","alt":"A crowded rain-soaked market alley leading toward the dark towers of Carrow."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch006.png?v=20260912b",
+      "alt": "A crowded rain-soaked market alley leading toward the dark towers of Carrow."
+    }
   ],
   "r2-ch007": [
-    {"role":"anchor","path":"assets/images/chapters/ch007.png?v=20260912b","alt":"A cramped lantern-lit room with a journal, rough bedding, and Carrow outside the window."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch007.png?v=20260912b",
+      "alt": "A cramped lantern-lit room with a journal, rough bedding, and Carrow outside the window."
+    }
   ],
   "r2-ch008": [
-    {"role":"anchor","path":"assets/images/chapters/ch008.png?v=20260912b","alt":"A shadowed backstage space filled with masks, costumes, banners, and candlelight."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch008.png?v=20260912b",
+      "alt": "A shadowed backstage space filled with masks, costumes, banners, and candlelight."
+    }
   ],
   "r2-ch009": [
-    {"role":"anchor","path":"assets/images/chapters/ch009.png?v=20260912b","alt":"A muddy fortress training yard with a battered target and Carrow rising beyond the walls."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch009.png?v=20260912b",
+      "alt": "A muddy fortress training yard with a battered target and Carrow rising beyond the walls."
+    }
   ],
   "r2-ch010": [
-    {"role":"anchor","path":"assets/images/chapters/ch010.png?v=20260912b","alt":"A black cat eating from a bowl on wet stone steps outside a heavy door in Carrow."}
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch010.png?v=20260912b",
+      "alt": "A black cat eating from a bowl on wet stone steps outside a heavy door in Carrow."
+    }
+  ],
+  "r2-ch011": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch011.png?v=20260912c",
+      "alt": "A worn, rain-darkened lodging room in Carrow seen from Greg's eye level at dawn."
+    }
+  ],
+  "r2-ch012": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch012.png?v=20260912c",
+      "alt": "A rain-soaked apothecary stall crowded with herbs, jars, scales, and working hands."
+    }
+  ],
+  "r2-ch013": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch013.png?v=20260912c",
+      "alt": "A muddy stable at dawn with tack, a horse, and the city beyond."
+    }
+  ],
+  "r2-ch014": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch014.png?v=20260912c",
+      "alt": "A rain-darkened gatehouse checkpoint with guards, wagons, and travelers moving through."
+    }
+  ],
+  "r2-ch015": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch015.png?v=20260912c",
+      "alt": "A muddy camp below Carrow with a cooking pot, bedrolls, horses, and firelight."
+    }
+  ],
+  "r2-ch016": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch016.png?v=20260912c",
+      "alt": "A road camp at dusk with a communal cooking pot, wagons, horses, and tired travelers."
+    }
+  ],
+  "r2-ch017": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch017.png?v=20260912c",
+      "alt": "A rain-soaked roadside checkpoint with a barrier, guards, and wagons continuing down the road."
+    }
+  ],
+  "r2-ch018": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch018.png?v=20260912c",
+      "alt": "A baker passes a loaf across a wet market counter while Carrow carries on behind the stall."
+    }
+  ],
+  "r2-ch019": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch019.png?v=20260912c",
+      "alt": "A candlelit tavern table with coins, a battered mug, wet gear, and other patrons beyond."
+    }
+  ],
+  "r2-ch020": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch020.png?v=20260912c",
+      "alt": "A dim stable at dawn with travel gear, a horse, and a faint trace of blue magic."
+    }
+  ],
+  "r2-ch021": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch021.png?v=20260912c",
+      "alt": "A cramped traveler room with wet gear, coins, a sealed letter, and rain beyond the window."
+    }
+  ],
+  "r2-ch022": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch022.png?v=20260912c",
+      "alt": "An apothecary works at a crowded rain-soaked stall among roots, herbs, jars, and one green bottle."
+    }
+  ],
+  "r2-ch023": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch023.png?v=20260912c",
+      "alt": "A muddy wagon camp where a damaged wheel is being repaired before the road resumes."
+    }
+  ],
+  "r2-ch024": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch024.png?v=20260912c",
+      "alt": "A blacksmith works beside an open forge while rain runs through the workshop and street."
+    }
+  ],
+  "r2-ch025": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch025.png?v=20260912c",
+      "alt": "Rain-slick rooftops and laundry frame Carrow from an ordinary upper-floor viewpoint."
+    }
+  ],
+  "r2-ch026": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch026.png?v=20260912c",
+      "alt": "A candlelit lodging room with wet travel gear, coins, a sealed letter, and rain outside."
+    }
+  ],
+  "r2-ch027": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch027.png?v=20260912c",
+      "alt": "A wet Guild contract hall lined with postings, seals, counters, and people moving through."
+    }
+  ],
+  "r2-ch028": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch028.png?v=20260912c",
+      "alt": "A rain-soaked blacksmith alley full of wagon parts, horseshoes, tools, mud, and forge light."
+    }
+  ],
+  "r2-ch029": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch029.png?v=20260912c",
+      "alt": "A rooftop view across rain-darkened Carrow at dusk, with laundry and work buildings below."
+    }
+  ],
+  "r2-ch030": [
+    {
+      "role": "anchor",
+      "path": "assets/images/chapters/ch030.png?v=20260912c",
+      "alt": "A muddy caravan camp at dawn with wagons, horses, cooking gear, and travelers preparing to move."
+    }
   ]
 }
