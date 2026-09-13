@@ -42,6 +42,19 @@ class ShortTakePlanTests(unittest.TestCase):
         expected = "\n\n".join(item["text"] for item in paragraphs)
         self.assertEqual(rebuilt, expected)
 
+    def test_oversize_mixed_paragraph_preserves_semantic_speaker_spans(self):
+        narration = "I watched the dragon for a long time. " * 8
+        speech = "This is Ithar speaking at length about the shape of the problem. " * 5
+        text = f'{narration}Ithar said, “{speech}”'
+        rows = classify_paragraphs(text)
+        chunks = make_chunks(rows, max_chars=220)
+        self.assertTrue(all(chunk["char_count"] <= 220 for chunk in chunks))
+        flattened = [span["role"] for chunk in chunks for span in chunk["semantic_spans"]]
+        self.assertIn("greg", flattened)
+        self.assertIn("dragon", flattened)
+        rebuilt = "".join(chunk["transcript"] for chunk in chunks)
+        self.assertEqual(rebuilt, text)
+
     def test_chunk_contains_semantic_spans(self):
         paragraphs = [
             {"role": "greg", "text": "Narration."},
