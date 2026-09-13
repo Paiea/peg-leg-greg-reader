@@ -1,0 +1,3589 @@
+{
+  "record": "002",
+  "title": "THE CLAIMANT",
+  "source": "3l/manuscript/record-002.md",
+  "method": "preview-safe-short-dual-render",
+  "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
+  "max_chars": 500,
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "quote_roles_locked": true,
+  "quote_count": 258,
+  "chunk_count": 33,
+  "chunks": [
+    {
+      "index": 1,
+      "transcript": "The dragon did not move.\n\nNeither did I.\n\nThat seemed fair for the first few seconds.\n\nThen it became his choice.\n\nI had just told a creature older than my kingdom that the future he remembered me not being part of had happened with me in it once already.\n\nThere were several reasonable responses to that.\n\nDisbelief.\n\nQuestions.\n\nEating me.\n\nI had prepared for two of those.\n\nIthar stared.\n\nI shifted my weight off the bad leg.\n\nThe movement was small.\n\nHis eye followed it anyway.",
+      "char_count": 482,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 24,
+          "role": "greg",
+          "text": "The dragon did not move."
+        },
+        {
+          "start": 26,
+          "end": 40,
+          "role": "greg",
+          "text": "Neither did I."
+        },
+        {
+          "start": 42,
+          "end": 85,
+          "role": "greg",
+          "text": "That seemed fair for the first few seconds."
+        },
+        {
+          "start": 87,
+          "end": 113,
+          "role": "greg",
+          "text": "Then it became his choice."
+        },
+        {
+          "start": 115,
+          "end": 255,
+          "role": "greg",
+          "text": "I had just told a creature older than my kingdom that the future he remembered me not being part of had happened with me in it once already."
+        },
+        {
+          "start": 257,
+          "end": 305,
+          "role": "greg",
+          "text": "There were several reasonable responses to that."
+        },
+        {
+          "start": 307,
+          "end": 317,
+          "role": "greg",
+          "text": "Disbelief."
+        },
+        {
+          "start": 319,
+          "end": 329,
+          "role": "greg",
+          "text": "Questions."
+        },
+        {
+          "start": 331,
+          "end": 341,
+          "role": "greg",
+          "text": "Eating me."
+        },
+        {
+          "start": 343,
+          "end": 375,
+          "role": "greg",
+          "text": "I had prepared for two of those."
+        },
+        {
+          "start": 377,
+          "end": 390,
+          "role": "greg",
+          "text": "Ithar stared."
+        },
+        {
+          "start": 392,
+          "end": 428,
+          "role": "greg",
+          "text": "I shifted my weight off the bad leg."
+        },
+        {
+          "start": 430,
+          "end": 453,
+          "role": "greg",
+          "text": "The movement was small."
+        },
+        {
+          "start": 455,
+          "end": 482,
+          "role": "greg",
+          "text": "His eye followed it anyway."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 2,
+      "transcript": "Eventually he said, “Not this time.”\n\n“Yes.”\n\n“You chose those words.”\n\n“I did.”\n\n“Why?”\n\n“Because they were short.”\n\nHis nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\n“Say what you mean without protecting it with brevity.”\n\nI looked at him.\n\n“That sounds expensive.”\n\n“I have not charged you.”\n\n“Yet.”\n\n“Greg.”\n\nThat was the first time my name sounded different in his mouth.\n\nNot important.\n\nNot friendly.\n\nPlaced.",
+      "char_count": 487,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "greg",
+          "text": "Eventually he said, "
+        },
+        {
+          "start": 20,
+          "end": 36,
+          "role": "dragon",
+          "text": "“Not this time.”"
+        },
+        {
+          "start": 38,
+          "end": 44,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 46,
+          "end": 70,
+          "role": "dragon",
+          "text": "“You chose those words.”"
+        },
+        {
+          "start": 72,
+          "end": 80,
+          "role": "greg",
+          "text": "“I did.”"
+        },
+        {
+          "start": 82,
+          "end": 88,
+          "role": "dragon",
+          "text": "“Why?”"
+        },
+        {
+          "start": 90,
+          "end": 116,
+          "role": "greg",
+          "text": "“Because they were short.”"
+        },
+        {
+          "start": 118,
+          "end": 137,
+          "role": "greg",
+          "text": "His nostril opened."
+        },
+        {
+          "start": 139,
+          "end": 156,
+          "role": "greg",
+          "text": "Not quite a sigh."
+        },
+        {
+          "start": 158,
+          "end": 207,
+          "role": "greg",
+          "text": "I had started assigning meanings to the nostrils."
+        },
+        {
+          "start": 209,
+          "end": 237,
+          "role": "greg",
+          "text": "That was probably dangerous."
+        },
+        {
+          "start": 239,
+          "end": 294,
+          "role": "dragon",
+          "text": "“Say what you mean without protecting it with brevity.”"
+        },
+        {
+          "start": 296,
+          "end": 312,
+          "role": "greg",
+          "text": "I looked at him."
+        },
+        {
+          "start": 314,
+          "end": 338,
+          "role": "greg",
+          "text": "“That sounds expensive.”"
+        },
+        {
+          "start": 340,
+          "end": 365,
+          "role": "dragon",
+          "text": "“I have not charged you.”"
+        },
+        {
+          "start": 367,
+          "end": 373,
+          "role": "greg",
+          "text": "“Yet.”"
+        },
+        {
+          "start": 375,
+          "end": 382,
+          "role": "dragon",
+          "text": "“Greg.”"
+        },
+        {
+          "start": 384,
+          "end": 447,
+          "role": "greg",
+          "text": "That was the first time my name sounded different in his mouth."
+        },
+        {
+          "start": 449,
+          "end": 463,
+          "role": "greg",
+          "text": "Not important."
+        },
+        {
+          "start": 465,
+          "end": 478,
+          "role": "greg",
+          "text": "Not friendly."
+        },
+        {
+          "start": 480,
+          "end": 487,
+          "role": "greg",
+          "text": "Placed."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 3,
+      "transcript": "Like he had put it somewhere and intended to find it again.\n\nI rubbed my thumb across the edge of my rank pin.\n\nThe Authority mark caught against the nail.\n\nLow B-class.\n\nNamed Ranker.\n\nPeg-Leg Greg, according to people who had never asked whether I wanted the fucking thing attached to me.\n\nIthar watched the hand.\n\nOf course he did.\n\n“I remember another life,” I said.\n\nNothing happened.\n\nI had expected that sentence to feel larger.\n\nIt did not.\n\nIt sounded exactly like what it was.",
+      "char_count": 486,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "role": "greg",
+          "text": "Like he had put it somewhere and intended to find it again."
+        },
+        {
+          "start": 61,
+          "end": 110,
+          "role": "greg",
+          "text": "I rubbed my thumb across the edge of my rank pin."
+        },
+        {
+          "start": 112,
+          "end": 155,
+          "role": "greg",
+          "text": "The Authority mark caught against the nail."
+        },
+        {
+          "start": 157,
+          "end": 169,
+          "role": "greg",
+          "text": "Low B-class."
+        },
+        {
+          "start": 171,
+          "end": 184,
+          "role": "greg",
+          "text": "Named Ranker."
+        },
+        {
+          "start": 186,
+          "end": 290,
+          "role": "greg",
+          "text": "Peg-Leg Greg, according to people who had never asked whether I wanted the fucking thing attached to me."
+        },
+        {
+          "start": 292,
+          "end": 315,
+          "role": "greg",
+          "text": "Ithar watched the hand."
+        },
+        {
+          "start": 317,
+          "end": 334,
+          "role": "greg",
+          "text": "Of course he did."
+        },
+        {
+          "start": 336,
+          "end": 370,
+          "role": "greg",
+          "text": "“I remember another life,” I said."
+        },
+        {
+          "start": 372,
+          "end": 389,
+          "role": "greg",
+          "text": "Nothing happened."
+        },
+        {
+          "start": 391,
+          "end": 435,
+          "role": "greg",
+          "text": "I had expected that sentence to feel larger."
+        },
+        {
+          "start": 437,
+          "end": 448,
+          "role": "greg",
+          "text": "It did not."
+        },
+        {
+          "start": 450,
+          "end": 486,
+          "role": "greg",
+          "text": "It sounded exactly like what it was."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 4,
+      "transcript": "A man in a cave saying something impossible.\n\nIthar waited.\n\nI had learned enough to know that meant he was not finished.\n\n“How much?”\n\n“Of the life?”\n\n“Yes.”\n\n“Most of it.”\n\n“Most is a word humans use when they wish to avoid discovering what is missing.”\n\n“I remember forty years.”\n\n“Exactly?”\n\n“No.”\n\n“How nearly?”\n\n“Close enough that I resent the question.”\n\n“That is not a measure.”\n\n“Approximately forty years.”\n\nOne corner of his mouth shifted.\n\nI pointed at him.\n\n“Don't.”\n\n“I said nothing.”",
+      "char_count": 498,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "greg",
+          "text": "A man in a cave saying something impossible."
+        },
+        {
+          "start": 46,
+          "end": 59,
+          "role": "greg",
+          "text": "Ithar waited."
+        },
+        {
+          "start": 61,
+          "end": 121,
+          "role": "greg",
+          "text": "I had learned enough to know that meant he was not finished."
+        },
+        {
+          "start": 123,
+          "end": 134,
+          "role": "dragon",
+          "text": "“How much?”"
+        },
+        {
+          "start": 136,
+          "end": 150,
+          "role": "greg",
+          "text": "“Of the life?”"
+        },
+        {
+          "start": 152,
+          "end": 158,
+          "role": "dragon",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 160,
+          "end": 173,
+          "role": "greg",
+          "text": "“Most of it.”"
+        },
+        {
+          "start": 175,
+          "end": 255,
+          "role": "dragon",
+          "text": "“Most is a word humans use when they wish to avoid discovering what is missing.”"
+        },
+        {
+          "start": 257,
+          "end": 282,
+          "role": "greg",
+          "text": "“I remember forty years.”"
+        },
+        {
+          "start": 284,
+          "end": 294,
+          "role": "dragon",
+          "text": "“Exactly?”"
+        },
+        {
+          "start": 296,
+          "end": 301,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 303,
+          "end": 316,
+          "role": "dragon",
+          "text": "“How nearly?”"
+        },
+        {
+          "start": 318,
+          "end": 360,
+          "role": "greg",
+          "text": "“Close enough that I resent the question.”"
+        },
+        {
+          "start": 362,
+          "end": 386,
+          "role": "dragon",
+          "text": "“That is not a measure.”"
+        },
+        {
+          "start": 388,
+          "end": 416,
+          "role": "greg",
+          "text": "“Approximately forty years.”"
+        },
+        {
+          "start": 418,
+          "end": 450,
+          "role": "greg",
+          "text": "One corner of his mouth shifted."
+        },
+        {
+          "start": 452,
+          "end": 469,
+          "role": "greg",
+          "text": "I pointed at him."
+        },
+        {
+          "start": 471,
+          "end": 479,
+          "role": "greg",
+          "text": "“Don't.”"
+        },
+        {
+          "start": 481,
+          "end": 498,
+          "role": "dragon",
+          "text": "“I said nothing.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 5,
+      "transcript": "“You were going to.”\n\n“No.”\n\nThat was worse somehow.\n\n“Beginning when?”\n\n“Nineteen.”\n\n“Ending?”\n\n“Fifty-nine.”\n\nHis eye moved over my face.\n\nThen lower.\n\nThe ruined leg.\n\nThe right hand that no longer closed all the way.\n\nThe shoulder that sat slightly wrong under my coat.\n\n“You are fifty-nine now.”\n\n“Yes.”\n\n“So you remember approximately forty years beginning at the age you first became an adult and ending at your present age.”\n\n“That's one way to make it sound suspicious.”",
+      "char_count": 479,
+      "roles": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "greg",
+          "text": "“You were going to.”"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 29,
+          "end": 52,
+          "role": "greg",
+          "text": "That was worse somehow."
+        },
+        {
+          "start": 54,
+          "end": 71,
+          "role": "dragon",
+          "text": "“Beginning when?”"
+        },
+        {
+          "start": 73,
+          "end": 84,
+          "role": "greg",
+          "text": "“Nineteen.”"
+        },
+        {
+          "start": 86,
+          "end": 95,
+          "role": "dragon",
+          "text": "“Ending?”"
+        },
+        {
+          "start": 97,
+          "end": 110,
+          "role": "greg",
+          "text": "“Fifty-nine.”"
+        },
+        {
+          "start": 112,
+          "end": 139,
+          "role": "greg",
+          "text": "His eye moved over my face."
+        },
+        {
+          "start": 141,
+          "end": 152,
+          "role": "greg",
+          "text": "Then lower."
+        },
+        {
+          "start": 154,
+          "end": 169,
+          "role": "greg",
+          "text": "The ruined leg."
+        },
+        {
+          "start": 171,
+          "end": 220,
+          "role": "greg",
+          "text": "The right hand that no longer closed all the way."
+        },
+        {
+          "start": 222,
+          "end": 273,
+          "role": "greg",
+          "text": "The shoulder that sat slightly wrong under my coat."
+        },
+        {
+          "start": 275,
+          "end": 300,
+          "role": "dragon",
+          "text": "“You are fifty-nine now.”"
+        },
+        {
+          "start": 302,
+          "end": 308,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 310,
+          "end": 432,
+          "role": "dragon",
+          "text": "“So you remember approximately forty years beginning at the age you first became an adult and ending at your present age.”"
+        },
+        {
+          "start": 434,
+          "end": 479,
+          "role": "greg",
+          "text": "“That's one way to make it sound suspicious.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 6,
+      "transcript": "“It is the chronological way.”\n\n“Right.”\n\n“Did you remember childhood?”\n\n“My actual childhood?”\n\n“What does actual mean in that sentence?”\n\nI opened my mouth.\n\nClosed it.\n\nHe waited.\n\nI hated that he was already getting better at this.\n\n“I remember being a kid once,” I said. “Both lives have the same childhood. Or close enough that I never found a difference worth keeping.”\n\n“You did not return to birth.”\n\n“No.”\n\n“You woke at nineteen.”\n\n“Yes.”\n\n“In the same body.”\n\n“A younger version of it.”",
+      "char_count": 497,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "role": "dragon",
+          "text": "“It is the chronological way.”"
+        },
+        {
+          "start": 32,
+          "end": 40,
+          "role": "greg",
+          "text": "“Right.”"
+        },
+        {
+          "start": 42,
+          "end": 71,
+          "role": "dragon",
+          "text": "“Did you remember childhood?”"
+        },
+        {
+          "start": 73,
+          "end": 95,
+          "role": "greg",
+          "text": "“My actual childhood?”"
+        },
+        {
+          "start": 97,
+          "end": 138,
+          "role": "dragon",
+          "text": "“What does actual mean in that sentence?”"
+        },
+        {
+          "start": 140,
+          "end": 158,
+          "role": "greg",
+          "text": "I opened my mouth."
+        },
+        {
+          "start": 160,
+          "end": 170,
+          "role": "greg",
+          "text": "Closed it."
+        },
+        {
+          "start": 172,
+          "end": 182,
+          "role": "greg",
+          "text": "He waited."
+        },
+        {
+          "start": 184,
+          "end": 235,
+          "role": "greg",
+          "text": "I hated that he was already getting better at this."
+        },
+        {
+          "start": 237,
+          "end": 376,
+          "role": "greg",
+          "text": "“I remember being a kid once,” I said. “Both lives have the same childhood. Or close enough that I never found a difference worth keeping.”"
+        },
+        {
+          "start": 378,
+          "end": 408,
+          "role": "dragon",
+          "text": "“You did not return to birth.”"
+        },
+        {
+          "start": 410,
+          "end": 415,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 417,
+          "end": 440,
+          "role": "dragon",
+          "text": "“You woke at nineteen.”"
+        },
+        {
+          "start": 442,
+          "end": 448,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 450,
+          "end": 469,
+          "role": "dragon",
+          "text": "“In the same body.”"
+        },
+        {
+          "start": 471,
+          "end": 497,
+          "role": "greg",
+          "text": "“A younger version of it.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 7,
+      "transcript": "“The same body.”\n\n“Depends what you mean by same.”\n\n“Good.”\n\nI frowned.\n\n“What?”\n\n“You objected to my category.”\n\n“I object to most categories when I'm standing inside them.”\n\n“That may become useful.”\n\n“For the Line?”\n\n“No.”\n\n“Of course not.”\n\nIthar's head lowered another few inches.\n\nThe movement pushed warm air over the stone between us.\n\n“You woke at nineteen with memories extending to fifty-nine.”\n\n“Yes.”\n\n“You then lived from nineteen to fifty-nine again.”\n\n“Yes.”",
+      "char_count": 474,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 16,
+          "role": "dragon",
+          "text": "“The same body.”"
+        },
+        {
+          "start": 18,
+          "end": 50,
+          "role": "greg",
+          "text": "“Depends what you mean by same.”"
+        },
+        {
+          "start": 52,
+          "end": 59,
+          "role": "dragon",
+          "text": "“Good.”"
+        },
+        {
+          "start": 61,
+          "end": 71,
+          "role": "greg",
+          "text": "I frowned."
+        },
+        {
+          "start": 73,
+          "end": 80,
+          "role": "greg",
+          "text": "“What?”"
+        },
+        {
+          "start": 82,
+          "end": 112,
+          "role": "dragon",
+          "text": "“You objected to my category.”"
+        },
+        {
+          "start": 114,
+          "end": 174,
+          "role": "greg",
+          "text": "“I object to most categories when I'm standing inside them.”"
+        },
+        {
+          "start": 176,
+          "end": 201,
+          "role": "dragon",
+          "text": "“That may become useful.”"
+        },
+        {
+          "start": 203,
+          "end": 218,
+          "role": "greg",
+          "text": "“For the Line?”"
+        },
+        {
+          "start": 220,
+          "end": 225,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 227,
+          "end": 243,
+          "role": "greg",
+          "text": "“Of course not.”"
+        },
+        {
+          "start": 245,
+          "end": 285,
+          "role": "greg",
+          "text": "Ithar's head lowered another few inches."
+        },
+        {
+          "start": 287,
+          "end": 342,
+          "role": "greg",
+          "text": "The movement pushed warm air over the stone between us."
+        },
+        {
+          "start": 344,
+          "end": 405,
+          "role": "dragon",
+          "text": "“You woke at nineteen with memories extending to fifty-nine.”"
+        },
+        {
+          "start": 407,
+          "end": 413,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 415,
+          "end": 466,
+          "role": "dragon",
+          "text": "“You then lived from nineteen to fifty-nine again.”"
+        },
+        {
+          "start": 468,
+          "end": 474,
+          "role": "greg",
+          "text": "“Yes.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 8,
+      "transcript": "“And the second history did not reproduce the first.”\n\n“No.”\n\n“How soon did you know?”\n\nI thought about that.\n\n“Depends what you mean by know.”\n\nThe eye narrowed.\n\nI smiled despite myself.\n\n“I can learn.”\n\n“You can imitate.”\n\n“Good enough.”\n\n“No.”\n\nThere it was.\n\nI had missed it.",
+      "char_count": 280,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "role": "dragon",
+          "text": "“And the second history did not reproduce the first.”"
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 62,
+          "end": 86,
+          "role": "dragon",
+          "text": "“How soon did you know?”"
+        },
+        {
+          "start": 88,
+          "end": 109,
+          "role": "greg",
+          "text": "I thought about that."
+        },
+        {
+          "start": 111,
+          "end": 143,
+          "role": "greg",
+          "text": "“Depends what you mean by know.”"
+        },
+        {
+          "start": 145,
+          "end": 162,
+          "role": "greg",
+          "text": "The eye narrowed."
+        },
+        {
+          "start": 164,
+          "end": 188,
+          "role": "greg",
+          "text": "I smiled despite myself."
+        },
+        {
+          "start": 190,
+          "end": 204,
+          "role": "greg",
+          "text": "“I can learn.”"
+        },
+        {
+          "start": 206,
+          "end": 224,
+          "role": "dragon",
+          "text": "“You can imitate.”"
+        },
+        {
+          "start": 226,
+          "end": 240,
+          "role": "greg",
+          "text": "“Good enough.”"
+        },
+        {
+          "start": 242,
+          "end": 247,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 249,
+          "end": 262,
+          "role": "greg",
+          "text": "There it was."
+        },
+        {
+          "start": 264,
+          "end": 280,
+          "role": "greg",
+          "text": "I had missed it."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 9,
+      "transcript": "“Years,” I said. “There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”\n\n“And large things?”\n\n“Later.”\n\n“How much later?”\n\n“Years.”\n\n“You possessed forty years of apparent foreknowledge and required years to establish that events had changed.”\n\n“When you say it like that, I sound stupid.”\n\n“I said it accurately.”\n\n“I was busy.”",
+      "char_count": 497,
+      "roles": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 239,
+          "role": "greg",
+          "text": "“Years,” I said. “There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”"
+        },
+        {
+          "start": 241,
+          "end": 260,
+          "role": "dragon",
+          "text": "“And large things?”"
+        },
+        {
+          "start": 262,
+          "end": 270,
+          "role": "greg",
+          "text": "“Later.”"
+        },
+        {
+          "start": 272,
+          "end": 289,
+          "role": "dragon",
+          "text": "“How much later?”"
+        },
+        {
+          "start": 291,
+          "end": 299,
+          "role": "greg",
+          "text": "“Years.”"
+        },
+        {
+          "start": 301,
+          "end": 411,
+          "role": "dragon",
+          "text": "“You possessed forty years of apparent foreknowledge and required years to establish that events had changed.”"
+        },
+        {
+          "start": 413,
+          "end": 457,
+          "role": "greg",
+          "text": "“When you say it like that, I sound stupid.”"
+        },
+        {
+          "start": 459,
+          "end": 482,
+          "role": "dragon",
+          "text": "“I said it accurately.”"
+        },
+        {
+          "start": 484,
+          "end": 497,
+          "role": "greg",
+          "text": "“I was busy.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 10,
+      "transcript": "“With what?”\n\n“Being nineteen again.”\n\nIthar was silent.\n\nI had seen that silence before.\n\nUsually after saying something about people that he understood as words and not as a fact.\n\n“You don't get that part.”\n\n“I understand that nineteen is younger than fifty-nine.”\n\n“That's not the part.”\n\n“Then explain it.”\n\n“No.”\n\n“Why?”\n\n“Because explaining knees to a dragon that still has all of his is going to annoy me.”\n\nHis eye dropped to my leg.\n\n“You had two then.”\n\nI looked down too.\n\n“Yeah.”",
+      "char_count": 492,
+      "roles": [
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 12,
+          "role": "dragon",
+          "text": "“With what?”"
+        },
+        {
+          "start": 14,
+          "end": 37,
+          "role": "greg",
+          "text": "“Being nineteen again.”"
+        },
+        {
+          "start": 39,
+          "end": 56,
+          "role": "greg",
+          "text": "Ithar was silent."
+        },
+        {
+          "start": 58,
+          "end": 89,
+          "role": "greg",
+          "text": "I had seen that silence before."
+        },
+        {
+          "start": 91,
+          "end": 181,
+          "role": "greg",
+          "text": "Usually after saying something about people that he understood as words and not as a fact."
+        },
+        {
+          "start": 183,
+          "end": 209,
+          "role": "greg",
+          "text": "“You don't get that part.”"
+        },
+        {
+          "start": 211,
+          "end": 267,
+          "role": "dragon",
+          "text": "“I understand that nineteen is younger than fifty-nine.”"
+        },
+        {
+          "start": 269,
+          "end": 291,
+          "role": "greg",
+          "text": "“That's not the part.”"
+        },
+        {
+          "start": 293,
+          "end": 311,
+          "role": "dragon",
+          "text": "“Then explain it.”"
+        },
+        {
+          "start": 313,
+          "end": 318,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 320,
+          "end": 326,
+          "role": "dragon",
+          "text": "“Why?”"
+        },
+        {
+          "start": 328,
+          "end": 414,
+          "role": "greg",
+          "text": "“Because explaining knees to a dragon that still has all of his is going to annoy me.”"
+        },
+        {
+          "start": 416,
+          "end": 442,
+          "role": "greg",
+          "text": "His eye dropped to my leg."
+        },
+        {
+          "start": 444,
+          "end": 463,
+          "role": "dragon",
+          "text": "“You had two then.”"
+        },
+        {
+          "start": 465,
+          "end": 483,
+          "role": "greg",
+          "text": "I looked down too."
+        },
+        {
+          "start": 485,
+          "end": 492,
+          "role": "greg",
+          "text": "“Yeah.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 11,
+      "transcript": "The answer came out quieter than I intended.\n\nIthar did not follow it.\n\nThat was almost kind.\n\nAlmost.\n\n“What were you in the first life?” he asked.\n\n“Greg.”\n\n“That answer was poor the first time.”\n\n“It was still true.”\n\n“Your occupation.”\n\n“Ranker.”\n\n“You are a Ranker now.”\n\n“Not like that.”\n\nHis claw moved once through the gold.\n\nCoins made a soft dry sound against one another.\n\n“What does that distinction mean to you?”\n\nI looked at the pin again.",
+      "char_count": 453,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "greg",
+          "text": "The answer came out quieter than I intended."
+        },
+        {
+          "start": 46,
+          "end": 70,
+          "role": "greg",
+          "text": "Ithar did not follow it."
+        },
+        {
+          "start": 72,
+          "end": 93,
+          "role": "greg",
+          "text": "That was almost kind."
+        },
+        {
+          "start": 95,
+          "end": 102,
+          "role": "greg",
+          "text": "Almost."
+        },
+        {
+          "start": 104,
+          "end": 138,
+          "role": "dragon",
+          "text": "“What were you in the first life?”"
+        },
+        {
+          "start": 138,
+          "end": 148,
+          "role": "greg",
+          "text": " he asked."
+        },
+        {
+          "start": 150,
+          "end": 157,
+          "role": "greg",
+          "text": "“Greg.”"
+        },
+        {
+          "start": 159,
+          "end": 197,
+          "role": "dragon",
+          "text": "“That answer was poor the first time.”"
+        },
+        {
+          "start": 199,
+          "end": 219,
+          "role": "greg",
+          "text": "“It was still true.”"
+        },
+        {
+          "start": 221,
+          "end": 239,
+          "role": "dragon",
+          "text": "“Your occupation.”"
+        },
+        {
+          "start": 241,
+          "end": 250,
+          "role": "greg",
+          "text": "“Ranker.”"
+        },
+        {
+          "start": 252,
+          "end": 275,
+          "role": "dragon",
+          "text": "“You are a Ranker now.”"
+        },
+        {
+          "start": 277,
+          "end": 293,
+          "role": "greg",
+          "text": "“Not like that.”"
+        },
+        {
+          "start": 295,
+          "end": 332,
+          "role": "greg",
+          "text": "His claw moved once through the gold."
+        },
+        {
+          "start": 334,
+          "end": 382,
+          "role": "greg",
+          "text": "Coins made a soft dry sound against one another."
+        },
+        {
+          "start": 384,
+          "end": 425,
+          "role": "dragon",
+          "text": "“What does that distinction mean to you?”"
+        },
+        {
+          "start": 427,
+          "end": 453,
+          "role": "greg",
+          "text": "I looked at the pin again."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 12,
+      "transcript": "The current one had my class stamped beneath the Authority seal.\n\nB.\n\nThe letter was honest.\n\nI had worked hard for it.\n\nIt still felt strange every time I looked down.\n\n“S-class,” I said.\n\nIthar waited.\n\nI had not expected applause.\n\nStill.\n\n“You know what that means?”\n\n“To your institutions, yes.”\n\n“To people.”\n\n“Explain your version.”\n\nI leaned back against the stone behind me.\n\nIt was warm.\n\nEverything in the cave was warm.",
+      "char_count": 431,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "role": "greg",
+          "text": "The current one had my class stamped beneath the Authority seal."
+        },
+        {
+          "start": 66,
+          "end": 68,
+          "role": "greg",
+          "text": "B."
+        },
+        {
+          "start": 70,
+          "end": 92,
+          "role": "greg",
+          "text": "The letter was honest."
+        },
+        {
+          "start": 94,
+          "end": 119,
+          "role": "greg",
+          "text": "I had worked hard for it."
+        },
+        {
+          "start": 121,
+          "end": 168,
+          "role": "greg",
+          "text": "It still felt strange every time I looked down."
+        },
+        {
+          "start": 170,
+          "end": 188,
+          "role": "greg",
+          "text": "“S-class,” I said."
+        },
+        {
+          "start": 190,
+          "end": 203,
+          "role": "greg",
+          "text": "Ithar waited."
+        },
+        {
+          "start": 205,
+          "end": 233,
+          "role": "greg",
+          "text": "I had not expected applause."
+        },
+        {
+          "start": 235,
+          "end": 241,
+          "role": "greg",
+          "text": "Still."
+        },
+        {
+          "start": 243,
+          "end": 270,
+          "role": "greg",
+          "text": "“You know what that means?”"
+        },
+        {
+          "start": 272,
+          "end": 300,
+          "role": "dragon",
+          "text": "“To your institutions, yes.”"
+        },
+        {
+          "start": 302,
+          "end": 314,
+          "role": "greg",
+          "text": "“To people.”"
+        },
+        {
+          "start": 316,
+          "end": 339,
+          "role": "dragon",
+          "text": "“Explain your version.”"
+        },
+        {
+          "start": 341,
+          "end": 383,
+          "role": "greg",
+          "text": "I leaned back against the stone behind me."
+        },
+        {
+          "start": 385,
+          "end": 397,
+          "role": "greg",
+          "text": "It was warm."
+        },
+        {
+          "start": 399,
+          "end": 431,
+          "role": "greg",
+          "text": "Everything in the cave was warm."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 13,
+      "transcript": "“S-class is where the Authority stops pretending the letters describe the same kind of problem.”\n\nIthar said nothing.\n\n“Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”\n\n“Strongest?”\n\n“Roughly.”\n\n“Roughly again.”",
+      "char_count": 294,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 96,
+          "role": "greg",
+          "text": "“S-class is where the Authority stops pretending the letters describe the same kind of problem.”"
+        },
+        {
+          "start": 98,
+          "end": 117,
+          "role": "greg",
+          "text": "Ithar said nothing."
+        },
+        {
+          "start": 119,
+          "end": 250,
+          "role": "greg",
+          "text": "“Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”"
+        },
+        {
+          "start": 252,
+          "end": 264,
+          "role": "dragon",
+          "text": "“Strongest?”"
+        },
+        {
+          "start": 266,
+          "end": 276,
+          "role": "greg",
+          "text": "“Roughly.”"
+        },
+        {
+          "start": 278,
+          "end": 294,
+          "role": "dragon",
+          "text": "“Roughly again.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 14,
+      "transcript": "“Because strength gets stupid at that level. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”\n\n“And you were one.”\n\n“Yes.”\n\n“How long?”\n\n“Long enough.”\n\nThe eye sharpened.",
+      "char_count": 424,
+      "roles": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 346,
+          "role": "greg",
+          "text": "“Because strength gets stupid at that level. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”"
+        },
+        {
+          "start": 348,
+          "end": 367,
+          "role": "dragon",
+          "text": "“And you were one.”"
+        },
+        {
+          "start": 369,
+          "end": 375,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 377,
+          "end": 388,
+          "role": "dragon",
+          "text": "“How long?”"
+        },
+        {
+          "start": 390,
+          "end": 404,
+          "role": "greg",
+          "text": "“Long enough.”"
+        },
+        {
+          "start": 406,
+          "end": 424,
+          "role": "greg",
+          "text": "The eye sharpened."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 15,
+      "transcript": "“Fine. Eleven years officially. Maybe twelve depending when you count the first contract people started calling S-class work before the Authority changed the badge.”\n\n“What could you do?”\n\n“A lot.”\n\n“That is not a measure.”\n\n“I could cross an active pressure break without a shield crew.”\n\nIthar's claw stopped.\n\n“I could hold full reinforcement most of a day if I wasn't doing anything stupid.”\n\n“Were you?”\n\n“Usually.”\n\n“I assumed.”\n\n“I killed a redback alone north of Vey.”\n\nThat got him.",
+      "char_count": 491,
+      "roles": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 165,
+          "role": "greg",
+          "text": "“Fine. Eleven years officially. Maybe twelve depending when you count the first contract people started calling S-class work before the Authority changed the badge.”"
+        },
+        {
+          "start": 167,
+          "end": 187,
+          "role": "dragon",
+          "text": "“What could you do?”"
+        },
+        {
+          "start": 189,
+          "end": 197,
+          "role": "greg",
+          "text": "“A lot.”"
+        },
+        {
+          "start": 199,
+          "end": 223,
+          "role": "dragon",
+          "text": "“That is not a measure.”"
+        },
+        {
+          "start": 225,
+          "end": 288,
+          "role": "greg",
+          "text": "“I could cross an active pressure break without a shield crew.”"
+        },
+        {
+          "start": 290,
+          "end": 311,
+          "role": "greg",
+          "text": "Ithar's claw stopped."
+        },
+        {
+          "start": 313,
+          "end": 395,
+          "role": "greg",
+          "text": "“I could hold full reinforcement most of a day if I wasn't doing anything stupid.”"
+        },
+        {
+          "start": 397,
+          "end": 408,
+          "role": "dragon",
+          "text": "“Were you?”"
+        },
+        {
+          "start": 410,
+          "end": 420,
+          "role": "greg",
+          "text": "“Usually.”"
+        },
+        {
+          "start": 422,
+          "end": 434,
+          "role": "dragon",
+          "text": "“I assumed.”"
+        },
+        {
+          "start": 436,
+          "end": 476,
+          "role": "greg",
+          "text": "“I killed a redback alone north of Vey.”"
+        },
+        {
+          "start": 478,
+          "end": 491,
+          "role": "greg",
+          "text": "That got him."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 16,
+      "transcript": "Not much.\n\nAn inch of head movement from Ithar was becoming the equivalent of another creature standing up.\n\n“There are no redbacks north of Vey.”\n\n“There was one.”\n\n“When?”\n\n“First life. Maybe thirty years before now.”\n\n“What was beneath the third dorsal plate?”\n\nI stared at him.\n\n“What?”\n\n“The third plate.”\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue,” I said. “Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\n“Not black.”\n\n“It looked black.”",
+      "char_count": 491,
+      "roles": [
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 9,
+          "role": "greg",
+          "text": "Not much."
+        },
+        {
+          "start": 11,
+          "end": 107,
+          "role": "greg",
+          "text": "An inch of head movement from Ithar was becoming the equivalent of another creature standing up."
+        },
+        {
+          "start": 109,
+          "end": 146,
+          "role": "dragon",
+          "text": "“There are no redbacks north of Vey.”"
+        },
+        {
+          "start": 148,
+          "end": 164,
+          "role": "greg",
+          "text": "“There was one.”"
+        },
+        {
+          "start": 166,
+          "end": 173,
+          "role": "dragon",
+          "text": "“When?”"
+        },
+        {
+          "start": 175,
+          "end": 219,
+          "role": "greg",
+          "text": "“First life. Maybe thirty years before now.”"
+        },
+        {
+          "start": 221,
+          "end": 263,
+          "role": "dragon",
+          "text": "“What was beneath the third dorsal plate?”"
+        },
+        {
+          "start": 265,
+          "end": 281,
+          "role": "greg",
+          "text": "I stared at him."
+        },
+        {
+          "start": 283,
+          "end": 290,
+          "role": "greg",
+          "text": "“What?”"
+        },
+        {
+          "start": 292,
+          "end": 310,
+          "role": "dragon",
+          "text": "“The third plate.”"
+        },
+        {
+          "start": 312,
+          "end": 319,
+          "role": "greg",
+          "text": "“Meat.”"
+        },
+        {
+          "start": 321,
+          "end": 336,
+          "role": "greg",
+          "text": "His eye closed."
+        },
+        {
+          "start": 338,
+          "end": 365,
+          "role": "greg",
+          "text": "I felt judged by an eyelid."
+        },
+        {
+          "start": 367,
+          "end": 440,
+          "role": "greg",
+          "text": "“Black tissue,” I said. “Stringy. Smelled like burnt hair when I cut it.”"
+        },
+        {
+          "start": 442,
+          "end": 457,
+          "role": "greg",
+          "text": "The eye opened."
+        },
+        {
+          "start": 459,
+          "end": 471,
+          "role": "dragon",
+          "text": "“Not black.”"
+        },
+        {
+          "start": 473,
+          "end": 491,
+          "role": "greg",
+          "text": "“It looked black.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 17,
+      "transcript": "“Purple.”\n\n“It was dark and I was busy.”\n\n“With what?”\n\n“Being bitten.”\n\n“That would reduce color accuracy.”\n\n“Thank you.”\n\n“What else?”\n\n“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off.”\n\nI could see it again as I said it.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand.",
+      "char_count": 473,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 9,
+          "role": "dragon",
+          "text": "“Purple.”"
+        },
+        {
+          "start": 11,
+          "end": 40,
+          "role": "greg",
+          "text": "“It was dark and I was busy.”"
+        },
+        {
+          "start": 42,
+          "end": 54,
+          "role": "dragon",
+          "text": "“With what?”"
+        },
+        {
+          "start": 56,
+          "end": 71,
+          "role": "greg",
+          "text": "“Being bitten.”"
+        },
+        {
+          "start": 73,
+          "end": 108,
+          "role": "dragon",
+          "text": "“That would reduce color accuracy.”"
+        },
+        {
+          "start": 110,
+          "end": 122,
+          "role": "greg",
+          "text": "“Thank you.”"
+        },
+        {
+          "start": 124,
+          "end": 136,
+          "role": "dragon",
+          "text": "“What else?”"
+        },
+        {
+          "start": 138,
+          "end": 272,
+          "role": "greg",
+          "text": "“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off.”"
+        },
+        {
+          "start": 274,
+          "end": 308,
+          "role": "greg",
+          "text": "I could see it again as I said it."
+        },
+        {
+          "start": 310,
+          "end": 330,
+          "role": "greg",
+          "text": "Not the whole fight."
+        },
+        {
+          "start": 332,
+          "end": 364,
+          "role": "greg",
+          "text": "Memory rarely returned politely."
+        },
+        {
+          "start": 366,
+          "end": 390,
+          "role": "greg",
+          "text": "A patch of wet red hide."
+        },
+        {
+          "start": 392,
+          "end": 429,
+          "role": "greg",
+          "text": "My left boot slipping between plates."
+        },
+        {
+          "start": 431,
+          "end": 441,
+          "role": "greg",
+          "text": "The smell."
+        },
+        {
+          "start": 443,
+          "end": 473,
+          "role": "greg",
+          "text": "A sword hilt slick in my hand."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 18,
+      "transcript": "The sudden lift beneath my stomach when the thing under the plate swelled.\n\nI had forgotten the sky.\n\nI remembered the smell perfectly.\n\n“Pressure bladder,” Ithar said.\n\n“Found that out eventually.”\n\n“How?”\n\n“I cut it.”\n\n“That does not explain knowing its purpose.”\n\n“I didn't.”\n\nHis head rose.\n\n“I thought it was armor. Then I thought it was a weakness. I never knew what it actually did.”\n\nThe dragon went still.\n\nCompletely.\n\nThat was starting to mean more than movement.\n\n“Good,” he said.",
+      "char_count": 492,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 74,
+          "role": "greg",
+          "text": "The sudden lift beneath my stomach when the thing under the plate swelled."
+        },
+        {
+          "start": 76,
+          "end": 100,
+          "role": "greg",
+          "text": "I had forgotten the sky."
+        },
+        {
+          "start": 102,
+          "end": 135,
+          "role": "greg",
+          "text": "I remembered the smell perfectly."
+        },
+        {
+          "start": 137,
+          "end": 156,
+          "role": "dragon",
+          "text": "“Pressure bladder,”"
+        },
+        {
+          "start": 156,
+          "end": 168,
+          "role": "greg",
+          "text": " Ithar said."
+        },
+        {
+          "start": 170,
+          "end": 198,
+          "role": "greg",
+          "text": "“Found that out eventually.”"
+        },
+        {
+          "start": 200,
+          "end": 206,
+          "role": "dragon",
+          "text": "“How?”"
+        },
+        {
+          "start": 208,
+          "end": 219,
+          "role": "greg",
+          "text": "“I cut it.”"
+        },
+        {
+          "start": 221,
+          "end": 265,
+          "role": "dragon",
+          "text": "“That does not explain knowing its purpose.”"
+        },
+        {
+          "start": 267,
+          "end": 278,
+          "role": "greg",
+          "text": "“I didn't.”"
+        },
+        {
+          "start": 280,
+          "end": 294,
+          "role": "greg",
+          "text": "His head rose."
+        },
+        {
+          "start": 296,
+          "end": 390,
+          "role": "greg",
+          "text": "“I thought it was armor. Then I thought it was a weakness. I never knew what it actually did.”"
+        },
+        {
+          "start": 392,
+          "end": 414,
+          "role": "greg",
+          "text": "The dragon went still."
+        },
+        {
+          "start": 416,
+          "end": 427,
+          "role": "greg",
+          "text": "Completely."
+        },
+        {
+          "start": 429,
+          "end": 474,
+          "role": "greg",
+          "text": "That was starting to mean more than movement."
+        },
+        {
+          "start": 476,
+          "end": 483,
+          "role": "dragon",
+          "text": "“Good,”"
+        },
+        {
+          "start": 483,
+          "end": 492,
+          "role": "greg",
+          "text": " he said."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 19,
+      "transcript": "I waited.\n\n“That wasn't good.”\n\n“It was to me.”\n\n“Why?”\n\n“Because you were wrong.”\n\n“Glad I could help.”\n\nHe ignored that.\n\n“A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves.”\n\nHis claw settled flat against the stone.",
+      "char_count": 400,
+      "roles": [
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 9,
+          "role": "greg",
+          "text": "I waited."
+        },
+        {
+          "start": 11,
+          "end": 30,
+          "role": "greg",
+          "text": "“That wasn't good.”"
+        },
+        {
+          "start": 32,
+          "end": 47,
+          "role": "dragon",
+          "text": "“It was to me.”"
+        },
+        {
+          "start": 49,
+          "end": 55,
+          "role": "greg",
+          "text": "“Why?”"
+        },
+        {
+          "start": 57,
+          "end": 82,
+          "role": "dragon",
+          "text": "“Because you were wrong.”"
+        },
+        {
+          "start": 84,
+          "end": 104,
+          "role": "greg",
+          "text": "“Glad I could help.”"
+        },
+        {
+          "start": 106,
+          "end": 122,
+          "role": "greg",
+          "text": "He ignored that."
+        },
+        {
+          "start": 124,
+          "end": 358,
+          "role": "dragon",
+          "text": "“A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves.”"
+        },
+        {
+          "start": 360,
+          "end": 400,
+          "role": "greg",
+          "text": "His claw settled flat against the stone."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 20,
+      "transcript": "“But errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.”\n\nI shifted against the wall.\n\n“That sounded almost like you believe me.”\n\n“No.”\n\n“Close?”\n\n“No.”\n\n“Better than before?”\n\n“Yes.”",
+      "char_count": 497,
+      "roles": [
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 369,
+          "role": "dragon",
+          "text": "“But errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.”"
+        },
+        {
+          "start": 371,
+          "end": 398,
+          "role": "greg",
+          "text": "I shifted against the wall."
+        },
+        {
+          "start": 400,
+          "end": 442,
+          "role": "greg",
+          "text": "“That sounded almost like you believe me.”"
+        },
+        {
+          "start": 444,
+          "end": 449,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 451,
+          "end": 459,
+          "role": "greg",
+          "text": "“Close?”"
+        },
+        {
+          "start": 461,
+          "end": 466,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 468,
+          "end": 489,
+          "role": "greg",
+          "text": "“Better than before?”"
+        },
+        {
+          "start": 491,
+          "end": 497,
+          "role": "dragon",
+          "text": "“Yes.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 21,
+      "transcript": "I took the win.\n\nIthar did not let me keep it long.\n\n“Who gave you my name?”\n\nThere it was.\n\nI looked toward the passage.\n\nNot because I planned to leave.\n\nBecause some questions make a door more noticeable.\n\n“I told you. It was from the first life.”\n\n“That is when. I asked who.”\n\n“I don't know if the name will mean anything to you.”\n\n“I know nine living things that have held my name in the form you used. I told you this.”\n\n“Eight besides you.”",
+      "char_count": 448,
+      "roles": [
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 15,
+          "role": "greg",
+          "text": "I took the win."
+        },
+        {
+          "start": 17,
+          "end": 51,
+          "role": "greg",
+          "text": "Ithar did not let me keep it long."
+        },
+        {
+          "start": 53,
+          "end": 76,
+          "role": "dragon",
+          "text": "“Who gave you my name?”"
+        },
+        {
+          "start": 78,
+          "end": 91,
+          "role": "greg",
+          "text": "There it was."
+        },
+        {
+          "start": 93,
+          "end": 121,
+          "role": "greg",
+          "text": "I looked toward the passage."
+        },
+        {
+          "start": 123,
+          "end": 154,
+          "role": "greg",
+          "text": "Not because I planned to leave."
+        },
+        {
+          "start": 156,
+          "end": 207,
+          "role": "greg",
+          "text": "Because some questions make a door more noticeable."
+        },
+        {
+          "start": 209,
+          "end": 250,
+          "role": "greg",
+          "text": "“I told you. It was from the first life.”"
+        },
+        {
+          "start": 252,
+          "end": 280,
+          "role": "dragon",
+          "text": "“That is when. I asked who.”"
+        },
+        {
+          "start": 282,
+          "end": 335,
+          "role": "greg",
+          "text": "“I don't know if the name will mean anything to you.”"
+        },
+        {
+          "start": 337,
+          "end": 426,
+          "role": "dragon",
+          "text": "“I know nine living things that have held my name in the form you used. I told you this.”"
+        },
+        {
+          "start": 428,
+          "end": 448,
+          "role": "greg",
+          "text": "“Eight besides you.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 22,
+      "transcript": "“One is dead in a manner that makes the count argumentative.”\n\n“Right.”\n\n“Which?”\n\nI rubbed my face.\n\nIt had been a long climb.\n\nIt was becoming a longer conversation.\n\n“I knew her as Nhal.”\n\nNothing happened.\n\nThen Ithar's pupil narrowed.\n\nThat was enough.\n\n“Ah.”\n\nI did not like the way he said it.\n\n“You know her.”\n\n“I knew several things she called herself. Nhal was one.”\n\n“Then that's my path.”\n\n“No.”\n\nThe answer came quickly.\n\nToo quickly for Ithar.\n\nI sat forward.\n\n“She told me.”",
+      "char_count": 489,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "role": "dragon",
+          "text": "“One is dead in a manner that makes the count argumentative.”"
+        },
+        {
+          "start": 63,
+          "end": 71,
+          "role": "greg",
+          "text": "“Right.”"
+        },
+        {
+          "start": 73,
+          "end": 81,
+          "role": "dragon",
+          "text": "“Which?”"
+        },
+        {
+          "start": 83,
+          "end": 100,
+          "role": "greg",
+          "text": "I rubbed my face."
+        },
+        {
+          "start": 102,
+          "end": 127,
+          "role": "greg",
+          "text": "It had been a long climb."
+        },
+        {
+          "start": 129,
+          "end": 167,
+          "role": "greg",
+          "text": "It was becoming a longer conversation."
+        },
+        {
+          "start": 169,
+          "end": 190,
+          "role": "greg",
+          "text": "“I knew her as Nhal.”"
+        },
+        {
+          "start": 192,
+          "end": 209,
+          "role": "greg",
+          "text": "Nothing happened."
+        },
+        {
+          "start": 211,
+          "end": 239,
+          "role": "greg",
+          "text": "Then Ithar's pupil narrowed."
+        },
+        {
+          "start": 241,
+          "end": 257,
+          "role": "greg",
+          "text": "That was enough."
+        },
+        {
+          "start": 259,
+          "end": 264,
+          "role": "dragon",
+          "text": "“Ah.”"
+        },
+        {
+          "start": 266,
+          "end": 300,
+          "role": "greg",
+          "text": "I did not like the way he said it."
+        },
+        {
+          "start": 302,
+          "end": 317,
+          "role": "greg",
+          "text": "“You know her.”"
+        },
+        {
+          "start": 319,
+          "end": 376,
+          "role": "dragon",
+          "text": "“I knew several things she called herself. Nhal was one.”"
+        },
+        {
+          "start": 378,
+          "end": 400,
+          "role": "greg",
+          "text": "“Then that's my path.”"
+        },
+        {
+          "start": 402,
+          "end": 407,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 409,
+          "end": 433,
+          "role": "greg",
+          "text": "The answer came quickly."
+        },
+        {
+          "start": 435,
+          "end": 457,
+          "role": "greg",
+          "text": "Too quickly for Ithar."
+        },
+        {
+          "start": 459,
+          "end": 473,
+          "role": "greg",
+          "text": "I sat forward."
+        },
+        {
+          "start": 475,
+          "end": 489,
+          "role": "greg",
+          "text": "“She told me.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 23,
+      "transcript": "“I believe you remember her telling you.”\n\n“That sounds like the same thing with worse manners again.”\n\n“It is not.”\n\n“Why?”\n\n“Nhal has not spoken to a human in one hundred and twelve years.”\n\nI laughed once.\n\nNot because it was funny.\n\nBecause there are moments when the alternative is making a worse sound.\n\n“She spoke to me.”\n\n“In the history you describe.”\n\n“Yes.”\n\n“She did not in this one.”\n\n“That's the point.”\n\n“No. That is one point.”",
+      "char_count": 443,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "dragon",
+          "text": "“I believe you remember her telling you.”"
+        },
+        {
+          "start": 43,
+          "end": 102,
+          "role": "greg",
+          "text": "“That sounds like the same thing with worse manners again.”"
+        },
+        {
+          "start": 104,
+          "end": 116,
+          "role": "dragon",
+          "text": "“It is not.”"
+        },
+        {
+          "start": 118,
+          "end": 124,
+          "role": "greg",
+          "text": "“Why?”"
+        },
+        {
+          "start": 126,
+          "end": 191,
+          "role": "dragon",
+          "text": "“Nhal has not spoken to a human in one hundred and twelve years.”"
+        },
+        {
+          "start": 193,
+          "end": 208,
+          "role": "greg",
+          "text": "I laughed once."
+        },
+        {
+          "start": 210,
+          "end": 235,
+          "role": "greg",
+          "text": "Not because it was funny."
+        },
+        {
+          "start": 237,
+          "end": 308,
+          "role": "greg",
+          "text": "Because there are moments when the alternative is making a worse sound."
+        },
+        {
+          "start": 310,
+          "end": 328,
+          "role": "greg",
+          "text": "“She spoke to me.”"
+        },
+        {
+          "start": 330,
+          "end": 360,
+          "role": "dragon",
+          "text": "“In the history you describe.”"
+        },
+        {
+          "start": 362,
+          "end": 368,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 370,
+          "end": 396,
+          "role": "dragon",
+          "text": "“She did not in this one.”"
+        },
+        {
+          "start": 398,
+          "end": 417,
+          "role": "greg",
+          "text": "“That's the point.”"
+        },
+        {
+          "start": 419,
+          "end": 443,
+          "role": "dragon",
+          "text": "“No. That is one point.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 24,
+      "transcript": "Ithar's head lowered until the black glass of his scales filled most of what I could see.\n\n“When did you meet her?”\n\n“Late.”\n\n“Age.”\n\n“Forty-eight. Maybe forty-nine.”\n\n“Where?”\n\n“Under the salt flats north of Vey.”\n\n“Nhal does not live there.”\n\n“She was trapped there.”\n\nThe pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n“How?”\n\n“That is a long story.”\n\n“I know.”\n\n“You keep sounding pleased about that.”",
+      "char_count": 482,
+      "roles": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 89,
+          "role": "greg",
+          "text": "Ithar's head lowered until the black glass of his scales filled most of what I could see."
+        },
+        {
+          "start": 91,
+          "end": 115,
+          "role": "dragon",
+          "text": "“When did you meet her?”"
+        },
+        {
+          "start": 117,
+          "end": 124,
+          "role": "greg",
+          "text": "“Late.”"
+        },
+        {
+          "start": 126,
+          "end": 132,
+          "role": "dragon",
+          "text": "“Age.”"
+        },
+        {
+          "start": 134,
+          "end": 166,
+          "role": "greg",
+          "text": "“Forty-eight. Maybe forty-nine.”"
+        },
+        {
+          "start": 168,
+          "end": 176,
+          "role": "dragon",
+          "text": "“Where?”"
+        },
+        {
+          "start": 178,
+          "end": 214,
+          "role": "greg",
+          "text": "“Under the salt flats north of Vey.”"
+        },
+        {
+          "start": 216,
+          "end": 243,
+          "role": "dragon",
+          "text": "“Nhal does not live there.”"
+        },
+        {
+          "start": 245,
+          "end": 269,
+          "role": "greg",
+          "text": "“She was trapped there.”"
+        },
+        {
+          "start": 271,
+          "end": 297,
+          "role": "greg",
+          "text": "The pupil tightened again."
+        },
+        {
+          "start": 299,
+          "end": 355,
+          "role": "greg",
+          "text": "I had managed to surprise a dragon twice in one morning."
+        },
+        {
+          "start": 357,
+          "end": 397,
+          "role": "greg",
+          "text": "It was not improving my odds of leaving."
+        },
+        {
+          "start": 399,
+          "end": 405,
+          "role": "dragon",
+          "text": "“How?”"
+        },
+        {
+          "start": 407,
+          "end": 430,
+          "role": "greg",
+          "text": "“That is a long story.”"
+        },
+        {
+          "start": 432,
+          "end": 441,
+          "role": "dragon",
+          "text": "“I know.”"
+        },
+        {
+          "start": 443,
+          "end": 482,
+          "role": "greg",
+          "text": "“You keep sounding pleased about that.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 25,
+      "transcript": "“I am becoming pleased.”\n\nHe settled his chin back onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\n“You claim that in another history, while counted among approximately seven humans of greatest combat capability on the continent, you encountered Nhal beneath a place where she does not currently reside, and she transmitted a name to you that she has not transmitted in the present history.”\n\n“When you put it like that, it sounds complicated.”\n\n“It is complicated.”",
+      "char_count": 488,
+      "roles": [
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 24,
+          "role": "dragon",
+          "text": "“I am becoming pleased.”"
+        },
+        {
+          "start": 26,
+          "end": 66,
+          "role": "greg",
+          "text": "He settled his chin back onto the stone."
+        },
+        {
+          "start": 68,
+          "end": 88,
+          "role": "greg",
+          "text": "Not bored this time."
+        },
+        {
+          "start": 90,
+          "end": 102,
+          "role": "greg",
+          "text": "Comfortable."
+        },
+        {
+          "start": 104,
+          "end": 119,
+          "role": "greg",
+          "text": "That was worse."
+        },
+        {
+          "start": 121,
+          "end": 413,
+          "role": "dragon",
+          "text": "“You claim that in another history, while counted among approximately seven humans of greatest combat capability on the continent, you encountered Nhal beneath a place where she does not currently reside, and she transmitted a name to you that she has not transmitted in the present history.”"
+        },
+        {
+          "start": 415,
+          "end": 466,
+          "role": "greg",
+          "text": "“When you put it like that, it sounds complicated.”"
+        },
+        {
+          "start": 468,
+          "end": 488,
+          "role": "dragon",
+          "text": "“It is complicated.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 26,
+      "transcript": "“She also told me how to cross the mountain.”\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots.\n\nThe route he had already read off me before I understood he was looking.\n\n“That,” he said, “is useful.”\n\n“For the Line?”\n\n“No.”\n\nI sighed.\n\nIthar continued.\n\n“You are not merely carrying information that is old. You are carrying information whose path through the world is missing.”\n\nI looked at him.\n\nHe spoke slowly now, but not because he needed time to find the words.",
+      "char_count": 489,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "greg",
+          "text": "“She also told me how to cross the mountain.”"
+        },
+        {
+          "start": 47,
+          "end": 76,
+          "role": "greg",
+          "text": "Ithar's eye moved to my coat."
+        },
+        {
+          "start": 78,
+          "end": 97,
+          "role": "greg",
+          "text": "The sulfur residue."
+        },
+        {
+          "start": 99,
+          "end": 115,
+          "role": "greg",
+          "text": "The clean boots."
+        },
+        {
+          "start": 117,
+          "end": 189,
+          "role": "greg",
+          "text": "The route he had already read off me before I understood he was looking."
+        },
+        {
+          "start": 191,
+          "end": 198,
+          "role": "dragon",
+          "text": "“That,”"
+        },
+        {
+          "start": 198,
+          "end": 208,
+          "role": "greg",
+          "text": " he said, "
+        },
+        {
+          "start": 208,
+          "end": 220,
+          "role": "dragon",
+          "text": "“is useful.”"
+        },
+        {
+          "start": 222,
+          "end": 237,
+          "role": "greg",
+          "text": "“For the Line?”"
+        },
+        {
+          "start": 239,
+          "end": 244,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 246,
+          "end": 255,
+          "role": "greg",
+          "text": "I sighed."
+        },
+        {
+          "start": 257,
+          "end": 273,
+          "role": "greg",
+          "text": "Ithar continued."
+        },
+        {
+          "start": 275,
+          "end": 399,
+          "role": "dragon",
+          "text": "“You are not merely carrying information that is old. You are carrying information whose path through the world is missing.”"
+        },
+        {
+          "start": 401,
+          "end": 417,
+          "role": "greg",
+          "text": "I looked at him."
+        },
+        {
+          "start": 419,
+          "end": 489,
+          "role": "greg",
+          "text": "He spoke slowly now, but not because he needed time to find the words."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 27,
+      "transcript": "Because I did.\n\n“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.”\n\nOne claw touched the old Line disk still lying between us.",
+      "char_count": 396,
+      "roles": [
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 14,
+          "role": "greg",
+          "text": "Because I did."
+        },
+        {
+          "start": 16,
+          "end": 336,
+          "role": "dragon",
+          "text": "“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.”"
+        },
+        {
+          "start": 338,
+          "end": 396,
+          "role": "greg",
+          "text": "One claw touched the old Line disk still lying between us."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 28,
+      "transcript": "“You recognize this. There is a path by which you might have learned it, even if neither of us can yet identify the path.”\n\nThe claw moved toward me.\n\n“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.”\n\nThe claw stopped.\n\n“You offer a second history as the missing path.”\n\n“Yes.”\n\n“That is not proof.”\n\n“I know.”\n\n“It is better than prophecy.”\n\n“I'll take it.”\n\n“It is worse than evidence.”\n\n“I was taking it.”",
+      "char_count": 469,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 122,
+          "role": "dragon",
+          "text": "“You recognize this. There is a path by which you might have learned it, even if neither of us can yet identify the path.”"
+        },
+        {
+          "start": 124,
+          "end": 149,
+          "role": "greg",
+          "text": "The claw moved toward me."
+        },
+        {
+          "start": 151,
+          "end": 260,
+          "role": "dragon",
+          "text": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.”"
+        },
+        {
+          "start": 262,
+          "end": 279,
+          "role": "greg",
+          "text": "The claw stopped."
+        },
+        {
+          "start": 281,
+          "end": 330,
+          "role": "dragon",
+          "text": "“You offer a second history as the missing path.”"
+        },
+        {
+          "start": 332,
+          "end": 338,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 340,
+          "end": 360,
+          "role": "dragon",
+          "text": "“That is not proof.”"
+        },
+        {
+          "start": 362,
+          "end": 371,
+          "role": "greg",
+          "text": "“I know.”"
+        },
+        {
+          "start": 373,
+          "end": 402,
+          "role": "dragon",
+          "text": "“It is better than prophecy.”"
+        },
+        {
+          "start": 404,
+          "end": 419,
+          "role": "greg",
+          "text": "“I'll take it.”"
+        },
+        {
+          "start": 421,
+          "end": 449,
+          "role": "dragon",
+          "text": "“It is worse than evidence.”"
+        },
+        {
+          "start": 451,
+          "end": 469,
+          "role": "greg",
+          "text": "“I was taking it.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 29,
+      "transcript": "Something low moved in his throat.\n\nAmusement, maybe.\n\nI was getting dangerously confident about the throat too.\n\n“So,” I said. “You believe I remember another life.”\n\n“No.”\n\n“You believe Nhal told me your name.”\n\n“No.”\n\n“You believe anything?”\n\n“Yes.”\n\nI waited.\n\nHe made me wait long enough that I considered asking again.",
+      "char_count": 324,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "greg",
+          "text": "Something low moved in his throat."
+        },
+        {
+          "start": 36,
+          "end": 53,
+          "role": "greg",
+          "text": "Amusement, maybe."
+        },
+        {
+          "start": 55,
+          "end": 112,
+          "role": "greg",
+          "text": "I was getting dangerously confident about the throat too."
+        },
+        {
+          "start": 114,
+          "end": 166,
+          "role": "greg",
+          "text": "“So,” I said. “You believe I remember another life.”"
+        },
+        {
+          "start": 168,
+          "end": 173,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 175,
+          "end": 212,
+          "role": "greg",
+          "text": "“You believe Nhal told me your name.”"
+        },
+        {
+          "start": 214,
+          "end": 219,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 221,
+          "end": 244,
+          "role": "greg",
+          "text": "“You believe anything?”"
+        },
+        {
+          "start": 246,
+          "end": 252,
+          "role": "dragon",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 254,
+          "end": 263,
+          "role": "greg",
+          "text": "I waited."
+        },
+        {
+          "start": 265,
+          "end": 324,
+          "role": "greg",
+          "text": "He made me wait long enough that I considered asking again."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 30,
+      "transcript": "Then he said, “You possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path.”\n\nI stared at him.\n\n“That is the least satisfying way anyone has ever called me interesting.”\n\n“It was not intended to satisfy you.”\n\n“Obviously.”",
+      "char_count": 340,
+      "roles": [
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 14,
+          "role": "greg",
+          "text": "Then he said, "
+        },
+        {
+          "start": 14,
+          "end": 194,
+          "role": "dragon",
+          "text": "“You possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path.”"
+        },
+        {
+          "start": 196,
+          "end": 212,
+          "role": "greg",
+          "text": "I stared at him."
+        },
+        {
+          "start": 214,
+          "end": 287,
+          "role": "greg",
+          "text": "“That is the least satisfying way anyone has ever called me interesting.”"
+        },
+        {
+          "start": 289,
+          "end": 326,
+          "role": "dragon",
+          "text": "“It was not intended to satisfy you.”"
+        },
+        {
+          "start": 328,
+          "end": 340,
+          "role": "greg",
+          "text": "“Obviously.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 31,
+      "transcript": "“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.”\n\n“Scale involved.”\n\n“Yes.”\n\n“You think this is bigger than me.”\n\n“I think almost everything is bigger than you.”\n\n“Fair.”\n\n“But that is not what I said.”\n\nI looked at the old disk between us.",
+      "char_count": 465,
+      "roles": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 273,
+          "role": "dragon",
+          "text": "“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.”"
+        },
+        {
+          "start": 275,
+          "end": 292,
+          "role": "greg",
+          "text": "“Scale involved.”"
+        },
+        {
+          "start": 294,
+          "end": 300,
+          "role": "dragon",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 302,
+          "end": 337,
+          "role": "greg",
+          "text": "“You think this is bigger than me.”"
+        },
+        {
+          "start": 339,
+          "end": 386,
+          "role": "dragon",
+          "text": "“I think almost everything is bigger than you.”"
+        },
+        {
+          "start": 388,
+          "end": 395,
+          "role": "greg",
+          "text": "“Fair.”"
+        },
+        {
+          "start": 397,
+          "end": 427,
+          "role": "dragon",
+          "text": "“But that is not what I said.”"
+        },
+        {
+          "start": 429,
+          "end": 465,
+          "role": "greg",
+          "text": "I looked at the old disk between us."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 32,
+      "transcript": "Then at the wall where his coin was still buried.\n\nThen at the passage out.\n\nMy knee hurt.\n\nThe Line was failing below the mountain.\n\nTwo point three million people were still inconveniently mortal.\n\nAnd somehow I had lost control of the negotiation badly enough that the dragon was examining my existence instead.\n\n“The Line,” I said.\n\nIthar's eye half closed.\n\n“No.”\n\n“You haven't even looked at it.”\n\n“I looked at you.”\n\n“That is not better.”\n\n“It is to me.”",
+      "char_count": 461,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "greg",
+          "text": "Then at the wall where his coin was still buried."
+        },
+        {
+          "start": 51,
+          "end": 75,
+          "role": "greg",
+          "text": "Then at the passage out."
+        },
+        {
+          "start": 77,
+          "end": 90,
+          "role": "greg",
+          "text": "My knee hurt."
+        },
+        {
+          "start": 92,
+          "end": 132,
+          "role": "greg",
+          "text": "The Line was failing below the mountain."
+        },
+        {
+          "start": 134,
+          "end": 198,
+          "role": "greg",
+          "text": "Two point three million people were still inconveniently mortal."
+        },
+        {
+          "start": 200,
+          "end": 314,
+          "role": "greg",
+          "text": "And somehow I had lost control of the negotiation badly enough that the dragon was examining my existence instead."
+        },
+        {
+          "start": 316,
+          "end": 335,
+          "role": "greg",
+          "text": "“The Line,” I said."
+        },
+        {
+          "start": 337,
+          "end": 361,
+          "role": "greg",
+          "text": "Ithar's eye half closed."
+        },
+        {
+          "start": 363,
+          "end": 368,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 370,
+          "end": 402,
+          "role": "greg",
+          "text": "“You haven't even looked at it.”"
+        },
+        {
+          "start": 404,
+          "end": 422,
+          "role": "dragon",
+          "text": "“I looked at you.”"
+        },
+        {
+          "start": 424,
+          "end": 445,
+          "role": "greg",
+          "text": "“That is not better.”"
+        },
+        {
+          "start": 447,
+          "end": 461,
+          "role": "dragon",
+          "text": "“It is to me.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 33,
+      "transcript": "I hated how familiar that answer was becoming.\n\n“What do you want?”\n\nIthar looked at me for a long time.\n\nThen the eye opened fully.\n\n“Your claim.”\n\n“You have it.”\n\n“No.”\n\nI let my head fall back against the stone.\n\n“Of course not.”\n\n“You have given me the sentence.”\n\nHe settled more comfortably into the gold.\n\n“I want the thing that made it true.”",
+      "char_count": 350,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "greg",
+          "text": "I hated how familiar that answer was becoming."
+        },
+        {
+          "start": 48,
+          "end": 67,
+          "role": "greg",
+          "text": "“What do you want?”"
+        },
+        {
+          "start": 69,
+          "end": 104,
+          "role": "greg",
+          "text": "Ithar looked at me for a long time."
+        },
+        {
+          "start": 106,
+          "end": 132,
+          "role": "greg",
+          "text": "Then the eye opened fully."
+        },
+        {
+          "start": 134,
+          "end": 147,
+          "role": "dragon",
+          "text": "“Your claim.”"
+        },
+        {
+          "start": 149,
+          "end": 163,
+          "role": "greg",
+          "text": "“You have it.”"
+        },
+        {
+          "start": 165,
+          "end": 170,
+          "role": "dragon",
+          "text": "“No.”"
+        },
+        {
+          "start": 172,
+          "end": 214,
+          "role": "greg",
+          "text": "I let my head fall back against the stone."
+        },
+        {
+          "start": 216,
+          "end": 232,
+          "role": "greg",
+          "text": "“Of course not.”"
+        },
+        {
+          "start": 234,
+          "end": 267,
+          "role": "dragon",
+          "text": "“You have given me the sentence.”"
+        },
+        {
+          "start": 269,
+          "end": 311,
+          "role": "greg",
+          "text": "He settled more comfortably into the gold."
+        },
+        {
+          "start": 313,
+          "end": 350,
+          "role": "dragon",
+          "text": "“I want the thing that made it true.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    }
+  ]
+}

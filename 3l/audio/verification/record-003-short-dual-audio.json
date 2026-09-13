@@ -1,0 +1,3842 @@
+{
+  "record": "003",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-003-short-dual-plan.json",
+  "source_verification": "3l/audio/verification/record-003-short-captures.json",
+  "source_verification_sha256": "5f79cbd3a74e49dfe98f20218ef8123dda677a69a1777cce1d77cd4407b3c400",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 62,
+  "chunk_count": 32,
+  "mixed_chunk_count": 30,
+  "duration_seconds": 881.658776,
+  "byte_size": 21160481,
+  "sha256": "c0e98b27b943fb75a49b30eacd33d398f821aa1cd308b60cb1958ce4a22db0ea",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 269,
+          "role": "greg"
+        },
+        {
+          "start": 269,
+          "end": 277,
+          "role": "dragon"
+        },
+        {
+          "start": 277,
+          "end": 381,
+          "role": "greg"
+        },
+        {
+          "start": 381,
+          "end": 391,
+          "role": "dragon"
+        },
+        {
+          "start": 391,
+          "end": 409,
+          "role": "greg"
+        },
+        {
+          "start": 409,
+          "end": 423,
+          "role": "dragon"
+        },
+        {
+          "start": 423,
+          "end": 440,
+          "role": "greg"
+        },
+        {
+          "start": 440,
+          "end": 447,
+          "role": "dragon"
+        },
+        {
+          "start": 447,
+          "end": 487,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 14.49345
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 14.6821,
+          "end_seconds": 15.48385
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 15.6058,
+          "end_seconds": 21.96265
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.83935,
+          "end_seconds": 22.56835
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.8553,
+          "end_seconds": 24.035
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.70275,
+          "end_seconds": 24.517
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.83735,
+          "end_seconds": 25.6947
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.41195,
+          "end_seconds": 26.16125
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.3683,
+          "end_seconds": 28.632
+        }
+      ],
+      "assembled_duration_seconds": 28.245533
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 384,
+          "role": "greg"
+        },
+        {
+          "start": 384,
+          "end": 407,
+          "role": "dragon"
+        },
+        {
+          "start": 407,
+          "end": 448,
+          "role": "greg"
+        },
+        {
+          "start": 448,
+          "end": 454,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 22.5169
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.4948,
+          "end_seconds": 24.1427
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.1339,
+          "end_seconds": 27.19605
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 27.49415,
+          "end_seconds": 27.672
+        }
+      ],
+      "assembled_duration_seconds": 27.404853
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "greg"
+        },
+        {
+          "start": 49,
+          "end": 56,
+          "role": "dragon"
+        },
+        {
+          "start": 56,
+          "end": 125,
+          "role": "greg"
+        },
+        {
+          "start": 125,
+          "end": 133,
+          "role": "dragon"
+        },
+        {
+          "start": 133,
+          "end": 163,
+          "role": "greg"
+        },
+        {
+          "start": 163,
+          "end": 172,
+          "role": "dragon"
+        },
+        {
+          "start": 172,
+          "end": 206,
+          "role": "greg"
+        },
+        {
+          "start": 206,
+          "end": 213,
+          "role": "dragon"
+        },
+        {
+          "start": 213,
+          "end": 421,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 2.208875
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 2.28019,
+          "end_seconds": 3.20558
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 3.066625,
+          "end_seconds": 6.442915
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.77625,
+          "end_seconds": 7.216645
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 7.220355,
+          "end_seconds": 8.466105
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 8.362685,
+          "end_seconds": 9.983785
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.24575,
+          "end_seconds": 10.922
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 10.8163,
+          "end_seconds": 12.66
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 11.8571,
+          "end_seconds": 24.648
+        }
+      ],
+      "assembled_duration_seconds": 26.128776
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 126,
+          "role": "greg"
+        },
+        {
+          "start": 126,
+          "end": 155,
+          "role": "dragon"
+        },
+        {
+          "start": 155,
+          "end": 177,
+          "role": "greg"
+        },
+        {
+          "start": 177,
+          "end": 184,
+          "role": "dragon"
+        },
+        {
+          "start": 184,
+          "end": 256,
+          "role": "greg"
+        },
+        {
+          "start": 256,
+          "end": 294,
+          "role": "dragon"
+        },
+        {
+          "start": 294,
+          "end": 309,
+          "role": "greg"
+        },
+        {
+          "start": 309,
+          "end": 316,
+          "role": "dragon"
+        },
+        {
+          "start": 316,
+          "end": 328,
+          "role": "greg"
+        },
+        {
+          "start": 328,
+          "end": 391,
+          "role": "dragon"
+        },
+        {
+          "start": 391,
+          "end": 408,
+          "role": "greg"
+        },
+        {
+          "start": 408,
+          "end": 493,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 7.403
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 8.15569,
+          "end_seconds": 8.97546
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.100351,
+          "end_seconds": 10.6231
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 11.06985,
+          "end_seconds": 11.5728
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 11.54975,
+          "end_seconds": 15.73535
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 15.2426,
+          "end_seconds": 17.20515
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.58635,
+          "end_seconds": 18.59095
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 18.454,
+          "end_seconds": 19.4042
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 19.3246,
+          "end_seconds": 20.46535
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.62385,
+          "end_seconds": 23.8681
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.842,
+          "end_seconds": 24.94465
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.00395,
+          "end_seconds": 29.28
+        }
+      ],
+      "assembled_duration_seconds": 28.115306
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 10,
+          "role": "greg"
+        },
+        {
+          "start": 10,
+          "end": 134,
+          "role": "dragon"
+        },
+        {
+          "start": 134,
+          "end": 150,
+          "role": "greg"
+        },
+        {
+          "start": 150,
+          "end": 232,
+          "role": "dragon"
+        },
+        {
+          "start": 232,
+          "end": 388,
+          "role": "greg"
+        },
+        {
+          "start": 388,
+          "end": 401,
+          "role": "dragon"
+        },
+        {
+          "start": 401,
+          "end": 416,
+          "role": "greg"
+        },
+        {
+          "start": 416,
+          "end": 442,
+          "role": "dragon"
+        },
+        {
+          "start": 442,
+          "end": 485,
+          "role": "greg"
+        },
+        {
+          "start": 485,
+          "end": 496,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 0.975477
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.826186,
+          "end_seconds": 7.224355
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.75571,
+          "end_seconds": 8.268375
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 8.63802,
+          "end_seconds": 13.81125
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 12.86145,
+          "end_seconds": 22.7154
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.6421,
+          "end_seconds": 23.662
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.47895,
+          "end_seconds": 24.56875
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 24.6575,
+          "end_seconds": 26.1878
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.17145,
+          "end_seconds": 29.57585
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 29.5633,
+          "end_seconds": 29.832
+        }
+      ],
+      "assembled_duration_seconds": 31.226712
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 470,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.896
+        }
+      ],
+      "assembled_duration_seconds": 28.896009
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "dragon"
+        },
+        {
+          "start": 20,
+          "end": 30,
+          "role": "greg"
+        },
+        {
+          "start": 30,
+          "end": 54,
+          "role": "dragon"
+        },
+        {
+          "start": 54,
+          "end": 66,
+          "role": "greg"
+        },
+        {
+          "start": 66,
+          "end": 76,
+          "role": "dragon"
+        },
+        {
+          "start": 76,
+          "end": 86,
+          "role": "greg"
+        },
+        {
+          "start": 86,
+          "end": 110,
+          "role": "dragon"
+        },
+        {
+          "start": 110,
+          "end": 143,
+          "role": "greg"
+        },
+        {
+          "start": 143,
+          "end": 160,
+          "role": "dragon"
+        },
+        {
+          "start": 160,
+          "end": 211,
+          "role": "greg"
+        },
+        {
+          "start": 211,
+          "end": 219,
+          "role": "dragon"
+        },
+        {
+          "start": 219,
+          "end": 241,
+          "role": "greg"
+        },
+        {
+          "start": 241,
+          "end": 256,
+          "role": "dragon"
+        },
+        {
+          "start": 256,
+          "end": 441,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 1.233125
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 1.297805,
+          "end_seconds": 1.865595
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 1.718355,
+          "end_seconds": 2.726915
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 3.325625,
+          "end_seconds": 3.866435
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 3.50771,
+          "end_seconds": 4.056
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.395685,
+          "end_seconds": 4.721375
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 5.00133,
+          "end_seconds": 6.38071
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.09921,
+          "end_seconds": 7.76075
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 8.293795,
+          "end_seconds": 9.251315
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.08679,
+          "end_seconds": 11.64845
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 11.3226,
+          "end_seconds": 11.98395
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 12.65585,
+          "end_seconds": 13.81175
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 13.0172,
+          "end_seconds": 14.2294
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 14.94735,
+          "end_seconds": 25.392
+        }
+      ],
+      "assembled_duration_seconds": 24.258639
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 205,
+          "role": "greg"
+        },
+        {
+          "start": 205,
+          "end": 225,
+          "role": "dragon"
+        },
+        {
+          "start": 225,
+          "end": 281,
+          "role": "greg"
+        },
+        {
+          "start": 281,
+          "end": 307,
+          "role": "dragon"
+        },
+        {
+          "start": 307,
+          "end": 365,
+          "role": "greg"
+        },
+        {
+          "start": 365,
+          "end": 407,
+          "role": "dragon"
+        },
+        {
+          "start": 407,
+          "end": 415,
+          "role": "greg"
+        },
+        {
+          "start": 415,
+          "end": 428,
+          "role": "dragon"
+        },
+        {
+          "start": 428,
+          "end": 438,
+          "role": "greg"
+        },
+        {
+          "start": 438,
+          "end": 451,
+          "role": "dragon"
+        },
+        {
+          "start": 451,
+          "end": 483,
+          "role": "greg"
+        },
+        {
+          "start": 483,
+          "end": 494,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 12.37395
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 11.60275,
+          "end_seconds": 13.57805
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 13.64595,
+          "end_seconds": 16.74175
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 17.02395,
+          "end_seconds": 18.06585
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.76785,
+          "end_seconds": 23.16185
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.3308,
+          "end_seconds": 23.05175
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.68055,
+          "end_seconds": 24.0216
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.95535,
+          "end_seconds": 24.66485
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 25.17825,
+          "end_seconds": 25.58865
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.0292,
+          "end_seconds": 25.9242
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.5646,
+          "end_seconds": 28.1282
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 28.84005,
+          "end_seconds": 29.088
+        }
+      ],
+      "assembled_duration_seconds": 28.769524
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 63,
+          "role": "greg"
+        },
+        {
+          "start": 63,
+          "end": 76,
+          "role": "dragon"
+        },
+        {
+          "start": 76,
+          "end": 124,
+          "role": "greg"
+        },
+        {
+          "start": 124,
+          "end": 132,
+          "role": "dragon"
+        },
+        {
+          "start": 132,
+          "end": 159,
+          "role": "greg"
+        },
+        {
+          "start": 159,
+          "end": 170,
+          "role": "dragon"
+        },
+        {
+          "start": 170,
+          "end": 322,
+          "role": "greg"
+        },
+        {
+          "start": 322,
+          "end": 359,
+          "role": "dragon"
+        },
+        {
+          "start": 359,
+          "end": 401,
+          "role": "greg"
+        },
+        {
+          "start": 401,
+          "end": 417,
+          "role": "dragon"
+        },
+        {
+          "start": 417,
+          "end": 472,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 3.32004
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 3.033815,
+          "end_seconds": 3.853315
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.27004,
+          "end_seconds": 6.744605
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.637775,
+          "end_seconds": 7.60102
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 7.681565,
+          "end_seconds": 9.14642
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 9.237665,
+          "end_seconds": 10.25128
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.91069,
+          "end_seconds": 18.14905
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 18.68455,
+          "end_seconds": 20.7615
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 20.13945,
+          "end_seconds": 23.595
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.47825,
+          "end_seconds": 24.5133
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.16715,
+          "end_seconds": 27.672
+        }
+      ],
+      "assembled_duration_seconds": 28.366621
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 39,
+          "role": "dragon"
+        },
+        {
+          "start": 39,
+          "end": 61,
+          "role": "greg"
+        },
+        {
+          "start": 61,
+          "end": 68,
+          "role": "dragon"
+        },
+        {
+          "start": 68,
+          "end": 121,
+          "role": "greg"
+        },
+        {
+          "start": 121,
+          "end": 172,
+          "role": "dragon"
+        },
+        {
+          "start": 172,
+          "end": 199,
+          "role": "greg"
+        },
+        {
+          "start": 199,
+          "end": 207,
+          "role": "dragon"
+        },
+        {
+          "start": 207,
+          "end": 244,
+          "role": "greg"
+        },
+        {
+          "start": 244,
+          "end": 252,
+          "role": "dragon"
+        },
+        {
+          "start": 252,
+          "end": 297,
+          "role": "greg"
+        },
+        {
+          "start": 297,
+          "end": 304,
+          "role": "dragon"
+        },
+        {
+          "start": 304,
+          "end": 346,
+          "role": "greg"
+        },
+        {
+          "start": 346,
+          "end": 385,
+          "role": "dragon"
+        },
+        {
+          "start": 385,
+          "end": 429,
+          "role": "greg"
+        },
+        {
+          "start": 429,
+          "end": 437,
+          "role": "dragon"
+        },
+        {
+          "start": 437,
+          "end": 468,
+          "role": "greg"
+        },
+        {
+          "start": 468,
+          "end": 477,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 1.77573
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 1.83577,
+          "end_seconds": 3.363605
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 2.83315,
+          "end_seconds": 3.388375
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.35421,
+          "end_seconds": 7.56502
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.23846,
+          "end_seconds": 9.040895
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.706975,
+          "end_seconds": 10.64725
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 10.7586,
+          "end_seconds": 12.51595
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 11.2978,
+          "end_seconds": 13.16925
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 13.2139,
+          "end_seconds": 15.16185
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 13.85185,
+          "end_seconds": 16.91975
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.658,
+          "end_seconds": 17.117
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.4454,
+          "end_seconds": 19.30715
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.97495,
+          "end_seconds": 22.20605
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.56875,
+          "end_seconds": 24.1048
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 24.64125,
+          "end_seconds": 25.40085
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.8355,
+          "end_seconds": 26.456
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 26.96785,
+          "end_seconds": 27.36
+        }
+      ],
+      "assembled_duration_seconds": 28.317324
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 87,
+          "role": "greg"
+        },
+        {
+          "start": 87,
+          "end": 135,
+          "role": "dragon"
+        },
+        {
+          "start": 135,
+          "end": 142,
+          "role": "greg"
+        },
+        {
+          "start": 142,
+          "end": 150,
+          "role": "dragon"
+        },
+        {
+          "start": 150,
+          "end": 183,
+          "role": "greg"
+        },
+        {
+          "start": 183,
+          "end": 194,
+          "role": "dragon"
+        },
+        {
+          "start": 194,
+          "end": 228,
+          "role": "greg"
+        },
+        {
+          "start": 228,
+          "end": 264,
+          "role": "dragon"
+        },
+        {
+          "start": 264,
+          "end": 280,
+          "role": "greg"
+        },
+        {
+          "start": 280,
+          "end": 288,
+          "role": "dragon"
+        },
+        {
+          "start": 288,
+          "end": 314,
+          "role": "greg"
+        },
+        {
+          "start": 314,
+          "end": 332,
+          "role": "dragon"
+        },
+        {
+          "start": 332,
+          "end": 433,
+          "role": "greg"
+        },
+        {
+          "start": 433,
+          "end": 440,
+          "role": "dragon"
+        },
+        {
+          "start": 440,
+          "end": 449,
+          "role": "greg"
+        },
+        {
+          "start": 449,
+          "end": 456,
+          "role": "dragon"
+        },
+        {
+          "start": 456,
+          "end": 465,
+          "role": "greg"
+        },
+        {
+          "start": 465,
+          "end": 470,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 4.368185
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 4.729875,
+          "end_seconds": 7.406665
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.508125,
+          "end_seconds": 7.278585
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 7.93396,
+          "end_seconds": 9.453875
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 8.03873,
+          "end_seconds": 9.588125
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 10.3843,
+          "end_seconds": 11.01955
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 10.46385,
+          "end_seconds": 11.20925
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 13.0873,
+          "end_seconds": 14.904
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 12.62425,
+          "end_seconds": 14.627
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 15.47745,
+          "end_seconds": 16.7811
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 16.3285,
+          "end_seconds": 17.83035
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 18.094,
+          "end_seconds": 19.97525
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 19.07645,
+          "end_seconds": 24.1746
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.9622,
+          "end_seconds": 24.6095
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.7072,
+          "end_seconds": 25.32995
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.35185,
+          "end_seconds": 26.22675
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.01905,
+          "end_seconds": 26.71085
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 26.90525,
+          "end_seconds": 26.952
+        }
+      ],
+      "assembled_duration_seconds": 28.753379
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 62,
+          "role": "greg"
+        },
+        {
+          "start": 62,
+          "end": 92,
+          "role": "dragon"
+        },
+        {
+          "start": 92,
+          "end": 110,
+          "role": "greg"
+        },
+        {
+          "start": 110,
+          "end": 124,
+          "role": "dragon"
+        },
+        {
+          "start": 124,
+          "end": 292,
+          "role": "greg"
+        },
+        {
+          "start": 292,
+          "end": 300,
+          "role": "dragon"
+        },
+        {
+          "start": 300,
+          "end": 372,
+          "role": "greg"
+        },
+        {
+          "start": 372,
+          "end": 379,
+          "role": "dragon"
+        },
+        {
+          "start": 379,
+          "end": 393,
+          "role": "greg"
+        },
+        {
+          "start": 393,
+          "end": 410,
+          "role": "dragon"
+        },
+        {
+          "start": 410,
+          "end": 419,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 4.30385
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 4.22604,
+          "end_seconds": 5.26077
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 5.255205,
+          "end_seconds": 5.939125
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.013645,
+          "end_seconds": 7.158665
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 7.149,
+          "end_seconds": 15.7778
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 15.99065,
+          "end_seconds": 16.83075
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 16.5921,
+          "end_seconds": 21.39355
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.1793,
+          "end_seconds": 22.09485
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.17035,
+          "end_seconds": 22.55075
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.05135,
+          "end_seconds": 23.86405
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.70645,
+          "end_seconds": 24.264
+        }
+      ],
+      "assembled_duration_seconds": 24.104172
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 316,
+          "role": "dragon"
+        },
+        {
+          "start": 316,
+          "end": 347,
+          "role": "greg"
+        },
+        {
+          "start": 347,
+          "end": 421,
+          "role": "dragon"
+        },
+        {
+          "start": 421,
+          "end": 439,
+          "role": "greg"
+        },
+        {
+          "start": 439,
+          "end": 446,
+          "role": "dragon"
+        },
+        {
+          "start": 446,
+          "end": 459,
+          "role": "greg"
+        },
+        {
+          "start": 459,
+          "end": 477,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 19.01745
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 18.4451,
+          "end_seconds": 21.6553
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.1806,
+          "end_seconds": 25.39485
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.20435,
+          "end_seconds": 25.1687
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 26.2924,
+          "end_seconds": 27.17725
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.2323,
+          "end_seconds": 27.743
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 28.5775,
+          "end_seconds": 28.848
+        }
+      ],
+      "assembled_duration_seconds": 30.072426
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "greg"
+        },
+        {
+          "start": 50,
+          "end": 264,
+          "role": "dragon"
+        },
+        {
+          "start": 264,
+          "end": 283,
+          "role": "greg"
+        },
+        {
+          "start": 283,
+          "end": 291,
+          "role": "dragon"
+        },
+        {
+          "start": 291,
+          "end": 316,
+          "role": "greg"
+        },
+        {
+          "start": 316,
+          "end": 342,
+          "role": "dragon"
+        },
+        {
+          "start": 342,
+          "end": 359,
+          "role": "greg"
+        },
+        {
+          "start": 359,
+          "end": 366,
+          "role": "dragon"
+        },
+        {
+          "start": 366,
+          "end": 434,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 2.80727
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 2.375795,
+          "end_seconds": 15.30805
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 15.46515,
+          "end_seconds": 16.6421
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.47345,
+          "end_seconds": 17.3575
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.4294,
+          "end_seconds": 18.5312
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 18.57135,
+          "end_seconds": 19.92245
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 19.76755,
+          "end_seconds": 20.92095
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.0612,
+          "end_seconds": 21.75135
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.6484,
+          "end_seconds": 25.512
+        }
+      ],
+      "assembled_duration_seconds": 25.960635
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 405,
+          "role": "greg"
+        },
+        {
+          "start": 405,
+          "end": 421,
+          "role": "dragon"
+        },
+        {
+          "start": 421,
+          "end": 440,
+          "role": "greg"
+        },
+        {
+          "start": 440,
+          "end": 466,
+          "role": "dragon"
+        },
+        {
+          "start": 466,
+          "end": 485,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 23.3067
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.4795,
+          "end_seconds": 24.3363
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.2742,
+          "end_seconds": 25.51875
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.617,
+          "end_seconds": 26.91925
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.93035,
+          "end_seconds": 28.632
+        }
+      ],
+      "assembled_duration_seconds": 28.412018
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 76,
+          "role": "greg"
+        },
+        {
+          "start": 76,
+          "end": 85,
+          "role": "dragon"
+        },
+        {
+          "start": 85,
+          "end": 92,
+          "role": "greg"
+        },
+        {
+          "start": 92,
+          "end": 100,
+          "role": "dragon"
+        },
+        {
+          "start": 100,
+          "end": 127,
+          "role": "greg"
+        },
+        {
+          "start": 127,
+          "end": 191,
+          "role": "dragon"
+        },
+        {
+          "start": 191,
+          "end": 276,
+          "role": "greg"
+        },
+        {
+          "start": 276,
+          "end": 297,
+          "role": "dragon"
+        },
+        {
+          "start": 297,
+          "end": 320,
+          "role": "greg"
+        },
+        {
+          "start": 320,
+          "end": 328,
+          "role": "dragon"
+        },
+        {
+          "start": 328,
+          "end": 361,
+          "role": "greg"
+        },
+        {
+          "start": 361,
+          "end": 369,
+          "role": "dragon"
+        },
+        {
+          "start": 369,
+          "end": 407,
+          "role": "greg"
+        },
+        {
+          "start": 407,
+          "end": 415,
+          "role": "dragon"
+        },
+        {
+          "start": 415,
+          "end": 459,
+          "role": "greg"
+        },
+        {
+          "start": 459,
+          "end": 467,
+          "role": "dragon"
+        },
+        {
+          "start": 467,
+          "end": 498,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 4.534335
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 4.11417,
+          "end_seconds": 4.783855
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.96454,
+          "end_seconds": 5.49298
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 5.522835,
+          "end_seconds": 6.163605
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.823915,
+          "end_seconds": 10.244895
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 7.452105,
+          "end_seconds": 10.91335
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 10.9842,
+          "end_seconds": 16.21295
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.05775,
+          "end_seconds": 16.74595
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 16.55485,
+          "end_seconds": 17.4756
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 17.4806,
+          "end_seconds": 18.28345
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 18.1911,
+          "end_seconds": 19.88915
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.09385,
+          "end_seconds": 20.8105
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 20.50465,
+          "end_seconds": 22.2196
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.44525,
+          "end_seconds": 23.10715
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.06325,
+          "end_seconds": 25.587
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.4712,
+          "end_seconds": 26.22945
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.2835,
+          "end_seconds": 28.32
+        }
+      ],
+      "assembled_duration_seconds": 31.006304
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 31,
+          "role": "dragon"
+        },
+        {
+          "start": 31,
+          "end": 46,
+          "role": "greg"
+        },
+        {
+          "start": 46,
+          "end": 85,
+          "role": "dragon"
+        },
+        {
+          "start": 85,
+          "end": 356,
+          "role": "greg"
+        },
+        {
+          "start": 356,
+          "end": 402,
+          "role": "dragon"
+        },
+        {
+          "start": 402,
+          "end": 453,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 1.575375
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 1.500835,
+          "end_seconds": 2.622665
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 2.512205,
+          "end_seconds": 4.56571
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.868085,
+          "end_seconds": 20.6652
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.8808,
+          "end_seconds": 23.4561
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.15995,
+          "end_seconds": 27.048
+        }
+      ],
+      "assembled_duration_seconds": 27.011247
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 190,
+          "role": "dragon"
+        },
+        {
+          "start": 190,
+          "end": 273,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 12.3018
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 12.22895,
+          "end_seconds": 16.656
+        }
+      ],
+      "assembled_duration_seconds": 16.728866
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 366,
+          "role": "dragon"
+        },
+        {
+          "start": 366,
+          "end": 409,
+          "role": "greg"
+        },
+        {
+          "start": 409,
+          "end": 488,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 21.8642
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.0895,
+          "end_seconds": 25.27105
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.12985,
+          "end_seconds": 30.288
+        }
+      ],
+      "assembled_duration_seconds": 30.203946
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 22,
+          "role": "greg"
+        },
+        {
+          "start": 22,
+          "end": 173,
+          "role": "dragon"
+        },
+        {
+          "start": 173,
+          "end": 214,
+          "role": "greg"
+        },
+        {
+          "start": 214,
+          "end": 222,
+          "role": "dragon"
+        },
+        {
+          "start": 222,
+          "end": 238,
+          "role": "greg"
+        },
+        {
+          "start": 238,
+          "end": 246,
+          "role": "dragon"
+        },
+        {
+          "start": 246,
+          "end": 283,
+          "role": "greg"
+        },
+        {
+          "start": 283,
+          "end": 290,
+          "role": "dragon"
+        },
+        {
+          "start": 290,
+          "end": 309,
+          "role": "greg"
+        },
+        {
+          "start": 309,
+          "end": 356,
+          "role": "dragon"
+        },
+        {
+          "start": 356,
+          "end": 381,
+          "role": "greg"
+        },
+        {
+          "start": 381,
+          "end": 406,
+          "role": "dragon"
+        },
+        {
+          "start": 406,
+          "end": 479,
+          "role": "greg"
+        },
+        {
+          "start": 479,
+          "end": 484,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 1.642375
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 1.563875,
+          "end_seconds": 10.060405
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 8.850435,
+          "end_seconds": 11.05875
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 12.49725,
+          "end_seconds": 13.2232
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 11.9447,
+          "end_seconds": 13.0745
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 14.2631,
+          "end_seconds": 14.9613
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 13.8885,
+          "end_seconds": 15.78345
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.61765,
+          "end_seconds": 17.35285
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 16.7919,
+          "end_seconds": 18.66805
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 19.2622,
+          "end_seconds": 21.4271
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.10895,
+          "end_seconds": 22.2412
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.5233,
+          "end_seconds": 23.8365
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.0365,
+          "end_seconds": 28.48895
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 28.31045,
+          "end_seconds": 28.56
+        }
+      ],
+      "assembled_duration_seconds": 28.719909
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "greg"
+        },
+        {
+          "start": 20,
+          "end": 31,
+          "role": "dragon"
+        },
+        {
+          "start": 31,
+          "end": 235,
+          "role": "greg"
+        },
+        {
+          "start": 235,
+          "end": 276,
+          "role": "dragon"
+        },
+        {
+          "start": 276,
+          "end": 308,
+          "role": "greg"
+        },
+        {
+          "start": 308,
+          "end": 316,
+          "role": "dragon"
+        },
+        {
+          "start": 316,
+          "end": 357,
+          "role": "greg"
+        },
+        {
+          "start": 357,
+          "end": 364,
+          "role": "dragon"
+        },
+        {
+          "start": 364,
+          "end": 373,
+          "role": "greg"
+        },
+        {
+          "start": 373,
+          "end": 389,
+          "role": "dragon"
+        },
+        {
+          "start": 389,
+          "end": 432,
+          "role": "greg"
+        },
+        {
+          "start": 432,
+          "end": 447,
+          "role": "dragon"
+        },
+        {
+          "start": 447,
+          "end": 491,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 1.098665
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 1.13123,
+          "end_seconds": 1.949395
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 1.791795,
+          "end_seconds": 13.6558
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 13.9519,
+          "end_seconds": 16.0876
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 15.78015,
+          "end_seconds": 17.1917
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 17.67475,
+          "end_seconds": 18.4242
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.9572,
+          "end_seconds": 20.0605
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.21455,
+          "end_seconds": 20.6125
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 20.61125,
+          "end_seconds": 21.26495
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.10305,
+          "end_seconds": 21.98395
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.15185,
+          "end_seconds": 24.7005
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 24.63455,
+          "end_seconds": 25.4474
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 25.48925,
+          "end_seconds": 28.416
+        }
+      ],
+      "assembled_duration_seconds": 28.401769
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "dragon"
+        },
+        {
+          "start": 41,
+          "end": 54,
+          "role": "greg"
+        },
+        {
+          "start": 54,
+          "end": 86,
+          "role": "dragon"
+        },
+        {
+          "start": 86,
+          "end": 95,
+          "role": "greg"
+        },
+        {
+          "start": 95,
+          "end": 147,
+          "role": "dragon"
+        },
+        {
+          "start": 147,
+          "end": 165,
+          "role": "greg"
+        },
+        {
+          "start": 165,
+          "end": 316,
+          "role": "dragon"
+        },
+        {
+          "start": 316,
+          "end": 354,
+          "role": "greg"
+        },
+        {
+          "start": 354,
+          "end": 368,
+          "role": "dragon"
+        },
+        {
+          "start": 368,
+          "end": 406,
+          "role": "greg"
+        },
+        {
+          "start": 406,
+          "end": 414,
+          "role": "dragon"
+        },
+        {
+          "start": 414,
+          "end": 451,
+          "role": "greg"
+        },
+        {
+          "start": 451,
+          "end": 456,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 2.028355
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 1.949935,
+          "end_seconds": 3.09744
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 3.172,
+          "end_seconds": 4.84623
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 5.321125,
+          "end_seconds": 6.349145
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 5.503355,
+          "end_seconds": 8.408395
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.203935,
+          "end_seconds": 10.89415
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 9.885005,
+          "end_seconds": 18.26505
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 18.70515,
+          "end_seconds": 20.69045
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.702,
+          "end_seconds": 21.6394
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.104,
+          "end_seconds": 24.3612
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.2948,
+          "end_seconds": 24.1669
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 25.1737,
+          "end_seconds": 26.4213
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 26.45865,
+          "end_seconds": 26.616
+        }
+      ],
+      "assembled_duration_seconds": 26.310567
+    },
+    {
+      "chunk": 23,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 63,
+          "role": "greg"
+        },
+        {
+          "start": 63,
+          "end": 217,
+          "role": "dragon"
+        },
+        {
+          "start": 217,
+          "end": 226,
+          "role": "greg"
+        },
+        {
+          "start": 226,
+          "end": 496,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 3.967415
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 4.49523,
+          "end_seconds": 12.8874
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 13.25845,
+          "end_seconds": 14.4124
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 13.93935,
+          "end_seconds": 30.312
+        }
+      ],
+      "assembled_duration_seconds": 29.886259
+    },
+    {
+      "chunk": 24,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 69,
+          "role": "greg"
+        },
+        {
+          "start": 69,
+          "end": 77,
+          "role": "dragon"
+        },
+        {
+          "start": 77,
+          "end": 102,
+          "role": "greg"
+        },
+        {
+          "start": 102,
+          "end": 176,
+          "role": "dragon"
+        },
+        {
+          "start": 176,
+          "end": 228,
+          "role": "greg"
+        },
+        {
+          "start": 228,
+          "end": 273,
+          "role": "dragon"
+        },
+        {
+          "start": 273,
+          "end": 289,
+          "role": "greg"
+        },
+        {
+          "start": 289,
+          "end": 297,
+          "role": "dragon"
+        },
+        {
+          "start": 297,
+          "end": 322,
+          "role": "greg"
+        },
+        {
+          "start": 322,
+          "end": 385,
+          "role": "dragon"
+        },
+        {
+          "start": 385,
+          "end": 420,
+          "role": "greg"
+        },
+        {
+          "start": 420,
+          "end": 427,
+          "role": "dragon"
+        },
+        {
+          "start": 427,
+          "end": 439,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 3.633355
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 3.350645,
+          "end_seconds": 4.313275
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.60958,
+          "end_seconds": 6.192585
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 5.757755,
+          "end_seconds": 10.89605
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 10.4208,
+          "end_seconds": 13.008
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 12.6471,
+          "end_seconds": 15.30885
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 15.5,
+          "end_seconds": 16.70535
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.3398,
+          "end_seconds": 17.12935
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.58265,
+          "end_seconds": 18.89445
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 18.51185,
+          "end_seconds": 23.6173
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.85465,
+          "end_seconds": 24.5658
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 24.47435,
+          "end_seconds": 25.69815
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 25.6962,
+          "end_seconds": 26.016
+        }
+      ],
+      "assembled_duration_seconds": 29.233311
+    },
+    {
+      "chunk": 25,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 86,
+          "role": "dragon"
+        },
+        {
+          "start": 86,
+          "end": 300,
+          "role": "greg"
+        },
+        {
+          "start": 300,
+          "end": 318,
+          "role": "dragon"
+        },
+        {
+          "start": 318,
+          "end": 328,
+          "role": "greg"
+        },
+        {
+          "start": 328,
+          "end": 341,
+          "role": "dragon"
+        },
+        {
+          "start": 341,
+          "end": 352,
+          "role": "greg"
+        },
+        {
+          "start": 352,
+          "end": 365,
+          "role": "dragon"
+        },
+        {
+          "start": 365,
+          "end": 384,
+          "role": "greg"
+        },
+        {
+          "start": 384,
+          "end": 407,
+          "role": "dragon"
+        },
+        {
+          "start": 407,
+          "end": 415,
+          "role": "greg"
+        },
+        {
+          "start": 415,
+          "end": 422,
+          "role": "dragon"
+        },
+        {
+          "start": 422,
+          "end": 434,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 3.99502
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 3.87048,
+          "end_seconds": 17.10855
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 17.6117,
+          "end_seconds": 18.0943
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.8985,
+          "end_seconds": 18.87085
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 18.56605,
+          "end_seconds": 19.4963
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 19.7521,
+          "end_seconds": 20.5522
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.161,
+          "end_seconds": 20.8966
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.3877,
+          "end_seconds": 22.4542
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.83705,
+          "end_seconds": 23.00335
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.96715,
+          "end_seconds": 23.60735
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 23.69515,
+          "end_seconds": 24.91385
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.757,
+          "end_seconds": 25.056
+        }
+      ],
+      "assembled_duration_seconds": 25.544671
+    },
+    {
+      "chunk": 26,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 81,
+          "role": "dragon"
+        },
+        {
+          "start": 81,
+          "end": 134,
+          "role": "greg"
+        },
+        {
+          "start": 134,
+          "end": 153,
+          "role": "dragon"
+        },
+        {
+          "start": 153,
+          "end": 183,
+          "role": "greg"
+        },
+        {
+          "start": 183,
+          "end": 190,
+          "role": "dragon"
+        },
+        {
+          "start": 190,
+          "end": 228,
+          "role": "greg"
+        },
+        {
+          "start": 228,
+          "end": 251,
+          "role": "dragon"
+        },
+        {
+          "start": 251,
+          "end": 265,
+          "role": "greg"
+        },
+        {
+          "start": 265,
+          "end": 370,
+          "role": "dragon"
+        },
+        {
+          "start": 370,
+          "end": 393,
+          "role": "greg"
+        },
+        {
+          "start": 393,
+          "end": 400,
+          "role": "dragon"
+        },
+        {
+          "start": 400,
+          "end": 484,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 5.3401
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 5.59996,
+          "end_seconds": 6.416645
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 7.39756,
+          "end_seconds": 7.7325
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 8.020565,
+          "end_seconds": 10.517995
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 9.44302,
+          "end_seconds": 10.06687
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 11.59285,
+          "end_seconds": 13.96555
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 12.57185,
+          "end_seconds": 14.04215
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 15.3725,
+          "end_seconds": 16.2589
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 15.05495,
+          "end_seconds": 20.53555
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 20.97845,
+          "end_seconds": 22.4066
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.13845,
+          "end_seconds": 22.85485
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 23.0419,
+          "end_seconds": 28.584
+        }
+      ],
+      "assembled_duration_seconds": 27.509728
+    },
+    {
+      "chunk": 27,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 14,
+          "role": "dragon"
+        },
+        {
+          "start": 14,
+          "end": 35,
+          "role": "greg"
+        },
+        {
+          "start": 35,
+          "end": 80,
+          "role": "dragon"
+        },
+        {
+          "start": 80,
+          "end": 100,
+          "role": "greg"
+        },
+        {
+          "start": 100,
+          "end": 162,
+          "role": "dragon"
+        },
+        {
+          "start": 162,
+          "end": 198,
+          "role": "greg"
+        },
+        {
+          "start": 198,
+          "end": 229,
+          "role": "dragon"
+        },
+        {
+          "start": 229,
+          "end": 259,
+          "role": "greg"
+        },
+        {
+          "start": 259,
+          "end": 330,
+          "role": "dragon"
+        },
+        {
+          "start": 330,
+          "end": 345,
+          "role": "greg"
+        },
+        {
+          "start": 345,
+          "end": 363,
+          "role": "dragon"
+        },
+        {
+          "start": 363,
+          "end": 394,
+          "role": "greg"
+        },
+        {
+          "start": 394,
+          "end": 447,
+          "role": "dragon"
+        },
+        {
+          "start": 447,
+          "end": 480,
+          "role": "greg"
+        },
+        {
+          "start": 480,
+          "end": 490,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 0.83475
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 1.13156,
+          "end_seconds": 1.944125
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 2.05971,
+          "end_seconds": 5.29806
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 4.15258,
+          "end_seconds": 5.493145
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.455815,
+          "end_seconds": 9.59352
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 8.84873,
+          "end_seconds": 11.57145
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 11.4389,
+          "end_seconds": 13.1689
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 14.06155,
+          "end_seconds": 16.25925
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 14.7592,
+          "end_seconds": 18.3076
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 18.68155,
+          "end_seconds": 19.57935
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 19.36925,
+          "end_seconds": 20.3256
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 20.24345,
+          "end_seconds": 25.1114
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.4191,
+          "end_seconds": 27.2503
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 27.0012,
+          "end_seconds": 27.57595
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 27.8671,
+          "end_seconds": 28.68
+        }
+      ],
+      "assembled_duration_seconds": 29.503764
+    },
+    {
+      "chunk": 28,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 109,
+          "role": "greg"
+        },
+        {
+          "start": 109,
+          "end": 123,
+          "role": "dragon"
+        },
+        {
+          "start": 123,
+          "end": 137,
+          "role": "greg"
+        },
+        {
+          "start": 137,
+          "end": 145,
+          "role": "dragon"
+        },
+        {
+          "start": 145,
+          "end": 157,
+          "role": "greg"
+        },
+        {
+          "start": 157,
+          "end": 191,
+          "role": "dragon"
+        },
+        {
+          "start": 191,
+          "end": 222,
+          "role": "greg"
+        },
+        {
+          "start": 222,
+          "end": 254,
+          "role": "dragon"
+        },
+        {
+          "start": 254,
+          "end": 265,
+          "role": "greg"
+        },
+        {
+          "start": 265,
+          "end": 282,
+          "role": "dragon"
+        },
+        {
+          "start": 282,
+          "end": 293,
+          "role": "greg"
+        },
+        {
+          "start": 293,
+          "end": 315,
+          "role": "dragon"
+        },
+        {
+          "start": 315,
+          "end": 460,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 5.727605
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.105875,
+          "end_seconds": 6.94265
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.465415,
+          "end_seconds": 6.941855
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 7.476665,
+          "end_seconds": 8.080185
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 7.54208,
+          "end_seconds": 8.475915
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 9.113165,
+          "end_seconds": 11.0826
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 10.83515,
+          "end_seconds": 12.24275
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 12.9768,
+          "end_seconds": 14.47335
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 13.8709,
+          "end_seconds": 14.6673
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 15.0331,
+          "end_seconds": 15.79175
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 15.6141,
+          "end_seconds": 16.41125
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.57235,
+          "end_seconds": 18.6311
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.8841,
+          "end_seconds": 26.04
+        }
+      ],
+      "assembled_duration_seconds": 26.018798
+    },
+    {
+      "chunk": 29,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "dragon"
+        },
+        {
+          "start": 49,
+          "end": 63,
+          "role": "greg"
+        },
+        {
+          "start": 63,
+          "end": 108,
+          "role": "dragon"
+        },
+        {
+          "start": 108,
+          "end": 122,
+          "role": "greg"
+        },
+        {
+          "start": 122,
+          "end": 149,
+          "role": "dragon"
+        },
+        {
+          "start": 149,
+          "end": 161,
+          "role": "greg"
+        },
+        {
+          "start": 161,
+          "end": 180,
+          "role": "dragon"
+        },
+        {
+          "start": 180,
+          "end": 363,
+          "role": "greg"
+        },
+        {
+          "start": 363,
+          "end": 371,
+          "role": "dragon"
+        },
+        {
+          "start": 371,
+          "end": 386,
+          "role": "greg"
+        },
+        {
+          "start": 386,
+          "end": 413,
+          "role": "dragon"
+        },
+        {
+          "start": 413,
+          "end": 448,
+          "role": "greg"
+        },
+        {
+          "start": 448,
+          "end": 456,
+          "role": "dragon"
+        },
+        {
+          "start": 456,
+          "end": 464,
+          "role": "greg"
+        },
+        {
+          "start": 464,
+          "end": 472,
+          "role": "dragon"
+        },
+        {
+          "start": 472,
+          "end": 481,
+          "role": "greg"
+        },
+        {
+          "start": 481,
+          "end": 487,
+          "role": "dragon"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 2.531645
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 2.08023,
+          "end_seconds": 2.955355
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 3.500645,
+          "end_seconds": 5.881275
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.087705,
+          "end_seconds": 7.567145
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.71623,
+          "end_seconds": 8.344
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 8.39771,
+          "end_seconds": 9.503835
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 9.157625,
+          "end_seconds": 10.126535
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 10.3205,
+          "end_seconds": 20.67575
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 20.49875,
+          "end_seconds": 21.4713
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.02715,
+          "end_seconds": 22.6141
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 22.87445,
+          "end_seconds": 24.2605
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 24.26925,
+          "end_seconds": 25.28365
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 24.528,
+          "end_seconds": 25.23335
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 25.697,
+          "end_seconds": 26.2076
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.92385,
+          "end_seconds": 26.51115
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.70915,
+          "end_seconds": 27.51775
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 27.3905,
+          "end_seconds": 27.624
+        }
+      ],
+      "assembled_duration_seconds": 29.130363
+    },
+    {
+      "chunk": 30,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 52,
+          "role": "greg"
+        },
+        {
+          "start": 52,
+          "end": 88,
+          "role": "dragon"
+        },
+        {
+          "start": 88,
+          "end": 430,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 3.169
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 3.235435,
+          "end_seconds": 5.406375
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 5.721335,
+          "end_seconds": 26.064
+        }
+      ],
+      "assembled_duration_seconds": 25.682653
+    },
+    {
+      "chunk": 31,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 500,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.36
+        }
+      ],
+      "assembled_duration_seconds": 30.36
+    },
+    {
+      "chunk": 32,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 74,
+          "role": "greg"
+        },
+        {
+          "start": 74,
+          "end": 109,
+          "role": "dragon"
+        },
+        {
+          "start": 109,
+          "end": 152,
+          "role": "greg"
+        },
+        {
+          "start": 152,
+          "end": 173,
+          "role": "dragon"
+        },
+        {
+          "start": 173,
+          "end": 364,
+          "role": "greg"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 4.078955
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 4.16175,
+          "end_seconds": 5.933915
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.01229,
+          "end_seconds": 8.723855
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 8.666685,
+          "end_seconds": 10.006895
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 9.97546,
+          "end_seconds": 21.408
+        }
+      ],
+      "assembled_duration_seconds": 21.335533
+    }
+  ]
+}

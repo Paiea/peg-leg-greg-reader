@@ -1,0 +1,116 @@
+name: Assemble 3L short dual audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 3l/records-002-010-write2
+    paths:
+      - '.github/workflows/3l-assemble-short-dual-audio.yml'
+      - 'scripts/build_3l_short_dual_audio.py'
+      - 'scripts/build_3l_two_voice_candidate.py'
+      - 'tests/test_3l_short_dual_audio.py'
+      - '3l/audio/record-002-short-dual-plan.json'
+      - '3l/audio/record-003-short-dual-plan.json'
+      - '3l/audio/verification/record-002-short-captures.json'
+      - '3l/audio/verification/record-003-short-captures.json'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            .github/workflows
+            scripts
+            tests
+            3l/audio
+            3l/assets/audio
+
+      - name: Ensure ffmpeg tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version | head -1
+          ffprobe -version | head -1
+
+      - name: Run assembler unit tests
+        run: python -m unittest tests.test_3l_short_dual_audio
+
+      - name: Assemble complete records
+        shell: bash
+        run: |
+          set -euo pipefail
+          built=0
+          for record in 002 003; do
+            receipt="3l/audio/verification/record-${record}-short-captures.json"
+            if [[ ! -f "$receipt" ]]; then
+              echo "record $record: no verified source receipt; skipping"
+              continue
+            fi
+            complete="$(python -c 'import json,sys; data=json.load(open(sys.argv[1], encoding="utf-8")); print("yes" if data.get("complete") is True else "no")' "$receipt")"
+            if [[ "$complete" != "yes" ]]; then
+              echo "record $record: source receipt incomplete; skipping"
+              continue
+            fi
+            python scripts/build_3l_short_dual_audio.py "$record"
+            ffmpeg -v error -i "3l/assets/audio/record-${record}.mp3" -f null -
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "3l/assets/audio/record-${record}.mp3"
+            built=$((built + 1))
+          done
+          echo "assembled records: $built"
+
+      - name: Verify audit receipts agree with assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          for record in ('002', '003'):
+              asset = Path(f'3l/assets/audio/record-{record}.mp3')
+              audit = Path(f'3l/audio/verification/record-{record}-short-dual-audio.json')
+              if not audit.exists():
+                  continue
+              if not asset.exists():
+                  raise SystemExit(f'{record}: audit exists without asset')
+              receipt = json.loads(audit.read_text(encoding='utf-8'))
+              digest = hashlib.sha256(asset.read_bytes()).hexdigest()
+              if receipt.get('status') != 'verified':
+                  raise SystemExit(f'{record}: audit is not verified')
+              if receipt.get('sha256') != digest:
+                  raise SystemExit(f'{record}: asset sha256 does not match audit')
+              profile = receipt.get('audio_processing', {})
+              if profile.get('tempo') != 1.0:
+                  raise SystemExit(f'{record}: non-authority tempo detected')
+              if profile.get('pitch_semitones') != 0:
+                  raise SystemExit(f'{record}: pitch processing detected')
+              if profile.get('dragon_post_processing') is not False:
+                  raise SystemExit(f'{record}: Dragon post-processing detected')
+              print(record, 'asset/audit verification PASS', digest)
+          PY
+
+      - name: Commit assembled audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/assets/audio/record-002.mp3 2>/dev/null || true
+          git add 3l/assets/audio/record-003.mp3 2>/dev/null || true
+          git add 3l/audio/verification/record-002-short-dual-audio.json 2>/dev/null || true
+          git add 3l/audio/verification/record-003-short-dual-audio.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "audio: assemble verified 3L short dual records"
+          git push origin HEAD:${GITHUB_REF_NAME}
