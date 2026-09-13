@@ -2,966 +2,1368 @@
 
 ## THE PETITIONER
 
-The dragon yawns while I am explaining how many people are going to die.
+The dragon looked at me for a long time.
 
-It is not a small yawn.
+Then one nostril moved.
 
-The head lifts a little from the shelf of black stone where it has been resting, and the cave changes shape around it. Gold catches somewhere behind the teeth. Heat rolls across the floor in a slow wave.
+“Mm.”
 
-I stop talking.
+Its head rested on a shelf of black stone large enough to build a house on. One eye opened halfway.
 
-Not because I am afraid.
+“Food has arrived.”
 
-I am afraid, obviously.
+I had spent six days getting there.
 
-I'm just also offended.
+Six days up a mountain nobody used unless they were lost, stupid, or being paid enough to temporarily become both. My left knee had stopped pretending it was fine somewhere around the second ridge. One boot had split at the heel. I had slept badly, eaten worse, and lost a horse.
 
-“Am I boring you?”
+Not metaphorically.
 
-One eye opens.
+The horse was gone.
 
-It is larger than the shield I left outside.
+The other eye opened.
 
-I left the shield because I had spent six days getting here and decided, somewhere around the second dead horse, that carrying a shield into a dragon's den was optimistic to the point of disrespect.
+“Is your name Dinner?”
 
-The eye studies me.
+“Greg.”
 
-“You have been speaking for seven minutes.”
+He considered that.
 
-“About a kingdom collapsing.”
+At least I thought he did.
 
-“Yes.”
+It was difficult to tell where a dragon thinking ended and a dragon simply staring at you began.
 
-“Millions of people.”
+“Unfortunate.”
 
-“I heard the number.”
+That was the most he had said since I entered the cave.
 
-I wait.
+It was also enough.
 
-Nothing.
+The stories had gotten the size wrong.
 
-The dragon closes its eye again.
+They always did.
 
-“That was the part where you were supposed to care.”
+People said things like as large as a house because people understood houses. They said wings like sails because they had seen sails. They said teeth like swords because apparently everyone who survived meeting a dragon had a limited vocabulary and a military upbringing.
 
-“No.”
+The head in front of me was bigger than the room I had grown up in.
 
-The voice does not boom.
+Its scales were black, mostly.
 
-I expected booming.
+Not dull black.
 
-People always make dragons boom in stories. There is usually fire involved. A roar. Rocks falling. Somebody pisses himself.
+Glass black.
 
-This one speaks quietly enough that I have to listen.
+The kind that caught pieces of light and seemed to keep them somewhere under the surface.
 
-Which may be worse.
+I had left my shield outside.
 
-I look back toward the way I came.
+That had seemed sensible at the time.
 
-The passage behind me is still there. Narrow, dark, uphill for half a mile, then downhill for three, then through the sulfur vents, then across the shelf where the wind tried very hard to remove me from the mountain.
+Carrying a shield into a dragon’s den felt optimistic to the point of disrespect.
 
-Six days in.
+The dragon inhaled.
 
-Probably eight out, because my left knee has started complaining.
+Hot air moved across my coat.
 
-The dragon has not moved.
+I waited for him to say something else.
 
-“Do you know what happens if the western anchors fail?”
+He didn’t.
 
-“No.”
+One eye began to close.
 
-That gets me.
+That was when I understood the conversation had not paused.
 
-“You don't?”
+It had ended.
 
-“I said I do not.”
+I had mistaken not being eaten immediately for being granted an audience.
 
-“The entire western Line collapses.”
+Fair mistake.
 
-“You have said this.”
+Still a mistake.
 
-“Then the inner stations overload.”
+I gave myself another second in case the eye opened again.
 
-“You have also said this.”
+It didn’t.
 
-“Then you get pressure events from here to the coast.”
+So I used the thing I had carried farther than the food, farther than the maps, and considerably farther than the last good decision I had made.
 
-“Yes.”
+“Ithar.”
 
-“Do you know how many people live between here and the coast?”
+The eye stopped closing.
 
-“No.”
+Not opened.
 
-“Two point three million.”
+Stopped.
 
-“You told me two point one.”
+I had spent years imagining what might happen when I said that name.
 
-“That was before the spring census.”
+I had never imagined an eyelid stopping halfway.
 
-“Then I am relieved someone counted them.”
+It was somehow worse.
 
-I stare at it.
+The dragon remained still for several breaths.
 
-The eye opens again.
+I waited through all of them.
 
-Not angry.
+Then his head rose from the shelf.
 
-Not amused, either.
+Stone ground beneath his jaw. Coins shifted somewhere in the dark behind him, and a slow spill of gold slid down a slope I had mistaken for part of the cave.
 
-That's the thing that starts getting under my skin.
+That was when I realized how much of the floor was not floor.
 
-It isn't fucking with me.
+Ithar lowered his head toward me.
 
-It actually does not care.
+Carefully.
 
-I had spent months imagining this conversation.
+Almost respectfully.
 
-Most of those versions went badly.
+“Oh.”
 
-In some, I died before I reached the cave.
+His voice softened.
 
-In others, I reached the cave and died shortly afterward.
+“I see.”
 
-One particularly stupid version involved me making a good enough argument that the dragon respected me.
+One foreleg folded beneath him.
 
-I blame exhaustion for that one.
+His head lowered until his snout nearly touched the stone in front of my boots.
 
-But even the bad versions had involved an argument.
+“Then I am undone.”
 
-I had expected greed.
+I stared at him.
 
-Pride.
+“Speak, master.”
 
-Threats.
+I kept staring.
 
-Maybe an ancient grudge I could use.
+One eye cracked open.
 
-I had not planned for indifference.
+“Command me.”
 
-“Cities disappear,” I say.
+“That isn’t how names work.”
 
-“Yes.”
+He stayed bowed for another second.
 
-“Farms go with them.”
+I had just enough time to wonder whether I had misunderstood something fundamental about dragons.
 
-“Yes.”
+Then the cave shook.
 
-“Trade stops.”
+Gold whispered down the mound behind him. Dust dropped from the ceiling. A stone the size of my fist bounced once near my boot.
 
-“For a time.”
+It took me longer than I would like to admit to realize he was laughing.
 
-“People starve.”
+I did not move.
 
-“Some.”
+Partly because there was nowhere useful to go.
 
-“Some?”
+Mostly because my knee had locked.
 
-“Many, if you prefer.”
-
-I take a slow breath.
-
-The dragon shifts one foreclaw.
-
-Stone grinds beneath it.
-
-I have killed things large enough that their skulls became tavern decorations.
-
-This thing could use one as a ring.
-
-“Do you understand what a kingdom is?” I ask.
-
-The dragon is quiet long enough that I realize I have managed to insult it.
-
-Probably.
-
-Then it says, “Do you?”
-
-“Here we go.”
-
-“You speak of your kingdom as though it is a mountain.”
-
-“It has existed for six hundred years.”
-
-“Yes.”
-
-“That is a long time.”
-
-“For you.”
-
-“For anyone.”
-
-“No.”
-
-I rub my face.
-
-The Dragon continues.
-
-There is no urgency to it.
-
-No sense that I have interrupted dinner or sleep or whatever dragons do in caves for centuries.
-
-It speaks like we are discussing something that can take as long as it needs.
-
-“Before your kingdom, there were three others in the valley you call its heart. One lasted eighty-one years. One lasted four hundred and twelve. The oldest lasted somewhat longer than yours has so far. It was larger. Its people were certain this indicated permanence.”
-
-I don't answer.
-
-“They cut roads through mountains. They redirected a river. They built seven towers where your capital now stands. The next kingdom used two as granaries and left the others empty.”
-
-“There aren't seven towers.”
-
-“No.”
-
-That shuts me up.
-
-The dragon's eye closes again.
-
-“Their grandchildren pulled them down for stone. People needed walls more than monuments.”
-
-I look toward the mouth of the cavern.
-
-“You're saying let everybody die because somebody else will build houses there eventually.”
-
-“I said no such thing.”
-
-“Sounded pretty fucking close.”
-
-“You are upset.”
-
-“Very observant.”
-
-“You believe the size of the consequence obligates me.”
-
-“Yes.”
-
-“Why?”
-
-I laugh once.
-
-I can't help it.
-
-“Because millions of people dying is bad.”
-
-“To them.”
-
-“To me.”
+Eventually Ithar lifted his head.
 
 “Good.”
 
-I stop.
+“For what?”
 
-The dragon opens its eye.
+“For a moment I was concerned you were stupid.”
 
-There is something different in that look.
+“I walked into a dragon’s cave.”
 
-Not interest yet.
+“Yes. The concern remains.”
 
-Maybe the possibility of it.
+That was reassuring in a strange way.
 
-“To you,” it says. “That is more useful.”
+I had not expected a sense of humor.
 
-“I didn't climb a mountain so we could discuss my feelings.”
+I had definitely not expected to be the joke.
 
-“No?”
+A claw slid through the gold beside him.
+
+Not digging.
+
+Playing.
+
+Coins climbed over one another between the black points of his talons.
+
+He hooked one free and held it near his eye.
+
+Tiny thing.
+
+Copper, maybe.
+
+Green with age.
+
+He looked at the coin longer than he had looked at me.
+
+Then he flicked it.
+
+The coin crossed the cave too fast for me to track and buried itself in the wall behind my left shoulder.
+
+I flinched.
+
+Ithar noticed.
+
+Of course he did.
+
+I looked at the coin.
+
+Then at him.
+
+His claw was already moving through the gold again.
+
+I could not tell whether the throw had been a threat, a joke, or simply what happened when a creature that large became bored with a coin.
+
+I decided the distinction probably did not matter.
+
+“What did you think my name would buy you?”
+
+“Thirty seconds.”
+
+The claw stopped.
+
+His eye settled on me again.
+
+“Thirty.”
+
+“Enough to explain why eating me would be inconvenient.”
+
+Ithar went back to moving coins.
+
+“You traveled six days to negotiate thirty seconds.”
+
+“I was hoping you’d be reasonable.”
+
+One warm breath left his nose.
+
+“Twenty-eight.”
+
+Right.
+
+Apparently we were counting.
+
+I straightened as much as my back allowed.
+
+“The western Line is going to fail.”
+
+Ithar did not answer.
+
+I gave him a second.
+
+His claw turned another coin over.
+
+That was all.
+
+I had no idea whether he was considering what I had said or had already returned to whatever occupied a dragon before food walked into his cave.
+
+Either way, my time was apparently still running.
+
+“The lower channels are full. The ninth station is already bleeding pressure into the eastern sink. Surface crews keep rebuilding anchors because they think the anchors are the problem.”
+
+His claw continued moving.
+
+The coin rolled beneath one talon and disappeared into the mound.
+
+No interruption.
+
+I took that as permission to continue.
+
+“They aren’t.”
+
+A quiet sound came from somewhere behind his teeth.
+
+Not a word.
+
+Barely even a sound.
+
+“Mm.”
+
+That helped less than I wanted it to.
+
+I waited for the rest.
+
+There was no rest.
+
+“The anchors move pressure. They don’t stop it. West to east at first. Then down. The lower channels haven’t been maintained because nobody knows they exist.”
+
+The claw stopped.
+
+I noticed immediately.
+
+That was the first useful thing his body had done since I started talking.
+
+At least, the first useful thing that had not involved throwing metal at my head.
+
+I watched the claw.
+
+It stayed still.
+
+There.
+
+Something.
+
+“Keep rebuilding the surface and you make it worse. The ninth station fails first. Then the coast. Then the lower farms. Once the eastern sink goes, you lose the whole Line.”
+
+Ithar reached down and picked up a small black stone.
+
+Not a gem.
+
+Just a rock.
+
+He rolled it once between two claws.
+
+I stopped.
+
+The way he was looking at it made me wonder whether I was supposed to understand something.
+
+Then I remembered I was standing inside a mountain trying to interpret a dragon playing with gravel.
+
+I kept going.
+
+“Millions die.”
+
+The stone left his hand.
+
+It struck the wall on my right hard enough to explode.
+
+I ducked.
+
+Fragments scattered across the floor.
+
+When I looked back, Ithar had closed his eye.
+
+I waited for some indication that the rock had meant something.
+
+A warning.
+
+A disagreement.
+
+A request to stop talking.
+
+Nothing obvious came.
+
+Then Ithar spoke.
+
+“Zero.”
+
+My thirty seconds.
+
+Right.
+
+I looked at the crater in the wall.
+
+Then at him.
+
+“That was unnecessary.”
+
+He offered no defense.
+
+“Ithar.”
+
+The eye opened.
+
+“You have already used the name.”
+
+“Are you going to help?”
 
 “No.”
 
-“Then why did you climb it?”
+There it was.
 
-I almost answer.
+Six days of walking.
 
-Almost.
+One horse.
 
-Instead I point west, which is stupid because we are inside a mountain and west currently looks exactly like rock.
+One knee.
 
-“The Line is failing.”
+Most of a boot.
 
-“Yes.”
+Thirty seconds.
 
-“You can stop it.”
+I had prepared for greed.
 
-The dragon's pupil narrows.
+I had prepared for threats.
 
-“Can I?”
+I had prepared for some ancient creature demanding a crown, a relic, a mountain of gold, my firstborn child, somebody else’s firstborn child.
 
-“I think so.”
+I had not prepared for no.
 
-“That is not the same statement.”
+Especially not a bored no.
 
-“No.”
+“Millions of people.”
 
-“Why do you think so?”
+He heard me.
 
-There it is.
+I knew he heard me because one nostril moved.
 
-The first opening it has given me.
+That was not much, but I was beginning to work with limited information.
 
-I had thought I would have to fight for this part.
+“Cities disappear.”
 
-I straighten a little.
+His claw dragged slowly across the stone.
 
-My back hurts.
+Four pale lines appeared beneath it.
 
-Fifty-nine is not old enough to make every movement a negotiation, but I've had help.
+I watched the marks deepen.
+
+No words.
+
+“Farms go with them. Trade stops. People starve.”
+
+The claw reached the end of its path and stopped.
+
+I waited.
+
+He had heard that too.
+
+At least I thought he had.
+
+I was learning that silence from Ithar did not necessarily mean the conversation had stopped. Sometimes it seemed to mean I had not yet said anything worth interrupting.
+
+That was not especially encouraging.
+
+“Do you care?”
+
+Ithar pushed his claw into the mound beside him.
+
+Gold slid away.
+
+For a moment I thought he was ignoring me again.
+
+Then something larger emerged beneath the coins.
+
+A piece of carved stone.
+
+Gray.
+
+Weathered.
+
+One edge still carried the remains of a face.
+
+A crown.
+
+A nose.
+
+Half a mouth.
+
+I watched him turn it between two claws.
+
+He had not answered yet.
+
+I started to wonder whether the object was the answer.
+
+Then he spoke.
+
+“No. And before you repeat the number, understand that you are making a very young mistake.
+
+“You believe scale creates meaning by itself. One death troubles you. A thousand troubles you more. A million troubles you more still. So you assume there must be some number large enough that any thinking creature, regardless of what it values, becomes obligated to arrive at the same conclusion you have.
+
+“There is not.
+
+“The kingdom you are attempting to save is six hundred and eleven years old. Do not correct me. Your historians misplaced three years because they count the coronation and not the winter in which the previous court ceased to function.
+
+“Before that kingdom, there were three others in the valley you call its heart. One survived eighty-one years. One survived four hundred and twelve. The oldest survived somewhat longer than yours has so far. It was larger. Wealthier. Its people considered these facts evidence of permanence.
+
+“They redirected a river. They cut roads into mountains. They raised seven towers where your palace district now stands.”
+
+He lifted the piece of stone slightly.
+
+“This was part of the fourth.
+
+“The kingdom after them used two towers for grain. One became a prison. Four were abandoned. Their grandchildren pulled those down because cut stone was more useful in walls than dead rulers were in memory.
+
+“You speak of your kingdom as though it is a mountain. It is not.
+
+“You speak of millions as though they are one creature. They are not. They are millions of separate creatures living inside a temporary arrangement of roads, laws, boundaries, debts, habits, and stories.
+
+“You wish me to preserve the arrangement because the arrangement matters to you.
+
+“That is different from believing the size of the arrangement should matter to me.”
+
+Then he stopped.
+
+Just stopped.
+
+I had spent most of the last minute waiting for some opening to interrupt.
+
+When one finally arrived, it took me a second to notice.
+
+Ithar set the piece of tower back onto the gold.
+
+Not tossed.
+
+Set.
+
+Carefully.
+
+I looked at the broken face.
+
+I had asked a simple question.
+
+Apparently I had requested six hundred years of context.
+
+“So no, then?”
+
+His eye narrowed.
+
+I rubbed my face.
+
+“Fine. Forget the kingdom.”
+
+He did not respond.
+
+This time I understood the silence a little better.
+
+I had asked the wrong question and then summarized his answer badly.
+
+He was allowing me to discover that for myself.
+
+“The people.”
+
+The claw moved again.
+
+Slowly.
+
+“I care about the people.”
+
+Still no words.
+
+I watched the claw disappear beneath a layer of coins.
+
+That annoyed me more than an argument would have.
+
+At least an argument meant I knew where I stood.
+
+“I crossed the mountain for them.”
+
+The claw stopped under the gold.
+
+I waited.
+
+A few seconds passed.
+
+Then Ithar lifted something from the hoard.
+
+A helmet.
+
+Human.
+
+Old enough that the leather inside had become black dust.
+
+He studied the dent in one side.
+
+Then his eye moved to my left knee.
+
+I did not like that connection.
+
+I could not tell whether he was comparing injuries, thinking about dead soldiers, or simply looking at two damaged things in sequence.
+
+“You want to know why I thought you’d listen?”
+
+The helmet disappeared beneath his claw again.
+
+He did not answer.
+
+I gave him another second.
+
+Still nothing.
+
+I had the floor again.
+
+I was starting to recognize the feeling.
+
+“Because you can stop it.”
+
+One eye opened slightly wider.
+
+“I think.”
+
+The eye narrowed again.
+
+I nodded to myself.
+
+“Right. Bad wording.”
+
+My weight shifted.
+
+My left knee objected immediately.
+
+Fifty-nine was not old enough to make every movement a negotiation.
+
+I had received help.
 
 The left knee.
 
-Three ribs that set badly.
+Three ribs that had set badly.
 
-A shoulder that clicks when the weather changes.
+A shoulder that clicked before rain.
 
-Two fingers that never closed properly after I got them crushed in a gate at thirty-seven.
+Two fingers on my right hand that had never closed correctly after a gate crushed them.
 
-People see the rank badge and assume the body beneath it must be some polished machine.
-
-B-class.
+Low B-class.
 
 Ranker.
 
-King's commendation.
+King’s commendation.
 
 Five named contracts.
 
-Three cities where I can still drink for free if the right bartender is working.
+Three cities where I could still drink for free if the right bartender was working.
 
-Sounds impressive.
+It sounded impressive when somebody else said it.
 
-It is impressive.
+It was impressive.
 
 Just not to me.
 
-I know what impressive feels like.
+I knew what impressive felt like.
 
 I used to be better.
 
 Not a little better.
 
-Enough better that sometimes I wake from dreams with the old body's instincts and spend half a second confused by how slow my hand moves.
+Enough better that sometimes I woke from dreams with the old body’s instincts and spent half a second confused by how slowly this hand moved.
 
-The dragon watches me think.
+Ithar was watching my hand.
 
-I hate that.
+I put it down.
 
-“You know the western Line wasn't built as a wall,” I say.
+“You know the western Line wasn’t built as a wall.”
 
-Nothing.
+His nostril moved again.
 
-I continue.
+Maybe acknowledgment.
 
-“The anchors don't keep pressure out.”
+Maybe breathing.
 
-The eye is open now.
+I kept going.
 
-“They move it.”
+“The anchors don’t keep pressure out.”
 
-Still nothing.
+The dragon’s claw went still.
 
-“West to east at first. Then down.”
+That time I noticed before I finished the sentence.
 
-A little more of the head lifts from the stone.
+“They move it. West to east at first. Then down.”
 
-I feel my heartbeat pick up.
+His head rose perhaps an inch.
 
-There.
+At this scale, an inch was an opinion.
 
-Finally.
-
-“The lower channels haven't been maintained because nobody knows they exist anymore.”
-
-The dragon says nothing.
-
-“The ninth station is failing because the eastern sink is full. You can rebuild every surface anchor from here to the coast and it'll still break again.”
-
-Silence.
-
-I let myself smile.
-
-Not much.
-
-This is the piece.
-
-The thing I carried up the mountain.
-
-The reason I believed I could walk into a dragon's home and leave with something other than a memorable death.
-
-The dragon's head rises another foot.
-
-Then another.
-
-At this scale, a foot is an opinion.
-
-“Continue.”
-
-I almost do.
-
-Then I remember why I am here.
-
-“No.”
-
-The word comes out before the sensible part of me can object.
-
-A dragon is looking directly at me.
-
-I have told it no.
-
-Good.
-
-Excellent.
-
-Very professional.
-
-The cave stays quiet.
-
-“Explain,” it says.
-
-“You help me with the Line.”
-
-“And then?”
-
-“Then I'll tell you the rest.”
-
-“The rest of what?”
-
-“What I know.”
-
-The dragon considers this.
-
-I can't tell if I have impressed it or become funny.
-
-With dragons, those may be neighboring categories.
-
-“You believe you possess information I desire.”
-
-“Yes.”
-
-“About the channels.”
-
-“Among other things.”
-
-“How many?”
-
-“How many what?”
-
-“Other things.”
-
-I shrug.
-
-“That depends what you know.”
-
-The dragon is quiet again.
-
-Longer this time.
-
-I shift my weight off the bad knee.
-
-Then back.
-
-Then off again.
-
-There is a stone near the wall that looks almost like it could be used as a seat if I am willing to gamble on etiquette.
-
-I remain standing.
-
-The dragon finally says, “You are unusual.”
-
-“That's generally meant as a compliment.”
-
-“It is not.”
-
-“Fair.”
-
-“You are also attempting to negotiate from a position in which I can kill you.”
-
-“Yes.”
-
-“And you have nevertheless withheld information.”
-
-“Yes.”
-
-“Why?”
-
-“Because if you kill me, you don't get it.”
-
-“You assume I cannot extract it.”
-
-I think about that.
-
-Then I decide lying would be insulting.
-
-“I assume you might.”
-
-“Yet you came.”
-
-“Yes.”
-
-“Why?”
-
-“We've covered this.”
-
-“No.”
-
-“The kingdom.”
-
-“That is what you wish me to act upon.”
-
-“Yes.”
-
-“It is not what brought you here.”
-
-For the first time since I entered the cavern, I don't have an answer ready.
-
-The dragon notices.
-
-Of course it fucking notices.
-
-“I walked here because of the Line.”
-
-“You walked here because you believed I would listen.”
-
-“Yes.”
-
-“You believed I would listen because you possess knowledge you should not possess.”
-
-I say nothing.
-
-“That belief existed before the Line began failing.”
-
-My mouth goes dry.
-
-The dragon lowers its head.
+I was learning.
 
 Slowly.
 
-Not toward me exactly.
+“The lower channels haven’t been maintained because nobody knows they exist anymore. The ninth station is failing because the eastern sink is full. Rebuild every surface anchor from here to the coast and it still breaks.”
 
-Toward my level.
+I stopped talking.
 
-It still has to stop far above it.
+Partly because I had reached the end of the explanation.
 
-“You knew something about me,” it says.
+Mostly because I expected him to ask a question.
 
-I stare back.
+He didn’t.
 
-“Enough.”
+I gave him a second.
 
-“No.”
+Then another.
 
-A pause.
+Ithar reached into the gold instead.
 
-“Not enough.”
+His claw disappeared almost to the wrist.
 
-That annoys me because it is true.
+I watched it move through the hoard and tried to decide whether I was being dismissed again.
 
-I had known the dragon existed.
+Then something came back with it.
 
-I had known roughly where.
+A chain.
 
-I had known the oldest records were wrong about its color, which sounds useless until you consider that three expeditions had gone looking for a red dragon and disappeared in a range occupied by something that, in the right light, is closer to black glass.
+Bronze links thicker than my fingers.
 
-I had known fire would not be the primary danger on the climb.
+At the end hung a warped disk covered in markings.
 
-I had known not to take the northern shelf.
+My heartbeat changed.
 
-I had known there would be sulfur vents beneath the second ridge.
+Ithar’s eye moved to me before the disk even touched the floor.
 
-I had known the broken arch near the old boundary stone was not decorative.
+Of course it did.
 
-I had known the words carved on its underside were not a warning.
+He laid it on the stone between us.
 
-I had known enough to get here.
-
-Forty years ago, I had known more.
-
-Or maybe I had only thought I did.
-
-Memory is funny when you get old enough.
-
-People imagine important things stay sharp.
-
-They don't.
-
-Sometimes I can remember the pattern on a woman's cup but not what she said when she left.
-
-I can remember the smell of a room I slept in twice and lose an entire winter.
-
-I remember techniques that took me years to learn with a clarity that still lives in my wrists.
-
-Names go first.
-
-Dates get slippery.
-
-Pain stays.
-
-Faces stay longer than they should.
-
-And some things just sit there forever for no reason you can explain.
-
-Like the number of steps between the third and fourth gates of a city that doesn't exist yet.
-
-Or didn't.
-
-Or won't.
-
-Depending how you count.
-
-The dragon's nostrils flare.
-
-I realize I've been quiet.
-
-“You knew the lower channels exist,” it says.
-
-“Yes.”
-
-“The surface builders did not.”
-
-“I know.”
-
-“The present keepers do not.”
-
-“I know.”
-
-“The kings who inherited them did not.”
-
-“I know.”
-
-“You are not old enough to have known those who did.”
-
-“No.”
-
-“You are not powerful enough to have entered the places where that knowledge remained.”
-
-That one gets me.
-
-I tilt my head.
-
-“That's rude.”
-
-“It is measurable.”
-
-“Still rude.”
-
-“What rank are you?”
-
-“B.”
-
-The dragon blinks.
-
-I add, “Low B, depending who is doing the paperwork.”
-
-“And you came here.”
-
-“Yeah.”
-
-“Alone.”
-
-“Mostly.”
-
-“Mostly?”
-
-“The horse made it pretty far.”
-
-The dragon stares at me.
-
-I wait.
-
-Nothing.
-
-“Tough room.”
-
-“What happened to the horse?”
-
-“Cliff.”
-
-“Ah.”
-
-That may be the closest thing to sympathy I get.
-
-The dragon settles slightly, but it does not put its head back down.
-
-This is progress.
-
-Terrible progress.
-
-Still.
-
-“Who taught you about the channels?” it asks.
-
-“Nobody.”
-
-“That is false.”
-
-“No. It's incomplete.”
-
-“Then complete it.”
-
-“Help me with the Line.”
-
-“No.”
-
-My stomach drops.
-
-Not because I expected immediate agreement.
-
-Because of how casually it says it.
-
-“No?”
-
-“No.”
-
-“Millions.”
-
-“You have already attempted that argument.”
-
-“You can fix this.”
-
-“Perhaps.”
-
-“And you're saying no because I won't answer a question?”
-
-“I am saying no because you have mistaken the transaction.”
-
-I grit my teeth.
-
-“Then enlighten me.”
-
-The dragon takes its time.
-
-Of course it does.
-
-“I do not require what you know about the Line.”
-
-My confidence slips.
-
-Just a little.
-
-“You seemed interested.”
-
-“I am.”
-
-“Those sound contradictory.”
-
-“They are not. The Line is old. Old things interest me. That does not mean your knowledge purchases my attention.”
-
-The dragon's gaze moves over me.
-
-Boots ruined from the climb.
-
-Coat patched twice.
-
-Rank pin still attached because apparently I am vain enough to keep wearing it in front of a creature that watched kingdoms turn into quarries.
-
-Sword at my side.
-
-One cheap knife.
-
-One expensive knife.
-
-A pack with three days of food left.
-
-A body that used to know how to do things this one never learned.
-
-“You believe the information is valuable because it is hidden.”
-
-“Usually how that works.”
-
-“No. Hidden things are common. They are buried, forgotten, misnamed, inherited by people who no longer know what they inherited. Age creates hidden things without effort.”
-
-“Not this one.”
-
-“The channels are old. Their secrecy is ordinary.”
-
-I feel my jaw tighten.
-
-The dragon continues.
-
-“You are not.”
-
-I don't like the way it says that.
-
-Not because it's threatening.
-
-Because it sounds clinical.
-
-“You are fifty-nine years old.”
-
-“Approximately.”
-
-“Approximately?”
-
-“Long story.”
-
-The pupil tightens again.
-
-I immediately regret saying it.
-
-“You favor the left knee when you stand. When I raised my head, you put that same leg behind you and turned your right side away from my mouth. You did it before you thought. That is training your present body cannot properly execute.”
-
-I say nothing.
-
-“You recognized the lower-channel structure from markings you should not understand.”
-
-Nothing.
-
-“Your coat carries sulfur from the second ridge, but your boots do not. You crossed above the vents. There is no white grit from the northern shelf.”
-
-I keep my face still.
-
-“You knew where not to walk.”
-
-Fuck.
-
-The dragon lowers its head another inch.
-
-“Who brought you here before?”
-
-“No one.”
-
-“Who described the route?”
-
-“No one.”
-
-“Who showed you the Line beneath the Line?”
-
-I look at the floor.
-
-There's a crack running through the stone between my boots.
+Old Line work.
 
 Very old.
 
-Probably older than my kingdom.
+Older than anything still mounted in the western stations.
 
-Maybe older than people.
+I did not touch it.
 
-I had planned for greed.
+“You know what that is.”
 
-I had planned for threats.
+It was not a question.
 
-I had planned to trade information one piece at a time until the Dragon decided saving a kingdom was cheaper than killing me.
+“Yeah.”
 
-I had not planned for it to care where the information came from.
+Ithar waited.
 
-“Greg.”
+I had started to understand that this was one of his preferred methods of conversation.
 
-My head snaps up.
+He did not ask for information if he could make the other person uncomfortable enough to volunteer it.
 
-I never gave it my name.
+“The early load mark.”
 
-The dragon watches my face.
+He made a low sound in his throat.
 
-Then, very slowly, it smiles.
+Not approval exactly.
 
-At least I think that's what it is.
+At least it gave me something to work with.
 
-There are too many teeth for certainty.
+“Before they changed the station notation.”
 
-“You carry a badge,” it says.
+The sound stopped.
 
-I glance down.
+I waited.
+
+He waited longer.
+
+I exhaled.
+
+“Your turn.”
+
+Ithar nudged the disk with one claw.
+
+It spun once on the stone, slow and heavy, then settled with the old mark facing me.
+
+He looked from the disk to my face.
+
+Then he finally spoke.
+
+“You crossed half a kingdom on a leg that should have convinced you to stop. You ruined your boots. You lost an animal. You entered my home without armor because some part of you correctly understood that armor would not alter the result.
+
+“You knew where I was.
+
+“You knew my name.
+
+“You knew the northern shelf would kill you before it killed a dragon. You crossed above the sulfur vents instead of through them. There is residue on your coat and none on your boots. You knew which route to take before the mountain taught you.
+
+“Now you identify a Line mark removed from human use before the oldest living keeper’s grandmother was born.
+
+“You keep telling me about the kingdom because the kingdom is what you want me to act upon.
+
+“It is not what makes you interesting.
+
+“What makes you interesting is that you arrived here carrying answers to questions you should not know exist.”
+
+Then silence again.
+
+Different this time.
+
+I could feel the difference even before I knew what it meant.
+
+Before, Ithar’s silence had felt like dismissal.
+
+Now he was watching me through it.
+
+The disk stopped spinning completely.
+
+“So we’re making progress.”
+
+He did not answer.
+
+I waited long enough to confirm that was intentional.
+
+“Terrible progress.”
+
+His nostril moved.
+
+I was beginning to suspect that might be laughter.
+
+“I’ll take it.”
+
+The old disk vanished beneath his claw.
+
+Then Ithar’s attention shifted away from me.
+
+Not lost.
+
+Focused somewhere else.
+
+I watched him think.
+
+That was new too.
+
+He pushed aside a mound of coins without looking. A jeweled cup rolled downhill. He caught it with one claw before it struck the floor, stared at it as if surprised to find it there, then placed it behind him.
+
+Another object came free.
+
+A white stone carved into the shape of a bird.
+
+He ignored that one.
+
+Then a length of rusted chain.
+
+Then a blackened ring large enough to fit over my wrist.
+
+At first I thought he was searching for something.
+
+After the third object, I changed my mind.
+
+He was sorting.
+
+Not the hoard.
+
+Possibilities.
+
+I could almost watch them pass through him.
+
+One discarded.
+
+Another considered.
+
+Another dismissed.
+
+I had expected an ancient creature to be mysterious.
+
+I had not expected mystery to involve watching him reorganize garbage.
+
+Eventually the claw stopped moving.
+
+Ithar spoke.
+
+“Nine living things have known that name in the form you used.
+
+“One is dead now. She would object to my counting her that way, but objections require enough continuity to become conversation.
+
+“One has not left the western deep in three hundred years. He dislikes land.
+
+“One would eat you before answering a question.
+
+“Another would eat you after answering it, which is a distinction he considers important.
+
+“One does not possess a mouth.
+
+“Two know an older pronunciation and would not use yours.
+
+“One has not spoken to a human since before the first stones of your capital were laid.
+
+“And one is me.
+
+“I can account for each path.
+
+“I can account for every exchange by which that name moved from one mind to another. A favor. A threat. A witness. A debt. Once, very briefly, affection.
+
+“Secrets are not magic merely because people whisper around them. They still travel.
+
+“You did not travel along any of those paths.”
+
+His claw settled among the coins.
+
+“That does not frighten me, Greg.
+
+“It interests me.”
+
+There it was.
+
+My name.
+
+For half a second I wondered how he had learned it.
+
+Then I remembered the rank pin on my chest.
 
 Right.
 
-Rank pin.
+Less magical.
 
-Name under it.
+Still irritating.
 
-“Fuck you.”
+I looked at the nine feet of claw nearest me.
 
-The smile widens.
+“What does interest buy me?”
 
-Okay.
+Ithar studied me.
 
-That one was definitely a smile.
+He did not answer immediately.
 
-And just like that, something changes.
+This time I knew he was thinking.
 
-Not much.
+Or at least I was confident enough to pretend I knew.
 
-The Dragon is still a Dragon.
+“I got thirty seconds for the name.”
 
-I am still a man standing in its cave trying not to think about how easily it could close the distance between us.
+The tail moved somewhere in the dark.
 
-The Line is still failing.
+A wave of coins shifted behind him.
 
-People are still going to die.
+“I’d like to know the exchange rate.”
 
-But the conversation is no longer the one I brought with me.
+Ithar reached down and picked up another stone.
 
-The Dragon rests its chin on the stone again.
+I stopped talking.
 
-Its eye remains open.
+I knew what stones meant now.
 
-“Greg.”
+Or I thought I did.
+
+He rolled it between two claws.
+
+I watched the stone.
+
+He watched me watch it.
+
+That should have been enough warning.
+
+It wasn’t.
+
+The stone left his claw.
+
+I moved before I thought.
+
+Right foot back.
+
+Bad leg behind.
+
+Shoulder turned.
+
+The stone passed through the space where my head had been and cracked against the wall.
+
+I stayed there.
+
+Half crouched.
+
+My knee screaming.
+
+Ithar had gone completely still.
+
+That was the first time his stillness frightened me more than his movement.
+
+I slowly straightened.
+
+“That,” I said, “was even more unnecessary.”
+
+He did not react to the complaint.
+
+His gaze dropped to my feet.
+
+Then my shoulders.
+
+Then my hands.
+
+I knew what he had seen.
+
+Worse, I knew why it mattered.
+
+Forty years ago, that movement would have been cleaner.
+
+Faster.
+
+The body would not have complained afterward.
+
+This body had never learned it properly.
+
+This body had only inherited the expectation.
+
+Memory was funny when you got old enough.
+
+People imagined important things stayed sharp.
+
+They didn’t.
+
+Sometimes I could remember the pattern on a woman’s cup but not what she said when she left.
+
+I could remember the smell of a room I had slept in twice and lose an entire winter.
+
+Some techniques stayed because my wrists remembered them even when the rest of me didn’t.
+
+Names went first.
+
+Dates got slippery.
+
+Pain stayed.
+
+Faces stayed longer than they should have.
+
+And some things simply sat there forever for no reason I could explain.
+
+The number of steps between the third and fourth gates of a city.
+
+The way rain collected beneath a tavern window.
+
+Where not to stand when Ithar woke.
+
+The name of a dragon almost nobody knew.
+
+The problem was that some of those things belonged to places that did not exist yet.
+
+Or people I had not met.
+
+Or events that had never happened.
+
+Not here.
+
+Ithar continued studying me.
+
+I let him.
+
+There was no useful way to hide what he had already seen.
+
+His claw touched the stone where my right foot had been.
+
+Then the place where my left had moved.
+
+He traced the distance between them once.
+
+Not drawing.
+
+Measuring.
+
+That bothered me.
 
 “What?”
 
-“Who told you how the Line works?”
+He did not answer.
 
-I breathe out.
+His eye moved to my knee.
 
-“Nobody.”
+Then to my hands again.
 
-“Then how do you know?”
+I could almost feel him assembling the question.
 
-I look at the Dragon.
+I would have preferred he just asked it.
 
-At the cave.
+Instead he looked at the blood dried along the bottom of my coat.
 
-At the thing I crossed half a kingdom and one very unfortunate horse to find.
+Then toward the cave entrance.
 
-There are answers that sound insane because they are insane.
+“Your horse?”
 
-There are others that become worse when you try to make them reasonable.
+The question caught me off guard.
 
-I have had forty years to find a good way to explain this.
+“Made it pretty far.”
 
-I never did.
+Ithar waited.
 
-So I give it the short version.
+I knew that wait now.
 
-“I've seen it fail.”
+“Cliff.”
 
-The dragon goes still.
+A beat.
 
-Not interested.
+“Ah.”
 
-Still.
+I had no idea whether that was sympathy.
 
-There is a difference.
+It was the closest thing I had gotten.
+
+The dragon shifted his weight.
+
+The cave answered.
+
+Stone pressed against stone somewhere deeper inside the mountain. Coins slid. Something metallic fell for several seconds before finally hitting the floor.
+
+Then Ithar settled again.
+
+When he spoke, the humor was gone.
+
+“You believe I am examining what you know.
+
+“I am not.
+
+“Knowledge moves. It is stolen, taught, inherited, guessed, rediscovered, recorded badly, remembered worse. A human knowing one old name is unlikely. A human recognizing one dead system is unusual. A human choosing one forgotten route can be explained.
+
+“Individually, each fact is merely inconvenient.
+
+“Together they become a shape.
+
+“You knew the mountain before traveling it. Your body attempts movements it has not been trained to perform. You recognize systems removed from use before you were born. You possess a name for which I can find no path to you.
+
+“And you speak about the failure of the western Line with the irritation of someone remembering a mistake rather than the fear of someone predicting one.
+
+“That difference matters.
+
+“A prophet watches the future.
+
+“You keep looking backward.”
+
+I did not move.
+
+Ithar lowered his head closer.
+
+“I am not trying to collect facts, Greg.
+
+“I am trying to determine what kind of cause produces you.”
+
+That was worse than being interesting.
+
+Significantly worse.
+
+I looked at the passage behind me.
+
+Six days in.
+
+Probably eight out.
+
+Assuming I got an out.
+
+“The Line,” I said.
+
+One nostril moved.
+
+I was almost certain that one was amusement.
+
+“I really need you to care about the Line.”
+
+Ithar said nothing.
+
+I waited.
+
+His claw moved once through the gold.
+
+That was all.
+
+I was beginning to understand the structure of the conversation.
+
+I got to talk until I gave him something worth stopping me for.
+
+Unfortunately, he seemed to have raised the standard.
+
+“Help me with the Line and I’ll explain.”
+
+His eye remained on me.
+
+“No.”
+
+“You didn’t even think about it.”
+
+A low hum came from behind his teeth.
+
+I stopped.
+
+Apparently he had.
+
+“I meant visibly.”
+
+That earned me nothing.
+
+“Fine.”
+
+I looked around for somewhere to sit.
+
+There was a stone near the wall that looked almost flat.
+
+I considered it.
+
+Then considered how much dignity I had left.
+
+My knee settled the argument.
+
+I sat.
+
+Ithar watched me do it.
+
+“Happy?”
+
+No response.
+
+“Of course not.”
+
+I rubbed the joint through my trousers.
+
+The cave was hot enough that sweat had dried under my collar.
+
+The trip back was going to be miserable.
+
+Assuming there was a trip back.
+
+I looked up.
+
+“You want everything?”
+
+One eye opened a little wider.
+
+That was answer enough.
+
+“Not happening.”
+
+The eye narrowed again.
+
+“I have forty years of mistakes in here. You don’t get all of them because I know your name.”
+
+Ithar remained silent.
+
+I waited.
+
+The silence stretched long enough that I started wondering whether I had misread him.
+
+Then his claw touched the old Line disk beneath the gold.
+
+One tap.
+
+I understood.
+
+Not the name.
+
+The Line.
+
+The routes.
+
+The movement.
+
+All of it.
+
+“You think it’s connected.”
+
+Still silence.
+
+I had begun to resent how much work he made me do in my own interrogation.
+
+“The name. The mountain. The Line.”
+
+His claw tapped the stone again.
+
+“And the way I moved.”
+
+The claw stopped.
+
+There.
+
+That one.
+
+I looked at my hands.
+
+“They are.”
+
+Ithar did not speak.
+
+I had expected triumph from him.
+
+Instead he waited.
+
+That was somehow worse.
+
+“They’re all connected.”
+
+The cave felt quieter after I said it.
+
+Maybe because Ithar stopped moving.
+
+Maybe because I did.
+
+He let the silence sit between us until I could feel the shape of what I had admitted.
+
+Then he finally asked the question.
+
+“How do you know the Line will fail?”
+
+I looked at him.
+
+There were answers to that question.
+
+Most were lies.
+
+A few were technically true.
+
+One was the truth.
+
+I had come six days to ask a dragon for help.
+
+Apparently honesty had survived longer than the horse.
+
+“I’ve seen it fail.”
+
+Ithar did not move.
+
+I waited for the claw.
+
+The nostril.
+
+The eye.
+
+Anything.
+
+Nothing changed.
+
+That stillness had become its own answer.
+
+“Fail,” I added.
+
+The dragon remained motionless for several seconds.
+
+Then his head lowered until one eye filled most of my view.
+
+“The western Line has not failed during your lifetime. The ninth station remains intact. The eastern sink has not filled. The lower channels remain inaccessible from the routes you described.
+
+“So you did not witness the event you are describing.
+
+“You did not read it. If you had, you would speak with the certainty of text, and text is full of edges. You do not have edges.
+
+“You are missing pieces.
+
+“You remember some details too clearly and others not at all.
+
+“You do not sound like a man reciting a prophecy.
+
+“You sound like a man trying to remember where he left something.”
+
+His pupil tightened.
 
 “When?”
 
-I swallow.
+That one word landed harder than the monologue.
 
-“Before.”
+I looked at the stone between my boots.
 
-The silence that follows is the first silence in the cave that feels like mine.
+“Forty years from now.”
 
-The dragon studies me for a very long time.
+Ithar went still again.
 
-“The Line has not failed in your lifetime.”
+Completely.
 
-“I know.”
+No claw.
 
-Then it asks, quietly:
+No tail.
 
-“How?”
+No breath I could hear.
 
-I smile despite myself.
+I had learned enough by then to understand that this silence was not dismissal.
 
-Finally.
+For the first time since entering the cave, I had managed to take the floor away from him.
 
-A question I know how to answer.
+I waited.
+
+Eventually Ithar spoke.
+
+“No.
+
+“You are fifty-nine years old. Forty years from now, you would be ninety-nine. Your body does not carry ninety-nine years. Your injuries do not. Your rank does not. Your habits do not.
+
+“And yet you did not calculate that date.
+
+“You retrieved it.
+
+“The answer existed before I asked the question.”
+
+His eye narrowed.
+
+“Where?”
+
+I looked up at him.
 
 “I was there.”
 
-The Dragon does not blink.
+The dragon stared at me.
 
-“No,” it says.
+Then something changed.
 
-And this time, there is something almost like pleasure in its voice.
+Not fear.
+
+Not disbelief exactly.
+
+Recognition without understanding.
+
+The expression of a creature that had finally found the edge of a problem and discovered the edge was not where it belonged.
+
+“No.”
+
+His voice was almost gentle.
 
 “You were not.”
 
-I look up at it.
+I looked up at him.
 
 “Not this time.”
