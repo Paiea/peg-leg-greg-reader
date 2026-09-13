@@ -17,6 +17,20 @@ class ShortTakePlanTests(unittest.TestCase):
             ["greg", "dragon", "greg", "dragon", "greg", "greg", "dragon", "greg", "greg"],
         )
 
+    def test_sustained_dragon_quote_stays_one_dragon_territory(self):
+        text = '''I looked at him.\n\nThen the dragon took the floor.\n\n“First paragraph of Ithar's examination.\n\n“Second paragraph stays with Ithar.\n\n“Third paragraph closes the examination.”\n\nI rubbed my face.'''
+        rows = classify_paragraphs(text)
+        spoken = [
+            segment
+            for row in rows
+            for segment in row["segments"]
+            if segment["role"] == "dragon"
+        ]
+        self.assertEqual(len(spoken), 1)
+        self.assertIn("First paragraph", spoken[0]["text"])
+        self.assertIn("Second paragraph", spoken[0]["text"])
+        self.assertIn("Third paragraph", spoken[0]["text"])
+
     def test_chunker_preserves_text_and_limit(self):
         paragraphs = [
             {"role": "greg", "text": "A" * 220},
