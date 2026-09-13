@@ -1,0 +1,47 @@
+name: 3L Dragon Deep Option 2
+
+on:
+  push:
+    branches:
+      - 3l/dragon-speed-spike
+    paths:
+      - 3l/audio-spike/dragon-deep-option2.json
+
+permissions:
+  contents: read
+
+env:
+  AUDITION_DIR: /tmp/dragon-deep-option2
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Download and render deep at 80 percent varispeed
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$AUDITION_DIR"
+          URL=$(python - <<'PY'
+          import json
+          print(json.load(open('3l/audio-spike/dragon-deep-option2.json'))['preview_url'])
+          PY
+          )
+          curl -fL --retry 4 --retry-delay 2 -o "$AUDITION_DIR/base.mp3" "$URL"
+          SR=$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=noprint_wrappers=1:nokey=1 "$AUDITION_DIR/base.mp3")
+          ffmpeg -y -i "$AUDITION_DIR/base.mp3" -af "asetrate=${SR}*0.80,aresample=${SR}" -vn -c:a libmp3lame -b:a 192k "$AUDITION_DIR/deep-option-2.mp3"
+          rm -f "$AUDITION_DIR/base.mp3"
+
+      - name: Upload audition
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-deep-option2
+          path: /tmp/dragon-deep-option2/*.mp3
+          if-no-files-found: error
