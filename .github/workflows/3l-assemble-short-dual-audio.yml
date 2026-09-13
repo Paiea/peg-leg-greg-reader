@@ -23,7 +23,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
+          sparse-checkout: |
+            .github/workflows
+            scripts
+            tests
+            3l/audio
+            3l/assets/audio
 
       - name: Ensure ffmpeg tools
         shell: bash
