@@ -1,0 +1,28 @@
+name: 3L Frontier Publish Tests
+
+on:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+      - main
+    paths:
+      - '3l/**'
+      - 'scripts/build_3l_record_pages.py'
+      - 'scripts/plan_3l_short_dual_render.py'
+      - 'scripts/build_3l_parallel_audio_work_order.py'
+      - 'tests/test_3l_frontier_publish.py'
+      - '.github/workflows/3l-frontier-publish-tests.yml'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            3l
+            scripts
+            tests/test_3l_frontier_publish.py
+      - name: Verify frontier publication contract
+        run: python -m unittest tests.test_3l_frontier_publish -v
