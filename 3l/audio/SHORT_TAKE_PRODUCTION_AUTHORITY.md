@@ -6,65 +6,103 @@ This file governs synthetic audio capture and assembly for 3L. Where an older pr
 
 ## Core rule
 
-3L audio is built from **short, preview-safe takes** and then assembled.
+3L audio is built from **short, preview-safe canon chunks** and then assembled.
 
-Do not use full-chapter synthesis as the production source. Do not generate a full Greg chapter and a full Ithar chapter and attempt to carve them into the final performance afterward.
+Do not use full-chapter synthesis as the production source.
 
 The production path is:
 
-**CANON PROSE → SEMANTIC SPEAKER ROUTING → SHORT TAKES → PREVIEW MP3 CAPTURE → CANON-ORDER ASSEMBLY → VERIFY → PUBLISH**
+**CANON PROSE → SEMANTIC SPEAKER ROUTING → ~29-SECOND CANON CHUNKS → DUAL VOICE CAPTURE → LOCAL SPEAKER SELECTION → CANON-ORDER ASSEMBLY → VERIFY → PUBLISH**
 
 Canon prose remains the story authority.
 
-## Take size
+## Canon chunk size
 
-Target natural takes of roughly **20–29 seconds**.
+Target natural sequential chunks of roughly **20–29 seconds**.
 
-For the current voice generator, keep each submitted take **preview-safe**, normally no more than about **500 characters**.
+For the current voice generator, keep each submitted chunk **preview-safe**, normally no more than about **500 characters**.
 
-The take does not need to reach 29 seconds. Speaker ownership and a clean semantic boundary are more important than filling the time limit.
-
-Preferred boundaries, in order:
+Preferred chunk boundaries, in order:
 
 1. paragraph boundary
 2. complete dialogue turn
 3. complete sentence
 4. clause boundary only when necessary
 
-Do not split mid-sentence merely to make takes equal length.
+Do not split mid-sentence merely to make chunks equal length.
 
-## Speaker purity
+The goal is the same capture geometry that worked for Record 001: stable, roughly half-minute pieces that seam cleanly.
 
-Every generated take has exactly **one audio identity**.
+## Dual-render rule
 
-Current identities:
+For cave-frame material containing both Greg and Ithar, render the **same exact short canon chunk twice**:
 
-- **GREG VOICE** → `deep`
-- **DRAGON VOICE / ITHAR** → `normal`
+- **GREG SOURCE** → `deep`
+- **DRAGON SOURCE** → `normal`
 
-Narration always belongs to Greg, including narration about Ithar.
+Both captures use identical text and identical chunk boundaries.
 
-All remembered characters also remain Greg's audio identity unless a later authority explicitly changes the cast model.
+This is intentionally local. A ~29-second chunk may be dual-rendered; an entire chapter may not.
 
-When the semantic speaker changes, end the current take and start another take even when this produces a short take.
+The two renders are source material for that one short chunk. They are not two alternate chapter performances.
 
-Never put Greg/narrator words into a Dragon take. Never put Ithar's spoken words into a Greg take.
+## Semantic speaker selection
+
+Narration always belongs to Greg, including narration describing Ithar.
+
+Greg's spoken dialogue belongs to Greg.
+
+Ithar's actual spoken dialogue belongs to the Dragon voice.
+
+All remembered characters remain Greg's audio identity unless a later authority explicitly expands the cast.
+
+Within each short dual-render chunk, use semantic speaker routing to select audio spans from the matching source render:
+
+- narrator / Greg span → select from `deep`
+- Ithar span → select from `normal`
+
+Speaker transitions should be placed at real paragraph/dialogue boundaries and snapped to nearby detected silence where possible.
+
+Do not infer Dragon ownership merely because the paragraph discusses the dragon. Only Ithar's spoken words use the Dragon source.
+
+## Why dual-render chunks
+
+Do not create hundreds of microscopic 1–3 second synthesis calls merely because cave dialogue alternates rapidly.
+
+That produces unstable voice starts and turns the chapter into a playlist of fragments.
+
+Short dual-render chunks preserve:
+
+- stable ~29-second synthesis windows
+- the proven Record 001 seam geometry
+- distinct Greg / Ithar generated voices
+- local, auditable speaker replacement
+- no need for full-chapter alignment
 
 ## Generator contract
 
-For every production capture:
+For each short source render:
 
 - `transcript` and `preview_transcript` must be **identical**
 - the complete submitted text must fit within the preview-safe limit
 - capture the returned playable `preview_url`
-- record the voice identity, canon anchor, take index, and preview URL in the production ledger
+- record record number, chunk index, voice identity, exact transcript, context id, and preview URL
 - the preview MP3 is the assembly source
 
-Do not treat a long-form `audio_url` as the canonical assembly source when the corresponding production take was designed around preview capture.
+Each chunk therefore normally has two capture receipts: one `deep`, one `normal`.
 
-## Dragon treatment
+Do not use a long-form full-chapter `audio_url` as the production source.
 
-Current Ithar production profile:
+## Current voice profiles
+
+### Greg
+
+- voice = `deep`
+- tempo = **1.0**
+- no pitch shift
+- no formant shift
+
+### Ithar
 
 - voice = `normal`
 - tempo = **1.0**
@@ -72,57 +110,60 @@ Current Ithar production profile:
 - no formant shift
 - no monster DSP
 
-Current Greg production profile:
-
-- voice = `deep`
-- tempo = **1.0**
-- no post-hoc pitch or formant manipulation by default
-
-Dragon identity comes from prose, semantic speaker ownership, patience, cadence, and turn structure, not waveform distortion.
+Dragon identity comes from prose, semantic speaker ownership, cadence, patience, and turn structure, not waveform distortion.
 
 ## Assembly
 
-Download the captured preview MP3s and place them in exact canon order.
+For every source preview MP3:
+
+1. download it
+2. ffprobe it before use
+3. detect usable silence boundaries
+4. map semantic speaker transitions for that chunk
+5. cut Greg spans from the Greg source and Ithar spans from the Dragon source
+6. concatenate those local spans back into the exact chunk order
+
+Then concatenate completed chunks in canon order.
 
 Assembly should:
 
-1. ffprobe every source take before use
-2. normalize technical format only as necessary for concatenation
-3. preserve the generated speech timing inside each take
-4. insert only intentional seam silence, not blanket dramatic pauses
-5. concatenate in exact canon order
-6. append approximately **2 seconds of settling silence** at chapter end
-7. encode the final chapter MP3
-8. ffprobe/decode-verify the final asset
-9. record duration, file size, and SHA-256 in verification output
+- normalize technical format only as necessary
+- preserve generated speech timing inside selected spans
+- use only intentional seam silence
+- avoid blanket dramatic pauses between chunks
+- append approximately **2 seconds of settling silence** at chapter end
+- encode the final chapter MP3
+- ffprobe and decode-verify the finished asset
+- record duration, byte size, and SHA-256
 
-A seam is successful when it sounds like one continuous reading rather than a playlist of clips.
+A seam is successful when the chapter sounds like one continuous performance rather than stitched source files.
 
 ## Canon fidelity
 
-Take transcripts collectively must reproduce the spoken/narrated chapter text in order.
+The ordered chunk transcripts must reproduce the chapter text exactly, excluding only non-spoken Markdown headings and production metadata.
 
-Production-only speaker labels, take numbers, comments, and beat instructions never render publicly and are never spoken.
+Production-only speaker labels, chunk numbers, timing maps, and comments are never spoken and never render publicly.
 
-Do not rewrite canon prose merely to make synthesis easier. If a pronunciation or synthesis problem requires a wording change, that is a separate editorial decision and must be made at canon authority, not silently inside audio production.
+Do not rewrite canon prose merely to make synthesis easier. A wording change belongs at canon authority.
 
 ## Website publication
 
-Each record page keeps the written prose and its chapter audio together.
+Each record page keeps its prose and chapter audio together.
 
 The separate Listening Archive remains the audio-first library.
 
-A record must not show a playable chapter audio element until an assembled chapter MP3 has passed decode verification. Partial captures may be tracked internally but must not masquerade as the finished chapter.
+Do not expose a playable chapter audio element until the assembled MP3 has passed decode verification. Partial captures remain internal production material.
 
 ## Superseded methods
 
 The following are not current production methods:
 
-- full-chapter Greg render + full-chapter Ithar render + post-hoc semantic slicing
+- full-chapter Greg render + full-chapter Ithar render + post-hoc slicing
+- one synthesis request for every tiny speaker turn
 - pitch-shifted or slowed Dragon by default
-- mixed-speaker takes generated with one voice
-- long generated audio used merely because it exists when the short-take preview factory is the intended source
+- one mixed-speaker render used as the final two-voice performance
+- long generated audio substituted for the short-take factory merely because it exists
 
 ## Current application
 
-Records 002 and 003 are the first chapters after Record 001 to use this authority from capture through final publication.
+Records 002 and 003 are the first chapters after Record 001 to use this short dual-render authority from capture through publication.
