@@ -1,0 +1,142 @@
+name: 3L Record 001 past-headspace v7 source
+
+on:
+  push:
+    branches: [3l/record-001-past-headspace-v7]
+    paths:
+      - '.github/workflows/3l-record-001-v7-source.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  derive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3l/record-001-past-headspace-v7
+          fetch-depth: 1
+
+      - name: Fetch verified v6 production authority
+        run: |
+          git fetch origin 3l/record-001-rewrite-audio --depth=1
+          git show FETCH_HEAD:3l/manuscript/record-001.md > /tmp/record-001-v6.md
+          git show FETCH_HEAD:scripts/derive_3l_record_001_preview_plan_v6.py > /tmp/derive.py
+          git show FETCH_HEAD:3l/audio/experiments/record-001-preview-v6-assets.txt > /tmp/v6-assets.txt
+
+      - name: Restore approved yawn opening only
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('3l/manuscript/record-001.md')
+          old = p.read_text()
+          marker = 'He considered that.\n'
+          if marker not in old:
+              raise SystemExit('splice marker missing')
+          suffix = old[old.index(marker):]
+          opening = '''## RECORD 001
+
+## THE PETITIONER
+
+The dragon yawned while I was explaining how many people were going to die.
+
+It was not a small yawn.
+
+Its head lifted from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.
+
+I stopped talking.
+
+Not because I was afraid.
+
+I was afraid, obviously.
+
+I was just also offended.
+
+“Am I boring you?”
+
+One eye opened halfway.
+
+The eye studied me.
+
+Then one nostril moved.
+
+“Mm.”
+
+“Food has arrived.”
+
+I had spent six days getting there.
+
+Six days up a mountain nobody used unless they were lost, stupid, or being paid enough to temporarily become both. My left knee had stopped pretending it was fine somewhere around the second ridge. One boot had split at the heel. I had slept badly, eaten worse, and lost a horse.
+
+Not metaphorically.
+
+The horse was gone.
+
+The other eye opened.
+
+“Is your name Dinner?”
+
+“Greg.”
+
+'''
+          new = opening + suffix
+          assert new.startswith('## RECORD 001\n\n## THE PETITIONER\n\nThe dragon yawned while I was explaining how many people were going to die.')
+          assert '“Ithar.”' in new
+          assert '“Thirty seconds.”' in new
+          assert 'A prophet watches the future. You keep looking backward.' in new
+          assert new.rstrip().endswith('“Not this time.”')
+          p.write_text(new)
+          print('new chars', len(new), 'old chars', len(old))
+          PY
+
+      - name: Derive v6 and v7 chunk plans and exact reuse map
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s = Path('/tmp/derive.py').read_text()
+          s = s.replace("    if len(chunks) != 128:\n        raise SystemExit(f'Expected 128 technical chunks, got {len(chunks)}')\n", '')
+          Path('/tmp/derive-flex.py').write_text(s)
+          PY
+          python /tmp/derive-flex.py --source /tmp/record-001-v6.md --output /tmp/v6-plan.json
+          python /tmp/derive-flex.py --source 3l/manuscript/record-001.md --output /tmp/v7-plan.json
+          mkdir -p 3l/audio/experiments
+          cp /tmp/v7-plan.json 3l/audio/experiments/record-001-preview-v7-plan.json
+          python - <<'PY'
+          import json
+          from collections import defaultdict, deque
+          from pathlib import Path
+          v6 = json.loads(Path('/tmp/v6-plan.json').read_text())
+          v7 = json.loads(Path('/tmp/v7-plan.json').read_text())
+          assets = [x.strip() for x in Path('/tmp/v6-assets.txt').read_text().splitlines() if x.strip()]
+          assert len(assets) == len(v6['chunks'])
+          pool = defaultdict(deque)
+          for c, a in zip(v6['chunks'], assets):
+              pool[(c['voice'], c['text'])].append(a)
+          ledger=[]; missing=[]; reused=0
+          for c in v7['chunks']:
+              q=pool[(c['voice'], c['text'])]
+              if q:
+                  asset=q.popleft(); reused += 1
+              else:
+                  asset='MISSING'
+                  missing.append({k:c[k] for k in ('id','dramatic_run','part_in_run','voice','text','chars','pause_after_ms')})
+              ledger.append(asset)
+          Path('3l/audio/experiments/record-001-preview-v7-assets.txt').write_text('\n'.join(ledger)+'\n')
+          Path('3l/audio/experiments/record-001-preview-v7-missing.json').write_text(json.dumps(missing, indent=2, ensure_ascii=False)+'\n')
+          report={'v6_chunks':len(v6['chunks']),'v7_chunks':len(v7['chunks']),'reused':reused,'missing':len(missing),'v7_paragraphs':v7['paragraphs'],'v7_runs':v7['dramatic_runs']}
+          Path('3l/audio/experiments/record-001-preview-v7-reuse-report.json').write_text(json.dumps(report, indent=2)+'\n')
+          print(json.dumps(report, indent=2))
+          print('MISSING CHUNKS')
+          for m in missing:
+              print('\n---',m['id'],m['voice'],m['chars'],'chars ---\n'+m['text'])
+          PY
+
+      - name: Commit v7 source and production map
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add 3l/manuscript/record-001.md 3l/audio/experiments/record-001-preview-v7-*.json 3l/audio/experiments/record-001-preview-v7-assets.txt
+          git commit -m '3L: restore yawn opening and derive Record 001 v7 audio reuse map'
+          git push origin HEAD:3l/record-001-past-headspace-v7
