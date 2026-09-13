@@ -1,0 +1,522 @@
+{
+  "record": 1,
+  "status": "verified_unlistened_fancy_dragon_candidate",
+  "assembly_mode": "existing_deep_greg_plus_fancy_take_semantic_swap",
+  "source_take_count": 36,
+  "fancy_take_count": 28,
+  "dragon_span_count": 112,
+  "greg_source": "existing Deep Record 001 short takes",
+  "dragon_source": "Fancy preview-safe takes",
+  "dragon_pitch_semitones": -3.25,
+  "dragon_pitch_ratio": 0.8288406503840438,
+  "dragon_tempo": 1.0,
+  "dragon_formant": "preserved",
+  "greg_or_narrator_voice_replacement_count": 0,
+  "take_role_patterns_verified": true,
+  "settling_tail_seconds": 2.0,
+  "candidate_duration_seconds": 989.424,
+  "candidate_byte_size": 19789005,
+  "candidate_sha256": "02ecbdc8537669eeb5fac612991e102478b8924072f51b4456b3c8105a8d55c4",
+  "takes": [
+    {
+      "order": 1,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 2,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 4
+    },
+    {
+      "order": 3,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 4,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 6
+    },
+    {
+      "order": 5,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 2
+    },
+    {
+      "order": 6,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 5
+    },
+    {
+      "order": 7,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 4
+    },
+    {
+      "order": 8,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 1
+    },
+    {
+      "order": 9,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 2
+    },
+    {
+      "order": 10,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 6
+    },
+    {
+      "order": 11,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 6
+    },
+    {
+      "order": 12,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 4
+    },
+    {
+      "order": 13,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 14,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 15,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 16,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 4
+    },
+    {
+      "order": 17,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 4
+    },
+    {
+      "order": 18,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 6
+    },
+    {
+      "order": 19,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 6
+    },
+    {
+      "order": 20,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 5
+    },
+    {
+      "order": 21,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 22,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 23,
+      "role_pattern": [
+        "greg"
+      ],
+      "fancy_take_used": false,
+      "dragon_span_count": 0
+    },
+    {
+      "order": 24,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 7
+    },
+    {
+      "order": 25,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 6
+    },
+    {
+      "order": 26,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 8
+    },
+    {
+      "order": 27,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 3
+    },
+    {
+      "order": 28,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 1
+    },
+    {
+      "order": 29,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 5
+    },
+    {
+      "order": 30,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 2
+    },
+    {
+      "order": 31,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 5
+    },
+    {
+      "order": 32,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 1
+    },
+    {
+      "order": 33,
+      "role_pattern": [
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 1
+    },
+    {
+      "order": 34,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 3
+    },
+    {
+      "order": 35,
+      "role_pattern": [
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 3
+    },
+    {
+      "order": 36,
+      "role_pattern": [
+        "dragon",
+        "greg",
+        "dragon",
+        "greg"
+      ],
+      "fancy_take_used": true,
+      "dragon_span_count": 2
+    }
+  ]
+}
