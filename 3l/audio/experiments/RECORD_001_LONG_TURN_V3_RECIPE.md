@@ -1,10 +1,10 @@
 # Record 001 Long-Turn Dragon v3 Recipe
 
-Status: experimental listening candidate. The performance source was converted to past tense after the current captures and MP3 were rendered. Existing capture URLs, candidate MP3, and verification receipt are therefore pre-tense artifacts and must be regenerated before promotion.
+Status: experimental listening candidate. The 26-block past-tense recapture has been assembled and mechanically verified, but still requires human listen-back before promotion.
 
 ## Why this exists
 
-The mixed-speaker splice experiment duplicated dialogue because semantic text ownership was mapped onto approximate waveform boundaries. This version removes that failure mode entirely.
+The mixed-speaker splice experiment duplicated dialogue because semantic text ownership was mapped onto approximate waveform boundaries. This version removes that failure mode entirely by generating speaker-pure clips first and joining them with explicit pause metadata.
 
 ## Performance rule
 
@@ -12,11 +12,13 @@ Write and capture speaker-pure audio.
 
 - Greg narration and Greg dialogue use `deep`.
 - Dragon uses `fancy`.
-- Greg narration, action, observation, and internal framing use past tense. Direct dialogue keeps the tense natural to what the speaker is saying.
-- Dragon should speak in fewer, longer turns.
-- Between Dragon turns, use Greg reaction, silence, staring, head movement, eye movement, posture, or other nonverbal scene behavior instead of unnecessary one-line ping-pong.
-- Preserve short exchanges when they materially improve the scene, but do not make them the default rhythm.
-- Never generate a take containing both Greg and Dragon.
+- Greg narration, action, observation, and internal framing use past tense.
+- Direct dialogue keeps the tense natural to what the speaker is saying.
+- Dragon should speak in fewer, longer turns where the scene allows it.
+- Preserve short exchanges when they materially improve the scene.
+- Never generate one audio clip containing both Greg and Dragon.
+
+The current performance source remains 26 dramatic blocks. Technical capture chunks exist only to satisfy preview-size limits and do not change the dramatic block structure.
 
 ## Dragon treatment
 
@@ -40,44 +42,57 @@ Pauses are assembler metadata, not punctuation tricks.
 - major reveal beat: approximately `900-1400 ms`
 - final settling tail: `2000 ms`
 
-These values can be adjusted later without regenerating voice captures.
+Pause values can be adjusted later without regenerating voice captures.
 
 ## Capture rule
 
-The dramatic performance has 26 blocks. Preview-size limits split some long blocks into technical chunks, producing 36 total captures.
+For each generated clip:
 
-Technical chunks never cross a speaker boundary. When one dramatic turn requires multiple captures, concatenate the same-speaker chunks with the 80 ms continuation pause.
+- use the full speaker-pure chunk as `transcript`
+- use the identical text as `preview_transcript`
+- keep each technical chunk preview-safe, approximately 500 characters or less
+- use `deep` for Greg and narration
+- use `fancy` for Dragon before deterministic pitch treatment
 
-For capture, use identical `transcript` and `preview_transcript` text so the downloadable preview MP3 is the exact source used in assembly.
+The current past-tense build uses 37 technical captures across the same 26 dramatic blocks.
 
-## Record 001 production corrections
+### Block 019
 
-The capture manifest is authoritative for the pre-tense listening candidate where it differs from the prose spike:
+Block 019 is still one dramatic block, but it contains two speaker-pure technical clips:
 
-- Block 006 does not claim the Dragon already knows about the horse.
-- Block 007 begins with Greg's body and Line explanation. Horse material remains later in Block 016.
-- `The dragon goes still.` is Greg-owned nonverbal narration at the end of Block 018.
-- Block 019 contains only the Dragon speech `When?`.
+1. Greg narration: `The dragon went still.` followed by an `80 ms` continuation pause.
+2. Dragon speech: `When?` followed by the block's `800 ms` dramatic pause.
 
-Before the next render, regenerate every capture from the current past-tense performance source rather than reusing the existing preview URLs.
+This preserves the prose/block structure without putting narrator text in the Dragon voice or generating a mixed-speaker take.
 
-## Files
+## Current reproducible files
 
-- performance spike: `3l/performance/record-001.audio-v3-long-turn.md`
-- pre-tense capture binding + pauses: `3l/audio/experiments/record-001-long-turn-v3-captures.json`
-- deterministic assembler: `scripts/build_3l_long_turn_candidate.py`
-- disposable build workflow: `.github/workflows/3l-record-001-long-turn-v3.yml`
-- pre-tense listening candidate: `3l/assets/audio/record-001-long-turn-v3.mp3`
-- pre-tense verification receipt: `3l/audio/verification/record-001-long-turn-v3.json`
+- performance source: `3l/performance/record-001.audio-v3-long-turn.md`
+- exact past-tense capture binding + pauses: `3l/audio/experiments/record-001-past-26block-v3-captures.json`
+- deterministic assembler: `scripts/build_3l_past_26block_candidate.py`
+- build workflow: `.github/workflows/3l-record-001-past-26block.yml`
+- listening candidate: `3l/assets/audio/record-001-past-26block-v3.mp3`
+- verification receipt: `3l/audio/verification/record-001-past-26block-v3.json`
+- experiment branch: `3l/record-001-clean-speaker-v2`
+- successful workflow run: `34742919726`
 
-## Verified pre-tense build shape
+The older `record-001-long-turn-v3.mp3` and its original capture manifest are pre-tense historical artifacts and are not the current listening candidate.
 
+## Verified past-tense build shape
+
+- narration tense: past
 - 26 dramatic blocks
-- 36 speaker-pure capture files
+- 37 speaker-pure technical captures
 - 12 Dragon turns
-- 17 Fancy Dragon technical chunks
-- 19 Deep Greg technical chunks
+- 15 Fancy Dragon technical chunks
+- 22 Deep Greg technical chunks
 - 0 mixed-speaker clips
 - 0 waveform speaker-boundary inference
+- Dragon pitch: `-3.25` semitones
+- Dragon tempo: `1.0`
+- candidate duration: `588.912` seconds
+- candidate SHA256: `51e11df69f862bd5224ea1832480d58013215c7244d13f1c107a9f5e1cdd3627`
 
-If the past-tense listen-back succeeds after recapture, this pattern should become the starting production shape for future 3L records. If it fails, keep it labeled as an experiment and change the performance layer before building more infrastructure.
+The GitHub workflow verified the manifest shape, downloaded all 37 exact captures, assembled the candidate, decoded the result successfully, and wrote the verification receipt. A separate local check of the downloaded artifact reproduced the same duration, byte size, and SHA256 and decoded the MP3 without errors.
+
+If listen-back succeeds, this pattern should become the starting production shape for future 3L records. If it fails, keep it labeled as an experiment and change the performance layer before promoting more infrastructure.
