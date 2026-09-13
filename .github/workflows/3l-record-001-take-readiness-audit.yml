@@ -1,0 +1,102 @@
+name: 3L Record 001 take readiness audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [3l/record-001-rewrite-audio]
+    paths:
+      - '.github/workflows/3l-record-001-take-readiness-audit.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3l/record-001-rewrite-audio
+          fetch-depth: 1
+
+      - name: Probe full-take readiness once
+        run: |
+          python - <<'PY'
+          import concurrent.futures
+          import html
+          import json
+          import pathlib
+          import re
+          import shutil
+          import subprocess
+          import time
+
+          manifest = json.loads(pathlib.Path('3l/audio/experiments/record-001-headspace-v5-captures.json').read_text())
+          chrome = shutil.which('google-chrome') or shutil.which('chromium') or shutil.which('chromium-browser')
+          if not chrome:
+              raise SystemExit('No Chrome/Chromium found on runner')
+
+          def probe(block):
+              bid = block['id']
+              cid = block['context_id']
+              page = f'https://www.aidocmaker.com/g0/audio?name={cid}'
+              t0 = time.time()
+              try:
+                  p = subprocess.run([
+                      chrome, '--headless', '--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage',
+                      '--virtual-time-budget=4000', '--dump-dom', page
+                  ], capture_output=True, text=True, timeout=18)
+                  dom = p.stdout
+                  matches = re.findall(r'<audio[^>]+src="([^"]+)"', dom, flags=re.I)
+                  full = [html.unescape(x) for x in matches if 'adm--audio-files--lt--private' in html.unescape(x)]
+                  preview = [html.unescape(x) for x in matches if 'adm--audio-files--preview' in html.unescape(x)]
+                  return {
+                      'id': bid,
+                      'voice': block['voice'],
+                      'context_id': cid,
+                      'ready': bool(full),
+                      'full_url_found': bool(full),
+                      'preview_url_found': bool(preview),
+                      'elapsed_seconds': round(time.time() - t0, 3),
+                      'returncode': p.returncode,
+                      'stderr_tail': (p.stderr or '')[-600:]
+                  }
+              except Exception as e:
+                  return {
+                      'id': bid,
+                      'voice': block['voice'],
+                      'context_id': cid,
+                      'ready': False,
+                      'full_url_found': False,
+                      'preview_url_found': False,
+                      'elapsed_seconds': round(time.time() - t0, 3),
+                      'error': repr(e)
+                  }
+
+          results = []
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+              futures = [ex.submit(probe, b) for b in manifest['blocks']]
+              for fut in concurrent.futures.as_completed(futures):
+                  item = fut.result()
+                  results.append(item)
+                  print(('READY  ' if item['ready'] else 'MISSING'), item['id'], item['voice'], item['context_id'], item['elapsed_seconds'])
+
+          order = {b['id']: i for i, b in enumerate(manifest['blocks'])}
+          results.sort(key=lambda x: order[x['id']])
+          ready = [r for r in results if r['ready']]
+          missing = [r for r in results if not r['ready']]
+          report = {
+              'total': len(results),
+              'ready_count': len(ready),
+              'missing_count': len(missing),
+              'missing_ids': [r['id'] for r in missing],
+              'missing_context_ids': [r['context_id'] for r in missing],
+              'results': results
+          }
+          pathlib.Path('/tmp/record-001-take-readiness.json').write_text(json.dumps(report, indent=2) + '\n')
+          print('SUMMARY', json.dumps({k: report[k] for k in ['total','ready_count','missing_count','missing_ids']}, indent=2))
+          PY
+
+      - name: Upload readiness report
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-take-readiness
+          path: /tmp/record-001-take-readiness.json
+          if-no-files-found: error
