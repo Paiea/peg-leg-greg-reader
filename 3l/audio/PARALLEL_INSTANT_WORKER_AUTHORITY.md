@@ -2,9 +2,9 @@
 
 Status: **CURRENT FIVE-WORKER CAPTURE AUTHORITY**
 
-This file governs parallel Instant-model audio capture for the current 3L written frontier, Records 002–010.
+This file governs parallel Instant-model audio capture for the current 3L written frontier.
 
-It is subordinate to canon manuscript authority, `3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md`, and the frozen generated short-dual plans.
+It is subordinate to canon manuscript authority, `3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md`, the current frozen master work order, and the generated short-dual plans.
 
 ## Purpose
 
@@ -21,7 +21,62 @@ The coordinator owns:
 - assembly
 - publication
 
-Workers own only exact capture execution and receipt recording.
+Workers own only automatic slot claiming, exact capture execution, and receipt recording.
+
+## Stable dispatch pointer
+
+Every worker starts from:
+
+`3l/audio/CURRENT_INSTANT_WORK_ORDER.json`
+
+That file identifies the current frozen run and contains:
+
+- `master_work_order`
+- `run_label`
+- `source_sha`
+- `worker_count`
+- `work_order_template`
+- `return_manifest_template`
+- `claim_template`
+
+Workers must not hard-code a worker number and must not ask the user for one.
+
+## Automatic slot claim
+
+All five chats receive the same prompt.
+
+Each worker claims exactly one slot using create-only GitHub file creation on `main`.
+
+1. Read `3l/audio/CURRENT_INSTANT_WORK_ORDER.json` from `main`.
+2. Read the referenced `master_work_order` and verify that its `source_sha`, `run_label`, and `worker_count` match the pointer.
+3. Consider slots `1, 2, 3, 4, 5` in that order.
+4. For each candidate slot, resolve the pointer templates with the exact current `source_sha`, `run_label`, and slot number.
+5. If that slot's return manifest already exists on `main`, skip the slot.
+6. Attempt to create the resolved claim path using create-only semantics. Never update or overwrite a claim file.
+7. If claim creation succeeds, that slot is yours. Stop scanning immediately.
+8. If creation fails because the claim path already exists, continue to the next slot.
+9. If creation fails only because `main` moved during the write, refresh `main` and retry the same candidate slot once. After refresh, if the claim path exists, continue to the next slot.
+10. If no slot can be claimed, stop without generating audio and report that the current five-worker run is already fully claimed or completed.
+
+The claim path is namespaced by the frozen run's `source_sha`, so claims from a later regenerated frontier do not collide with this run.
+
+### Claim file schema
+
+A successful worker writes exactly one claim file before any voice generation:
+
+```json
+{
+  "status": "claimed",
+  "worker_id": "instant-3",
+  "slot": 3,
+  "source_sha": "<exact pointer source_sha>",
+  "run_label": "<exact pointer run_label>",
+  "work_order": "<resolved work_order_template>",
+  "return_manifest": "<resolved return_manifest_template>"
+}
+```
+
+Do not invent timestamps, chat identifiers, or user metadata. The claim exists only to guarantee exclusive slot ownership.
 
 ## Current frozen run
 
@@ -33,19 +88,9 @@ Branch workers write to:
 
 `main`
 
-Master work order:
+The current master path and worker slice paths are resolved through `3l/audio/CURRENT_INSTANT_WORK_ORDER.json`.
 
-`3l/audio/records-002-010-five-worker-work-order.json`
-
-Worker slices:
-
-- `3l/audio/workers/records-002-010-instant-1-work-order.json`
-- `3l/audio/workers/records-002-010-instant-2-work-order.json`
-- `3l/audio/workers/records-002-010-instant-3-work-order.json`
-- `3l/audio/workers/records-002-010-instant-4-work-order.json`
-- `3l/audio/workers/records-002-010-instant-5-work-order.json`
-
-Each worker reads exactly one slice. The slice is executable authority and already contains every exact capture call.
+Each worker reads exactly the slice for the slot it successfully claimed. The slice is executable authority and already contains every exact capture call.
 
 ## Voice contract
 
@@ -60,7 +105,7 @@ Workers may not choose another voice or alter performance settings.
 
 ## Capture contract
 
-For every object in the worker slice `captures` array:
+For every object in the claimed worker slice `captures` array:
 
 1. call the approved AI voice generator
 2. pass the exact `transcript`
@@ -93,32 +138,31 @@ If the retry also fails, record that assignment as failed and continue. Never su
 
 ## Ownership
 
-Each `(record, chunk_index, voice)` tuple belongs to exactly one worker. Workers may not claim, regenerate, rebalance, or modify another worker's assignment.
+Each `(record, chunk_index, voice)` tuple belongs to exactly one frozen worker slice. A worker owns only the slice whose slot it successfully claimed.
+
+Workers may not claim a second slot, regenerate another worker's capture, rebalance assignments, or modify another worker's files.
 
 The master work order is validated for complete coverage, whole-chunk ownership, zero overlap, and near-equal capture load before dispatch.
 
-## Allowed write
+## Allowed writes
 
-Each worker may write only its own return manifest:
+A worker may write only two files for the current frozen run:
 
-- instant-1 → `3l/audio/workers/records-002-010-instant-1-captures.json`
-- instant-2 → `3l/audio/workers/records-002-010-instant-2-captures.json`
-- instant-3 → `3l/audio/workers/records-002-010-instant-3-captures.json`
-- instant-4 → `3l/audio/workers/records-002-010-instant-4-captures.json`
-- instant-5 → `3l/audio/workers/records-002-010-instant-5-captures.json`
+1. its own create-only claim file resolved from `claim_template`
+2. its own return manifest resolved from `return_manifest_template`
 
-Workers must not edit manuscripts, plans, routing files, authority, scripts, workflows, final MP3s, or website files.
+Workers must not edit manuscripts, plans, routing files, authority, scripts, workflows, final MP3s, website files, the current pointer, the master work order, another worker's claim, or another worker's return manifest.
 
 ## Return manifest schema
 
 ```json
 {
   "status": "complete",
-  "worker_id": "instant-1",
-  "work_order": "3l/audio/workers/records-002-010-instant-1-work-order.json",
+  "worker_id": "instant-3",
+  "work_order": "<resolved claimed work-order path>",
   "source_sha": "<copied from work order>",
-  "assigned_capture_count": 53,
-  "successful_capture_count": 53,
+  "assigned_capture_count": 52,
+  "successful_capture_count": 52,
   "failed_capture_count": 0,
   "captures": [
     {
@@ -138,13 +182,13 @@ Workers must not edit manuscripts, plans, routing files, authority, scripts, wor
 }
 ```
 
-Actual assigned counts come from each worker work order. Do not copy the example count blindly.
+Actual worker ID and assigned counts come from the claimed worker work order. Do not copy the example values blindly.
 
 If any capture fails after the exact retry, top-level status becomes `partial`, the failed assignment remains represented, and `failures` contains concise evidence.
 
 ## Worker completion
 
-A worker is finished only when every assigned capture is represented as success or explicit failure and its one return manifest is committed to `main`.
+A worker is finished only when every assigned capture in its claimed slice is represented as success or explicit failure and its one resolved return manifest is committed to `main`.
 
 Workers do not assemble or publish audio and do not claim chapter completion.
 
@@ -169,4 +213,4 @@ A stale MP3 with the correct filename is not publishable. The reader requires a 
 
 If one worker returns a failed capture, the pipeline may verify the other captures but that affected record remains incomplete and its current written page stays published with `Audio rebuild in production` instead of stale audio.
 
-The coordinator can later issue a bounded retry for only the missing capture.
+If a worker claims a slot and then cannot finish its slice, do not have a normal worker overwrite or steal that claim. Recovery should be a separate bounded retry/release action so duplicate captures cannot be created accidentally.
