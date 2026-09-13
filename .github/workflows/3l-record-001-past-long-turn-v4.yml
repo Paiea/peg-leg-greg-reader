@@ -1,0 +1,109 @@
+name: Assemble 3L Record 001 past-tense long-turn V4
+
+on:
+  push:
+    branches:
+      - 3l/record-001-clean-speaker-v2
+    paths:
+      - '.github/workflows/3l-record-001-past-long-turn-v4.yml'
+      - '3l/audio/experiments/record-001-v4-captures.json'
+      - '3l/performance/record-001.audio-v4-past-long-turn.md'
+      - 'scripts/build_3l_past_long_turn_v4.py'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -hide_banner -filters 2>/dev/null | grep rubberband
+
+      - name: Validate V4 contract
+        run: |
+          python -m py_compile scripts/build_3l_past_long_turn_v4.py
+          python - <<'PY'
+          import json
+          m=json.load(open('3l/audio/experiments/record-001-v4-captures.json'))
+          c=m['clips']; d=m['design']; v=m['voice_contract']
+          assert len(c)==35, len(c)
+          assert len({r[1] for r in c})==17
+          assert len({r[1] for r in c if r[2]=='dragon'})==8
+          assert sum(r[2]=='dragon' for r in c)==14
+          assert sum(r[2]=='greg' for r in c)==21
+          assert d['narration_tense']=='past'
+          assert v['dragon_pitch_semitones']==-3.25
+          assert v['dragon_tempo']==1.0
+          assert v['mixed_speaker_splicing'] is False
+          print('clips',len(c),'blocks',17,'dragon turns',8)
+          PY
+
+      - name: Download speaker-pure captures
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/v4-captures
+          python - <<'PY' > /tmp/v4-urls.tsv
+          import json
+          m=json.load(open('3l/audio/experiments/record-001-v4-captures.json'))
+          for clip_id, block, role, pause_ms, url in m['clips']:
+              print(f'{clip_id}\t{url}')
+          PY
+          while IFS=$'\t' read -r clip_id url; do
+            echo "capture $clip_id"
+            curl -fL --retry 3 --retry-delay 2 -o "/tmp/v4-captures/${clip_id}.mp3" "$url"
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "/tmp/v4-captures/${clip_id}.mp3"
+          done < /tmp/v4-urls.tsv
+
+      - name: Assemble V4 candidate
+        run: |
+          python scripts/build_3l_past_long_turn_v4.py --capture-dir /tmp/v4-captures
+
+      - name: Verify candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -v error -i 3l/assets/audio/record-001-past-long-turn-v4.mp3 -f null -
+          python - <<'PY'
+          import json
+          r=json.load(open('3l/audio/verification/record-001-past-long-turn-v4.json'))
+          assert r['clip_count']==35
+          assert r['dramatic_block_count']==17
+          assert r['dragon_turn_count']==8
+          assert r['dragon_clip_count']==14
+          assert r['greg_clip_count']==21
+          assert r['mixed_speaker_clip_count']==0
+          assert r['narration_tense']=='past'
+          assert r['dragon_pitch_semitones']==-3.25
+          assert r['dragon_tempo']==1.0
+          assert r['dragon_formant']=='preserved'
+          print(json.dumps({k:r[k] for k in ('candidate_duration_seconds','candidate_byte_size','candidate_sha256')}, indent=2))
+          PY
+          git diff --check
+
+      - name: Commit candidate and receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/assets/audio/record-001-past-long-turn-v4.mp3 3l/audio/verification/record-001-past-long-turn-v4.json
+          git commit -m "audio: render Record 001 past-tense long-turn V4" || exit 0
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
+
+      - name: Upload listening artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-past-long-turn-v4
+          path: |
+            3l/assets/audio/record-001-past-long-turn-v4.mp3
+            3l/audio/verification/record-001-past-long-turn-v4.json
+            3l/performance/record-001.audio-v4-past-long-turn.md
