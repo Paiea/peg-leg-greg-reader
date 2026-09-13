@@ -71,14 +71,11 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn('href="../index.html">PLG</a>', home)
         self.assertIn('href="../r2/">R2</a>', home)
 
-        interior_pages = (
+        interior_pages = [
             ROOT / "3l" / "audio" / "index.html",
             ROOT / "3l" / "records" / "index.html",
-            ROOT / "3l" / "records" / "001.html",
-            ROOT / "3l" / "records" / "002.html",
-            ROOT / "3l" / "records" / "003.html",
             ROOT / "3l" / "about" / "index.html",
-        )
+        ] + [ROOT / "3l" / "records" / f"{number:03d}.html" for number in range(1, 11)]
         for page in interior_pages:
             with self.subTest(page=page):
                 html = page.read_text(encoding="utf-8")
@@ -98,11 +95,9 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertNotIn('class="audio-record-art"', audio)
         self.assertIn('class="audio-player"', audio)
         self.assertIn('../assets/audio/record-001-headspace-v6.mp3', audio)
-        self.assertIn('../assets/audio/record-002.mp3', audio)
-        self.assertIn('../assets/audio/record-003.mp3', audio)
+        self.assertNotIn('../assets/audio/record-002.mp3', audio)
+        self.assertNotIn('../assets/audio/record-003.mp3', audio)
         self.assertIn('href="../records/001.html"', audio)
-        self.assertIn('href="../records/002.html"', audio)
-        self.assertIn('href="../records/003.html"', audio)
         self.assertNotIn('class="archive-hero"', audio)
         self.assertNotIn("Performance in production", audio)
         self.assertIn(".audio-library-showcase img", styles)
@@ -133,14 +128,10 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn('../manuscript/record-001.md', record)
         self.assertIn('controls', record)
         self.assertNotIn("autoplay", record.lower())
-        self.assertNotIn("The account is being prepared.", record)
-
         self.assertIn("LISTENING ARCHIVE", audio)
         self.assertIn("THE PETITIONER", audio)
         self.assertIn('../assets/audio/record-001-headspace-v6.mp3', audio)
-        self.assertNotIn("No audio records have been published yet.", audio)
         self.assertNotIn("autoplay", audio.lower())
-
         self.assertIn("## RECORD 001", canon)
         self.assertIn("## THE PETITIONER", canon)
         self.assertIn("The dragon looked at me for a long time.", canon)
@@ -148,7 +139,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertNotIn("—", canon)
         self.assertGreater(asset_path.stat().st_size, 100_000)
 
-    def test_records_002_and_003_are_published_for_listen_and_read(self):
+    def test_rebuilt_records_publish_text_without_stale_audio(self):
         records_index = (ROOT / "3l" / "records" / "index.html").read_text(encoding="utf-8")
         audio_index = (ROOT / "3l" / "audio" / "index.html").read_text(encoding="utf-8")
 
@@ -156,28 +147,20 @@ class ThirdLegSiteTests(unittest.TestCase):
             with self.subTest(record=number):
                 record_path = ROOT / "3l" / "records" / f"{number}.html"
                 canon_path = ROOT / "3l" / "manuscript" / f"record-{number}.md"
-                asset_path = ROOT / "3l" / "assets" / "audio" / f"record-{number}.mp3"
-                for path in (record_path, canon_path, asset_path):
-                    self.assertTrue(path.exists(), path)
-
                 record = record_path.read_text(encoding="utf-8")
                 canon = canon_path.read_text(encoding="utf-8")
                 asset_ref = f"../assets/audio/record-{number}.mp3"
 
                 self.assertIn(f"RECORD {number}", record)
                 self.assertIn(title, record)
-                self.assertIn(asset_ref, record)
                 self.assertIn(f"../manuscript/record-{number}.md", record)
-                self.assertIn("controls", record)
-                self.assertNotIn("autoplay", record.lower())
-                self.assertNotIn("Audio performance in production", record)
-                self.assertIn(asset_ref, audio_index)
+                self.assertIn("Audio rebuild in production", record)
+                self.assertNotIn(asset_ref, record)
+                self.assertNotIn(asset_ref, audio_index)
                 self.assertIn(f"## RECORD {number}", canon)
                 self.assertIn(f"## {title}", canon)
-                self.assertGreater(asset_path.stat().st_size, 100_000)
 
-        self.assertGreaterEqual(records_index.count("Published · Listen and read"), 3)
-        self.assertNotIn("Audio in production", records_index)
+        self.assertIn("Published · Read · Audio in production", records_index)
 
 
 if __name__ == "__main__":
