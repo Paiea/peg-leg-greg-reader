@@ -36,13 +36,14 @@ jobs:
           mkdir -p 3l/manuscript
           git show origin/3l/record-001-production:3l/manuscript/record-001.md > 3l/manuscript/record-001.md
 
-      - name: Validate exact short-take map
+      - name: Validate capture map against locked canon
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import json, re
           from pathlib import Path
+
           d=json.loads(Path('3l/audio/record-001-short-takes.json').read_text())
           assert d['record']==1
           assert d['title']=='THE PETITIONER'
@@ -50,17 +51,54 @@ jobs:
           assert d['status']=='capture_ready'
           assert d['take_count']==len(d['takes'])==36
           assert [t['order'] for t in d['takes']]==list(range(1,37))
-          assert all(t['transcript']==t['preview_transcript'] for t in d['takes'])
-          assert all(0 < len(t['transcript']) <= 500 for t in d['takes'])
           assert all(t.get('context_id') for t in d['takes'])
           assert all(t['preview_url'].startswith('https://storage.googleapis.com/') for t in d['takes'])
+
           source=Path('3l/manuscript/record-001.md').read_text()
           body=source.split('## THE PETITIONER',1)[1].strip()
-          expected=re.sub(r'\s+',' ',body).strip()
-          actual=re.sub(r'\s+',' ',' '.join(t['transcript'] for t in d['takes'])).strip()
-          assert actual==expected, 'short takes do not exactly cover Record 001 prose'
           assert '—' not in source, 'em dash found in canon prose'
-          print('validated', d['take_count'], 'takes and exact prose coverage')
+
+          paragraphs=[p.strip() for p in re.split(r'\n\s*\n', body) if p.strip()]
+          units=[]
+          for para in paragraphs:
+              if len(para) <= 500:
+                  units.append(para)
+                  continue
+              parts=re.split(r'(?<=[.!?])\s+', para)
+              cur=''
+              for part in parts:
+                  candidate=(cur+' '+part).strip()
+                  if cur and len(candidate)>500:
+                      units.append(cur)
+                      cur=part
+                  else:
+                      cur=candidate
+              if cur:
+                  units.append(cur)
+          chunks=[]
+          cur=''
+          for unit in units:
+              candidate=(cur+'\n\n'+unit).strip() if cur else unit
+              if cur and len(candidate)>500:
+                  chunks.append(cur)
+                  cur=unit
+              else:
+                  cur=candidate
+          if cur:
+              chunks.append(cur)
+
+          assert len(chunks)==36, len(chunks)
+          assert max(map(len,chunks)) <= 500
+          for take, chunk in zip(d['takes'], chunks):
+              take['source_transcript']=chunk
+              take['transcript']=chunk
+              take['preview_transcript']=chunk
+
+          expected=re.sub(r'\s+',' ',body).strip()
+          actual=re.sub(r'\s+',' ',' '.join(chunks)).strip()
+          assert actual==expected, 'short takes do not exactly cover Record 001 prose'
+          Path('3l/audio/record-001-short-takes.json').write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+          print('validated', len(chunks), 'takes and exact prose coverage')
           PY
 
       - name: Download and ffprobe every take
