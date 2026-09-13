@@ -52,11 +52,7 @@ jobs:
             ffmpeg -v error -i "$f" -f null -
             d=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f")
             echo "$(basename "$f") $d"
-            python - "$d" <<'PY'
-import sys
-x=float(sys.argv[1])
-assert 4.95 <= x <= 5.15, x
-PY
+            python -c 'import sys; x=float(sys.argv[1]); assert 4.95 <= x <= 5.15, x' "$d"
           done
       - uses: actions/upload-artifact@v4
         with:
