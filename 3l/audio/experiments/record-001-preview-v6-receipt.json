@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "record": "001",
+  "title": "THE PETITIONER",
+  "source_path": "3l/manuscript/record-001.md",
+  "source_sha256": "6e52b0a3fcd9f4e05ecff10f924c7f5857ba9abc83b088499ba77939a115230a",
+  "plan_sha256": "4966f52125d42340c0cf96d2d03c615b967e8c87f4a189eaba19fd7f7e8a1d4c",
+  "assets_sha256": "515ec4a8f2922a4b2ae05d7384337cddea829a20bfef7577403b82ad15f4429d",
+  "asset_count": 128,
+  "verified_asset_count": 128,
+  "voice_counts": {
+    "deep": 80,
+    "normal": 48
+  },
+  "greg_voice": "deep",
+  "dragon_voice": "normal",
+  "dragon_dsp": "none",
+  "final_tail_ms": 2000,
+  "source_clip_duration_min_s": 0.48,
+  "source_clip_duration_max_s": 28.032,
+  "output_path": "3l/assets/audio/record-001-headspace-v6.mp3",
+  "output_duration_s": 1693.857959,
+  "output_bytes": 27102189,
+  "output_sha256": "d5de2e78f4a8126babba7ad257e2ff8875e02710f1cdcf663e162c4859d10895"
+}
