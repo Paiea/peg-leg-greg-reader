@@ -1,0 +1,9 @@
+{
+  "status": "claimed",
+  "worker_id": "instant-4",
+  "slot": 4,
+  "source_sha": "d9d8b5ed7995ac1d8d978d1256e281fe35812da9",
+  "run_label": "records-002-010",
+  "work_order": "3l/audio/workers/records-002-010-instant-4-work-order.json",
+  "return_manifest": "3l/audio/workers/records-002-010-instant-4-captures.json"
+}
