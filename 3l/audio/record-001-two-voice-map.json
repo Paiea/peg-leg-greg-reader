@@ -1,0 +1,1629 @@
+{
+  "record": 1,
+  "source_performance": "3l/performance/record-001.performance.md",
+  "source_take_map": "3l/audio/record-001-short-takes.json",
+  "profile": {
+    "greg": "existing Deep performance, unchanged timing",
+    "dragon": "semantic DRAGON profile",
+    "dragon_tempo": 0.88,
+    "treatment": "tempo-only, pitch-preserving"
+  },
+  "validation": {
+    "status": "pass",
+    "rule": "Only exact text labeled DRAGON receives Dragon treatment.",
+    "dragon_span_count": 112,
+    "greg_or_narrator_contamination_count": 0,
+    "sample_exact_text": [
+      "“You have been speaking for seven minutes.”",
+      "“Yes.”",
+      "“I heard the number.”",
+      "“No.”",
+      "“No.”",
+      "“I said I do not.”",
+      "“You have said this.”",
+      "“You have also said this.”"
+    ]
+  },
+  "takes": [
+    {
+      "order": 1,
+      "source": "3l/assets/audio/record-001-chunks/01.mp3",
+      "source_sha256": "b559acfa74719aa557e17df1fce66e98bd016b3bdb3fcc4aac454be94a3ff7c0",
+      "source_duration_seconds": 28.56,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 28.56,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 2,
+      "source": "3l/assets/audio/record-001-chunks/02.mp3",
+      "source_sha256": "a3662d4bbdfeb23152f3cd7f3569f6951785db52074f588c36308b03b29c710c",
+      "source_duration_seconds": 29.016,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 14.5205,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 14.5205,
+          "end_seconds": 16.77215,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 16.77215,
+          "end_seconds": 17.46495,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.46495,
+          "end_seconds": 18.14315,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.14315,
+          "end_seconds": 19.6716,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 19.6716,
+          "end_seconds": 20.2288,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 20.2288,
+          "end_seconds": 26.92275,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.92275,
+          "end_seconds": 28.7278,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 28.7278,
+          "end_seconds": 29.016,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 4,
+      "dragon_source_seconds": 5.2921
+    },
+    {
+      "order": 3,
+      "source": "3l/assets/audio/record-001-chunks/03.mp3",
+      "source_sha256": "f2a465207ca1cf3cbad956e4e952bdc044f92682bb623c11d643dbcb291c45b2",
+      "source_duration_seconds": 29.592,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 29.592,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 4,
+      "source": "3l/assets/audio/record-001-chunks/04.mp3",
+      "source_sha256": "74d3e9ad83c5729f6a7afb8ae0c5d543e28000e51b461c759310c28f728da816",
+      "source_duration_seconds": 29.352,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 7.909545,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 7.909545,
+          "end_seconds": 8.83454,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 8.83454,
+          "end_seconds": 11.01265,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 11.01265,
+          "end_seconds": 12.57105,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 12.57105,
+          "end_seconds": 15.15845,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 15.15845,
+          "end_seconds": 16.77755,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 16.77755,
+          "end_seconds": 18.94355,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 18.94355,
+          "end_seconds": 20.58355,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 20.58355,
+          "end_seconds": 23.29295,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 23.29295,
+          "end_seconds": 24.12745,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 24.12745,
+          "end_seconds": 26.8109,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.8109,
+          "end_seconds": 27.6828,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 27.6828,
+          "end_seconds": 29.352,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 6,
+      "dragon_source_seconds": 7.448895
+    },
+    {
+      "order": 5,
+      "source": "3l/assets/audio/record-001-chunks/05.mp3",
+      "source_sha256": "b78061ba5697f4a7b5f55ba1d8a3f1a4cba0edf36e59a37b2f975f7c9ff7f339",
+      "source_duration_seconds": 28.44,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 1.644625,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 1.644625,
+          "end_seconds": 3.745335,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.745335,
+          "end_seconds": 5.90427,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 5.90427,
+          "end_seconds": 28.44,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 2,
+      "dragon_source_seconds": 3.80356
+    },
+    {
+      "order": 6,
+      "source": "3l/assets/audio/record-001-chunks/06.mp3",
+      "source_sha256": "e60222e965d2fa4e6ead8e02c189c60e588a3850fae6e7d9854fe3b1e2624724",
+      "source_duration_seconds": 28.44,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 17.1191,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.1191,
+          "end_seconds": 18.4211,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.4211,
+          "end_seconds": 19.0608,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 19.0608,
+          "end_seconds": 19.93815,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 19.93815,
+          "end_seconds": 23.18315,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 23.18315,
+          "end_seconds": 24.5449,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 24.5449,
+          "end_seconds": 25.15715,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 25.15715,
+          "end_seconds": 25.7498,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 25.7498,
+          "end_seconds": 26.7868,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.7868,
+          "end_seconds": 28.2465,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 28.2465,
+          "end_seconds": 28.44,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 5,
+      "dragon_source_seconds": 5.59345
+    },
+    {
+      "order": 7,
+      "source": "3l/assets/audio/record-001-chunks/07.mp3",
+      "source_sha256": "39f708b261471ca9a4a095eaecc92f54f1e025c5a7a3649f6457bfcc249eb7b5",
+      "source_duration_seconds": 29.4,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 19.985721,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 19.985721,
+          "end_seconds": 20.6369,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 20.6369,
+          "end_seconds": 21.60235,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 21.60235,
+          "end_seconds": 23.92645,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 23.92645,
+          "end_seconds": 26.73485,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.73485,
+          "end_seconds": 28.03145,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 28.03145,
+          "end_seconds": 29.00285,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 29.00285,
+          "end_seconds": 29.4,
+          "role": "dragon"
+        }
+      ],
+      "dragon_interval_count": 4,
+      "dragon_source_seconds": 4.669029
+    },
+    {
+      "order": 8,
+      "source": "3l/assets/audio/record-001-chunks/08.mp3",
+      "source_sha256": "c9a13858e4d62057292f2eb5789e0766dd63a9310917c210022a2526654e4e78",
+      "source_duration_seconds": 15.864,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 1.245003,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 1.245003,
+          "end_seconds": 2.438585,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 2.438585,
+          "end_seconds": 15.864,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 1,
+      "dragon_source_seconds": 1.193582
+    },
+    {
+      "order": 9,
+      "source": "3l/assets/audio/record-001-chunks/09.mp3",
+      "source_sha256": "92bec5ea3743aefb611f9d82e8ab89e1e6b8f850fb3e741f7f510fa8e4483744",
+      "source_duration_seconds": 30.144,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 15.78285,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 15.78285,
+          "end_seconds": 17.3372,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.3372,
+          "end_seconds": 27.81955,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 27.81955,
+          "end_seconds": 30.144,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 2,
+      "dragon_source_seconds": 26.2652
+    },
+    {
+      "order": 10,
+      "source": "3l/assets/audio/record-001-chunks/10.mp3",
+      "source_sha256": "d94e8131670e35c996f7d5f276542acba3858c16e0e0e9bba2edd0f250d9477b",
+      "source_duration_seconds": 28.704,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 0.608062,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 0.608062,
+          "end_seconds": 3.853165,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.853165,
+          "end_seconds": 8.48677,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 8.48677,
+          "end_seconds": 16.23965,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 16.23965,
+          "end_seconds": 18.49935,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.49935,
+          "end_seconds": 19.9876,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 19.9876,
+          "end_seconds": 21.3207,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 21.3207,
+          "end_seconds": 24.27415,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 24.27415,
+          "end_seconds": 26.3208,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 26.3208,
+          "end_seconds": 26.81195,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.81195,
+          "end_seconds": 27.2929,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 27.2929,
+          "end_seconds": 28.704,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 6,
+      "dragon_source_seconds": 11.362067
+    },
+    {
+      "order": 11,
+      "source": "3l/assets/audio/record-001-chunks/11.mp3",
+      "source_sha256": "61f68772fd9b0a81403b740fd81a5d10a6313ee7c30b2314b8969a716aefc2ea",
+      "source_duration_seconds": 28.968,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 2.14412,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 2.14412,
+          "end_seconds": 2.965915,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 2.965915,
+          "end_seconds": 3.70323,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.70323,
+          "end_seconds": 4.643705,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 4.643705,
+          "end_seconds": 11.67105,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 11.67105,
+          "end_seconds": 12.374579,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 12.374579,
+          "end_seconds": 12.990168,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 12.990168,
+          "end_seconds": 14.66105,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 14.66105,
+          "end_seconds": 17.6127,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.6127,
+          "end_seconds": 18.33725,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.33725,
+          "end_seconds": 19.2363,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 19.2363,
+          "end_seconds": 20.616,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 20.616,
+          "end_seconds": 28.968,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 6,
+      "dragon_source_seconds": 6.240931
+    },
+    {
+      "order": 12,
+      "source": "3l/assets/audio/record-001-chunks/12.mp3",
+      "source_sha256": "8e18a3f8b65230dc581a7ffa600bf250b525fc7fd8d915a007c6494623327036",
+      "source_duration_seconds": 28.944,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 1.184855,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 1.184855,
+          "end_seconds": 1.923685,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 1.923685,
+          "end_seconds": 4.04248,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 4.04248,
+          "end_seconds": 5.157,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 5.157,
+          "end_seconds": 6.16996,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 6.16996,
+          "end_seconds": 7.69273,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 7.69273,
+          "end_seconds": 9.631335,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 9.631335,
+          "end_seconds": 10.4201,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 10.4201,
+          "end_seconds": 28.944,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 4,
+      "dragon_source_seconds": 4.164885
+    },
+    {
+      "order": 13,
+      "source": "3l/assets/audio/record-001-chunks/13.mp3",
+      "source_sha256": "fdd0d953e3a01b30cb62f7462386b82ba54c58fab12aa672fc83f1f646fd2bbd",
+      "source_duration_seconds": 27.84,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 27.84,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 14,
+      "source": "3l/assets/audio/record-001-chunks/14.mp3",
+      "source_sha256": "7aa3ed422421ca4c6102b084070dce2cdf9f7beb7ca7e755749a18968a6c9c6c",
+      "source_duration_seconds": 29.208,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 29.208,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 15,
+      "source": "3l/assets/audio/record-001-chunks/15.mp3",
+      "source_sha256": "32ea81d325d80292851f70fc881d16fa7e3c0b7a66898c30dbf90e155c7ca901",
+      "source_duration_seconds": 29.016,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 29.016,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 16,
+      "source": "3l/assets/audio/record-001-chunks/16.mp3",
+      "source_sha256": "a3039da8db71ad94aafb1feba43314c8ba94625aff294da547848e386e5fd62b",
+      "source_duration_seconds": 28.92,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 4.97142,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 4.97142,
+          "end_seconds": 6.105645,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 6.105645,
+          "end_seconds": 20.0881,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 20.0881,
+          "end_seconds": 20.657629,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 20.657629,
+          "end_seconds": 23.0532,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 23.0532,
+          "end_seconds": 23.9589,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 23.9589,
+          "end_seconds": 25.32615,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 25.32615,
+          "end_seconds": 26.2752,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 26.2752,
+          "end_seconds": 28.92,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 4,
+      "dragon_source_seconds": 3.558504
+    },
+    {
+      "order": 17,
+      "source": "3l/assets/audio/record-001-chunks/17.mp3",
+      "source_sha256": "9d60e448c70e491197da7261b296275d59c859e9185ca75ba676ebfe6a27e404",
+      "source_duration_seconds": 23.904,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 6.02348,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 6.02348,
+          "end_seconds": 8.72752,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 8.72752,
+          "end_seconds": 9.37562,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 9.37562,
+          "end_seconds": 11.38525,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 11.38525,
+          "end_seconds": 12.0199,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 12.0199,
+          "end_seconds": 12.9749,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 12.9749,
+          "end_seconds": 14.0925,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 14.0925,
+          "end_seconds": 14.96555,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 14.96555,
+          "end_seconds": 23.904,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 4,
+      "dragon_source_seconds": 6.54172
+    },
+    {
+      "order": 18,
+      "source": "3l/assets/audio/record-001-chunks/18.mp3",
+      "source_sha256": "89678f2c8e48e59568511b92554618346b87c0872634307dd13e306830611fcb",
+      "source_duration_seconds": 28.848,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 9.743894,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 9.743894,
+          "end_seconds": 10.4071,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 10.4071,
+          "end_seconds": 12.6419,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 12.6419,
+          "end_seconds": 13.54405,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 13.54405,
+          "end_seconds": 14.5912,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 14.5912,
+          "end_seconds": 19.4156,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 19.4156,
+          "end_seconds": 20.40615,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 20.40615,
+          "end_seconds": 22.979,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 22.979,
+          "end_seconds": 23.6447,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 23.6447,
+          "end_seconds": 24.25615,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 24.25615,
+          "end_seconds": 26.2628,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.2628,
+          "end_seconds": 28.848,
+          "role": "dragon"
+        }
+      ],
+      "dragon_interval_count": 6,
+      "dragon_source_seconds": 12.159256
+    },
+    {
+      "order": 19,
+      "source": "3l/assets/audio/record-001-chunks/19.mp3",
+      "source_sha256": "28f8824193afcb478ee7ef8f7abcfa341d1a111a4c8b99072736176c1007fe01",
+      "source_duration_seconds": 28.032,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 5.060705,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 5.060705,
+          "end_seconds": 6.25727,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 6.25727,
+          "end_seconds": 6.978415,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 6.978415,
+          "end_seconds": 7.57077,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 7.57077,
+          "end_seconds": 8.609895,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 8.609895,
+          "end_seconds": 9.318085,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 9.318085,
+          "end_seconds": 10.339,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 10.339,
+          "end_seconds": 11.7301,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 11.7301,
+          "end_seconds": 12.4501,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 12.4501,
+          "end_seconds": 15.3738,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 15.3738,
+          "end_seconds": 24.42145,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 24.42145,
+          "end_seconds": 27.78545,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 27.78545,
+          "end_seconds": 28.032,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 6,
+      "dragon_source_seconds": 10.17591
+    },
+    {
+      "order": 20,
+      "source": "3l/assets/audio/record-001-chunks/20.mp3",
+      "source_sha256": "a89457fa569747c59ecbdc0b24258f447a4ef0107ae77d30d60e9877741958e2",
+      "source_duration_seconds": 27.984,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 3.681605,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 3.681605,
+          "end_seconds": 4.86996,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 4.86996,
+          "end_seconds": 7.710105,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 7.710105,
+          "end_seconds": 16.50815,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 16.50815,
+          "end_seconds": 18.6071,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.6071,
+          "end_seconds": 20.4034,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 20.4034,
+          "end_seconds": 21.1985,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 21.1985,
+          "end_seconds": 21.89405,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 21.89405,
+          "end_seconds": 22.54835,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 22.54835,
+          "end_seconds": 27.984,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 5,
+      "dragon_source_seconds": 10.0701
+    },
+    {
+      "order": 21,
+      "source": "3l/assets/audio/record-001-chunks/21.mp3",
+      "source_sha256": "4b565b6e389fa4991ee91042a558eb0e56d5f18c7ed0ce49db629f5bbb2ea625",
+      "source_duration_seconds": 27.024,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 27.024,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 22,
+      "source": "3l/assets/audio/record-001-chunks/22.mp3",
+      "source_sha256": "7d43b1b67b0db6a8210b37806f356517798b84542d0a9d29736129748935ccaf",
+      "source_duration_seconds": 26.808,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 26.808,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 23,
+      "source": "3l/assets/audio/record-001-chunks/23.mp3",
+      "source_sha256": "df594538f66517fb279f655f7bd4a75ffd4284096679be71a3ad4914c25657bd",
+      "source_duration_seconds": 28.848,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 28.848,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 0,
+      "dragon_source_seconds": 0
+    },
+    {
+      "order": 24,
+      "source": "3l/assets/audio/record-001-chunks/24.mp3",
+      "source_sha256": "df5ee608cc801cb334f8bae6519b43d91ab07344229b6aaadb14779636b0751a",
+      "source_duration_seconds": 28.512,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 3.161375,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.161375,
+          "end_seconds": 5.438855,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 5.438855,
+          "end_seconds": 6.944395,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 6.944395,
+          "end_seconds": 8.03298,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 8.03298,
+          "end_seconds": 8.95573,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 8.95573,
+          "end_seconds": 10.60045,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 10.60045,
+          "end_seconds": 11.4648,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 11.4648,
+          "end_seconds": 13.449,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 13.449,
+          "end_seconds": 14.2509,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 14.2509,
+          "end_seconds": 16.8488,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 16.8488,
+          "end_seconds": 17.5823,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.5823,
+          "end_seconds": 22.80195,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 22.80195,
+          "end_seconds": 26.40255,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 26.40255,
+          "end_seconds": 28.10615,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 28.10615,
+          "end_seconds": 28.512,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 7,
+      "dragon_source_seconds": 16.516135
+    },
+    {
+      "order": 25,
+      "source": "3l/assets/audio/record-001-chunks/25.mp3",
+      "source_sha256": "f93f650f23b89737ab3127d47dd31faac07a5f4cb5b1217c1f1b56c796eba3c1",
+      "source_duration_seconds": 26.688,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 0.999831,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 0.999831,
+          "end_seconds": 4.35448,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 4.35448,
+          "end_seconds": 5.937375,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 5.937375,
+          "end_seconds": 7.111545,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 7.111545,
+          "end_seconds": 7.741,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 7.741,
+          "end_seconds": 8.491895,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 8.491895,
+          "end_seconds": 9.48594,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 9.48594,
+          "end_seconds": 15.6276,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 15.6276,
+          "end_seconds": 16.79965,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 16.79965,
+          "end_seconds": 17.304,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.304,
+          "end_seconds": 17.86315,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 17.86315,
+          "end_seconds": 26.688,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 6,
+      "dragon_source_seconds": 5.937426
+    },
+    {
+      "order": 26,
+      "source": "3l/assets/audio/record-001-chunks/26.mp3",
+      "source_sha256": "76f3de4c4d391b695c30f3e0568fbc171965882daffcd6547375b3b6b05fb7c1",
+      "source_duration_seconds": 28.224,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 1.661474,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 1.661474,
+          "end_seconds": 2.846625,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 2.846625,
+          "end_seconds": 4.045335,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 4.045335,
+          "end_seconds": 5.61452,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 5.61452,
+          "end_seconds": 6.937875,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 6.937875,
+          "end_seconds": 8.36029,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 8.36029,
+          "end_seconds": 9.143935,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 9.143935,
+          "end_seconds": 14.5037,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 14.5037,
+          "end_seconds": 15.36615,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 15.36615,
+          "end_seconds": 16.101,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 16.101,
+          "end_seconds": 19.1521,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 19.1521,
+          "end_seconds": 20.5073,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 20.5073,
+          "end_seconds": 21.28945,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 21.28945,
+          "end_seconds": 23.6978,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 23.6978,
+          "end_seconds": 26.98,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 26.98,
+          "end_seconds": 28.224,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 8,
+      "dragon_source_seconds": 12.945084
+    },
+    {
+      "order": 27,
+      "source": "3l/assets/audio/record-001-chunks/27.mp3",
+      "source_sha256": "9018104d50cdc02c7d2a4329580bee04f97e4cec595acbbcd0e30409db7abb02",
+      "source_duration_seconds": 25.008,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 3.88575,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.88575,
+          "end_seconds": 6.490645,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 6.490645,
+          "end_seconds": 10.8168,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 10.8168,
+          "end_seconds": 11.7071,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 11.7071,
+          "end_seconds": 13.25645,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 13.25645,
+          "end_seconds": 19.8336,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 19.8336,
+          "end_seconds": 25.008,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 3,
+      "dragon_source_seconds": 10.072345
+    },
+    {
+      "order": 28,
+      "source": "3l/assets/audio/record-001-chunks/28.mp3",
+      "source_sha256": "9018efa751842cf885378c8606c8056ffd47ec310d67c6205b69719ee0e1f580",
+      "source_duration_seconds": 24.528,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 18.5095,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 18.5095,
+          "end_seconds": 22.189,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 22.189,
+          "end_seconds": 24.528,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 1,
+      "dragon_source_seconds": 3.6795
+    },
+    {
+      "order": 29,
+      "source": "3l/assets/audio/record-001-chunks/29.mp3",
+      "source_sha256": "c64b7aa6cba9fe9b7dc5dc509cb336a4b917d6234f0bd4cd7038ed9e539c5315",
+      "source_duration_seconds": 28.656,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 10.092355,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 10.092355,
+          "end_seconds": 11.47305,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 11.47305,
+          "end_seconds": 15.0124,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 15.0124,
+          "end_seconds": 17.67955,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.67955,
+          "end_seconds": 17.9822,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 17.9822,
+          "end_seconds": 24.24325,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 24.24325,
+          "end_seconds": 25.6785,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 25.6785,
+          "end_seconds": 27.1696,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 27.1696,
+          "end_seconds": 28.4257,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 28.4257,
+          "end_seconds": 28.656,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 5,
+      "dragon_source_seconds": 16.625705
+    },
+    {
+      "order": 30,
+      "source": "3l/assets/audio/record-001-chunks/30.mp3",
+      "source_sha256": "083acab3a782e7add5bfa77363df983a648b22a230ba068efa686922171e742e",
+      "source_duration_seconds": 24.648,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 3.73227,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.73227,
+          "end_seconds": 17.44505,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 17.44505,
+          "end_seconds": 19.29405,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 19.29405,
+          "end_seconds": 23.74825,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 23.74825,
+          "end_seconds": 24.648,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 2,
+      "dragon_source_seconds": 18.16698
+    },
+    {
+      "order": 31,
+      "source": "3l/assets/audio/record-001-chunks/31.mp3",
+      "source_sha256": "c9ed6e3688298e8da8407b556cf6542640b4ab6696c713bb9c67c3baf4b87ffb",
+      "source_duration_seconds": 28.032,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 9.57546,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 9.57546,
+          "end_seconds": 10.8743,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 10.8743,
+          "end_seconds": 12.26345,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 12.26345,
+          "end_seconds": 14.82185,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 14.82185,
+          "end_seconds": 16.50195,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 16.50195,
+          "end_seconds": 17.54315,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.54315,
+          "end_seconds": 19.02725,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 19.02725,
+          "end_seconds": 20.06515,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 20.06515,
+          "end_seconds": 22.49055,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 22.49055,
+          "end_seconds": 28.032,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 5,
+      "dragon_source_seconds": 16.55421
+    },
+    {
+      "order": 32,
+      "source": "3l/assets/audio/record-001-chunks/32.mp3",
+      "source_sha256": "f05262dd4bd2bc93a963b3372a1b7f7047741868fd2a4f6483fa1f5f607d99e8",
+      "source_duration_seconds": 29.784,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 17.8021,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 17.8021,
+          "end_seconds": 18.81535,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.81535,
+          "end_seconds": 29.784,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 1,
+      "dragon_source_seconds": 1.01325
+    },
+    {
+      "order": 33,
+      "source": "3l/assets/audio/record-001-chunks/33.mp3",
+      "source_sha256": "95dcc2dc27b018c8aef34d2801f5a5b8537ea1d7f4ea9eaaf77499eed5ce7666",
+      "source_duration_seconds": 27.96,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 0.997716,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 0.997716,
+          "end_seconds": 27.96,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 1,
+      "dragon_source_seconds": 0.997716
+    },
+    {
+      "order": 34,
+      "source": "3l/assets/audio/record-001-chunks/34.mp3",
+      "source_sha256": "6c8d6a462eae54b9654acabbbf7fcd4d91dad4e76cba21f62518a8201df3758e",
+      "source_duration_seconds": 29.904,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 3.801435,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 3.801435,
+          "end_seconds": 4.63546,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 4.63546,
+          "end_seconds": 5.1235,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 5.1235,
+          "end_seconds": 7.094315,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 7.094315,
+          "end_seconds": 8.41429,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 8.41429,
+          "end_seconds": 9.82476,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 9.82476,
+          "end_seconds": 29.904,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 3,
+      "dragon_source_seconds": 4.21531
+    },
+    {
+      "order": 35,
+      "source": "3l/assets/audio/record-001-chunks/35.mp3",
+      "source_sha256": "fd265162ee62903193e681f3c3b74ef467c72d7722a80ede297857b0639be059",
+      "source_duration_seconds": 28.152,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 6.79621,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 6.79621,
+          "end_seconds": 7.56108,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 7.56108,
+          "end_seconds": 16.0632,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 16.0632,
+          "end_seconds": 18.3009,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 18.3009,
+          "end_seconds": 20.80565,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 20.80565,
+          "end_seconds": 22.56415,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 22.56415,
+          "end_seconds": 28.152,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 3,
+      "dragon_source_seconds": 4.76107
+    },
+    {
+      "order": 36,
+      "source": "3l/assets/audio/record-001-chunks/36.mp3",
+      "source_sha256": "febc0fc8a7316d6c04ebdb5ebb6f1e4fcd33905e7237b478b5a4193e1f7cb0ed",
+      "source_duration_seconds": 7.992,
+      "mapped_spans": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 0.705598,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 0.705598,
+          "end_seconds": 5.24796,
+          "role": "greg"
+        },
+        {
+          "start_seconds": 5.24796,
+          "end_seconds": 6.575045,
+          "role": "dragon"
+        },
+        {
+          "start_seconds": 6.575045,
+          "end_seconds": 7.992,
+          "role": "greg"
+        }
+      ],
+      "dragon_interval_count": 2,
+      "dragon_source_seconds": 2.032683
+    }
+  ]
+}

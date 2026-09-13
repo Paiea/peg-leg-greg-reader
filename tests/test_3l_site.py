@@ -104,8 +104,15 @@ class ThirdLegSiteTests(unittest.TestCase):
         audio_path = ROOT / "3l" / "audio" / "index.html"
         canon_path = ROOT / "3l" / "manuscript" / "record-001.md"
         asset_path = ROOT / "3l" / "assets" / "audio" / "record-001.mp3"
+        candidate_path = (
+            ROOT
+            / "3l"
+            / "assets"
+            / "audio"
+            / "record-001-two-voice-candidate.mp3"
+        )
 
-        for path in (record_path, audio_path, canon_path, asset_path):
+        for path in (record_path, audio_path, canon_path, asset_path, candidate_path):
             self.assertTrue(path.exists(), path)
 
         record = record_path.read_text(encoding="utf-8")
@@ -115,6 +122,9 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn("RECORD 001", record)
         self.assertIn("THE PETITIONER", record)
         self.assertIn('../assets/audio/record-001.mp3', record)
+        self.assertIn('../assets/audio/record-001-two-voice-candidate.mp3', record)
+        self.assertIn('A · Original single voice', record)
+        self.assertIn('B · Dragon profile candidate', record)
         self.assertIn('../manuscript/record-001.md', record)
         self.assertIn('controls', record)
         self.assertNotIn("autoplay", record.lower())
@@ -132,6 +142,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertTrue(canon.rstrip().endswith("“Not this time.”"))
         self.assertNotIn("—", canon)
         self.assertGreater(asset_path.stat().st_size, 100_000)
+        self.assertGreater(candidate_path.stat().st_size, 100_000)
 
 
 if __name__ == "__main__":
