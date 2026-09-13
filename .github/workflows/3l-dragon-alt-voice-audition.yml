@@ -1,0 +1,62 @@
+name: 3L Dragon alternate voice audition
+
+on:
+  push:
+    branches:
+      - 3l/dragon-alt-voice-audition
+    paths:
+      - '.github/workflows/3l-dragon-alt-voice-audition.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -hide_banner -filters 2>/dev/null | grep rubberband
+
+      - name: Download exact preview captures
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dragon-alt out
+          curl -fL --retry 3 -o /tmp/dragon-alt/delicate.mp3 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/07c56673-d31c-436f-8274-15833892c93b.mp3'
+          curl -fL --retry 3 -o /tmp/dragon-alt/clear.mp3 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e3ebfcb9-74cb-4e8a-b6c6-10027176c5ad.mp3'
+          curl -fL --retry 3 -o /tmp/dragon-alt/crisp.mp3 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5e971c9c-7900-444b-938b-d9fb7f3de6bb.mp3'
+          curl -fL --retry 3 -o /tmp/dragon-alt/normal.mp3 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d3ef6252-bcd7-4ca9-b257-c7a1b4af88d0.mp3'
+          curl -fL --retry 3 -o /tmp/dragon-alt/fancy.mp3 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6dfe6264-1784-4361-8170-45de1326daa5.mp3'
+
+      - name: Apply identical Dragon treatment
+        shell: bash
+        run: |
+          set -euo pipefail
+          for voice in delicate clear crisp normal fancy; do
+            ffmpeg -v error -y -i "/tmp/dragon-alt/${voice}.mp3" \
+              -af 'rubberband=pitch=0.8288406503840438:tempo=1:formant=preserved:pitchq=quality,apad=pad_dur=5' \
+              -t 5 -c:a libmp3lame -b:a 192k "out/${voice}-minus3_25.mp3"
+          done
+
+      - name: Verify outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          for f in out/*.mp3; do
+            ffmpeg -v error -i "$f" -f null -
+            printf '%s ' "$f"
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f"
+            sha256sum "$f"
+          done
+
+      - name: Upload audition
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-alt-voice-audition
+          path: out/*.mp3
