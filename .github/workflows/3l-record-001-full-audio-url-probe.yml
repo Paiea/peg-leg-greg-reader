@@ -1,0 +1,35 @@
+name: 3L Record 001 full audio URL probe
+
+on:
+  push:
+    branches: [3l/record-001-rewrite-audio]
+    paths:
+      - '.github/workflows/3l-record-001-full-audio-url-probe.yml'
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Download full voiceover
+        run: |
+          set -euo pipefail
+          url='https://www.aidocmaker.com/g0/audio?name=6f0f049b390b474a92c5caa2cf588cfc'
+          for i in $(seq 1 12); do
+            if curl -L --fail --retry 2 "$url" -o /tmp/ithar.mp3; then
+              if ffprobe -v error /tmp/ithar.mp3 >/dev/null 2>&1; then
+                ffprobe -v error -show_entries format=duration,size -of json /tmp/ithar.mp3
+                exit 0
+              fi
+            fi
+            sleep 5
+          done
+          file /tmp/ithar.mp3 || true
+          head -c 200 /tmp/ithar.mp3 || true
+          exit 1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-full-audio-url-probe
+          path: /tmp/ithar.mp3
