@@ -354,117 +354,41 @@ They do not always force them.
 
 I appreciated that more the second time.
 
-Ithar interrupted.
-
-“You remember their names.”
-
 The kitchen disappeared.
 
 The cave returned.
 
 I opened my eyes.
 
-“Two of them.”
+Ithar was watching me.
 
-“You just gave me three.”
+“You remember those names because in the first history they died and in the second they did not. You acted from a remembered outcome before you understood its mechanism. Then you inspected the mechanism, changed it, and Halden survived. From that point forward, every later memory inherited a question: what else changed because this man remained alive?
 
-“Halden I knew. The other two I looked up enough times afterward that they stuck.”
-
-“Why?”
-
-“Because they were alive.”
-
-“That is common.”
-
-“Not to me.”
-
-Ithar waited.
-
-I sighed.
-
-“First life, they died. Second life, I changed a pipe and they didn't.”
-
-“You changed more than a pipe.”
-
-“Fine. A plan.”
-
-“More.”
-
-“I spoke to Dera.”
-
-“More.”
-
-I looked at him.
-
-“You're going to do this until I say something you like.”
-
-“No.”
-
-“Feels like it.”
-
-“You acted because you remembered an outcome. You did not understand the mechanism until you inspected it. Your intervention changed the mechanism before the remembered event occurred.”
-
-“Yes.”
-
-“What did that do to your confidence in later memories?”
-
-There it was.
-
-Not the deaths.
-
-The process.
+“You did not know whether Halden mattered enough to alter anything larger. That uncertainty is the important part. Tell me what it did to your confidence in the future you remembered.”
 
 I looked down at my hands.
 
-“Made them worse.”
+“Made it worse.”
 
-“How?”
+Not useless.
 
-“Because now I knew I could break them.”
+Worse.
+
+“The first few years, the memories felt like a map. Not perfect. Roads change. People are people. But big things were where I expected them. After Halden lived, every event downstream had a question attached.”
+
+Did Halden matter enough to alter continental history?
+
+I did not know.
+
+That was the point.
+
+I had started learning that recognized uncertainty was more useful than invented certainty.
 
 Ithar's eye narrowed slightly.
 
-“Explain.”
+That was enough examination for one interruption.
 
-I hated when he asked for the thing after I had already said the thing.
-
-“The first few years, the memories felt like a map. Not perfect. Roads change. People are people. But big things were where I expected them.”
-
-“And after?”
-
-“After Halden lived, every event downstream had a question attached.”
-
-“Did Halden matter enough to alter continental history?”
-
-“I didn't know.”
-
-“Does he?”
-
-“I still don't know.”
-
-“Good.”
-
-“There you go again.”
-
-“Uncertainty recognized is more useful than certainty invented.”
-
-“That sounds like something you'd carve into a mountain.”
-
-“I would not.”
-
-“Too long?”
-
-“No. Mountains are poor readers.”
-
-I stared at him.
-
-He did not react.
-
-I laughed anyway.
-
-“Continue,” Ithar said.
-
-So I did.
+I closed my eyes again.
 
 Halden became a problem after he survived.
 

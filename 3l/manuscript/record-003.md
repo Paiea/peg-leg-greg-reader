@@ -16,25 +16,13 @@ Probably before that too.
 
 “You want the whole story.”
 
-“Yes.”
-
-“No.”
-
 The dragon's eye narrowed.
 
 I felt an unreasonable amount of satisfaction.
 
-“See? Useful word.”
+“See? Useful sentence. You could just say yes.”
 
-“It is.”
-
-“Glad we agree.”
-
-“We do not.”
-
-“Close enough.”
-
-“No.”
+He did not.
 
 That took some of the satisfaction back.
 
@@ -48,33 +36,7 @@ My left leg preferred sitting to standing.
 
 The rest of me had not yet decided whether sitting in a dragon's home counted as progress.
 
-“The Line is failing now,” I said. “That part has a clock.”
-
-“You have said this.”
-
-“And you still haven't agreed to help.”
-
-“Yes.”
-
-“Which means I should probably keep saying it.”
-
-“No.”
-
-I rubbed the side of my knee.
-
-“Do you know how negotiations work?”
-
-“Yes.”
-
-“Have you ever been in one?”
-
-“Many.”
-
-“Did the other side enjoy them?”
-
-“No.”
-
-“Right.”
+“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”
 
 Ithar's claw moved through the gold again.
 
@@ -88,39 +50,11 @@ Then again, people become accustomed to most things if they happen around breakf
 
 I had learned that twice.
 
-“You came here for the Line,” Ithar said.
+The dragon let me finish trying to negotiate before he answered.
 
-“Yes.”
+“You came here because of the Line. That is not the same as coming here for the Line. You knew my name before the western stations began failing. You knew the mountain before the ninth station bled pressure into the eastern sink. You knew Nhal had known me before your present kingdom appointed the first keeper now attempting to repair that station. You searched for me before the crisis you offered as your reason for arriving.
 
-“No.”
-
-I looked up.
-
-He had used the word differently.
-
-“That is irritating.”
-
-“You came here because of the Line.”
-
-“Same thing.”
-
-“No.”
-
-“Explain.”
-
-“You knew my name before the western stations began failing.”
-
-I said nothing.
-
-“You knew the mountain before the ninth station bled pressure into the eastern sink.”
-
-Nothing.
-
-“You knew Nhal had known me before your present kingdom appointed the first keeper now attempting to repair that station.”
-
-Still nothing.
-
-“You searched for me before the crisis you offered as your reason for arriving.”
+“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”
 
 I looked toward the passage again.
 
@@ -130,19 +64,19 @@ The exit was beginning to feel like a participant.
 
 “I researched possibilities.”
 
-“For what?”
+The eye stayed on me.
 
-“The future.”
+“For the future.”
 
-“That is not an answer.”
+Still not an answer.
+
+I could read that much now.
 
 “It is if you're willing to be generous.”
 
-“I am not.”
+He was not.
 
-“Noted.”
-
-Ithar did not move.
+Noted.
 
 That was the problem with talking to something that could probably sit in the same position longer than I had been alive.
 
@@ -160,33 +94,23 @@ The dragon had a cave.
 
 I was starting to suspect that was the stronger negotiating position.
 
-“If I fix the Line,” he said, “what do you do next?”
+Ithar's attention shifted.
 
-“Go home.”
+Not away from the problem.
 
-“Where?”
+Deeper into it.
 
-“South.”
-
-“That is a direction.”
-
-“It has been working for maps.”
-
-“What is home?”
+“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”
 
 I looked at him.
 
-“That is a different question.”
+“That is several questions pretending to be one.”
 
-“Yes.”
+His nostril moved.
 
-“You didn't ask it.”
+Fine.
 
-“I have now.”
-
-I almost laughed.
-
-Instead I picked at a split in the leather over my right palm.
+I picked at a split in the leather over my right palm.
 
 The glove was new compared to most of me.
 
@@ -202,49 +126,41 @@ There were people who would have remembered for me.
 
 That thought went somewhere I did not want it to go.
 
-“Home is where my things are.”
+“Home is south. Where my things are.”
 
-“Poor definition.”
+The definition looked poor even before Ithar touched it.
 
 “Most definitions are poor if you keep touching them.”
 
-“Where are your things?”
-
-“South.”
-
 His eye narrowed.
-
-I smiled.
 
 That one I kept.
 
-“What do you do after you return south?”
+What would I do after I got there?
 
-“Eat.”
+Eat.
 
-“And then?”
+Sleep.
 
-“Sleep.”
+Complain about the mountain.
 
-“And then?”
+Recover the horse, if the horse had developed a conscience.
 
-“Complain about the mountain.”
+Then what?
 
-“And then?”
+The question did not need his voice every time.
 
-“Recover the horse, if the horse has developed a conscience.”
+I could hear it anyway.
 
-“And then?”
+Then what?
 
-I stared at him.
+Then what?
+
+Then what?
 
 “You could do this forever.”
 
-“Yes.”
-
-“That wasn't admiration.”
-
-“I know.”
+The dragon did not disagree.
 
 “And then I live.”
 
@@ -256,21 +172,15 @@ Different.
 
 The kind that meant I had stepped on something without hearing it crack yet.
 
+He did not need a long answer for that one.
+
 “You have already done that twice.”
 
 The cave suddenly felt warmer.
 
 “Don't.”
 
-“Do not what?”
-
-“Turn that into whatever you're about to turn it into.”
-
-“I have not turned it into anything.”
-
-“You were going to.”
-
-“No.”
+His eye remained on me.
 
 I waited.
 
@@ -278,143 +188,73 @@ He waited longer.
 
 I hated him a little.
 
-“You were searching for me before the Line failed,” he said.
-
-“There it is.”
-
-“Yes.”
-
-“For reasons I have not given you.”
-
-“Yes.”
-
-“And you're assuming those reasons matter.”
-
-“No.”
-
-That stopped me.
-
-Ithar's pupil shifted.
-
-“I am assuming only that they exist.”
-
-I leaned back.
-
-“That is annoyingly fair.”
-
-“Yes.”
-
-“I didn't mean it as praise.”
-
-“I know.”
-
 The claw dragged a shallow line through the gold.
 
 Coins rolled into it and vanished.
 
-“What happened at the end of your first life?”
+He wanted the end of the first life.
+
+I could feel the question coming without hearing it spoken.
 
 “No.”
 
-“Why?”
+The pupil shifted.
 
-“Because we're not doing this.”
+“We're not doing this. We're discussing the Line.”
 
-“We are.”
+As far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything.
 
-“No. We're discussing the Line.”
+That was not finishing by any human definition I respected.
 
-“We finished discussing the Line.”
-
-“You said no.”
-
-“Yes.”
-
-“That is not finishing.”
-
-“It was for me.”
+Apparently the dragon had his own.
 
 I laughed once through my nose.
 
 The sound came out meaner than I intended.
 
-“Do you want payment?”
+“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”
 
-“No.”
-
-“Gold?”
-
-“No.”
-
-“Land?”
-
-“No.”
-
-“You like mountains. I could probably find you another one.”
+His mouth shifted.
 
 “I possess enough mountain.”
 
+I looked around.
+
 “Good sentence.”
 
-“Thank you.”
+The mouth moved again.
 
-“You're welcome.”
+Not quite a smile.
 
-Neither of us moved.
+Neither of us spoke for a moment.
 
 That might have been our first successful exchange.
 
 I decided not to ruin it by mentioning it.
 
-“What do you want?” I asked.
+“What do you want?”
 
-“You.”
+The answer came as a territory, not a word.
 
-I stared.
+“You. More precisely, your account.
 
-Ithar stared back.
+“The discrepancy began with you. Your Line knowledge may be consequence, coincidence, or merely one expression of the same event. The name is another. Nhal is another. Your body attempting movements it has not learned is another. Your present rank is not the interesting part. The habits your body displays despite that rank are.
 
-“That sounded worse than you meant it.”
+“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.
 
-“No.”
-
-“Of course.”
-
-“Your account.”
-
-“Better.”
-
-“The discrepancy began with you. Your Line knowledge may be consequence, coincidence, or merely one expression of the same event. The name is another. Nhal is another. Your body attempting movements it has not learned is another. Your present rank being inconsistent with the habits your body displays is another.”
-
-“My rank isn't inconsistent.”
-
-“You moved before the stone in a way your leg cannot presently support.”
-
-“That was luck.”
-
-“No.”
-
-“Training.”
-
-“Not this body's.”
+“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”
 
 I looked down at the leg.
 
-The dragon continued.
+“My rank isn't inconsistent.”
 
-“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.”
+The dragon had watched me move before the stone in a way my leg could not presently support.
 
-“I am irritated.”
+Luck, I could have called it.
 
-“Yes.”
+Training.
 
-“You're enjoying that.”
-
-“I am interested in it.”
-
-“Same problem.”
-
-“No.”
+Just not this body's training.
 
 I scratched at my jaw.
 
@@ -442,13 +282,7 @@ Breath.
 
 The little pause humans make when a room changes without moving.
 
-“What?” I said.
-
-“You altered.”
-
-“People do that.”
-
-“What did you remember?”
+I looked away.
 
 “Nothing relevant.”
 
@@ -458,223 +292,47 @@ Very slowly.
 
 I had seen cliffs move faster.
 
-“Greg.”
+I knew what he had noticed.
 
-“No.”
-
-“Why?”
-
-“Because it was nothing.”
-
-“You remembered nothing strongly enough to change your pulse.”
-
-I looked away.
+That was the problem.
 
 “See? This is exactly why I don't want to do forty years with you.”
 
-“You assume forty.”
+His pupil narrowed.
 
-I looked back.
+Right.
 
-“No.”
+Not forty.
 
-“Yes.”
-
-“The first life was forty too.”
-
-“Yes.”
+The first life had been forty too.
 
 “I am not telling you eighty years.”
 
-“Why?”
-
-I laughed.
-
-He did not.
+I laughed when his expression failed to change.
 
 “You're serious.”
 
-“Yes.”
-
-“I could die before we finish.”
-
-“You could die before lunch.”
-
-“Comforting.”
-
-“It was not intended to comfort you.”
-
-“I know.”
-
-Ithar shifted his foreleg beneath him.
-
-Stone ground against stone.
+Stone ground against stone as Ithar shifted his foreleg beneath him.
 
 Gold slid for several seconds.
 
 Something metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.
 
-When the sound finally stopped, he spoke.
+When the sound finally stopped, the dragon took the floor again.
 
-“I do not require eighty years in sequence.”
+“I do not require eighty years in sequence.
 
-I waited.
+“You believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable.
 
-There was more coming.
+“In the second life, every choice made with foreknowledge carries a piece of the first. Every person you sought because you remembered them. Every person you avoided. Every road you did not take. Every skill you attempted before your body was ready. Every danger you recognized. Every danger you failed to recognize because you believed you already understood it.
 
-I knew that now.
+“The first life is not background to the second. It is pressure applied to it.
 
-“You believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable.”
+“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer.
 
-His voice had changed again.
+“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions. If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.
 
-Not deeper.
-
-Longer.
-
-The dragon had taken the floor.
-
-“In the second life, every choice made with foreknowledge carries a piece of the first. Every person you sought because you remembered them. Every person you avoided. Every road you did not take. Every skill you attempted before your body was ready. Every danger you recognized. Every danger you failed to recognize because you believed you already understood it.”
-
-He touched one claw to the old Line disk.
-
-“The first life is not background to the second. It is pressure applied to it.”
-
-The claw moved away.
-
-“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency.”
-
-“That sounds suspiciously like a rule.”
-
-“Yes.”
-
-“In my story.”
-
-“Yes.”
-
-“Which I'm telling you as payment.”
-
-“No.”
-
-I frowned.
-
-“No?”
-
-“You are telling me because I am interested.”
-
-“And then you'll help.”
-
-“I have not said that.”
-
-“Then it is payment for the possibility that you become less annoying.”
-
-“No.”
-
-“I'm negotiating.”
-
-“Poorly.”
-
-“Still counts.”
-
-The dragon's mouth shifted.
-
-Not quite a smile.
-
-There were too many things in this cave that were not quite smiles.
-
-“Fine,” I said. “Life Two is the spine. Life One where it matters.”
-
-“You do not decide what matters alone.”
-
-“I am the one remembering it.”
-
-“Yes.”
-
-“That gives me some editorial control.”
-
-“No.”
-
-“Some.”
-
-“Very little.”
-
-“More than none.”
-
-Ithar considered that.
-
-“Acceptable.”
-
-I blinked.
-
-“That was easier than expected.”
-
-“You have misunderstood the agreement.”
-
-“Probably.”
-
-“You may compress repetition.”
-
-“Good.”
-
-“You may omit what you genuinely do not remember.”
-
-“Very generous.”
-
-“You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer.”
-
-There it was.
-
-“How would you know?”
-
-“I may not.”
-
-“That seems like a problem for you.”
-
-“Yes.”
-
-“And you're comfortable with that?”
-
-“No.”
-
-That surprised me more than I wanted it to.
-
-Ithar continued.
-
-“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions.”
-
-“Good.”
-
-“If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.”
-
-I looked at him.
-
-“You're going to be fucking annoying about this.”
-
-“Yes.”
-
-“At least we're clear.”
-
-“You have spent decades deciding which memories explain who you became.”
-
-I did not like the sentence before he finished it.
-
-“I have no reason to trust your selection.”
-
-“I was there.”
-
-“Yes.”
-
-“I know what mattered.”
-
-“You know what mattered to you when you last interpreted it.”
-
-“That is usually the same thing.”
-
-“No.”
-
-“Obviously.”
-
-“The reason you remember a thing may not be the reason you believe you remember it.”
+“You have spent decades deciding which memories explain who you became. I have no reason to trust that selection. You know what mattered to you when you last interpreted it. That is not necessarily what mattered. The reason you remember a thing may not be the reason you believe you remember it.”
 
 I sat with that.
 
@@ -688,97 +346,87 @@ The Line moved under the continent too.
 
 Not slow enough anymore.
 
-“How long do you think this takes?” I asked.
+“That sounds suspiciously like rules for my story.”
 
-“I do not know.”
+Ithar's eye held mine.
 
-“Weeks?”
+“Life Two is the spine. Life One where it matters.”
 
-“Possibly.”
+The eye did not move.
 
-“Months?”
+“And I get some editorial control.”
 
-“Possibly.”
+A long pause.
 
-“You don't care.”
+Very little, apparently.
 
-“About the duration?”
+“More than none.”
 
-“Yes.”
+His mouth shifted.
 
-“No.”
+Acceptable.
 
-“Of course.”
+That was easier than expected.
 
-“I have been in this mountain longer than your current kingdom has had a name.”
+Which probably meant I had misunderstood the agreement.
+
+Ithar was going to be fucking annoying about this.
+
+At least we were clear.
+
+I thought about time next.
+
+Human time.
+
+The kind dragons could afford to treat as a formatting problem.
+
+“How long do you think this takes?”
+
+Ithar considered me.
+
+Weeks, maybe.
+
+Months, maybe.
+
+He did not know.
+
+Worse, he did not care about the duration in the way I did.
+
+He had been in this mountain longer than my current kingdom had had a name.
 
 “You really know how to make a person feel urgent.”
 
-“You are urgent.”
+The dragon's gaze sharpened.
 
-That caught me.
+Then his voice changed again.
 
-“The Line?”
+Not deeper.
 
-“No.”
+Longer.
 
-I stared.
+“You are urgent, Greg. Not the Line. You.
 
-Ithar's eye stayed on me.
+“You are sixty soon. Your species measures a life in decades and then behaves surprised when there are not enough of them. You are not surprised. That interests me.
 
-“You are sixty soon.”
+“You have been searching for me for years. You have already lived two lives by your own description. You arrived with enough food to reach me, not enough to return comfortably. Your planning prioritizes arrival over departure.
 
-“Thank you.”
+“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”
 
-“Your species measures a life in decades and then behaves surprised when there are not enough of them.”
-
-“I am not surprised.”
-
-“No?”
-
-“No.”
-
-The answer came too quickly.
-
-His eye sharpened.
-
-I regretted it immediately.
-
-“Interesting,” he said.
-
-“Don't.”
-
-“You have been searching for me for years.”
-
-“We covered that.”
-
-“You are not surprised by the scarcity of a human lifetime.”
-
-“That is called being fifty-nine.”
-
-“You have already lived two.”
-
-“I told you not to do that.”
-
-“And you arrived with enough food to reach me, not enough to return.”
+I regretted several answers I had not even said out loud.
 
 “I can hunt.”
 
-“With your leg.”
-
-“Yes.”
-
-He waited.
+His eye dropped to the leg.
 
 “Poorly.”
 
-“Your planning prioritizes arrival over departure.”
+That one I admitted for him.
 
-“I came here to save the Line.”
+The word perhaps sat between us without being spoken.
 
-“Perhaps.”
+I had come here to save the Line.
 
-The word sat badly between us.
+Perhaps.
 
 I looked at the passage again.
 
@@ -786,51 +434,19 @@ The exit did not help.
 
 “What if I say no?”
 
-“You leave.”
+The dragon answered without ceremony.
 
-“That's it?”
+“You leave. You may die on the mountain. You may live. The Line may fail. I will not burn you for refusing conversation.”
 
-“Yes.”
+My jaw tightened at the third possibility.
 
-“No fire.”
-
-“Not for refusing conversation.”
-
-“Again, excellent qualifier.”
-
-“You may die on the mountain.”
-
-“I know.”
-
-“You may live.”
-
-“I know.”
-
-“The Line may fail.”
-
-My jaw tightened.
-
-“I know.”
-
-Ithar watched that one land.
+He watched that one land.
 
 Then, for once, he did not press.
 
-He lifted a claw and pointed deeper into the cave.
+Instead he lifted a claw and pointed deeper into the cave.
 
-“There is water behind the second stone shelf.”
-
-“I hear it.”
-
-“There are animals below the eastern face.”
-
-“The cliff?”
-
-“The other eastern face.”
-
-“Helpful.”
-
-“I can show you.”
+“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”
 
 I blinked.
 
@@ -844,29 +460,11 @@ Food directions.
 
 It was a start.
 
-“You'd let me stay here?”
+“You understand I have to shit.”
 
-“Yes.”
+His nostril opened.
 
-“For months.”
-
-“If months are required.”
-
-“You understand I have to sleep.”
-
-“Yes.”
-
-“Eat.”
-
-“Yes.”
-
-“Shit.”
-
-“Yes.”
-
-“Good. Just establishing the hospitality package.”
-
-“You are welcome to shit outside.”
+“You are welcome to do that outside.”
 
 I laughed.
 
@@ -916,13 +514,17 @@ Ithar's nostril moved.
 
 He had heard the silence change again.
 
-“Where does the discrepancy begin?” he asked.
+This time the question was small enough to deserve being spoken.
+
+“Where does the discrepancy begin?”
 
 I looked at him.
 
 “Nineteen.”
 
-“Then begin there.”
+The dragon held my eyes.
+
+“Begin there.”
 
 I rested my hands on my knees.
 

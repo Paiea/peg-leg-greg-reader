@@ -19,7 +19,7 @@ DRAGON_ATTR_RE = re.compile(
     re.IGNORECASE,
 )
 DRAGON_NEXT_RE = re.compile(
-    r"\b(?:Ithar|the dragon|dragon)\b.*\b(?:continued|spoke|asked|said|answered|replied)\b",
+    r"\b(?:Ithar|the dragon|dragon)\b.*(?:\b(?:continued|spoke|asked|said|answered|replied)\b|\btook the floor\b)",
     re.IGNORECASE,
 )
 GREG_NEXT_RE = re.compile(
@@ -57,21 +57,46 @@ def _attributed_speaker(paragraph: str) -> str | None:
     return None
 
 
-def _split_semantic_segments(paragraph: str, last_speaker: str | None, next_hint: str | None) -> tuple[list[dict], str | None]:
+def _matches_dragon_prefix(paragraph: str, dragon_prefixes: list[str] | None) -> bool:
+    if dragon_prefixes is None:
+        return False
+    return any(prefix and prefix in paragraph for prefix in dragon_prefixes)
+
+
+def _resolve_quote_speaker(
+    paragraph: str,
+    last_speaker: str | None,
+    next_hint: str | None,
+    dragon_prefixes: list[str] | None = None,
+) -> str:
+    # Production routing is strict when a Dragon routing file is supplied.
+    # Only explicitly locked Ithar quote prefixes become Dragon. All other
+    # dialogue defaults to Greg, including remembered-life characters.
+    if dragon_prefixes is not None:
+        return "dragon" if _matches_dragon_prefix(paragraph, dragon_prefixes) else "greg"
+
+    explicit = _attributed_speaker(paragraph)
+    if explicit is not None:
+        return explicit
+    if next_hint in {"greg", "dragon"}:
+        return next_hint
+    if last_speaker is None:
+        return "greg"
+    return "dragon" if last_speaker == "greg" else "greg"
+
+
+def _split_semantic_segments(
+    paragraph: str,
+    last_speaker: str | None,
+    next_hint: str | None,
+    dragon_prefixes: list[str] | None = None,
+) -> tuple[list[dict], str | None]:
     """Split narration vs quoted speech while resolving cave dialogue turns."""
     matches = list(QUOTE_RE.finditer(paragraph))
     if not matches:
         return [{"role": "greg", "text": paragraph}], None
 
-    explicit = _attributed_speaker(paragraph)
-    quote_speaker = explicit
-    if quote_speaker is None:
-        if next_hint in {"greg", "dragon"}:
-            quote_speaker = next_hint
-        elif last_speaker is None:
-            quote_speaker = "greg"
-        else:
-            quote_speaker = "dragon" if last_speaker == "greg" else "greg"
+    quote_speaker = _resolve_quote_speaker(paragraph, last_speaker, next_hint, dragon_prefixes)
 
     segments: list[dict] = []
     cursor = 0
@@ -98,19 +123,60 @@ def _collapse_segments(segments: list[dict]) -> list[dict]:
     return collapsed
 
 
-def classify_paragraphs(text: str) -> list[dict]:
+def _sustained_quote_segments(paragraph: str, role: str) -> tuple[list[dict], bool]:
+    """Route one paragraph inside an already-open multi-paragraph quotation."""
+    close_at = paragraph.find("”")
+    if close_at < 0:
+        return [{"role": role, "text": paragraph}], True
+
+    close_at += 1
+    segments = [{"role": role, "text": paragraph[:close_at]}]
+    if close_at < len(paragraph):
+        segments.append({"role": "greg", "text": paragraph[close_at:]})
+    return _collapse_segments(segments), False
+
+
+def classify_paragraphs(text: str, dragon_prefixes: list[str] | None = None) -> list[dict]:
     paragraphs = [part.strip() for part in re.split(r"\n\s*\n", text.strip()) if part.strip()]
     rows: list[dict] = []
     last_speaker: str | None = None
     next_hint: str | None = None
+    open_quote_role: str | None = None
 
     for paragraph in paragraphs:
-        segments, spoken = _split_semantic_segments(paragraph, last_speaker, next_hint)
         explicit = _attributed_speaker(paragraph)
+
+        if open_quote_role is not None and paragraph.startswith("“"):
+            segments, remains_open = _sustained_quote_segments(paragraph, open_quote_role)
+            spoken = open_quote_role
+            role = spoken
+            last_speaker = spoken
+            next_hint = None
+            if not remains_open:
+                open_quote_role = None
+            rows.append({"role": role, "text": paragraph, "segments": segments, "explicit": explicit})
+            continue
+
+        if paragraph.startswith("“") and "”" not in paragraph:
+            spoken = _resolve_quote_speaker(paragraph, last_speaker, next_hint, dragon_prefixes)
+            open_quote_role = spoken
+            last_speaker = spoken
+            next_hint = None
+            rows.append(
+                {
+                    "role": spoken,
+                    "text": paragraph,
+                    "segments": [{"role": spoken, "text": paragraph}],
+                    "explicit": explicit,
+                }
+            )
+            continue
+
+        segments, spoken = _split_semantic_segments(paragraph, last_speaker, next_hint, dragon_prefixes)
         if spoken is not None:
             last_speaker = spoken
             next_hint = None
-        else:
+        elif dragon_prefixes is None:
             if DRAGON_NEXT_RE.search(paragraph):
                 next_hint = "dragon"
             elif GREG_NEXT_RE.search(paragraph):
@@ -121,9 +187,9 @@ def classify_paragraphs(text: str) -> list[dict]:
     return rows
 
 
-def extract_quote_inventory(text: str) -> list[dict]:
-    """Return an occurrence-indexed quote ledger with heuristic speaker proposals."""
-    rows = classify_paragraphs(text)
+def extract_quote_inventory(text: str, dragon_prefixes: list[str] | None = None) -> list[dict]:
+    """Return an occurrence-indexed quote ledger with proposed speaker ownership."""
+    rows = classify_paragraphs(text, dragon_prefixes=dragon_prefixes)
     inventory: list[dict] = []
     quote_id = 0
     for paragraph_index, row in enumerate(rows, start=1):
@@ -150,6 +216,8 @@ def apply_quote_role_overrides(rows: list[dict], overrides: dict[int, str]) -> l
         paragraph = row["text"]
         matches = list(QUOTE_RE.finditer(paragraph))
         if not matches:
+            if paragraph.startswith("“") and row.get("role") in {"greg", "dragon"}:
+                continue
             row["role"] = "greg"
             row["segments"] = [{"role": "greg", "text": paragraph}]
             continue
@@ -215,25 +283,62 @@ def _chunk_from_items(items: list[dict], index: int) -> dict:
     }
 
 
+def _slice_segments(item: dict, start: int, end: int) -> list[dict]:
+    """Slice resolved semantic spans without re-inferring speaker ownership."""
+    sliced: list[dict] = []
+    cursor = 0
+    for segment in item.get("segments", [{"role": item["role"], "text": item["text"]}]):
+        seg_start = cursor
+        seg_end = cursor + len(segment["text"])
+        overlap_start = max(start, seg_start)
+        overlap_end = min(end, seg_end)
+        if overlap_start < overlap_end:
+            local_start = overlap_start - seg_start
+            local_end = overlap_end - seg_start
+            sliced.append({"role": segment["role"], "text": segment["text"][local_start:local_end]})
+        cursor = seg_end
+    return _collapse_segments(sliced)
+
+
 def _split_oversize(item: dict, max_chars: int) -> list[dict]:
     text = item["text"]
     if len(text) <= max_chars:
         return [item]
+
     pieces: list[dict] = []
-    remaining = text
-    while len(remaining) > max_chars:
-        window = remaining[: max_chars + 1]
+    start = 0
+    while len(text) - start > max_chars:
+        window = text[start : start + max_chars + 1]
         candidates = [m.end() for m in re.finditer(r"[.!?][”']?(?:\s+|$)", window)]
-        cut = max(candidates) if candidates else window.rfind(" ") + 1
-        if cut <= 0 or cut > max_chars:
-            cut = max_chars
-        piece = remaining[:cut]
-        remaining = remaining[cut:]
-        segs, _ = _split_semantic_segments(piece, None, item["role"] if item["role"] in {"greg", "dragon"} else None)
-        pieces.append({"role": item["role"], "text": piece, "segments": segs, "explicit": item.get("explicit")})
-    if remaining:
-        segs, _ = _split_semantic_segments(remaining, None, item["role"] if item["role"] in {"greg", "dragon"} else None)
-        pieces.append({"role": item["role"], "text": remaining, "segments": segs, "explicit": item.get("explicit")})
+        relative_cut = max(candidates) if candidates else window.rfind(" ") + 1
+        if relative_cut <= 0 or relative_cut > max_chars:
+            relative_cut = max_chars
+        end = start + relative_cut
+        piece_text = text[start:end]
+        piece_segments = _slice_segments(item, start, end)
+        piece_role = piece_segments[0]["role"] if piece_segments else item["role"]
+        pieces.append(
+            {
+                "role": piece_role,
+                "text": piece_text,
+                "segments": piece_segments or [{"role": piece_role, "text": piece_text}],
+                "explicit": item.get("explicit"),
+            }
+        )
+        start = end
+
+    if start < len(text):
+        piece_text = text[start:]
+        piece_segments = _slice_segments(item, start, len(text))
+        piece_role = piece_segments[0]["role"] if piece_segments else item["role"]
+        pieces.append(
+            {
+                "role": piece_role,
+                "text": piece_text,
+                "segments": piece_segments or [{"role": piece_role, "text": piece_text}],
+                "explicit": item.get("explicit"),
+            }
+        )
     return pieces
 
 
@@ -267,6 +372,19 @@ def _load_role_overrides(path: Path | None) -> dict[int, str]:
     return {int(key): value for key, value in mapping.items()}
 
 
+def _load_dragon_prefixes(path: Path | None) -> list[str] | None:
+    if path is None:
+        return None
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    prefixes = raw.get("dragon_prefixes")
+    if not isinstance(prefixes, list) or not prefixes:
+        raise ValueError(f"{path}: dragon_prefixes must be a non-empty list")
+    cleaned = [str(prefix) for prefix in prefixes if str(prefix)]
+    if len(cleaned) != len(prefixes):
+        raise ValueError(f"{path}: dragon_prefixes contains an empty value")
+    return cleaned
+
+
 def _write_inventory(path: Path, inventory: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = ["id\theuristic_role\texplicit\tquote\tcontext"]
@@ -279,9 +397,15 @@ def _write_inventory(path: Path, inventory: list[dict]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def build_plan(markdown: str, source: str, max_chars: int = 500, quote_roles: dict[int, str] | None = None) -> dict:
+def build_plan(
+    markdown: str,
+    source: str,
+    max_chars: int = 500,
+    quote_roles: dict[int, str] | None = None,
+    dragon_prefixes: list[str] | None = None,
+) -> dict:
     record, title, body = strip_headings(markdown)
-    paragraphs = classify_paragraphs(body)
+    paragraphs = classify_paragraphs(body, dragon_prefixes=dragon_prefixes)
     if quote_roles:
         paragraphs = apply_quote_role_overrides(paragraphs, quote_roles)
     chunks = make_chunks(paragraphs, max_chars=max_chars)
@@ -299,7 +423,9 @@ def build_plan(markdown: str, source: str, max_chars: int = 500, quote_roles: di
         "max_chars": max_chars,
         "voices": {"greg": "deep", "dragon": "normal"},
         "quote_roles_locked": bool(quote_roles),
-        "quote_count": len(extract_quote_inventory(body)),
+        "dragon_routing_locked": dragon_prefixes is not None,
+        "dragon_prefixes": dragon_prefixes or [],
+        "quote_count": len(extract_quote_inventory(body, dragon_prefixes=dragon_prefixes)),
         "chunk_count": len(chunks),
         "chunks": chunks,
     }
@@ -311,13 +437,15 @@ def main() -> None:
     parser.add_argument("output")
     parser.add_argument("--max-chars", type=int, default=500)
     parser.add_argument("--quote-roles", type=Path)
+    parser.add_argument("--dragon-routing", type=Path)
     parser.add_argument("--inventory-output", type=Path)
     args = parser.parse_args()
     source = Path(args.input)
     output = Path(args.output)
     markdown = source.read_text(encoding="utf-8")
     _, _, body = strip_headings(markdown)
-    inventory = extract_quote_inventory(body)
+    dragon_prefixes = _load_dragon_prefixes(args.dragon_routing)
+    inventory = extract_quote_inventory(body, dragon_prefixes=dragon_prefixes)
     if args.inventory_output:
         _write_inventory(args.inventory_output, inventory)
     plan = build_plan(
@@ -325,10 +453,15 @@ def main() -> None:
         str(source),
         args.max_chars,
         quote_roles=_load_role_overrides(args.quote_roles),
+        dragon_prefixes=dragon_prefixes,
     )
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Record {plan['record']} {plan['title']}: {plan['chunk_count']} chunks, {plan['quote_count']} quotes")
+    print(
+        f"Record {plan['record']} {plan['title']}: "
+        f"{plan['chunk_count']} chunks, {plan['quote_count']} quotes, "
+        f"dragon_routing_locked={plan['dragon_routing_locked']}"
+    )
 
 
 if __name__ == "__main__":

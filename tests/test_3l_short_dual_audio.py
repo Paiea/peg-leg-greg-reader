@@ -1,10 +1,10 @@
 import unittest
 
-import scripts.build_3l_short_dual_audio as audio
 from scripts.build_3l_short_dual_audio import (
-    expected_capture_keys,
-    validate_capture_manifest,
     choose_role_segments,
+    collapse_role_spans,
+    expected_capture_keys,
+    validate_verified_capture_receipt,
 )
 
 
@@ -13,55 +13,45 @@ class ShortDualAudioTests(unittest.TestCase):
         self.plan = {
             "record": "002",
             "chunks": [
-                {
-                    "index": 1,
-                    "transcript": "Narration only.",
-                    "required_voices": ["deep"],
-                    "semantic_spans": [
-                        {"start": 0, "end": 15, "role": "greg", "text": "Narration only."}
-                    ],
-                },
-                {
-                    "index": 2,
-                    "transcript": "Greg.\n\nDragon.",
-                    "required_voices": ["deep", "normal"],
-                    "semantic_spans": [
-                        {"start": 0, "end": 5, "role": "greg", "text": "Greg."},
-                        {"start": 7, "end": 14, "role": "dragon", "text": "Dragon."},
-                    ],
-                },
+                {"index": 1, "transcript": "Narration only.", "required_voices": ["deep"]},
+                {"index": 2, "transcript": "Greg.Dragon.", "required_voices": ["deep", "normal"]},
+            ],
+        }
+
+    def verified_receipt(self):
+        return {
+            "record": "002",
+            "verified_capture_count": 3,
+            "planned_capture_count": 3,
+            "complete": True,
+            "missing": [],
+            "captures": [
+                {"chunk": 1, "voice": "deep", "preview_url": "https://example.test/1.mp3", "sha256": "a" * 64, "status": "verified"},
+                {"chunk": 2, "voice": "deep", "preview_url": "https://example.test/2d.mp3", "sha256": "b" * 64, "status": "verified"},
+                {"chunk": 2, "voice": "normal", "preview_url": "https://example.test/2n.mp3", "sha256": "c" * 64, "status": "verified"},
             ],
         }
 
     def test_expected_capture_keys_follow_required_voices(self):
-        self.assertEqual(
-            expected_capture_keys(self.plan),
-            [(1, "deep"), (2, "deep"), (2, "normal")],
-        )
+        self.assertEqual(expected_capture_keys(self.plan), [(1, "deep"), (2, "deep"), (2, "normal")])
 
-    def test_manifest_must_cover_every_required_capture_exactly(self):
-        manifest = {
-            "record": "002",
-            "captures": [
-                {"chunk": 1, "voice": "deep", "transcript": "Narration only.", "preview_url": "https://example.test/1.mp3"},
-                {"chunk": 2, "voice": "deep", "transcript": "Greg.\n\nDragon.", "preview_url": "https://example.test/2d.mp3"},
-                {"chunk": 2, "voice": "normal", "transcript": "Greg.\n\nDragon.", "preview_url": "https://example.test/2n.mp3"},
-            ],
-        }
-        indexed = validate_capture_manifest(self.plan, manifest)
+    def test_verified_receipt_indexes_every_planned_capture(self):
+        indexed = validate_verified_capture_receipt(self.plan, self.verified_receipt())
         self.assertEqual(sorted(indexed), [(1, "deep"), (2, "deep"), (2, "normal")])
 
-    def test_manifest_rejects_transcript_mismatch(self):
-        manifest = {
-            "record": "002",
-            "captures": [
-                {"chunk": 1, "voice": "deep", "transcript": "WRONG", "preview_url": "https://example.test/1.mp3"},
-                {"chunk": 2, "voice": "deep", "transcript": "Greg.\n\nDragon.", "preview_url": "https://example.test/2d.mp3"},
-                {"chunk": 2, "voice": "normal", "transcript": "Greg.\n\nDragon.", "preview_url": "https://example.test/2n.mp3"},
-            ],
-        }
-        with self.assertRaisesRegex(ValueError, "transcript mismatch"):
-            validate_capture_manifest(self.plan, manifest)
+    def test_verified_receipt_rejects_incomplete_source_set(self):
+        receipt = self.verified_receipt()
+        receipt["complete"] = False
+        receipt["missing"] = [{"chunk": 2, "voice": "normal"}]
+        receipt["captures"] = receipt["captures"][:-1]
+        with self.assertRaisesRegex(ValueError, "verification receipt is incomplete"):
+            validate_verified_capture_receipt(self.plan, receipt)
+
+    def test_verified_receipt_rejects_duplicate_capture(self):
+        receipt = self.verified_receipt()
+        receipt["captures"].append(dict(receipt["captures"][0]))
+        with self.assertRaisesRegex(ValueError, "duplicate verified capture"):
+            validate_verified_capture_receipt(self.plan, receipt)
 
     def test_choose_role_segments_uses_role_specific_source_timing(self):
         semantic = [
@@ -78,85 +68,29 @@ class ShortDualAudioTests(unittest.TestCase):
                 {"role": "dragon", "start_seconds": 1.0, "end_seconds": 2.8},
             ],
         }
-        chosen = choose_role_segments(semantic, timed_by_voice)
         self.assertEqual(
-            chosen,
+            choose_role_segments(semantic, timed_by_voice),
             [
                 {"role": "greg", "voice": "deep", "start_seconds": 0.0, "end_seconds": 1.2},
                 {"role": "dragon", "voice": "normal", "start_seconds": 1.0, "end_seconds": 2.8},
             ],
         )
 
-    def test_verified_receipt_indexes_every_planned_capture(self):
-        self.assertTrue(
-            hasattr(audio, "validate_verified_capture_receipt"),
-            "production module must expose validate_verified_capture_receipt",
-        )
-        receipt = {
-            "record": "002",
-            "verified_capture_count": 3,
-            "planned_capture_count": 3,
-            "complete": True,
-            "missing": [],
-            "captures": [
-                {"chunk": 1, "voice": "deep", "preview_url": "https://example.test/1.mp3", "sha256": "a" * 64, "status": "verified"},
-                {"chunk": 2, "voice": "deep", "preview_url": "https://example.test/2d.mp3", "sha256": "b" * 64, "status": "verified"},
-                {"chunk": 2, "voice": "normal", "preview_url": "https://example.test/2n.mp3", "sha256": "c" * 64, "status": "verified"},
-            ],
-        }
-        indexed = audio.validate_verified_capture_receipt(self.plan, receipt)
-        self.assertEqual(sorted(indexed), [(1, "deep"), (2, "deep"), (2, "normal")])
-
-    def test_verified_receipt_rejects_incomplete_source_set(self):
-        self.assertTrue(
-            hasattr(audio, "validate_verified_capture_receipt"),
-            "production module must expose validate_verified_capture_receipt",
-        )
-        receipt = {
-            "record": "002",
-            "verified_capture_count": 2,
-            "planned_capture_count": 3,
-            "complete": False,
-            "missing": [[2, "normal"]],
-            "captures": [
-                {"chunk": 1, "voice": "deep", "preview_url": "https://example.test/1.mp3", "sha256": "a" * 64, "status": "verified"},
-                {"chunk": 2, "voice": "deep", "preview_url": "https://example.test/2d.mp3", "sha256": "b" * 64, "status": "verified"},
-            ],
-        }
-        with self.assertRaisesRegex(ValueError, "incomplete verified capture receipt"):
-            audio.validate_verified_capture_receipt(self.plan, receipt)
-
     def test_collapse_role_spans_keeps_only_true_speaker_transitions(self):
-        self.assertTrue(
-            hasattr(audio, "collapse_role_spans"),
-            "production module must expose collapse_role_spans",
-        )
-        transcript = "Narration.\n\nMore narration. “Dragon.”\n\nGreg again."
-        semantic = [
-            {"start": 0, "end": 10, "role": "greg", "text": "Narration."},
-            {"start": 12, "end": 27, "role": "greg", "text": "More narration."},
-            {"start": 28, "end": 37, "role": "dragon", "text": "“Dragon.”"},
-            {"start": 39, "end": 50, "role": "greg", "text": "Greg again."},
-        ]
-        self.assertEqual(
-            audio.collapse_role_spans(transcript, semantic),
-            [
-                {"start": 0, "end": 28, "role": "greg"},
-                {"start": 28, "end": 39, "role": "dragon"},
-                {"start": 39, "end": len(transcript), "role": "greg"},
-            ],
-        )
-
-    def test_collapse_role_spans_covers_single_voice_chunk(self):
-        self.assertTrue(hasattr(audio, "collapse_role_spans"))
-        transcript = "One.\n\nTwo."
+        transcript = "One.Two.Dragon.Greg."
         semantic = [
             {"start": 0, "end": 4, "role": "greg", "text": "One."},
-            {"start": 6, "end": 10, "role": "greg", "text": "Two."},
+            {"start": 4, "end": 8, "role": "greg", "text": "Two."},
+            {"start": 8, "end": 15, "role": "dragon", "text": "Dragon."},
+            {"start": 15, "end": 20, "role": "greg", "text": "Greg."},
         ]
         self.assertEqual(
-            audio.collapse_role_spans(transcript, semantic),
-            [{"start": 0, "end": len(transcript), "role": "greg"}],
+            collapse_role_spans(transcript, semantic),
+            [
+                {"start": 0, "end": 8, "role": "greg", "text": "One.Two."},
+                {"start": 8, "end": 15, "role": "dragon", "text": "Dragon."},
+                {"start": 15, "end": 20, "role": "greg", "text": "Greg."},
+            ],
         )
 
 

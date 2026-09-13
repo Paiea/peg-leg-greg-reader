@@ -1,0 +1,61 @@
+name: Build 3L Frontier
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+    paths:
+      - '.github/workflows/3l-build-frontier.yml'
+      - 'scripts/build_3l_frontier.py'
+      - 'scripts/build_3l_record_pages.py'
+      - 'scripts/build_3l_parallel_audio_work_order.py'
+      - 'scripts/plan_3l_short_dual_render.py'
+      - '3l/manuscript/record-*.md'
+      - '3l/audio/record-00[23]-dragon-routing.json'
+      - 'tests/test_3l_frontier_publish.py'
+      - 'tests/test_3l_parallel_audio_work_order.py'
+      - 'tests/test_3l_site.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3l/dialogue-territory-rebuild-002-010
+          fetch-depth: 0
+          sparse-checkout: |
+            .github/workflows
+            3l
+            r2
+            scripts
+            tests
+      - name: Verify allocator behavior
+        run: python -m unittest tests.test_3l_parallel_audio_work_order -v
+      - name: Build plans, workers, and reader frontier
+        run: python scripts/build_3l_frontier.py
+      - name: Verify generated frontier
+        run: |
+          python -m unittest tests.test_3l_frontier_publish -v
+          python -m unittest tests.test_3l_site -v
+      - name: Commit generated frontier
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add \
+            3l/audio/record-*-dragon-routing.json \
+            3l/audio/record-*-short-dual-plan.json \
+            3l/audio/records-002-010-five-worker-work-order.json \
+            3l/audio/workers/records-002-010-instant-*-work-order.json \
+            3l/audio/index.html \
+            3l/records/*.html
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build 3L published and audio frontier through 010"
+          git pull --rebase origin 3l/dialogue-territory-rebuild-002-010
+          git push origin HEAD:3l/dialogue-territory-rebuild-002-010

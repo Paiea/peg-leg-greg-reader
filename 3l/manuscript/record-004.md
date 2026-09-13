@@ -621,3 +621,19 @@ I crossed the street.
 Only years later did I understand that the most important thing I carried into Guild Hall was not forty years of knowledge.
 
 It was the assumption that I still wanted the same life.
+
+The cave returned around me.
+
+Ithar had not moved.
+
+His eye rested on the hands I had been remembering young.
+
+“You woke with forty years of knowledge and treated the second life as a chance to perform the first more efficiently. You did not yet want another life. You wanted the same one with fewer mistakes. Keep that distinction. It will matter when you tell me when it stopped being true.”
+
+I looked at him.
+
+“At nineteen, I didn't know it was an assumption.”
+
+The dragon's eye stayed on me.
+
+Then Guild Hall came back.

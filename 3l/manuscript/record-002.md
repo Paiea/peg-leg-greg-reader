@@ -30,18 +30,6 @@ The movement was small.
 
 His eye followed it anyway.
 
-Eventually he said, “Not this time.”
-
-“Yes.”
-
-“You chose those words.”
-
-“I did.”
-
-“Why?”
-
-“Because they were short.”
-
 His nostril opened.
 
 Not quite a sigh.
@@ -50,17 +38,9 @@ I had started assigning meanings to the nostrils.
 
 That was probably dangerous.
 
-“Say what you mean without protecting it with brevity.”
+Then the dragon took the floor.
 
-I looked at him.
-
-“That sounds expensive.”
-
-“I have not charged you.”
-
-“Yet.”
-
-“Greg.”
+“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”
 
 That was the first time my name sounded different in his mouth.
 
@@ -86,7 +66,7 @@ Ithar watched the hand.
 
 Of course he did.
 
-“I remember another life,” I said.
+“I remember another life. Approximately forty years. Nineteen to fifty-nine.”
 
 Nothing happened.
 
@@ -98,55 +78,7 @@ It sounded exactly like what it was.
 
 A man in a cave saying something impossible.
 
-Ithar waited.
-
-I had learned enough to know that meant he was not finished.
-
-“How much?”
-
-“Of the life?”
-
-“Yes.”
-
-“Most of it.”
-
-“Most is a word humans use when they wish to avoid discovering what is missing.”
-
-“I remember forty years.”
-
-“Exactly?”
-
-“No.”
-
-“How nearly?”
-
-“Close enough that I resent the question.”
-
-“That is not a measure.”
-
-“Approximately forty years.”
-
-One corner of his mouth shifted.
-
-I pointed at him.
-
-“Don't.”
-
-“I said nothing.”
-
-“You were going to.”
-
-“No.”
-
-That was worse somehow.
-
-“Beginning when?”
-
-“Nineteen.”
-
-“Ending?”
-
-“Fifty-nine.”
+“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”
 
 His eye moved over my face.
 
@@ -158,129 +90,39 @@ The right hand that no longer closed all the way.
 
 The shoulder that sat slightly wrong under my coat.
 
-“You are fifty-nine now.”
+He took his time looking.
 
-“Yes.”
+Then he spoke again.
 
-“So you remember approximately forty years beginning at the age you first became an adult and ending at your present age.”
-
-“That's one way to make it sound suspicious.”
-
-“It is the chronological way.”
-
-“Right.”
-
-“Did you remember childhood?”
-
-“My actual childhood?”
-
-“What does actual mean in that sentence?”
+“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”
 
 I opened my mouth.
 
 Closed it.
 
-He waited.
-
 I hated that he was already getting better at this.
-
-“I remember being a kid once,” I said. “Both lives have the same childhood. Or close enough that I never found a difference worth keeping.”
-
-“You did not return to birth.”
-
-“No.”
-
-“You woke at nineteen.”
-
-“Yes.”
-
-“In the same body.”
-
-“A younger version of it.”
-
-“The same body.”
-
-“Depends what you mean by same.”
-
-“Good.”
-
-I frowned.
-
-“What?”
-
-“You objected to my category.”
-
-“I object to most categories when I'm standing inside them.”
-
-“That may become useful.”
-
-“For the Line?”
-
-“No.”
-
-“Of course not.”
-
-Ithar's head lowered another few inches.
-
-The movement pushed warm air over the stone between us.
-
-“You woke at nineteen with memories extending to fifty-nine.”
-
-“Yes.”
-
-“You then lived from nineteen to fifty-nine again.”
-
-“Yes.”
-
-“And the second history did not reproduce the first.”
-
-“No.”
-
-“How soon did you know?”
-
-I thought about that.
-
-“Depends what you mean by know.”
-
-The eye narrowed.
-
-I smiled despite myself.
-
-“I can learn.”
-
-“You can imitate.”
-
-“Good enough.”
-
-“No.”
-
-There it was.
-
-I had missed it.
-
-“Years,” I said. “There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”
-
-“And large things?”
-
-“Later.”
-
-“How much later?”
 
 “Years.”
 
-“You possessed forty years of apparent foreknowledge and required years to establish that events had changed.”
+The eye narrowed.
 
-“When you say it like that, I sound stupid.”
+“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”
 
-“I said it accurately.”
+The larger things came later.
+
+Years later.
+
+That sounded bad when I said it out loud.
+
+Forty years of apparent foreknowledge and I had required years to establish that events had changed.
 
 “I was busy.”
 
-“With what?”
+Ithar did not move.
 
 “Being nineteen again.”
 
-Ithar was silent.
+Still nothing.
 
 I had seen that silence before.
 
@@ -288,59 +130,45 @@ Usually after saying something about people that he understood as words and not 
 
 “You don't get that part.”
 
-“I understand that nineteen is younger than fifty-nine.”
-
-“That's not the part.”
-
-“Then explain it.”
-
-“No.”
-
-“Why?”
-
-“Because explaining knees to a dragon that still has all of his is going to annoy me.”
-
 His eye dropped to my leg.
-
-“You had two then.”
 
 I looked down too.
 
-“Yeah.”
+“Explaining knees to a dragon that still has all of his is going to annoy me.”
 
-The answer came out quieter than I intended.
+The answer came out lighter than the thing underneath it.
 
-Ithar did not follow it.
+At nineteen I had two good knees.
+
+Two good hands.
+
+A shoulder that had not learned weather.
+
+Ithar did not follow me into that.
 
 That was almost kind.
 
 Almost.
 
-“What were you in the first life?” he asked.
-
-“Greg.”
-
-“That answer was poor the first time.”
-
-“It was still true.”
-
-“Your occupation.”
-
-“Ranker.”
-
-“You are a Ranker now.”
-
-“Not like that.”
-
-His claw moved once through the gold.
+The claw nearest the old Line disk moved once through the gold.
 
 Coins made a soft dry sound against one another.
 
-“What does that distinction mean to you?”
+I knew what he wanted next without hearing the question.
 
-I looked at the pin again.
+What had I been in the first life?
 
-The current one had my class stamped beneath the Authority seal.
+Not Greg.
+
+The other answer.
+
+“Ranker.”
+
+His eye flicked to the pin on my coat.
+
+“Not like this.”
+
+The current badge had my class stamped beneath the Authority seal.
 
 B.
 
@@ -350,7 +178,7 @@ I had worked hard for it.
 
 It still felt strange every time I looked down.
 
-“S-class,” I said.
+“S-class.”
 
 Ithar waited.
 
@@ -358,13 +186,9 @@ I had not expected applause.
 
 Still.
 
-“You know what that means?”
+The dragon let the silence stretch until I understood he was not going to help me define my own word.
 
-“To your institutions, yes.”
-
-“To people.”
-
-“Explain your version.”
+“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”
 
 I leaned back against the stone behind me.
 
@@ -372,49 +196,17 @@ It was warm.
 
 Everything in the cave was warm.
 
-“S-class is where the Authority stops pretending the letters describe the same kind of problem.”
+“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”
 
-Ithar said nothing.
+I had been one of them for eleven years officially.
 
-“Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”
+Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge.
 
-“Strongest?”
+I could cross an active pressure break without a shield crew.
 
-“Roughly.”
+I could hold full reinforcement most of a day if I wasn't doing anything stupid.
 
-“Roughly again.”
-
-“Because strength gets stupid at that level. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”
-
-“And you were one.”
-
-“Yes.”
-
-“How long?”
-
-“Long enough.”
-
-The eye sharpened.
-
-“Fine. Eleven years officially. Maybe twelve depending when you count the first contract people started calling S-class work before the Authority changed the badge.”
-
-“What could you do?”
-
-“A lot.”
-
-“That is not a measure.”
-
-“I could cross an active pressure break without a shield crew.”
-
-Ithar's claw stopped.
-
-“I could hold full reinforcement most of a day if I wasn't doing anything stupid.”
-
-“Were you?”
-
-“Usually.”
-
-“I assumed.”
+Usually I was doing something stupid.
 
 “I killed a redback alone north of Vey.”
 
@@ -424,21 +216,11 @@ Not much.
 
 An inch of head movement from Ithar was becoming the equivalent of another creature standing up.
 
-“There are no redbacks north of Vey.”
-
-“There was one.”
-
-“When?”
-
-“First life. Maybe thirty years before now.”
-
-“What was beneath the third dorsal plate?”
+“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”
 
 I stared at him.
 
-“What?”
-
-“The third plate.”
+Of course that was his question.
 
 “Meat.”
 
@@ -446,31 +228,11 @@ His eye closed.
 
 I felt judged by an eyelid.
 
-“Black tissue,” I said. “Stringy. Smelled like burnt hair when I cut it.”
+“Black tissue. Stringy. Smelled like burnt hair when I cut it.”
 
 The eye opened.
 
-“Not black.”
-
-“It looked black.”
-
-“Purple.”
-
-“It was dark and I was busy.”
-
-“With what?”
-
-“Being bitten.”
-
-“That would reduce color accuracy.”
-
-“Thank you.”
-
-“What else?”
-
-“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off.”
-
-I could see it again as I said it.
+I could see the thing again as I talked.
 
 Not the whole fight.
 
@@ -490,21 +252,7 @@ I had forgotten the sky.
 
 I remembered the smell perfectly.
 
-“Pressure bladder,” Ithar said.
-
-“Found that out eventually.”
-
-“How?”
-
-“I cut it.”
-
-“That does not explain knowing its purpose.”
-
-“I didn't.”
-
-His head rose.
-
-“I thought it was armor. Then I thought it was a weakness. I never knew what it actually did.”
+“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”
 
 The dragon went still.
 
@@ -512,49 +260,35 @@ Completely.
 
 That was starting to mean more than movement.
 
-“Good,” he said.
+Then Ithar spoke for long enough that I stopped waiting for my turn.
 
-I waited.
+“Not black. Purple. The membrane was a pressure bladder. You did not know that. Good. A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves.
 
-“That wasn't good.”
+“But errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.
 
-“It was to me.”
-
-“Why?”
-
-“Because you were wrong.”
-
-“Glad I could help.”
-
-He ignored that.
-
-“A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves.”
-
-His claw settled flat against the stone.
-
-“But errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.”
+“That does not prove your explanation. It makes the error useful.”
 
 I shifted against the wall.
 
 “That sounded almost like you believe me.”
 
-“No.”
+His eye did not change.
 
-“Close?”
+Fine.
 
-“No.”
+Not belief.
 
-“Better than before?”
+I took useful.
 
-“Yes.”
+Then his attention moved somewhere else.
 
-I took the win.
+Not physically.
 
-Ithar did not let me keep it long.
+That would have been easier.
 
-“Who gave you my name?”
+The cave just became more specific around one question.
 
-There it was.
+My path to his name.
 
 I looked toward the passage.
 
@@ -564,19 +298,11 @@ Because some questions make a door more noticeable.
 
 “I told you. It was from the first life.”
 
-“That is when. I asked who.”
+The dragon waited.
 
-“I don't know if the name will mean anything to you.”
+That was when.
 
-“I know nine living things that have held my name in the form you used. I told you this.”
-
-“Eight besides you.”
-
-“One is dead in a manner that makes the count argumentative.”
-
-“Right.”
-
-“Which?”
+He wanted who.
 
 I rubbed my face.
 
@@ -596,67 +322,19 @@ That was enough.
 
 I did not like the way he said it.
 
-“You know her.”
+Then, instead of making me drag the questions out of him one at a time, he gave me the problem whole.
 
-“I knew several things she called herself. Nhal was one.”
+“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”
 
-“Then that's my path.”
+Late.
 
-“No.”
+Forty-eight, maybe forty-nine.
 
-The answer came quickly.
+Under the salt flats north of Vey.
 
-Too quickly for Ithar.
+She did not live there.
 
-I sat forward.
-
-“She told me.”
-
-“I believe you remember her telling you.”
-
-“That sounds like the same thing with worse manners again.”
-
-“It is not.”
-
-“Why?”
-
-“Nhal has not spoken to a human in one hundred and twelve years.”
-
-I laughed once.
-
-Not because it was funny.
-
-Because there are moments when the alternative is making a worse sound.
-
-“She spoke to me.”
-
-“In the history you describe.”
-
-“Yes.”
-
-“She did not in this one.”
-
-“That's the point.”
-
-“No. That is one point.”
-
-Ithar's head lowered until the black glass of his scales filled most of what I could see.
-
-“When did you meet her?”
-
-“Late.”
-
-“Age.”
-
-“Forty-eight. Maybe forty-nine.”
-
-“Where?”
-
-“Under the salt flats north of Vey.”
-
-“Nhal does not live there.”
-
-“She was trapped there.”
+She was trapped there.
 
 The pupil tightened again.
 
@@ -664,17 +342,9 @@ I had managed to surprise a dragon twice in one morning.
 
 It was not improving my odds of leaving.
 
-“How?”
+“How she got trapped is a long story.”
 
-“That is a long story.”
-
-“I know.”
-
-“You keep sounding pleased about that.”
-
-“I am becoming pleased.”
-
-He settled his chin back onto the stone.
+His chin settled onto the stone.
 
 Not bored this time.
 
@@ -682,13 +352,9 @@ Comfortable.
 
 That was worse.
 
-“You claim that in another history, while counted among approximately seven humans of greatest combat capability on the continent, you encountered Nhal beneath a place where she does not currently reside, and she transmitted a name to you that she has not transmitted in the present history.”
+He was becoming pleased with the existence of long stories.
 
-“When you put it like that, it sounds complicated.”
-
-“It is complicated.”
-
-“She also told me how to cross the mountain.”
+“In that history she told me your name. She also told me how to cross the mountain.”
 
 Ithar's eye moved to my coat.
 
@@ -698,51 +364,31 @@ The clean boots.
 
 The route he had already read off me before I understood he was looking.
 
-“That,” he said, “is useful.”
+His claw touched the old Line disk still lying between us.
 
-“For the Line?”
+Then he took the floor again.
 
-“No.”
+“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing.
 
-I sighed.
+“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.
 
-Ithar continued.
+“You recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path.
 
-“You are not merely carrying information that is old. You are carrying information whose path through the world is missing.”
+“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.
+
+“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”
 
 I looked at him.
 
-He spoke slowly now, but not because he needed time to find the words.
+That was the least satisfying way anyone had ever called me interesting.
 
-Because I did.
+Still.
 
-“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.”
+Structure was better than being eaten.
 
-One claw touched the old Line disk still lying between us.
+Probably.
 
-“You recognize this. There is a path by which you might have learned it, even if neither of us can yet identify the path.”
-
-The claw moved toward me.
-
-“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.”
-
-The claw stopped.
-
-“You offer a second history as the missing path.”
-
-“Yes.”
-
-“That is not proof.”
-
-“I know.”
-
-“It is better than prophecy.”
-
-“I'll take it.”
-
-“It is worse than evidence.”
-
-“I was taking it.”
+“So you believe I remember another life.”
 
 Something low moved in his throat.
 
@@ -750,45 +396,33 @@ Amusement, maybe.
 
 I was getting dangerously confident about the throat too.
 
-“So,” I said. “You believe I remember another life.”
+The dragon looked at me for a long time.
 
-“No.”
+Then he answered without making me fight through ten smaller questions to get there.
 
-“You believe Nhal told me your name.”
+“You possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path.
 
-“No.”
+“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.
 
-“You believe anything?”
-
-“Yes.”
-
-I waited.
-
-He made me wait long enough that I considered asking again.
-
-Then he said, “You possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path.”
+“I know only that your explanation is no longer the least interesting possibility.”
 
 I stared at him.
 
-“That is the least satisfying way anyone has ever called me interesting.”
-
-“It was not intended to satisfy you.”
-
-“Obviously.”
-
-“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.”
-
 “Scale involved.”
 
-“Yes.”
+His eye held mine.
 
 “You think this is bigger than me.”
 
-“I think almost everything is bigger than you.”
+Ithar's mouth shifted.
+
+Not quite a smile.
+
+He did not need to say that almost everything was bigger than me.
+
+The thought arrived in his face well enough.
 
 “Fair.”
-
-“But that is not what I said.”
 
 I looked at the old disk between us.
 
@@ -804,40 +438,30 @@ Two point three million people were still inconveniently mortal.
 
 And somehow I had lost control of the negotiation badly enough that the dragon was examining my existence instead.
 
-“The Line,” I said.
+“The Line.”
 
 Ithar's eye half closed.
 
-“No.”
+I had started to recognize that too.
+
+Not refusal exactly.
+
+Priority.
 
 “You haven't even looked at it.”
 
-“I looked at you.”
+He had looked at me.
 
-“That is not better.”
-
-“It is to me.”
-
-I hated how familiar that answer was becoming.
+That was not better.
 
 “What do you want?”
 
-Ithar looked at me for a long time.
+The eye opened fully.
 
-Then the eye opened fully.
+Ithar shifted more comfortably into the gold.
 
-“Your claim.”
+“The Line is why you came today. It is not why you knew my name before the western stations began failing, or why you knew the mountain before you climbed it, or why your body reaches for movements this body has not learned.
 
-“You have it.”
-
-“No.”
-
-I let my head fall back against the stone.
-
-“Of course not.”
-
-“You have given me the sentence.”
-
-He settled more comfortably into the gold.
+“You have given me the sentence, Greg.
 
 “I want the thing that made it true.”

@@ -1,0 +1,49 @@
+name: 3L Frontier Publish Tests
+
+on:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+      - main
+    paths:
+      - '3l/**'
+      - 'scripts/build_3l_record_pages.py'
+      - 'scripts/plan_3l_short_dual_render.py'
+      - 'scripts/build_3l_parallel_audio_work_order.py'
+      - 'scripts/reconcile_3l_parallel_audio_workers.py'
+      - 'scripts/verify_3l_worker_captures.py'
+      - 'scripts/build_3l_short_dual_audio.py'
+      - 'tests/test_3l_frontier_publish.py'
+      - 'tests/test_3l_site.py'
+      - 'tests/test_3l_short_dual_audio.py'
+      - '.github/workflows/3l-frontier-publish-tests.yml'
+      - '.github/workflows/3l-parallel-worker-pipeline.yml'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            3l
+            r2
+            scripts
+            tests/test_3l_frontier_publish.py
+            tests/test_3l_site.py
+            tests/test_3l_short_dual_audio.py
+      - name: Compile coordinator scripts
+        run: |
+          python -m py_compile \
+            scripts/build_3l_record_pages.py \
+            scripts/build_3l_parallel_audio_work_order.py \
+            scripts/reconcile_3l_parallel_audio_workers.py \
+            scripts/verify_3l_worker_captures.py \
+            scripts/build_3l_short_dual_audio.py
+      - name: Verify frontier publication contract
+        run: python -m unittest tests.test_3l_frontier_publish -v
+      - name: Verify reader contract
+        run: python -m unittest tests.test_3l_site -v
+      - name: Verify semantic assembler contract
+        run: python -m unittest tests.test_3l_short_dual_audio -v

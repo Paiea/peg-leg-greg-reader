@@ -486,99 +486,33 @@ The old road closed without thunder.
 
 I went to work.
 
-Ithar's voice came from the cave.
+The cave came back around me.
 
-“Why?”
+Ithar was watching the red letter in my memory like it still sat between us.
 
-I opened my eyes.
-
-He was watching me.
-
-“You heard it.”
-
-“I heard several possible reasons.”
-
-“Pick one.”
-
-“No.”
-
-“Of course.”
-
-“Was it Nessa?”
-
-“Partly.”
-
-“Your family?”
-
-“Partly.”
-
-“Fear?”
-
-“Some.”
-
-“Of dying?”
-
-“No.”
-
-“Of becoming the person you had been?”
-
-I did not answer immediately.
-
-Ithar noticed.
-
-“Some,” I said.
-
-He waited.
-
-I knew what he wanted.
-
-I did not have the sentence yet.
-
-That was irritating.
-
-“I'd already done it,” I said finally.
-
-“S-class.”
-
-“Yes.”
-
-“You considered accomplishment nonrepeatable.”
-
-“No.”
-
-“What, then?”
+“You have given me several reasons without giving me the decision beneath them. Nessa. Your family. Fear. Home. Certainty. The table. You had already climbed to S-class once. You knew what that road gave you and what it cost. What did you refuse to pay again?”
 
 I rubbed the heel of my hand against my forehead.
 
-“I knew what it was.”
+“I'd already done it.”
 
-“Explain.”
+Not accomplishment.
 
-“I spent the first life climbing because every step showed me another step. E to D. D to C. Better contract. Better team. Harder work. More money. More authority. Then A. Then S. Then people start telling you there are only six others and somehow that feels like a reason to keep proving it.”
+Not because S-class was nonrepeatable.
+
+“I knew what it was. I spent the first life climbing because every step showed me another step. E to D. D to C. Better contract. Better team. Harder work. More money. More authority. Then A. Then S. Then people start telling you there are only six others and somehow that feels like a reason to keep proving it.”
 
 I looked at him.
 
 “I knew where that road went. It was good. A lot of it was fucking great.”
 
-“And you did not want it.”
-
-“Not enough.”
-
-Ithar's head shifted.
-
-“Enough for what?”
-
-“To pay again.”
+I did not want it enough to pay again.
 
 The cave went quiet.
 
 That sentence had come from somewhere deeper than I expected.
 
-Ithar let it sit.
-
-He was good at that too.
-
-“In the first life,” I said, “every choice toward strength felt temporary. Six months away. One more contract. One more season. One more place I had to be because I was finally good enough to be needed there.”
+“In the first life, every choice toward strength felt temporary. Six months away. One more contract. One more season. One more place I had to be because I was finally good enough to be needed there.”
 
 I looked down at my leg.
 
@@ -586,39 +520,19 @@ It was not the leg from that time.
 
 Not yet in the memory, anyway.
 
-“I kept thinking life would start when the work settled down.”
+“I kept thinking life would start when the work settled down. In the second life, it already had.”
 
-“Did it?”
+Ithar let that sit before taking the floor again.
 
-“No.”
-
-“And in the second?”
-
-“It already had.”
-
-Ithar's eye remained on me.
-
-“The table,” he said.
+“Then the table belongs in the answer. Not because a table is profound. Because it is not. The ordinary things are evidence that the life had already begun while you were still treating it as the delay before the important part. Do not discard them because they look small beside S-class.”
 
 I laughed.
 
 “Yes. The fucking table.”
 
-“You remember it.”
+He was a dragon sitting on a mountain of gold explaining my own table to me.
 
-“Apparently.”
-
-“Then it belonged in the answer.”
-
-I did not like how satisfied he sounded.
-
-“Don't get smug.”
-
-“I am not smug.”
-
-“You're a dragon sitting on a mountain of gold explaining my own table to me.”
-
-“That description does make smugness plausible.”
+Smugness felt plausible whether he admitted it or not.
 
 I laughed harder than I should have.
 
@@ -628,33 +542,17 @@ Old ribs.
 
 Present ribs.
 
-The cave came back around me completely.
+When I stopped, I told him what came next.
 
-When I stopped, Ithar asked, “What happened after you declined?”
+Four more years at East Four.
 
-“I stayed.”
+Then staying in the city.
 
-“How long?”
+Then staying with Nessa.
 
-“Four more years at East Four.”
+Then staying for things I did not know I was staying for until they happened.
 
-His eye narrowed.
-
-I held up a hand.
-
-“I know. I know.”
-
-“No.”
-
-“I'm not skipping them.”
-
-“Good.”
-
-“I stayed at East Four four more years. Then I stayed in the city. Then I stayed with Nessa. Then I stayed for things I didn't know I was staying for until they happened.”
-
-“Such as?”
-
-I thought about my nephew gripping one finger with his whole hand.
+My nephew gripping one finger with his whole hand.
 
 My mother's hair going gray.
 
@@ -670,11 +568,7 @@ I stopped.
 
 Ithar heard the silence change.
 
-“Those,” I said.
-
-He did not ask yet.
-
-For once, I was grateful.
+For once, he let it.
 
 I closed my eyes.
 
