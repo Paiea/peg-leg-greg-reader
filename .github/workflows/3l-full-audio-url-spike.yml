@@ -19,7 +19,9 @@ jobs:
           curl -L --fail --retry 3 \
             'https://www.aidocmaker.com/g0/audio?name=d1227e2cc2fc4b0eb83612cda153bd8a' \
             -o /tmp/3l-audio/test.mp3
-          ffprobe -v error -show_entries format=duration,size -of json /tmp/3l-audio/test.mp3
+          file /tmp/3l-audio/test.mp3
+          wc -c /tmp/3l-audio/test.mp3
+          head -c 64 /tmp/3l-audio/test.mp3 | xxd
       - uses: actions/upload-artifact@v4
         with:
           name: 3l-full-audio-url-spike
