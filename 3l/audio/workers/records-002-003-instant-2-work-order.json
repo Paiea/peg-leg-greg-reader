@@ -1,0 +1,945 @@
+{
+  "status": "frozen_worker_slice",
+  "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
+  "branch": "3l/dialogue-territory-rebuild-002-010",
+  "source_sha": "6faad6c1a65f770846910ec2724208bf3af7aeca",
+  "records": [
+    "002",
+    "003"
+  ],
+  "worker_id": "instant-2",
+  "capture_count": 17,
+  "chunk_count": 12,
+  "chunks": [
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 7,
+      "transcript": "I opened my mouth.\n\nClosed it.\n\nI hated that he was already getting better at this.\n\n“Years.”\n\nThe eye narrowed.\n\n“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”\n\nThe larger things came later.\n\nYears later.\n\nThat sounded bad when I said it out loud.",
+      "char_count": 424,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 18,
+          "role": "greg",
+          "text": "I opened my mouth."
+        },
+        {
+          "start": 20,
+          "end": 30,
+          "role": "greg",
+          "text": "Closed it."
+        },
+        {
+          "start": 32,
+          "end": 83,
+          "role": "greg",
+          "text": "I hated that he was already getting better at this."
+        },
+        {
+          "start": 85,
+          "end": 93,
+          "role": "greg",
+          "text": "“Years.”"
+        },
+        {
+          "start": 95,
+          "end": 112,
+          "role": "greg",
+          "text": "The eye narrowed."
+        },
+        {
+          "start": 114,
+          "end": 336,
+          "role": "greg",
+          "text": "“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”"
+        },
+        {
+          "start": 338,
+          "end": 367,
+          "role": "greg",
+          "text": "The larger things came later."
+        },
+        {
+          "start": 369,
+          "end": 381,
+          "role": "greg",
+          "text": "Years later."
+        },
+        {
+          "start": 383,
+          "end": 424,
+          "role": "greg",
+          "text": "That sounded bad when I said it out loud."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 12,
+      "transcript": "“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”\n\nI had been one of them for eleven years officially.",
+      "char_count": 431,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 378,
+          "role": "greg",
+          "text": "“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”"
+        },
+        {
+          "start": 380,
+          "end": 431,
+          "role": "greg",
+          "text": "I had been one of them for eleven years officially."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 14,
+      "transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand.",
+      "char_count": 500,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 104,
+          "role": "dragon",
+          "text": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”"
+        },
+        {
+          "start": 106,
+          "end": 122,
+          "role": "greg",
+          "text": "I stared at him."
+        },
+        {
+          "start": 124,
+          "end": 156,
+          "role": "greg",
+          "text": "Of course that was his question."
+        },
+        {
+          "start": 158,
+          "end": 165,
+          "role": "greg",
+          "text": "“Meat.”"
+        },
+        {
+          "start": 167,
+          "end": 182,
+          "role": "greg",
+          "text": "His eye closed."
+        },
+        {
+          "start": 184,
+          "end": 211,
+          "role": "greg",
+          "text": "I felt judged by an eyelid."
+        },
+        {
+          "start": 213,
+          "end": 276,
+          "role": "greg",
+          "text": "“Black tissue. Stringy. Smelled like burnt hair when I cut it.”"
+        },
+        {
+          "start": 278,
+          "end": 293,
+          "role": "greg",
+          "text": "The eye opened."
+        },
+        {
+          "start": 295,
+          "end": 335,
+          "role": "greg",
+          "text": "I could see the thing again as I talked."
+        },
+        {
+          "start": 337,
+          "end": 357,
+          "role": "greg",
+          "text": "Not the whole fight."
+        },
+        {
+          "start": 359,
+          "end": 391,
+          "role": "greg",
+          "text": "Memory rarely returned politely."
+        },
+        {
+          "start": 393,
+          "end": 417,
+          "role": "greg",
+          "text": "A patch of wet red hide."
+        },
+        {
+          "start": 419,
+          "end": 456,
+          "role": "greg",
+          "text": "My left boot slipping between plates."
+        },
+        {
+          "start": 458,
+          "end": 468,
+          "role": "greg",
+          "text": "The smell."
+        },
+        {
+          "start": 470,
+          "end": 500,
+          "role": "greg",
+          "text": "A sword hilt slick in my hand."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 21,
+      "transcript": "The pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n“How she got trapped is a long story.”\n\nHis chin settled onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\nHe was becoming pleased with the existence of long stories.\n\n“In that history she told me your name. She also told me how to cross the mountain.”\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots.",
+      "char_count": 470,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "role": "greg",
+          "text": "The pupil tightened again."
+        },
+        {
+          "start": 28,
+          "end": 84,
+          "role": "greg",
+          "text": "I had managed to surprise a dragon twice in one morning."
+        },
+        {
+          "start": 86,
+          "end": 126,
+          "role": "greg",
+          "text": "It was not improving my odds of leaving."
+        },
+        {
+          "start": 128,
+          "end": 166,
+          "role": "greg",
+          "text": "“How she got trapped is a long story.”"
+        },
+        {
+          "start": 168,
+          "end": 200,
+          "role": "greg",
+          "text": "His chin settled onto the stone."
+        },
+        {
+          "start": 202,
+          "end": 222,
+          "role": "greg",
+          "text": "Not bored this time."
+        },
+        {
+          "start": 224,
+          "end": 236,
+          "role": "greg",
+          "text": "Comfortable."
+        },
+        {
+          "start": 238,
+          "end": 253,
+          "role": "greg",
+          "text": "That was worse."
+        },
+        {
+          "start": 255,
+          "end": 314,
+          "role": "greg",
+          "text": "He was becoming pleased with the existence of long stories."
+        },
+        {
+          "start": 316,
+          "end": 400,
+          "role": "greg",
+          "text": "“In that history she told me your name. She also told me how to cross the mountain.”"
+        },
+        {
+          "start": 402,
+          "end": 431,
+          "role": "greg",
+          "text": "Ithar's eye moved to my coat."
+        },
+        {
+          "start": 433,
+          "end": 452,
+          "role": "greg",
+          "text": "The sulfur residue."
+        },
+        {
+          "start": 454,
+          "end": 470,
+          "role": "greg",
+          "text": "The clean boots."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 24,
+      "transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat.",
+      "char_count": 497,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 108,
+          "role": "dragon",
+          "text": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them."
+        },
+        {
+          "start": 110,
+          "end": 267,
+          "role": "dragon",
+          "text": "“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”"
+        },
+        {
+          "start": 269,
+          "end": 285,
+          "role": "greg",
+          "text": "I looked at him."
+        },
+        {
+          "start": 287,
+          "end": 359,
+          "role": "greg",
+          "text": "That was the least satisfying way anyone had ever called me interesting."
+        },
+        {
+          "start": 361,
+          "end": 367,
+          "role": "greg",
+          "text": "Still."
+        },
+        {
+          "start": 369,
+          "end": 407,
+          "role": "greg",
+          "text": "Structure was better than being eaten."
+        },
+        {
+          "start": 409,
+          "end": 418,
+          "role": "greg",
+          "text": "Probably."
+        },
+        {
+          "start": 420,
+          "end": 461,
+          "role": "greg",
+          "text": "“So you believe I remember another life.”"
+        },
+        {
+          "start": 463,
+          "end": 497,
+          "role": "greg",
+          "text": "Something low moved in his throat."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 2,
+      "transcript": "It was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise.",
+      "char_count": 483,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 25,
+          "role": "greg",
+          "text": "It was not really a seat."
+        },
+        {
+          "start": 27,
+          "end": 139,
+          "role": "greg",
+          "text": "It was a part of the cave that happened to be roughly the right height and only moderately covered in old coins."
+        },
+        {
+          "start": 141,
+          "end": 183,
+          "role": "greg",
+          "text": "My left leg preferred sitting to standing."
+        },
+        {
+          "start": 185,
+          "end": 275,
+          "role": "greg",
+          "text": "The rest of me had not yet decided whether sitting in a dragon's home counted as progress."
+        },
+        {
+          "start": 277,
+          "end": 397,
+          "role": "greg",
+          "text": "“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”"
+        },
+        {
+          "start": 399,
+          "end": 441,
+          "role": "greg",
+          "text": "Ithar's claw moved through the gold again."
+        },
+        {
+          "start": 443,
+          "end": 483,
+          "role": "greg",
+          "text": "The sound was becoming background noise."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 7,
+      "transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers.",
+      "char_count": 498,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 15,
+          "role": "greg",
+          "text": "Deeper into it."
+        },
+        {
+          "start": 17,
+          "end": 242,
+          "role": "dragon",
+          "text": "“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”"
+        },
+        {
+          "start": 244,
+          "end": 260,
+          "role": "greg",
+          "text": "I looked at him."
+        },
+        {
+          "start": 262,
+          "end": 311,
+          "role": "greg",
+          "text": "“That is several questions pretending to be one.”"
+        },
+        {
+          "start": 313,
+          "end": 331,
+          "role": "greg",
+          "text": "His nostril moved."
+        },
+        {
+          "start": 333,
+          "end": 338,
+          "role": "greg",
+          "text": "Fine."
+        },
+        {
+          "start": 340,
+          "end": 394,
+          "role": "greg",
+          "text": "I picked at a split in the leather over my right palm."
+        },
+        {
+          "start": 396,
+          "end": 437,
+          "role": "greg",
+          "text": "The glove was new compared to most of me."
+        },
+        {
+          "start": 439,
+          "end": 452,
+          "role": "greg",
+          "text": "Three months."
+        },
+        {
+          "start": 454,
+          "end": 469,
+          "role": "greg",
+          "text": "Good stitching."
+        },
+        {
+          "start": 471,
+          "end": 498,
+          "role": "greg",
+          "text": "Bad fit around the fingers."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 10,
+      "transcript": "The cave suddenly felt warmer.\n\n“Don't.”\n\nHis eye remained on me.\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\nThe claw dragged a shallow line through the gold.\n\nCoins rolled into it and vanished.\n\nHe wanted the end of the first life.\n\nI could feel the question coming without hearing it spoken.\n\n“No.”\n\nThe pupil shifted.\n\n“We're not doing this. We're discussing the Line.”\n\nAs far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything.",
+      "char_count": 488,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "role": "greg",
+          "text": "The cave suddenly felt warmer."
+        },
+        {
+          "start": 32,
+          "end": 40,
+          "role": "greg",
+          "text": "“Don't.”"
+        },
+        {
+          "start": 42,
+          "end": 65,
+          "role": "greg",
+          "text": "His eye remained on me."
+        },
+        {
+          "start": 67,
+          "end": 76,
+          "role": "greg",
+          "text": "I waited."
+        },
+        {
+          "start": 78,
+          "end": 95,
+          "role": "greg",
+          "text": "He waited longer."
+        },
+        {
+          "start": 97,
+          "end": 118,
+          "role": "greg",
+          "text": "I hated him a little."
+        },
+        {
+          "start": 120,
+          "end": 169,
+          "role": "greg",
+          "text": "The claw dragged a shallow line through the gold."
+        },
+        {
+          "start": 171,
+          "end": 205,
+          "role": "greg",
+          "text": "Coins rolled into it and vanished."
+        },
+        {
+          "start": 207,
+          "end": 243,
+          "role": "greg",
+          "text": "He wanted the end of the first life."
+        },
+        {
+          "start": 245,
+          "end": 304,
+          "role": "greg",
+          "text": "I could feel the question coming without hearing it spoken."
+        },
+        {
+          "start": 306,
+          "end": 311,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 313,
+          "end": 331,
+          "role": "greg",
+          "text": "The pupil shifted."
+        },
+        {
+          "start": 333,
+          "end": 383,
+          "role": "greg",
+          "text": "“We're not doing this. We're discussing the Line.”"
+        },
+        {
+          "start": 385,
+          "end": 488,
+          "role": "greg",
+          "text": "As far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 16,
+      "transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence.",
+      "char_count": 395,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "role": "greg",
+          "text": "I laughed when his expression failed to change."
+        },
+        {
+          "start": 49,
+          "end": 66,
+          "role": "greg",
+          "text": "“You're serious.”"
+        },
+        {
+          "start": 68,
+          "end": 136,
+          "role": "greg",
+          "text": "Stone ground against stone as Ithar shifted his foreleg beneath him."
+        },
+        {
+          "start": 138,
+          "end": 168,
+          "role": "greg",
+          "text": "Gold slid for several seconds."
+        },
+        {
+          "start": 170,
+          "end": 284,
+          "role": "greg",
+          "text": "Something metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went."
+        },
+        {
+          "start": 286,
+          "end": 350,
+          "role": "greg",
+          "text": "When the sound finally stopped, the dragon took the floor again."
+        },
+        {
+          "start": 352,
+          "end": 395,
+          "role": "dragon",
+          "text": "“I do not require eighty years in sequence."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 19,
+      "transcript": "“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer.",
+      "char_count": 374,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 374,
+          "role": "dragon",
+          "text": "“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer."
+        }
+      ],
+      "required_voices": [
+        "normal"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 27,
+      "transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack.",
+      "char_count": 454,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 62,
+          "role": "greg",
+          "text": "That might have been the first practical offer he had made me."
+        },
+        {
+          "start": 64,
+          "end": 85,
+          "role": "greg",
+          "text": "Not save the kingdom."
+        },
+        {
+          "start": 87,
+          "end": 107,
+          "role": "greg",
+          "text": "Not repair the Line."
+        },
+        {
+          "start": 109,
+          "end": 125,
+          "role": "greg",
+          "text": "Food directions."
+        },
+        {
+          "start": 127,
+          "end": 142,
+          "role": "greg",
+          "text": "It was a start."
+        },
+        {
+          "start": 144,
+          "end": 176,
+          "role": "greg",
+          "text": "“You understand I have to shit.”"
+        },
+        {
+          "start": 178,
+          "end": 197,
+          "role": "greg",
+          "text": "His nostril opened."
+        },
+        {
+          "start": 199,
+          "end": 236,
+          "role": "dragon",
+          "text": "“You are welcome to do that outside.”"
+        },
+        {
+          "start": 238,
+          "end": 248,
+          "role": "greg",
+          "text": "I laughed."
+        },
+        {
+          "start": 250,
+          "end": 264,
+          "role": "greg",
+          "text": "Ithar did not."
+        },
+        {
+          "start": 266,
+          "end": 288,
+          "role": "greg",
+          "text": "Maybe that was a joke."
+        },
+        {
+          "start": 290,
+          "end": 361,
+          "role": "greg",
+          "text": "I was beginning to think the problem was not that dragons lacked humor."
+        },
+        {
+          "start": 363,
+          "end": 424,
+          "role": "greg",
+          "text": "The problem was that this one did not care whether I noticed."
+        },
+        {
+          "start": 426,
+          "end": 454,
+          "role": "greg",
+          "text": "I finally unbuckled my pack."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 30,
+      "transcript": "The word came out smaller than I expected.\n\nI took a breath.\n\nAnd remembered waking up.",
+      "char_count": 87,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "greg",
+          "text": "The word came out smaller than I expected."
+        },
+        {
+          "start": 44,
+          "end": 60,
+          "role": "greg",
+          "text": "I took a breath."
+        },
+        {
+          "start": 62,
+          "end": 87,
+          "role": "greg",
+          "text": "And remembered waking up."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    }
+  ],
+  "captures": [
+    {
+      "capture_id": "002:007:deep",
+      "record": "002",
+      "chunk_index": 7,
+      "voice": "deep",
+      "transcript": "I opened my mouth.\n\nClosed it.\n\nI hated that he was already getting better at this.\n\n“Years.”\n\nThe eye narrowed.\n\n“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”\n\nThe larger things came later.\n\nYears later.\n\nThat sounded bad when I said it out loud.",
+      "preview_transcript": "I opened my mouth.\n\nClosed it.\n\nI hated that he was already getting better at this.\n\n“Years.”\n\nThe eye narrowed.\n\n“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”\n\nThe larger things came later.\n\nYears later.\n\nThat sounded bad when I said it out loud."
+    },
+    {
+      "capture_id": "002:012:deep",
+      "record": "002",
+      "chunk_index": 12,
+      "voice": "deep",
+      "transcript": "“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”\n\nI had been one of them for eleven years officially.",
+      "preview_transcript": "“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”\n\nI had been one of them for eleven years officially."
+    },
+    {
+      "capture_id": "002:014:deep",
+      "record": "002",
+      "chunk_index": 14,
+      "voice": "deep",
+      "transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand.",
+      "preview_transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand."
+    },
+    {
+      "capture_id": "002:014:normal",
+      "record": "002",
+      "chunk_index": 14,
+      "voice": "normal",
+      "transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand.",
+      "preview_transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand."
+    },
+    {
+      "capture_id": "002:021:deep",
+      "record": "002",
+      "chunk_index": 21,
+      "voice": "deep",
+      "transcript": "The pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n“How she got trapped is a long story.”\n\nHis chin settled onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\nHe was becoming pleased with the existence of long stories.\n\n“In that history she told me your name. She also told me how to cross the mountain.”\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots.",
+      "preview_transcript": "The pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n“How she got trapped is a long story.”\n\nHis chin settled onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\nHe was becoming pleased with the existence of long stories.\n\n“In that history she told me your name. She also told me how to cross the mountain.”\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots."
+    },
+    {
+      "capture_id": "002:024:deep",
+      "record": "002",
+      "chunk_index": 24,
+      "voice": "deep",
+      "transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat.",
+      "preview_transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat."
+    },
+    {
+      "capture_id": "002:024:normal",
+      "record": "002",
+      "chunk_index": 24,
+      "voice": "normal",
+      "transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat.",
+      "preview_transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat."
+    },
+    {
+      "capture_id": "003:002:deep",
+      "record": "003",
+      "chunk_index": 2,
+      "voice": "deep",
+      "transcript": "It was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise.",
+      "preview_transcript": "It was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise."
+    },
+    {
+      "capture_id": "003:007:deep",
+      "record": "003",
+      "chunk_index": 7,
+      "voice": "deep",
+      "transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers.",
+      "preview_transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers."
+    },
+    {
+      "capture_id": "003:007:normal",
+      "record": "003",
+      "chunk_index": 7,
+      "voice": "normal",
+      "transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers.",
+      "preview_transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers."
+    },
+    {
+      "capture_id": "003:010:deep",
+      "record": "003",
+      "chunk_index": 10,
+      "voice": "deep",
+      "transcript": "The cave suddenly felt warmer.\n\n“Don't.”\n\nHis eye remained on me.\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\nThe claw dragged a shallow line through the gold.\n\nCoins rolled into it and vanished.\n\nHe wanted the end of the first life.\n\nI could feel the question coming without hearing it spoken.\n\n“No.”\n\nThe pupil shifted.\n\n“We're not doing this. We're discussing the Line.”\n\nAs far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything.",
+      "preview_transcript": "The cave suddenly felt warmer.\n\n“Don't.”\n\nHis eye remained on me.\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\nThe claw dragged a shallow line through the gold.\n\nCoins rolled into it and vanished.\n\nHe wanted the end of the first life.\n\nI could feel the question coming without hearing it spoken.\n\n“No.”\n\nThe pupil shifted.\n\n“We're not doing this. We're discussing the Line.”\n\nAs far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything."
+    },
+    {
+      "capture_id": "003:016:deep",
+      "record": "003",
+      "chunk_index": 16,
+      "voice": "deep",
+      "transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence.",
+      "preview_transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence."
+    },
+    {
+      "capture_id": "003:016:normal",
+      "record": "003",
+      "chunk_index": 16,
+      "voice": "normal",
+      "transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence.",
+      "preview_transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence."
+    },
+    {
+      "capture_id": "003:019:normal",
+      "record": "003",
+      "chunk_index": 19,
+      "voice": "normal",
+      "transcript": "“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer.",
+      "preview_transcript": "“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer."
+    },
+    {
+      "capture_id": "003:027:deep",
+      "record": "003",
+      "chunk_index": 27,
+      "voice": "deep",
+      "transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack.",
+      "preview_transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack."
+    },
+    {
+      "capture_id": "003:027:normal",
+      "record": "003",
+      "chunk_index": 27,
+      "voice": "normal",
+      "transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack.",
+      "preview_transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack."
+    },
+    {
+      "capture_id": "003:030:deep",
+      "record": "003",
+      "chunk_index": 30,
+      "voice": "deep",
+      "transcript": "The word came out smaller than I expected.\n\nI took a breath.\n\nAnd remembered waking up.",
+      "preview_transcript": "The word came out smaller than I expected.\n\nI took a breath.\n\nAnd remembered waking up."
+    }
+  ],
+  "return_manifest": "3l/audio/workers/records-002-003-instant-2-captures.json"
+}
