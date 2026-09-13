@@ -9,6 +9,8 @@
     "greg": "deep",
     "dragon": "normal"
   },
+  "quote_roles_locked": false,
+  "quote_count": 296,
   "chunk_count": 32,
   "chunks": [
     {
@@ -145,6 +147,10 @@
           "text": "That took some of the satisfaction back."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -221,6 +227,10 @@
           "role": "dragon",
           "text": "“Yes.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -333,6 +343,10 @@
           "role": "greg",
           "text": "A person should not become accustomed to sitting beside enough money to destabilize a kingdom."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -459,6 +473,10 @@
           "text": "“You knew the mountain before the ninth station bled pressure into the eastern sink.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -564,6 +582,10 @@
           "text": "“I am not.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -647,6 +669,10 @@
           "role": "greg",
           "text": "I was starting to suspect that was the stronger negotiating position."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -800,6 +826,10 @@
           "text": "Bad fit around the fingers."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -940,6 +970,10 @@
           "text": "“And then?”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1072,6 +1106,10 @@
           "role": "greg",
           "text": "“Turn that into whatever you're about to turn it into.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1240,6 +1278,10 @@
           "text": "“I know.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1401,6 +1443,10 @@
           "text": "“No.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1534,6 +1580,10 @@
           "text": "“Better.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1596,6 +1646,10 @@
           "role": "dragon",
           "text": "“Not this body's.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1687,6 +1741,10 @@
           "role": "greg",
           "text": "The beard had gotten rough during the climb."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1813,6 +1871,10 @@
           "role": "greg",
           "text": "“Nothing relevant.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1989,6 +2051,10 @@
           "text": "“I could die before we finish.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2094,6 +2160,10 @@
           "text": "I knew that now."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2143,10 +2213,12 @@
           "text": "The dragon had taken the floor."
         }
       ],
-      "dual_render": true,
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -2177,6 +2249,10 @@
           "role": "greg",
           "text": "“The first life is not background to the second. It is pressure applied to it.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2296,6 +2372,10 @@
           "role": "dragon",
           "text": "“No.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2444,6 +2524,10 @@
           "text": "“That was easier than expected.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2556,6 +2640,10 @@
           "text": "“No.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2604,6 +2692,10 @@
           "role": "dragon",
           "text": "“If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2716,6 +2808,10 @@
           "role": "dragon",
           "text": "“Obviously.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2857,6 +2953,10 @@
           "text": "“Of course.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2989,6 +3089,10 @@
           "role": "greg",
           "text": "I regretted it immediately."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -3128,6 +3232,10 @@
           "role": "greg",
           "text": "“Perhaps.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -3282,6 +3390,10 @@
           "role": "greg",
           "text": "He lifted a claw and pointed deeper into the cave."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -3458,6 +3570,10 @@
           "text": "“Yes.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -3548,6 +3664,10 @@
           "role": "greg",
           "text": "The leg thanked me."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -3647,10 +3767,12 @@
           "text": "I stopped there."
         }
       ],
-      "dual_render": true,
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -3764,6 +3886,10 @@
           "role": "greg",
           "text": "And remembered waking up."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {

@@ -9,6 +9,8 @@
     "greg": "deep",
     "dragon": "normal"
   },
+  "quote_roles_locked": false,
+  "quote_count": 258,
   "chunk_count": 33,
   "chunks": [
     {
@@ -117,10 +119,12 @@
           "text": "His eye followed it anyway."
         }
       ],
-      "dual_render": true,
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -277,6 +281,10 @@
           "text": "Placed."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -382,10 +390,12 @@
           "text": "It sounded exactly like what it was."
         }
       ],
-      "dual_render": true,
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -529,6 +539,10 @@
           "text": "“I said nothing.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -655,6 +669,10 @@
           "text": "“That's one way to make it sound suspicious.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -780,6 +798,10 @@
           "role": "greg",
           "text": "“A younger version of it.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -914,6 +936,10 @@
           "text": "“Yes.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1019,6 +1045,10 @@
           "text": "I had missed it."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1095,6 +1125,10 @@
           "role": "dragon",
           "text": "“I was busy.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1221,6 +1255,10 @@
           "role": "greg",
           "text": "“Yeah.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1354,6 +1392,10 @@
           "text": "I looked at the pin again."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1480,6 +1522,10 @@
           "text": "Everything in the cave was warm."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1536,6 +1582,10 @@
           "text": "“Roughly again.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1591,6 +1641,10 @@
           "role": "greg",
           "text": "The eye sharpened."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1689,6 +1743,10 @@
           "role": "greg",
           "text": "That got him."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -1823,6 +1881,10 @@
           "text": "“It looked black.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -1941,6 +2003,10 @@
           "role": "greg",
           "text": "A sword hilt slick in my hand."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2073,6 +2139,10 @@
           "text": " he said."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2150,6 +2220,10 @@
           "text": "His claw settled flat against the stone."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2219,6 +2293,10 @@
           "role": "greg",
           "text": "“Yes.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2317,6 +2395,10 @@
           "role": "dragon",
           "text": "“Eight besides you.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2472,6 +2554,10 @@
           "text": "“She told me.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2583,6 +2669,10 @@
           "role": "dragon",
           "text": "“No. That is one point.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2710,6 +2800,10 @@
           "text": "“You keep sounding pleased about that.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2779,6 +2873,10 @@
           "role": "dragon",
           "text": "“It is complicated.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -2897,6 +2995,10 @@
           "text": "He spoke slowly now, but not because he needed time to find the words."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -2932,10 +3034,12 @@
           "text": "One claw touched the old Line disk still lying between us."
         }
       ],
-      "dual_render": true,
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -3030,6 +3134,10 @@
           "text": "“I was taking it.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -3121,6 +3229,10 @@
           "text": "He made me wait long enough that I considered asking again."
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -3175,6 +3287,10 @@
           "role": "greg",
           "text": "“Obviously.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -3245,6 +3361,10 @@
           "role": "greg",
           "text": "I looked at the old disk between us."
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {
@@ -3351,6 +3471,10 @@
           "text": "“It is to me.”"
         }
       ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
       "dual_render": true,
       "captures": {
         "deep": null,
@@ -3448,6 +3572,10 @@
           "role": "greg",
           "text": "“I want the thing that made it true.”"
         }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
       ],
       "dual_render": true,
       "captures": {

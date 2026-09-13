@@ -1,0 +1,259 @@
+id	heuristic_role	explicit	quote	context
+001	dragon	dragon	“Not this time.”	Eventually he said, “Not this time.”
+002	greg		“Yes.”	“Yes.”
+003	dragon		“You chose those words.”	“You chose those words.”
+004	greg		“I did.”	“I did.”
+005	dragon		“Why?”	“Why?”
+006	greg		“Because they were short.”	“Because they were short.”
+007	dragon		“Say what you mean without protecting it with brevity.”	“Say what you mean without protecting it with brevity.”
+008	greg		“That sounds expensive.”	“That sounds expensive.”
+009	dragon		“I have not charged you.”	“I have not charged you.”
+010	greg		“Yet.”	“Yet.”
+011	dragon		“Greg.”	“Greg.”
+012	greg	greg	“I remember another life,”	“I remember another life,” I said.
+013	dragon		“How much?”	“How much?”
+014	greg		“Of the life?”	“Of the life?”
+015	dragon		“Yes.”	“Yes.”
+016	greg		“Most of it.”	“Most of it.”
+017	dragon		“Most is a word humans use when they wish to avoid discovering what is missing.”	“Most is a word humans use when they wish to avoid discovering what is missing.”
+018	greg		“I remember forty years.”	“I remember forty years.”
+019	dragon		“Exactly?”	“Exactly?”
+020	greg		“No.”	“No.”
+021	dragon		“How nearly?”	“How nearly?”
+022	greg		“Close enough that I resent the question.”	“Close enough that I resent the question.”
+023	dragon		“That is not a measure.”	“That is not a measure.”
+024	greg		“Approximately forty years.”	“Approximately forty years.”
+025	dragon		“Don't.”	“Don't.”
+026	greg	greg	“I said nothing.”	“I said nothing.”
+027	dragon		“You were going to.”	“You were going to.”
+028	greg		“No.”	“No.”
+029	dragon		“Beginning when?”	“Beginning when?”
+030	greg		“Nineteen.”	“Nineteen.”
+031	dragon		“Ending?”	“Ending?”
+032	greg		“Fifty-nine.”	“Fifty-nine.”
+033	dragon		“You are fifty-nine now.”	“You are fifty-nine now.”
+034	greg		“Yes.”	“Yes.”
+035	dragon		“So you remember approximately forty years beginning at the age you first became an adult and ending at your present age.”	“So you remember approximately forty years beginning at the age you first became an adult and ending at your present age.”
+036	greg		“That's one way to make it sound suspicious.”	“That's one way to make it sound suspicious.”
+037	dragon		“It is the chronological way.”	“It is the chronological way.”
+038	greg		“Right.”	“Right.”
+039	dragon		“Did you remember childhood?”	“Did you remember childhood?”
+040	greg		“My actual childhood?”	“My actual childhood?”
+041	dragon		“What does actual mean in that sentence?”	“What does actual mean in that sentence?”
+042	greg	greg	“I remember being a kid once,”	“I remember being a kid once,” I said. “Both lives have the same childhood. Or close enough that I never found a difference worth keeping.”
+043	greg	greg	“Both lives have the same childhood. Or close enough that I never found a difference worth keeping.”	“I remember being a kid once,” I said. “Both lives have the same childhood. Or close enough that I never found a difference worth keeping.”
+044	dragon		“You did not return to birth.”	“You did not return to birth.”
+045	greg		“No.”	“No.”
+046	dragon		“You woke at nineteen.”	“You woke at nineteen.”
+047	greg		“Yes.”	“Yes.”
+048	dragon		“In the same body.”	“In the same body.”
+049	greg		“A younger version of it.”	“A younger version of it.”
+050	dragon		“The same body.”	“The same body.”
+051	greg		“Depends what you mean by same.”	“Depends what you mean by same.”
+052	dragon		“Good.”	“Good.”
+053	greg		“What?”	“What?”
+054	dragon		“You objected to my category.”	“You objected to my category.”
+055	greg		“I object to most categories when I'm standing inside them.”	“I object to most categories when I'm standing inside them.”
+056	dragon		“That may become useful.”	“That may become useful.”
+057	greg		“For the Line?”	“For the Line?”
+058	dragon		“No.”	“No.”
+059	greg		“Of course not.”	“Of course not.”
+060	dragon		“You woke at nineteen with memories extending to fifty-nine.”	“You woke at nineteen with memories extending to fifty-nine.”
+061	greg		“Yes.”	“Yes.”
+062	dragon		“You then lived from nineteen to fifty-nine again.”	“You then lived from nineteen to fifty-nine again.”
+063	greg		“Yes.”	“Yes.”
+064	dragon		“And the second history did not reproduce the first.”	“And the second history did not reproduce the first.”
+065	greg		“No.”	“No.”
+066	dragon		“How soon did you know?”	“How soon did you know?”
+067	greg		“Depends what you mean by know.”	“Depends what you mean by know.”
+068	dragon		“I can learn.”	“I can learn.”
+069	greg		“You can imitate.”	“You can imitate.”
+070	dragon		“Good enough.”	“Good enough.”
+071	greg		“No.”	“No.”
+072	greg	greg	“Years,”	“Years,” I said. “There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”
+073	greg	greg	“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”	“Years,” I said. “There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”
+074	dragon		“And large things?”	“And large things?”
+075	greg		“Later.”	“Later.”
+076	dragon		“How much later?”	“How much later?”
+077	greg		“Years.”	“Years.”
+078	dragon		“You possessed forty years of apparent foreknowledge and required years to establish that events had changed.”	“You possessed forty years of apparent foreknowledge and required years to establish that events had changed.”
+079	greg		“When you say it like that, I sound stupid.”	“When you say it like that, I sound stupid.”
+080	greg	greg	“I said it accurately.”	“I said it accurately.”
+081	dragon		“I was busy.”	“I was busy.”
+082	greg		“With what?”	“With what?”
+083	dragon		“Being nineteen again.”	“Being nineteen again.”
+084	greg		“You don't get that part.”	“You don't get that part.”
+085	dragon		“I understand that nineteen is younger than fifty-nine.”	“I understand that nineteen is younger than fifty-nine.”
+086	greg		“That's not the part.”	“That's not the part.”
+087	dragon		“Then explain it.”	“Then explain it.”
+088	greg		“No.”	“No.”
+089	dragon		“Why?”	“Why?”
+090	greg		“Because explaining knees to a dragon that still has all of his is going to annoy me.”	“Because explaining knees to a dragon that still has all of his is going to annoy me.”
+091	dragon		“You had two then.”	“You had two then.”
+092	greg		“Yeah.”	“Yeah.”
+093	dragon	dragon	“What were you in the first life?”	“What were you in the first life?” he asked.
+094	greg		“Greg.”	“Greg.”
+095	dragon		“That answer was poor the first time.”	“That answer was poor the first time.”
+096	greg		“It was still true.”	“It was still true.”
+097	dragon		“Your occupation.”	“Your occupation.”
+098	greg		“Ranker.”	“Ranker.”
+099	dragon		“You are a Ranker now.”	“You are a Ranker now.”
+100	greg		“Not like that.”	“Not like that.”
+101	dragon		“What does that distinction mean to you?”	“What does that distinction mean to you?”
+102	greg	greg	“S-class,”	“S-class,” I said.
+103	dragon		“You know what that means?”	“You know what that means?”
+104	greg		“To your institutions, yes.”	“To your institutions, yes.”
+105	dragon		“To people.”	“To people.”
+106	greg		“Explain your version.”	“Explain your version.”
+107	dragon		“S-class is where the Authority stops pretending the letters describe the same kind of problem.”	“S-class is where the Authority stops pretending the letters describe the same kind of problem.”
+108	dragon		“Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”	“Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”
+109	greg		“Strongest?”	“Strongest?”
+110	dragon		“Roughly.”	“Roughly.”
+111	greg		“Roughly again.”	“Roughly again.”
+112	dragon		“Because strength gets stupid at that level. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”	“Because strength gets stupid at that level. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”
+113	greg		“And you were one.”	“And you were one.”
+114	dragon		“Yes.”	“Yes.”
+115	greg		“How long?”	“How long?”
+116	dragon		“Long enough.”	“Long enough.”
+117	greg		“Fine. Eleven years officially. Maybe twelve depending when you count the first contract people started calling S-class work before the Authority changed the badge.”	“Fine. Eleven years officially. Maybe twelve depending when you count the first contract people started calling S-class work before the Authority changed the badge.”
+118	dragon		“What could you do?”	“What could you do?”
+119	greg		“A lot.”	“A lot.”
+120	dragon		“That is not a measure.”	“That is not a measure.”
+121	greg		“I could cross an active pressure break without a shield crew.”	“I could cross an active pressure break without a shield crew.”
+122	dragon		“I could hold full reinforcement most of a day if I wasn't doing anything stupid.”	“I could hold full reinforcement most of a day if I wasn't doing anything stupid.”
+123	greg		“Were you?”	“Were you?”
+124	dragon		“Usually.”	“Usually.”
+125	greg		“I assumed.”	“I assumed.”
+126	dragon		“I killed a redback alone north of Vey.”	“I killed a redback alone north of Vey.”
+127	greg		“There are no redbacks north of Vey.”	“There are no redbacks north of Vey.”
+128	dragon		“There was one.”	“There was one.”
+129	greg		“When?”	“When?”
+130	dragon		“First life. Maybe thirty years before now.”	“First life. Maybe thirty years before now.”
+131	greg		“What was beneath the third dorsal plate?”	“What was beneath the third dorsal plate?”
+132	dragon		“What?”	“What?”
+133	greg		“The third plate.”	“The third plate.”
+134	dragon		“Meat.”	“Meat.”
+135	greg	greg	“Black tissue,”	“Black tissue,” I said. “Stringy. Smelled like burnt hair when I cut it.”
+136	greg	greg	“Stringy. Smelled like burnt hair when I cut it.”	“Black tissue,” I said. “Stringy. Smelled like burnt hair when I cut it.”
+137	dragon		“Not black.”	“Not black.”
+138	greg		“It looked black.”	“It looked black.”
+139	dragon		“Purple.”	“Purple.”
+140	greg		“It was dark and I was busy.”	“It was dark and I was busy.”
+141	dragon		“With what?”	“With what?”
+142	greg		“Being bitten.”	“Being bitten.”
+143	dragon		“That would reduce color accuracy.”	“That would reduce color accuracy.”
+144	greg		“Thank you.”	“Thank you.”
+145	dragon		“What else?”	“What else?”
+146	greg		“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off.”	“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off.”
+147	dragon	dragon	“Pressure bladder,”	“Pressure bladder,” Ithar said.
+148	greg		“Found that out eventually.”	“Found that out eventually.”
+149	dragon		“How?”	“How?”
+150	greg		“I cut it.”	“I cut it.”
+151	dragon		“That does not explain knowing its purpose.”	“That does not explain knowing its purpose.”
+152	greg		“I didn't.”	“I didn't.”
+153	dragon		“I thought it was armor. Then I thought it was a weakness. I never knew what it actually did.”	“I thought it was armor. Then I thought it was a weakness. I never knew what it actually did.”
+154	dragon	dragon	“Good,”	“Good,” he said.
+155	greg		“That wasn't good.”	“That wasn't good.”
+156	dragon		“It was to me.”	“It was to me.”
+157	greg		“Why?”	“Why?”
+158	dragon		“Because you were wrong.”	“Because you were wrong.”
+159	greg		“Glad I could help.”	“Glad I could help.”
+160	dragon		“A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves.”	“A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves.”
+161	greg		“But errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.”	“But errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.”
+162	dragon		“That sounded almost like you believe me.”	“That sounded almost like you believe me.”
+163	greg		“No.”	“No.”
+164	dragon		“Close?”	“Close?”
+165	greg		“No.”	“No.”
+166	dragon		“Better than before?”	“Better than before?”
+167	greg		“Yes.”	“Yes.”
+168	dragon		“Who gave you my name?”	“Who gave you my name?”
+169	greg	greg	“I told you. It was from the first life.”	“I told you. It was from the first life.”
+170	greg	greg	“That is when. I asked who.”	“That is when. I asked who.”
+171	dragon		“I don't know if the name will mean anything to you.”	“I don't know if the name will mean anything to you.”
+172	greg	greg	“I know nine living things that have held my name in the form you used. I told you this.”	“I know nine living things that have held my name in the form you used. I told you this.”
+173	dragon		“Eight besides you.”	“Eight besides you.”
+174	greg		“One is dead in a manner that makes the count argumentative.”	“One is dead in a manner that makes the count argumentative.”
+175	dragon		“Right.”	“Right.”
+176	greg		“Which?”	“Which?”
+177	dragon		“I knew her as Nhal.”	“I knew her as Nhal.”
+178	greg		“Ah.”	“Ah.”
+179	greg		“You know her.”	“You know her.”
+180	dragon		“I knew several things she called herself. Nhal was one.”	“I knew several things she called herself. Nhal was one.”
+181	greg		“Then that's my path.”	“Then that's my path.”
+182	dragon		“No.”	“No.”
+183	greg		“She told me.”	“She told me.”
+184	dragon		“I believe you remember her telling you.”	“I believe you remember her telling you.”
+185	greg		“That sounds like the same thing with worse manners again.”	“That sounds like the same thing with worse manners again.”
+186	dragon		“It is not.”	“It is not.”
+187	greg		“Why?”	“Why?”
+188	dragon		“Nhal has not spoken to a human in one hundred and twelve years.”	“Nhal has not spoken to a human in one hundred and twelve years.”
+189	greg		“She spoke to me.”	“She spoke to me.”
+190	dragon		“In the history you describe.”	“In the history you describe.”
+191	greg		“Yes.”	“Yes.”
+192	dragon		“She did not in this one.”	“She did not in this one.”
+193	greg		“That's the point.”	“That's the point.”
+194	dragon		“No. That is one point.”	“No. That is one point.”
+195	greg		“When did you meet her?”	“When did you meet her?”
+196	dragon		“Late.”	“Late.”
+197	greg		“Age.”	“Age.”
+198	dragon		“Forty-eight. Maybe forty-nine.”	“Forty-eight. Maybe forty-nine.”
+199	greg		“Where?”	“Where?”
+200	dragon		“Under the salt flats north of Vey.”	“Under the salt flats north of Vey.”
+201	greg		“Nhal does not live there.”	“Nhal does not live there.”
+202	dragon		“She was trapped there.”	“She was trapped there.”
+203	greg		“How?”	“How?”
+204	dragon		“That is a long story.”	“That is a long story.”
+205	greg		“I know.”	“I know.”
+206	dragon		“You keep sounding pleased about that.”	“You keep sounding pleased about that.”
+207	greg		“I am becoming pleased.”	“I am becoming pleased.”
+208	dragon		“You claim that in another history, while counted among approximately seven humans of greatest combat capability on the continent, you encountered Nhal beneath a place where she does not currently reside, and she transmitted a name to you that she has not transmitted in the present history.”	“You claim that in another history, while counted among approximately seven humans of greatest combat capability on the continent, you encountered Nhal beneath a place where she does not currently reside, and she transmitted a name to you that she has not transmitted in the present history.”
+209	greg		“When you put it like that, it sounds complicated.”	“When you put it like that, it sounds complicated.”
+210	dragon		“It is complicated.”	“It is complicated.”
+211	greg		“She also told me how to cross the mountain.”	“She also told me how to cross the mountain.”
+212	dragon	dragon	“That,”	“That,” he said, “is useful.”
+213	dragon	dragon	“is useful.”	“That,” he said, “is useful.”
+214	greg		“For the Line?”	“For the Line?”
+215	dragon		“No.”	“No.”
+216	dragon		“You are not merely carrying information that is old. You are carrying information whose path through the world is missing.”	“You are not merely carrying information that is old. You are carrying information whose path through the world is missing.”
+217	greg		“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.”	“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.”
+218	dragon		“You recognize this. There is a path by which you might have learned it, even if neither of us can yet identify the path.”	“You recognize this. There is a path by which you might have learned it, even if neither of us can yet identify the path.”
+219	greg		“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.”	“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.”
+220	dragon		“You offer a second history as the missing path.”	“You offer a second history as the missing path.”
+221	greg		“Yes.”	“Yes.”
+222	dragon		“That is not proof.”	“That is not proof.”
+223	greg		“I know.”	“I know.”
+224	dragon		“It is better than prophecy.”	“It is better than prophecy.”
+225	greg		“I'll take it.”	“I'll take it.”
+226	dragon		“It is worse than evidence.”	“It is worse than evidence.”
+227	greg		“I was taking it.”	“I was taking it.”
+228	greg	greg	“So,”	“So,” I said. “You believe I remember another life.”
+229	greg	greg	“You believe I remember another life.”	“So,” I said. “You believe I remember another life.”
+230	dragon		“No.”	“No.”
+231	greg		“You believe Nhal told me your name.”	“You believe Nhal told me your name.”
+232	dragon		“No.”	“No.”
+233	greg		“You believe anything?”	“You believe anything?”
+234	dragon		“Yes.”	“Yes.”
+235	dragon	dragon	“You possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path.”	Then he said, “You possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path.”
+236	greg		“That is the least satisfying way anyone has ever called me interesting.”	“That is the least satisfying way anyone has ever called me interesting.”
+237	dragon		“It was not intended to satisfy you.”	“It was not intended to satisfy you.”
+238	greg		“Obviously.”	“Obviously.”
+239	dragon		“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.”	“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.”
+240	greg		“Scale involved.”	“Scale involved.”
+241	dragon		“Yes.”	“Yes.”
+242	greg		“You think this is bigger than me.”	“You think this is bigger than me.”
+243	dragon		“I think almost everything is bigger than you.”	“I think almost everything is bigger than you.”
+244	greg		“Fair.”	“Fair.”
+245	greg	greg	“But that is not what I said.”	“But that is not what I said.”
+246	greg	greg	“The Line,”	“The Line,” I said.
+247	dragon		“No.”	“No.”
+248	greg		“You haven't even looked at it.”	“You haven't even looked at it.”
+249	dragon		“I looked at you.”	“I looked at you.”
+250	greg		“That is not better.”	“That is not better.”
+251	dragon		“It is to me.”	“It is to me.”
+252	greg		“What do you want?”	“What do you want?”
+253	dragon		“Your claim.”	“Your claim.”
+254	greg		“You have it.”	“You have it.”
+255	dragon		“No.”	“No.”
+256	greg		“Of course not.”	“Of course not.”
+257	dragon		“You have given me the sentence.”	“You have given me the sentence.”
+258	greg		“I want the thing that made it true.”	“I want the thing that made it true.”
