@@ -1,0 +1,61 @@
+name: Build 3L Reader
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - '3l/**'
+      - main
+    paths:
+      - '.github/workflows/3l-build-reader.yml'
+      - 'scripts/build_3l_record_pages.py'
+      - '3l/manuscript/record-*.md'
+      - '3l/audio/verification/record-*-short-dual-audio.json'
+      - '3l/assets/audio/record-*.mp3'
+      - 'tests/test_3l_frontier_publish.py'
+      - 'tests/test_3l_site.py'
+
+concurrency:
+  group: 3l-reader-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build-reader:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+          sparse-checkout: |
+            3l
+            r2
+            scripts
+            tests/test_3l_frontier_publish.py
+            tests/test_3l_site.py
+
+      - name: Build self-contained reader
+        run: python scripts/build_3l_record_pages.py
+
+      - name: Verify reader frontier
+        run: |
+          python -m unittest tests.test_3l_frontier_publish -v
+          python -m unittest tests.test_3l_site -v
+
+      - name: Commit generated reader
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add 3l/records/*.html 3l/audio/index.html
+          if git diff --cached --quiet; then
+            echo "Reader already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "reader: publish self-contained 3L frontier"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

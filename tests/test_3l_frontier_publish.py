@@ -1,8 +1,23 @@
+import html
 import json
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def manuscript_body(path: Path) -> str:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    headings = 0
+    body = []
+    for line in lines:
+        if headings < 2 and line.startswith("## "):
+            headings += 1
+            continue
+        if headings < 2:
+            continue
+        body.append(line)
+    return "\n".join(body).strip()
 
 
 class ThreeLFrontierPublishTests(unittest.TestCase):
@@ -14,9 +29,11 @@ class ThreeLFrontierPublishTests(unittest.TestCase):
             self.assertTrue(manuscript.exists(), manuscript)
             self.assertTrue(page.exists(), page)
             text = page.read_text(encoding="utf-8")
-            self.assertIn(f"../manuscript/record-{rid}.md", text)
-            self.assertIn("String.fromCharCode(10)", text)
-            self.assertNotIn("split(/\\n?\\n/)", text)
+            body = manuscript_body(manuscript)
+            first_paragraph = next(paragraph for paragraph in body.split("\n\n") if paragraph.strip())
+            self.assertIn(html.escape(first_paragraph), text)
+            self.assertNotIn("Loading the record", text)
+            self.assertNotIn("fetch('../manuscript/", text)
 
         index = (ROOT / "3l" / "records" / "index.html").read_text(encoding="utf-8")
         for record in range(1, 11):
