@@ -8,6 +8,7 @@ from showcase import ShowcaseMap, build_showcase_map, load_showcase_manifest
 
 TERMINAL_CANON = 503
 TERMINAL_CARD_MARKER = 'plg-terminal-end-card'
+TERMINAL_STYLESHEET = '<link href="../assets/plg-terminal.css" rel="stylesheet">'
 TERMINAL_CARD = '''
 <section class="plg-terminal-end-card" aria-labelledby="plg-terminal-title">
   <p class="plg-terminal-kicker">THE END</p>
@@ -36,13 +37,19 @@ def inject_terminal_card(directory: Path) -> bool:
     if not path.exists():
         return False
     original = path.read_text(encoding='utf-8')
-    if TERMINAL_CARD_MARKER in original:
+    updated = original
+    if 'plg-terminal.css' not in updated:
+        if '</head>' not in updated:
+            raise ValueError(f'Chapter {TERMINAL_CANON}: closing head not found for terminal stylesheet')
+        updated = updated.replace('</head>', TERMINAL_STYLESHEET + '\n</head>', 1)
+    if TERMINAL_CARD_MARKER not in updated:
+        close_article = updated.find('</article>')
+        if close_article < 0:
+            raise ValueError(f'Chapter {TERMINAL_CANON}: closing article not found for terminal card')
+        insert_at = close_article + len('</article>')
+        updated = updated[:insert_at] + TERMINAL_CARD + updated[insert_at:]
+    if updated == original:
         return False
-    close_article = original.find('</article>')
-    if close_article < 0:
-        raise ValueError(f'Chapter {TERMINAL_CANON}: closing article not found for terminal card')
-    insert_at = close_article + len('</article>')
-    updated = original[:insert_at] + TERMINAL_CARD + original[insert_at:]
     path.write_text(updated, encoding='utf-8')
     return True
 
@@ -56,7 +63,7 @@ def main() -> int:
     removed = clean_numeric_pages(LIGHT_DIR, set(all_chapters), showcase)
     card_added = inject_terminal_card(LIGHT_DIR)
     print(f'removed {len(removed)} hidden or orphan Text Reader pages')
-    print('added PLG terminal R2 card' if card_added else 'PLG terminal R2 card already current')
+    print('updated PLG terminal R2 card' if card_added else 'PLG terminal R2 card already current')
     return 0
 
 
