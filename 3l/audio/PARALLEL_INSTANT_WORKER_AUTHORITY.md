@@ -2,96 +2,75 @@
 
 Status: **CURRENT FIVE-WORKER CAPTURE AUTHORITY**
 
-This file governs parallel Instant-model audio capture for 3L.
+This file governs parallel Instant-model audio capture for the current 3L written frontier, Records 002–010.
 
-It is subordinate only to:
-
-1. canon manuscript authority
-2. `3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md`
-3. the frozen generated short-dual plans
-
-If an older worker prompt conflicts with this file, this file wins.
+It is subordinate to canon manuscript authority, `3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md`, and the frozen generated short-dual plans.
 
 ## Purpose
 
-Use five fast workers to perform repetitive synthetic voice capture without giving them editorial or architectural freedom.
+Five Instant workers perform repetitive synthetic voice capture. They are production labor, not editors or architects.
 
-The coordinator owns all reasoning-heavy work:
+The coordinator owns:
 
 - canon prose
-- speaker routing
-- Dragon territory
+- Dragon territory and speaker routing
 - chunk boundaries
-- work partitioning
+- worker partitioning
 - reconciliation
-- assembly
 - verification
+- assembly
 - publication
 
-The Instant workers own only **capture execution and receipt recording**.
+Workers own only exact capture execution and receipt recording.
 
-## Frozen work order
+## Current frozen run
 
-For the current Records 002–003 run, the coordinator generates:
+Repository:
 
-- master: `3l/audio/records-002-003-five-worker-work-order.json`
-- worker 1: `3l/audio/workers/records-002-003-instant-1-work-order.json`
-- worker 2: `3l/audio/workers/records-002-003-instant-2-work-order.json`
-- worker 3: `3l/audio/workers/records-002-003-instant-3-work-order.json`
-- worker 4: `3l/audio/workers/records-002-003-instant-4-work-order.json`
-- worker 5: `3l/audio/workers/records-002-003-instant-5-work-order.json`
+`Paiea/peg-leg-greg-reader`
 
-Each worker must read exactly one worker slice.
+Branch workers write to:
 
-The worker slice is executable authority. It already contains:
+`main`
 
-- record number
-- chunk index
-- exact transcript
-- exact preview transcript
-- required voice
-- chunk semantic spans for audit context
-- assigned output receipt path
+Master work order:
 
-Workers do not inspect neighboring chunks to infer intent.
+`3l/audio/records-002-010-five-worker-work-order.json`
+
+Worker slices:
+
+- `3l/audio/workers/records-002-010-instant-1-work-order.json`
+- `3l/audio/workers/records-002-010-instant-2-work-order.json`
+- `3l/audio/workers/records-002-010-instant-3-work-order.json`
+- `3l/audio/workers/records-002-010-instant-4-work-order.json`
+- `3l/audio/workers/records-002-010-instant-5-work-order.json`
+
+Each worker reads exactly one slice. The slice is executable authority and already contains every exact capture call.
 
 ## Voice contract
 
-Only two voice identities exist in this run:
-
 - `deep` = Greg identity
 - `normal` = Ithar / Dragon identity
+- tempo = 1.0
+- pitch shift = 0
+- formant shift = 0
+- no Dragon DSP
 
-Both use normal source timing.
+Workers may not choose another voice or alter performance settings.
 
-No worker may:
-
-- change tempo
-- pitch shift
-- formant shift
-- add DSP
-- select another synthetic voice
-- rewrite text to improve pronunciation
-
-If pronunciation is imperfect, capture the assigned source exactly and report it. Pronunciation repair belongs to the coordinator.
-
-## Capture call contract
+## Capture contract
 
 For every object in the worker slice `captures` array:
 
-1. call the approved voice generator exactly once unless the call errors before producing a usable receipt
-2. use `voice` as the generator voice
-3. use the exact `transcript`
-4. use the exact same text as `preview_transcript`
-5. do not add speaker labels, directions, pauses, SSML, comments, or surrounding text
-6. record the returned receipt before moving to the next assignment
+1. call the approved AI voice generator
+2. pass the exact `transcript`
+3. pass the exact same text as `preview_transcript`
+4. use the exact listed `voice`
+5. record the returned receipt before continuing
 
-Expected generator mapping:
+Do not add labels, directions, SSML, pauses, annotations, or rewritten punctuation.
 
-- work-order voice `deep` → generator `voice_id="deep"`
-- work-order voice `normal` → generator `voice_id="normal"`
-
-A successful receipt should record when returned:
+A successful capture records:
 
 - record
 - chunk index
@@ -100,77 +79,46 @@ A successful receipt should record when returned:
 - exact preview transcript
 - context ID
 - preview URL
-- full audio URL
+- full audio URL when returned
 - generator status
+- worker status `success`
 
-The playable preview URL is the preferred later assembly source.
+The preview URL is the preferred assembly source.
 
 ## Retry rule
 
-Do not improvise around tool failures.
+If a generator call fails without a usable receipt, one exact retry is allowed with the same transcript and voice.
 
-If a call fails without producing a usable capture receipt:
+If the retry also fails, record that assignment as failed and continue. Never substitute another voice or altered text.
 
-- one exact retry is allowed
-- use the same transcript and same voice
-- record the failed attempt if identifying information exists
+## Ownership
 
-If the retry also fails:
+Each `(record, chunk_index, voice)` tuple belongs to exactly one worker. Workers may not claim, regenerate, rebalance, or modify another worker's assignment.
 
-- mark that capture `failed`
-- continue with the remaining assigned captures
-- include the failure in the worker return manifest
+The master work order is validated for complete coverage, whole-chunk ownership, zero overlap, and near-equal capture load before dispatch.
 
-Do not substitute a different voice, shortened transcript, or altered punctuation.
+## Allowed write
 
-## Ownership rule
+Each worker may write only its own return manifest:
 
-Each `(record, chunk_index, voice)` tuple belongs to exactly one worker.
+- instant-1 → `3l/audio/workers/records-002-010-instant-1-captures.json`
+- instant-2 → `3l/audio/workers/records-002-010-instant-2-captures.json`
+- instant-3 → `3l/audio/workers/records-002-010-instant-3-captures.json`
+- instant-4 → `3l/audio/workers/records-002-010-instant-4-captures.json`
+- instant-5 → `3l/audio/workers/records-002-010-instant-5-captures.json`
 
-Workers must not:
-
-- claim unassigned captures
-- regenerate another worker's capture
-- modify another worker's work order
-- modify another worker's return manifest
-- rebalance work among themselves
-
-The generated master work order is validated for complete coverage and zero overlap before workers are dispatched.
-
-## Allowed repository writes
-
-A worker may write only its assigned return manifest:
-
-- instant-1 → `3l/audio/workers/records-002-003-instant-1-captures.json`
-- instant-2 → `3l/audio/workers/records-002-003-instant-2-captures.json`
-- instant-3 → `3l/audio/workers/records-002-003-instant-3-captures.json`
-- instant-4 → `3l/audio/workers/records-002-003-instant-4-captures.json`
-- instant-5 → `3l/audio/workers/records-002-003-instant-5-captures.json`
-
-Workers may not edit:
-
-- manuscript files
-- audio plans
-- Dragon routing files
-- authority files
-- scripts
-- workflows
-- final MP3 assets
-- website files
-- the master five-worker work order
+Workers must not edit manuscripts, plans, routing files, authority, scripts, workflows, final MP3s, or website files.
 
 ## Return manifest schema
-
-Each worker return manifest must be one JSON object shaped like:
 
 ```json
 {
   "status": "complete",
   "worker_id": "instant-1",
-  "work_order": "3l/audio/workers/records-002-003-instant-1-work-order.json",
-  "source_sha": "<copied from work order when present>",
-  "assigned_capture_count": 17,
-  "successful_capture_count": 17,
+  "work_order": "3l/audio/workers/records-002-010-instant-1-work-order.json",
+  "source_sha": "<copied from work order>",
+  "assigned_capture_count": 53,
+  "successful_capture_count": 53,
   "failed_capture_count": 0,
   "captures": [
     {
@@ -190,43 +138,35 @@ Each worker return manifest must be one JSON object shaped like:
 }
 ```
 
-If any capture fails after the allowed exact retry:
+Actual assigned counts come from each worker work order. Do not copy the example count blindly.
 
-- top-level `status` becomes `partial`
-- the failed assignment remains represented
-- `failures` records record/chunk/voice plus concise tool error evidence
+If any capture fails after the exact retry, top-level status becomes `partial`, the failed assignment remains represented, and `failures` contains concise evidence.
 
-Do not omit failures to make a manifest look complete.
+## Worker completion
 
-## Completion rule
+A worker is finished only when every assigned capture is represented as success or explicit failure and its one return manifest is committed to `main`.
 
-A worker is finished only when:
+Workers do not assemble or publish audio and do not claim chapter completion.
 
-- every assigned capture has either a success receipt or an explicit failure entry
-- counts reconcile with the work order
-- the worker return manifest has been written to its exact assigned path
-- no unassigned repository files were changed
+## Automatic coordinator pipeline
 
-Workers do **not** assemble audio.
+When worker return manifests land on `main`, `.github/workflows/3l-parallel-worker-pipeline.yml` waits until all five expected manifests exist. It then:
 
-Workers do **not** publish audio.
+1. validates each return against its frozen assignment
+2. reconciles successful captures by record
+3. downloads, decodes, ffprobes, and hashes every returned preview source
+4. writes record verification receipts
+5. assembles every record whose required captures are complete
+6. records the exact current plan SHA in each finished audio audit
+7. regenerates record pages and the Listening Archive
+8. exposes audio only when the asset and audit match the current plan
+9. commits the verified frontier to `main`
+10. requests a GitHub Pages rebuild
 
-Workers do **not** declare Records 002 or 003 complete.
+A stale MP3 with the correct filename is not publishable. The reader requires a verified audit matching the current plan hash.
 
-## Coordinator reconciliation
+## Failure behavior
 
-After all five workers return, the coordinator must verify:
+If one worker returns a failed capture, the pipeline may verify the other captures but that affected record remains incomplete and its current written page stays published with `Audio rebuild in production` instead of stale audio.
 
-1. five expected worker manifests exist
-2. every assigned capture appears exactly once
-3. no unassigned capture appears
-4. transcript and preview transcript exactly equal frozen work-order text
-5. voice equals frozen work-order voice
-6. successful captures have usable receipt identifiers/URLs
-7. failures are explicitly surfaced
-
-Only after reconciliation may the coordinator download/ffprobe sources, assemble semantic spans, append the settling tail, verify final MP3s, and publish.
-
-## Core worker instruction
-
-**Do the calls. Record the receipts. Do not make decisions.**
+The coordinator can later issue a bounded retry for only the missing capture.
