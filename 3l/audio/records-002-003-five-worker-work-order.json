@@ -2,7 +2,7 @@
   "status": "frozen_work_order",
   "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
   "branch": "3l/dialogue-territory-rebuild-002-010",
-  "source_sha": "856825c7a01d1b05b5effa04f424448747f3726b",
+  "source_sha": "7c1a37797b34a016a28dd092c704903f76564373",
   "run_label": "records-002-003",
   "worker_count": 5,
   "records": [
