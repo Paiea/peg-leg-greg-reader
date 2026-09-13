@@ -1,169 +1,294 @@
-# 3L SHORT-TAKE AUDIO PRODUCTION AUTHORITY
+# 3L SHORT-TAKE PRODUCTION AUTHORITY
 
-Status: **CURRENT PRODUCTION AUTHORITY**
+## STATUS
 
-This file governs synthetic audio capture and assembly for 3L. Where an older production note conflicts with this file, this file wins.
+This document governs preview-safe short-take audio production for 3L.
 
-## Core rule
+Current production frontier:
 
-3L audio is built from **short, preview-safe canon chunks** and then assembled.
+- Record 001: published separately under its existing Record 001 authority and v6 listening surface.
+- Record 002: verified dual-voice assembled asset at `3l/assets/audio/record-002.mp3`.
+- Record 003: verified dual-voice assembled asset at `3l/assets/audio/record-003.mp3`.
+- Records 004+: not part of this production slice.
 
-Do not use full-chapter synthesis as the production source.
+Records 002 and 003 use the locked two-identity routing:
 
-The production path is:
+- Greg / narration / remembered speakers → `deep`
+- Ithar only → `normal`
 
-**CANON PROSE → SEMANTIC SPEAKER ROUTING → ~29-SECOND CANON CHUNKS → DUAL VOICE CAPTURE → LOCAL SPEAKER SELECTION → CANON-ORDER ASSEMBLY → VERIFY → PUBLISH**
+The current Dragon production default is untreated:
 
-Canon prose remains the story authority.
+- tempo 1.0
+- pitch shift 0 semitones
+- formant shift 0
+- no Dragon post-processing
+- preserve normal source timing except for semantic assembly pauses and clean seams
 
-## Canon chunk size
+The final assembled assets add an approximately 2-second settling tail and use 192k final MP3 encoding.
 
-Target natural sequential chunks of roughly **20–29 seconds**.
+---
 
-For the current voice generator, keep each submitted chunk **preview-safe**, normally no more than about **500 characters**.
+## 1. PURPOSE
 
-Preferred chunk boundaries, in order:
+The short-take system exists to make long-form synthetic narration reproducible, inspectable, and recoverable without requiring one monolithic generation request.
 
-1. paragraph boundary
-2. complete dialogue turn
-3. complete sentence
-4. clause boundary only when necessary
+The production unit is a preview-safe chunk, generally no more than about 500 characters.
 
-Do not split mid-sentence merely to make chunks equal length.
+Each chunk is generated independently, captured by its returned public preview URL, verified as valid audio, and then assembled from locked semantic speaker ownership.
 
-The goal is the same capture geometry that worked for Record 001: stable, roughly half-minute pieces that seam cleanly.
+Canon prose remains authority.
 
-## Dual-render rule
+Production artifacts may segment, tag, or splice the prose, but may not change story wording or meaning.
 
-For cave-frame material containing both Greg and Ithar, render the **same exact short canon chunk twice**:
+---
 
-- **GREG SOURCE** → `deep`
-- **DRAGON SOURCE** → `normal`
+## 2. SOURCE HIERARCHY
 
-Both captures use identical text and identical chunk boundaries.
+Use this order:
 
-This is intentionally local. A ~29-second chunk may be dual-rendered; an entire chapter may not.
+1. canonical manuscript record
+2. locked semantic speaker/chunk plan
+3. capture manifests
+4. source verification receipt
+5. assembled audio audit receipt
+6. published MP3 asset
 
-The two renders are source material for that one short chunk. They are not two alternate chapter performances.
+If any lower layer disagrees with a higher layer, the higher layer wins.
 
-## Semantic speaker selection
+Do not repair disagreement by silently editing canon prose.
 
-Narration always belongs to Greg, including narration describing Ithar.
+---
 
-Greg's spoken dialogue belongs to Greg.
+## 3. PREVIEW-SAFE CAPTURE RULE
 
-Ithar's actual spoken dialogue belongs to the Dragon voice.
+For every generation call:
 
-All remembered characters remain Greg's audio identity unless a later authority explicitly expands the cast.
+- provide the exact full chunk transcript
+- provide the identical text as `preview_transcript`
+- keep the preview transcript within the voice tool's preview-safe limit
+- use the voice required by the locked chunk plan
+- capture the returned `context_id`
+- capture the returned `preview_url`
+- record status only when the tool reports the take ready
 
-Within each short dual-render chunk, use semantic speaker routing to select audio spans from the matching source render:
+Do not use a long full-chapter generation as a substitute for the preview-safe source set.
 
-- narrator / Greg span → select from `deep`
-- Ithar span → select from `normal`
+The preview URL is the reproducible source used by GitHub Actions for assembly.
 
-Speaker transitions should be placed at real paragraph/dialogue boundaries and snapped to nearby detected silence where possible.
+---
 
-Do not infer Dragon ownership merely because the paragraph discusses the dragon. Only Ithar's spoken words use the Dragon source.
+## 4. SPEAKER-PURE ROUTING
 
-## Why dual-render chunks
+A voice render is not a semantic speaker decision.
 
-Do not create hundreds of microscopic 1–3 second synthesis calls merely because cave dialogue alternates rapidly.
+For mixed chunks, generate the exact same chunk text in each required voice, then let the semantic splice plan select only the regions owned by that speaker.
 
-That produces unstable voice starts and turns the chapter into a playlist of fragments.
+This means a mixed Greg/Ithar chunk commonly has:
 
-Short dual-render chunks preserve:
+- one `deep` render of the complete chunk
+- one `normal` render of the complete chunk
 
-- stable ~29-second synthesis windows
-- the proven Record 001 seam geometry
-- distinct Greg / Ithar generated voices
-- local, auditable speaker replacement
-- no need for full-chapter alignment
+The assembler chooses Greg-owned regions from the `deep` source and Ithar-owned regions from the `normal` source.
 
-## Generator contract
+For Greg-only chunks, generate only `deep`.
 
-For each short source render:
+Do not generate `normal` unnecessarily for a Greg-only chunk.
 
-- `transcript` and `preview_transcript` must be **identical**
-- the complete submitted text must fit within the preview-safe limit
-- capture the returned playable `preview_url`
-- record record number, chunk index, voice identity, exact transcript, context id, and preview URL
-- the preview MP3 is the assembly source
+Do not infer speaker ownership from words such as “dragon,” “Ithar,” or dialogue proximity. Speaker ownership comes from the locked semantic spans.
 
-Each chunk therefore normally has two capture receipts: one `deep`, one `normal`.
+---
 
-Do not use a long-form full-chapter `audio_url` as the production source.
+## 5. NARRATION RULE
 
-## Current voice profiles
+All narration belongs to Greg's audio identity, including narration whose grammatical subject is Ithar.
 
-### Greg
+Examples such as:
 
-- voice = `deep`
-- tempo = **1.0**
-- no pitch shift
-- no formant shift
+- `Ithar waited.`
+- `The dragon lowered his head.`
+- `His eye narrowed.`
 
-### Ithar
+remain Greg narration.
 
-- voice = `normal`
-- tempo = **1.0**
-- pitch shift = **0 semitones**
-- no formant shift
-- no monster DSP
+Only words actually spoken by Ithar use the Dragon voice.
 
-Dragon identity comes from prose, semantic speaker ownership, cadence, patience, and turn structure, not waveform distortion.
+---
 
-## Assembly
+## 6. CAPTURE MANIFESTS
 
-For every source preview MP3:
+Capture manifests are append-only production evidence for a bounded chunk range.
 
-1. download it
-2. ffprobe it before use
-3. detect usable silence boundaries
-4. map semantic speaker transitions for that chunk
-5. cut Greg spans from the Greg source and Ithar spans from the Dragon source
-6. concatenate those local spans back into the exact chunk order
+Suggested naming:
 
-Then concatenate completed chunks in canon order.
+`record-003-short-captures-021-025.json`
 
-Assembly should:
+Each capture entry records at minimum:
 
-- normalize technical format only as necessary
-- preserve generated speech timing inside selected spans
-- use only intentional seam silence
-- avoid blanket dramatic pauses between chunks
-- append approximately **2 seconds of settling silence** at chapter end
-- encode the final chapter MP3
-- ffprobe and decode-verify the finished asset
-- record duration, byte size, and SHA-256
+- chunk number
+- voice
+- exact transcript
+- context ID
+- preview URL
+- ready status
 
-A seam is successful when the chapter sounds like one continuous performance rather than stitched source files.
+A capture manifest must not claim a source that was not actually returned by the generator.
 
-## Canon fidelity
+---
 
-The ordered chunk transcripts must reproduce the chapter text exactly, excluding only non-spoken Markdown headings and production metadata.
+## 7. SOURCE VERIFICATION
 
-Production-only speaker labels, chunk numbers, timing maps, and comments are never spoken and never render publicly.
+The source verifier must independently:
 
-Do not rewrite canon prose merely to make synthesis easier. A wording change belongs at canon authority.
+1. read the locked chunk plan
+2. gather all capture manifests for that record
+3. reject duplicate `(chunk, voice)` pairs
+4. reject unknown chunks
+5. reject voices not required by the plan
+6. require exact transcript equality with the locked plan
+7. require ready status
+8. download every preview MP3
+9. decode-check every MP3 with ffmpeg
+10. obtain positive duration with ffprobe
+11. record byte size and SHA-256
+12. calculate the full expected capture set
+13. report missing captures explicitly
 
-## Website publication
+A record is source-complete only when:
 
-Each record page keeps its prose and chapter audio together.
+- verified capture count equals planned capture count
+- `complete = true`
+- `missing = []`
 
-The separate Listening Archive remains the audio-first library.
+Do not assemble an incomplete record.
 
-Do not expose a playable chapter audio element until the assembled MP3 has passed decode verification. Partial captures remain internal production material.
+---
 
-## Superseded methods
+## 8. SEMANTIC SPLICE ASSEMBLY
 
-The following are not current production methods:
+The assembler consumes the verified source receipt, not unverified capture manifests directly.
 
-- full-chapter Greg render + full-chapter Ithar render + post-hoc slicing
-- one synthesis request for every tiny speaker turn
-- pitch-shifted or slowed Dragon by default
-- one mixed-speaker render used as the final two-voice performance
-- long generated audio substituted for the short-take factory merely because it exists
+For a mixed chunk:
 
-## Current application
+- collapse adjacent semantic spans with the same role into speaker regions
+- align region text against the identical full-chunk renders
+- cut only at actual role transitions
+- select Greg regions from `deep`
+- select Ithar regions from `normal`
+- concatenate regions in canonical order
 
-Records 002 and 003 are the first chapters after Record 001 to use this short dual-render authority from capture through publication.
+Do not create micro-cuts at every sentence when speaker ownership has not changed.
+
+The point of semantic splice assembly is to preserve natural source cadence while changing voices only where the speaker actually changes.
+
+---
+
+## 9. AUDIO PROCESSING AUTHORITY
+
+For Records 002 and 003:
+
+- Greg voice: `deep`
+- Dragon voice: `normal`
+- tempo: 1.0
+- pitch: 0 semitones
+- formant shift: 0
+- Dragon post-processing: false
+
+Do not reintroduce the earlier audition treatments into these records.
+
+Do not slow Ithar merely to make him sound older.
+
+Do not lower Ithar merely to make him sound monstrous.
+
+The writing, semantic identity, patience, and cadence carry the distinction.
+
+---
+
+## 10. FINAL ASSET VERIFICATION
+
+After assembly:
+
+- decode-check the final MP3 with ffmpeg
+- record duration
+- record byte size
+- record SHA-256
+- confirm audio processing metadata matches authority
+- confirm settling tail and output bitrate settings
+- write an assembled-audio audit receipt
+- commit the MP3 and audit together
+
+The final audit is the proof artifact for the published MP3.
+
+---
+
+## 11. CURRENT VERIFIED RESULTS
+
+### Record 002 · THE CLAIMANT
+
+- source captures: 64 / 64 verified
+- source complete: true
+- chunks: 33
+- mixed chunks: 31
+- final duration: 881.737143 seconds
+- final bytes: 21,162,362
+- final SHA-256: `5aea20e8d197b8f0125ca46b2e397006d6e07fdeb1bc4e08fbfda78c06229d95`
+- final asset: `3l/assets/audio/record-002.mp3`
+
+### Record 003 · THE BARGAINER
+
+- source captures: 62 / 62 verified
+- source complete: true
+- chunks: 32
+- mixed chunks: 30
+- final duration: 881.658776 seconds
+- final bytes: 21,160,481
+- final SHA-256: `c0e98b27b943fb75a49b30eacd33d398f821aa1cd308b60cb1958ce4a22db0ea`
+- final asset: `3l/assets/audio/record-003.mp3`
+
+These results are production facts, not listening-quality judgments. Human listening can still identify aesthetic seam or performance issues even when technical verification is green.
+
+---
+
+## 12. SITE PUBLICATION
+
+When a final verified asset exists, the corresponding record page and Listening Archive may point directly to:
+
+`../assets/audio/record-XXX.mp3`
+
+Do not label a record “audio in production” after its verified asset has been published to the same branch.
+
+Site tests should verify:
+
+- the MP3 exists
+- the record page references it
+- the Listening Archive references it
+- autoplay is not enabled
+- stale production-status text is absent
+
+---
+
+## 13. WORKFLOW RULE
+
+The source verifier and assembler are separate gates.
+
+GitHub does not trigger a second workflow from a commit made by another workflow using the default `GITHUB_TOKEN` in every push-chain scenario. Therefore the assembler supports explicit `workflow_dispatch` in addition to path-triggered pushes.
+
+If a complete verifier receipt was committed by Actions but assembly did not automatically start, manually dispatch the assembler rather than modifying unrelated production files merely to create another push event.
+
+---
+
+## 14. STOP CONDITIONS
+
+Stop and investigate instead of assembling when any of the following occurs:
+
+- transcript mismatch
+- duplicate capture key
+- missing required voice
+- source URL does not download
+- ffmpeg cannot decode a source
+- source duration is suspicious
+- verified count does not equal planned count
+- semantic span ownership is ambiguous
+- final audit hash does not match the committed asset
+- processing metadata violates current authority
+
+Evidence before assertion.
