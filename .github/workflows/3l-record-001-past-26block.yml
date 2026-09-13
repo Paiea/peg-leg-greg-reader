@@ -1,0 +1,110 @@
+name: Assemble 3L Record 001 past-tense 26-block v3
+
+on:
+  push:
+    branches:
+      - 3l/record-001-clean-speaker-v2
+    paths:
+      - '.github/workflows/3l-record-001-past-26block.yml'
+      - '3l/audio/experiments/record-001-past-26block-v3-captures.json'
+      - 'scripts/build_3l_past_26block_candidate.py'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -hide_banner -filters 2>/dev/null | grep rubberband
+
+      - name: Validate manifest and assembler
+        run: |
+          python -m py_compile scripts/build_3l_past_26block_candidate.py
+          python - <<'PY'
+          import json
+          m=json.load(open('3l/audio/experiments/record-001-past-26block-v3-captures.json'))
+          clips=m['clips']
+          assert m['experiment']=='past-tense-26-block-dragon-v3'
+          assert m['design']['narration_tense']=='past'
+          assert len(clips)==37
+          assert len({r[1] for r in clips})==26
+          assert len({r[1] for r in clips if r[2]=='dragon'})==12
+          assert sum(r[2]=='dragon' for r in clips)==15
+          assert all(r[2] in {'greg','dragon'} for r in clips)
+          assert m['voice_contract']['dragon_pitch_semitones']==-3.25
+          assert m['voice_contract']['dragon_tempo']==1.0
+          assert m['voice_contract']['mixed_speaker_splicing'] is False
+          block19=[r for r in clips if r[1]=='019']
+          assert [(r[0],r[2],r[3]) for r in block19]==[('019a','greg',80),('019b','dragon',800)]
+          print('clips',len(clips),'blocks',len({r[1] for r in clips}),'dragon turns',len({r[1] for r in clips if r[2]=='dragon'}))
+          PY
+
+      - name: Download exact speaker-pure captures
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/past-26block-captures
+          python - <<'PY' > /tmp/past-26block-urls.tsv
+          import json
+          m=json.load(open('3l/audio/experiments/record-001-past-26block-v3-captures.json'))
+          for clip_id, block, role, pause_ms, url in m['clips']:
+              print(f'{clip_id}\t{url}')
+          PY
+          while IFS=$'\t' read -r clip_id url; do
+            echo "capture $clip_id"
+            curl -fL --retry 3 --retry-delay 2 -o "/tmp/past-26block-captures/${clip_id}.mp3" "$url"
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "/tmp/past-26block-captures/${clip_id}.mp3"
+          done < /tmp/past-26block-urls.tsv
+
+      - name: Assemble candidate
+        run: |
+          python scripts/build_3l_past_26block_candidate.py --capture-dir /tmp/past-26block-captures
+
+      - name: Verify candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -v error -i 3l/assets/audio/record-001-past-26block-v3.mp3 -f null -
+          python - <<'PY'
+          import json
+          r=json.load(open('3l/audio/verification/record-001-past-26block-v3.json'))
+          assert r['narration_tense']=='past'
+          assert r['clip_count']==37
+          assert r['dramatic_block_count']==26
+          assert r['dragon_turn_count']==12
+          assert r['dragon_clip_count']==15
+          assert r['greg_clip_count']==22
+          assert r['mixed_speaker_clip_count']==0
+          assert r['dragon_pitch_semitones']==-3.25
+          assert r['dragon_tempo']==1.0
+          assert r['dragon_formant']=='preserved'
+          print(json.dumps({k:r[k] for k in ('candidate_duration_seconds','candidate_byte_size','candidate_sha256')}, indent=2))
+          PY
+          git diff --check
+
+      - name: Commit candidate and receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/assets/audio/record-001-past-26block-v3.mp3 3l/audio/verification/record-001-past-26block-v3.json
+          git commit -m "audio: render Record 001 past-tense 26-block v3" || exit 0
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
+
+      - name: Upload listening artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-past-26block-v3
+          path: |
+            3l/assets/audio/record-001-past-26block-v3.mp3
+            3l/audio/verification/record-001-past-26block-v3.json
