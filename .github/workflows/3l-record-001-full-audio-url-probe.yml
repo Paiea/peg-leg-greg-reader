@@ -11,26 +11,17 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect voiceover client bundles
+      - name: Inspect voiceover client bundles quickly
         run: |
           set -euo pipefail
           base='https://www.aidocmaker.com'
-          url="$base/g0/audio?name=6f0f049b390b474a92c5caa2cf588cfc"
-          curl -L --fail "$url" -o /tmp/page.html
+          curl -L --fail --max-time 10 "$base/g0/audio?name=6f0f049b390b474a92c5caa2cf588cfc" -o /tmp/page.html
           grep -Eo '<script[^>]+src="[^"]+\.js[^"]*"' /tmp/page.html \
             | sed -E 's/.*src="([^"]+)".*/\1/' \
             | sort -u > /tmp/scripts.txt
-          cat /tmp/scripts.txt
-          i=0
-          while IFS= read -r src; do
-            i=$((i+1))
-            case "$src" in
-              http*) jsurl="$src" ;;
-              *) jsurl="$base$src" ;;
-            esac
-            curl -L --fail --silent "$jsurl" -o "/tmp/js-$i.js" || continue
-            if grep -Eqi '(audio\?name|storage\.googleapis|preview_url|audioUrl|audio_url|download.*audio|fetch\(.{0,120}audio|/api/.{0,100}audio)' "/tmp/js-$i.js"; then
-              echo "--- MATCH $jsurl ---"
-              grep -Eo '.{0,220}(audio\?name|storage\.googleapis|preview_url|audioUrl|audio_url|download.{0,40}audio|/api/.{0,100}audio).{0,420}' "/tmp/js-$i.js" | head -100 || true
-            fi
-          done < /tmp/scripts.txt
+          echo "scripts=$(wc -l < /tmp/scripts.txt)"
+          mkdir -p /tmp/js
+          awk -v base="$base" '{ if ($0 ~ /^http/) print $0; else print base $0 }' /tmp/scripts.txt \
+            | xargs -P 8 -I{} sh -c 'u="$1"; f="/tmp/js/$(echo "$u" | sha256sum | cut -c1-16).js"; curl -L --fail --silent --max-time 8 "$u" -o "$f" || true' _ {}
+          echo '--- endpoint-like matches ---'
+          grep -RIEo '.{0,220}(audio\?name|storage\.googleapis|preview_url|audioUrl|audio_url|download.{0,40}audio|/api/.{0,120}audio|fetch\(.{0,160}audio).{0,420}' /tmp/js | head -200 || true
