@@ -12,17 +12,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download full AI voice file
+      - name: Inspect full AI voice response
         run: |
           set -euo pipefail
           mkdir -p /tmp/3l-audio
-          curl -L --fail --retry 3 \
+          curl -L --fail --retry 3 -D /tmp/3l-audio/headers.txt \
             'https://www.aidocmaker.com/g0/audio?name=d1227e2cc2fc4b0eb83612cda153bd8a' \
-            -o /tmp/3l-audio/test.mp3
-          file /tmp/3l-audio/test.mp3
-          wc -c /tmp/3l-audio/test.mp3
-          head -c 64 /tmp/3l-audio/test.mp3 | xxd
+            -o /tmp/3l-audio/response.bin
+          file /tmp/3l-audio/response.bin
+          wc -c /tmp/3l-audio/response.bin
+          echo '--- candidate URLs ---'
+          strings /tmp/3l-audio/response.bin | grep -Eo 'https://[^"'"'"' <]+' | grep -E 'mp3|audio|storage' | head -30 || true
+          echo '--- first text ---'
+          strings /tmp/3l-audio/response.bin | head -40 || true
       - uses: actions/upload-artifact@v4
         with:
           name: 3l-full-audio-url-spike
-          path: /tmp/3l-audio/test.mp3
+          path: /tmp/3l-audio/
