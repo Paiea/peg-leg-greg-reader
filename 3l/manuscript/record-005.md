@@ -672,4 +672,18 @@ My first contract in my second life lasted four weeks.
 
 That was what the paper said.
 
+The cave came back before I could hide inside the word temporary.
+
+Ithar's claw rested against the gold.
+
+“You describe East Four as a detour because that is how you protected the decision from becoming a decision. Twelve silver went west. Eight stayed near home. The paper lanterns matter because you remembered them when the old road was still available. You changed the route before you admitted you were changing it.”
+
+I rubbed my thumb against the edge of the rank pin.
+
+“At the time it felt temporary.”
+
+His eye held mine.
+
+I closed my eyes again.
+
 I believed the paper too.

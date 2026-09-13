@@ -2,7 +2,7 @@
 
 ## THE HAND
 
-“How long?”
+The number four pulled me out of the memory.
 
 I opened my eyes.
 
@@ -22,51 +22,7 @@ Ithar had not moved.
 
 That felt unfair.
 
-“How long what?”
-
-“You said the contract was four weeks.”
-
-“It was.”
-
-“How long did you remain at East Four?”
-
-I rubbed my face.
-
-“Eleven years.”
-
-The dragon was silent.
-
-I waited.
-
-“No,” he said.
-
-I stared at him.
-
-“You asked a number.”
-
-“I did.”
-
-“I gave you a number.”
-
-“You removed eleven years.”
-
-“I summarized them.”
-
-“You attempted to.”
-
-“Eleven years is a long time.”
-
-“Yes.”
-
-“For me.”
-
-“Yes.”
-
-“And that doesn't bother you.”
-
-“No.”
-
-“Right.”
+“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”
 
 I looked toward the passage.
 
@@ -74,13 +30,13 @@ The passage remained neutral.
 
 Useless thing.
 
-“Most of it was work.”
+“Eleven years is a long time.”
 
-“Then tell me about work.”
+The dragon did not need to answer that.
 
-“It was repetitive.”
+“For me.”
 
-“Then repetition occupied eleven years of your life.”
+Still nothing.
 
 I sighed.
 
@@ -322,31 +278,15 @@ I remember the stew.
 
 I do not remember what we argued about afterward.
 
-Ithar's voice entered the memory so cleanly that for a second I thought he had been sitting at the table.
+Ithar interrupted only once.
 
-“Why do you remember the stew?”
+The question did not need his voice to survive in mine.
 
-I opened my eyes.
+Why did I remember the stew?
 
-“Because it was good.”
+Because it was good.
 
-“That is sufficient.”
-
-I stared at him.
-
-“You dragged me out for that?”
-
-“I asked a question.”
-
-“You can do that while I'm talking?”
-
-“Yes.”
-
-“Great.”
-
-“Continue.”
-
-I closed my eyes again.
+Apparently that was sufficient.
 
 The stew had carrots.
 

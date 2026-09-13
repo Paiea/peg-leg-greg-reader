@@ -616,59 +616,17 @@ I pretended not to hear it.
 
 That was kinder to both of us.
 
-Ithar pulled me out again.
-
-“You knew her name from the first history.”
+The cave pulled me out of the ward.
 
 I opened my eyes.
 
-The cave felt darker after the white healer's ward.
+Ithar's gaze had settled on the shoulder that still carried a piece of that day.
 
-“Eventually.”
+“You knew Nessa Vale first as a name on a board of dead people. By the time the remembered death arrived, she was no longer a name. She was your friend, and already more complicated than that word admits.
 
-“You said the black board listed Nessa Vale.”
+“You attempted to prevent an outcome you remembered without understanding the mechanism that produced it. You dropped the wrong feed. You made the failure worse before you understood what was beneath the station. Then you saved her.
 
-“Yes.”
-
-“Before you met her in the second life, what was she to you?”
-
-“A name.”
-
-“And after five years?”
-
-I looked at him.
-
-“You heard the story.”
-
-“That was not my question.”
-
-I shifted my leg.
-
-“Friend.”
-
-“Only?”
-
-“At that point.”
-
-The dragon waited.
-
-I hated that wait more than the others.
-
-“Mostly.”
-
-“Ah.”
-
-“Don't.”
-
-“I said one sound.”
-
-“It was an annoying sound.”
-
-“Continue.”
-
-I did not.
-
-Not immediately.
+“Separate motive from method. Wanting her alive does not make the method correct. Surviving the mistake does not make the motive foolish. What did the difference teach you?”
 
 I looked at my right hand.
 
@@ -682,47 +640,9 @@ But the shoulder did.
 
 A little piece of that day had stayed all the way to the mountain.
 
-“You said you changed the future on purpose with Halden,” Ithar said.
+“Knowing what happens isn't the same as knowing why.”
 
-“Yes.”
-
-“This was different.”
-
-“How?”
-
-“You attempted to reproduce an outcome you preferred without understanding the mechanism you had changed.”
-
-“I tried to stop people dying.”
-
-“Yes.”
-
-“You make that sound stupid.”
-
-“No.”
-
-“Sounds like it.”
-
-“I am separating motive from method.”
-
-I leaned back.
-
-“Fine. Method was bad.”
-
-“Yes.”
-
-“Outcome was good.”
-
-“Yes.”
-
-“Then I'll take the criticism.”
-
-Ithar's eye remained on me.
-
-“What did you learn?”
-
-“That knowing what happens isn't the same as knowing why.”
-
-“Anything else?”
+The dragon waited.
 
 I thought of Nessa asleep six beds away.
 
@@ -740,9 +660,7 @@ Or breathing.
 
 I was still working with limited information.
 
-“Continue,” he said.
-
-So I went back to the ward.
+I closed my eyes and went back to the ward.
 
 Three days later Nessa stole my orange.
 

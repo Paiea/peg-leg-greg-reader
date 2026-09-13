@@ -548,91 +548,23 @@ He left.
 
 I did not follow.
 
-Ithar's voice came softly from the cave.
-
-“You never told him.”
+The cave returned softly around me.
 
 I opened my eyes.
 
-“No.”
+Ithar was quiet for long enough that the silence itself became the question.
 
-“Why?”
+Then he took the floor.
 
-I looked at the dragon.
+“You never told Bren. You had information about him and chose not to use it. That is unusual in an account where foreknowledge has repeatedly become action.
+
+“You loved him in the first history. Brother without shared parents, by your description. In the second history he did not know you. You knew what he liked, where he would go, what made him trust someone. You could have manufactured the conditions under which he might become close to you again.
+
+“You refused. Why?”
 
 For once the answer was simple.
 
 “He didn't owe me the man I remembered.”
-
-Ithar was quiet.
-
-I waited for the correction.
-
-None came.
-
-“That is unusual,” he said eventually.
-
-“What is?”
-
-“You possess information and chose not to use it.”
-
-“I do that sometimes.”
-
-“You have spent most of this account describing the opposite.”
-
-“Fair.”
-
-“You loved him.”
-
-“Yeah.”
-
-“Did he love you?”
-
-“First time.”
-
-“In what manner?”
-
-“Friend.”
-
-Ithar's eye remained on me.
-
-“Humans use that word for a wide range of obligations.”
-
-“He was my brother without making our parents responsible for it.”
-
-“Better.”
-
-I looked down.
-
-“Second time, I was the guy who handed him the right wrench.”
-
-“That troubled you.”
-
-“Yes.”
-
-“Why did you not recreate the relationship?”
-
-The question annoyed me.
-
-Not because it was stupid.
-
-Because I had asked myself the same thing for years.
-
-“I could have tried.”
-
-“Yes.”
-
-“I knew what he liked. Where he'd go. What mattered to him. I could've made myself useful.”
-
-“Yes.”
-
-“That felt wrong.”
-
-“Why?”
-
-“Because then I wouldn't know if he chose me.”
-
-Ithar did not speak.
 
 I rubbed my thumb against the edge of my pin again.
 
@@ -640,23 +572,17 @@ Same habit.
 
 Different badge.
 
-“First life, we became friends because we were idiots on the same bad contract. We annoyed each other honestly.”
+“I could have made myself useful. I could have put myself in the right places. But then I wouldn't know if he chose me.”
 
-“That is valuable?”
+First life, we became friends because we were idiots on the same bad contract.
 
-“Apparently.”
+We annoyed each other honestly.
 
-“You preferred losing him to manufacturing the conditions under which he might care for you again.”
+Apparently that mattered.
 
-“That makes it sound noble.”
+Losing him the second time was not noble.
 
-“Was it?”
-
-“No.”
-
-“What was it?”
-
-“Sad.”
+It was sad.
 
 Ithar considered that.
 
@@ -666,52 +592,30 @@ The movement was tiny.
 
 Coming from him, it felt enormous.
 
-“When did you stop believing you had returned to the same life?” he asked.
+When he spoke again, the question was larger than Bren.
+
+“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it.
+
+“Bren looked at you and did not know you. His ankle was whole. His rank had arrived by another road. The page after the one you remembered no longer existed.
+
+“Was that when you stopped calling it going back? What did you call it instead?”
 
 I looked toward the dark passage.
 
 Not because I wanted to leave this time.
 
-Because the answer was somewhere behind my eyes and needed room.
+Because the answer needed room.
 
-“I think that was it.”
+“I think that was it. Bren. North Vey. Halden. All of it.”
 
-“Bren?”
+The first few years, I had still thought of the old life as the real version.
 
-“Bren. North Vey. Halden. All of it.”
+Like I had gone back into a book I already read and scribbled in the margins.
 
-“You had already observed changes.”
+Then one of the characters looked at me and had no idea who I was.
 
-“I knew events changed.”
+And the page after that wasn't there anymore.
 
-“That is not the same?”
-
-“No.”
-
-I thought about how to explain it.
-
-“The first few years, I still thought of the old life as the real version. Like I'd gone back into a book I already read and scribbled in the margins.”
-
-“And then?”
-
-“Then one of the characters looked at me and had no idea who I was.”
-
-I smiled without wanting to.
-
-“And the page after that wasn't there anymore.”
-
-Ithar was silent for a long time.
-
-Not confused.
-
-Listening.
-
-I could tell the difference by then.
-
-“That was when I stopped calling it going back,” I said.
-
-“What did you call it?”
-
-I looked at him.
+I looked at Ithar.
 
 “My life.”
