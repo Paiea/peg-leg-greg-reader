@@ -1,0 +1,31 @@
+{
+  "record": "002",
+  "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
+  "plan": "3l/audio/record-002-short-dual-plan.json",
+  "captures": [
+    {
+      "chunk": 1,
+      "voice": "deep",
+      "transcript": "The dragon did not move.\n\nNeither did I.\n\nThat seemed fair for the first few seconds.\n\nThen it became his choice.\n\nI had just told a creature older than my kingdom that the future he remembered me not being part of had happened with me in it once already.\n\nThere were several reasonable responses to that.\n\nDisbelief.\n\nQuestions.\n\nEating me.\n\nI had prepared for two of those.\n\nIthar stared.\n\nI shifted my weight off the bad leg.\n\nThe movement was small.\n\nHis eye followed it anyway.",
+      "context_id": "4d63b6a2e3ef4d2e8fb107369f54b86e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/598eb1bd-5529-4700-80ef-92d76419dd7f.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 2,
+      "voice": "deep",
+      "transcript": "Eventually he said, “Not this time.”\n\n“Yes.”\n\n“You chose those words.”\n\n“I did.”\n\n“Why?”\n\n“Because they were short.”\n\nHis nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\n“Say what you mean without protecting it with brevity.”\n\nI looked at him.\n\n“That sounds expensive.”\n\n“I have not charged you.”\n\n“Yet.”\n\n“Greg.”\n\nThat was the first time my name sounded different in his mouth.\n\nNot important.\n\nNot friendly.\n\nPlaced.",
+      "context_id": "1f37481fe83c4a4d8684a41d14a67a26",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/6f710458-2e03-46f1-851b-e64770e61766.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 2,
+      "voice": "normal",
+      "transcript": "Eventually he said, “Not this time.”\n\n“Yes.”\n\n“You chose those words.”\n\n“I did.”\n\n“Why?”\n\n“Because they were short.”\n\nHis nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\n“Say what you mean without protecting it with brevity.”\n\nI looked at him.\n\n“That sounds expensive.”\n\n“I have not charged you.”\n\n“Yet.”\n\n“Greg.”\n\nThat was the first time my name sounded different in his mouth.\n\nNot important.\n\nNot friendly.\n\nPlaced.",
+      "context_id": "fbda4e39e5ba44679fe77808e55e1c05",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/17ddb931-7df4-44d9-90cd-c5fcbaee1cb6.mp3",
+      "status": "ready"
+    }
+  ]
+}
