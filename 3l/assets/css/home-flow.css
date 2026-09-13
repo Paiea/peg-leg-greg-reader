@@ -1,0 +1,225 @@
+.hero {
+  background-image: none;
+  background-color: #090b0a;
+}
+
+.hero-dragon-stage {
+  position: absolute;
+  inset: 0 0 0 auto;
+  z-index: 0;
+  width: 66%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #090b0a;
+}
+
+.hero-dragon-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero-scrim {
+  z-index: 0;
+  background:
+    linear-gradient(90deg, rgba(5,6,5,.96) 0%, rgba(5,6,5,.9) 32%, rgba(5,6,5,.58) 46%, rgba(5,6,5,.12) 62%, rgba(5,6,5,.02) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.02), rgba(0,0,0,.04) 62%, rgba(0,0,0,.28) 100%);
+}
+
+.hero-copy {
+  width: min(600px, 48%);
+}
+
+.entry-panel,
+.listening-feature,
+.written-reference,
+.lineage-strip {
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
+}
+
+.hero-actions .medium-note {
+  flex-basis: 100%;
+}
+
+.entry-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(240px, .55fr);
+  gap: 3rem;
+  align-items: end;
+  padding: 3rem 0;
+}
+
+.entry-panel h2,
+.listening-feature h2,
+.written-reference h2,
+.lineage-strip h2 {
+  margin: .35rem 0 0;
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.entry-panel h2 {
+  max-width: 18ch;
+  font-size: clamp(2.1rem, 4vw, 3.7rem);
+}
+
+.entry-panel p:not(.eyebrow) {
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.entry-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .35rem;
+}
+
+.listening-feature {
+  padding: 3rem 0;
+}
+
+.listening-feature-copy {
+  max-width: 760px;
+}
+
+.listening-feature h2,
+.written-reference h2,
+.lineage-strip h2 {
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+}
+
+.listening-feature-copy p:not(.eyebrow),
+.written-reference p:not(.eyebrow),
+.lineage-strip p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.listening-feature .button {
+  width: fit-content;
+  margin-top: .8rem;
+}
+
+.current-record {
+  margin-top: 0;
+}
+
+.written-reference,
+.lineage-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.written-reference > div,
+.lineage-strip > div:first-child {
+  max-width: 760px;
+}
+
+.written-reference-link {
+  white-space: nowrap;
+}
+
+.lineage-strip {
+  margin-top: 0;
+  border-top: 1px solid var(--line);
+}
+
+.lineage-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (max-width: 900px) {
+  .hero-dragon-stage {
+    width: 72%;
+  }
+
+  .hero-copy {
+    width: 54%;
+  }
+
+  .entry-panel,
+  .written-reference,
+  .lineage-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .entry-panel {
+    gap: 1.2rem;
+  }
+
+  .lineage-links {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    background: #090b0a;
+  }
+
+  .hero-dragon-stage {
+    position: relative;
+    inset: auto;
+    order: 0;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .hero-dragon-art {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .hero-scrim {
+    display: none;
+  }
+
+  .hero-copy {
+    order: 1;
+    width: 100%;
+    padding: 2.4rem 1.25rem 1.7rem;
+  }
+
+  .examiner-line {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    order: 2;
+    width: auto;
+    margin: 0 1.25rem 2rem;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .entry-panel,
+  .listening-feature,
+  .written-reference,
+  .lineage-strip {
+    padding: 2.2rem 0;
+  }
+}

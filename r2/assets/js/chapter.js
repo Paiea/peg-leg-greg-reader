@@ -14,6 +14,16 @@
     return response.json();
   }
 
+  async function loadChapterArt() {
+    try {
+      const response = await fetch('data/chapter-art.json', { cache: 'no-store' });
+      if (!response.ok) return {};
+      return response.json();
+    } catch {
+      return {};
+    }
+  }
+
   function setText(id, value) {
     const node = document.getElementById(id);
     if (node) node.textContent = value || '';
@@ -41,7 +51,15 @@
     const normalized = markdown.replace(/\r\n/g, '\n');
     const marker = '\n---\n';
     const index = normalized.indexOf(marker);
-    return (index >= 0 ? normalized.slice(index + marker.length) : normalized).trim();
+    if (index >= 0) return normalized.slice(index + marker.length).trim();
+
+    const candidatePreludePattern =
+      /^# Candidate Chapter \d+:[^\n]*\n\nStatus:[^\n]*\n\n/;
+    if (candidatePreludePattern.test(normalized)) {
+      return normalized.replace(candidatePreludePattern, '').trim();
+    }
+
+    return normalized.trim();
   }
 
   function appendParagraphs(target, text) {
@@ -76,6 +94,13 @@
     }
   }
 
+  function openWrittenFromHash() {
+    if (location.hash === '#read') {
+      const details = document.getElementById('read');
+      if (details) details.open = true;
+    }
+  }
+
   function makeFigure(image, chapter, className = '') {
     const figure = document.createElement('figure');
     figure.className = `chapter-figure ${className}`.trim();
@@ -92,8 +117,13 @@
     return figure;
   }
 
-  function renderImages(chapter) {
-    const images = chapter.images || [];
+  function imagesForChapter(chapter, chapterArt) {
+    if (Array.isArray(chapter.images) && chapter.images.length) return chapter.images;
+    return chapterArt[chapter.chapter_id] || [];
+  }
+
+  function renderImages(chapter, chapterArt) {
+    const images = imagesForChapter(chapter, chapterArt);
     const anchorSlot = document.getElementById('anchor-image-slot');
     const section = document.getElementById('chapter-art-section');
     const supportGrid = document.getElementById('support-art-grid');
@@ -124,15 +154,19 @@
 
   async function boot() {
     try {
-      const chapter = await loadChapter(chapterId);
+      const [chapter, chapterArt] = await Promise.all([
+        loadChapter(chapterId),
+        loadChapterArt(),
+      ]);
       document.title = `Chapter ${chapter.display_number}: ${chapter.title} — R2`;
       setText('chapter-kicker', `R2 · Chapter ${chapter.display_number}`);
       setText('chapter-title', chapter.title);
       setText('chapter-teaser', chapter.teaser);
       renderAudio(chapter);
       await renderWritten(chapter);
-      renderImages(chapter);
+      renderImages(chapter, chapterArt);
       renderNavigation(chapter);
+      openWrittenFromHash();
     } catch (error) {
       setText('chapter-title', 'Chapter unavailable');
       setText('chapter-teaser', 'This chapter could not be loaded right now.');
@@ -142,5 +176,6 @@
     }
   }
 
+  window.addEventListener('hashchange', openWrittenFromHash);
   boot();
 })();

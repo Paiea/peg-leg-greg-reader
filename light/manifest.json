@@ -1,6 +1,6 @@
 {
-  "latest": 500,
-  "latest_showcase": 389,
+  "latest": 503,
+  "latest_showcase": 392,
   "chapters": [
     {
       "number": 100,
@@ -2171,6 +2171,27 @@
       "title": "THE RESIDENT",
       "source": "checkpoint",
       "path": "500.html"
+    },
+    {
+      "number": 501,
+      "showcase_number": 390,
+      "title": "THE WALKER",
+      "source": "checkpoint",
+      "path": "501.html"
+    },
+    {
+      "number": 502,
+      "showcase_number": 391,
+      "title": "THE RETURNER",
+      "source": "checkpoint",
+      "path": "502.html"
+    },
+    {
+      "number": 503,
+      "showcase_number": 392,
+      "title": "THE AMATEUR",
+      "source": "checkpoint",
+      "path": "503.html"
     }
   ]
 }

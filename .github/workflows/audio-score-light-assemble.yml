@@ -1,0 +1,244 @@
+name: Audio Score Light capture and assemble
+
+on:
+  push:
+    branches:
+      - 'audio/light-greg-again-ch*-auto'
+    paths:
+      - 'greg-again/audio/light/takes/*/short-takes.json'
+      - 'greg-again/audio/light/production/*/ASSEMBLE_REQUEST'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Resolve chapter and readiness
+        id: state
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='${{ github.ref_name }}'
+          chapter="${branch#audio/light-greg-again-ch}"
+          chapter="${chapter%-auto}"
+          echo "chapter=$chapter" >> "$GITHUB_OUTPUT"
+          status=$(python3 - <<PY
+          import json
+          d=json.load(open('greg-again/audio/light/takes/${chapter}/short-takes.json'))
+          print(d.get('status',''))
+          PY
+          )
+          if [ "$status" = capture_ready ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+            echo "short-take map status is $status; nothing to assemble"
+          fi
+
+      - name: Install ffmpeg tooling
+        if: steps.state.outputs.run == 'true'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Reconcile newest main before shared writes
+        if: steps.state.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git merge --no-edit -X theirs origin/main
+
+      - name: Validate exact Light capture map
+        if: steps.state.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          python3 scripts/audio_score_light_validate.py "$chapter"
+          python3 - <<PY
+          import json, re, subprocess
+          from pathlib import Path
+          chapter='${{ steps.state.outputs.chapter }}'
+          p=Path(f'greg-again/audio/light/takes/{chapter}/short-takes.json')
+          d=json.loads(p.read_text())
+          assert d['chapter']==int(chapter)
+          assert d['chapter_id']==f'ga-{chapter}'
+          assert d['generation']=='light'
+          assert d['voice']=='deep'
+          assert d['status']=='capture_ready'
+          assert d['take_count']==len(d['takes'])
+          assert [t['order'] for t in d['takes']]==list(range(1,d['take_count']+1))
+          assert all(t['transcript']==t['preview_transcript'] for t in d['takes'])
+          assert all(0 < len(t['transcript']) <= 500 for t in d['takes'])
+          assert all(t.get('context_id') for t in d['takes'])
+          assert all(t.get('preview_url','').startswith('https://storage.googleapis.com/') for t in d['takes'])
+          source=Path(d['source'])
+          sha=subprocess.check_output(['git','hash-object',str(source)], text=True).strip()
+          assert sha==d['source_blob_sha'], (sha,d['source_blob_sha'])
+          body=source.read_text().split('\n---\n',1)[1].strip()
+          assert ''.join(t['source_transcript'] for t in d['takes'])==body, 'exact Light source coverage mismatch'
+          def provider_text(s):
+              s=re.sub(r'\bMana\b','Ma-na',s)
+              s=re.sub(r'\bmana\b','ma-na',s)
+              s=re.sub(r'\bVale\b','Vayle',s)
+              s=re.sub(r'\bSparring\b','Spar-ring',s)
+              s=re.sub(r'\bsparring\b','spar-ring',s)
+              return s
+          assert all(t['transcript']==provider_text(t['source_transcript']) for t in d['takes'])
+          PY
+
+      - name: Download and ffprobe every Light take
+        if: steps.state.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          out="greg-again/audio/assets/light/chunks/${chapter}-short"
+          rm -rf "$out"
+          mkdir -p "$out" greg-again/audio/assets/light
+          python3 - <<PY > /tmp/urls.tsv
+          import json
+          d=json.load(open('greg-again/audio/light/takes/${chapter}/short-takes.json'))
+          for t in d['takes']:
+              print(f"{t['order']:02d}\t{t['preview_url']}")
+          PY
+          while IFS=$'\t' read -r n url; do
+            f="$out/$n.mp3"
+            curl -fL --retry 4 --retry-all-errors --retry-delay 2 "$url" -o "$f"
+            test "$(stat -c%s "$f")" -gt 1000
+            ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of default=nw=1 "$f" >/dev/null
+          done < /tmp/urls.tsv
+
+      - name: Stitch, tail, hash, and verify
+        if: steps.state.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          out="greg-again/audio/assets/light/chunks/${chapter}-short"
+          final="greg-again/audio/assets/light/chapter-${chapter}.mp3"
+          : > /tmp/concat.txt
+          python3 - <<PY > /tmp/orders.txt
+          import json
+          d=json.load(open('greg-again/audio/light/takes/${chapter}/short-takes.json'))
+          for t in d['takes']: print(f"{t['order']:02d}")
+          PY
+          while read -r n; do printf "file '%s'\n" "$GITHUB_WORKSPACE/$out/$n.mp3" >> /tmp/concat.txt; done < /tmp/orders.txt
+          ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -c:a libmp3lame -q:a 2 /tmp/assembled.mp3
+          ffmpeg -y -v error -i /tmp/assembled.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 "$final"
+          test "$(stat -c%s "$final")" -gt 100000
+          ffprobe -v error "$final"
+
+          python3 - <<'PY'
+          import hashlib, json, subprocess
+          from pathlib import Path
+          chapter='${{ steps.state.outputs.chapter }}'
+          p=Path(f'greg-again/audio/light/takes/{chapter}/short-takes.json')
+          d=json.loads(p.read_text())
+          component=0.0
+          for t in d['takes']:
+              f=Path(f"greg-again/audio/assets/light/chunks/{chapter}-short/{t['order']:02d}.mp3")
+              duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(f)], text=True).strip())
+              t['durable_file']=str(f)
+              t['byte_size']=f.stat().st_size
+              t['audio_sha256']=hashlib.sha256(f.read_bytes()).hexdigest()
+              t['duration_seconds']=round(duration,3)
+              component += duration
+          final=Path(f'greg-again/audio/assets/light/chapter-{chapter}.mp3')
+          fd=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(final)], text=True).strip())
+          d['status']='durable_takes_verified_and_assembled'
+          d['component_duration_seconds']=round(component,3)
+          d['final_asset']=str(final)
+          d['final_byte_size']=final.stat().st_size
+          d['final_audio_sha256']=hashlib.sha256(final.read_bytes()).hexdigest()
+          d['final_duration_seconds']=round(fd,3)
+          d['settling_tail_seconds']=2.0
+          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+          v=Path(f'greg-again/audio/light/verification/{chapter}/assembly.md')
+          v.parent.mkdir(parents=True,exist_ok=True)
+          v.write_text('\n'.join([
+              f'# Audio Score Light Chapter {chapter} assembly verification','',
+              f"- Chapter: `{chapter}` / `{d['title']}`",
+              f"- Source: `{d['source']}`",
+              f"- Source blob SHA: `{d['source_blob_sha']}`",
+              '- Voice: `deep`',
+              '- Capture factory: preview-safe short takes',
+              f"- Take count: `{d['take_count']}`",
+              '- Every take returned a durable Google Storage preview URL and passed ffprobe.',
+              '- Exact Light source coverage and take order were verified before assembly.',
+              f"- Final asset: `{d['final_asset']}`",
+              f"- Final duration: `{d['final_duration_seconds']}` seconds",
+              '- Settling tail added: approximately `2.0` seconds',
+              f"- Final SHA-256: `{d['final_audio_sha256']}`",
+              '- Subjective human listen-back remains separate from mechanical verification.',''
+          ]))
+          PY
+          sha256sum "$out"/*.mp3 "$final" > "$out/SHA256SUMS"
+
+      - name: Reconcile Light and public manifests
+        if: steps.state.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          python3 - <<PY
+          import json
+          from pathlib import Path
+          chapter='${{ steps.state.outputs.chapter }}'
+          d=json.loads(Path(f'greg-again/audio/light/takes/{chapter}/short-takes.json').read_text())
+          duration=d['final_duration_seconds']
+          lp=Path('greg-again/audio/light/manifest.json')
+          light=json.loads(lp.read_text())
+          entry={
+              'chapter_id': d['chapter_id'], 'number': d['chapter'], 'title': d['title'],
+              'status':'verified_unlistened', 'source':d['source'], 'source_blob_sha':d['source_blob_sha'],
+              'voice':'deep', 'take_count':d['take_count'], 'capture_mode':'preview-safe-short-takes',
+              'duration_seconds':duration, 'audio_src':f'assets/light/chapter-{chapter}.mp3',
+              'verification':f'greg-again/audio/light/verification/{chapter}/'
+          }
+          chapters=light.setdefault('chapters',[])
+          chapters[:]=[c for c in chapters if c.get('chapter_id')!=d['chapter_id'] and c.get('number')!=d['chapter']]
+          chapters.append(entry)
+          chapters.sort(key=lambda c:c.get('number',10**9))
+          lp.write_text(json.dumps(light,indent=2)+'\n')
+
+          pp=Path('greg-again/audio/manifest.json')
+          pub=json.loads(pp.read_text())
+          matches=[c for c in pub.get('chapters',[]) if c.get('chapter_id')==d['chapter_id'] or c.get('number')==d['chapter']]
+          if len(matches)!=1: raise SystemExit(f'expected one public entry, found {len(matches)}')
+          c=matches[0]
+          c['audio_src']=f'assets/light/chapter-{chapter}.mp3'
+          c['take_count']=d['take_count']
+          c['duration_seconds']=duration
+          c['audio_finish']='audio-score-light'
+          c['note']=(f"Audio Score Light Chapter {d['chapter']} assembled from {d['take_count']} preview-safe deep-voice takes. "
+                     'The Light source preserves the written prose with only sparse speech-generation intervention; '
+                     'durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.')
+          pp.write_text(json.dumps(pub,indent=2)+'\n')
+          PY
+          python -m json.tool greg-again/audio/light/manifest.json >/dev/null
+          python -m json.tool greg-again/audio/manifest.json >/dev/null
+
+      - name: Commit verified Light chapter
+        if: steps.state.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add "greg-again/audio/assets/light/chunks/${chapter}-short" \
+                  "greg-again/audio/assets/light/chapter-${chapter}.mp3" \
+                  "greg-again/audio/light/takes/${chapter}/short-takes.json" \
+                  "greg-again/audio/light/verification/${chapter}/assembly.md" \
+                  greg-again/audio/light/manifest.json greg-again/audio/manifest.json
+          git commit -m "Assemble and reconcile Audio Score Light Chapter ${chapter}"
+          git push origin HEAD:"${{ github.ref_name }}"

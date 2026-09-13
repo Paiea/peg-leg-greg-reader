@@ -14,22 +14,46 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("chapter_id and number are stable identity", manifest["identity_policy"])
         chapters = manifest["chapters"]
         by_id = {chapter["chapter_id"]: chapter for chapter in chapters}
-        for number in range(1, 15):
+        audio_score_light_numbers = set(range(1, 17))
+        for number in range(1, 17):
             chapter_id = f"ga-{number:03d}"
             self.assertIn(chapter_id, by_id)
             self.assertEqual(number, by_id[chapter_id]["number"])
-            self.assertEqual(f"assets/chapter-{number:03d}.mp3", by_id[chapter_id]["audio_src"])
+            asset_root = "assets/light" if number in audio_score_light_numbers else "assets"
+            self.assertEqual(
+                f"{asset_root}/chapter-{number:03d}.mp3",
+                by_id[chapter_id]["audio_src"],
+            )
         self.assertEqual("greg-dominant", by_id["ga-002"]["lens"])
         self.assertEqual("greg-dominant", by_id["ga-003"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-004"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-005"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-006"]["lens"])
         self.assertEqual("shared-greg-surface", by_id["ga-007"]["lens"])
-        self.assertEqual("processing-space", by_id["ga-005"]["audio_finish"])
-        self.assertEqual("processing-space", by_id["ga-006"]["audio_finish"])
-        self.assertEqual("processing-space", by_id["ga-007"]["audio_finish"])
-        self.assertEqual(14, by_id["ga-007"]["take_count"])
-        self.assertEqual(818.136, by_id["ga-007"]["duration_seconds"])
+        for number in range(1, 17):
+            self.assertEqual("audio-score-light", by_id[f"ga-{number:03d}"]["audio_finish"])
+        self.assertEqual(31, by_id["ga-007"]["take_count"])
+        self.assertEqual(821.16, by_id["ga-007"]["duration_seconds"])
+        self.assertEqual(27, by_id["ga-008"]["take_count"])
+        self.assertEqual(705.984, by_id["ga-008"]["duration_seconds"])
+
+    def test_audio_score_light_public_routes_are_durable_and_nontrivial(self):
+        manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
+        by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
+        for number in range(1, 17):
+            chapter_id = f"ga-{number:03d}"
+            expected_src = f"assets/light/chapter-{number:03d}.mp3"
+            self.assertEqual(expected_src, by_id[chapter_id]["audio_src"])
+            audio = AUDIO_ROOT / expected_src
+            self.assertTrue(audio.exists())
+            self.assertGreater(audio.stat().st_size, 1_000_000)
+
+    def test_audio_score_v2_assets_remain_durable_and_nontrivial(self):
+        manifest = json.loads((AUDIO_ROOT / "v2" / "manifest.json").read_text(encoding="utf-8"))
+        for chapter in manifest.get("chapters", []):
+            audio = AUDIO_ROOT / chapter["audio_src"]
+            self.assertTrue(audio.exists())
+            self.assertGreater(audio.stat().st_size, 1_000_000)
 
     def test_chapters_two_through_seven_audio_are_durable_and_nontrivial(self):
         for number in (2, 3, 4, 5, 6, 7):
@@ -108,13 +132,13 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("ga-010", by_id)
         self.assertEqual(10, by_id["ga-010"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-010"]["lens"])
-        self.assertEqual("processing-space", by_id["ga-010"]["audio_finish"])
-        self.assertEqual(12, by_id["ga-010"]["take_count"])
-        self.assertEqual(710.544, by_id["ga-010"]["duration_seconds"])
-        self.assertEqual("assets/chapter-010.mp3", by_id["ga-010"]["audio_src"])
-        audio = AUDIO_ROOT / "assets" / "chapter-010.mp3"
+        self.assertEqual("audio-score-light", by_id["ga-010"]["audio_finish"])
+        self.assertEqual(28, by_id["ga-010"]["take_count"])
+        self.assertEqual(714.624, by_id["ga-010"]["duration_seconds"])
+        self.assertEqual("assets/light/chapter-010.mp3", by_id["ga-010"]["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "light" / "chapter-010.mp3"
         self.assertTrue(audio.exists())
-        self.assertGreater(audio.stat().st_size, 10_000_000)
+        self.assertGreater(audio.stat().st_size, 1_000_000)
         script = (AUDIO_ROOT / "scripts" / "010-the-returner.md").read_text(encoding="utf-8")
         self.assertIn("DO NOT OPTIMIZE AWAY PROCESSING TIME", script)
         self.assertIn("PROCESSING SPACE", script)
@@ -138,9 +162,9 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("ga-011", by_id)
         self.assertEqual(11, by_id["ga-011"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-011"]["lens"])
-        self.assertEqual("processing-space", by_id["ga-011"]["audio_finish"])
-        self.assertEqual("assets/chapter-011.mp3", by_id["ga-011"]["audio_src"])
-        audio = AUDIO_ROOT / "assets" / "chapter-011.mp3"
+        self.assertEqual("audio-score-light", by_id["ga-011"]["audio_finish"])
+        self.assertEqual("assets/light/chapter-011.mp3", by_id["ga-011"]["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "light" / "chapter-011.mp3"
         self.assertTrue(audio.exists())
         self.assertGreater(audio.stat().st_size, 1_000_000)
         script = (AUDIO_ROOT / "scripts" / "011-the-gate-hand.md").read_text(encoding="utf-8")
@@ -161,13 +185,16 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertIn("ga-013", by_id)
         self.assertEqual(13, by_id["ga-013"]["number"])
         self.assertEqual("shared-greg-surface", by_id["ga-013"]["lens"])
-        self.assertEqual("processing-space", by_id["ga-013"]["audio_finish"])
-        self.assertEqual(13, by_id["ga-013"]["take_count"])
-        self.assertEqual(621.456, by_id["ga-013"]["duration_seconds"])
-        self.assertEqual("assets/chapter-013.mp3", by_id["ga-013"]["audio_src"])
-        audio = AUDIO_ROOT / "assets" / "chapter-013.mp3"
+        self.assertEqual("audio-score-light", by_id["ga-013"]["audio_finish"])
+        self.assertEqual(25, by_id["ga-013"]["take_count"])
+        self.assertEqual(656.184, by_id["ga-013"]["duration_seconds"])
+        self.assertEqual("assets/light/chapter-013.mp3", by_id["ga-013"]["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "light" / "chapter-013.mp3"
         self.assertTrue(audio.exists())
-        self.assertGreater(audio.stat().st_size, 9_000_000)
+        self.assertGreater(audio.stat().st_size, 1_000_000)
+        legacy_audio = AUDIO_ROOT / "assets" / "chapter-013.mp3"
+        self.assertTrue(legacy_audio.exists())
+        self.assertGreater(legacy_audio.stat().st_size, 9_000_000)
         script = (AUDIO_ROOT / "scripts" / "013-the-fighter.md").read_text(encoding="utf-8")
         self.assertIn("THE RIGHT TOOL IS NOT THE RIGHT ANSWER", script)
         self.assertIn("production takes: 13", script)
@@ -183,18 +210,19 @@ class GregAgainAudioCatalogTest(unittest.TestCase):
         self.assertEqual("published", chapter["audio"]["status"])
         self.assertEqual("../greg-again/audio/assets/chapter-013.mp3", chapter["audio"]["path"])
 
-    def test_chapter_nineteen_recovered_audio_is_durable(self):
+    def test_chapter_nineteen_audio_score_light_is_durable(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))
         by_id = {chapter["chapter_id"]: chapter for chapter in manifest["chapters"]}
         self.assertIn("ga-019", by_id)
         chapter = by_id["ga-019"]
         self.assertEqual(19, chapter["number"])
-        self.assertEqual(36, chapter["take_count"])
-        self.assertEqual(868.68, chapter["duration_seconds"])
-        self.assertEqual("assets/chapter-019.mp3", chapter["audio_src"])
-        audio = AUDIO_ROOT / "assets" / "chapter-019.mp3"
+        self.assertEqual("audio-score-light", chapter["audio_finish"])
+        self.assertEqual(33, chapter["take_count"])
+        self.assertEqual(871.272, chapter["duration_seconds"])
+        self.assertEqual("assets/light/chapter-019.mp3", chapter["audio_src"])
+        audio = AUDIO_ROOT / "assets" / "light" / "chapter-019.mp3"
         self.assertTrue(audio.exists())
-        self.assertGreater(audio.stat().st_size, 10_000_000)
+        self.assertGreater(audio.stat().st_size, 1_000_000)
 
     def test_chapter_twenty_one_preserves_contact_and_publishes_audio(self):
         manifest = json.loads((AUDIO_ROOT / "manifest.json").read_text(encoding="utf-8"))

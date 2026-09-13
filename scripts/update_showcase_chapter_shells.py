@@ -9,6 +9,18 @@ from showcase import ShowcaseMap, build_showcase_map, load_showcase_manifest
 
 CHAPTERS_DIR = Path('chapters')
 SHOWCASE_MANIFEST = Path('publishing/showcase_chapters.json')
+TERMINAL_CANON = 503
+TERMINAL_CARD_MARKER = 'plg-terminal-end-card'
+TERMINAL_STYLESHEET = '<link href="../assets/plg-terminal.css" rel="stylesheet"/>'
+TERMINAL_CARD = '''
+<section class="plg-terminal-end-card" aria-labelledby="plg-terminal-title">
+  <p class="plg-terminal-kicker">THE END</p>
+  <h2 id="plg-terminal-title">Original Peg-Leg Greg ends at <em>THE AMATEUR</em>.</h2>
+  <p>Greg’s life keeps going. The book does not.</p>
+  <p class="plg-terminal-r2-copy">Want to meet Greg again? R2 is a separate second run, rebuilt from the beginning and made audio-first.</p>
+  <a class="plg-terminal-r2-link" href="../r2/">START R2 →</a>
+</section>
+'''
 
 
 def _nav_html(canon: int, showcase: ShowcaseMap, *, top: bool) -> str:
@@ -31,6 +43,23 @@ def _nav_html(canon: int, showcase: ShowcaseMap, *, top: bool) -> str:
         f'<nav class="{classes}" aria-label="Chapter navigation">'
         f'{prev_html}<a href="../index.html#books">Chapters</a>{next_html}</nav>'
     )
+
+
+def _inject_terminal_card(text: str, canon: int) -> str:
+    if canon != TERMINAL_CANON:
+        return text
+    updated = text
+    if 'plg-terminal.css' not in updated:
+        if '</head>' not in updated:
+            raise ValueError(f'Chapter {canon}: closing head not found for terminal stylesheet')
+        updated = updated.replace('</head>', TERMINAL_STYLESHEET + '</head>', 1)
+    if TERMINAL_CARD_MARKER in updated:
+        return updated
+    close_article = updated.find('</article>')
+    if close_article < 0:
+        raise ValueError(f'Chapter {canon}: closing article not found for terminal card')
+    insert_at = close_article + len('</article>')
+    return updated[:insert_at] + TERMINAL_CARD + updated[insert_at:]
 
 
 def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
@@ -97,7 +126,7 @@ def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
         bottom_nav = _nav_html(canon, showcase, top=False)
         updated = updated[:close_main] + bottom_nav + updated[close_main:]
 
-    return updated
+    return _inject_terminal_card(updated, canon)
 
 
 def main() -> int:

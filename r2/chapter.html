@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chapter — Peg-Leg Greg R2</title>
-  <meta name="description" content="Listen to and read Peg-Leg Greg R2.">
+  <meta name="description" content="Listen to Peg-Leg Greg R2, with the written rendition available when you want it.">
   <link rel="stylesheet" href="assets/css/r2.css">
+  <link rel="stylesheet" href="assets/css/r2-listen-first-shared.css">
 </head>
 <body data-page="chapter">
   <a class="skip-link" href="#chapter-main">Skip to chapter</a>
@@ -15,9 +16,9 @@
       <span>PEG-LEG GREG</span><small>R2</small>
     </a>
     <nav aria-label="Reader">
-      <a href="chapters/">Chapters</a>
-      <a href="../greg-again/audio/">Audio</a>
-      <a href="gallery/">Gallery</a>
+      <a href="../greg-again/audio/">Listen</a>
+      <a href="chapters/">Written</a>
+      <a href="gallery/">Art</a>
       <a href="about/">About</a>
       <a href="../index.html">Run 1</a>
     </nav>
@@ -32,17 +33,21 @@
 
     <section id="listen" class="audio-panel" aria-labelledby="listen-title">
       <div class="panel-heading">
-        <p class="eyebrow">Listen</p>
-        <h2 id="listen-title">Audio</h2>
+        <p class="eyebrow">Listen first</p>
+        <h2 id="listen-title">Audio rendition</h2>
       </div>
       <div id="audio-slot"><p class="loading-note">Loading audio…</p></div>
     </section>
 
     <div id="anchor-image-slot" class="chapter-art chapter-art-anchor"></div>
 
-    <section id="read" class="written-panel">
+    <details id="read" class="written-panel written-disclosure">
+      <summary>
+        <span>Read written rendition</span>
+        <small>For checking lines, names, details, or reading the whole thing.</small>
+      </summary>
       <article id="written-slot" class="reading-copy"><p class="loading-note">Loading written rendition…</p></article>
-    </section>
+    </details>
 
     <section id="chapter-art-section" class="chapter-art-section" aria-labelledby="art-heading" hidden>
       <div class="panel-heading">
@@ -54,14 +59,14 @@
 
     <nav class="chapter-nav" aria-label="Chapter navigation">
       <a id="prev-chapter" class="chapter-nav-link" href="chapters/" hidden>← Previous</a>
-      <a class="chapter-nav-link chapter-nav-home" href="chapters/">All chapters</a>
+      <a class="chapter-nav-link chapter-nav-home" href="chapters/">All written chapters</a>
       <a id="next-chapter" class="chapter-nav-link" href="chapters/" hidden>Next →</a>
     </nav>
   </main>
 
   <footer class="site-footer">
     <p>Peg-Leg Greg · R2</p>
-    <a href="../index.html">Run 1</a>
+    <a href="../greg-again/audio/">Audio Library</a>
   </footer>
 
   <script src="assets/js/chapter.js" defer></script>
