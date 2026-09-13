@@ -67,10 +67,8 @@ def ensure_stylesheet(text: str) -> str:
 
 
 def ensure_project_routes(text: str) -> str:
-    if THIRD_LEG_HOME_LINK in text:
+    if THIRD_LEG_HOME_LINK in text or R2_HOME_LINK not in text:
         return text
-    if R2_HOME_LINK not in text:
-        raise ValueError('R2 home link not found in index.html')
     return text.replace(R2_HOME_LINK, R2_HOME_LINK + THIRD_LEG_HOME_LINK, 1)
 
 
