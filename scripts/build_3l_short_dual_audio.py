@@ -101,6 +101,49 @@ def validate_verified_capture_receipt(
     return indexed
 
 
+def collapse_role_spans(
+    transcript: str, semantic_spans: list[dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """Collapse detailed annotations to the actual Greg/Dragon transition regions.
+
+    The short-take planner may annotate many adjacent pieces owned by the same role.
+    Audio only needs a cut where ownership changes. Whitespace between annotations is
+    assigned to the preceding role so the collapsed spans cover the full transcript.
+    """
+    if not transcript:
+        return []
+    if not semantic_spans:
+        raise ValueError("chunk has no semantic spans")
+
+    ordered = sorted(semantic_spans, key=lambda span: (int(span["start"]), int(span["end"])))
+    first_role = str(ordered[0]["role"])
+    if first_role not in ROLE_TO_VOICE:
+        raise ValueError(f"unknown semantic role {first_role}")
+
+    collapsed: list[dict[str, Any]] = []
+    current_role = first_role
+    region_start = 0
+    last_start = -1
+
+    for span in ordered[1:]:
+        start = int(span["start"])
+        role = str(span["role"])
+        if start < last_start:
+            raise ValueError("semantic spans are not ordered")
+        if role not in ROLE_TO_VOICE:
+            raise ValueError(f"unknown semantic role {role}")
+        if role != current_role:
+            if start <= region_start or start > len(transcript):
+                raise ValueError("invalid semantic role transition offset")
+            collapsed.append({"start": region_start, "end": start, "role": current_role})
+            region_start = start
+            current_role = role
+        last_start = start
+
+    collapsed.append({"start": region_start, "end": len(transcript), "role": current_role})
+    return collapsed
+
+
 def choose_role_segments(
     semantic_spans: list[dict[str, Any]],
     timed_by_voice: dict[str, list[dict[str, Any]]],
