@@ -59,7 +59,7 @@ jobs:
 
       - name: Assemble candidate
         run: |
-          python scripts/build_3l_fancy_take_candidate.py --fancy-dir /tmp/fancy-takes
+          PYTHONPATH=. python scripts/build_3l_fancy_take_candidate.py --fancy-dir /tmp/fancy-takes
 
       - name: Verify candidate
         shell: bash
