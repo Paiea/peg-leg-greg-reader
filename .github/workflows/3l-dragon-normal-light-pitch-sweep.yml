@@ -1,0 +1,64 @@
+name: 3L Dragon Normal light pitch sweep
+
+on:
+  push:
+    branches: [3l/dragon-alt-voice-audition]
+    paths:
+      - '.github/workflows/3l-dragon-normal-light-pitch-sweep.yml'
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg rubberband-cli
+      - name: Download exact Normal preview source
+        run: |
+          mkdir -p /tmp/dragon-light out
+          curl -L --fail --retry 3 \
+            'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d3ef6252-bcd7-4ca9-b257-c7a1b4af88d0.mp3' \
+            -o /tmp/dragon-light/source.mp3
+          ffprobe -v error /tmp/dragon-light/source.mp3
+      - name: Render light pitch sweep
+        shell: bash
+        run: |
+          set -euo pipefail
+          render () {
+            name="$1"
+            ratio="$2"
+            if [ "$ratio" = "1.0" ]; then
+              ffmpeg -loglevel error -y -i /tmp/dragon-light/source.mp3 \
+                -af "aresample=24000,aformat=sample_fmts=s16:channel_layouts=mono,apad=pad_dur=5" \
+                -t 5 -c:a libmp3lame -b:a 192k "out/${name}.mp3"
+            else
+              ffmpeg -loglevel error -y -i /tmp/dragon-light/source.mp3 \
+                -af "rubberband=pitch=${ratio}:tempo=1:formant=preserved:pitchq=quality,aresample=24000,aformat=sample_fmts=s16:channel_layouts=mono,apad=pad_dur=5" \
+                -t 5 -c:a libmp3lame -b:a 192k "out/${name}.mp3"
+            fi
+          }
+          render normal-raw 1.0
+          render normal-minus0_50 0.9715319411536059
+          render normal-minus1_00 0.9438743126816935
+          render normal-minus1_50 0.9170040432046712
+          render normal-minus2_00 0.8908987181403393
+      - name: Verify outputs
+        run: |
+          set -euo pipefail
+          for f in out/*.mp3; do
+            ffmpeg -v error -i "$f" -f null -
+            d=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f")
+            echo "$(basename "$f") $d"
+            python - "$d" <<'PY'
+import sys
+x=float(sys.argv[1])
+assert 4.95 <= x <= 5.15, x
+PY
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-normal-light-pitch-sweep
+          path: out/*.mp3
