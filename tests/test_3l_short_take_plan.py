@@ -17,6 +17,19 @@ class ShortTakePlanTests(unittest.TestCase):
             ["greg", "dragon", "greg", "dragon", "greg", "greg", "dragon", "greg", "greg"],
         )
 
+    def test_strict_routing_defaults_quotes_to_greg_and_marks_only_locked_dragon_prefixes(self):
+        text = '''“Greg says this.”\n\n“Dragon says this.”\n\n“Greg says another thing.”'''
+        rows = classify_paragraphs(text, dragon_prefixes=["“Dragon says this."])
+        self.assertEqual([row["role"] for row in rows], ["greg", "dragon", "greg"])
+
+    def test_strict_routing_keeps_mult paragraph_dragon_quote_open_until_close(self):
+        text = '''“Greg first.”\n\n“Dragon opens here.\n\n“Dragon continues here.\n\n“Dragon closes here.”\n\n“Greg after.”'''
+        rows = classify_paragraphs(text, dragon_prefixes=["“Dragon opens here."])
+        self.assertEqual(
+            [row["role"] for row in rows],
+            ["greg", "dragon", "dragon", "dragon", "greg"],
+        )
+
     def test_sustained_dragon_quote_stays_one_contiguous_dragon_territory(self):
         text = '''I looked at him.\n\nThen the dragon took the floor.\n\n“First paragraph of Ithar's examination.\n\n“Second paragraph stays with Ithar.\n\n“Third paragraph closes the examination.”\n\nI rubbed my face.'''
         rows = classify_paragraphs(text)
