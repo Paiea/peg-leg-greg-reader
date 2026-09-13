@@ -1,0 +1,85 @@
+name: 3L Record 001 full audio capture
+
+on:
+  push:
+    branches:
+      - 3l/record-001-publish
+    paths:
+      - '3l/audio/record-001-source.json'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
+      - name: Capture generated voiceover
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p 3l/assets/audio 3l/audio/verification
+          python3 - <<'PY'
+          import json, pathlib, subprocess, re, html
+          cfg=json.loads(pathlib.Path('3l/audio/record-001-source.json').read_text())
+          url=cfg['audio_url']
+          page=pathlib.Path('/tmp/aidocmaker-response')
+          subprocess.run(['curl','-fL','--retry','4','--retry-all-errors','-A','Mozilla/5.0','-o',str(page),url],check=True)
+          # First try the response itself as audio.
+          ok=subprocess.run(['ffprobe','-v','error',str(page)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode==0
+          source=page
+          if not ok:
+              text=page.read_text(errors='ignore')
+              urls=re.findall(r'https?://[^\"\'<> ]+?\.mp3(?:\?[^\"\'<> ]*)?', html.unescape(text))
+              urls += re.findall(r'https:\\/\\/[^\"\'<> ]+?\.mp3(?:\?[^\"\'<> ]*)?', text)
+              cleaned=[]
+              for u in urls:
+                  u=html.unescape(u).replace('\\/','/')
+                  if u not in cleaned: cleaned.append(u)
+              if not cleaned:
+                  raise SystemExit('Aidocmaker page did not expose a downloadable mp3 URL')
+              source=pathlib.Path('/tmp/full.mp3')
+              subprocess.run(['curl','-fL','--retry','4','--retry-all-errors','-o',str(source),cleaned[0]],check=True)
+              subprocess.run(['ffprobe','-v','error',str(source)],check=True)
+          final=pathlib.Path('3l/assets/audio/record-001.mp3')
+          subprocess.run(['ffmpeg','-y','-v','error','-i',str(source),'-af','apad=pad_dur=2','-c:a','libmp3lame','-q:a','2',str(final)],check=True)
+          duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(final)],text=True).strip())
+          if duration < 60:
+              raise SystemExit(f'captured audio unexpectedly short: {duration}')
+          import hashlib
+          report={
+              'record':1,
+              'title':'THE PETITIONER',
+              'voice':'deep',
+              'capture_mode':'full-voiceover-prototype',
+              'context_id':cfg['context_id'],
+              'duration_seconds':round(duration,3),
+              'byte_size':final.stat().st_size,
+              'sha256':hashlib.sha256(final.read_bytes()).hexdigest(),
+              'settling_tail_seconds':2.0,
+              'status':'verified_unlistened'
+          }
+          pathlib.Path('3l/audio/verification/record-001.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report,indent=2))
+          PY
+
+      - name: Commit audio asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add 3l/assets/audio/record-001.mp3 3l/audio/verification/record-001.json
+          git commit -m 'audio: capture 3L Record 001 prototype' || exit 0
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
