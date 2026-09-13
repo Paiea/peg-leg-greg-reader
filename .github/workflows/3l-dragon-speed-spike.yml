@@ -1,0 +1,57 @@
+name: 3L Dragon Speed Spike
+
+on:
+  push:
+    branches:
+      - 3l/dragon-speed-spike
+    paths:
+      - 3l/experiments/dragon-speed/source.json
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Download source and render speed variants
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p 3l/experiments/dragon-speed/output
+          URL=$(python - <<'PY'
+          import json
+          print(json.load(open('3l/experiments/dragon-speed/source.json'))['preview_url'])
+          PY
+          )
+          curl -fL --retry 4 --retry-delay 2 -o /tmp/dragon-fancy-100.mp3 "$URL"
+          ffmpeg -y -i /tmp/dragon-fancy-100.mp3 -vn -c:a libmp3lame -b:a 192k 3l/experiments/dragon-speed/output/dragon-fancy-100.mp3
+          ffmpeg -y -i /tmp/dragon-fancy-100.mp3 -filter:a "atempo=0.90" -vn -c:a libmp3lame -b:a 192k 3l/experiments/dragon-speed/output/dragon-fancy-090.mp3
+          ffmpeg -y -i /tmp/dragon-fancy-100.mp3 -filter:a "atempo=0.82" -vn -c:a libmp3lame -b:a 192k 3l/experiments/dragon-speed/output/dragon-fancy-082.mp3
+          for f in 3l/experiments/dragon-speed/output/*.mp3; do
+            ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$f"
+          done
+
+      - name: Commit audition files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/experiments/dragon-speed/output
+          git commit -m "Render 3L dragon speed audition" || exit 0
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
+
+      - name: Upload audition artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-speed-audition
+          path: 3l/experiments/dragon-speed/output/*.mp3
