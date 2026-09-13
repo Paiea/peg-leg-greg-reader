@@ -60,7 +60,7 @@ def _split_semantic_segments(paragraph: str, last_speaker: str | None, next_hint
     """Split narration vs quoted speech while resolving cave dialogue turns."""
     matches = list(QUOTE_RE.finditer(paragraph))
     if not matches:
-        return [{"role": "greg", "text": paragraph}], last_speaker
+        return [{"role": "greg", "text": paragraph}], None
 
     explicit = _attributed_speaker(paragraph)
     quote_speaker = explicit
@@ -83,7 +83,6 @@ def _split_semantic_segments(paragraph: str, last_speaker: str | None, next_hint
     if cursor < len(paragraph):
         segments.append({"role": "greg", "text": paragraph[cursor:]})
 
-    # Collapse adjacent same-role pieces without changing characters.
     collapsed: list[dict] = []
     for segment in segments:
         if not segment["text"]:
@@ -113,8 +112,6 @@ def classify_paragraphs(text: str) -> list[dict]:
             elif GREG_NEXT_RE.search(paragraph):
                 next_hint = "greg"
 
-        # Coarse paragraph role exists for audits/tests. Mixed narration + quote retains
-        # the spoken turn's role; detailed segments remain authoritative for assembly.
         role = spoken or "greg"
         rows.append({"role": role, "text": paragraph, "segments": segments, "explicit": explicit})
     return rows
@@ -170,7 +167,6 @@ def _split_oversize(item: dict, max_chars: int) -> list[dict]:
             cut = max_chars
         piece = remaining[:cut]
         remaining = remaining[cut:]
-        # Preserve every character. The split piece is re-segmented independently.
         segs, _ = _split_semantic_segments(piece, None, item["role"] if item["role"] in {"greg", "dragon"} else None)
         pieces.append({"role": item["role"], "text": piece, "segments": segs, "explicit": item.get("explicit")})
     if remaining:
@@ -207,8 +203,6 @@ def build_plan(markdown: str, source: str, max_chars: int = 500) -> dict:
     chunks = make_chunks(paragraphs, max_chars=max_chars)
     rebuilt = "\n\n".join(chunk["transcript"] for chunk in chunks)
     if rebuilt != body:
-        # Oversize paragraph splitting preserves characters but not necessarily paragraph separators.
-        # Compare normalized whitespace as a final guard without changing output.
         normalize = lambda value: re.sub(r"\s+", " ", value).strip()
         if normalize(rebuilt) != normalize(body):
             raise ValueError("chunk plan does not preserve canon text")
