@@ -1,0 +1,101 @@
+name: Build 3L Record 001 Fancy Dragon full scene
+
+on:
+  push:
+    branches:
+      - 3l/record-001-fancy-dragon-full-scene
+    paths:
+      - '.github/workflows/3l-record-001-fancy-dragon-full-scene.yml'
+      - '3l/audio/record-001-fancy-master.json'
+      - 'scripts/build_3l_fancy_dragon_candidate.py'
+      - 'tests/test_3l_fancy_dragon_candidate.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -hide_banner -filters 2>/dev/null | grep rubberband
+
+      - name: Run focused tests
+        run: |
+          python -m unittest tests.test_3l_two_voice_candidate tests.test_3l_fancy_dragon_candidate
+
+      - name: Download queued Fancy master
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL=$(python - <<'PY'
+          import json
+          print(json.load(open('3l/audio/record-001-fancy-master.json'))['audio_url'])
+          PY
+          )
+          ok=0
+          for attempt in $(seq 1 24); do
+            echo "Fancy master attempt ${attempt}/24"
+            rm -f /tmp/record-001-fancy-master.mp3
+            if curl -fL --max-time 90 --retry 2 --retry-delay 3 -o /tmp/record-001-fancy-master.mp3 "$URL"; then
+              if ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 /tmp/record-001-fancy-master.mp3; then
+                ok=1
+                break
+              fi
+            fi
+            sleep 15
+          done
+          if [ "$ok" -ne 1 ]; then
+            echo "Fancy master never became a valid audio file"
+            exit 1
+          fi
+
+      - name: Assemble Deep Greg plus Fancy Dragon
+        run: |
+          python scripts/build_3l_fancy_dragon_candidate.py \
+            --fancy-master /tmp/record-001-fancy-master.mp3
+
+      - name: Verify candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest tests.test_3l_fancy_dragon_candidate
+          ffmpeg -v error -i 3l/assets/audio/record-001-fancy-dragon-minus3_25.mp3 -f null -
+          python - <<'PY'
+          import json
+          p='3l/audio/verification/record-001-fancy-dragon-minus3_25.json'
+          r=json.load(open(p))
+          assert r['dragon_pitch_semitones'] == -3.25
+          assert r['dragon_tempo'] == 1.0
+          assert r['dragon_formant'] == 'preserved'
+          assert r['greg_or_narrator_voice_replacement_count'] == 0
+          assert r['take_role_patterns_verified'] is True
+          assert r['ffprobe_playable'] is True
+          print(json.dumps({k:r[k] for k in ['dragon_span_count','candidate_duration_seconds','candidate_sha256']}, indent=2))
+          PY
+          git diff --check
+
+      - name: Commit candidate artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            3l/assets/audio/record-001-fancy-dragon-minus3_25.mp3 \
+            3l/audio/verification/record-001-fancy-dragon-minus3_25.json
+          git commit -m "audio: render Record 001 Fancy Dragon candidate" || exit 0
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
+
+      - name: Upload listening artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-fancy-dragon-minus3_25
+          path: 3l/assets/audio/record-001-fancy-dragon-minus3_25.mp3
