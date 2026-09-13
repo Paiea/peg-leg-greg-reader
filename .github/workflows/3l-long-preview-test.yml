@@ -1,0 +1,21 @@
+name: 3L long preview duration test
+
+on:
+  push:
+    branches: [3l/record-001-rewrite-audio]
+    paths:
+      - '.github/workflows/3l-long-preview-test.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Verify long preview
+        run: |
+          set -euo pipefail
+          curl -L --fail 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b86251d9-97c1-40b5-b934-29637bd11c83.mp3' -o /tmp/test.mp3
+          ffprobe -v error -show_entries format=duration,size -of json /tmp/test.mp3
+          ffmpeg -v error -i /tmp/test.mp3 -f null -
