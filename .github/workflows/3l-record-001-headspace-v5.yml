@@ -18,7 +18,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: 3l/record-001-rewrite-audio
-          fetch-depth: 0
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            3l/manuscript/record-001.md
+            3l/audio/experiments
+            .github/workflows/3l-record-001-headspace-v5.yml
 
       - name: Install audio tools
         run: |
@@ -32,7 +37,6 @@ jobs:
           import hashlib
           import html
           import json
-          import os
           import pathlib
           import re
           import shutil
@@ -50,8 +54,7 @@ jobs:
 
           def ffprobe(path):
               p = subprocess.run([
-                  'ffprobe','-v','error','-show_entries','format=duration,size',
-                  '-of','json',str(path)
+                  'ffprobe','-v','error','-show_entries','format=duration,size','-of','json',str(path)
               ], check=True, capture_output=True, text=True)
               info = json.loads(p.stdout)['format']
               return float(info['duration']), int(info['size'])
@@ -62,19 +65,17 @@ jobs:
               page = f'https://www.aidocmaker.com/g0/audio?name={cid}'
               dst = raw / f'{bid}.mp3'
               last = ''
-              for attempt in range(18):
+              for _ in range(18):
                   p = subprocess.run([
-                      chrome, '--headless', '--no-sandbox', '--disable-gpu',
-                      '--virtual-time-budget=9000', '--dump-dom', page
+                      chrome,'--headless','--no-sandbox','--disable-gpu',
+                      '--virtual-time-budget=9000','--dump-dom',page
                   ], capture_output=True, text=True, timeout=45)
-                  dom = p.stdout
-                  matches = re.findall(r'<audio[^>]+src="([^"]+)"', dom, flags=re.I)
+                  matches = re.findall(r'<audio[^>]+src="([^"]+)"', p.stdout, flags=re.I)
                   urls = [html.unescape(x) for x in matches if 'adm--audio-files--lt--private' in html.unescape(x)]
                   if urls:
-                      url = urls[0]
-                      req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
-                      with urllib.request.urlopen(req, timeout=90) as r, open(dst, 'wb') as f:
-                          shutil.copyfileobj(r, f)
+                      req = urllib.request.Request(urls[0], headers={'User-Agent':'Mozilla/5.0'})
+                      with urllib.request.urlopen(req, timeout=90) as r, open(dst,'wb') as f:
+                          shutil.copyfileobj(r,f)
                       duration, size = ffprobe(dst)
                       subprocess.run(['ffmpeg','-v','error','-i',str(dst),'-f','null','-'], check=True)
                       if duration <= 0 or size <= 0:
@@ -94,7 +95,7 @@ jobs:
 
           results = {}
           with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
-              futures = {ex.submit(resolve, b): b['id'] for b in manifest['blocks']}
+              futures = {ex.submit(resolve,b): b['id'] for b in manifest['blocks']}
               for fut in concurrent.futures.as_completed(futures):
                   bid = futures[fut]
                   item = fut.result()
@@ -114,7 +115,8 @@ jobs:
           import pathlib
           import subprocess
 
-          manifest = json.loads(pathlib.Path('3l/audio/experiments/record-001-headspace-v5-captures.json').read_text())
+          manifest_path = pathlib.Path('3l/audio/experiments/record-001-headspace-v5-captures.json')
+          manifest = json.loads(manifest_path.read_text())
           resolved = json.loads(pathlib.Path('/tmp/3l-v5/resolved.json').read_text())
           raw = pathlib.Path('/tmp/3l-v5/raw')
           norm = pathlib.Path('/tmp/3l-v5/norm')
@@ -132,17 +134,19 @@ jobs:
 
           pauses = sorted({int(b['pause_after_ms']) for b in manifest['blocks']} | {int(manifest['final_tail_ms'])})
           for ms in pauses:
-              seconds = ms / 1000.0
               run('ffmpeg','-y','-v','error','-f','lavfi','-i','anullsrc=r=44100:cl=stereo',
-                  '-t',f'{seconds:.3f}','-c:a','pcm_s16le',str(sil/f'{ms}.wav'))
+                  '-t',f'{ms/1000.0:.3f}','-c:a','pcm_s16le',str(sil/f'{ms}.wav'))
 
           concat = pathlib.Path('/tmp/3l-v5/concat.txt')
           lines = []
           for block in manifest['blocks']:
               bid = block['id']
-              lines.append(f"file '{(norm/f'{bid}.wav').resolve()}'")
-              lines.append(f"file '{(sil/f\"{int(block['pause_after_ms'])}.wav\").resolve()}'")
-          lines.append(f"file '{(sil/f\"{int(manifest['final_tail_ms'])}.wav\").resolve()}'")
+              audio_path = (norm / f'{bid}.wav').resolve()
+              pause_path = (sil / f"{int(block['pause_after_ms'])}.wav").resolve()
+              lines.append(f"file '{audio_path}'")
+              lines.append(f"file '{pause_path}'")
+          tail_path = (sil / f"{int(manifest['final_tail_ms'])}.wav").resolve()
+          lines.append(f"file '{tail_path}'")
           concat.write_text('\n'.join(lines) + '\n')
 
           out_dir = pathlib.Path('3l/assets/audio')
@@ -166,7 +170,7 @@ jobs:
               'source_path': manifest['source_path'],
               'source_commit': manifest['source_commit'],
               'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
-              'manifest_sha256': hashlib.sha256(pathlib.Path('3l/audio/experiments/record-001-headspace-v5-captures.json').read_bytes()).hexdigest(),
+              'manifest_sha256': hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
               'output_path': str(out),
               'duration_seconds': float(fmt['duration']),
               'size_bytes': int(fmt['size']),
@@ -198,7 +202,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add 3l/assets/audio/record-001-headspace-v5.mp3 3l/audio/experiments/record-001-headspace-v5-receipt.json
+          git add --sparse 3l/assets/audio/record-001-headspace-v5.mp3 3l/audio/experiments/record-001-headspace-v5-receipt.json
           if git diff --cached --quiet; then
             echo 'No audio changes to commit.'
           else
