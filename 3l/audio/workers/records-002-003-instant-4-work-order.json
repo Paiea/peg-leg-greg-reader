@@ -2,7 +2,8 @@
   "status": "frozen_worker_slice",
   "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
   "branch": "3l/dialogue-territory-rebuild-002-010",
-  "source_sha": "6faad6c1a65f770846910ec2724208bf3af7aeca",
+  "source_sha": "856825c7a01d1b05b5effa04f424448747f3726b",
+  "run_label": "records-002-003",
   "records": [
     "002",
     "003"
@@ -990,7 +991,6 @@
   ],
   "captures": [
     {
-      "capture_id": "002:001:deep",
       "record": "002",
       "chunk_index": 1,
       "voice": "deep",
@@ -998,7 +998,6 @@
       "preview_transcript": "The dragon did not move.\n\nNeither did I.\n\nThat seemed fair for the first few seconds.\n\nThen it became his choice.\n\nI had just told a creature older than my kingdom that the future he remembered me not being part of had happened with me in it once already.\n\nThere were several reasonable responses to that.\n\nDisbelief.\n\nQuestions.\n\nEating me.\n\nI had prepared for two of those.\n\nIthar stared.\n\nI shifted my weight off the bad leg.\n\nThe movement was small.\n\nHis eye followed it anyway."
     },
     {
-      "capture_id": "002:004:deep",
       "record": "002",
       "chunk_index": 4,
       "voice": "deep",
@@ -1006,7 +1005,6 @@
       "preview_transcript": "“I remember another life. Approximately forty years. Nineteen to fifty-nine.”\n\nNothing happened.\n\nI had expected that sentence to feel larger.\n\nIt did not.\n\nIt sounded exactly like what it was.\n\nA man in a cave saying something impossible.\n\n“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”\n\nHis eye moved over my face.\n\nThen lower.\n\nThe ruined leg."
     },
     {
-      "capture_id": "002:009:deep",
       "record": "002",
       "chunk_index": 9,
       "voice": "deep",
@@ -1014,7 +1012,6 @@
       "preview_transcript": "The answer came out lighter than the thing underneath it.\n\nAt nineteen I had two good knees.\n\nTwo good hands.\n\nA shoulder that had not learned weather.\n\nIthar did not follow me into that.\n\nThat was almost kind.\n\nAlmost.\n\nThe claw nearest the old Line disk moved once through the gold.\n\nCoins made a soft dry sound against one another.\n\nI knew what he wanted next without hearing the question.\n\nWhat had I been in the first life?\n\nNot Greg.\n\nThe other answer.\n\n“Ranker.”"
     },
     {
-      "capture_id": "002:015:deep",
       "record": "002",
       "chunk_index": 15,
       "voice": "deep",
@@ -1022,7 +1019,6 @@
       "preview_transcript": "The sudden lift beneath my stomach when the thing under the plate swelled.\n\nI had forgotten the sky.\n\nI remembered the smell perfectly.\n\n“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”\n\nThe dragon went still.\n\nCompletely.\n\nThat was starting to mean more than movement.\n\nThen Ithar spoke for long enough that I stopped waiting for my turn."
     },
     {
-      "capture_id": "002:019:deep",
       "record": "002",
       "chunk_index": 19,
       "voice": "deep",
@@ -1030,7 +1026,6 @@
       "preview_transcript": "I rubbed my face.\n\nIt had been a long climb.\n\nIt was becoming a longer conversation.\n\n“I knew her as Nhal.”\n\nNothing happened.\n\nThen Ithar's pupil narrowed.\n\nThat was enough.\n\n“Ah.”\n\nI did not like the way he said it.\n\nThen, instead of making me drag the questions out of him one at a time, he gave me the problem whole."
     },
     {
-      "capture_id": "002:019:normal",
       "record": "002",
       "chunk_index": 19,
       "voice": "normal",
@@ -1038,7 +1033,6 @@
       "preview_transcript": "I rubbed my face.\n\nIt had been a long climb.\n\nIt was becoming a longer conversation.\n\n“I knew her as Nhal.”\n\nNothing happened.\n\nThen Ithar's pupil narrowed.\n\nThat was enough.\n\n“Ah.”\n\nI did not like the way he said it.\n\nThen, instead of making me drag the questions out of him one at a time, he gave me the problem whole."
     },
     {
-      "capture_id": "002:026:deep",
       "record": "002",
       "chunk_index": 26,
       "voice": "deep",
@@ -1046,7 +1040,6 @@
       "preview_transcript": "“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.\n\n“I know only that your explanation is no longer the least interesting possibility.”\n\nI stared at him.\n\n“Scale involved.”\n\nHis eye held mine.\n\n“You think this is bigger than me.”\n\nIthar's mouth shifted.\n\nNot quite a smile."
     },
     {
-      "capture_id": "002:026:normal",
       "record": "002",
       "chunk_index": 26,
       "voice": "normal",
@@ -1054,7 +1047,6 @@
       "preview_transcript": "“I do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.\n\n“I know only that your explanation is no longer the least interesting possibility.”\n\nI stared at him.\n\n“Scale involved.”\n\nHis eye held mine.\n\n“You think this is bigger than me.”\n\nIthar's mouth shifted.\n\nNot quite a smile."
     },
     {
-      "capture_id": "002:027:deep",
       "record": "002",
       "chunk_index": 27,
       "voice": "deep",
@@ -1062,7 +1054,6 @@
       "preview_transcript": "He did not need to say that almost everything was bigger than me.\n\nThe thought arrived in his face well enough.\n\n“Fair.”\n\nI looked at the old disk between us.\n\nThen at the wall where his coin was still buried.\n\nThen at the passage out.\n\nMy knee hurt.\n\nThe Line was failing below the mountain.\n\nTwo point three million people were still inconveniently mortal.\n\nAnd somehow I had lost control of the negotiation badly enough that the dragon was examining my existence instead.\n\n“The Line.”"
     },
     {
-      "capture_id": "003:004:normal",
       "record": "003",
       "chunk_index": 4,
       "voice": "normal",
@@ -1070,7 +1061,6 @@
       "preview_transcript": "“You came here because of the Line. That is not the same as coming here for the Line. You knew my name before the western stations began failing. You knew the mountain before the ninth station bled pressure into the eastern sink. You knew Nhal had known me before your present kingdom appointed the first keeper now attempting to repair that station. You searched for me before the crisis you offered as your reason for arriving."
     },
     {
-      "capture_id": "003:011:deep",
       "record": "003",
       "chunk_index": 11,
       "voice": "deep",
@@ -1078,7 +1068,6 @@
       "preview_transcript": "That was not finishing by any human definition I respected.\n\nApparently the dragon had his own.\n\nI laughed once through my nose.\n\nThe sound came out meaner than I intended.\n\n“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”\n\nHis mouth shifted.\n\n“I possess enough mountain.”\n\nI looked around.\n\n“Good sentence.”\n\nThe mouth moved again.\n\nNot quite a smile.\n\nNeither of us spoke for a moment.\n\nThat might have been our first successful exchange."
     },
     {
-      "capture_id": "003:011:normal",
       "record": "003",
       "chunk_index": 11,
       "voice": "normal",
@@ -1086,7 +1075,6 @@
       "preview_transcript": "That was not finishing by any human definition I respected.\n\nApparently the dragon had his own.\n\nI laughed once through my nose.\n\nThe sound came out meaner than I intended.\n\n“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”\n\nHis mouth shifted.\n\n“I possess enough mountain.”\n\nI looked around.\n\n“Good sentence.”\n\nThe mouth moved again.\n\nNot quite a smile.\n\nNeither of us spoke for a moment.\n\nThat might have been our first successful exchange."
     },
     {
-      "capture_id": "003:015:deep",
       "record": "003",
       "chunk_index": 15,
       "voice": "deep",
@@ -1094,7 +1082,6 @@
       "preview_transcript": "He had heard something else.\n\nHeartbeat, maybe.\n\nBreath.\n\nThe little pause humans make when a room changes without moving.\n\nI looked away.\n\n“Nothing relevant.”\n\nThe dragon lowered his head.\n\nVery slowly.\n\nI had seen cliffs move faster.\n\nI knew what he had noticed.\n\nThat was the problem.\n\n“See? This is exactly why I don't want to do forty years with you.”\n\nHis pupil narrowed.\n\nRight.\n\nNot forty.\n\nThe first life had been forty too.\n\n“I am not telling you eighty years.”"
     },
     {
-      "capture_id": "003:022:deep",
       "record": "003",
       "chunk_index": 22,
       "voice": "deep",
@@ -1102,7 +1089,6 @@
       "preview_transcript": "“That sounds suspiciously like rules for my story.”\n\nIthar's eye held mine.\n\n“Life Two is the spine. Life One where it matters.”\n\nThe eye did not move.\n\n“And I get some editorial control.”\n\nA long pause.\n\nVery little, apparently.\n\n“More than none.”\n\nHis mouth shifted.\n\nAcceptable.\n\nThat was easier than expected.\n\nWhich probably meant I had misunderstood the agreement.\n\nIthar was going to be fucking annoying about this.\n\nAt least we were clear.\n\nI thought about time next.\n\nHuman time."
     },
     {
-      "capture_id": "003:023:deep",
       "record": "003",
       "chunk_index": 23,
       "voice": "deep",
@@ -1110,7 +1096,6 @@
       "preview_transcript": "The kind dragons could afford to treat as a formatting problem.\n\n“How long do you think this takes?”\n\nIthar considered me.\n\nWeeks, maybe.\n\nMonths, maybe.\n\nHe did not know.\n\nWorse, he did not care about the duration in the way I did.\n\nHe had been in this mountain longer than my current kingdom had had a name.\n\n“You really know how to make a person feel urgent.”\n\nThe dragon's gaze sharpened.\n\nThen his voice changed again.\n\nNot deeper.\n\nLonger.\n\n“You are urgent, Greg. Not the Line. You."
     },
     {
-      "capture_id": "003:023:normal",
       "record": "003",
       "chunk_index": 23,
       "voice": "normal",

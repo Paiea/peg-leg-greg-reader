@@ -2,7 +2,8 @@
   "status": "frozen_worker_slice",
   "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
   "branch": "3l/dialogue-territory-rebuild-002-010",
-  "source_sha": "6faad6c1a65f770846910ec2724208bf3af7aeca",
+  "source_sha": "856825c7a01d1b05b5effa04f424448747f3726b",
+  "run_label": "records-002-003",
   "records": [
     "002",
     "003"
@@ -727,7 +728,6 @@
   ],
   "captures": [
     {
-      "capture_id": "002:002:deep",
       "record": "002",
       "chunk_index": 2,
       "voice": "deep",
@@ -735,7 +735,6 @@
       "preview_transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”"
     },
     {
-      "capture_id": "002:002:normal",
       "record": "002",
       "chunk_index": 2,
       "voice": "normal",
@@ -743,7 +742,6 @@
       "preview_transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”"
     },
     {
-      "capture_id": "002:006:normal",
       "record": "002",
       "chunk_index": 6,
       "voice": "normal",
@@ -751,7 +749,6 @@
       "preview_transcript": "“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”"
     },
     {
-      "capture_id": "002:011:deep",
       "record": "002",
       "chunk_index": 11,
       "voice": "deep",
@@ -759,7 +756,6 @@
       "preview_transcript": "“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”\n\nI leaned back against the stone behind me.\n\nIt was warm.\n\nEverything in the cave was warm."
     },
     {
-      "capture_id": "002:018:deep",
       "record": "002",
       "chunk_index": 18,
       "voice": "deep",
@@ -767,7 +763,6 @@
       "preview_transcript": "“That sounded almost like you believe me.”\n\nHis eye did not change.\n\nFine.\n\nNot belief.\n\nI took useful.\n\nThen his attention moved somewhere else.\n\nNot physically.\n\nThat would have been easier.\n\nThe cave just became more specific around one question.\n\nMy path to his name.\n\nI looked toward the passage.\n\nNot because I planned to leave.\n\nBecause some questions make a door more noticeable.\n\n“I told you. It was from the first life.”\n\nThe dragon waited.\n\nThat was when.\n\nHe wanted who."
     },
     {
-      "capture_id": "002:022:deep",
       "record": "002",
       "chunk_index": 22,
       "voice": "deep",
@@ -775,7 +770,6 @@
       "preview_transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
     },
     {
-      "capture_id": "002:022:normal",
       "record": "002",
       "chunk_index": 22,
       "voice": "normal",
@@ -783,7 +777,6 @@
       "preview_transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
     },
     {
-      "capture_id": "003:001:deep",
       "record": "003",
       "chunk_index": 1,
       "voice": "deep",
@@ -791,7 +784,6 @@
       "preview_transcript": "“What made it true.”\n\nI repeated the sentence because sometimes hearing somebody else's bad idea in your own voice helps.\n\nIt did not.\n\nIthar waited.\n\nHe had become very good at waiting since I entered the cave.\n\nProbably before that too.\n\n“You want the whole story.”\n\nThe dragon's eye narrowed.\n\nI felt an unreasonable amount of satisfaction.\n\n“See? Useful sentence. You could just say yes.”\n\nHe did not.\n\nThat took some of the satisfaction back.\n\nI shifted on the stone ledge beside my pack."
     },
     {
-      "capture_id": "003:005:deep",
       "record": "003",
       "chunk_index": 5,
       "voice": "deep",
@@ -799,7 +791,6 @@
       "preview_transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted."
     },
     {
-      "capture_id": "003:005:normal",
       "record": "003",
       "chunk_index": 5,
       "voice": "normal",
@@ -807,7 +798,6 @@
       "preview_transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted."
     },
     {
-      "capture_id": "003:008:deep",
       "record": "003",
       "chunk_index": 8,
       "voice": "deep",
@@ -815,7 +805,6 @@
       "preview_transcript": "I had meant to replace it before the mountain and had forgotten.\n\nThere were people who would have remembered for me.\n\nThat thought went somewhere I did not want it to go.\n\n“Home is south. Where my things are.”\n\nThe definition looked poor even before Ithar touched it.\n\n“Most definitions are poor if you keep touching them.”\n\nHis eye narrowed.\n\nThat one I kept.\n\nWhat would I do after I got there?\n\nEat.\n\nSleep.\n\nComplain about the mountain."
     },
     {
-      "capture_id": "003:013:deep",
       "record": "003",
       "chunk_index": 13,
       "voice": "deep",
@@ -823,7 +812,6 @@
       "preview_transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”"
     },
     {
-      "capture_id": "003:013:normal",
       "record": "003",
       "chunk_index": 13,
       "voice": "normal",
@@ -831,7 +819,6 @@
       "preview_transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”"
     },
     {
-      "capture_id": "003:018:normal",
       "record": "003",
       "chunk_index": 18,
       "voice": "normal",
@@ -839,7 +826,6 @@
       "preview_transcript": "“In the second life, every choice made with foreknowledge carries a piece of the first. Every person you sought because you remembered them. Every person you avoided. Every road you did not take. Every skill you attempted before your body was ready. Every danger you recognized. Every danger you failed to recognize because you believed you already understood it.\n\n“The first life is not background to the second. It is pressure applied to it."
     },
     {
-      "capture_id": "003:026:deep",
       "record": "003",
       "chunk_index": 26,
       "voice": "deep",
@@ -847,7 +833,6 @@
       "preview_transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked."
     },
     {
-      "capture_id": "003:026:normal",
       "record": "003",
       "chunk_index": 26,
       "voice": "normal",
@@ -855,7 +840,6 @@
       "preview_transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked."
     },
     {
-      "capture_id": "003:028:deep",
       "record": "003",
       "chunk_index": 28,
       "voice": "deep",

@@ -2,7 +2,8 @@
   "status": "frozen_worker_slice",
   "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
   "branch": "3l/dialogue-territory-rebuild-002-010",
-  "source_sha": "6faad6c1a65f770846910ec2724208bf3af7aeca",
+  "source_sha": "856825c7a01d1b05b5effa04f424448747f3726b",
+  "run_label": "records-002-003",
   "records": [
     "002",
     "003"
@@ -805,7 +806,6 @@
   ],
   "captures": [
     {
-      "capture_id": "002:007:deep",
       "record": "002",
       "chunk_index": 7,
       "voice": "deep",
@@ -813,7 +813,6 @@
       "preview_transcript": "I opened my mouth.\n\nClosed it.\n\nI hated that he was already getting better at this.\n\n“Years.”\n\nThe eye narrowed.\n\n“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”\n\nThe larger things came later.\n\nYears later.\n\nThat sounded bad when I said it out loud."
     },
     {
-      "capture_id": "002:012:deep",
       "record": "002",
       "chunk_index": 12,
       "voice": "deep",
@@ -821,7 +820,6 @@
       "preview_transcript": "“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”\n\nI had been one of them for eleven years officially."
     },
     {
-      "capture_id": "002:014:deep",
       "record": "002",
       "chunk_index": 14,
       "voice": "deep",
@@ -829,7 +827,6 @@
       "preview_transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand."
     },
     {
-      "capture_id": "002:014:normal",
       "record": "002",
       "chunk_index": 14,
       "voice": "normal",
@@ -837,7 +834,6 @@
       "preview_transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand."
     },
     {
-      "capture_id": "002:021:deep",
       "record": "002",
       "chunk_index": 21,
       "voice": "deep",
@@ -845,7 +841,6 @@
       "preview_transcript": "The pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n“How she got trapped is a long story.”\n\nHis chin settled onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\nHe was becoming pleased with the existence of long stories.\n\n“In that history she told me your name. She also told me how to cross the mountain.”\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots."
     },
     {
-      "capture_id": "002:024:deep",
       "record": "002",
       "chunk_index": 24,
       "voice": "deep",
@@ -853,7 +848,6 @@
       "preview_transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat."
     },
     {
-      "capture_id": "002:024:normal",
       "record": "002",
       "chunk_index": 24,
       "voice": "normal",
@@ -861,7 +855,6 @@
       "preview_transcript": "“You know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n“So you believe I remember another life.”\n\nSomething low moved in his throat."
     },
     {
-      "capture_id": "003:002:deep",
       "record": "003",
       "chunk_index": 2,
       "voice": "deep",
@@ -869,7 +862,6 @@
       "preview_transcript": "It was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise."
     },
     {
-      "capture_id": "003:007:deep",
       "record": "003",
       "chunk_index": 7,
       "voice": "deep",
@@ -877,7 +869,6 @@
       "preview_transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers."
     },
     {
-      "capture_id": "003:007:normal",
       "record": "003",
       "chunk_index": 7,
       "voice": "normal",
@@ -885,7 +876,6 @@
       "preview_transcript": "Deeper into it.\n\n“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”\n\nI looked at him.\n\n“That is several questions pretending to be one.”\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers."
     },
     {
-      "capture_id": "003:010:deep",
       "record": "003",
       "chunk_index": 10,
       "voice": "deep",
@@ -893,7 +883,6 @@
       "preview_transcript": "The cave suddenly felt warmer.\n\n“Don't.”\n\nHis eye remained on me.\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\nThe claw dragged a shallow line through the gold.\n\nCoins rolled into it and vanished.\n\nHe wanted the end of the first life.\n\nI could feel the question coming without hearing it spoken.\n\n“No.”\n\nThe pupil shifted.\n\n“We're not doing this. We're discussing the Line.”\n\nAs far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything."
     },
     {
-      "capture_id": "003:016:deep",
       "record": "003",
       "chunk_index": 16,
       "voice": "deep",
@@ -901,7 +890,6 @@
       "preview_transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence."
     },
     {
-      "capture_id": "003:016:normal",
       "record": "003",
       "chunk_index": 16,
       "voice": "normal",
@@ -909,7 +897,6 @@
       "preview_transcript": "I laughed when his expression failed to change.\n\n“You're serious.”\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again.\n\n“I do not require eighty years in sequence."
     },
     {
-      "capture_id": "003:019:normal",
       "record": "003",
       "chunk_index": 19,
       "voice": "normal",
@@ -917,7 +904,6 @@
       "preview_transcript": "“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer."
     },
     {
-      "capture_id": "003:027:deep",
       "record": "003",
       "chunk_index": 27,
       "voice": "deep",
@@ -925,7 +911,6 @@
       "preview_transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack."
     },
     {
-      "capture_id": "003:027:normal",
       "record": "003",
       "chunk_index": 27,
       "voice": "normal",
@@ -933,7 +918,6 @@
       "preview_transcript": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You understand I have to shit.”\n\nHis nostril opened.\n\n“You are welcome to do that outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack."
     },
     {
-      "capture_id": "003:030:deep",
       "record": "003",
       "chunk_index": 30,
       "voice": "deep",
