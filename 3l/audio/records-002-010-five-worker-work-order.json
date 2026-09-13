@@ -2,7 +2,7 @@
   "status": "frozen_work_order",
   "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
   "branch": "main",
-  "source_sha": "54a690c171847cf6b538b6e25021ede0425a43ab",
+  "source_sha": "d9d8b5ed7995ac1d8d978d1256e281fe35812da9",
   "run_label": "records-002-010",
   "worker_count": 5,
   "records": [
