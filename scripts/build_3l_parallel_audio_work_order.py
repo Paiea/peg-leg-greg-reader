@@ -13,7 +13,6 @@ AUTHORITY = "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md"
 
 def _flatten_chunks(plans: Iterable[dict]) -> list[dict]:
     items: list[dict] = []
-    order_index = 0
     for plan in plans:
         record = str(plan["record"])
         if plan.get("dragon_routing_locked") is not True:
@@ -37,17 +36,15 @@ def _flatten_chunks(plans: Iterable[dict]) -> list[dict]:
                     "semantic_spans": chunk.get("semantic_spans", []),
                     "required_voices": voices,
                     "capture_count": len(voices),
-                    "_order_index": order_index,
                 }
             )
-            order_index += 1
     if not items:
         raise ValueError("no chunks found")
     return items
 
 
 def _balanced_whole_chunk_assignments(items: list[dict], worker_count: int) -> list[list[dict]]:
-    """Balance whole chunks by capture weight, then restore canon order per worker."""
+    """Balance whole chunks while keeping each worker's output in canon order."""
     if worker_count < 1:
         raise ValueError("worker_count must be positive")
     if len(items) < worker_count:
@@ -55,35 +52,44 @@ def _balanced_whole_chunk_assignments(items: list[dict], worker_count: int) -> l
 
     assignments: list[list[dict]] = [[] for _ in range(worker_count)]
     loads = [0] * worker_count
-
-    # Mixed two-voice chunks are the expensive units. Place those first, then
-    # one-voice chunks, always choosing the lightest worker with stable tie-breaks.
-    weighted = sorted(items, key=lambda item: (-item["capture_count"], item["_order_index"]))
-    for item in weighted:
+    indexed = list(enumerate(items))
+    # Place expensive mixed chunks first, then cheap one-voice chunks. Stable
+    # canon index makes the result deterministic.
+    for original_index, item in sorted(indexed, key=lambda pair: (-pair[1]["capture_count"], pair[0])):
         worker_index = min(range(worker_count), key=lambda index: (loads[index], index))
-        assignments[worker_index].append(item)
+        assigned = dict(item)
+        assigned["_canon_index"] = original_index
+        assignments[worker_index].append(assigned)
         loads[worker_index] += item["capture_count"]
 
     for chunks in assignments:
-        chunks.sort(key=lambda item: item["_order_index"])
+        chunks.sort(key=lambda item: item.pop("_canon_index"))
     return assignments
 
 
-def _public_chunk(item: dict) -> dict:
-    return {key: value for key, value in item.items() if key != "_order_index"}
+def _run_label(plans: list[dict]) -> str:
+    records = [str(plan["record"]) for plan in plans]
+    if not records:
+        raise ValueError("no plans")
+    return f"records-{records[0]}-{records[-1]}"
 
 
-def build_work_order(plans: list[dict], worker_count: int = 5, branch: str = "", source_sha: str = "") -> dict:
+def build_work_order(
+    plans: list[dict],
+    worker_count: int = 5,
+    branch: str = "",
+    source_sha: str = "",
+    run_label: str | None = None,
+) -> dict:
     items = _flatten_chunks(plans)
     assignments = _balanced_whole_chunk_assignments(items, worker_count)
+    label = run_label or _run_label(plans)
 
     workers = []
-    for worker_number, assigned_chunks in enumerate(assignments, start=1):
-        chunks = [_public_chunk(chunk) for chunk in assigned_chunks]
+    for worker_number, chunks in enumerate(assignments, start=1):
         worker_id = f"instant-{worker_number}"
         captures = [
             {
-                "capture_id": f"{chunk['record']}:{chunk['chunk_index']:03d}:{voice}",
                 "record": chunk["record"],
                 "chunk_index": chunk["chunk_index"],
                 "voice": voice,
@@ -100,7 +106,7 @@ def build_work_order(plans: list[dict], worker_count: int = 5, branch: str = "",
                 "chunk_count": len(chunks),
                 "chunks": chunks,
                 "captures": captures,
-                "return_manifest": f"3l/audio/workers/records-002-003-{worker_id}-captures.json",
+                "return_manifest": f"3l/audio/workers/{label}-{worker_id}-captures.json",
             }
         )
 
@@ -128,6 +134,7 @@ def build_work_order(plans: list[dict], worker_count: int = 5, branch: str = "",
         "authority": AUTHORITY,
         "branch": branch,
         "source_sha": source_sha,
+        "run_label": label,
         "worker_count": worker_count,
         "records": [str(plan["record"]) for plan in plans],
         "source_plans": [f"3l/audio/record-{plan['record']}-short-dual-plan.json" for plan in plans],
@@ -138,21 +145,26 @@ def build_work_order(plans: list[dict], worker_count: int = 5, branch: str = "",
     }
 
 
-def _write_outputs(order: dict, output: Path, worker_dir: Path) -> None:
+def write_outputs(order: dict, output: Path, worker_dir: Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     worker_dir.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(order, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     for worker in order["workers"]:
-        worker_path = worker_dir / f"records-002-003-{worker['worker_id']}-work-order.json"
+        worker_path = worker_dir / f"{order['run_label']}-{worker['worker_id']}-work-order.json"
         payload = {
             "status": "frozen_worker_slice",
             "authority": order["authority"],
             "branch": order["branch"],
-            "source_sha": order.get("source_sha", ""),
+            "source_sha": order["source_sha"],
+            "run_label": order["run_label"],
             "records": order["records"],
             **worker,
         }
         worker_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+# Backward-compatible private name for the earlier workflow.
+_write_outputs = write_outputs
 
 
 def main() -> None:
@@ -163,6 +175,7 @@ def main() -> None:
     parser.add_argument("--worker-count", type=int, default=5)
     parser.add_argument("--branch", default="")
     parser.add_argument("--source-sha", default="")
+    parser.add_argument("--run-label")
     args = parser.parse_args()
 
     plans = [json.loads(Path(path).read_text(encoding="utf-8")) for path in args.plans]
@@ -171,8 +184,9 @@ def main() -> None:
         worker_count=args.worker_count,
         branch=args.branch,
         source_sha=args.source_sha,
+        run_label=args.run_label,
     )
-    _write_outputs(order, args.output, args.worker_dir)
+    write_outputs(order, args.output, args.worker_dir)
     print(
         f"{order['total_chunks']} chunks / {order['total_captures']} captures -> "
         f"{order['worker_count']} workers: {order['capture_loads']}"
