@@ -20,6 +20,7 @@ def write(path: Path, text: str) -> None:
 
 
 # This script is intentionally one-shot and branch-scoped for the 002-010 rebuild.
+# Sparse workflow trigger revision 2.
 # 004: preserve the remembered-life chapter and add one clean Ithar checkpoint.
 path, text = read("004")
 anchor = "It was the assumption that I still wanted the same life."
