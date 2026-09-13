@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080908">
-  <meta name="description" content="Record 001 of The Third Leg: The Bargainer.">
-  <title>Record 001 · The Bargainer · The Third Leg</title>
+  <meta name="description" content="Record 001 of The Third Leg: The Petitioner.">
+  <title>Record 001 · The Petitioner · The Third Leg</title>
   <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="stylesheet" href="../assets/css/record.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -20,26 +21,39 @@
       <a href="../about/">About</a>
     </nav>
     <nav class="medium-nav" aria-label="Formats">
-      <a href="../audio/">Listen</a>
-      <a aria-current="page" href="001.html">Read</a>
+      <a href="#listen">Listen</a>
+      <a aria-current="page" href="#read">Read</a>
     </nav>
   </header>
 
   <main id="main" class="page-main">
     <header class="page-hero">
       <p class="eyebrow">RECORD 001</p>
-      <h1>THE BARGAINER</h1>
-      <p class="record-meta">SECOND LIFE · AGE 59 · LOCATION WITHHELD</p>
+      <h1>THE PETITIONER</h1>
+      <p class="record-meta">SECOND LIFE · AGE 59 · UNDER EXAMINATION</p>
+      <p class="page-lede">A battered Ranker asks an ancient dragon to save millions of people. The dragon discovers the more interesting problem is the man asking.</p>
     </header>
 
-    <section class="pending-record" aria-labelledby="pending-title">
-      <h2 id="pending-title">The account is being prepared.</h2>
-      <p>This record has a place in the archive, but its authoritative story text has not been published yet.</p>
-      <p>The opening begins with Greg already in the presence of an ancient dragon, making a claim the dragon has reason to test.</p>
+    <section class="record-player" id="listen" aria-labelledby="listen-title">
+      <div class="record-player-header">
+        <div>
+          <p class="eyebrow">VOICE TEST 01</p>
+          <h2 id="listen-title">Listen first.</h2>
+          <p>Greg's current deep-voice rendition. The opening preview plays here; the full chapter opens in the voice player.</p>
+        </div>
+        <a class="button button-primary" href="https://www.aidocmaker.com/g0/audio?name=d53f086b9a64427ba8aa22ca77580def" target="_blank" rel="noopener">Play Full Record</a>
+      </div>
+      <audio controls preload="metadata" src="https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a2af6461-e2f2-48e1-9573-b1c07fff2396.mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="record-player-note">Production status: first voice specimen. Canon prose below remains authoritative while the two-voice Dragon mix is refined.</p>
     </section>
 
+    <p class="reading-status" id="record-status">Loading the canonical record…</p>
+    <article class="reading-copy" id="read" aria-label="Record 001 prose"></article>
+
     <div class="page-actions" aria-label="Record navigation">
-      <a class="button button-primary" href="../audio/">Open Listening Archive</a>
+      <a class="button button-primary" href="../audio/">Listening Archive</a>
       <a class="button" href="./">All Records</a>
       <a class="button" href="../">3L Home</a>
     </div>
@@ -48,7 +62,7 @@
   <footer class="site-footer">
     <div class="footer-mark">
       <strong>3L</strong>
-      <span>Record 001 · The Bargainer</span>
+      <span>Record 001 · The Petitioner</span>
     </div>
     <nav aria-label="Lineage">
       <a href="../../index.html">PLG</a><span aria-hidden="true">→</span>
@@ -56,5 +70,37 @@
       <a href="../">3L</a>
     </nav>
   </footer>
+
+  <script>
+    (() => {
+      const target = document.getElementById('read');
+      const status = document.getElementById('record-status');
+      fetch('../manuscript/record-001.md')
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.text();
+        })
+        .then((markdown) => {
+          const blocks = markdown
+            .replace(/^## RECORD 001\s*/u, '')
+            .replace(/^## THE PETITIONER\s*/u, '')
+            .trim()
+            .split(/\n\s*\n/u)
+            .filter(Boolean);
+
+          const fragment = document.createDocumentFragment();
+          for (const block of blocks) {
+            const paragraph = document.createElement('p');
+            paragraph.textContent = block.replace(/\n+/gu, ' ').trim();
+            fragment.appendChild(paragraph);
+          }
+          target.replaceChildren(fragment);
+          status.textContent = 'Canonical prose · Record 001';
+        })
+        .catch(() => {
+          status.innerHTML = 'The canonical prose could not be loaded here. <a href="../manuscript/record-001.md">Open the source record.</a>';
+        });
+    })();
+  </script>
 </body>
 </html>
