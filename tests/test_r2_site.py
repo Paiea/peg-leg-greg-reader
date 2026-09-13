@@ -187,7 +187,9 @@ class R2SiteTests(unittest.TestCase):
         public_copy = f'{homepage}\n{about}'.lower()
         self.assertNotIn('experiment', public_copy)
         self.assertNotIn('machinery broke', public_copy)
-        self.assertIn('the story has lived once already. this is the second run.', public_copy)
+        self.assertIn('the story keeps moving.', public_copy)
+        self.assertIn('the third leg carries those lessons into a new, finite account.', public_copy)
+        self.assertIn('href="../3l/"', homepage)
 
     def test_public_routes_exist(self):
         for path in ['about/index.html', 'chapters/index.html', 'gallery/index.html', 'chapter.html']:
