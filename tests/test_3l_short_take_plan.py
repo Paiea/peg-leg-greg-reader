@@ -22,7 +22,7 @@ class ShortTakePlanTests(unittest.TestCase):
         rows = classify_paragraphs(text, dragon_prefixes=["“Dragon says this."])
         self.assertEqual([row["role"] for row in rows], ["greg", "dragon", "greg"])
 
-    def test_strict_routing_keeps_mult paragraph_dragon_quote_open_until_close(self):
+    def test_strict_routing_keeps_multiparagraph_dragon_quote_open_until_close(self):
         text = '''“Greg first.”\n\n“Dragon opens here.\n\n“Dragon continues here.\n\n“Dragon closes here.”\n\n“Greg after.”'''
         rows = classify_paragraphs(text, dragon_prefixes=["“Dragon opens here."])
         self.assertEqual(
