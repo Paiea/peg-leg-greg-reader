@@ -1,40 +1,41 @@
 # R2 Public Written Authority
 
-Status: **ACTIVE PUBLIC R2 AUTHORITY**
+Status: **R2 COMPLETE / FROZEN WRITTEN AUTHORITY**
 
-The selected public R2 story currently runs through **Chapter 164 - The Supervisor**.
+The selected public R2 story runs through **Chapter 182 - The Specialist**.
 
 ## Authority boundary
 
 - Chapters 1-39 remain the previously published character-first R2 sequence.
-- Chapters 40-42 recover the true-frontier story that directly preceded the temporal-year work: `The Citizen`, `The Cordon`, and `The Correspondent`.
-- Chapters 43-82 are the author-selected one-year Black Stair continuation, beginning with Greg's one-year date and ending with the Westreach Expedition reaching the Black Stair.
-- Chapter 83, `Home Road`, is the reader-facing return seam from Westreach to Carrow.
-- Chapters 84-118 are the author-selected two-year Halden continuation, re-seamed so it inherits the Black Stair year instead of resetting Greg's rank, relationships, work history, roads, or Blackglass Anchor history.
-- Chapters 119–164 are the selected post-First-Bell re-performance. They replace older same-numbered forward/quarry prose as public R2 authority.
-- Planner state, temporal contracts, audits, source maps, and other development archaeology remain development evidence and are not public chapter text.
-- Older pre-rebuild or unselected forward material that is not selected in this sequence remains superseded quarry.
+- Chapters 40-42 recover the true-frontier story directly preceding the temporal-year work.
+- Chapters 43-82 are the selected Black Stair continuation.
+- Chapter 83, `Home Road`, is the return seam from Westreach to Carrow.
+- Chapters 84-118 are the selected two-year Halden continuation.
+- Chapters 119-164 are the selected post-`First Bell` re-performance and replace older same-numbered quarry prose.
+- Chapters 165-182 are the selected Storm Road final arc and ordinary-life landing.
+- Chapter 182, `The Specialist`, is the final R2 written chapter.
+- There is no planned Chapter 183. Future R2 story expansion requires explicit author authority reopening the run.
+- Audio, images, site polish, corrections, and archival work may continue without reopening written story authority.
+- Planner state, temporal contracts, audits, source maps, and superseded forward material remain development evidence only.
 
-## Three-year continuity
+## Final movement
 
-The long continuation is intentionally cumulative.
+The Storm Road final arc gives Greg a bounded professional problem whose safe solution is genuinely available. Greg knowingly chooses the setter's cuff anyway because its narrower, faster structural family can preserve more of the crossing. The choice works. The convoy crosses, the specialists retain ownership of their own lanes, and Greg is materially rewarded.
 
-Greg first spends roughly one year moving from Bronze toward the Black Stair, earning Silver, building the Blackglass Anchor into a real field tool, deepening Mara's independent Halden life, joining Field Support Three, and completing Westreach.
+The durable cost is specialization rather than punishment. Greg's moving-load / failure-routing family becomes reflexively fast while broad structural work becomes slower to reach, though still available and trainable.
 
-After returning home, Mara accepts a new fixed two-year Halden east-desk appointment. Greg promises to meet her at the Halden stone steps on the morning that term closes. The second clock inherits the first year rather than replaying it.
+Mara's Northbank life remains independent. She identifies Greg's pattern without becoming his moral authority: he keeps borrowing from future versions of himself because he expects them to adapt.
 
-The later Brell sequence therefore does not promote Greg to Silver a second time. Its assessment removes the older municipal structural-support restriction from his Silver file, which is what makes the later bridge-repair work an earned extension of his existing specialty.
-
-The selected 119–164 run continues from `First Bell`: Mara chooses Northbank, Greg's support specialization narrows through real work and mixed crews, West Bramble tests deliberate team-building without declaring a permanent party, and Greg's first bounded intervention in Merek Sol's route career succeeds cleanly enough to become dangerous evidence for Greg's belief that outcomes and people can be rerouted.
+R2 lands back in ordinary Carrow life. Greg receives a higher-rate contract specifically requesting a moving-load / failure-routing specialist, weights the paper with the blue-green West Bramble snail, and goes downstairs before dinner gets cold.
 
 ## Publication note
 
-Selected written prose publishes directly to the R2 reader. Audio and images may lag written publication and do not block the Read surface.
+Selected written prose publishes directly to the R2 reader. Audio and images may lag and do not block the Read surface. New Chapters 165-182 intentionally begin with audio `not_started`; no older same-numbered media may be inherited.
 
-Internal provenance before the first `---`, plus candidate re-performance preludes, is hidden by the reader renderer. Reader-facing seam revisions live directly in the selected Markdown files.
+## Freeze
 
-## Current frontier
+**Final written frontier: Chapter 182 - The Specialist**
 
-**Chapter 164 - The Supervisor**
+**R2 status: COMPLETE**
 
-The next public written chapter is Chapter 165 unless newer explicit author authority replaces or revises this sequence.
+The canonical lessons and candidate inheritance for 3L live in `editorial/R2_POSTMORTEM.md` and `editorial/R2_TO_3L_HANDOFF.md`.

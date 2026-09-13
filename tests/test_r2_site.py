@@ -13,12 +13,13 @@ class R2SiteTests(unittest.TestCase):
         self.assertEqual(project['title'], 'R2')
         self.assertIn('two lives', project['tagline'].lower())
         self.assertEqual(project['run1_href'], '../index.html')
-        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 165)])
-        self.assertEqual(project['current_chapter'], 'r2-ch164')
+        self.assertEqual(project['chapters'], [f'r2-ch{i:03d}' for i in range(1, 183)])
+        self.assertEqual(project['current_chapter'], 'r2-ch182')
+        self.assertIn('R2 COMPLETE', project['authority_note'])
 
-    def test_public_frontier_runs_through_chapter_one_sixty_four(self):
+    def test_public_frontier_runs_through_chapter_one_eighty_two(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
-        for number in range(1, 165):
+        for number in range(1, 183):
             chapter_id = f'r2-ch{number:03d}'
             manifest_path = R2 / f'data/chapters/ch{number:03d}.json'
             self.assertTrue(manifest_path.exists(), chapter_id)
@@ -29,8 +30,8 @@ class R2SiteTests(unittest.TestCase):
             self.assertEqual(chapter['written']['path'], f'assets/written/ch{number:03d}.md')
             self.assertTrue((R2 / f'assets/written/ch{number:03d}.md').exists(), chapter_id)
             self.assertEqual(chapter['navigation']['previous'], None if number == 1 else f'r2-ch{number - 1:03d}')
-            self.assertEqual(chapter['navigation']['next'], None if number == 164 else f'r2-ch{number + 1:03d}')
-        self.assertNotIn('r2-ch165', project['chapters'])
+            self.assertEqual(chapter['navigation']['next'], None if number == 182 else f'r2-ch{number + 1:03d}')
+        self.assertNotIn('r2-ch183', project['chapters'])
 
     def test_post_first_bell_role_titles_are_greg_roles(self):
         expected = {
@@ -46,6 +47,11 @@ class R2SiteTests(unittest.TestCase):
             155: 'The Collector', 156: 'The Troubleshooter', 157: 'The Surveyor', 158: 'The Follower',
             159: 'The Claimant', 160: 'The Cook', 161: 'The Evaluator', 162: 'The Surveyor',
             163: 'The Sponsor', 164: 'The Supervisor',
+            165: 'The Contractor', 166: 'The Selector', 167: 'The Passenger', 168: 'The Brace',
+            169: 'The Catcher', 170: 'The Camper', 171: 'The Counterweight', 172: 'The Customer',
+            173: 'The Borrower', 174: 'The Reserve', 175: 'The Pacer', 176: 'The Escort',
+            177: 'The Adviser', 178: 'The Setter', 179: 'The Router', 180: 'The Earner',
+            181: 'The Visitor', 182: 'The Specialist',
         }
         for number, title in expected.items():
             chapter = json.loads((R2 / f'data/chapters/ch{number:03d}.json').read_text(encoding='utf-8'))
@@ -54,9 +60,12 @@ class R2SiteTests(unittest.TestCase):
     def test_post_first_bell_public_prose_uses_selected_reperformance(self):
         chapter_119 = (R2 / 'assets/written/ch119.md').read_text(encoding='utf-8')
         chapter_164 = (R2 / 'assets/written/ch164.md').read_text(encoding='utf-8')
+        chapter_182 = (R2 / 'assets/written/ch182.md').read_text(encoding='utf-8')
         self.assertIn('Second bell turned out to mean breakfast.', chapter_119)
         self.assertNotIn('The Trial Route', chapter_119)
         self.assertIn('Merek', chapter_164)
+        self.assertTrue(chapter_182.startswith('# Chapter 182: The Specialist'))
+        self.assertIn('Legal salvage.', chapter_182)
 
     def test_three_year_seam_landmarks_are_public(self):
         expected = {
@@ -104,12 +113,16 @@ class R2SiteTests(unittest.TestCase):
 
     def test_public_authority_advances_while_legacy_registry_is_archived(self):
         registry = json.loads((R2 / 'data/chapter-registry.json').read_text(encoding='utf-8'))
-        self.assertLessEqual(int(registry['current_chapter'].rsplit('ch', 1)[-1]), 164)
+        self.assertLessEqual(int(registry['current_chapter'].rsplit('ch', 1)[-1]), 182)
         self.assertTrue((R2 / 'editorial/legacy-forward/chapter-registry-pre-character-rebuild.json').exists())
         authority = (R2 / 'PUBLIC_REBUILD_AUTHORITY.md').read_text(encoding='utf-8')
-        self.assertIn('Chapter 164', authority)
-        self.assertIn('119–164', authority)
-        self.assertIn('three-year', authority.lower())
+        self.assertIn('Chapter 182', authority)
+        self.assertIn('R2 COMPLETE', authority)
+        self.assertIn('Storm Road', authority)
+        complete = (R2 / 'R2_COMPLETE.md').read_text(encoding='utf-8')
+        self.assertIn('FROZEN WRITTEN RUN', complete)
+        self.assertIn('182 - The Specialist', complete)
+        self.assertIn('Chapter 183+', complete)
 
     def test_r2_declares_shared_greg_surface_pipeline(self):
         project = json.loads((R2 / 'data/project.json').read_text(encoding='utf-8'))
