@@ -1,0 +1,59 @@
+name: R2 final arc light cleanup
+
+on:
+  push:
+    branches:
+      - r2/final-arc-completion
+    paths:
+      - r2/editorial/final-arc/FINALIZE_REQUEST
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: r2/final-arc-completion
+          fetch-depth: 0
+      - name: Apply cold-read light finishes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+              'r2/editorial/final-arc/ch165.md': [
+                  ('"You missed the last one."\n\n"Different chapter."\n\nHe stared at me.\n\nI had no idea why I had said that.\n\n"Different week," I corrected.',
+                   '"You missed the last one."\n\n"Different week."'),
+              ],
+              'r2/editorial/final-arc/ch171.md': [
+                  ('Every dangerous fantasy animal eventually wanted something boring.',
+                   'Every dangerous animal eventually wanted something boring.'),
+              ],
+              'r2/editorial/final-arc/ch173.md': [
+                  ('Fantasy infrastructure.', 'Road infrastructure.'),
+              ],
+          }
+
+          for name, edits in replacements.items():
+              path = Path(name)
+              text = path.read_text()
+              for old, new in edits:
+                  if old not in text:
+                      raise SystemExit(f'missing expected cleanup text in {name}: {old!r}')
+                  text = text.replace(old, new, 1)
+              path.write_text(text)
+          PY
+      - name: Commit cleanup
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add r2/editorial/final-arc/ch165.md r2/editorial/final-arc/ch171.md r2/editorial/final-arc/ch173.md
+          git commit -m "Light-finish R2 final arc" || exit 0
+          git push origin HEAD:r2/final-arc-completion
