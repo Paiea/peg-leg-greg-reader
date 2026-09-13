@@ -9,17 +9,31 @@ class ThirdLegSiteTests(unittest.TestCase):
     def test_site_files_and_identity(self):
         home = ROOT / "3l" / "index.html"
         css = ROOT / "3l" / "assets" / "css" / "site.css"
+        home_flow_css = ROOT / "3l" / "assets" / "css" / "home-flow.css"
+        audio_library_css = ROOT / "3l" / "assets" / "css" / "audio-library.css"
         record = ROOT / "3l" / "records" / "001.html"
         records = ROOT / "3l" / "records" / "index.html"
         audio = ROOT / "3l" / "audio" / "index.html"
         about = ROOT / "3l" / "about" / "index.html"
         hero = ROOT / "3l" / "assets" / "images" / "hero" / "dragon-bargain.png"
         audio_art = ROOT / "3l" / "assets" / "images" / "audio" / "audio-library.png"
-        for path in (home, css, record, records, audio, about, hero, audio_art):
+        for path in (
+            home,
+            css,
+            home_flow_css,
+            audio_library_css,
+            record,
+            records,
+            audio,
+            about,
+            hero,
+            audio_art,
+        ):
             self.assertTrue(path.exists(), path)
 
         html = home.read_text(encoding="utf-8")
         styles = css.read_text(encoding="utf-8")
+        home_flow = home_flow_css.read_text(encoding="utf-8")
         self.assertIn("THE THIRD LEG", html)
         self.assertIn("A Record of Two Lives", html)
         self.assertIn("BEGIN THE ACCOUNT", html)
@@ -28,6 +42,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn("The price was an explanation.", html)
         self.assertIn('class="entry-panel"', html)
         self.assertIn('class="listening-feature"', html)
+        self.assertNotIn('class="listening-feature-art"', html)
         self.assertIn('class="written-reference"', html)
         self.assertIn('class="lineage-strip"', html)
         self.assertNotIn('class="story-grid"', html)
@@ -37,12 +52,46 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn('href="about/"', html)
         self.assertIn('href="#timeline"', html)
         self.assertIn('class="skip-link"', html)
+        self.assertNotIn("<audio", html.lower())
         self.assertIn("dragon-bargain.png", styles)
-        self.assertIn("../images/audio/audio-library.png", styles)
+        self.assertNotIn("audio-library.png", home_flow)
         self.assertIn("@media (max-width: 760px)", styles)
         self.assertIn(":focus-visible", styles)
         self.assertNotIn("R3", html)
         self.assertNotIn("autoplay", html.lower())
+
+    def test_every_3l_header_routes_to_plg_and_r2(self):
+        home = (ROOT / "3l" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="../index.html">PLG</a>', home)
+        self.assertIn('href="../r2/">R2</a>', home)
+
+        interior_pages = (
+            ROOT / "3l" / "audio" / "index.html",
+            ROOT / "3l" / "records" / "index.html",
+            ROOT / "3l" / "records" / "001.html",
+            ROOT / "3l" / "about" / "index.html",
+        )
+        for page in interior_pages:
+            with self.subTest(page=page):
+                html = page.read_text(encoding="utf-8")
+                header = html.split("</header>", 1)[0]
+                self.assertIn('href="../../index.html">PLG</a>', header)
+                self.assertIn('href="../../r2/">R2</a>', header)
+
+    def test_audio_library_is_a_clean_listening_page(self):
+        audio = (ROOT / "3l" / "audio" / "index.html").read_text(encoding="utf-8")
+        styles = (ROOT / "3l" / "assets" / "css" / "audio-library.css").read_text(encoding="utf-8")
+
+        self.assertIn('class="page-main audio-library-page"', audio)
+        self.assertIn('class="audio-library-list"', audio)
+        self.assertIn('class="audio-record-card"', audio)
+        self.assertIn('class="audio-record-art"', audio)
+        self.assertIn('class="audio-player"', audio)
+        self.assertIn('../assets/audio/record-001.mp3', audio)
+        self.assertIn('href="../records/001.html"', audio)
+        self.assertNotIn('class="archive-hero"', audio)
+        self.assertIn("audio-library.png", styles)
+        self.assertIn("width: 100%", styles)
 
     def test_r2_routes_forward_to_the_third_leg(self):
         r2_home = (ROOT / "r2" / "index.html").read_text(encoding="utf-8")
