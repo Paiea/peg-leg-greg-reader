@@ -11,15 +11,26 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect full voiceover page
+      - name: Inspect voiceover client bundles
         run: |
           set -euo pipefail
-          url='https://www.aidocmaker.com/g0/audio?name=6f0f049b390b474a92c5caa2cf588cfc'
-          curl -L --fail --retry 2 "$url" -o /tmp/page.html
-          echo '--- direct media-looking URLs ---'
-          grep -Eo 'https:[^"<> ]+\.(mp3|wav|m4a|ogg)(\?[^"<> ]*)?' /tmp/page.html | head -50 || true
-          echo '--- storage/google/audio contexts ---'
-          grep -Eoi '.{0,160}(storage\.googleapis\.com|preview_url|audio_url|\.mp3|audio).{0,240}' /tmp/page.html | head -80 || true
-          echo '--- next data hints ---'
-          grep -Eoi '.{0,120}(__NEXT_DATA__|self\.__next_f|context_id|6f0f049b390b474a92c5caa2cf588cfc).{0,300}' /tmp/page.html | head -80 || true
-          test -s /tmp/page.html
+          base='https://www.aidocmaker.com'
+          url="$base/g0/audio?name=6f0f049b390b474a92c5caa2cf588cfc"
+          curl -L --fail "$url" -o /tmp/page.html
+          grep -Eo '<script[^>]+src="[^"]+\.js[^"]*"' /tmp/page.html \
+            | sed -E 's/.*src="([^"]+)".*/\1/' \
+            | sort -u > /tmp/scripts.txt
+          cat /tmp/scripts.txt
+          i=0
+          while IFS= read -r src; do
+            i=$((i+1))
+            case "$src" in
+              http*) jsurl="$src" ;;
+              *) jsurl="$base$src" ;;
+            esac
+            curl -L --fail --silent "$jsurl" -o "/tmp/js-$i.js" || continue
+            if grep -Eqi '(audio\?name|storage\.googleapis|preview_url|audioUrl|audio_url|download.*audio|fetch\(.{0,120}audio|/api/.{0,100}audio)' "/tmp/js-$i.js"; then
+              echo "--- MATCH $jsurl ---"
+              grep -Eo '.{0,220}(audio\?name|storage\.googleapis|preview_url|audioUrl|audio_url|download.{0,40}audio|/api/.{0,100}audio).{0,420}' "/tmp/js-$i.js" | head -100 || true
+            fi
+          done < /tmp/scripts.txt
