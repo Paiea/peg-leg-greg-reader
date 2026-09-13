@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080908">
-  <meta name="description" content="Record 001 of The Third Leg: The Bargainer.">
-  <title>Record 001 · The Bargainer · The Third Leg</title>
+  <meta name="description" content="Record 001 of The Third Leg: The Petitioner. Greg asks a dragon to save millions of people. The dragon finds Greg more interesting.">
+  <title>Record 001 · The Petitioner · The Third Leg</title>
   <link rel="stylesheet" href="../assets/css/site.css">
 </head>
 <body>
@@ -25,21 +25,40 @@
     </nav>
   </header>
 
-  <main id="main" class="page-main">
+  <main id="main" class="page-main record-page">
     <header class="page-hero">
       <p class="eyebrow">RECORD 001</p>
-      <h1>THE BARGAINER</h1>
-      <p class="record-meta">SECOND LIFE · AGE 59 · LOCATION WITHHELD</p>
+      <h1>THE PETITIONER</h1>
+      <p class="record-meta">SECOND LIFE · AGE 59 · THE DRAGON'S CAVE</p>
+      <p class="page-lede">A battered Ranker asks an ancient dragon to save millions. The dragon finds the man asking more interesting than the kingdom.</p>
     </header>
 
-    <section class="pending-record" aria-labelledby="pending-title">
-      <h2 id="pending-title">The account is being prepared.</h2>
-      <p>This record has a place in the archive, but its authoritative story text has not been published yet.</p>
-      <p>The opening begins with Greg already in the presence of an ancient dragon, making a claim the dragon has reason to test.</p>
+    <section class="record-audio" aria-labelledby="listen-title">
+      <p class="eyebrow">LISTEN</p>
+      <h2 id="listen-title">Record 001</h2>
+      <audio class="audio-player" controls preload="metadata" src="../assets/audio/record-001.mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <p class="audio-note">First listening pass. The Greg / Dragon two-voice performance is still being tuned.</p>
+    </section>
+
+    <section class="record-reading" aria-labelledby="read-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">READ</p>
+          <h2 id="read-title">The written record</h2>
+        </div>
+      </div>
+      <article id="record-prose" class="reading-copy" aria-live="polite">
+        <p>Loading the record…</p>
+      </article>
+      <noscript>
+        <p class="reading-fallback">JavaScript is disabled. <a href="../manuscript/record-001.md">Open the canonical prose.</a></p>
+      </noscript>
     </section>
 
     <div class="page-actions" aria-label="Record navigation">
-      <a class="button button-primary" href="../audio/">Open Listening Archive</a>
+      <a class="button button-primary" href="../audio/">Listening Archive</a>
       <a class="button" href="./">All Records</a>
       <a class="button" href="../">3L Home</a>
     </div>
@@ -48,7 +67,7 @@
   <footer class="site-footer">
     <div class="footer-mark">
       <strong>3L</strong>
-      <span>Record 001 · The Bargainer</span>
+      <span>Record 001 · The Petitioner</span>
     </div>
     <nav aria-label="Lineage">
       <a href="../../index.html">PLG</a><span aria-hidden="true">→</span>
@@ -56,5 +75,34 @@
       <a href="../">3L</a>
     </nav>
   </footer>
+
+  <script>
+    const prose = document.getElementById('record-prose');
+    fetch('../manuscript/record-001.md')
+      .then((response) => {
+        if (!response.ok) throw new Error('Record unavailable');
+        return response.text();
+      })
+      .then((markdown) => {
+        const marker = '## THE PETITIONER';
+        const body = markdown.includes(marker) ? markdown.split(marker, 2)[1].trim() : markdown.trim();
+        prose.replaceChildren();
+        body.split(/\n\s*\n/).filter(Boolean).forEach((paragraph) => {
+          const p = document.createElement('p');
+          p.textContent = paragraph.trim();
+          prose.appendChild(p);
+        });
+      })
+      .catch(() => {
+        prose.replaceChildren();
+        const p = document.createElement('p');
+        p.append('The written record could not be loaded. ');
+        const link = document.createElement('a');
+        link.href = '../manuscript/record-001.md';
+        link.textContent = 'Open the canonical prose.';
+        p.appendChild(link);
+        prose.appendChild(p);
+      });
+  </script>
 </body>
 </html>
