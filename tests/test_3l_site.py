@@ -59,7 +59,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn(".hero-dragon-stage", home_flow)
         self.assertIn(".hero-dragon-art", home_flow)
         self.assertIn("object-fit: contain", home_flow)
-        self.assertNotIn("url('../images/hero/dragon-bargain.png')", styles)
+        self.assertIn("background-image: none", home_flow)
         self.assertNotIn("audio-library.png", home_flow)
         self.assertIn("@media (max-width: 760px)", styles)
         self.assertIn(":focus-visible", styles)
