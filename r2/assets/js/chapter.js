@@ -51,7 +51,15 @@
     const normalized = markdown.replace(/\r\n/g, '\n');
     const marker = '\n---\n';
     const index = normalized.indexOf(marker);
-    return (index >= 0 ? normalized.slice(index + marker.length) : normalized).trim();
+    if (index >= 0) return normalized.slice(index + marker.length).trim();
+
+    const candidatePreludePattern =
+      /^# Candidate Chapter \d+:[^\n]*\n\nStatus:[^\n]*\n\n/;
+    if (candidatePreludePattern.test(normalized)) {
+      return normalized.replace(candidatePreludePattern, '').trim();
+    }
+
+    return normalized.trim();
   }
 
   function appendParagraphs(target, text) {
