@@ -7,6 +7,7 @@ Status: experimental listening spike. Canon prose remains `../manuscript/record-
 - GREG includes narration and Greg dialogue: `deep`.
 - DRAGON: `fancy`, then pitch-shift `-3.25` semitones with `tempo=1.0`, formants preserved.
 - Every generated clip is speaker-pure. Never generate mixed-speaker takes.
+- Narration, action, observation, and internal framing use past tense. Direct dialogue keeps the tense natural to what the speaker is saying.
 - Dragon bias: fewer, longer speeches. Greg reacts during Dragon silence through narration, body language, observation, or short replies.
 - Pauses are assembler metadata, not spoken punctuation.
 - Same-speaker continuation: 80 ms.
@@ -19,27 +20,27 @@ Status: experimental listening spike. Canon prose remains `../manuscript/record-
 
 ### 001 GREG · pause_after_ms=280
 
-The dragon yawns while I am explaining how many people are going to die.
+The dragon yawned while I was explaining how many people were going to die.
 
-It is not a small yawn.
+It was not a small yawn.
 
-The head lifts a little from the shelf of black stone where it has been resting, and the cave changes shape around it. Gold catches somewhere behind the teeth. Heat rolls across the floor in a slow wave.
+The head lifted a little from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.
 
-I stop talking.
+I stopped talking.
 
-Not because I am afraid.
+Not because I was afraid.
 
-I am afraid, obviously.
+I was afraid, obviously.
 
-I'm just also offended.
+I was just also offended.
 
 “Am I boring you?”
 
-One eye opens. It is larger than the shield I left outside.
+One eye opened. It was larger than the shield I had left outside.
 
-I left the shield because I had spent six days getting here and decided carrying one into a dragon's den was optimistic to the point of disrespect.
+I had left the shield because I had spent six days getting there and decided carrying one into a dragon's den was optimistic to the point of disrespect.
 
-The eye studies me.
+The eye studied me.
 
 ### 002 DRAGON · pause_after_ms=520
 
@@ -53,23 +54,23 @@ It does not.”
 
 ### 003 GREG · pause_after_ms=280
 
-That is not the response I had prepared for.
+That was not the response I had prepared for.
 
 “Millions of people.”
 
-The dragon does not answer.
+The dragon did not answer.
 
-Its eye closes again.
+Its eye closed again.
 
-The voice had not boomed. I expected booming. Stories always make dragons boom. Fire. Roaring. Falling rocks. Somebody pisses himself.
+The voice had not boomed. I had expected booming. Stories always made dragons boom. Fire. Roaring. Falling rocks. Somebody pissed himself.
 
-This one speaks quietly enough that I have to listen.
+This one spoke quietly enough that I had to listen.
 
-Which may be worse.
+Which might have been worse.
 
-I look toward the passage behind me. Six days in. Probably eight out, because my left knee has started complaining.
+I looked toward the passage behind me. Six days in. Probably eight out, because my left knee had started complaining.
 
-I try again.
+I tried again.
 
 “Cities disappear. Farms go with them. Trade stops. People starve.”
 
@@ -95,27 +96,27 @@ People needed walls more than monuments.”
 
 ### 005 GREG · pause_after_ms=260
 
-I don't answer for a second.
+I didn't answer for a second.
 
 “There aren't seven towers.”
 
-The dragon opens one eye.
+The dragon opened one eye.
 
 No amusement. No anger.
 
 Just waiting.
 
-I rub my face.
+I rubbed my face.
 
 “So what? Let everybody die because somebody else will build houses there eventually?”
 
 Still nothing.
 
-That gets under my skin more than an argument would have.
+That got under my skin more than an argument would have.
 
-“Because millions of people dying is bad,” I say. “To them. To me.”
+“Because millions of people dying is bad,” I said. “To them. To me.”
 
-The eye sharpens.
+The eye sharpened.
 
 There.
 
@@ -141,39 +142,39 @@ Tell me why you believed I would listen.”
 
 I had not mentioned the horse.
 
-I look down at my boots, then back at the dragon.
+I looked down at my boots, then back at the dragon.
 
 “Mostly lost a horse.”
 
-The dragon waits.
+The dragon waited.
 
 “Cliff.”
 
-One nostril moves.
+One nostril moved.
 
-That may be the closest thing to sympathy I get.
+That might have been the closest thing to sympathy I got.
 
 Fine.
 
-I straighten a little. My back hurts.
+I straightened a little. My back hurt.
 
-Fifty-nine is not old enough to make every movement a negotiation, but I've had help. The left knee. Three ribs that set badly. A shoulder that clicks when the weather changes. Two fingers that never closed properly after they got crushed in a gate.
+Fifty-nine was not old enough to make every movement a negotiation, but I'd had help. The left knee. Three ribs that set badly. A shoulder that clicked when the weather changed. Two fingers that never closed properly after they got crushed in a gate.
 
 B-class. Ranker. King's commendation. Five named contracts.
 
-Sounds impressive.
+Sounded impressive.
 
-It is impressive.
+It was impressive.
 
 Just not to me.
 
-I know what impressive feels like.
+I knew what impressive felt like.
 
 I used to be better.
 
-“The western Line wasn't built as a wall,” I say. “The anchors don't keep pressure out. They move it. West to east at first. Then down.”
+“The western Line wasn't built as a wall,” I said. “The anchors don't keep pressure out. They move it. West to east at first. Then down.”
 
-The dragon's head lifts slightly.
+The dragon's head lifted slightly.
 
 “The lower channels haven't been maintained because nobody knows they exist anymore. The ninth station is failing because the eastern sink is full. Rebuild every surface anchor from here to the coast and it'll still break again.”
 
@@ -183,15 +184,15 @@ The dragon's head lifts slightly.
 
 ### 009 GREG · pause_after_ms=300
 
-I almost do.
+I almost did.
 
-Then I remember why I am here.
+Then I remembered why I was there.
 
 “No.”
 
-A dragon is looking directly at me.
+A dragon was looking directly at me.
 
-I have told it no.
+I had told it no.
 
 Good.
 
@@ -201,13 +202,13 @@ Very professional.
 
 “You help me with the Line. Then I'll tell you the rest.”
 
-The cave stays quiet.
+The cave stayed quiet.
 
-I shift my weight off the bad knee. Then back. Then off again.
+I shifted my weight off the bad knee. Then back. Then off again.
 
-There is a stone near the wall that looks almost like a seat if I am willing to gamble on etiquette.
+There was a stone near the wall that looked almost like a seat if I was willing to gamble on etiquette.
 
-I remain standing.
+I remained standing.
 
 ### 010 DRAGON · pause_after_ms=620
 
@@ -231,11 +232,11 @@ That belief existed before the Line began failing.”
 
 ### 011 GREG · pause_after_ms=80
 
-For the first time since I entered the cavern, I don't have an answer ready.
+For the first time since I had entered the cavern, I didn't have an answer ready.
 
-My mouth goes dry.
+My mouth went dry.
 
-The dragon lowers its head.
+The dragon lowered its head.
 
 Slowly.
 
@@ -243,11 +244,11 @@ Not toward me exactly.
 
 Toward my level.
 
-It still has to stop far above it.
+It still had to stop far above it.
 
 I had known the dragon existed. I had known roughly where.
 
-I had known the oldest records were wrong about its color, which sounds useless until you consider that three expeditions had gone looking for a red dragon and disappeared in a range occupied by something closer to black glass.
+I had known the oldest records were wrong about its color, which had sounded useless until you considered that three expeditions had gone looking for a red dragon and disappeared in a range occupied by something closer to black glass.
 
 I had known fire would not be the primary danger on the climb.
 
@@ -255,7 +256,7 @@ I had known not to take the northern shelf.
 
 I had known about the sulfur vents beneath the second ridge.
 
-I had known enough to get here.
+I had known enough to get there.
 
 Forty years ago, I had known more.
 
@@ -263,37 +264,37 @@ Forty years ago, I had known more.
 
 Or maybe I had only thought I did.
 
-Memory is funny when you get old enough.
+Memory was funny when you got old enough.
 
-People imagine important things stay sharp.
+People imagined important things stayed sharp.
 
-They don't.
+They didn't.
 
-Sometimes I can remember the pattern on a woman's cup but not what she said when she left.
+Sometimes I could remember the pattern on a woman's cup but not what she said when she left.
 
-I can remember the smell of a room I slept in twice and lose an entire winter.
+I could remember the smell of a room I slept in twice and lose an entire winter.
 
-I remember techniques that took me years to learn with a clarity that still lives in my wrists.
+I remembered techniques that took me years to learn with a clarity that still lived in my wrists.
 
-Names go first.
+Names went first.
 
-Dates get slippery.
+Dates got slippery.
 
-Pain stays.
+Pain stayed.
 
-Faces stay longer than they should.
+Faces stayed longer than they should have.
 
-And some things just sit there forever for no reason you can explain.
+And some things just sat there forever for no reason you could explain.
 
-Like the number of steps between the third and fourth gates of a city that doesn't exist yet.
+Like the number of steps between the third and fourth gates of a city that didn't exist yet.
 
-Or didn't.
+Or hadn't.
 
-Or won't.
+Or wouldn't.
 
-Depending how you count.
+Depending how you counted.
 
-The dragon's nostrils flare.
+The dragon's nostrils flared.
 
 ### 013 DRAGON · pause_after_ms=650
 
@@ -319,23 +320,23 @@ Who taught you?”
 
 ### 014 GREG · pause_after_ms=300
 
-I look at the floor.
+I looked at the floor.
 
-There's a crack running through the stone between my boots. Very old. Probably older than my kingdom. Maybe older than people.
+There was a crack running through the stone between my boots. Very old. Probably older than my kingdom. Maybe older than people.
 
 “Nobody.”
 
-The dragon does not move.
+The dragon did not move.
 
-“No,” I say. “That's incomplete.”
+“No,” I said. “That's incomplete.”
 
 I had planned for greed. I had planned for threats. I had planned to trade information one piece at a time until the dragon decided saving a kingdom was cheaper than killing me.
 
 I had not planned for it to care where the information came from.
 
-“I'm fifty-nine,” I add. “Approximately.”
+“I'm fifty-nine,” I added. “Approximately.”
 
-The pupil tightens.
+The pupil tightened.
 
 “Long story.”
 
@@ -347,19 +348,19 @@ It is becoming one.”
 
 ### 016 GREG · pause_after_ms=300
 
-That almost sounds like a joke.
+That almost sounded like a joke.
 
 Almost.
 
-The dragon's gaze drops to my chest.
+The dragon's gaze dropped to my chest.
 
-“B,” I say before it can ask. “Low B, depending who is doing the paperwork.”
+“B,” I said before it could ask. “Low B, depending who is doing the paperwork.”
 
-It blinks.
+It blinked.
 
 “And yes, I came mostly alone.”
 
-The dragon keeps staring.
+The dragon kept staring.
 
 “The horse made it pretty far.”
 
@@ -367,7 +368,7 @@ Still nothing.
 
 “Tough room.”
 
-Then I realize what it is looking at.
+Then I realized what it was looking at.
 
 The rank pin.
 
@@ -393,31 +394,31 @@ Who told you how the Line works?”
 
 “Fuck you.”
 
-The dragon smiles.
+The dragon smiled.
 
 Okay.
 
-That one is definitely a smile.
+That one was definitely a smile.
 
-And just like that, something changes.
+And just like that, something changed.
 
 Not much.
 
-The Dragon is still a Dragon. I am still a man standing in its cave trying not to think about how easily it could close the distance between us. The Line is still failing. People are still going to die.
+The Dragon was still a Dragon. I was still a man standing in its cave trying not to think about how easily it could close the distance between us. The Line was still failing. People were still going to die.
 
-But the conversation is no longer the one I brought with me.
+But the conversation was no longer the one I had brought with me.
 
-I breathe out.
+I breathed out.
 
 “Nobody told me.”
 
-The smile disappears.
+The smile disappeared.
 
 “I've seen it fail.”
 
 ### 019 DRAGON · pause_after_ms=800
 
-The dragon goes still.
+The dragon went still.
 
 “When?”
 
@@ -425,9 +426,9 @@ The dragon goes still.
 
 “Before.”
 
-The silence that follows is the first silence in the cave that feels like mine.
+The silence that followed was the first silence in the cave that felt like mine.
 
-The dragon studies me for a very long time.
+The dragon studied me for a very long time.
 
 ### 021 DRAGON · pause_after_ms=500
 
@@ -443,11 +444,11 @@ The dragon studies me for a very long time.
 
 ### 024 GREG · pause_after_ms=520
 
-I smile despite myself.
+I smiled despite myself.
 
 Finally.
 
-A question I know how to answer.
+A question I knew how to answer.
 
 “I was there.”
 
@@ -459,6 +460,6 @@ You were not.”
 
 ### 026 GREG · pause_after_ms=2000
 
-I look up at it.
+I looked up at it.
 
 “Not this time.”
