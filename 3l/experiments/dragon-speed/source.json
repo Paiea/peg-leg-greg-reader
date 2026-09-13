@@ -1,6 +1,13 @@
 {
   "voice": "fancy",
-  "line": "You remember what should be impossible. Prove it.",
-  "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0287f5f0-2602-4df4-8a17-b5ce6ffbab62.mp3",
-  "variants": [1.0, 0.9, 0.82]
+  "line": "You believe the size of the consequence obligates me.",
+  "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/59026484-8911-42f0-a394-6f8cc4f00f25.mp3",
+  "tempo": 1.0,
+  "pitch_factors": {
+    "raw": 1.0,
+    "minus_2_semitones": 0.890899,
+    "minus_4_semitones": 0.793701
+  },
+  "formant": "preserved",
+  "pitchq": "quality"
 }
