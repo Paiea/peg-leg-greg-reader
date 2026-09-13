@@ -7,9 +7,9 @@ import json
 import os
 from pathlib import Path
 
-from scripts.build_3l_parallel_audio_work_order import build_work_order, write_outputs
-from scripts.build_3l_record_pages import build as build_reader
-from scripts.plan_3l_short_dual_render import build_plan
+from build_3l_parallel_audio_work_order import build_work_order, write_outputs
+from build_3l_record_pages import build as build_reader
+from plan_3l_short_dual_render import build_plan
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIO = ROOT / "3l" / "audio"
