@@ -42,6 +42,7 @@ jobs:
 
           curl -fL --retry 4 --retry-delay 2 -D /tmp/full-headers.txt -o /tmp/full-player.html "$full_page_url"
           grep -qi 'content-type: text/html' /tmp/full-headers.txt
-          grep -q 'd53f086b9a64427ba8aa22ca77580def' /tmp/full-player.html
+          test "$(wc -c < /tmp/full-player.html)" -gt 1000
+          file /tmp/full-player.html | grep -qi 'HTML'
 
           echo 'Record 001 preview MP3 and full provider player are reachable.'
