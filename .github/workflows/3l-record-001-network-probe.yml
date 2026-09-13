@@ -1,0 +1,95 @@
+name: 3L Record 001 network probe
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [3l/record-001-rewrite-audio]
+    paths:
+      - '.github/workflows/3l-record-001-network-probe.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trace generated-audio page network
+        run: |
+          python -m pip install -q selenium
+          python - <<'PY'
+          import json
+          import pathlib
+          import time
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+
+          contexts = [
+              'e0145021dbca48eaa42aa81828138b24',
+              '8715afbfdd81403aa72071a4d3440931',
+          ]
+          reports = []
+
+          for cid in contexts:
+              opts = Options()
+              opts.add_argument('--headless=new')
+              opts.add_argument('--no-sandbox')
+              opts.add_argument('--disable-gpu')
+              opts.add_argument('--disable-dev-shm-usage')
+              opts.set_capability('goog:loggingPrefs', {'performance': 'ALL', 'browser': 'ALL'})
+              driver = webdriver.Chrome(options=opts)
+              driver.execute_cdp_cmd('Network.enable', {})
+              page = f'https://www.aidocmaker.com/g0/audio?name={cid}'
+              print('PROBING', cid, page)
+              driver.get(page)
+              time.sleep(15)
+
+              events = []
+              for entry in driver.get_log('performance'):
+                  try:
+                      msg = json.loads(entry['message'])['message']
+                  except Exception:
+                      continue
+                  if msg.get('method') != 'Network.responseReceived':
+                      continue
+                  p = msg.get('params', {})
+                  resp = p.get('response', {})
+                  url = resp.get('url', '')
+                  mime = resp.get('mimeType', '')
+                  low = url.lower()
+                  if not any(x in low for x in ['aidocmaker', 'storage.googleapis', 'audio', 'voice', 'docmaker']):
+                      continue
+                  item = {
+                      'url': url,
+                      'status': resp.get('status'),
+                      'mimeType': mime,
+                      'type': p.get('type'),
+                      'requestId': p.get('requestId'),
+                  }
+                  if ('json' in mime.lower() or '/api/' in low or 'g0/' in low) and item['requestId']:
+                      try:
+                          body = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': item['requestId']})
+                          text = body.get('body', '')
+                          item['body_snippet'] = text[:12000]
+                      except Exception as e:
+                          item['body_error'] = repr(e)
+                  events.append(item)
+
+              print('=== NETWORK', cid, '===')
+              for item in events:
+                  print(json.dumps(item, ensure_ascii=False))
+              try:
+                  print('CURRENT_URL', driver.current_url)
+                  print('TITLE', driver.title)
+                  print('BODY_TEXT', driver.find_element('tag name', 'body').text[:4000])
+              except Exception as e:
+                  print('PAGE_INSPECT_ERROR', repr(e))
+              reports.append({'context_id': cid, 'events': events})
+              driver.quit()
+
+          pathlib.Path('/tmp/3l-network-probe.json').write_text(json.dumps(reports, indent=2) + '\n')
+          PY
+
+      - name: Upload network report
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-network-probe
+          path: /tmp/3l-network-probe.json
+          if-no-files-found: error
