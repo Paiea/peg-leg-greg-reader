@@ -1,0 +1,52 @@
+name: Verify 3L short-take planner
+
+on:
+  push:
+    branches:
+      - 3l/records-002-010-write2
+    paths:
+      - '.github/workflows/3l-short-take-plan.yml'
+      - 'scripts/plan_3l_short_dual_render.py'
+      - 'tests/test_3l_short_take_plan.py'
+      - '3l/manuscript/record-002.md'
+      - '3l/manuscript/record-003.md'
+
+permissions:
+  contents: write
+
+jobs:
+  plan-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run planner tests
+        run: python -m unittest tests.test_3l_short_take_plan
+      - name: Build Records 002 and 003 plans
+        run: |
+          python scripts/plan_3l_short_dual_render.py 3l/manuscript/record-002.md 3l/audio/record-002-short-dual-plan.json
+          python scripts/plan_3l_short_dual_render.py 3l/manuscript/record-003.md 3l/audio/record-003-short-dual-plan.json
+      - name: Verify generated plans
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for n in ('002','003'):
+              p=Path(f'3l/audio/record-{n}-short-dual-plan.json')
+              data=json.loads(p.read_text())
+              assert data['chunks']
+              assert all(len(c['transcript']) <= 500 for c in data['chunks'])
+              assert all(c['dual_render'] for c in data['chunks'])
+              print(n, len(data['chunks']))
+          PY
+      - name: Commit generated plans
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- 3l/audio/record-002-short-dual-plan.json 3l/audio/record-003-short-dual-plan.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/audio/record-002-short-dual-plan.json 3l/audio/record-003-short-dual-plan.json
+          git commit -m "audio: plan 3L Records 002 and 003 short takes"
+          git push origin HEAD:${GITHUB_REF_NAME}
