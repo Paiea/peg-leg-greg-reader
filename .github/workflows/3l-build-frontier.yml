@@ -15,6 +15,7 @@ on:
       - '3l/audio/record-00[23]-dragon-routing.json'
       - 'tests/test_3l_frontier_publish.py'
       - 'tests/test_3l_parallel_audio_work_order.py'
+      - 'tests/test_3l_site.py'
 
 permissions:
   contents: write
@@ -30,6 +31,7 @@ jobs:
           sparse-checkout: |
             .github/workflows
             3l
+            r2
             scripts
             tests
       - name: Verify allocator behavior
