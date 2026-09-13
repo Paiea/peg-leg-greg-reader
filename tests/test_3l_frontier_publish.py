@@ -15,6 +15,8 @@ class ThreeLFrontierPublishTests(unittest.TestCase):
             self.assertTrue(page.exists(), page)
             text = page.read_text(encoding="utf-8")
             self.assertIn(f"../manuscript/record-{rid}.md", text)
+            self.assertIn("String.fromCharCode(10)", text)
+            self.assertNotIn("split(/\n?\n/)", text)
 
         index = (ROOT / "3l" / "records" / "index.html").read_text(encoding="utf-8")
         for record in range(1, 11):
