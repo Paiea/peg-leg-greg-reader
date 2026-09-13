@@ -1,0 +1,210 @@
+name: 3L Record 001 preview plan v6
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [3l/record-001-rewrite-audio]
+    paths:
+      - '.github/workflows/3l-record-001-preview-plan-v6.yml'
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3l/record-001-rewrite-audio
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            3l/manuscript/record-001.md
+            .github/workflows/3l-record-001-preview-plan-v6.yml
+
+      - name: Derive speaker-pure preview chunks
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, re
+
+          source_path = pathlib.Path('3l/manuscript/record-001.md')
+          raw = source_path.read_text()
+          # Audio body excludes markdown title headings only.
+          paras = [p.strip() for p in re.split(r'\n\s*\n', raw) if p.strip() and not p.strip().startswith('## ')]
+
+          dragon_short = {
+              '“Mm.”', '“Food has arrived.”', '“Is your name Dinner?”', '“Unfortunate.”',
+              '“Oh.”', '“I see.”', '“Then I am undone.”', '“Speak, master.”', '“Command me.”',
+              '“Good.”', '“For a moment I was concerned you were stupid.”', '“Yes. The concern remains.”',
+              '“What did you think my name would buy you?”', '“Thirty.”',
+              '“You traveled six days to negotiate thirty seconds.”', '“Twenty-eight.”',
+              '“Zero.”', '“You have already used the name.”', '“No.”',
+              '“You know what that is.”', '“Your horse?”', '“Ah.”',
+              '“How do you know the Line will fail?”', '“When?”', '“Where?”', '“You were not.”'
+          }
+          dragon_long_starts = (
+              '“No. And before you repeat the number',
+              '“You crossed half a kingdom on a leg',
+              '“Nine living things have known that name',
+              '“You believe I am examining what you know.',
+              '“The western Line has not failed during your lifetime.',
+              '“No.\n',
+          )
+
+          labeled = []
+          dragon_open = False
+          unknown_quoted = []
+          for idx, p in enumerate(paras):
+              if dragon_open:
+                  if not p.startswith('“'):
+                      raise SystemExit(f'Expected continued Dragon quote at paragraph {idx}: {p[:120]!r}')
+                  voice = 'normal'
+                  dragon_open = not p.endswith('”')
+              elif p.startswith('“'):
+                  if p in dragon_short or p.startswith(dragon_long_starts):
+                      voice = 'normal'
+                      dragon_open = not p.endswith('”')
+                  else:
+                      voice = 'deep'
+                      # Greg has no multi-paragraph direct-speech blocks in this record.
+                      if not p.endswith('”'):
+                          raise SystemExit(f'Unexpected multi-paragraph Greg quote at paragraph {idx}: {p[:160]!r}')
+              else:
+                  voice = 'deep'
+              labeled.append({'paragraph_index': idx, 'voice': voice, 'text': p})
+          if dragon_open:
+              raise SystemExit('Unclosed Dragon quotation at EOF')
+
+          # Audit all short quoted paragraphs that became Deep, so ownership is inspectable.
+          deep_quotes = [x['text'] for x in labeled if x['voice'] == 'deep' and x['text'].startswith('“')]
+
+          # Merge adjacent paragraphs owned by same voice into dramatic runs.
+          runs = []
+          for item in labeled:
+              if runs and runs[-1]['voice'] == item['voice']:
+                  runs[-1]['paragraphs'].append(item['text'])
+              else:
+                  runs.append({'voice': item['voice'], 'paragraphs': [item['text']]})
+
+          MAX_CHARS = 430
+          sentence_re = re.compile(r'(?<=[.!?])\s+(?=[“A-Z0-9])')
+          def split_long(text):
+              if len(text) <= MAX_CHARS:
+                  return [text]
+              sentences = sentence_re.split(text)
+              pieces, cur = [], ''
+              for sentence in sentences:
+                  if len(sentence) > MAX_CHARS:
+                      # Last-resort clause/space split, preserving every character except normalized whitespace.
+                      words = sentence.split()
+                      for word in words:
+                          cand = (cur + ' ' + word).strip()
+                          if cur and len(cand) > MAX_CHARS:
+                              pieces.append(cur)
+                              cur = word
+                          else:
+                              cur = cand
+                      continue
+                  cand = (cur + ' ' + sentence).strip()
+                  if cur and len(cand) > MAX_CHARS:
+                      pieces.append(cur)
+                      cur = sentence
+                  else:
+                      cur = cand
+              if cur:
+                  pieces.append(cur)
+              return pieces
+
+          chunks = []
+          dramatic_run = 0
+          for run in runs:
+              dramatic_run += 1
+              voice = run['voice']
+              technical = []
+              cur = ''
+              for para in run['paragraphs']:
+                  for piece in split_long(para):
+                      cand = (cur + '\n\n' + piece).strip() if cur else piece
+                      if cur and len(cand) > MAX_CHARS:
+                          technical.append(cur)
+                          cur = piece
+                      else:
+                          cur = cand
+              if cur:
+                  technical.append(cur)
+              for i, text in enumerate(technical, start=1):
+                  chunks.append({
+                      'id': f'{len(chunks)+1:03d}',
+                      'dramatic_run': dramatic_run,
+                      'part_in_run': i,
+                      'voice': voice,
+                      'text': text,
+                      'chars': len(text),
+                  })
+
+          # Pauses: 80ms inside same dramatic run; 280ms at ordinary speaker/run boundaries.
+          # Give a few known major reveals more room.
+          major_endings = {
+              'I am trying to determine what kind of cause produces you.”': 700,
+              '“How do you know the Line will fail?”': 700,
+              '“When?”': 900,
+              '“Forty years from now.”': 900,
+              '“Where?”': 900,
+              '“I was there.”': 1000,
+              '“You were not.”': 1000,
+          }
+          for i, chunk in enumerate(chunks):
+              if i + 1 < len(chunks) and chunks[i+1]['dramatic_run'] == chunk['dramatic_run']:
+                  pause = 80
+              else:
+                  pause = 280
+              stripped = chunk['text'].strip()
+              for ending, ms in major_endings.items():
+                  if stripped.endswith(ending):
+                      pause = ms
+              chunk['pause_after_ms'] = pause
+
+          # Speaker/shape checks.
+          if any(c['chars'] > MAX_CHARS for c in chunks):
+              raise SystemExit('Technical chunk exceeds preview ceiling')
+          dragon_runs = [r for r in runs if r['voice'] == 'normal']
+          if len(dragon_runs) < 20:
+              raise SystemExit(f'Unexpectedly few Dragon runs: {len(dragon_runs)}')
+          if not any('A prophet watches the future.' in c['text'] and c['voice'] == 'normal' for c in chunks):
+              raise SystemExit('Dragon diagnosis ownership check failed')
+          if not any('Not this time.' in c['text'] and c['voice'] == 'deep' for c in chunks):
+              raise SystemExit('Final Greg ownership check failed')
+
+          plan = {
+              'schema_version': 1,
+              'record': '001',
+              'title': 'THE PETITIONER',
+              'source_path': str(source_path),
+              'source_sha256': hashlib.sha256(source_path.read_bytes()).hexdigest(),
+              'greg_voice': 'deep',
+              'dragon_voice': 'normal',
+              'dragon_dsp': 'none',
+              'max_preview_chars': MAX_CHARS,
+              'final_tail_ms': 2000,
+              'paragraphs': len(paras),
+              'dramatic_runs': len(runs),
+              'dragon_dramatic_runs': len(dragon_runs),
+              'technical_chunks': len(chunks),
+              'deep_quote_audit': deep_quotes,
+              'chunks': chunks,
+          }
+          out = pathlib.Path('/tmp/record-001-preview-plan-v6.json')
+          out.write_text(json.dumps(plan, indent=2, ensure_ascii=False) + '\n')
+          print(json.dumps({k: plan[k] for k in ['paragraphs','dramatic_runs','dragon_dramatic_runs','technical_chunks']}, indent=2))
+          print('DEEP QUOTES:')
+          for q in deep_quotes:
+              print(q)
+          print('CHUNKS:')
+          for c in chunks:
+              print(c['id'], c['voice'], f"run={c['dramatic_run']}", f"chars={c['chars']}", repr(c['text'][:90]))
+          PY
+
+      - name: Upload capture plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-preview-plan-v6
+          path: /tmp/record-001-preview-plan-v6.json
+          if-no-files-found: error
