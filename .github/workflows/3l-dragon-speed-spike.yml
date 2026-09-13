@@ -1,4 +1,4 @@
-name: 3L Dragon Speed Spike
+name: 3L Dragon Pitch Spike
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      - name: Download source and render speed variants
+      - name: Download source and render pitch variants
         shell: bash
         run: |
           set -euo pipefail
@@ -31,13 +31,29 @@ jobs:
           print(json.load(open('3l/experiments/dragon-speed/source.json'))['preview_url'])
           PY
           )
-          curl -fL --retry 4 --retry-delay 2 -o /tmp/dragon-fancy-100.mp3 "$URL"
-          ffmpeg -y -i /tmp/dragon-fancy-100.mp3 -vn -c:a libmp3lame -b:a 192k 3l/experiments/dragon-speed/output/dragon-fancy-100.mp3
-          ffmpeg -y -i /tmp/dragon-fancy-100.mp3 -filter:a "atempo=0.90" -vn -c:a libmp3lame -b:a 192k 3l/experiments/dragon-speed/output/dragon-fancy-090.mp3
-          ffmpeg -y -i /tmp/dragon-fancy-100.mp3 -filter:a "atempo=0.82" -vn -c:a libmp3lame -b:a 192k 3l/experiments/dragon-speed/output/dragon-fancy-082.mp3
-          for f in 3l/experiments/dragon-speed/output/*.mp3; do
+          curl -fL --retry 4 --retry-delay 2 -o /tmp/dragon-fancy-source.mp3 "$URL"
+
+          if ! ffmpeg -hide_banner -filters 2>/dev/null | grep -q rubberband; then
+            echo "ffmpeg rubberband filter unavailable on runner"
+            exit 1
+          fi
+
+          ffmpeg -y -i /tmp/dragon-fancy-source.mp3 -vn -c:a libmp3lame -b:a 192k \
+            3l/experiments/dragon-speed/output/dragon-fancy-raw.mp3
+          ffmpeg -y -i /tmp/dragon-fancy-source.mp3 \
+            -filter:a "rubberband=pitch=0.890899:tempo=1:formant=preserved:pitchq=quality" \
+            -vn -c:a libmp3lame -b:a 192k \
+            3l/experiments/dragon-speed/output/dragon-fancy-minus2.mp3
+          ffmpeg -y -i /tmp/dragon-fancy-source.mp3 \
+            -filter:a "rubberband=pitch=0.793701:tempo=1:formant=preserved:pitchq=quality" \
+            -vn -c:a libmp3lame -b:a 192k \
+            3l/experiments/dragon-speed/output/dragon-fancy-minus4.mp3
+
+          for f in 3l/experiments/dragon-speed/output/dragon-fancy-{raw,minus2,minus4}.mp3; do
+            printf '%s  ' "$f"
             ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$f"
           done
+          sha256sum 3l/experiments/dragon-speed/output/dragon-fancy-{raw,minus2,minus4}.mp3
 
       - name: Commit audition files
         shell: bash
@@ -46,12 +62,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add 3l/experiments/dragon-speed/output
-          git commit -m "Render 3L dragon speed audition" || exit 0
+          git commit -m "Render 3L dragon pitch audition" || exit 0
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin HEAD:"$GITHUB_REF_NAME"
 
       - name: Upload audition artifact
         uses: actions/upload-artifact@v4
         with:
-          name: 3l-dragon-speed-audition
-          path: 3l/experiments/dragon-speed/output/*.mp3
+          name: 3l-dragon-pitch-audition
+          path: |
+            3l/experiments/dragon-speed/output/dragon-fancy-raw.mp3
+            3l/experiments/dragon-speed/output/dragon-fancy-minus2.mp3
+            3l/experiments/dragon-speed/output/dragon-fancy-minus4.mp3
