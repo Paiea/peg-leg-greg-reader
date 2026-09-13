@@ -11,22 +11,18 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: List audio page scripts and inspect page-specific bundle
+      - name: Render generated audio page in Chrome
         run: |
           set -euo pipefail
-          base='https://www.aidocmaker.com'
-          curl -L --fail --max-time 10 "$base/g0/audio?name=6f0f049b390b474a92c5caa2cf588cfc" -o /tmp/page.html
-          grep -Eo '<script[^>]+src="[^"]+\.js[^"]*"' /tmp/page.html \
-            | sed -E 's/.*src="([^"]+)".*/\1/' \
-            | sort -u | tee /tmp/scripts.txt
-          echo '--- likely page scripts ---'
-          grep -Ei '(audio|appCode|pages)' /tmp/scripts.txt || true
-          while IFS= read -r src; do
-            if echo "$src" | grep -Eqi '(audio|appCode|pages)'; then
-              case "$src" in http*) u="$src" ;; *) u="$base$src" ;; esac
-              echo "--- $u ---"
-              curl -L --fail --silent --max-time 10 "$u" \
-                | grep -Eo '.{0,240}(audio\?name|storage\.googleapis|preview_url|audioUrl|audio_url|download.{0,60}audio|/api/.{0,160}audio|name.{0,80}fetch).{0,500}' \
-                | head -120 || true
-            fi
-          done < /tmp/scripts.txt
+          chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          echo "chrome=$chrome"
+          url='https://www.aidocmaker.com/g0/audio?name=8715afbfdd81403aa72071a4d3440931'
+          "$chrome" --headless --no-sandbox --disable-gpu --virtual-time-budget=15000 --dump-dom "$url" > /tmp/rendered.html 2>/tmp/chrome.log || true
+          echo '--- audio/media URLs in rendered DOM ---'
+          grep -Eo 'https:[^"<> ]+(storage\.googleapis\.com|\.mp3|\.wav|\.m4a)[^"<> ]*' /tmp/rendered.html | sort -u | head -100 || true
+          echo '--- audioUrl context ---'
+          grep -Eoi '.{0,300}(audioUrl|audio_url|storage\.googleapis|\.mp3).{0,600}' /tmp/rendered.html | head -80 || true
+          echo '--- visible text markers ---'
+          grep -Eoi '.{0,120}(No\. And before you repeat|download|generating|voiceover).{0,220}' /tmp/rendered.html | head -40 || true
+          echo '--- chrome stderr tail ---'
+          tail -40 /tmp/chrome.log || true
