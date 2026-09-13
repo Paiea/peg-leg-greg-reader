@@ -19,7 +19,7 @@ DRAGON_ATTR_RE = re.compile(
     re.IGNORECASE,
 )
 DRAGON_NEXT_RE = re.compile(
-    r"\b(?:Ithar|the dragon|dragon)\b.*\b(?:continued|spoke|asked|said|answered|replied)\b",
+    r"\b(?:Ithar|the dragon|dragon)\b.*(?:\b(?:continued|spoke|asked|said|answered|replied)\b|\btook the floor\b)",
     re.IGNORECASE,
 )
 GREG_NEXT_RE = re.compile(
@@ -57,21 +57,28 @@ def _attributed_speaker(paragraph: str) -> str | None:
     return None
 
 
+def _resolve_quote_speaker(
+    paragraph: str,
+    last_speaker: str | None,
+    next_hint: str | None,
+) -> str:
+    explicit = _attributed_speaker(paragraph)
+    if explicit is not None:
+        return explicit
+    if next_hint in {"greg", "dragon"}:
+        return next_hint
+    if last_speaker is None:
+        return "greg"
+    return "dragon" if last_speaker == "greg" else "greg"
+
+
 def _split_semantic_segments(paragraph: str, last_speaker: str | None, next_hint: str | None) -> tuple[list[dict], str | None]:
     """Split narration vs quoted speech while resolving cave dialogue turns."""
     matches = list(QUOTE_RE.finditer(paragraph))
     if not matches:
         return [{"role": "greg", "text": paragraph}], None
 
-    explicit = _attributed_speaker(paragraph)
-    quote_speaker = explicit
-    if quote_speaker is None:
-        if next_hint in {"greg", "dragon"}:
-            quote_speaker = next_hint
-        elif last_speaker is None:
-            quote_speaker = "greg"
-        else:
-            quote_speaker = "dragon" if last_speaker == "greg" else "greg"
+    quote_speaker = _resolve_quote_speaker(paragraph, last_speaker, next_hint)
 
     segments: list[dict] = []
     cursor = 0
@@ -98,15 +105,62 @@ def _collapse_segments(segments: list[dict]) -> list[dict]:
     return collapsed
 
 
+def _sustained_quote_segments(paragraph: str, role: str) -> tuple[list[dict], bool]:
+    """Route one paragraph inside an already-open multi-paragraph quotation.
+
+    Standard prose opens each continued paragraph with a new left smart quote and
+    supplies a right smart quote only on the final paragraph. Everything through
+    that final closing mark belongs to the same speaker. Any text after it returns
+    to Greg narration.
+    """
+    close_at = paragraph.find("”")
+    if close_at < 0:
+        return [{"role": role, "text": paragraph}], True
+
+    close_at += 1
+    segments = [{"role": role, "text": paragraph[:close_at]}]
+    if close_at < len(paragraph):
+        segments.append({"role": "greg", "text": paragraph[close_at:]})
+    return _collapse_segments(segments), False
+
+
 def classify_paragraphs(text: str) -> list[dict]:
     paragraphs = [part.strip() for part in re.split(r"\n\s*\n", text.strip()) if part.strip()]
     rows: list[dict] = []
     last_speaker: str | None = None
     next_hint: str | None = None
+    open_quote_role: str | None = None
 
     for paragraph in paragraphs:
-        segments, spoken = _split_semantic_segments(paragraph, last_speaker, next_hint)
         explicit = _attributed_speaker(paragraph)
+
+        if open_quote_role is not None and paragraph.startswith("“"):
+            segments, remains_open = _sustained_quote_segments(paragraph, open_quote_role)
+            spoken = open_quote_role
+            role = spoken
+            last_speaker = spoken
+            next_hint = None
+            if not remains_open:
+                open_quote_role = None
+            rows.append({"role": role, "text": paragraph, "segments": segments, "explicit": explicit})
+            continue
+
+        if paragraph.startswith("“") and "”" not in paragraph:
+            spoken = _resolve_quote_speaker(paragraph, last_speaker, next_hint)
+            open_quote_role = spoken
+            last_speaker = spoken
+            next_hint = None
+            rows.append(
+                {
+                    "role": spoken,
+                    "text": paragraph,
+                    "segments": [{"role": spoken, "text": paragraph}],
+                    "explicit": explicit,
+                }
+            )
+            continue
+
+        segments, spoken = _split_semantic_segments(paragraph, last_speaker, next_hint)
         if spoken is not None:
             last_speaker = spoken
             next_hint = None
@@ -150,6 +204,10 @@ def apply_quote_role_overrides(rows: list[dict], overrides: dict[int, str]) -> l
         paragraph = row["text"]
         matches = list(QUOTE_RE.finditer(paragraph))
         if not matches:
+            # Multi-paragraph quote rows are already semantically classified and
+            # must not be reset to Greg merely because they have no local closing mark.
+            if paragraph.startswith("“") and row.get("role") in {"greg", "dragon"}:
+                continue
             row["role"] = "greg"
             row["segments"] = [{"role": "greg", "text": paragraph}]
             continue
@@ -229,11 +287,13 @@ def _split_oversize(item: dict, max_chars: int) -> list[dict]:
             cut = max_chars
         piece = remaining[:cut]
         remaining = remaining[cut:]
-        segs, _ = _split_semantic_segments(piece, None, item["role"] if item["role"] in {"greg", "dragon"} else None)
-        pieces.append({"role": item["role"], "text": piece, "segments": segs, "explicit": item.get("explicit")})
+        # Oversize pieces inherit the already-resolved semantic owner. Re-running
+        # quote alternation here can corrupt sustained Dragon territories.
+        role = item["role"] if item["role"] in {"greg", "dragon"} else "greg"
+        pieces.append({"role": role, "text": piece, "segments": [{"role": role, "text": piece}], "explicit": item.get("explicit")})
     if remaining:
-        segs, _ = _split_semantic_segments(remaining, None, item["role"] if item["role"] in {"greg", "dragon"} else None)
-        pieces.append({"role": item["role"], "text": remaining, "segments": segs, "explicit": item.get("explicit")})
+        role = item["role"] if item["role"] in {"greg", "dragon"} else "greg"
+        pieces.append({"role": role, "text": remaining, "segments": [{"role": role, "text": remaining}], "explicit": item.get("explicit")})
     return pieces
 
 
