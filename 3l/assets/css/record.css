@@ -1,0 +1,81 @@
+.record-player {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.record-player-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+.record-player h2 {
+  margin: .25rem 0 0;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+}
+
+.record-player p {
+  margin: .5rem 0 0;
+  color: var(--muted);
+}
+
+.record-player audio {
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.record-player .page-actions {
+  margin-top: 1rem;
+}
+
+.record-player-note {
+  font-family: var(--ui);
+  font-size: .78rem;
+  color: var(--faint);
+}
+
+.reading-copy {
+  font-size: 1.08rem;
+  line-height: 1.78;
+}
+
+.reading-copy p {
+  margin: 0 0 1.15rem;
+}
+
+.reading-status {
+  margin: 2.4rem auto 0;
+  max-width: 720px;
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: .82rem;
+}
+
+.audio-record-card {
+  margin-top: 2rem;
+  padding: 1.6rem;
+  border: 1px solid var(--line);
+  background: var(--panel-deep);
+}
+
+.audio-record-card h2 {
+  margin: .25rem 0 .5rem;
+  font-weight: 400;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.audio-record-card audio {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 760px) {
+  .record-player-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
