@@ -5,5 +5,7 @@
   "context_id": "d53f086b9a64427ba8aa22ca77580def",
   "audio_url": "https://www.aidocmaker.com/g0/audio?name=d53f086b9a64427ba8aa22ca77580def",
   "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a2af6461-e2f2-48e1-9573-b1c07fff2396.mp3",
-  "purpose": "transport spike for the full chapter render before final two-voice publication"
+  "publication_mode": "provider_hosted_full_with_inline_preview",
+  "status": "first_voice_specimen",
+  "note": "The provider exposes the full generated chapter through its player page rather than a direct downloadable media URL. The inline preview is a direct MP3. A future two-voice assembly may replace this publication without changing canon prose."
 }
