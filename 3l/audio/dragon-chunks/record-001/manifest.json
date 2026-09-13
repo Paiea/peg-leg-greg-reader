@@ -1,0 +1,29 @@
+{
+  "record": 1,
+  "target_words": 230,
+  "max_words": 270,
+  "dragon_turn_count": 112,
+  "chunks": [
+    {
+      "order": 1,
+      "path": "3l/audio/dragon-chunks/record-001/01.txt",
+      "turn_count": 49,
+      "word_count": 231,
+      "char_count": 1419
+    },
+    {
+      "order": 2,
+      "path": "3l/audio/dragon-chunks/record-001/02.txt",
+      "turn_count": 41,
+      "word_count": 230,
+      "char_count": 1406
+    },
+    {
+      "order": 3,
+      "path": "3l/audio/dragon-chunks/record-001/03.txt",
+      "turn_count": 22,
+      "word_count": 180,
+      "char_count": 1089
+    }
+  ]
+}
