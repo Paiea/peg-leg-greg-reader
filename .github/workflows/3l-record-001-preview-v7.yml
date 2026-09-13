@@ -1,0 +1,125 @@
+name: 3L Record 001 past-headspace v7
+
+on:
+  push:
+    branches: [3l/record-001-past-headspace-v7]
+    paths:
+      - '.github/workflows/3l-record-001-preview-v7.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3l/record-001-past-headspace-v7
+          fetch-depth: 20
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
+      - name: Bind three new Deep opening captures
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          assets = Path('3l/audio/experiments/record-001-preview-v7-assets.txt')
+          lines = assets.read_text().splitlines()
+          replacements = iter([
+              '1f35efc9-bb51-4433-9abf-82479a55060d.mp3',
+              '23f81227-3387-405b-8f28-76bad6d05762.mp3',
+              '51feeec5-45cf-441a-a259-7994827887f5.mp3',
+          ])
+          missing = [i for i, x in enumerate(lines) if x.strip() == 'MISSING']
+          assert missing == [0, 1, 3], missing
+          for i in missing:
+              lines[i] = next(replacements)
+          assets.write_text('\n'.join(lines) + '\n')
+          assert len(lines) == 129
+          assert 'MISSING' not in lines
+          capture_map = {
+              'schema_version': 1,
+              'record': '001',
+              'voice': 'deep',
+              'captures': [
+                  {'chunk_id':'001','context_id':'4ae86ec0d02c46fa9ea46ed9ca43b9cb','asset_id':'1f35efc9-bb51-4433-9abf-82479a55060d.mp3'},
+                  {'chunk_id':'002','context_id':'1a98e69a2bf141df96e7ee90ab38f3ba','asset_id':'23f81227-3387-405b-8f28-76bad6d05762.mp3'},
+                  {'chunk_id':'004','context_id':'12362592303d4dfd9b5f3a60b116f2bd','asset_id':'51feeec5-45cf-441a-a259-7994827887f5.mp3'},
+              ],
+          }
+          Path('3l/audio/experiments/record-001-preview-v7-new-captures.json').write_text(json.dumps(capture_map, indent=2) + '\n')
+          PY
+
+      - name: Fetch proven generic v6 assembler
+        run: |
+          git fetch origin 3l/record-001-rewrite-audio --depth=1
+          git show FETCH_HEAD:scripts/assemble_3l_preview_audio.py > /tmp/assemble_3l_preview_audio.py
+
+      - name: Assemble v7 from locked plan and bound assets
+        run: |
+          python /tmp/assemble_3l_preview_audio.py \
+            --plan 3l/audio/experiments/record-001-preview-v7-plan.json \
+            --assets 3l/audio/experiments/record-001-preview-v7-assets.txt \
+            --output 3l/assets/audio/record-001-headspace-v7.mp3 \
+            --receipt 3l/audio/experiments/record-001-preview-v7-receipt.json
+
+      - name: Verify v7 independently
+        run: |
+          test -s 3l/assets/audio/record-001-headspace-v7.mp3
+          test "$(wc -l < 3l/audio/experiments/record-001-preview-v7-assets.txt)" -eq 129
+          ! grep -q '^MISSING$' 3l/audio/experiments/record-001-preview-v7-assets.txt
+          ffprobe -v error -show_entries format=duration,size -of json 3l/assets/audio/record-001-headspace-v7.mp3
+          sha256sum 3l/assets/audio/record-001-headspace-v7.mp3
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          r = json.loads(Path('3l/audio/experiments/record-001-preview-v7-receipt.json').read_text())
+          p = json.loads(Path('3l/audio/experiments/record-001-preview-v7-plan.json').read_text())
+          source = Path('3l/manuscript/record-001.md')
+          source_sha = hashlib.sha256(source.read_bytes()).hexdigest()
+          assert p['source_sha256'] == source_sha
+          assert r['source_sha256'] == source_sha
+          assert r['asset_count'] == 129
+          assert r['verified_asset_count'] == 129
+          assert r['greg_voice'] == 'deep'
+          assert r['dragon_voice'] == 'normal'
+          assert r['dragon_dsp'] == 'none'
+          assert r['output_duration_s'] > 60
+          assert r['output_bytes'] > 100000
+          text = source.read_text()
+          assert text.startswith('## RECORD 001\n\n## THE PETITIONER\n\nThe dragon yawned while I was explaining how many people were going to die.')
+          assert '“Ithar.”' in text
+          assert '“Thirty seconds.”' in text
+          assert text.rstrip().endswith('“Not this time.”')
+          print(json.dumps(r, indent=2))
+          PY
+
+      - name: Upload listening artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-headspace-v7
+          path: |
+            3l/assets/audio/record-001-headspace-v7.mp3
+            3l/audio/experiments/record-001-preview-v7-receipt.json
+            3l/audio/experiments/record-001-preview-v7-new-captures.json
+          if-no-files-found: error
+
+      - name: Commit verified v7 audio evidence
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add \
+            3l/audio/experiments/record-001-preview-v7-assets.txt \
+            3l/audio/experiments/record-001-preview-v7-new-captures.json \
+            3l/audio/experiments/record-001-preview-v7-receipt.json \
+            3l/assets/audio/record-001-headspace-v7.mp3
+          git commit -m '3L audio: assemble verified Record 001 headspace v7'
+          git fetch origin 3l/record-001-past-headspace-v7 --depth=20
+          git rebase origin/3l/record-001-past-headspace-v7
+          git push origin HEAD:3l/record-001-past-headspace-v7
