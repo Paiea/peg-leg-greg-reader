@@ -97,7 +97,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn('class="audio-record-card"', audio)
         self.assertNotIn('class="audio-record-art"', audio)
         self.assertIn('class="audio-player"', audio)
-        self.assertIn('../assets/audio/record-001.mp3', audio)
+        self.assertIn('../assets/audio/record-001-headspace-v6.mp3', audio)
         self.assertIn('../assets/audio/record-002.mp3', audio)
         self.assertIn('../assets/audio/record-003.mp3', audio)
         self.assertIn('href="../records/001.html"', audio)
@@ -137,7 +137,7 @@ class ThirdLegSiteTests(unittest.TestCase):
 
         self.assertIn("LISTENING ARCHIVE", audio)
         self.assertIn("THE PETITIONER", audio)
-        self.assertIn('../assets/audio/record-001.mp3', audio)
+        self.assertIn('../assets/audio/record-001-headspace-v6.mp3', audio)
         self.assertNotIn("No audio records have been published yet.", audio)
         self.assertNotIn("autoplay", audio.lower())
 
