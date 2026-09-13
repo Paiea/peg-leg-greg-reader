@@ -29,22 +29,61 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      - name: Download full provider render
+      - name: Resolve full provider media URL
         shell: bash
         run: |
           set -euo pipefail
-          url=$(python - <<'PY'
+          page_url=$(python - <<'PY'
           import json
           print(json.load(open('3l/audio/record-001/full-voice-capture.json'))['audio_url'])
           PY
           )
+          curl -fL --retry 4 --retry-delay 2 -o /tmp/player.html "$page_url"
+          echo '=== player type ==='
+          file /tmp/player.html
+          echo '=== candidate absolute URLs ==='
+          python - <<'PY'
+          import html, re
+          text=html.unescape(open('/tmp/player.html', encoding='utf-8').read())
+          urls=[]
+          for raw in re.findall(r'https?://[^"\'<>\\ ]+', text):
+              u=raw.replace('\\u0026','&').replace('\\/','/')
+              if u not in urls:
+                  urls.append(u)
+          for u in urls:
+              if any(k in u.lower() for k in ('audio','mp3','storage','google','blob','media')):
+                  print(u)
+          print('candidate_count', len(urls))
+          PY
+          echo '=== mp3/storage snippets ==='
+          grep -Eo '.{0,160}(mp3|storage\.googleapis|audio_url|download_url|preview_url).{0,240}' /tmp/player.html | head -80 || true
+
+      - name: Resolve, download, and verify media
+        shell: bash
+        run: |
+          set -euo pipefail
           mkdir -p 3l/audio/assets 3l/audio/record-001/verification
-          curl -fL --retry 4 --retry-delay 2 -D /tmp/headers.txt -o /tmp/record-001-provider "$url"
-          echo '=== response headers ==='
-          cat /tmp/headers.txt
-          echo '=== downloaded file ==='
+          media_url=$(python - <<'PY'
+          import html, re
+          text=html.unescape(open('/tmp/player.html', encoding='utf-8').read())
+          candidates=[]
+          for raw in re.findall(r'https?://[^"\'<>\\ ]+', text):
+              u=raw.replace('\\u0026','&').replace('\\/','/')
+              if u not in candidates:
+                  candidates.append(u)
+          preferred=[u for u in candidates if ('.mp3' in u.lower() or 'storage.googleapis.com' in u.lower()) and 'mcp-preview' not in u.lower()]
+          if not preferred:
+              raise SystemExit('no direct full-media URL found in player HTML')
+          print(preferred[0])
+          PY
+          )
+          echo "resolved host: $(python - <<PY
+          from urllib.parse import urlparse
+          print(urlparse('''$media_url''').netloc)
+          PY
+          )"
+          curl -fL --retry 4 --retry-delay 2 -o /tmp/record-001-provider "$media_url"
           file /tmp/record-001-provider
-          ls -lh /tmp/record-001-provider
           ffprobe -v error -show_entries format=format_name,duration,size -of json /tmp/record-001-provider | tee 3l/audio/record-001/verification/provider-ffprobe.json
           cp /tmp/record-001-provider 3l/audio/assets/record-001-greg-test.mp3
 
@@ -65,5 +104,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add 3l/audio/assets/record-001-greg-test.mp3 3l/audio/record-001/verification
           git commit -m 'audio: capture 3L Record 001 Greg test render' || exit 0
-          git pull --rebase origin "$GITHUB_HEAD_REF"
-          git push origin HEAD:"$GITHUB_HEAD_REF"
+          branch="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
+          git pull --rebase origin "$branch"
+          git push origin HEAD:"$branch"
