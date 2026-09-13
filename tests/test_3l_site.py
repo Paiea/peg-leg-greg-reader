@@ -23,7 +23,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn("THE THIRD LEG", html)
         self.assertIn("A Record of Two Lives", html)
         self.assertIn("BEGIN THE ACCOUNT", html)
-        self.assertIn("THE BARGAINER", html)
+        self.assertIn("THE PETITIONER", html)
         self.assertIn("He came to ask something of a dragon.", html)
         self.assertIn("The price was an explanation.", html)
         self.assertIn('class="entry-panel"', html)
@@ -50,14 +50,39 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn('href="../3l/"', r2_home)
         self.assertNotIn(">R3<", r2_home)
 
-    def test_record_and_audio_shells_are_safe_before_content_exists(self):
-        record = (ROOT / "3l" / "records" / "001.html").read_text(encoding="utf-8")
-        audio = (ROOT / "3l" / "audio" / "index.html").read_text(encoding="utf-8")
+    def test_record_001_is_published_for_listen_and_read(self):
+        record_path = ROOT / "3l" / "records" / "001.html"
+        audio_path = ROOT / "3l" / "audio" / "index.html"
+        canon_path = ROOT / "3l" / "manuscript" / "record-001.md"
+        asset_path = ROOT / "3l" / "assets" / "audio" / "record-001.mp3"
+
+        for path in (record_path, audio_path, canon_path, asset_path):
+            self.assertTrue(path.exists(), path)
+
+        record = record_path.read_text(encoding="utf-8")
+        audio = audio_path.read_text(encoding="utf-8")
+        canon = canon_path.read_text(encoding="utf-8")
+
         self.assertIn("RECORD 001", record)
-        self.assertIn("THE BARGAINER", record)
-        self.assertIn("The account is being prepared.", record)
+        self.assertIn("THE PETITIONER", record)
+        self.assertIn('../assets/audio/record-001.mp3', record)
+        self.assertIn('../manuscript/record-001.md', record)
+        self.assertIn('controls', record)
+        self.assertNotIn("autoplay", record.lower())
+        self.assertNotIn("The account is being prepared.", record)
+
         self.assertIn("LISTENING ARCHIVE", audio)
-        self.assertIn("No audio records have been published yet.", audio)
+        self.assertIn("THE PETITIONER", audio)
+        self.assertIn('../assets/audio/record-001.mp3', audio)
+        self.assertNotIn("No audio records have been published yet.", audio)
+        self.assertNotIn("autoplay", audio.lower())
+
+        self.assertIn("## RECORD 001", canon)
+        self.assertIn("## THE PETITIONER", canon)
+        self.assertIn("The dragon yawns while I am explaining how many people are going to die.", canon)
+        self.assertTrue(canon.rstrip().endswith("“Not this time.”"))
+        self.assertNotIn("—", canon)
+        self.assertGreater(asset_path.stat().st_size, 100_000)
 
 
 if __name__ == "__main__":
