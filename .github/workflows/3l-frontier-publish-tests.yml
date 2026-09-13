@@ -3,10 +3,11 @@ name: 3L Frontier Publish Tests
 on:
   push:
     branches:
-      - 3l/dialogue-territory-rebuild-002-010
+      - '3l/**'
       - main
     paths:
       - '3l/**'
+      - 'scripts/build_3l_frontier.py'
       - 'scripts/build_3l_record_pages.py'
       - 'scripts/plan_3l_short_dual_render.py'
       - 'scripts/build_3l_parallel_audio_work_order.py'
@@ -36,6 +37,7 @@ jobs:
       - name: Compile coordinator scripts
         run: |
           python -m py_compile \
+            scripts/build_3l_frontier.py \
             scripts/build_3l_record_pages.py \
             scripts/build_3l_parallel_audio_work_order.py \
             scripts/reconcile_3l_parallel_audio_workers.py \
