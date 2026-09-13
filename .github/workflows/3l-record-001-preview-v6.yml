@@ -77,4 +77,9 @@ jobs:
             exit 0
           fi
           git commit -m '3L audio: assemble Record 001 headspace v6'
+          # The branch may advance while audio renders because the production
+          # runbook/metadata can be committed independently. Rebase the audio
+          # commit onto current authority before publishing rather than racing it.
+          git fetch origin 3l/record-001-rewrite-audio --depth=20
+          git rebase origin/3l/record-001-rewrite-audio
           git push origin HEAD:3l/record-001-rewrite-audio
