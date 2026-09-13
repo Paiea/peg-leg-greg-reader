@@ -1,6 +1,6 @@
 # Record 001 Long-Turn Dragon v3 Recipe
 
-Status: experimental listening candidate. Do not promote to main authority until listen-back approval.
+Status: experimental listening candidate. The performance source was converted to past tense after the current captures and MP3 were rendered. Existing capture URLs, candidate MP3, and verification receipt are therefore pre-tense artifacts and must be regenerated before promotion.
 
 ## Why this exists
 
@@ -12,6 +12,7 @@ Write and capture speaker-pure audio.
 
 - Greg narration and Greg dialogue use `deep`.
 - Dragon uses `fancy`.
+- Greg narration, action, observation, and internal framing use past tense. Direct dialogue keeps the tense natural to what the speaker is saying.
 - Dragon should speak in fewer, longer turns.
 - Between Dragon turns, use Greg reaction, silence, staring, head movement, eye movement, posture, or other nonverbal scene behavior instead of unnecessary one-line ping-pong.
 - Preserve short exchanges when they materially improve the scene, but do not make them the default rhythm.
@@ -51,23 +52,25 @@ For capture, use identical `transcript` and `preview_transcript` text so the dow
 
 ## Record 001 production corrections
 
-The capture manifest is authoritative for this experiment where it differs from the prose spike:
+The capture manifest is authoritative for the pre-tense listening candidate where it differs from the prose spike:
 
 - Block 006 does not claim the Dragon already knows about the horse.
 - Block 007 begins with Greg's body and Line explanation. Horse material remains later in Block 016.
 - `The dragon goes still.` is Greg-owned nonverbal narration at the end of Block 018.
 - Block 019 contains only the Dragon speech `When?`.
 
+Before the next render, regenerate every capture from the current past-tense performance source rather than reusing the existing preview URLs.
+
 ## Files
 
 - performance spike: `3l/performance/record-001.audio-v3-long-turn.md`
-- exact capture binding + pauses: `3l/audio/experiments/record-001-long-turn-v3-captures.json`
+- pre-tense capture binding + pauses: `3l/audio/experiments/record-001-long-turn-v3-captures.json`
 - deterministic assembler: `scripts/build_3l_long_turn_candidate.py`
 - disposable build workflow: `.github/workflows/3l-record-001-long-turn-v3.yml`
-- listening candidate: `3l/assets/audio/record-001-long-turn-v3.mp3`
-- verification receipt: `3l/audio/verification/record-001-long-turn-v3.json`
+- pre-tense listening candidate: `3l/assets/audio/record-001-long-turn-v3.mp3`
+- pre-tense verification receipt: `3l/audio/verification/record-001-long-turn-v3.json`
 
-## Verified build shape
+## Verified pre-tense build shape
 
 - 26 dramatic blocks
 - 36 speaker-pure capture files
@@ -77,4 +80,4 @@ The capture manifest is authoritative for this experiment where it differs from 
 - 0 mixed-speaker clips
 - 0 waveform speaker-boundary inference
 
-If listen-back succeeds, this pattern should become the starting production shape for future 3L records. If it fails, keep it labeled as an experiment and change the performance layer before building more infrastructure.
+If the past-tense listen-back succeeds after recapture, this pattern should become the starting production shape for future 3L records. If it fails, keep it labeled as an experiment and change the performance layer before building more infrastructure.
