@@ -19,6 +19,7 @@ def write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+# This script is intentionally one-shot and branch-scoped for the 002-010 rebuild.
 # 004: preserve the remembered-life chapter and add one clean Ithar checkpoint.
 path, text = read("004")
 anchor = "It was the assumption that I still wanted the same life."
