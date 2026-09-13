@@ -1,0 +1,2589 @@
+{
+  "record": "010",
+  "title": "THE STRANGER",
+  "source": "3l/manuscript/record-010.md",
+  "method": "preview-safe-short-dual-render",
+  "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
+  "max_chars": 500,
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "quote_roles_locked": false,
+  "dragon_routing_locked": true,
+  "dragon_prefixes": [
+    "“You never told Bren. You had information about him and chose not to use it.",
+    "“You had already observed events changing. Halden survived. North Vey did not rupture."
+  ],
+  "quote_count": 75,
+  "chunk_count": 25,
+  "chunks": [
+    {
+      "index": 1,
+      "transcript": "Bren Calder walked into East Four eight years after I failed to meet him.\n\nI knew his walk before I saw his face.\n\nThat is a strange thing to remember about a man.\n\nNot his voice.\n\nNot the scar over his right eye.\n\nNot the way he laughed when something hurt.\n\nThe walk.\n\nLeft foot turned out slightly because a crawler had crushed the ankle when we were twenty-two.\n\nExcept his left foot did not turn out.\n\nNot this time.",
+      "char_count": 421,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 73,
+          "role": "greg",
+          "text": "Bren Calder walked into East Four eight years after I failed to meet him."
+        },
+        {
+          "start": 75,
+          "end": 113,
+          "role": "greg",
+          "text": "I knew his walk before I saw his face."
+        },
+        {
+          "start": 115,
+          "end": 163,
+          "role": "greg",
+          "text": "That is a strange thing to remember about a man."
+        },
+        {
+          "start": 165,
+          "end": 179,
+          "role": "greg",
+          "text": "Not his voice."
+        },
+        {
+          "start": 181,
+          "end": 213,
+          "role": "greg",
+          "text": "Not the scar over his right eye."
+        },
+        {
+          "start": 215,
+          "end": 258,
+          "role": "greg",
+          "text": "Not the way he laughed when something hurt."
+        },
+        {
+          "start": 260,
+          "end": 269,
+          "role": "greg",
+          "text": "The walk."
+        },
+        {
+          "start": 271,
+          "end": 365,
+          "role": "greg",
+          "text": "Left foot turned out slightly because a crawler had crushed the ankle when we were twenty-two."
+        },
+        {
+          "start": 367,
+          "end": 405,
+          "role": "greg",
+          "text": "Except his left foot did not turn out."
+        },
+        {
+          "start": 407,
+          "end": 421,
+          "role": "greg",
+          "text": "Not this time."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 2,
+      "transcript": "I was under the upper manifold with both arms inside a housing when somebody entered the chamber behind me.\n\nHeavy boots.\n\nMeasured pace.\n\nNo limp.\n\nDera said, “You're early.”\n\nA man answered, “The road was dry.”\n\nMy hand stopped inside the machine.\n\nThe voice was younger than the one in my memory.\n\nOf course it was.\n\nSo was mine.\n\nI pulled my arms free and hit my elbow on the housing.\n\n“Fuck.”\n\nNessa looked over from the pressure desk.\n\n“You all right?”\n\n“No.”\n\nThat got her attention.",
+      "char_count": 490,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 107,
+          "role": "greg",
+          "text": "I was under the upper manifold with both arms inside a housing when somebody entered the chamber behind me."
+        },
+        {
+          "start": 109,
+          "end": 121,
+          "role": "greg",
+          "text": "Heavy boots."
+        },
+        {
+          "start": 123,
+          "end": 137,
+          "role": "greg",
+          "text": "Measured pace."
+        },
+        {
+          "start": 139,
+          "end": 147,
+          "role": "greg",
+          "text": "No limp."
+        },
+        {
+          "start": 149,
+          "end": 175,
+          "role": "greg",
+          "text": "Dera said, “You're early.”"
+        },
+        {
+          "start": 177,
+          "end": 212,
+          "role": "greg",
+          "text": "A man answered, “The road was dry.”"
+        },
+        {
+          "start": 214,
+          "end": 249,
+          "role": "greg",
+          "text": "My hand stopped inside the machine."
+        },
+        {
+          "start": 251,
+          "end": 299,
+          "role": "greg",
+          "text": "The voice was younger than the one in my memory."
+        },
+        {
+          "start": 301,
+          "end": 318,
+          "role": "greg",
+          "text": "Of course it was."
+        },
+        {
+          "start": 320,
+          "end": 332,
+          "role": "greg",
+          "text": "So was mine."
+        },
+        {
+          "start": 334,
+          "end": 388,
+          "role": "greg",
+          "text": "I pulled my arms free and hit my elbow on the housing."
+        },
+        {
+          "start": 390,
+          "end": 397,
+          "role": "greg",
+          "text": "“Fuck.”"
+        },
+        {
+          "start": 399,
+          "end": 440,
+          "role": "greg",
+          "text": "Nessa looked over from the pressure desk."
+        },
+        {
+          "start": 442,
+          "end": 458,
+          "role": "greg",
+          "text": "“You all right?”"
+        },
+        {
+          "start": 460,
+          "end": 465,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 467,
+          "end": 490,
+          "role": "greg",
+          "text": "That got her attention."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 3,
+      "transcript": "Then I stood.\n\nBren was thirty-one.\n\nI knew because I had attended his thirty-first birthday twice in the first life.\n\nOnce on the actual day.\n\nOnce three weeks later after we realized the first celebration had been based on a clerical error in his registry.\n\nHe had thought that was the funniest thing that had ever happened.\n\nI had not.",
+      "char_count": 338,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 13,
+          "role": "greg",
+          "text": "Then I stood."
+        },
+        {
+          "start": 15,
+          "end": 35,
+          "role": "greg",
+          "text": "Bren was thirty-one."
+        },
+        {
+          "start": 37,
+          "end": 117,
+          "role": "greg",
+          "text": "I knew because I had attended his thirty-first birthday twice in the first life."
+        },
+        {
+          "start": 119,
+          "end": 142,
+          "role": "greg",
+          "text": "Once on the actual day."
+        },
+        {
+          "start": 144,
+          "end": 258,
+          "role": "greg",
+          "text": "Once three weeks later after we realized the first celebration had been based on a clerical error in his registry."
+        },
+        {
+          "start": 260,
+          "end": 326,
+          "role": "greg",
+          "text": "He had thought that was the funniest thing that had ever happened."
+        },
+        {
+          "start": 328,
+          "end": 338,
+          "role": "greg",
+          "text": "I had not."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 4,
+      "transcript": "The man in front of me had the same broad shoulders. Same pale line along the jaw from a knife wound he got before I knew him. Same habit of pressing his tongue against one tooth when he was reading something he distrusted.\n\nHe was reading East Four's inspection slate.\n\nHis right eye was fine.\n\nThe scar above it was missing.\n\nThat should not have mattered.\n\nIt did.\n\nDera noticed me staring.\n\n“Greg.”\n\nBren looked up.\n\nFor one stupid second I expected recognition.\n\nNothing.",
+      "char_count": 476,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 223,
+          "role": "greg",
+          "text": "The man in front of me had the same broad shoulders. Same pale line along the jaw from a knife wound he got before I knew him. Same habit of pressing his tongue against one tooth when he was reading something he distrusted."
+        },
+        {
+          "start": 225,
+          "end": 269,
+          "role": "greg",
+          "text": "He was reading East Four's inspection slate."
+        },
+        {
+          "start": 271,
+          "end": 294,
+          "role": "greg",
+          "text": "His right eye was fine."
+        },
+        {
+          "start": 296,
+          "end": 326,
+          "role": "greg",
+          "text": "The scar above it was missing."
+        },
+        {
+          "start": 328,
+          "end": 358,
+          "role": "greg",
+          "text": "That should not have mattered."
+        },
+        {
+          "start": 360,
+          "end": 367,
+          "role": "greg",
+          "text": "It did."
+        },
+        {
+          "start": 369,
+          "end": 393,
+          "role": "greg",
+          "text": "Dera noticed me staring."
+        },
+        {
+          "start": 395,
+          "end": 402,
+          "role": "greg",
+          "text": "“Greg.”"
+        },
+        {
+          "start": 404,
+          "end": 419,
+          "role": "greg",
+          "text": "Bren looked up."
+        },
+        {
+          "start": 421,
+          "end": 466,
+          "role": "greg",
+          "text": "For one stupid second I expected recognition."
+        },
+        {
+          "start": 468,
+          "end": 476,
+          "role": "greg",
+          "text": "Nothing."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 5,
+      "transcript": "Not even the polite almost-recognition people use when they think they should know you.\n\nJust assessment.\n\nWorker.\n\nRank badge.\n\nGrease on shirt.\n\nMaybe annoying.\n\nI had been many things to Bren Calder.\n\nThe man who pulled him out of a sinkhole outside Vey.\n\nThe asshole who broke his good knife opening a crate.\n\nThe only person he trusted to take left side when a fight got ugly.\n\nHis second witness when he married Ilya.",
+      "char_count": 423,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "role": "greg",
+          "text": "Not even the polite almost-recognition people use when they think they should know you."
+        },
+        {
+          "start": 89,
+          "end": 105,
+          "role": "greg",
+          "text": "Just assessment."
+        },
+        {
+          "start": 107,
+          "end": 114,
+          "role": "greg",
+          "text": "Worker."
+        },
+        {
+          "start": 116,
+          "end": 127,
+          "role": "greg",
+          "text": "Rank badge."
+        },
+        {
+          "start": 129,
+          "end": 145,
+          "role": "greg",
+          "text": "Grease on shirt."
+        },
+        {
+          "start": 147,
+          "end": 162,
+          "role": "greg",
+          "text": "Maybe annoying."
+        },
+        {
+          "start": 164,
+          "end": 202,
+          "role": "greg",
+          "text": "I had been many things to Bren Calder."
+        },
+        {
+          "start": 204,
+          "end": 257,
+          "role": "greg",
+          "text": "The man who pulled him out of a sinkhole outside Vey."
+        },
+        {
+          "start": 259,
+          "end": 312,
+          "role": "greg",
+          "text": "The asshole who broke his good knife opening a crate."
+        },
+        {
+          "start": 314,
+          "end": 381,
+          "role": "greg",
+          "text": "The only person he trusted to take left side when a fight got ugly."
+        },
+        {
+          "start": 383,
+          "end": 423,
+          "role": "greg",
+          "text": "His second witness when he married Ilya."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 6,
+      "transcript": "The person who sat outside the healer's room when Ilya died because Bren had told everyone else to leave.\n\nFor three months after that, the person he hated because I was still there.\n\nHe had carried me six miles with two cracked ribs after the Gray Pass collapse.\n\nI had buried him at fifty-three.\n\nNow he looked at me and said, “You the station Ranker?”\n\nI forgot how words worked.\n\nNessa answered for me.\n\n“Unfortunately.”\n\nBren looked at her.\n\nThen back at me.\n\nI found my mouth.\n\n“Greg.”\n\n“Bren.”",
+      "char_count": 500,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 105,
+          "role": "greg",
+          "text": "The person who sat outside the healer's room when Ilya died because Bren had told everyone else to leave."
+        },
+        {
+          "start": 107,
+          "end": 182,
+          "role": "greg",
+          "text": "For three months after that, the person he hated because I was still there."
+        },
+        {
+          "start": 184,
+          "end": 263,
+          "role": "greg",
+          "text": "He had carried me six miles with two cracked ribs after the Gray Pass collapse."
+        },
+        {
+          "start": 265,
+          "end": 297,
+          "role": "greg",
+          "text": "I had buried him at fifty-three."
+        },
+        {
+          "start": 299,
+          "end": 354,
+          "role": "greg",
+          "text": "Now he looked at me and said, “You the station Ranker?”"
+        },
+        {
+          "start": 356,
+          "end": 382,
+          "role": "greg",
+          "text": "I forgot how words worked."
+        },
+        {
+          "start": 384,
+          "end": 406,
+          "role": "greg",
+          "text": "Nessa answered for me."
+        },
+        {
+          "start": 408,
+          "end": 424,
+          "role": "greg",
+          "text": "“Unfortunately.”"
+        },
+        {
+          "start": 426,
+          "end": 445,
+          "role": "greg",
+          "text": "Bren looked at her."
+        },
+        {
+          "start": 447,
+          "end": 463,
+          "role": "greg",
+          "text": "Then back at me."
+        },
+        {
+          "start": 465,
+          "end": 482,
+          "role": "greg",
+          "text": "I found my mouth."
+        },
+        {
+          "start": 484,
+          "end": 491,
+          "role": "greg",
+          "text": "“Greg.”"
+        },
+        {
+          "start": 493,
+          "end": 500,
+          "role": "greg",
+          "text": "“Bren.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 7,
+      "transcript": "The name escaped too fast.\n\nHis eyes narrowed.\n\n“We met?”\n\nThere it was.\n\nI could have lied.\n\nI had gotten better at lying by omission.\n\n“No.”\n\nHe waited.\n\nI pointed at the badge on his coat.\n\nName stamped under the Guild seal.\n\nBREN CALDER.\n\nA-class.\n\nAlready.\n\nFirst life, he had still been B at thirty-one.\n\nAnother difference.\n\n“Badge,” I said.\n\nHe glanced down.\n\n“Right.”\n\nThe suspicion left slowly.\n\nMine did not.\n\n“What happened to your ankle?” I asked.\n\nNessa turned toward me.",
+      "char_count": 485,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "role": "greg",
+          "text": "The name escaped too fast."
+        },
+        {
+          "start": 28,
+          "end": 46,
+          "role": "greg",
+          "text": "His eyes narrowed."
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "role": "greg",
+          "text": "“We met?”"
+        },
+        {
+          "start": 59,
+          "end": 72,
+          "role": "greg",
+          "text": "There it was."
+        },
+        {
+          "start": 74,
+          "end": 92,
+          "role": "greg",
+          "text": "I could have lied."
+        },
+        {
+          "start": 94,
+          "end": 135,
+          "role": "greg",
+          "text": "I had gotten better at lying by omission."
+        },
+        {
+          "start": 137,
+          "end": 142,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 144,
+          "end": 154,
+          "role": "greg",
+          "text": "He waited."
+        },
+        {
+          "start": 156,
+          "end": 191,
+          "role": "greg",
+          "text": "I pointed at the badge on his coat."
+        },
+        {
+          "start": 193,
+          "end": 227,
+          "role": "greg",
+          "text": "Name stamped under the Guild seal."
+        },
+        {
+          "start": 229,
+          "end": 241,
+          "role": "greg",
+          "text": "BREN CALDER."
+        },
+        {
+          "start": 243,
+          "end": 251,
+          "role": "greg",
+          "text": "A-class."
+        },
+        {
+          "start": 253,
+          "end": 261,
+          "role": "greg",
+          "text": "Already."
+        },
+        {
+          "start": 263,
+          "end": 309,
+          "role": "greg",
+          "text": "First life, he had still been B at thirty-one."
+        },
+        {
+          "start": 311,
+          "end": 330,
+          "role": "greg",
+          "text": "Another difference."
+        },
+        {
+          "start": 332,
+          "end": 348,
+          "role": "greg",
+          "text": "“Badge,” I said."
+        },
+        {
+          "start": 350,
+          "end": 366,
+          "role": "greg",
+          "text": "He glanced down."
+        },
+        {
+          "start": 368,
+          "end": 376,
+          "role": "greg",
+          "text": "“Right.”"
+        },
+        {
+          "start": 378,
+          "end": 404,
+          "role": "greg",
+          "text": "The suspicion left slowly."
+        },
+        {
+          "start": 406,
+          "end": 419,
+          "role": "greg",
+          "text": "Mine did not."
+        },
+        {
+          "start": 421,
+          "end": 460,
+          "role": "greg",
+          "text": "“What happened to your ankle?” I asked."
+        },
+        {
+          "start": 462,
+          "end": 485,
+          "role": "greg",
+          "text": "Nessa turned toward me."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 8,
+      "transcript": "Bren looked down at both boots.\n\n“Nothing.”\n\n“Sorry.”\n\n“Why?”\n\n“Thought you were somebody else.”\n\n“With my name?”\n\n“Yes.”\n\n“That seems unlikely.”\n\n“It is.”\n\nNessa was staring hard enough to sand wood.\n\nI ignored her.\n\nBren was there for the buried chamber.\n\nAfter the transfer rupture, district engineering had finally admitted East Four sat on older Line work. The Guild sent specialist teams through every major station in the region.",
+      "char_count": 436,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "role": "greg",
+          "text": "Bren looked down at both boots."
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "role": "greg",
+          "text": "“Nothing.”"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "role": "greg",
+          "text": "“Sorry.”"
+        },
+        {
+          "start": 55,
+          "end": 61,
+          "role": "greg",
+          "text": "“Why?”"
+        },
+        {
+          "start": 63,
+          "end": 96,
+          "role": "greg",
+          "text": "“Thought you were somebody else.”"
+        },
+        {
+          "start": 98,
+          "end": 113,
+          "role": "greg",
+          "text": "“With my name?”"
+        },
+        {
+          "start": 115,
+          "end": 121,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 123,
+          "end": 145,
+          "role": "greg",
+          "text": "“That seems unlikely.”"
+        },
+        {
+          "start": 147,
+          "end": 155,
+          "role": "greg",
+          "text": "“It is.”"
+        },
+        {
+          "start": 157,
+          "end": 200,
+          "role": "greg",
+          "text": "Nessa was staring hard enough to sand wood."
+        },
+        {
+          "start": 202,
+          "end": 216,
+          "role": "greg",
+          "text": "I ignored her."
+        },
+        {
+          "start": 218,
+          "end": 256,
+          "role": "greg",
+          "text": "Bren was there for the buried chamber."
+        },
+        {
+          "start": 258,
+          "end": 436,
+          "role": "greg",
+          "text": "After the transfer rupture, district engineering had finally admitted East Four sat on older Line work. The Guild sent specialist teams through every major station in the region."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 9,
+      "transcript": "Bren's contract covered pressure security for the survey crews.\n\nOf course it did.\n\nFirst life, we had met on the western ridge because both of us were young enough to believe hazard pay was the same thing as money.\n\nSecond life, I stayed home.\n\nBren kept moving without me.\n\nThat should have been obvious.\n\nSomehow it wasn't until he stood in front of me.\n\nFor two days we worked together.\n\nNot together the way I remembered.\n\nNear each other.\n\nThat was worse.",
+      "char_count": 461,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "role": "greg",
+          "text": "Bren's contract covered pressure security for the survey crews."
+        },
+        {
+          "start": 65,
+          "end": 82,
+          "role": "greg",
+          "text": "Of course it did."
+        },
+        {
+          "start": 84,
+          "end": 215,
+          "role": "greg",
+          "text": "First life, we had met on the western ridge because both of us were young enough to believe hazard pay was the same thing as money."
+        },
+        {
+          "start": 217,
+          "end": 244,
+          "role": "greg",
+          "text": "Second life, I stayed home."
+        },
+        {
+          "start": 246,
+          "end": 274,
+          "role": "greg",
+          "text": "Bren kept moving without me."
+        },
+        {
+          "start": 276,
+          "end": 306,
+          "role": "greg",
+          "text": "That should have been obvious."
+        },
+        {
+          "start": 308,
+          "end": 356,
+          "role": "greg",
+          "text": "Somehow it wasn't until he stood in front of me."
+        },
+        {
+          "start": 358,
+          "end": 390,
+          "role": "greg",
+          "text": "For two days we worked together."
+        },
+        {
+          "start": 392,
+          "end": 426,
+          "role": "greg",
+          "text": "Not together the way I remembered."
+        },
+        {
+          "start": 428,
+          "end": 444,
+          "role": "greg",
+          "text": "Near each other."
+        },
+        {
+          "start": 446,
+          "end": 461,
+          "role": "greg",
+          "text": "That was worse."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 10,
+      "transcript": "I knew when he was about to ask for a tool.\n\nI knew he hated people standing behind his right shoulder.\n\nI knew he drank coffee black when tired and ruined it with sugar when scared.\n\nI knew the little line beside his mouth meant he was about to disagree with Dera and was trying to decide how much employment he needed.\n\nHe knew none of that about me.\n\nOnce he reached for a wrench without looking.\n\nI put the correct one in his hand.\n\nHe paused.\n\nLooked at it.\n\nThen at me.\n\n“Good guess.”\n\n“Yeah.”",
+      "char_count": 499,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "role": "greg",
+          "text": "I knew when he was about to ask for a tool."
+        },
+        {
+          "start": 45,
+          "end": 103,
+          "role": "greg",
+          "text": "I knew he hated people standing behind his right shoulder."
+        },
+        {
+          "start": 105,
+          "end": 182,
+          "role": "greg",
+          "text": "I knew he drank coffee black when tired and ruined it with sugar when scared."
+        },
+        {
+          "start": 184,
+          "end": 320,
+          "role": "greg",
+          "text": "I knew the little line beside his mouth meant he was about to disagree with Dera and was trying to decide how much employment he needed."
+        },
+        {
+          "start": 322,
+          "end": 352,
+          "role": "greg",
+          "text": "He knew none of that about me."
+        },
+        {
+          "start": 354,
+          "end": 399,
+          "role": "greg",
+          "text": "Once he reached for a wrench without looking."
+        },
+        {
+          "start": 401,
+          "end": 435,
+          "role": "greg",
+          "text": "I put the correct one in his hand."
+        },
+        {
+          "start": 437,
+          "end": 447,
+          "role": "greg",
+          "text": "He paused."
+        },
+        {
+          "start": 449,
+          "end": 462,
+          "role": "greg",
+          "text": "Looked at it."
+        },
+        {
+          "start": 464,
+          "end": 475,
+          "role": "greg",
+          "text": "Then at me."
+        },
+        {
+          "start": 477,
+          "end": 490,
+          "role": "greg",
+          "text": "“Good guess.”"
+        },
+        {
+          "start": 492,
+          "end": 499,
+          "role": "greg",
+          "text": "“Yeah.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 11,
+      "transcript": "I went back to work.\n\nMy chest hurt for no useful reason.\n\nThat evening Nessa waited until we were halfway home.\n\n“You know him.”\n\n“No.”\n\n“Greg.”\n\n“I knew someone like him.”\n\n“Named Bren Calder.”\n\n“Yes.”\n\n“With a bad ankle he doesn't have.”\n\n“Yes.”\n\nShe stopped walking.\n\nI took three more steps before noticing.\n\nPeople like to describe relationships as knowing each other.\n\nMostly it means knowing which lies require stopping in the street.\n\nI turned around.",
+      "char_count": 460,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "greg",
+          "text": "I went back to work."
+        },
+        {
+          "start": 22,
+          "end": 57,
+          "role": "greg",
+          "text": "My chest hurt for no useful reason."
+        },
+        {
+          "start": 59,
+          "end": 112,
+          "role": "greg",
+          "text": "That evening Nessa waited until we were halfway home."
+        },
+        {
+          "start": 114,
+          "end": 129,
+          "role": "greg",
+          "text": "“You know him.”"
+        },
+        {
+          "start": 131,
+          "end": 136,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 138,
+          "end": 145,
+          "role": "greg",
+          "text": "“Greg.”"
+        },
+        {
+          "start": 147,
+          "end": 173,
+          "role": "greg",
+          "text": "“I knew someone like him.”"
+        },
+        {
+          "start": 175,
+          "end": 195,
+          "role": "greg",
+          "text": "“Named Bren Calder.”"
+        },
+        {
+          "start": 197,
+          "end": 203,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 205,
+          "end": 240,
+          "role": "greg",
+          "text": "“With a bad ankle he doesn't have.”"
+        },
+        {
+          "start": 242,
+          "end": 248,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 250,
+          "end": 270,
+          "role": "greg",
+          "text": "She stopped walking."
+        },
+        {
+          "start": 272,
+          "end": 312,
+          "role": "greg",
+          "text": "I took three more steps before noticing."
+        },
+        {
+          "start": 314,
+          "end": 374,
+          "role": "greg",
+          "text": "People like to describe relationships as knowing each other."
+        },
+        {
+          "start": 376,
+          "end": 442,
+          "role": "greg",
+          "text": "Mostly it means knowing which lies require stopping in the street."
+        },
+        {
+          "start": 444,
+          "end": 460,
+          "role": "greg",
+          "text": "I turned around."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 12,
+      "transcript": "Nessa stood under a lamp with both arms crossed.\n\n“Are you in trouble?”\n\nThat was her first question.\n\nNot what are you hiding.\n\nNot who is he.\n\nAre you in trouble.\n\nI loved her a little for that.\n\nI had not told her yet.\n\nNot with the word.\n\n“I don't think so.”\n\n“That is not comforting.”\n\n“I know.”\n\n“Does he know you?”\n\n“No.”\n\n“But you know him.”\n\n“I knew him.”\n\nShe waited.",
+      "char_count": 377,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "role": "greg",
+          "text": "Nessa stood under a lamp with both arms crossed."
+        },
+        {
+          "start": 50,
+          "end": 71,
+          "role": "greg",
+          "text": "“Are you in trouble?”"
+        },
+        {
+          "start": 73,
+          "end": 101,
+          "role": "greg",
+          "text": "That was her first question."
+        },
+        {
+          "start": 103,
+          "end": 127,
+          "role": "greg",
+          "text": "Not what are you hiding."
+        },
+        {
+          "start": 129,
+          "end": 143,
+          "role": "greg",
+          "text": "Not who is he."
+        },
+        {
+          "start": 145,
+          "end": 164,
+          "role": "greg",
+          "text": "Are you in trouble."
+        },
+        {
+          "start": 166,
+          "end": 196,
+          "role": "greg",
+          "text": "I loved her a little for that."
+        },
+        {
+          "start": 198,
+          "end": 221,
+          "role": "greg",
+          "text": "I had not told her yet."
+        },
+        {
+          "start": 223,
+          "end": 241,
+          "role": "greg",
+          "text": "Not with the word."
+        },
+        {
+          "start": 243,
+          "end": 262,
+          "role": "greg",
+          "text": "“I don't think so.”"
+        },
+        {
+          "start": 264,
+          "end": 289,
+          "role": "greg",
+          "text": "“That is not comforting.”"
+        },
+        {
+          "start": 291,
+          "end": 300,
+          "role": "greg",
+          "text": "“I know.”"
+        },
+        {
+          "start": 302,
+          "end": 321,
+          "role": "greg",
+          "text": "“Does he know you?”"
+        },
+        {
+          "start": 323,
+          "end": 328,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 330,
+          "end": 349,
+          "role": "greg",
+          "text": "“But you know him.”"
+        },
+        {
+          "start": 351,
+          "end": 364,
+          "role": "greg",
+          "text": "“I knew him.”"
+        },
+        {
+          "start": 366,
+          "end": 377,
+          "role": "greg",
+          "text": "She waited."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 13,
+      "transcript": "I had spent years avoiding this conversation by distributing pieces of the truth so widely that none looked like the whole thing.\n\nNessa knew I anticipated failures.\n\nShe knew I had skills I could not explain.\n\nShe knew some people made me sad before I met them.\n\nShe knew I sometimes woke from dreams and took several seconds to remember where we lived.\n\nShe knew I hated the phrase first time when it came out of my mouth by accident.\n\nShe did not know why.\n\nNot yet.",
+      "char_count": 469,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 129,
+          "role": "greg",
+          "text": "I had spent years avoiding this conversation by distributing pieces of the truth so widely that none looked like the whole thing."
+        },
+        {
+          "start": 131,
+          "end": 165,
+          "role": "greg",
+          "text": "Nessa knew I anticipated failures."
+        },
+        {
+          "start": 167,
+          "end": 209,
+          "role": "greg",
+          "text": "She knew I had skills I could not explain."
+        },
+        {
+          "start": 211,
+          "end": 262,
+          "role": "greg",
+          "text": "She knew some people made me sad before I met them."
+        },
+        {
+          "start": 264,
+          "end": 354,
+          "role": "greg",
+          "text": "She knew I sometimes woke from dreams and took several seconds to remember where we lived."
+        },
+        {
+          "start": 356,
+          "end": 436,
+          "role": "greg",
+          "text": "She knew I hated the phrase first time when it came out of my mouth by accident."
+        },
+        {
+          "start": 438,
+          "end": 459,
+          "role": "greg",
+          "text": "She did not know why."
+        },
+        {
+          "start": 461,
+          "end": 469,
+          "role": "greg",
+          "text": "Not yet."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 14,
+      "transcript": "“I can't explain it here,” I said.\n\n“Can you explain it at home?”\n\nI looked at her.\n\nThat was the question.\n\n“Some of it.”\n\nShe nodded.\n\n“Okay.”\n\nThen she started walking again.\n\nThat scared me more than anger would have.\n\nWe did not have the conversation that night.\n\nBefore we could, history moved again.\n\nBren came to East Four before sixth bell carrying a Guild bulletin.\n\nHe put it on Dera's desk.\n\n“North breach is canceled.”\n\nI looked up.\n\n“What?”\n\nHe glanced at me.",
+      "char_count": 473,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "greg",
+          "text": "“I can't explain it here,” I said."
+        },
+        {
+          "start": 36,
+          "end": 65,
+          "role": "greg",
+          "text": "“Can you explain it at home?”"
+        },
+        {
+          "start": 67,
+          "end": 83,
+          "role": "greg",
+          "text": "I looked at her."
+        },
+        {
+          "start": 85,
+          "end": 107,
+          "role": "greg",
+          "text": "That was the question."
+        },
+        {
+          "start": 109,
+          "end": 122,
+          "role": "greg",
+          "text": "“Some of it.”"
+        },
+        {
+          "start": 124,
+          "end": 135,
+          "role": "greg",
+          "text": "She nodded."
+        },
+        {
+          "start": 137,
+          "end": 144,
+          "role": "greg",
+          "text": "“Okay.”"
+        },
+        {
+          "start": 146,
+          "end": 177,
+          "role": "greg",
+          "text": "Then she started walking again."
+        },
+        {
+          "start": 179,
+          "end": 221,
+          "role": "greg",
+          "text": "That scared me more than anger would have."
+        },
+        {
+          "start": 223,
+          "end": 267,
+          "role": "greg",
+          "text": "We did not have the conversation that night."
+        },
+        {
+          "start": 269,
+          "end": 306,
+          "role": "greg",
+          "text": "Before we could, history moved again."
+        },
+        {
+          "start": 308,
+          "end": 375,
+          "role": "greg",
+          "text": "Bren came to East Four before sixth bell carrying a Guild bulletin."
+        },
+        {
+          "start": 377,
+          "end": 402,
+          "role": "greg",
+          "text": "He put it on Dera's desk."
+        },
+        {
+          "start": 404,
+          "end": 431,
+          "role": "greg",
+          "text": "“North breach is canceled.”"
+        },
+        {
+          "start": 433,
+          "end": 445,
+          "role": "greg",
+          "text": "I looked up."
+        },
+        {
+          "start": 447,
+          "end": 454,
+          "role": "greg",
+          "text": "“What?”"
+        },
+        {
+          "start": 456,
+          "end": 473,
+          "role": "greg",
+          "text": "He glanced at me."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 15,
+      "transcript": "“North breach survey. Authority closed the contract. No rupture.”\n\nI took the bulletin.\n\nMy hands were suddenly cold.\n\nThe North Vey rupture happened when I was twenty-seven the first time.\n\nIt killed eighty-six people.\n\nBren and I had been there after.\n\nNot during the first break.\n\nAfter.\n\nWe spent eleven days clearing tunnels.\n\nThat was where his ankle got crushed.\n\nThat was where the scar above his right eye came from.\n\nThat was where he advanced to A-class.",
+      "char_count": 465,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "role": "greg",
+          "text": "“North breach survey. Authority closed the contract. No rupture.”"
+        },
+        {
+          "start": 67,
+          "end": 87,
+          "role": "greg",
+          "text": "I took the bulletin."
+        },
+        {
+          "start": 89,
+          "end": 117,
+          "role": "greg",
+          "text": "My hands were suddenly cold."
+        },
+        {
+          "start": 119,
+          "end": 189,
+          "role": "greg",
+          "text": "The North Vey rupture happened when I was twenty-seven the first time."
+        },
+        {
+          "start": 191,
+          "end": 219,
+          "role": "greg",
+          "text": "It killed eighty-six people."
+        },
+        {
+          "start": 221,
+          "end": 253,
+          "role": "greg",
+          "text": "Bren and I had been there after."
+        },
+        {
+          "start": 255,
+          "end": 282,
+          "role": "greg",
+          "text": "Not during the first break."
+        },
+        {
+          "start": 284,
+          "end": 290,
+          "role": "greg",
+          "text": "After."
+        },
+        {
+          "start": 292,
+          "end": 330,
+          "role": "greg",
+          "text": "We spent eleven days clearing tunnels."
+        },
+        {
+          "start": 332,
+          "end": 369,
+          "role": "greg",
+          "text": "That was where his ankle got crushed."
+        },
+        {
+          "start": 371,
+          "end": 425,
+          "role": "greg",
+          "text": "That was where the scar above his right eye came from."
+        },
+        {
+          "start": 427,
+          "end": 465,
+          "role": "greg",
+          "text": "That was where he advanced to A-class."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 16,
+      "transcript": "Except the man beside me was already A-class.\n\nThe rupture had not happened.\n\nThe injury had not happened.\n\nThe rank had happened anyway.\n\nI read the bulletin twice.\n\n“Why was it canceled?”\n\n“New survey says the old pressure model was wrong.”\n\n“Who changed it?”\n\nBren shrugged.\n\n“Central review. Some engineer named Halden was on the committee.”\n\nI sat down.\n\nBren looked at me.\n\n“You all right?”\n\nI laughed.\n\nCould not help it.\n\nHalden.\n\nAlive because I changed East Four years earlier.",
+      "char_count": 487,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "greg",
+          "text": "Except the man beside me was already A-class."
+        },
+        {
+          "start": 47,
+          "end": 76,
+          "role": "greg",
+          "text": "The rupture had not happened."
+        },
+        {
+          "start": 78,
+          "end": 106,
+          "role": "greg",
+          "text": "The injury had not happened."
+        },
+        {
+          "start": 108,
+          "end": 137,
+          "role": "greg",
+          "text": "The rank had happened anyway."
+        },
+        {
+          "start": 139,
+          "end": 165,
+          "role": "greg",
+          "text": "I read the bulletin twice."
+        },
+        {
+          "start": 167,
+          "end": 189,
+          "role": "greg",
+          "text": "“Why was it canceled?”"
+        },
+        {
+          "start": 191,
+          "end": 242,
+          "role": "greg",
+          "text": "“New survey says the old pressure model was wrong.”"
+        },
+        {
+          "start": 244,
+          "end": 261,
+          "role": "greg",
+          "text": "“Who changed it?”"
+        },
+        {
+          "start": 263,
+          "end": 277,
+          "role": "greg",
+          "text": "Bren shrugged."
+        },
+        {
+          "start": 279,
+          "end": 345,
+          "role": "greg",
+          "text": "“Central review. Some engineer named Halden was on the committee.”"
+        },
+        {
+          "start": 347,
+          "end": 358,
+          "role": "greg",
+          "text": "I sat down."
+        },
+        {
+          "start": 360,
+          "end": 378,
+          "role": "greg",
+          "text": "Bren looked at me."
+        },
+        {
+          "start": 380,
+          "end": 396,
+          "role": "greg",
+          "text": "“You all right?”"
+        },
+        {
+          "start": 398,
+          "end": 408,
+          "role": "greg",
+          "text": "I laughed."
+        },
+        {
+          "start": 410,
+          "end": 428,
+          "role": "greg",
+          "text": "Could not help it."
+        },
+        {
+          "start": 430,
+          "end": 437,
+          "role": "greg",
+          "text": "Halden."
+        },
+        {
+          "start": 439,
+          "end": 487,
+          "role": "greg",
+          "text": "Alive because I changed East Four years earlier."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 17,
+      "transcript": "Halden joined a central review.\n\nThe review corrected North Vey.\n\nNorth Vey never ruptured.\n\nBren never broke his ankle.\n\nNever got the scar.\n\nStill became A-class through some road I did not know.\n\nThe future had not merely changed.\n\nIt had begun replacing itself.\n\n“What's funny?” Bren asked.\n\n“Nothing.”\n\n“That didn't look like nothing.”\n\n“Long story.”\n\nHe nodded toward the bulletin.\n\n“You know Halden?”\n\n“Yes.”\n\n“Good?”\n\n“Annoying.”\n\n“Usually means good.”\n\n“Unfortunately.”\n\nBren smiled.",
+      "char_count": 492,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "role": "greg",
+          "text": "Halden joined a central review."
+        },
+        {
+          "start": 33,
+          "end": 64,
+          "role": "greg",
+          "text": "The review corrected North Vey."
+        },
+        {
+          "start": 66,
+          "end": 91,
+          "role": "greg",
+          "text": "North Vey never ruptured."
+        },
+        {
+          "start": 93,
+          "end": 120,
+          "role": "greg",
+          "text": "Bren never broke his ankle."
+        },
+        {
+          "start": 122,
+          "end": 141,
+          "role": "greg",
+          "text": "Never got the scar."
+        },
+        {
+          "start": 143,
+          "end": 197,
+          "role": "greg",
+          "text": "Still became A-class through some road I did not know."
+        },
+        {
+          "start": 199,
+          "end": 233,
+          "role": "greg",
+          "text": "The future had not merely changed."
+        },
+        {
+          "start": 235,
+          "end": 265,
+          "role": "greg",
+          "text": "It had begun replacing itself."
+        },
+        {
+          "start": 267,
+          "end": 294,
+          "role": "greg",
+          "text": "“What's funny?” Bren asked."
+        },
+        {
+          "start": 296,
+          "end": 306,
+          "role": "greg",
+          "text": "“Nothing.”"
+        },
+        {
+          "start": 308,
+          "end": 340,
+          "role": "greg",
+          "text": "“That didn't look like nothing.”"
+        },
+        {
+          "start": 342,
+          "end": 355,
+          "role": "greg",
+          "text": "“Long story.”"
+        },
+        {
+          "start": 357,
+          "end": 387,
+          "role": "greg",
+          "text": "He nodded toward the bulletin."
+        },
+        {
+          "start": 389,
+          "end": 407,
+          "role": "greg",
+          "text": "“You know Halden?”"
+        },
+        {
+          "start": 409,
+          "end": 415,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 417,
+          "end": 424,
+          "role": "greg",
+          "text": "“Good?”"
+        },
+        {
+          "start": 426,
+          "end": 437,
+          "role": "greg",
+          "text": "“Annoying.”"
+        },
+        {
+          "start": 439,
+          "end": 460,
+          "role": "greg",
+          "text": "“Usually means good.”"
+        },
+        {
+          "start": 462,
+          "end": 478,
+          "role": "greg",
+          "text": "“Unfortunately.”"
+        },
+        {
+          "start": 480,
+          "end": 492,
+          "role": "greg",
+          "text": "Bren smiled."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 18,
+      "transcript": "The same smile.\n\nNot exactly.\n\nClose enough to hurt.\n\nHe left East Four two days later.\n\nI watched him pack his gear.\n\nThere were a hundred things I could have said.\n\nIlya's name.\n\nGray Pass.\n\nThe cheap tavern in Vey where the owner cheated at cards and Bren kept going back because he respected consistency.\n\nThe song he hated.\n\nThe time he cried after killing a man and then lied about dust.\n\nThe place he wanted his ashes scattered because he hated cemeteries.\n\nI knew how he died.",
+      "char_count": 484,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 15,
+          "role": "greg",
+          "text": "The same smile."
+        },
+        {
+          "start": 17,
+          "end": 29,
+          "role": "greg",
+          "text": "Not exactly."
+        },
+        {
+          "start": 31,
+          "end": 52,
+          "role": "greg",
+          "text": "Close enough to hurt."
+        },
+        {
+          "start": 54,
+          "end": 87,
+          "role": "greg",
+          "text": "He left East Four two days later."
+        },
+        {
+          "start": 89,
+          "end": 117,
+          "role": "greg",
+          "text": "I watched him pack his gear."
+        },
+        {
+          "start": 119,
+          "end": 165,
+          "role": "greg",
+          "text": "There were a hundred things I could have said."
+        },
+        {
+          "start": 167,
+          "end": 179,
+          "role": "greg",
+          "text": "Ilya's name."
+        },
+        {
+          "start": 181,
+          "end": 191,
+          "role": "greg",
+          "text": "Gray Pass."
+        },
+        {
+          "start": 193,
+          "end": 308,
+          "role": "greg",
+          "text": "The cheap tavern in Vey where the owner cheated at cards and Bren kept going back because he respected consistency."
+        },
+        {
+          "start": 310,
+          "end": 328,
+          "role": "greg",
+          "text": "The song he hated."
+        },
+        {
+          "start": 330,
+          "end": 393,
+          "role": "greg",
+          "text": "The time he cried after killing a man and then lied about dust."
+        },
+        {
+          "start": 395,
+          "end": 463,
+          "role": "greg",
+          "text": "The place he wanted his ashes scattered because he hated cemeteries."
+        },
+        {
+          "start": 465,
+          "end": 484,
+          "role": "greg",
+          "text": "I knew how he died."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 19,
+      "transcript": "That was the worst one.\n\nI could have warned him.\n\nExcept he had already become someone else.\n\nNot entirely.\n\nEnough.\n\nHis ankle was proof.\n\nHis rank was proof.\n\nNorth Vey was proof.\n\nEvery warning I carried belonged to a road he was no longer walking exactly.\n\n“You keep staring at me,” he said.\n\n“Sorry.”\n\n“You sure we never met?”\n\nI thought about it.\n\n“We didn't.”\n\nHe nodded.\n\nThen held out his hand.\n\n“Good working with you, Greg.”\n\nI looked at the hand.",
+      "char_count": 459,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 23,
+          "role": "greg",
+          "text": "That was the worst one."
+        },
+        {
+          "start": 25,
+          "end": 49,
+          "role": "greg",
+          "text": "I could have warned him."
+        },
+        {
+          "start": 51,
+          "end": 93,
+          "role": "greg",
+          "text": "Except he had already become someone else."
+        },
+        {
+          "start": 95,
+          "end": 108,
+          "role": "greg",
+          "text": "Not entirely."
+        },
+        {
+          "start": 110,
+          "end": 117,
+          "role": "greg",
+          "text": "Enough."
+        },
+        {
+          "start": 119,
+          "end": 139,
+          "role": "greg",
+          "text": "His ankle was proof."
+        },
+        {
+          "start": 141,
+          "end": 160,
+          "role": "greg",
+          "text": "His rank was proof."
+        },
+        {
+          "start": 162,
+          "end": 182,
+          "role": "greg",
+          "text": "North Vey was proof."
+        },
+        {
+          "start": 184,
+          "end": 260,
+          "role": "greg",
+          "text": "Every warning I carried belonged to a road he was no longer walking exactly."
+        },
+        {
+          "start": 262,
+          "end": 296,
+          "role": "greg",
+          "text": "“You keep staring at me,” he said."
+        },
+        {
+          "start": 298,
+          "end": 306,
+          "role": "greg",
+          "text": "“Sorry.”"
+        },
+        {
+          "start": 308,
+          "end": 332,
+          "role": "greg",
+          "text": "“You sure we never met?”"
+        },
+        {
+          "start": 334,
+          "end": 353,
+          "role": "greg",
+          "text": "I thought about it."
+        },
+        {
+          "start": 355,
+          "end": 367,
+          "role": "greg",
+          "text": "“We didn't.”"
+        },
+        {
+          "start": 369,
+          "end": 379,
+          "role": "greg",
+          "text": "He nodded."
+        },
+        {
+          "start": 381,
+          "end": 404,
+          "role": "greg",
+          "text": "Then held out his hand."
+        },
+        {
+          "start": 406,
+          "end": 436,
+          "role": "greg",
+          "text": "“Good working with you, Greg.”"
+        },
+        {
+          "start": 438,
+          "end": 459,
+          "role": "greg",
+          "text": "I looked at the hand."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 20,
+      "transcript": "First life, I had known exactly how strong it was.\n\nI had watched it shake.\n\nI had seen blood between those fingers.\n\nI had held that hand when he died because neither of us knew what else to do with the last minute.\n\nSecond life, it was just a hand offered by a man leaving a station.\n\nI took it.\n\n“You too.”\n\nHe left.\n\nI did not follow.\n\nThe cave returned softly around me.\n\nI opened my eyes.\n\nIthar was quiet for long enough that the silence itself became the question.\n\nThen he took the floor.",
+      "char_count": 497,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "greg",
+          "text": "First life, I had known exactly how strong it was."
+        },
+        {
+          "start": 52,
+          "end": 75,
+          "role": "greg",
+          "text": "I had watched it shake."
+        },
+        {
+          "start": 77,
+          "end": 116,
+          "role": "greg",
+          "text": "I had seen blood between those fingers."
+        },
+        {
+          "start": 118,
+          "end": 216,
+          "role": "greg",
+          "text": "I had held that hand when he died because neither of us knew what else to do with the last minute."
+        },
+        {
+          "start": 218,
+          "end": 285,
+          "role": "greg",
+          "text": "Second life, it was just a hand offered by a man leaving a station."
+        },
+        {
+          "start": 287,
+          "end": 297,
+          "role": "greg",
+          "text": "I took it."
+        },
+        {
+          "start": 299,
+          "end": 309,
+          "role": "greg",
+          "text": "“You too.”"
+        },
+        {
+          "start": 311,
+          "end": 319,
+          "role": "greg",
+          "text": "He left."
+        },
+        {
+          "start": 321,
+          "end": 338,
+          "role": "greg",
+          "text": "I did not follow."
+        },
+        {
+          "start": 340,
+          "end": 375,
+          "role": "greg",
+          "text": "The cave returned softly around me."
+        },
+        {
+          "start": 377,
+          "end": 394,
+          "role": "greg",
+          "text": "I opened my eyes."
+        },
+        {
+          "start": 396,
+          "end": 472,
+          "role": "greg",
+          "text": "Ithar was quiet for long enough that the silence itself became the question."
+        },
+        {
+          "start": 474,
+          "end": 497,
+          "role": "greg",
+          "text": "Then he took the floor."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 21,
+      "transcript": "“You never told Bren. You had information about him and chose not to use it. That is unusual in an account where foreknowledge has repeatedly become action.\n\n“You loved him in the first history. Brother without shared parents, by your description. In the second history he did not know you. You knew what he liked, where he would go, what made him trust someone. You could have manufactured the conditions under which he might become close to you again.\n\n“You refused. Why?”",
+      "char_count": 474,
+      "roles": [
+        "dragon",
+        "dragon",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 156,
+          "role": "dragon",
+          "text": "“You never told Bren. You had information about him and chose not to use it. That is unusual in an account where foreknowledge has repeatedly become action."
+        },
+        {
+          "start": 158,
+          "end": 453,
+          "role": "dragon",
+          "text": "“You loved him in the first history. Brother without shared parents, by your description. In the second history he did not know you. You knew what he liked, where he would go, what made him trust someone. You could have manufactured the conditions under which he might become close to you again."
+        },
+        {
+          "start": 455,
+          "end": 474,
+          "role": "dragon",
+          "text": "“You refused. Why?”"
+        }
+      ],
+      "required_voices": [
+        "normal"
+      ],
+      "dual_render": false,
+      "captures": {
+        "normal": null
+      }
+    },
+    {
+      "index": 22,
+      "transcript": "For once the answer was simple.\n\n“He didn't owe me the man I remembered.”\n\nI rubbed my thumb against the edge of my pin again.\n\nSame habit.\n\nDifferent badge.\n\n“I could have made myself useful. I could have put myself in the right places. But then I wouldn't know if he chose me.”\n\nFirst life, we became friends because we were idiots on the same bad contract.\n\nWe annoyed each other honestly.\n\nApparently that mattered.\n\nLosing him the second time was not noble.\n\nIt was sad.\n\nIthar considered that.",
+      "char_count": 499,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "role": "greg",
+          "text": "For once the answer was simple."
+        },
+        {
+          "start": 33,
+          "end": 73,
+          "role": "greg",
+          "text": "“He didn't owe me the man I remembered.”"
+        },
+        {
+          "start": 75,
+          "end": 126,
+          "role": "greg",
+          "text": "I rubbed my thumb against the edge of my pin again."
+        },
+        {
+          "start": 128,
+          "end": 139,
+          "role": "greg",
+          "text": "Same habit."
+        },
+        {
+          "start": 141,
+          "end": 157,
+          "role": "greg",
+          "text": "Different badge."
+        },
+        {
+          "start": 159,
+          "end": 279,
+          "role": "greg",
+          "text": "“I could have made myself useful. I could have put myself in the right places. But then I wouldn't know if he chose me.”"
+        },
+        {
+          "start": 281,
+          "end": 359,
+          "role": "greg",
+          "text": "First life, we became friends because we were idiots on the same bad contract."
+        },
+        {
+          "start": 361,
+          "end": 392,
+          "role": "greg",
+          "text": "We annoyed each other honestly."
+        },
+        {
+          "start": 394,
+          "end": 419,
+          "role": "greg",
+          "text": "Apparently that mattered."
+        },
+        {
+          "start": 421,
+          "end": 462,
+          "role": "greg",
+          "text": "Losing him the second time was not noble."
+        },
+        {
+          "start": 464,
+          "end": 475,
+          "role": "greg",
+          "text": "It was sad."
+        },
+        {
+          "start": 477,
+          "end": 499,
+          "role": "greg",
+          "text": "Ithar considered that."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    },
+    {
+      "index": 23,
+      "transcript": "Then he nodded once.\n\nThe movement was tiny.\n\nComing from him, it felt enormous.\n\nWhen he spoke again, the question was larger than Bren.\n\n“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it.",
+      "char_count": 384,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "dragon"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "greg",
+          "text": "Then he nodded once."
+        },
+        {
+          "start": 22,
+          "end": 44,
+          "role": "greg",
+          "text": "The movement was tiny."
+        },
+        {
+          "start": 46,
+          "end": 80,
+          "role": "greg",
+          "text": "Coming from him, it felt enormous."
+        },
+        {
+          "start": 82,
+          "end": 137,
+          "role": "greg",
+          "text": "When he spoke again, the question was larger than Bren."
+        },
+        {
+          "start": 139,
+          "end": 384,
+          "role": "dragon",
+          "text": "“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 24,
+      "transcript": "“Bren looked at you and did not know you. His ankle was whole. His rank had arrived by another road. The page after the one you remembered no longer existed.\n\n“Was that when you stopped calling it going back? What did you call it instead?”\n\nI looked toward the dark passage.\n\nNot because I wanted to leave this time.\n\nBecause the answer needed room.\n\n“I think that was it. Bren. North Vey. Halden. All of it.”\n\nThe first few years, I had still thought of the old life as the real version.",
+      "char_count": 488,
+      "roles": [
+        "dragon",
+        "dragon",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 157,
+          "role": "dragon",
+          "text": "“Bren looked at you and did not know you. His ankle was whole. His rank had arrived by another road. The page after the one you remembered no longer existed."
+        },
+        {
+          "start": 159,
+          "end": 239,
+          "role": "dragon",
+          "text": "“Was that when you stopped calling it going back? What did you call it instead?”"
+        },
+        {
+          "start": 241,
+          "end": 274,
+          "role": "greg",
+          "text": "I looked toward the dark passage."
+        },
+        {
+          "start": 276,
+          "end": 316,
+          "role": "greg",
+          "text": "Not because I wanted to leave this time."
+        },
+        {
+          "start": 318,
+          "end": 349,
+          "role": "greg",
+          "text": "Because the answer needed room."
+        },
+        {
+          "start": 351,
+          "end": 409,
+          "role": "greg",
+          "text": "“I think that was it. Bren. North Vey. Halden. All of it.”"
+        },
+        {
+          "start": 411,
+          "end": 488,
+          "role": "greg",
+          "text": "The first few years, I had still thought of the old life as the real version."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "dual_render": true,
+      "captures": {
+        "deep": null,
+        "normal": null
+      }
+    },
+    {
+      "index": 25,
+      "transcript": "Like I had gone back into a book I already read and scribbled in the margins.\n\nThen one of the characters looked at me and had no idea who I was.\n\nAnd the page after that wasn't there anymore.\n\nI looked at Ithar.\n\n“My life.”",
+      "char_count": 224,
+      "roles": [
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg"
+      ],
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 77,
+          "role": "greg",
+          "text": "Like I had gone back into a book I already read and scribbled in the margins."
+        },
+        {
+          "start": 79,
+          "end": 145,
+          "role": "greg",
+          "text": "Then one of the characters looked at me and had no idea who I was."
+        },
+        {
+          "start": 147,
+          "end": 192,
+          "role": "greg",
+          "text": "And the page after that wasn't there anymore."
+        },
+        {
+          "start": 194,
+          "end": 212,
+          "role": "greg",
+          "text": "I looked at Ithar."
+        },
+        {
+          "start": 214,
+          "end": 224,
+          "role": "greg",
+          "text": "“My life.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "dual_render": false,
+      "captures": {
+        "deep": null
+      }
+    }
+  ]
+}

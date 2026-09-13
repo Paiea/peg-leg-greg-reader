@@ -1,0 +1,3816 @@
+{
+  "status": "frozen_worker_slice",
+  "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
+  "branch": "main",
+  "source_sha": "54a690c171847cf6b538b6e25021ede0425a43ab",
+  "run_label": "records-002-010",
+  "records": [
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010"
+  ],
+  "worker_id": "instant-1",
+  "capture_count": 53,
+  "chunk_count": 46,
+  "chunks": [
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 2,
+      "transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”",
+      "char_count": 473,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 19,
+          "role": "greg",
+          "text": "His nostril opened."
+        },
+        {
+          "start": 21,
+          "end": 38,
+          "role": "greg",
+          "text": "Not quite a sigh."
+        },
+        {
+          "start": 40,
+          "end": 89,
+          "role": "greg",
+          "text": "I had started assigning meanings to the nostrils."
+        },
+        {
+          "start": 91,
+          "end": 119,
+          "role": "greg",
+          "text": "That was probably dangerous."
+        },
+        {
+          "start": 121,
+          "end": 152,
+          "role": "greg",
+          "text": "Then the dragon took the floor."
+        },
+        {
+          "start": 154,
+          "end": 473,
+          "role": "dragon",
+          "text": "“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 8,
+      "transcript": "Forty years of apparent foreknowledge and I had required years to establish that events had changed.\n\n“I was busy.”\n\nIthar did not move.\n\n“Being nineteen again.”\n\nStill nothing.\n\nI had seen that silence before.\n\nUsually after saying something about people that he understood as words and not as a fact.\n\n“You don't get that part.”\n\nHis eye dropped to my leg.\n\nI looked down too.\n\n“Explaining knees to a dragon that still has all of his is going to annoy me.”",
+      "char_count": 458,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "role": "greg",
+          "text": "Forty years of apparent foreknowledge and I had required years to establish that events had changed."
+        },
+        {
+          "start": 102,
+          "end": 115,
+          "role": "greg",
+          "text": "“I was busy.”"
+        },
+        {
+          "start": 117,
+          "end": 136,
+          "role": "greg",
+          "text": "Ithar did not move."
+        },
+        {
+          "start": 138,
+          "end": 161,
+          "role": "greg",
+          "text": "“Being nineteen again.”"
+        },
+        {
+          "start": 163,
+          "end": 177,
+          "role": "greg",
+          "text": "Still nothing."
+        },
+        {
+          "start": 179,
+          "end": 210,
+          "role": "greg",
+          "text": "I had seen that silence before."
+        },
+        {
+          "start": 212,
+          "end": 302,
+          "role": "greg",
+          "text": "Usually after saying something about people that he understood as words and not as a fact."
+        },
+        {
+          "start": 304,
+          "end": 330,
+          "role": "greg",
+          "text": "“You don't get that part.”"
+        },
+        {
+          "start": 332,
+          "end": 358,
+          "role": "greg",
+          "text": "His eye dropped to my leg."
+        },
+        {
+          "start": 360,
+          "end": 378,
+          "role": "greg",
+          "text": "I looked down too."
+        },
+        {
+          "start": 380,
+          "end": 458,
+          "role": "greg",
+          "text": "“Explaining knees to a dragon that still has all of his is going to annoy me.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 13,
+      "transcript": "Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge.\n\nI could cross an active pressure break without a shield crew.\n\nI could hold full reinforcement most of a day if I wasn't doing anything stupid.\n\nUsually I was doing something stupid.\n\n“I killed a redback alone north of Vey.”\n\nThat got him.\n\nNot much.\n\nAn inch of head movement from Ithar was becoming the equivalent of another creature standing up.",
+      "char_count": 484,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 134,
+          "role": "greg",
+          "text": "Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge."
+        },
+        {
+          "start": 136,
+          "end": 197,
+          "role": "greg",
+          "text": "I could cross an active pressure break without a shield crew."
+        },
+        {
+          "start": 199,
+          "end": 279,
+          "role": "greg",
+          "text": "I could hold full reinforcement most of a day if I wasn't doing anything stupid."
+        },
+        {
+          "start": 281,
+          "end": 318,
+          "role": "greg",
+          "text": "Usually I was doing something stupid."
+        },
+        {
+          "start": 320,
+          "end": 360,
+          "role": "greg",
+          "text": "“I killed a redback alone north of Vey.”"
+        },
+        {
+          "start": 362,
+          "end": 375,
+          "role": "greg",
+          "text": "That got him."
+        },
+        {
+          "start": 377,
+          "end": 386,
+          "role": "greg",
+          "text": "Not much."
+        },
+        {
+          "start": 388,
+          "end": 484,
+          "role": "greg",
+          "text": "An inch of head movement from Ithar was becoming the equivalent of another creature standing up."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 22,
+      "transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing.",
+      "char_count": 304,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "role": "greg",
+          "text": "The route he had already read off me before I understood he was looking."
+        },
+        {
+          "start": 74,
+          "end": 132,
+          "role": "greg",
+          "text": "His claw touched the old Line disk still lying between us."
+        },
+        {
+          "start": 134,
+          "end": 163,
+          "role": "greg",
+          "text": "Then he took the floor again."
+        },
+        {
+          "start": 165,
+          "end": 304,
+          "role": "dragon",
+          "text": "“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "002",
+      "title": "THE CLAIMANT",
+      "chunk_index": 23,
+      "transcript": "“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.\n\n“You recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path.",
+      "char_count": 448,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 319,
+          "role": "dragon",
+          "text": "“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden."
+        },
+        {
+          "start": 321,
+          "end": 448,
+          "role": "dragon",
+          "text": "“You recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path."
+        }
+      ],
+      "required_voices": [
+        "normal"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 3,
+      "transcript": "That worried me.\n\nA person should not become accustomed to sitting beside enough money to destabilize a kingdom.\n\nThen again, people become accustomed to most things if they happen around breakfast often enough.\n\nI had learned that twice.\n\nThe dragon let me finish trying to negotiate before he answered.",
+      "char_count": 304,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 16,
+          "role": "greg",
+          "text": "That worried me."
+        },
+        {
+          "start": 18,
+          "end": 112,
+          "role": "greg",
+          "text": "A person should not become accustomed to sitting beside enough money to destabilize a kingdom."
+        },
+        {
+          "start": 114,
+          "end": 211,
+          "role": "greg",
+          "text": "Then again, people become accustomed to most things if they happen around breakfast often enough."
+        },
+        {
+          "start": 213,
+          "end": 238,
+          "role": "greg",
+          "text": "I had learned that twice."
+        },
+        {
+          "start": 240,
+          "end": 304,
+          "role": "greg",
+          "text": "The dragon let me finish trying to negotiate before he answered."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 5,
+      "transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted.",
+      "char_count": 424,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "role": "dragon",
+          "text": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”"
+        },
+        {
+          "start": 113,
+          "end": 147,
+          "role": "greg",
+          "text": "I looked toward the passage again."
+        },
+        {
+          "start": 149,
+          "end": 184,
+          "role": "greg",
+          "text": "I really needed to stop doing that."
+        },
+        {
+          "start": 186,
+          "end": 236,
+          "role": "greg",
+          "text": "The exit was beginning to feel like a participant."
+        },
+        {
+          "start": 238,
+          "end": 267,
+          "role": "greg",
+          "text": "“I researched possibilities.”"
+        },
+        {
+          "start": 269,
+          "end": 290,
+          "role": "greg",
+          "text": "The eye stayed on me."
+        },
+        {
+          "start": 292,
+          "end": 309,
+          "role": "greg",
+          "text": "“For the future.”"
+        },
+        {
+          "start": 311,
+          "end": 331,
+          "role": "greg",
+          "text": "Still not an answer."
+        },
+        {
+          "start": 333,
+          "end": 360,
+          "role": "greg",
+          "text": "I could read that much now."
+        },
+        {
+          "start": 362,
+          "end": 403,
+          "role": "greg",
+          "text": "“It is if you're willing to be generous.”"
+        },
+        {
+          "start": 405,
+          "end": 416,
+          "role": "greg",
+          "text": "He was not."
+        },
+        {
+          "start": 418,
+          "end": 424,
+          "role": "greg",
+          "text": "Noted."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 13,
+      "transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”",
+      "char_count": 412,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 211,
+          "role": "dragon",
+          "text": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it."
+        },
+        {
+          "start": 213,
+          "end": 354,
+          "role": "dragon",
+          "text": "“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”"
+        },
+        {
+          "start": 356,
+          "end": 381,
+          "role": "greg",
+          "text": "I looked down at the leg."
+        },
+        {
+          "start": 383,
+          "end": 412,
+          "role": "greg",
+          "text": "“My rank isn't inconsistent.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 14,
+      "transcript": "The dragon had watched me move before the stone in a way my leg could not presently support.\n\nLuck, I could have called it.\n\nTraining.\n\nJust not this body's training.\n\nI scratched at my jaw.\n\nThe beard had gotten rough during the climb.\n\nThere had been a time when three days without shaving felt like neglect.\n\nThen I had children.\n\nThen I had worse problems.\n\nThen I had fewer reasons to care.\n\nThe memory arrived and left before I could stop it.\n\nIthar's eye shifted.\n\nHe had not read the thought.",
+      "char_count": 500,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "role": "greg",
+          "text": "The dragon had watched me move before the stone in a way my leg could not presently support."
+        },
+        {
+          "start": 94,
+          "end": 123,
+          "role": "greg",
+          "text": "Luck, I could have called it."
+        },
+        {
+          "start": 125,
+          "end": 134,
+          "role": "greg",
+          "text": "Training."
+        },
+        {
+          "start": 136,
+          "end": 166,
+          "role": "greg",
+          "text": "Just not this body's training."
+        },
+        {
+          "start": 168,
+          "end": 190,
+          "role": "greg",
+          "text": "I scratched at my jaw."
+        },
+        {
+          "start": 192,
+          "end": 236,
+          "role": "greg",
+          "text": "The beard had gotten rough during the climb."
+        },
+        {
+          "start": 238,
+          "end": 310,
+          "role": "greg",
+          "text": "There had been a time when three days without shaving felt like neglect."
+        },
+        {
+          "start": 312,
+          "end": 332,
+          "role": "greg",
+          "text": "Then I had children."
+        },
+        {
+          "start": 334,
+          "end": 360,
+          "role": "greg",
+          "text": "Then I had worse problems."
+        },
+        {
+          "start": 362,
+          "end": 395,
+          "role": "greg",
+          "text": "Then I had fewer reasons to care."
+        },
+        {
+          "start": 397,
+          "end": 448,
+          "role": "greg",
+          "text": "The memory arrived and left before I could stop it."
+        },
+        {
+          "start": 450,
+          "end": 470,
+          "role": "greg",
+          "text": "Ithar's eye shifted."
+        },
+        {
+          "start": 472,
+          "end": 500,
+          "role": "greg",
+          "text": "He had not read the thought."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 20,
+      "transcript": "“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions. If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.",
+      "char_count": 420,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 420,
+          "role": "dragon",
+          "text": "“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions. If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence."
+        }
+      ],
+      "required_voices": [
+        "normal"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "003",
+      "title": "THE BARGAINER",
+      "chunk_index": 26,
+      "transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked.",
+      "char_count": 447,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "greg",
+          "text": "My jaw tightened at the third possibility."
+        },
+        {
+          "start": 44,
+          "end": 69,
+          "role": "greg",
+          "text": "He watched that one land."
+        },
+        {
+          "start": 71,
+          "end": 104,
+          "role": "greg",
+          "text": "Then, for once, he did not press."
+        },
+        {
+          "start": 106,
+          "end": 164,
+          "role": "greg",
+          "text": "Instead he lifted a claw and pointed deeper into the cave."
+        },
+        {
+          "start": 166,
+          "end": 435,
+          "role": "dragon",
+          "text": "“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”"
+        },
+        {
+          "start": 437,
+          "end": 447,
+          "role": "greg",
+          "text": "I blinked."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "004",
+      "title": "THE RETURNED",
+      "chunk_index": 1,
+      "transcript": "I woke up nineteen years old with both hands closed around a blanket I had not seen in forty years.\n\nFor a while I did not move.\n\nThat was not restraint.\n\nMy body had forgotten the habit of waking carefully.\n\nNo bad knee.\n\nNo shoulder catching under my weight.\n\nNo fingers that needed a second try before they closed.\n\nNo little inventory of damage before deciding whether standing was worth it.\n\nI lay there staring at a ceiling with a water stain shaped like a boot.",
+      "char_count": 468,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "role": "greg",
+          "text": "I woke up nineteen years old with both hands closed around a blanket I had not seen in forty years."
+        },
+        {
+          "start": 101,
+          "end": 128,
+          "role": "greg",
+          "text": "For a while I did not move."
+        },
+        {
+          "start": 130,
+          "end": 153,
+          "role": "greg",
+          "text": "That was not restraint."
+        },
+        {
+          "start": 155,
+          "end": 207,
+          "role": "greg",
+          "text": "My body had forgotten the habit of waking carefully."
+        },
+        {
+          "start": 209,
+          "end": 221,
+          "role": "greg",
+          "text": "No bad knee."
+        },
+        {
+          "start": 223,
+          "end": 260,
+          "role": "greg",
+          "text": "No shoulder catching under my weight."
+        },
+        {
+          "start": 262,
+          "end": 317,
+          "role": "greg",
+          "text": "No fingers that needed a second try before they closed."
+        },
+        {
+          "start": 319,
+          "end": 395,
+          "role": "greg",
+          "text": "No little inventory of damage before deciding whether standing was worth it."
+        },
+        {
+          "start": 397,
+          "end": 468,
+          "role": "greg",
+          "text": "I lay there staring at a ceiling with a water stain shaped like a boot."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "004",
+      "title": "THE RETURNED",
+      "chunk_index": 6,
+      "transcript": "I had also been fifty-nine, which gave me a more useful comparison.\n\nThe body in that room was healthy.\n\nIt was not mine.\n\nThat was the first thought that frightened me.\n\nNot because the face in the little mirror was wrong.\n\nIt was right.\n\nToo right.\n\nBlack hair I had not yet started losing. Jaw before the old break. Nose before the second break. Eyes without the red veins that showed up after three bad years of sleeping in armor.\n\nI knew the face.\n\nI had just stopped thinking of it as me.",
+      "char_count": 494,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "role": "greg",
+          "text": "I had also been fifty-nine, which gave me a more useful comparison."
+        },
+        {
+          "start": 69,
+          "end": 103,
+          "role": "greg",
+          "text": "The body in that room was healthy."
+        },
+        {
+          "start": 105,
+          "end": 121,
+          "role": "greg",
+          "text": "It was not mine."
+        },
+        {
+          "start": 123,
+          "end": 169,
+          "role": "greg",
+          "text": "That was the first thought that frightened me."
+        },
+        {
+          "start": 171,
+          "end": 223,
+          "role": "greg",
+          "text": "Not because the face in the little mirror was wrong."
+        },
+        {
+          "start": 225,
+          "end": 238,
+          "role": "greg",
+          "text": "It was right."
+        },
+        {
+          "start": 240,
+          "end": 250,
+          "role": "greg",
+          "text": "Too right."
+        },
+        {
+          "start": 252,
+          "end": 434,
+          "role": "greg",
+          "text": "Black hair I had not yet started losing. Jaw before the old break. Nose before the second break. Eyes without the red veins that showed up after three bad years of sleeping in armor."
+        },
+        {
+          "start": 436,
+          "end": 452,
+          "role": "greg",
+          "text": "I knew the face."
+        },
+        {
+          "start": 454,
+          "end": 494,
+          "role": "greg",
+          "text": "I had just stopped thinking of it as me."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "004",
+      "title": "THE RETURNED",
+      "chunk_index": 11,
+      "transcript": "She looked at my mother.\n\n“See?”\n\nMy mother put eggs in front of me.\n\nI ate too fast.\n\nThat became the first thing I understood about being nineteen again.\n\nHunger was different.\n\nAt fifty-nine I could miss breakfast and complain about it later.\n\nAt nineteen my body treated food like an emergency contract.\n\nI finished the eggs, took bread, took more bread, and caught my mother watching me.\n\n“What?”\n\n“You said you weren't sick.”\n\n“I'm hungry.”\n\n“That part appears healthy.”",
+      "char_count": 476,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 24,
+          "role": "greg",
+          "text": "She looked at my mother."
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "role": "greg",
+          "text": "“See?”"
+        },
+        {
+          "start": 34,
+          "end": 68,
+          "role": "greg",
+          "text": "My mother put eggs in front of me."
+        },
+        {
+          "start": 70,
+          "end": 85,
+          "role": "greg",
+          "text": "I ate too fast."
+        },
+        {
+          "start": 87,
+          "end": 155,
+          "role": "greg",
+          "text": "That became the first thing I understood about being nineteen again."
+        },
+        {
+          "start": 157,
+          "end": 178,
+          "role": "greg",
+          "text": "Hunger was different."
+        },
+        {
+          "start": 180,
+          "end": 245,
+          "role": "greg",
+          "text": "At fifty-nine I could miss breakfast and complain about it later."
+        },
+        {
+          "start": 247,
+          "end": 307,
+          "role": "greg",
+          "text": "At nineteen my body treated food like an emergency contract."
+        },
+        {
+          "start": 309,
+          "end": 392,
+          "role": "greg",
+          "text": "I finished the eggs, took bread, took more bread, and caught my mother watching me."
+        },
+        {
+          "start": 394,
+          "end": 401,
+          "role": "greg",
+          "text": "“What?”"
+        },
+        {
+          "start": 403,
+          "end": 431,
+          "role": "greg",
+          "text": "“You said you weren't sick.”"
+        },
+        {
+          "start": 433,
+          "end": 446,
+          "role": "greg",
+          "text": "“I'm hungry.”"
+        },
+        {
+          "start": 448,
+          "end": 476,
+          "role": "greg",
+          "text": "“That part appears healthy.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "004",
+      "title": "THE RETURNED",
+      "chunk_index": 16,
+      "transcript": "I left twenty minutes later.\n\nMy mother made me take a coat.\n\nI almost told her I had crossed an ice shelf without one once.\n\nThen I remembered I was nineteen, it was raining, and my mother was alive.\n\nI took the coat.\n\nThe street outside was exactly where I remembered it.\n\nWhich felt unreasonable.\n\nThere should have been a sign.\n\nA crack in the sky.\n\nA bell nobody else could hear.\n\nSomething.\n\nInstead there was mud.",
+      "char_count": 420,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 28,
+          "role": "greg",
+          "text": "I left twenty minutes later."
+        },
+        {
+          "start": 30,
+          "end": 60,
+          "role": "greg",
+          "text": "My mother made me take a coat."
+        },
+        {
+          "start": 62,
+          "end": 124,
+          "role": "greg",
+          "text": "I almost told her I had crossed an ice shelf without one once."
+        },
+        {
+          "start": 126,
+          "end": 200,
+          "role": "greg",
+          "text": "Then I remembered I was nineteen, it was raining, and my mother was alive."
+        },
+        {
+          "start": 202,
+          "end": 218,
+          "role": "greg",
+          "text": "I took the coat."
+        },
+        {
+          "start": 220,
+          "end": 273,
+          "role": "greg",
+          "text": "The street outside was exactly where I remembered it."
+        },
+        {
+          "start": 275,
+          "end": 299,
+          "role": "greg",
+          "text": "Which felt unreasonable."
+        },
+        {
+          "start": 301,
+          "end": 331,
+          "role": "greg",
+          "text": "There should have been a sign."
+        },
+        {
+          "start": 333,
+          "end": 352,
+          "role": "greg",
+          "text": "A crack in the sky."
+        },
+        {
+          "start": 354,
+          "end": 384,
+          "role": "greg",
+          "text": "A bell nobody else could hear."
+        },
+        {
+          "start": 386,
+          "end": 396,
+          "role": "greg",
+          "text": "Something."
+        },
+        {
+          "start": 398,
+          "end": 420,
+          "role": "greg",
+          "text": "Instead there was mud."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "004",
+      "title": "THE RETURNED",
+      "chunk_index": 21,
+      "transcript": "I stepped into the alley beside the stairwell, set my feet, drew one slow breath, and opened the first reinforcement pattern I had learned properly at twenty-six.\n\nThe pattern answered.\n\nFor half a second.\n\nPressure moved through my chest.\n\nMy shoulders locked.\n\nMy right calf cramped so hard I hit the wall.\n\nThen the whole thing collapsed and I threw up beside a rain barrel.\n\nA woman passing the alley stopped.\n\n“You all right?”\n\nI wiped my mouth.\n\n“Excellent.”",
+      "char_count": 464,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 162,
+          "role": "greg",
+          "text": "I stepped into the alley beside the stairwell, set my feet, drew one slow breath, and opened the first reinforcement pattern I had learned properly at twenty-six."
+        },
+        {
+          "start": 164,
+          "end": 185,
+          "role": "greg",
+          "text": "The pattern answered."
+        },
+        {
+          "start": 187,
+          "end": 205,
+          "role": "greg",
+          "text": "For half a second."
+        },
+        {
+          "start": 207,
+          "end": 239,
+          "role": "greg",
+          "text": "Pressure moved through my chest."
+        },
+        {
+          "start": 241,
+          "end": 261,
+          "role": "greg",
+          "text": "My shoulders locked."
+        },
+        {
+          "start": 263,
+          "end": 308,
+          "role": "greg",
+          "text": "My right calf cramped so hard I hit the wall."
+        },
+        {
+          "start": 310,
+          "end": 377,
+          "role": "greg",
+          "text": "Then the whole thing collapsed and I threw up beside a rain barrel."
+        },
+        {
+          "start": 379,
+          "end": 413,
+          "role": "greg",
+          "text": "A woman passing the alley stopped."
+        },
+        {
+          "start": 415,
+          "end": 431,
+          "role": "greg",
+          "text": "“You all right?”"
+        },
+        {
+          "start": 433,
+          "end": 450,
+          "role": "greg",
+          "text": "I wiped my mouth."
+        },
+        {
+          "start": 452,
+          "end": 464,
+          "role": "greg",
+          "text": "“Excellent.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "004",
+      "title": "THE RETURNED",
+      "chunk_index": 26,
+      "transcript": "Only years later did I understand that the most important thing I carried into Guild Hall was not forty years of knowledge.\n\nIt was the assumption that I still wanted the same life.\n\nThe cave returned around me.\n\nIthar had not moved.\n\nHis eye rested on the hands I had been remembering young.",
+      "char_count": 292,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 123,
+          "role": "greg",
+          "text": "Only years later did I understand that the most important thing I carried into Guild Hall was not forty years of knowledge."
+        },
+        {
+          "start": 125,
+          "end": 181,
+          "role": "greg",
+          "text": "It was the assumption that I still wanted the same life."
+        },
+        {
+          "start": 183,
+          "end": 211,
+          "role": "greg",
+          "text": "The cave returned around me."
+        },
+        {
+          "start": 213,
+          "end": 233,
+          "role": "greg",
+          "text": "Ithar had not moved."
+        },
+        {
+          "start": 235,
+          "end": 292,
+          "role": "greg",
+          "text": "His eye rested on the hands I had been remembering young."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "005",
+      "title": "THE ASPIRANT",
+      "chunk_index": 5,
+      "transcript": "I knew a Ranker in West Vale who had lost half a hand because someone repaired one with the wrong alloy.\n\nI did not remember what the Guild called the little diagonal channel on the bottom left.\n\nI pointed at it.\n\n“That one.”\n\n“What is it?”\n\n“Unsafe.”\n\nHe looked at me.\n\nI smiled.\n\nHe did not.\n\n“Name it.”\n\nI stared at the channel.\n\nThe name was somewhere in forty years of things I had stopped needing to say.\n\n“Secondary bleed.”\n\n“No.”\n\n“Auxiliary bleed.”\n\n“No.”\n\n“Pressure relief.”",
+      "char_count": 484,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 104,
+          "role": "greg",
+          "text": "I knew a Ranker in West Vale who had lost half a hand because someone repaired one with the wrong alloy."
+        },
+        {
+          "start": 106,
+          "end": 194,
+          "role": "greg",
+          "text": "I did not remember what the Guild called the little diagonal channel on the bottom left."
+        },
+        {
+          "start": 196,
+          "end": 212,
+          "role": "greg",
+          "text": "I pointed at it."
+        },
+        {
+          "start": 214,
+          "end": 225,
+          "role": "greg",
+          "text": "“That one.”"
+        },
+        {
+          "start": 227,
+          "end": 240,
+          "role": "greg",
+          "text": "“What is it?”"
+        },
+        {
+          "start": 242,
+          "end": 251,
+          "role": "greg",
+          "text": "“Unsafe.”"
+        },
+        {
+          "start": 253,
+          "end": 269,
+          "role": "greg",
+          "text": "He looked at me."
+        },
+        {
+          "start": 271,
+          "end": 280,
+          "role": "greg",
+          "text": "I smiled."
+        },
+        {
+          "start": 282,
+          "end": 293,
+          "role": "greg",
+          "text": "He did not."
+        },
+        {
+          "start": 295,
+          "end": 305,
+          "role": "greg",
+          "text": "“Name it.”"
+        },
+        {
+          "start": 307,
+          "end": 331,
+          "role": "greg",
+          "text": "I stared at the channel."
+        },
+        {
+          "start": 333,
+          "end": 410,
+          "role": "greg",
+          "text": "The name was somewhere in forty years of things I had stopped needing to say."
+        },
+        {
+          "start": 412,
+          "end": 430,
+          "role": "greg",
+          "text": "“Secondary bleed.”"
+        },
+        {
+          "start": 432,
+          "end": 437,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 439,
+          "end": 457,
+          "role": "greg",
+          "text": "“Auxiliary bleed.”"
+        },
+        {
+          "start": 459,
+          "end": 464,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 466,
+          "end": 484,
+          "role": "greg",
+          "text": "“Pressure relief.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "005",
+      "title": "THE ASPIRANT",
+      "chunk_index": 10,
+      "transcript": "People stood in front of it pretending not to compete.\n\nI knew the ritual.\n\nRead quickly.\n\nDo not reach too fast.\n\nIf two people want the same slip, whoever touches it first becomes an asshole and whoever complains becomes unemployed.\n\nI moved along the board.\n\nCourier work.\n\nGuard work.\n\nSurvey crews.\n\nCaravan escort.\n\nRuin clearing.\n\nDrain inspection.\n\nLine maintenance.\n\nAnimal removal.\n\nThen I saw it.\n\nRIDGE ACCESS SURVEY, WESTERN CORRIDOR.\n\nThree-week initial term.\n\nRoom and food provided.",
+      "char_count": 498,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "role": "greg",
+          "text": "People stood in front of it pretending not to compete."
+        },
+        {
+          "start": 56,
+          "end": 74,
+          "role": "greg",
+          "text": "I knew the ritual."
+        },
+        {
+          "start": 76,
+          "end": 89,
+          "role": "greg",
+          "text": "Read quickly."
+        },
+        {
+          "start": 91,
+          "end": 113,
+          "role": "greg",
+          "text": "Do not reach too fast."
+        },
+        {
+          "start": 115,
+          "end": 234,
+          "role": "greg",
+          "text": "If two people want the same slip, whoever touches it first becomes an asshole and whoever complains becomes unemployed."
+        },
+        {
+          "start": 236,
+          "end": 260,
+          "role": "greg",
+          "text": "I moved along the board."
+        },
+        {
+          "start": 262,
+          "end": 275,
+          "role": "greg",
+          "text": "Courier work."
+        },
+        {
+          "start": 277,
+          "end": 288,
+          "role": "greg",
+          "text": "Guard work."
+        },
+        {
+          "start": 290,
+          "end": 303,
+          "role": "greg",
+          "text": "Survey crews."
+        },
+        {
+          "start": 305,
+          "end": 320,
+          "role": "greg",
+          "text": "Caravan escort."
+        },
+        {
+          "start": 322,
+          "end": 336,
+          "role": "greg",
+          "text": "Ruin clearing."
+        },
+        {
+          "start": 338,
+          "end": 355,
+          "role": "greg",
+          "text": "Drain inspection."
+        },
+        {
+          "start": 357,
+          "end": 374,
+          "role": "greg",
+          "text": "Line maintenance."
+        },
+        {
+          "start": 376,
+          "end": 391,
+          "role": "greg",
+          "text": "Animal removal."
+        },
+        {
+          "start": 393,
+          "end": 407,
+          "role": "greg",
+          "text": "Then I saw it."
+        },
+        {
+          "start": 409,
+          "end": 447,
+          "role": "greg",
+          "text": "RIDGE ACCESS SURVEY, WESTERN CORRIDOR."
+        },
+        {
+          "start": 449,
+          "end": 473,
+          "role": "greg",
+          "text": "Three-week initial term."
+        },
+        {
+          "start": 475,
+          "end": 498,
+          "role": "greg",
+          "text": "Room and food provided."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "005",
+      "title": "THE ASPIRANT",
+      "chunk_index": 15,
+      "transcript": "First life, I had gone home, packed, lied to my mother about the hazard class, and been on a cart before dinner.\n\nMy sister had complained because I was supposed to help her carry something to the spring street fair that weekend.\n\nI had told her I would do it next year.\n\nThere had not been a next year for us.\n\nNot like that.\n\nThe memory did not arrive dramatically.\n\nNo music.\n\nNo revelation.",
+      "char_count": 394,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 112,
+          "role": "greg",
+          "text": "First life, I had gone home, packed, lied to my mother about the hazard class, and been on a cart before dinner."
+        },
+        {
+          "start": 114,
+          "end": 229,
+          "role": "greg",
+          "text": "My sister had complained because I was supposed to help her carry something to the spring street fair that weekend."
+        },
+        {
+          "start": 231,
+          "end": 270,
+          "role": "greg",
+          "text": "I had told her I would do it next year."
+        },
+        {
+          "start": 272,
+          "end": 310,
+          "role": "greg",
+          "text": "There had not been a next year for us."
+        },
+        {
+          "start": 312,
+          "end": 326,
+          "role": "greg",
+          "text": "Not like that."
+        },
+        {
+          "start": 328,
+          "end": 367,
+          "role": "greg",
+          "text": "The memory did not arrive dramatically."
+        },
+        {
+          "start": 369,
+          "end": 378,
+          "role": "greg",
+          "text": "No music."
+        },
+        {
+          "start": 380,
+          "end": 394,
+          "role": "greg",
+          "text": "No revelation."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "005",
+      "title": "THE ASPIRANT",
+      "chunk_index": 20,
+      "transcript": "“Informal.”\n\n“What kind?”\n\nI thought of the ninth station.\n\nNhal.\n\nThe pressure break outside Vey.\n\nA crown contract I could not remember correctly enough for Ithar's liking.\n\n“My father repairs mill housings.”\n\nThat, at least, was true.\n\n“You any good with tools?”\n\n“Yes.”\n\n“Can you lift forty kilos?”\n\n“Yes.”\n\nProbably.\n\nMy memory had opinions.\n\nMy calf had others.\n\n“Can you follow instructions?”\n\nI hesitated.\n\nThe clerk looked up.\n\n“Yes.”\n\nHe did not believe me.\n\nFair.\n\nHe stamped the slip.",
+      "char_count": 496,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 11,
+          "role": "greg",
+          "text": "“Informal.”"
+        },
+        {
+          "start": 13,
+          "end": 25,
+          "role": "greg",
+          "text": "“What kind?”"
+        },
+        {
+          "start": 27,
+          "end": 58,
+          "role": "greg",
+          "text": "I thought of the ninth station."
+        },
+        {
+          "start": 60,
+          "end": 65,
+          "role": "greg",
+          "text": "Nhal."
+        },
+        {
+          "start": 67,
+          "end": 98,
+          "role": "greg",
+          "text": "The pressure break outside Vey."
+        },
+        {
+          "start": 100,
+          "end": 174,
+          "role": "greg",
+          "text": "A crown contract I could not remember correctly enough for Ithar's liking."
+        },
+        {
+          "start": 176,
+          "end": 210,
+          "role": "greg",
+          "text": "“My father repairs mill housings.”"
+        },
+        {
+          "start": 212,
+          "end": 237,
+          "role": "greg",
+          "text": "That, at least, was true."
+        },
+        {
+          "start": 239,
+          "end": 265,
+          "role": "greg",
+          "text": "“You any good with tools?”"
+        },
+        {
+          "start": 267,
+          "end": 273,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 275,
+          "end": 302,
+          "role": "greg",
+          "text": "“Can you lift forty kilos?”"
+        },
+        {
+          "start": 304,
+          "end": 310,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 312,
+          "end": 321,
+          "role": "greg",
+          "text": "Probably."
+        },
+        {
+          "start": 323,
+          "end": 346,
+          "role": "greg",
+          "text": "My memory had opinions."
+        },
+        {
+          "start": 348,
+          "end": 367,
+          "role": "greg",
+          "text": "My calf had others."
+        },
+        {
+          "start": 369,
+          "end": 399,
+          "role": "greg",
+          "text": "“Can you follow instructions?”"
+        },
+        {
+          "start": 401,
+          "end": 413,
+          "role": "greg",
+          "text": "I hesitated."
+        },
+        {
+          "start": 415,
+          "end": 435,
+          "role": "greg",
+          "text": "The clerk looked up."
+        },
+        {
+          "start": 437,
+          "end": 443,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 445,
+          "end": 467,
+          "role": "greg",
+          "text": "He did not believe me."
+        },
+        {
+          "start": 469,
+          "end": 474,
+          "role": "greg",
+          "text": "Fair."
+        },
+        {
+          "start": 476,
+          "end": 496,
+          "role": "greg",
+          "text": "He stamped the slip."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "005",
+      "title": "THE ASPIRANT",
+      "chunk_index": 25,
+      "transcript": "Just a job I had apparently already agreed to.\n\nI sat on the floor beside her.\n\n“Give me one.”\n\n“You'll break it.”\n\n“I will not.”\n\n“You break everything.”\n\nI took a lantern.\n\nThe wire bent under my fingers.\n\nYoung fingers.\n\nBoth hands.\n\nI worked more carefully.\n\nMy first contract in my second life lasted four weeks.\n\nThat was what the paper said.\n\nThe cave came back before I could hide inside the word temporary.\n\nIthar's claw rested against the gold.",
+      "char_count": 454,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "greg",
+          "text": "Just a job I had apparently already agreed to."
+        },
+        {
+          "start": 48,
+          "end": 78,
+          "role": "greg",
+          "text": "I sat on the floor beside her."
+        },
+        {
+          "start": 80,
+          "end": 94,
+          "role": "greg",
+          "text": "“Give me one.”"
+        },
+        {
+          "start": 96,
+          "end": 114,
+          "role": "greg",
+          "text": "“You'll break it.”"
+        },
+        {
+          "start": 116,
+          "end": 129,
+          "role": "greg",
+          "text": "“I will not.”"
+        },
+        {
+          "start": 131,
+          "end": 154,
+          "role": "greg",
+          "text": "“You break everything.”"
+        },
+        {
+          "start": 156,
+          "end": 173,
+          "role": "greg",
+          "text": "I took a lantern."
+        },
+        {
+          "start": 175,
+          "end": 206,
+          "role": "greg",
+          "text": "The wire bent under my fingers."
+        },
+        {
+          "start": 208,
+          "end": 222,
+          "role": "greg",
+          "text": "Young fingers."
+        },
+        {
+          "start": 224,
+          "end": 235,
+          "role": "greg",
+          "text": "Both hands."
+        },
+        {
+          "start": 237,
+          "end": 261,
+          "role": "greg",
+          "text": "I worked more carefully."
+        },
+        {
+          "start": 263,
+          "end": 317,
+          "role": "greg",
+          "text": "My first contract in my second life lasted four weeks."
+        },
+        {
+          "start": 319,
+          "end": 348,
+          "role": "greg",
+          "text": "That was what the paper said."
+        },
+        {
+          "start": 350,
+          "end": 415,
+          "role": "greg",
+          "text": "The cave came back before I could hide inside the word temporary."
+        },
+        {
+          "start": 417,
+          "end": 454,
+          "role": "greg",
+          "text": "Ithar's claw rested against the gold."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "006",
+      "title": "THE HAND",
+      "chunk_index": 2,
+      "transcript": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n“Eleven years is a long time.”\n\nThe dragon did not need to answer that.\n\n“For me.”",
+      "char_count": 498,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 337,
+          "role": "dragon",
+          "text": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”"
+        },
+        {
+          "start": 339,
+          "end": 367,
+          "role": "greg",
+          "text": "I looked toward the passage."
+        },
+        {
+          "start": 369,
+          "end": 398,
+          "role": "greg",
+          "text": "The passage remained neutral."
+        },
+        {
+          "start": 400,
+          "end": 414,
+          "role": "greg",
+          "text": "Useless thing."
+        },
+        {
+          "start": 416,
+          "end": 446,
+          "role": "greg",
+          "text": "“Eleven years is a long time.”"
+        },
+        {
+          "start": 448,
+          "end": 487,
+          "role": "greg",
+          "text": "The dragon did not need to answer that."
+        },
+        {
+          "start": 489,
+          "end": 498,
+          "role": "greg",
+          "text": "“For me.”"
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "006",
+      "title": "THE HAND",
+      "chunk_index": 6,
+      "transcript": "“That used to be a ring.”\n\nNobody asked again.\n\nI liked her immediately.\n\nShe did not like me for another year.\n\nThat was fair.\n\nMy first job was scraping oxide off a secondary housing with a wire brush.\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me.\n\nAt East Four I spent four hours on my knees removing green crust from bolts.\n\nThe bolts did not care.\n\nA woman worked on the next housing over.",
+      "char_count": 447,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 25,
+          "role": "greg",
+          "text": "“That used to be a ring.”"
+        },
+        {
+          "start": 27,
+          "end": 46,
+          "role": "greg",
+          "text": "Nobody asked again."
+        },
+        {
+          "start": 48,
+          "end": 72,
+          "role": "greg",
+          "text": "I liked her immediately."
+        },
+        {
+          "start": 74,
+          "end": 111,
+          "role": "greg",
+          "text": "She did not like me for another year."
+        },
+        {
+          "start": 113,
+          "end": 127,
+          "role": "greg",
+          "text": "That was fair."
+        },
+        {
+          "start": 129,
+          "end": 203,
+          "role": "greg",
+          "text": "My first job was scraping oxide off a secondary housing with a wire brush."
+        },
+        {
+          "start": 205,
+          "end": 302,
+          "role": "greg",
+          "text": "I had once held a pressure break alone while a shield team evacuated thirty-two people behind me."
+        },
+        {
+          "start": 304,
+          "end": 380,
+          "role": "greg",
+          "text": "At East Four I spent four hours on my knees removing green crust from bolts."
+        },
+        {
+          "start": 382,
+          "end": 405,
+          "role": "greg",
+          "text": "The bolts did not care."
+        },
+        {
+          "start": 407,
+          "end": 447,
+          "role": "greg",
+          "text": "A woman worked on the next housing over."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "006",
+      "title": "THE HAND",
+      "chunk_index": 11,
+      "transcript": "“No.”\n\n“You're eating it.”\n\n“I brought a potato.”\n\n“Yours had pepper.”\n\nShe looked down at the piece in her hand.\n\nMine did not have pepper.\n\n“Interesting.”\n\nI took it back.\n\nShe called me an asshole.\n\nThat was Nessa.\n\nI did not know yet that I would spend years learning all the ways she could say the same insult.\n\nSome were affectionate.\n\nSome were not.\n\nThe distinction became important.\n\nMy four-week contract became eight because somebody quit.",
+      "char_count": 450,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 7,
+          "end": 26,
+          "role": "greg",
+          "text": "“You're eating it.”"
+        },
+        {
+          "start": 28,
+          "end": 49,
+          "role": "greg",
+          "text": "“I brought a potato.”"
+        },
+        {
+          "start": 51,
+          "end": 70,
+          "role": "greg",
+          "text": "“Yours had pepper.”"
+        },
+        {
+          "start": 72,
+          "end": 113,
+          "role": "greg",
+          "text": "She looked down at the piece in her hand."
+        },
+        {
+          "start": 115,
+          "end": 140,
+          "role": "greg",
+          "text": "Mine did not have pepper."
+        },
+        {
+          "start": 142,
+          "end": 156,
+          "role": "greg",
+          "text": "“Interesting.”"
+        },
+        {
+          "start": 158,
+          "end": 173,
+          "role": "greg",
+          "text": "I took it back."
+        },
+        {
+          "start": 175,
+          "end": 200,
+          "role": "greg",
+          "text": "She called me an asshole."
+        },
+        {
+          "start": 202,
+          "end": 217,
+          "role": "greg",
+          "text": "That was Nessa."
+        },
+        {
+          "start": 219,
+          "end": 315,
+          "role": "greg",
+          "text": "I did not know yet that I would spend years learning all the ways she could say the same insult."
+        },
+        {
+          "start": 317,
+          "end": 340,
+          "role": "greg",
+          "text": "Some were affectionate."
+        },
+        {
+          "start": 342,
+          "end": 356,
+          "role": "greg",
+          "text": "Some were not."
+        },
+        {
+          "start": 358,
+          "end": 391,
+          "role": "greg",
+          "text": "The distinction became important."
+        },
+        {
+          "start": 393,
+          "end": 450,
+          "role": "greg",
+          "text": "My four-week contract became eight because somebody quit."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "006",
+      "title": "THE HAND",
+      "chunk_index": 16,
+      "transcript": "My mother decided the roof leak could no longer be described as seasonal because it had started raining inside during summer.\n\nThere were mornings when I did not train.\n\nAt first I made them up.\n\nThen I stopped keeping count.\n\nThat should have frightened me.\n\nFor a while it did.\n\nI had been S-class.\n\nNot metaphorically.\n\nNot in the way an old man at a tavern becomes a better fighter every year after retiring.\n\nI had been one of seven.\n\nThere were kings who knew my schedule.",
+      "char_count": 478,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 125,
+          "role": "greg",
+          "text": "My mother decided the roof leak could no longer be described as seasonal because it had started raining inside during summer."
+        },
+        {
+          "start": 127,
+          "end": 168,
+          "role": "greg",
+          "text": "There were mornings when I did not train."
+        },
+        {
+          "start": 170,
+          "end": 194,
+          "role": "greg",
+          "text": "At first I made them up."
+        },
+        {
+          "start": 196,
+          "end": 225,
+          "role": "greg",
+          "text": "Then I stopped keeping count."
+        },
+        {
+          "start": 227,
+          "end": 258,
+          "role": "greg",
+          "text": "That should have frightened me."
+        },
+        {
+          "start": 260,
+          "end": 279,
+          "role": "greg",
+          "text": "For a while it did."
+        },
+        {
+          "start": 281,
+          "end": 300,
+          "role": "greg",
+          "text": "I had been S-class."
+        },
+        {
+          "start": 302,
+          "end": 321,
+          "role": "greg",
+          "text": "Not metaphorically."
+        },
+        {
+          "start": 323,
+          "end": 412,
+          "role": "greg",
+          "text": "Not in the way an old man at a tavern becomes a better fighter every year after retiring."
+        },
+        {
+          "start": 414,
+          "end": 438,
+          "role": "greg",
+          "text": "I had been one of seven."
+        },
+        {
+          "start": 440,
+          "end": 478,
+          "role": "greg",
+          "text": "There were kings who knew my schedule."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "006",
+      "title": "THE HAND",
+      "chunk_index": 21,
+      "transcript": "First life, I had taken that test as soon as I qualified.\n\nI remembered the room.\n\nThe examiner.\n\nThe way my stomach had tightened when the first letter appeared on the badge.\n\nE-class.\n\nI had carried that badge like it weighed more than steel.\n\nSecond life, the letter got a grease stain because my father put a gear housing on it.\n\n“Important?” he asked.\n\n“Maybe.”\n\n“You going?”\n\n“I don't know.”\n\nHe looked at me longer than necessary.\n\n“Do you want to?”\n\nThat was an annoying question.",
+      "char_count": 488,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "role": "greg",
+          "text": "First life, I had taken that test as soon as I qualified."
+        },
+        {
+          "start": 59,
+          "end": 81,
+          "role": "greg",
+          "text": "I remembered the room."
+        },
+        {
+          "start": 83,
+          "end": 96,
+          "role": "greg",
+          "text": "The examiner."
+        },
+        {
+          "start": 98,
+          "end": 175,
+          "role": "greg",
+          "text": "The way my stomach had tightened when the first letter appeared on the badge."
+        },
+        {
+          "start": 177,
+          "end": 185,
+          "role": "greg",
+          "text": "E-class."
+        },
+        {
+          "start": 187,
+          "end": 244,
+          "role": "greg",
+          "text": "I had carried that badge like it weighed more than steel."
+        },
+        {
+          "start": 246,
+          "end": 332,
+          "role": "greg",
+          "text": "Second life, the letter got a grease stain because my father put a gear housing on it."
+        },
+        {
+          "start": 334,
+          "end": 356,
+          "role": "greg",
+          "text": "“Important?” he asked."
+        },
+        {
+          "start": 358,
+          "end": 366,
+          "role": "greg",
+          "text": "“Maybe.”"
+        },
+        {
+          "start": 368,
+          "end": 380,
+          "role": "greg",
+          "text": "“You going?”"
+        },
+        {
+          "start": 382,
+          "end": 397,
+          "role": "greg",
+          "text": "“I don't know.”"
+        },
+        {
+          "start": 399,
+          "end": 437,
+          "role": "greg",
+          "text": "He looked at me longer than necessary."
+        },
+        {
+          "start": 439,
+          "end": 456,
+          "role": "greg",
+          "text": "“Do you want to?”"
+        },
+        {
+          "start": 458,
+          "end": 488,
+          "role": "greg",
+          "text": "That was an annoying question."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "007",
+      "title": "THE ADVISER",
+      "chunk_index": 2,
+      "transcript": "Dera opened the plans on the break-room table.\n\nNessa moved her tea.\n\nI did not.\n\nThe edge of the paper knocked my cup over.\n\n“Good start,” Nessa said.\n\nI caught the cup before most of it escaped.\n\n“Planned.”\n\n“For what?”\n\n“Morale.”\n\nDera flattened the plans with two wrenches.\n\n“Can both of you be useful for five minutes?”\n\n“No,” Nessa said.\n\n“Yes,” I said.\n\nDera looked between us.\n\n“Somehow hers felt more honest.”\n\nI leaned over the drawing.\n\nThen I stopped.",
+      "char_count": 463,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "greg",
+          "text": "Dera opened the plans on the break-room table."
+        },
+        {
+          "start": 48,
+          "end": 68,
+          "role": "greg",
+          "text": "Nessa moved her tea."
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "role": "greg",
+          "text": "I did not."
+        },
+        {
+          "start": 82,
+          "end": 124,
+          "role": "greg",
+          "text": "The edge of the paper knocked my cup over."
+        },
+        {
+          "start": 126,
+          "end": 151,
+          "role": "greg",
+          "text": "“Good start,” Nessa said."
+        },
+        {
+          "start": 153,
+          "end": 196,
+          "role": "greg",
+          "text": "I caught the cup before most of it escaped."
+        },
+        {
+          "start": 198,
+          "end": 208,
+          "role": "greg",
+          "text": "“Planned.”"
+        },
+        {
+          "start": 210,
+          "end": 221,
+          "role": "greg",
+          "text": "“For what?”"
+        },
+        {
+          "start": 223,
+          "end": 232,
+          "role": "greg",
+          "text": "“Morale.”"
+        },
+        {
+          "start": 234,
+          "end": 277,
+          "role": "greg",
+          "text": "Dera flattened the plans with two wrenches."
+        },
+        {
+          "start": 279,
+          "end": 324,
+          "role": "greg",
+          "text": "“Can both of you be useful for five minutes?”"
+        },
+        {
+          "start": 326,
+          "end": 343,
+          "role": "greg",
+          "text": "“No,” Nessa said."
+        },
+        {
+          "start": 345,
+          "end": 359,
+          "role": "greg",
+          "text": "“Yes,” I said."
+        },
+        {
+          "start": 361,
+          "end": 384,
+          "role": "greg",
+          "text": "Dera looked between us."
+        },
+        {
+          "start": 386,
+          "end": 418,
+          "role": "greg",
+          "text": "“Somehow hers felt more honest.”"
+        },
+        {
+          "start": 420,
+          "end": 446,
+          "role": "greg",
+          "text": "I leaned over the drawing."
+        },
+        {
+          "start": 448,
+          "end": 463,
+          "role": "greg",
+          "text": "Then I stopped."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "007",
+      "title": "THE ADVISER",
+      "chunk_index": 7,
+      "transcript": "Dera rolled the plan closed.\n\n“We inspect.”\n\nHalden came down the next morning.\n\nHe was thirty-seven.\n\nThat surprised me.\n\nThe dead engineer in my memory had been older.\n\nDeaths age people strangely.\n\nA black board and a formal portrait can add fifteen years to a face.\n\nHalden had a narrow mustache and the exhausted irritation of a man who had already explained the same design to four departments.\n\nDera showed him the chamber.\n\nI showed him the seam.",
+      "char_count": 454,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 28,
+          "role": "greg",
+          "text": "Dera rolled the plan closed."
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "role": "greg",
+          "text": "“We inspect.”"
+        },
+        {
+          "start": 45,
+          "end": 79,
+          "role": "greg",
+          "text": "Halden came down the next morning."
+        },
+        {
+          "start": 81,
+          "end": 101,
+          "role": "greg",
+          "text": "He was thirty-seven."
+        },
+        {
+          "start": 103,
+          "end": 121,
+          "role": "greg",
+          "text": "That surprised me."
+        },
+        {
+          "start": 123,
+          "end": 169,
+          "role": "greg",
+          "text": "The dead engineer in my memory had been older."
+        },
+        {
+          "start": 171,
+          "end": 199,
+          "role": "greg",
+          "text": "Deaths age people strangely."
+        },
+        {
+          "start": 201,
+          "end": 269,
+          "role": "greg",
+          "text": "A black board and a formal portrait can add fifteen years to a face."
+        },
+        {
+          "start": 271,
+          "end": 400,
+          "role": "greg",
+          "text": "Halden had a narrow mustache and the exhausted irritation of a man who had already explained the same design to four departments."
+        },
+        {
+          "start": 402,
+          "end": 430,
+          "role": "greg",
+          "text": "Dera showed him the chamber."
+        },
+        {
+          "start": 432,
+          "end": 454,
+          "role": "greg",
+          "text": "I showed him the seam."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "007",
+      "title": "THE ADVISER",
+      "chunk_index": 12,
+      "transcript": "The third worked market utilities.\n\nAlive.\n\nI sat at the kitchen table with the directory open and felt something I still do not have a clean word for.\n\nRelief was part of it.\n\nPride too.\n\nFear, mostly.\n\nMy mother came in carrying laundry.\n\n“You're reading names.”\n\n“Yeah.”\n\n“Anyone interesting?”\n\n“No.”\n\nShe put the basket down.\n\n“You've been staring at that page for ten minutes.”\n\n“I know.”\n\n“Then either they're interesting or you've forgotten how reading works.”\n\nI closed the book.",
+      "char_count": 487,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "greg",
+          "text": "The third worked market utilities."
+        },
+        {
+          "start": 36,
+          "end": 42,
+          "role": "greg",
+          "text": "Alive."
+        },
+        {
+          "start": 44,
+          "end": 151,
+          "role": "greg",
+          "text": "I sat at the kitchen table with the directory open and felt something I still do not have a clean word for."
+        },
+        {
+          "start": 153,
+          "end": 175,
+          "role": "greg",
+          "text": "Relief was part of it."
+        },
+        {
+          "start": 177,
+          "end": 187,
+          "role": "greg",
+          "text": "Pride too."
+        },
+        {
+          "start": 189,
+          "end": 202,
+          "role": "greg",
+          "text": "Fear, mostly."
+        },
+        {
+          "start": 204,
+          "end": 239,
+          "role": "greg",
+          "text": "My mother came in carrying laundry."
+        },
+        {
+          "start": 241,
+          "end": 264,
+          "role": "greg",
+          "text": "“You're reading names.”"
+        },
+        {
+          "start": 266,
+          "end": 273,
+          "role": "greg",
+          "text": "“Yeah.”"
+        },
+        {
+          "start": 275,
+          "end": 296,
+          "role": "greg",
+          "text": "“Anyone interesting?”"
+        },
+        {
+          "start": 298,
+          "end": 303,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 305,
+          "end": 329,
+          "role": "greg",
+          "text": "She put the basket down."
+        },
+        {
+          "start": 331,
+          "end": 382,
+          "role": "greg",
+          "text": "“You've been staring at that page for ten minutes.”"
+        },
+        {
+          "start": 384,
+          "end": 393,
+          "role": "greg",
+          "text": "“I know.”"
+        },
+        {
+          "start": 395,
+          "end": 467,
+          "role": "greg",
+          "text": "“Then either they're interesting or you've forgotten how reading works.”"
+        },
+        {
+          "start": 469,
+          "end": 487,
+          "role": "greg",
+          "text": "I closed the book."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "007",
+      "title": "THE ADVISER",
+      "chunk_index": 18,
+      "transcript": "I liked him less after he learned confidence.\n\nI found the fault anyway.\n\nThen another.\n\nHe started using me on reviews.\n\nNot because I was the strongest person available.\n\nI wasn't.\n\nNot because I had the highest certification.\n\nI didn't.\n\nBecause I looked at old systems strangely.\n\nThat was how he put it.\n\n“You assume the builders were hiding something,” he told me once.\n\n“Sometimes they were.”\n\n“Most people assume a wall is a wall.”\n\n“Most walls are covering something.”",
+      "char_count": 477,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "greg",
+          "text": "I liked him less after he learned confidence."
+        },
+        {
+          "start": 47,
+          "end": 72,
+          "role": "greg",
+          "text": "I found the fault anyway."
+        },
+        {
+          "start": 74,
+          "end": 87,
+          "role": "greg",
+          "text": "Then another."
+        },
+        {
+          "start": 89,
+          "end": 120,
+          "role": "greg",
+          "text": "He started using me on reviews."
+        },
+        {
+          "start": 122,
+          "end": 171,
+          "role": "greg",
+          "text": "Not because I was the strongest person available."
+        },
+        {
+          "start": 173,
+          "end": 182,
+          "role": "greg",
+          "text": "I wasn't."
+        },
+        {
+          "start": 184,
+          "end": 228,
+          "role": "greg",
+          "text": "Not because I had the highest certification."
+        },
+        {
+          "start": 230,
+          "end": 239,
+          "role": "greg",
+          "text": "I didn't."
+        },
+        {
+          "start": 241,
+          "end": 283,
+          "role": "greg",
+          "text": "Because I looked at old systems strangely."
+        },
+        {
+          "start": 285,
+          "end": 308,
+          "role": "greg",
+          "text": "That was how he put it."
+        },
+        {
+          "start": 310,
+          "end": 375,
+          "role": "greg",
+          "text": "“You assume the builders were hiding something,” he told me once."
+        },
+        {
+          "start": 377,
+          "end": 399,
+          "role": "greg",
+          "text": "“Sometimes they were.”"
+        },
+        {
+          "start": 401,
+          "end": 439,
+          "role": "greg",
+          "text": "“Most people assume a wall is a wall.”"
+        },
+        {
+          "start": 441,
+          "end": 477,
+          "role": "greg",
+          "text": "“Most walls are covering something.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "008",
+      "title": "THE RESCUER",
+      "chunk_index": 1,
+      "transcript": "I remembered Nessa dying three days before she was supposed to.\n\nThat sentence makes it sound more useful than it was.\n\nMemory did not arrive with a date stamped on it.\n\nIt arrived because she complained about peaches.\n\nWe were sitting on the roof of East Four after shift because the inside of the station was hotter than the outside and the outside was only trying to kill us slowly.\n\nNessa had bought two peaches from a cart near the market.\n\nOne was good.\n\nThe other had the texture of wet cloth.",
+      "char_count": 500,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "role": "greg",
+          "text": "I remembered Nessa dying three days before she was supposed to."
+        },
+        {
+          "start": 65,
+          "end": 118,
+          "role": "greg",
+          "text": "That sentence makes it sound more useful than it was."
+        },
+        {
+          "start": 120,
+          "end": 168,
+          "role": "greg",
+          "text": "Memory did not arrive with a date stamped on it."
+        },
+        {
+          "start": 170,
+          "end": 218,
+          "role": "greg",
+          "text": "It arrived because she complained about peaches."
+        },
+        {
+          "start": 220,
+          "end": 385,
+          "role": "greg",
+          "text": "We were sitting on the roof of East Four after shift because the inside of the station was hotter than the outside and the outside was only trying to kill us slowly."
+        },
+        {
+          "start": 387,
+          "end": 444,
+          "role": "greg",
+          "text": "Nessa had bought two peaches from a cart near the market."
+        },
+        {
+          "start": 446,
+          "end": 459,
+          "role": "greg",
+          "text": "One was good."
+        },
+        {
+          "start": 461,
+          "end": 500,
+          "role": "greg",
+          "text": "The other had the texture of wet cloth."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "008",
+      "title": "THE RESCUER",
+      "chunk_index": 6,
+      "transcript": "Years after that, somebody claimed the tram foundation shifted.\n\nI had never cared enough to learn which version survived.\n\nNow one of the dead women sat beside me with peach juice on her thumb.\n\n“Old records,” I said.\n\nNessa's eyes narrowed.\n\n“You've been weird about old records since I met you.”\n\n“Useful hobby.”\n\n“Greg.”\n\n“Just switch the shift.”\n\n“No.”\n\nI looked at her.\n\n“Why?”\n\n“Because if you think something fails, taking me off the shift means somebody else stands there.”",
+      "char_count": 482,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "role": "greg",
+          "text": "Years after that, somebody claimed the tram foundation shifted."
+        },
+        {
+          "start": 65,
+          "end": 122,
+          "role": "greg",
+          "text": "I had never cared enough to learn which version survived."
+        },
+        {
+          "start": 124,
+          "end": 194,
+          "role": "greg",
+          "text": "Now one of the dead women sat beside me with peach juice on her thumb."
+        },
+        {
+          "start": 196,
+          "end": 218,
+          "role": "greg",
+          "text": "“Old records,” I said."
+        },
+        {
+          "start": 220,
+          "end": 242,
+          "role": "greg",
+          "text": "Nessa's eyes narrowed."
+        },
+        {
+          "start": 244,
+          "end": 298,
+          "role": "greg",
+          "text": "“You've been weird about old records since I met you.”"
+        },
+        {
+          "start": 300,
+          "end": 315,
+          "role": "greg",
+          "text": "“Useful hobby.”"
+        },
+        {
+          "start": 317,
+          "end": 324,
+          "role": "greg",
+          "text": "“Greg.”"
+        },
+        {
+          "start": 326,
+          "end": 350,
+          "role": "greg",
+          "text": "“Just switch the shift.”"
+        },
+        {
+          "start": 352,
+          "end": 357,
+          "role": "greg",
+          "text": "“No.”"
+        },
+        {
+          "start": 359,
+          "end": 375,
+          "role": "greg",
+          "text": "I looked at her."
+        },
+        {
+          "start": 377,
+          "end": 383,
+          "role": "greg",
+          "text": "“Why?”"
+        },
+        {
+          "start": 385,
+          "end": 482,
+          "role": "greg",
+          "text": "“Because if you think something fails, taking me off the shift means somebody else stands there.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "008",
+      "title": "THE RESCUER",
+      "chunk_index": 11,
+      "transcript": "From five years of standing inside it.\n\nHealthy.\n\nThen the hum changed.\n\nOne note lower.\n\nNessa looked at me from across the chamber.\n\nShe heard it too.\n\nDera shouted, “Hold positions.”\n\nI looked at the pressure gauge.\n\nNormal.\n\nSecond gauge.\n\nNormal.\n\nThe floor vibrated.\n\nWrong.\n\n“Dera.”\n\n“I hear it.”\n\nThe western wall made a sound like someone drawing a wet finger across glass.\n\nI knew that sound too.\n\nNot from East Four.\n\nFrom much later.",
+      "char_count": 445,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "role": "greg",
+          "text": "From five years of standing inside it."
+        },
+        {
+          "start": 40,
+          "end": 48,
+          "role": "greg",
+          "text": "Healthy."
+        },
+        {
+          "start": 50,
+          "end": 71,
+          "role": "greg",
+          "text": "Then the hum changed."
+        },
+        {
+          "start": 73,
+          "end": 88,
+          "role": "greg",
+          "text": "One note lower."
+        },
+        {
+          "start": 90,
+          "end": 133,
+          "role": "greg",
+          "text": "Nessa looked at me from across the chamber."
+        },
+        {
+          "start": 135,
+          "end": 152,
+          "role": "greg",
+          "text": "She heard it too."
+        },
+        {
+          "start": 154,
+          "end": 185,
+          "role": "greg",
+          "text": "Dera shouted, “Hold positions.”"
+        },
+        {
+          "start": 187,
+          "end": 218,
+          "role": "greg",
+          "text": "I looked at the pressure gauge."
+        },
+        {
+          "start": 220,
+          "end": 227,
+          "role": "greg",
+          "text": "Normal."
+        },
+        {
+          "start": 229,
+          "end": 242,
+          "role": "greg",
+          "text": "Second gauge."
+        },
+        {
+          "start": 244,
+          "end": 251,
+          "role": "greg",
+          "text": "Normal."
+        },
+        {
+          "start": 253,
+          "end": 272,
+          "role": "greg",
+          "text": "The floor vibrated."
+        },
+        {
+          "start": 274,
+          "end": 280,
+          "role": "greg",
+          "text": "Wrong."
+        },
+        {
+          "start": 282,
+          "end": 289,
+          "role": "greg",
+          "text": "“Dera.”"
+        },
+        {
+          "start": 291,
+          "end": 303,
+          "role": "greg",
+          "text": "“I hear it.”"
+        },
+        {
+          "start": 305,
+          "end": 382,
+          "role": "greg",
+          "text": "The western wall made a sound like someone drawing a wet finger across glass."
+        },
+        {
+          "start": 384,
+          "end": 406,
+          "role": "greg",
+          "text": "I knew that sound too."
+        },
+        {
+          "start": 408,
+          "end": 427,
+          "role": "greg",
+          "text": "Not from East Four."
+        },
+        {
+          "start": 429,
+          "end": 445,
+          "role": "greg",
+          "text": "From much later."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "008",
+      "title": "THE RESCUER",
+      "chunk_index": 16,
+      "transcript": "The old woman had spent five years teaching me not to touch things I did not understand and was now standing ankle-deep in hot runoff trying to save the station from something none of us understood.\n\n“The feed wasn't the source,” I shouted.\n\n“No shit.”\n\n“Subfloor.”\n\n“I know.”\n\n“Old chamber under the west wall.”\n\n“What old chamber?”\n\nThere.\n\nThat was it.\n\nA memory from First Life came loose.\n\nNot East Four.\n\nThe ninth station.\n\nOld Line work beneath newer Line work.",
+      "char_count": 469,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 198,
+          "role": "greg",
+          "text": "The old woman had spent five years teaching me not to touch things I did not understand and was now standing ankle-deep in hot runoff trying to save the station from something none of us understood."
+        },
+        {
+          "start": 200,
+          "end": 240,
+          "role": "greg",
+          "text": "“The feed wasn't the source,” I shouted."
+        },
+        {
+          "start": 242,
+          "end": 252,
+          "role": "greg",
+          "text": "“No shit.”"
+        },
+        {
+          "start": 254,
+          "end": 265,
+          "role": "greg",
+          "text": "“Subfloor.”"
+        },
+        {
+          "start": 267,
+          "end": 276,
+          "role": "greg",
+          "text": "“I know.”"
+        },
+        {
+          "start": 278,
+          "end": 312,
+          "role": "greg",
+          "text": "“Old chamber under the west wall.”"
+        },
+        {
+          "start": 314,
+          "end": 333,
+          "role": "greg",
+          "text": "“What old chamber?”"
+        },
+        {
+          "start": 335,
+          "end": 341,
+          "role": "greg",
+          "text": "There."
+        },
+        {
+          "start": 343,
+          "end": 355,
+          "role": "greg",
+          "text": "That was it."
+        },
+        {
+          "start": 357,
+          "end": 393,
+          "role": "greg",
+          "text": "A memory from First Life came loose."
+        },
+        {
+          "start": 395,
+          "end": 409,
+          "role": "greg",
+          "text": "Not East Four."
+        },
+        {
+          "start": 411,
+          "end": 429,
+          "role": "greg",
+          "text": "The ninth station."
+        },
+        {
+          "start": 431,
+          "end": 469,
+          "role": "greg",
+          "text": "Old Line work beneath newer Line work."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "008",
+      "title": "THE RESCUER",
+      "chunk_index": 21,
+      "transcript": "“You knew Nessa Vale first as a name on a board of dead people. By the time the remembered death arrived, she was no longer a name. She was your friend, and already more complicated than that word admits.\n\n“You attempted to prevent an outcome you remembered without understanding the mechanism that produced it. You dropped the wrong feed. You made the failure worse before you understood what was beneath the station. Then you saved her.",
+      "char_count": 438,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 204,
+          "role": "dragon",
+          "text": "“You knew Nessa Vale first as a name on a board of dead people. By the time the remembered death arrived, she was no longer a name. She was your friend, and already more complicated than that word admits."
+        },
+        {
+          "start": 206,
+          "end": 438,
+          "role": "dragon",
+          "text": "“You attempted to prevent an outcome you remembered without understanding the mechanism that produced it. You dropped the wrong feed. You made the failure worse before you understood what was beneath the station. Then you saved her."
+        }
+      ],
+      "required_voices": [
+        "normal"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "009",
+      "title": "THE STAYER",
+      "chunk_index": 4,
+      "transcript": "Nessa's landlord raised the rent.\n\nI had a second room full of tools and things my sister insisted I did not need.\n\nNessa said she could pay half.\n\nI said the tools would need somewhere to go.\n\nShe said the tools already lived better than most people.\n\nTwo weeks later there were red cords hanging from my wash line and tea strong enough to remove paint from cups.\n\nWe had not discussed what that meant.\n\nWe were good at not discussing things that were going well.",
+      "char_count": 464,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "role": "greg",
+          "text": "Nessa's landlord raised the rent."
+        },
+        {
+          "start": 35,
+          "end": 114,
+          "role": "greg",
+          "text": "I had a second room full of tools and things my sister insisted I did not need."
+        },
+        {
+          "start": 116,
+          "end": 146,
+          "role": "greg",
+          "text": "Nessa said she could pay half."
+        },
+        {
+          "start": 148,
+          "end": 192,
+          "role": "greg",
+          "text": "I said the tools would need somewhere to go."
+        },
+        {
+          "start": 194,
+          "end": 251,
+          "role": "greg",
+          "text": "She said the tools already lived better than most people."
+        },
+        {
+          "start": 253,
+          "end": 364,
+          "role": "greg",
+          "text": "Two weeks later there were red cords hanging from my wash line and tea strong enough to remove paint from cups."
+        },
+        {
+          "start": 366,
+          "end": 403,
+          "role": "greg",
+          "text": "We had not discussed what that meant."
+        },
+        {
+          "start": 405,
+          "end": 464,
+          "role": "greg",
+          "text": "We were good at not discussing things that were going well."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "009",
+      "title": "THE STAYER",
+      "chunk_index": 9,
+      "transcript": "I remembered his face when he did.\n\nNessa had a crack in one molar she had been ignoring because healers cost money and she was convinced chewing on the other side counted as treatment.\n\nDera was training Lorn to take over nights because she had finally admitted she wanted one day off a week before death.\n\nEast Four had a buried chamber nobody outside our crew seemed capable of remembering despite three separate reports.\n\nI had bought a table.\n\nThat sounds stupid beside S-class.",
+      "char_count": 483,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "greg",
+          "text": "I remembered his face when he did."
+        },
+        {
+          "start": 36,
+          "end": 185,
+          "role": "greg",
+          "text": "Nessa had a crack in one molar she had been ignoring because healers cost money and she was convinced chewing on the other side counted as treatment."
+        },
+        {
+          "start": 187,
+          "end": 306,
+          "role": "greg",
+          "text": "Dera was training Lorn to take over nights because she had finally admitted she wanted one day off a week before death."
+        },
+        {
+          "start": 308,
+          "end": 424,
+          "role": "greg",
+          "text": "East Four had a buried chamber nobody outside our crew seemed capable of remembering despite three separate reports."
+        },
+        {
+          "start": 426,
+          "end": 447,
+          "role": "greg",
+          "text": "I had bought a table."
+        },
+        {
+          "start": 449,
+          "end": 483,
+          "role": "greg",
+          "text": "That sounds stupid beside S-class."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "009",
+      "title": "THE STAYER",
+      "chunk_index": 14,
+      "transcript": "“That one was definitely rehearsed.”\n\n“Fuck you.”\n\n“Better.”\n\nShe got up to make tea.\n\nThat annoyed me.\n\nI had expected an argument.\n\nMaybe tears.\n\nMaybe a demand.\n\nSomething I could push against.\n\nInstead she gave me the choice and boiled water.\n\nCruel woman.\n\nI did not sleep much that night.\n\nThe next morning I took the letter to Guild Hall.\n\nMira was no longer at the front window.\n\nI knew that would happen.\n\nShe had moved upstairs a year earlier than I remembered.",
+      "char_count": 471,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "role": "greg",
+          "text": "“That one was definitely rehearsed.”"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "role": "greg",
+          "text": "“Fuck you.”"
+        },
+        {
+          "start": 51,
+          "end": 60,
+          "role": "greg",
+          "text": "“Better.”"
+        },
+        {
+          "start": 62,
+          "end": 85,
+          "role": "greg",
+          "text": "She got up to make tea."
+        },
+        {
+          "start": 87,
+          "end": 103,
+          "role": "greg",
+          "text": "That annoyed me."
+        },
+        {
+          "start": 105,
+          "end": 132,
+          "role": "greg",
+          "text": "I had expected an argument."
+        },
+        {
+          "start": 134,
+          "end": 146,
+          "role": "greg",
+          "text": "Maybe tears."
+        },
+        {
+          "start": 148,
+          "end": 163,
+          "role": "greg",
+          "text": "Maybe a demand."
+        },
+        {
+          "start": 165,
+          "end": 196,
+          "role": "greg",
+          "text": "Something I could push against."
+        },
+        {
+          "start": 198,
+          "end": 246,
+          "role": "greg",
+          "text": "Instead she gave me the choice and boiled water."
+        },
+        {
+          "start": 248,
+          "end": 260,
+          "role": "greg",
+          "text": "Cruel woman."
+        },
+        {
+          "start": 262,
+          "end": 294,
+          "role": "greg",
+          "text": "I did not sleep much that night."
+        },
+        {
+          "start": 296,
+          "end": 345,
+          "role": "greg",
+          "text": "The next morning I took the letter to Guild Hall."
+        },
+        {
+          "start": 347,
+          "end": 386,
+          "role": "greg",
+          "text": "Mira was no longer at the front window."
+        },
+        {
+          "start": 388,
+          "end": 413,
+          "role": "greg",
+          "text": "I knew that would happen."
+        },
+        {
+          "start": 415,
+          "end": 471,
+          "role": "greg",
+          "text": "She had moved upstairs a year earlier than I remembered."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "009",
+      "title": "THE STAYER",
+      "chunk_index": 20,
+      "transcript": "That sentence had come from somewhere deeper than I expected.\n\n“In the first life, every choice toward strength felt temporary. Six months away. One more contract. One more season. One more place I had to be because I was finally good enough to be needed there.”\n\nI looked down at my leg.\n\nIt was not the leg from that time.\n\nNot yet in the memory, anyway.\n\n“I kept thinking life would start when the work settled down. In the second life, it already had.”",
+      "char_count": 456,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "role": "greg",
+          "text": "That sentence had come from somewhere deeper than I expected."
+        },
+        {
+          "start": 63,
+          "end": 262,
+          "role": "greg",
+          "text": "“In the first life, every choice toward strength felt temporary. Six months away. One more contract. One more season. One more place I had to be because I was finally good enough to be needed there.”"
+        },
+        {
+          "start": 264,
+          "end": 288,
+          "role": "greg",
+          "text": "I looked down at my leg."
+        },
+        {
+          "start": 290,
+          "end": 324,
+          "role": "greg",
+          "text": "It was not the leg from that time."
+        },
+        {
+          "start": 326,
+          "end": 356,
+          "role": "greg",
+          "text": "Not yet in the memory, anyway."
+        },
+        {
+          "start": 358,
+          "end": 456,
+          "role": "greg",
+          "text": "“I kept thinking life would start when the work settled down. In the second life, it already had.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "010",
+      "title": "THE STRANGER",
+      "chunk_index": 3,
+      "transcript": "Then I stood.\n\nBren was thirty-one.\n\nI knew because I had attended his thirty-first birthday twice in the first life.\n\nOnce on the actual day.\n\nOnce three weeks later after we realized the first celebration had been based on a clerical error in his registry.\n\nHe had thought that was the funniest thing that had ever happened.\n\nI had not.",
+      "char_count": 338,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 13,
+          "role": "greg",
+          "text": "Then I stood."
+        },
+        {
+          "start": 15,
+          "end": 35,
+          "role": "greg",
+          "text": "Bren was thirty-one."
+        },
+        {
+          "start": 37,
+          "end": 117,
+          "role": "greg",
+          "text": "I knew because I had attended his thirty-first birthday twice in the first life."
+        },
+        {
+          "start": 119,
+          "end": 142,
+          "role": "greg",
+          "text": "Once on the actual day."
+        },
+        {
+          "start": 144,
+          "end": 258,
+          "role": "greg",
+          "text": "Once three weeks later after we realized the first celebration had been based on a clerical error in his registry."
+        },
+        {
+          "start": 260,
+          "end": 326,
+          "role": "greg",
+          "text": "He had thought that was the funniest thing that had ever happened."
+        },
+        {
+          "start": 328,
+          "end": 338,
+          "role": "greg",
+          "text": "I had not."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "010",
+      "title": "THE STRANGER",
+      "chunk_index": 8,
+      "transcript": "Bren looked down at both boots.\n\n“Nothing.”\n\n“Sorry.”\n\n“Why?”\n\n“Thought you were somebody else.”\n\n“With my name?”\n\n“Yes.”\n\n“That seems unlikely.”\n\n“It is.”\n\nNessa was staring hard enough to sand wood.\n\nI ignored her.\n\nBren was there for the buried chamber.\n\nAfter the transfer rupture, district engineering had finally admitted East Four sat on older Line work. The Guild sent specialist teams through every major station in the region.",
+      "char_count": 436,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "role": "greg",
+          "text": "Bren looked down at both boots."
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "role": "greg",
+          "text": "“Nothing.”"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "role": "greg",
+          "text": "“Sorry.”"
+        },
+        {
+          "start": 55,
+          "end": 61,
+          "role": "greg",
+          "text": "“Why?”"
+        },
+        {
+          "start": 63,
+          "end": 96,
+          "role": "greg",
+          "text": "“Thought you were somebody else.”"
+        },
+        {
+          "start": 98,
+          "end": 113,
+          "role": "greg",
+          "text": "“With my name?”"
+        },
+        {
+          "start": 115,
+          "end": 121,
+          "role": "greg",
+          "text": "“Yes.”"
+        },
+        {
+          "start": 123,
+          "end": 145,
+          "role": "greg",
+          "text": "“That seems unlikely.”"
+        },
+        {
+          "start": 147,
+          "end": 155,
+          "role": "greg",
+          "text": "“It is.”"
+        },
+        {
+          "start": 157,
+          "end": 200,
+          "role": "greg",
+          "text": "Nessa was staring hard enough to sand wood."
+        },
+        {
+          "start": 202,
+          "end": 216,
+          "role": "greg",
+          "text": "I ignored her."
+        },
+        {
+          "start": 218,
+          "end": 256,
+          "role": "greg",
+          "text": "Bren was there for the buried chamber."
+        },
+        {
+          "start": 258,
+          "end": 436,
+          "role": "greg",
+          "text": "After the transfer rupture, district engineering had finally admitted East Four sat on older Line work. The Guild sent specialist teams through every major station in the region."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "010",
+      "title": "THE STRANGER",
+      "chunk_index": 13,
+      "transcript": "I had spent years avoiding this conversation by distributing pieces of the truth so widely that none looked like the whole thing.\n\nNessa knew I anticipated failures.\n\nShe knew I had skills I could not explain.\n\nShe knew some people made me sad before I met them.\n\nShe knew I sometimes woke from dreams and took several seconds to remember where we lived.\n\nShe knew I hated the phrase first time when it came out of my mouth by accident.\n\nShe did not know why.\n\nNot yet.",
+      "char_count": 469,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 129,
+          "role": "greg",
+          "text": "I had spent years avoiding this conversation by distributing pieces of the truth so widely that none looked like the whole thing."
+        },
+        {
+          "start": 131,
+          "end": 165,
+          "role": "greg",
+          "text": "Nessa knew I anticipated failures."
+        },
+        {
+          "start": 167,
+          "end": 209,
+          "role": "greg",
+          "text": "She knew I had skills I could not explain."
+        },
+        {
+          "start": 211,
+          "end": 262,
+          "role": "greg",
+          "text": "She knew some people made me sad before I met them."
+        },
+        {
+          "start": 264,
+          "end": 354,
+          "role": "greg",
+          "text": "She knew I sometimes woke from dreams and took several seconds to remember where we lived."
+        },
+        {
+          "start": 356,
+          "end": 436,
+          "role": "greg",
+          "text": "She knew I hated the phrase first time when it came out of my mouth by accident."
+        },
+        {
+          "start": 438,
+          "end": 459,
+          "role": "greg",
+          "text": "She did not know why."
+        },
+        {
+          "start": 461,
+          "end": 469,
+          "role": "greg",
+          "text": "Not yet."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "010",
+      "title": "THE STRANGER",
+      "chunk_index": 18,
+      "transcript": "The same smile.\n\nNot exactly.\n\nClose enough to hurt.\n\nHe left East Four two days later.\n\nI watched him pack his gear.\n\nThere were a hundred things I could have said.\n\nIlya's name.\n\nGray Pass.\n\nThe cheap tavern in Vey where the owner cheated at cards and Bren kept going back because he respected consistency.\n\nThe song he hated.\n\nThe time he cried after killing a man and then lied about dust.\n\nThe place he wanted his ashes scattered because he hated cemeteries.\n\nI knew how he died.",
+      "char_count": 484,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 15,
+          "role": "greg",
+          "text": "The same smile."
+        },
+        {
+          "start": 17,
+          "end": 29,
+          "role": "greg",
+          "text": "Not exactly."
+        },
+        {
+          "start": 31,
+          "end": 52,
+          "role": "greg",
+          "text": "Close enough to hurt."
+        },
+        {
+          "start": 54,
+          "end": 87,
+          "role": "greg",
+          "text": "He left East Four two days later."
+        },
+        {
+          "start": 89,
+          "end": 117,
+          "role": "greg",
+          "text": "I watched him pack his gear."
+        },
+        {
+          "start": 119,
+          "end": 165,
+          "role": "greg",
+          "text": "There were a hundred things I could have said."
+        },
+        {
+          "start": 167,
+          "end": 179,
+          "role": "greg",
+          "text": "Ilya's name."
+        },
+        {
+          "start": 181,
+          "end": 191,
+          "role": "greg",
+          "text": "Gray Pass."
+        },
+        {
+          "start": 193,
+          "end": 308,
+          "role": "greg",
+          "text": "The cheap tavern in Vey where the owner cheated at cards and Bren kept going back because he respected consistency."
+        },
+        {
+          "start": 310,
+          "end": 328,
+          "role": "greg",
+          "text": "The song he hated."
+        },
+        {
+          "start": 330,
+          "end": 393,
+          "role": "greg",
+          "text": "The time he cried after killing a man and then lied about dust."
+        },
+        {
+          "start": 395,
+          "end": 463,
+          "role": "greg",
+          "text": "The place he wanted his ashes scattered because he hated cemeteries."
+        },
+        {
+          "start": 465,
+          "end": 484,
+          "role": "greg",
+          "text": "I knew how he died."
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    },
+    {
+      "record": "010",
+      "title": "THE STRANGER",
+      "chunk_index": 23,
+      "transcript": "Then he nodded once.\n\nThe movement was tiny.\n\nComing from him, it felt enormous.\n\nWhen he spoke again, the question was larger than Bren.\n\n“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it.",
+      "char_count": 384,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "role": "greg",
+          "text": "Then he nodded once."
+        },
+        {
+          "start": 22,
+          "end": 44,
+          "role": "greg",
+          "text": "The movement was tiny."
+        },
+        {
+          "start": 46,
+          "end": 80,
+          "role": "greg",
+          "text": "Coming from him, it felt enormous."
+        },
+        {
+          "start": 82,
+          "end": 137,
+          "role": "greg",
+          "text": "When he spoke again, the question was larger than Bren."
+        },
+        {
+          "start": 139,
+          "end": 384,
+          "role": "dragon",
+          "text": "“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it."
+        }
+      ],
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "capture_count": 2
+    },
+    {
+      "record": "010",
+      "title": "THE STRANGER",
+      "chunk_index": 25,
+      "transcript": "Like I had gone back into a book I already read and scribbled in the margins.\n\nThen one of the characters looked at me and had no idea who I was.\n\nAnd the page after that wasn't there anymore.\n\nI looked at Ithar.\n\n“My life.”",
+      "char_count": 224,
+      "semantic_spans": [
+        {
+          "start": 0,
+          "end": 77,
+          "role": "greg",
+          "text": "Like I had gone back into a book I already read and scribbled in the margins."
+        },
+        {
+          "start": 79,
+          "end": 145,
+          "role": "greg",
+          "text": "Then one of the characters looked at me and had no idea who I was."
+        },
+        {
+          "start": 147,
+          "end": 192,
+          "role": "greg",
+          "text": "And the page after that wasn't there anymore."
+        },
+        {
+          "start": 194,
+          "end": 212,
+          "role": "greg",
+          "text": "I looked at Ithar."
+        },
+        {
+          "start": 214,
+          "end": 224,
+          "role": "greg",
+          "text": "“My life.”"
+        }
+      ],
+      "required_voices": [
+        "deep"
+      ],
+      "capture_count": 1
+    }
+  ],
+  "captures": [
+    {
+      "record": "002",
+      "chunk_index": 2,
+      "voice": "deep",
+      "transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”",
+      "preview_transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”"
+    },
+    {
+      "record": "002",
+      "chunk_index": 2,
+      "voice": "normal",
+      "transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”",
+      "preview_transcript": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor.\n\n“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”"
+    },
+    {
+      "record": "002",
+      "chunk_index": 8,
+      "voice": "deep",
+      "transcript": "Forty years of apparent foreknowledge and I had required years to establish that events had changed.\n\n“I was busy.”\n\nIthar did not move.\n\n“Being nineteen again.”\n\nStill nothing.\n\nI had seen that silence before.\n\nUsually after saying something about people that he understood as words and not as a fact.\n\n“You don't get that part.”\n\nHis eye dropped to my leg.\n\nI looked down too.\n\n“Explaining knees to a dragon that still has all of his is going to annoy me.”",
+      "preview_transcript": "Forty years of apparent foreknowledge and I had required years to establish that events had changed.\n\n“I was busy.”\n\nIthar did not move.\n\n“Being nineteen again.”\n\nStill nothing.\n\nI had seen that silence before.\n\nUsually after saying something about people that he understood as words and not as a fact.\n\n“You don't get that part.”\n\nHis eye dropped to my leg.\n\nI looked down too.\n\n“Explaining knees to a dragon that still has all of his is going to annoy me.”"
+    },
+    {
+      "record": "002",
+      "chunk_index": 13,
+      "voice": "deep",
+      "transcript": "Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge.\n\nI could cross an active pressure break without a shield crew.\n\nI could hold full reinforcement most of a day if I wasn't doing anything stupid.\n\nUsually I was doing something stupid.\n\n“I killed a redback alone north of Vey.”\n\nThat got him.\n\nNot much.\n\nAn inch of head movement from Ithar was becoming the equivalent of another creature standing up.",
+      "preview_transcript": "Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge.\n\nI could cross an active pressure break without a shield crew.\n\nI could hold full reinforcement most of a day if I wasn't doing anything stupid.\n\nUsually I was doing something stupid.\n\n“I killed a redback alone north of Vey.”\n\nThat got him.\n\nNot much.\n\nAn inch of head movement from Ithar was becoming the equivalent of another creature standing up."
+    },
+    {
+      "record": "002",
+      "chunk_index": 22,
+      "voice": "deep",
+      "transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing.",
+      "preview_transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
+    },
+    {
+      "record": "002",
+      "chunk_index": 22,
+      "voice": "normal",
+      "transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing.",
+      "preview_transcript": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again.\n\n“That is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
+    },
+    {
+      "record": "002",
+      "chunk_index": 23,
+      "voice": "normal",
+      "transcript": "“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.\n\n“You recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path.",
+      "preview_transcript": "“A secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.\n\n“You recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path."
+    },
+    {
+      "record": "003",
+      "chunk_index": 3,
+      "voice": "deep",
+      "transcript": "That worried me.\n\nA person should not become accustomed to sitting beside enough money to destabilize a kingdom.\n\nThen again, people become accustomed to most things if they happen around breakfast often enough.\n\nI had learned that twice.\n\nThe dragon let me finish trying to negotiate before he answered.",
+      "preview_transcript": "That worried me.\n\nA person should not become accustomed to sitting beside enough money to destabilize a kingdom.\n\nThen again, people become accustomed to most things if they happen around breakfast often enough.\n\nI had learned that twice.\n\nThe dragon let me finish trying to negotiate before he answered."
+    },
+    {
+      "record": "003",
+      "chunk_index": 5,
+      "voice": "deep",
+      "transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted.",
+      "preview_transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted."
+    },
+    {
+      "record": "003",
+      "chunk_index": 5,
+      "voice": "normal",
+      "transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted.",
+      "preview_transcript": "“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n“I researched possibilities.”\n\nThe eye stayed on me.\n\n“For the future.”\n\nStill not an answer.\n\nI could read that much now.\n\n“It is if you're willing to be generous.”\n\nHe was not.\n\nNoted."
+    },
+    {
+      "record": "003",
+      "chunk_index": 13,
+      "voice": "deep",
+      "transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”",
+      "preview_transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”"
+    },
+    {
+      "record": "003",
+      "chunk_index": 13,
+      "voice": "normal",
+      "transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”",
+      "preview_transcript": "“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”\n\nI looked down at the leg.\n\n“My rank isn't inconsistent.”"
+    },
+    {
+      "record": "003",
+      "chunk_index": 14,
+      "voice": "deep",
+      "transcript": "The dragon had watched me move before the stone in a way my leg could not presently support.\n\nLuck, I could have called it.\n\nTraining.\n\nJust not this body's training.\n\nI scratched at my jaw.\n\nThe beard had gotten rough during the climb.\n\nThere had been a time when three days without shaving felt like neglect.\n\nThen I had children.\n\nThen I had worse problems.\n\nThen I had fewer reasons to care.\n\nThe memory arrived and left before I could stop it.\n\nIthar's eye shifted.\n\nHe had not read the thought.",
+      "preview_transcript": "The dragon had watched me move before the stone in a way my leg could not presently support.\n\nLuck, I could have called it.\n\nTraining.\n\nJust not this body's training.\n\nI scratched at my jaw.\n\nThe beard had gotten rough during the climb.\n\nThere had been a time when three days without shaving felt like neglect.\n\nThen I had children.\n\nThen I had worse problems.\n\nThen I had fewer reasons to care.\n\nThe memory arrived and left before I could stop it.\n\nIthar's eye shifted.\n\nHe had not read the thought."
+    },
+    {
+      "record": "003",
+      "chunk_index": 20,
+      "voice": "normal",
+      "transcript": "“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions. If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.",
+      "preview_transcript": "“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions. If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence."
+    },
+    {
+      "record": "003",
+      "chunk_index": 26,
+      "voice": "deep",
+      "transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked.",
+      "preview_transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked."
+    },
+    {
+      "record": "003",
+      "chunk_index": 26,
+      "voice": "normal",
+      "transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked.",
+      "preview_transcript": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave.\n\n“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”\n\nI blinked."
+    },
+    {
+      "record": "004",
+      "chunk_index": 1,
+      "voice": "deep",
+      "transcript": "I woke up nineteen years old with both hands closed around a blanket I had not seen in forty years.\n\nFor a while I did not move.\n\nThat was not restraint.\n\nMy body had forgotten the habit of waking carefully.\n\nNo bad knee.\n\nNo shoulder catching under my weight.\n\nNo fingers that needed a second try before they closed.\n\nNo little inventory of damage before deciding whether standing was worth it.\n\nI lay there staring at a ceiling with a water stain shaped like a boot.",
+      "preview_transcript": "I woke up nineteen years old with both hands closed around a blanket I had not seen in forty years.\n\nFor a while I did not move.\n\nThat was not restraint.\n\nMy body had forgotten the habit of waking carefully.\n\nNo bad knee.\n\nNo shoulder catching under my weight.\n\nNo fingers that needed a second try before they closed.\n\nNo little inventory of damage before deciding whether standing was worth it.\n\nI lay there staring at a ceiling with a water stain shaped like a boot."
+    },
+    {
+      "record": "004",
+      "chunk_index": 6,
+      "voice": "deep",
+      "transcript": "I had also been fifty-nine, which gave me a more useful comparison.\n\nThe body in that room was healthy.\n\nIt was not mine.\n\nThat was the first thought that frightened me.\n\nNot because the face in the little mirror was wrong.\n\nIt was right.\n\nToo right.\n\nBlack hair I had not yet started losing. Jaw before the old break. Nose before the second break. Eyes without the red veins that showed up after three bad years of sleeping in armor.\n\nI knew the face.\n\nI had just stopped thinking of it as me.",
+      "preview_transcript": "I had also been fifty-nine, which gave me a more useful comparison.\n\nThe body in that room was healthy.\n\nIt was not mine.\n\nThat was the first thought that frightened me.\n\nNot because the face in the little mirror was wrong.\n\nIt was right.\n\nToo right.\n\nBlack hair I had not yet started losing. Jaw before the old break. Nose before the second break. Eyes without the red veins that showed up after three bad years of sleeping in armor.\n\nI knew the face.\n\nI had just stopped thinking of it as me."
+    },
+    {
+      "record": "004",
+      "chunk_index": 11,
+      "voice": "deep",
+      "transcript": "She looked at my mother.\n\n“See?”\n\nMy mother put eggs in front of me.\n\nI ate too fast.\n\nThat became the first thing I understood about being nineteen again.\n\nHunger was different.\n\nAt fifty-nine I could miss breakfast and complain about it later.\n\nAt nineteen my body treated food like an emergency contract.\n\nI finished the eggs, took bread, took more bread, and caught my mother watching me.\n\n“What?”\n\n“You said you weren't sick.”\n\n“I'm hungry.”\n\n“That part appears healthy.”",
+      "preview_transcript": "She looked at my mother.\n\n“See?”\n\nMy mother put eggs in front of me.\n\nI ate too fast.\n\nThat became the first thing I understood about being nineteen again.\n\nHunger was different.\n\nAt fifty-nine I could miss breakfast and complain about it later.\n\nAt nineteen my body treated food like an emergency contract.\n\nI finished the eggs, took bread, took more bread, and caught my mother watching me.\n\n“What?”\n\n“You said you weren't sick.”\n\n“I'm hungry.”\n\n“That part appears healthy.”"
+    },
+    {
+      "record": "004",
+      "chunk_index": 16,
+      "voice": "deep",
+      "transcript": "I left twenty minutes later.\n\nMy mother made me take a coat.\n\nI almost told her I had crossed an ice shelf without one once.\n\nThen I remembered I was nineteen, it was raining, and my mother was alive.\n\nI took the coat.\n\nThe street outside was exactly where I remembered it.\n\nWhich felt unreasonable.\n\nThere should have been a sign.\n\nA crack in the sky.\n\nA bell nobody else could hear.\n\nSomething.\n\nInstead there was mud.",
+      "preview_transcript": "I left twenty minutes later.\n\nMy mother made me take a coat.\n\nI almost told her I had crossed an ice shelf without one once.\n\nThen I remembered I was nineteen, it was raining, and my mother was alive.\n\nI took the coat.\n\nThe street outside was exactly where I remembered it.\n\nWhich felt unreasonable.\n\nThere should have been a sign.\n\nA crack in the sky.\n\nA bell nobody else could hear.\n\nSomething.\n\nInstead there was mud."
+    },
+    {
+      "record": "004",
+      "chunk_index": 21,
+      "voice": "deep",
+      "transcript": "I stepped into the alley beside the stairwell, set my feet, drew one slow breath, and opened the first reinforcement pattern I had learned properly at twenty-six.\n\nThe pattern answered.\n\nFor half a second.\n\nPressure moved through my chest.\n\nMy shoulders locked.\n\nMy right calf cramped so hard I hit the wall.\n\nThen the whole thing collapsed and I threw up beside a rain barrel.\n\nA woman passing the alley stopped.\n\n“You all right?”\n\nI wiped my mouth.\n\n“Excellent.”",
+      "preview_transcript": "I stepped into the alley beside the stairwell, set my feet, drew one slow breath, and opened the first reinforcement pattern I had learned properly at twenty-six.\n\nThe pattern answered.\n\nFor half a second.\n\nPressure moved through my chest.\n\nMy shoulders locked.\n\nMy right calf cramped so hard I hit the wall.\n\nThen the whole thing collapsed and I threw up beside a rain barrel.\n\nA woman passing the alley stopped.\n\n“You all right?”\n\nI wiped my mouth.\n\n“Excellent.”"
+    },
+    {
+      "record": "004",
+      "chunk_index": 26,
+      "voice": "deep",
+      "transcript": "Only years later did I understand that the most important thing I carried into Guild Hall was not forty years of knowledge.\n\nIt was the assumption that I still wanted the same life.\n\nThe cave returned around me.\n\nIthar had not moved.\n\nHis eye rested on the hands I had been remembering young.",
+      "preview_transcript": "Only years later did I understand that the most important thing I carried into Guild Hall was not forty years of knowledge.\n\nIt was the assumption that I still wanted the same life.\n\nThe cave returned around me.\n\nIthar had not moved.\n\nHis eye rested on the hands I had been remembering young."
+    },
+    {
+      "record": "005",
+      "chunk_index": 5,
+      "voice": "deep",
+      "transcript": "I knew a Ranker in West Vale who had lost half a hand because someone repaired one with the wrong alloy.\n\nI did not remember what the Guild called the little diagonal channel on the bottom left.\n\nI pointed at it.\n\n“That one.”\n\n“What is it?”\n\n“Unsafe.”\n\nHe looked at me.\n\nI smiled.\n\nHe did not.\n\n“Name it.”\n\nI stared at the channel.\n\nThe name was somewhere in forty years of things I had stopped needing to say.\n\n“Secondary bleed.”\n\n“No.”\n\n“Auxiliary bleed.”\n\n“No.”\n\n“Pressure relief.”",
+      "preview_transcript": "I knew a Ranker in West Vale who had lost half a hand because someone repaired one with the wrong alloy.\n\nI did not remember what the Guild called the little diagonal channel on the bottom left.\n\nI pointed at it.\n\n“That one.”\n\n“What is it?”\n\n“Unsafe.”\n\nHe looked at me.\n\nI smiled.\n\nHe did not.\n\n“Name it.”\n\nI stared at the channel.\n\nThe name was somewhere in forty years of things I had stopped needing to say.\n\n“Secondary bleed.”\n\n“No.”\n\n“Auxiliary bleed.”\n\n“No.”\n\n“Pressure relief.”"
+    },
+    {
+      "record": "005",
+      "chunk_index": 10,
+      "voice": "deep",
+      "transcript": "People stood in front of it pretending not to compete.\n\nI knew the ritual.\n\nRead quickly.\n\nDo not reach too fast.\n\nIf two people want the same slip, whoever touches it first becomes an asshole and whoever complains becomes unemployed.\n\nI moved along the board.\n\nCourier work.\n\nGuard work.\n\nSurvey crews.\n\nCaravan escort.\n\nRuin clearing.\n\nDrain inspection.\n\nLine maintenance.\n\nAnimal removal.\n\nThen I saw it.\n\nRIDGE ACCESS SURVEY, WESTERN CORRIDOR.\n\nThree-week initial term.\n\nRoom and food provided.",
+      "preview_transcript": "People stood in front of it pretending not to compete.\n\nI knew the ritual.\n\nRead quickly.\n\nDo not reach too fast.\n\nIf two people want the same slip, whoever touches it first becomes an asshole and whoever complains becomes unemployed.\n\nI moved along the board.\n\nCourier work.\n\nGuard work.\n\nSurvey crews.\n\nCaravan escort.\n\nRuin clearing.\n\nDrain inspection.\n\nLine maintenance.\n\nAnimal removal.\n\nThen I saw it.\n\nRIDGE ACCESS SURVEY, WESTERN CORRIDOR.\n\nThree-week initial term.\n\nRoom and food provided."
+    },
+    {
+      "record": "005",
+      "chunk_index": 15,
+      "voice": "deep",
+      "transcript": "First life, I had gone home, packed, lied to my mother about the hazard class, and been on a cart before dinner.\n\nMy sister had complained because I was supposed to help her carry something to the spring street fair that weekend.\n\nI had told her I would do it next year.\n\nThere had not been a next year for us.\n\nNot like that.\n\nThe memory did not arrive dramatically.\n\nNo music.\n\nNo revelation.",
+      "preview_transcript": "First life, I had gone home, packed, lied to my mother about the hazard class, and been on a cart before dinner.\n\nMy sister had complained because I was supposed to help her carry something to the spring street fair that weekend.\n\nI had told her I would do it next year.\n\nThere had not been a next year for us.\n\nNot like that.\n\nThe memory did not arrive dramatically.\n\nNo music.\n\nNo revelation."
+    },
+    {
+      "record": "005",
+      "chunk_index": 20,
+      "voice": "deep",
+      "transcript": "“Informal.”\n\n“What kind?”\n\nI thought of the ninth station.\n\nNhal.\n\nThe pressure break outside Vey.\n\nA crown contract I could not remember correctly enough for Ithar's liking.\n\n“My father repairs mill housings.”\n\nThat, at least, was true.\n\n“You any good with tools?”\n\n“Yes.”\n\n“Can you lift forty kilos?”\n\n“Yes.”\n\nProbably.\n\nMy memory had opinions.\n\nMy calf had others.\n\n“Can you follow instructions?”\n\nI hesitated.\n\nThe clerk looked up.\n\n“Yes.”\n\nHe did not believe me.\n\nFair.\n\nHe stamped the slip.",
+      "preview_transcript": "“Informal.”\n\n“What kind?”\n\nI thought of the ninth station.\n\nNhal.\n\nThe pressure break outside Vey.\n\nA crown contract I could not remember correctly enough for Ithar's liking.\n\n“My father repairs mill housings.”\n\nThat, at least, was true.\n\n“You any good with tools?”\n\n“Yes.”\n\n“Can you lift forty kilos?”\n\n“Yes.”\n\nProbably.\n\nMy memory had opinions.\n\nMy calf had others.\n\n“Can you follow instructions?”\n\nI hesitated.\n\nThe clerk looked up.\n\n“Yes.”\n\nHe did not believe me.\n\nFair.\n\nHe stamped the slip."
+    },
+    {
+      "record": "005",
+      "chunk_index": 25,
+      "voice": "deep",
+      "transcript": "Just a job I had apparently already agreed to.\n\nI sat on the floor beside her.\n\n“Give me one.”\n\n“You'll break it.”\n\n“I will not.”\n\n“You break everything.”\n\nI took a lantern.\n\nThe wire bent under my fingers.\n\nYoung fingers.\n\nBoth hands.\n\nI worked more carefully.\n\nMy first contract in my second life lasted four weeks.\n\nThat was what the paper said.\n\nThe cave came back before I could hide inside the word temporary.\n\nIthar's claw rested against the gold.",
+      "preview_transcript": "Just a job I had apparently already agreed to.\n\nI sat on the floor beside her.\n\n“Give me one.”\n\n“You'll break it.”\n\n“I will not.”\n\n“You break everything.”\n\nI took a lantern.\n\nThe wire bent under my fingers.\n\nYoung fingers.\n\nBoth hands.\n\nI worked more carefully.\n\nMy first contract in my second life lasted four weeks.\n\nThat was what the paper said.\n\nThe cave came back before I could hide inside the word temporary.\n\nIthar's claw rested against the gold."
+    },
+    {
+      "record": "006",
+      "chunk_index": 2,
+      "voice": "deep",
+      "transcript": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n“Eleven years is a long time.”\n\nThe dragon did not need to answer that.\n\n“For me.”",
+      "preview_transcript": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n“Eleven years is a long time.”\n\nThe dragon did not need to answer that.\n\n“For me.”"
+    },
+    {
+      "record": "006",
+      "chunk_index": 2,
+      "voice": "normal",
+      "transcript": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n“Eleven years is a long time.”\n\nThe dragon did not need to answer that.\n\n“For me.”",
+      "preview_transcript": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n“Eleven years is a long time.”\n\nThe dragon did not need to answer that.\n\n“For me.”"
+    },
+    {
+      "record": "006",
+      "chunk_index": 6,
+      "voice": "deep",
+      "transcript": "“That used to be a ring.”\n\nNobody asked again.\n\nI liked her immediately.\n\nShe did not like me for another year.\n\nThat was fair.\n\nMy first job was scraping oxide off a secondary housing with a wire brush.\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me.\n\nAt East Four I spent four hours on my knees removing green crust from bolts.\n\nThe bolts did not care.\n\nA woman worked on the next housing over.",
+      "preview_transcript": "“That used to be a ring.”\n\nNobody asked again.\n\nI liked her immediately.\n\nShe did not like me for another year.\n\nThat was fair.\n\nMy first job was scraping oxide off a secondary housing with a wire brush.\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me.\n\nAt East Four I spent four hours on my knees removing green crust from bolts.\n\nThe bolts did not care.\n\nA woman worked on the next housing over."
+    },
+    {
+      "record": "006",
+      "chunk_index": 11,
+      "voice": "deep",
+      "transcript": "“No.”\n\n“You're eating it.”\n\n“I brought a potato.”\n\n“Yours had pepper.”\n\nShe looked down at the piece in her hand.\n\nMine did not have pepper.\n\n“Interesting.”\n\nI took it back.\n\nShe called me an asshole.\n\nThat was Nessa.\n\nI did not know yet that I would spend years learning all the ways she could say the same insult.\n\nSome were affectionate.\n\nSome were not.\n\nThe distinction became important.\n\nMy four-week contract became eight because somebody quit.",
+      "preview_transcript": "“No.”\n\n“You're eating it.”\n\n“I brought a potato.”\n\n“Yours had pepper.”\n\nShe looked down at the piece in her hand.\n\nMine did not have pepper.\n\n“Interesting.”\n\nI took it back.\n\nShe called me an asshole.\n\nThat was Nessa.\n\nI did not know yet that I would spend years learning all the ways she could say the same insult.\n\nSome were affectionate.\n\nSome were not.\n\nThe distinction became important.\n\nMy four-week contract became eight because somebody quit."
+    },
+    {
+      "record": "006",
+      "chunk_index": 16,
+      "voice": "deep",
+      "transcript": "My mother decided the roof leak could no longer be described as seasonal because it had started raining inside during summer.\n\nThere were mornings when I did not train.\n\nAt first I made them up.\n\nThen I stopped keeping count.\n\nThat should have frightened me.\n\nFor a while it did.\n\nI had been S-class.\n\nNot metaphorically.\n\nNot in the way an old man at a tavern becomes a better fighter every year after retiring.\n\nI had been one of seven.\n\nThere were kings who knew my schedule.",
+      "preview_transcript": "My mother decided the roof leak could no longer be described as seasonal because it had started raining inside during summer.\n\nThere were mornings when I did not train.\n\nAt first I made them up.\n\nThen I stopped keeping count.\n\nThat should have frightened me.\n\nFor a while it did.\n\nI had been S-class.\n\nNot metaphorically.\n\nNot in the way an old man at a tavern becomes a better fighter every year after retiring.\n\nI had been one of seven.\n\nThere were kings who knew my schedule."
+    },
+    {
+      "record": "006",
+      "chunk_index": 21,
+      "voice": "deep",
+      "transcript": "First life, I had taken that test as soon as I qualified.\n\nI remembered the room.\n\nThe examiner.\n\nThe way my stomach had tightened when the first letter appeared on the badge.\n\nE-class.\n\nI had carried that badge like it weighed more than steel.\n\nSecond life, the letter got a grease stain because my father put a gear housing on it.\n\n“Important?” he asked.\n\n“Maybe.”\n\n“You going?”\n\n“I don't know.”\n\nHe looked at me longer than necessary.\n\n“Do you want to?”\n\nThat was an annoying question.",
+      "preview_transcript": "First life, I had taken that test as soon as I qualified.\n\nI remembered the room.\n\nThe examiner.\n\nThe way my stomach had tightened when the first letter appeared on the badge.\n\nE-class.\n\nI had carried that badge like it weighed more than steel.\n\nSecond life, the letter got a grease stain because my father put a gear housing on it.\n\n“Important?” he asked.\n\n“Maybe.”\n\n“You going?”\n\n“I don't know.”\n\nHe looked at me longer than necessary.\n\n“Do you want to?”\n\nThat was an annoying question."
+    },
+    {
+      "record": "007",
+      "chunk_index": 2,
+      "voice": "deep",
+      "transcript": "Dera opened the plans on the break-room table.\n\nNessa moved her tea.\n\nI did not.\n\nThe edge of the paper knocked my cup over.\n\n“Good start,” Nessa said.\n\nI caught the cup before most of it escaped.\n\n“Planned.”\n\n“For what?”\n\n“Morale.”\n\nDera flattened the plans with two wrenches.\n\n“Can both of you be useful for five minutes?”\n\n“No,” Nessa said.\n\n“Yes,” I said.\n\nDera looked between us.\n\n“Somehow hers felt more honest.”\n\nI leaned over the drawing.\n\nThen I stopped.",
+      "preview_transcript": "Dera opened the plans on the break-room table.\n\nNessa moved her tea.\n\nI did not.\n\nThe edge of the paper knocked my cup over.\n\n“Good start,” Nessa said.\n\nI caught the cup before most of it escaped.\n\n“Planned.”\n\n“For what?”\n\n“Morale.”\n\nDera flattened the plans with two wrenches.\n\n“Can both of you be useful for five minutes?”\n\n“No,” Nessa said.\n\n“Yes,” I said.\n\nDera looked between us.\n\n“Somehow hers felt more honest.”\n\nI leaned over the drawing.\n\nThen I stopped."
+    },
+    {
+      "record": "007",
+      "chunk_index": 7,
+      "voice": "deep",
+      "transcript": "Dera rolled the plan closed.\n\n“We inspect.”\n\nHalden came down the next morning.\n\nHe was thirty-seven.\n\nThat surprised me.\n\nThe dead engineer in my memory had been older.\n\nDeaths age people strangely.\n\nA black board and a formal portrait can add fifteen years to a face.\n\nHalden had a narrow mustache and the exhausted irritation of a man who had already explained the same design to four departments.\n\nDera showed him the chamber.\n\nI showed him the seam.",
+      "preview_transcript": "Dera rolled the plan closed.\n\n“We inspect.”\n\nHalden came down the next morning.\n\nHe was thirty-seven.\n\nThat surprised me.\n\nThe dead engineer in my memory had been older.\n\nDeaths age people strangely.\n\nA black board and a formal portrait can add fifteen years to a face.\n\nHalden had a narrow mustache and the exhausted irritation of a man who had already explained the same design to four departments.\n\nDera showed him the chamber.\n\nI showed him the seam."
+    },
+    {
+      "record": "007",
+      "chunk_index": 12,
+      "voice": "deep",
+      "transcript": "The third worked market utilities.\n\nAlive.\n\nI sat at the kitchen table with the directory open and felt something I still do not have a clean word for.\n\nRelief was part of it.\n\nPride too.\n\nFear, mostly.\n\nMy mother came in carrying laundry.\n\n“You're reading names.”\n\n“Yeah.”\n\n“Anyone interesting?”\n\n“No.”\n\nShe put the basket down.\n\n“You've been staring at that page for ten minutes.”\n\n“I know.”\n\n“Then either they're interesting or you've forgotten how reading works.”\n\nI closed the book.",
+      "preview_transcript": "The third worked market utilities.\n\nAlive.\n\nI sat at the kitchen table with the directory open and felt something I still do not have a clean word for.\n\nRelief was part of it.\n\nPride too.\n\nFear, mostly.\n\nMy mother came in carrying laundry.\n\n“You're reading names.”\n\n“Yeah.”\n\n“Anyone interesting?”\n\n“No.”\n\nShe put the basket down.\n\n“You've been staring at that page for ten minutes.”\n\n“I know.”\n\n“Then either they're interesting or you've forgotten how reading works.”\n\nI closed the book."
+    },
+    {
+      "record": "007",
+      "chunk_index": 18,
+      "voice": "deep",
+      "transcript": "I liked him less after he learned confidence.\n\nI found the fault anyway.\n\nThen another.\n\nHe started using me on reviews.\n\nNot because I was the strongest person available.\n\nI wasn't.\n\nNot because I had the highest certification.\n\nI didn't.\n\nBecause I looked at old systems strangely.\n\nThat was how he put it.\n\n“You assume the builders were hiding something,” he told me once.\n\n“Sometimes they were.”\n\n“Most people assume a wall is a wall.”\n\n“Most walls are covering something.”",
+      "preview_transcript": "I liked him less after he learned confidence.\n\nI found the fault anyway.\n\nThen another.\n\nHe started using me on reviews.\n\nNot because I was the strongest person available.\n\nI wasn't.\n\nNot because I had the highest certification.\n\nI didn't.\n\nBecause I looked at old systems strangely.\n\nThat was how he put it.\n\n“You assume the builders were hiding something,” he told me once.\n\n“Sometimes they were.”\n\n“Most people assume a wall is a wall.”\n\n“Most walls are covering something.”"
+    },
+    {
+      "record": "008",
+      "chunk_index": 1,
+      "voice": "deep",
+      "transcript": "I remembered Nessa dying three days before she was supposed to.\n\nThat sentence makes it sound more useful than it was.\n\nMemory did not arrive with a date stamped on it.\n\nIt arrived because she complained about peaches.\n\nWe were sitting on the roof of East Four after shift because the inside of the station was hotter than the outside and the outside was only trying to kill us slowly.\n\nNessa had bought two peaches from a cart near the market.\n\nOne was good.\n\nThe other had the texture of wet cloth.",
+      "preview_transcript": "I remembered Nessa dying three days before she was supposed to.\n\nThat sentence makes it sound more useful than it was.\n\nMemory did not arrive with a date stamped on it.\n\nIt arrived because she complained about peaches.\n\nWe were sitting on the roof of East Four after shift because the inside of the station was hotter than the outside and the outside was only trying to kill us slowly.\n\nNessa had bought two peaches from a cart near the market.\n\nOne was good.\n\nThe other had the texture of wet cloth."
+    },
+    {
+      "record": "008",
+      "chunk_index": 6,
+      "voice": "deep",
+      "transcript": "Years after that, somebody claimed the tram foundation shifted.\n\nI had never cared enough to learn which version survived.\n\nNow one of the dead women sat beside me with peach juice on her thumb.\n\n“Old records,” I said.\n\nNessa's eyes narrowed.\n\n“You've been weird about old records since I met you.”\n\n“Useful hobby.”\n\n“Greg.”\n\n“Just switch the shift.”\n\n“No.”\n\nI looked at her.\n\n“Why?”\n\n“Because if you think something fails, taking me off the shift means somebody else stands there.”",
+      "preview_transcript": "Years after that, somebody claimed the tram foundation shifted.\n\nI had never cared enough to learn which version survived.\n\nNow one of the dead women sat beside me with peach juice on her thumb.\n\n“Old records,” I said.\n\nNessa's eyes narrowed.\n\n“You've been weird about old records since I met you.”\n\n“Useful hobby.”\n\n“Greg.”\n\n“Just switch the shift.”\n\n“No.”\n\nI looked at her.\n\n“Why?”\n\n“Because if you think something fails, taking me off the shift means somebody else stands there.”"
+    },
+    {
+      "record": "008",
+      "chunk_index": 11,
+      "voice": "deep",
+      "transcript": "From five years of standing inside it.\n\nHealthy.\n\nThen the hum changed.\n\nOne note lower.\n\nNessa looked at me from across the chamber.\n\nShe heard it too.\n\nDera shouted, “Hold positions.”\n\nI looked at the pressure gauge.\n\nNormal.\n\nSecond gauge.\n\nNormal.\n\nThe floor vibrated.\n\nWrong.\n\n“Dera.”\n\n“I hear it.”\n\nThe western wall made a sound like someone drawing a wet finger across glass.\n\nI knew that sound too.\n\nNot from East Four.\n\nFrom much later.",
+      "preview_transcript": "From five years of standing inside it.\n\nHealthy.\n\nThen the hum changed.\n\nOne note lower.\n\nNessa looked at me from across the chamber.\n\nShe heard it too.\n\nDera shouted, “Hold positions.”\n\nI looked at the pressure gauge.\n\nNormal.\n\nSecond gauge.\n\nNormal.\n\nThe floor vibrated.\n\nWrong.\n\n“Dera.”\n\n“I hear it.”\n\nThe western wall made a sound like someone drawing a wet finger across glass.\n\nI knew that sound too.\n\nNot from East Four.\n\nFrom much later."
+    },
+    {
+      "record": "008",
+      "chunk_index": 16,
+      "voice": "deep",
+      "transcript": "The old woman had spent five years teaching me not to touch things I did not understand and was now standing ankle-deep in hot runoff trying to save the station from something none of us understood.\n\n“The feed wasn't the source,” I shouted.\n\n“No shit.”\n\n“Subfloor.”\n\n“I know.”\n\n“Old chamber under the west wall.”\n\n“What old chamber?”\n\nThere.\n\nThat was it.\n\nA memory from First Life came loose.\n\nNot East Four.\n\nThe ninth station.\n\nOld Line work beneath newer Line work.",
+      "preview_transcript": "The old woman had spent five years teaching me not to touch things I did not understand and was now standing ankle-deep in hot runoff trying to save the station from something none of us understood.\n\n“The feed wasn't the source,” I shouted.\n\n“No shit.”\n\n“Subfloor.”\n\n“I know.”\n\n“Old chamber under the west wall.”\n\n“What old chamber?”\n\nThere.\n\nThat was it.\n\nA memory from First Life came loose.\n\nNot East Four.\n\nThe ninth station.\n\nOld Line work beneath newer Line work."
+    },
+    {
+      "record": "008",
+      "chunk_index": 21,
+      "voice": "normal",
+      "transcript": "“You knew Nessa Vale first as a name on a board of dead people. By the time the remembered death arrived, she was no longer a name. She was your friend, and already more complicated than that word admits.\n\n“You attempted to prevent an outcome you remembered without understanding the mechanism that produced it. You dropped the wrong feed. You made the failure worse before you understood what was beneath the station. Then you saved her.",
+      "preview_transcript": "“You knew Nessa Vale first as a name on a board of dead people. By the time the remembered death arrived, she was no longer a name. She was your friend, and already more complicated than that word admits.\n\n“You attempted to prevent an outcome you remembered without understanding the mechanism that produced it. You dropped the wrong feed. You made the failure worse before you understood what was beneath the station. Then you saved her."
+    },
+    {
+      "record": "009",
+      "chunk_index": 4,
+      "voice": "deep",
+      "transcript": "Nessa's landlord raised the rent.\n\nI had a second room full of tools and things my sister insisted I did not need.\n\nNessa said she could pay half.\n\nI said the tools would need somewhere to go.\n\nShe said the tools already lived better than most people.\n\nTwo weeks later there were red cords hanging from my wash line and tea strong enough to remove paint from cups.\n\nWe had not discussed what that meant.\n\nWe were good at not discussing things that were going well.",
+      "preview_transcript": "Nessa's landlord raised the rent.\n\nI had a second room full of tools and things my sister insisted I did not need.\n\nNessa said she could pay half.\n\nI said the tools would need somewhere to go.\n\nShe said the tools already lived better than most people.\n\nTwo weeks later there were red cords hanging from my wash line and tea strong enough to remove paint from cups.\n\nWe had not discussed what that meant.\n\nWe were good at not discussing things that were going well."
+    },
+    {
+      "record": "009",
+      "chunk_index": 9,
+      "voice": "deep",
+      "transcript": "I remembered his face when he did.\n\nNessa had a crack in one molar she had been ignoring because healers cost money and she was convinced chewing on the other side counted as treatment.\n\nDera was training Lorn to take over nights because she had finally admitted she wanted one day off a week before death.\n\nEast Four had a buried chamber nobody outside our crew seemed capable of remembering despite three separate reports.\n\nI had bought a table.\n\nThat sounds stupid beside S-class.",
+      "preview_transcript": "I remembered his face when he did.\n\nNessa had a crack in one molar she had been ignoring because healers cost money and she was convinced chewing on the other side counted as treatment.\n\nDera was training Lorn to take over nights because she had finally admitted she wanted one day off a week before death.\n\nEast Four had a buried chamber nobody outside our crew seemed capable of remembering despite three separate reports.\n\nI had bought a table.\n\nThat sounds stupid beside S-class."
+    },
+    {
+      "record": "009",
+      "chunk_index": 14,
+      "voice": "deep",
+      "transcript": "“That one was definitely rehearsed.”\n\n“Fuck you.”\n\n“Better.”\n\nShe got up to make tea.\n\nThat annoyed me.\n\nI had expected an argument.\n\nMaybe tears.\n\nMaybe a demand.\n\nSomething I could push against.\n\nInstead she gave me the choice and boiled water.\n\nCruel woman.\n\nI did not sleep much that night.\n\nThe next morning I took the letter to Guild Hall.\n\nMira was no longer at the front window.\n\nI knew that would happen.\n\nShe had moved upstairs a year earlier than I remembered.",
+      "preview_transcript": "“That one was definitely rehearsed.”\n\n“Fuck you.”\n\n“Better.”\n\nShe got up to make tea.\n\nThat annoyed me.\n\nI had expected an argument.\n\nMaybe tears.\n\nMaybe a demand.\n\nSomething I could push against.\n\nInstead she gave me the choice and boiled water.\n\nCruel woman.\n\nI did not sleep much that night.\n\nThe next morning I took the letter to Guild Hall.\n\nMira was no longer at the front window.\n\nI knew that would happen.\n\nShe had moved upstairs a year earlier than I remembered."
+    },
+    {
+      "record": "009",
+      "chunk_index": 20,
+      "voice": "deep",
+      "transcript": "That sentence had come from somewhere deeper than I expected.\n\n“In the first life, every choice toward strength felt temporary. Six months away. One more contract. One more season. One more place I had to be because I was finally good enough to be needed there.”\n\nI looked down at my leg.\n\nIt was not the leg from that time.\n\nNot yet in the memory, anyway.\n\n“I kept thinking life would start when the work settled down. In the second life, it already had.”",
+      "preview_transcript": "That sentence had come from somewhere deeper than I expected.\n\n“In the first life, every choice toward strength felt temporary. Six months away. One more contract. One more season. One more place I had to be because I was finally good enough to be needed there.”\n\nI looked down at my leg.\n\nIt was not the leg from that time.\n\nNot yet in the memory, anyway.\n\n“I kept thinking life would start when the work settled down. In the second life, it already had.”"
+    },
+    {
+      "record": "010",
+      "chunk_index": 3,
+      "voice": "deep",
+      "transcript": "Then I stood.\n\nBren was thirty-one.\n\nI knew because I had attended his thirty-first birthday twice in the first life.\n\nOnce on the actual day.\n\nOnce three weeks later after we realized the first celebration had been based on a clerical error in his registry.\n\nHe had thought that was the funniest thing that had ever happened.\n\nI had not.",
+      "preview_transcript": "Then I stood.\n\nBren was thirty-one.\n\nI knew because I had attended his thirty-first birthday twice in the first life.\n\nOnce on the actual day.\n\nOnce three weeks later after we realized the first celebration had been based on a clerical error in his registry.\n\nHe had thought that was the funniest thing that had ever happened.\n\nI had not."
+    },
+    {
+      "record": "010",
+      "chunk_index": 8,
+      "voice": "deep",
+      "transcript": "Bren looked down at both boots.\n\n“Nothing.”\n\n“Sorry.”\n\n“Why?”\n\n“Thought you were somebody else.”\n\n“With my name?”\n\n“Yes.”\n\n“That seems unlikely.”\n\n“It is.”\n\nNessa was staring hard enough to sand wood.\n\nI ignored her.\n\nBren was there for the buried chamber.\n\nAfter the transfer rupture, district engineering had finally admitted East Four sat on older Line work. The Guild sent specialist teams through every major station in the region.",
+      "preview_transcript": "Bren looked down at both boots.\n\n“Nothing.”\n\n“Sorry.”\n\n“Why?”\n\n“Thought you were somebody else.”\n\n“With my name?”\n\n“Yes.”\n\n“That seems unlikely.”\n\n“It is.”\n\nNessa was staring hard enough to sand wood.\n\nI ignored her.\n\nBren was there for the buried chamber.\n\nAfter the transfer rupture, district engineering had finally admitted East Four sat on older Line work. The Guild sent specialist teams through every major station in the region."
+    },
+    {
+      "record": "010",
+      "chunk_index": 13,
+      "voice": "deep",
+      "transcript": "I had spent years avoiding this conversation by distributing pieces of the truth so widely that none looked like the whole thing.\n\nNessa knew I anticipated failures.\n\nShe knew I had skills I could not explain.\n\nShe knew some people made me sad before I met them.\n\nShe knew I sometimes woke from dreams and took several seconds to remember where we lived.\n\nShe knew I hated the phrase first time when it came out of my mouth by accident.\n\nShe did not know why.\n\nNot yet.",
+      "preview_transcript": "I had spent years avoiding this conversation by distributing pieces of the truth so widely that none looked like the whole thing.\n\nNessa knew I anticipated failures.\n\nShe knew I had skills I could not explain.\n\nShe knew some people made me sad before I met them.\n\nShe knew I sometimes woke from dreams and took several seconds to remember where we lived.\n\nShe knew I hated the phrase first time when it came out of my mouth by accident.\n\nShe did not know why.\n\nNot yet."
+    },
+    {
+      "record": "010",
+      "chunk_index": 18,
+      "voice": "deep",
+      "transcript": "The same smile.\n\nNot exactly.\n\nClose enough to hurt.\n\nHe left East Four two days later.\n\nI watched him pack his gear.\n\nThere were a hundred things I could have said.\n\nIlya's name.\n\nGray Pass.\n\nThe cheap tavern in Vey where the owner cheated at cards and Bren kept going back because he respected consistency.\n\nThe song he hated.\n\nThe time he cried after killing a man and then lied about dust.\n\nThe place he wanted his ashes scattered because he hated cemeteries.\n\nI knew how he died.",
+      "preview_transcript": "The same smile.\n\nNot exactly.\n\nClose enough to hurt.\n\nHe left East Four two days later.\n\nI watched him pack his gear.\n\nThere were a hundred things I could have said.\n\nIlya's name.\n\nGray Pass.\n\nThe cheap tavern in Vey where the owner cheated at cards and Bren kept going back because he respected consistency.\n\nThe song he hated.\n\nThe time he cried after killing a man and then lied about dust.\n\nThe place he wanted his ashes scattered because he hated cemeteries.\n\nI knew how he died."
+    },
+    {
+      "record": "010",
+      "chunk_index": 23,
+      "voice": "deep",
+      "transcript": "Then he nodded once.\n\nThe movement was tiny.\n\nComing from him, it felt enormous.\n\nWhen he spoke again, the question was larger than Bren.\n\n“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it.",
+      "preview_transcript": "Then he nodded once.\n\nThe movement was tiny.\n\nComing from him, it felt enormous.\n\nWhen he spoke again, the question was larger than Bren.\n\n“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it."
+    },
+    {
+      "record": "010",
+      "chunk_index": 23,
+      "voice": "normal",
+      "transcript": "Then he nodded once.\n\nThe movement was tiny.\n\nComing from him, it felt enormous.\n\nWhen he spoke again, the question was larger than Bren.\n\n“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it.",
+      "preview_transcript": "Then he nodded once.\n\nThe movement was tiny.\n\nComing from him, it felt enormous.\n\nWhen he spoke again, the question was larger than Bren.\n\n“You had already observed events changing. Halden survived. North Vey did not rupture. Your remembered future had been becoming less reliable for years. Yet you still treated the first life as the real version and the second as a return into it."
+    },
+    {
+      "record": "010",
+      "chunk_index": 25,
+      "voice": "deep",
+      "transcript": "Like I had gone back into a book I already read and scribbled in the margins.\n\nThen one of the characters looked at me and had no idea who I was.\n\nAnd the page after that wasn't there anymore.\n\nI looked at Ithar.\n\n“My life.”",
+      "preview_transcript": "Like I had gone back into a book I already read and scribbled in the margins.\n\nThen one of the characters looked at me and had no idea who I was.\n\nAnd the page after that wasn't there anymore.\n\nI looked at Ithar.\n\n“My life.”"
+    }
+  ],
+  "return_manifest": "3l/audio/workers/records-002-010-instant-1-captures.json"
+}
