@@ -43,6 +43,7 @@ def current_audio(record: str) -> tuple[bool, str | None]:
     if record == "001":
         asset = ASSET_DIR / "record-001-headspace-v6.mp3"
         return asset.exists(), "record-001-headspace-v6.mp3" if asset.exists() else None
+
     plan = AUDIO_DIR / f"record-{record}-short-dual-plan.json"
     audit = AUDIO_DIR / "verification" / f"record-{record}-short-dual-audio.json"
     asset = ASSET_DIR / f"record-{record}.mp3"
@@ -61,6 +62,60 @@ def current_audio(record: str) -> tuple[bool, str | None]:
     return True, f"record-{record}.mp3"
 
 
+def reader_script(record: str) -> str:
+    """Return browser JS without regex newline escapes that can be mangled by generation."""
+    return f"""<script>
+const prose = document.getElementById('record-prose');
+fetch('../manuscript/record-{record}.md')
+  .then(response => {{
+    if (!response.ok) throw new Error('Record unavailable');
+    return response.text();
+  }})
+  .then(markdown => {{
+    const LF = String.fromCharCode(10);
+    const CR = String.fromCharCode(13);
+    const lines = markdown.split(LF).map(line => line.endsWith(CR) ? line.slice(0, -1) : line);
+    let headings = 0;
+    let current = [];
+    const paragraphs = [];
+    const flush = () => {{
+      if (!current.length) return;
+      paragraphs.push(current.join(LF).trim());
+      current = [];
+    }};
+    for (const line of lines) {{
+      if (headings < 2 && line.startsWith('## ')) {{
+        headings += 1;
+        continue;
+      }}
+      if (headings < 2) continue;
+      if (!line.trim()) {{
+        flush();
+        continue;
+      }}
+      current.push(line);
+    }}
+    flush();
+    prose.replaceChildren();
+    for (const paragraph of paragraphs) {{
+      const p = document.createElement('p');
+      p.textContent = paragraph;
+      prose.appendChild(p);
+    }}
+  }})
+  .catch(() => {{
+    prose.replaceChildren();
+    const p = document.createElement('p');
+    p.append('The written record could not be loaded. ');
+    const link = document.createElement('a');
+    link.href = '../manuscript/record-{record}.md';
+    link.textContent = 'Open the canonical prose.';
+    p.appendChild(link);
+    prose.appendChild(p);
+  }});
+</script>"""
+
+
 def record_page(record: str, title: str, has_audio: bool, audio_filename: str | None, first: str, last: str) -> str:
     safe_title = html.escape(title)
     safe_lede = html.escape(LEDE.get(record, "Greg continues the account under Ithar's examination."))
@@ -68,15 +123,13 @@ def record_page(record: str, title: str, has_audio: bool, audio_filename: str | 
         audio = f'''<section class="record-audio" aria-labelledby="listen-title"><p class="eyebrow">LISTEN</p><h2 id="listen-title">Record {record}</h2><p class="audio-note">Greg narrates. Ithar examines.</p><audio class="audio-player" controls preload="metadata" src="../assets/audio/{audio_filename}">Your browser does not support the audio element.</audio><div class="page-actions"><a class="button button-primary" href="../audio/">Listening Archive</a></div></section>'''
     else:
         audio = f'''<section class="record-audio" aria-labelledby="listen-title"><p class="eyebrow">AUDIO</p><h2 id="listen-title">Record {record}</h2><p class="audio-note">Audio rebuild in production. The written record below is current.</p></section>'''
+
     number = int(record)
     prev_link = f'<a class="button" href="{number - 1:03d}.html">← Record {number - 1:03d}</a>' if record != first else ""
     next_link = f'<a class="button" href="{number + 1:03d}.html">Record {number + 1:03d} →</a>' if record != last else ""
-    return rf'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080908"><meta name="description" content="Record {record} of The Third Leg: {safe_title.title()}."><title>Record {record} · {safe_title.title()} · The Third Leg</title><link rel="stylesheet" href="../assets/css/site.css"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header" aria-label="Site header"><a class="site-mark" href="../" aria-label="The Third Leg home">3L</a><nav class="primary-nav" aria-label="Primary"><a href="../#story">Story</a><a href="./">Records</a><a href="../#timeline">World</a><a href="../about/">About</a><a href="../../index.html">PLG</a><a href="../../r2/">R2</a></nav><nav class="medium-nav" aria-label="Formats"><a href="../audio/">Listen</a><a aria-current="page" href="{record}.html">Read</a></nav></header><main id="main" class="page-main record-page"><header class="page-hero"><p class="eyebrow">RECORD {record}</p><h1>{safe_title}</h1><p class="record-meta">THE ACCOUNT · REMEMBERED FROM THE DRAGON'S CAVE</p><p class="page-lede">{safe_lede}</p></header>{audio}<section class="record-reading" aria-labelledby="read-title"><div class="section-head"><div><p class="eyebrow">READ</p><h2 id="read-title">The written record</h2></div></div><article id="record-prose" class="reading-copy" aria-live="polite"><p>Loading the record…</p></article><noscript><p class="reading-fallback">JavaScript is disabled. <a href="../manuscript/record-{record}.md">Open the canonical prose.</a></p></noscript></section><div class="page-actions" aria-label="Record navigation">{prev_link}<a class="button" href="./">All Records</a>{next_link}</div></main><footer class="site-footer"><div class="footer-mark"><strong>3L</strong><span>Record {record} · {safe_title.title()}</span></div><nav aria-label="Lineage"><a href="../../index.html">PLG</a><span aria-hidden="true">→</span><a href="../../r2/">R2</a><span aria-hidden="true">→</span><a href="../">3L</a></nav></footer><script>const prose=document.getElementById('record-prose');fetch('../manuscript/record-{record}.md').then(r=>{{if(!r.ok)throw new Error('Record unavailable');return r.text()}}).then(markdown=>{{const lines=markdown.split(/?
-/);let headings=0;const body=[];for(const line of lines){{if(headings<2&&line.startsWith('## ')){{headings++;continue}}if(headings>=2)body.push(line)}}prose.replaceChildren();body.join('
-').trim().split(/
-\s*
-/).filter(Boolean).forEach(paragraph=>{{const p=document.createElement('p');p.textContent=paragraph.trim();prose.appendChild(p)}})}}).catch(()=>{{prose.replaceChildren();const p=document.createElement('p');p.append('The written record could not be loaded. ');const link=document.createElement('a');link.href='../manuscript/record-{record}.md';link.textContent='Open the canonical prose.';p.appendChild(link);prose.appendChild(p)}});</script></body></html>
+
+    return f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080908"><meta name="description" content="Record {record} of The Third Leg: {safe_title.title()}."><title>Record {record} · {safe_title.title()} · The Third Leg</title><link rel="stylesheet" href="../assets/css/site.css"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header" aria-label="Site header"><a class="site-mark" href="../" aria-label="The Third Leg home">3L</a><nav class="primary-nav" aria-label="Primary"><a href="../#story">Story</a><a href="./">Records</a><a href="../#timeline">World</a><a href="../about/">About</a><a href="../../index.html">PLG</a><a href="../../r2/">R2</a></nav><nav class="medium-nav" aria-label="Formats"><a href="../audio/">Listen</a><a aria-current="page" href="{record}.html">Read</a></nav></header><main id="main" class="page-main record-page"><header class="page-hero"><p class="eyebrow">RECORD {record}</p><h1>{safe_title}</h1><p class="record-meta">THE ACCOUNT · REMEMBERED FROM THE DRAGON'S CAVE</p><p class="page-lede">{safe_lede}</p></header>{audio}<section class="record-reading" aria-labelledby="read-title"><div class="section-head"><div><p class="eyebrow">READ</p><h2 id="read-title">The written record</h2></div></div><article id="record-prose" class="reading-copy" aria-live="polite"><p>Loading the record…</p></article><noscript><p class="reading-fallback">JavaScript is disabled. <a href="../manuscript/record-{record}.md">Open the canonical prose.</a></p></noscript></section><div class="page-actions" aria-label="Record navigation">{prev_link}<a class="button" href="./">All Records</a>{next_link}</div></main><footer class="site-footer"><div class="footer-mark"><strong>3L</strong><span>Record {record} · {safe_title.title()}</span></div><nav aria-label="Lineage"><a href="../../index.html">PLG</a><span aria-hidden="true">→</span><a href="../../r2/">R2</a><span aria-hidden="true">→</span><a href="../">3L</a></nav></footer>{reader_script(record)}</body></html>
 '''
 
 
@@ -110,15 +163,21 @@ def build() -> list[tuple[str, str, bool, str | None]]:
     actual = [record for record, _ in metadata]
     if actual != expected:
         raise ValueError(f"non-contiguous manuscript frontier: {actual}")
+
     RECORD_DIR.mkdir(parents=True, exist_ok=True)
     records: list[tuple[str, str, bool, str | None]] = []
     for record, title in metadata:
         has_audio, filename = current_audio(record)
         records.append((record, title, has_audio, filename))
+
     first, last = records[0][0], records[-1][0]
     for record, title, has_audio, filename in records:
-        (RECORD_DIR / f"{record}.html").write_text(record_page(record, title, has_audio, filename, first, last), encoding="utf-8")
-    (RECORD_DIR / "index.html").write_text(records_index([(r, t, a) for r, t, a, _ in records]), encoding="utf-8")
+        (RECORD_DIR / f"{record}.html").write_text(
+            record_page(record, title, has_audio, filename, first, last), encoding="utf-8"
+        )
+    (RECORD_DIR / "index.html").write_text(
+        records_index([(record, title, has_audio) for record, title, has_audio, _ in records]), encoding="utf-8"
+    )
     (AUDIO_DIR / "index.html").write_text(audio_index(records), encoding="utf-8")
     print("reader frontier:", last, "current audio:", [record for record, _, available, _ in records if available])
     return records
