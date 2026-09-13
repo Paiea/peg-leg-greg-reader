@@ -1,0 +1,80 @@
+name: 3L Record 001 preview v6
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [3l/record-001-rewrite-audio]
+    paths:
+      - '3l/manuscript/record-001.md'
+      - '3l/audio/experiments/record-001-preview-v6-assets.txt'
+      - 'scripts/derive_3l_record_001_preview_plan_v6.py'
+      - 'scripts/assemble_3l_preview_audio.py'
+      - '.github/workflows/3l-record-001-preview-v6.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3l/record-001-rewrite-audio
+          fetch-depth: 1
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
+      - name: Derive locked v6 plan
+        run: |
+          python scripts/derive_3l_record_001_preview_plan_v6.py \
+            --source 3l/manuscript/record-001.md \
+            --output /tmp/record-001-preview-plan-v6.json
+
+      - name: Assemble and verify public preview assets
+        run: |
+          python scripts/assemble_3l_preview_audio.py \
+            --plan /tmp/record-001-preview-plan-v6.json \
+            --assets 3l/audio/experiments/record-001-preview-v6-assets.txt \
+            --output 3l/assets/audio/record-001-headspace-v6.mp3 \
+            --receipt 3l/audio/experiments/record-001-preview-v6-receipt.json
+
+      - name: Verify final audio independently
+        run: |
+          test -s 3l/assets/audio/record-001-headspace-v6.mp3
+          ffprobe -v error -show_entries format=duration,size -of json 3l/assets/audio/record-001-headspace-v6.mp3
+          sha256sum 3l/assets/audio/record-001-headspace-v6.mp3
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r = json.loads(Path('3l/audio/experiments/record-001-preview-v6-receipt.json').read_text())
+          assert r['asset_count'] == 128
+          assert r['verified_asset_count'] == 128
+          assert r['output_duration_s'] > 60
+          assert r['output_bytes'] > 100000
+          print(json.dumps(r, indent=2))
+          PY
+
+      - name: Upload listening artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-record-001-headspace-v6
+          path: |
+            3l/assets/audio/record-001-headspace-v6.mp3
+            3l/audio/experiments/record-001-preview-v6-receipt.json
+          if-no-files-found: error
+
+      - name: Commit experimental audio and receipt
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add 3l/assets/audio/record-001-headspace-v6.mp3 3l/audio/experiments/record-001-preview-v6-receipt.json
+          if git diff --cached --quiet; then
+            echo 'No audio changes to commit.'
+            exit 0
+          fi
+          git commit -m '3L audio: assemble Record 001 headspace v6'
+          git push origin HEAD:3l/record-001-rewrite-audio
