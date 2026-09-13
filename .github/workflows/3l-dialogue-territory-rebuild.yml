@@ -15,11 +15,15 @@ jobs:
   patch-manuscripts:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout only manuscript patch inputs
         uses: actions/checkout@v4
         with:
           ref: 3l/dialogue-territory-rebuild-002-010
-          fetch-depth: 0
+          fetch-depth: 1
+          sparse-checkout: |
+            3l/manuscript
+            scripts/rebuild_3l_dialogue_territories_004_010.py
+          sparse-checkout-cone-mode: false
 
       - name: Apply precision dialogue patches
         run: python scripts/rebuild_3l_dialogue_territories_004_010.py
