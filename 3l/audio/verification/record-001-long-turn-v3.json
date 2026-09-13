@@ -1,0 +1,345 @@
+{
+  "record": 1,
+  "experiment": "long-turn-dragon-v3",
+  "status": "verified_unlistened",
+  "assembly_mode": "speaker_pure_clips_plus_explicit_pause_metadata",
+  "clip_count": 36,
+  "dramatic_block_count": 26,
+  "dragon_turn_count": 12,
+  "dragon_clip_count": 17,
+  "greg_clip_count": 19,
+  "mixed_speaker_clip_count": 0,
+  "dragon_voice": "fancy",
+  "dragon_pitch_semitones": -3.25,
+  "dragon_tempo": 1.0,
+  "dragon_formant": "preserved",
+  "candidate_duration_seconds": 563.952,
+  "candidate_byte_size": 11279565,
+  "candidate_sha256": "20f53a6de89880f14f8ae1087a19331894dba6424d12c06c009d29d37935af29",
+  "clips": [
+    {
+      "id": "001a",
+      "block": 1,
+      "role": "greg",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 23.904,
+      "rendered_duration_seconds": 23.904,
+      "source_sha256": "b12615bf6237516892688b500a0e78d7fdc8057846e10ba45dc3220981b7c16e"
+    },
+    {
+      "id": "001b",
+      "block": 1,
+      "role": "greg",
+      "pause_after_ms": 280,
+      "source_duration_seconds": 15.432,
+      "rendered_duration_seconds": 15.432,
+      "source_sha256": "d60cab6d864da2700caea7032b64c97bc8640bc575ade7e118471d97decb0252"
+    },
+    {
+      "id": "002",
+      "block": 2,
+      "role": "dragon",
+      "pause_after_ms": 520,
+      "source_duration_seconds": 14.784,
+      "rendered_duration_seconds": 14.784,
+      "source_sha256": "72605f8323ea502e2f159bfcb01330dd1f31b9ff9b096a87055e67346adba2ea"
+    },
+    {
+      "id": "003a",
+      "block": 3,
+      "role": "greg",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 19.968,
+      "rendered_duration_seconds": 19.968,
+      "source_sha256": "ce6e0db0b90045da02c122a2fb13e68a5d2e1903fc68d041a8e888b97173a598"
+    },
+    {
+      "id": "003b",
+      "block": 3,
+      "role": "greg",
+      "pause_after_ms": 280,
+      "source_duration_seconds": 14.856,
+      "rendered_duration_seconds": 14.856,
+      "source_sha256": "f701e7491bea00cfbe0809b89695d2138cf2788e77cfb627786309c78a8cc946"
+    },
+    {
+      "id": "004a",
+      "block": 4,
+      "role": "dragon",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 20.4,
+      "rendered_duration_seconds": 20.4,
+      "source_sha256": "0825ff0fb934ec6f5fa4300c65b2819c0f0df47c5d8cfd41cb3254a0c4f80073"
+    },
+    {
+      "id": "004b",
+      "block": 4,
+      "role": "dragon",
+      "pause_after_ms": 620,
+      "source_duration_seconds": 16.752,
+      "rendered_duration_seconds": 16.752,
+      "source_sha256": "46ce5ec67f6f35771413c355e3834d056decd4ff7fb6443dc07c41bf9da72b6f"
+    },
+    {
+      "id": "005",
+      "block": 5,
+      "role": "greg",
+      "pause_after_ms": 260,
+      "source_duration_seconds": 24.12,
+      "rendered_duration_seconds": 24.12,
+      "source_sha256": "239e99f2fde334b2e16e268efc10c87251c3016dc56e6fec46bfd1383358d56e"
+    },
+    {
+      "id": "006a",
+      "block": 6,
+      "role": "dragon",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 10.992,
+      "rendered_duration_seconds": 10.992,
+      "source_sha256": "89e87ab7c3a08b2776d53c0ac0541c097e8206af45f0629ea3656d7db7fd2e36"
+    },
+    {
+      "id": "006b",
+      "block": 6,
+      "role": "dragon",
+      "pause_after_ms": 560,
+      "source_duration_seconds": 15.336,
+      "rendered_duration_seconds": 15.336,
+      "source_sha256": "e236b5c5966ddd925d5aba4fc65b57eb531af17274b28f20ceb594ea4942e1c4"
+    },
+    {
+      "id": "007a",
+      "block": 7,
+      "role": "greg",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 28.32,
+      "rendered_duration_seconds": 28.32,
+      "source_sha256": "3b9dfedd8e3c34f63e20a3fcbc3e45da6375478245bffeb1709694e53248cbc5"
+    },
+    {
+      "id": "007b",
+      "block": 7,
+      "role": "greg",
+      "pause_after_ms": 320,
+      "source_duration_seconds": 24.888,
+      "rendered_duration_seconds": 24.888,
+      "source_sha256": "d1bcf0171351922977f8c54de4e0f2c9b2fd0c6111183c747ca26117a4e3df12"
+    },
+    {
+      "id": "008",
+      "block": 8,
+      "role": "dragon",
+      "pause_after_ms": 700,
+      "source_duration_seconds": 0.72,
+      "rendered_duration_seconds": 0.72,
+      "source_sha256": "9fe05858db53834d237944b410378c49911ca0efa26498a342999f3f86ef906b"
+    },
+    {
+      "id": "009",
+      "block": 9,
+      "role": "greg",
+      "pause_after_ms": 300,
+      "source_duration_seconds": 24.696,
+      "rendered_duration_seconds": 24.696,
+      "source_sha256": "99a04f0cfd58661733060f8927964a27dc77a3bf13c807a13aa08b24b580c8e4"
+    },
+    {
+      "id": "010a",
+      "block": 10,
+      "role": "dragon",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 17.448,
+      "rendered_duration_seconds": 17.448,
+      "source_sha256": "b77afd4b2ec9b2ff38db2af69ae905bdd267e2f4d6315e44f687b71510500414"
+    },
+    {
+      "id": "010b",
+      "block": 10,
+      "role": "dragon",
+      "pause_after_ms": 620,
+      "source_duration_seconds": 18.84,
+      "rendered_duration_seconds": 18.84,
+      "source_sha256": "5b73974137fd095dec049600921e6b859f604c4bcea79d29ce56880ed44d72dd"
+    },
+    {
+      "id": "011a",
+      "block": 11,
+      "role": "greg",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 16.176,
+      "rendered_duration_seconds": 16.176,
+      "source_sha256": "8c001fe3afbeb4e917013233cc2a1149fa404dffe2ed6e2375423ca5cd8924b5"
+    },
+    {
+      "id": "011b",
+      "block": 11,
+      "role": "greg",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 28.656,
+      "rendered_duration_seconds": 28.656,
+      "source_sha256": "a754ffbab089f0fd184f383cba34baa94d4f220480717d8908f1d81f4112e403"
+    },
+    {
+      "id": "012a",
+      "block": 12,
+      "role": "greg",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 24.624,
+      "rendered_duration_seconds": 24.624,
+      "source_sha256": "ec74db2e32e0c08dede2d020e3774112fad3c517dee7456cda9ac0b4fa827fb9"
+    },
+    {
+      "id": "012b",
+      "block": 12,
+      "role": "greg",
+      "pause_after_ms": 500,
+      "source_duration_seconds": 19.944,
+      "rendered_duration_seconds": 19.944,
+      "source_sha256": "bf453bb1b10512577bb9c901c488df3e5b7856bfe49b51c458c2c19b4e7f36cd"
+    },
+    {
+      "id": "013a",
+      "block": 13,
+      "role": "dragon",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 17.112,
+      "rendered_duration_seconds": 17.112,
+      "source_sha256": "13cd1e11e05c16c8faf2db794da8546affd1b07e9ec57fd849b9ce89651b57f9"
+    },
+    {
+      "id": "013b",
+      "block": 13,
+      "role": "dragon",
+      "pause_after_ms": 80,
+      "source_duration_seconds": 14.64,
+      "rendered_duration_seconds": 14.64,
+      "source_sha256": "40fbdb81fc0a01c24702a934db69b97ecc27ae9b725e0150e7dabf79595d7d12"
+    },
+    {
+      "id": "013c",
+      "block": 13,
+      "role": "dragon",
+      "pause_after_ms": 650,
+      "source_duration_seconds": 14.976,
+      "rendered_duration_seconds": 14.910417,
+      "source_sha256": "028e87eb059cbae8469e1e1e85cd29b1d734fcd6e2416fa6da03419d1cf7f458"
+    },
+    {
+      "id": "014",
+      "block": 14,
+      "role": "greg",
+      "pause_after_ms": 300,
+      "source_duration_seconds": 30.144,
+      "rendered_duration_seconds": 30.144,
+      "source_sha256": "57837e8897f9ec28175fd27e67434ddb594afe0f67df204d3121e006c0f8e580"
+    },
+    {
+      "id": "015",
+      "block": 15,
+      "role": "dragon",
+      "pause_after_ms": 500,
+      "source_duration_seconds": 1.584,
+      "rendered_duration_seconds": 1.584,
+      "source_sha256": "031f15001a08ec7b75283ee6fee2daa2f5de5baba18ec199d40c9d446b62a940"
+    },
+    {
+      "id": "016",
+      "block": 16,
+      "role": "greg",
+      "pause_after_ms": 300,
+      "source_duration_seconds": 21.48,
+      "rendered_duration_seconds": 21.48,
+      "source_sha256": "b14402c788aeb00115b0293009f9041fa3541918a3231313d6e48ae84fb5bd33"
+    },
+    {
+      "id": "017",
+      "block": 17,
+      "role": "dragon",
+      "pause_after_ms": 520,
+      "source_duration_seconds": 18.24,
+      "rendered_duration_seconds": 18.24,
+      "source_sha256": "2488933233337e7d73f3ab6b6720a70f314fe91bd85f55c4bab30b266eb05a70"
+    },
+    {
+      "id": "018",
+      "block": 18,
+      "role": "greg",
+      "pause_after_ms": 320,
+      "source_duration_seconds": 28.992,
+      "rendered_duration_seconds": 28.992,
+      "source_sha256": "37a5a607cdf05a9ffa40e80037f61acc19288824f3bbfbfda770f39ecebf5d41"
+    },
+    {
+      "id": "019",
+      "block": 19,
+      "role": "dragon",
+      "pause_after_ms": 800,
+      "source_duration_seconds": 0.552,
+      "rendered_duration_seconds": 0.552,
+      "source_sha256": "694f38b0275805eb18c8c6a9340b25bd421100a5d4edbd74ec5401cf3e2087aa"
+    },
+    {
+      "id": "020",
+      "block": 20,
+      "role": "greg",
+      "pause_after_ms": 1100,
+      "source_duration_seconds": 8.352,
+      "rendered_duration_seconds": 8.352,
+      "source_sha256": "ab2f5fd013f2d350ec09976e76baecea4de65b06d521986e2f4d915053ac0ed4"
+    },
+    {
+      "id": "021",
+      "block": 21,
+      "role": "dragon",
+      "pause_after_ms": 500,
+      "source_duration_seconds": 2.736,
+      "rendered_duration_seconds": 2.736,
+      "source_sha256": "bc4d25eb52cbb83e3fbaf571b80a12524fa42dfe2f0d79cd340ec2829336449f"
+    },
+    {
+      "id": "022",
+      "block": 22,
+      "role": "greg",
+      "pause_after_ms": 420,
+      "source_duration_seconds": 0.528,
+      "rendered_duration_seconds": 0.528,
+      "source_sha256": "fc58e640c6451e83db486e47e2cde0ad4194c08727e229eb695c10ab250fcc02"
+    },
+    {
+      "id": "023",
+      "block": 23,
+      "role": "dragon",
+      "pause_after_ms": 700,
+      "source_duration_seconds": 0.528,
+      "rendered_duration_seconds": 0.528,
+      "source_sha256": "bc534d5a5247bf7d224df5d99a61a80adf788cdb34660451287eee126758b1ce"
+    },
+    {
+      "id": "024",
+      "block": 24,
+      "role": "greg",
+      "pause_after_ms": 520,
+      "source_duration_seconds": 4.848,
+      "rendered_duration_seconds": 4.848,
+      "source_sha256": "83a8ff15793c34e7dce8aef02281059a6eeabaf28b389b7986d0c3d6896bc3ab"
+    },
+    {
+      "id": "025",
+      "block": 25,
+      "role": "dragon",
+      "pause_after_ms": 850,
+      "source_duration_seconds": 1.08,
+      "rendered_duration_seconds": 1.08,
+      "source_sha256": "a8e4cd94172236e5be8a3c0bbb148c674dd4bed0a541c53ea092236f505eae17"
+    },
+    {
+      "id": "026",
+      "block": 26,
+      "role": "greg",
+      "pause_after_ms": 2000,
+      "source_duration_seconds": 1.992,
+      "rendered_duration_seconds": 1.992,
+      "source_sha256": "48ab2e344df8596c2006aa9a343860e9d36a2ca79eef9234bdf06c512c63f572"
+    }
+  ]
+}
