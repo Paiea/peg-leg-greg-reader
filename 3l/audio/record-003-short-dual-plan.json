@@ -9,7 +9,7 @@
     "greg": "deep",
     "dragon": "normal"
   },
-  "quote_roles_locked": false,
+  "quote_roles_locked": true,
   "quote_count": 296,
   "chunk_count": 32,
   "chunks": [
@@ -29,12 +29,12 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
         "greg",
         "dragon",
         "greg",
         "dragon",
         "greg",
+        "dragon",
         "greg"
       ],
       "semantic_spans": [
@@ -107,37 +107,37 @@
         {
           "start": 360,
           "end": 379,
-          "role": "dragon",
+          "role": "greg",
           "text": "“See? Useful word.”"
         },
         {
           "start": 381,
           "end": 389,
-          "role": "greg",
+          "role": "dragon",
           "text": "“It is.”"
         },
         {
           "start": 391,
           "end": 407,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Glad we agree.”"
         },
         {
           "start": 409,
           "end": 421,
-          "role": "greg",
+          "role": "dragon",
           "text": "“We do not.”"
         },
         {
           "start": 423,
           "end": 438,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Close enough.”"
         },
         {
           "start": 440,
           "end": 445,
-          "role": "greg",
+          "role": "dragon",
           "text": "“No.”"
         },
         {
@@ -373,7 +373,7 @@
         "greg",
         "dragon",
         "greg",
-        "greg"
+        "dragon"
       ],
       "semantic_spans": [
         {
@@ -469,7 +469,7 @@
         {
           "start": 408,
           "end": 493,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You knew the mountain before the ninth station bled pressure into the eastern sink.”"
         }
       ],
@@ -491,6 +491,7 @@
         "greg",
         "dragon",
         "greg",
+        "dragon",
         "greg",
         "greg",
         "greg",
@@ -499,8 +500,7 @@
         "greg",
         "dragon",
         "greg",
-        "dragon",
-        "greg"
+        "dragon"
       ],
       "semantic_spans": [
         {
@@ -524,7 +524,7 @@
         {
           "start": 150,
           "end": 230,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You searched for me before the crisis you offered as your reason for arriving.”"
         },
         {
@@ -548,37 +548,37 @@
         {
           "start": 357,
           "end": 386,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I researched possibilities.”"
         },
         {
           "start": 388,
           "end": 399,
-          "role": "greg",
+          "role": "dragon",
           "text": "“For what?”"
         },
         {
           "start": 401,
           "end": 414,
-          "role": "dragon",
+          "role": "greg",
           "text": "“The future.”"
         },
         {
           "start": 416,
           "end": 440,
-          "role": "greg",
+          "role": "dragon",
           "text": "“That is not an answer.”"
         },
         {
           "start": 442,
           "end": 483,
-          "role": "dragon",
+          "role": "greg",
           "text": "“It is if you're willing to be generous.”"
         },
         {
           "start": 485,
           "end": 496,
-          "role": "greg",
+          "role": "dragon",
           "text": "“I am not.”"
         }
       ],
@@ -597,7 +597,7 @@
       "transcript": "“Noted.”\n\nIthar did not move.\n\nThat was the problem with talking to something that could probably sit in the same position longer than I had been alive.\n\nThere was no body language to wait out.\n\nNo awkwardness to exploit.\n\nNo point where the other person glanced at the door because they had somewhere else to be.\n\nI had somewhere else to be.\n\nSeveral million people did too.\n\nThe dragon had a cave.\n\nI was starting to suspect that was the stronger negotiating position.",
       "char_count": 470,
       "roles": [
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg",
@@ -612,7 +612,7 @@
         {
           "start": 0,
           "end": 8,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Noted.”"
         },
         {
@@ -671,13 +671,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -1137,12 +1135,12 @@
         "dragon",
         "greg",
         "greg",
+        "dragon",
         "greg",
         "greg",
         "dragon",
         "greg",
-        "dragon",
-        "greg"
+        "dragon"
       ],
       "semantic_spans": [
         {
@@ -1244,7 +1242,7 @@
         {
           "start": 346,
           "end": 383,
-          "role": "greg",
+          "role": "dragon",
           "text": "“I am assuming only that they exist.”"
         },
         {
@@ -1256,25 +1254,25 @@
         {
           "start": 401,
           "end": 427,
-          "role": "dragon",
+          "role": "greg",
           "text": "“That is annoyingly fair.”"
         },
         {
           "start": 429,
           "end": 435,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         },
         {
           "start": 437,
           "end": 466,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I didn't mean it as praise.”"
         },
         {
           "start": 468,
           "end": 477,
-          "role": "greg",
+          "role": "dragon",
           "text": "“I know.”"
         }
       ],
@@ -2175,7 +2173,7 @@
       "transcript": "“You believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable.”\n\nHis voice had changed again.\n\nNot deeper.\n\nLonger.\n\nThe dragon had taken the floor.",
       "char_count": 273,
       "roles": [
-        "greg",
+        "dragon",
         "greg",
         "greg",
         "greg",
@@ -2185,7 +2183,7 @@
         {
           "start": 0,
           "end": 188,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable.”"
         },
         {
@@ -2214,11 +2212,13 @@
         }
       ],
       "required_voices": [
-        "deep"
+        "deep",
+        "normal"
       ],
-      "dual_render": false,
+      "dual_render": true,
       "captures": {
-        "deep": null
+        "deep": null,
+        "normal": null
       }
     },
     {
@@ -2228,7 +2228,7 @@
       "roles": [
         "dragon",
         "greg",
-        "greg"
+        "dragon"
       ],
       "semantic_spans": [
         {
@@ -2246,7 +2246,7 @@
         {
           "start": 409,
           "end": 488,
-          "role": "greg",
+          "role": "dragon",
           "text": "“The first life is not background to the second. It is pressure applied to it.”"
         }
       ],
@@ -2714,14 +2714,14 @@
         "greg",
         "dragon",
         "greg",
-        "greg",
         "dragon",
         "greg",
         "dragon",
         "greg",
         "dragon",
         "greg",
-        "dragon"
+        "dragon",
+        "greg"
       ],
       "semantic_spans": [
         {
@@ -2763,49 +2763,49 @@
         {
           "start": 228,
           "end": 271,
-          "role": "greg",
+          "role": "dragon",
           "text": "“I have no reason to trust your selection.”"
         },
         {
           "start": 273,
           "end": 287,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I was there.”"
         },
         {
           "start": 289,
           "end": 295,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         },
         {
           "start": 297,
           "end": 320,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I know what mattered.”"
         },
         {
           "start": 322,
           "end": 383,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You know what mattered to you when you last interpreted it.”"
         },
         {
           "start": 385,
           "end": 418,
-          "role": "dragon",
+          "role": "greg",
           "text": "“That is usually the same thing.”"
         },
         {
           "start": 420,
           "end": 425,
-          "role": "greg",
+          "role": "dragon",
           "text": "“No.”"
         },
         {
           "start": 427,
           "end": 439,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Obviously.”"
         }
       ],
@@ -2824,7 +2824,7 @@
       "transcript": "“The reason you remember a thing may not be the reason you believe you remember it.”\n\nI sat with that.\n\nI did not enjoy it.\n\nThe cave water moved somewhere behind him.\n\nSlow and steady.\n\nThe Line moved under the continent too.\n\nNot slow enough anymore.\n\n“How long do you think this takes?” I asked.\n\n“I do not know.”\n\n“Weeks?”\n\n“Possibly.”\n\n“Months?”\n\n“Possibly.”\n\n“You don't care.”\n\n“About the duration?”\n\n“Yes.”\n\n“No.”\n\n“Of course.”",
       "char_count": 434,
       "roles": [
-        "greg",
+        "dragon",
         "greg",
         "greg",
         "greg",
@@ -2847,7 +2847,7 @@
         {
           "start": 0,
           "end": 84,
-          "role": "greg",
+          "role": "dragon",
           "text": "“The reason you remember a thing may not be the reason you believe you remember it.”"
         },
         {
@@ -2976,12 +2976,12 @@
         "dragon",
         "greg",
         "greg",
-        "greg",
         "dragon",
         "greg",
         "dragon",
         "greg",
         "dragon",
+        "greg",
         "greg",
         "greg",
         "greg"
@@ -3038,37 +3038,37 @@
         {
           "start": 228,
           "end": 249,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You are sixty soon.”"
         },
         {
           "start": 251,
           "end": 263,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Thank you.”"
         },
         {
           "start": 265,
           "end": 368,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Your species measures a life in decades and then behaves surprised when there are not enough of them.”"
         },
         {
           "start": 370,
           "end": 391,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I am not surprised.”"
         },
         {
           "start": 393,
           "end": 398,
-          "role": "greg",
+          "role": "dragon",
           "text": "“No?”"
         },
         {
           "start": 400,
           "end": 405,
-          "role": "dragon",
+          "role": "greg",
           "text": "“No.”"
         },
         {
@@ -3118,10 +3118,10 @@
         "dragon",
         "greg",
         "greg",
-        "dragon",
         "greg",
         "dragon",
-        "greg"
+        "greg",
+        "dragon"
       ],
       "semantic_spans": [
         {
@@ -3211,25 +3211,25 @@
         {
           "start": 383,
           "end": 392,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Poorly.”"
         },
         {
           "start": 394,
           "end": 445,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Your planning prioritizes arrival over departure.”"
         },
         {
           "start": 447,
           "end": 478,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I came here to save the Line.”"
         },
         {
           "start": 480,
           "end": 490,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Perhaps.”"
         }
       ],
@@ -3251,7 +3251,6 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
         "greg",
         "dragon",
         "greg",
@@ -3263,8 +3262,9 @@
         "greg",
         "dragon",
         "greg",
-        "greg",
         "dragon",
+        "greg",
+        "greg",
         "greg",
         "greg",
         "greg"
@@ -3291,73 +3291,73 @@
         {
           "start": 88,
           "end": 107,
-          "role": "dragon",
+          "role": "greg",
           "text": "“What if I say no?”"
         },
         {
           "start": 109,
           "end": 121,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You leave.”"
         },
         {
           "start": 123,
           "end": 135,
-          "role": "dragon",
+          "role": "greg",
           "text": "“That's it?”"
         },
         {
           "start": 137,
           "end": 143,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         },
         {
           "start": 145,
           "end": 155,
-          "role": "dragon",
+          "role": "greg",
           "text": "“No fire.”"
         },
         {
           "start": 157,
           "end": 189,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Not for refusing conversation.”"
         },
         {
           "start": 191,
           "end": 220,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Again, excellent qualifier.”"
         },
         {
           "start": 222,
           "end": 252,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You may die on the mountain.”"
         },
         {
           "start": 254,
           "end": 263,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I know.”"
         },
         {
           "start": 265,
           "end": 280,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You may live.”"
         },
         {
           "start": 282,
           "end": 291,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I know.”"
         },
         {
           "start": 293,
           "end": 313,
-          "role": "greg",
+          "role": "dragon",
           "text": "“The Line may fail.”"
         },
         {
@@ -3369,7 +3369,7 @@
         {
           "start": 334,
           "end": 343,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I know.”"
         },
         {
@@ -3406,19 +3406,6 @@
       "transcript": "“There is water behind the second stone shelf.”\n\n“I hear it.”\n\n“There are animals below the eastern face.”\n\n“The cliff?”\n\n“The other eastern face.”\n\n“Helpful.”\n\n“I can show you.”\n\nI blinked.\n\nThat might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n“You'd let me stay here?”\n\n“Yes.”\n\n“For months.”\n\n“If months are required.”\n\n“You understand I have to sleep.”\n\n“Yes.”\n\n“Eat.”\n\n“Yes.”\n\n“Shit.”\n\n“Yes.”",
       "char_count": 487,
       "roles": [
-        "greg",
-        "dragon",
-        "greg",
-        "dragon",
-        "greg",
-        "dragon",
-        "greg",
-        "greg",
-        "greg",
-        "greg",
-        "greg",
-        "greg",
-        "greg",
         "dragon",
         "greg",
         "dragon",
@@ -3427,50 +3414,63 @@
         "greg",
         "dragon",
         "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
         "dragon",
-        "greg"
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon",
+        "greg",
+        "dragon"
       ],
       "semantic_spans": [
         {
           "start": 0,
           "end": 47,
-          "role": "greg",
+          "role": "dragon",
           "text": "“There is water behind the second stone shelf.”"
         },
         {
           "start": 49,
           "end": 61,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I hear it.”"
         },
         {
           "start": 63,
           "end": 106,
-          "role": "greg",
+          "role": "dragon",
           "text": "“There are animals below the eastern face.”"
         },
         {
           "start": 108,
           "end": 120,
-          "role": "dragon",
+          "role": "greg",
           "text": "“The cliff?”"
         },
         {
           "start": 122,
           "end": 147,
-          "role": "greg",
+          "role": "dragon",
           "text": "“The other eastern face.”"
         },
         {
           "start": 149,
           "end": 159,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Helpful.”"
         },
         {
           "start": 161,
           "end": 178,
-          "role": "greg",
+          "role": "dragon",
           "text": "“I can show you.”"
         },
         {
@@ -3512,61 +3512,61 @@
         {
           "start": 336,
           "end": 361,
-          "role": "dragon",
+          "role": "greg",
           "text": "“You'd let me stay here?”"
         },
         {
           "start": 363,
           "end": 369,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         },
         {
           "start": 371,
           "end": 384,
-          "role": "dragon",
+          "role": "greg",
           "text": "“For months.”"
         },
         {
           "start": 386,
           "end": 411,
-          "role": "greg",
+          "role": "dragon",
           "text": "“If months are required.”"
         },
         {
           "start": 413,
           "end": 446,
-          "role": "dragon",
+          "role": "greg",
           "text": "“You understand I have to sleep.”"
         },
         {
           "start": 448,
           "end": 454,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         },
         {
           "start": 456,
           "end": 462,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Eat.”"
         },
         {
           "start": 464,
           "end": 470,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         },
         {
           "start": 472,
           "end": 479,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Shit.”"
         },
         {
           "start": 481,
           "end": 487,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Yes.”"
         }
       ],
@@ -3585,8 +3585,8 @@
       "transcript": "“Good. Just establishing the hospitality package.”\n\n“You are welcome to shit outside.”\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack.\n\nMy shoulder loosened the moment the weight came off.\n\nI set the pack beside the stone and sat properly.\n\nThe leg thanked me.",
       "char_count": 430,
       "roles": [
-        "dragon",
         "greg",
+        "dragon",
         "greg",
         "greg",
         "greg",
@@ -3601,13 +3601,13 @@
         {
           "start": 0,
           "end": 50,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Good. Just establishing the hospitality package.”"
         },
         {
           "start": 52,
           "end": 86,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You are welcome to shit outside.”"
         },
         {
