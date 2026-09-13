@@ -1,297 +1,48 @@
 id	heuristic_role	explicit	quote	context
 001	greg		“What made it true.”	“What made it true.”
 002	greg		“You want the whole story.”	“You want the whole story.”
-003	dragon		“Yes.”	“Yes.”
-004	greg		“No.”	“No.”
-005	dragon		“See? Useful word.”	“See? Useful word.”
-006	greg		“It is.”	“It is.”
-007	dragon		“Glad we agree.”	“Glad we agree.”
-008	greg		“We do not.”	“We do not.”
-009	dragon		“Close enough.”	“Close enough.”
-010	greg		“No.”	“No.”
-011	greg	greg	“The Line is failing now,”	“The Line is failing now,” I said. “That part has a clock.”
-012	greg	greg	“That part has a clock.”	“The Line is failing now,” I said. “That part has a clock.”
-013	dragon		“You have said this.”	“You have said this.”
-014	greg		“And you still haven't agreed to help.”	“And you still haven't agreed to help.”
-015	dragon		“Yes.”	“Yes.”
-016	greg		“Which means I should probably keep saying it.”	“Which means I should probably keep saying it.”
+003	dragon		“See? Useful sentence. You could just say yes.”	“See? Useful sentence. You could just say yes.”
+004	greg		“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”	“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”
+005	dragon		“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”	“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”
+006	greg		“I researched possibilities.”	“I researched possibilities.”
+007	dragon		“For the future.”	“For the future.”
+008	greg		“It is if you're willing to be generous.”	“It is if you're willing to be generous.”
+009	dragon		“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”	“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”
+010	greg		“That is several questions pretending to be one.”	“That is several questions pretending to be one.”
+011	dragon		“Home is south. Where my things are.”	“Home is south. Where my things are.”
+012	greg		“Most definitions are poor if you keep touching them.”	“Most definitions are poor if you keep touching them.”
+013	dragon		“You could do this forever.”	“You could do this forever.”
+014	greg		“And then I live.”	“And then I live.”
+015	dragon		“You have already done that twice.”	“You have already done that twice.”
+016	greg		“Don't.”	“Don't.”
 017	dragon		“No.”	“No.”
-018	greg		“Do you know how negotiations work?”	“Do you know how negotiations work?”
-019	dragon		“Yes.”	“Yes.”
-020	greg		“Have you ever been in one?”	“Have you ever been in one?”
-021	dragon		“Many.”	“Many.”
-022	greg		“Did the other side enjoy them?”	“Did the other side enjoy them?”
-023	dragon		“No.”	“No.”
-024	greg		“Right.”	“Right.”
-025	dragon	dragon	“You came here for the Line,”	“You came here for the Line,” Ithar said.
-026	greg		“Yes.”	“Yes.”
-027	dragon		“No.”	“No.”
-028	greg		“That is irritating.”	“That is irritating.”
-029	dragon		“You came here because of the Line.”	“You came here because of the Line.”
-030	greg		“Same thing.”	“Same thing.”
-031	dragon		“No.”	“No.”
-032	greg		“Explain.”	“Explain.”
-033	dragon		“You knew my name before the western stations began failing.”	“You knew my name before the western stations began failing.”
-034	greg		“You knew the mountain before the ninth station bled pressure into the eastern sink.”	“You knew the mountain before the ninth station bled pressure into the eastern sink.”
-035	dragon		“You knew Nhal had known me before your present kingdom appointed the first keeper now attempting to repair that station.”	“You knew Nhal had known me before your present kingdom appointed the first keeper now attempting to repair that station.”
-036	greg		“You searched for me before the crisis you offered as your reason for arriving.”	“You searched for me before the crisis you offered as your reason for arriving.”
-037	dragon		“I researched possibilities.”	“I researched possibilities.”
-038	greg		“For what?”	“For what?”
-039	dragon		“The future.”	“The future.”
-040	greg		“That is not an answer.”	“That is not an answer.”
-041	dragon		“It is if you're willing to be generous.”	“It is if you're willing to be generous.”
-042	greg		“I am not.”	“I am not.”
-043	dragon		“Noted.”	“Noted.”
-044	dragon	dragon	“If I fix the Line,”	“If I fix the Line,” he said, “what do you do next?”
-045	dragon	dragon	“what do you do next?”	“If I fix the Line,” he said, “what do you do next?”
-046	greg		“Go home.”	“Go home.”
-047	dragon		“Where?”	“Where?”
-048	greg		“South.”	“South.”
-049	dragon		“That is a direction.”	“That is a direction.”
-050	greg		“It has been working for maps.”	“It has been working for maps.”
-051	dragon		“What is home?”	“What is home?”
-052	greg		“That is a different question.”	“That is a different question.”
-053	dragon		“Yes.”	“Yes.”
-054	greg		“You didn't ask it.”	“You didn't ask it.”
-055	dragon		“I have now.”	“I have now.”
-056	greg		“Home is where my things are.”	“Home is where my things are.”
-057	dragon		“Poor definition.”	“Poor definition.”
-058	greg		“Most definitions are poor if you keep touching them.”	“Most definitions are poor if you keep touching them.”
-059	dragon		“Where are your things?”	“Where are your things?”
-060	greg		“South.”	“South.”
-061	dragon		“What do you do after you return south?”	“What do you do after you return south?”
-062	greg		“Eat.”	“Eat.”
-063	dragon		“And then?”	“And then?”
-064	greg		“Sleep.”	“Sleep.”
-065	dragon		“And then?”	“And then?”
-066	greg		“Complain about the mountain.”	“Complain about the mountain.”
-067	dragon		“And then?”	“And then?”
-068	greg		“Recover the horse, if the horse has developed a conscience.”	“Recover the horse, if the horse has developed a conscience.”
-069	dragon		“And then?”	“And then?”
-070	greg		“You could do this forever.”	“You could do this forever.”
-071	dragon		“Yes.”	“Yes.”
-072	greg		“That wasn't admiration.”	“That wasn't admiration.”
-073	dragon		“I know.”	“I know.”
-074	greg		“And then I live.”	“And then I live.”
-075	dragon		“You have already done that twice.”	“You have already done that twice.”
-076	greg		“Don't.”	“Don't.”
-077	dragon		“Do not what?”	“Do not what?”
-078	greg		“Turn that into whatever you're about to turn it into.”	“Turn that into whatever you're about to turn it into.”
-079	dragon		“I have not turned it into anything.”	“I have not turned it into anything.”
-080	greg		“You were going to.”	“You were going to.”
-081	dragon		“No.”	“No.”
-082	dragon	dragon	“You were searching for me before the Line failed,”	“You were searching for me before the Line failed,” he said.
-083	greg		“There it is.”	“There it is.”
-084	dragon		“Yes.”	“Yes.”
-085	greg		“For reasons I have not given you.”	“For reasons I have not given you.”
-086	dragon		“Yes.”	“Yes.”
-087	greg		“And you're assuming those reasons matter.”	“And you're assuming those reasons matter.”
-088	dragon		“No.”	“No.”
-089	greg		“I am assuming only that they exist.”	“I am assuming only that they exist.”
-090	dragon		“That is annoyingly fair.”	“That is annoyingly fair.”
-091	greg		“Yes.”	“Yes.”
-092	dragon		“I didn't mean it as praise.”	“I didn't mean it as praise.”
-093	greg		“I know.”	“I know.”
-094	dragon		“What happened at the end of your first life?”	“What happened at the end of your first life?”
-095	greg		“No.”	“No.”
-096	dragon		“Why?”	“Why?”
-097	greg		“Because we're not doing this.”	“Because we're not doing this.”
-098	dragon		“We are.”	“We are.”
-099	greg		“No. We're discussing the Line.”	“No. We're discussing the Line.”
-100	dragon		“We finished discussing the Line.”	“We finished discussing the Line.”
-101	greg		“You said no.”	“You said no.”
-102	dragon		“Yes.”	“Yes.”
-103	greg		“That is not finishing.”	“That is not finishing.”
-104	dragon		“It was for me.”	“It was for me.”
-105	greg		“Do you want payment?”	“Do you want payment?”
-106	dragon		“No.”	“No.”
-107	greg		“Gold?”	“Gold?”
-108	dragon		“No.”	“No.”
-109	greg		“Land?”	“Land?”
-110	dragon		“No.”	“No.”
-111	greg		“You like mountains. I could probably find you another one.”	“You like mountains. I could probably find you another one.”
-112	dragon		“I possess enough mountain.”	“I possess enough mountain.”
-113	greg		“Good sentence.”	“Good sentence.”
-114	dragon		“Thank you.”	“Thank you.”
-115	greg		“You're welcome.”	“You're welcome.”
-116	greg	greg	“What do you want?”	“What do you want?” I asked.
-117	dragon		“You.”	“You.”
-118	greg		“That sounded worse than you meant it.”	“That sounded worse than you meant it.”
-119	dragon		“No.”	“No.”
-120	greg		“Of course.”	“Of course.”
-121	dragon		“Your account.”	“Your account.”
-122	greg		“Better.”	“Better.”
-123	dragon		“The discrepancy began with you. Your Line knowledge may be consequence, coincidence, or merely one expression of the same event. The name is another. Nhal is another. Your body attempting movements it has not learned is another. Your present rank being inconsistent with the habits your body displays is another.”	“The discrepancy began with you. Your Line knowledge may be consequence, coincidence, or merely one expression of the same event. The name is another. Nhal is another. Your body attempting movements it has not learned is another. Your present rank being inconsistent with the habits your body displays is another.”
-124	greg		“My rank isn't inconsistent.”	“My rank isn't inconsistent.”
-125	dragon		“You moved before the stone in a way your leg cannot presently support.”	“You moved before the stone in a way your leg cannot presently support.”
-126	greg		“That was luck.”	“That was luck.”
-127	dragon		“No.”	“No.”
-128	greg		“Training.”	“Training.”
-129	dragon		“Not this body's.”	“Not this body's.”
-130	dragon		“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.”	“You keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.”
-131	greg		“I am irritated.”	“I am irritated.”
-132	dragon		“Yes.”	“Yes.”
-133	greg		“You're enjoying that.”	“You're enjoying that.”
-134	dragon		“I am interested in it.”	“I am interested in it.”
-135	greg		“Same problem.”	“Same problem.”
-136	dragon		“No.”	“No.”
-137	greg	greg	“What?”	“What?” I said.
-138	dragon		“You altered.”	“You altered.”
-139	greg		“People do that.”	“People do that.”
-140	dragon		“What did you remember?”	“What did you remember?”
-141	greg		“Nothing relevant.”	“Nothing relevant.”
-142	dragon		“Greg.”	“Greg.”
-143	greg		“No.”	“No.”
-144	dragon		“Why?”	“Why?”
-145	greg		“Because it was nothing.”	“Because it was nothing.”
-146	dragon		“You remembered nothing strongly enough to change your pulse.”	“You remembered nothing strongly enough to change your pulse.”
-147	greg		“See? This is exactly why I don't want to do forty years with you.”	“See? This is exactly why I don't want to do forty years with you.”
-148	dragon		“You assume forty.”	“You assume forty.”
-149	greg		“No.”	“No.”
-150	dragon		“Yes.”	“Yes.”
-151	greg		“The first life was forty too.”	“The first life was forty too.”
-152	dragon		“Yes.”	“Yes.”
-153	greg		“I am not telling you eighty years.”	“I am not telling you eighty years.”
-154	dragon		“Why?”	“Why?”
-155	greg		“You're serious.”	“You're serious.”
-156	dragon		“Yes.”	“Yes.”
-157	greg		“I could die before we finish.”	“I could die before we finish.”
-158	dragon		“You could die before lunch.”	“You could die before lunch.”
-159	greg		“Comforting.”	“Comforting.”
-160	dragon		“It was not intended to comfort you.”	“It was not intended to comfort you.”
-161	greg		“I know.”	“I know.”
-162	dragon		“I do not require eighty years in sequence.”	“I do not require eighty years in sequence.”
-163	greg		“You believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable.”	“You believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable.”
-164	dragon		“In the second life, every choice made with foreknowledge carries a piece of the first. Every person you sought because you remembered them. Every person you avoided. Every road you did not take. Every skill you attempted before your body was ready. Every danger you recognized. Every danger you failed to recognize because you believed you already understood it.”	“In the second life, every choice made with foreknowledge carries a piece of the first. Every person you sought because you remembered them. Every person you avoided. Every road you did not take. Every skill you attempted before your body was ready. Every danger you recognized. Every danger you failed to recognize because you believed you already understood it.”
-165	greg		“The first life is not background to the second. It is pressure applied to it.”	“The first life is not background to the second. It is pressure applied to it.”
-166	dragon		“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency.”	“You may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency.”
-167	greg		“That sounds suspiciously like a rule.”	“That sounds suspiciously like a rule.”
-168	dragon		“Yes.”	“Yes.”
-169	greg		“In my story.”	“In my story.”
-170	dragon		“Yes.”	“Yes.”
-171	greg		“Which I'm telling you as payment.”	“Which I'm telling you as payment.”
-172	dragon		“No.”	“No.”
-173	greg		“No?”	“No?”
-174	dragon		“You are telling me because I am interested.”	“You are telling me because I am interested.”
-175	greg		“And then you'll help.”	“And then you'll help.”
-176	dragon		“I have not said that.”	“I have not said that.”
-177	greg		“Then it is payment for the possibility that you become less annoying.”	“Then it is payment for the possibility that you become less annoying.”
-178	dragon		“No.”	“No.”
-179	greg		“I'm negotiating.”	“I'm negotiating.”
-180	dragon		“Poorly.”	“Poorly.”
-181	greg		“Still counts.”	“Still counts.”
-182	greg	greg	“Fine,”	“Fine,” I said. “Life Two is the spine. Life One where it matters.”
-183	greg	greg	“Life Two is the spine. Life One where it matters.”	“Fine,” I said. “Life Two is the spine. Life One where it matters.”
-184	dragon		“You do not decide what matters alone.”	“You do not decide what matters alone.”
-185	greg		“I am the one remembering it.”	“I am the one remembering it.”
-186	dragon		“Yes.”	“Yes.”
-187	greg		“That gives me some editorial control.”	“That gives me some editorial control.”
-188	dragon		“No.”	“No.”
-189	greg		“Some.”	“Some.”
-190	dragon		“Very little.”	“Very little.”
-191	greg		“More than none.”	“More than none.”
-192	dragon		“Acceptable.”	“Acceptable.”
-193	greg		“That was easier than expected.”	“That was easier than expected.”
-194	dragon		“You have misunderstood the agreement.”	“You have misunderstood the agreement.”
-195	greg		“Probably.”	“Probably.”
-196	dragon		“You may compress repetition.”	“You may compress repetition.”
-197	greg		“Good.”	“Good.”
-198	dragon		“You may omit what you genuinely do not remember.”	“You may omit what you genuinely do not remember.”
-199	greg		“Very generous.”	“Very generous.”
-200	dragon		“You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer.”	“You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer.”
-201	greg		“How would you know?”	“How would you know?”
-202	dragon		“I may not.”	“I may not.”
-203	greg		“That seems like a problem for you.”	“That seems like a problem for you.”
-204	dragon		“Yes.”	“Yes.”
-205	greg		“And you're comfortable with that?”	“And you're comfortable with that?”
-206	dragon		“No.”	“No.”
-207	dragon		“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions.”	“If you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions.”
-208	greg		“Good.”	“Good.”
-209	dragon		“If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.”	“If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence.”
-210	greg		“You're going to be fucking annoying about this.”	“You're going to be fucking annoying about this.”
-211	dragon		“Yes.”	“Yes.”
-212	greg		“At least we're clear.”	“At least we're clear.”
-213	dragon		“You have spent decades deciding which memories explain who you became.”	“You have spent decades deciding which memories explain who you became.”
-214	greg		“I have no reason to trust your selection.”	“I have no reason to trust your selection.”
-215	dragon		“I was there.”	“I was there.”
-216	greg		“Yes.”	“Yes.”
-217	dragon		“I know what mattered.”	“I know what mattered.”
-218	greg		“You know what mattered to you when you last interpreted it.”	“You know what mattered to you when you last interpreted it.”
-219	dragon		“That is usually the same thing.”	“That is usually the same thing.”
-220	greg		“No.”	“No.”
-221	dragon		“Obviously.”	“Obviously.”
-222	greg		“The reason you remember a thing may not be the reason you believe you remember it.”	“The reason you remember a thing may not be the reason you believe you remember it.”
-223	greg	greg	“How long do you think this takes?”	“How long do you think this takes?” I asked.
-224	dragon		“I do not know.”	“I do not know.”
-225	greg		“Weeks?”	“Weeks?”
-226	dragon		“Possibly.”	“Possibly.”
-227	greg		“Months?”	“Months?”
-228	dragon		“Possibly.”	“Possibly.”
-229	greg		“You don't care.”	“You don't care.”
-230	dragon		“About the duration?”	“About the duration?”
-231	greg		“Yes.”	“Yes.”
-232	dragon		“No.”	“No.”
-233	greg		“Of course.”	“Of course.”
-234	dragon		“I have been in this mountain longer than your current kingdom has had a name.”	“I have been in this mountain longer than your current kingdom has had a name.”
-235	greg		“You really know how to make a person feel urgent.”	“You really know how to make a person feel urgent.”
-236	dragon		“You are urgent.”	“You are urgent.”
-237	greg		“The Line?”	“The Line?”
-238	dragon		“No.”	“No.”
-239	greg		“You are sixty soon.”	“You are sixty soon.”
-240	dragon		“Thank you.”	“Thank you.”
-241	greg		“Your species measures a life in decades and then behaves surprised when there are not enough of them.”	“Your species measures a life in decades and then behaves surprised when there are not enough of them.”
-242	dragon		“I am not surprised.”	“I am not surprised.”
-243	greg		“No?”	“No?”
-244	dragon		“No.”	“No.”
-245	dragon	dragon	“Interesting,”	“Interesting,” he said.
-246	greg		“Don't.”	“Don't.”
-247	dragon		“You have been searching for me for years.”	“You have been searching for me for years.”
-248	greg		“We covered that.”	“We covered that.”
-249	dragon		“You are not surprised by the scarcity of a human lifetime.”	“You are not surprised by the scarcity of a human lifetime.”
-250	greg		“That is called being fifty-nine.”	“That is called being fifty-nine.”
-251	dragon		“You have already lived two.”	“You have already lived two.”
-252	greg	greg	“I told you not to do that.”	“I told you not to do that.”
-253	dragon		“And you arrived with enough food to reach me, not enough to return.”	“And you arrived with enough food to reach me, not enough to return.”
-254	greg		“I can hunt.”	“I can hunt.”
-255	dragon		“With your leg.”	“With your leg.”
-256	greg		“Yes.”	“Yes.”
-257	dragon		“Poorly.”	“Poorly.”
-258	greg		“Your planning prioritizes arrival over departure.”	“Your planning prioritizes arrival over departure.”
-259	dragon		“I came here to save the Line.”	“I came here to save the Line.”
-260	greg		“Perhaps.”	“Perhaps.”
-261	dragon		“What if I say no?”	“What if I say no?”
-262	greg		“You leave.”	“You leave.”
-263	dragon		“That's it?”	“That's it?”
-264	greg		“Yes.”	“Yes.”
-265	dragon		“No fire.”	“No fire.”
-266	greg		“Not for refusing conversation.”	“Not for refusing conversation.”
-267	dragon		“Again, excellent qualifier.”	“Again, excellent qualifier.”
-268	greg		“You may die on the mountain.”	“You may die on the mountain.”
-269	dragon		“I know.”	“I know.”
-270	greg		“You may live.”	“You may live.”
-271	dragon		“I know.”	“I know.”
-272	greg		“The Line may fail.”	“The Line may fail.”
-273	dragon		“I know.”	“I know.”
-274	greg		“There is water behind the second stone shelf.”	“There is water behind the second stone shelf.”
-275	dragon		“I hear it.”	“I hear it.”
-276	greg		“There are animals below the eastern face.”	“There are animals below the eastern face.”
-277	dragon		“The cliff?”	“The cliff?”
-278	greg		“The other eastern face.”	“The other eastern face.”
-279	dragon		“Helpful.”	“Helpful.”
-280	greg		“I can show you.”	“I can show you.”
-281	dragon		“You'd let me stay here?”	“You'd let me stay here?”
-282	greg		“Yes.”	“Yes.”
-283	dragon		“For months.”	“For months.”
-284	greg		“If months are required.”	“If months are required.”
-285	dragon		“You understand I have to sleep.”	“You understand I have to sleep.”
-286	greg		“Yes.”	“Yes.”
-287	dragon		“Eat.”	“Eat.”
-288	greg		“Yes.”	“Yes.”
-289	dragon		“Shit.”	“Shit.”
-290	greg		“Yes.”	“Yes.”
-291	dragon		“Good. Just establishing the hospitality package.”	“Good. Just establishing the hospitality package.”
-292	greg		“You are welcome to shit outside.”	“You are welcome to shit outside.”
-293	dragon	dragon	“Where does the discrepancy begin?”	“Where does the discrepancy begin?” he asked.
-294	greg		“Nineteen.”	“Nineteen.”
-295	dragon		“Then begin there.”	“Then begin there.”
-296	greg		“Fine.”	“Fine.”
+018	greg		“We're not doing this. We're discussing the Line.”	“We're not doing this. We're discussing the Line.”
+019	dragon		“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”	“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”
+020	greg		“I possess enough mountain.”	“I possess enough mountain.”
+021	dragon		“Good sentence.”	“Good sentence.”
+022	greg		“What do you want?”	“What do you want?”
+023	dragon		“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”	“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”
+024	greg		“My rank isn't inconsistent.”	“My rank isn't inconsistent.”
+025	dragon		“Nothing relevant.”	“Nothing relevant.”
+026	greg		“See? This is exactly why I don't want to do forty years with you.”	“See? This is exactly why I don't want to do forty years with you.”
+027	dragon		“I am not telling you eighty years.”	“I am not telling you eighty years.”
+028	greg		“You're serious.”	“You're serious.”
+029	dragon		“You have spent decades deciding which memories explain who you became. I have no reason to trust that selection. You know what mattered to you when you last interpreted it. That is not necessarily what mattered. The reason you remember a thing may not be the reason you believe you remember it.”	“You have spent decades deciding which memories explain who you became. I have no reason to trust that selection. You know what mattered to you when you last interpreted it. That is not necessarily what mattered. The reason you remember a thing may not be the reason you believe you remember it.”
+030	greg		“That sounds suspiciously like rules for my story.”	“That sounds suspiciously like rules for my story.”
+031	dragon		“Life Two is the spine. Life One where it matters.”	“Life Two is the spine. Life One where it matters.”
+032	greg		“And I get some editorial control.”	“And I get some editorial control.”
+033	dragon		“More than none.”	“More than none.”
+034	greg		“How long do you think this takes?”	“How long do you think this takes?”
+035	dragon		“You really know how to make a person feel urgent.”	“You really know how to make a person feel urgent.”
+036	greg		“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”	“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”
+037	greg		“I can hunt.”	“I can hunt.”
+038	dragon		“Poorly.”	“Poorly.”
+039	greg		“What if I say no?”	“What if I say no?”
+040	dragon		“You leave. You may die on the mountain. You may live. The Line may fail. I will not burn you for refusing conversation.”	“You leave. You may die on the mountain. You may live. The Line may fail. I will not burn you for refusing conversation.”
+041	greg		“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”	“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”
+042	dragon		“You understand I have to shit.”	“You understand I have to shit.”
+043	greg		“You are welcome to do that outside.”	“You are welcome to do that outside.”
+044	dragon		“Where does the discrepancy begin?”	“Where does the discrepancy begin?”
+045	greg		“Nineteen.”	“Nineteen.”
+046	dragon		“Begin there.”	“Begin there.”
+047	greg		“Fine.”	“Fine.”
