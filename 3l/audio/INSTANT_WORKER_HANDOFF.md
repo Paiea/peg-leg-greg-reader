@@ -1,24 +1,12 @@
 # 3L FIVE-INSTANT-WORKER HANDOFF
 
-Use this handoff only after the generated five-worker work order exists and passes validation.
+Use this after `3l/audio/records-002-010-five-worker-work-order.json` exists on `main` and the frontier tests are green.
 
-Current branch:
+## Dispatch
 
-`3l/dialogue-territory-rebuild-002-010`
+Open five separate Instant chats. Give each worker the same prompt below, changing only `WORKER_NUMBER` to 1, 2, 3, 4, or 5.
 
-Current authority:
-
-`3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md`
-
-## Coordinator dispatch
-
-Open five separate Instant-worker chats/tasks.
-
-Give each worker the same base instruction below, changing only `WORKER_NUMBER` from 1 through 5.
-
-Do not give one worker two worker numbers.
-
-Do not let workers share or rebalance captures.
+Do not combine worker numbers and do not let workers rebalance assignments.
 
 ## Copy/paste worker prompt
 
@@ -28,7 +16,7 @@ Continue 3L short-take audio capture in:
 Paiea/peg-leg-greg-reader
 
 Branch:
-3l/dialogue-territory-rebuild-002-010
+main
 
 You are Instant audio capture worker WORKER_NUMBER of 5.
 
@@ -38,7 +26,7 @@ Read and obey:
 
 1. 3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md
 2. 3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md
-3. 3l/audio/workers/records-002-003-instant-WORKER_NUMBER-work-order.json
+3. 3l/audio/workers/records-002-010-instant-WORKER_NUMBER-work-order.json
 
 The worker work-order JSON is your executable capture list.
 
@@ -56,11 +44,13 @@ For EVERY item in its `captures` array:
 
 Write ONLY your assigned return manifest:
 
-3l/audio/workers/records-002-003-instant-WORKER_NUMBER-captures.json
+3l/audio/workers/records-002-010-instant-WORKER_NUMBER-captures.json
 
 Follow the exact return schema in PARALLEL_INSTANT_WORKER_AUTHORITY.md.
 
 Your return manifest must account for every assigned capture as success or explicit failure.
+
+Commit that one return manifest to main.
 
 Do not touch another worker's files.
 Do not assemble audio.
@@ -71,67 +61,10 @@ Do not claim chapter completion.
 Finish your entire assigned slice in this run as far as the available tools allow.
 ```
 
-## Worker-specific files
+## What happens after the five chats
 
-Worker 1 reads:
+You do not need to manually sort the returned URLs.
 
-`3l/audio/workers/records-002-003-instant-1-work-order.json`
+When all five worker manifests exist on `main`, `.github/workflows/3l-parallel-worker-pipeline.yml` automatically reconciles the receipts, verifies the preview MP3s, assembles every complete record, refreshes the record pages and Listening Archive, commits the verified audio frontier, and requests a Pages rebuild.
 
-and writes:
-
-`3l/audio/workers/records-002-003-instant-1-captures.json`
-
-Worker 2 reads:
-
-`3l/audio/workers/records-002-003-instant-2-work-order.json`
-
-and writes:
-
-`3l/audio/workers/records-002-003-instant-2-captures.json`
-
-Worker 3 reads:
-
-`3l/audio/workers/records-002-003-instant-3-work-order.json`
-
-and writes:
-
-`3l/audio/workers/records-002-003-instant-3-captures.json`
-
-Worker 4 reads:
-
-`3l/audio/workers/records-002-003-instant-4-work-order.json`
-
-and writes:
-
-`3l/audio/workers/records-002-003-instant-4-captures.json`
-
-Worker 5 reads:
-
-`3l/audio/workers/records-002-003-instant-5-work-order.json`
-
-and writes:
-
-`3l/audio/workers/records-002-003-instant-5-captures.json`
-
-## Coordinator after return
-
-Do not manually splice together worker prose or trust a worker summary.
-
-Reconcile the five JSON receipt manifests against:
-
-`3l/audio/records-002-003-five-worker-work-order.json`
-
-The coordinator then owns:
-
-- exact coverage audit
-- duplicate/stale capture rejection
-- URL/download verification
-- ffprobe
-- semantic span extraction from `deep` / `normal` sources
-- chunk assembly
-- chapter assembly
-- approximately 2-second settling tail
-- final decode/hash verification
-- website publication
-
-The five workers are a capture factory, not five co-authors.
+If a worker has a failed capture, only the affected record stays in `Audio rebuild in production`; verified written records remain published.
