@@ -8,11 +8,13 @@ This seed contains accepted or explicitly authorized state only. It is not permi
 
 ## Time position
 
-Life Two has burned roughly eight years since Greg chose not to follow the remembered First-Life western route.
+Record 006 establishes from the fifty-nine-year-old frame that Greg's East Four tenure ultimately lasts **eleven years**. The remembered Records that follow zoom into specific events inside that larger tenure rather than advancing one uniform year per Record.
 
-Record 009 places the major stay/leave decision in East Four's seventh year. Record 010 follows after enough additional time for Bren to arrive eight years after Greg failed to meet him on the old route.
+Record 009 explicitly places its major stay/leave decision in East Four's **seventh year**.
 
-Greg's exact age at the Record-010 frontier is not separately locked in authority. Treat him as approximately in his late twenties rather than inventing a precise birthday.
+Record 010 says Bren arrives **eight years after Greg failed to meet him** on the First-Life road, but the exact age of that missed First-Life meeting is not separately locked. Bren is thirty-one in the scene; Greg's exact age in Record 010 is not stated.
+
+Therefore do **not** assign a precise Greg age to the Record-010 frontier from chapter arithmetic. Treat the current episode as occurring during the established eleven-year East Four period, after year seven, with exact calendar placement deliberately unresolved until chronology work earns it.
 
 Time density remains elastic. A later Record may cover a day, a month, or a year if the lived change supports it.
 
@@ -31,7 +33,7 @@ Time density remains elastic. A later Record may cover a day, a month, or a year
 
 ## Work, money, property, and social position
 
-- East Four began as a four-week temporary maintenance contract and became years of work and belonging.
+- East Four began as a four-week temporary maintenance contract and ultimately becomes an eleven-year tenure.
 - Greg has repeatedly chosen local continuity over faster advancement toward his remembered First-Life summit.
 - By Record 009 Greg and Nessa share an apartment.
 - Greg has tools, routines, professional credibility, and a local network accumulated through ordinary work.
@@ -198,6 +200,7 @@ Do not prematurely lock:
 - exact reset/rebeginning mechanism
 - exact ending choice
 - exact final Record count
+- exact Record-010 calendar age inside the eleven-year East Four tenure
 
 ## Anti-railroad constraints
 
