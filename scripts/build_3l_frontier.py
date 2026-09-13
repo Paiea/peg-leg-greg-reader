@@ -80,6 +80,25 @@ def build_plans() -> list[dict]:
     return plans
 
 
+def write_current_worker_pointer(order: dict, master_path: Path) -> None:
+    run_label = str(order["run_label"])
+    pointer = {
+        "status": "current_frozen_instant_work_order",
+        "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
+        "master_work_order": str(master_path.relative_to(ROOT)),
+        "run_label": run_label,
+        "source_sha": str(order["source_sha"]),
+        "worker_count": int(order["worker_count"]),
+        "work_order_template": f"3l/audio/workers/{run_label}-instant-{{slot}}-work-order.json",
+        "return_manifest_template": f"3l/audio/workers/{run_label}-instant-{{slot}}-captures.json",
+        "claim_template": f"3l/audio/workers/claims/{{source_sha}}/{run_label}-instant-{{slot}}.json",
+    }
+    (AUDIO / "CURRENT_INSTANT_WORK_ORDER.json").write_text(
+        json.dumps(pointer, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
 def build_workers(plans: list[dict]) -> dict:
     label = "records-002-010"
     order = build_work_order(
@@ -89,11 +108,13 @@ def build_workers(plans: list[dict]) -> dict:
         source_sha=os.environ.get("GITHUB_SHA", ""),
         run_label=label,
     )
+    master_path = AUDIO / f"{label}-five-worker-work-order.json"
     write_outputs(
         order,
-        AUDIO / f"{label}-five-worker-work-order.json",
+        master_path,
         AUDIO / "workers",
     )
+    write_current_worker_pointer(order, master_path)
     return order
 
 

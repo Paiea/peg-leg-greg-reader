@@ -1,0 +1,11 @@
+{
+  "status": "current_frozen_instant_work_order",
+  "authority": "3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md",
+  "master_work_order": "3l/audio/records-002-010-five-worker-work-order.json",
+  "run_label": "records-002-010",
+  "source_sha": "d9d8b5ed7995ac1d8d978d1256e281fe35812da9",
+  "worker_count": 5,
+  "work_order_template": "3l/audio/workers/records-002-010-instant-{slot}-work-order.json",
+  "return_manifest_template": "3l/audio/workers/records-002-010-instant-{slot}-captures.json",
+  "claim_template": "3l/audio/workers/claims/{source_sha}/records-002-010-instant-{slot}.json"
+}

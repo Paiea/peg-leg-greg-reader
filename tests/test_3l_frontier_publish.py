@@ -16,7 +16,7 @@ class ThreeLFrontierPublishTests(unittest.TestCase):
             text = page.read_text(encoding="utf-8")
             self.assertIn(f"../manuscript/record-{rid}.md", text)
             self.assertIn("String.fromCharCode(10)", text)
-            self.assertNotIn("split(/\n?\n/)", text)
+            self.assertNotIn("split(/\\n?\\n/)", text)
 
         index = (ROOT / "3l" / "records" / "index.html").read_text(encoding="utf-8")
         for record in range(1, 11):
@@ -49,6 +49,29 @@ class ThreeLFrontierPublishTests(unittest.TestCase):
                 keys.append((capture["record"], capture["chunk_index"], capture["voice"]))
         self.assertEqual(len(keys), len(set(keys)))
         self.assertEqual(len(keys), master["total_captures"])
+
+    def test_current_instant_worker_pointer_tracks_master_order(self):
+        pointer_path = ROOT / "3l" / "audio" / "CURRENT_INSTANT_WORK_ORDER.json"
+        self.assertTrue(pointer_path.exists(), pointer_path)
+        pointer = json.loads(pointer_path.read_text(encoding="utf-8"))
+        master_path = ROOT / pointer["master_work_order"]
+        self.assertTrue(master_path.exists(), master_path)
+        master = json.loads(master_path.read_text(encoding="utf-8"))
+        self.assertEqual(pointer["run_label"], master["run_label"])
+        self.assertEqual(pointer["source_sha"], master["source_sha"])
+        self.assertEqual(pointer["worker_count"], master["worker_count"])
+        self.assertIn("{source_sha}", pointer["claim_template"])
+        self.assertIn("{slot}", pointer["claim_template"])
+        self.assertIn("{slot}", pointer["work_order_template"])
+        self.assertIn("{slot}", pointer["return_manifest_template"])
+
+    def test_handoff_is_numberless_and_autoclaims_worker_slot(self):
+        handoff = (ROOT / "3l" / "audio" / "INSTANT_WORKER_HANDOFF.md").read_text(encoding="utf-8")
+        self.assertNotIn("WORKER_NUMBER", handoff)
+        self.assertIn("CURRENT_INSTANT_WORK_ORDER.json", handoff)
+        self.assertIn("Do not ask the user for a worker number", handoff)
+        self.assertIn("create-only", handoff)
+        self.assertIn("1, 2, 3, 4, 5", handoff)
 
 
 if __name__ == "__main__":
