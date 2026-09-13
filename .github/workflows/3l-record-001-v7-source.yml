@@ -62,11 +62,16 @@ jobs:
           ]
           opening = '\n\n'.join(parts) + '\n\n'
           new = opening + suffix
-          assert new.startswith('## RECORD 001\n\n## THE PETITIONER\n\nThe dragon yawned while I was explaining how many people were going to die.')
-          assert '“Ithar.”' in new
-          assert '“Thirty seconds.”' in new
-          assert 'A prophet watches the future. You keep looking backward.' in new
-          assert new.rstrip().endswith('“Not this time.”')
+          checks = [
+              new.startswith('## RECORD 001\n\n## THE PETITIONER\n\nThe dragon yawned while I was explaining how many people were going to die.'),
+              '“Ithar.”' in new,
+              '“Thirty seconds.”' in new,
+              '“A prophet watches the future.' in new,
+              '“You keep looking backward.”' in new,
+              new.rstrip().endswith('“Not this time.”'),
+          ]
+          if not all(checks):
+              raise SystemExit(f'source verification failed: {checks}')
           p.write_text(new)
           print('new chars', len(new), 'old chars', len(old))
           PY
