@@ -1,0 +1,86 @@
+name: 3L Dragon Crisp Speed Spike
+
+on:
+  push:
+    branches:
+      - 3l/dragon-speed-spike
+    paths:
+      - 3l/audio-spike/dragon-crisp-speed.json
+
+permissions:
+  contents: read
+
+env:
+  AUDITION_DIR: /tmp/dragon-crisp-audition
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Download source and render numbered varispeed options
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$AUDITION_DIR"
+          URL=$(python - <<'PY'
+          import json
+          print(json.load(open('3l/audio-spike/dragon-crisp-speed.json'))['preview_url'])
+          PY
+          )
+          curl -fL --retry 4 --retry-delay 2 -o "$AUDITION_DIR/crisp-base.mp3" "$URL"
+          SR=$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=noprint_wrappers=1:nokey=1 "$AUDITION_DIR/crisp-base.mp3")
+          ffmpeg -y -i "$AUDITION_DIR/crisp-base.mp3" -vn -c:a libmp3lame -b:a 192k "$AUDITION_DIR/1.mp3"
+          ffmpeg -y -i "$AUDITION_DIR/crisp-base.mp3" -af "asetrate=${SR}*0.80,aresample=${SR}" -vn -c:a libmp3lame -b:a 192k "$AUDITION_DIR/2.mp3"
+          ffmpeg -y -i "$AUDITION_DIR/crisp-base.mp3" -af "asetrate=${SR}*0.70,aresample=${SR}" -vn -c:a libmp3lame -b:a 192k "$AUDITION_DIR/3.mp3"
+          ffmpeg -y -i "$AUDITION_DIR/crisp-base.mp3" -af "asetrate=${SR}*0.60,aresample=${SR}" -vn -c:a libmp3lame -b:a 192k "$AUDITION_DIR/4.mp3"
+
+          ffmpeg -y -f lavfi -i "sine=frequency=880:duration=0.12:sample_rate=${SR}" -c:a libmp3lame -b:a 192k "$AUDITION_DIR/beep.mp3"
+          ffmpeg -y -f lavfi -i "anullsrc=r=${SR}:cl=mono" -t 0.12 -c:a libmp3lame -b:a 192k "$AUDITION_DIR/gap.mp3"
+          ffmpeg -y -f lavfi -i "anullsrc=r=${SR}:cl=mono" -t 0.7 -c:a libmp3lame -b:a 192k "$AUDITION_DIR/section-gap.mp3"
+
+          cat > "$AUDITION_DIR/concat.txt" <<EOF
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/1.mp3'
+          file '$AUDITION_DIR/section-gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/2.mp3'
+          file '$AUDITION_DIR/section-gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/3.mp3'
+          file '$AUDITION_DIR/section-gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/beep.mp3'
+          file '$AUDITION_DIR/gap.mp3'
+          file '$AUDITION_DIR/4.mp3'
+          EOF
+          ffmpeg -y -f concat -safe 0 -i "$AUDITION_DIR/concat.txt" -c:a libmp3lame -b:a 192k "$AUDITION_DIR/numbered-comparison.mp3"
+
+          rm -f "$AUDITION_DIR/crisp-base.mp3" "$AUDITION_DIR/beep.mp3" "$AUDITION_DIR/gap.mp3" "$AUDITION_DIR/section-gap.mp3" "$AUDITION_DIR/concat.txt"
+
+      - name: Upload crisp audition
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-crisp-numbered-audition
+          path: /tmp/dragon-crisp-audition/*.mp3
+          if-no-files-found: error
