@@ -1,0 +1,10 @@
+{
+  "record": 1,
+  "voice": "fancy",
+  "audio_url": "https://www.aidocmaker.com/g0/audio?name=3e3571343c5e45d79d01d2427fb98c3e",
+  "dragon_pitch_semitones": -3.25,
+  "dragon_pitch_ratio": 0.8288406503840438,
+  "dragon_tempo": 1.0,
+  "formant": "preserved",
+  "status": "experimental_full_scene_candidate"
+}
