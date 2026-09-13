@@ -3,6 +3,7 @@ name: 3L Site Tests
 on:
   push:
     branches:
+      - main
       - 3l/marketed-r2-flow
     paths:
       - '3l/**'
