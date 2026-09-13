@@ -1,0 +1,83 @@
+name: Validate PLG Ending Publish
+
+on:
+  push:
+    branches:
+      - reader/plg-ending-validation
+    paths:
+      - 'state/manuscript/Peg_Leg_Greg_Chapter_501_EXACT_WIP.md'
+      - 'state/manuscript/Peg_Leg_Greg_Chapter_502_EXACT_WIP.md'
+      - 'state/manuscript/Peg_Leg_Greg_Chapter_503_EXACT_WIP.md'
+      - 'state/MANUSCRIPT_STATE.md'
+      - 'state/MANUSCRIPT_CHAPTER_INDEX.md'
+      - 'state/OPEN_THREADS.md'
+      - 'state/SHOWCASE_CANON.md'
+      - '.github/workflows/plg-ending-publish-validation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Validate terminal manuscript routing
+        run: python -m unittest tests.test_forward_rehearsal_state -v
+
+      - name: Validate final chapter dialogue ownership
+        run: python scripts/dialogue_ownership_check.py --latest --strict
+
+      - name: Generate terminal Illustrated and Text readers
+        run: |
+          python scripts/update_reader_presentation.py assets/reader.css
+          python scripts/update_home_contents.py
+          python scripts/generate_illustrated.py current
+          python scripts/generate_light.py current
+          python scripts/cleanup_showcase_light.py
+          python scripts/update_showcase_chapter_shells.py
+          python scripts/update_reader_navigation.py index.html
+          python scripts/update_home_contents.py
+
+      - name: Verify terminal Showcase frontier
+        run: |
+          python scripts/project_check.py showcase
+          python scripts/verify_light.py current
+          python scripts/verify_reader_frontier.py
+          test -f chapters/501.html
+          test -f chapters/502.html
+          test -f chapters/503.html
+          test -f light/501.html
+          test -f light/502.html
+          test -f light/503.html
+          grep -q 'CHAPTER 390' chapters/501.html
+          grep -q 'THE WALKER' chapters/501.html
+          grep -q 'CHAPTER 391' chapters/502.html
+          grep -q 'THE RETURNER' chapters/502.html
+          grep -q 'CHAPTER 392' chapters/503.html
+          grep -q 'THE AMATEUR' chapters/503.html
+          grep -q 'The second stitch was worse.' chapters/503.html
+          grep -q 'is-disabled">Next' chapters/503.html
+          grep -q 'CHAPTER 392' light/503.html
+          grep -q 'The second stitch was worse.' light/503.html
+          grep -q 'is-disabled">Next' light/503.html
+          git diff --check
+
+      - name: Stage generated reader derivatives on validation branch
+        run: |
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css; then
+            echo 'Reader derivatives already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters light light.html latest.html index.html assets/reader.css
+          git commit -m 'Stage PLG terminal reader chapters'
+          git push origin HEAD:reader/plg-ending-validation
