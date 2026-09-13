@@ -19,6 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/workflows
+            scripts
+            tests
+            3l/manuscript
+            3l/audio
       - name: Run planner tests
         run: python -m unittest tests.test_3l_short_take_plan
       - name: Build Records 002 and 003 plans
@@ -42,11 +49,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- 3l/audio/record-002-short-dual-plan.json 3l/audio/record-003-short-dual-plan.json; then
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add 3l/audio/record-002-short-dual-plan.json 3l/audio/record-003-short-dual-plan.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
           git commit -m "audio: plan 3L Records 002 and 003 short takes"
           git push origin HEAD:${GITHUB_REF_NAME}
