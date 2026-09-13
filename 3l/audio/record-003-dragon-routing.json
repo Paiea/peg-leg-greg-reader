@@ -1,0 +1,19 @@
+{
+  "record": "003",
+  "mode": "strict-dragon-prefixes",
+  "default_quoted_voice": "greg",
+  "dragon_prefixes": [
+    "“You came here because of the Line.",
+    "“If the Line were repaired now, what would you do next?",
+    "“You have already done that twice.”",
+    "“I possess enough mountain.”",
+    "“You. More precisely, your account.",
+    "“I do not require eighty years in sequence.",
+    "“You are urgent, Greg. Not the Line. You.",
+    "“You leave. You may die on the mountain.",
+    "“There is water behind the second stone shelf.",
+    "“You are welcome to do that outside.”",
+    "“Where does the discrepancy begin?”",
+    "“Begin there.”"
+  ]
+}
