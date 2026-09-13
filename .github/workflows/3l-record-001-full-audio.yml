@@ -21,11 +21,6 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
 
-      - name: Install ffmpeg
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-
       - name: Verify published preview and full-player source
         shell: bash
         run: |
@@ -40,8 +35,10 @@ jobs:
           preview_url="${urls[0]}"
           full_page_url="${urls[1]}"
 
-          curl -fL --retry 4 --retry-delay 2 -o /tmp/preview.mp3 "$preview_url"
-          ffprobe -v error -show_entries format=format_name,duration,size -of json /tmp/preview.mp3
+          curl -fL --retry 4 --retry-delay 2 -D /tmp/preview-headers.txt -o /tmp/preview.mp3 "$preview_url"
+          grep -Eqi 'content-type: audio/(mpeg|mp3)' /tmp/preview-headers.txt
+          test "$(wc -c < /tmp/preview.mp3)" -gt 1000
+          file /tmp/preview.mp3 | grep -Eqi 'audio|MPEG'
 
           curl -fL --retry 4 --retry-delay 2 -D /tmp/full-headers.txt -o /tmp/full-player.html "$full_page_url"
           grep -qi 'content-type: text/html' /tmp/full-headers.txt
