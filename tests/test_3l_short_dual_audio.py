@@ -126,6 +126,39 @@ class ShortDualAudioTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "incomplete verified capture receipt"):
             audio.validate_verified_capture_receipt(self.plan, receipt)
 
+    def test_collapse_role_spans_keeps_only_true_speaker_transitions(self):
+        self.assertTrue(
+            hasattr(audio, "collapse_role_spans"),
+            "production module must expose collapse_role_spans",
+        )
+        transcript = "Narration.\n\nMore narration. “Dragon.”\n\nGreg again."
+        semantic = [
+            {"start": 0, "end": 10, "role": "greg", "text": "Narration."},
+            {"start": 12, "end": 27, "role": "greg", "text": "More narration."},
+            {"start": 28, "end": 37, "role": "dragon", "text": "“Dragon.”"},
+            {"start": 39, "end": 50, "role": "greg", "text": "Greg again."},
+        ]
+        self.assertEqual(
+            audio.collapse_role_spans(transcript, semantic),
+            [
+                {"start": 0, "end": 28, "role": "greg"},
+                {"start": 28, "end": 39, "role": "dragon"},
+                {"start": 39, "end": len(transcript), "role": "greg"},
+            ],
+        )
+
+    def test_collapse_role_spans_covers_single_voice_chunk(self):
+        self.assertTrue(hasattr(audio, "collapse_role_spans"))
+        transcript = "One.\n\nTwo."
+        semantic = [
+            {"start": 0, "end": 4, "role": "greg", "text": "One."},
+            {"start": 6, "end": 10, "role": "greg", "text": "Two."},
+        ]
+        self.assertEqual(
+            audio.collapse_role_spans(transcript, semantic),
+            [{"start": 0, "end": len(transcript), "role": "greg"}],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
