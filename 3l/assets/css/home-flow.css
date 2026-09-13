@@ -1,19 +1,33 @@
-.hero-dragon-art {
+.hero {
+  background-image: none;
+  background-color: #090b0a;
+}
+
+.hero-dragon-stage {
   position: absolute;
-  inset: 0;
+  inset: 0 0 0 auto;
   z-index: 0;
+  width: 66%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #090b0a;
+}
+
+.hero-dragon-art {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 42%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero-scrim {
   z-index: 0;
   background:
-    linear-gradient(90deg, rgba(5,6,5,.9) 0%, rgba(5,6,5,.62) 36%, rgba(5,6,5,.08) 68%, rgba(5,6,5,.18) 100%),
-    linear-gradient(180deg, rgba(0,0,0,.02), rgba(0,0,0,.12) 62%, rgba(0,0,0,.58) 100%),
-    radial-gradient(circle at 72% 28%, rgba(185,148,76,.08), transparent 34%);
+    linear-gradient(90deg, rgba(5,6,5,.96) 0%, rgba(5,6,5,.9) 32%, rgba(5,6,5,.58) 46%, rgba(5,6,5,.12) 62%, rgba(5,6,5,.02) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.02), rgba(0,0,0,.04) 62%, rgba(0,0,0,.28) 100%);
 }
 
 .hero-copy {
@@ -132,8 +146,12 @@
 }
 
 @media (max-width: 900px) {
+  .hero-dragon-stage {
+    width: 72%;
+  }
+
   .hero-copy {
-    width: 58%;
+    width: 54%;
   }
 
   .entry-panel,
@@ -152,18 +170,46 @@
 }
 
 @media (max-width: 760px) {
+  .hero {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    background: #090b0a;
+  }
+
+  .hero-dragon-stage {
+    position: relative;
+    inset: auto;
+    order: 0;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    border-bottom: 1px solid var(--line);
+  }
+
   .hero-dragon-art {
-    object-position: 63% center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
   }
 
   .hero-scrim {
-    background:
-      linear-gradient(180deg, rgba(5,6,5,.66) 0%, rgba(5,6,5,.3) 34%, rgba(5,6,5,.12) 56%, rgba(5,6,5,.9) 100%),
-      radial-gradient(circle at 72% 28%, rgba(185,148,76,.08), transparent 34%);
+    display: none;
   }
 
   .hero-copy {
+    order: 1;
     width: 100%;
+    padding: 2.4rem 1.25rem 1.7rem;
+  }
+
+  .examiner-line {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    order: 2;
+    width: auto;
+    margin: 0 1.25rem 2rem;
   }
 
   .hero-actions .button {
