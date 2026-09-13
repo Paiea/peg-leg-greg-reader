@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import itertools
 import json
 from pathlib import Path
 from typing import Iterable
@@ -44,50 +43,28 @@ def _flatten_chunks(plans: Iterable[dict]) -> list[dict]:
     return items
 
 
-def _best_contiguous_partition(weights: list[int], worker_count: int) -> list[tuple[int, int]]:
-    """Return contiguous [start, end) ranges with near-equal capture load.
-
-    For five workers and the current 59-chunk frontier, exhaustive cut search is
-    small enough to stay simple and deterministic. Score balance first, then
-    squared distance from the mean, then earlier cuts for stable output.
-    """
+def _balanced_whole_chunk_assignments(items: list[dict], worker_count: int) -> list[list[dict]]:
+    """Assign whole chunks to the least-loaded worker in stable canon order."""
     if worker_count < 1:
         raise ValueError("worker_count must be positive")
-    if len(weights) < worker_count:
+    if len(items) < worker_count:
         raise ValueError("worker_count cannot exceed chunk count")
 
-    prefix = [0]
-    for weight in weights:
-        prefix.append(prefix[-1] + weight)
-    total = prefix[-1]
-    target = total / worker_count
-
-    best_score = None
-    best_cuts = None
-    for internal in itertools.combinations(range(1, len(weights)), worker_count - 1):
-        cuts = (0, *internal, len(weights))
-        loads = [prefix[cuts[i + 1]] - prefix[cuts[i]] for i in range(worker_count)]
-        score = (
-            max(loads) - min(loads),
-            sum((load - target) ** 2 for load in loads),
-            max(loads),
-            internal,
-        )
-        if best_score is None or score < best_score:
-            best_score = score
-            best_cuts = cuts
-
-    assert best_cuts is not None
-    return [(best_cuts[i], best_cuts[i + 1]) for i in range(worker_count)]
+    assignments: list[list[dict]] = [[] for _ in range(worker_count)]
+    loads = [0] * worker_count
+    for item in items:
+        worker_index = min(range(worker_count), key=lambda index: (loads[index], index))
+        assignments[worker_index].append(item)
+        loads[worker_index] += item["capture_count"]
+    return assignments
 
 
 def build_work_order(plans: list[dict], worker_count: int = 5, branch: str = "") -> dict:
     items = _flatten_chunks(plans)
-    ranges = _best_contiguous_partition([item["capture_count"] for item in items], worker_count)
+    assignments = _balanced_whole_chunk_assignments(items, worker_count)
 
     workers = []
-    for worker_number, (start, end) in enumerate(ranges, start=1):
-        chunks = items[start:end]
+    for worker_number, chunks in enumerate(assignments, start=1):
         worker_id = f"instant-{worker_number}"
         captures = [
             {
