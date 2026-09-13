@@ -1,0 +1,44 @@
+name: Apply 3L dialogue territory rebuild
+
+on:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+    paths:
+      - scripts/rebuild_3l_dialogue_territories_004_010.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-manuscripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: 3l/dialogue-territory-rebuild-002-010
+          fetch-depth: 0
+
+      - name: Apply precision dialogue patches
+        run: python scripts/rebuild_3l_dialogue_territories_004_010.py
+
+      - name: Verify patch cleanliness
+        run: |
+          git diff --check
+          for n in 004 005 006 007 008 009 010; do
+            test -s "3l/manuscript/record-$n.md"
+          done
+
+      - name: Commit rebuilt manuscripts
+        run: |
+          if git diff --quiet -- 3l/manuscript; then
+            echo "No manuscript changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/manuscript/record-00{4,5,6,7,8,9}.md 3l/manuscript/record-010.md
+          git commit -m "Rebuild 3L dialogue territories for Records 004-010"
+          git push origin HEAD:3l/dialogue-territory-rebuild-002-010
