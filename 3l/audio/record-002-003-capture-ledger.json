@@ -1,0 +1,82 @@
+{
+  "status": "in_progress",
+  "authority": "3l/records-002-010-write2",
+  "voice_profiles": {
+    "greg": {"voice_id": "deep", "tempo": 1.0},
+    "ithar": {"voice_id": "normal", "tempo": 1.0, "pitch_shift_semitones": 0}
+  },
+  "captures": [
+    {
+      "record": 2,
+      "role": "greg",
+      "context_id": "907e839042964110b2d8619129330cfa",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=907e839042964110b2d8619129330cfa",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/bf769ef0-0c3f-4736-ba9e-4fab5a95927f.mp3",
+      "anchor": "The dragon did not move."
+    },
+    {
+      "record": 2,
+      "role": "ithar",
+      "context_id": "f1afc6b190634dc8b6efe251aad0295a",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=f1afc6b190634dc8b6efe251aad0295a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/524be977-3412-4a2a-819c-f3b4f5ba84cd.mp3",
+      "anchor": "Not this time."
+    },
+    {
+      "record": 2,
+      "role": "ithar",
+      "context_id": "781fe1aa275c4680b10f49adc4a67289",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=781fe1aa275c4680b10f49adc4a67289",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cbb022be-98ad-4d9f-9a4a-ba4a6fe4fe78.mp3",
+      "anchor": "A fabricated memory may contain detail."
+    },
+    {
+      "record": 2,
+      "role": "ithar",
+      "context_id": "b0f7fec3b0b84e3cad7de95c7eaed8e7",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=b0f7fec3b0b84e3cad7de95c7eaed8e7",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7ecb5eab-6908-43ca-a720-f2a50a8b0396.mp3",
+      "anchor": "You are not merely carrying information that is old."
+    },
+    {
+      "record": 2,
+      "role": "ithar",
+      "context_id": "70b60207de174768b5a2a6acbf302f19",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=70b60207de174768b5a2a6acbf302f19",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/50c3778d-7585-4640-96c1-ce248363df24.mp3",
+      "anchor": "You possess a coherent collection of memories"
+    },
+    {
+      "record": 3,
+      "role": "ithar",
+      "context_id": "e1a8bdecd6394ef49228097760a4a2e6",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=e1a8bdecd6394ef49228097760a4a2e6",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7bcf9710-01b6-4f80-b03e-00ce0f186cbb.mp3",
+      "anchor": "The discrepancy began with you."
+    },
+    {
+      "record": 3,
+      "role": "ithar",
+      "context_id": "440c765534f84e40b9ac6b14b1a986b0",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=440c765534f84e40b9ac6b14b1a986b0",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/13a09d53-6d00-4816-9c9c-faed482ac5bb.mp3",
+      "anchor": "You believe the second life is the story"
+    },
+    {
+      "record": 3,
+      "role": "ithar",
+      "context_id": "48d944ff76a841c1abb3cf89d1be130f",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=48d944ff76a841c1abb3cf89d1be130f",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/9a0c0b54-23b3-42bb-af57-bd886b80c354.mp3",
+      "anchor": "You may compress repetition."
+    },
+    {
+      "record": 3,
+      "role": "ithar",
+      "context_id": "fbfb3d5bfd5a47b2aab07c91a05dff8b",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=fbfb3d5bfd5a47b2aab07c91a05dff8b",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/0c77311a-6044-4621-8c5a-c9143875e096.mp3",
+      "anchor": "You have spent decades deciding which memories explain who you became."
+    }
+  ]
+}
