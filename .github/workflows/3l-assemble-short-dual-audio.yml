@@ -1,6 +1,7 @@
 name: Assemble 3L short dual audio
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 3l/records-002-010-write2
