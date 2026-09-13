@@ -1,205 +1,24 @@
 #!/usr/bin/env python3
-"""Assemble verified 3L short dual-render captures into chapter audio."""
+"""Assemble a verified 3L record from preview-safe short dual-render captures."""
 
 from __future__ import annotations
 
 import argparse
 import hashlib
 import json
-from pathlib import Path
+import math
 import subprocess
 import tempfile
+from pathlib import Path
 from typing import Any
 
-try:
-    from scripts.build_3l_two_voice_candidate import (
-        _detect_silences,
-        _probe_duration,
-        build_timed_role_spans,
-    )
-except ModuleNotFoundError:  # Direct execution: python scripts/build_3l_short_dual_audio.py
-    from build_3l_two_voice_candidate import (  # type: ignore
-        _detect_silences,
-        _probe_duration,
-        build_timed_role_spans,
-    )
-
-
-ROLE_TO_VOICE = {
-    "greg": "deep",
-    "dragon": "normal",
-}
-SAMPLE_RATE = 44100
-CHANNELS = 1
 BITRATE = "192k"
 SETTLING_TAIL_SECONDS = 2.0
+ROLE_TO_VOICE = {"greg": "deep", "dragon": "normal"}
 
 
-def expected_capture_keys(plan: dict[str, Any]) -> list[tuple[int, str]]:
-    """Return every required (chunk, voice) capture in deterministic order."""
-    keys: list[tuple[int, str]] = []
-    for chunk in plan.get("chunks", []):
-        index = int(chunk["index"])
-        for voice in chunk.get("required_voices", []):
-            keys.append((index, str(voice)))
-    return keys
-
-
-def validate_capture_manifest(
-    plan: dict[str, Any], manifest: dict[str, Any]
-) -> dict[tuple[int, str], dict[str, Any]]:
-    """Require one exact preview capture for every voice the plan needs."""
-    if str(manifest.get("record")) != str(plan.get("record")):
-        raise ValueError("record mismatch between plan and capture manifest")
-
-    chunk_by_index = {int(chunk["index"]): chunk for chunk in plan.get("chunks", [])}
-    indexed: dict[tuple[int, str], dict[str, Any]] = {}
-
-    for capture in manifest.get("captures", []):
-        key = (int(capture["chunk"]), str(capture["voice"]))
-        if key in indexed:
-            raise ValueError(f"duplicate capture for chunk {key[0]} voice {key[1]}")
-        chunk = chunk_by_index.get(key[0])
-        if chunk is None or key[1] not in chunk.get("required_voices", []):
-            raise ValueError(f"unexpected capture for chunk {key[0]} voice {key[1]}")
-        if capture.get("transcript") != chunk.get("transcript"):
-            raise ValueError(f"transcript mismatch for chunk {key[0]} voice {key[1]}")
-        preview_url = capture.get("preview_url")
-        if not isinstance(preview_url, str) or not preview_url.startswith(("http://", "https://")):
-            raise ValueError(f"missing preview_url for chunk {key[0]} voice {key[1]}")
-        indexed[key] = capture
-
-    expected = set(expected_capture_keys(plan))
-    actual = set(indexed)
-    missing = sorted(expected - actual)
-    extra = sorted(actual - expected)
-    if missing:
-        raise ValueError(f"missing captures: {missing}")
-    if extra:
-        raise ValueError(f"unexpected captures: {extra}")
-    return indexed
-
-
-def validate_verified_capture_receipt(
-    plan: dict[str, Any], receipt: dict[str, Any]
-) -> dict[tuple[int, str], dict[str, Any]]:
-    """Validate the verifier's immutable source receipt before assembly."""
-    if str(receipt.get("record")) != str(plan.get("record")):
-        raise ValueError("record mismatch between plan and verified capture receipt")
-
-    expected = set(expected_capture_keys(plan))
-    planned_count = len(expected)
-    if (
-        receipt.get("complete") is not True
-        or receipt.get("missing") not in ([], None)
-        or int(receipt.get("verified_capture_count", -1)) != planned_count
-        or int(receipt.get("planned_capture_count", -1)) != planned_count
-    ):
-        raise ValueError("incomplete verified capture receipt")
-
-    indexed: dict[tuple[int, str], dict[str, Any]] = {}
-    for capture in receipt.get("captures", []):
-        key = (int(capture["chunk"]), str(capture["voice"]))
-        if key in indexed:
-            raise ValueError(f"duplicate verified capture for chunk {key[0]} voice {key[1]}")
-        if key not in expected:
-            raise ValueError(f"unexpected verified capture for chunk {key[0]} voice {key[1]}")
-        if capture.get("status") != "verified":
-            raise ValueError(f"unverified capture for chunk {key[0]} voice {key[1]}")
-        preview_url = capture.get("preview_url")
-        if not isinstance(preview_url, str) or not preview_url.startswith(("http://", "https://")):
-            raise ValueError(f"missing preview_url for chunk {key[0]} voice {key[1]}")
-        sha256 = capture.get("sha256")
-        if (
-            not isinstance(sha256, str)
-            or len(sha256) != 64
-            or any(char not in "0123456789abcdefABCDEF" for char in sha256)
-        ):
-            raise ValueError(f"invalid sha256 for chunk {key[0]} voice {key[1]}")
-        indexed[key] = capture
-
-    actual = set(indexed)
-    if actual != expected:
-        raise ValueError("incomplete verified capture receipt")
-    return indexed
-
-
-def collapse_role_spans(
-    transcript: str, semantic_spans: list[dict[str, Any]]
-) -> list[dict[str, Any]]:
-    """Collapse detailed annotations to the actual Greg/Dragon transition regions.
-
-    The planner may annotate many adjacent pieces owned by the same role. Audio only
-    needs a cut where ownership changes. Interstitial whitespace belongs to the role
-    that precedes the transition, and the collapsed regions cover the full take.
-    """
-    if not transcript:
-        return []
-    if not semantic_spans:
-        raise ValueError("chunk has no semantic spans")
-
-    ordered = sorted(semantic_spans, key=lambda span: (int(span["start"]), int(span["end"])))
-    first_role = str(ordered[0]["role"])
-    if first_role not in ROLE_TO_VOICE:
-        raise ValueError(f"unknown semantic role {first_role}")
-
-    collapsed: list[dict[str, Any]] = []
-    current_role = first_role
-    region_start = 0
-    previous_start = int(ordered[0]["start"])
-
-    for span in ordered[1:]:
-        start = int(span["start"])
-        role = str(span["role"])
-        if start < previous_start:
-            raise ValueError("semantic spans are not ordered")
-        if role not in ROLE_TO_VOICE:
-            raise ValueError(f"unknown semantic role {role}")
-        if role != current_role:
-            if start <= region_start or start > len(transcript):
-                raise ValueError("invalid semantic role transition offset")
-            collapsed.append({"start": region_start, "end": start, "role": current_role})
-            region_start = start
-            current_role = role
-        previous_start = start
-
-    collapsed.append({"start": region_start, "end": len(transcript), "role": current_role})
-    return collapsed
-
-
-def choose_role_segments(
-    semantic_spans: list[dict[str, Any]],
-    timed_by_voice: dict[str, list[dict[str, Any]]],
-) -> list[dict[str, Any]]:
-    """Select each semantic region from the timing map for its assigned voice."""
-    cursors = {voice: 0 for voice in timed_by_voice}
-    chosen: list[dict[str, Any]] = []
-
-    for semantic in semantic_spans:
-        role = str(semantic["role"])
-        voice = ROLE_TO_VOICE[role]
-        candidates = timed_by_voice.get(voice)
-        if candidates is None:
-            raise ValueError(f"missing timing source for voice {voice}")
-
-        cursor = cursors[voice]
-        while cursor < len(candidates) and candidates[cursor].get("role") != role:
-            cursor += 1
-        if cursor >= len(candidates):
-            raise ValueError(f"could not align {role} span to {voice} source")
-
-        timed = candidates[cursor]
-        chosen.append(
-            {
-                "role": role,
-                "voice": voice,
-                "start_seconds": float(timed["start_seconds"]),
-                "end_seconds": float(timed["end_seconds"]),
-            }
-        )
-        cursors[voice] = cursor + 1
-
-    return chosen
+def _run(command: list[str]) -> None:
+    subprocess.run(command, check=True)
 
 
 def _sha256(path: Path) -> str:
@@ -210,8 +29,184 @@ def _sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def _download_verified_capture(capture: dict[str, Any], output: Path) -> None:
-    subprocess.run(
+def _probe_duration(path: Path) -> float:
+    return float(
+        subprocess.check_output(
+            [
+                "ffprobe",
+                "-v",
+                "error",
+                "-show_entries",
+                "format=duration",
+                "-of",
+                "default=nw=1:nk=1",
+                str(path),
+            ],
+            text=True,
+        ).strip()
+    )
+
+
+def expected_capture_keys(plan: dict[str, Any]) -> list[tuple[int, str]]:
+    return [
+        (int(chunk["index"]), str(voice))
+        for chunk in plan.get("chunks", [])
+        for voice in chunk.get("required_voices", [])
+    ]
+
+
+def validate_verified_capture_receipt(
+    plan: dict[str, Any], receipt: dict[str, Any]
+) -> dict[tuple[int, str], dict[str, Any]]:
+    expected = set(expected_capture_keys(plan))
+    if receipt.get("record") != plan.get("record"):
+        raise ValueError("verification receipt record does not match plan")
+    if receipt.get("complete") is not True:
+        raise ValueError("verification receipt is incomplete")
+    if receipt.get("missing") not in ([], None):
+        raise ValueError("verification receipt still reports missing captures")
+    if int(receipt.get("planned_capture_count", -1)) != len(expected):
+        raise ValueError("verification receipt planned capture count does not match plan")
+
+    indexed: dict[tuple[int, str], dict[str, Any]] = {}
+    for item in receipt.get("captures", []):
+        key = (int(item["chunk"]), str(item["voice"]))
+        if key in indexed:
+            raise ValueError(f"duplicate verified capture {key}")
+        if item.get("status") != "verified":
+            raise ValueError(f"capture {key} is not verified")
+        if not item.get("preview_url"):
+            raise ValueError(f"capture {key} has no preview URL")
+        if not item.get("sha256"):
+            raise ValueError(f"capture {key} has no verified sha256")
+        indexed[key] = item
+    if set(indexed) != expected:
+        missing = sorted(expected - set(indexed))
+        extra = sorted(set(indexed) - expected)
+        raise ValueError(f"verified capture coverage mismatch; missing={missing} extra={extra}")
+    return indexed
+
+
+def collapse_role_spans(transcript: str, spans: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Collapse detailed semantic spans to true speaker-transition regions."""
+    if not spans:
+        raise ValueError("chunk has no semantic spans")
+    ordered = sorted(spans, key=lambda item: int(item["start"]))
+    cursor = 0
+    collapsed: list[dict[str, Any]] = []
+    for item in ordered:
+        start = int(item["start"])
+        end = int(item["end"])
+        role = str(item["role"])
+        if role not in ROLE_TO_VOICE:
+            raise ValueError(f"unknown semantic role {role}")
+        if start != cursor or end <= start or end > len(transcript):
+            raise ValueError("semantic spans do not exactly cover transcript")
+        text = transcript[start:end]
+        if item.get("text") not in (None, text):
+            raise ValueError("semantic span text does not match transcript")
+        if collapsed and collapsed[-1]["role"] == role:
+            collapsed[-1]["end"] = end
+            collapsed[-1]["text"] += text
+        else:
+            collapsed.append({"start": start, "end": end, "role": role, "text": text})
+        cursor = end
+    if cursor != len(transcript):
+        raise ValueError("semantic spans do not cover transcript end")
+    return collapsed
+
+
+def _detect_silences(path: Path, noise: str = "-38dB", minimum: float = 0.06) -> list[tuple[float, float]]:
+    completed = subprocess.run(
+        [
+            "ffmpeg",
+            "-hide_banner",
+            "-nostats",
+            "-i",
+            str(path),
+            "-af",
+            f"silencedetect=noise={noise}:d={minimum}",
+            "-f",
+            "null",
+            "-",
+        ],
+        text=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.PIPE,
+        check=True,
+    )
+    starts: list[float] = []
+    silences: list[tuple[float, float]] = []
+    for line in completed.stderr.splitlines():
+        if "silence_start:" in line:
+            starts.append(float(line.split("silence_start:", 1)[1].strip().split()[0]))
+        elif "silence_end:" in line and starts:
+            end = float(line.split("silence_end:", 1)[1].strip().split()[0])
+            silences.append((starts.pop(0), end))
+    duration = _probe_duration(path)
+    for start in starts:
+        silences.append((start, duration))
+    return silences
+
+
+def _silence_midpoints(path: Path) -> list[float]:
+    return [(start + end) / 2 for start, end in _detect_silences(path)]
+
+
+def _snap_to_silence(expected: float, candidates: list[float], radius: float) -> float:
+    nearby = [value for value in candidates if abs(value - expected) <= radius]
+    return min(nearby, key=lambda value: abs(value - expected)) if nearby else expected
+
+
+def _source_timing_map(
+    transcript: str,
+    regions: list[dict[str, Any]],
+    source_path: Path,
+) -> list[dict[str, Any]]:
+    duration = _probe_duration(source_path)
+    boundaries = [int(region["end"]) for region in regions[:-1]]
+    silences = _silence_midpoints(source_path)
+    snapped: list[float] = []
+    previous = 0.0
+    for char_end in boundaries:
+        expected = duration * (char_end / max(len(transcript), 1))
+        radius = max(0.28, min(1.2, duration * 0.035))
+        value = _snap_to_silence(expected, silences, radius)
+        value = max(previous + 0.02, min(value, duration - 0.02))
+        snapped.append(value)
+        previous = value
+    times = [0.0, *snapped, duration]
+    return [
+        {
+            "role": region["role"],
+            "start_seconds": times[index],
+            "end_seconds": times[index + 1],
+        }
+        for index, region in enumerate(regions)
+    ]
+
+
+def choose_role_segments(
+    regions: list[dict[str, Any]],
+    timed_by_voice: dict[str, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    selected: list[dict[str, Any]] = []
+    for index, region in enumerate(regions):
+        voice = ROLE_TO_VOICE[str(region["role"])]
+        source_regions = timed_by_voice[voice]
+        selected.append(
+            {
+                "role": region["role"],
+                "voice": voice,
+                "start_seconds": float(source_regions[index]["start_seconds"]),
+                "end_seconds": float(source_regions[index]["end_seconds"]),
+            }
+        )
+    return selected
+
+
+def _download_verified_capture(item: dict[str, Any], target: Path) -> None:
+    _run(
         [
             "curl",
             "-L",
@@ -221,139 +216,84 @@ def _download_verified_capture(capture: dict[str, Any], output: Path) -> None:
             "--retry-delay",
             "1",
             "-o",
-            str(output),
-            str(capture["preview_url"]),
-        ],
-        check=True,
+            str(target),
+            str(item["preview_url"]),
+        ]
     )
-    actual_sha = _sha256(output)
-    expected_sha = str(capture["sha256"]).lower()
-    if actual_sha.lower() != expected_sha:
-        raise ValueError(
-            f"source sha256 drift for chunk {capture['chunk']} voice {capture['voice']}: "
-            f"expected {expected_sha}, got {actual_sha}"
-        )
-    subprocess.run(
-        ["ffmpeg", "-v", "error", "-i", str(output), "-f", "null", "-"],
-        check=True,
-    )
+    _run(["ffmpeg", "-v", "error", "-i", str(target), "-f", "null", "-"])
+    digest = _sha256(target)
+    if digest != item["sha256"]:
+        raise ValueError(f"downloaded capture sha mismatch for chunk {item['chunk']} {item['voice']}")
 
 
 def _render_wav_segment(
     source: Path,
-    output: Path,
-    *,
+    target: Path,
     start_seconds: float | None = None,
     end_seconds: float | None = None,
 ) -> None:
-    filters: list[str] = []
-    if start_seconds is not None or end_seconds is not None:
-        start = 0.0 if start_seconds is None else float(start_seconds)
-        end = _probe_duration(source) if end_seconds is None else float(end_seconds)
-        if end - start <= 0.03:
-            raise ValueError(f"non-positive or tiny audio segment: {start:.6f}-{end:.6f}")
-        filters.append(f"atrim=start={start:.6f}:end={end:.6f}")
-        filters.append("asetpts=PTS-STARTPTS")
-
-    command = ["ffmpeg", "-loglevel", "error", "-y", "-i", str(source)]
-    if filters:
-        command.extend(["-af", ",".join(filters)])
-    command.extend(
-        [
-            "-ar",
-            str(SAMPLE_RATE),
-            "-ac",
-            str(CHANNELS),
-            "-c:a",
-            "pcm_s16le",
-            str(output),
-        ]
-    )
-    subprocess.run(command, check=True)
+    command = ["ffmpeg", "-y", "-v", "error"]
+    if start_seconds is not None:
+        command += ["-ss", f"{start_seconds:.6f}"]
+    command += ["-i", str(source)]
+    if end_seconds is not None:
+        duration = max(0.02, end_seconds - (start_seconds or 0.0))
+        command += ["-t", f"{duration:.6f}"]
+    command += ["-ac", "2", "-ar", "48000", "-c:a", "pcm_s16le", str(target)]
+    _run(command)
 
 
-def _concat_wavs(paths: list[Path], output: Path) -> None:
-    if not paths:
-        raise ValueError("cannot concatenate an empty WAV list")
-    concat_file = output.with_suffix(".concat.txt")
-    concat_file.write_text(
-        "".join(f"file '{path.resolve().as_posix()}'\n" for path in paths),
-        encoding="utf-8",
-    )
-    subprocess.run(
+def _concat_wavs(parts: list[Path], target: Path) -> None:
+    if not parts:
+        raise ValueError("cannot concatenate zero WAV parts")
+    if len(parts) == 1:
+        _run(["ffmpeg", "-y", "-v", "error", "-i", str(parts[0]), "-c:a", "pcm_s16le", str(target)])
+        return
+    list_path = target.with_suffix(".concat.txt")
+    list_path.write_text("".join(f"file '{path.as_posix()}'\n" for path in parts), encoding="utf-8")
+    _run(
         [
             "ffmpeg",
-            "-loglevel",
-            "error",
             "-y",
+            "-v",
+            "error",
             "-f",
             "concat",
             "-safe",
             "0",
             "-i",
-            str(concat_file),
-            "-ar",
-            str(SAMPLE_RATE),
-            "-ac",
-            str(CHANNELS),
+            str(list_path),
             "-c:a",
             "pcm_s16le",
-            str(output),
-        ],
-        check=True,
+            str(target),
+        ]
     )
 
 
-def _encode_final_mp3(chapter_wav: Path, output: Path) -> None:
-    output.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(
+def _encode_final_mp3(source_wav: Path, target: Path) -> None:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    _run(
         [
             "ffmpeg",
-            "-loglevel",
-            "error",
             "-y",
+            "-v",
+            "error",
             "-i",
-            str(chapter_wav),
+            str(source_wav),
             "-af",
-            f"apad=pad_dur={SETTLING_TAIL_SECONDS:.3f}",
-            "-c:a",
-            "libmp3lame",
+            f"apad=pad_dur={SETTLING_TAIL_SECONDS}",
+            "-t",
+            f"{_probe_duration(source_wav) + SETTLING_TAIL_SECONDS:.6f}",
             "-b:a",
             BITRATE,
-            str(output),
-        ],
-        check=True,
+            str(target),
+        ]
     )
-    subprocess.run(
-        ["ffmpeg", "-v", "error", "-i", str(output), "-f", "null", "-"],
-        check=True,
-    )
+    _run(["ffmpeg", "-v", "error", "-i", str(target), "-f", "null", "-"])
 
 
-def _source_timing_map(
-    transcript: str,
-    collapsed_roles: list[dict[str, Any]],
-    source: Path,
-) -> list[dict[str, Any]]:
-    duration = _probe_duration(source)
-    silences = _detect_silences(source)
-    timed = build_timed_role_spans(
-        transcript,
-        collapsed_roles,
-        duration_seconds=duration,
-        silence_intervals=silences,
-    )
-    if len(timed) != len(collapsed_roles):
-        raise ValueError("timing map changed speaker-transition geometry")
-    return timed
-
-
-def build_record(record: str, *, root: Path | None = None) -> dict[str, Any]:
-    """Build one verified short-dual 3L chapter and return its audit receipt."""
-    if not record.isdigit() or len(record) != 3:
-        raise ValueError("record must be a zero-padded three-digit number")
+def build_record(record: str, root: Path | None = None) -> dict[str, Any]:
     root = root or Path(__file__).resolve().parents[1]
-
     plan_path = root / f"3l/audio/record-{record}-short-dual-plan.json"
     source_receipt_path = root / f"3l/audio/verification/record-{record}-short-captures.json"
     output_path = root / f"3l/assets/audio/record-{record}.mp3"
@@ -441,6 +381,7 @@ def build_record(record: str, *, root: Path | None = None) -> dict[str, Any]:
         "record": record,
         "method": "verified-preview-safe-short-dual-semantic-splice",
         "plan": str(plan_path.relative_to(root)),
+        "plan_sha256": _sha256(plan_path),
         "source_verification": str(source_receipt_path.relative_to(root)),
         "source_verification_sha256": _sha256(source_receipt_path),
         "voices": {"greg": "deep", "dragon": "normal"},
