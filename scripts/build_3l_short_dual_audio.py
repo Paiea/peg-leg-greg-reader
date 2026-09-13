@@ -57,6 +57,50 @@ def validate_capture_manifest(
     return indexed
 
 
+def validate_verified_capture_receipt(
+    plan: dict[str, Any], receipt: dict[str, Any]
+) -> dict[tuple[int, str], dict[str, Any]]:
+    """Validate the verifier's immutable source receipt before assembly."""
+    if str(receipt.get("record")) != str(plan.get("record")):
+        raise ValueError("record mismatch between plan and verified capture receipt")
+
+    expected = set(expected_capture_keys(plan))
+    planned_count = len(expected)
+    if (
+        receipt.get("complete") is not True
+        or receipt.get("missing") not in ([], None)
+        or int(receipt.get("verified_capture_count", -1)) != planned_count
+        or int(receipt.get("planned_capture_count", -1)) != planned_count
+    ):
+        raise ValueError("incomplete verified capture receipt")
+
+    indexed: dict[tuple[int, str], dict[str, Any]] = {}
+    for capture in receipt.get("captures", []):
+        key = (int(capture["chunk"]), str(capture["voice"]))
+        if key in indexed:
+            raise ValueError(f"duplicate verified capture for chunk {key[0]} voice {key[1]}")
+        if key not in expected:
+            raise ValueError(f"unexpected verified capture for chunk {key[0]} voice {key[1]}")
+        if capture.get("status") != "verified":
+            raise ValueError(f"unverified capture for chunk {key[0]} voice {key[1]}")
+        preview_url = capture.get("preview_url")
+        if not isinstance(preview_url, str) or not preview_url.startswith(("http://", "https://")):
+            raise ValueError(f"missing preview_url for chunk {key[0]} voice {key[1]}")
+        sha256 = capture.get("sha256")
+        if (
+            not isinstance(sha256, str)
+            or len(sha256) != 64
+            or any(char not in "0123456789abcdefABCDEF" for char in sha256)
+        ):
+            raise ValueError(f"invalid sha256 for chunk {key[0]} voice {key[1]}")
+        indexed[key] = capture
+
+    actual = set(indexed)
+    if actual != expected:
+        raise ValueError("incomplete verified capture receipt")
+    return indexed
+
+
 def choose_role_segments(
     semantic_spans: list[dict[str, Any]],
     timed_by_voice: dict[str, list[dict[str, Any]]],
