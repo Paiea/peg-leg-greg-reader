@@ -4,36 +4,13 @@
   "plan": "3l/audio/record-003-short-dual-plan.json",
   "capture_manifests": [
     "3l/audio/record-003-short-captures-001-004.json",
-    "3l/audio/record-003-short-captures-005-007.json"
+    "3l/audio/record-003-short-captures-005-007.json",
+    "3l/audio/record-003-short-captures-008-010.json"
   ],
-  "verified_capture_count": 13,
+  "verified_capture_count": 19,
   "planned_capture_count": 62,
   "complete": false,
   "missing": [
-    {
-      "chunk": 8,
-      "voice": "deep"
-    },
-    {
-      "chunk": 8,
-      "voice": "normal"
-    },
-    {
-      "chunk": 9,
-      "voice": "deep"
-    },
-    {
-      "chunk": 9,
-      "voice": "normal"
-    },
-    {
-      "chunk": 10,
-      "voice": "deep"
-    },
-    {
-      "chunk": 10,
-      "voice": "normal"
-    },
     {
       "chunk": 11,
       "voice": "deep"
@@ -350,6 +327,72 @@
       "sha256": "bb091dc28682a8f3d0f4dfef5938225113c854e14abc22082554df1b84beee45",
       "status": "verified",
       "manifest": "3l/audio/record-003-short-captures-005-007.json"
+    },
+    {
+      "chunk": 8,
+      "voice": "deep",
+      "context_id": "9261408ace714b8a94086f1e84abc085",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f9b97394-eedb-4c7d-8762-b801bb24fd97.mp3",
+      "duration_seconds": 29.064,
+      "byte_size": 465024,
+      "sha256": "6998c9090a1e2f0667bd758947d1d907c2d5e7b2d2523ee9907a83b2118d529e",
+      "status": "verified",
+      "manifest": "3l/audio/record-003-short-captures-008-010.json"
+    },
+    {
+      "chunk": 8,
+      "voice": "normal",
+      "context_id": "699a8ab1434f4062a3aeb2994e154aa6",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2dd72365-9e57-40c8-a8c9-5069d4599351.mp3",
+      "duration_seconds": 29.088,
+      "byte_size": 465408,
+      "sha256": "6246615a312198cd488b9413a7980197f508d0fdaa0b11f5254f6906dc2103b7",
+      "status": "verified",
+      "manifest": "3l/audio/record-003-short-captures-008-010.json"
+    },
+    {
+      "chunk": 9,
+      "voice": "deep",
+      "context_id": "afcdde902d2a49ccb4720bea681ec88a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/736a54b3-7041-482d-8e6f-b1aa758718bb.mp3",
+      "duration_seconds": 27.672,
+      "byte_size": 442752,
+      "sha256": "a48bd4982396ef60dd6fafb0a1842125d27e9d3f1ddf6b4a6d11373ff25a33fc",
+      "status": "verified",
+      "manifest": "3l/audio/record-003-short-captures-008-010.json"
+    },
+    {
+      "chunk": 9,
+      "voice": "normal",
+      "context_id": "6c4a097a0e504683a5287448a2044d61",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/028260ab-9150-4f77-9da7-d9fda41b5ec3.mp3",
+      "duration_seconds": 27.672,
+      "byte_size": 442752,
+      "sha256": "010ec7b97531260fad7589d52083f9f152a9666d65ffad76fcb14fe052b43183",
+      "status": "verified",
+      "manifest": "3l/audio/record-003-short-captures-008-010.json"
+    },
+    {
+      "chunk": 10,
+      "voice": "deep",
+      "context_id": "7ee431ab3afc4e9585dd2fc4efe4cb29",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/466e72c4-3562-4eae-8646-b23e83c34727.mp3",
+      "duration_seconds": 27.288,
+      "byte_size": 436608,
+      "sha256": "3fda2cdd585a92e96f4b98be0723ff002ca536e4de636e63fbec00f44f795d3b",
+      "status": "verified",
+      "manifest": "3l/audio/record-003-short-captures-008-010.json"
+    },
+    {
+      "chunk": 10,
+      "voice": "normal",
+      "context_id": "94456b15ed8b4e1b9de7a34de676b596",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/04f1f02b-ef12-4ca8-8ec3-02c5e00e7e03.mp3",
+      "duration_seconds": 27.36,
+      "byte_size": 437760,
+      "sha256": "b68fe39de31abf4962cb8b527be3406d989ec7e2f0bbc9e55f3466650faeb036",
+      "status": "verified",
+      "manifest": "3l/audio/record-003-short-captures-008-010.json"
     }
   ]
 }
