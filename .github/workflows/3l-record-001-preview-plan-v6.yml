@@ -65,7 +65,7 @@ jobs:
                       dragon_open = not p.endswith('”')
                   else:
                       voice = 'deep'
-                      if not p.endswith('”'):
+                      if '”' not in p:
                           raise SystemExit(f'Unexpected multi-paragraph Greg quote at paragraph {idx}: {p[:160]!r}')
               else:
                   voice = 'deep'
