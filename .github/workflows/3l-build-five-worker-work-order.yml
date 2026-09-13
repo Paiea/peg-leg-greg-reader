@@ -1,0 +1,103 @@
+name: Build 3L Five-Worker Work Order
+
+on:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+    paths:
+      - 3l/audio/record-002-short-dual-plan.json
+      - 3l/audio/record-003-short-dual-plan.json
+      - 3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md
+      - scripts/build_3l_parallel_audio_work_order.py
+      - tests/test_3l_parallel_audio_work_order.py
+      - .github/workflows/3l-build-five-worker-work-order.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout focused production files
+        uses: actions/checkout@v4
+        with:
+          ref: 3l/dialogue-territory-rebuild-002-010
+          fetch-depth: 1
+          sparse-checkout: |
+            3l/audio/record-002-short-dual-plan.json
+            3l/audio/record-003-short-dual-plan.json
+            3l/audio/PARALLEL_INSTANT_WORKER_AUTHORITY.md
+            3l/audio/records-002-003-five-worker-work-order.json
+            3l/audio/workers/
+            scripts/build_3l_parallel_audio_work_order.py
+            tests/test_3l_parallel_audio_work_order.py
+          sparse-checkout-cone-mode: false
+
+      - name: Verify allocator contract
+        run: python -m unittest tests/test_3l_parallel_audio_work_order.py -v
+
+      - name: Build frozen five-worker work order
+        run: |
+          python scripts/build_3l_parallel_audio_work_order.py \
+            3l/audio/record-002-short-dual-plan.json \
+            3l/audio/record-003-short-dual-plan.json \
+            --output 3l/audio/records-002-003-five-worker-work-order.json \
+            --worker-dir 3l/audio/workers \
+            --worker-count 5 \
+            --branch "${GITHUB_REF_NAME}" \
+            --source-sha "${GITHUB_SHA}"
+
+      - name: Validate frozen output
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          master = json.loads(Path('3l/audio/records-002-003-five-worker-work-order.json').read_text())
+          assert master['status'] == 'frozen_work_order'
+          assert master['worker_count'] == 5
+          assert len(master['workers']) == 5
+          loads = master['capture_loads']
+          assert max(loads) - min(loads) <= 1, loads
+
+          expected = {
+              (capture['record'], capture['chunk_index'], capture['voice'])
+              for worker in master['workers']
+              for capture in worker['captures']
+          }
+          assert len(expected) == master['total_captures']
+
+          worker_files = sorted(Path('3l/audio/workers').glob('records-002-003-instant-*-work-order.json'))
+          assert len(worker_files) == 5, worker_files
+          actual = set()
+          for path in worker_files:
+              worker = json.loads(path.read_text())
+              for capture in worker['captures']:
+                  key = (capture['record'], capture['chunk_index'], capture['voice'])
+                  assert key not in actual, key
+                  actual.add(key)
+          assert actual == expected
+          print('chunks=', master['total_chunks'])
+          print('captures=', master['total_captures'])
+          print('loads=', loads)
+          PY
+
+      - name: Commit frozen work orders
+        run: |
+          git add \
+            3l/audio/records-002-003-five-worker-work-order.json \
+            3l/audio/workers/records-002-003-instant-1-work-order.json \
+            3l/audio/workers/records-002-003-instant-2-work-order.json \
+            3l/audio/workers/records-002-003-instant-3-work-order.json \
+            3l/audio/workers/records-002-003-instant-4-work-order.json \
+            3l/audio/workers/records-002-003-instant-5-work-order.json
+          if git diff --cached --quiet; then
+            echo "Five-worker work order already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Freeze 3L 002-003 five-worker audio work order"
+          git push origin HEAD:3l/dialogue-territory-rebuild-002-010
