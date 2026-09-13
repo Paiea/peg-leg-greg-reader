@@ -12,7 +12,10 @@ This directory is intentionally isolated from the existing PLG and R2 reader sur
 
 - Opening Records 001-010 design: `../docs/superpowers/specs/2026-09-12-3l-opening-records-001-010-design.md`
 - Voice and performance authority: `VOICE_PERFORMANCE_AUTHORITY.md`
+- Execution and anti-stall recovery authority: `WORK_RECOVERY_AUTHORITY.md`
 
 Canon prose remains the story authority. Derived performance/audio artifacts must preserve canon wording and meaning.
+
+Readable record pages are independent of audio production. Generated record HTML contains the current canon prose directly so a stalled audio or automation path cannot block reading.
 
 Generated concept art is wired through stable optional paths documented in `ASSET_HANDOFF.md`. The site remains usable before those binaries are uploaded.
