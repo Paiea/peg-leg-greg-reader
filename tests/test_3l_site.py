@@ -9,13 +9,15 @@ class ThirdLegSiteTests(unittest.TestCase):
     def test_site_files_and_identity(self):
         home = ROOT / "3l" / "index.html"
         css = ROOT / "3l" / "assets" / "css" / "site.css"
+        record_css = ROOT / "3l" / "assets" / "css" / "record.css"
         record = ROOT / "3l" / "records" / "001.html"
         records = ROOT / "3l" / "records" / "index.html"
         audio = ROOT / "3l" / "audio" / "index.html"
         about = ROOT / "3l" / "about" / "index.html"
         hero = ROOT / "3l" / "assets" / "images" / "hero" / "dragon-bargain.png"
         audio_art = ROOT / "3l" / "assets" / "images" / "audio" / "audio-library.png"
-        for path in (home, css, record, records, audio, about, hero, audio_art):
+        manuscript = ROOT / "3l" / "manuscript" / "record-001.md"
+        for path in (home, css, record_css, record, records, audio, about, hero, audio_art, manuscript):
             self.assertTrue(path.exists(), path)
 
         html = home.read_text(encoding="utf-8")
@@ -23,7 +25,7 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn("THE THIRD LEG", html)
         self.assertIn("A Record of Two Lives", html)
         self.assertIn("BEGIN THE ACCOUNT", html)
-        self.assertIn("THE BARGAINER", html)
+        self.assertIn("THE PETITIONER", html)
         self.assertIn("He came to ask something of a dragon.", html)
         self.assertIn("The price was an explanation.", html)
         self.assertIn('class="entry-panel"', html)
@@ -50,14 +52,31 @@ class ThirdLegSiteTests(unittest.TestCase):
         self.assertIn('href="../3l/"', r2_home)
         self.assertNotIn(">R3<", r2_home)
 
-    def test_record_and_audio_shells_are_safe_before_content_exists(self):
+    def test_record_001_is_published_with_prose_and_voice_entry(self):
         record = (ROOT / "3l" / "records" / "001.html").read_text(encoding="utf-8")
+        manuscript = (ROOT / "3l" / "manuscript" / "record-001.md").read_text(encoding="utf-8")
         audio = (ROOT / "3l" / "audio" / "index.html").read_text(encoding="utf-8")
+        records = (ROOT / "3l" / "records" / "index.html").read_text(encoding="utf-8")
+
         self.assertIn("RECORD 001", record)
-        self.assertIn("THE BARGAINER", record)
-        self.assertIn("The account is being prepared.", record)
-        self.assertIn("LISTENING ARCHIVE", audio)
-        self.assertIn("No audio records have been published yet.", audio)
+        self.assertIn("THE PETITIONER", record)
+        self.assertIn('id="listen"', record)
+        self.assertIn('id="read"', record)
+        self.assertIn("record-001.md", record)
+        self.assertIn("a2af6461-e2f2-48e1-9573-b1c07fff2396.mp3", record)
+        self.assertIn("d53f086b9a64427ba8aa22ca77580def", record)
+        self.assertNotIn("The account is being prepared.", record)
+
+        self.assertIn("The dragon yawns while I am explaining how many people are going to die.", manuscript)
+        self.assertTrue(manuscript.rstrip().endswith("“Not this time.”"))
+
+        self.assertIn("RECORD 001", audio)
+        self.assertIn("THE PETITIONER", audio)
+        self.assertIn("Play Full Record", audio)
+        self.assertNotIn("No audio records have been published yet.", audio)
+
+        self.assertIn("THE PETITIONER", records)
+        self.assertNotIn("Publication pending", records)
 
 
 if __name__ == "__main__":
