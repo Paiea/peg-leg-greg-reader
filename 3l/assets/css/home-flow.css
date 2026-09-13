@@ -5,6 +5,17 @@
   border-bottom: 1px solid var(--line);
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
+}
+
+.hero-actions .medium-note {
+  flex-basis: 100%;
+}
+
 .entry-panel {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(240px, .55fr);
@@ -41,29 +52,11 @@
 }
 
 .listening-feature {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr);
-  min-height: 430px;
-  margin-top: 3.2rem;
-  border: 1px solid var(--line);
-  background: var(--panel-deep);
-}
-
-.listening-feature-art {
-  min-height: 430px;
-  background-color: #0b0d0c;
-  background-image:
-    linear-gradient(180deg, rgba(7,8,7,.08), rgba(7,8,7,.84)),
-    url('../images/audio/audio-library.png');
-  background-position: center;
-  background-size: cover;
+  padding: 3rem 0;
 }
 
 .listening-feature-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: clamp(2rem, 4vw, 4rem);
+  max-width: 760px;
 }
 
 .listening-feature h2,
@@ -118,7 +111,6 @@
 
 @media (max-width: 900px) {
   .entry-panel,
-  .listening-feature,
   .written-reference,
   .lineage-strip {
     grid-template-columns: 1fr;
@@ -128,32 +120,20 @@
     gap: 1.2rem;
   }
 
-  .listening-feature-art {
-    min-height: 360px;
-  }
-
   .lineage-links {
     align-items: flex-start;
   }
 }
 
 @media (max-width: 760px) {
+  .hero-actions .button {
+    width: 100%;
+  }
+
   .entry-panel,
+  .listening-feature,
   .written-reference,
   .lineage-strip {
     padding: 2.2rem 0;
-  }
-
-  .listening-feature {
-    margin-top: 2.2rem;
-  }
-
-  .listening-feature-art {
-    min-height: 300px;
-    background-position: center 42%;
-  }
-
-  .listening-feature-copy {
-    padding: 1.5rem;
   }
 }
