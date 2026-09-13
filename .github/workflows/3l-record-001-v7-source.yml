@@ -36,51 +36,31 @@ jobs:
           if marker not in old:
               raise SystemExit('splice marker missing')
           suffix = old[old.index(marker):]
-          opening = '''## RECORD 001
-
-## THE PETITIONER
-
-The dragon yawned while I was explaining how many people were going to die.
-
-It was not a small yawn.
-
-Its head lifted from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.
-
-I stopped talking.
-
-Not because I was afraid.
-
-I was afraid, obviously.
-
-I was just also offended.
-
-“Am I boring you?”
-
-One eye opened halfway.
-
-The eye studied me.
-
-Then one nostril moved.
-
-“Mm.”
-
-“Food has arrived.”
-
-I had spent six days getting there.
-
-Six days up a mountain nobody used unless they were lost, stupid, or being paid enough to temporarily become both. My left knee had stopped pretending it was fine somewhere around the second ridge. One boot had split at the heel. I had slept badly, eaten worse, and lost a horse.
-
-Not metaphorically.
-
-The horse was gone.
-
-The other eye opened.
-
-“Is your name Dinner?”
-
-“Greg.”
-
-'''
+          parts = [
+              '## RECORD 001',
+              '## THE PETITIONER',
+              'The dragon yawned while I was explaining how many people were going to die.',
+              'It was not a small yawn.',
+              'Its head lifted from the shelf of black stone where it had been resting, and the cave changed shape around it. Gold caught somewhere behind the teeth. Heat rolled across the floor in a slow wave.',
+              'I stopped talking.',
+              'Not because I was afraid.',
+              'I was afraid, obviously.',
+              'I was just also offended.',
+              '“Am I boring you?”',
+              'One eye opened halfway.',
+              'The eye studied me.',
+              'Then one nostril moved.',
+              '“Mm.”',
+              '“Food has arrived.”',
+              'I had spent six days getting there.',
+              'Six days up a mountain nobody used unless they were lost, stupid, or being paid enough to temporarily become both. My left knee had stopped pretending it was fine somewhere around the second ridge. One boot had split at the heel. I had slept badly, eaten worse, and lost a horse.',
+              'Not metaphorically.',
+              'The horse was gone.',
+              'The other eye opened.',
+              '“Is your name Dinner?”',
+              '“Greg.”',
+          ]
+          opening = '\n\n'.join(parts) + '\n\n'
           new = opening + suffix
           assert new.startswith('## RECORD 001\n\n## THE PETITIONER\n\nThe dragon yawned while I was explaining how many people were going to die.')
           assert '“Ithar.”' in new
