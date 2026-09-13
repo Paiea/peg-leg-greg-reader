@@ -6,8 +6,8 @@ on:
       - 3l/records-002-010-write2
     paths:
       - '.github/workflows/3l-verify-short-captures.yml'
-      - '3l/audio/record-002-short-captures.json'
-      - '3l/audio/record-003-short-captures.json'
+      - '3l/audio/record-002-short-captures*.json'
+      - '3l/audio/record-003-short-captures*.json'
       - '3l/audio/record-002-short-dual-plan.json'
       - '3l/audio/record-003-short-dual-plan.json'
 
@@ -49,59 +49,72 @@ jobs:
           verification_dir.mkdir(parents=True, exist_ok=True)
 
           for record in ('002', '003'):
-              capture_path = root / f'3l/audio/record-{record}-short-captures.json'
+              capture_paths = sorted((root / '3l/audio').glob(f'record-{record}-short-captures*.json'))
+              capture_paths = [p for p in capture_paths if p.parent.name != 'verification']
               plan_path = root / f'3l/audio/record-{record}-short-dual-plan.json'
-              if not capture_path.exists():
-                  print(record, 'no capture manifest yet; skipping')
+              if not capture_paths:
+                  print(record, 'no capture manifests yet; skipping')
                   continue
 
-              captures = json.loads(capture_path.read_text(encoding='utf-8'))
               plan = json.loads(plan_path.read_text(encoding='utf-8'))
               chunks = {int(chunk['index']): chunk for chunk in plan['chunks']}
               seen = set()
               verified = []
+              authority = None
+              plan_ref = None
 
-              for item in captures['captures']:
-                  chunk_index = int(item['chunk'])
-                  voice = item['voice']
-                  key = (chunk_index, voice)
-                  if key in seen:
-                      raise ValueError(f'{record}: duplicate capture {key}')
-                  seen.add(key)
+              for capture_path in capture_paths:
+                  manifest = json.loads(capture_path.read_text(encoding='utf-8'))
+                  if manifest.get('record') != record:
+                      raise ValueError(f'{capture_path}: record mismatch')
+                  if authority is None:
+                      authority = manifest['authority']
+                      plan_ref = manifest['plan']
+                  elif manifest['authority'] != authority or manifest['plan'] != plan_ref:
+                      raise ValueError(f'{capture_path}: authority or plan mismatch')
 
-                  chunk = chunks.get(chunk_index)
-                  if not chunk:
-                      raise ValueError(f'{record}: unknown chunk {chunk_index}')
-                  if voice not in chunk['required_voices']:
-                      raise ValueError(f'{record}: voice {voice} not required for chunk {chunk_index}')
-                  if item['transcript'] != chunk['transcript']:
-                      raise ValueError(f'{record}: transcript mismatch for chunk {chunk_index} {voice}')
-                  if item.get('status') != 'ready':
-                      raise ValueError(f'{record}: capture not ready for chunk {chunk_index} {voice}')
+                  for item in manifest['captures']:
+                      chunk_index = int(item['chunk'])
+                      voice = item['voice']
+                      key = (chunk_index, voice)
+                      if key in seen:
+                          raise ValueError(f'{record}: duplicate capture {key} in {capture_path}')
+                      seen.add(key)
 
-                  out = temp / f'record-{record}-chunk-{chunk_index:03d}-{voice}.mp3'
-                  subprocess.run([
-                      'curl', '-L', '--fail', '--retry', '3', '--retry-delay', '1',
-                      '-o', str(out), item['preview_url']
-                  ], check=True)
-                  subprocess.run(['ffmpeg', '-v', 'error', '-i', str(out), '-f', 'null', '-'], check=True)
-                  duration = float(subprocess.check_output([
-                      'ffprobe', '-v', 'error', '-show_entries', 'format=duration',
-                      '-of', 'default=nw=1:nk=1', str(out)
-                  ], text=True).strip())
-                  if duration <= 0.5:
-                      raise ValueError(f'{record}: suspicious duration {duration} for chunk {chunk_index} {voice}')
-                  data = out.read_bytes()
-                  verified.append({
-                      'chunk': chunk_index,
-                      'voice': voice,
-                      'context_id': item['context_id'],
-                      'preview_url': item['preview_url'],
-                      'duration_seconds': round(duration, 6),
-                      'byte_size': len(data),
-                      'sha256': hashlib.sha256(data).hexdigest(),
-                      'status': 'verified',
-                  })
+                      chunk = chunks.get(chunk_index)
+                      if not chunk:
+                          raise ValueError(f'{record}: unknown chunk {chunk_index}')
+                      if voice not in chunk['required_voices']:
+                          raise ValueError(f'{record}: voice {voice} not required for chunk {chunk_index}')
+                      if item['transcript'] != chunk['transcript']:
+                          raise ValueError(f'{record}: transcript mismatch for chunk {chunk_index} {voice}')
+                      if item.get('status') != 'ready':
+                          raise ValueError(f'{record}: capture not ready for chunk {chunk_index} {voice}')
+
+                      out = temp / f'record-{record}-chunk-{chunk_index:03d}-{voice}.mp3'
+                      subprocess.run([
+                          'curl', '-L', '--fail', '--retry', '3', '--retry-delay', '1',
+                          '-o', str(out), item['preview_url']
+                      ], check=True)
+                      subprocess.run(['ffmpeg', '-v', 'error', '-i', str(out), '-f', 'null', '-'], check=True)
+                      duration = float(subprocess.check_output([
+                          'ffprobe', '-v', 'error', '-show_entries', 'format=duration',
+                          '-of', 'default=nw=1:nk=1', str(out)
+                      ], text=True).strip())
+                      if duration <= 0.5:
+                          raise ValueError(f'{record}: suspicious duration {duration} for chunk {chunk_index} {voice}')
+                      data = out.read_bytes()
+                      verified.append({
+                          'chunk': chunk_index,
+                          'voice': voice,
+                          'context_id': item['context_id'],
+                          'preview_url': item['preview_url'],
+                          'duration_seconds': round(duration, 6),
+                          'byte_size': len(data),
+                          'sha256': hashlib.sha256(data).hexdigest(),
+                          'status': 'verified',
+                          'manifest': str(capture_path),
+                      })
 
               expected = {
                   (int(chunk['index']), voice)
@@ -109,10 +122,12 @@ jobs:
                   for voice in chunk['required_voices']
               }
               missing = sorted(expected - seen)
+              verified.sort(key=lambda item: (item['chunk'], item['voice']))
               receipt = {
                   'record': record,
-                  'authority': captures['authority'],
-                  'plan': captures['plan'],
+                  'authority': authority,
+                  'plan': plan_ref,
+                  'capture_manifests': [str(p) for p in capture_paths],
                   'verified_capture_count': len(verified),
                   'planned_capture_count': len(expected),
                   'complete': not missing,
@@ -121,7 +136,7 @@ jobs:
               }
               receipt_path = verification_dir / f'record-{record}-short-captures.json'
               receipt_path.write_text(json.dumps(receipt, indent=2) + '\n', encoding='utf-8')
-              print(record, f"verified={len(verified)}/{len(expected)} complete={not missing}")
+              print(record, f"verified={len(verified)}/{len(expected)} complete={not missing} manifests={len(capture_paths)}")
           PY
       - name: Commit verification receipts
         shell: bash
