@@ -27,7 +27,6 @@ jobs:
 
           source_path = pathlib.Path('3l/manuscript/record-001.md')
           raw = source_path.read_text()
-          # Audio body excludes markdown title headings only.
           paras = [p.strip() for p in re.split(r'\n\s*\n', raw) if p.strip() and not p.strip().startswith('## ')]
 
           dragon_short = {
@@ -42,16 +41,18 @@ jobs:
           }
           dragon_long_starts = (
               '“No. And before you repeat the number',
+              '“This was part of the fourth.',
               '“You crossed half a kingdom on a leg',
               '“Nine living things have known that name',
+              '“That does not frighten me, Greg.',
               '“You believe I am examining what you know.',
+              '“I am not trying to collect facts, Greg.',
               '“The western Line has not failed during your lifetime.',
-              '“No.\n',
+              '“No.',
           )
 
           labeled = []
           dragon_open = False
-          unknown_quoted = []
           for idx, p in enumerate(paras):
               if dragon_open:
                   if not p.startswith('“'):
@@ -64,7 +65,6 @@ jobs:
                       dragon_open = not p.endswith('”')
                   else:
                       voice = 'deep'
-                      # Greg has no multi-paragraph direct-speech blocks in this record.
                       if not p.endswith('”'):
                           raise SystemExit(f'Unexpected multi-paragraph Greg quote at paragraph {idx}: {p[:160]!r}')
               else:
@@ -73,10 +73,8 @@ jobs:
           if dragon_open:
               raise SystemExit('Unclosed Dragon quotation at EOF')
 
-          # Audit all short quoted paragraphs that became Deep, so ownership is inspectable.
           deep_quotes = [x['text'] for x in labeled if x['voice'] == 'deep' and x['text'].startswith('“')]
 
-          # Merge adjacent paragraphs owned by same voice into dramatic runs.
           runs = []
           for item in labeled:
               if runs and runs[-1]['voice'] == item['voice']:
@@ -93,7 +91,6 @@ jobs:
               pieces, cur = [], ''
               for sentence in sentences:
                   if len(sentence) > MAX_CHARS:
-                      # Last-resort clause/space split, preserving every character except normalized whitespace.
                       words = sentence.split()
                       for word in words:
                           cand = (cur + ' ' + word).strip()
@@ -117,7 +114,6 @@ jobs:
           dramatic_run = 0
           for run in runs:
               dramatic_run += 1
-              voice = run['voice']
               technical = []
               cur = ''
               for para in run['paragraphs']:
@@ -135,13 +131,11 @@ jobs:
                       'id': f'{len(chunks)+1:03d}',
                       'dramatic_run': dramatic_run,
                       'part_in_run': i,
-                      'voice': voice,
+                      'voice': run['voice'],
                       'text': text,
                       'chars': len(text),
                   })
 
-          # Pauses: 80ms inside same dramatic run; 280ms at ordinary speaker/run boundaries.
-          # Give a few known major reveals more room.
           major_endings = {
               'I am trying to determine what kind of cause produces you.”': 700,
               '“How do you know the Line will fail?”': 700,
@@ -152,17 +146,13 @@ jobs:
               '“You were not.”': 1000,
           }
           for i, chunk in enumerate(chunks):
-              if i + 1 < len(chunks) and chunks[i+1]['dramatic_run'] == chunk['dramatic_run']:
-                  pause = 80
-              else:
-                  pause = 280
+              pause = 80 if i + 1 < len(chunks) and chunks[i+1]['dramatic_run'] == chunk['dramatic_run'] else 280
               stripped = chunk['text'].strip()
               for ending, ms in major_endings.items():
                   if stripped.endswith(ending):
                       pause = ms
               chunk['pause_after_ms'] = pause
 
-          # Speaker/shape checks.
           if any(c['chars'] > MAX_CHARS for c in chunks):
               raise SystemExit('Technical chunk exceeds preview ceiling')
           dragon_runs = [r for r in runs if r['voice'] == 'normal']
