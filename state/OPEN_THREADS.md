@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-Compact unresolved-state ledger at the end of original Peg-Leg Greg / Run 1. `MANUSCRIPT_STATE.md` owns the exact endpoint. Exact prose outranks this file.
+Compact unresolved-state ledger at the end of original Peg-Leg Greg / Run 1. `MANUSCRIPT_STATE.md` owns exact endpoint/numerical state/trailhead. At this frozen terminal boundary there is no Chapter 504 trailhead. Exact prose outranks this file.
 
 ## Terminal edge
 - Current exact story endpoint: Chapter 503 - **THE AMATEUR**.
