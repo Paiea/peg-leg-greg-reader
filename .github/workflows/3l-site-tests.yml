@@ -1,0 +1,25 @@
+name: 3L Site Tests
+
+on:
+  push:
+    branches:
+      - 3l/marketed-r2-flow
+    paths:
+      - '3l/**'
+      - 'r2/index.html'
+      - 'tests/test_3l_site.py'
+      - '.github/workflows/3l-site-tests.yml'
+  pull_request:
+    paths:
+      - '3l/**'
+      - 'r2/index.html'
+      - 'tests/test_3l_site.py'
+      - '.github/workflows/3l-site-tests.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run 3L static site tests
+        run: python -m unittest tests.test_3l_site
