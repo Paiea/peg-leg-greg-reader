@@ -179,16 +179,17 @@ class R2SiteTests(unittest.TestCase):
         self.assertIn('height="941"', html)
         self.assertNotIn('assets/images/Home.png', html)
 
-    def test_chapter_art_batch_one_routes_real_assets(self):
+    def test_chapter_art_routes_real_assets_through_chapter_thirty(self):
         art = json.loads((R2 / 'data/chapter-art.json').read_text(encoding='utf-8'))
-        self.assertEqual(set(art), {f'r2-ch{i:03d}' for i in range(1, 11)})
-        for number in range(1, 11):
+        self.assertEqual(set(art), {f'r2-ch{i:03d}' for i in range(1, 31)})
+        for number in range(1, 31):
             chapter_id = f'r2-ch{number:03d}'
             images = art[chapter_id]
             self.assertEqual(len(images), 1)
             self.assertEqual(images[0]['role'], 'anchor')
-            self.assertEqual(images[0]['path'], f'assets/images/chapters/ch{number:03d}.png')
-            self.assertTrue((R2 / images[0]['path']).exists(), chapter_id)
+            expected_path = f'assets/images/chapters/ch{number:03d}.png'
+            self.assertEqual(images[0]['path'].split('?', 1)[0], expected_path)
+            self.assertTrue((R2 / expected_path).exists(), chapter_id)
 
 
 if __name__ == '__main__':
