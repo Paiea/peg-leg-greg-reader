@@ -1,0 +1,262 @@
+{
+  "record": "006",
+  "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
+  "plan": "3l/audio/record-006-short-dual-plan.json",
+  "capture_manifests": [
+    "3l/audio/record-006-short-captures-workers.json"
+  ],
+  "verified_capture_count": 21,
+  "planned_capture_count": 25,
+  "complete": false,
+  "missing": [
+    {
+      "chunk": 5,
+      "voice": "deep"
+    },
+    {
+      "chunk": 10,
+      "voice": "deep"
+    },
+    {
+      "chunk": 15,
+      "voice": "deep"
+    },
+    {
+      "chunk": 20,
+      "voice": "deep"
+    }
+  ],
+  "captures": [
+    {
+      "chunk": 1,
+      "voice": "deep",
+      "context_id": "a208193dce07452bac606139d5043c67",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/df0c31c7-fef4-4d0c-9d31-8ca4fbf0681f.mp3",
+      "duration_seconds": 15.648,
+      "byte_size": 250368,
+      "sha256": "2f7c8d1a2cce15d23e1982803a2618091baf5e570deb3746462a28bbde3072b9",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 2,
+      "voice": "deep",
+      "context_id": "95d5fb2d64d9449abd497c767bb5ca0f",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dd5a1bad-ca03-4de6-bbd1-2f6b50ecfefb.mp3",
+      "duration_seconds": 30.36,
+      "byte_size": 485760,
+      "sha256": "655b2a906809723b57f66e412fff3150c8311cd45fdec7b456ee8bc0df9b18af",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 2,
+      "voice": "normal",
+      "context_id": "abeb8d21938d46feafbf2e8f445a52e3",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/214d7377-133d-4e6f-8177-74c907e56b82.mp3",
+      "duration_seconds": 30.48,
+      "byte_size": 487680,
+      "sha256": "f395bbae190ddd51ab89440e5eaf41b666335f87ba6f58617b440a5ea2e8f7b9",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 3,
+      "voice": "deep",
+      "context_id": "2430132e0c704e999c2e6ee8d39a546a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/ae5d89e4-eb7a-46fd-b74f-ff3be9d0ecf1.mp3",
+      "duration_seconds": 27.24,
+      "byte_size": 435840,
+      "sha256": "f671cc685309a84e24bad7cc5b9d3156f1d94d42240a1369600f92a65bad6ad6",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 4,
+      "voice": "deep",
+      "context_id": "d627174ced25429fa21431c3792f7fb8",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/b3044ff6-2110-48ab-bf43-b6911f2abfdc.mp3",
+      "duration_seconds": 24.24,
+      "byte_size": 387840,
+      "sha256": "ac8c5a530064086544e30856acd0aa1e9b42028f2fa88ec5e4008a4e8371b58d",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 6,
+      "voice": "deep",
+      "context_id": "faa0657a6bc84a46b774650554f707b4",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/76b4de9e-ea23-443e-a36b-0f4a08bc27aa.mp3",
+      "duration_seconds": 27.288,
+      "byte_size": 436608,
+      "sha256": "0de8b483565c2ab1ab3c4ef9eda9a01539cf5033380d19ec7371b862dacdc699",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 7,
+      "voice": "deep",
+      "context_id": "807f41a5c1d341afb00253c027ecd3f1",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/7fd48b00-5479-4fdd-8dd7-1c247dc8de09.mp3",
+      "duration_seconds": 28.848,
+      "byte_size": 461568,
+      "sha256": "44f062c544ed4f22436d53930d04514a3bd0af6160c59cc6cb2ca52d92df0ef0",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 8,
+      "voice": "deep",
+      "context_id": "50f2369fa7f24ff497b679c25cacab52",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c883000a-25da-4146-b52d-25cca038ac89.mp3",
+      "duration_seconds": 23.544,
+      "byte_size": 376704,
+      "sha256": "5c9351ee5fd59eb66b6c3232d17c89cf1b6bfab9ab2210147d89a5b9c399187d",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 9,
+      "voice": "deep",
+      "context_id": "b646dae46c5c46c4948960d0154442c8",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5e8eba13-81f4-4275-adac-7c0426a9561a.mp3",
+      "duration_seconds": 28.488,
+      "byte_size": 455808,
+      "sha256": "e41822630c61c878074d6b9668c345c3a588e072fe359e5d9a5af1d0595ef035",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 11,
+      "voice": "deep",
+      "context_id": "f3e4c9f67ba242aa8251385d063fa7ca",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/fd0e1bd7-1054-4566-81ec-8a4d943960e0.mp3",
+      "duration_seconds": 26.664,
+      "byte_size": 426624,
+      "sha256": "690153859bf7a8f1efadb8043711be741efc50a4a0a892b58f8435b7145a4b92",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 12,
+      "voice": "deep",
+      "context_id": "8fe5451f1f9f4905a8fa3672c8841142",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/48e444fb-c09d-455c-9fd6-f012f4186f44.mp3",
+      "duration_seconds": 27.6,
+      "byte_size": 441600,
+      "sha256": "9b6d665044762a1c8a055d44cab353cb3da8d1346f2be5c655da5bf54a653257",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 13,
+      "voice": "deep",
+      "context_id": "c3b06a28c0024531bb7dc45ed5d14461",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/eb8fe90d-dc84-4781-baad-36df154bbeb5.mp3",
+      "duration_seconds": 24.6,
+      "byte_size": 393600,
+      "sha256": "7b9bc76a8bd375c38d595af2b7f152f9373632c152eb9df74e111aac569b5bbb",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 14,
+      "voice": "deep",
+      "context_id": "5d0e86eca9d349b7965b6480c543c53e",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a752b1e4-2e4a-4dd7-840b-68fc4591f852.mp3",
+      "duration_seconds": 28.584,
+      "byte_size": 457344,
+      "sha256": "8bb21b313a4a3e811023d41fb841b43a70b18ed0394f4873df7a7b8d4c26adf9",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 16,
+      "voice": "deep",
+      "context_id": "39efb87be2c2472d84fef2a9a61ac530",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/202b6619-92ac-40bb-b6df-08208d1463c1.mp3",
+      "duration_seconds": 28.968,
+      "byte_size": 463488,
+      "sha256": "a271a19dec54cc29d5b30cbaab5e1d54c4effcc872b3a90a88921a045e2f0eaf",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 17,
+      "voice": "deep",
+      "context_id": "d89a650c240f4c67babbc85cb41549d5",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/a9b67248-f8e1-440b-9489-0edf766df260.mp3",
+      "duration_seconds": 28.848,
+      "byte_size": 461568,
+      "sha256": "c09443faad7952fa9bd393e732e3a64102e54232378c81fc5e497d7a1606b2cd",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 18,
+      "voice": "deep",
+      "context_id": "984f708ebc7846ca813098b1a3d913cb",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/82b69fad-acf1-46e9-af3f-15269ee684ce.mp3",
+      "duration_seconds": 30.84,
+      "byte_size": 493440,
+      "sha256": "0701a9249cacd8e9d37f677d6377a2738a441ed0be841a000618190443c50543",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 19,
+      "voice": "deep",
+      "context_id": "fc5eb0d8f7d749ae8b6485f5f22b256f",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/dc891dbc-f796-4d8c-ae56-532f660045ad.mp3",
+      "duration_seconds": 25.08,
+      "byte_size": 401280,
+      "sha256": "8bf9ed44e8ab9c6e58bcdec2b3034a95658269da1025bf76182568d5e013fa6e",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 21,
+      "voice": "deep",
+      "context_id": "1d7f9bb380da4a2195577a88955968f1",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/5fc31a89-7fbf-44d1-9c1e-240d699dfbe0.mp3",
+      "duration_seconds": 28.848,
+      "byte_size": 461568,
+      "sha256": "01fe3c31ce5ff08306d72a766a1f2764d8ca68020b82cca7c706e369c2c1f493",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 22,
+      "voice": "deep",
+      "context_id": "ea4ada2572cc4cbbaebad8616b290362",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/da290b0f-f9fd-4553-a52a-1b64ffdeff82.mp3",
+      "duration_seconds": 28.824,
+      "byte_size": 461184,
+      "sha256": "168abbb2a22e4cf2686596c47c0bca9141f63c698ce948d7cfc8d1b6a54c5752",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 23,
+      "voice": "deep",
+      "context_id": "0c0eb843c8ba40839908c769b1070f55",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/4794364e-bed6-454c-8db1-ef9e56117d46.mp3",
+      "duration_seconds": 29.424,
+      "byte_size": 470784,
+      "sha256": "fc613335e58202f459839cc65479bcf5a9494876b2c547b281eb0f92a56b4fbc",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 24,
+      "voice": "deep",
+      "context_id": "62f2b98f76fe4bf68666a1f211c65156",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/c33fcbd3-bf8c-49da-8b44-152f762b3037.mp3",
+      "duration_seconds": 24.912,
+      "byte_size": 398592,
+      "sha256": "f5acffafc931a5bc8568a3d7dd342772f6f2c0c3432316845ab7ae6b2051aa03",
+      "status": "verified",
+      "manifest": "3l/audio/record-006-short-captures-workers.json"
+    }
+  ]
+}
