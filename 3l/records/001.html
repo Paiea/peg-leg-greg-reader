@@ -35,11 +35,22 @@
 
     <section class="record-audio" aria-labelledby="listen-title">
       <p class="eyebrow">LISTEN</p>
-      <h2 id="listen-title">Record 001</h2>
-      <audio class="audio-player" controls preload="metadata" src="../assets/audio/record-001.mp3">
-        Your browser does not support the audio element.
-      </audio>
-      <p class="audio-note">First listening pass. The Greg / Dragon two-voice performance is still being tuned.</p>
+      <h2 id="listen-title">Record 001 A/B</h2>
+      <p class="audio-note">Same canon. Same Greg performance. Version B applies the Dragon profile only to speech owned by the Dragon.</p>
+      <div class="audio-comparison">
+        <div class="audio-option">
+          <p class="audio-label">A · Original single voice</p>
+          <audio class="audio-player" controls preload="metadata" src="../assets/audio/record-001.mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="audio-option">
+          <p class="audio-label">B · Dragon profile candidate</p>
+          <audio class="audio-player" controls preload="metadata" src="../assets/audio/record-001-two-voice-candidate.mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
     </section>
 
     <section class="record-reading" aria-labelledby="read-title">
@@ -77,6 +88,14 @@
   </footer>
 
   <script>
+    document.querySelectorAll('.audio-player').forEach((player) => {
+      player.addEventListener('play', () => {
+        document.querySelectorAll('.audio-player').forEach((other) => {
+          if (other !== player) other.pause();
+        });
+      });
+    });
+
     const prose = document.getElementById('record-prose');
     fetch('../manuscript/record-001.md')
       .then((response) => {

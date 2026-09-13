@@ -457,6 +457,14 @@ main { padding-bottom: 4.5rem; }
 
 .page-actions { display: flex; flex-wrap: wrap; gap: .9rem; margin-top: 1.5rem; }
 
+.record-audio { padding: 2.4rem 0; border-bottom: 1px solid var(--line); }
+.record-audio h2 { margin: .35rem 0 0; font-weight: 400; font-size: 2rem; }
+.audio-note { max-width: 44rem; color: var(--muted); }
+.audio-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.4rem; }
+.audio-option { padding: 1.1rem; border: 1px solid var(--line); background: var(--panel-deep); }
+.audio-label { margin: 0 0 .7rem; color: var(--ink-soft); font-family: var(--ui); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.audio-player { display: block; width: 100%; }
+
 .archive-hero {
   min-height: 430px;
   margin-top: 1rem;
@@ -584,6 +592,7 @@ main { padding-bottom: 4.5rem; }
   .footer-mark { align-items: flex-start; }
 
   .page-main { padding: 2.6rem 0 4rem; }
+  .audio-comparison { grid-template-columns: 1fr; }
   .page-actions { flex-direction: column; }
   .page-actions .button { width: 100%; }
   .archive-hero { min-height: 520px; width: calc(100% + 28px); margin-left: -14px; border-left: 0; border-right: 0; }
