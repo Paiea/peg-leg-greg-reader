@@ -10,6 +10,18 @@
     "dragon": "normal"
   },
   "quote_roles_locked": false,
+  "dragon_routing_locked": true,
+  "dragon_prefixes": [
+    "“Not this time. You chose those words.",
+    "“You are fifty-nine now. You remember another history beginning at nineteen",
+    "“There are no redbacks north of Vey.",
+    "“Not black. Purple. The membrane was a pressure bladder.",
+    "“Ah.”",
+    "“Nhal was one of several things she called herself.",
+    "“That is useful. You are not merely carrying information that is old.",
+    "“You possess a coherent collection of memories",
+    "“The Line is why you came today."
+  ],
   "quote_count": 38,
   "chunk_count": 29,
   "chunks": [
@@ -298,7 +310,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg"
@@ -343,7 +355,7 @@
         {
           "start": 241,
           "end": 392,
-          "role": "dragon",
+          "role": "greg",
           "text": "“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”"
         },
         {
@@ -366,13 +378,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -424,22 +434,22 @@
       "transcript": "“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”",
       "char_count": 498,
       "roles": [
-        "greg"
+        "dragon"
       ],
       "semantic_spans": [
         {
           "start": 0,
           "end": 498,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”"
         }
       ],
       "required_voices": [
-        "deep"
+        "normal"
       ],
       "dual_render": false,
       "captures": {
-        "deep": null
+        "normal": null
       }
     },
     {
@@ -450,7 +460,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg",
@@ -479,7 +489,7 @@
         {
           "start": 85,
           "end": 93,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Years.”"
         },
         {
@@ -514,13 +524,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -531,14 +539,14 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
         "greg",
         "greg",
         "greg",
         "greg",
         "greg",
         "greg",
-        "dragon"
+        "greg",
+        "greg"
       ],
       "semantic_spans": [
         {
@@ -562,7 +570,7 @@
         {
           "start": 138,
           "end": 161,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Being nineteen again.”"
         },
         {
@@ -604,18 +612,16 @@
         {
           "start": 380,
           "end": 458,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Explaining knees to a dragon that still has all of his is going to annoy me.”"
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -738,7 +744,7 @@
       "char_count": 396,
       "roles": [
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg",
@@ -760,7 +766,7 @@
         {
           "start": 40,
           "end": 56,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Not like this.”"
         },
         {
@@ -825,13 +831,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -839,7 +843,7 @@
       "transcript": "“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”\n\nI leaned back against the stone behind me.\n\nIt was warm.\n\nEverything in the cave was warm.",
       "char_count": 318,
       "roles": [
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg"
@@ -848,7 +852,7 @@
         {
           "start": 0,
           "end": 226,
-          "role": "dragon",
+          "role": "greg",
           "text": "“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”"
         },
         {
@@ -871,13 +875,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -919,7 +921,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg"
@@ -952,7 +954,7 @@
         {
           "start": 320,
           "end": 360,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I killed a redback alone north of Vey.”"
         },
         {
@@ -975,13 +977,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -989,10 +989,10 @@
       "transcript": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”\n\nI stared at him.\n\nOf course that was his question.\n\n“Meat.”\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n“Black tissue. Stringy. Smelled like burnt hair when I cut it.”\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand.",
       "char_count": 500,
       "roles": [
-        "greg",
-        "greg",
-        "greg",
         "dragon",
+        "greg",
+        "greg",
+        "greg",
         "greg",
         "greg",
         "greg",
@@ -1009,7 +1009,7 @@
         {
           "start": 0,
           "end": 104,
-          "role": "greg",
+          "role": "dragon",
           "text": "“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”"
         },
         {
@@ -1027,7 +1027,7 @@
         {
           "start": 158,
           "end": 165,
-          "role": "dragon",
+          "role": "greg",
           "text": "“Meat.”"
         },
         {
@@ -1115,7 +1115,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg",
@@ -1143,7 +1143,7 @@
         {
           "start": 137,
           "end": 341,
-          "role": "dragon",
+          "role": "greg",
           "text": "“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”"
         },
         {
@@ -1172,13 +1172,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -1386,11 +1384,11 @@
         "greg",
         "greg",
         "greg",
+        "greg",
+        "greg",
+        "greg",
+        "greg",
         "dragon",
-        "greg",
-        "greg",
-        "greg",
-        "greg",
         "greg",
         "greg"
       ],
@@ -1416,7 +1414,7 @@
         {
           "start": 86,
           "end": 107,
-          "role": "dragon",
+          "role": "greg",
           "text": "“I knew her as Nhal.”"
         },
         {
@@ -1440,7 +1438,7 @@
         {
           "start": 176,
           "end": 181,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Ah.”"
         },
         {
@@ -1471,7 +1469,7 @@
       "transcript": "“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”\n\nLate.\n\nForty-eight, maybe forty-nine.\n\nUnder the salt flats north of Vey.\n\nShe did not live there.\n\nShe was trapped there.",
       "char_count": 489,
       "roles": [
-        "greg",
+        "dragon",
         "greg",
         "greg",
         "greg",
@@ -1482,7 +1480,7 @@
         {
           "start": 0,
           "end": 365,
-          "role": "greg",
+          "role": "dragon",
           "text": "“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”"
         },
         {
@@ -1517,11 +1515,13 @@
         }
       ],
       "required_voices": [
-        "deep"
+        "deep",
+        "normal"
       ],
-      "dual_render": false,
+      "dual_render": true,
       "captures": {
-        "deep": null
+        "deep": null,
+        "normal": null
       }
     },
     {
@@ -1532,7 +1532,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg",
         "greg",
@@ -1565,7 +1565,7 @@
         {
           "start": 128,
           "end": 166,
-          "role": "dragon",
+          "role": "greg",
           "text": "“How she got trapped is a long story.”"
         },
         {
@@ -1624,13 +1624,11 @@
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -1853,7 +1851,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
+        "greg",
         "greg",
         "greg"
       ],
@@ -1891,7 +1889,7 @@
         {
           "start": 416,
           "end": 451,
-          "role": "dragon",
+          "role": "greg",
           "text": "“You think this is bigger than me.”"
         },
         {
@@ -1932,7 +1930,7 @@
         "greg",
         "greg",
         "greg",
-        "dragon"
+        "greg"
       ],
       "semantic_spans": [
         {
@@ -1998,18 +1996,16 @@
         {
           "start": 476,
           "end": 487,
-          "role": "dragon",
+          "role": "greg",
           "text": "“The Line.”"
         }
       ],
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
-      "dual_render": true,
+      "dual_render": false,
       "captures": {
-        "deep": null,
-        "normal": null
+        "deep": null
       }
     },
     {
@@ -2024,10 +2020,10 @@
         "greg",
         "greg",
         "greg",
-        "dragon",
         "greg",
         "greg",
-        "greg"
+        "greg",
+        "dragon"
       ],
       "semantic_spans": [
         {
@@ -2075,7 +2071,7 @@
         {
           "start": 175,
           "end": 194,
-          "role": "dragon",
+          "role": "greg",
           "text": "“What do you want?”"
         },
         {
@@ -2093,7 +2089,7 @@
         {
           "start": 266,
           "end": 490,
-          "role": "greg",
+          "role": "dragon",
           "text": "“The Line is why you came today. It is not why you knew my name before the western stations began failing, or why you knew the mountain before you climbed it, or why your body reaches for movements this body has not learned."
         }
       ],
@@ -2112,29 +2108,29 @@
       "transcript": "“You have given me the sentence, Greg.\n\n“I want the thing that made it true.”",
       "char_count": 77,
       "roles": [
-        "greg",
-        "greg"
+        "dragon",
+        "dragon"
       ],
       "semantic_spans": [
         {
           "start": 0,
           "end": 38,
-          "role": "greg",
+          "role": "dragon",
           "text": "“You have given me the sentence, Greg."
         },
         {
           "start": 40,
           "end": 77,
-          "role": "greg",
+          "role": "dragon",
           "text": "“I want the thing that made it true.”"
         }
       ],
       "required_voices": [
-        "deep"
+        "normal"
       ],
       "dual_render": false,
       "captures": {
-        "deep": null
+        "normal": null
       }
     }
   ]

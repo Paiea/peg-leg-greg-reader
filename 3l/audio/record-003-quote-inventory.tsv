@@ -1,47 +1,47 @@
 id	heuristic_role	explicit	quote	context
 001	greg		“What made it true.”	“What made it true.”
 002	greg		“You want the whole story.”	“You want the whole story.”
-003	dragon		“See? Useful sentence. You could just say yes.”	“See? Useful sentence. You could just say yes.”
+003	greg		“See? Useful sentence. You could just say yes.”	“See? Useful sentence. You could just say yes.”
 004	greg		“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”	“The Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.”
 005	dragon		“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”	“I am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.”
 006	greg		“I researched possibilities.”	“I researched possibilities.”
-007	dragon		“For the future.”	“For the future.”
+007	greg		“For the future.”	“For the future.”
 008	greg		“It is if you're willing to be generous.”	“It is if you're willing to be generous.”
 009	dragon		“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”	“If the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.”
 010	greg		“That is several questions pretending to be one.”	“That is several questions pretending to be one.”
-011	dragon		“Home is south. Where my things are.”	“Home is south. Where my things are.”
+011	greg		“Home is south. Where my things are.”	“Home is south. Where my things are.”
 012	greg		“Most definitions are poor if you keep touching them.”	“Most definitions are poor if you keep touching them.”
-013	dragon		“You could do this forever.”	“You could do this forever.”
+013	greg		“You could do this forever.”	“You could do this forever.”
 014	greg		“And then I live.”	“And then I live.”
 015	dragon		“You have already done that twice.”	“You have already done that twice.”
 016	greg		“Don't.”	“Don't.”
-017	dragon		“No.”	“No.”
+017	greg		“No.”	“No.”
 018	greg		“We're not doing this. We're discussing the Line.”	“We're not doing this. We're discussing the Line.”
-019	dragon		“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”	“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”
-020	greg		“I possess enough mountain.”	“I possess enough mountain.”
-021	dragon		“Good sentence.”	“Good sentence.”
+019	greg		“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”	“Do you want payment? Gold? Land? You like mountains. I could probably find you another one.”
+020	dragon		“I possess enough mountain.”	“I possess enough mountain.”
+021	greg		“Good sentence.”	“Good sentence.”
 022	greg		“What do you want?”	“What do you want?”
 023	dragon		“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”	“I do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.”
 024	greg		“My rank isn't inconsistent.”	“My rank isn't inconsistent.”
-025	dragon		“Nothing relevant.”	“Nothing relevant.”
+025	greg		“Nothing relevant.”	“Nothing relevant.”
 026	greg		“See? This is exactly why I don't want to do forty years with you.”	“See? This is exactly why I don't want to do forty years with you.”
-027	dragon		“I am not telling you eighty years.”	“I am not telling you eighty years.”
+027	greg		“I am not telling you eighty years.”	“I am not telling you eighty years.”
 028	greg		“You're serious.”	“You're serious.”
 029	dragon		“You have spent decades deciding which memories explain who you became. I have no reason to trust that selection. You know what mattered to you when you last interpreted it. That is not necessarily what mattered. The reason you remember a thing may not be the reason you believe you remember it.”	“You have spent decades deciding which memories explain who you became. I have no reason to trust that selection. You know what mattered to you when you last interpreted it. That is not necessarily what mattered. The reason you remember a thing may not be the reason you believe you remember it.”
 030	greg		“That sounds suspiciously like rules for my story.”	“That sounds suspiciously like rules for my story.”
-031	dragon		“Life Two is the spine. Life One where it matters.”	“Life Two is the spine. Life One where it matters.”
+031	greg		“Life Two is the spine. Life One where it matters.”	“Life Two is the spine. Life One where it matters.”
 032	greg		“And I get some editorial control.”	“And I get some editorial control.”
-033	dragon		“More than none.”	“More than none.”
+033	greg		“More than none.”	“More than none.”
 034	greg		“How long do you think this takes?”	“How long do you think this takes?”
-035	dragon		“You really know how to make a person feel urgent.”	“You really know how to make a person feel urgent.”
-036	greg		“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”	“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”
+035	greg		“You really know how to make a person feel urgent.”	“You really know how to make a person feel urgent.”
+036	dragon		“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”	“I do not know what conclusion belongs to those facts yet. I know only that they belong in the account.”
 037	greg		“I can hunt.”	“I can hunt.”
-038	dragon		“Poorly.”	“Poorly.”
+038	greg		“Poorly.”	“Poorly.”
 039	greg		“What if I say no?”	“What if I say no?”
 040	dragon		“You leave. You may die on the mountain. You may live. The Line may fail. I will not burn you for refusing conversation.”	“You leave. You may die on the mountain. You may live. The Line may fail. I will not burn you for refusing conversation.”
-041	greg		“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”	“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”
-042	dragon		“You understand I have to shit.”	“You understand I have to shit.”
-043	greg		“You are welcome to do that outside.”	“You are welcome to do that outside.”
+041	dragon		“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”	“There is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.”
+042	greg		“You understand I have to shit.”	“You understand I have to shit.”
+043	dragon		“You are welcome to do that outside.”	“You are welcome to do that outside.”
 044	dragon		“Where does the discrepancy begin?”	“Where does the discrepancy begin?”
 045	greg		“Nineteen.”	“Nineteen.”
 046	dragon		“Begin there.”	“Begin there.”

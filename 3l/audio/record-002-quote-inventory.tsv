@@ -1,39 +1,39 @@
 id	heuristic_role	explicit	quote	context
 001	dragon		“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”	“Not this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.”
 002	greg		“I remember another life. Approximately forty years. Nineteen to fifty-nine.”	“I remember another life. Approximately forty years. Nineteen to fifty-nine.”
-003	dragon		“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”	“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”
-004	greg		“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”	“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”
-005	dragon		“Years.”	“Years.”
+003	greg		“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”	“The childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.”
+004	dragon		“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”	“You are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?”
+005	greg		“Years.”	“Years.”
 006	greg		“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”	“There were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.”
 007	greg		“I was busy.”	“I was busy.”
-008	dragon		“Being nineteen again.”	“Being nineteen again.”
+008	greg		“Being nineteen again.”	“Being nineteen again.”
 009	greg		“You don't get that part.”	“You don't get that part.”
-010	dragon		“Explaining knees to a dragon that still has all of his is going to annoy me.”	“Explaining knees to a dragon that still has all of his is going to annoy me.”
+010	greg		“Explaining knees to a dragon that still has all of his is going to annoy me.”	“Explaining knees to a dragon that still has all of his is going to annoy me.”
 011	greg		“Ranker.”	“Ranker.”
-012	dragon		“Not like this.”	“Not like this.”
+012	greg		“Not like this.”	“Not like this.”
 013	greg		“S-class.”	“S-class.”
-014	dragon		“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”	“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”
+014	greg		“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”	“S-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.”
 015	greg		“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”	“Strongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.”
-016	dragon		“I killed a redback alone north of Vey.”	“I killed a redback alone north of Vey.”
-017	greg		“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”	“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”
-018	dragon		“Meat.”	“Meat.”
+016	greg		“I killed a redback alone north of Vey.”	“I killed a redback alone north of Vey.”
+017	dragon		“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”	“There are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.”
+018	greg		“Meat.”	“Meat.”
 019	greg		“Black tissue. Stringy. Smelled like burnt hair when I cut it.”	“Black tissue. Stringy. Smelled like burnt hair when I cut it.”
-020	dragon		“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”	“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”
+020	greg		“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”	“There was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.”
 021	dragon		“That does not prove your explanation. It makes the error useful.”	“That does not prove your explanation. It makes the error useful.”
 022	greg		“That sounded almost like you believe me.”	“That sounded almost like you believe me.”
 023	greg	greg	“I told you. It was from the first life.”	“I told you. It was from the first life.”
-024	dragon		“I knew her as Nhal.”	“I knew her as Nhal.”
-025	greg		“Ah.”	“Ah.”
-026	greg		“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”	“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”
-027	dragon		“How she got trapped is a long story.”	“How she got trapped is a long story.”
+024	greg		“I knew her as Nhal.”	“I knew her as Nhal.”
+025	dragon		“Ah.”	“Ah.”
+026	dragon		“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”	“Nhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.”
+027	greg		“How she got trapped is a long story.”	“How she got trapped is a long story.”
 028	greg		“In that history she told me your name. She also told me how to cross the mountain.”	“In that history she told me your name. She also told me how to cross the mountain.”
 029	dragon		“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”	“You offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.”
 030	greg		“So you believe I remember another life.”	“So you believe I remember another life.”
 031	dragon		“I know only that your explanation is no longer the least interesting possibility.”	“I know only that your explanation is no longer the least interesting possibility.”
 032	greg		“Scale involved.”	“Scale involved.”
-033	dragon		“You think this is bigger than me.”	“You think this is bigger than me.”
+033	greg		“You think this is bigger than me.”	“You think this is bigger than me.”
 034	greg		“Fair.”	“Fair.”
-035	dragon		“The Line.”	“The Line.”
+035	greg		“The Line.”	“The Line.”
 036	greg		“You haven't even looked at it.”	“You haven't even looked at it.”
-037	dragon		“What do you want?”	“What do you want?”
-038	greg		“I want the thing that made it true.”	“I want the thing that made it true.”
+037	greg		“What do you want?”	“What do you want?”
+038	dragon		“I want the thing that made it true.”	“I want the thing that made it true.”
