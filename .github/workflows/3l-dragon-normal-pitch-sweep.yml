@@ -1,0 +1,42 @@
+name: 3L Dragon Normal pitch sweep
+
+on:
+  push:
+    branches:
+      - 3l/dragon-alt-voice-audition
+    paths:
+      - .github/workflows/3l-dragon-normal-pitch-sweep.yml
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg rubberband-cli
+      - name: Download exact Normal preview source
+        run: |
+          mkdir -p audition
+          curl -L --fail --retry 3 'https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/d3ef6252-bcd7-4ca9-b257-c7a1b4af88d0.mp3' -o audition/normal-raw.mp3
+      - name: Render pitch sweep
+        run: |
+          set -euo pipefail
+          ffmpeg -loglevel error -y -i audition/normal-raw.mp3 -af 'rubberband=pitch=0.8908987181403393:tempo=1:formant=preserved:pitchq=quality' -t 5.064 -c:a libmp3lame -b:a 192k audition/normal-minus2_00.mp3
+          ffmpeg -loglevel error -y -i audition/normal-raw.mp3 -af 'rubberband=pitch=0.8781260801866497:tempo=1:formant=preserved:pitchq=quality' -t 5.064 -c:a libmp3lame -b:a 192k audition/normal-minus2_25.mp3
+          ffmpeg -loglevel error -y -i audition/normal-raw.mp3 -af 'rubberband=pitch=0.8655365610061431:tempo=1:formant=preserved:pitchq=quality' -t 5.064 -c:a libmp3lame -b:a 192k audition/normal-minus2_50.mp3
+          ffmpeg -loglevel error -y -i audition/normal-raw.mp3 -af 'rubberband=pitch=0.8531275352613428:tempo=1:formant=preserved:pitchq=quality' -t 5.064 -c:a libmp3lame -b:a 192k audition/normal-minus2_75.mp3
+          ffmpeg -loglevel error -y -i audition/normal-raw.mp3 -af 'rubberband=pitch=0.8408964152537145:tempo=1:formant=preserved:pitchq=quality' -t 5.064 -c:a libmp3lame -b:a 192k audition/normal-minus3_00.mp3
+      - name: Verify outputs
+        run: |
+          set -euo pipefail
+          for f in audition/normal-minus*.mp3; do
+            ffmpeg -v error -i "$f" -f null -
+            ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f"
+          done
+      - name: Upload audition
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3l-dragon-normal-pitch-sweep
+          path: audition/normal-minus*.mp3
