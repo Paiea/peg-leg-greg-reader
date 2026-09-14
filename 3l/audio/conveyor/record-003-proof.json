@@ -2,6 +2,7 @@
   "record": "003",
   "plan": "3l/audio/record-003-short-dual-plan.json",
   "purpose": "one-record conveyor proof",
+  "trigger_nonce": "003-run-1",
   "captures": [
     {
       "chunk": 2,
