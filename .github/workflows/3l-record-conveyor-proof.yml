@@ -169,15 +169,7 @@ jobs:
           ffmpeg -v error -i 3l/assets/audio/record-002.mp3 -f null -
           ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 3l/assets/audio/record-002.mp3
 
-      - name: Publish Record 002 into reader
-        shell: bash
-        run: |
-          set -euo pipefail
-          python scripts/build_3l_record_pages.py
-          grep -q 'record-002.mp3' 3l/records/002.html
-          grep -q 'record-002.mp3' 3l/audio/index.html
-
-      - name: Commit verified Record 002
+      - name: Land durable Record 002 audio
         shell: bash
         run: |
           set -euo pipefail
@@ -187,19 +179,45 @@ jobs:
           git add 3l/audio/verification/record-002-short-captures.json
           git add 3l/audio/verification/record-002-short-dual-audio.json
           git add 3l/assets/audio/record-002.mp3
-          git add 3l/audio/index.html 3l/records
-          git diff --cached --quiet && exit 0
-          git commit -m "audio: publish Record 002 via conveyor proof"
+          git commit -m "audio: publish verified Record 002"
 
-          for attempt in 1 2 3 4 5; do
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
             git fetch --filter=blob:none origin main
             git rebase origin/main
             if git push origin HEAD:main; then
-              echo "published on attempt ${attempt}"
+              echo "durable audio published on attempt ${attempt}"
               exit 0
             fi
-            echo "main moved during push; retrying (${attempt}/5)"
-            sleep 2
+            echo "main moved during durable push; retrying (${attempt}/10)"
+            sleep 1
           done
-          echo "failed to publish after 5 fast-forward retries" >&2
+          echo "failed to publish durable audio after 10 retries" >&2
           exit 1
+
+      - name: Rebuild reader against newest main
+        shell: bash
+        run: |
+          set -euo pipefail
+          published=0
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            git fetch --filter=blob:none origin main
+            git reset --hard origin/main
+            python scripts/build_3l_record_pages.py
+            grep -q 'record-002.mp3' 3l/records/002.html
+            grep -q 'record-002.mp3' 3l/audio/index.html
+            git add 3l/audio/index.html 3l/records
+            if git diff --cached --quiet; then
+              echo "reader already exposes Record 002"
+              published=1
+              break
+            fi
+            git commit -m "reader: expose Record 002 audio"
+            if git push origin HEAD:main; then
+              echo "reader published on attempt ${attempt}"
+              published=1
+              break
+            fi
+            echo "main moved during reader push; rebuilding (${attempt}/10)"
+            sleep 1
+          done
+          test "$published" -eq 1
