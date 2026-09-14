@@ -1,0 +1,594 @@
+{
+  "record": "006",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-006-short-dual-plan.json",
+  "plan_sha256": "94dd63729b457bbd5684f70ea33c90c469a7028791d5ec2e262dd7e2e8cf9e9c",
+  "source_verification": "3l/audio/verification/record-006-short-captures.json",
+  "source_verification_sha256": "205f7f248774275c74df363eab5edd5538906c35bbb0098c13212b9550a448bd",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 25,
+  "chunk_count": 24,
+  "mixed_chunk_count": 1,
+  "duration_seconds": 656.52,
+  "byte_size": 15757101,
+  "sha256": "d45a0793ebf27b2681b7430d564c389c4f0dbe9800be01abcd7472addb586e3f",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 268,
+          "role": "greg",
+          "text": "The number four pulled me out of the memory.\n\nI opened my eyes.\n\nThe cave came back all at once.\n\nBlack glass scales.\n\nGold.\n\nHeat.\n\nMy pack beside the stone.\n\nMy left leg aching because apparently memory did not count as rest.\n\nIthar had not moved.\n\nThat felt unfair."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 15.648
+        }
+      ],
+      "assembled_duration_seconds": 15.648
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 337,
+          "role": "dragon",
+          "text": "\u201cYou said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.\u201d"
+        },
+        {
+          "start": 337,
+          "end": 498,
+          "role": "greg",
+          "text": "\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n\u201cEleven years is a long time.\u201d\n\nThe dragon did not need to answer that.\n\n\u201cFor me.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 20.557450000000003
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 20.42015,
+          "end_seconds": 30.36
+        }
+      ],
+      "assembled_duration_seconds": 30.497292
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 449,
+          "role": "greg",
+          "text": "Still nothing.\n\nI sighed.\n\nIthar settled his chin more comfortably onto the stone.\n\nHe had won without doing anything.\n\nI hated patient people.\n\nI hated patient dragons more.\n\n\u201cFine.\u201d\n\nI closed my eyes again.\n\nEast Four smelled like hot metal, wet brick, and whatever somebody had burned in the break room the night before.\n\nThat last smell changed more often than the others.\n\nThe station sat under the tram viaduct where three districts met badly."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.24
+        }
+      ],
+      "assembled_duration_seconds": 27.24
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 396,
+          "role": "greg",
+          "text": "From the street it looked like a warehouse that had been told it was important and never recovered.\n\nInside, everything hummed.\n\nNot loudly.\n\nThat would have been easier.\n\nThe Line lived in your teeth.\n\nYou noticed it most when you went home and the quiet felt wrong.\n\nForeman Dera met the temporary crew at sixth bell.\n\nShe was shorter than I remembered.\n\nThat happened a lot in the second life."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 24.24
+        }
+      ],
+      "assembled_duration_seconds": 24.24
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 487,
+          "role": "greg",
+          "text": "People I had only known as names, supervisors, officers, legends, or corpses turned out to be ordinary sizes when I met them before the story I remembered attached itself.\n\nDera had iron-gray hair even then and arms like somebody had built them for carrying pipe.\n\nShe looked at the six of us.\n\nThen at our boots.\n\nThen back at us.\n\n\u201cAnyone wearing a ring?\u201d\n\nTwo people checked their hands.\n\n\u201cTake them off.\u201d\n\nOne man asked why.\n\nDera pointed at a black mark halfway up the nearest wall."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.616
+        }
+      ],
+      "assembled_duration_seconds": 29.616
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 447,
+          "role": "greg",
+          "text": "\u201cThat used to be a ring.\u201d\n\nNobody asked again.\n\nI liked her immediately.\n\nShe did not like me for another year.\n\nThat was fair.\n\nMy first job was scraping oxide off a secondary housing with a wire brush.\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me.\n\nAt East Four I spent four hours on my knees removing green crust from bolts.\n\nThe bolts did not care.\n\nA woman worked on the next housing over."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.288
+        }
+      ],
+      "assembled_duration_seconds": 27.288
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 497,
+          "role": "greg",
+          "text": "Dark hair tied back with red cord. Narrow face. About my age. Maybe a little older.\n\nShe watched me inspect the first bolt after I cleaned it.\n\n\u201cYou planning to marry it?\u201d\n\n\u201cNo.\u201d\n\n\u201cYou've been staring at it for a while.\u201d\n\n\u201cCrack under the head.\u201d\n\nShe stopped brushing.\n\n\u201cWhat?\u201d\n\nI pointed.\n\nThe fracture was barely visible.\n\nShe leaned closer.\n\nThen she called, \u201cDera.\u201d\n\nThe foreman came over.\n\nLooked.\n\nLooked at me.\n\n\u201cGood catch.\u201d\n\nI nodded.\n\n\u201cReplace the housing.\u201d\n\nI looked at the crack again."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.848
+        }
+      ],
+      "assembled_duration_seconds": 28.848
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 392,
+          "role": "greg",
+          "text": "\u201cThe housing is fine.\u201d\n\nDera's expression changed.\n\nThere are faces supervisors make when a temporary worker has mistaken one correct observation for authority.\n\nI knew that face from both sides.\n\n\u201cReplace the housing,\u201d she repeated.\n\n\u201cThe bolt failed from lateral load. If you replace the bolt and reseat the ring, the housing holds.\u201d\n\nThe woman beside me closed her eyes.\n\nNot dramatically."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 23.544
+        }
+      ],
+      "assembled_duration_seconds": 23.544
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 487,
+          "role": "greg",
+          "text": "The way a person closes their eyes when someone else has decided to touch the thing they were specifically told not to touch.\n\nDera stepped closer.\n\n\u201cHow many housings have you reseated?\u201d\n\n\u201cDepends.\u201d\n\n\u201cOn?\u201d\n\n\u201cWhether you're asking this life.\u201d\n\nI did not say that part.\n\nThat would have been bad.\n\n\u201cInformal work,\u201d I said.\n\n\u201cHow many?\u201d\n\nI looked at the housing.\n\n\u201cSome.\u201d\n\n\u201cReplace it.\u201d\n\nI replaced it.\n\nIt took three hours.\n\nThe old one would have held.\n\nI was right.\n\nI knew I was right."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.488
+        }
+      ],
+      "assembled_duration_seconds": 28.488
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 494,
+          "role": "greg",
+          "text": "That mattered much less than I expected.\n\nAt lunch the woman with the red cord sat across from me.\n\n\u201cYou're either very good or very stupid.\u201d\n\n\u201cBoth is possible.\u201d\n\n\u201cThat was my next guess.\u201d\n\nHer name was Nessa Vale.\n\nI remember that introduction clearly.\n\nNot because I fell in love with her at lunch.\n\nI did not.\n\nThat would make the story easier and less true.\n\nI remember it because she stole half my potato while I was looking at Dera.\n\nI noticed two bites later.\n\n\u201cDid you take my potato?\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.856
+        }
+      ],
+      "assembled_duration_seconds": 29.856
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 450,
+          "role": "greg",
+          "text": "\u201cNo.\u201d\n\n\u201cYou're eating it.\u201d\n\n\u201cI brought a potato.\u201d\n\n\u201cYours had pepper.\u201d\n\nShe looked down at the piece in her hand.\n\nMine did not have pepper.\n\n\u201cInteresting.\u201d\n\nI took it back.\n\nShe called me an asshole.\n\nThat was Nessa.\n\nI did not know yet that I would spend years learning all the ways she could say the same insult.\n\nSome were affectionate.\n\nSome were not.\n\nThe distinction became important.\n\nMy four-week contract became eight because somebody quit."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.664
+        }
+      ],
+      "assembled_duration_seconds": 26.664
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 448,
+          "role": "greg",
+          "text": "Eight became twelve because Dera asked whether I wanted steady work and I said yes before remembering I had intended to think about it.\n\nThe pay went to nine silver after six months.\n\nI gave two to my mother for the house.\n\nShe tried to give one back.\n\nWe argued.\n\nMy father solved the problem by taking the coin from both of us and buying meat.\n\nI remember the stew.\n\nI do not remember what we argued about afterward.\n\nIthar interrupted only once."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.6
+        }
+      ],
+      "assembled_duration_seconds": 27.6
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 411,
+          "role": "greg",
+          "text": "The question did not need his voice to survive in mine.\n\nWhy did I remember the stew?\n\nBecause it was good.\n\nApparently that was sufficient.\n\nThe stew had carrots.\n\nToo many.\n\nMy father liked carrots and believed quantity was a form of seasoning.\n\nI complained.\n\nMy mother told me to cook next time.\n\nI did not.\n\nThat was the kind of problem I had in the first year of my second life.\n\nI trained too.\n\nAt first."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 24.6
+        }
+      ],
+      "assembled_duration_seconds": 24.6
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 475,
+          "role": "greg",
+          "text": "Every morning before work I ran the old reinforcement sequence at a level my body could survive.\n\nSlowly.\n\nCarefully.\n\nI rebuilt tendons.\n\nPressure tolerance.\n\nBreathing.\n\nI knew exactly what I wanted the body to become.\n\nThat made progress fast.\n\nBy twenty I was stronger than I had been at twenty the first time.\n\nNot dramatically.\n\nEnough to notice.\n\nEnough to make me smug.\n\nThen East Four started eating the mornings.\n\nA night valve stuck and I stayed until second bell."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.584
+        }
+      ],
+      "assembled_duration_seconds": 28.584
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 411,
+          "role": "greg",
+          "text": "A storm flooded the lower intake.\n\nDera put me on the weekend crew because I could hear a bad bearing before most of the older hands.\n\nNessa learned I knew more than my badge said and started asking questions when nobody else was listening.\n\nMy father needed help replacing a mill shaft.\n\nMy sister got work at a printer and developed the expensive habit of bringing home paper she claimed had been thrown away."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 25.8
+        }
+      ],
+      "assembled_duration_seconds": 25.8
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 478,
+          "role": "greg",
+          "text": "My mother decided the roof leak could no longer be described as seasonal because it had started raining inside during summer.\n\nThere were mornings when I did not train.\n\nAt first I made them up.\n\nThen I stopped keeping count.\n\nThat should have frightened me.\n\nFor a while it did.\n\nI had been S-class.\n\nNot metaphorically.\n\nNot in the way an old man at a tavern becomes a better fighter every year after retiring.\n\nI had been one of seven.\n\nThere were kings who knew my schedule."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.968
+        }
+      ],
+      "assembled_duration_seconds": 28.968
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 465,
+          "role": "greg",
+          "text": "Guilds that moved contracts because I said I would not take them on a Tuesday.\n\nThings under mountains that knew my scent.\n\nI had spent years climbing toward that capability and more years surviving what people did with it once I had it.\n\nThen I woke young and spent a Tuesday replacing cracked seals beneath a tram viaduct.\n\nThe strangest part was how quickly Tuesday became enough.\n\nNot every day.\n\nSome days East Four was miserable.\n\nThe lower galleries flooded."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.848
+        }
+      ],
+      "assembled_duration_seconds": 28.848
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 497,
+          "role": "greg",
+          "text": "The summer heat made the upper housings unbearable.\n\nTwo crews hated each other over a tool cabinet nobody remembered buying.\n\nDera had the emotional range of a door when she was tired, which was often.\n\nNessa could hold a grudge through three meals and then forget what started it.\n\nI got pressure burns on both forearms because I trusted a gauge I knew had been wrong last week and somehow decided that made it honest this week.\n\nI went home angry.\n\nMy mother told me I smelled like a hot spoon."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.84
+        }
+      ],
+      "assembled_duration_seconds": 30.84
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 418,
+          "role": "greg",
+          "text": "My sister laughed hard enough to choke.\n\nThen the next morning I went back.\n\nA year passed.\n\nThen another.\n\nI did not experience them as years.\n\nNobody does.\n\nYou experience Wednesday.\n\nPayday.\n\nA shoe wearing through.\n\nA friend being late.\n\nA meal you make twice because the first one worked.\n\nA mother beginning to sit down more often while cooking.\n\nA father asking for help lifting something he used to lift alone."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 25.08
+        }
+      ],
+      "assembled_duration_seconds": 25.08
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 500,
+          "role": "greg",
+          "text": "A sister moving out and leaving half her things behind because apparently moving meant changing where she slept, not where she stored boxes.\n\nNessa cutting the red cord from her hair one summer because it kept catching on valve handles.\n\nDera giving me the key to the lower cabinet and saying, \u201cDon't make me regret this.\u201d\n\nI did not.\n\nMostly.\n\nAt twenty-two the Guild sent me a letter.\n\nMy field evaluations were high enough for formal Ranker testing.\n\nI left it on the kitchen table for three days."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.216
+        }
+      ],
+      "assembled_duration_seconds": 30.216
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 488,
+          "role": "greg",
+          "text": "First life, I had taken that test as soon as I qualified.\n\nI remembered the room.\n\nThe examiner.\n\nThe way my stomach had tightened when the first letter appeared on the badge.\n\nE-class.\n\nI had carried that badge like it weighed more than steel.\n\nSecond life, the letter got a grease stain because my father put a gear housing on it.\n\n\u201cImportant?\u201d he asked.\n\n\u201cMaybe.\u201d\n\n\u201cYou going?\u201d\n\n\u201cI don't know.\u201d\n\nHe looked at me longer than necessary.\n\n\u201cDo you want to?\u201d\n\nThat was an annoying question."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.848
+        }
+      ],
+      "assembled_duration_seconds": 28.848
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 488,
+          "role": "greg",
+          "text": "\u201cI should.\u201d\n\n\u201cThat wasn't what I asked.\u201d\n\nI looked at the letter.\n\nFor a second he sounded like Ithar.\n\nThat comparison was unfair to both of them.\n\n\u201cI don't know,\u201d I said again.\n\nMy father nodded.\n\n\u201cThen don't know for a bit.\u201d\n\nSo I did.\n\nI took the test six months later because Dera threatened to dock my pay if I kept doing ranked work on temporary authority.\n\nI passed.\n\nE-class.\n\nAgain.\n\nI looked at the new badge.\n\nIt felt smaller than the first one had.\n\nNot worse.\n\nJust smaller."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.824
+        }
+      ],
+      "assembled_duration_seconds": 28.824
+    },
+    {
+      "chunk": 23,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 499,
+          "role": "greg",
+          "text": "I clipped it on and went back to work.\n\nNessa saw it at lunch.\n\n\u201cOh.\u201d\n\n\u201cWhat?\u201d\n\n\u201cYou're officially annoying now.\u201d\n\n\u201cI was unofficial before?\u201d\n\n\u201cVery.\u201d\n\nShe stole part of my bread.\n\nI let her keep it.\n\nThat worried me more than the badge.\n\nBy then I knew every sound East Four made when it was healthy.\n\nI knew which pipes sweated before rain.\n\nWhich floor drain backed up when the market washed fish waste at the wrong hour.\n\nWhich valve needed a kick and which one would remove a foot if you tried."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.424
+        }
+      ],
+      "assembled_duration_seconds": 29.424
+    },
+    {
+      "chunk": 24,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 407,
+          "role": "greg",
+          "text": "I knew Dera's handwriting.\n\nI knew Nessa took tea too strong and forgot it until it went cold.\n\nI knew the Line from the side ordinary people actually touched.\n\nIn my first life, by twenty-three, I had already crossed three provinces.\n\nIn my second, I knew where East Four kept spare soap.\n\nI had intended to stay four weeks.\n\nBy the end of the third year, I had stopped telling myself I was about to leave."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 24.912
+        }
+      ],
+      "assembled_duration_seconds": 24.912
+    }
+  ]
+}

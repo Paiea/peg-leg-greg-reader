@@ -3,29 +3,13 @@
   "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
   "plan": "3l/audio/record-006-short-dual-plan.json",
   "capture_manifests": [
-    "3l/audio/record-006-short-captures-workers.json"
+    "3l/audio/record-006-short-captures-workers.json",
+    "3l/audio/conveyor/record-006-proof.json"
   ],
-  "verified_capture_count": 21,
+  "verified_capture_count": 25,
   "planned_capture_count": 25,
-  "complete": false,
-  "missing": [
-    {
-      "chunk": 5,
-      "voice": "deep"
-    },
-    {
-      "chunk": 10,
-      "voice": "deep"
-    },
-    {
-      "chunk": 15,
-      "voice": "deep"
-    },
-    {
-      "chunk": 20,
-      "voice": "deep"
-    }
-  ],
+  "complete": true,
+  "missing": [],
   "captures": [
     {
       "chunk": 1,
@@ -83,6 +67,18 @@
       "manifest": "3l/audio/record-006-short-captures-workers.json"
     },
     {
+      "chunk": 5,
+      "voice": "deep",
+      "context_id": "f3e59b7bd6b64367a3867f09948cc320",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/3c715530-6054-4696-adbe-cf00fb62f834.mp3",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=f3e59b7bd6b64367a3867f09948cc320",
+      "duration_seconds": 29.616,
+      "byte_size": 473856,
+      "sha256": "26091655574d9cac3e1dd12ee10537f5379a4d5a20b757f248d9edbe0c150e75",
+      "status": "verified",
+      "manifest": "3l/audio/conveyor/record-006-proof.json"
+    },
+    {
       "chunk": 6,
       "voice": "deep",
       "context_id": "faa0657a6bc84a46b774650554f707b4",
@@ -125,6 +121,18 @@
       "sha256": "e41822630c61c878074d6b9668c345c3a588e072fe359e5d9a5af1d0595ef035",
       "status": "verified",
       "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 10,
+      "voice": "deep",
+      "context_id": "309886758395423db47d63cd1f6ca171",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/e51b13e9-69af-416e-becc-02e1c756fcfd.mp3",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=309886758395423db47d63cd1f6ca171",
+      "duration_seconds": 29.856,
+      "byte_size": 477696,
+      "sha256": "9f16dccade491967552800de51a4b936cf77fcd24b67f430f825c4064a05a127",
+      "status": "verified",
+      "manifest": "3l/audio/conveyor/record-006-proof.json"
     },
     {
       "chunk": 11,
@@ -171,6 +179,18 @@
       "manifest": "3l/audio/record-006-short-captures-workers.json"
     },
     {
+      "chunk": 15,
+      "voice": "deep",
+      "context_id": "2801870143ee40889a98a17d11ab889a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/483b175b-3170-4d09-8e3e-9ad57c1f4d64.mp3",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=2801870143ee40889a98a17d11ab889a",
+      "duration_seconds": 25.8,
+      "byte_size": 412800,
+      "sha256": "ec33c420c12b54c781f36675f19ebd8ce21103528c0e4a7cded80680210a4e5d",
+      "status": "verified",
+      "manifest": "3l/audio/conveyor/record-006-proof.json"
+    },
+    {
       "chunk": 16,
       "voice": "deep",
       "context_id": "39efb87be2c2472d84fef2a9a61ac530",
@@ -213,6 +233,18 @@
       "sha256": "8bf9ed44e8ab9c6e58bcdec2b3034a95658269da1025bf76182568d5e013fa6e",
       "status": "verified",
       "manifest": "3l/audio/record-006-short-captures-workers.json"
+    },
+    {
+      "chunk": 20,
+      "voice": "deep",
+      "context_id": "ed0aa2c132c64cfe81bbc95ae20b80be",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/cdb8ab7e-53cb-45c7-b945-3daa1ba58c78.mp3",
+      "audio_url": "https://www.aidocmaker.com/g0/audio?name=ed0aa2c132c64cfe81bbc95ae20b80be",
+      "duration_seconds": 30.216,
+      "byte_size": 483456,
+      "sha256": "926d95f437a68910f14d4f1d2df8e2fbf65390afe0511978eef7c8454afe8b2f",
+      "status": "verified",
+      "manifest": "3l/audio/conveyor/record-006-proof.json"
     },
     {
       "chunk": 21,

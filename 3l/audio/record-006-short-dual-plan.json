@@ -12,7 +12,7 @@
   "quote_roles_locked": false,
   "dragon_routing_locked": true,
   "dragon_prefixes": [
-    "“You said the contract was four weeks. You remained at East Four for eleven years."
+    "\u201cYou said the contract was four weeks. You remained at East Four for eleven years."
   ],
   "quote_count": 50,
   "chunk_count": 24,
@@ -41,58 +41,58 @@
           "text": "The number four pulled me out of the memory."
         },
         {
-          "start": 46,
+          "start": 44,
           "end": 63,
           "role": "greg",
-          "text": "I opened my eyes."
+          "text": "\n\nI opened my eyes."
         },
         {
-          "start": 65,
+          "start": 63,
           "end": 96,
           "role": "greg",
-          "text": "The cave came back all at once."
+          "text": "\n\nThe cave came back all at once."
         },
         {
-          "start": 98,
+          "start": 96,
           "end": 117,
           "role": "greg",
-          "text": "Black glass scales."
+          "text": "\n\nBlack glass scales."
         },
         {
-          "start": 119,
+          "start": 117,
           "end": 124,
           "role": "greg",
-          "text": "Gold."
+          "text": "\n\nGold."
         },
         {
-          "start": 126,
+          "start": 124,
           "end": 131,
           "role": "greg",
-          "text": "Heat."
+          "text": "\n\nHeat."
         },
         {
-          "start": 133,
+          "start": 131,
           "end": 158,
           "role": "greg",
-          "text": "My pack beside the stone."
+          "text": "\n\nMy pack beside the stone."
         },
         {
-          "start": 160,
+          "start": 158,
           "end": 227,
           "role": "greg",
-          "text": "My left leg aching because apparently memory did not count as rest."
+          "text": "\n\nMy left leg aching because apparently memory did not count as rest."
         },
         {
-          "start": 229,
+          "start": 227,
           "end": 249,
           "role": "greg",
-          "text": "Ithar had not moved."
+          "text": "\n\nIthar had not moved."
         },
         {
-          "start": 251,
+          "start": 249,
           "end": 268,
           "role": "greg",
-          "text": "That felt unfair."
+          "text": "\n\nThat felt unfair."
         }
       ],
       "required_voices": [
@@ -105,7 +105,7 @@
     },
     {
       "index": 2,
-      "transcript": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n“Eleven years is a long time.”\n\nThe dragon did not need to answer that.\n\n“For me.”",
+      "transcript": "\u201cYou said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.\u201d\n\nI looked toward the passage.\n\nThe passage remained neutral.\n\nUseless thing.\n\n\u201cEleven years is a long time.\u201d\n\nThe dragon did not need to answer that.\n\n\u201cFor me.\u201d",
       "char_count": 498,
       "roles": [
         "dragon",
@@ -121,43 +121,43 @@
           "start": 0,
           "end": 337,
           "role": "dragon",
-          "text": "“You said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.”"
+          "text": "\u201cYou said the contract was four weeks. You remained at East Four for eleven years. Do not give me eleven years as though the number is the answer. You removed the years and called the removal a summary. If most of that time was work, then tell me about work. If it was repetitive, then repetition occupied eleven years of your life too.\u201d"
         },
         {
-          "start": 339,
+          "start": 337,
           "end": 367,
           "role": "greg",
-          "text": "I looked toward the passage."
+          "text": "\n\nI looked toward the passage."
         },
         {
-          "start": 369,
+          "start": 367,
           "end": 398,
           "role": "greg",
-          "text": "The passage remained neutral."
+          "text": "\n\nThe passage remained neutral."
         },
         {
-          "start": 400,
+          "start": 398,
           "end": 414,
           "role": "greg",
-          "text": "Useless thing."
+          "text": "\n\nUseless thing."
         },
         {
-          "start": 416,
+          "start": 414,
           "end": 446,
           "role": "greg",
-          "text": "“Eleven years is a long time.”"
+          "text": "\n\n\u201cEleven years is a long time.\u201d"
         },
         {
-          "start": 448,
+          "start": 446,
           "end": 487,
           "role": "greg",
-          "text": "The dragon did not need to answer that."
+          "text": "\n\nThe dragon did not need to answer that."
         },
         {
-          "start": 489,
+          "start": 487,
           "end": 498,
           "role": "greg",
-          "text": "“For me.”"
+          "text": "\n\n\u201cFor me.\u201d"
         }
       ],
       "required_voices": [
@@ -172,7 +172,7 @@
     },
     {
       "index": 3,
-      "transcript": "Still nothing.\n\nI sighed.\n\nIthar settled his chin more comfortably onto the stone.\n\nHe had won without doing anything.\n\nI hated patient people.\n\nI hated patient dragons more.\n\n“Fine.”\n\nI closed my eyes again.\n\nEast Four smelled like hot metal, wet brick, and whatever somebody had burned in the break room the night before.\n\nThat last smell changed more often than the others.\n\nThe station sat under the tram viaduct where three districts met badly.",
+      "transcript": "Still nothing.\n\nI sighed.\n\nIthar settled his chin more comfortably onto the stone.\n\nHe had won without doing anything.\n\nI hated patient people.\n\nI hated patient dragons more.\n\n\u201cFine.\u201d\n\nI closed my eyes again.\n\nEast Four smelled like hot metal, wet brick, and whatever somebody had burned in the break room the night before.\n\nThat last smell changed more often than the others.\n\nThe station sat under the tram viaduct where three districts met badly.",
       "char_count": 449,
       "roles": [
         "greg",
@@ -195,64 +195,64 @@
           "text": "Still nothing."
         },
         {
-          "start": 16,
+          "start": 14,
           "end": 25,
           "role": "greg",
-          "text": "I sighed."
+          "text": "\n\nI sighed."
         },
         {
-          "start": 27,
+          "start": 25,
           "end": 82,
           "role": "greg",
-          "text": "Ithar settled his chin more comfortably onto the stone."
+          "text": "\n\nIthar settled his chin more comfortably onto the stone."
         },
         {
-          "start": 84,
+          "start": 82,
           "end": 118,
           "role": "greg",
-          "text": "He had won without doing anything."
+          "text": "\n\nHe had won without doing anything."
         },
         {
-          "start": 120,
+          "start": 118,
           "end": 143,
           "role": "greg",
-          "text": "I hated patient people."
+          "text": "\n\nI hated patient people."
         },
         {
-          "start": 145,
+          "start": 143,
           "end": 174,
           "role": "greg",
-          "text": "I hated patient dragons more."
+          "text": "\n\nI hated patient dragons more."
         },
         {
-          "start": 176,
+          "start": 174,
           "end": 183,
           "role": "greg",
-          "text": "“Fine.”"
+          "text": "\n\n\u201cFine.\u201d"
         },
         {
-          "start": 185,
+          "start": 183,
           "end": 208,
           "role": "greg",
-          "text": "I closed my eyes again."
+          "text": "\n\nI closed my eyes again."
         },
         {
-          "start": 210,
+          "start": 208,
           "end": 323,
           "role": "greg",
-          "text": "East Four smelled like hot metal, wet brick, and whatever somebody had burned in the break room the night before."
+          "text": "\n\nEast Four smelled like hot metal, wet brick, and whatever somebody had burned in the break room the night before."
         },
         {
-          "start": 325,
+          "start": 323,
           "end": 376,
           "role": "greg",
-          "text": "That last smell changed more often than the others."
+          "text": "\n\nThat last smell changed more often than the others."
         },
         {
-          "start": 378,
+          "start": 376,
           "end": 449,
           "role": "greg",
-          "text": "The station sat under the tram viaduct where three districts met badly."
+          "text": "\n\nThe station sat under the tram viaduct where three districts met badly."
         }
       ],
       "required_voices": [
@@ -286,52 +286,52 @@
           "text": "From the street it looked like a warehouse that had been told it was important and never recovered."
         },
         {
-          "start": 101,
+          "start": 99,
           "end": 127,
           "role": "greg",
-          "text": "Inside, everything hummed."
+          "text": "\n\nInside, everything hummed."
         },
         {
-          "start": 129,
+          "start": 127,
           "end": 140,
           "role": "greg",
-          "text": "Not loudly."
+          "text": "\n\nNot loudly."
         },
         {
-          "start": 142,
+          "start": 140,
           "end": 170,
           "role": "greg",
-          "text": "That would have been easier."
+          "text": "\n\nThat would have been easier."
         },
         {
-          "start": 172,
+          "start": 170,
           "end": 201,
           "role": "greg",
-          "text": "The Line lived in your teeth."
+          "text": "\n\nThe Line lived in your teeth."
         },
         {
-          "start": 203,
+          "start": 201,
           "end": 267,
           "role": "greg",
-          "text": "You noticed it most when you went home and the quiet felt wrong."
+          "text": "\n\nYou noticed it most when you went home and the quiet felt wrong."
         },
         {
-          "start": 269,
+          "start": 267,
           "end": 319,
           "role": "greg",
-          "text": "Foreman Dera met the temporary crew at sixth bell."
+          "text": "\n\nForeman Dera met the temporary crew at sixth bell."
         },
         {
-          "start": 321,
+          "start": 319,
           "end": 355,
           "role": "greg",
-          "text": "She was shorter than I remembered."
+          "text": "\n\nShe was shorter than I remembered."
         },
         {
-          "start": 357,
+          "start": 355,
           "end": 396,
           "role": "greg",
-          "text": "That happened a lot in the second life."
+          "text": "\n\nThat happened a lot in the second life."
         }
       ],
       "required_voices": [
@@ -344,7 +344,7 @@
     },
     {
       "index": 5,
-      "transcript": "People I had only known as names, supervisors, officers, legends, or corpses turned out to be ordinary sizes when I met them before the story I remembered attached itself.\n\nDera had iron-gray hair even then and arms like somebody had built them for carrying pipe.\n\nShe looked at the six of us.\n\nThen at our boots.\n\nThen back at us.\n\n“Anyone wearing a ring?”\n\nTwo people checked their hands.\n\n“Take them off.”\n\nOne man asked why.\n\nDera pointed at a black mark halfway up the nearest wall.",
+      "transcript": "People I had only known as names, supervisors, officers, legends, or corpses turned out to be ordinary sizes when I met them before the story I remembered attached itself.\n\nDera had iron-gray hair even then and arms like somebody had built them for carrying pipe.\n\nShe looked at the six of us.\n\nThen at our boots.\n\nThen back at us.\n\n\u201cAnyone wearing a ring?\u201d\n\nTwo people checked their hands.\n\n\u201cTake them off.\u201d\n\nOne man asked why.\n\nDera pointed at a black mark halfway up the nearest wall.",
       "char_count": 487,
       "roles": [
         "greg",
@@ -366,58 +366,58 @@
           "text": "People I had only known as names, supervisors, officers, legends, or corpses turned out to be ordinary sizes when I met them before the story I remembered attached itself."
         },
         {
-          "start": 173,
+          "start": 171,
           "end": 263,
           "role": "greg",
-          "text": "Dera had iron-gray hair even then and arms like somebody had built them for carrying pipe."
+          "text": "\n\nDera had iron-gray hair even then and arms like somebody had built them for carrying pipe."
         },
         {
-          "start": 265,
+          "start": 263,
           "end": 293,
           "role": "greg",
-          "text": "She looked at the six of us."
+          "text": "\n\nShe looked at the six of us."
         },
         {
-          "start": 295,
+          "start": 293,
           "end": 313,
           "role": "greg",
-          "text": "Then at our boots."
+          "text": "\n\nThen at our boots."
         },
         {
-          "start": 315,
+          "start": 313,
           "end": 331,
           "role": "greg",
-          "text": "Then back at us."
+          "text": "\n\nThen back at us."
         },
         {
-          "start": 333,
+          "start": 331,
           "end": 357,
           "role": "greg",
-          "text": "“Anyone wearing a ring?”"
+          "text": "\n\n\u201cAnyone wearing a ring?\u201d"
         },
         {
-          "start": 359,
+          "start": 357,
           "end": 390,
           "role": "greg",
-          "text": "Two people checked their hands."
+          "text": "\n\nTwo people checked their hands."
         },
         {
-          "start": 392,
+          "start": 390,
           "end": 408,
           "role": "greg",
-          "text": "“Take them off.”"
+          "text": "\n\n\u201cTake them off.\u201d"
         },
         {
-          "start": 410,
+          "start": 408,
           "end": 428,
           "role": "greg",
-          "text": "One man asked why."
+          "text": "\n\nOne man asked why."
         },
         {
-          "start": 430,
+          "start": 428,
           "end": 487,
           "role": "greg",
-          "text": "Dera pointed at a black mark halfway up the nearest wall."
+          "text": "\n\nDera pointed at a black mark halfway up the nearest wall."
         }
       ],
       "required_voices": [
@@ -430,7 +430,7 @@
     },
     {
       "index": 6,
-      "transcript": "“That used to be a ring.”\n\nNobody asked again.\n\nI liked her immediately.\n\nShe did not like me for another year.\n\nThat was fair.\n\nMy first job was scraping oxide off a secondary housing with a wire brush.\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me.\n\nAt East Four I spent four hours on my knees removing green crust from bolts.\n\nThe bolts did not care.\n\nA woman worked on the next housing over.",
+      "transcript": "\u201cThat used to be a ring.\u201d\n\nNobody asked again.\n\nI liked her immediately.\n\nShe did not like me for another year.\n\nThat was fair.\n\nMy first job was scraping oxide off a secondary housing with a wire brush.\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me.\n\nAt East Four I spent four hours on my knees removing green crust from bolts.\n\nThe bolts did not care.\n\nA woman worked on the next housing over.",
       "char_count": 447,
       "roles": [
         "greg",
@@ -449,61 +449,61 @@
           "start": 0,
           "end": 25,
           "role": "greg",
-          "text": "“That used to be a ring.”"
+          "text": "\u201cThat used to be a ring.\u201d"
         },
         {
-          "start": 27,
+          "start": 25,
           "end": 46,
           "role": "greg",
-          "text": "Nobody asked again."
+          "text": "\n\nNobody asked again."
         },
         {
-          "start": 48,
+          "start": 46,
           "end": 72,
           "role": "greg",
-          "text": "I liked her immediately."
+          "text": "\n\nI liked her immediately."
         },
         {
-          "start": 74,
+          "start": 72,
           "end": 111,
           "role": "greg",
-          "text": "She did not like me for another year."
+          "text": "\n\nShe did not like me for another year."
         },
         {
-          "start": 113,
+          "start": 111,
           "end": 127,
           "role": "greg",
-          "text": "That was fair."
+          "text": "\n\nThat was fair."
         },
         {
-          "start": 129,
+          "start": 127,
           "end": 203,
           "role": "greg",
-          "text": "My first job was scraping oxide off a secondary housing with a wire brush."
+          "text": "\n\nMy first job was scraping oxide off a secondary housing with a wire brush."
         },
         {
-          "start": 205,
+          "start": 203,
           "end": 302,
           "role": "greg",
-          "text": "I had once held a pressure break alone while a shield team evacuated thirty-two people behind me."
+          "text": "\n\nI had once held a pressure break alone while a shield team evacuated thirty-two people behind me."
         },
         {
-          "start": 304,
+          "start": 302,
           "end": 380,
           "role": "greg",
-          "text": "At East Four I spent four hours on my knees removing green crust from bolts."
+          "text": "\n\nAt East Four I spent four hours on my knees removing green crust from bolts."
         },
         {
-          "start": 382,
+          "start": 380,
           "end": 405,
           "role": "greg",
-          "text": "The bolts did not care."
+          "text": "\n\nThe bolts did not care."
         },
         {
-          "start": 407,
+          "start": 405,
           "end": 447,
           "role": "greg",
-          "text": "A woman worked on the next housing over."
+          "text": "\n\nA woman worked on the next housing over."
         }
       ],
       "required_voices": [
@@ -516,7 +516,7 @@
     },
     {
       "index": 7,
-      "transcript": "Dark hair tied back with red cord. Narrow face. About my age. Maybe a little older.\n\nShe watched me inspect the first bolt after I cleaned it.\n\n“You planning to marry it?”\n\n“No.”\n\n“You've been staring at it for a while.”\n\n“Crack under the head.”\n\nShe stopped brushing.\n\n“What?”\n\nI pointed.\n\nThe fracture was barely visible.\n\nShe leaned closer.\n\nThen she called, “Dera.”\n\nThe foreman came over.\n\nLooked.\n\nLooked at me.\n\n“Good catch.”\n\nI nodded.\n\n“Replace the housing.”\n\nI looked at the crack again.",
+      "transcript": "Dark hair tied back with red cord. Narrow face. About my age. Maybe a little older.\n\nShe watched me inspect the first bolt after I cleaned it.\n\n\u201cYou planning to marry it?\u201d\n\n\u201cNo.\u201d\n\n\u201cYou've been staring at it for a while.\u201d\n\n\u201cCrack under the head.\u201d\n\nShe stopped brushing.\n\n\u201cWhat?\u201d\n\nI pointed.\n\nThe fracture was barely visible.\n\nShe leaned closer.\n\nThen she called, \u201cDera.\u201d\n\nThe foreman came over.\n\nLooked.\n\nLooked at me.\n\n\u201cGood catch.\u201d\n\nI nodded.\n\n\u201cReplace the housing.\u201d\n\nI looked at the crack again.",
       "char_count": 497,
       "roles": [
         "greg",
@@ -547,112 +547,112 @@
           "text": "Dark hair tied back with red cord. Narrow face. About my age. Maybe a little older."
         },
         {
-          "start": 85,
+          "start": 83,
           "end": 142,
           "role": "greg",
-          "text": "She watched me inspect the first bolt after I cleaned it."
+          "text": "\n\nShe watched me inspect the first bolt after I cleaned it."
         },
         {
-          "start": 144,
+          "start": 142,
           "end": 171,
           "role": "greg",
-          "text": "“You planning to marry it?”"
+          "text": "\n\n\u201cYou planning to marry it?\u201d"
         },
         {
-          "start": 173,
+          "start": 171,
           "end": 178,
           "role": "greg",
-          "text": "“No.”"
+          "text": "\n\n\u201cNo.\u201d"
         },
         {
-          "start": 180,
+          "start": 178,
           "end": 220,
           "role": "greg",
-          "text": "“You've been staring at it for a while.”"
+          "text": "\n\n\u201cYou've been staring at it for a while.\u201d"
         },
         {
-          "start": 222,
+          "start": 220,
           "end": 245,
           "role": "greg",
-          "text": "“Crack under the head.”"
+          "text": "\n\n\u201cCrack under the head.\u201d"
         },
         {
-          "start": 247,
+          "start": 245,
           "end": 268,
           "role": "greg",
-          "text": "She stopped brushing."
+          "text": "\n\nShe stopped brushing."
         },
         {
-          "start": 270,
+          "start": 268,
           "end": 277,
           "role": "greg",
-          "text": "“What?”"
+          "text": "\n\n\u201cWhat?\u201d"
         },
         {
-          "start": 279,
+          "start": 277,
           "end": 289,
           "role": "greg",
-          "text": "I pointed."
+          "text": "\n\nI pointed."
         },
         {
-          "start": 291,
+          "start": 289,
           "end": 323,
           "role": "greg",
-          "text": "The fracture was barely visible."
+          "text": "\n\nThe fracture was barely visible."
         },
         {
-          "start": 325,
+          "start": 323,
           "end": 343,
           "role": "greg",
-          "text": "She leaned closer."
+          "text": "\n\nShe leaned closer."
         },
         {
-          "start": 345,
+          "start": 343,
           "end": 369,
           "role": "greg",
-          "text": "Then she called, “Dera.”"
+          "text": "\n\nThen she called, \u201cDera.\u201d"
         },
         {
-          "start": 371,
+          "start": 369,
           "end": 393,
           "role": "greg",
-          "text": "The foreman came over."
+          "text": "\n\nThe foreman came over."
         },
         {
-          "start": 395,
+          "start": 393,
           "end": 402,
           "role": "greg",
-          "text": "Looked."
+          "text": "\n\nLooked."
         },
         {
-          "start": 404,
+          "start": 402,
           "end": 417,
           "role": "greg",
-          "text": "Looked at me."
+          "text": "\n\nLooked at me."
         },
         {
-          "start": 419,
+          "start": 417,
           "end": 432,
           "role": "greg",
-          "text": "“Good catch.”"
+          "text": "\n\n\u201cGood catch.\u201d"
         },
         {
-          "start": 434,
+          "start": 432,
           "end": 443,
           "role": "greg",
-          "text": "I nodded."
+          "text": "\n\nI nodded."
         },
         {
-          "start": 445,
+          "start": 443,
           "end": 467,
           "role": "greg",
-          "text": "“Replace the housing.”"
+          "text": "\n\n\u201cReplace the housing.\u201d"
         },
         {
-          "start": 469,
+          "start": 467,
           "end": 497,
           "role": "greg",
-          "text": "I looked at the crack again."
+          "text": "\n\nI looked at the crack again."
         }
       ],
       "required_voices": [
@@ -665,7 +665,7 @@
     },
     {
       "index": 8,
-      "transcript": "“The housing is fine.”\n\nDera's expression changed.\n\nThere are faces supervisors make when a temporary worker has mistaken one correct observation for authority.\n\nI knew that face from both sides.\n\n“Replace the housing,” she repeated.\n\n“The bolt failed from lateral load. If you replace the bolt and reseat the ring, the housing holds.”\n\nThe woman beside me closed her eyes.\n\nNot dramatically.",
+      "transcript": "\u201cThe housing is fine.\u201d\n\nDera's expression changed.\n\nThere are faces supervisors make when a temporary worker has mistaken one correct observation for authority.\n\nI knew that face from both sides.\n\n\u201cReplace the housing,\u201d she repeated.\n\n\u201cThe bolt failed from lateral load. If you replace the bolt and reseat the ring, the housing holds.\u201d\n\nThe woman beside me closed her eyes.\n\nNot dramatically.",
       "char_count": 392,
       "roles": [
         "greg",
@@ -682,49 +682,49 @@
           "start": 0,
           "end": 22,
           "role": "greg",
-          "text": "“The housing is fine.”"
+          "text": "\u201cThe housing is fine.\u201d"
         },
         {
-          "start": 24,
+          "start": 22,
           "end": 50,
           "role": "greg",
-          "text": "Dera's expression changed."
+          "text": "\n\nDera's expression changed."
         },
         {
-          "start": 52,
+          "start": 50,
           "end": 160,
           "role": "greg",
-          "text": "There are faces supervisors make when a temporary worker has mistaken one correct observation for authority."
+          "text": "\n\nThere are faces supervisors make when a temporary worker has mistaken one correct observation for authority."
         },
         {
-          "start": 162,
+          "start": 160,
           "end": 195,
           "role": "greg",
-          "text": "I knew that face from both sides."
+          "text": "\n\nI knew that face from both sides."
         },
         {
-          "start": 197,
+          "start": 195,
           "end": 233,
           "role": "greg",
-          "text": "“Replace the housing,” she repeated."
+          "text": "\n\n\u201cReplace the housing,\u201d she repeated."
         },
         {
-          "start": 235,
+          "start": 233,
           "end": 335,
           "role": "greg",
-          "text": "“The bolt failed from lateral load. If you replace the bolt and reseat the ring, the housing holds.”"
+          "text": "\n\n\u201cThe bolt failed from lateral load. If you replace the bolt and reseat the ring, the housing holds.\u201d"
         },
         {
-          "start": 337,
+          "start": 335,
           "end": 373,
           "role": "greg",
-          "text": "The woman beside me closed her eyes."
+          "text": "\n\nThe woman beside me closed her eyes."
         },
         {
-          "start": 375,
+          "start": 373,
           "end": 392,
           "role": "greg",
-          "text": "Not dramatically."
+          "text": "\n\nNot dramatically."
         }
       ],
       "required_voices": [
@@ -737,7 +737,7 @@
     },
     {
       "index": 9,
-      "transcript": "The way a person closes their eyes when someone else has decided to touch the thing they were specifically told not to touch.\n\nDera stepped closer.\n\n“How many housings have you reseated?”\n\n“Depends.”\n\n“On?”\n\n“Whether you're asking this life.”\n\nI did not say that part.\n\nThat would have been bad.\n\n“Informal work,” I said.\n\n“How many?”\n\nI looked at the housing.\n\n“Some.”\n\n“Replace it.”\n\nI replaced it.\n\nIt took three hours.\n\nThe old one would have held.\n\nI was right.\n\nI knew I was right.",
+      "transcript": "The way a person closes their eyes when someone else has decided to touch the thing they were specifically told not to touch.\n\nDera stepped closer.\n\n\u201cHow many housings have you reseated?\u201d\n\n\u201cDepends.\u201d\n\n\u201cOn?\u201d\n\n\u201cWhether you're asking this life.\u201d\n\nI did not say that part.\n\nThat would have been bad.\n\n\u201cInformal work,\u201d I said.\n\n\u201cHow many?\u201d\n\nI looked at the housing.\n\n\u201cSome.\u201d\n\n\u201cReplace it.\u201d\n\nI replaced it.\n\nIt took three hours.\n\nThe old one would have held.\n\nI was right.\n\nI knew I was right.",
       "char_count": 487,
       "roles": [
         "greg",
@@ -767,106 +767,106 @@
           "text": "The way a person closes their eyes when someone else has decided to touch the thing they were specifically told not to touch."
         },
         {
-          "start": 127,
+          "start": 125,
           "end": 147,
           "role": "greg",
-          "text": "Dera stepped closer."
+          "text": "\n\nDera stepped closer."
         },
         {
-          "start": 149,
+          "start": 147,
           "end": 187,
           "role": "greg",
-          "text": "“How many housings have you reseated?”"
+          "text": "\n\n\u201cHow many housings have you reseated?\u201d"
         },
         {
-          "start": 189,
+          "start": 187,
           "end": 199,
           "role": "greg",
-          "text": "“Depends.”"
+          "text": "\n\n\u201cDepends.\u201d"
         },
         {
-          "start": 201,
+          "start": 199,
           "end": 206,
           "role": "greg",
-          "text": "“On?”"
+          "text": "\n\n\u201cOn?\u201d"
         },
         {
-          "start": 208,
+          "start": 206,
           "end": 242,
           "role": "greg",
-          "text": "“Whether you're asking this life.”"
+          "text": "\n\n\u201cWhether you're asking this life.\u201d"
         },
         {
-          "start": 244,
+          "start": 242,
           "end": 268,
           "role": "greg",
-          "text": "I did not say that part."
+          "text": "\n\nI did not say that part."
         },
         {
-          "start": 270,
+          "start": 268,
           "end": 295,
           "role": "greg",
-          "text": "That would have been bad."
+          "text": "\n\nThat would have been bad."
         },
         {
-          "start": 297,
+          "start": 295,
           "end": 321,
           "role": "greg",
-          "text": "“Informal work,” I said."
+          "text": "\n\n\u201cInformal work,\u201d I said."
         },
         {
-          "start": 323,
+          "start": 321,
           "end": 334,
           "role": "greg",
-          "text": "“How many?”"
+          "text": "\n\n\u201cHow many?\u201d"
         },
         {
-          "start": 336,
+          "start": 334,
           "end": 360,
           "role": "greg",
-          "text": "I looked at the housing."
+          "text": "\n\nI looked at the housing."
         },
         {
-          "start": 362,
+          "start": 360,
           "end": 369,
           "role": "greg",
-          "text": "“Some.”"
+          "text": "\n\n\u201cSome.\u201d"
         },
         {
-          "start": 371,
+          "start": 369,
           "end": 384,
           "role": "greg",
-          "text": "“Replace it.”"
+          "text": "\n\n\u201cReplace it.\u201d"
         },
         {
-          "start": 386,
+          "start": 384,
           "end": 400,
           "role": "greg",
-          "text": "I replaced it."
+          "text": "\n\nI replaced it."
         },
         {
-          "start": 402,
+          "start": 400,
           "end": 422,
           "role": "greg",
-          "text": "It took three hours."
+          "text": "\n\nIt took three hours."
         },
         {
-          "start": 424,
+          "start": 422,
           "end": 452,
           "role": "greg",
-          "text": "The old one would have held."
+          "text": "\n\nThe old one would have held."
         },
         {
-          "start": 454,
+          "start": 452,
           "end": 466,
           "role": "greg",
-          "text": "I was right."
+          "text": "\n\nI was right."
         },
         {
-          "start": 468,
+          "start": 466,
           "end": 487,
           "role": "greg",
-          "text": "I knew I was right."
+          "text": "\n\nI knew I was right."
         }
       ],
       "required_voices": [
@@ -879,7 +879,7 @@
     },
     {
       "index": 10,
-      "transcript": "That mattered much less than I expected.\n\nAt lunch the woman with the red cord sat across from me.\n\n“You're either very good or very stupid.”\n\n“Both is possible.”\n\n“That was my next guess.”\n\nHer name was Nessa Vale.\n\nI remember that introduction clearly.\n\nNot because I fell in love with her at lunch.\n\nI did not.\n\nThat would make the story easier and less true.\n\nI remember it because she stole half my potato while I was looking at Dera.\n\nI noticed two bites later.\n\n“Did you take my potato?”",
+      "transcript": "That mattered much less than I expected.\n\nAt lunch the woman with the red cord sat across from me.\n\n\u201cYou're either very good or very stupid.\u201d\n\n\u201cBoth is possible.\u201d\n\n\u201cThat was my next guess.\u201d\n\nHer name was Nessa Vale.\n\nI remember that introduction clearly.\n\nNot because I fell in love with her at lunch.\n\nI did not.\n\nThat would make the story easier and less true.\n\nI remember it because she stole half my potato while I was looking at Dera.\n\nI noticed two bites later.\n\n\u201cDid you take my potato?\u201d",
       "char_count": 494,
       "roles": [
         "greg",
@@ -904,76 +904,76 @@
           "text": "That mattered much less than I expected."
         },
         {
-          "start": 42,
+          "start": 40,
           "end": 98,
           "role": "greg",
-          "text": "At lunch the woman with the red cord sat across from me."
+          "text": "\n\nAt lunch the woman with the red cord sat across from me."
         },
         {
-          "start": 100,
+          "start": 98,
           "end": 141,
           "role": "greg",
-          "text": "“You're either very good or very stupid.”"
+          "text": "\n\n\u201cYou're either very good or very stupid.\u201d"
         },
         {
-          "start": 143,
+          "start": 141,
           "end": 162,
           "role": "greg",
-          "text": "“Both is possible.”"
+          "text": "\n\n\u201cBoth is possible.\u201d"
         },
         {
-          "start": 164,
+          "start": 162,
           "end": 189,
           "role": "greg",
-          "text": "“That was my next guess.”"
+          "text": "\n\n\u201cThat was my next guess.\u201d"
         },
         {
-          "start": 191,
+          "start": 189,
           "end": 215,
           "role": "greg",
-          "text": "Her name was Nessa Vale."
+          "text": "\n\nHer name was Nessa Vale."
         },
         {
-          "start": 217,
+          "start": 215,
           "end": 254,
           "role": "greg",
-          "text": "I remember that introduction clearly."
+          "text": "\n\nI remember that introduction clearly."
         },
         {
-          "start": 256,
+          "start": 254,
           "end": 301,
           "role": "greg",
-          "text": "Not because I fell in love with her at lunch."
+          "text": "\n\nNot because I fell in love with her at lunch."
         },
         {
-          "start": 303,
+          "start": 301,
           "end": 313,
           "role": "greg",
-          "text": "I did not."
+          "text": "\n\nI did not."
         },
         {
-          "start": 315,
+          "start": 313,
           "end": 362,
           "role": "greg",
-          "text": "That would make the story easier and less true."
+          "text": "\n\nThat would make the story easier and less true."
         },
         {
-          "start": 364,
+          "start": 362,
           "end": 439,
           "role": "greg",
-          "text": "I remember it because she stole half my potato while I was looking at Dera."
+          "text": "\n\nI remember it because she stole half my potato while I was looking at Dera."
         },
         {
-          "start": 441,
+          "start": 439,
           "end": 467,
           "role": "greg",
-          "text": "I noticed two bites later."
+          "text": "\n\nI noticed two bites later."
         },
         {
-          "start": 469,
+          "start": 467,
           "end": 494,
           "role": "greg",
-          "text": "“Did you take my potato?”"
+          "text": "\n\n\u201cDid you take my potato?\u201d"
         }
       ],
       "required_voices": [
@@ -986,7 +986,7 @@
     },
     {
       "index": 11,
-      "transcript": "“No.”\n\n“You're eating it.”\n\n“I brought a potato.”\n\n“Yours had pepper.”\n\nShe looked down at the piece in her hand.\n\nMine did not have pepper.\n\n“Interesting.”\n\nI took it back.\n\nShe called me an asshole.\n\nThat was Nessa.\n\nI did not know yet that I would spend years learning all the ways she could say the same insult.\n\nSome were affectionate.\n\nSome were not.\n\nThe distinction became important.\n\nMy four-week contract became eight because somebody quit.",
+      "transcript": "\u201cNo.\u201d\n\n\u201cYou're eating it.\u201d\n\n\u201cI brought a potato.\u201d\n\n\u201cYours had pepper.\u201d\n\nShe looked down at the piece in her hand.\n\nMine did not have pepper.\n\n\u201cInteresting.\u201d\n\nI took it back.\n\nShe called me an asshole.\n\nThat was Nessa.\n\nI did not know yet that I would spend years learning all the ways she could say the same insult.\n\nSome were affectionate.\n\nSome were not.\n\nThe distinction became important.\n\nMy four-week contract became eight because somebody quit.",
       "char_count": 450,
       "roles": [
         "greg",
@@ -1010,91 +1010,91 @@
           "start": 0,
           "end": 5,
           "role": "greg",
-          "text": "“No.”"
+          "text": "\u201cNo.\u201d"
         },
         {
-          "start": 7,
+          "start": 5,
           "end": 26,
           "role": "greg",
-          "text": "“You're eating it.”"
+          "text": "\n\n\u201cYou're eating it.\u201d"
         },
         {
-          "start": 28,
+          "start": 26,
           "end": 49,
           "role": "greg",
-          "text": "“I brought a potato.”"
+          "text": "\n\n\u201cI brought a potato.\u201d"
         },
         {
-          "start": 51,
+          "start": 49,
           "end": 70,
           "role": "greg",
-          "text": "“Yours had pepper.”"
+          "text": "\n\n\u201cYours had pepper.\u201d"
         },
         {
-          "start": 72,
+          "start": 70,
           "end": 113,
           "role": "greg",
-          "text": "She looked down at the piece in her hand."
+          "text": "\n\nShe looked down at the piece in her hand."
         },
         {
-          "start": 115,
+          "start": 113,
           "end": 140,
           "role": "greg",
-          "text": "Mine did not have pepper."
+          "text": "\n\nMine did not have pepper."
         },
         {
-          "start": 142,
+          "start": 140,
           "end": 156,
           "role": "greg",
-          "text": "“Interesting.”"
+          "text": "\n\n\u201cInteresting.\u201d"
         },
         {
-          "start": 158,
+          "start": 156,
           "end": 173,
           "role": "greg",
-          "text": "I took it back."
+          "text": "\n\nI took it back."
         },
         {
-          "start": 175,
+          "start": 173,
           "end": 200,
           "role": "greg",
-          "text": "She called me an asshole."
+          "text": "\n\nShe called me an asshole."
         },
         {
-          "start": 202,
+          "start": 200,
           "end": 217,
           "role": "greg",
-          "text": "That was Nessa."
+          "text": "\n\nThat was Nessa."
         },
         {
-          "start": 219,
+          "start": 217,
           "end": 315,
           "role": "greg",
-          "text": "I did not know yet that I would spend years learning all the ways she could say the same insult."
+          "text": "\n\nI did not know yet that I would spend years learning all the ways she could say the same insult."
         },
         {
-          "start": 317,
+          "start": 315,
           "end": 340,
           "role": "greg",
-          "text": "Some were affectionate."
+          "text": "\n\nSome were affectionate."
         },
         {
-          "start": 342,
+          "start": 340,
           "end": 356,
           "role": "greg",
-          "text": "Some were not."
+          "text": "\n\nSome were not."
         },
         {
-          "start": 358,
+          "start": 356,
           "end": 391,
           "role": "greg",
-          "text": "The distinction became important."
+          "text": "\n\nThe distinction became important."
         },
         {
-          "start": 393,
+          "start": 391,
           "end": 450,
           "role": "greg",
-          "text": "My four-week contract became eight because somebody quit."
+          "text": "\n\nMy four-week contract became eight because somebody quit."
         }
       ],
       "required_voices": [
@@ -1128,52 +1128,52 @@
           "text": "Eight became twelve because Dera asked whether I wanted steady work and I said yes before remembering I had intended to think about it."
         },
         {
-          "start": 137,
+          "start": 135,
           "end": 182,
           "role": "greg",
-          "text": "The pay went to nine silver after six months."
+          "text": "\n\nThe pay went to nine silver after six months."
         },
         {
-          "start": 184,
+          "start": 182,
           "end": 222,
           "role": "greg",
-          "text": "I gave two to my mother for the house."
+          "text": "\n\nI gave two to my mother for the house."
         },
         {
-          "start": 224,
+          "start": 222,
           "end": 251,
           "role": "greg",
-          "text": "She tried to give one back."
+          "text": "\n\nShe tried to give one back."
         },
         {
-          "start": 253,
+          "start": 251,
           "end": 263,
           "role": "greg",
-          "text": "We argued."
+          "text": "\n\nWe argued."
         },
         {
-          "start": 265,
+          "start": 263,
           "end": 345,
           "role": "greg",
-          "text": "My father solved the problem by taking the coin from both of us and buying meat."
+          "text": "\n\nMy father solved the problem by taking the coin from both of us and buying meat."
         },
         {
-          "start": 347,
+          "start": 345,
           "end": 367,
           "role": "greg",
-          "text": "I remember the stew."
+          "text": "\n\nI remember the stew."
         },
         {
-          "start": 369,
+          "start": 367,
           "end": 418,
           "role": "greg",
-          "text": "I do not remember what we argued about afterward."
+          "text": "\n\nI do not remember what we argued about afterward."
         },
         {
-          "start": 420,
+          "start": 418,
           "end": 448,
           "role": "greg",
-          "text": "Ithar interrupted only once."
+          "text": "\n\nIthar interrupted only once."
         }
       ],
       "required_voices": [
@@ -1211,76 +1211,76 @@
           "text": "The question did not need his voice to survive in mine."
         },
         {
-          "start": 57,
+          "start": 55,
           "end": 85,
           "role": "greg",
-          "text": "Why did I remember the stew?"
+          "text": "\n\nWhy did I remember the stew?"
         },
         {
-          "start": 87,
+          "start": 85,
           "end": 107,
           "role": "greg",
-          "text": "Because it was good."
+          "text": "\n\nBecause it was good."
         },
         {
-          "start": 109,
+          "start": 107,
           "end": 140,
           "role": "greg",
-          "text": "Apparently that was sufficient."
+          "text": "\n\nApparently that was sufficient."
         },
         {
-          "start": 142,
+          "start": 140,
           "end": 163,
           "role": "greg",
-          "text": "The stew had carrots."
+          "text": "\n\nThe stew had carrots."
         },
         {
-          "start": 165,
+          "start": 163,
           "end": 174,
           "role": "greg",
-          "text": "Too many."
+          "text": "\n\nToo many."
         },
         {
-          "start": 176,
+          "start": 174,
           "end": 246,
           "role": "greg",
-          "text": "My father liked carrots and believed quantity was a form of seasoning."
+          "text": "\n\nMy father liked carrots and believed quantity was a form of seasoning."
         },
         {
-          "start": 248,
+          "start": 246,
           "end": 261,
           "role": "greg",
-          "text": "I complained."
+          "text": "\n\nI complained."
         },
         {
-          "start": 263,
+          "start": 261,
           "end": 299,
           "role": "greg",
-          "text": "My mother told me to cook next time."
+          "text": "\n\nMy mother told me to cook next time."
         },
         {
-          "start": 301,
+          "start": 299,
           "end": 311,
           "role": "greg",
-          "text": "I did not."
+          "text": "\n\nI did not."
         },
         {
-          "start": 313,
+          "start": 311,
           "end": 384,
           "role": "greg",
-          "text": "That was the kind of problem I had in the first year of my second life."
+          "text": "\n\nThat was the kind of problem I had in the first year of my second life."
         },
         {
-          "start": 386,
+          "start": 384,
           "end": 400,
           "role": "greg",
-          "text": "I trained too."
+          "text": "\n\nI trained too."
         },
         {
-          "start": 402,
+          "start": 400,
           "end": 411,
           "role": "greg",
-          "text": "At first."
+          "text": "\n\nAt first."
         }
       ],
       "required_voices": [
@@ -1319,82 +1319,82 @@
           "text": "Every morning before work I ran the old reinforcement sequence at a level my body could survive."
         },
         {
-          "start": 98,
+          "start": 96,
           "end": 105,
           "role": "greg",
-          "text": "Slowly."
+          "text": "\n\nSlowly."
         },
         {
-          "start": 107,
+          "start": 105,
           "end": 117,
           "role": "greg",
-          "text": "Carefully."
+          "text": "\n\nCarefully."
         },
         {
-          "start": 119,
+          "start": 117,
           "end": 137,
           "role": "greg",
-          "text": "I rebuilt tendons."
+          "text": "\n\nI rebuilt tendons."
         },
         {
-          "start": 139,
+          "start": 137,
           "end": 158,
           "role": "greg",
-          "text": "Pressure tolerance."
+          "text": "\n\nPressure tolerance."
         },
         {
-          "start": 160,
+          "start": 158,
           "end": 170,
           "role": "greg",
-          "text": "Breathing."
+          "text": "\n\nBreathing."
         },
         {
-          "start": 172,
+          "start": 170,
           "end": 220,
           "role": "greg",
-          "text": "I knew exactly what I wanted the body to become."
+          "text": "\n\nI knew exactly what I wanted the body to become."
         },
         {
-          "start": 222,
+          "start": 220,
           "end": 246,
           "role": "greg",
-          "text": "That made progress fast."
+          "text": "\n\nThat made progress fast."
         },
         {
-          "start": 248,
+          "start": 246,
           "end": 314,
           "role": "greg",
-          "text": "By twenty I was stronger than I had been at twenty the first time."
+          "text": "\n\nBy twenty I was stronger than I had been at twenty the first time."
         },
         {
-          "start": 316,
+          "start": 314,
           "end": 333,
           "role": "greg",
-          "text": "Not dramatically."
+          "text": "\n\nNot dramatically."
         },
         {
-          "start": 335,
+          "start": 333,
           "end": 352,
           "role": "greg",
-          "text": "Enough to notice."
+          "text": "\n\nEnough to notice."
         },
         {
-          "start": 354,
+          "start": 352,
           "end": 377,
           "role": "greg",
-          "text": "Enough to make me smug."
+          "text": "\n\nEnough to make me smug."
         },
         {
-          "start": 379,
+          "start": 377,
           "end": 422,
           "role": "greg",
-          "text": "Then East Four started eating the mornings."
+          "text": "\n\nThen East Four started eating the mornings."
         },
         {
-          "start": 424,
+          "start": 422,
           "end": 475,
           "role": "greg",
-          "text": "A night valve stuck and I stayed until second bell."
+          "text": "\n\nA night valve stuck and I stayed until second bell."
         }
       ],
       "required_voices": [
@@ -1424,28 +1424,28 @@
           "text": "A storm flooded the lower intake."
         },
         {
-          "start": 35,
+          "start": 33,
           "end": 133,
           "role": "greg",
-          "text": "Dera put me on the weekend crew because I could hear a bad bearing before most of the older hands."
+          "text": "\n\nDera put me on the weekend crew because I could hear a bad bearing before most of the older hands."
         },
         {
-          "start": 135,
+          "start": 133,
           "end": 240,
           "role": "greg",
-          "text": "Nessa learned I knew more than my badge said and started asking questions when nobody else was listening."
+          "text": "\n\nNessa learned I knew more than my badge said and started asking questions when nobody else was listening."
         },
         {
-          "start": 242,
+          "start": 240,
           "end": 287,
           "role": "greg",
-          "text": "My father needed help replacing a mill shaft."
+          "text": "\n\nMy father needed help replacing a mill shaft."
         },
         {
-          "start": 289,
+          "start": 287,
           "end": 411,
           "role": "greg",
-          "text": "My sister got work at a printer and developed the expensive habit of bringing home paper she claimed had been thrown away."
+          "text": "\n\nMy sister got work at a printer and developed the expensive habit of bringing home paper she claimed had been thrown away."
         }
       ],
       "required_voices": [
@@ -1481,64 +1481,64 @@
           "text": "My mother decided the roof leak could no longer be described as seasonal because it had started raining inside during summer."
         },
         {
-          "start": 127,
+          "start": 125,
           "end": 168,
           "role": "greg",
-          "text": "There were mornings when I did not train."
+          "text": "\n\nThere were mornings when I did not train."
         },
         {
-          "start": 170,
+          "start": 168,
           "end": 194,
           "role": "greg",
-          "text": "At first I made them up."
+          "text": "\n\nAt first I made them up."
         },
         {
-          "start": 196,
+          "start": 194,
           "end": 225,
           "role": "greg",
-          "text": "Then I stopped keeping count."
+          "text": "\n\nThen I stopped keeping count."
         },
         {
-          "start": 227,
+          "start": 225,
           "end": 258,
           "role": "greg",
-          "text": "That should have frightened me."
+          "text": "\n\nThat should have frightened me."
         },
         {
-          "start": 260,
+          "start": 258,
           "end": 279,
           "role": "greg",
-          "text": "For a while it did."
+          "text": "\n\nFor a while it did."
         },
         {
-          "start": 281,
+          "start": 279,
           "end": 300,
           "role": "greg",
-          "text": "I had been S-class."
+          "text": "\n\nI had been S-class."
         },
         {
-          "start": 302,
+          "start": 300,
           "end": 321,
           "role": "greg",
-          "text": "Not metaphorically."
+          "text": "\n\nNot metaphorically."
         },
         {
-          "start": 323,
+          "start": 321,
           "end": 412,
           "role": "greg",
-          "text": "Not in the way an old man at a tavern becomes a better fighter every year after retiring."
+          "text": "\n\nNot in the way an old man at a tavern becomes a better fighter every year after retiring."
         },
         {
-          "start": 414,
+          "start": 412,
           "end": 438,
           "role": "greg",
-          "text": "I had been one of seven."
+          "text": "\n\nI had been one of seven."
         },
         {
-          "start": 440,
+          "start": 438,
           "end": 478,
           "role": "greg",
-          "text": "There were kings who knew my schedule."
+          "text": "\n\nThere were kings who knew my schedule."
         }
       ],
       "required_voices": [
@@ -1571,46 +1571,46 @@
           "text": "Guilds that moved contracts because I said I would not take them on a Tuesday."
         },
         {
-          "start": 80,
+          "start": 78,
           "end": 122,
           "role": "greg",
-          "text": "Things under mountains that knew my scent."
+          "text": "\n\nThings under mountains that knew my scent."
         },
         {
-          "start": 124,
+          "start": 122,
           "end": 237,
           "role": "greg",
-          "text": "I had spent years climbing toward that capability and more years surviving what people did with it once I had it."
+          "text": "\n\nI had spent years climbing toward that capability and more years surviving what people did with it once I had it."
         },
         {
-          "start": 239,
+          "start": 237,
           "end": 324,
           "role": "greg",
-          "text": "Then I woke young and spent a Tuesday replacing cracked seals beneath a tram viaduct."
+          "text": "\n\nThen I woke young and spent a Tuesday replacing cracked seals beneath a tram viaduct."
         },
         {
-          "start": 326,
+          "start": 324,
           "end": 383,
           "role": "greg",
-          "text": "The strangest part was how quickly Tuesday became enough."
+          "text": "\n\nThe strangest part was how quickly Tuesday became enough."
         },
         {
-          "start": 385,
+          "start": 383,
           "end": 399,
           "role": "greg",
-          "text": "Not every day."
+          "text": "\n\nNot every day."
         },
         {
-          "start": 401,
+          "start": 399,
           "end": 435,
           "role": "greg",
-          "text": "Some days East Four was miserable."
+          "text": "\n\nSome days East Four was miserable."
         },
         {
-          "start": 437,
+          "start": 435,
           "end": 465,
           "role": "greg",
-          "text": "The lower galleries flooded."
+          "text": "\n\nThe lower galleries flooded."
         }
       ],
       "required_voices": [
@@ -1642,40 +1642,40 @@
           "text": "The summer heat made the upper housings unbearable."
         },
         {
-          "start": 53,
+          "start": 51,
           "end": 125,
           "role": "greg",
-          "text": "Two crews hated each other over a tool cabinet nobody remembered buying."
+          "text": "\n\nTwo crews hated each other over a tool cabinet nobody remembered buying."
         },
         {
-          "start": 127,
+          "start": 125,
           "end": 202,
           "role": "greg",
-          "text": "Dera had the emotional range of a door when she was tired, which was often."
+          "text": "\n\nDera had the emotional range of a door when she was tired, which was often."
         },
         {
-          "start": 204,
+          "start": 202,
           "end": 282,
           "role": "greg",
-          "text": "Nessa could hold a grudge through three meals and then forget what started it."
+          "text": "\n\nNessa could hold a grudge through three meals and then forget what started it."
         },
         {
-          "start": 284,
+          "start": 282,
           "end": 430,
           "role": "greg",
-          "text": "I got pressure burns on both forearms because I trusted a gauge I knew had been wrong last week and somehow decided that made it honest this week."
+          "text": "\n\nI got pressure burns on both forearms because I trusted a gauge I knew had been wrong last week and somehow decided that made it honest this week."
         },
         {
-          "start": 432,
+          "start": 430,
           "end": 450,
           "role": "greg",
-          "text": "I went home angry."
+          "text": "\n\nI went home angry."
         },
         {
-          "start": 452,
+          "start": 450,
           "end": 497,
           "role": "greg",
-          "text": "My mother told me I smelled like a hot spoon."
+          "text": "\n\nMy mother told me I smelled like a hot spoon."
         }
       ],
       "required_voices": [
@@ -1713,76 +1713,76 @@
           "text": "My sister laughed hard enough to choke."
         },
         {
-          "start": 41,
+          "start": 39,
           "end": 75,
           "role": "greg",
-          "text": "Then the next morning I went back."
+          "text": "\n\nThen the next morning I went back."
         },
         {
-          "start": 77,
+          "start": 75,
           "end": 91,
           "role": "greg",
-          "text": "A year passed."
+          "text": "\n\nA year passed."
         },
         {
-          "start": 93,
+          "start": 91,
           "end": 106,
           "role": "greg",
-          "text": "Then another."
+          "text": "\n\nThen another."
         },
         {
-          "start": 108,
+          "start": 106,
           "end": 143,
           "role": "greg",
-          "text": "I did not experience them as years."
+          "text": "\n\nI did not experience them as years."
         },
         {
-          "start": 145,
+          "start": 143,
           "end": 157,
           "role": "greg",
-          "text": "Nobody does."
+          "text": "\n\nNobody does."
         },
         {
-          "start": 159,
+          "start": 157,
           "end": 184,
           "role": "greg",
-          "text": "You experience Wednesday."
+          "text": "\n\nYou experience Wednesday."
         },
         {
-          "start": 186,
+          "start": 184,
           "end": 193,
           "role": "greg",
-          "text": "Payday."
+          "text": "\n\nPayday."
         },
         {
-          "start": 195,
+          "start": 193,
           "end": 218,
           "role": "greg",
-          "text": "A shoe wearing through."
+          "text": "\n\nA shoe wearing through."
         },
         {
-          "start": 220,
+          "start": 218,
           "end": 240,
           "role": "greg",
-          "text": "A friend being late."
+          "text": "\n\nA friend being late."
         },
         {
-          "start": 242,
+          "start": 240,
           "end": 293,
           "role": "greg",
-          "text": "A meal you make twice because the first one worked."
+          "text": "\n\nA meal you make twice because the first one worked."
         },
         {
-          "start": 295,
+          "start": 293,
           "end": 351,
           "role": "greg",
-          "text": "A mother beginning to sit down more often while cooking."
+          "text": "\n\nA mother beginning to sit down more often while cooking."
         },
         {
-          "start": 353,
+          "start": 351,
           "end": 418,
           "role": "greg",
-          "text": "A father asking for help lifting something he used to lift alone."
+          "text": "\n\nA father asking for help lifting something he used to lift alone."
         }
       ],
       "required_voices": [
@@ -1795,7 +1795,7 @@
     },
     {
       "index": 20,
-      "transcript": "A sister moving out and leaving half her things behind because apparently moving meant changing where she slept, not where she stored boxes.\n\nNessa cutting the red cord from her hair one summer because it kept catching on valve handles.\n\nDera giving me the key to the lower cabinet and saying, “Don't make me regret this.”\n\nI did not.\n\nMostly.\n\nAt twenty-two the Guild sent me a letter.\n\nMy field evaluations were high enough for formal Ranker testing.\n\nI left it on the kitchen table for three days.",
+      "transcript": "A sister moving out and leaving half her things behind because apparently moving meant changing where she slept, not where she stored boxes.\n\nNessa cutting the red cord from her hair one summer because it kept catching on valve handles.\n\nDera giving me the key to the lower cabinet and saying, \u201cDon't make me regret this.\u201d\n\nI did not.\n\nMostly.\n\nAt twenty-two the Guild sent me a letter.\n\nMy field evaluations were high enough for formal Ranker testing.\n\nI left it on the kitchen table for three days.",
       "char_count": 500,
       "roles": [
         "greg",
@@ -1815,46 +1815,46 @@
           "text": "A sister moving out and leaving half her things behind because apparently moving meant changing where she slept, not where she stored boxes."
         },
         {
-          "start": 142,
+          "start": 140,
           "end": 236,
           "role": "greg",
-          "text": "Nessa cutting the red cord from her hair one summer because it kept catching on valve handles."
+          "text": "\n\nNessa cutting the red cord from her hair one summer because it kept catching on valve handles."
         },
         {
-          "start": 238,
+          "start": 236,
           "end": 322,
           "role": "greg",
-          "text": "Dera giving me the key to the lower cabinet and saying, “Don't make me regret this.”"
+          "text": "\n\nDera giving me the key to the lower cabinet and saying, \u201cDon't make me regret this.\u201d"
         },
         {
-          "start": 324,
+          "start": 322,
           "end": 334,
           "role": "greg",
-          "text": "I did not."
+          "text": "\n\nI did not."
         },
         {
-          "start": 336,
+          "start": 334,
           "end": 343,
           "role": "greg",
-          "text": "Mostly."
+          "text": "\n\nMostly."
         },
         {
-          "start": 345,
+          "start": 343,
           "end": 386,
           "role": "greg",
-          "text": "At twenty-two the Guild sent me a letter."
+          "text": "\n\nAt twenty-two the Guild sent me a letter."
         },
         {
-          "start": 388,
+          "start": 386,
           "end": 452,
           "role": "greg",
-          "text": "My field evaluations were high enough for formal Ranker testing."
+          "text": "\n\nMy field evaluations were high enough for formal Ranker testing."
         },
         {
-          "start": 454,
+          "start": 452,
           "end": 500,
           "role": "greg",
-          "text": "I left it on the kitchen table for three days."
+          "text": "\n\nI left it on the kitchen table for three days."
         }
       ],
       "required_voices": [
@@ -1867,7 +1867,7 @@
     },
     {
       "index": 21,
-      "transcript": "First life, I had taken that test as soon as I qualified.\n\nI remembered the room.\n\nThe examiner.\n\nThe way my stomach had tightened when the first letter appeared on the badge.\n\nE-class.\n\nI had carried that badge like it weighed more than steel.\n\nSecond life, the letter got a grease stain because my father put a gear housing on it.\n\n“Important?” he asked.\n\n“Maybe.”\n\n“You going?”\n\n“I don't know.”\n\nHe looked at me longer than necessary.\n\n“Do you want to?”\n\nThat was an annoying question.",
+      "transcript": "First life, I had taken that test as soon as I qualified.\n\nI remembered the room.\n\nThe examiner.\n\nThe way my stomach had tightened when the first letter appeared on the badge.\n\nE-class.\n\nI had carried that badge like it weighed more than steel.\n\nSecond life, the letter got a grease stain because my father put a gear housing on it.\n\n\u201cImportant?\u201d he asked.\n\n\u201cMaybe.\u201d\n\n\u201cYou going?\u201d\n\n\u201cI don't know.\u201d\n\nHe looked at me longer than necessary.\n\n\u201cDo you want to?\u201d\n\nThat was an annoying question.",
       "char_count": 488,
       "roles": [
         "greg",
@@ -1893,82 +1893,82 @@
           "text": "First life, I had taken that test as soon as I qualified."
         },
         {
-          "start": 59,
+          "start": 57,
           "end": 81,
           "role": "greg",
-          "text": "I remembered the room."
+          "text": "\n\nI remembered the room."
         },
         {
-          "start": 83,
+          "start": 81,
           "end": 96,
           "role": "greg",
-          "text": "The examiner."
+          "text": "\n\nThe examiner."
         },
         {
-          "start": 98,
+          "start": 96,
           "end": 175,
           "role": "greg",
-          "text": "The way my stomach had tightened when the first letter appeared on the badge."
+          "text": "\n\nThe way my stomach had tightened when the first letter appeared on the badge."
         },
         {
-          "start": 177,
+          "start": 175,
           "end": 185,
           "role": "greg",
-          "text": "E-class."
+          "text": "\n\nE-class."
         },
         {
-          "start": 187,
+          "start": 185,
           "end": 244,
           "role": "greg",
-          "text": "I had carried that badge like it weighed more than steel."
+          "text": "\n\nI had carried that badge like it weighed more than steel."
         },
         {
-          "start": 246,
+          "start": 244,
           "end": 332,
           "role": "greg",
-          "text": "Second life, the letter got a grease stain because my father put a gear housing on it."
+          "text": "\n\nSecond life, the letter got a grease stain because my father put a gear housing on it."
         },
         {
-          "start": 334,
+          "start": 332,
           "end": 356,
           "role": "greg",
-          "text": "“Important?” he asked."
+          "text": "\n\n\u201cImportant?\u201d he asked."
         },
         {
-          "start": 358,
+          "start": 356,
           "end": 366,
           "role": "greg",
-          "text": "“Maybe.”"
+          "text": "\n\n\u201cMaybe.\u201d"
         },
         {
-          "start": 368,
+          "start": 366,
           "end": 380,
           "role": "greg",
-          "text": "“You going?”"
+          "text": "\n\n\u201cYou going?\u201d"
         },
         {
-          "start": 382,
+          "start": 380,
           "end": 397,
           "role": "greg",
-          "text": "“I don't know.”"
+          "text": "\n\n\u201cI don't know.\u201d"
         },
         {
-          "start": 399,
+          "start": 397,
           "end": 437,
           "role": "greg",
-          "text": "He looked at me longer than necessary."
+          "text": "\n\nHe looked at me longer than necessary."
         },
         {
-          "start": 439,
+          "start": 437,
           "end": 456,
           "role": "greg",
-          "text": "“Do you want to?”"
+          "text": "\n\n\u201cDo you want to?\u201d"
         },
         {
-          "start": 458,
+          "start": 456,
           "end": 488,
           "role": "greg",
-          "text": "That was an annoying question."
+          "text": "\n\nThat was an annoying question."
         }
       ],
       "required_voices": [
@@ -1981,7 +1981,7 @@
     },
     {
       "index": 22,
-      "transcript": "“I should.”\n\n“That wasn't what I asked.”\n\nI looked at the letter.\n\nFor a second he sounded like Ithar.\n\nThat comparison was unfair to both of them.\n\n“I don't know,” I said again.\n\nMy father nodded.\n\n“Then don't know for a bit.”\n\nSo I did.\n\nI took the test six months later because Dera threatened to dock my pay if I kept doing ranked work on temporary authority.\n\nI passed.\n\nE-class.\n\nAgain.\n\nI looked at the new badge.\n\nIt felt smaller than the first one had.\n\nNot worse.\n\nJust smaller.",
+      "transcript": "\u201cI should.\u201d\n\n\u201cThat wasn't what I asked.\u201d\n\nI looked at the letter.\n\nFor a second he sounded like Ithar.\n\nThat comparison was unfair to both of them.\n\n\u201cI don't know,\u201d I said again.\n\nMy father nodded.\n\n\u201cThen don't know for a bit.\u201d\n\nSo I did.\n\nI took the test six months later because Dera threatened to dock my pay if I kept doing ranked work on temporary authority.\n\nI passed.\n\nE-class.\n\nAgain.\n\nI looked at the new badge.\n\nIt felt smaller than the first one had.\n\nNot worse.\n\nJust smaller.",
       "char_count": 488,
       "roles": [
         "greg",
@@ -2007,103 +2007,103 @@
           "start": 0,
           "end": 11,
           "role": "greg",
-          "text": "“I should.”"
+          "text": "\u201cI should.\u201d"
         },
         {
-          "start": 13,
+          "start": 11,
           "end": 40,
           "role": "greg",
-          "text": "“That wasn't what I asked.”"
+          "text": "\n\n\u201cThat wasn't what I asked.\u201d"
         },
         {
-          "start": 42,
+          "start": 40,
           "end": 65,
           "role": "greg",
-          "text": "I looked at the letter."
+          "text": "\n\nI looked at the letter."
         },
         {
-          "start": 67,
+          "start": 65,
           "end": 102,
           "role": "greg",
-          "text": "For a second he sounded like Ithar."
+          "text": "\n\nFor a second he sounded like Ithar."
         },
         {
-          "start": 104,
+          "start": 102,
           "end": 147,
           "role": "greg",
-          "text": "That comparison was unfair to both of them."
+          "text": "\n\nThat comparison was unfair to both of them."
         },
         {
-          "start": 149,
+          "start": 147,
           "end": 178,
           "role": "greg",
-          "text": "“I don't know,” I said again."
+          "text": "\n\n\u201cI don't know,\u201d I said again."
         },
         {
-          "start": 180,
+          "start": 178,
           "end": 197,
           "role": "greg",
-          "text": "My father nodded."
+          "text": "\n\nMy father nodded."
         },
         {
-          "start": 199,
+          "start": 197,
           "end": 227,
           "role": "greg",
-          "text": "“Then don't know for a bit.”"
+          "text": "\n\n\u201cThen don't know for a bit.\u201d"
         },
         {
-          "start": 229,
+          "start": 227,
           "end": 238,
           "role": "greg",
-          "text": "So I did."
+          "text": "\n\nSo I did."
         },
         {
-          "start": 240,
+          "start": 238,
           "end": 363,
           "role": "greg",
-          "text": "I took the test six months later because Dera threatened to dock my pay if I kept doing ranked work on temporary authority."
+          "text": "\n\nI took the test six months later because Dera threatened to dock my pay if I kept doing ranked work on temporary authority."
         },
         {
-          "start": 365,
+          "start": 363,
           "end": 374,
           "role": "greg",
-          "text": "I passed."
+          "text": "\n\nI passed."
         },
         {
-          "start": 376,
+          "start": 374,
           "end": 384,
           "role": "greg",
-          "text": "E-class."
+          "text": "\n\nE-class."
         },
         {
-          "start": 386,
+          "start": 384,
           "end": 392,
           "role": "greg",
-          "text": "Again."
+          "text": "\n\nAgain."
         },
         {
-          "start": 394,
+          "start": 392,
           "end": 420,
           "role": "greg",
-          "text": "I looked at the new badge."
+          "text": "\n\nI looked at the new badge."
         },
         {
-          "start": 422,
+          "start": 420,
           "end": 461,
           "role": "greg",
-          "text": "It felt smaller than the first one had."
+          "text": "\n\nIt felt smaller than the first one had."
         },
         {
-          "start": 463,
+          "start": 461,
           "end": 473,
           "role": "greg",
-          "text": "Not worse."
+          "text": "\n\nNot worse."
         },
         {
-          "start": 475,
+          "start": 473,
           "end": 488,
           "role": "greg",
-          "text": "Just smaller."
+          "text": "\n\nJust smaller."
         }
       ],
       "required_voices": [
@@ -2116,7 +2116,7 @@
     },
     {
       "index": 23,
-      "transcript": "I clipped it on and went back to work.\n\nNessa saw it at lunch.\n\n“Oh.”\n\n“What?”\n\n“You're officially annoying now.”\n\n“I was unofficial before?”\n\n“Very.”\n\nShe stole part of my bread.\n\nI let her keep it.\n\nThat worried me more than the badge.\n\nBy then I knew every sound East Four made when it was healthy.\n\nI knew which pipes sweated before rain.\n\nWhich floor drain backed up when the market washed fish waste at the wrong hour.\n\nWhich valve needed a kick and which one would remove a foot if you tried.",
+      "transcript": "I clipped it on and went back to work.\n\nNessa saw it at lunch.\n\n\u201cOh.\u201d\n\n\u201cWhat?\u201d\n\n\u201cYou're officially annoying now.\u201d\n\n\u201cI was unofficial before?\u201d\n\n\u201cVery.\u201d\n\nShe stole part of my bread.\n\nI let her keep it.\n\nThat worried me more than the badge.\n\nBy then I knew every sound East Four made when it was healthy.\n\nI knew which pipes sweated before rain.\n\nWhich floor drain backed up when the market washed fish waste at the wrong hour.\n\nWhich valve needed a kick and which one would remove a foot if you tried.",
       "char_count": 499,
       "roles": [
         "greg",
@@ -2142,82 +2142,82 @@
           "text": "I clipped it on and went back to work."
         },
         {
-          "start": 40,
+          "start": 38,
           "end": 62,
           "role": "greg",
-          "text": "Nessa saw it at lunch."
+          "text": "\n\nNessa saw it at lunch."
         },
         {
-          "start": 64,
+          "start": 62,
           "end": 69,
           "role": "greg",
-          "text": "“Oh.”"
+          "text": "\n\n\u201cOh.\u201d"
         },
         {
-          "start": 71,
+          "start": 69,
           "end": 78,
           "role": "greg",
-          "text": "“What?”"
+          "text": "\n\n\u201cWhat?\u201d"
         },
         {
-          "start": 80,
+          "start": 78,
           "end": 113,
           "role": "greg",
-          "text": "“You're officially annoying now.”"
+          "text": "\n\n\u201cYou're officially annoying now.\u201d"
         },
         {
-          "start": 115,
+          "start": 113,
           "end": 141,
           "role": "greg",
-          "text": "“I was unofficial before?”"
+          "text": "\n\n\u201cI was unofficial before?\u201d"
         },
         {
-          "start": 143,
+          "start": 141,
           "end": 150,
           "role": "greg",
-          "text": "“Very.”"
+          "text": "\n\n\u201cVery.\u201d"
         },
         {
-          "start": 152,
+          "start": 150,
           "end": 179,
           "role": "greg",
-          "text": "She stole part of my bread."
+          "text": "\n\nShe stole part of my bread."
         },
         {
-          "start": 181,
+          "start": 179,
           "end": 199,
           "role": "greg",
-          "text": "I let her keep it."
+          "text": "\n\nI let her keep it."
         },
         {
-          "start": 201,
+          "start": 199,
           "end": 237,
           "role": "greg",
-          "text": "That worried me more than the badge."
+          "text": "\n\nThat worried me more than the badge."
         },
         {
-          "start": 239,
+          "start": 237,
           "end": 301,
           "role": "greg",
-          "text": "By then I knew every sound East Four made when it was healthy."
+          "text": "\n\nBy then I knew every sound East Four made when it was healthy."
         },
         {
-          "start": 303,
+          "start": 301,
           "end": 342,
           "role": "greg",
-          "text": "I knew which pipes sweated before rain."
+          "text": "\n\nI knew which pipes sweated before rain."
         },
         {
-          "start": 344,
+          "start": 342,
           "end": 424,
           "role": "greg",
-          "text": "Which floor drain backed up when the market washed fish waste at the wrong hour."
+          "text": "\n\nWhich floor drain backed up when the market washed fish waste at the wrong hour."
         },
         {
-          "start": 426,
+          "start": 424,
           "end": 499,
           "role": "greg",
-          "text": "Which valve needed a kick and which one would remove a foot if you tried."
+          "text": "\n\nWhich valve needed a kick and which one would remove a foot if you tried."
         }
       ],
       "required_voices": [
@@ -2249,40 +2249,40 @@
           "text": "I knew Dera's handwriting."
         },
         {
-          "start": 28,
+          "start": 26,
           "end": 94,
           "role": "greg",
-          "text": "I knew Nessa took tea too strong and forgot it until it went cold."
+          "text": "\n\nI knew Nessa took tea too strong and forgot it until it went cold."
         },
         {
-          "start": 96,
+          "start": 94,
           "end": 159,
           "role": "greg",
-          "text": "I knew the Line from the side ordinary people actually touched."
+          "text": "\n\nI knew the Line from the side ordinary people actually touched."
         },
         {
-          "start": 161,
+          "start": 159,
           "end": 234,
           "role": "greg",
-          "text": "In my first life, by twenty-three, I had already crossed three provinces."
+          "text": "\n\nIn my first life, by twenty-three, I had already crossed three provinces."
         },
         {
-          "start": 236,
+          "start": 234,
           "end": 289,
           "role": "greg",
-          "text": "In my second, I knew where East Four kept spare soap."
+          "text": "\n\nIn my second, I knew where East Four kept spare soap."
         },
         {
-          "start": 291,
+          "start": 289,
           "end": 325,
           "role": "greg",
-          "text": "I had intended to stay four weeks."
+          "text": "\n\nI had intended to stay four weeks."
         },
         {
-          "start": 327,
+          "start": 325,
           "end": 407,
           "role": "greg",
-          "text": "By the end of the third year, I had stopped telling myself I was about to leave."
+          "text": "\n\nBy the end of the third year, I had stopped telling myself I was about to leave."
         }
       ],
       "required_voices": [
