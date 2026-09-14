@@ -7,6 +7,10 @@ on:
       - main
     paths:
       - '3l/audio/workers/records-002-010-instant-*-captures.json'
+      - '.github/workflows/3l-parallel-worker-pipeline.yml'
+      - 'scripts/reconcile_3l_parallel_audio_workers.py'
+      - 'scripts/verify_3l_worker_captures.py'
+      - 'scripts/build_3l_short_dual_audio.py'
 
 concurrency:
   group: 3l-instant-worker-audio-main
