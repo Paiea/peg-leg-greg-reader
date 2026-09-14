@@ -110,6 +110,48 @@ jobs:
           print(f'record {record}: source coverage {len(existing)}/{len(expected)} complete')
           PY
 
+      - name: Normalize semantic span whitespace
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('3l/audio/record-002-short-dual-plan.json')
+          plan = json.loads(path.read_text(encoding='utf-8'))
+          changed = 0
+          for chunk in plan['chunks']:
+              transcript = chunk['transcript']
+              spans = sorted(chunk.get('semantic_spans', []), key=lambda item: int(item['start']))
+              cursor = 0
+              for span in spans:
+                  start = int(span['start'])
+                  end = int(span['end'])
+                  if start < cursor or end <= start or end > len(transcript):
+                      raise SystemExit(f"chunk {chunk['index']}: invalid semantic span bounds")
+                  gap = transcript[cursor:start]
+                  if gap and not gap.isspace():
+                      raise SystemExit(f"chunk {chunk['index']}: non-whitespace semantic gap at {cursor}:{start}")
+                  if start != cursor:
+                      span['start'] = cursor
+                      span['text'] = gap + transcript[start:end]
+                      changed += 1
+                  elif span.get('text') != transcript[start:end]:
+                      raise SystemExit(f"chunk {chunk['index']}: semantic span text drift")
+                  cursor = end
+              if spans and cursor < len(transcript):
+                  tail = transcript[cursor:]
+                  if not tail.isspace():
+                      raise SystemExit(f"chunk {chunk['index']}: non-whitespace semantic tail")
+                  spans[-1]['end'] = len(transcript)
+                  spans[-1]['text'] = transcript[int(spans[-1]['start']):]
+                  changed += 1
+              chunk['semantic_spans'] = spans
+          path.write_text(json.dumps(plan, indent=2) + '\n', encoding='utf-8')
+          print(f'normalized {changed} whitespace span boundaries')
+          PY
+
       - name: Assemble and verify Record 002
         shell: bash
         run: |
@@ -132,6 +174,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/audio/record-002-short-dual-plan.json
           git add 3l/audio/verification/record-002-short-captures.json
           git add 3l/audio/verification/record-002-short-dual-audio.json
           git add 3l/assets/audio/record-002.mp3
