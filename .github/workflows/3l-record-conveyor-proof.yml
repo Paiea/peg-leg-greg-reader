@@ -19,6 +19,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            3l/audio
+            3l/manuscript
+            3l/assets
+            3l/records
+            scripts
+          sparse-checkout-cone-mode: true
 
       - name: Ensure ffmpeg tools
         shell: bash
