@@ -1,0 +1,663 @@
+{
+  "record": "004",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-004-short-dual-plan.json",
+  "plan_sha256": "b13ff7bc59b045a465f948b88b66b1e8c784a03e64e9dd9fc86ce42652868c85",
+  "source_verification": "3l/audio/verification/record-004-short-captures.json",
+  "source_verification_sha256": "7ae227d3dbd6361e7154154483419c583e5ec68c82edfe5756fa5ec507c36641",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 28,
+  "chunk_count": 27,
+  "mixed_chunk_count": 1,
+  "duration_seconds": 739.56,
+  "byte_size": 17750061,
+  "sha256": "fc9fc9abeb411ad24c0141b8d2c88586bdf0ef9a03a96a5af485568edc04ffd7",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 468,
+          "role": "greg",
+          "text": "I woke up nineteen years old with both hands closed around a blanket I had not seen in forty years.\n\nFor a while I did not move.\n\nThat was not restraint.\n\nMy body had forgotten the habit of waking carefully.\n\nNo bad knee.\n\nNo shoulder catching under my weight.\n\nNo fingers that needed a second try before they closed.\n\nNo little inventory of damage before deciding whether standing was worth it.\n\nI lay there staring at a ceiling with a water stain shaped like a boot."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.104
+        }
+      ],
+      "assembled_duration_seconds": 28.104
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 448,
+          "role": "greg",
+          "text": "The boot had been there when I was a boy.\n\nIt was still there when I left home the first time.\n\nMy father had promised to fix it for six straight years.\n\nI had forgotten the stain before I forgot him.\n\nThen I heard him snore through the wall.\n\nThat was when I sat up too fast.\n\nThe room moved.\n\nI caught myself on one hand and nearly laughed.\n\nNot because anything was funny.\n\nBecause my wrist took the weight.\n\nJust took it.\n\nNo pain.\n\nNo warning."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.0
+        }
+      ],
+      "assembled_duration_seconds": 27.0
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 496,
+          "role": "greg",
+          "text": "No old break reminding me how clever I had been at twenty-eight.\n\nI pressed my palm into the mattress harder than necessary.\n\nYoung skin.\n\nCalluses, but not the right ones.\n\nA thin scar across the thumb from a fishhook when I was twelve.\n\nNothing from the gate.\n\nNothing from the crawler.\n\nNothing from the winter outside Hollis when I had lost feeling in two fingers and lied about it until the healer threatened to cut them off.\n\nI opened and closed my hand.\n\nFast.\n\nAgain.\n\nThe fingers obeyed."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.096
+        }
+      ],
+      "assembled_duration_seconds": 30.096
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 321,
+          "role": "greg",
+          "text": "Someone knocked on the wall.\n\n\u201cStop doing whatever that is.\u201d\n\nMy sister.\n\nI froze.\n\nShe was seventeen again.\n\nAlive.\n\nAnnoyed.\n\nApparently awake.\n\nI looked at the wall.\n\n\u201cYou awake?\u201d she called.\n\n\u201cNo.\u201d\n\nA pause.\n\n\u201cThen shut up quieter.\u201d\n\nI put both hands over my face.\n\nThat sounded exactly like her.\n\nNot memory exactly."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 18.384
+        }
+      ],
+      "assembled_duration_seconds": 18.384
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 470,
+          "role": "greg",
+          "text": "Memory gets cleaned when you use it too often. It keeps the line and loses the breath before it. The scrape in the throat. The way she said quieter like I had personally offended the concept.\n\nThis had all of it.\n\nI sat there until she kicked the wall once and went away.\n\nThen I got out of bed.\n\nMy feet hit cold boards.\n\nBoth knees bent.\n\nNothing hurt.\n\nThat almost put me back down.\n\nI had been nineteen once already.\n\nI remembered thinking I was strong for nineteen."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.704
+        }
+      ],
+      "assembled_duration_seconds": 28.704
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 494,
+          "role": "greg",
+          "text": "I had also been fifty-nine, which gave me a more useful comparison.\n\nThe body in that room was healthy.\n\nIt was not mine.\n\nThat was the first thought that frightened me.\n\nNot because the face in the little mirror was wrong.\n\nIt was right.\n\nToo right.\n\nBlack hair I had not yet started losing. Jaw before the old break. Nose before the second break. Eyes without the red veins that showed up after three bad years of sleeping in armor.\n\nI knew the face.\n\nI had just stopped thinking of it as me."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.496
+        }
+      ],
+      "assembled_duration_seconds": 29.496
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 497,
+          "role": "greg",
+          "text": "I touched my cheek.\n\nThe boy in the mirror did the same.\n\n\u201cShit.\u201d\n\nFrom the kitchen, my mother yelled, \u201cLanguage.\u201d\n\nI sat back down.\n\nMy mother had been dead thirty-one years.\n\nThe sentence arrived neatly.\n\nToo neatly.\n\nI hated it.\n\nThere are facts that become smooth because you have carried them too long.\n\nThen someone says your name from the next room and the fact gets edges again.\n\n\u201cGreg?\u201d\n\n\u201cYeah.\u201d\n\n\u201cYou sick?\u201d\n\n\u201cNo.\u201d\n\n\u201cYou sound sick.\u201d\n\n\u201cI'm fine.\u201d\n\n\u201cYou want eggs?\u201d\n\nI stared at the wall."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.968
+        }
+      ],
+      "assembled_duration_seconds": 28.968
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 460,
+          "role": "greg",
+          "text": "\u201cYeah.\u201d\n\n\u201cThen get dressed.\u201d\n\nI dressed.\n\nBadly.\n\nThe shirt was too small by the standards I remembered and exactly right by the standards of the body wearing it. My boots were under the chair. I knew one lace had been knotted around a break because I had refused to buy another pair until payday.\n\nIt was there.\n\nSame place.\n\nI held the boot for too long.\n\nThen I smelled eggs.\n\nThat got me moving.\n\nThe kitchen was smaller than I remembered.\n\nEverything was."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.792
+        }
+      ],
+      "assembled_duration_seconds": 27.792
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 487,
+          "role": "greg",
+          "text": "My father sat at the table with a cup in one hand and a folded work sheet in the other. Same heavy shoulders. Same gray already entering his beard. Same missing nail on his left little finger.\n\nMy mother stood at the stove.\n\nThere was a white line across the back of her hand where a jar had broken when I was eight.\n\nSame scar.\n\nI checked before I could stop myself.\n\nShe noticed.\n\n\u201cWhat?\u201d\n\n\u201cNothing.\u201d\n\n\u201cYou staring at my hand?\u201d\n\n\u201cNo.\u201d\n\n\u201cYou are.\u201d\n\nMy father looked over the work sheet."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.424
+        }
+      ],
+      "assembled_duration_seconds": 29.424
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 480,
+          "role": "greg",
+          "text": "\u201cHe's nineteen. Maybe hands are interesting now.\u201d\n\n\u201cFuck you,\u201d I said.\n\nMy mother pointed the spoon at me.\n\n\u201cGreg.\u201d\n\n\u201cSorry.\u201d\n\nMy father lowered the sheet.\n\nFor one second I saw the old man he never got to become.\n\nThen it was gone.\n\nHe was forty-three and trying not to smile.\n\nI sat down.\n\nMy sister came in wearing one boot and carrying the other.\n\n\u201cYou look weird.\u201d\n\n\u201cThank you.\u201d\n\n\u201cNo. Like actually.\u201d\n\n\u201cI slept bad.\u201d\n\n\u201cYou were punching your bed.\u201d\n\n\u201cI was testing something.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.984
+        }
+      ],
+      "assembled_duration_seconds": 27.984
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 476,
+          "role": "greg",
+          "text": "She looked at my mother.\n\n\u201cSee?\u201d\n\nMy mother put eggs in front of me.\n\nI ate too fast.\n\nThat became the first thing I understood about being nineteen again.\n\nHunger was different.\n\nAt fifty-nine I could miss breakfast and complain about it later.\n\nAt nineteen my body treated food like an emergency contract.\n\nI finished the eggs, took bread, took more bread, and caught my mother watching me.\n\n\u201cWhat?\u201d\n\n\u201cYou said you weren't sick.\u201d\n\n\u201cI'm hungry.\u201d\n\n\u201cThat part appears healthy.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.512
+        }
+      ],
+      "assembled_duration_seconds": 28.512
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 431,
+          "role": "greg",
+          "text": "My father folded the sheet.\n\n\u201cYou still going to Guild Hall?\u201d\n\nI stopped chewing.\n\nThere it was.\n\nThe date arrived before I asked for it.\n\nGuild Hall.\n\nFirst registry.\n\nThe old route.\n\nI looked toward the window.\n\nMorning rain on the glass. Cart wheels outside. Somebody yelling about onions.\n\nI knew this day.\n\nNot every minute.\n\nNot what shirt my father had worn or whether it had rained.\n\nBut I knew the decision attached to it."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 25.68
+        }
+      ],
+      "assembled_duration_seconds": 25.68
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 424,
+          "role": "greg",
+          "text": "At nineteen, the first time, I had gone to Guild Hall and registered for field work.\n\nThree weeks later I took the ridge contract because it paid nearly double local rate.\n\nSix months later I could reinforce my legs without vomiting.\n\nFour years later I crossed the western cuts with people who taught me things no hall instructor ever had.\n\nTwenty-one years later I wore an S on my badge.\n\nThere were seven of us that year."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.064
+        }
+      ],
+      "assembled_duration_seconds": 26.064
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 479,
+          "role": "greg",
+          "text": "Seven people on the continent the Authority had decided were dangerous, useful, expensive, and difficult enough to deserve the same letter.\n\nI had been very proud of it.\n\nI still was, if I was being fair.\n\nPride does not become false merely because you have had time to notice the invoice.\n\nI looked at my father.\n\n\u201cYeah.\u201d\n\nHe nodded once.\n\n\u201cDon't take the first thing they offer.\u201d\n\nI almost laughed.\n\nHe had said that the first time too.\n\nI had taken the second.\n\n\u201cGood advice.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.848
+        }
+      ],
+      "assembled_duration_seconds": 28.848
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 498,
+          "role": "greg",
+          "text": "He looked at me strangely.\n\n\u201cYou feeling all right?\u201d\n\n\u201cEveryone keeps asking me that.\u201d\n\n\u201cBecause you're acting like somebody hit you in the head.\u201d\n\n\u201cMaybe somebody did.\u201d\n\nMy sister took my last piece of bread.\n\nI let her.\n\nThat scared her more than anything else.\n\n\u201cWhat?\u201d I asked.\n\nShe stared at the bread in her hand.\n\n\u201cYou didn't fight me.\u201d\n\n\u201cI can take another piece.\u201d\n\n\u201cYou always fight me.\u201d\n\n\u201cMaybe I've grown.\u201d\n\n\u201cYou look the same.\u201d\n\nI laughed.\n\nShe did not know why.\n\nNeither did I, really."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.016
+        }
+      ],
+      "assembled_duration_seconds": 29.016
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 420,
+          "role": "greg",
+          "text": "I left twenty minutes later.\n\nMy mother made me take a coat.\n\nI almost told her I had crossed an ice shelf without one once.\n\nThen I remembered I was nineteen, it was raining, and my mother was alive.\n\nI took the coat.\n\nThe street outside was exactly where I remembered it.\n\nWhich felt unreasonable.\n\nThere should have been a sign.\n\nA crack in the sky.\n\nA bell nobody else could hear.\n\nSomething.\n\nInstead there was mud."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 25.128
+        }
+      ],
+      "assembled_duration_seconds": 25.128
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 482,
+          "role": "greg",
+          "text": "A delivery cart had one wheel in a rut. A woman in a blue coat argued with the driver. Two boys ran past carrying a hoop between them. The baker across the way had already put yesterday's rolls in the cheap basket.\n\nNormal morning.\n\nI stood in it like an idiot.\n\nThen a pressure bell sounded from somewhere east.\n\nOne low note.\n\nPause.\n\nTwo higher ones.\n\nLine maintenance.\n\nRoutine.\n\nNobody else stopped.\n\nI did.\n\nThe sound hit something in memory.\n\nNot a scene.\n\nA thousand scenes."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.824
+        }
+      ],
+      "assembled_duration_seconds": 28.824
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 499,
+          "role": "greg",
+          "text": "Roads closed during pressure work. Temporary barriers. Contractors complaining about lost hours. Stations humming under stone. The Line so ordinary I had spent most of my first life treating it like weather.\n\nAt fifty-nine, people were going to die because we had treated it like weather.\n\nAt nineteen, someone on this street swore because the maintenance bell meant his cart would be late.\n\nI laughed.\n\nThe woman in the blue coat looked at me.\n\nI kept walking.\n\nGuild Hall was three districts over."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.6
+        }
+      ],
+      "assembled_duration_seconds": 30.6
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 496,
+          "role": "greg",
+          "text": "My mind remembered the route.\n\nMy body remembered being nineteen.\n\nThose were not the same thing.\n\nI took the first hill too fast.\n\nBy the top my lungs were working harder than the hill deserved.\n\nThat annoyed me.\n\nThe second hill had a stairwell cut between two warehouses.\n\nI took the stairs two at a time because I remembered being able to.\n\nHalfway up, my legs informed me we had different records.\n\nBy the top I was breathing hard.\n\nI leaned against the wall and stared at my hands.\n\n\u201cFine.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.144
+        }
+      ],
+      "assembled_duration_seconds": 30.144
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 457,
+          "role": "greg",
+          "text": "I knew how to fix that.\n\nThat was the dangerous part.\n\nI knew reinforcement better than most instructors who had ever taught me. I knew breathing sequences. Load paths. How to move pressure through the hips without wasting it in the spine. How to hold a sheath under the skin and let impact disperse instead of stopping it.\n\nThe knowledge was there.\n\nMy body was nineteen.\n\nI smiled.\n\nThen I did something stupid.\n\nNot very stupid.\n\nI had standards by then."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.264
+        }
+      ],
+      "assembled_duration_seconds": 27.264
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 464,
+          "role": "greg",
+          "text": "I stepped into the alley beside the stairwell, set my feet, drew one slow breath, and opened the first reinforcement pattern I had learned properly at twenty-six.\n\nThe pattern answered.\n\nFor half a second.\n\nPressure moved through my chest.\n\nMy shoulders locked.\n\nMy right calf cramped so hard I hit the wall.\n\nThen the whole thing collapsed and I threw up beside a rain barrel.\n\nA woman passing the alley stopped.\n\n\u201cYou all right?\u201d\n\nI wiped my mouth.\n\n\u201cExcellent.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.008
+        }
+      ],
+      "assembled_duration_seconds": 28.008
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 482,
+          "role": "greg",
+          "text": "She looked at the wall I was using to stay upright.\n\n\u201cSure.\u201d\n\n\u201cThank you.\u201d\n\nShe left.\n\nI stayed there until my calf stopped trying to become a fist.\n\nThat was the second thing I understood about being nineteen again.\n\nKnowledge did not weigh anything.\n\nCapability did.\n\nThe old pattern was still mine.\n\nThe lungs were not.\n\nThe tendons were not.\n\nThe pressure tolerance was not.\n\nThe body had not spent forty years becoming the thing my memory expected to inhabit.\n\nI laughed again."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.872
+        }
+      ],
+      "assembled_duration_seconds": 28.872
+    },
+    {
+      "chunk": 23,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 472,
+          "role": "greg",
+          "text": "Then I threw up one more time.\n\nLess impressive.\n\nBy the time I reached Guild Hall, I had mud on one boot and a sour taste in my mouth.\n\nThe building looked exactly as terrible as I remembered.\n\nLong stone front. Narrow windows. Three lines outside before the doors even opened.\n\nField registry on the left.\n\nTrade certification in the middle.\n\nContract labor on the right.\n\nAt nineteen the first time, I had looked at those doors and felt like my life was about to begin."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.224
+        }
+      ],
+      "assembled_duration_seconds": 28.224
+    },
+    {
+      "chunk": 24,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 485,
+          "role": "greg",
+          "text": "At nineteen the second time, I knew where each one went.\n\nNot perfectly.\n\nEnough.\n\nI knew which instructors were worth listening to.\n\nWhich contracts paid late.\n\nWhich roads washed out every spring.\n\nWhich exam questions were traps.\n\nWhich habits took me years to unlearn.\n\nWhich people I had loved.\n\nWhich people I had buried.\n\nWhich mistakes had cost months.\n\nWhich had cost blood.\n\nI knew where a road existed that could, eventually, make me one of the seven strongest people alive."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.112
+        }
+      ],
+      "assembled_duration_seconds": 29.112
+    },
+    {
+      "chunk": 25,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 410,
+          "role": "greg",
+          "text": "That should have felt like a gift.\n\nFor a few minutes it did.\n\nI could rebuild faster.\n\nSmarter.\n\nSkip the broken wrist.\n\nSkip Kett.\n\nSkip the winter fever.\n\nSkip all the expensive lessons and arrive at the same summit with fewer scars.\n\nThat was the first plan.\n\nIt was a good plan.\n\nI had been very good at plans by the end of my first life.\n\nThe doors opened.\n\nPeople moved around me.\n\nI crossed the street."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 24.384
+        }
+      ],
+      "assembled_duration_seconds": 24.384
+    },
+    {
+      "chunk": 26,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 292,
+          "role": "greg",
+          "text": "Only years later did I understand that the most important thing I carried into Guild Hall was not forty years of knowledge.\n\nIt was the assumption that I still wanted the same life.\n\nThe cave returned around me.\n\nIthar had not moved.\n\nHis eye rested on the hands I had been remembering young."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 18.144
+        }
+      ],
+      "assembled_duration_seconds": 18.144
+    },
+    {
+      "chunk": 27,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 282,
+          "role": "dragon",
+          "text": "\u201cYou woke with forty years of knowledge and treated the second life as a chance to perform the first more efficiently. You did not yet want another life. You wanted the same one with fewer mistakes. Keep that distinction. It will matter when you tell me when it stopped being true.\u201d"
+        },
+        {
+          "start": 282,
+          "end": 412,
+          "role": "greg",
+          "text": "\n\nI looked at him.\n\n\u201cAt nineteen, I didn't know it was an assumption.\u201d\n\nThe dragon's eye stayed on me.\n\nThen Guild Hall came back."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 17.08705
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.5016,
+          "end_seconds": 25.152
+        }
+      ],
+      "assembled_duration_seconds": 24.737438
+    }
+  ]
+}
