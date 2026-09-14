@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - '3l/audio/conveyor/record-002-proof.json'
+      - '.github/workflows/3l-record-conveyor-proof.yml'
 
 permissions:
   contents: write
