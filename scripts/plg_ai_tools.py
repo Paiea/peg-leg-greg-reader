@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 from typing import Any, Callable
 
+from scripts import audio_score_claim
+from scripts import audio_score_next
 from scripts import brain_compiler
 from scripts import brain_doctor as brain_doctor_module
 from scripts import performance_campaign
@@ -15,6 +17,11 @@ from scripts import performance_production_funnel as funnel
 
 def _path(payload: dict[str, Any], key: str, default: str) -> Path:
     return Path(str(payload.get(key, default)))
+
+
+def _audio_generation(payload: dict[str, Any]) -> tuple[str, dict[str, str]]:
+    generation = str(payload.get("generation", "v2"))
+    return generation, audio_score_next.generation_config(generation)
 
 
 def _optional_json_input(payload: dict[str, Any], value_key: str, path_key: str) -> dict[str, Any] | None:
@@ -49,6 +56,38 @@ def brain_doctor(payload: dict[str, Any]) -> dict[str, Any]:
         repo_root=_path(payload, "repo_root", "."),
         registry_path=_path(payload, "registry_path", "state/brain/ROUTING_REGISTRY.json"),
         github_snapshot=snapshot,
+    )
+
+
+def audio_next(payload: dict[str, Any]) -> dict[str, Any]:
+    generation, config = _audio_generation(payload)
+    claim_refs = payload.get("claim_refs")
+    if claim_refs is None:
+        claim_refs = audio_score_next.git_claim_refs(generation, str(payload.get("remote", "origin")))
+    elif not isinstance(claim_refs, list) or not all(isinstance(ref, str) for ref in claim_refs):
+        raise ValueError("claim_refs must be an array of ref-name strings")
+
+    result = audio_score_next.resolve_next_candidate(
+        _path(payload, "score_dir", config["score_dir"]),
+        _path(payload, "manifest", config["manifest"]),
+        claim_refs,
+        generation=generation,
+        minimum=int(payload.get("minimum", 1)),
+        maximum=int(payload.get("maximum", 30)),
+    )
+    return {"status": "available", **result} if result else {"status": "none", "generation": generation}
+
+
+def audio_claim(payload: dict[str, Any]) -> dict[str, Any]:
+    generation, config = _audio_generation(payload)
+    return audio_score_claim.claim_next(
+        _path(payload, "score_dir", config["score_dir"]),
+        _path(payload, "manifest", config["manifest"]),
+        generation=generation,
+        minimum=int(payload.get("minimum", 1)),
+        maximum=int(payload.get("maximum", 30)),
+        remote=str(payload.get("remote", "origin")),
+        base_branch=str(payload.get("base_branch", "main")),
     )
 
 
@@ -100,22 +139,25 @@ def apply_survivors(payload: dict[str, Any]) -> dict[str, Any]: return performan
 
 TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
     "brain_for": brain_for, "brain_doctor": brain_doctor,
+    "audio_next": audio_next, "audio_claim": audio_claim,
     "compile_range": compile_range, "get_scene_view": get_scene_view, "query_scenes": query_scenes,
     "plan_campaign": plan_campaign, "run_campaign": run_campaign, "get_campaign_result": get_campaign_result,
     "reduce_campaign": reduce_campaign, "apply_survivors": apply_survivors,
 }
 
 TOOL_SPECS = {
-    "brain_for": {"write": False, "read_only": True, "description": "Compile a compact task-specific PLG brain routing packet from durable repository metadata."},
-    "brain_doctor": {"write": False, "read_only": True, "description": "Check PLG brain routing health and drift without modifying repository state."},
-    "compile_range": {"write": False, "read_only": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
-    "get_scene_view": {"write": False, "read_only": True, "description": "Return one narrow compiler view for an exact stable scene ID."},
-    "query_scenes": {"write": False, "read_only": True, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
-    "plan_campaign": {"write": False, "read_only": False, "description": "Plan a bounded campaign, compile scope, and suppress cache-valid work."},
-    "run_campaign": {"write": False, "read_only": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
-    "get_campaign_result": {"write": False, "read_only": True, "description": "Return the compact reduced result for a campaign."},
-    "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
-    "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
+    "brain_for": {"write": False, "read_only": True, "canon_write": False, "description": "Compile a compact task-specific PLG brain routing packet from durable repository metadata."},
+    "brain_doctor": {"write": False, "read_only": True, "canon_write": False, "description": "Check PLG brain routing health and drift without modifying repository state."},
+    "audio_next": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve the earliest free Audio Score chapter for the selected generation without claiming it."},
+    "audio_claim": {"write": True, "read_only": False, "canon_write": False, "description": "Atomically claim the earliest free Audio Score chapter for the selected generation by creating its remote branch; collisions re-resolve instead of stealing work."},
+    "compile_range": {"write": False, "read_only": False, "canon_write": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
+    "get_scene_view": {"write": False, "read_only": True, "canon_write": False, "description": "Return one narrow compiler view for an exact stable scene ID."},
+    "query_scenes": {"write": False, "read_only": True, "canon_write": False, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
+    "plan_campaign": {"write": False, "read_only": False, "canon_write": False, "description": "Plan a bounded campaign, compile scope, and suppress cache-valid work."},
+    "run_campaign": {"write": False, "read_only": False, "canon_write": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
+    "get_campaign_result": {"write": False, "read_only": True, "canon_write": False, "description": "Return the compact reduced result for a campaign."},
+    "reduce_campaign": {"write": False, "read_only": False, "canon_write": False, "description": "Recompute deterministic campaign reduction without model work."},
+    "apply_survivors": {"write": True, "read_only": False, "canon_write": True, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
 

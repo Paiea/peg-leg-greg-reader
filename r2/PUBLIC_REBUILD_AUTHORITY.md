@@ -1,44 +1,41 @@
-# R2 Public Character-First Rebuild Authority
+# R2 Public Written Authority
 
-Status: **ACTIVE PUBLIC R2 AUTHORITY**
+Status: **R2 COMPLETE / FROZEN WRITTEN AUTHORITY**
 
-The public R2 story currently runs through **Chapter 39 — The East Desk**.
+The selected public R2 story runs through **Chapter 182 - The Specialist**.
 
 ## Authority boundary
 
-- Chapters 1–26 remain the previously published R2 story.
-- Chapters 27–39 are replaced by the accepted character-first rebuild.
-- Chapters 40+ from the old forward conveyor are retained in the repository as historical quarry/evidence only.
-- Old 40+ files are not current chronology, are not public navigation, and are not eligible forward written/audio/image authority merely because the files still exist.
-- The complete pre-rebuild 304-chapter production registry is archived at `r2/editorial/legacy-forward/chapter-registry-pre-character-rebuild.json`.
+- Chapters 1-39 remain the previously published character-first R2 sequence.
+- Chapters 40-42 recover the true-frontier story directly preceding the temporal-year work.
+- Chapters 43-82 are the selected Black Stair continuation.
+- Chapter 83, `Home Road`, is the return seam from Westreach to Carrow.
+- Chapters 84-118 are the selected two-year Halden continuation.
+- Chapters 119-164 are the selected post-`First Bell` re-performance and replace older same-numbered quarry prose.
+- Chapters 165-182 are the selected Storm Road final arc and ordinary-life landing.
+- Chapter 182, `The Specialist`, is the final R2 written chapter.
+- There is no planned Chapter 183. Future R2 story expansion requires explicit author authority reopening the run.
+- Audio, images, site polish, corrections, and archival work may continue without reopening written story authority.
+- Planner state, temporal contracts, audits, source maps, and superseded forward material remain development evidence only.
 
-## Current public sequence
+## Final movement
 
-27. **The Late Letter**
-28. **Eventually**
-29. **The Seven**
-30. **The Workshop**
-31. **The Next Road**
-32. **Two Copper**
-33. **Route Day**
-34. **The Packet**
-35. **The Ask**
-36. **Four Nights**
-37. **One Day Late**
-38. **Two Keys**
-39. **The East Desk**
+The Storm Road final arc gives Greg a bounded professional problem whose safe solution is genuinely available. Greg knowingly chooses the setter's cuff anyway because its narrower, faster structural family can preserve more of the crossing. The choice works. The convoy crosses, the specialists retain ownership of their own lanes, and Greg is materially rewarded.
 
-The exact selected story bodies are the public copies at `r2/assets/written/ch027.md` through `ch039.md`.
+The durable cost is specialization rather than punishment. Greg's moving-load / failure-routing family becomes reflexively fast while broad structural work becomes slower to reach, though still available and trainable.
 
-Per `r2/WRITTEN_PRODUCTION.md`, the reader strips internal provenance text before the first `---`; selected experimental source files may therefore be reused byte-for-byte when the body is accepted.
+Mara's Northbank life remains independent. She identifies Greg's pattern without becoming his moral authority: he keeps borrowing from future versions of himself because he expects them to adapt.
 
-## Forward route
+R2 lands back in ordinary Carrow life. Greg receives a higher-rate contract specifically requesting a moving-load / failure-routing specialist, weights the paper with the blue-green West Bramble snail, and goes downstairs before dinner gets cold.
 
-The character-first temporal engine owns future development.
+## Publication note
 
-- Accepted numbered A material may become public chapters after connected evaluation and selection.
-- B/C/D material remains replaceable rehearsal and must not publish directly.
-- Historical later R2 may be used as quarry, never as automatic chronology.
-- The next public chapter after 39 does not exist until a later A run earns it.
+Selected written prose publishes directly to the R2 reader. Audio and images may lag and do not block the Read surface. New Chapters 165-182 intentionally begin with audio `not_started`; no older same-numbered media may be inherited.
 
-This file exists specifically to prevent old 40+ registry/files from silently restarting the superseded conveyor.
+## Freeze
+
+**Final written frontier: Chapter 182 - The Specialist**
+
+**R2 status: COMPLETE**
+
+The canonical lessons and candidate inheritance for 3L live in `editorial/R2_POSTMORTEM.md` and `editorial/R2_TO_3L_HANDOFF.md`.

@@ -1,0 +1,15 @@
+name: Legacy 3L 002-003 Five-Worker Work Order
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  historical-only:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Superseded by .github/workflows/3l-build-frontier.yml"
+          echo "Current production work order is 3l/audio/records-002-010-five-worker-work-order.json"

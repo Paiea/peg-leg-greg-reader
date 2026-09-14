@@ -1,0 +1,40 @@
+name: 3L Dialogue Territory Tests
+
+on:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+    paths:
+      - scripts/plan_3l_short_dual_render.py
+      - tests/test_3l_short_take_plan.py
+      - tests/test_3l_dialogue_territories.py
+      - 3l/manuscript/record-*.md
+      - 3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md
+      - .github/workflows/3l-dialogue-territory-tests.yml
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout focused files
+        uses: actions/checkout@v4
+        with:
+          ref: 3l/dialogue-territory-rebuild-002-010
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts/plan_3l_short_dual_render.py
+            tests/test_3l_short_take_plan.py
+            tests/test_3l_dialogue_territories.py
+            3l/manuscript
+            3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md
+          sparse-checkout-cone-mode: false
+
+      - name: Run short-take planner tests
+        run: python -m unittest discover -s tests -p 'test_3l_short_take_plan.py' -v
+
+      - name: Run dialogue territory manuscript tests
+        run: |
+          if [ -f tests/test_3l_dialogue_territories.py ]; then
+            python -m unittest discover -s tests -p 'test_3l_dialogue_territories.py' -v
+          fi

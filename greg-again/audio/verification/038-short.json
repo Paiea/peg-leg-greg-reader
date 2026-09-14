@@ -1,0 +1,22 @@
+{
+  "chapter_id": "ga-038",
+  "number": 38,
+  "title": "Two Keys",
+  "voice": "deep",
+  "source_path": "r2/assets/written/ch038.md",
+  "source_sha": "e81e4ea9a0e9e60b5183e175c246835801678c27",
+  "take_count": 33,
+  "exact_source_coverage": true,
+  "take_order_verified": true,
+  "individual_mp3s_verified": true,
+  "assembled_mp3_verified": true,
+  "seam_continuity_verified": true,
+  "stable_identity_verified": true,
+  "current_public_title_verified": true,
+  "provider_contexts_preserved": true,
+  "pronunciation_substitutions": [],
+  "assembled_duration_seconds": 771.528,
+  "assembled_bytes": 12344877,
+  "assembled_sha256": "2fc51d5434e4bee6905c133c981128acbfd5598ba367451703ddef70b8d7e0fa",
+  "chapter_tail_silence_seconds_added": 2.0
+}

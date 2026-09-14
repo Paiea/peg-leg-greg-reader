@@ -1,0 +1,972 @@
+{
+  "record": "003",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-003-short-dual-plan.json",
+  "plan_sha256": "57f8b909c1810b02ebece3ab44134778ff2647b729a38a9450cda4902cec036f",
+  "source_verification": "3l/audio/verification/record-003-short-captures.json",
+  "source_verification_sha256": "a4956a7399ad7054c37351f4337fe7cfb5ee8f0029b8b0d9efba3c54932ecd3c",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 43,
+  "chunk_count": 30,
+  "mixed_chunk_count": 13,
+  "duration_seconds": 790.536,
+  "byte_size": 18973485,
+  "sha256": "349eb66746024bd2f6237f5d8de96cbe7ce87ea8bf20d198b80ba6e46b02e008",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 493,
+          "role": "greg",
+          "text": "\u201cWhat made it true.\u201d\n\nI repeated the sentence because sometimes hearing somebody else's bad idea in your own voice helps.\n\nIt did not.\n\nIthar waited.\n\nHe had become very good at waiting since I entered the cave.\n\nProbably before that too.\n\n\u201cYou want the whole story.\u201d\n\nThe dragon's eye narrowed.\n\nI felt an unreasonable amount of satisfaction.\n\n\u201cSee? Useful sentence. You could just say yes.\u201d\n\nHe did not.\n\nThat took some of the satisfaction back.\n\nI shifted on the stone ledge beside my pack."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.4
+        }
+      ],
+      "assembled_duration_seconds": 29.4
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 483,
+          "role": "greg",
+          "text": "It was not really a seat.\n\nIt was a part of the cave that happened to be roughly the right height and only moderately covered in old coins.\n\nMy left leg preferred sitting to standing.\n\nThe rest of me had not yet decided whether sitting in a dragon's home counted as progress.\n\n\u201cThe Line is failing now. That part has a clock. You still haven't agreed to help, so I should probably keep saying it.\u201d\n\nIthar's claw moved through the gold again.\n\nThe sound was becoming background noise."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.328
+        }
+      ],
+      "assembled_duration_seconds": 29.328
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 304,
+          "role": "greg",
+          "text": "That worried me.\n\nA person should not become accustomed to sitting beside enough money to destabilize a kingdom.\n\nThen again, people become accustomed to most things if they happen around breakfast often enough.\n\nI had learned that twice.\n\nThe dragon let me finish trying to negotiate before he answered."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 18.84
+        }
+      ],
+      "assembled_duration_seconds": 18.84
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 429,
+          "role": "dragon",
+          "text": "\u201cYou came here because of the Line. That is not the same as coming here for the Line. You knew my name before the western stations began failing. You knew the mountain before the ninth station bled pressure into the eastern sink. You knew Nhal had known me before your present kingdom appointed the first keeper now attempting to repair that station. You searched for me before the crisis you offered as your reason for arriving."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 26.304
+        }
+      ],
+      "assembled_duration_seconds": 26.304
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 111,
+          "role": "dragon",
+          "text": "\u201cI am not assuming your earlier reason matters. I am assuming only that it exists. Those are different claims.\u201d"
+        },
+        {
+          "start": 111,
+          "end": 424,
+          "role": "greg",
+          "text": "\n\nI looked toward the passage again.\n\nI really needed to stop doing that.\n\nThe exit was beginning to feel like a participant.\n\n\u201cI researched possibilities.\u201d\n\nThe eye stayed on me.\n\n\u201cFor the future.\u201d\n\nStill not an answer.\n\nI could read that much now.\n\n\u201cIt is if you're willing to be generous.\u201d\n\nHe was not.\n\nNoted."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 6.395645
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.3370999999999995,
+          "end_seconds": 25.44
+        }
+      ],
+      "assembled_duration_seconds": 25.498542
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 495,
+          "role": "greg",
+          "text": "That was the problem with talking to something that could probably sit in the same position longer than I had been alive.\n\nThere was no body language to wait out.\n\nNo awkwardness to exploit.\n\nNo point where the other person glanced at the door because they had somewhere else to be.\n\nI had somewhere else to be.\n\nSeveral million people did too.\n\nThe dragon had a cave.\n\nI was starting to suspect that was the stronger negotiating position.\n\nIthar's attention shifted.\n\nNot away from the problem."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.48
+        }
+      ],
+      "assembled_duration_seconds": 30.48
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 15,
+          "role": "greg",
+          "text": "Deeper into it."
+        },
+        {
+          "start": 15,
+          "end": 242,
+          "role": "dragon",
+          "text": "\n\n\u201cIf the Line were repaired now, what would you do next? Do not give me a direction and call it home. Tell me what home means, and what you intend to do there after the emergency you have used to explain your arrival is gone.\u201d"
+        },
+        {
+          "start": 242,
+          "end": 498,
+          "role": "greg",
+          "text": "\n\nI looked at him.\n\n\u201cThat is several questions pretending to be one.\u201d\n\nHis nostril moved.\n\nFine.\n\nI picked at a split in the leather over my right palm.\n\nThe glove was new compared to most of me.\n\nThree months.\n\nGood stitching.\n\nBad fit around the fingers."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 1.0670215
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.9770610000000001,
+          "end_seconds": 14.754249999999999
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 14.71485,
+          "end_seconds": 30.096
+        }
+      ],
+      "assembled_duration_seconds": 30.225354
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 441,
+          "role": "greg",
+          "text": "I had meant to replace it before the mountain and had forgotten.\n\nThere were people who would have remembered for me.\n\nThat thought went somewhere I did not want it to go.\n\n\u201cHome is south. Where my things are.\u201d\n\nThe definition looked poor even before Ithar touched it.\n\n\u201cMost definitions are poor if you keep touching them.\u201d\n\nHis eye narrowed.\n\nThat one I kept.\n\nWhat would I do after I got there?\n\nEat.\n\nSleep.\n\nComplain about the mountain."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.592
+        }
+      ],
+      "assembled_duration_seconds": 26.592
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 438,
+          "role": "greg",
+          "text": "Recover the horse, if the horse had developed a conscience.\n\nThen what?\n\nThe question did not need his voice every time.\n\nI could hear it anyway.\n\nThen what?\n\nThen what?\n\nThen what?\n\n\u201cYou could do this forever.\u201d\n\nThe dragon did not disagree.\n\n\u201cAnd then I live.\u201d\n\nIthar went still.\n\nNot interested still.\n\nDifferent.\n\nThe kind that meant I had stepped on something without hearing it crack yet.\n\nHe did not need a long answer for that one."
+        },
+        {
+          "start": 438,
+          "end": 475,
+          "role": "dragon",
+          "text": "\n\n\u201cYou have already done that twice.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 25.56835
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 25.9033,
+          "end_seconds": 28.152
+        }
+      ],
+      "assembled_duration_seconds": 27.817063
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 488,
+          "role": "greg",
+          "text": "The cave suddenly felt warmer.\n\n\u201cDon't.\u201d\n\nHis eye remained on me.\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\nThe claw dragged a shallow line through the gold.\n\nCoins rolled into it and vanished.\n\nHe wanted the end of the first life.\n\nI could feel the question coming without hearing it spoken.\n\n\u201cNo.\u201d\n\nThe pupil shifted.\n\n\u201cWe're not doing this. We're discussing the Line.\u201d\n\nAs far as Ithar was concerned, we had finished discussing the Line when he refused to promise anything."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.232
+        }
+      ],
+      "assembled_duration_seconds": 29.232
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 287,
+          "role": "greg",
+          "text": "That was not finishing by any human definition I respected.\n\nApparently the dragon had his own.\n\nI laughed once through my nose.\n\nThe sound came out meaner than I intended.\n\n\u201cDo you want payment? Gold? Land? You like mountains. I could probably find you another one.\u201d\n\nHis mouth shifted."
+        },
+        {
+          "start": 287,
+          "end": 317,
+          "role": "dragon",
+          "text": "\n\n\u201cI possess enough mountain.\u201d"
+        },
+        {
+          "start": 317,
+          "end": 485,
+          "role": "greg",
+          "text": "\n\nI looked around.\n\n\u201cGood sentence.\u201d\n\nThe mouth moved again.\n\nNot quite a smile.\n\nNeither of us spoke for a moment.\n\nThat might have been our first successful exchange."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 16.9921
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.9713,
+          "end_seconds": 18.78615
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 19.11495,
+          "end_seconds": 29.064
+        }
+      ],
+      "assembled_duration_seconds": 28.756
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 108,
+          "role": "greg",
+          "text": "I decided not to ruin it by mentioning it.\n\n\u201cWhat do you want?\u201d\n\nThe answer came as a territory, not a word."
+        },
+        {
+          "start": 108,
+          "end": 476,
+          "role": "dragon",
+          "text": "\n\n\u201cYou. More precisely, your account.\n\n\u201cThe discrepancy began with you. Your Line knowledge may be consequence, coincidence, or merely one expression of the same event. The name is another. Nhal is another. Your body attempting movements it has not learned is another. Your present rank is not the interesting part. The habits your body displays despite that rank are."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 6.541
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 6.843915000000001,
+          "end_seconds": 29.112
+        }
+      ],
+      "assembled_duration_seconds": 28.809083
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 354,
+          "role": "dragon",
+          "text": "\u201cYou keep offering nouns as explanations. Returned. Remembered. S-class. Ranker. Line. Nhal. Life. Each one is a container. You place forty years inside a word and then appear irritated when I ask what is in it.\n\n\u201cI do not want your preferred summary of yourself, Greg. I want enough of the account to determine why these containers hold what they hold.\u201d"
+        },
+        {
+          "start": 354,
+          "end": 412,
+          "role": "greg",
+          "text": "\n\nI looked down at the leg.\n\n\u201cMy rank isn't inconsistent.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 21.83015
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 21.5167,
+          "end_seconds": 24.888
+        }
+      ],
+      "assembled_duration_seconds": 25.201438
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 500,
+          "role": "greg",
+          "text": "The dragon had watched me move before the stone in a way my leg could not presently support.\n\nLuck, I could have called it.\n\nTraining.\n\nJust not this body's training.\n\nI scratched at my jaw.\n\nThe beard had gotten rough during the climb.\n\nThere had been a time when three days without shaving felt like neglect.\n\nThen I had children.\n\nThen I had worse problems.\n\nThen I had fewer reasons to care.\n\nThe memory arrived and left before I could stop it.\n\nIthar's eye shifted.\n\nHe had not read the thought."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.024
+        }
+      ],
+      "assembled_duration_seconds": 30.024
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 471,
+          "role": "greg",
+          "text": "He had heard something else.\n\nHeartbeat, maybe.\n\nBreath.\n\nThe little pause humans make when a room changes without moving.\n\nI looked away.\n\n\u201cNothing relevant.\u201d\n\nThe dragon lowered his head.\n\nVery slowly.\n\nI had seen cliffs move faster.\n\nI knew what he had noticed.\n\nThat was the problem.\n\n\u201cSee? This is exactly why I don't want to do forty years with you.\u201d\n\nHis pupil narrowed.\n\nRight.\n\nNot forty.\n\nThe first life had been forty too.\n\n\u201cI am not telling you eighty years.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.576
+        }
+      ],
+      "assembled_duration_seconds": 27.576
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 350,
+          "role": "greg",
+          "text": "I laughed when his expression failed to change.\n\n\u201cYou're serious.\u201d\n\nStone ground against stone as Ithar shifted his foreleg beneath him.\n\nGold slid for several seconds.\n\nSomething metal fell deeper in the mound and kept falling long enough that I wondered how far down the hoard went.\n\nWhen the sound finally stopped, the dragon took the floor again."
+        },
+        {
+          "start": 350,
+          "end": 395,
+          "role": "dragon",
+          "text": "\n\n\u201cI do not require eighty years in sequence."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 21.264400000000002
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.35545,
+          "end_seconds": 24.384
+        }
+      ],
+      "assembled_duration_seconds": 24.292938
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 187,
+          "role": "dragon",
+          "text": "\u201cYou believe the second life is the story because it is the one you inhabit. Reasonable. You also believe the first is context because you have already assigned its role. Less reasonable."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 11.328
+        }
+      ],
+      "assembled_duration_seconds": 11.328
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 443,
+          "role": "dragon",
+          "text": "\u201cIn the second life, every choice made with foreknowledge carries a piece of the first. Every person you sought because you remembered them. Every person you avoided. Every road you did not take. Every skill you attempted before your body was ready. Every danger you recognized. Every danger you failed to recognize because you believed you already understood it.\n\n\u201cThe first life is not background to the second. It is pressure applied to it."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 27.408
+        }
+      ],
+      "assembled_duration_seconds": 27.408
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 374,
+          "role": "dragon",
+          "text": "\u201cYou may describe the second life as the path. When the path depends upon the first, you will tell me enough of the first to explain the dependency. You may compress repetition. You may omit what you genuinely do not remember. You may not convert years into summaries merely because the years embarrass you, bore you, or fail to support the explanation you currently prefer."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 23.184
+        }
+      ],
+      "assembled_duration_seconds": 23.184
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 420,
+          "role": "dragon",
+          "text": "\u201cIf you say you worked somewhere for six years, and six years are truly indistinguishable to you, I gain nothing by forcing you to invent distinctions. If you remember the first morning, a particular lunch, the person who sat across from you, the first time you were late, the day your wages changed, an argument in the third year, and the meal after your final shift, then you do not remember six years as one sentence."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 25.44
+        }
+      ],
+      "assembled_duration_seconds": 25.44
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 296,
+          "role": "dragon",
+          "text": "\u201cYou have spent decades deciding which memories explain who you became. I have no reason to trust that selection. You know what mattered to you when you last interpreted it. That is not necessarily what mattered. The reason you remember a thing may not be the reason you believe you remember it.\u201d"
+        },
+        {
+          "start": 296,
+          "end": 464,
+          "role": "greg",
+          "text": "\n\nI sat with that.\n\nI did not enjoy it.\n\nThe cave water moved somewhere behind him.\n\nSlow and steady.\n\nThe Line moved under the continent too.\n\nNot slow enough anymore."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 17.5717
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 17.87885,
+          "end_seconds": 28.344
+        }
+      ],
+      "assembled_duration_seconds": 28.036854
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 488,
+          "role": "greg",
+          "text": "\u201cThat sounds suspiciously like rules for my story.\u201d\n\nIthar's eye held mine.\n\n\u201cLife Two is the spine. Life One where it matters.\u201d\n\nThe eye did not move.\n\n\u201cAnd I get some editorial control.\u201d\n\nA long pause.\n\nVery little, apparently.\n\n\u201cMore than none.\u201d\n\nHis mouth shifted.\n\nAcceptable.\n\nThat was easier than expected.\n\nWhich probably meant I had misunderstood the agreement.\n\nIthar was going to be fucking annoying about this.\n\nAt least we were clear.\n\nI thought about time next.\n\nHuman time."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.968
+        }
+      ],
+      "assembled_duration_seconds": 28.968
+    },
+    {
+      "chunk": 23,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 445,
+          "role": "greg",
+          "text": "The kind dragons could afford to treat as a formatting problem.\n\n\u201cHow long do you think this takes?\u201d\n\nIthar considered me.\n\nWeeks, maybe.\n\nMonths, maybe.\n\nHe did not know.\n\nWorse, he did not care about the duration in the way I did.\n\nHe had been in this mountain longer than my current kingdom had had a name.\n\n\u201cYou really know how to make a person feel urgent.\u201d\n\nThe dragon's gaze sharpened.\n\nThen his voice changed again.\n\nNot deeper.\n\nLonger."
+        },
+        {
+          "start": 445,
+          "end": 488,
+          "role": "dragon",
+          "text": "\n\n\u201cYou are urgent, Greg. Not the Line. You."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.607300000000002
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 26.734450000000002,
+          "end_seconds": 28.992
+        }
+      ],
+      "assembled_duration_seconds": 28.864833
+    },
+    {
+      "chunk": 24,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 498,
+          "role": "dragon",
+          "text": "\u201cYou are sixty soon. Your species measures a life in decades and then behaves surprised when there are not enough of them. You are not surprised. That interests me.\n\n\u201cYou have been searching for me for years. You have already lived two lives by your own description. You arrived with enough food to reach me, not enough to return comfortably. Your planning prioritizes arrival over departure.\n\n\u201cI do not know what conclusion belongs to those facts yet. I know only that they belong in the account.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 30.696
+        }
+      ],
+      "assembled_duration_seconds": 30.696
+    },
+    {
+      "chunk": 25,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 358,
+          "role": "greg",
+          "text": "I regretted several answers I had not even said out loud.\n\n\u201cI can hunt.\u201d\n\nHis eye dropped to the leg.\n\n\u201cPoorly.\u201d\n\nThat one I admitted for him.\n\nThe word perhaps sat between us without being spoken.\n\nI had come here to save the Line.\n\nPerhaps.\n\nI looked at the passage again.\n\nThe exit did not help.\n\n\u201cWhat if I say no?\u201d\n\nThe dragon answered without ceremony."
+        },
+        {
+          "start": 358,
+          "end": 481,
+          "role": "dragon",
+          "text": "\n\n\u201cYou leave. You may die on the mountain. You may live. The Line may fail. I will not burn you for refusing conversation.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 21.29325
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.475,
+          "end_seconds": 28.704
+        }
+      ],
+      "assembled_duration_seconds": 28.52225
+    },
+    {
+      "chunk": 26,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 164,
+          "role": "greg",
+          "text": "My jaw tightened at the third possibility.\n\nHe watched that one land.\n\nThen, for once, he did not press.\n\nInstead he lifted a claw and pointed deeper into the cave."
+        },
+        {
+          "start": 164,
+          "end": 435,
+          "role": "dragon",
+          "text": "\n\n\u201cThere is water behind the second stone shelf. There are animals below the eastern face. The other eastern face, before you ask. I can show you where. If this account requires weeks or months, you may sleep, eat, hunt badly, and continue being human while you tell it.\u201d"
+        },
+        {
+          "start": 435,
+          "end": 447,
+          "role": "greg",
+          "text": "\n\nI blinked."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 10.073350000000001
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 9.60923,
+          "end_seconds": 26.686
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.5484,
+          "end_seconds": 27.0
+        }
+      ],
+      "assembled_duration_seconds": 27.601708
+    },
+    {
+      "chunk": 27,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 197,
+          "role": "greg",
+          "text": "That might have been the first practical offer he had made me.\n\nNot save the kingdom.\n\nNot repair the Line.\n\nFood directions.\n\nIt was a start.\n\n\u201cYou understand I have to shit.\u201d\n\nHis nostril opened."
+        },
+        {
+          "start": 197,
+          "end": 236,
+          "role": "dragon",
+          "text": "\n\n\u201cYou are welcome to do that outside.\u201d"
+        },
+        {
+          "start": 236,
+          "end": 454,
+          "role": "greg",
+          "text": "\n\nI laughed.\n\nIthar did not.\n\nMaybe that was a joke.\n\nI was beginning to think the problem was not that dragons lacked humor.\n\nThe problem was that this one did not care whether I noticed.\n\nI finally unbuckled my pack."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 11.859449999999999
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 11.995149999999999,
+          "end_seconds": 14.475249999999999
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 14.605450000000001,
+          "end_seconds": 27.264
+        }
+      ],
+      "assembled_duration_seconds": 26.998104
+    },
+    {
+      "chunk": 28,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 484,
+          "role": "greg",
+          "text": "My shoulder loosened the moment the weight came off.\n\nI set the pack beside the stone and sat properly.\n\nThe leg thanked me.\n\nThe rest of me felt like I had just signed something without reading the last page.\n\nIthar settled too.\n\nThe cave changed around his weight.\n\nFor a while neither of us spoke.\n\nI thought about the Line.\n\nI thought about the road down.\n\nI thought about Nhal beneath the salt flats.\n\nI thought about a kitchen that had not existed for thirty years and then had."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.112
+        }
+      ],
+      "assembled_duration_seconds": 29.112
+    },
+    {
+      "chunk": 29,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 280,
+          "role": "greg",
+          "text": "A woman's hand.\n\nA child's laugh.\n\nA wooden leg leaning against a bed because the socket had rubbed the skin raw that day.\n\nI stopped there.\n\nNot yet.\n\nIthar's nostril moved.\n\nHe had heard the silence change again.\n\nThis time the question was small enough to deserve being spoken."
+        },
+        {
+          "start": 280,
+          "end": 317,
+          "role": "dragon",
+          "text": "\n\n\u201cWhere does the discrepancy begin?\u201d"
+        },
+        {
+          "start": 317,
+          "end": 374,
+          "role": "greg",
+          "text": "\n\nI looked at him.\n\n\u201cNineteen.\u201d\n\nThe dragon held my eyes."
+        },
+        {
+          "start": 374,
+          "end": 390,
+          "role": "dragon",
+          "text": "\n\n\u201cBegin there.\u201d"
+        },
+        {
+          "start": 390,
+          "end": 494,
+          "role": "greg",
+          "text": "\n\nI rested my hands on my knees.\n\nBoth of them felt old.\n\nOnly one had been old the first time.\n\n\u201cFine.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 15.8555
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.16465,
+          "end_seconds": 18.59905
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 18.703400000000002,
+          "end_seconds": 21.697400000000002
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 21.97605,
+          "end_seconds": 22.9292
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.961199999999998,
+          "end_seconds": 29.376
+        }
+      ],
+      "assembled_duration_seconds": 28.651833
+    },
+    {
+      "chunk": 30,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 87,
+          "role": "greg",
+          "text": "The word came out smaller than I expected.\n\nI took a breath.\n\nAnd remembered waking up."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 5.304
+        }
+      ],
+      "assembled_duration_seconds": 5.304
+    }
+  ]
+}

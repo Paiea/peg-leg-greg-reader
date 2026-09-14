@@ -1,0 +1,75 @@
+name: Verify 3L short-take planner
+
+on:
+  push:
+    branches:
+      - 3l/records-002-010-write2
+    paths:
+      - '.github/workflows/3l-short-take-plan.yml'
+      - 'scripts/plan_3l_short_dual_render.py'
+      - 'tests/test_3l_short_take_plan.py'
+      - '3l/manuscript/record-002.md'
+      - '3l/manuscript/record-003.md'
+      - '3l/performance/record-002.quote-roles.json'
+      - '3l/performance/record-003.quote-roles.json'
+
+permissions:
+  contents: write
+
+jobs:
+  plan-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/workflows
+            scripts
+            tests
+            3l/manuscript
+            3l/audio
+            3l/performance
+      - name: Run planner tests
+        run: python -m unittest tests.test_3l_short_take_plan
+      - name: Build Records 002 and 003 plans and quote inventories
+        run: |
+          EXTRA002=""
+          EXTRA003=""
+          test ! -f 3l/performance/record-002.quote-roles.json || EXTRA002="--quote-roles 3l/performance/record-002.quote-roles.json"
+          test ! -f 3l/performance/record-003.quote-roles.json || EXTRA003="--quote-roles 3l/performance/record-003.quote-roles.json"
+          python scripts/plan_3l_short_dual_render.py 3l/manuscript/record-002.md 3l/audio/record-002-short-dual-plan.json --inventory-output 3l/audio/record-002-quote-inventory.tsv $EXTRA002
+          python scripts/plan_3l_short_dual_render.py 3l/manuscript/record-003.md 3l/audio/record-003-short-dual-plan.json --inventory-output 3l/audio/record-003-quote-inventory.tsv $EXTRA003
+      - name: Verify generated plans
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          valid = {'deep', 'normal'}
+          for n in ('002','003'):
+              p=Path(f'3l/audio/record-{n}-short-dual-plan.json')
+              data=json.loads(p.read_text())
+              assert data['chunks']
+              assert all(len(c['transcript']) <= 500 for c in data['chunks'])
+              assert all(set(c['required_voices']).issubset(valid) and c['required_voices'] for c in data['chunks'])
+              inventory=Path(f'3l/audio/record-{n}-quote-inventory.tsv').read_text().splitlines()
+              assert len(inventory) == data['quote_count'] + 1
+              calls=sum(len(c['required_voices']) for c in data['chunks'])
+              mixed=sum(c['dual_render'] for c in data['chunks'])
+              print(n, 'chunks=', len(data['chunks']), 'quotes=', data['quote_count'], 'captures=', calls, 'mixed=', mixed)
+          PY
+      - name: Commit generated plans
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            3l/audio/record-002-short-dual-plan.json \
+            3l/audio/record-003-short-dual-plan.json \
+            3l/audio/record-002-quote-inventory.tsv \
+            3l/audio/record-003-quote-inventory.tsv
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "audio: plan and audit 3L Records 002 and 003 short takes"
+          git push origin HEAD:${GITHUB_REF_NAME}

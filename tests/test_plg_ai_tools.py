@@ -10,6 +10,8 @@ from scripts import plg_ai_tools
 EXPECTED = {
     "brain_for",
     "brain_doctor",
+    "audio_next",
+    "audio_claim",
     "compile_range",
     "get_scene_view",
     "query_scenes",
@@ -60,16 +62,18 @@ class PLGAIToolTests(unittest.TestCase):
             self.assertEqual("001.s010", result["scene_id"]); self.assertEqual(before, source.read_bytes())
 
     def test_apply_survivors_is_the_only_canon_write_adapter_and_delegates(self):
-        canon_write_tools = {name for name, spec in plg_ai_tools.TOOL_SPECS.items() if spec["write"]}
+        canon_write_tools = {name for name, spec in plg_ai_tools.TOOL_SPECS.items() if spec.get("canon_write", False)}
         self.assertEqual({"apply_survivors"}, canon_write_tools)
+        self.assertTrue(plg_ai_tools.TOOL_SPECS["audio_claim"]["write"])
+        self.assertFalse(plg_ai_tools.TOOL_SPECS["audio_claim"]["canon_write"])
         with mock.patch.object(plg_ai_tools.performance_campaign, "integrate_campaign", return_value={"changed": []}) as integrate:
             result = plg_ai_tools.apply_survivors({"campaign_root": "/tmp/c", "chapter_root": "/tmp/chapters", "current_authority": "sha"})
         self.assertEqual({"changed": []}, result); integrate.assert_called_once()
 
-    def test_tool_metadata_distinguishes_read_only_from_disposable_cache_writes(self):
-        for name in ("brain_for","brain_doctor","get_scene_view","query_scenes","get_campaign_result"):
+    def test_tool_metadata_distinguishes_read_only_from_disposable_and_operational_writes(self):
+        for name in ("brain_for","brain_doctor","audio_next","get_scene_view","query_scenes","get_campaign_result"):
             self.assertTrue(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
-        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "apply_survivors"):
+        for name in ("audio_claim", "compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "apply_survivors"):
             self.assertFalse(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
 
     def test_call_dispatches_structured_payload(self):

@@ -11,10 +11,11 @@
       "title": "The Boy",
       "status": "experimental",
       "lens": "greg-subjective",
-      "take_count": 11,
-      "duration_seconds": 959.808,
-      "audio_src": "assets/chapter-001.mp3",
-      "note": "Full Greg-subjective Chapter 1 render, assembled from eleven performance-sized takes."
+      "take_count": 36,
+      "duration_seconds": 952.704,
+      "audio_src": "assets/light/chapter-001.mp3",
+      "note": "Audio Score Light Chapter 1 assembled from 36 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-002",
@@ -22,10 +23,11 @@
       "title": "Two Things",
       "status": "experimental",
       "lens": "greg-dominant",
-      "take_count": 12,
-      "duration_seconds": 842.664,
-      "audio_src": "assets/chapter-002.mp3",
-      "note": "Greg-dominant Chapter 2: continuous thought-line, attention gravity, embodied outside characters, selective direct speech, and voice breaches treated as events."
+      "take_count": 29,
+      "duration_seconds": 759.648,
+      "audio_src": "assets/light/chapter-002.mp3",
+      "note": "Audio Score Light Chapter 2 assembled from 29 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-003",
@@ -33,10 +35,11 @@
       "title": "The Borrower",
       "status": "experimental",
       "lens": "greg-dominant",
-      "take_count": 12,
-      "duration_seconds": 756.984,
-      "audio_src": "assets/chapter-003.mp3",
-      "note": "Greg-dominant Chapter 3: attention gravity, selective voice breaches, and language-as-action preserve Arlo's technical ownership and Vale's binding loan terms."
+      "take_count": 29,
+      "duration_seconds": 786.912,
+      "audio_src": "assets/light/chapter-003.mp3",
+      "note": "Audio Score Light Chapter 3 assembled from 29 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-004",
@@ -44,10 +47,11 @@
       "title": "Thirty Days",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "take_count": 12,
-      "duration_seconds": 731.712,
-      "audio_src": "assets/chapter-004.mp3",
-      "note": "Repair-first Chapter 4 render from the selected Shared Greg Surface. Take boundaries are production seams only; Jorren's tactical voice breaches preserve HEAR → MOVE → UNDERSTAND without adding synthetic performance tics. Audio repair 2026-09-08: Take 01 received a sentence-local pronunciation patch for sparring; Takes 02-12 remain original published provider work."
+      "take_count": 28,
+      "duration_seconds": 733.704,
+      "audio_src": "assets/light/chapter-004.mp3",
+      "note": "Audio Score Light Chapter 4 assembled from 28 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified.",
+      "audio_finish": "audio-score-light"
     },
     {
       "chapter_id": "ga-005",
@@ -55,11 +59,11 @@
       "title": "The Partner",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 750.312,
-      "audio_src": "assets/chapter-005.mp3",
-      "note": "Chapter 5 applies the processing-space Audio Finish: repetition, resets, connective thought, tiny reactions, and pauses are used selectively so the listener can construct Greg's changing model without optimizing away useful processing time."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 697.128,
+      "audio_src": "assets/light/chapter-005.mp3",
+      "note": "Audio Score Light Chapter 5 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-006",
@@ -67,11 +71,11 @@
       "title": "The First Customer",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 13,
-      "duration_seconds": 874.056,
-      "audio_src": "assets/chapter-006.mp3",
-      "note": "Chapter 6 applies processing space to a spatial-action stress test: wet floor, conductive residue, copper, trapped pressure, bypass, spray, and Greg's tiny barrier remain causally legible to the ear. One dense hazard section was split into two provider-safe production takes without changing story state."
+      "audio_finish": "audio-score-light",
+      "take_count": 33,
+      "duration_seconds": 878.856,
+      "audio_src": "assets/light/chapter-006.mp3",
+      "note": "Audio Score Light Chapter 6 assembled from 33 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-007",
@@ -79,11 +83,11 @@
       "title": "The Extra Guard",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 818.136,
-      "audio_src": "assets/chapter-007.mp3",
-      "note": "Chapter 7 applies processing space to moving-action causality: the listener stays anchored to wagon, horses, road, ditch, rope, Meral, Jorren, and Greg while action ownership stays explicit. One social take was split provider-safe without changing wording."
+      "audio_finish": "audio-score-light",
+      "take_count": 31,
+      "duration_seconds": 821.16,
+      "audio_src": "assets/light/chapter-007.mp3",
+      "note": "Audio Score Light Chapter 7 assembled from 31 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-008",
@@ -91,11 +95,11 @@
       "title": "Road Work",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 14,
-      "duration_seconds": 703.08,
-      "audio_src": "assets/chapter-008.mp3",
-      "note": "Chapter 8 preserves evidence before certainty: suspicion, caravan vulnerability, confirming movement, prepared counters, and Greg's updated threat model land in sequence. All fourteen provider-safe takes were captured without a split."
+      "audio_finish": "audio-score-light",
+      "take_count": 27,
+      "duration_seconds": 705.984,
+      "audio_src": "assets/light/chapter-008.mp3",
+      "note": "Audio Score Light Chapter 8 assembled from 27 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-009",
@@ -103,11 +107,11 @@
       "title": "The Bridge",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 12,
-      "duration_seconds": 671.352,
-      "audio_src": "assets/chapter-009.mp3",
-      "note": "Chapter 9 preserves future-memory uncertainty and rescue load direction. Twelve short provider-safe takes keep the remembered stone bridge distinct from the present wooden crossing while preserving action ownership and Greg's under-load angle correction."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 676.824,
+      "audio_src": "assets/light/chapter-009.mp3",
+      "note": "Audio Score Light Chapter 9 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-010",
@@ -115,11 +119,11 @@
       "title": "What Moved",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 12,
-      "duration_seconds": 710.544,
-      "audio_src": "assets/chapter-010.mp3",
-      "note": "Chapter 10 preserves time residue across Jorren's departure, Greg's ordinary road changes, and Carrow's offscreen progress. Twelve short deep-voice takes keep production seams locally repairable while Arlo, Ivena, Sella, work, money, body, and mana all continue moving without Greg at the center."
+      "audio_finish": "audio-score-light",
+      "take_count": 28,
+      "duration_seconds": 714.624,
+      "audio_src": "assets/light/chapter-010.mp3",
+      "note": "Audio Score Light Chapter 10 assembled from 28 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-011",
@@ -127,11 +131,11 @@
       "title": "The North Gate",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 29,
-      "duration_seconds": 693.048,
-      "audio_src": "assets/chapter-011.mp3",
-      "note": "Chapter 11 preserves remembered future fact as distinct from present causal proof. Twenty-nine short provider-safe takes preserve exact Shared Greg Surface wording and processing space while keeping every seam locally repairable."
+      "audio_finish": "audio-score-light",
+      "take_count": 27,
+      "duration_seconds": 696.312,
+      "audio_src": "assets/light/chapter-011.mp3",
+      "note": "Audio Score Light Chapter 11 assembled from 27 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-012",
@@ -139,11 +143,11 @@
       "title": "Mara",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 25,
-      "duration_seconds": 606.504,
-      "audio_src": "assets/chapter-012.mp3",
-      "note": "Chapter 12 preserves memory absence as absence. Twenty-five preview-safe deep-voice takes keep Mara's knowledge of young Greg distinct from Greg's missing recent memory while preserving the ordinary losses that history did not record."
+      "audio_finish": "audio-score-light",
+      "take_count": 23,
+      "duration_seconds": 608.328,
+      "audio_src": "assets/light/chapter-012.mp3",
+      "note": "Audio Score Light Chapter 12 assembled from 23 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-013",
@@ -151,11 +155,11 @@
       "title": "The Good Sword",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 13,
-      "duration_seconds": 621.456,
-      "audio_src": "assets/chapter-013.mp3",
-      "note": "Chapter 13 keeps the better sword useful without confusing the right tool for the right answer. Thirteen durable deep-voice takes preserve Greg's judgment under the hooktail fight; one oversized provider attempt was repaired locally as 03a/03b while all successful original takes were preserved."
+      "audio_finish": "audio-score-light",
+      "take_count": 25,
+      "duration_seconds": 656.184,
+      "audio_src": "assets/light/chapter-013.mp3",
+      "note": "Audio Score Light Chapter 13 assembled from 25 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-014",
@@ -163,11 +167,11 @@
       "title": "The Back Room",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 15,
-      "duration_seconds": 678.936,
-      "audio_src": "assets/chapter-014.mp3",
-      "note": "Chapter 14 preserves belonging without false certainty across Mara's departure, the old back room, bodily familiarity, and Greg's attempt to make promises he can honestly keep. Fifteen provider-safe deep-voice takes preserve eleven successful original artifacts while replacing only one overlong gated source range with four smaller exact-wording takes."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 682.536,
+      "audio_src": "assets/light/chapter-014.mp3",
+      "note": "Audio Score Light Chapter 14 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-015",
@@ -175,11 +179,11 @@
       "title": "The Friend",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 27,
-      "duration_seconds": 415.32,
-      "audio_src": "assets/chapter-015.mp3",
-      "note": "Chapter 15 returns to the original short-take factory: twenty-seven complete preview-safe deep-voice takes were captured directly as durable MP3 artifacts, avoiding the provider full-audio player page."
+      "audio_finish": "audio-score-light",
+      "take_count": 16,
+      "duration_seconds": 418.488,
+      "audio_src": "assets/light/chapter-015.mp3",
+      "note": "Audio Score Light Chapter 15 assembled from 16 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-016",
@@ -187,23 +191,23 @@
       "title": "The Investor",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 36,
-      "duration_seconds": 672.216,
-      "audio_src": "assets/chapter-016.mp3",
-      "note": "Chapter 16 uses thirty-six complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact spoken-source coverage and take order were verified before stitching; legacy player-page contexts remain preserved as historical recovery evidence."
+      "audio_finish": "audio-score-light",
+      "take_count": 26,
+      "duration_seconds": 675.72,
+      "audio_src": "assets/light/chapter-016.mp3",
+      "note": "Audio Score Light Chapter 16 assembled from 26 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-017",
       "number": 17,
-      "title": "The Extra Hand",
+      "title": "The Wrong Rope",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 42,
-      "duration_seconds": 916.488,
-      "audio_src": "assets/chapter-017.mp3",
-      "note": "Chapter 17 uses forty-two complete preview-safe deep-voice takes captured directly as durable MP3 artifacts. Exact current spoken-source coverage and take order are verified before stitching; the legacy eleven-take player-page transaction remains historical recovery evidence only."
+      "audio_finish": "audio-score-light",
+      "take_count": 35,
+      "duration_seconds": 937.104,
+      "audio_src": "assets/light/chapter-017.mp3",
+      "note": "Audio Score Light Chapter 17 assembled from 35 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-018",
@@ -211,11 +215,11 @@
       "title": "Six Weeks",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 34,
-      "duration_seconds": 788.736,
-      "audio_src": "assets/chapter-018.mp3",
-      "note": "Recovered from completed Chapter 18 production without regenerating provider work. Thirty-four captured deep-voice takes and the existing stitched chapter audio are preserved by stable chapter identity."
+      "audio_finish": "audio-score-light",
+      "take_count": 31,
+      "duration_seconds": 795.528,
+      "audio_src": "assets/light/chapter-018.mp3",
+      "note": "Audio Score Light Chapter 18 assembled from 31 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-019",
@@ -223,11 +227,11 @@
       "title": "Who Cleans It",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 36,
-      "duration_seconds": 868.68,
-      "audio_src": "assets/chapter-019.mp3",
-      "note": "Recovered from completed Chapter 19 production without regenerating provider work. Thirty-six provider-safe deep-voice takes preserve maintenance, route time, matched spares, cleaning capacity, and service labor."
+      "audio_finish": "audio-score-light",
+      "take_count": 33,
+      "duration_seconds": 871.272,
+      "audio_src": "assets/light/chapter-019.mp3",
+      "note": "Audio Score Light Chapter 19 assembled from 33 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-020",
@@ -235,11 +239,11 @@
       "title": "Ward Hand",
       "status": "experimental",
       "lens": "shared-greg-surface",
-      "audio_finish": "processing-space",
-      "take_count": 41,
-      "duration_seconds": 985.248,
-      "audio_src": "assets/chapter-020.mp3",
-      "note": "Chapter 20 closes a zombie publication gap with forty-one complete preview-safe deep-voice takes captured directly as durable MP3 artifacts from the current written source. Exact ordered take artifacts, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
+      "audio_finish": "audio-score-light",
+      "take_count": 38,
+      "duration_seconds": 995.376,
+      "audio_src": "assets/light/chapter-020.mp3",
+      "note": "Audio Score Light Chapter 20 assembled from 38 preview-safe deep-voice takes. The Light source preserves the written prose with only sparse speech-generation intervention; durable previews, exact source order, playability, assembly, and settling tail were mechanically verified."
     },
     {
       "chapter_id": "ga-021",
@@ -348,6 +352,42 @@
       "duration_seconds": 660.384,
       "audio_src": "assets/chapter-035.mp3",
       "note": "Chapter 35 uses twenty-nine complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-036",
+      "number": 36,
+      "title": "Four Nights",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 33,
+      "duration_seconds": 662.496,
+      "audio_src": "assets/chapter-036.mp3",
+      "note": "Chapter 36 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identities, take ordering, individual playability, stitched chapter audio, durable hashes, the authoritative ellipsis landing, and a two-second listener tail were verified before publication."
+    },
+    {
+      "chapter_id": "ga-038",
+      "number": 38,
+      "title": "Two Keys",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 33,
+      "duration_seconds": 771.528,
+      "audio_src": "assets/chapter-038.mp3",
+      "note": "Chapter 38 uses thirty-three complete preview-safe deep-voice short takes captured as durable MP3 artifacts. Exact current spoken-source coverage, provider identity, take ordering, individual playability, stitched chapter audio, hashes, seam continuity, the authoritative final ellipsis, and the listener-tail landing were verified before publication."
+    },
+    {
+      "chapter_id": "ga-039",
+      "number": 39,
+      "title": "The East Desk",
+      "status": "experimental",
+      "lens": "shared-greg-surface",
+      "audio_finish": "processing-space",
+      "take_count": 32,
+      "duration_seconds": 628.104,
+      "audio_src": "assets/chapter-039.mp3",
+      "note": "Chapter 39 uses thirty-two complete preview-safe deep-voice takes from the rebuilt public The East Desk source. Exact source coverage, every provider artifact hash, ordered chunk playability, the authoritative ellipsis landing, and the two-second listener tail were verified before publication."
     }
   ]
 }

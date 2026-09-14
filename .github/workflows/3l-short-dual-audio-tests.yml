@@ -1,0 +1,23 @@
+name: Verify 3L short dual-audio assembler
+
+on:
+  push:
+    branches:
+      - 3l/records-002-010-write2
+    paths:
+      - '.github/workflows/3l-short-dual-audio-tests.yml'
+      - 'scripts/build_3l_short_dual_audio.py'
+      - 'tests/test_3l_short_dual_audio.py'
+      - 'scripts/build_3l_two_voice_candidate.py'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+      - name: Run assembler unit tests
+        run: python -m unittest tests.test_3l_short_dual_audio

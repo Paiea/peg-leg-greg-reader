@@ -1,0 +1,18 @@
+{
+  "chapter_id": "ga-036",
+  "number": 36,
+  "title": "Four Nights",
+  "voice": "deep",
+  "source_path": "r2/assets/written/ch036.md",
+  "source_blob": "19661ceeedb36eb23f9d0bd372d1698b968f4f57",
+  "source_coverage": "exact_after_nonspoken_markdown_normalization",
+  "take_count": 33,
+  "all_takes_playable": true,
+  "take_order_verified": true,
+  "assembled_path": "greg-again/audio/assets/chapter-036.mp3",
+  "assembled_duration_seconds": 662.496,
+  "assembled_bytes": 10600365,
+  "assembled_sha256": "3dc0cec0265257e1f47e05397434515b48e1f6658f01f06703daa5c07e46bba8",
+  "chapter_tail_silence_seconds": 2.0,
+  "status": "verified_playable"
+}

@@ -18,6 +18,13 @@ Reader and publishing workers use `publishing/showcase_chapters.json` to determi
 
 The showcase manifest never outranks manuscript prose for story truth.
 
+## Current terminal frontier
+
+- Original Peg-Leg Greg / Run 1 Full Canon ends at **Chapter 503 - THE AMATEUR** unless explicit author authority reopens the manuscript.
+- Chapters 501-503 have no hide overrides and therefore inherit the manifest default of **visible**.
+- With the current visibility map, canonical Chapter 500 is Showcase Chapter 389, so canonical Chapters 501-503 publish as Showcase Chapters **390-392**.
+- Chapter 503 is the terminal public Showcase chapter unless the manuscript is explicitly reopened or a later curation decision changes whole-chapter visibility.
+
 ## Non-negotiable rules
 
 - Whole chapters only.

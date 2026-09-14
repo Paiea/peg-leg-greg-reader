@@ -1,0 +1,232 @@
+name: Audio Score Light full chapter capture
+
+on:
+  push:
+    branches:
+      - 'audio/light-greg-again-ch*-auto'
+    paths:
+      - 'greg-again/audio/light/production/*/FULL_CAPTURE.tsv'
+      - '.github/workflows/audio-score-light-full-capture.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Resolve chapter
+        id: state
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='${{ github.ref_name }}'
+          chapter="${branch#audio/light-greg-again-ch}"
+          chapter="${chapter%-auto}"
+          test "${#chapter}" -eq 3
+          echo "chapter=$chapter" >> "$GITHUB_OUTPUT"
+          test -f "greg-again/audio/light/production/${chapter}/FULL_CAPTURE.tsv"
+
+      - name: Install ffmpeg tooling
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffprobe -version | head -1
+
+      - name: Reconcile newest main before shared writes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git merge --no-edit -X theirs origin/main
+
+      - name: Validate source identity and provider capture row
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          python3 scripts/audio_score_light_validate.py "$chapter"
+          python3 - <<'PY'
+          import csv, hashlib, json, re
+          from pathlib import Path
+
+          chapter='${{ steps.state.outputs.chapter }}'
+          source=Path(f'r2/assets/audio-score-light/ch{chapter}.md')
+          body=source.read_text(encoding='utf-8').split('\n---\n',1)[1].strip()
+          provider=body
+          for pattern, replacement in (
+              (r'\bMana\b', 'Ma-na'),
+              (r'\bmana\b', 'ma-na'),
+              (r'\bVale\b', 'Vayle'),
+              (r'\bSparring\b', 'Spar-ring'),
+              (r'\bsparring\b', 'spar-ring'),
+          ):
+              provider=re.sub(pattern, replacement, provider)
+          source_sha=hashlib.sha256(body.encode('utf-8')).hexdigest()
+          expected=hashlib.sha256(provider.encode('utf-8')).hexdigest()
+          capture=Path(f'greg-again/audio/light/production/{chapter}/FULL_CAPTURE.tsv')
+          with capture.open(newline='', encoding='utf-8') as f:
+              rows=list(csv.DictReader(f, delimiter='\t'))
+          if len(rows) != 1:
+              raise SystemExit(f'expected exactly one full capture row, found {len(rows)}')
+          row=rows[0]
+          if not row.get('context_id','').strip():
+              raise SystemExit('missing context_id')
+          url=row.get('audio_url','').strip()
+          if not url.startswith('https://www.aidocmaker.com/'):
+              raise SystemExit(f'unexpected audio_url: {url}')
+          if row.get('transcript_sha256','').strip() != expected:
+              raise SystemExit('full capture transcript SHA does not match provider-facing Light transcript')
+          meta={
+              'chapter': int(chapter),
+              'chapter_id': f'ga-{chapter}',
+              'voice': 'deep',
+              'capture_mode': 'provider-full-chapter',
+              'context_id': row['context_id'].strip(),
+              'audio_url': url,
+              'preview_url': row.get('preview_url','').strip() or None,
+              'source_transcript_sha256': source_sha,
+              'transcript_sha256': expected,
+              'provider_facing_substitutions': {
+                  'mana':'ma-na', 'Mana':'Ma-na', 'Vale':'Vayle',
+                  'sparring':'spar-ring', 'Sparring':'Spar-ring'
+              },
+              'source': str(source),
+          }
+          Path('/tmp/full-capture.json').write_text(json.dumps(meta, indent=2)+'\n')
+          Path('/tmp/audio-url').write_text(url)
+          PY
+
+      - name: Download and verify provider full audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          url="$(cat /tmp/audio-url)"
+          curl -fL --retry 4 --retry-all-errors --retry-delay 2 "$url" -o /tmp/provider-full.mp3
+          test "$(stat -c%s /tmp/provider-full.mp3)" -gt 100000
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of default=nw=1 /tmp/provider-full.mp3 >/dev/null
+
+      - name: Add settling tail and verify final asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          final="greg-again/audio/assets/light/chapter-${chapter}.mp3"
+          mkdir -p greg-again/audio/assets/light "greg-again/audio/light/full/${chapter}" "greg-again/audio/light/verification/${chapter}"
+          ffmpeg -y -v error -i /tmp/provider-full.mp3 -af apad=pad_dur=2 -c:a libmp3lame -q:a 2 "$final"
+          test "$(stat -c%s "$final")" -gt 100000
+          ffprobe -v error "$final"
+
+          python3 - <<'PY'
+          import hashlib, json, subprocess
+          from pathlib import Path
+          chapter='${{ steps.state.outputs.chapter }}'
+          meta=json.loads(Path('/tmp/full-capture.json').read_text())
+          provider=Path('/tmp/provider-full.mp3')
+          final=Path(f'greg-again/audio/assets/light/chapter-{chapter}.mp3')
+          def duration(path):
+              return round(float(subprocess.check_output([
+                  'ffprobe','-v','error','-show_entries','format=duration',
+                  '-of','default=noprint_wrappers=1:nokey=1',str(path)
+              ], text=True).strip()),3)
+          meta.update({
+              'status':'verified_unlistened',
+              'provider_byte_size': provider.stat().st_size,
+              'provider_audio_sha256': hashlib.sha256(provider.read_bytes()).hexdigest(),
+              'provider_duration_seconds': duration(provider),
+              'final_asset': str(final),
+              'final_byte_size': final.stat().st_size,
+              'final_audio_sha256': hashlib.sha256(final.read_bytes()).hexdigest(),
+              'final_duration_seconds': duration(final),
+              'settling_tail_seconds': 2.0,
+          })
+          out=Path(f'greg-again/audio/light/full/{chapter}/capture.json')
+          out.write_text(json.dumps(meta, indent=2, ensure_ascii=False)+'\n')
+          v=Path(f'greg-again/audio/light/verification/{chapter}/full-capture.md')
+          v.write_text('\n'.join([
+              f'# Audio Score Light Chapter {chapter} full capture verification','',
+              f"- Source: `{meta['source']}`",
+              '- Voice: `deep`',
+              '- Capture mode: provider full chapter',
+              f"- Provider context: `{meta['context_id']}`",
+              f"- Source transcript SHA-256: `{meta['source_transcript_sha256']}`",
+              f"- Provider transcript SHA-256: `{meta['transcript_sha256']}`",
+              '- Provider transcript differs from source only by established pronunciation aliases.',
+              f"- Provider duration: `{meta['provider_duration_seconds']}` seconds",
+              f"- Final asset: `{meta['final_asset']}`",
+              f"- Final duration: `{meta['final_duration_seconds']}` seconds",
+              '- Settling tail added: approximately `2.0` seconds',
+              f"- Final SHA-256: `{meta['final_audio_sha256']}`",
+              '- Provider artifact and final MP3 passed `ffprobe`.',
+              '- Subjective human listen-back remains separate from mechanical verification.',''
+          ]))
+          PY
+
+      - name: Reconcile Light and public manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          chapter='${{ steps.state.outputs.chapter }}'
+          d=json.loads(Path(f'greg-again/audio/light/full/{chapter}/capture.json').read_text())
+          source=Path(d['source'])
+          source_blob_sha=subprocess.check_output(['git','hash-object',str(source)], text=True).strip()
+          title=source.read_text(encoding='utf-8').splitlines()[0].split(':',1)[1].strip()
+          duration=d['final_duration_seconds']
+
+          lp=Path('greg-again/audio/light/manifest.json')
+          light=json.loads(lp.read_text())
+          entry={
+              'chapter_id': d['chapter_id'], 'number': d['chapter'], 'title': title,
+              'status':'verified_unlistened', 'source':d['source'], 'source_blob_sha':source_blob_sha,
+              'voice':'deep', 'take_count':1, 'capture_mode':'provider-full-chapter',
+              'duration_seconds':duration, 'audio_src':f'assets/light/chapter-{chapter}.mp3',
+              'verification':f'greg-again/audio/light/verification/{chapter}/'
+          }
+          chapters=light.setdefault('chapters',[])
+          chapters[:]=[c for c in chapters if c.get('chapter_id')!=d['chapter_id'] and c.get('number')!=d['chapter']]
+          chapters.append(entry)
+          chapters.sort(key=lambda c:c.get('number',10**9))
+          lp.write_text(json.dumps(light,indent=2)+'\n')
+
+          pp=Path('greg-again/audio/manifest.json')
+          pub=json.loads(pp.read_text())
+          matches=[c for c in pub.get('chapters',[]) if c.get('chapter_id')==d['chapter_id'] or c.get('number')==d['chapter']]
+          if len(matches)!=1: raise SystemExit(f'expected one public entry, found {len(matches)}')
+          c=matches[0]
+          c['audio_src']=f'assets/light/chapter-{chapter}.mp3'
+          c['take_count']=1
+          c['duration_seconds']=duration
+          c['audio_finish']='audio-score-light'
+          c['note']=(f"Audio Score Light Chapter {d['chapter']} rendered as one full deep-voice provider job from the Light source. "
+                     'Source identity, provider-facing pronunciation aliases, downloadable provider audio, playability, final encoding, and settling tail were mechanically verified.')
+          pp.write_text(json.dumps(pub,indent=2)+'\n')
+          PY
+          python -m json.tool greg-again/audio/light/manifest.json >/dev/null
+          python -m json.tool greg-again/audio/manifest.json >/dev/null
+
+      - name: Commit verified Light full chapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          chapter='${{ steps.state.outputs.chapter }}'
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add "greg-again/audio/assets/light/chapter-${chapter}.mp3" \
+                  "greg-again/audio/light/full/${chapter}/capture.json" \
+                  "greg-again/audio/light/verification/${chapter}/full-capture.md" \
+                  greg-again/audio/light/manifest.json greg-again/audio/manifest.json
+          git commit -m "Capture Audio Score Light Chapter ${chapter} full audio"
+          git push origin HEAD:"${{ github.ref_name }}"

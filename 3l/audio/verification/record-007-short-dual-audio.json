@@ -1,0 +1,548 @@
+{
+  "record": "007",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-007-short-dual-plan.json",
+  "plan_sha256": "aeacafd0ed69c614e23dcbcef3e6909033e8a946875b00edabd80745fc29ba08",
+  "source_verification": "3l/audio/verification/record-007-short-captures.json",
+  "source_verification_sha256": "60ab7c3383832bc1cb5da44be4e84a26a6389754eebcc3030a71ff98edc9758b",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 23,
+  "chunk_count": 22,
+  "mixed_chunk_count": 1,
+  "duration_seconds": 602.952,
+  "byte_size": 14471469,
+  "sha256": "431b0798a5eca34f63f4c31319daef5172f01483c3cc96f863e24ae841c408b6",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 458,
+          "role": "greg",
+          "text": "The first future I changed on purpose belonged to three men I had never met.\n\nThat sounds important now.\n\nAt the time it was paperwork.\n\nEast Four received a bypass order in the fifth year.\n\nNew upper feed from Market Two. Revised load allocation. Temporary closure of the south channel while the tram authority replaced stone above it.\n\nThe kind of project that arrived in a rolled plan tube and immediately created six arguments about whose problem it was."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.536
+        }
+      ],
+      "assembled_duration_seconds": 28.536
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 463,
+          "role": "greg",
+          "text": "Dera opened the plans on the break-room table.\n\nNessa moved her tea.\n\nI did not.\n\nThe edge of the paper knocked my cup over.\n\n\u201cGood start,\u201d Nessa said.\n\nI caught the cup before most of it escaped.\n\n\u201cPlanned.\u201d\n\n\u201cFor what?\u201d\n\n\u201cMorale.\u201d\n\nDera flattened the plans with two wrenches.\n\n\u201cCan both of you be useful for five minutes?\u201d\n\n\u201cNo,\u201d Nessa said.\n\n\u201cYes,\u201d I said.\n\nDera looked between us.\n\n\u201cSomehow hers felt more honest.\u201d\n\nI leaned over the drawing.\n\nThen I stopped."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.096
+        }
+      ],
+      "assembled_duration_seconds": 27.096
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 472,
+          "role": "greg",
+          "text": "The bypass line curved under the eastern tram support and tied into the old transfer chamber.\n\nI knew the drawing.\n\nNot this exact sheet.\n\nThe shape.\n\nA memory came loose.\n\nSummer heat.\n\nA closed market road.\n\nThree names painted on black boards outside the Guild Hall.\n\nI had been twenty-four the first time.\n\nI remembered being irritated because the closure forced me to take a longer route to a contract briefing.\n\nThat was the kind of person I had been at twenty-four."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.848
+        }
+      ],
+      "assembled_duration_seconds": 28.848
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 491,
+          "role": "greg",
+          "text": "Three people died and what survived in my memory was traffic.\n\nI looked closer.\n\nThe tie-in point had been moved two meters east from the original station mark.\n\n\u201cWho approved this?\u201d\n\nDera pointed to a seal.\n\n\u201cDistrict engineering.\u201d\n\n\u201cWho there?\u201d\n\n\u201cHalden.\u201d\n\nI knew the name.\n\nNot personally.\n\nFrom the black board.\n\nOne of the dead men had been an engineer.\n\nI felt cold in a room that was never cold.\n\nNessa noticed.\n\n\u201cWhat?\u201d\n\n\u201cThe chamber can't take that angle.\u201d\n\nDera looked at the plan."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.136
+        }
+      ],
+      "assembled_duration_seconds": 29.136
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 496,
+          "role": "greg",
+          "text": "\u201cIt can.\u201d\n\n\u201cNo.\u201d\n\n\u201cThe load table says it can.\u201d\n\n\u201cThe load table is using the rebuilt chamber dimensions.\u201d\n\n\u201cYes.\u201d\n\n\u201cIt wasn't rebuilt.\u201d\n\nDera's face changed.\n\n\u201cEast Four records say it was.\u201d\n\n\u201cIt wasn't.\u201d\n\n\u201cHow do you know?\u201d\n\nBad question.\n\nI had several answers.\n\nNone survived inspection.\n\n\u201cI've been down there.\u201d\n\n\u201cSo have I.\u201d\n\n\u201cThen you've seen the western seam.\u201d\n\n\u201cYes.\u201d\n\n\u201cThat isn't a rebuild seam. That's an overplate.\u201d\n\nDera stared at me.\n\nNessa leaned over the plan.\n\n\u201cWhat difference?\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.368
+        }
+      ],
+      "assembled_duration_seconds": 28.368
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 495,
+          "role": "greg",
+          "text": "\u201cAbout forty percent lateral tolerance.\u201d\n\nDera looked back at the drawing.\n\n\u201cThat number came out of your ass.\u201d\n\n\u201cCloser to thirty-five.\u201d\n\n\u201cGreg.\u201d\n\n\u201cI don't know exactly.\u201d\n\nThat was true.\n\nI remembered the failure.\n\nI remembered what people later said caused it.\n\nI did not remember the calculation.\n\nThat distinction mattered more in the second life.\n\nThe first time I had known the future, I had mistaken outcome for mechanism constantly.\n\nI was getting better at noticing when I was doing it."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.808
+        }
+      ],
+      "assembled_duration_seconds": 29.808
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 454,
+          "role": "greg",
+          "text": "Dera rolled the plan closed.\n\n\u201cWe inspect.\u201d\n\nHalden came down the next morning.\n\nHe was thirty-seven.\n\nThat surprised me.\n\nThe dead engineer in my memory had been older.\n\nDeaths age people strangely.\n\nA black board and a formal portrait can add fifteen years to a face.\n\nHalden had a narrow mustache and the exhausted irritation of a man who had already explained the same design to four departments.\n\nDera showed him the chamber.\n\nI showed him the seam."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.6
+        }
+      ],
+      "assembled_duration_seconds": 27.6
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 482,
+          "role": "greg",
+          "text": "He crouched beside it and scraped old compound with a knife.\n\n\u201cOverplate,\u201d he said.\n\nDera looked at me.\n\nI tried not to look pleased.\n\nI failed.\n\nHalden noticed.\n\n\u201cDon't.\u201d\n\n\u201cWasn't doing anything.\u201d\n\n\u201cYou're doing it with your face.\u201d\n\n\u201cSorry.\u201d\n\nHe measured the stone.\n\nThen again.\n\nThen sat back on his heels.\n\n\u201cRecords say full replacement in eighty-nine.\u201d\n\n\u201cRecords lie,\u201d Dera said.\n\n\u201cRecords are wrong.\u201d\n\n\u201cSame result.\u201d\n\nHalden looked at the plan.\n\n\u201cWe move the tie-in back west.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.648
+        }
+      ],
+      "assembled_duration_seconds": 27.648
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 476,
+          "role": "greg",
+          "text": "\u201cThat puts it under the old market drain,\u201d Nessa said.\n\n\u201cYes.\u201d\n\n\u201cWhich floods.\u201d\n\n\u201cYes.\u201d\n\n\u201cEvery spring.\u201d\n\nHalden rubbed his eyes.\n\nI liked him immediately.\n\nNot because he was brilliant.\n\nBecause when presented with evidence that his plan was wrong, he became tired instead of proud.\n\nThat quality saves more lives than brilliance.\n\nWe changed the bypass.\n\nNobody died.\n\nThat sentence contains less than you think.\n\nNothing happened.\n\nThat was the event.\n\nThe tram work began."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.128
+        }
+      ],
+      "assembled_duration_seconds": 28.128
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 459,
+          "role": "greg",
+          "text": "The south channel closed.\n\nMarket Two carried extra pressure.\n\nThere were complaints about vibration in two apartment blocks and a bakery lost heat for half a day.\n\nNessa spent a week swearing about a valve that had been installed backward thirty years earlier.\n\nDera made Halden sign the corrected chamber dimensions in three separate books.\n\nSummer arrived.\n\nNo black board appeared outside Guild Hall.\n\nI walked past the place where I remembered seeing it."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.296
+        }
+      ],
+      "assembled_duration_seconds": 28.296
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 481,
+          "role": "greg",
+          "text": "There was an advertisement for a traveling knife show instead.\n\nI stood there long enough that a man handing out cards offered me one twice.\n\n\u201cNo thanks.\u201d\n\n\u201cYou sure?\u201d\n\n\u201cYes.\u201d\n\n\u201cBest blades from the northern coast.\u201d\n\n\u201cI believe you.\u201d\n\n\u201cYou don't look like you believe me.\u201d\n\n\u201cI've had a complicated morning.\u201d\n\nI kept walking.\n\nThat night I found Halden's name in the district directory.\n\nAlive.\n\nObviously.\n\nI checked the other two.\n\nOne was a stone worker on the tram crew.\n\nAlive."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.608
+        }
+      ],
+      "assembled_duration_seconds": 28.608
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 487,
+          "role": "greg",
+          "text": "The third worked market utilities.\n\nAlive.\n\nI sat at the kitchen table with the directory open and felt something I still do not have a clean word for.\n\nRelief was part of it.\n\nPride too.\n\nFear, mostly.\n\nMy mother came in carrying laundry.\n\n\u201cYou're reading names.\u201d\n\n\u201cYeah.\u201d\n\n\u201cAnyone interesting?\u201d\n\n\u201cNo.\u201d\n\nShe put the basket down.\n\n\u201cYou've been staring at that page for ten minutes.\u201d\n\n\u201cI know.\u201d\n\n\u201cThen either they're interesting or you've forgotten how reading works.\u201d\n\nI closed the book."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.92
+        }
+      ],
+      "assembled_duration_seconds": 28.92
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 277,
+          "role": "greg",
+          "text": "\u201cWork thing.\u201d\n\nShe accepted that.\n\nPeople who love you get very good at recognizing the doors you are not opening.\n\nThey do not always force them.\n\nI appreciated that more the second time.\n\nThe kitchen disappeared.\n\nThe cave returned.\n\nI opened my eyes.\n\nIthar was watching me."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 16.632
+        }
+      ],
+      "assembled_duration_seconds": 16.632
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 353,
+          "role": "dragon",
+          "text": "\u201cYou remember those names because in the first history they died and in the second they did not. You acted from a remembered outcome before you understood its mechanism. Then you inspected the mechanism, changed it, and Halden survived. From that point forward, every later memory inherited a question: what else changed because this man remained alive?"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 21.792
+        }
+      ],
+      "assembled_duration_seconds": 21.792
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 184,
+          "role": "dragon",
+          "text": "\u201cYou did not know whether Halden mattered enough to alter anything larger. That uncertainty is the important part. Tell me what it did to your confidence in the future you remembered.\u201d"
+        },
+        {
+          "start": 184,
+          "end": 463,
+          "role": "greg",
+          "text": "\n\nI looked down at my hands.\n\n\u201cMade it worse.\u201d\n\nNot useless.\n\nWorse.\n\n\u201cThe first few years, the memories felt like a map. Not perfect. Roads change. People are people. But big things were where I expected them. After Halden lived, every event downstream had a question attached.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 10.9444
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 11.1345,
+          "end_seconds": 28.176
+        }
+      ],
+      "assembled_duration_seconds": 27.985896
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 491,
+          "role": "greg",
+          "text": "Did Halden matter enough to alter continental history?\n\nI did not know.\n\nThat was the point.\n\nI had started learning that recognized uncertainty was more useful than invented certainty.\n\nIthar's eye narrowed slightly.\n\nThat was enough examination for one interruption.\n\nI closed my eyes again.\n\nHalden became a problem after he survived.\n\nNot immediately.\n\nAt first he was merely an engineer who started sending East Four better paperwork.\n\nThen he requested me by name for a station review."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.952
+        }
+      ],
+      "assembled_duration_seconds": 29.952
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 463,
+          "role": "greg",
+          "text": "I was twenty-four.\n\nD-class by then.\n\nStill working maintenance.\n\nStill going home most nights.\n\nStill training enough that I could pretend I had not stopped climbing.\n\nHalden stood over a plan for North Three and asked, \u201cWhat do you see?\u201d\n\nI looked.\n\n\u201cBad drainage.\u201d\n\n\u201cWhat else?\u201d\n\n\u201cOld foundation under the west wall.\u201d\n\n\u201cWhat else?\u201d\n\nI looked at him.\n\n\u201cYou already found the problem.\u201d\n\n\u201cYes.\u201d\n\n\u201cThen why am I here?\u201d\n\n\u201cTo see if you do.\u201d\n\n\u201cThat is rude.\u201d\n\n\u201cYes.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.0
+        }
+      ],
+      "assembled_duration_seconds": 27.0
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 477,
+          "role": "greg",
+          "text": "I liked him less after he learned confidence.\n\nI found the fault anyway.\n\nThen another.\n\nHe started using me on reviews.\n\nNot because I was the strongest person available.\n\nI wasn't.\n\nNot because I had the highest certification.\n\nI didn't.\n\nBecause I looked at old systems strangely.\n\nThat was how he put it.\n\n\u201cYou assume the builders were hiding something,\u201d he told me once.\n\n\u201cSometimes they were.\u201d\n\n\u201cMost people assume a wall is a wall.\u201d\n\n\u201cMost walls are covering something.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.176
+        }
+      ],
+      "assembled_duration_seconds": 28.176
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 493,
+          "role": "greg",
+          "text": "\u201cThat is a terrible philosophy.\u201d\n\n\u201cWorks on stations.\u201d\n\nIt did.\n\nMy first life had taught me the upper world of the Line.\n\nContracts.\n\nBreaks.\n\nEmergency routes.\n\nThe places S-class people got called when ordinary solutions had already failed.\n\nEast Four taught me the other end.\n\nWho greased hinges.\n\nWho copied numbers wrong.\n\nWhich repairs became permanent because the temporary fix survived long enough for everyone to retire.\n\nHow institutional memory actually died.\n\nNot in one disaster."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.376
+        }
+      ],
+      "assembled_duration_seconds": 29.376
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 389,
+          "role": "greg",
+          "text": "In lunch breaks.\n\nBudget cuts.\n\nA foreman retiring without writing something down because everyone on her crew already knew it.\n\nA clerk changing a label because the old word sounded outdated.\n\nA door being bricked over because nobody had opened it in twenty years.\n\nThe Line did not become mysterious.\n\nPeople became temporary.\n\nI began to understand that long before the western failure."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 23.928
+        }
+      ],
+      "assembled_duration_seconds": 23.928
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 496,
+          "role": "greg",
+          "text": "I did not know yet that the dragon on the mountain would care more about that than the kingdom built above it.\n\nAt twenty-five, Dera started asking what I thought before she told me what she thought.\n\nThat was the closest thing she had to promotion.\n\nMy pay went up.\n\nMy badge changed from D to C earlier than it had in the first life.\n\nI barely noticed.\n\nNessa did.\n\nShe held the badge up between two fingers at lunch.\n\n\u201cC-class.\u201d\n\n\u201cApparently.\u201d\n\n\u201cYou going to start wearing nicer boots?\u201d\n\n\u201cNo.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.192
+        }
+      ],
+      "assembled_duration_seconds": 30.192
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 423,
+          "role": "greg",
+          "text": "\u201cGood. I'd hate for success to change you.\u201d\n\n\u201cYou stole these boots.\u201d\n\n\u201cI borrowed them.\u201d\n\n\u201cFor four months.\u201d\n\n\u201cThey fit.\u201d\n\n\u201cThey're mine.\u201d\n\n\u201cThey were yours.\u201d\n\nI took my badge back.\n\nShe took my apple.\n\nSome arrangements become relationships before anybody bothers naming them.\n\nI had not noticed ours yet.\n\nOr I had.\n\nI was very good at not noticing things that required decisions.\n\nThat, apparently, survived both lives."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 24.888
+        }
+      ],
+      "assembled_duration_seconds": 24.888
+    }
+  ]
+}

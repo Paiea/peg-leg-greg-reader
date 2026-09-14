@@ -13,6 +13,8 @@ END = '<!-- READER BOOK CONTENTS END -->'
 BOOKS_TOC_OPEN = '<section aria-labelledby="books-heading" class="toc toc-acts" id="books">'
 LEGACY_TOC_OPEN = '<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">'
 BOOK_CSS = '<link href="assets/book-contents.css" rel="stylesheet"/>'
+R2_HOME_LINK = '<a class="tertiary-action" href="r2/">R2 · Run 2</a>'
+THIRD_LEG_HOME_LINK = '<a class="tertiary-action" href="3l/">3L · The Third Leg</a>'
 SHOWCASE_MANIFEST = Path('publishing/showcase_chapters.json')
 
 
@@ -64,12 +66,18 @@ def ensure_stylesheet(text: str) -> str:
     return text.replace(reader_css, reader_css + '\n' + BOOK_CSS, 1)
 
 
+def ensure_project_routes(text: str) -> str:
+    if THIRD_LEG_HOME_LINK in text or R2_HOME_LINK not in text:
+        return text
+    return text.replace(R2_HOME_LINK, R2_HOME_LINK + THIRD_LEG_HOME_LINK, 1)
+
+
 def upgrade_home_book_labels(text: str) -> str:
     text = text.replace('href="#chapters">Chapters</a>', 'href="#books">Illustrated Reader</a>')
     text = text.replace('aria-labelledby="chapters-heading" class="home-chapters"', 'aria-labelledby="books-heading" class="home-chapters"')
     text = text.replace('<p class="home-kicker">Read straight through</p>', '<p class="home-kicker">The novel</p>')
     text = text.replace('<h2 id="chapters-heading">Chapters</h2>', '<h2 id="books-heading">Books</h2>')
-    return text
+    return ensure_project_routes(text)
 
 
 def patch_home_contents(text: str, rendered_books: str) -> str:

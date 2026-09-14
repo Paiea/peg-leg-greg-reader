@@ -1,0 +1,55 @@
+{
+  "record": "003",
+  "authority": "3l/audio/SHORT_TAKE_PRODUCTION_AUTHORITY.md",
+  "plan": "3l/audio/record-003-short-dual-plan.json",
+  "captures": [
+    {
+      "chunk": 8,
+      "voice": "deep",
+      "transcript": "I had meant to replace it before the mountain and had forgotten.\n\nThere were people who would have remembered for me.\n\nThat thought went somewhere I did not want it to go.\n\n“Home is where my things are.”\n\n“Poor definition.”\n\n“Most definitions are poor if you keep touching them.”\n\n“Where are your things?”\n\n“South.”\n\nHis eye narrowed.\n\nI smiled.\n\nThat one I kept.\n\n“What do you do after you return south?”\n\n“Eat.”\n\n“And then?”\n\n“Sleep.”\n\n“And then?”\n\n“Complain about the mountain.”\n\n“And then?”",
+      "context_id": "9261408ace714b8a94086f1e84abc085",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/f9b97394-eedb-4c7d-8762-b801bb24fd97.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 8,
+      "voice": "normal",
+      "transcript": "I had meant to replace it before the mountain and had forgotten.\n\nThere were people who would have remembered for me.\n\nThat thought went somewhere I did not want it to go.\n\n“Home is where my things are.”\n\n“Poor definition.”\n\n“Most definitions are poor if you keep touching them.”\n\n“Where are your things?”\n\n“South.”\n\nHis eye narrowed.\n\nI smiled.\n\nThat one I kept.\n\n“What do you do after you return south?”\n\n“Eat.”\n\n“And then?”\n\n“Sleep.”\n\n“And then?”\n\n“Complain about the mountain.”\n\n“And then?”",
+      "context_id": "699a8ab1434f4062a3aeb2994e154aa6",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/2dd72365-9e57-40c8-a8c9-5069d4599351.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 9,
+      "voice": "deep",
+      "transcript": "“Recover the horse, if the horse has developed a conscience.”\n\n“And then?”\n\nI stared at him.\n\n“You could do this forever.”\n\n“Yes.”\n\n“That wasn't admiration.”\n\n“I know.”\n\n“And then I live.”\n\nIthar went still.\n\nNot interested still.\n\nDifferent.\n\nThe kind that meant I had stepped on something without hearing it crack yet.\n\n“You have already done that twice.”\n\nThe cave suddenly felt warmer.\n\n“Don't.”\n\n“Do not what?”\n\n“Turn that into whatever you're about to turn it into.”",
+      "context_id": "afcdde902d2a49ccb4720bea681ec88a",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/736a54b3-7041-482d-8e6f-b1aa758718bb.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 9,
+      "voice": "normal",
+      "transcript": "“Recover the horse, if the horse has developed a conscience.”\n\n“And then?”\n\nI stared at him.\n\n“You could do this forever.”\n\n“Yes.”\n\n“That wasn't admiration.”\n\n“I know.”\n\n“And then I live.”\n\nIthar went still.\n\nNot interested still.\n\nDifferent.\n\nThe kind that meant I had stepped on something without hearing it crack yet.\n\n“You have already done that twice.”\n\nThe cave suddenly felt warmer.\n\n“Don't.”\n\n“Do not what?”\n\n“Turn that into whatever you're about to turn it into.”",
+      "context_id": "6c4a097a0e504683a5287448a2044d61",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/028260ab-9150-4f77-9da7-d9fda41b5ec3.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 10,
+      "voice": "deep",
+      "transcript": "“I have not turned it into anything.”\n\n“You were going to.”\n\n“No.”\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\n“You were searching for me before the Line failed,” he said.\n\n“There it is.”\n\n“Yes.”\n\n“For reasons I have not given you.”\n\n“Yes.”\n\n“And you're assuming those reasons matter.”\n\n“No.”\n\nThat stopped me.\n\nIthar's pupil shifted.\n\n“I am assuming only that they exist.”\n\nI leaned back.\n\n“That is annoyingly fair.”\n\n“Yes.”\n\n“I didn't mean it as praise.”\n\n“I know.”",
+      "context_id": "7ee431ab3afc4e9585dd2fc4efe4cb29",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/466e72c4-3562-4eae-8646-b23e83c34727.mp3",
+      "status": "ready"
+    },
+    {
+      "chunk": 10,
+      "voice": "normal",
+      "transcript": "“I have not turned it into anything.”\n\n“You were going to.”\n\n“No.”\n\nI waited.\n\nHe waited longer.\n\nI hated him a little.\n\n“You were searching for me before the Line failed,” he said.\n\n“There it is.”\n\n“Yes.”\n\n“For reasons I have not given you.”\n\n“Yes.”\n\n“And you're assuming those reasons matter.”\n\n“No.”\n\nThat stopped me.\n\nIthar's pupil shifted.\n\n“I am assuming only that they exist.”\n\nI leaned back.\n\n“That is annoyingly fair.”\n\n“Yes.”\n\n“I didn't mean it as praise.”\n\n“I know.”",
+      "context_id": "94456b15ed8b4e1b9de7a34de676b596",
+      "preview_url": "https://storage.googleapis.com/adm--audio-playback--7d--public/mcp-preview/04f1f02b-ef12-4ca8-8ec3-02c5e00e7e03.mp3",
+      "status": "ready"
+    }
+  ]
+}

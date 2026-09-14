@@ -1,0 +1,134 @@
+name: Process 3L Instant Worker Audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '3l/audio/workers/records-002-010-instant-*-captures.json'
+      - '.github/workflows/3l-parallel-worker-pipeline.yml'
+      - 'scripts/reconcile_3l_parallel_audio_workers.py'
+      - 'scripts/verify_3l_worker_captures.py'
+      - 'scripts/build_3l_short_dual_audio.py'
+
+concurrency:
+  group: 3l-instant-worker-audio-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          sparse-checkout: |
+            .github/workflows
+            3l
+            r2
+            scripts
+            tests
+
+      - name: Check available worker returns
+        id: workers
+        shell: bash
+        run: |
+          set -euo pipefail
+          count=$(find 3l/audio/workers -maxdepth 1 -type f -name 'records-002-010-instant-*-captures.json' | wc -l | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [[ "$count" -gt 0 ]]; then
+            echo "has_returns=true" >> "$GITHUB_OUTPUT"
+            echo "Processing available worker manifests: $count/5 present."
+          else
+            echo "has_returns=false" >> "$GITHUB_OUTPUT"
+            echo "No worker manifests are present yet."
+          fi
+
+      - name: Ensure ffmpeg tools
+        if: steps.workers.outputs.has_returns == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version | head -1
+          ffprobe -version | head -1
+
+      - name: Reconcile available worker receipts
+        if: steps.workers.outputs.has_returns == 'true'
+        run: python scripts/reconcile_3l_parallel_audio_workers.py
+
+      - name: Verify available capture sources
+        if: steps.workers.outputs.has_returns == 'true'
+        run: python scripts/verify_3l_worker_captures.py
+
+      - name: Verify assembler contract
+        if: steps.workers.outputs.has_returns == 'true'
+        run: python -m unittest tests.test_3l_short_dual_audio -v
+
+      - name: Assemble every complete record
+        id: assemble
+        if: steps.workers.outputs.has_returns == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          built=0
+          for record in 002 003 004 005 006 007 008 009 010; do
+            receipt="3l/audio/verification/record-${record}-short-captures.json"
+            [[ -f "$receipt" ]] || continue
+            complete=$(python -c 'import json,sys; print("yes" if json.load(open(sys.argv[1])).get("complete") is True else "no")' "$receipt")
+            if [[ "$complete" == "yes" ]]; then
+              python scripts/build_3l_short_dual_audio.py "$record"
+              ffmpeg -v error -i "3l/assets/audio/record-${record}.mp3" -f null -
+              built=$((built + 1))
+            fi
+          done
+          echo "built=$built" >> "$GITHUB_OUTPUT"
+          echo "assembled records: $built"
+
+      - name: Refresh reader and listening archive
+        if: steps.assemble.outputs.built != '' && steps.assemble.outputs.built != '0'
+        run: python scripts/build_3l_record_pages.py
+
+      - name: Verify final 3L frontier
+        if: steps.assemble.outputs.built != '' && steps.assemble.outputs.built != '0'
+        run: |
+          python -m unittest tests.test_3l_frontier_publish -v
+          python -m unittest tests.test_3l_site -v
+
+      - name: Commit verified audio frontier
+        if: steps.workers.outputs.has_returns == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            3l/audio/record-*-short-captures-workers.json \
+            3l/audio/verification/record-*-short-captures.json \
+            3l/audio/verification/record-*-short-dual-audio.json \
+            3l/assets/audio/record-*.mp3 \
+            3l/audio/index.html \
+            3l/records/*.html
+          if git diff --cached --quiet; then
+            echo "No generated audio changes to commit."
+            exit 0
+          fi
+          git commit -m "audio: publish verified 3L Instant worker frontier"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Request Pages rebuild
+        if: steps.assemble.outputs.built != '' && steps.assemble.outputs.built != '0'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

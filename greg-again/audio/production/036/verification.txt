@@ -1,0 +1,11 @@
+ga-036 Four Nights
+takes=33
+voice=deep
+source_coverage=exact
+take_order=verified
+individual_playability=verified
+assembled_duration_seconds=662.496
+assembled_bytes=10600365
+assembled_sha256=3dc0cec0265257e1f47e05397434515b48e1f6658f01f06703daa5c07e46bba8
+chapter_tail_silence_seconds=2.0
+status=verified_playable

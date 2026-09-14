@@ -1,0 +1,12 @@
+{
+  "chapter": 9,
+  "asset_exists": true,
+  "asset_bytes": 10389165,
+  "v2_manifest_has_chapter": true,
+  "public_audio_src": "assets/v2/chapter-009.mp3",
+  "public_route_is_v2": true,
+  "duration_seconds": 519.432,
+  "take_count": 23,
+  "subjective_listen_back": false,
+  "status": "published_on_claim_branch_verified"
+}

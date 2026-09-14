@@ -1,0 +1,32 @@
+name: Verify R2 Complete Archive
+
+on:
+  push:
+    branches:
+      - publish/r2-complete-182
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download exact head archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          curl --fail --location \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${REPO}/zipball/${SHA}" \
+            --output repo.zip
+          mkdir source
+          unzip -q repo.zip -d source
+          echo "VERIFY_SHA=${SHA}"
+      - name: Run exact-head R2 site contract
+        run: |
+          cd "$(find source -mindepth 1 -maxdepth 1 -type d | head -1)"
+          python -m unittest tests.test_r2_site -v

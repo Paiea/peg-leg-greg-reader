@@ -1,0 +1,98 @@
+name: Regenerate 3L 002-003 Plans
+
+on:
+  push:
+    branches:
+      - 3l/dialogue-territory-rebuild-002-010
+    paths:
+      - 3l/manuscript/record-002.md
+      - 3l/manuscript/record-003.md
+      - 3l/audio/record-002-dragon-routing.json
+      - 3l/audio/record-003-dragon-routing.json
+      - scripts/plan_3l_short_dual_render.py
+      - .github/workflows/3l-regenerate-002-003-plans.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout focused production inputs
+        uses: actions/checkout@v4
+        with:
+          ref: 3l/dialogue-territory-rebuild-002-010
+          fetch-depth: 1
+          sparse-checkout: |
+            3l/manuscript/record-002.md
+            3l/manuscript/record-003.md
+            3l/audio/record-002-dragon-routing.json
+            3l/audio/record-003-dragon-routing.json
+            3l/audio/record-002-short-dual-plan.json
+            3l/audio/record-003-short-dual-plan.json
+            3l/audio/record-002-quote-inventory.tsv
+            3l/audio/record-003-quote-inventory.tsv
+            scripts/plan_3l_short_dual_render.py
+          sparse-checkout-cone-mode: false
+
+      - name: Regenerate Record 002 plan
+        run: |
+          python scripts/plan_3l_short_dual_render.py \
+            3l/manuscript/record-002.md \
+            3l/audio/record-002-short-dual-plan.json \
+            --max-chars 500 \
+            --dragon-routing 3l/audio/record-002-dragon-routing.json \
+            --inventory-output 3l/audio/record-002-quote-inventory.tsv
+
+      - name: Regenerate Record 003 plan
+        run: |
+          python scripts/plan_3l_short_dual_render.py \
+            3l/manuscript/record-003.md \
+            3l/audio/record-003-short-dual-plan.json \
+            --max-chars 500 \
+            --dragon-routing 3l/audio/record-003-dragon-routing.json \
+            --inventory-output 3l/audio/record-003-quote-inventory.tsv
+
+      - name: Validate plan limits and locked routing
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for record in ('002', '003'):
+              path = Path(f'3l/audio/record-{record}-short-dual-plan.json')
+              plan = json.loads(path.read_text())
+              assert plan['dragon_routing_locked'] is True
+              assert plan['dragon_prefixes']
+              assert plan['chunk_count'] == len(plan['chunks'])
+              normal_captures = 0
+              for chunk in plan['chunks']:
+                  assert chunk['char_count'] <= 500, (record, chunk['index'], chunk['char_count'])
+                  assert chunk['required_voices'], (record, chunk['index'])
+                  assert set(chunk['required_voices']) <= {'deep', 'normal'}
+                  normal_captures += int('normal' in chunk['required_voices'])
+              assert normal_captures > 0, record
+              print(
+                  record,
+                  'chunks=', plan['chunk_count'],
+                  'captures=', sum(len(c['required_voices']) for c in plan['chunks']),
+                  'dragon_chunks=', normal_captures,
+              )
+          PY
+
+      - name: Commit regenerated plans
+        run: |
+          if git diff --quiet -- 3l/audio/record-002-short-dual-plan.json 3l/audio/record-003-short-dual-plan.json 3l/audio/record-002-quote-inventory.tsv 3l/audio/record-003-quote-inventory.tsv; then
+            echo "Plans already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            3l/audio/record-002-short-dual-plan.json \
+            3l/audio/record-003-short-dual-plan.json \
+            3l/audio/record-002-quote-inventory.tsv \
+            3l/audio/record-003-quote-inventory.tsv
+          git commit -m "Regenerate locked 3L 002-003 audio plans"
+          git push origin HEAD:3l/dialogue-territory-rebuild-002-010

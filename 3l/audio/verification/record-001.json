@@ -1,0 +1,12 @@
+{
+  "record": 1,
+  "title": "THE PETITIONER",
+  "voice": "deep",
+  "capture_mode": "preview-safe-short-takes-single-voice-prototype",
+  "take_count": 36,
+  "duration_seconds": 982.008,
+  "byte_size": 8738757,
+  "sha256": "3549902b610faeef149a4f172dfbc26a08f34e8addb6aa12fb557df577b455f3",
+  "settling_tail_seconds": 2.0,
+  "status": "verified_unlistened"
+}

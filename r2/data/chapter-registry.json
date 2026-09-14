@@ -850,7 +850,7 @@
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
-        "audio": "not_started",
+        "audio": "published",
         "written": "published",
         "story_sync": "in_progress",
         "image_plan": "not_started",
@@ -866,7 +866,7 @@
         "integrated": 0
       },
       "last_completed_stage": "written",
-      "next_action": "publish_audio_and_plan_images"
+      "next_action": "plan_images"
     },
     "r2-ch037": {
       "display_number": 37,
@@ -898,7 +898,7 @@
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
-        "audio": "not_started",
+        "audio": "published",
         "written": "published",
         "story_sync": "in_progress",
         "image_plan": "not_started",
@@ -922,7 +922,7 @@
       "status": "in_progress",
       "pipeline": {
         "scene_packets": "in_progress",
-        "audio": "not_started",
+        "audio": "published",
         "written": "published",
         "story_sync": "in_progress",
         "image_plan": "not_started",
@@ -938,7 +938,7 @@
         "integrated": 0
       },
       "last_completed_stage": "written",
-      "next_action": "publish_audio_and_plan_images"
+      "next_action": "plan_images"
     }
   }
 }

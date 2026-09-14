@@ -1,0 +1,627 @@
+# Chapter 26: The Day Off
+
+Status: **EXPERIMENTAL SECOND-RUN PROSE / TRUE-FRONTIER STORY**
+
+Story search: `state/experiments/greg-again/rehearsals/026-story-search.md`
+
+---
+
+I woke because the room was bright enough to be rude.
+
+For one breath, I tried to remember whose watch came next.
+
+Then I saw the window.
+
+Sunlight had crossed most of the floor and reached the leg of the bed.
+
+Late.
+
+Very late.
+
+I lay still.
+
+Nothing hurt in an interesting way.
+
+That was useful to establish.
+
+My calves were tight. My shoulders objected when I moved them. The outside of my right hip had developed an opinion about five days of walking with a sword belt, and both hands felt as though I had spent the night arguing with rope.
+
+Not injured.
+
+Used.
+
+There was a difference.
+
+Nineteen recovered faster than fifty-nine.
+
+Nineteen also seemed capable of collecting every small complaint and presenting them at once after fourteen hours of sleep.
+
+I sat up.
+
+My left heel touched the floor.
+
+A blister I had ignored for two days reminded me it remained involved in negotiations.
+
+"Fine."
+
+The blister did not care.
+
+The room smelled like dried mud, old wool, sword oil, and the faint clean smoke of the cookroom stove below.
+
+Clean smoke.
+
+That was new.
+
+Or repaired.
+
+Same result for breakfast.
+
+I stood slowly enough that nobody could accuse me of youth.
+
+My field pack sat where I had dropped it beside the wall.
+
+The less-dead sock still hung near the window.
+
+The other one had died somewhere between the west shelf and Carrow and was currently pretending that a hole large enough for three toes was a ventilation feature.
+
+I picked it up.
+
+Considered repair.
+
+Put it in the rag pile.
+
+Some problems had already answered themselves.
+
+My boots were worse.
+
+Not ruined.
+
+The outside stitching at both heels had gone pale from wet and grit. One seam had lifted enough that I could press a thumbnail under it.
+
+I pressed.
+
+The seam opened another hair.
+
+I stopped helping.
+
+The sword came next.
+
+It had not left the sheath once on the West Cut.
+
+Rain had still reached it.
+
+People liked to imagine unused equipment remained unchanged. Water held a different philosophy.
+
+I drew the blade halfway.
+
+No red at the edge.
+
+No spotting near the guard.
+
+The leather throat of the scabbard was damp enough that I did not trust tomorrow.
+
+I pulled the sword free, wiped it down, and left both blade and sheath where air could reach them.
+
+Good sword.
+
+Expensive sword.
+
+Currently a sword whose greatest enemy was weather.
+
+Adventure remained committed to dignity.
+
+I found my money.
+
+That improved the morning.
+
+For several seconds.
+
+Five days of field pay looked better on the table than it had in my pocket.
+
+Then I started giving it jobs.
+
+The next rent went into one stack.
+
+Food went into another.
+
+The support receipt was still tucked beneath the brass key. I moved both aside and put a smaller stack under the receipt.
+
+Not tuition.
+
+Nobody had offered me tuition yet.
+
+Kesra's assessment was still weeks away, and whatever came after it remained somebody else's future decision.
+
+The coins were simply money I had decided not to eat unless something went wrong.
+
+That left road maintenance.
+
+Boots.
+
+Socks.
+
+Oil.
+
+Thread.
+
+Possibly a new strap if the left shoulder buckle kept making that sound.
+
+I lifted the pack.
+
+The buckle squeaked.
+
+"Traitor."
+
+The pack remained professionally silent.
+
+After I gave the field pay enough responsibilities, the pile became smaller.
+
+Still there.
+
+That mattered more than I expected.
+
+I could go to the Guild.
+
+There was usually work somewhere.
+
+Maybe not good work.
+
+Work.
+
+Warehouses still needed counting. Carts still needed extra hands. Somebody in Carrow was always paying too little for a problem they had delayed too long.
+
+I looked at the boots.
+
+Then at the money.
+
+Then at the window.
+
+The sun had moved another inch while I was constructing employment.
+
+No.
+
+Not today.
+
+The decision felt irresponsible for almost three breaths.
+
+Then my right calf cramped when I bent to pick up the boots.
+
+Current evidence remained rude.
+
+I went downstairs.
+
+The cookroom wall had been replastered in a rectangle around the flue.
+
+Fresh pale mortar showed at the new collar behind the stove. Someone had also replaced the blackened section of rail above it with a piece of wood that did not match anything else in the building.
+
+The stove itself was hot.
+
+Noll sat at the long table with bread, onions, and a pan that had lost most of its original shape.
+
+He looked up.
+
+"You're alive."
+
+"Disappointing?"
+
+"I was deciding whether I could have your room."
+
+"You already tried to have my bed."
+
+"Floor."
+
+"You looked at the bed."
+
+"Looking is free."
+
+Stable systems.
+
+Noll cut an onion badly.
+
+I watched the knife hit the board three times at different angles.
+
+"You're going to lose a finger."
+
+"You were gone five days and came back knowing onions?"
+
+"I knew onions before."
+
+"Convenient."
+
+He scraped the pieces into the pan.
+
+The stove hissed when one hit hot fat.
+
+I looked at the new flue collar.
+
+"Works?"
+
+Noll followed my eyes.
+
+"Hasn't burned the building down yet."
+
+"Strong evidence."
+
+"You sound like the road man again."
+
+"Occupational damage."
+
+He shoved the bread toward me.
+
+I took a piece.
+
+"How long did I sleep?"
+
+Noll thought about it.
+
+"You came in before dark. I heard you fall into something upstairs."
+
+"Bed."
+
+"Optimistic. Then nothing until now."
+
+"Helpful."
+
+"Midday bell went a while ago."
+
+I stopped chewing.
+
+Midday.
+
+Fourteen hours had been conservative.
+
+Noll smiled.
+
+"Adventuring looks restful."
+
+I ate more bread instead of answering.
+
+The cookroom was warm.
+
+My shoulders slowly stopped pretending they belonged to someone else.
+
+Nobody needed me.
+
+That took some adjustment.
+
+After food, I carried the boots toward the market.
+
+Carrow had improved while I slept by remaining Carrow.
+
+A fish seller argued with a customer over weight. Two boys ran past with a hoop between them and nearly died beneath a cabbage cart through a combination of speed and confidence. A woman leaned out of an upper window to shake a rug directly over a man who had clearly wronged her in another life.
+
+The road noise felt too loud after five days west.
+
+Yesterday I had noticed the same thing coming through the gate.
+
+Today the city had stopped sounding irresponsible and returned to merely sounding expensive.
+
+The cobbler I found near South Market looked at my boots, then at me.
+
+"Wet road?"
+
+"Several."
+
+He bent one heel in both hands.
+
+The seam opened.
+
+I tried not to look personally betrayed.
+
+"Stitch is gone here. Other side next."
+
+"How bad?"
+
+"Bad enough that if I tell you it's fine, you come back angry tomorrow."
+
+Professional ethics.
+
+Suspicious but welcome.
+
+He named a price for both heels.
+
+Two copper.
+
+I considered doing one.
+
+The other boot had already survived the same road, the same rain, and the same owner.
+
+"Both."
+
+He nodded.
+
+"Sit."
+
+A low bench stood beside the stall.
+
+I sat in my socks while a man I did not know repaired the equipment I needed to walk somewhere dangerous later.
+
+This was also adventuring.
+
+Again, few songs.
+
+He cut the old thread out, cleaned grit from the seam with a narrow bone pick, waxed new cord, and stitched through the existing holes without pretending the leather was new.
+
+His hands moved quickly.
+
+Not hurried.
+
+I watched because competence deserved attention.
+
+"You planning to keep walking in these?" he asked.
+
+"Probably."
+
+"Then stop drying them against a hot stove."
+
+"I don't."
+
+"Good. Somebody does."
+
+He pointed with the awl toward a split boot hanging behind him.
+
+The leather had curled like cooked meat.
+
+"That man said the stove was faster."
+
+"Was it?"
+
+"Very."
+
+I paid the two copper when he finished.
+
+Then I bought two pairs of socks from a cloth stall because one dead sock had already taught the class.
+
+Two more copper.
+
+Four copper total.
+
+Nearly a full bounded ward shift spent on keeping my feet capable of future employment.
+
+The arithmetic was offensive and correct.
+
+I put the new socks in the pack.
+
+The old boots felt different when I pulled them back on.
+
+Not better.
+
+Secure.
+
+I trusted secure more.
+
+The Guild was three streets north.
+
+I knew the route without thinking.
+
+I also knew what happened if I turned that way.
+
+Not necessarily work.
+
+Possibility.
+
+A board. Sella. Somebody needing a hand. Somebody else not showing. A short shift. A better shift. Something west. Something at the quay. Something I could justify because I was already outside and wearing repaired boots.
+
+I stood at the corner.
+
+A cart passed before I decided.
+
+Arlo's mark was burned into the side of one crate.
+
+Dena held the reins.
+
+I knew her name this time.
+
+That seemed worth preserving.
+
+A clean ceramic chamber was strapped upright behind the seat. Beside it sat another wrapped in stained oilcloth, dark residue showing at the edge where the cloth had slipped.
+
+Service run.
+
+Dena saw me and lifted two fingers from the reins.
+
+I lifted mine back.
+
+The cart kept going.
+
+No one stopped.
+
+No one shouted that the business had failed while I was west.
+
+No one asked me where I had been.
+
+Arlo and Ivena had built enough of a system that Dena could move a clean chamber toward somebody and a dirty one back toward the workshop while I stood on a street corner deciding whether to work.
+
+I did not follow the cart.
+
+I did not turn toward the Guild either.
+
+I bought lunch.
+
+This felt dangerously close to decadence.
+
+Lunch was one meat pie whose relationship with meat was less theoretical than the stew from several nights earlier.
+
+I paid one copper.
+
+Then sat on a low wall in the weak sun and ate it while people with actual destinations moved around me.
+
+Nobody objected.
+
+I checked twice.
+
+Afterward I bought a small cake of oil for the sword and a packet of waxed thread for the pack.
+
+The field-pay pile continued becoming smaller.
+
+The day continued becoming mine.
+
+Back at Lower Rook, I washed the road clothes at the courtyard pump.
+
+Cold water found every scrape on my hands.
+
+I had more than I remembered.
+
+One across the right knuckle from the survey chain.
+
+Two small cuts at the base of the left thumb.
+
+A purple bruise on my forearm where Pate's pannier had tried to convert me into landscape.
+
+Nothing worth healing magic.
+
+Nothing worth a Guild note.
+
+I cleaned them anyway.
+
+Noll came into the courtyard while I was scrubbing mud from the cloak.
+
+He stopped.
+
+Looked at the clothes.
+
+Then at me.
+
+"Didn't they pay you?"
+
+"Yes."
+
+"Then why are you doing laundry?"
+
+"They didn't pay enough for new clothes."
+
+Noll considered this.
+
+"Bad profession."
+
+"Most are."
+
+He held out one hand.
+
+"Soap?"
+
+I stared at him.
+
+"You live an astonishingly consistent life."
+
+"Is that yes?"
+
+I handed him the soap.
+
+He left.
+
+I watched him go.
+
+Current relationship.
+
+No memory required.
+
+The cloak took most of the afternoon to stop turning wash water brown.
+
+I cleaned the pack after it.
+
+The left shoulder buckle did not need replacing. Mud had dried inside the hinge and made the leather pull crooked.
+
+I dug it out with the point of the old bent lockpick.
+
+There were probably more dignified uses for an object from my first morning back.
+
+None available.
+
+The buckle stopped squeaking.
+
+One purchase avoided.
+
+I approved.
+
+The sword got oil last.
+
+Thin coat.
+
+Guard.
+
+Fuller.
+
+Edge.
+
+No damage.
+
+I checked twice because I had paid enough for the blade to deserve paranoia.
+
+The scabbard had dried near the stove, but not against it.
+
+I had learned from the cobbler's hypothetical idiot.
+
+By evening, the room looked worse before it looked better.
+
+Wet clothes hung near the window.
+
+Boots stood beside the bed with new dark stitching at both heels.
+
+The dead sock had become a cleaning rag.
+
+Fresh socks sat inside the field pack.
+
+The sword was back in its sheath.
+
+The pack strap lay flat again.
+
+I counted the remaining field pay.
+
+Less.
+
+Still there.
+
+Rent stack.
+
+Food stack.
+
+Support stack.
+
+Available cash.
+
+No warehouse shift required before breakfast.
+
+No reason to turn a five-day contract into a sword upgrade just because money had arrived.
+
+I looked at the support receipt under the brass key.
+
+Still weeks.
+
+I left the coins there.
+
+Then I moved the field pack.
+
+For a moment I almost shoved it under the bed.
+
+That was where things went when I did not expect to need them soon.
+
+Instead I put it beside the door.
+
+Not packed for departure.
+
+Ready to be packed.
+
+There was a difference.
+
+Noll started snoring through the wall before the room went fully dark.
+
+He had apparently worked today.
+
+I had not.
+
+That still felt strange.
+
+I sat on the edge of the bed and waited for guilt to become useful.
+
+It did not.
+
+Tomorrow I could go to the Guild.
+
+Or see Arlo and Ivena.
+
+Or take another warehouse count.
+
+Or do none of those things if the city had nothing worth buying from me.
+
+For once, not knowing what I was doing tomorrow was something I could afford...

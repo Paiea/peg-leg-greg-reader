@@ -1,0 +1,52 @@
+name: Validate Audio Score Automation
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/audio_score_next.py'
+      - 'scripts/audio_score_claim.py'
+      - 'scripts/audio_score_capture_plan.py'
+      - 'scripts/plg_ai_tools.py'
+      - 'tests/test_audio_score_next.py'
+      - 'tests/test_audio_score_claim.py'
+      - 'tests/test_audio_score_capture_plan.py'
+      - 'tests/test_plg_ai_tools_audio_next.py'
+      - '.github/workflows/audio-score-v2-plan.yml'
+      - '.github/workflows/audio-score-light-plan.yml'
+      - '.github/workflows/audio-score-automation-tests.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/audio_score_next.py'
+      - 'scripts/audio_score_claim.py'
+      - 'scripts/audio_score_capture_plan.py'
+      - 'scripts/plg_ai_tools.py'
+      - 'tests/test_audio_score_next.py'
+      - 'tests/test_audio_score_claim.py'
+      - 'tests/test_audio_score_capture_plan.py'
+      - 'tests/test_plg_ai_tools_audio_next.py'
+      - '.github/workflows/audio-score-v2-plan.yml'
+      - '.github/workflows/audio-score-light-plan.yml'
+      - '.github/workflows/audio-score-automation-tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install test runner
+        run: python -m pip install --disable-pip-version-check pytest
+      - name: Run Audio Score automation tests
+        run: >-
+          python -m pytest -q
+          tests/test_audio_score_capture_plan.py
+          tests/test_audio_score_next.py
+          tests/test_audio_score_claim.py
+          tests/test_plg_ai_tools_audio_next.py

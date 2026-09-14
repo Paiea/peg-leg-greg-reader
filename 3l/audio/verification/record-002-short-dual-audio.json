@@ -1,0 +1,838 @@
+{
+  "record": "002",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-002-short-dual-plan.json",
+  "plan_sha256": "17ae9f6a00282615eadbef40ba73594405816c89eaba0b2ad175867ddb72fb3e",
+  "source_verification": "3l/audio/verification/record-002-short-captures.json",
+  "source_verification_sha256": "ba6e3b5ef422ae331d69b8ce85c70183e2f0581a1148eefc4347dd2ebe37b11b",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 39,
+  "chunk_count": 29,
+  "mixed_chunk_count": 10,
+  "duration_seconds": 742.224,
+  "byte_size": 17813997,
+  "sha256": "dd2d78e67aee5ed304e177cb12d74edcf6ab1f7989a11fe7ce8880e10ebe477a",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 482,
+          "role": "greg",
+          "text": "The dragon did not move.\n\nNeither did I.\n\nThat seemed fair for the first few seconds.\n\nThen it became his choice.\n\nI had just told a creature older than my kingdom that the future he remembered me not being part of had happened with me in it once already.\n\nThere were several reasonable responses to that.\n\nDisbelief.\n\nQuestions.\n\nEating me.\n\nI had prepared for two of those.\n\nIthar stared.\n\nI shifted my weight off the bad leg.\n\nThe movement was small.\n\nHis eye followed it anyway."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.896
+        }
+      ],
+      "assembled_duration_seconds": 28.896
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 152,
+          "role": "greg",
+          "text": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor."
+        },
+        {
+          "start": 152,
+          "end": 473,
+          "role": "dragon",
+          "text": "\n\n\u201cNot this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 9.192895
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 8.74023,
+          "end_seconds": 28.704
+        }
+      ],
+      "assembled_duration_seconds": 29.156646
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 439,
+          "role": "greg",
+          "text": "That was the first time my name sounded different in his mouth.\n\nNot important.\n\nNot friendly.\n\nPlaced.\n\nLike he had put it somewhere and intended to find it again.\n\nI rubbed my thumb across the edge of my rank pin.\n\nThe Authority mark caught against the nail.\n\nLow B-class.\n\nNamed Ranker.\n\nPeg-Leg Greg, according to people who had never asked whether I wanted the fucking thing attached to me.\n\nIthar watched the hand.\n\nOf course he did."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.544
+        }
+      ],
+      "assembled_duration_seconds": 26.544
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 451,
+          "role": "greg",
+          "text": "\u201cI remember another life. Approximately forty years. Nineteen to fifty-nine.\u201d\n\nNothing happened.\n\nI had expected that sentence to feel larger.\n\nIt did not.\n\nIt sounded exactly like what it was.\n\nA man in a cave saying something impossible.\n\n\u201cThe childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.\u201d\n\nHis eye moved over my face.\n\nThen lower.\n\nThe ruined leg."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.192
+        }
+      ],
+      "assembled_duration_seconds": 27.192
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 151,
+          "role": "greg",
+          "text": "The right hand that no longer closed all the way.\n\nThe shoulder that sat slightly wrong under my coat.\n\nHe took his time looking.\n\nThen he spoke again."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 9.168
+        }
+      ],
+      "assembled_duration_seconds": 9.168
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 498,
+          "role": "dragon",
+          "text": "\u201cYou are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 30.84
+        }
+      ],
+      "assembled_duration_seconds": 30.84
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 424,
+          "role": "greg",
+          "text": "I opened my mouth.\n\nClosed it.\n\nI hated that he was already getting better at this.\n\n\u201cYears.\u201d\n\nThe eye narrowed.\n\n\u201cThere were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.\u201d\n\nThe larger things came later.\n\nYears later.\n\nThat sounded bad when I said it out loud."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 25.608
+        }
+      ],
+      "assembled_duration_seconds": 25.608
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 458,
+          "role": "greg",
+          "text": "Forty years of apparent foreknowledge and I had required years to establish that events had changed.\n\n\u201cI was busy.\u201d\n\nIthar did not move.\n\n\u201cBeing nineteen again.\u201d\n\nStill nothing.\n\nI had seen that silence before.\n\nUsually after saying something about people that he understood as words and not as a fact.\n\n\u201cYou don't get that part.\u201d\n\nHis eye dropped to my leg.\n\nI looked down too.\n\n\u201cExplaining knees to a dragon that still has all of his is going to annoy me.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.864
+        }
+      ],
+      "assembled_duration_seconds": 27.864
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 469,
+          "role": "greg",
+          "text": "The answer came out lighter than the thing underneath it.\n\nAt nineteen I had two good knees.\n\nTwo good hands.\n\nA shoulder that had not learned weather.\n\nIthar did not follow me into that.\n\nThat was almost kind.\n\nAlmost.\n\nThe claw nearest the old Line disk moved once through the gold.\n\nCoins made a soft dry sound against one another.\n\nI knew what he wanted next without hearing the question.\n\nWhat had I been in the first life?\n\nNot Greg.\n\nThe other answer.\n\n\u201cRanker.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.08
+        }
+      ],
+      "assembled_duration_seconds": 28.08
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 396,
+          "role": "greg",
+          "text": "His eye flicked to the pin on my coat.\n\n\u201cNot like this.\u201d\n\nThe current badge had my class stamped beneath the Authority seal.\n\nB.\n\nThe letter was honest.\n\nI had worked hard for it.\n\nIt still felt strange every time I looked down.\n\n\u201cS-class.\u201d\n\nIthar waited.\n\nI had not expected applause.\n\nStill.\n\nThe dragon let the silence stretch until I understood he was not going to help me define my own word."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 23.784
+        }
+      ],
+      "assembled_duration_seconds": 23.784
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 318,
+          "role": "greg",
+          "text": "\u201cS-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.\u201d\n\nI leaned back against the stone behind me.\n\nIt was warm.\n\nEverything in the cave was warm."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 19.728
+        }
+      ],
+      "assembled_duration_seconds": 19.728
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 431,
+          "role": "greg",
+          "text": "\u201cStrongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.\u201d\n\nI had been one of them for eleven years officially."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.76
+        }
+      ],
+      "assembled_duration_seconds": 26.76
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 484,
+          "role": "greg",
+          "text": "Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge.\n\nI could cross an active pressure break without a shield crew.\n\nI could hold full reinforcement most of a day if I wasn't doing anything stupid.\n\nUsually I was doing something stupid.\n\n\u201cI killed a redback alone north of Vey.\u201d\n\nThat got him.\n\nNot much.\n\nAn inch of head movement from Ithar was becoming the equivalent of another creature standing up."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.16
+        }
+      ],
+      "assembled_duration_seconds": 29.16
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 104,
+          "role": "dragon",
+          "text": "\u201cThere are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.\u201d"
+        },
+        {
+          "start": 104,
+          "end": 500,
+          "role": "greg",
+          "text": "\n\nI stared at him.\n\nOf course that was his question.\n\n\u201cMeat.\u201d\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n\u201cBlack tissue. Stringy. Smelled like burnt hair when I cut it.\u201d\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 6.600770000000001
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 6.746105,
+          "end_seconds": 29.376
+        }
+      ],
+      "assembled_duration_seconds": 29.230646
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 495,
+          "role": "greg",
+          "text": "The sudden lift beneath my stomach when the thing under the plate swelled.\n\nI had forgotten the sky.\n\nI remembered the smell perfectly.\n\n\u201cThere was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.\u201d\n\nThe dragon went still.\n\nCompletely.\n\nThat was starting to mean more than movement.\n\nThen Ithar spoke for long enough that I stopped waiting for my turn."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.144
+        }
+      ],
+      "assembled_duration_seconds": 30.144
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 318,
+          "role": "dragon",
+          "text": "\u201cNot black. Purple. The membrane was a pressure bladder. You did not know that. Good. A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 19.632
+        }
+      ],
+      "assembled_duration_seconds": 19.632
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 436,
+          "role": "dragon",
+          "text": "\u201cBut errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.\n\n\u201cThat does not prove your explanation. It makes the error useful.\u201d"
+        },
+        {
+          "start": 436,
+          "end": 465,
+          "role": "greg",
+          "text": "\n\nI shifted against the wall."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 26.023
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 26.06795,
+          "end_seconds": 28.704
+        }
+      ],
+      "assembled_duration_seconds": 28.659042
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 482,
+          "role": "greg",
+          "text": "\u201cThat sounded almost like you believe me.\u201d\n\nHis eye did not change.\n\nFine.\n\nNot belief.\n\nI took useful.\n\nThen his attention moved somewhere else.\n\nNot physically.\n\nThat would have been easier.\n\nThe cave just became more specific around one question.\n\nMy path to his name.\n\nI looked toward the passage.\n\nNot because I planned to leave.\n\nBecause some questions make a door more noticeable.\n\n\u201cI told you. It was from the first life.\u201d\n\nThe dragon waited.\n\nThat was when.\n\nHe wanted who."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.512
+        }
+      ],
+      "assembled_duration_seconds": 28.512
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 174,
+          "role": "greg",
+          "text": "I rubbed my face.\n\nIt had been a long climb.\n\nIt was becoming a longer conversation.\n\n\u201cI knew her as Nhal.\u201d\n\nNothing happened.\n\nThen Ithar's pupil narrowed.\n\nThat was enough."
+        },
+        {
+          "start": 174,
+          "end": 181,
+          "role": "dragon",
+          "text": "\n\n\u201cAh.\u201d"
+        },
+        {
+          "start": 181,
+          "end": 320,
+          "role": "greg",
+          "text": "\n\nI did not like the way he said it.\n\nThen, instead of making me drag the questions out of him one at a time, he gave me the problem whole."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 10.771899999999999
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 10.4366,
+          "end_seconds": 10.4566
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 10.791899999999998,
+          "end_seconds": 19.104
+        }
+      ],
+      "assembled_duration_seconds": 19.103979
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 365,
+          "role": "dragon",
+          "text": "\u201cNhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.\u201d"
+        },
+        {
+          "start": 365,
+          "end": 489,
+          "role": "greg",
+          "text": "\n\nLate.\n\nForty-eight, maybe forty-nine.\n\nUnder the salt flats north of Vey.\n\nShe did not live there.\n\nShe was trapped there."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 22.59205
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.27445,
+          "end_seconds": 29.808
+        }
+      ],
+      "assembled_duration_seconds": 30.125583
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 470,
+          "role": "greg",
+          "text": "The pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n\u201cHow she got trapped is a long story.\u201d\n\nHis chin settled onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\nHe was becoming pleased with the existence of long stories.\n\n\u201cIn that history she told me your name. She also told me how to cross the mountain.\u201d\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.272
+        }
+      ],
+      "assembled_duration_seconds": 28.272
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 163,
+          "role": "greg",
+          "text": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again."
+        },
+        {
+          "start": 163,
+          "end": 304,
+          "role": "dragon",
+          "text": "\n\n\u201cThat is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 9.62486
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 10.33934,
+          "end_seconds": 18.792
+        }
+      ],
+      "assembled_duration_seconds": 18.077521
+    },
+    {
+      "chunk": 23,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 448,
+          "role": "dragon",
+          "text": "\u201cA secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.\n\n\u201cYou recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 27.6
+        }
+      ],
+      "assembled_duration_seconds": 27.6
+    },
+    {
+      "chunk": 24,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 267,
+          "role": "dragon",
+          "text": "\u201cYou know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n\u201cYou offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.\u201d"
+        },
+        {
+          "start": 267,
+          "end": 497,
+          "role": "greg",
+          "text": "\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n\u201cSo you believe I remember another life.\u201d\n\nSomething low moved in his throat."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 16.03445
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 16.035800000000002,
+          "end_seconds": 30.144
+        }
+      ],
+      "assembled_duration_seconds": 30.142667
+    },
+    {
+      "chunk": 25,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 204,
+          "role": "greg",
+          "text": "Amusement, maybe.\n\nI was getting dangerously confident about the throat too.\n\nThe dragon looked at me for a long time.\n\nThen he answered without making me fight through ten smaller questions to get there."
+        },
+        {
+          "start": 204,
+          "end": 385,
+          "role": "dragon",
+          "text": "\n\n\u201cYou possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 11.946
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 12.2593,
+          "end_seconds": 24.024
+        }
+      ],
+      "assembled_duration_seconds": 23.710708
+    },
+    {
+      "chunk": 26,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 357,
+          "role": "dragon",
+          "text": "\u201cI do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.\n\n\u201cI know only that your explanation is no longer the least interesting possibility.\u201d"
+        },
+        {
+          "start": 357,
+          "end": 495,
+          "role": "greg",
+          "text": "\n\nI stared at him.\n\n\u201cScale involved.\u201d\n\nHis eye held mine.\n\n\u201cYou think this is bigger than me.\u201d\n\nIthar's mouth shifted.\n\nNot quite a smile."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 21.8629
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 22.350450000000002,
+          "end_seconds": 30.408
+        }
+      ],
+      "assembled_duration_seconds": 29.920438
+    },
+    {
+      "chunk": 27,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 487,
+          "role": "greg",
+          "text": "He did not need to say that almost everything was bigger than me.\n\nThe thought arrived in his face well enough.\n\n\u201cFair.\u201d\n\nI looked at the old disk between us.\n\nThen at the wall where his coin was still buried.\n\nThen at the passage out.\n\nMy knee hurt.\n\nThe Line was failing below the mountain.\n\nTwo point three million people were still inconveniently mortal.\n\nAnd somehow I had lost control of the negotiation badly enough that the dragon was examining my existence instead.\n\n\u201cThe Line.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.592
+        }
+      ],
+      "assembled_duration_seconds": 29.592
+    },
+    {
+      "chunk": 28,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 264,
+          "role": "greg",
+          "text": "Ithar's eye half closed.\n\nI had started to recognize that too.\n\nNot refusal exactly.\n\nPriority.\n\n\u201cYou haven't even looked at it.\u201d\n\nHe had looked at me.\n\nThat was not better.\n\n\u201cWhat do you want?\u201d\n\nThe eye opened fully.\n\nIthar shifted more comfortably into the gold."
+        },
+        {
+          "start": 264,
+          "end": 490,
+          "role": "dragon",
+          "text": "\n\n\u201cThe Line is why you came today. It is not why you knew my name before the western stations began failing, or why you knew the mountain before you climbed it, or why your body reaches for movements this body has not learned."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 16.404899999999998
+        },
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 16.0438,
+          "end_seconds": 29.64
+        }
+      ],
+      "assembled_duration_seconds": 30.001104
+    },
+    {
+      "chunk": 29,
+      "required_voices": [
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 77,
+          "role": "dragon",
+          "text": "\u201cYou have given me the sentence, Greg.\n\n\u201cI want the thing that made it true.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 4.68
+        }
+      ],
+      "assembled_duration_seconds": 4.68
+    }
+  ]
+}

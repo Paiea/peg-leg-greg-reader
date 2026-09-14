@@ -1,0 +1,22 @@
+{
+  "record": 1,
+  "candidate": "3l/assets/audio/record-001-two-voice-candidate.mp3",
+  "status": "verified_unlistened_ab_candidate",
+  "assembly_mode": "reuse_existing_takes_dragon_spans_only",
+  "source_take_count": 36,
+  "new_voice_capture_count": 0,
+  "dragon_span_count": 112,
+  "dragon_tempo": 0.88,
+  "settling_tail_seconds": 2.0,
+  "original_single_voice": {
+    "path": "3l/assets/audio/record-001.mp3",
+    "sha256_before": "3549902b610faeef149a4f172dfbc26a08f34e8addb6aa12fb557df577b455f3",
+    "sha256_after": "3549902b610faeef149a4f172dfbc26a08f34e8addb6aa12fb557df577b455f3",
+    "preserved": true
+  },
+  "candidate_duration_seconds": 1012.704,
+  "candidate_byte_size": 20254605,
+  "candidate_sha256": "61e25b80afc6e6d757509d310d97bf123ea12f77fd56e3a3a523d6b39ce5056a",
+  "ffprobe_playable": true,
+  "scope": "Record 001 only"
+}

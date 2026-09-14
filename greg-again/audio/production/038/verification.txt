@@ -1,0 +1,14 @@
+Greg, Again Chapter 38 audio verification
+chapter_id: ga-038
+title: Two Keys
+voice: deep
+take_count: 33
+source: r2/assets/written/ch038.md
+source_blob: e81e4ea9a0e9e60b5183e175c246835801678c27
+exact_spoken_source_coverage: PASS
+all_take_ffprobe_playability: PASS
+take_order: 01..33 PASS
+final_ellipsis_in_locked_take_33: PASS
+listener_tail_seconds: 2.064 PASS
+duration_seconds: 771.528
+final_sha256: 2fc51d5434e4bee6905c133c981128acbfd5598ba367451703ddef70b8d7e0fa

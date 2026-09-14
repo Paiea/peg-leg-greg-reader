@@ -12,6 +12,24 @@ Survival in an experiment does not make an event, chapter number, scene, or word
 
 Current accepted chapters are not backlog material. Only unaccepted future territory is governed as speculative survivor state.
 
+## Temporal Engine interface
+
+When future material comes from an explicit temporal/year/season run, read `r2/TEMPORAL_ENGINE.md` and the active experiment's `TEMPORAL_RUN.md` when present.
+
+The temporal run contract contributes **experimental context**, especially:
+
+- the fictional clock / elapsed-time horizon;
+- hard constraints that shaped the experiment;
+- soft nudges that changed selection pressure;
+- the stop condition;
+- temporal residue that explains why later state differs from earlier state.
+
+These items are evidence about how a useful future was discovered. They are **not automatically canon**.
+
+Do not silently promote an old run's deadline, rank ceiling, Gold-party requirement, action pressure, trope pressure, relationship pressure, or other run-local constraint into accepted R2 merely because a scene survives.
+
+When a survivor is re-performed near accepted authority, preserve only the time/constraint information that still earns its place against newest authority and current user direction.
+
 ## Confidence zones
 
 ### A — Commit Zone
@@ -68,10 +86,11 @@ No sunk-cost protection.
 
 When future material approaches accepted authority, provide:
 
-1. newest accepted Story State and exact recent prose
-2. surviving future discovery / scene truth
-3. old speculative prose only as challenger evidence
-4. later discoveries that remain relevant
+1. newest accepted Story State and exact recent prose;
+2. surviving future discovery / scene truth;
+3. old speculative prose only as challenger evidence;
+4. later discoveries that remain relevant;
+5. when applicable, the temporal run's clock and only those constraints needed to understand the discovery.
 
 Then ask:
 
@@ -80,6 +99,8 @@ Then ask:
 Run the normal R2 path through Shared Greg Surface, Written Finish, connected rehearsal, selection, verification, and publication.
 
 Do not simply make an old speculative chapter longer. Old wording survives only where it still wins.
+
+Do not feed the full temporal planner/audit rubric into the prose renderer. Reduce it to concrete scene state per the Temporal Engine's Scene Packet firewall.
 
 ## Embodiment challenger
 
@@ -97,7 +118,7 @@ Classify publication-side prose as:
 - `LIGHT FINISH` — the chapter is fully embodied but loses on surface execution such as repeated evaluator fragments, predictable paragraph rhythm, redundant explanation, or listening clarity.
 - `REPERFORM` — the event/causal core survives but the experiential rendering is too compressed, treatment-like, or interchangeable with its synopsis.
 
-A likely `REPERFORM` candidate compresses the moments that should carry the reading experience: physical work, environment, waiting, failed attempts, social awkwardness, interruption, bodily effort, uncertainty, professional procedure, somebody else's independent action, or emotionally imperfect behavior.
+A likely `REPERFORM` candidate compresses the moments that should carry the reading experience: physical work, environment, waiting, failed attempts, social awkwardness, interruption, bodily effort, uncertainty, professional procedure, somebody else's independent action, emotionally imperfect behavior, or the concrete residue of elapsed time.
 
 Re-performance is not expansion toward a target length. Preserve what happened, perform it fresh from current authority, and add only lived experience the scene naturally earns. Old lines and structure survive where they still win.
 
@@ -107,24 +128,25 @@ Do not judge every chapter in isolation. Audit approximately **6–8 connected c
 
 Across the run, look for repeated writer machinery that may be invisible chapter-by-chapter:
 
-- isolated evaluator words such as `Good`, `Useful`, `Different`, or `Correct`
-- repeated `Not X. Y.` or `X was one thing. Y was another.` reversals
-- tiny-paragraph stacks and identical sentence-length patterns
-- dialogue followed by narration explaining the exchange
-- every chapter resolving into a neat Greg principle
-- side characters becoming uniformly competent, rational, or epistemically tidy
-- anti-escalation becoming its own formula
-- repeated chapter grammar, joke placement, or ending cadence
+- isolated evaluator words such as `Good`, `Useful`, `Different`, or `Correct`;
+- repeated `Not X. Y.` or `X was one thing. Y was another.` reversals;
+- tiny-paragraph stacks and identical sentence-length patterns;
+- dialogue followed by narration explaining the exchange;
+- every chapter resolving into a neat Greg principle;
+- side characters becoming uniformly competent, rational, or epistemically tidy;
+- anti-escalation becoming its own formula;
+- repeated chapter grammar, joke placement, or ending cadence;
+- temporal checkpoints turning into repeated ledger openings rather than lived scenes.
 
 Change the repeated machinery, not Greg's identity. Preserve specific dry classification language when it still feels character-owned and earns its place.
 
 Default audit order:
 
-1. read the connected run without editing
-2. classify each chapter `SOURCE WIN / LIGHT FINISH / REPERFORM`
-3. edit only clear losers
-4. read the connected run again
-5. preserve SOURCE wherever the challenger does not clearly win
+1. read the connected run without editing;
+2. classify each chapter `SOURCE WIN / LIGHT FINISH / REPERFORM`;
+3. edit only clear losers;
+4. read the connected run again;
+5. preserve SOURCE wherever the challenger does not clearly win.
 
 ## A-zone variance pressure
 
@@ -132,12 +154,12 @@ Before an A-zone chapter is selected or published, challenge whether it is takin
 
 Check especially for:
 
-- fragment cadence used by habit rather than Greg's actual cognition
-- repeated `competence -> correction -> insight -> thesis landing` chapter grammar
-- outside characters who are too consistently professional, reasonable, clean, or useful
-- scenes compressed because compression usually works rather than because this scene wants compression
-- explanatory endings that restate a principle the scene already proved
-- missing physical, social, environmental, relational, irrational, or emotionally messy embodiment that would materially improve the scene
+- fragment cadence used by habit rather than Greg's actual cognition;
+- repeated `competence -> correction -> insight -> thesis landing` chapter grammar;
+- outside characters who are too consistently professional, reasonable, clean, or useful;
+- scenes compressed because compression usually works rather than because this scene wants compression;
+- explanatory endings that restate a principle the scene already proved;
+- missing physical, social, environmental, relational, irrational, temporal, or emotionally messy embodiment that would materially improve the scene.
 
 Variance is diagnostic, not a quota. Do not force length, conflict, dialogue, messiness, or structural novelty merely to look different. A `SOURCE WIN` may survive unchanged if it still wins after the challenge.
 
@@ -151,11 +173,11 @@ A useful cadence is roughly every 40–50 accepted chapters, or before another l
 
 For the cold read:
 
-1. hide generator route, A/B/C/D provenance, survivor labels, and prior evaluation verdicts when practical
-2. read the accepted run as a novel rather than as pipeline output
-3. challenge repeated chapter grammar, rhythmic convergence, same-shaped endings, emotional neatness, insufficient interpersonal friction, over-clean competence, and compressed scenes that should breathe
-4. distinguish deliberate house voice from repetition that is no longer buying anything
-5. feed useful findings into later A-zone re-performance, targeted revision, or forward-generation judgment
+1. hide generator route, A/B/C/D provenance, survivor labels, prior evaluation verdicts, and temporal-run architecture when practical;
+2. read the accepted run as a novel rather than as pipeline output;
+3. challenge repeated chapter grammar, rhythmic convergence, same-shaped endings, emotional neatness, insufficient interpersonal friction, over-clean competence, and compressed scenes that should breathe;
+4. distinguish deliberate house voice from repetition that is no longer buying anything;
+5. feed useful findings into later A-zone re-performance, targeted revision, or forward-generation judgment.
 
 The audit is evidence, not an automatic rejection or retroactive demotion system. Do not create a rewrite quota. A high survival rate is a reason to test the challenger harder, not proof that the run is bad or that changes must be manufactured.
 
@@ -163,25 +185,28 @@ The audit is evidence, not an automatic rejection or retroactive demotion system
 
 Before substantial forward writing near a speculative frontier:
 
-1. read newest accepted R2 authority
-2. discover active temporal-survivor experiment branches using normal branch/WIP discovery
-3. inspect only survivor/reconciliation material relevant to the immediate horizon
-4. treat it as challenger/rehearsal evidence, not outline or story truth
-5. write from current authority
-6. preserve current SOURCE when speculative material loses
+1. read newest accepted R2 authority;
+2. discover active temporal-survivor experiment branches using normal branch/WIP discovery;
+3. if an active run contract exists, read its current clock position, stop condition, hard constraints, and soft nudges;
+4. inspect only survivor/reconciliation material relevant to the immediate horizon;
+5. treat the speculative material and its run contract as challenger/rehearsal evidence, not outline or story truth;
+6. write from current authority;
+7. preserve current SOURCE when speculative material loses;
+8. when a survivor is carried forward, record any elapsed-time or constraint context needed to understand the discovery without promoting stale run-local rules.
 
 Missing, stale, conflicting, or inaccessible survivor evidence never blocks ordinary forward writing.
 
 ## Storage boundary
 
-- doctrine may graduate to `main`
-- live A/B/C/D backlog remains experimental by default
-- accepted chapter prose reaches `main` only through normal R2 written production
-- no reader, registry, audio, or image surface should depend directly on experimental future paths
+- doctrine may graduate to `main`;
+- the active Temporal Engine method may live on `main`;
+- live A/B/C/D backlog and instantiated `TEMPORAL_RUN.md` files remain experimental by default;
+- accepted chapter prose reaches `main` only through normal R2 written production;
+- no reader, registry, audio, or image surface should depend directly on experimental future paths.
 
 ## Prose-quality contract
 
 A deep future backlog is not permission to lower publication quality.
-As material approaches A, spend the saved creative effort on listening clarity, rhythmic variation, physical/social embodiment, dialogue ownership, emotional messiness, human irrationality, removal of redundant evaluative fragments, and deletion of principles the scene already proved.
+As material approaches A, spend the saved creative effort on listening clarity, rhythmic variation, physical/social embodiment, dialogue ownership, emotional messiness, human irrationality, visible temporal residue, removal of redundant evaluative fragments, and deletion of principles the scene already proved.
 
 Final chapters compete with strong recent R2, not with the quality of their speculative ancestors.

@@ -1,0 +1,48 @@
+name: Build 3L Records 002-003 two-voice audio
+
+on:
+  push:
+    branches:
+      - 3l/records-002-010-write2
+    paths:
+      - '.github/workflows/3l-records-002-003-two-voice.yml'
+      - 'scripts/build_3l_records_002_003_two_voice.py'
+      - '3l/audio/records-002-003-source-renders.json'
+      - '3l/manuscript/record-002.md'
+      - '3l/manuscript/record-003.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Build dual-voice chapters
+        run: python scripts/build_3l_records_002_003_two_voice.py
+      - name: Verify outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          ffmpeg -v error -i 3l/assets/audio/record-002.mp3 -f null -
+          ffmpeg -v error -i 3l/assets/audio/record-003.mp3 -f null -
+          test -s 3l/audio/verification/record-002-two-voice.json
+          test -s 3l/audio/verification/record-003-two-voice.json
+          git diff --check
+      - name: Commit verified audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 3l/assets/audio/record-002.mp3 3l/assets/audio/record-003.mp3 \
+                  3l/audio/verification/record-002-two-voice.json \
+                  3l/audio/verification/record-003-two-voice.json
+          git diff --cached --quiet && exit 0
+          git commit -m "audio: publish verified 3L Records 002-003"
+          git push origin HEAD:${GITHUB_REF_NAME}
