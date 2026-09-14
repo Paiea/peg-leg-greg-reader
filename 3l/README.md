@@ -13,6 +13,8 @@ This directory is intentionally isolated from the existing PLG and R2 reader sur
 - Opening Records 001-010 design: `../docs/superpowers/specs/2026-09-12-3l-opening-records-001-010-design.md`
 - Voice and performance authority: `VOICE_PERFORMANCE_AUTHORITY.md`
 - Execution and anti-stall recovery authority: `WORK_RECOVERY_AUTHORITY.md`
+- Temporal pathfinding design: `../docs/superpowers/specs/2026-09-13-3l-temporal-pathfinding-engine-design.md`
+- Experimental temporal workspace: `development/temporal-pathfinding/README.md`
 
 Canon prose remains the story authority. Derived performance/audio artifacts must preserve canon wording and meaning.
 
