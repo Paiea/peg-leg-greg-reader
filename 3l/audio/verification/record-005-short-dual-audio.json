@@ -1,0 +1,640 @@
+{
+  "record": "005",
+  "method": "verified-preview-safe-short-dual-semantic-splice",
+  "plan": "3l/audio/record-005-short-dual-plan.json",
+  "plan_sha256": "1dde654934c470f7bb4ac4455132ed607979af2154270b06eb942b13dc83d26b",
+  "source_verification": "3l/audio/verification/record-005-short-captures.json",
+  "source_verification_sha256": "37cc0dbabe46ca445b98847768d1783c6b9dea4348788f5b3f5b7ce027245bd2",
+  "voices": {
+    "greg": "deep",
+    "dragon": "normal"
+  },
+  "audio_processing": {
+    "tempo": 1.0,
+    "pitch_semitones": 0,
+    "formant_shift": 0,
+    "dragon_post_processing": false,
+    "settling_tail_seconds": 2.0,
+    "final_bitrate": "192k"
+  },
+  "planned_capture_count": 27,
+  "chunk_count": 26,
+  "mixed_chunk_count": 1,
+  "duration_seconds": 741.888,
+  "byte_size": 17805933,
+  "sha256": "dabc507fb30c3be378fbdb5dac5eafe21bf0e372e398ab57e291d9429848ba62",
+  "status": "verified",
+  "chunks": [
+    {
+      "chunk": 1,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 488,
+          "role": "greg",
+          "text": "The first thing the Guild did with my second life was make me fill out the same form twice.\n\nI had forgotten that part.\n\nThe woman behind the registry window pushed the first sheet back through the slot.\n\n\u201cWrong ink.\u201d\n\nI looked at the sheet.\n\n\u201cIt says black or blue.\u201d\n\n\u201cThat is violet.\u201d\n\n\u201cIt is dark.\u201d\n\n\u201cIt is violet.\u201d\n\nI looked at the pen in my hand.\n\nThen at the bottle chained to the desk.\n\nThen back at her.\n\n\u201cDo you want me to apologize to the color?\u201d\n\n\u201cNo. I want you to use black.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.016
+        }
+      ],
+      "assembled_duration_seconds": 29.016
+    },
+    {
+      "chunk": 2,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 498,
+          "role": "greg",
+          "text": "I took a new sheet.\n\nThe woman had a brass name strip that said MIRA.\n\nI knew her.\n\nNot well.\n\nIn my first life she had worked that window for at least twelve years. By the time I reached B-class she had moved upstairs and developed the rare administrative power to make senior Rankers wait in chairs.\n\nShe had once made me wait forty minutes because I called a renewal requirement stupid.\n\nIt had been stupid.\n\nShe had still won.\n\nI used black ink.\n\nName.\n\nAge.\n\nDistrict.\n\nPrevious certification."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.76
+        }
+      ],
+      "assembled_duration_seconds": 29.76
+    },
+    {
+      "chunk": 3,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 485,
+          "role": "greg",
+          "text": "None.\n\nPreferred contract class.\n\nField.\n\nI hesitated there.\n\nThe first time I had written field before I understood what the word included.\n\nIt sounded adventurous.\n\nIt meant anything that happened far enough from a city that the Guild could plausibly blame weather.\n\nMira looked through the slot.\n\n\u201cYou planning to finish today?\u201d\n\n\u201cYes.\u201d\n\n\u201cThen write.\u201d\n\nI wrote field again.\n\nSome decisions survive wisdom because the alternative is worse.\n\nThe registry test took twenty-six minutes."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.256
+        }
+      ],
+      "assembled_duration_seconds": 29.256
+    },
+    {
+      "chunk": 4,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 453,
+          "role": "greg",
+          "text": "The first time it had taken me almost two hours.\n\nThat felt good for about three questions.\n\nThen I hit the practical section.\n\nA brass plate sat on the table with six carved channels, two pressure points, and one cracked retention ring.\n\nThe examiner was a narrow man with gray hair tied behind his head.\n\n\u201cIdentify the unsafe load path.\u201d\n\nI looked at the plate.\n\nI knew three better ways to build the thing.\n\nI knew how it failed under field pressure."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.576
+        }
+      ],
+      "assembled_duration_seconds": 27.576
+    },
+    {
+      "chunk": 5,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 484,
+          "role": "greg",
+          "text": "I knew a Ranker in West Vale who had lost half a hand because someone repaired one with the wrong alloy.\n\nI did not remember what the Guild called the little diagonal channel on the bottom left.\n\nI pointed at it.\n\n\u201cThat one.\u201d\n\n\u201cWhat is it?\u201d\n\n\u201cUnsafe.\u201d\n\nHe looked at me.\n\nI smiled.\n\nHe did not.\n\n\u201cName it.\u201d\n\nI stared at the channel.\n\nThe name was somewhere in forty years of things I had stopped needing to say.\n\n\u201cSecondary bleed.\u201d\n\n\u201cNo.\u201d\n\n\u201cAuxiliary bleed.\u201d\n\n\u201cNo.\u201d\n\n\u201cPressure relief.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.512
+        }
+      ],
+      "assembled_duration_seconds": 28.512
+    },
+    {
+      "chunk": 6,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 478,
+          "role": "greg",
+          "text": "\u201cThat describes three parts of the plate.\u201d\n\n\u201cThen your naming system has problems.\u201d\n\nThe examiner made a mark on his sheet.\n\nI remembered him too.\n\nNot his name.\n\nJust the feeling.\n\nThat was less useful.\n\nHe pointed to the cracked ring.\n\n\u201cRepair or replace?\u201d\n\n\u201cReplace.\u201d\n\n\u201cWhy?\u201d\n\n\u201cBecause if you repair it, it fails at the seam under lateral load.\u201d\n\nHe stopped marking.\n\n\u201cHow much load?\u201d\n\n\u201cDepends on the alloy.\u201d\n\n\u201cWhich alloy?\u201d\n\nI looked closer.\n\nThe plate was a training copy."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.08
+        }
+      ],
+      "assembled_duration_seconds": 28.08
+    },
+    {
+      "chunk": 7,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 497,
+          "role": "greg",
+          "text": "Cheap brass pretending to be something else.\n\n\u201cOn this? Enough that the answer doesn't matter.\u201d\n\nHis mouth tightened.\n\n\u201cAssume standard Line bronze.\u201d\n\nI gave him the number.\n\nHe looked at me again.\n\nThis time longer.\n\n\u201cWhere did you learn that?\u201d\n\nI had several answers available.\n\nMost were bad.\n\n\u201cWork.\u201d\n\n\u201cWhat work?\u201d\n\n\u201cFamily.\u201d\n\nAlso bad.\n\nMy father repaired mill housings. He knew pressure fittings, but not that number.\n\nThe examiner glanced at my form.\n\n\u201cNo prior certification.\u201d\n\n\u201cInformal.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.136
+        }
+      ],
+      "assembled_duration_seconds": 29.136
+    },
+    {
+      "chunk": 8,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 499,
+          "role": "greg",
+          "text": "He made another mark.\n\nI stopped trying to impress him.\n\nThat was probably the first useful decision I made in Guild Hall.\n\nI passed.\n\nBarely enough to annoy me.\n\nMira stamped the registry and slid a temporary badge through the window.\n\nCopper edge.\n\nNo rank letter yet.\n\nJust my name, district, and a little notch indicating I was legally permitted to become someone else's problem outside city walls.\n\nI turned it over in my hand.\n\nThe first time, I had stared at that badge for five full minutes."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.072
+        }
+      ],
+      "assembled_duration_seconds": 30.072
+    },
+    {
+      "chunk": 9,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 459,
+          "role": "greg",
+          "text": "This time I checked whether the clasp was still terrible.\n\nIt was.\n\nSome things survived history.\n\n\u201cContract board is through there,\u201d Mira said.\n\n\u201cI know.\u201d\n\nShe looked at me.\n\nI pointed vaguely.\n\n\u201cSign.\u201d\n\nThere was a sign.\n\n\u201cMm.\u201d\n\nI left before I created a new history where Mira disliked me nineteen years earlier than scheduled.\n\nThe contract board occupied an entire wall.\n\nWooden rails. Paper slips. Wax tags for urgency. Colored corners for hazard class."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.432
+        }
+      ],
+      "assembled_duration_seconds": 27.432
+    },
+    {
+      "chunk": 10,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 498,
+          "role": "greg",
+          "text": "People stood in front of it pretending not to compete.\n\nI knew the ritual.\n\nRead quickly.\n\nDo not reach too fast.\n\nIf two people want the same slip, whoever touches it first becomes an asshole and whoever complains becomes unemployed.\n\nI moved along the board.\n\nCourier work.\n\nGuard work.\n\nSurvey crews.\n\nCaravan escort.\n\nRuin clearing.\n\nDrain inspection.\n\nLine maintenance.\n\nAnimal removal.\n\nThen I saw it.\n\nRIDGE ACCESS SURVEY, WESTERN CORRIDOR.\n\nThree-week initial term.\n\nRoom and food provided."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.376
+        }
+      ],
+      "assembled_duration_seconds": 29.376
+    },
+    {
+      "chunk": 11,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 500,
+          "role": "greg",
+          "text": "Hazard supplement.\n\nPotential extension.\n\nThe pay was exactly what I remembered.\n\nTwelve silver a week.\n\nAt nineteen, that number had looked enormous.\n\nMy father made nine on a good week.\n\nLocal beginner contracts paid five or six.\n\nThe first time, I had not taken the slip immediately.\n\nI had read everything else first because my father told me not to take the first thing they offered.\n\nThen I came back and took the second thing I wanted.\n\nI could still remember the camp.\n\nWet canvas.\n\nBad stew."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.264
+        }
+      ],
+      "assembled_duration_seconds": 30.264
+    },
+    {
+      "chunk": 12,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 485,
+          "role": "greg",
+          "text": "A foreman named Kett who lied about hazard pay and taught me how to sleep through blasting.\n\nThe first reinforcement drill I learned correctly from a woman whose name I could no longer remember.\n\nThe broken wrist.\n\nThe fever.\n\nThe winter extension nobody had mentioned.\n\nThe first time I killed something large enough that people stopped treating me like a boy.\n\nThe first time somebody died because I was not fast enough.\n\nThe road from there to S-class was not straight.\n\nIt existed."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.88
+        }
+      ],
+      "assembled_duration_seconds": 29.88
+    },
+    {
+      "chunk": 13,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 497,
+          "role": "greg",
+          "text": "I knew that much.\n\nA hand reached past my shoulder.\n\nI caught the wrist before the fingers touched the slip.\n\nThe owner of the wrist said, \u201cWhat the fuck?\u201d\n\nI let go.\n\nHe was maybe twenty-two. Broad face. New leather coat. Temporary badge like mine.\n\n\u201cSorry.\u201d\n\n\u201cYou taking it?\u201d\n\nI looked at the contract.\n\nThe old route.\n\nTwelve silver.\n\nKett.\n\nThe broken wrist.\n\nThe nameless woman teaching me how to move pressure into my legs without rupturing something important.\n\nSeven people on a continent."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.568
+        }
+      ],
+      "assembled_duration_seconds": 29.568
+    },
+    {
+      "chunk": 14,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 390,
+          "role": "greg",
+          "text": "Eventually.\n\nI knew where the road went.\n\nThat was supposed to be the whole advantage.\n\nThen I remembered my mother asking if I wanted eggs.\n\nNot the eggs.\n\nHer voice from the other room.\n\nMy father pretending not to smile.\n\nMy sister stealing bread because she had no idea there had ever been a world where she stopped doing it.\n\nThe ridge crew left that afternoon.\n\nI remembered that too."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 23.736
+        }
+      ],
+      "assembled_duration_seconds": 23.736
+    },
+    {
+      "chunk": 15,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 394,
+          "role": "greg",
+          "text": "First life, I had gone home, packed, lied to my mother about the hazard class, and been on a cart before dinner.\n\nMy sister had complained because I was supposed to help her carry something to the spring street fair that weekend.\n\nI had told her I would do it next year.\n\nThere had not been a next year for us.\n\nNot like that.\n\nThe memory did not arrive dramatically.\n\nNo music.\n\nNo revelation."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 23.952
+        }
+      ],
+      "assembled_duration_seconds": 23.952
+    },
+    {
+      "chunk": 16,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 480,
+          "role": "greg",
+          "text": "Just my sister, seventeen, standing in the hallway with a box in her arms while nineteen-year-old me tried to leave without feeling guilty.\n\nI had forgotten the box.\n\nI remembered it now.\n\nGreen cloth tied around the middle.\n\nI did not remember what was inside.\n\nThat bothered me more than it should have.\n\n\u201cYou taking it?\u201d the man asked again.\n\nI looked at the ridge slip.\n\n\u201cNo.\u201d\n\nHe took it.\n\nJust like that.\n\nForty years of certainty became somebody else's three-week contract."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.824
+        }
+      ],
+      "assembled_duration_seconds": 28.824
+    },
+    {
+      "chunk": 17,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 493,
+          "role": "greg",
+          "text": "He walked toward the clerk desk without looking back.\n\nI stood there waiting to feel smarter.\n\nMostly I felt unemployed.\n\n\u201cGood start,\u201d I muttered.\n\nThe local board had worse money.\n\nThat was offensive in a more familiar way.\n\nSix silver for warehouse security.\n\nFive for cart escort inside the district, which barely counted as leaving home.\n\nSeven for night vermin clearing under the east market.\n\nEight for Line auxiliary maintenance.\n\nI stopped.\n\nLINE AUXILIARY MAINTENANCE, EAST DISTRICT."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.856
+        }
+      ],
+      "assembled_duration_seconds": 29.856
+    },
+    {
+      "chunk": 18,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 499,
+          "role": "greg",
+          "text": "Four-week term.\n\nPhysical labor.\n\nBasic pressure exposure.\n\nNo prior Line certification required.\n\nSix silver base, two silver hazard, meals on shift.\n\nMeals mattered more at nineteen than I remembered.\n\nI read the location.\n\nEast Four.\n\nI knew the station.\n\nEverybody knew East Four.\n\nOld brick building under the tram viaduct. It regulated three residential districts, half the market, and the southern mill row.\n\nIn my first life I had walked past it hundreds of times.\n\nI had never worked there."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.976
+        }
+      ],
+      "assembled_duration_seconds": 29.976
+    },
+    {
+      "chunk": 19,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 490,
+          "role": "greg",
+          "text": "I had never asked who did.\n\nThe Line had been something under the world that behaved until it didn't.\n\nAt fifty-nine, I knew the western system was failing because people had forgotten what sat below the surface works.\n\nAt nineteen, a contract offered eight silver a week to scrape rust off part of it.\n\nI took the slip.\n\nThe clerk at the assignment desk looked at my temporary badge, then at me.\n\n\u201cYou have maintenance experience?\u201d\n\n\u201cYes.\u201d\n\nHe looked down at the form.\n\n\u201cNo certification.\u201d"
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.992
+        }
+      ],
+      "assembled_duration_seconds": 28.992
+    },
+    {
+      "chunk": 20,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 496,
+          "role": "greg",
+          "text": "\u201cInformal.\u201d\n\n\u201cWhat kind?\u201d\n\nI thought of the ninth station.\n\nNhal.\n\nThe pressure break outside Vey.\n\nA crown contract I could not remember correctly enough for Ithar's liking.\n\n\u201cMy father repairs mill housings.\u201d\n\nThat, at least, was true.\n\n\u201cYou any good with tools?\u201d\n\n\u201cYes.\u201d\n\n\u201cCan you lift forty kilos?\u201d\n\n\u201cYes.\u201d\n\nProbably.\n\nMy memory had opinions.\n\nMy calf had others.\n\n\u201cCan you follow instructions?\u201d\n\nI hesitated.\n\nThe clerk looked up.\n\n\u201cYes.\u201d\n\nHe did not believe me.\n\nFair.\n\nHe stamped the slip."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 28.488
+        }
+      ],
+      "assembled_duration_seconds": 28.488
+    },
+    {
+      "chunk": 21,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 447,
+          "role": "greg",
+          "text": "\u201cEast Four. Sixth bell tomorrow. Work boots. No exposed metal above the waist. If Foreman Dera tells you to touch something, touch it. If she tells you not to touch something, don't decide you understand why and touch it anyway.\u201d\n\n\u201cThat specific?\u201d\n\n\u201cYou're not the first temporary.\u201d\n\n\u201cDid the last one die?\u201d\n\n\u201cNo.\u201d\n\n\u201cGood.\u201d\n\n\u201cHe lost two teeth.\u201d\n\n\u201cStill good.\u201d\n\nThe clerk slid the contract back.\n\nI read the wage again.\n\nEight silver.\n\nFour weeks."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 26.4
+        }
+      ],
+      "assembled_duration_seconds": 26.4
+    },
+    {
+      "chunk": 22,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 483,
+          "role": "greg",
+          "text": "The first time I had been nineteen, I chose twelve silver and a road that helped turn me into the man I remembered.\n\nThe second time I chose eight and a station I had barely noticed.\n\nI told myself it was temporary.\n\nThat mattered.\n\nIf I had admitted I was changing the route, I might have been more careful about what changing meant.\n\nInstead I told myself I was improving it.\n\nI knew the expensive lessons already.\n\nI did not need the broken wrist.\n\nI did not need Kett's bad stew."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 29.016
+        }
+      ],
+      "assembled_duration_seconds": 29.016
+    },
+    {
+      "chunk": 23,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 500,
+          "role": "greg",
+          "text": "I did not need to leave that afternoon.\n\nFour weeks at East Four would give me money, rebuild my body, and put me close to the Line while I decided which parts of my old road were still worth walking.\n\nThat was the rational explanation.\n\nI believed it.\n\nMostly.\n\nOutside the hall, the rain had stopped.\n\nI clipped the temporary badge to my shirt.\n\nThe clasp bit my finger.\n\nI swore.\n\nThen I went home.\n\nMy sister was on the floor in the front room with the green box open beside her.\n\nPaper lanterns."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 30.192
+        }
+      ],
+      "assembled_duration_seconds": 30.192
+    },
+    {
+      "chunk": 24,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 483,
+          "role": "greg",
+          "text": "That was what had been inside.\n\nI stopped in the doorway.\n\nShe looked up.\n\n\u201cWhat?\u201d\n\n\u201cNothing.\u201d\n\n\u201cYou got work?\u201d\n\n\u201cYeah.\u201d\n\n\u201cWhen do you leave?\u201d\n\n\u201cI don't.\u201d\n\nShe frowned.\n\n\u201cWhat?\u201d\n\n\u201cEast Four. Starts tomorrow.\u201d\n\n\u201cOh.\u201d\n\nShe went back to tying wire through one of the lantern frames.\n\nThen, like it did not matter, she said, \u201cSo you're helping Saturday.\u201d\n\nI looked at the green box.\n\n\u201cYeah.\u201d\n\nShe nodded once.\n\nNo gratitude.\n\nNo dramatic reconciliation with a brother she had never lost."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.36
+        }
+      ],
+      "assembled_duration_seconds": 27.36
+    },
+    {
+      "chunk": 25,
+      "required_voices": [
+        "deep"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 454,
+          "role": "greg",
+          "text": "Just a job I had apparently already agreed to.\n\nI sat on the floor beside her.\n\n\u201cGive me one.\u201d\n\n\u201cYou'll break it.\u201d\n\n\u201cI will not.\u201d\n\n\u201cYou break everything.\u201d\n\nI took a lantern.\n\nThe wire bent under my fingers.\n\nYoung fingers.\n\nBoth hands.\n\nI worked more carefully.\n\nMy first contract in my second life lasted four weeks.\n\nThat was what the paper said.\n\nThe cave came back before I could hide inside the word temporary.\n\nIthar's claw rested against the gold."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 0.0,
+          "end_seconds": 27.048
+        }
+      ],
+      "assembled_duration_seconds": 27.048
+    },
+    {
+      "chunk": 26,
+      "required_voices": [
+        "deep",
+        "normal"
+      ],
+      "speaker_regions": [
+        {
+          "start": 0,
+          "end": 315,
+          "role": "dragon",
+          "text": "\u201cYou describe East Four as a detour because that is how you protected the decision from becoming a decision. Twelve silver went west. Eight stayed near home. The paper lanterns matter because you remembered them when the old road was still available. You changed the route before you admitted you were changing it.\u201d"
+        },
+        {
+          "start": 315,
+          "end": 474,
+          "role": "greg",
+          "text": "\n\nI rubbed my thumb against the edge of the rank pin.\n\n\u201cAt the time it felt temporary.\u201d\n\nHis eye held mine.\n\nI closed my eyes again.\n\nI believed the paper too."
+        }
+      ],
+      "selected_segments": [
+        {
+          "role": "dragon",
+          "voice": "normal",
+          "start_seconds": 0.0,
+          "end_seconds": 18.5323
+        },
+        {
+          "role": "greg",
+          "voice": "deep",
+          "start_seconds": 19.15745,
+          "end_seconds": 28.704
+        }
+      ],
+      "assembled_duration_seconds": 28.078833
+    }
+  ]
+}
