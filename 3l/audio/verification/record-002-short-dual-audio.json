@@ -2,8 +2,9 @@
   "record": "002",
   "method": "verified-preview-safe-short-dual-semantic-splice",
   "plan": "3l/audio/record-002-short-dual-plan.json",
+  "plan_sha256": "17ae9f6a00282615eadbef40ba73594405816c89eaba0b2ad175867ddb72fb3e",
   "source_verification": "3l/audio/verification/record-002-short-captures.json",
-  "source_verification_sha256": "16c0804e99fed9ce3d251cb201232007424827894de9a61c408de571c719d81d",
+  "source_verification_sha256": "ba6e3b5ef422ae331d69b8ce85c70183e2f0581a1148eefc4347dd2ebe37b11b",
   "voices": {
     "greg": "deep",
     "dragon": "normal"
@@ -16,12 +17,12 @@
     "settling_tail_seconds": 2.0,
     "final_bitrate": "192k"
   },
-  "planned_capture_count": 64,
-  "chunk_count": 33,
-  "mixed_chunk_count": 31,
-  "duration_seconds": 881.737143,
-  "byte_size": 21162362,
-  "sha256": "5aea20e8d197b8f0125ca46b2e397006d6e07fdeb1bc4e08fbfda78c06229d95",
+  "planned_capture_count": 39,
+  "chunk_count": 29,
+  "mixed_chunk_count": 10,
+  "duration_seconds": 742.224,
+  "byte_size": 17813997,
+  "sha256": "dd2d78e67aee5ed304e177cb12d74edcf6ab1f7989a11fe7ce8880e10ebe477a",
   "status": "verified",
   "chunks": [
     {
@@ -33,7 +34,8 @@
         {
           "start": 0,
           "end": 482,
-          "role": "greg"
+          "role": "greg",
+          "text": "The dragon did not move.\n\nNeither did I.\n\nThat seemed fair for the first few seconds.\n\nThen it became his choice.\n\nI had just told a creature older than my kingdom that the future he remembered me not being part of had happened with me in it once already.\n\nThere were several reasonable responses to that.\n\nDisbelief.\n\nQuestions.\n\nEating me.\n\nI had prepared for two of those.\n\nIthar stared.\n\nI shifted my weight off the bad leg.\n\nThe movement was small.\n\nHis eye followed it anyway."
         }
       ],
       "selected_segments": [
@@ -41,10 +43,10 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 28.992
+          "end_seconds": 28.896
         }
       ],
-      "assembled_duration_seconds": 28.992018
+      "assembled_duration_seconds": 28.896
     },
     {
       "chunk": 2,
@@ -55,68 +57,15 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 20,
-          "role": "greg"
+          "end": 152,
+          "role": "greg",
+          "text": "His nostril opened.\n\nNot quite a sigh.\n\nI had started assigning meanings to the nostrils.\n\nThat was probably dangerous.\n\nThen the dragon took the floor."
         },
         {
-          "start": 20,
-          "end": 38,
-          "role": "dragon"
-        },
-        {
-          "start": 38,
-          "end": 46,
-          "role": "greg"
-        },
-        {
-          "start": 46,
-          "end": 72,
-          "role": "dragon"
-        },
-        {
-          "start": 72,
-          "end": 82,
-          "role": "greg"
-        },
-        {
-          "start": 82,
-          "end": 90,
-          "role": "dragon"
-        },
-        {
-          "start": 90,
-          "end": 239,
-          "role": "greg"
-        },
-        {
-          "start": 239,
-          "end": 296,
-          "role": "dragon"
-        },
-        {
-          "start": 296,
-          "end": 340,
-          "role": "greg"
-        },
-        {
-          "start": 340,
-          "end": 367,
-          "role": "dragon"
-        },
-        {
-          "start": 367,
-          "end": 375,
-          "role": "greg"
-        },
-        {
-          "start": 375,
-          "end": 384,
-          "role": "dragon"
-        },
-        {
-          "start": 384,
-          "end": 487,
-          "role": "greg"
+          "start": 152,
+          "end": 473,
+          "role": "dragon",
+          "text": "\n\n\u201cNot this time. You chose those words. Do not protect the claim with brevity, Greg. Say what you mean. Tell me how much of this other life you remember, where it begins, and where it ends. Do not say most unless you intend to tell me what is missing. Most is a word humans use when they wish to avoid discovering that.\u201d"
         }
       ],
       "selected_segments": [
@@ -124,82 +73,16 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 1.006188
+          "end_seconds": 9.192895
         },
         {
           "role": "dragon",
           "voice": "normal",
-          "start_seconds": 0.64713,
-          "end_seconds": 1.180061
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 1.26179,
-          "end_seconds": 1.972895
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 2.31577,
-          "end_seconds": 3.16556
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 2.760725,
-          "end_seconds": 4.396395
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 4.475855,
-          "end_seconds": 5.29823
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 5.39833,
-          "end_seconds": 14.46985
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 14.4084,
-          "end_seconds": 17.42895
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 16.94975,
-          "end_seconds": 19.2996
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 19.91285,
-          "end_seconds": 21.419
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 20.63625,
-          "end_seconds": 21.3701
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 22.11455,
-          "end_seconds": 22.90055
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 22.2308,
-          "end_seconds": 28.248
+          "start_seconds": 8.74023,
+          "end_seconds": 28.704
         }
       ],
-      "assembled_duration_seconds": 29.04322
+      "assembled_duration_seconds": 29.156646
     },
     {
       "chunk": 3,
@@ -209,8 +92,9 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 486,
-          "role": "greg"
+          "end": 439,
+          "role": "greg",
+          "text": "That was the first time my name sounded different in his mouth.\n\nNot important.\n\nNot friendly.\n\nPlaced.\n\nLike he had put it somewhere and intended to find it again.\n\nI rubbed my thumb across the edge of my rank pin.\n\nThe Authority mark caught against the nail.\n\nLow B-class.\n\nNamed Ranker.\n\nPeg-Leg Greg, according to people who had never asked whether I wanted the fucking thing attached to me.\n\nIthar watched the hand.\n\nOf course he did."
         }
       ],
       "selected_segments": [
@@ -218,87 +102,22 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 29.328
+          "end_seconds": 26.544
         }
       ],
-      "assembled_duration_seconds": 29.328005
+      "assembled_duration_seconds": 26.544
     },
     {
       "chunk": 4,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 123,
-          "role": "greg"
-        },
-        {
-          "start": 123,
-          "end": 136,
-          "role": "dragon"
-        },
-        {
-          "start": 136,
-          "end": 152,
-          "role": "greg"
-        },
-        {
-          "start": 152,
-          "end": 160,
-          "role": "dragon"
-        },
-        {
-          "start": 160,
-          "end": 175,
-          "role": "greg"
-        },
-        {
-          "start": 175,
-          "end": 257,
-          "role": "dragon"
-        },
-        {
-          "start": 257,
-          "end": 284,
-          "role": "greg"
-        },
-        {
-          "start": 284,
-          "end": 296,
-          "role": "dragon"
-        },
-        {
-          "start": 296,
-          "end": 303,
-          "role": "greg"
-        },
-        {
-          "start": 303,
-          "end": 318,
-          "role": "dragon"
-        },
-        {
-          "start": 318,
-          "end": 362,
-          "role": "greg"
-        },
-        {
-          "start": 362,
-          "end": 388,
-          "role": "dragon"
-        },
-        {
-          "start": 388,
-          "end": 481,
-          "role": "greg"
-        },
-        {
-          "start": 481,
-          "end": 498,
-          "role": "dragon"
+          "end": 451,
+          "role": "greg",
+          "text": "\u201cI remember another life. Approximately forty years. Nineteen to fifty-nine.\u201d\n\nNothing happened.\n\nI had expected that sentence to feel larger.\n\nIt did not.\n\nIt sounded exactly like what it was.\n\nA man in a cave saying something impossible.\n\n\u201cThe childhood before that was the same. Or close enough that I never found a difference worth keeping. I did not return to birth. I woke at nineteen.\u201d\n\nHis eye moved over my face.\n\nThen lower.\n\nThe ruined leg."
         }
       ],
       "selected_segments": [
@@ -306,150 +125,22 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 7.174191
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 6.744205,
-          "end_seconds": 7.691165
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 7.906251,
-          "end_seconds": 8.784724
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 8.768105,
-          "end_seconds": 9.72702
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 9.22396,
-          "end_seconds": 10.029226
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 10.6318,
-          "end_seconds": 14.93125
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 14.860824,
-          "end_seconds": 16.471357
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 16.6559,
-          "end_seconds": 17.5512
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 17.203417,
-          "end_seconds": 17.569447
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 18.19605,
-          "end_seconds": 19.3778
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 18.44792,
-          "end_seconds": 21.083337
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 21.4098,
-          "end_seconds": 22.7366
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 22.547457,
-          "end_seconds": 28.03791
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 27.7171,
-          "end_seconds": 29.088
+          "end_seconds": 27.192
         }
       ],
-      "assembled_duration_seconds": 29.94059
+      "assembled_duration_seconds": 27.192
     },
     {
       "chunk": 5,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 22,
-          "role": "greg"
-        },
-        {
-          "start": 22,
-          "end": 29,
-          "role": "dragon"
-        },
-        {
-          "start": 29,
-          "end": 54,
-          "role": "greg"
-        },
-        {
-          "start": 54,
-          "end": 73,
-          "role": "dragon"
-        },
-        {
-          "start": 73,
-          "end": 86,
-          "role": "greg"
-        },
-        {
-          "start": 86,
-          "end": 97,
-          "role": "dragon"
-        },
-        {
-          "start": 97,
-          "end": 275,
-          "role": "greg"
-        },
-        {
-          "start": 275,
-          "end": 302,
-          "role": "dragon"
-        },
-        {
-          "start": 302,
-          "end": 310,
-          "role": "greg"
-        },
-        {
-          "start": 310,
-          "end": 434,
-          "role": "dragon"
-        },
-        {
-          "start": 434,
-          "end": 479,
-          "role": "greg"
+          "end": 151,
+          "role": "greg",
+          "text": "The right hand that no longer closed all the way.\n\nThe shoulder that sat slightly wrong under my coat.\n\nHe took his time looking.\n\nThen he spoke again."
         }
       ],
       "selected_segments": [
@@ -457,137 +148,22 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 1.100084
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 1.278019,
-          "end_seconds": 2.11102
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 1.827835,
-          "end_seconds": 3.03198
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 3.38069,
-          "end_seconds": 4.62654
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 3.915125,
-          "end_seconds": 5.004545
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 5.72608,
-          "end_seconds": 6.42208
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 5.95265,
-          "end_seconds": 16.6982
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.81145,
-          "end_seconds": 19.0214
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 17.0064,
-          "end_seconds": 18.55055
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 21.36565,
-          "end_seconds": 25.31235
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 25.5577,
-          "end_seconds": 28.44
+          "end_seconds": 9.168
         }
       ],
-      "assembled_duration_seconds": 26.497211
+      "assembled_duration_seconds": 9.168
     },
     {
       "chunk": 6,
       "required_voices": [
-        "deep",
         "normal"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 32,
-          "role": "dragon"
-        },
-        {
-          "start": 32,
-          "end": 42,
-          "role": "greg"
-        },
-        {
-          "start": 42,
-          "end": 73,
-          "role": "dragon"
-        },
-        {
-          "start": 73,
-          "end": 97,
-          "role": "greg"
-        },
-        {
-          "start": 97,
-          "end": 140,
-          "role": "dragon"
-        },
-        {
-          "start": 140,
-          "end": 378,
-          "role": "greg"
-        },
-        {
-          "start": 378,
-          "end": 410,
-          "role": "dragon"
-        },
-        {
-          "start": 410,
-          "end": 417,
-          "role": "greg"
-        },
-        {
-          "start": 417,
-          "end": 442,
-          "role": "dragon"
-        },
-        {
-          "start": 442,
-          "end": 450,
-          "role": "greg"
-        },
-        {
-          "start": 450,
-          "end": 471,
-          "role": "dragon"
-        },
-        {
-          "start": 471,
-          "end": 497,
-          "role": "greg"
+          "end": 498,
+          "role": "dragon",
+          "text": "\u201cYou are fifty-nine now. You remember another history beginning at nineteen and ending at the age you are presently. You call the childhood actual as though the word separates it from something else. You call the body the same while describing a younger version that had not yet acquired these injuries. You have already given me three categories that stop behaving cleanly when examined. Childhood. Same. Body. Keep going. When did you first know the second history would not reproduce the first?\u201d"
         }
       ],
       "selected_segments": [
@@ -595,394 +171,68 @@
           "role": "dragon",
           "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 1.8715
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 1.913895,
-          "end_seconds": 2.57446
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 2.59767,
-          "end_seconds": 4.288645
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 4.879745,
-          "end_seconds": 6.577915
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 6.329,
-          "end_seconds": 9.03023
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 8.69977,
-          "end_seconds": 22.6183
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 21.597,
-          "end_seconds": 23.5938
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.2889,
-          "end_seconds": 24.80475
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 24.22075,
-          "end_seconds": 25.55955
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 25.6248,
-          "end_seconds": 26.94425
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 26.29725,
-          "end_seconds": 27.46905
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 28.6056,
-          "end_seconds": 28.944
+          "end_seconds": 30.84
         }
       ],
-      "assembled_duration_seconds": 30.222268
+      "assembled_duration_seconds": 30.84
     },
     {
       "chunk": 7,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 18,
-          "role": "dragon"
-        },
-        {
-          "start": 18,
-          "end": 52,
-          "role": "greg"
-        },
-        {
-          "start": 52,
-          "end": 61,
-          "role": "dragon"
-        },
-        {
-          "start": 61,
-          "end": 82,
-          "role": "greg"
-        },
-        {
-          "start": 82,
-          "end": 114,
-          "role": "dragon"
-        },
-        {
-          "start": 114,
-          "end": 176,
-          "role": "greg"
-        },
-        {
-          "start": 176,
-          "end": 203,
-          "role": "dragon"
-        },
-        {
-          "start": 203,
-          "end": 220,
-          "role": "greg"
-        },
-        {
-          "start": 220,
-          "end": 227,
-          "role": "dragon"
-        },
-        {
-          "start": 227,
-          "end": 344,
-          "role": "greg"
-        },
-        {
-          "start": 344,
-          "end": 407,
-          "role": "dragon"
-        },
-        {
-          "start": 407,
-          "end": 415,
-          "role": "greg"
-        },
-        {
-          "start": 415,
-          "end": 468,
-          "role": "dragon"
-        },
-        {
-          "start": 468,
-          "end": 474,
-          "role": "greg"
+          "end": 424,
+          "role": "greg",
+          "text": "I opened my mouth.\n\nClosed it.\n\nI hated that he was already getting better at this.\n\n\u201cYears.\u201d\n\nThe eye narrowed.\n\n\u201cThere were little things early. People saying something differently. A shop closing on the wrong month. Weather. I ignored most of it because people remember weather badly and shops close whenever they feel like failing.\u201d\n\nThe larger things came later.\n\nYears later.\n\nThat sounded bad when I said it out loud."
         }
       ],
       "selected_segments": [
         {
-          "role": "dragon",
-          "voice": "normal",
+          "role": "greg",
+          "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 1.112835
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 0.983749,
-          "end_seconds": 2.67252
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 2.91523,
-          "end_seconds": 3.720645
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 3.22571,
-          "end_seconds": 4.63679
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 5.606165,
-          "end_seconds": 7.46283
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 6.62625,
-          "end_seconds": 9.878575
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 8.064,
-          "end_seconds": 10.5396
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 11.44325,
-          "end_seconds": 12.4955
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 12.1331,
-          "end_seconds": 13.32045
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 13.0972,
-          "end_seconds": 19.4762
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 19.6314,
-          "end_seconds": 23.10915
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 22.662,
-          "end_seconds": 23.6487
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 23.99505,
-          "end_seconds": 27.5696
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 27.50935,
-          "end_seconds": 27.84
+          "end_seconds": 25.608
         }
       ],
-      "assembled_duration_seconds": 29.591043
+      "assembled_duration_seconds": 25.608
     },
     {
       "chunk": 8,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 55,
-          "role": "dragon"
-        },
-        {
-          "start": 55,
-          "end": 62,
-          "role": "greg"
-        },
-        {
-          "start": 62,
-          "end": 88,
-          "role": "dragon"
-        },
-        {
-          "start": 88,
-          "end": 206,
-          "role": "greg"
-        },
-        {
-          "start": 206,
-          "end": 226,
-          "role": "dragon"
-        },
-        {
-          "start": 226,
-          "end": 242,
-          "role": "greg"
-        },
-        {
-          "start": 242,
-          "end": 249,
-          "role": "dragon"
-        },
-        {
-          "start": 249,
-          "end": 280,
-          "role": "greg"
+          "end": 458,
+          "role": "greg",
+          "text": "Forty years of apparent foreknowledge and I had required years to establish that events had changed.\n\n\u201cI was busy.\u201d\n\nIthar did not move.\n\n\u201cBeing nineteen again.\u201d\n\nStill nothing.\n\nI had seen that silence before.\n\nUsually after saying something about people that he understood as words and not as a fact.\n\n\u201cYou don't get that part.\u201d\n\nHis eye dropped to my leg.\n\nI looked down too.\n\n\u201cExplaining knees to a dragon that still has all of his is going to annoy me.\u201d"
         }
       ],
       "selected_segments": [
         {
-          "role": "dragon",
-          "voice": "normal",
+          "role": "greg",
+          "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 2.697565
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 2.920935,
-          "end_seconds": 3.935415
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 3.518625,
-          "end_seconds": 5.229185
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 5.339875,
-          "end_seconds": 12.545
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 10.0744,
-          "end_seconds": 11.13885
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 13.3112,
-          "end_seconds": 13.9337
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 12.05515,
-          "end_seconds": 13.08725
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 14.822,
-          "end_seconds": 16.056
+          "end_seconds": 27.864
         }
       ],
-      "assembled_duration_seconds": 16.580839
+      "assembled_duration_seconds": 27.864
     },
     {
       "chunk": 9,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 241,
-          "role": "greg"
-        },
-        {
-          "start": 241,
-          "end": 262,
-          "role": "dragon"
-        },
-        {
-          "start": 262,
-          "end": 272,
-          "role": "greg"
-        },
-        {
-          "start": 272,
-          "end": 291,
-          "role": "dragon"
-        },
-        {
-          "start": 291,
-          "end": 301,
-          "role": "greg"
-        },
-        {
-          "start": 301,
-          "end": 413,
-          "role": "dragon"
-        },
-        {
-          "start": 413,
-          "end": 459,
-          "role": "greg"
-        },
-        {
-          "start": 459,
-          "end": 484,
-          "role": "dragon"
-        },
-        {
-          "start": 484,
-          "end": 497,
-          "role": "greg"
+          "end": 469,
+          "role": "greg",
+          "text": "The answer came out lighter than the thing underneath it.\n\nAt nineteen I had two good knees.\n\nTwo good hands.\n\nA shoulder that had not learned weather.\n\nIthar did not follow me into that.\n\nThat was almost kind.\n\nAlmost.\n\nThe claw nearest the old Line disk moved once through the gold.\n\nCoins made a soft dry sound against one another.\n\nI knew what he wanted next without hearing the question.\n\nWhat had I been in the first life?\n\nNot Greg.\n\nThe other answer.\n\n\u201cRanker.\u201d"
         }
       ],
       "selected_segments": [
@@ -990,242 +240,45 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 13.6831
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 13.15625,
-          "end_seconds": 14.7278
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.51235,
-          "end_seconds": 16.6414
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 15.5,
-          "end_seconds": 16.63465
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 17.9196,
-          "end_seconds": 19.0432
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.64495,
-          "end_seconds": 24.2479
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 24.95655,
-          "end_seconds": 27.29635
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 27.04785,
-          "end_seconds": 28.7515
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 28.8144,
-          "end_seconds": 29.856
+          "end_seconds": 28.08
         }
       ],
-      "assembled_duration_seconds": 30.330045
+      "assembled_duration_seconds": 28.08
     },
     {
       "chunk": 10,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 14,
-          "role": "dragon"
-        },
-        {
-          "start": 14,
-          "end": 211,
-          "role": "greg"
-        },
-        {
-          "start": 211,
-          "end": 269,
-          "role": "dragon"
-        },
-        {
-          "start": 269,
-          "end": 293,
-          "role": "greg"
-        },
-        {
-          "start": 293,
-          "end": 313,
-          "role": "dragon"
-        },
-        {
-          "start": 313,
-          "end": 320,
-          "role": "greg"
-        },
-        {
-          "start": 320,
-          "end": 328,
-          "role": "dragon"
-        },
-        {
-          "start": 328,
-          "end": 444,
-          "role": "greg"
-        },
-        {
-          "start": 444,
-          "end": 465,
-          "role": "dragon"
-        },
-        {
-          "start": 465,
-          "end": 492,
-          "role": "greg"
+          "end": 396,
+          "role": "greg",
+          "text": "His eye flicked to the pin on my coat.\n\n\u201cNot like this.\u201d\n\nThe current badge had my class stamped beneath the Authority seal.\n\nB.\n\nThe letter was honest.\n\nI had worked hard for it.\n\nIt still felt strange every time I looked down.\n\n\u201cS-class.\u201d\n\nIthar waited.\n\nI had not expected applause.\n\nStill.\n\nThe dragon let the silence stretch until I understood he was not going to help me define my own word."
         }
       ],
       "selected_segments": [
         {
-          "role": "dragon",
-          "voice": "normal",
+          "role": "greg",
+          "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 0.822123
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 0.977416,
-          "end_seconds": 12.36365
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 11.98685,
-          "end_seconds": 16.03645
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 14.8037,
-          "end_seconds": 15.97175
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 16.65445,
-          "end_seconds": 17.80935
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 17.1009,
-          "end_seconds": 17.88405
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 18.5685,
-          "end_seconds": 19.3499
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 18.9073,
-          "end_seconds": 26.26565
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 26.30865,
-          "end_seconds": 27.4716
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 27.62895,
-          "end_seconds": 28.992
+          "end_seconds": 23.784
         }
       ],
-      "assembled_duration_seconds": 30.029887
+      "assembled_duration_seconds": 23.784
     },
     {
       "chunk": 11,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 104,
-          "role": "greg"
-        },
-        {
-          "start": 104,
-          "end": 138,
-          "role": "dragon"
-        },
-        {
-          "start": 138,
-          "end": 159,
-          "role": "greg"
-        },
-        {
-          "start": 159,
-          "end": 199,
-          "role": "dragon"
-        },
-        {
-          "start": 199,
-          "end": 221,
-          "role": "greg"
-        },
-        {
-          "start": 221,
-          "end": 241,
-          "role": "dragon"
-        },
-        {
-          "start": 241,
-          "end": 252,
-          "role": "greg"
-        },
-        {
-          "start": 252,
-          "end": 277,
-          "role": "dragon"
-        },
-        {
-          "start": 277,
-          "end": 384,
-          "role": "greg"
-        },
-        {
-          "start": 384,
-          "end": 427,
-          "role": "dragon"
-        },
-        {
-          "start": 427,
-          "end": 453,
-          "role": "greg"
+          "end": 318,
+          "role": "greg",
+          "text": "\u201cS-class is where the Authority stops pretending the letters describe the same kind of problem. Most years there are six or seven on the continent. Sometimes fewer. Depends how many people die before the paperwork catches up.\u201d\n\nI leaned back against the stone behind me.\n\nIt was warm.\n\nEverything in the cave was warm."
         }
       ],
       "selected_segments": [
@@ -1233,102 +286,22 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 5.73121
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 6.116105,
-          "end_seconds": 7.715022
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 7.94235,
-          "end_seconds": 9.021455
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 9.195375,
-          "end_seconds": 11.44165
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 11.13275,
-          "end_seconds": 12.43865
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 12.7223,
-          "end_seconds": 14.0059
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 13.7986,
-          "end_seconds": 14.7608
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 14.8222,
-          "end_seconds": 16.10695
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 16.41555,
-          "end_seconds": 22.564
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 22.48915,
-          "end_seconds": 24.6858
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 24.82595,
-          "end_seconds": 26.688
+          "end_seconds": 19.728
         }
       ],
-      "assembled_duration_seconds": 25.69932
+      "assembled_duration_seconds": 19.728
     },
     {
       "chunk": 12,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 272,
-          "role": "greg"
-        },
-        {
-          "start": 272,
-          "end": 302,
-          "role": "dragon"
-        },
-        {
-          "start": 302,
-          "end": 316,
-          "role": "greg"
-        },
-        {
-          "start": 316,
-          "end": 341,
-          "role": "dragon"
-        },
-        {
-          "start": 341,
           "end": 431,
-          "role": "greg"
+          "role": "greg",
+          "text": "\u201cStrongest is close enough for taverns and wrong enough for everything else. One can destroy a crawler nest alone. Another can't, but can walk through pressure that kills the first one. One is better in a city. One is better where there isn't one. Put them all in a field and somebody will write a ranking. Put them in six different disasters and you get six different answers.\u201d\n\nI had been one of them for eleven years officially."
         }
       ],
       "selected_segments": [
@@ -1336,61 +309,22 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 15.64205
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 15.97035,
-          "end_seconds": 17.9924
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 17.47135,
-          "end_seconds": 18.37805
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 18.82625,
-          "end_seconds": 20.19805
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 19.94025,
-          "end_seconds": 25.296
+          "end_seconds": 26.76
         }
       ],
-      "assembled_duration_seconds": 25.298435
+      "assembled_duration_seconds": 26.76
     },
     {
       "chunk": 13,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 252,
-          "role": "greg"
-        },
-        {
-          "start": 252,
-          "end": 266,
-          "role": "dragon"
-        },
-        {
-          "start": 266,
-          "end": 278,
-          "role": "greg"
-        },
-        {
-          "start": 278,
-          "end": 294,
-          "role": "dragon"
+          "end": 484,
+          "role": "greg",
+          "text": "Maybe twelve depending when you counted the first contract people started calling S-class work before the Authority changed the badge.\n\nI could cross an active pressure break without a shield crew.\n\nI could hold full reinforcement most of a day if I wasn't doing anything stupid.\n\nUsually I was doing something stupid.\n\n\u201cI killed a redback alone north of Vey.\u201d\n\nThat got him.\n\nNot much.\n\nAn inch of head movement from Ithar was becoming the equivalent of another creature standing up."
         }
       ],
       "selected_segments": [
@@ -1398,28 +332,10 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 14.343
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 15.5116,
-          "end_seconds": 16.26275
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.60205,
-          "end_seconds": 16.29595
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.4985,
-          "end_seconds": 17.784
+          "end_seconds": 29.16
         }
       ],
-      "assembled_duration_seconds": 16.073628
+      "assembled_duration_seconds": 29.16
     },
     {
       "chunk": 14,
@@ -1430,115 +346,44 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 348,
-          "role": "greg"
+          "end": 104,
+          "role": "dragon",
+          "text": "\u201cThere are no redbacks north of Vey. If there was one, tell me what was beneath the third dorsal plate.\u201d"
         },
         {
-          "start": 348,
-          "end": 369,
-          "role": "dragon"
-        },
-        {
-          "start": 369,
-          "end": 377,
-          "role": "greg"
-        },
-        {
-          "start": 377,
-          "end": 390,
-          "role": "dragon"
-        },
-        {
-          "start": 390,
-          "end": 424,
-          "role": "greg"
+          "start": 104,
+          "end": 500,
+          "role": "greg",
+          "text": "\n\nI stared at him.\n\nOf course that was his question.\n\n\u201cMeat.\u201d\n\nHis eye closed.\n\nI felt judged by an eyelid.\n\n\u201cBlack tissue. Stringy. Smelled like burnt hair when I cut it.\u201d\n\nThe eye opened.\n\nI could see the thing again as I talked.\n\nNot the whole fight.\n\nMemory rarely returned politely.\n\nA patch of wet red hide.\n\nMy left boot slipping between plates.\n\nThe smell.\n\nA sword hilt slick in my hand."
         }
       ],
       "selected_segments": [
         {
-          "role": "greg",
-          "voice": "deep",
+          "role": "dragon",
+          "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 19.8279
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 21.5717,
-          "end_seconds": 22.37225
+          "end_seconds": 6.600770000000001
         },
         {
           "role": "greg",
           "voice": "deep",
-          "start_seconds": 20.81245,
-          "end_seconds": 21.93885
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 23.26475,
-          "end_seconds": 24.2382
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.142,
-          "end_seconds": 25.248
+          "start_seconds": 6.746105,
+          "end_seconds": 29.376
         }
       ],
-      "assembled_duration_seconds": 24.834354
+      "assembled_duration_seconds": 29.230646
     },
     {
       "chunk": 15,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 167,
-          "role": "greg"
-        },
-        {
-          "start": 167,
-          "end": 189,
-          "role": "dragon"
-        },
-        {
-          "start": 189,
-          "end": 199,
-          "role": "greg"
-        },
-        {
-          "start": 199,
-          "end": 225,
-          "role": "dragon"
-        },
-        {
-          "start": 225,
-          "end": 397,
-          "role": "greg"
-        },
-        {
-          "start": 397,
-          "end": 410,
-          "role": "dragon"
-        },
-        {
-          "start": 410,
-          "end": 422,
-          "role": "greg"
-        },
-        {
-          "start": 422,
-          "end": 436,
-          "role": "dragon"
-        },
-        {
-          "start": 436,
-          "end": 491,
-          "role": "greg"
+          "end": 495,
+          "role": "greg",
+          "text": "The sudden lift beneath my stomach when the thing under the plate swelled.\n\nI had forgotten the sky.\n\nI remembered the smell perfectly.\n\n\u201cThere was a membrane underneath. Tough. Thin. I thought it was another layer of armor until it inflated hard enough to throw me off. I cut it. Thought it was a weakness. Never knew what it actually did.\u201d\n\nThe dragon went still.\n\nCompletely.\n\nThat was starting to mean more than movement.\n\nThen Ithar spoke for long enough that I stopped waiting for my turn."
         }
       ],
       "selected_segments": [
@@ -1546,191 +391,33 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 8.850895
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 10.8479,
-          "end_seconds": 11.2765
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 10.532,
-          "end_seconds": 11.5668
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 12.8351,
-          "end_seconds": 13.81475
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 13.197,
-          "end_seconds": 22.7439
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 23.54135,
-          "end_seconds": 24.47895
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.78505,
-          "end_seconds": 24.8358
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 25.67205,
-          "end_seconds": 28.22655
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 26.06585,
-          "end_seconds": 29.568
+          "end_seconds": 30.144
         }
       ],
-      "assembled_duration_seconds": 28.886009
+      "assembled_duration_seconds": 30.144
     },
     {
       "chunk": 16,
       "required_voices": [
-        "deep",
         "normal"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 109,
-          "role": "greg"
-        },
-        {
-          "start": 109,
-          "end": 148,
-          "role": "dragon"
-        },
-        {
-          "start": 148,
-          "end": 166,
-          "role": "greg"
-        },
-        {
-          "start": 166,
-          "end": 175,
-          "role": "dragon"
-        },
-        {
-          "start": 175,
-          "end": 221,
-          "role": "greg"
-        },
-        {
-          "start": 221,
-          "end": 265,
-          "role": "dragon"
-        },
-        {
-          "start": 265,
-          "end": 292,
-          "role": "greg"
-        },
-        {
-          "start": 292,
-          "end": 312,
-          "role": "dragon"
-        },
-        {
-          "start": 312,
-          "end": 459,
-          "role": "greg"
-        },
-        {
-          "start": 459,
-          "end": 473,
-          "role": "dragon"
-        },
-        {
-          "start": 473,
-          "end": 491,
-          "role": "greg"
+          "end": 318,
+          "role": "dragon",
+          "text": "\u201cNot black. Purple. The membrane was a pressure bladder. You did not know that. Good. A fabricated memory may contain detail. A repeated story may acquire texture. A person may be told an event so often that they remember the telling as experience. None of those possibilities are especially interesting by themselves."
         }
       ],
       "selected_segments": [
         {
-          "role": "greg",
-          "voice": "deep",
+          "role": "dragon",
+          "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 5.944435
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 5.46929,
-          "end_seconds": 8.71677
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 8.18746,
-          "end_seconds": 9.434935
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 9.492275,
-          "end_seconds": 10.54725
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 10.45195,
-          "end_seconds": 13.3335
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 12.6228,
-          "end_seconds": 15.13835
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.48745,
-          "end_seconds": 18.14525
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.0786,
-          "end_seconds": 18.21815
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 18.6706,
-          "end_seconds": 26.8141
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 26.55575,
-          "end_seconds": 27.42935
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 28.00435,
-          "end_seconds": 28.728
+          "end_seconds": 19.632
         }
       ],
-      "assembled_duration_seconds": 30.429592
+      "assembled_duration_seconds": 19.632
     },
     {
       "chunk": 17,
@@ -1741,43 +428,15 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 11,
-          "role": "dragon"
+          "end": 436,
+          "role": "dragon",
+          "text": "\u201cBut errors are shaped by where a mind stood when it made them. You remember the membrane from above it. You remember believing it was armor because you were trying to put a sword through an animal that wanted you dead. You remember the smell before you remember the mechanism. Your misunderstanding is consistent with having survived an event rather than studied one.\n\n\u201cThat does not prove your explanation. It makes the error useful.\u201d"
         },
         {
-          "start": 11,
-          "end": 42,
-          "role": "greg"
-        },
-        {
-          "start": 42,
-          "end": 56,
-          "role": "dragon"
-        },
-        {
-          "start": 56,
-          "end": 73,
-          "role": "greg"
-        },
-        {
-          "start": 73,
-          "end": 110,
-          "role": "dragon"
-        },
-        {
-          "start": 110,
-          "end": 124,
-          "role": "greg"
-        },
-        {
-          "start": 124,
-          "end": 138,
-          "role": "dragon"
-        },
-        {
-          "start": 138,
-          "end": 473,
-          "role": "greg"
+          "start": 436,
+          "end": 465,
+          "role": "greg",
+          "text": "\n\nI shifted against the wall."
         }
       ],
       "selected_segments": [
@@ -1785,104 +444,28 @@
           "role": "dragon",
           "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 0.660271
+          "end_seconds": 26.023
         },
         {
           "role": "greg",
           "voice": "deep",
-          "start_seconds": 0.718542,
-          "end_seconds": 2.4134
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 2.470645,
-          "end_seconds": 3.47394
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 3.301415,
-          "end_seconds": 4.429125
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 4.58954,
-          "end_seconds": 6.59581
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 6.53677,
-          "end_seconds": 7.58254
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 7.6785,
-          "end_seconds": 8.90396
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 8.61377,
-          "end_seconds": 28.032
+          "start_seconds": 26.06795,
+          "end_seconds": 28.704
         }
       ],
-      "assembled_duration_seconds": 28.181995
+      "assembled_duration_seconds": 28.659042
     },
     {
       "chunk": 18,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 137,
-          "role": "greg"
-        },
-        {
-          "start": 137,
-          "end": 156,
-          "role": "dragon"
-        },
-        {
-          "start": 156,
-          "end": 200,
-          "role": "greg"
-        },
-        {
-          "start": 200,
-          "end": 208,
-          "role": "dragon"
-        },
-        {
-          "start": 208,
-          "end": 221,
-          "role": "greg"
-        },
-        {
-          "start": 221,
-          "end": 267,
-          "role": "dragon"
-        },
-        {
-          "start": 267,
-          "end": 476,
-          "role": "greg"
-        },
-        {
-          "start": 476,
-          "end": 483,
-          "role": "dragon"
-        },
-        {
-          "start": 483,
-          "end": 492,
-          "role": "greg"
+          "end": 482,
+          "role": "greg",
+          "text": "\u201cThat sounded almost like you believe me.\u201d\n\nHis eye did not change.\n\nFine.\n\nNot belief.\n\nI took useful.\n\nThen his attention moved somewhere else.\n\nNot physically.\n\nThat would have been easier.\n\nThe cave just became more specific around one question.\n\nMy path to his name.\n\nI looked toward the passage.\n\nNot because I planned to leave.\n\nBecause some questions make a door more noticeable.\n\n\u201cI told you. It was from the first life.\u201d\n\nThe dragon waited.\n\nThat was when.\n\nHe wanted who."
         }
       ],
       "selected_segments": [
@@ -1890,58 +473,10 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 7.60952
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 8.84177,
-          "end_seconds": 9.853743
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 8.721205,
-          "end_seconds": 11.2487
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 11.2781,
-          "end_seconds": 12.47
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 12.1223,
-          "end_seconds": 12.9387
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 15.18525,
-          "end_seconds": 16.31785
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.3102,
-          "end_seconds": 27.8231
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 28.3339,
-          "end_seconds": 28.971
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 28.79035,
-          "end_seconds": 29.16
+          "end_seconds": 28.512
         }
       ],
-      "assembled_duration_seconds": 27.809615
+      "assembled_duration_seconds": 28.512
     },
     {
       "chunk": 19,
@@ -1952,38 +487,21 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 32,
-          "role": "greg"
+          "end": 174,
+          "role": "greg",
+          "text": "I rubbed my face.\n\nIt had been a long climb.\n\nIt was becoming a longer conversation.\n\n\u201cI knew her as Nhal.\u201d\n\nNothing happened.\n\nThen Ithar's pupil narrowed.\n\nThat was enough."
         },
         {
-          "start": 32,
-          "end": 49,
-          "role": "dragon"
+          "start": 174,
+          "end": 181,
+          "role": "dragon",
+          "text": "\n\n\u201cAh.\u201d"
         },
         {
-          "start": 49,
-          "end": 57,
-          "role": "greg"
-        },
-        {
-          "start": 57,
-          "end": 84,
-          "role": "dragon"
-        },
-        {
-          "start": 84,
-          "end": 124,
-          "role": "greg"
-        },
-        {
-          "start": 124,
-          "end": 360,
-          "role": "dragon"
-        },
-        {
-          "start": 360,
-          "end": 400,
-          "role": "greg"
+          "start": 181,
+          "end": 320,
+          "role": "greg",
+          "text": "\n\nI did not like the way he said it.\n\nThen, instead of making me drag the questions out of him one at a time, he gave me the problem whole."
         }
       ],
       "selected_segments": [
@@ -1991,46 +509,22 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 1.82271
+          "end_seconds": 10.771899999999999
         },
         {
           "role": "dragon",
           "voice": "normal",
-          "start_seconds": 1.85912,
-          "end_seconds": 3.057625
+          "start_seconds": 10.4366,
+          "end_seconds": 10.4566
         },
         {
           "role": "greg",
           "voice": "deep",
-          "start_seconds": 2.88735,
-          "end_seconds": 3.551145
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 3.77,
-          "end_seconds": 5.141065
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 4.882,
-          "end_seconds": 7.63471
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 6.610855,
-          "end_seconds": 21.4251
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 21.2234,
-          "end_seconds": 23.904
+          "start_seconds": 10.791899999999998,
+          "end_seconds": 19.104
         }
       ],
-      "assembled_duration_seconds": 25.303651
+      "assembled_duration_seconds": 19.103979
     },
     {
       "chunk": 20,
@@ -2041,38 +535,15 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 371,
-          "role": "dragon"
+          "end": 365,
+          "role": "dragon",
+          "text": "\u201cNhal was one of several things she called herself. I knew that name. In the history I know, she has not spoken to a human in one hundred and twelve years. If she gave you my name, tell me when you met her, where, and what condition made the meeting possible. I am not asking for the entire story yet. I am asking for enough to identify the path you claim existed.\u201d"
         },
         {
-          "start": 371,
-          "end": 444,
-          "role": "greg"
-        },
-        {
-          "start": 444,
-          "end": 451,
-          "role": "dragon"
-        },
-        {
-          "start": 451,
-          "end": 461,
-          "role": "greg"
-        },
-        {
-          "start": 461,
-          "end": 468,
-          "role": "dragon"
-        },
-        {
-          "start": 468,
-          "end": 491,
-          "role": "greg"
-        },
-        {
-          "start": 491,
-          "end": 497,
-          "role": "dragon"
+          "start": 365,
+          "end": 489,
+          "role": "greg",
+          "text": "\n\nLate.\n\nForty-eight, maybe forty-nine.\n\nUnder the salt flats north of Vey.\n\nShe did not live there.\n\nShe was trapped there."
         }
       ],
       "selected_segments": [
@@ -2080,88 +551,28 @@
           "role": "dragon",
           "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 20.8686
+          "end_seconds": 22.59205
         },
         {
           "role": "greg",
           "voice": "deep",
-          "start_seconds": 22.399,
-          "end_seconds": 26.46415
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 25.28385,
-          "end_seconds": 26.0125
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 27.65095,
-          "end_seconds": 28.52895
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 26.9532,
-          "end_seconds": 28.10485
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 29.5026,
-          "end_seconds": 30.1216
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 29.87335,
-          "end_seconds": 29.976
+          "start_seconds": 22.27445,
+          "end_seconds": 29.808
         }
       ],
-      "assembled_duration_seconds": 28.413764
+      "assembled_duration_seconds": 30.125583
     },
     {
       "chunk": 21,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 53,
-          "role": "greg"
-        },
-        {
-          "start": 53,
-          "end": 78,
-          "role": "dragon"
-        },
-        {
-          "start": 78,
-          "end": 252,
-          "role": "greg"
-        },
-        {
-          "start": 252,
-          "end": 282,
-          "role": "dragon"
-        },
-        {
-          "start": 282,
-          "end": 337,
-          "role": "greg"
-        },
-        {
-          "start": 337,
-          "end": 428,
-          "role": "dragon"
-        },
-        {
-          "start": 428,
-          "end": 448,
-          "role": "greg"
+          "end": 470,
+          "role": "greg",
+          "text": "The pupil tightened again.\n\nI had managed to surprise a dragon twice in one morning.\n\nIt was not improving my odds of leaving.\n\n\u201cHow she got trapped is a long story.\u201d\n\nHis chin settled onto the stone.\n\nNot bored this time.\n\nComfortable.\n\nThat was worse.\n\nHe was becoming pleased with the existence of long stories.\n\n\u201cIn that history she told me your name. She also told me how to cross the mountain.\u201d\n\nIthar's eye moved to my coat.\n\nThe sulfur residue.\n\nThe clean boots."
         }
       ],
       "selected_segments": [
@@ -2169,46 +580,10 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 3.44375
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 3.02712,
-          "end_seconds": 4.5911
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 5.04275,
-          "end_seconds": 14.6974
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 14.5391,
-          "end_seconds": 16.97425
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 16.99155,
-          "end_seconds": 19.51235
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 19.6729,
-          "end_seconds": 25.0957
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 26.10875,
-          "end_seconds": 26.832
+          "end_seconds": 28.272
         }
       ],
-      "assembled_duration_seconds": 25.764444
+      "assembled_duration_seconds": 28.272
     },
     {
       "chunk": 22,
@@ -2219,180 +594,44 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 63,
-          "role": "dragon"
+          "end": 163,
+          "role": "greg",
+          "text": "The route he had already read off me before I understood he was looking.\n\nHis claw touched the old Line disk still lying between us.\n\nThen he took the floor again."
         },
         {
-          "start": 63,
-          "end": 73,
-          "role": "greg"
-        },
-        {
-          "start": 73,
-          "end": 83,
-          "role": "dragon"
-        },
-        {
-          "start": 83,
-          "end": 259,
-          "role": "greg"
-        },
-        {
-          "start": 259,
-          "end": 266,
-          "role": "dragon"
-        },
-        {
-          "start": 266,
-          "end": 319,
-          "role": "greg"
-        },
-        {
-          "start": 319,
-          "end": 378,
-          "role": "dragon"
-        },
-        {
-          "start": 378,
-          "end": 402,
-          "role": "greg"
-        },
-        {
-          "start": 402,
-          "end": 409,
-          "role": "dragon"
-        },
-        {
-          "start": 409,
-          "end": 489,
-          "role": "greg"
+          "start": 163,
+          "end": 304,
+          "role": "dragon",
+          "text": "\n\n\u201cThat is useful. You are not merely carrying information that is old. You are carrying information whose path through the world is missing."
         }
       ],
       "selected_segments": [
         {
-          "role": "dragon",
-          "voice": "normal",
+          "role": "greg",
+          "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 2.907145
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 3.04696,
-          "end_seconds": 3.787145
+          "end_seconds": 9.62486
         },
         {
           "role": "dragon",
           "voice": "normal",
-          "start_seconds": 3.615585,
-          "end_seconds": 4.47725
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 4.57404,
-          "end_seconds": 14.9502
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 14.6288,
-          "end_seconds": 15.1776
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.63375,
-          "end_seconds": 18.3419
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.93655,
-          "end_seconds": 21.59565
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 21.3293,
-          "end_seconds": 22.712
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 23.11485,
-          "end_seconds": 23.8066
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.4565,
-          "end_seconds": 28.368
+          "start_seconds": 10.33934,
+          "end_seconds": 18.792
         }
       ],
-      "assembled_duration_seconds": 28.787302
+      "assembled_duration_seconds": 18.077521
     },
     {
       "chunk": 23,
       "required_voices": [
-        "deep",
         "normal"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 43,
-          "role": "dragon"
-        },
-        {
-          "start": 43,
-          "end": 104,
-          "role": "greg"
-        },
-        {
-          "start": 104,
-          "end": 118,
-          "role": "dragon"
-        },
-        {
-          "start": 118,
-          "end": 126,
-          "role": "greg"
-        },
-        {
-          "start": 126,
-          "end": 193,
-          "role": "dragon"
-        },
-        {
-          "start": 193,
-          "end": 330,
-          "role": "greg"
-        },
-        {
-          "start": 330,
-          "end": 362,
-          "role": "dragon"
-        },
-        {
-          "start": 362,
-          "end": 370,
-          "role": "greg"
-        },
-        {
-          "start": 370,
-          "end": 398,
-          "role": "dragon"
-        },
-        {
-          "start": 398,
-          "end": 419,
-          "role": "greg"
-        },
-        {
-          "start": 419,
-          "end": 443,
-          "role": "dragon"
+          "end": 448,
+          "role": "dragon",
+          "text": "\u201cA secret is not made supernatural by being secret. Names move. Instructions move. Maps move. A person tells another person. A page is copied. A threat is overheard. A debtor repays a favor. A dying creature says something it had intended to keep. Every piece of knowledge has a history even when the history is hidden.\n\n\u201cYou recognize this disk. There is a path by which you might have learned it, even if neither of us can yet identify that path."
         }
       ],
       "selected_segments": [
@@ -2400,70 +639,10 @@
           "role": "dragon",
           "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 2.974435
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 2.15871,
-          "end_seconds": 5.32131
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 5.435065,
-          "end_seconds": 6.63269
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 6.35608,
-          "end_seconds": 7.617725
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 7.65242,
-          "end_seconds": 11.5864
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 11.56005,
-          "end_seconds": 20.3113
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 20.15885,
-          "end_seconds": 20.99255
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 20.94025,
-          "end_seconds": 22.62405
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 21.87695,
-          "end_seconds": 24.0677
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.8509,
-          "end_seconds": 24.36195
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 24.69285,
-          "end_seconds": 26.256
+          "end_seconds": 27.6
         }
       ],
-      "assembled_duration_seconds": 28.064082
+      "assembled_duration_seconds": 27.6
     },
     {
       "chunk": 24,
@@ -2474,151 +653,32 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 91,
-          "role": "greg"
+          "end": 267,
+          "role": "dragon",
+          "text": "\u201cYou know my name. I know the paths by which that name moved in this world. You are absent from all of them.\n\n\u201cYou offer another history as the missing path. That is not proof. It is better than prophecy and worse than evidence. But it is now a claim with structure.\u201d"
         },
         {
-          "start": 91,
-          "end": 117,
-          "role": "dragon"
-        },
-        {
-          "start": 117,
-          "end": 126,
-          "role": "greg"
-        },
-        {
-          "start": 126,
-          "end": 134,
-          "role": "dragon"
-        },
-        {
-          "start": 134,
-          "end": 168,
-          "role": "greg"
-        },
-        {
-          "start": 168,
-          "end": 178,
-          "role": "dragon"
-        },
-        {
-          "start": 178,
-          "end": 216,
-          "role": "greg"
-        },
-        {
-          "start": 216,
-          "end": 245,
-          "role": "dragon"
-        },
-        {
-          "start": 245,
-          "end": 399,
-          "role": "greg"
-        },
-        {
-          "start": 399,
-          "end": 407,
-          "role": "dragon"
-        },
-        {
-          "start": 407,
-          "end": 432,
-          "role": "greg"
-        },
-        {
-          "start": 432,
-          "end": 443,
-          "role": "dragon"
-        },
-        {
-          "start": 443,
-          "end": 482,
-          "role": "greg"
+          "start": 267,
+          "end": 497,
+          "role": "greg",
+          "text": "\n\nI looked at him.\n\nThat was the least satisfying way anyone had ever called me interesting.\n\nStill.\n\nStructure was better than being eaten.\n\nProbably.\n\n\u201cSo you believe I remember another life.\u201d\n\nSomething low moved in his throat."
         }
       ],
       "selected_segments": [
         {
-          "role": "greg",
-          "voice": "deep",
+          "role": "dragon",
+          "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 5.66819
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 5.76392,
-          "end_seconds": 6.5806
+          "end_seconds": 16.03445
         },
         {
           "role": "greg",
           "voice": "deep",
-          "start_seconds": 6.664815,
-          "end_seconds": 7.53823
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 7.416185,
-          "end_seconds": 8.302545
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 8.25667,
-          "end_seconds": 9.55002
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 9.559525,
-          "end_seconds": 10.44515
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 10.3713,
-          "end_seconds": 12.62585
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 12.6619,
-          "end_seconds": 14.3213
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 14.4535,
-          "end_seconds": 22.8542
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 23.11585,
-          "end_seconds": 24.13265
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.71105,
-          "end_seconds": 25.0796
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 25.50325,
-          "end_seconds": 26.2768
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 25.89895,
-          "end_seconds": 28.248
+          "start_seconds": 16.035800000000002,
+          "end_seconds": 30.144
         }
       ],
-      "assembled_duration_seconds": 28.246349
+      "assembled_duration_seconds": 30.142667
     },
     {
       "chunk": 25,
@@ -2629,63 +689,32 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 26,
-          "role": "dragon"
+          "end": 204,
+          "role": "greg",
+          "text": "Amusement, maybe.\n\nI was getting dangerously confident about the throat too.\n\nThe dragon looked at me for a long time.\n\nThen he answered without making me fight through ten smaller questions to get there."
         },
         {
-          "start": 26,
-          "end": 121,
-          "role": "greg"
-        },
-        {
-          "start": 121,
-          "end": 415,
-          "role": "dragon"
-        },
-        {
-          "start": 415,
-          "end": 468,
-          "role": "greg"
-        },
-        {
-          "start": 468,
-          "end": 488,
-          "role": "dragon"
+          "start": 204,
+          "end": 385,
+          "role": "dragon",
+          "text": "\n\n\u201cYou possess a coherent collection of memories that repeatedly behaves like lived experience and contains information for which your present life provides no adequate causal path."
         }
       ],
       "selected_segments": [
         {
-          "role": "dragon",
-          "voice": "normal",
+          "role": "greg",
+          "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 1.65135
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 1.5271,
-          "end_seconds": 9.062855
+          "end_seconds": 11.946
         },
         {
           "role": "dragon",
           "voice": "normal",
-          "start_seconds": 7.158705,
-          "end_seconds": 24.78635
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 26.14325,
-          "end_seconds": 27.87495
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 27.96195,
-          "end_seconds": 29.712
+          "start_seconds": 12.2593,
+          "end_seconds": 24.024
         }
       ],
-      "assembled_duration_seconds": 30.296553
+      "assembled_duration_seconds": 23.710708
     },
     {
       "chunk": 26,
@@ -2696,129 +725,44 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 191,
-          "role": "greg"
+          "end": 357,
+          "role": "dragon",
+          "text": "\u201cI do not know whether you moved backward through time. I do not know whether the world repeated. I do not know whether another Greg lived and left something inside you. I do not know whether the distinction between those possibilities is meaningful at the scale involved.\n\n\u201cI know only that your explanation is no longer the least interesting possibility.\u201d"
         },
         {
-          "start": 191,
-          "end": 198,
-          "role": "dragon"
-        },
-        {
-          "start": 198,
-          "end": 208,
-          "role": "greg"
-        },
-        {
-          "start": 208,
-          "end": 222,
-          "role": "dragon"
-        },
-        {
-          "start": 222,
-          "end": 239,
-          "role": "greg"
-        },
-        {
-          "start": 239,
-          "end": 246,
-          "role": "dragon"
-        },
-        {
-          "start": 246,
-          "end": 275,
-          "role": "greg"
-        },
-        {
-          "start": 275,
-          "end": 401,
-          "role": "dragon"
-        },
-        {
-          "start": 401,
-          "end": 489,
-          "role": "greg"
+          "start": 357,
+          "end": 495,
+          "role": "greg",
+          "text": "\n\nI stared at him.\n\n\u201cScale involved.\u201d\n\nHis eye held mine.\n\n\u201cYou think this is bigger than me.\u201d\n\nIthar's mouth shifted.\n\nNot quite a smile."
         }
       ],
       "selected_segments": [
         {
-          "role": "greg",
-          "voice": "deep",
+          "role": "dragon",
+          "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 11.0883
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 11.0422,
-          "end_seconds": 11.446352
+          "end_seconds": 21.8629
         },
         {
           "role": "greg",
           "voice": "deep",
-          "start_seconds": 11.52104,
-          "end_seconds": 11.95378
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 11.850504,
-          "end_seconds": 12.4856
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 12.6338,
-          "end_seconds": 13.72875
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 13.501,
-          "end_seconds": 14.7225
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 14.8389,
-          "end_seconds": 16.5175
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 16.3116,
-          "end_seconds": 23.6903
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.9777,
-          "end_seconds": 29.136
+          "start_seconds": 22.350450000000002,
+          "end_seconds": 30.408
         }
       ],
-      "assembled_duration_seconds": 29.092404
+      "assembled_duration_seconds": 29.920438
     },
     {
       "chunk": 27,
       "required_voices": [
-        "deep",
-        "normal"
+        "deep"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 16,
-          "role": "greg"
-        },
-        {
-          "start": 16,
-          "end": 338,
-          "role": "dragon"
-        },
-        {
-          "start": 338,
-          "end": 396,
-          "role": "greg"
+          "end": 487,
+          "role": "greg",
+          "text": "He did not need to say that almost everything was bigger than me.\n\nThe thought arrived in his face well enough.\n\n\u201cFair.\u201d\n\nI looked at the old disk between us.\n\nThen at the wall where his coin was still buried.\n\nThen at the passage out.\n\nMy knee hurt.\n\nThe Line was failing below the mountain.\n\nTwo point three million people were still inconveniently mortal.\n\nAnd somehow I had lost control of the negotiation badly enough that the dragon was examining my existence instead.\n\n\u201cThe Line.\u201d"
         }
       ],
       "selected_segments": [
@@ -2826,22 +770,10 @@
           "role": "greg",
           "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 1.118061
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 1.227709,
-          "end_seconds": 20.6411
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 20.3913,
-          "end_seconds": 24.336
+          "end_seconds": 29.592
         }
       ],
-      "assembled_duration_seconds": 24.476145
+      "assembled_duration_seconds": 29.592
     },
     {
       "chunk": 28,
@@ -2852,343 +784,44 @@
       "speaker_regions": [
         {
           "start": 0,
-          "end": 124,
-          "role": "dragon"
+          "end": 264,
+          "role": "greg",
+          "text": "Ithar's eye half closed.\n\nI had started to recognize that too.\n\nNot refusal exactly.\n\nPriority.\n\n\u201cYou haven't even looked at it.\u201d\n\nHe had looked at me.\n\nThat was not better.\n\n\u201cWhat do you want?\u201d\n\nThe eye opened fully.\n\nIthar shifted more comfortably into the gold."
         },
         {
-          "start": 124,
-          "end": 151,
-          "role": "greg"
-        },
-        {
-          "start": 151,
-          "end": 262,
-          "role": "dragon"
-        },
-        {
-          "start": 262,
-          "end": 281,
-          "role": "greg"
-        },
-        {
-          "start": 281,
-          "end": 332,
-          "role": "dragon"
-        },
-        {
-          "start": 332,
-          "end": 340,
-          "role": "greg"
-        },
-        {
-          "start": 340,
-          "end": 362,
-          "role": "dragon"
-        },
-        {
-          "start": 362,
-          "end": 373,
-          "role": "greg"
-        },
-        {
-          "start": 373,
-          "end": 404,
-          "role": "dragon"
-        },
-        {
-          "start": 404,
-          "end": 421,
-          "role": "greg"
-        },
-        {
-          "start": 421,
-          "end": 451,
-          "role": "dragon"
-        },
-        {
-          "start": 451,
-          "end": 469,
-          "role": "greg"
+          "start": 264,
+          "end": 490,
+          "role": "dragon",
+          "text": "\n\n\u201cThe Line is why you came today. It is not why you knew my name before the western stations began failing, or why you knew the mountain before you climbed it, or why your body reaches for movements this body has not learned."
         }
       ],
       "selected_segments": [
         {
-          "role": "dragon",
-          "voice": "normal",
+          "role": "greg",
+          "voice": "deep",
           "start_seconds": 0.0,
-          "end_seconds": 8.1091
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 6.47627,
-          "end_seconds": 8.513665
+          "end_seconds": 16.404899999999998
         },
         {
           "role": "dragon",
           "voice": "normal",
-          "start_seconds": 9.4285,
-          "end_seconds": 14.8646
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 14.6115,
-          "end_seconds": 16.0901
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 16.2145,
-          "end_seconds": 19.2107
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 20.1005,
-          "end_seconds": 20.85705
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 20.2376,
-          "end_seconds": 21.5511
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 21.5281,
-          "end_seconds": 22.32255
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 22.4777,
-          "end_seconds": 23.9922
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.81625,
-          "end_seconds": 24.84905
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 24.9324,
-          "end_seconds": 26.65115
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 26.43865,
-          "end_seconds": 27.984
+          "start_seconds": 16.0438,
+          "end_seconds": 29.64
         }
       ],
-      "assembled_duration_seconds": 28.733401
+      "assembled_duration_seconds": 30.001104
     },
     {
       "chunk": 29,
       "required_voices": [
-        "deep",
         "normal"
       ],
       "speaker_regions": [
         {
           "start": 0,
-          "end": 168,
-          "role": "greg"
-        },
-        {
-          "start": 168,
-          "end": 175,
-          "role": "dragon"
-        },
-        {
-          "start": 175,
-          "end": 214,
-          "role": "greg"
-        },
-        {
-          "start": 214,
-          "end": 221,
-          "role": "dragon"
-        },
-        {
-          "start": 221,
-          "end": 246,
-          "role": "greg"
-        },
-        {
-          "start": 246,
-          "end": 254,
-          "role": "dragon"
-        },
-        {
-          "start": 254,
-          "end": 324,
-          "role": "greg"
-        }
-      ],
-      "selected_segments": [
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 0.0,
-          "end_seconds": 8.71621
-        },
-        {
+          "end": 77,
           "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 9.121585,
-          "end_seconds": 9.74085
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 11.20535,
-          "end_seconds": 12.329
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 11.8639,
-          "end_seconds": 12.6179
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 13.8825,
-          "end_seconds": 14.75235
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 13.7364,
-          "end_seconds": 14.55885
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.64375,
-          "end_seconds": 19.032
-        }
-      ],
-      "assembled_duration_seconds": 16.293673
-    },
-    {
-      "chunk": 30,
-      "required_voices": [
-        "deep",
-        "normal"
-      ],
-      "speaker_regions": [
-        {
-          "start": 0,
-          "end": 14,
-          "role": "greg"
-        },
-        {
-          "start": 14,
-          "end": 196,
-          "role": "dragon"
-        },
-        {
-          "start": 196,
-          "end": 289,
-          "role": "greg"
-        },
-        {
-          "start": 289,
-          "end": 328,
-          "role": "dragon"
-        },
-        {
-          "start": 328,
-          "end": 340,
-          "role": "greg"
-        }
-      ],
-      "selected_segments": [
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 0.0,
-          "end_seconds": 0.789791
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 0.905311,
-          "end_seconds": 11.5735
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 11.39215,
-          "end_seconds": 17.33725
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.1824,
-          "end_seconds": 20.68465
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 19.63895,
-          "end_seconds": 21.048
-        }
-      ],
-      "assembled_duration_seconds": 22.314422
-    },
-    {
-      "chunk": 31,
-      "required_voices": [
-        "deep",
-        "normal"
-      ],
-      "speaker_regions": [
-        {
-          "start": 0,
-          "end": 275,
-          "role": "dragon"
-        },
-        {
-          "start": 275,
-          "end": 294,
-          "role": "greg"
-        },
-        {
-          "start": 294,
-          "end": 302,
-          "role": "dragon"
-        },
-        {
-          "start": 302,
-          "end": 339,
-          "role": "greg"
-        },
-        {
-          "start": 339,
-          "end": 388,
-          "role": "dragon"
-        },
-        {
-          "start": 388,
-          "end": 397,
-          "role": "greg"
-        },
-        {
-          "start": 397,
-          "end": 429,
-          "role": "dragon"
-        },
-        {
-          "start": 429,
-          "end": 465,
-          "role": "greg"
+          "text": "\u201cYou have given me the sentence, Greg.\n\n\u201cI want the thing that made it true.\u201d"
         }
       ],
       "selected_segments": [
@@ -3196,230 +829,10 @@
           "role": "dragon",
           "voice": "normal",
           "start_seconds": 0.0,
-          "end_seconds": 16.7063
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 16.19605,
-          "end_seconds": 17.44115
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 17.80645,
-          "end_seconds": 19.97345
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 19.59965,
-          "end_seconds": 22.3882
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 21.64445,
-          "end_seconds": 22.52665
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 23.61405,
-          "end_seconds": 25.75615
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 23.47325,
-          "end_seconds": 25.4389
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 28.074,
-          "end_seconds": 28.248
+          "end_seconds": 4.68
         }
       ],
-      "assembled_duration_seconds": 28.071043
-    },
-    {
-      "chunk": 32,
-      "required_voices": [
-        "deep",
-        "normal"
-      ],
-      "speaker_regions": [
-        {
-          "start": 0,
-          "end": 363,
-          "role": "greg"
-        },
-        {
-          "start": 363,
-          "end": 370,
-          "role": "dragon"
-        },
-        {
-          "start": 370,
-          "end": 404,
-          "role": "greg"
-        },
-        {
-          "start": 404,
-          "end": 424,
-          "role": "dragon"
-        },
-        {
-          "start": 424,
-          "end": 447,
-          "role": "greg"
-        },
-        {
-          "start": 447,
-          "end": 461,
-          "role": "dragon"
-        }
-      ],
-      "selected_segments": [
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 0.0,
-          "end_seconds": 21.6735
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 22.0042,
-          "end_seconds": 22.7078
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 22.3651,
-          "end_seconds": 23.94075
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 24.18955,
-          "end_seconds": 25.197
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 25.132,
-          "end_seconds": 26.3046
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 26.36815,
-          "end_seconds": 27.648
-        }
-      ],
-      "assembled_duration_seconds": 27.412676
-    },
-    {
-      "chunk": 33,
-      "required_voices": [
-        "deep",
-        "normal"
-      ],
-      "speaker_regions": [
-        {
-          "start": 0,
-          "end": 134,
-          "role": "greg"
-        },
-        {
-          "start": 134,
-          "end": 149,
-          "role": "dragon"
-        },
-        {
-          "start": 149,
-          "end": 165,
-          "role": "greg"
-        },
-        {
-          "start": 165,
-          "end": 172,
-          "role": "dragon"
-        },
-        {
-          "start": 172,
-          "end": 234,
-          "role": "greg"
-        },
-        {
-          "start": 234,
-          "end": 269,
-          "role": "dragon"
-        },
-        {
-          "start": 269,
-          "end": 313,
-          "role": "greg"
-        },
-        {
-          "start": 313,
-          "end": 350,
-          "role": "dragon"
-        }
-      ],
-      "selected_segments": [
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 0.0,
-          "end_seconds": 7.567645
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 7.380105,
-          "end_seconds": 8.47025
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 8.62104,
-          "end_seconds": 9.549085
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 9.532395,
-          "end_seconds": 10.28485
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 10.351,
-          "end_seconds": 13.9154
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 14.08295,
-          "end_seconds": 15.8848
-        },
-        {
-          "role": "greg",
-          "voice": "deep",
-          "start_seconds": 15.65025,
-          "end_seconds": 18.01805
-        },
-        {
-          "role": "dragon",
-          "voice": "normal",
-          "start_seconds": 18.20905,
-          "end_seconds": 20.784
-        }
-      ],
-      "assembled_duration_seconds": 20.647324
+      "assembled_duration_seconds": 4.68
     }
   ]
 }
